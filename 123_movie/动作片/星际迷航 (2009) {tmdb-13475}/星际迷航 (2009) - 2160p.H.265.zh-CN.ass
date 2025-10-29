@@ -1,0 +1,1374 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,26,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,2,2,20,20,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0000,0000,0000,,<font color=#00FFFF>-=TLF Movie TEAM=-\N<font color=#00FFFF>-=星际迷航 TLF字幕组校对:剑风 压制:DKa1688=-\N<font color=#00FFFF>仅供交流  严禁商用</font>
+Dialogue: 0,0:01:18.80,0:01:21.92,Default,,0000,0000,0000,,-星舰开尔文号呼叫星舰基地  -星舰基地收到\N- USS Kelvin, go for Starfleet base. - Starfleet Base.
+Dialogue: 0,0:01:21.93,0:01:23.89,Default,,0000,0000,0000,,我们已经发送数据  请确认是否收到\NWe sent you a transmission. Did you receive it?
+Dialogue: 0,0:01:23.89,0:01:25.28,Default,,0000,0000,0000,,开尔文号  请复核这些数据\NKelvin, can you double-check those readings?
+Dialogue: 0,0:01:25.28,0:01:28.08,Default,,0000,0000,0000,,我们的重力感应器失灵  非常奇怪\NOur gravitational sensors are going crazy here. You should see this.
+Dialogue: 0,0:01:28.08,0:01:29.58,Default,,0000,0000,0000,,看起来像电磁风暴\NIt looks like a lightning storm.
+Dialogue: 0,0:01:29.58,0:01:31.27,Default,,0000,0000,0000,,你发送的数据看起来似乎不可能\NWhat you've sent us doesn't seem possible.
+Dialogue: 0,0:01:31.27,0:01:33.87,Default,,0000,0000,0000,,是的  长官  我了解  所以我们才发送它\NYes mam, I understand. That's why we sent it.
+Dialogue: 0,0:01:33.97,0:01:36.66,Default,,0000,0000,0000,,-报告情况  -还有20秒进入目视距离\N- Report. - Still outta visual range. 20 seconds.
+Dialogue: 0,0:01:36.66,0:01:40.96,Default,,0000,0000,0000,,报告瑞博舰长  星际舰队建议采取防御行动\NAlert captain Robau that Starfleet advised to proceed with caution...
+Dialogue: 0,0:01:40.96,0:01:42.35,Default,,0000,0000,0000,,分屏显示\NPolarize the view screen.
+Dialogue: 0,0:01:42.35,0:01:45.05,Default,,0000,0000,0000,,-这是什么...克林贡人吗  -舰长  已经显示\N- Whatever this is... Klingon origin? - Captain, we have visual.
+Dialogue: 0,0:01:45.05,0:01:48.34,Default,,0000,0000,0000,,-重复  会是克林贡吗  -不是  上尉\N- Repeat. Could this be Klingon? - Negative, lieutenant.
+Dialogue: 0,0:01:48.34,0:01:50.18,Default,,0000,0000,0000,,你们距离克林贡边境75000英里以外\NYou're 75000 kilometers from the Klingon border.
+Dialogue: 0,0:01:50.18,0:01:52.94,Default,,0000,0000,0000,,舰长  你看...\NCaptain, are you seeing this?
+Dialogue: 0,0:01:54.53,0:01:56.93,Default,,0000,0000,0000,,天啊\NMy God.
+Dialogue: 0,0:02:16.69,0:02:18.93,Default,,0000,0000,0000,,收到报告  对方武器已经锁定我们\NI have a reading. They've locked weapons on us!
+Dialogue: 0,0:02:18.93,0:02:20.09,Default,,0000,0000,0000,,红色警戒\NRed alert!
+Dialogue: 0,0:02:20.09,0:02:23.18,Default,,0000,0000,0000,,-我们已被鱼雷锁定  方向320度  二号位  -准备武器\N- Torpedo locked on us at 320'- 2! - Arm weapons!
+Dialogue: 0,0:02:25.58,0:02:27.58,Default,,0000,0000,0000,,执行D-5回避方式\NEvasive pattern delta 5!
+Dialogue: 0,0:02:29.17,0:02:31.07,Default,,0000,0000,0000,,我们正遭受严重攻击\NWe're being cut like grass.
+Dialogue: 0,0:02:36.36,0:02:39.25,Default,,0000,0000,0000,,发射所有激光炮  报告损害情况\NFire all phasers! Damage report.
+Dialogue: 0,0:02:39.26,0:02:42.55,Default,,0000,0000,0000,,曲速引擎损坏  从没见过这种情况\NWarp drive's been knocked out. Never seen anything like this.
+Dialogue: 0,0:02:43.35,0:02:45.64,Default,,0000,0000,0000,,武器系统中断  主动力剩余38％\NWeapons offline. Main power at 38%.
+Dialogue: 0,0:02:45.64,0:02:48.34,Default,,0000,0000,0000,,-他们正发射另一颗  -所有能量集中到前护盾\N- They're firing another! - All power to forward shields!
+Dialogue: 0,0:02:56.63,0:02:59.02,Default,,0000,0000,0000,,救救我...\NHelp me...
+Dialogue: 0,0:03:02.42,0:03:04.81,Default,,0000,0000,0000,,失去机动力\NManeuver has been lost.
+Dialogue: 0,0:03:04.81,0:03:05.81,Default,,0000,0000,0000,,护盾是否启用\NAre shields even on?
+Dialogue: 0,0:03:05.81,0:03:07.84,Default,,0000,0000,0000,,已经确认17层和13层甲板的伤亡者\NDecks 17 and 13, we have confirmed casualties.
+Dialogue: 0,0:03:07.84,0:03:10.50,Default,,0000,0000,0000,,护盾剩余11%  还在下降  10%  9%\N11% and dropping. 10%. Shields at 9%.
+Dialogue: 0,0:03:10.50,0:03:12.70,Default,,0000,0000,0000,,所有剩余能量转移到前护盾\NAll remaining power to forward shields.
+Dialogue: 0,0:03:12.70,0:03:14.89,Default,,0000,0000,0000,,准备撤离用飞船\NPrepare shuttles for evacuation.
+Dialogue: 0,0:03:16.89,0:03:19.09,Default,,0000,0000,0000,,你们好\NHello.
+Dialogue: 0,0:03:19.09,0:03:21.78,Default,,0000,0000,0000,,我的司令官要求见你们的舰长\NMy commander requests the presence of your captain...
+Dialogue: 0,0:03:21.78,0:03:24.48,Default,,0000,0000,0000,,以谈判停火条件\NIn order to negotiate a ceasefire.
+Dialogue: 0,0:03:24.48,0:03:27.37,Default,,0000,0000,0000,,你必须乘坐飞船到我们舰上来\NYou will come aboard our ship via shuttlecraft.
+Dialogue: 0,0:03:27.37,0:03:30.37,Default,,0000,0000,0000,,你若拒绝  那就太蠢了\NYour refusal would be unwise.
+Dialogue: 0,0:03:42.85,0:03:45.74,Default,,0000,0000,0000,,跟我来\NWalk with me.
+Dialogue: 0,0:03:50.23,0:03:53.63,Default,,0000,0000,0000,,如果15分钟内我没有消息  全舰撤离\NIf I don't report in 15 minutes evacuate the crew.
+Dialogue: 0,0:03:53.63,0:03:56.52,Default,,0000,0000,0000,,-长官，我们可以...  -在这里我们孤立无援\N- Sir, we could... - There is no outpost out here.
+Dialogue: 0,0:03:56.52,0:04:00.21,Default,,0000,0000,0000,,使用自动飞行  然后弃船\NUse autopilot and get off this ship.
+Dialogue: 0,0:04:00.22,0:04:01.71,Default,,0000,0000,0000,,明白  舰长\NAye captain.
+Dialogue: 0,0:04:01.71,0:04:04.51,Default,,0000,0000,0000,,你现在是舰长了  柯克先生\NYou're captain now, Mr. Kirk.
+Dialogue: 0,0:05:17.08,0:05:20.18,Default,,0000,0000,0000,,他的心跳加快了\NHis heart rate is elevated.
+Dialogue: 0,0:05:41.34,0:05:43.74,Default,,0000,0000,0000,,看这艘船\NLook at the ship.
+Dialogue: 0,0:05:44.53,0:05:48.83,Default,,0000,0000,0000,,-你熟悉这艘船吗  -你的司令官是谁\N- Are you familiar with this craft? - Who is your commander?
+Dialogue: 0,0:05:49.43,0:05:52.52,Default,,0000,0000,0000,,-那就是他吗  -我代表尼禄舰长发言\N- Is that him? - I will speak for captain Nero.
+Dialogue: 0,0:05:52.52,0:05:54.62,Default,,0000,0000,0000,,那么请问尼罗舰长\NThen ask captain Nero:
+Dialogue: 0,0:05:54.62,0:05:58.81,Default,,0000,0000,0000,,谁给他权力肆意攻击联邦星舰的\NWhat gives him the right to attack a Federation vessel.
+Dialogue: 0,0:06:10.89,0:06:15.08,Default,,0000,0000,0000,,你知道斯波克大使在那里吗\NDo you know the location of ambassador Spock?
+Dialogue: 0,0:06:16.98,0:06:20.27,Default,,0000,0000,0000,,我不知道什么斯波克大使\NI'm unfamiliar with ambassador Spock.
+Dialogue: 0,0:06:21.27,0:06:24.86,Default,,0000,0000,0000,,-现在是星历哪年  -哪一年\N- What is the current star date? - Star date?
+Dialogue: 0,0:06:26.36,0:06:29.26,Default,,0000,0000,0000,,2233.04\N2233.04.
+Dialogue: 0,0:06:30.85,0:06:32.95,Default,,0000,0000,0000,,你们来自哪里\NWhere are you from?
+Dialogue: 0,0:06:38.54,0:06:40.14,Default,,0000,0000,0000,,已死亡\NTerminated.
+Dialogue: 0,0:06:40.14,0:06:41.29,Default,,0000,0000,0000,,长官  他们已经锁定我们的信号\NSir, they have a lock on our signal.
+Dialogue: 0,0:06:41.29,0:06:41.97,Default,,0000,0000,0000,,他们准备再次开火\NThey're launching again.
+Dialogue: 0,0:06:41.97,0:06:44.13,Default,,0000,0000,0000,,B-6方案 全方位开火\NBravo 6 maneuver fire, full spread!
+Dialogue: 0,0:06:54.81,0:06:57.84,Default,,0000,0000,0000,,我下达13号舰长令  全员撤离\NI'm initiating general order 13, we're evacuating!
+Dialogue: 0,0:06:57.84,0:06:59.31,Default,,0000,0000,0000,,是  长官\NSir.
+Dialogue: 0,0:07:03.50,0:07:06.69,Default,,0000,0000,0000,,所有舰层注意  我是舰长  立即弃船逃生\NAll decks, this is the captain speaking, evacuate the ship immediately.
+Dialogue: 0,0:07:06.69,0:07:08.89,Default,,0000,0000,0000,,迅速前往指定飞船  开始撤离\NGet your... to the shuttlecraft. Begin evacuating...
+Dialogue: 0,0:07:08.89,0:07:11.15,Default,,0000,0000,0000,,是乔治的声音  发生什么了\NThat's George's voice. What's happening?
+Dialogue: 0,0:07:11.15,0:07:12.98,Default,,0000,0000,0000,,我们得去逃生艇分娩  快\NWe'll deliver it in the shuttle. Go!
+Dialogue: 0,0:07:25.46,0:07:27.05,Default,,0000,0000,0000,,-乔治  -你很好  感谢上帝\N- George. - You're OK, thank God.
+Dialogue: 0,0:07:27.06,0:07:30.28,Default,,0000,0000,0000,,37号医疗逃生艇待命中  你现在过去  可以吗\NI have medical shuttle 37 standing by. Get to it now. Can you do that?
+Dialogue: 0,0:07:30.29,0:07:30.98,Default,,0000,0000,0000,,可以\NYes.
+Dialogue: 0,0:07:30.98,0:07:31.95,Default,,0000,0000,0000,,一切都会好的\NEverything's gonna be OK.
+Dialogue: 0,0:07:31.95,0:07:35.54,Default,,0000,0000,0000,,照我说的做  去37号逃生艇\NDo exactly as I say, shuttle 37.
+Dialogue: 0,0:07:35.54,0:07:37.34,Default,,0000,0000,0000,,乔治  快了\NGeorge, it's coming.
+Dialogue: 0,0:07:37.64,0:07:40.53,Default,,0000,0000,0000,,-我们的孩子快出生了  -我马上到\N- Our baby. It's coming now. - I'm on my way.
+Dialogue: 0,0:07:45.62,0:07:50.62,Default,,0000,0000,0000,,自动驾驶系统失效  只能人工控制\NAutopilot function has been destroyed. Manual operation only.
+Dialogue: 0,0:07:51.21,0:07:54.51,Default,,0000,0000,0000,,清理甲板  赶往逃生艇  快  快  快\NClear those decks now! Get to the shuttles! Move! Move! Move!
+Dialogue: 0,0:07:58.40,0:08:01.30,Default,,0000,0000,0000,,-越来越厉害了  -继续呼吸  你会好的\N- That was a big one! - Just keep breathing. You'll be fine.
+Dialogue: 0,0:08:01.30,0:08:04.79,Default,,0000,0000,0000,,-宝宝也一样 对吧  -宝宝也会没事的\N- And the baby too, right? - And the baby too.
+Dialogue: 0,0:08:09.48,0:08:12.28,Default,,0000,0000,0000,,就在这里\NRight here.
+Dialogue: 0,0:08:15.97,0:08:18.57,Default,,0000,0000,0000,,舰长呼叫37号逃生艇  我的妻子在吗\NCaptain to shuttle 37. Is my wife on board?
+Dialogue: 0,0:08:18.57,0:08:21.26,Default,,0000,0000,0000,,-是的长官  她在  -我要你们立刻出发  明白吗\N- Yes sir, she is. - I need you to go now. Do you hear me?
+Dialogue: 0,0:08:21.26,0:08:24.56,Default,,0000,0000,0000,,-我们会等您的  长官  -不  你们立即离开\N- We're waiting on you sir. - No, just go, take off immediately.
+Dialogue: 0,0:08:24.56,0:08:26.49,Default,,0000,0000,0000,,-这是命令  -明白  长官\N- That's an order. - Yes sir.
+Dialogue: 0,0:08:26.49,0:08:28.85,Default,,0000,0000,0000,,等等  我们还不能出发\NWait. We're not going yet.
+Dialogue: 0,0:08:30.95,0:08:33.84,Default,,0000,0000,0000,,求你停下\NPlease stop.
+Dialogue: 0,0:08:34.94,0:08:38.53,Default,,0000,0000,0000,,乔治  逃生艇要离开了  你在哪里\NGeorge, the shuttle's leaving. Where are you?
+Dialogue: 0,0:08:38.53,0:08:42.63,Default,,0000,0000,0000,,亲爱的  听我说  我不能赶过去了\NSweetheart, listen to me. I'm not gonna be there.
+Dialogue: 0,0:08:42.82,0:08:44.92,Default,,0000,0000,0000,,-不  -这是让你活下去的唯一方法\N- No. - This is the only way you'll survive.
+Dialogue: 0,0:08:44.92,0:08:47.81,Default,,0000,0000,0000,,别留在船上  到我身边来\NPlease don't stay on the ship. Come to me here.
+Dialogue: 0,0:08:47.82,0:08:50.05,Default,,0000,0000,0000,,如果我不打败他们  飞船是逃不掉的\NThe shuttles will never make it if I don't fight them off.
+Dialogue: 0,0:08:50.05,0:08:53.01,Default,,0000,0000,0000,,乔治  我不能没有你\NGeorge, I can't do this without you.
+Dialogue: 0,0:08:53.01,0:08:55.90,Default,,0000,0000,0000,,好的  现在用力\NOK, I need you to push now!
+Dialogue: 0,0:09:34.43,0:09:37.33,Default,,0000,0000,0000,,系统失效\NSYSTEMS FAILING
+Dialogue: 0,0:09:41.72,0:09:44.02,Default,,0000,0000,0000,,碰撞进程启动\NCOLLISION COURSE ENGAGED
+Dialogue: 0,0:10:13.07,0:10:15.00,Default,,0000,0000,0000,,-怎么样  -是个男孩\N- What is it? - It's a boy.
+Dialogue: 0,0:10:15.00,0:10:16.46,Default,,0000,0000,0000,,男孩\NA boy?
+Dialogue: 0,0:10:17.56,0:10:22.55,Default,,0000,0000,0000,,-跟我说说他  -他很美\N- Tell me about him. - He's beautiful.
+Dialogue: 0,0:10:23.75,0:10:26.74,Default,,0000,0000,0000,,乔治  你应该在这里的\NGeorge, you should be here.
+Dialogue: 0,0:10:26.84,0:10:29.64,Default,,0000,0000,0000,,撞击警告\NImpact alert.
+Dialogue: 0,0:10:30.54,0:10:32.38,Default,,0000,0000,0000,,我们给他起什么名字\NWhat are we gonna call him?
+Dialogue: 0,0:10:32.38,0:10:34.23,Default,,0000,0000,0000,,我们可以起你父亲的名字\NWe can name him after your father.
+Dialogue: 0,0:10:34.23,0:10:38.03,Default,,0000,0000,0000,,泰比里厄斯  你开玩笑吧  不  那太糟了\NTiberius, you kiddin' me? No, that's the worst.
+Dialogue: 0,0:10:39.52,0:10:42.72,Default,,0000,0000,0000,,起你父亲的名字吧  叫他詹姆斯\NLet's name him after your dad. Let's call him Jim.
+Dialogue: 0,0:10:44.51,0:10:48.51,Default,,0000,0000,0000,,詹姆斯  好  就叫詹姆斯\NJim. OK. Jim it is.
+Dialogue: 0,0:10:52.60,0:10:54.89,Default,,0000,0000,0000,,-亲爱的  你能听到我吗  -能\N- Sweetheart can you hear me? - I can hear...
+Dialogue: 0,0:10:54.90,0:10:56.99,Default,,0000,0000,0000,,我太爱你了\NI love you so much.
+Dialogue: 0,0:10:58.09,0:10:59.69,Default,,0000,0000,0000,,我爱你\NI love you!
+Dialogue: 0,0:11:36.00,0:11:51.61,Default,,0000,0000,0000,,星际迷航
+Dialogue: 0,0:12:01.53,0:12:04.60,Default,,0000,0000,0000,,爱荷华州
+Dialogue: 0,0:12:17.01,0:12:19.61,Default,,0000,0000,0000,,你疯了吗  那车子可是古董\NHey, are you out of your mind? That car is an antique.
+Dialogue: 0,0:12:19.61,0:12:21.91,Default,,0000,0000,0000,,你以为你妈不在地球上你就不会被罚了吗\NYou think you can get away with this just because your mother's off planet.
+Dialogue: 0,0:12:21.91,0:12:25.51,Default,,0000,0000,0000,,现在马上滚回家  你住的可是我的房子\NYou get your ass back home now! You live in my house buddy.
+Dialogue: 0,0:12:25.51,0:12:28.22,Default,,0000,0000,0000,,你住我的房子  开我的车\NYou live in my house and that's my car.
+Dialogue: 0,0:12:28.22,0:12:32.12,Default,,0000,0000,0000,,你弄伤一道划痕  我就让你尝尝竹笋肉片...\NYou get one scratch on that car and I'm gonna whip your ass...
+Dialogue: 0,0:12:55.13,0:12:58.33,Default,,0000,0000,0000,,约翰尼\NHey Johnny!
+Dialogue: 0,0:13:17.03,0:13:19.94,Default,,0000,0000,0000,,先生  请靠边停车\NCitizen, pull over.
+Dialogue: 0,0:13:45.14,0:13:47.54,Default,,0000,0000,0000,,不\NNoooo...!
+Dialogue: 0,0:14:13.25,0:14:15.65,Default,,0000,0000,0000,,有问题吗  警察先生\NIs there a problem officer?
+Dialogue: 0,0:14:15.85,0:14:18.65,Default,,0000,0000,0000,,先生  你叫什么名字\NCitizen, what is your name?
+Dialogue: 0,0:14:18.66,0:14:22.06,Default,,0000,0000,0000,,我叫詹姆斯·泰比里厄斯·柯克\NMy name is James Tiberius Kirk.
+Dialogue: 0,0:14:23.66,0:14:27.64,Default,,0000,0000,0000,,瓦肯星
+Dialogue: 0,0:14:39.76,0:14:41.96,Default,,0000,0000,0000,,球的体积公式是什么\NWhat is the formula for the volume of a sphere?
+Dialogue: 0,0:14:41.96,0:14:44.66,Default,,0000,0000,0000,,4/3×π×(R^3)...\N4/3 PI times the radius cubed...
+Dialogue: 0,0:14:45.06,0:14:47.07,Default,,0000,0000,0000,,1.26...\N1.26...
+Dialogue: 0,0:14:56.57,0:14:57.87,Default,,0000,0000,0000,,维度是多少...\NWhat is the dimensionality...
+Dialogue: 0,0:14:57.87,0:15:00.87,Default,,0000,0000,0000,,维度等于n的对数处以...\NDimensionality equals the logarithm of n divided by...
+Dialogue: 0,0:15:00.87,0:15:02.80,Default,,0000,0000,0000,,无排他性及无敌对性...\Nnon-excludability and non-rivalry...
+Dialogue: 0,0:15:02.81,0:15:04.87,Default,,0000,0000,0000,,4/3×π×(R^3)...\N...4/3 PI times the radius...
+Dialogue: 0,0:15:04.87,0:15:08.17,Default,,0000,0000,0000,,精神上值得称颂  但实际无此义务\N...is morally praiseworthy but not morally obligatory.
+Dialogue: 0,0:15:11.27,0:15:13.37,Default,,0000,0000,0000,,斯波克\NSpock.
+Dialogue: 0,0:15:14.47,0:15:17.88,Default,,0000,0000,0000,,我想你已经准备好今天新的侮辱了吧\NI presume you've prepared new insults for today?
+Dialogue: 0,0:15:17.88,0:15:20.68,Default,,0000,0000,0000,,不错\NAffirmative.
+Dialogue: 0,0:15:27.48,0:15:31.38,Default,,0000,0000,0000,,这是你第35次试图引起我的情绪反映\NThis is your 35th attempt to illicit an emotional response from me.
+Dialogue: 0,0:15:31.38,0:15:34.18,Default,,0000,0000,0000,,你既非人也非瓦肯人  在宇宙没有立足之地\NYou're neither Human nor Vulcan and therefore have no place in this universe.
+Dialogue: 0,0:15:34.18,0:15:37.48,Default,,0000,0000,0000,,看  他的人眼  那是哀伤  不是吗\NLook, his Human eyes. They look sad. Don't they.
+Dialogue: 0,0:15:37.48,0:15:41.08,Default,,0000,0000,0000,,或许需要一些肉体上的刺激才能让你生气\NPerhaps an emotional response requires physical stimulate.
+Dialogue: 0,0:15:42.59,0:15:44.78,Default,,0000,0000,0000,,你的父亲是个叛徒\NHe's a traitor you know? Your father.
+Dialogue: 0,0:15:44.79,0:15:47.99,Default,,0000,0000,0000,,他娶了那个人类娼妓\NFor marrying her. That Human whore.
+Dialogue: 0,0:16:16.40,0:16:19.40,Default,,0000,0000,0000,,他们说您是叛徒\NThey called you a traitor.
+Dialogue: 0,0:16:23.20,0:16:26.10,Default,,0000,0000,0000,,我们的种族情感深沉\NEmotions run deep within our race.
+Dialogue: 0,0:16:26.10,0:16:28.60,Default,,0000,0000,0000,,许多方面来说  远比人类更为深邃\NIn many ways more deeply than in humans.
+Dialogue: 0,0:16:28.60,0:16:32.90,Default,,0000,0000,0000,,逻辑能提供给镇定者难得的体验\NLogic offers a serenity humans seldom experience.
+Dialogue: 0,0:16:33.30,0:16:38.51,Default,,0000,0000,0000,,控制住情感  你才不会受它们控制\NThe control of feelings... So that they do not control you.
+Dialogue: 0,0:16:41.01,0:16:44.71,Default,,0000,0000,0000,,您建议我应该彻底成为瓦肯人\NYou suggest that I should be completely Vulcan?
+Dialogue: 0,0:16:44.71,0:16:47.01,Default,,0000,0000,0000,,但你却娶了一个人类女性\NAnd yet you married a Human.
+Dialogue: 0,0:16:47.01,0:16:49.14,Default,,0000,0000,0000,,作为地球大使  我的职责就是观察\NAs ambassador to Earth it is my duty to observe
+Dialogue: 0,0:16:49.14,0:16:52.51,Default,,0000,0000,0000,,并理解人类的行为\NAnd understand Human behavior.
+Dialogue: 0,0:16:52.61,0:16:57.41,Default,,0000,0000,0000,,娶了你的母亲...很符合逻辑\NMarrying your mother was... logical.
+Dialogue: 0,0:16:59.21,0:17:01.01,Default,,0000,0000,0000,,斯波克\NSpock.
+Dialogue: 0,0:17:01.01,0:17:05.41,Default,,0000,0000,0000,,你完全能够决定自己的命运\NYou are fully capable of deciding your own destiny.
+Dialogue: 0,0:17:05.91,0:17:11.92,Default,,0000,0000,0000,,问题是  你会选择哪条路\NThe question you face is:Which path will you choose?
+Dialogue: 0,0:17:12.02,0:17:15.52,Default,,0000,0000,0000,,有些事只有你自己才能决定\NThis is something only you can decide.
+Dialogue: 0,0:17:20.42,0:17:23.82,Default,,0000,0000,0000,,斯波克  过来  让妈看看你\NSpock. Come here, let me see you.
+Dialogue: 0,0:17:25.22,0:17:28.32,Default,,0000,0000,0000,,-不  -斯波克\N- No. - Spock.
+Dialogue: 0,0:17:35.62,0:17:39.93,Default,,0000,0000,0000,,不用担心  你会好的\NThere's no need to be anxious. You'll do fine.
+Dialogue: 0,0:17:39.93,0:17:42.33,Default,,0000,0000,0000,,我不担心  妈妈\NI am hardly anxious, mother.
+Dialogue: 0,0:17:42.33,0:17:45.49,Default,,0000,0000,0000,,"好"的定义太多了  "好"无法令人接受\NAnd fine has variable definitions, fine is unacceptable.
+Dialogue: 0,0:17:47.00,0:17:49.13,Default,,0000,0000,0000,,好吧\NOkay.
+Dialogue: 0,0:17:55.93,0:17:59.83,Default,,0000,0000,0000,,-我能问个私人问题吗  -当然可以\N- May I ask a personal query? - Anything.
+Dialogue: 0,0:18:01.83,0:18:05.43,Default,,0000,0000,0000,,我应该完成瓦肯的柯里纳训练\NShould I choose to complete the Vulcan discipline of Kolinahr.
+Dialogue: 0,0:18:06.04,0:18:09.84,Default,,0000,0000,0000,,去除所有情感吗\NAnd purge all emotion?
+Dialogue: 0,0:18:09.84,0:18:14.24,Default,,0000,0000,0000,,我相信您不会以为 这是针对你的\NI trust you will not feel it reflects judgment upon you.
+Dialogue: 0,0:18:16.24,0:18:19.24,Default,,0000,0000,0000,,斯波克\NOh Spock.
+Dialogue: 0,0:18:19.94,0:18:27.04,Default,,0000,0000,0000,,一如以往  无论你选择什么  妈妈以你为荣\NAs always, whatever you choose to be, you will have a proud mother.
+Dialogue: 0,0:18:31.55,0:18:35.44,Default,,0000,0000,0000,,你的成绩远胜导师的预期\NYou have surpassed the expectations of your instructors.
+Dialogue: 0,0:18:35.45,0:18:39.55,Default,,0000,0000,0000,,你的记录完美无瑕  除了一点\NYour final record is flawless. With one exception.
+Dialogue: 0,0:18:39.55,0:18:43.35,Default,,0000,0000,0000,,我注意到你也申请了联邦星舰\NI see that you have applied to Starfleet as well.
+Dialogue: 0,0:18:43.45,0:18:46.15,Default,,0000,0000,0000,,为自己准备多项选择 完全符合逻辑\NIt was logical to cultivate more options.
+Dialogue: 0,0:18:46.15,0:18:48.22,Default,,0000,0000,0000,,合乎逻辑  但不必要\NLogical, but unnecessary.
+Dialogue: 0,0:18:48.22,0:18:51.15,Default,,0000,0000,0000,,兹宣布  你已被瓦肯科学研究院接受\NYou are hereby accepted to the Vulcan Science Academy.
+Dialogue: 0,0:18:51.15,0:18:54.49,Default,,0000,0000,0000,,斯波克  你很优秀  虽有劣势\NIt is truly remarkable Spock that you have achieved so much...
+Dialogue: 0,0:18:54.49,0:18:56.85,Default,,0000,0000,0000,,却能获得如此多的成就\Ndespite your disadvantage.
+Dialogue: 0,0:18:56.85,0:18:59.95,Default,,0000,0000,0000,,起立\NAll rise.
+Dialogue: 0,0:19:01.86,0:19:07.56,Default,,0000,0000,0000,,议长先生  你能说明你指的什么短处吗\NIf you would clarify, minister? To what disadvantage are you referring?
+Dialogue: 0,0:19:07.56,0:19:10.26,Default,,0000,0000,0000,,你的人类母亲\NYour Human mother.
+Dialogue: 0,0:19:14.06,0:19:17.06,Default,,0000,0000,0000,,议会  议长们  我必须谢绝\NCouncil, ministers, I must decline.
+Dialogue: 0,0:19:17.06,0:19:19.76,Default,,0000,0000,0000,,从来没有瓦肯人曾经拒绝进入这所学院\NNo Vulcan has ever declined admission to this Academy.
+Dialogue: 0,0:19:19.76,0:19:23.05,Default,,0000,0000,0000,,既然我是半人类  您的记录将依旧无瑕\NBut as I am half-human, your record remains untarnished.
+Dialogue: 0,0:19:23.05,0:19:26.36,Default,,0000,0000,0000,,斯波克  你承诺过会遵循瓦肯方式的\NSpock, you have made a commitment to honor the Vulcan way.
+Dialogue: 0,0:19:26.36,0:19:28.56,Default,,0000,0000,0000,,你今日为何还要走到议会面前\NWhy did you come before this council today?
+Dialogue: 0,0:19:28.57,0:19:31.47,Default,,0000,0000,0000,,为了让你的叛逆情绪得到满足吗\NWas it to satisfy your emotional need to rebel?
+Dialogue: 0,0:19:31.47,0:19:34.67,Default,,0000,0000,0000,,我唯一想表达的情感就是感谢\NThe only emotion I wish to convey is gratitude.
+Dialogue: 0,0:19:35.47,0:19:40.07,Default,,0000,0000,0000,,谢谢议会和议长们对我的关心\NThank you, ministers, for your consideration.
+Dialogue: 0,0:19:41.07,0:19:43.77,Default,,0000,0000,0000,,生生不息  繁荣昌盛\NLive long and prosper.
+Dialogue: 0,0:20:06.48,0:20:07.88,Default,,0000,0000,0000,,-你好  -好\N- Hi. - Hey there.
+Dialogue: 0,0:20:11.98,0:20:16.68,Default,,0000,0000,0000,,你好  我要一杯星鳗火茶  三杯经典百威\NHi. I'd like a Clabmin fire tea... 3 Budweiser Classics,
+Dialogue: 0,0:20:16.68,0:20:20.18,Default,,0000,0000,0000,,两杯卡达西恩日落和...\N2 Cardassian sunrises and...
+Dialogue: 0,0:20:20.18,0:20:23.08,Default,,0000,0000,0000,,-试试莎休酒  不错的  -一杯莎休调酒  谢谢\N- Try the Slusho, it's good. - A Slusho mix, thank you.
+Dialogue: 0,0:20:23.08,0:20:25.98,Default,,0000,0000,0000,,作为女人  喝得可真够多的\NThat's a lot of drinks for a woman.
+Dialogue: 0,0:20:27.19,0:20:29.89,Default,,0000,0000,0000,,-还有一杯不加冰的杰克  -双份  算在我账上\N- And a shot of Jack, straight up. - Make that two. Her shot's on me.
+Dialogue: 0,0:20:29.89,0:20:32.39,Default,,0000,0000,0000,,我自己付钱  谢谢  不用你付\NHer shot's on her. Thanks, but no thanks.
+Dialogue: 0,0:20:32.39,0:20:35.52,Default,,0000,0000,0000,,你彻底拒绝我之前就不想知道我的名字吗\NDon't you at least wanna know my name before you completely reject me?
+Dialogue: 0,0:20:35.52,0:20:37.09,Default,,0000,0000,0000,,我不问也无所谓\NI'm fine without it.
+Dialogue: 0,0:20:37.09,0:20:40.79,Default,,0000,0000,0000,,你不问也无所谓  我叫詹姆斯·柯克\NYou are fine without it. It's Jim, Jim Kirk.
+Dialogue: 0,0:20:42.79,0:20:46.29,Default,,0000,0000,0000,,你要是不告诉我名字  我只好自己编一个\NIf you don't tell me your name, I'm gonna have to make one up.
+Dialogue: 0,0:20:46.69,0:20:49.09,Default,,0000,0000,0000,,-我叫乌胡拉  -乌胡拉  不会吧\N- It's Uhura. - Uhura? No way.
+Dialogue: 0,0:20:49.09,0:20:51.33,Default,,0000,0000,0000,,我正想替你起这个名\NThat's the name I was gonna make up for you.
+Dialogue: 0,0:20:51.33,0:20:54.09,Default,,0000,0000,0000,,-乌胡拉  姓呢  -没有姓\N- Uhura what? - Just Uhura.
+Dialogue: 0,0:20:54.09,0:20:55.71,Default,,0000,0000,0000,,你们的世界是没有姓的吗\NThey don't have last names in your world?
+Dialogue: 0,0:20:55.71,0:20:57.19,Default,,0000,0000,0000,,乌胡拉就是我的姓\NUhura is my last name.
+Dialogue: 0,0:20:57.20,0:21:00.50,Default,,0000,0000,0000,,那你们的世界是没有名的吗\NWell they don't have last names in your world?
+Dialogue: 0,0:21:01.40,0:21:03.10,Default,,0000,0000,0000,,借过  老兄\NExcuse me buddy.
+Dialogue: 0,0:21:03.10,0:21:06.35,Default,,0000,0000,0000,,你是学员  学什么的\NSo, you're a cadet, your studying. What's your focus?
+Dialogue: 0,0:21:06.35,0:21:09.00,Default,,0000,0000,0000,,外星语言学  你根本不知道这词的意思吧\NXenolinguistics. You have no idea what that means.
+Dialogue: 0,0:21:09.00,0:21:13.90,Default,,0000,0000,0000,,外星人语言的研究  形态学 音韵学 句法\NThe study of alien languages. Morphology, phonology, syntax.
+Dialogue: 0,0:21:14.30,0:21:16.80,Default,,0000,0000,0000,,看来你很有语言天赋\NMeans you've got a talented tongue.
+Dialogue: 0,0:21:17.50,0:21:19.20,Default,,0000,0000,0000,,我很惊讶\NI'm impressed.
+Dialogue: 0,0:21:19.20,0:21:21.30,Default,,0000,0000,0000,,刚才  我还以为你只是个呆头呆脑的乡巴佬\NFor a moment there, I thought you were just a dumb-hair colonial
+Dialogue: 0,0:21:21.30,0:21:23.34,Default,,0000,0000,0000,,只会找牲口发泄\NWho has sex with farm animals.
+Dialogue: 0,0:21:23.34,0:21:26.71,Default,,0000,0000,0000,,可不只是牲口\NWell, not only.
+Dialogue: 0,0:21:27.51,0:21:29.41,Default,,0000,0000,0000,,这个土老帽没骚扰你吧\NThis townie isn't bothering you, right?
+Dialogue: 0,0:21:29.41,0:21:32.34,Default,,0000,0000,0000,,骚扰得厉害  不过我应付得来\NOh, beyond belief. But it's nothing I can't handle.
+Dialogue: 0,0:21:32.34,0:21:34.91,Default,,0000,0000,0000,,你能应付  这算是邀请吗\NYou could've handled me. That's an invitation.
+Dialogue: 0,0:21:35.31,0:21:39.01,Default,,0000,0000,0000,,-喂  你最好识相点  -别紧张  亲爱的  玩笑而已\N- Hey. You better mind your manners. - Oh relax cupcake, it was a joke.
+Dialogue: 0,0:21:39.01,0:21:41.81,Default,,0000,0000,0000,,乡巴佬  你会数数吗\NHey farm boy, maybe you can't count.
+Dialogue: 0,0:21:41.81,0:21:43.71,Default,,0000,0000,0000,,我们有四个人对付你一个\NThere are 4 of us and 1 of you.
+Dialogue: 0,0:21:43.71,0:21:47.51,Default,,0000,0000,0000,,再多找点人吧  那样才公平\NSo get some more guys and then it'll be an even fight.
+Dialogue: 0,0:21:50.62,0:21:52.92,Default,,0000,0000,0000,,伙计们  住手\NGuys. Stop it.
+Dialogue: 0,0:21:54.62,0:21:56.72,Default,,0000,0000,0000,,住手\NStop it!
+Dialogue: 0,0:22:17.62,0:22:19.33,Default,,0000,0000,0000,,够了\NEnough!
+Dialogue: 0,0:22:26.43,0:22:28.63,Default,,0000,0000,0000,,伙计们  够了\NGuys, he's had enough.
+Dialogue: 0,0:22:32.93,0:22:35.93,Default,,0000,0000,0000,,全部出去\NOutside. All of you.
+Dialogue: 0,0:22:36.03,0:22:37.93,Default,,0000,0000,0000,,-现在  -是的  长官\N- Now. - Yes, sir.
+Dialogue: 0,0:22:37.93,0:22:40.53,Default,,0000,0000,0000,,-什么...  -我只是喝杯酒\N- What... - I just bought a drink.
+Dialogue: 0,0:22:42.93,0:22:44.44,Default,,0000,0000,0000,,你还好吗  孩子\NYou all right, son?
+Dialogue: 0,0:22:44.44,0:22:47.44,Default,,0000,0000,0000,,你口哨吹得真好\NYou can whistle really loud, you know that?
+Dialogue: 0,0:22:48.14,0:22:51.04,Default,,0000,0000,0000,,酒保告诉我你是谁的时候我简直不敢相信\NYou know I couldn't believe it when the bartender told me who you are.
+Dialogue: 0,0:22:51.04,0:22:54.44,Default,,0000,0000,0000,,-我是谁  派克船长  -你父亲的儿子\N- Who the hell am I, captain Pike? - Your father's son.
+Dialogue: 0,0:22:57.34,0:22:59.24,Default,,0000,0000,0000,,能再给我一杯吗\NCan I get another one?
+Dialogue: 0,0:22:59.24,0:23:01.74,Default,,0000,0000,0000,,我写过关于联邦星舰开尔文号的学术论文\NFor my dissertation I was assigned USS Kelvin.
+Dialogue: 0,0:23:01.74,0:23:05.94,Default,,0000,0000,0000,,我欣赏你父亲  他不相信有不可能赢的时候\NSomething I admired about your dad, he didn't believe in no-win scenarios.
+Dialogue: 0,0:23:06.24,0:23:07.74,Default,,0000,0000,0000,,他肯定是经验丰富\NSure learned his lesson.
+Dialogue: 0,0:23:07.74,0:23:09.48,Default,,0000,0000,0000,,那取决于你如何定义"胜利"\NWell that depends on how you define winning.
+Dialogue: 0,0:23:09.48,0:23:11.74,Default,,0000,0000,0000,,-你在听我说吧  -谢谢\N- You're here, aren't you? - Thanks.
+Dialogue: 0,0:23:11.84,0:23:14.94,Default,,0000,0000,0000,,不加思考直接行动  也是他的天性之一\NYou know that instinct to leap without looking, that was his nature too...
+Dialogue: 0,0:23:14.94,0:23:17.18,Default,,0000,0000,0000,,我认为这正是联邦舰队所失去的\NAnd in my opinion something Starfleet's lost.
+Dialogue: 0,0:23:17.18,0:23:19.24,Default,,0000,0000,0000,,你为什么和我说这些\NWhy are you talking to me man?
+Dialogue: 0,0:23:19.25,0:23:22.65,Default,,0000,0000,0000,,因为我在你泡妞的时候看了你的档案\NBecause I looked up your file while you were drooling on the floor.
+Dialogue: 0,0:23:23.15,0:23:26.35,Default,,0000,0000,0000,,你的能力倾向测验出类拔萃  那问题是什么\NYour aptitude tests are off the charts, so what is it?
+Dialogue: 0,0:23:26.95,0:23:29.88,Default,,0000,0000,0000,,你想喜欢成为中西部唯一一名天才惯犯吗\NYou like being the only genius level repeat-offender in the mid-west?
+Dialogue: 0,0:23:29.88,0:23:31.45,Default,,0000,0000,0000,,或许我爱得很呢\NMaybe I love it.
+Dialogue: 0,0:23:31.45,0:23:35.05,Default,,0000,0000,0000,,那么是父亲的死让你满足于平淡的生活\NSo your dad dies, you can saddle for less than an ordinary life.
+Dialogue: 0,0:23:35.25,0:23:40.55,Default,,0000,0000,0000,,还是  你认为自己应得更好的  更为特别的\NOr do you feel that you were meant for something better? Something special?
+Dialogue: 0,0:23:42.95,0:23:45.75,Default,,0000,0000,0000,,-加入星际舰队吧  -入伍\N- Enlist in Starfleet. - Enlist?
+Dialogue: 0,0:23:47.26,0:23:49.49,Default,,0000,0000,0000,,你们这个月的招募额肯定是低过头了吧\NYou guys must be way down on your recruiting quarter for the month.
+Dialogue: 0,0:23:49.49,0:23:51.46,Default,,0000,0000,0000,,如果你有你父亲一半能力  詹姆斯\NIf you're half the man your father was Jim,
+Dialogue: 0,0:23:51.46,0:23:53.86,Default,,0000,0000,0000,,星际舰队就能用得上你\NStarfleet could use you.
+Dialogue: 0,0:23:54.06,0:23:57.76,Default,,0000,0000,0000,,你可以在四年内成为军官  八年内当上舰长\NYou can be an officer in 4 years, you can have your own ship in 8.
+Dialogue: 0,0:23:59.36,0:24:02.50,Default,,0000,0000,0000,,你明白星际联邦是什么  对吧  这很重要\NYou understand what the Federation is, don't you? It's important,
+Dialogue: 0,0:24:02.50,0:24:04.46,Default,,0000,0000,0000,,它是一支维护和平及人道主义的舰队\NIt's a peacekeeping and humanitarian armada.
+Dialogue: 0,0:24:04.46,0:24:06.70,Default,,0000,0000,0000,,说完了吗\NWe done?
+Dialogue: 0,0:24:06.70,0:24:09.36,Default,,0000,0000,0000,,我说完了\NI'm done.
+Dialogue: 0,0:24:12.47,0:24:16.67,Default,,0000,0000,0000,,河边船坞  新人招募艇明早八点离开\NRiverside shipyard. Shuttle for new recruits leaves tomorrow - 08:00.
+Dialogue: 0,0:24:20.47,0:24:24.17,Default,,0000,0000,0000,,你的父亲当了12分钟舰长\NYour father was captain of a starship for 12 minutes.
+Dialogue: 0,0:24:24.77,0:24:29.97,Default,,0000,0000,0000,,他救了800条命  包括你们母子俩的\NHe saved 800 lives, including your mother's and yours.
+Dialogue: 0,0:24:30.67,0:24:33.77,Default,,0000,0000,0000,,我谅你也做不到更好了\NI dare you to do better.
+Dialogue: 0,0:25:57.90,0:25:59.90,Default,,0000,0000,0000,,车够帅啊  哥们\NNice ride man.
+Dialogue: 0,0:26:02.80,0:26:05.00,Default,,0000,0000,0000,,送给你了\NIt's yours.
+Dialogue: 0,0:26:05.01,0:26:08.61,Default,,0000,0000,0000,,四年吗  我会在三年内做到\N4 years? I'll do it in 3.
+Dialogue: 0,0:26:23.41,0:26:26.51,Default,,0000,0000,0000,,放松点  先生们\NAt ease gentlemen.
+Dialogue: 0,0:26:43.62,0:26:46.62,Default,,0000,0000,0000,,一直没打听到名字\NNever did get that first name.
+Dialogue: 0,0:26:46.62,0:26:47.89,Default,,0000,0000,0000,,-你需要医生  -我跟你们说了\N- You need a doctor. - I told you people,
+Dialogue: 0,0:26:47.89,0:26:49.62,Default,,0000,0000,0000,,我不需要医生  该死  我就是医生\NI don't need a doctor, damn it. I am a doctor.
+Dialogue: 0,0:26:49.62,0:26:50.72,Default,,0000,0000,0000,,你得回到自己座位上\NYou need to get back to your seat.
+Dialogue: 0,0:26:50.72,0:26:52.56,Default,,0000,0000,0000,,我的就在没窗户的盥洗室里\NI had one, in the bathroom with no windows.
+Dialogue: 0,0:26:52.56,0:26:55.92,Default,,0000,0000,0000,,我有惧飞症  我对能上天的东西都怕得要死\NI suffer from aviofobia. That means fear of dying in something that flies.
+Dialogue: 0,0:26:55.92,0:26:59.22,Default,,0000,0000,0000,,先生  为了安全请您坐下  否则我得强迫您\NSir, for your own safety, sit down or else I'll make you sit down!
+Dialogue: 0,0:27:01.92,0:27:04.93,Default,,0000,0000,0000,,-好吧  -谢谢合作\N- Fine. - Thank you.
+Dialogue: 0,0:27:04.93,0:27:07.43,Default,,0000,0000,0000,,我是派克舰长  我们准备起飞\NThis is captain Pike, we've been cleared for takeoff.
+Dialogue: 0,0:27:08.23,0:27:10.63,Default,,0000,0000,0000,,我可能会吐在你身上\NI may throw up on you.
+Dialogue: 0,0:27:10.63,0:27:14.03,Default,,0000,0000,0000,,-我想这里很安全  -别安慰我了孩子\N- I think these things are pretty safe. - Don't pander with me kid.
+Dialogue: 0,0:27:14.03,0:27:17.53,Default,,0000,0000,0000,,船上有一条小缝  我们的血液将在13秒内沸腾\NOne tiny crack in the hull and our blood boils in 13 seconds.
+Dialogue: 0,0:27:17.53,0:27:20.53,Default,,0000,0000,0000,,突发一次太阳耀斑  我们将被烤熟在椅子上\NA solar flare might crop up, cook us in our seats.
+Dialogue: 0,0:27:20.53,0:27:23.43,Default,,0000,0000,0000,,等着看你走运地患上安多里安疱疹吧\NAnd while you're sitting pretty with a case of Andorian shingles,
+Dialogue: 0,0:27:23.43,0:27:26.83,Default,,0000,0000,0000,,看你双眼流血的时候  还能不能这么镇定\NSee if you're still so relaxed when your eyeballs are bleeding.
+Dialogue: 0,0:27:26.83,0:27:30.73,Default,,0000,0000,0000,,太空就是被黑暗和沉寂掩盖的疾病和危险\NSpace is disease and danger, wrapped in darkness and silence.
+Dialogue: 0,0:27:30.74,0:27:34.64,Default,,0000,0000,0000,,我不想跟你说破  但星舰就是在太空航行的\NWell I hate to break this to you, but Starfleet operates in space.
+Dialogue: 0,0:27:34.64,0:27:36.64,Default,,0000,0000,0000,,对  我没别的地儿可去了\NYeah, well... I've got nowhere else to go,
+Dialogue: 0,0:27:36.64,0:27:39.84,Default,,0000,0000,0000,,离婚时  前妻抢走了整颗星球\NThe ex wife took the whole damn planet in the divorce.
+Dialogue: 0,0:27:40.04,0:27:42.84,Default,,0000,0000,0000,,我就剩下这把老骨头\NAll I've got left is my bones.
+Dialogue: 0,0:27:47.54,0:27:52.34,Default,,0000,0000,0000,,-詹姆斯·柯克  -麦科伊  伦纳德·麦科伊\N- Jim Kirk. - McCoy. Leonard McCoy.
+Dialogue: 0,0:28:11.15,0:28:15.25,Default,,0000,0000,0000,,三年后\NThree years later.
+Dialogue: 0,0:28:38.86,0:28:42.19,Default,,0000,0000,0000,,尼禄舰长  舰桥请您过去  长官\NCaptain Nero. You've been requested on the bridge, sir.
+Dialogue: 0,0:28:42.20,0:28:45.26,Default,,0000,0000,0000,,阿伊尔说时候到了\NAyel says it's time.
+Dialogue: 0,0:28:49.46,0:28:53.06,Default,,0000,0000,0000,,长官  我们已经抵达您所计算的坐标\NSir, we've arrived at the coordinates we calculated.
+Dialogue: 0,0:28:53.16,0:28:56.16,Default,,0000,0000,0000,,但这里空无一物  您的命令是\NThere's nothing here. What are your orders?
+Dialogue: 0,0:28:56.17,0:28:57.77,Default,,0000,0000,0000,,我们等\NWe wait.
+Dialogue: 0,0:28:57.77,0:29:01.47,Default,,0000,0000,0000,,等那个听任我们家园被毁的人到来\NWe wait for the one who allowed our home to be destroyed.
+Dialogue: 0,0:29:01.87,0:29:04.77,Default,,0000,0000,0000,,正如我们这25年来所做的\NAs we've been doing for 25 years.
+Dialogue: 0,0:29:05.37,0:29:08.37,Default,,0000,0000,0000,,-等我们杀了他之后呢  -杀了他\N- And once we've killed him? - Kill him?
+Dialogue: 0,0:29:08.37,0:29:12.67,Default,,0000,0000,0000,,我不会杀了他  我要他看着\NI'm not gonna kill him. I gonna make him watch.
+Dialogue: 0,0:29:26.38,0:29:28.68,Default,,0000,0000,0000,,逮住那只船\NCapture that ship.
+Dialogue: 0,0:29:29.28,0:29:32.08,Default,,0000,0000,0000,,欢迎回来  斯波克\NWelcome back, Spock.
+Dialogue: 0,0:29:35.38,0:29:37.81,Default,,0000,0000,0000,,-你在高兴什么  -不知道你在说啥\N- Why are you so happy? - I do not know what you're talking about.
+Dialogue: 0,0:29:37.81,0:29:40.68,Default,,0000,0000,0000,,-对  我猜你也不知道  -好啊  姑娘们\N- No, I don't suppose you do. - Hello ladies.
+Dialogue: 0,0:29:41.08,0:29:42.92,Default,,0000,0000,0000,,-我要再做一次测试  -你开玩笑吧\N- I'm taking the test again. - You've got to be kidding.
+Dialogue: 0,0:29:42.92,0:29:44.88,Default,,0000,0000,0000,,不开玩笑  明天上午  我要你也来\NYeah, tomorrow morning. And I want you there.
+Dialogue: 0,0:29:44.88,0:29:46.08,Default,,0000,0000,0000,,我还有比眼睁睁看你\NYou know I've got better things to do...
+Dialogue: 0,0:29:46.08,0:29:48.18,Default,,0000,0000,0000,,第三次给自己难堪更有价值的事情可做\NThan watch you embarrass yourself for the 3rd time.
+Dialogue: 0,0:29:48.18,0:29:49.58,Default,,0000,0000,0000,,我是医生  詹姆斯  我忙得很\NI am a doctor, Jim. I'm busy.
+Dialogue: 0,0:29:49.58,0:29:51.98,Default,,0000,0000,0000,,老骨头  从来没人过那个测试  你没有疑问吗\NBones, it doesn't bother you that no one's ever passed the test.
+Dialogue: 0,0:29:51.98,0:29:54.67,Default,,0000,0000,0000,,詹姆斯  那可是小林丸号测试  从来没人能过\NJim, it's Kobayashi Maru. No one passes the test.
+Dialogue: 0,0:29:54.67,0:29:57.79,Default,,0000,0000,0000,,也没人去考第二次  更别提第三次了\NAnd no one goes back for seconds, let alone thirds.
+Dialogue: 0,0:29:57.99,0:30:00.19,Default,,0000,0000,0000,,我还得学习\NI've gotta study.
+Dialogue: 0,0:30:00.29,0:30:02.49,Default,,0000,0000,0000,,你学个屁\NStudy, my ass.
+Dialogue: 0,0:30:05.09,0:30:08.09,Default,,0000,0000,0000,,詹姆斯  我想我爱你\NJim, I think I love you.
+Dialogue: 0,0:30:08.69,0:30:11.49,Default,,0000,0000,0000,,-好诡异  -开灯\N- That is so weird. - Lights.
+Dialogue: 0,0:30:12.69,0:30:15.13,Default,,0000,0000,0000,,-你刚刚是不是说"好诡异"  -对  我说了  但...\N- Did you just say that is so weird. - Yeah, I did, but I...
+Dialogue: 0,0:30:15.13,0:30:16.99,Default,,0000,0000,0000,,你不爱我吗\NYou don't love me too?
+Dialogue: 0,0:30:16.99,0:30:17.99,Default,,0000,0000,0000,,天  我的室友\NOh, no, my roommate.
+Dialogue: 0,0:30:17.99,0:30:19.26,Default,,0000,0000,0000,,可我记得你说过  她整晚都不会回来的\NI thought you said she was gone for the night.
+Dialogue: 0,0:30:19.27,0:30:21.23,Default,,0000,0000,0000,,显然不是了  快点  到床底下去\NObviously she's not, quick, you gotta... just get under the bed.
+Dialogue: 0,0:30:21.23,0:30:23.50,Default,,0000,0000,0000,,-床底...  -就到床底去\N- Under...? - Look, just get under the bed.
+Dialogue: 0,0:30:23.50,0:30:25.30,Default,,0000,0000,0000,,-不能让她看到你在这  -为啥\N- She can't see you here. - Why not?
+Dialogue: 0,0:30:25.30,0:30:27.63,Default,,0000,0000,0000,,因为我向她保证过  不会再把男人带回来\NBecause I promised her I'd stop bringing guys back to the dorm.
+Dialogue: 0,0:30:27.63,0:30:30.20,Default,,0000,0000,0000,,-那  你到底带了多少男人...  -快下去  快\N- Well how... how many guys have y...? - Just d... just down.
+Dialogue: 0,0:30:32.40,0:30:34.53,Default,,0000,0000,0000,,你怎么样\NHey. How are you?
+Dialogue: 0,0:30:34.54,0:30:36.70,Default,,0000,0000,0000,,-很好啊  -最最奇怪的事情\N- Good. - Strangest thing...
+Dialogue: 0,0:30:36.70,0:30:38.44,Default,,0000,0000,0000,,我在远程传感实验室里\NI was in the long range sensor lab.
+Dialogue: 0,0:30:38.44,0:30:40.30,Default,,0000,0000,0000,,我以为你会呆一整夜\NYeah, I... I thought all night...
+Dialogue: 0,0:30:40.30,0:30:44.90,Default,,0000,0000,0000,,我正追踪太阳系  突然收到紧急求救信号\NI was tracking solar systems and I picked up an emergency transmission.
+Dialogue: 0,0:30:44.90,0:30:46.70,Default,,0000,0000,0000,,-真的  -对啊\N- Really? - Yeah.
+Dialogue: 0,0:30:46.70,0:30:48.80,Default,,0000,0000,0000,,从一颗克林贡囚星上发出的\NFrom a Klingon prison planet.
+Dialogue: 0,0:30:48.80,0:30:50.00,Default,,0000,0000,0000,,-不是吧  -没错\N- No. - Yeah.
+Dialogue: 0,0:30:50.01,0:30:52.81,Default,,0000,0000,0000,,一支克林贡舰队被毁  47艘舰船\NA Klingon armada was destroyed, 47 ships.
+Dialogue: 0,0:30:52.81,0:30:56.01,Default,,0000,0000,0000,,那你今晚就不回实验室吗\NSo, you're not going back to the lab tonight?
+Dialogue: 0,0:30:59.61,0:31:01.51,Default,,0000,0000,0000,,-盖尔  他是谁  -谁是谁啊\N- Gaila, who is he? - Who's who?
+Dialogue: 0,0:31:01.51,0:31:03.91,Default,,0000,0000,0000,,藏你床底下  张着大嘴呼吸的那个\NThe mouth-breather hiding under your bed.
+Dialogue: 0,0:31:03.91,0:31:06.21,Default,,0000,0000,0000,,-你能听到我在呼吸  -你\N- You could hear me breathing? - You.
+Dialogue: 0,0:31:06.21,0:31:08.41,Default,,0000,0000,0000,,-明天可是大日子  -你肯定会挂的\N- Big day tomorrow. - You're gonna fail.
+Dialogue: 0,0:31:08.41,0:31:10.01,Default,,0000,0000,0000,,-盖尔  回见  -快滚\N- Gail, see you around. - Get out.
+Dialogue: 0,0:31:10.01,0:31:11.51,Default,,0000,0000,0000,,要是我过了  能告诉我你的名字吗\NIf I pass will you tell me your first name?
+Dialogue: 0,0:31:11.51,0:31:12.51,Default,,0000,0000,0000,,不行  晚安\NNo. Good night.
+Dialogue: 0,0:31:12.51,0:31:16.82,Default,,0000,0000,0000,,你收到求救信号一事非常有趣\NI think the fact that you picked up a transmission is very impress...
+Dialogue: 0,0:31:18.12,0:31:21.12,Default,,0000,0000,0000,,我们收到从小林丸号舰船发送的遇难信号\NWe're receiving a distress signal from the USS Kobayashi Maru.
+Dialogue: 0,0:31:21.12,0:31:23.32,Default,,0000,0000,0000,,星舰已失去动力  处于困境\NThe ship has lost power and is stranded.
+Dialogue: 0,0:31:23.32,0:31:25.42,Default,,0000,0000,0000,,星际舰队司令部命令我们前往救援\NStarfleet command has ordered us to rescue them.
+Dialogue: 0,0:31:25.42,0:31:31.12,Default,,0000,0000,0000,,"星际舰队司令部命令我们前往救援"..."舰长"\NStarfleet command has ordered us to rescue them... captain.
+Dialogue: 0,0:31:31.72,0:31:33.50,Default,,0000,0000,0000,,两艘克林贡飞船进入了中立地带\NTwo Klingon vessels have entered the neutral zone...
+Dialogue: 0,0:31:33.50,0:31:35.52,Default,,0000,0000,0000,,并将武器锁定了我们\NAnd are locking weapons on us.
+Dialogue: 0,0:31:35.52,0:31:37.92,Default,,0000,0000,0000,,-没关系  -没关系吗\N- That's okay. - That's okay?
+Dialogue: 0,0:31:37.92,0:31:39.62,Default,,0000,0000,0000,,对  不用担心\NYeah, don't worry about it.
+Dialogue: 0,0:31:39.62,0:31:41.73,Default,,0000,0000,0000,,他说"不用担心"\NDid he say don't worry about it?
+Dialogue: 0,0:31:41.73,0:31:44.02,Default,,0000,0000,0000,,他压根就没打算认真对待模拟作战吧\NIs he not taking the simulation seriously?
+Dialogue: 0,0:31:44.03,0:31:46.92,Default,,0000,0000,0000,,又有三艘克林贡飞船撤除隐身  瞄准了我们\NThree more Klingon war birds decloaking and targeting our ship.
+Dialogue: 0,0:31:46.93,0:31:48.87,Default,,0000,0000,0000,,我想  这大概也不成问题吧\NI don't suppose this is a problem either?
+Dialogue: 0,0:31:48.87,0:31:50.13,Default,,0000,0000,0000,,他们开火了  舰长\NThey're firing, captain.
+Dialogue: 0,0:31:50.13,0:31:51.96,Default,,0000,0000,0000,,通知医疗部准备迎接受损飞船上的...\NAlert medical bay to prepare to receive...
+Dialogue: 0,0:31:51.96,0:31:54.23,Default,,0000,0000,0000,,所有伤员\NAll crew members from the damaged ship.
+Dialogue: 0,0:31:54.23,0:31:56.23,Default,,0000,0000,0000,,被克林贡人包围的情况下\NAnd how do you expect us to rescue them...
+Dialogue: 0,0:31:56.23,0:31:58.73,Default,,0000,0000,0000,,如何拯救他们呢  舰长\Nwhen we're surrounded by Klingons... captain?
+Dialogue: 0,0:31:58.73,0:32:01.53,Default,,0000,0000,0000,,去通知医疗部\NAlert medical.
+Dialogue: 0,0:32:02.63,0:32:04.93,Default,,0000,0000,0000,,我们的舰船被击中  护盾剩余60%\NOur ship is being hit. Shields at 60%.
+Dialogue: 0,0:32:04.93,0:32:06.13,Default,,0000,0000,0000,,我明白\NI understand.
+Dialogue: 0,0:32:06.13,0:32:09.03,Default,,0000,0000,0000,,我们要如何  回击吗\NShould we, I don't know, fight back?
+Dialogue: 0,0:32:09.03,0:32:11.93,Default,,0000,0000,0000,,-不  -当然不能\N- No. - Of course not.
+Dialogue: 0,0:32:18.44,0:32:20.74,Default,,0000,0000,0000,,这是怎么回事  搞什么鬼\NWhat is this? What's going on?
+Dialogue: 0,0:32:24.34,0:32:26.54,Default,,0000,0000,0000,,光子炮  准备对克林贡飞船开火\NHm. Arm photons. Prepare to fire on the Klingon war birds.
+Dialogue: 0,0:32:26.54,0:32:28.77,Default,,0000,0000,0000,,-是  长官  -詹姆斯  他们的护盾还在\N- Yes, sir. - Jim, their shields are still up.
+Dialogue: 0,0:32:28.78,0:32:30.54,Default,,0000,0000,0000,,是吗\NAre they?
+Dialogue: 0,0:32:31.94,0:32:35.74,Default,,0000,0000,0000,,-不  没有了  -对所有敌舰开火\N- No, they're not. - Fire on all enemy ships.
+Dialogue: 0,0:32:35.74,0:32:38.34,Default,,0000,0000,0000,,每艘一发光子炮就够了  不必浪费弹药\NOne photon each should do let's not waste ammunition.
+Dialogue: 0,0:32:38.34,0:32:40.74,Default,,0000,0000,0000,,锁定目标  瞄准所有飞船\NTarget locked an acquired on all war birds.
+Dialogue: 0,0:32:40.74,0:32:42.64,Default,,0000,0000,0000,,开火\NFiring.
+Dialogue: 0,0:32:46.45,0:32:47.75,Default,,0000,0000,0000,,所有舰船都已摧毁  舰长\NAll ships destroyed, captain.
+Dialogue: 0,0:32:47.75,0:32:49.05,Default,,0000,0000,0000,,开始拯救被困人员\NBegin rescue of the stranded crew.
+Dialogue: 0,0:32:49.05,0:32:52.35,Default,,0000,0000,0000,,那么  我们设法摧毁了所有敌舰\NSo, we've managed to eliminate all enemy ships,
+Dialogue: 0,0:32:52.35,0:32:54.35,Default,,0000,0000,0000,,船上无人受伤\NNo one on board was injured,
+Dialogue: 0,0:32:54.35,0:33:00.35,Default,,0000,0000,0000,,对小林丸号船员的成功救援正在进行之中\NAnd the successful rescue of the Kobayashi Maru crew is under way.
+Dialogue: 0,0:33:04.15,0:33:07.35,Default,,0000,0000,0000,,那小鬼怎么能通过你的测试\NHow the hell did that kid beat your test?
+Dialogue: 0,0:33:09.65,0:33:12.45,Default,,0000,0000,0000,,我不知道\NI do not know.
+Dialogue: 0,0:33:12.46,0:33:15.86,Default,,0000,0000,0000,,召开这次会议  是为了解决一件麻烦事\NThis session has been called to resolve a troubling matter.
+Dialogue: 0,0:33:15.96,0:33:18.56,Default,,0000,0000,0000,,詹姆斯·T·柯克  走上前来\NJames T. Kirk, step forward.
+Dialogue: 0,0:33:19.96,0:33:22.76,Default,,0000,0000,0000,,柯克学员  有证据被呈交委员会\NCadet Kirk, evidence has been submitted to this council,
+Dialogue: 0,0:33:22.76,0:33:25.69,Default,,0000,0000,0000,,指出你违反了星际舰队章程17.43规章\NSuggesting that you violated the ethical code of conduct
+Dialogue: 0,0:33:25.70,0:33:29.56,Default,,0000,0000,0000,,所制定的行动守则\NPursuing to regulation 17.43 of the Starfleet code.
+Dialogue: 0,0:33:30.16,0:33:32.96,Default,,0000,0000,0000,,在我们开始之前  你有想说的话吗  先生\NIs there anything you care to say before we begin, sir?
+Dialogue: 0,0:33:34.26,0:33:38.56,Default,,0000,0000,0000,,有  我想我有权面对我的控告人\NYes. I believe I have the right to face my accuser directly?
+Dialogue: 0,0:33:42.27,0:33:44.07,Default,,0000,0000,0000,,请站上前来\NStep forward please.
+Dialogue: 0,0:33:44.57,0:33:48.77,Default,,0000,0000,0000,,斯波克指挥官  我们最杰出的毕业生之一\NThis is commander Spock. He is one of our most distinguished graduates.
+Dialogue: 0,0:33:48.77,0:33:52.77,Default,,0000,0000,0000,,在过去的四年里  他负责编程小林丸号测试\NHe's programmed the Kobayashi Maru exam for the last 4 years.
+Dialogue: 0,0:33:54.47,0:33:56.07,Default,,0000,0000,0000,,指挥官\NCommander.
+Dialogue: 0,0:33:56.27,0:33:59.27,Default,,0000,0000,0000,,柯克学员  你设法在程序代码中...\NCadet Kirk, you somehow managed to install and activate a subroutine...
+Dialogue: 0,0:33:59.27,0:34:02.57,Default,,0000,0000,0000,,安插了一个子程序  改变了测试的条件\NIn the programming code, thereby changing the conditions of the test.
+Dialogue: 0,0:34:03.67,0:34:07.28,Default,,0000,0000,0000,,-你想说的是  -用校园行话来说  你作弊了\N- Your point being? - In academic vernacular. You cheated.
+Dialogue: 0,0:34:08.88,0:34:13.18,Default,,0000,0000,0000,,让我问个谁都知道答案的问题吧\NLet me ask you something I think we all know the answer to.
+Dialogue: 0,0:34:13.48,0:34:17.88,Default,,0000,0000,0000,,测试本身就是作弊吧  你根本没打算让人赢\NThe test itself is a cheat, isn't it? You programmed it to be unwinnable.
+Dialogue: 0,0:34:17.88,0:34:20.58,Default,,0000,0000,0000,,你的论点排除了毫无赢面出现的可能性\NYour argument precludes the ability of a no-win scenario?
+Dialogue: 0,0:34:20.58,0:34:22.78,Default,,0000,0000,0000,,我不相信毫无赢面的情况\NI don't believe in no-win scenarios.
+Dialogue: 0,0:34:22.78,0:34:23.98,Default,,0000,0000,0000,,那么  你不仅仅违反了规定\NThen not only did you violate the rules,
+Dialogue: 0,0:34:23.98,0:34:26.38,Default,,0000,0000,0000,,而且根本就没弄懂关键点何在\Nyou also failed to understand the principle lesson.
+Dialogue: 0,0:34:26.38,0:34:27.88,Default,,0000,0000,0000,,那就给我点启发吧\NPlease, enlighten me.
+Dialogue: 0,0:34:27.88,0:34:30.09,Default,,0000,0000,0000,,你应该比别人更清楚  柯克学员\NYou of all people should know, cadet Kirk,
+Dialogue: 0,0:34:30.09,0:34:32.68,Default,,0000,0000,0000,,舰长无法逃脱一死\NA captain cannot cheat death.
+Dialogue: 0,0:34:35.19,0:34:38.08,Default,,0000,0000,0000,,-就我一个人吗  -你父亲\N- I of all people? - Your father,
+Dialogue: 0,0:34:38.09,0:34:40.29,Default,,0000,0000,0000,,乔治·柯克中尉接过舰长一职之后\NLt. George Kirk assumed command of his vessel...
+Dialogue: 0,0:34:40.29,0:34:41.89,Default,,0000,0000,0000,,随即阵亡 不是吗\NBefore being killed in action, did he not?
+Dialogue: 0,0:34:41.89,0:34:43.89,Default,,0000,0000,0000,,我想你大概很不高兴我通过了你的测试吧\NI don't think you like the fact that I beat your test.
+Dialogue: 0,0:34:43.89,0:34:46.29,Default,,0000,0000,0000,,此外  你未能明白这一测试的目的\NFurther more you have failed to define the purpose of the test.
+Dialogue: 0,0:34:46.29,0:34:49.69,Default,,0000,0000,0000,,-再给我点启发吧  -其目的是为了体验恐惧\N- Enlighten me again. - The purpose to experience fear.
+Dialogue: 0,0:34:50.49,0:34:53.99,Default,,0000,0000,0000,,在死亡已无可避免时的恐惧\NFear in the face of certain death.
+Dialogue: 0,0:34:53.99,0:34:56.99,Default,,0000,0000,0000,,在接受恐惧的同时  控制住自己  管理好船员\NTo accept that fear and maintain control of oneself and one's crew.
+Dialogue: 0,0:34:56.99,0:35:00.39,Default,,0000,0000,0000,,这是星际舰队每一位舰长都应具备的素质\NThis is a quality expected in every Starfleet captain.
+Dialogue: 0,0:35:03.20,0:35:04.90,Default,,0000,0000,0000,,打扰一下  长官\NExcuse me, sir.
+Dialogue: 0,0:35:10.90,0:35:13.60,Default,,0000,0000,0000,,我们收到瓦肯星发来的求救信号\NWe've received a distress call from Vulcan.
+Dialogue: 0,0:35:13.60,0:35:16.60,Default,,0000,0000,0000,,我们的主要战舰均集结在劳伦星系\NWith our primary fleet engaged in the Laurentian system,
+Dialogue: 0,0:35:16.60,0:35:20.20,Default,,0000,0000,0000,,我在此命令所有学员马上到一号机库报道\NI hereby order all cadets to report to hangar 1 immediately.
+Dialogue: 0,0:35:20.20,0:35:21.70,Default,,0000,0000,0000,,解散\NDismissed.
+Dialogue: 0,0:35:27.70,0:35:30.50,Default,,0000,0000,0000,,-那个尖耳杂种是谁  -我不认识\N- Who was that pointy-eared bastard? - I do not know.
+Dialogue: 0,0:35:30.50,0:35:32.91,Default,,0000,0000,0000,,不过我喜欢他\NBut I like him.
+Dialogue: 0,0:35:37.81,0:35:39.41,Default,,0000,0000,0000,,巴瑞瑟  联邦星舰法拉古特号\NBracer, USS Farragut.
+Dialogue: 0,0:35:39.41,0:35:40.99,Default,,0000,0000,0000,,麦考伊  联邦星舰进取号\NMcCoy, USS Enterprise.
+Dialogue: 0,0:35:41.00,0:35:42.81,Default,,0000,0000,0000,,麦克格拉斯  联邦星舰沃尔科特号\NMcGrath, USS Walcott.
+Dialogue: 0,0:35:42.81,0:35:44.31,Default,,0000,0000,0000,,斯巴德  联邦星舰胡德号\NSpader, USS Hood.
+Dialogue: 0,0:35:44.31,0:35:46.51,Default,,0000,0000,0000,,欢迎来到星际舰队  祝各位好运\NWelcome to Starfleet. Godspeed.
+Dialogue: 0,0:35:48.51,0:35:51.01,Default,,0000,0000,0000,,他没叫到我的名字\NHe didn't call my name.
+Dialogue: 0,0:35:51.21,0:35:56.01,Default,,0000,0000,0000,,指挥官  长官  你没叫我的名字  柯克  詹姆斯·T\NCommander, sir, you didn't call my name, Kirk, James T.
+Dialogue: 0,0:35:56.01,0:35:59.41,Default,,0000,0000,0000,,柯克  你被停学了  意味着在校委会裁决之前\NKirk, you're on academic suspension, that means you're grounded
+Dialogue: 0,0:35:59.41,0:36:01.61,Default,,0000,0000,0000,,你必须留在地上\NUntil the academy board rules.
+Dialogue: 0,0:36:04.22,0:36:07.12,Default,,0000,0000,0000,,詹姆斯  校委会的裁决会偏向你的\NJim, the board will rule in your favor.
+Dialogue: 0,0:36:07.12,0:36:09.22,Default,,0000,0000,0000,,很有可能\NMost likely.
+Dialogue: 0,0:36:10.32,0:36:13.22,Default,,0000,0000,0000,,听着  詹姆斯  我得走了\NLook Jim, I've gotta go.
+Dialogue: 0,0:36:13.32,0:36:16.32,Default,,0000,0000,0000,,好的  你去吧  小心点\NYeah. Yeah, go. Be safe.
+Dialogue: 0,0:36:23.62,0:36:26.32,Default,,0000,0000,0000,,-借过  -嗯  嗯  好的\N- Excuse me. - Yeah. Yeah. Sorry.
+Dialogue: 0,0:36:30.63,0:36:32.53,Default,,0000,0000,0000,,该死\NDamn it.
+Dialogue: 0,0:36:34.33,0:36:36.03,Default,,0000,0000,0000,,跟我来\NCome with me.
+Dialogue: 0,0:36:36.03,0:36:37.57,Default,,0000,0000,0000,,乌胡拉  联邦星舰法拉古特号\NUhura, USS Farragut.
+Dialogue: 0,0:36:37.57,0:36:39.63,Default,,0000,0000,0000,,普特拉夫斯基  联邦星舰心宿二星号\NPetrovsky, USS Antares.
+Dialogue: 0,0:36:39.63,0:36:42.13,Default,,0000,0000,0000,,马上各就各位  祝你们好运\NGo to your stations and good luck.
+Dialogue: 0,0:36:45.23,0:36:48.83,Default,,0000,0000,0000,,-老骨头  我们去哪啊  -你马上就知道了\N- Bones, where are we going? - You'll see.
+Dialogue: 0,0:36:50.13,0:36:51.73,Default,,0000,0000,0000,,-指挥官  能问一句么  -什么事  中尉\N- Commander, a word? - Yes, lieutenant?
+Dialogue: 0,0:36:51.73,0:36:54.13,Default,,0000,0000,0000,,-我难道不是您最好的学生之一吗  -你当然是\N- Was I not one of your top students? - Indeed you were.
+Dialogue: 0,0:36:54.13,0:36:56.94,Default,,0000,0000,0000,,我难道不是曾经多次表露出...\NAnd did I not on multiple occasions demonstrate...
+Dialogue: 0,0:36:56.94,0:36:59.14,Default,,0000,0000,0000,,我卓越的听觉能力  并且  恕我引用\Nan exceptional oral sensitivity, and I quote...
+Dialogue: 0,0:36:59.14,0:37:02.04,Default,,0000,0000,0000,,"在子空间数据传输测验中\N"An unparalleled ability to identify sonic anomalies...
+Dialogue: 0,0:37:02.04,0:37:03.87,Default,,0000,0000,0000,,可分辨出音波异常的卓绝能力"\NIn subspace transmission tests"?
+Dialogue: 0,0:37:03.87,0:37:05.34,Default,,0000,0000,0000,,一直都是  没错\NConsistently, yes.
+Dialogue: 0,0:37:05.34,0:37:07.14,Default,,0000,0000,0000,,您十分明白  我最大的希望...\NAnd while you were well aware that I'm qualified...
+Dialogue: 0,0:37:07.14,0:37:08.87,Default,,0000,0000,0000,,就是能在进取号星舰上服役\NAnd desire to serve on the USS Enterprise,
+Dialogue: 0,0:37:08.87,0:37:10.94,Default,,0000,0000,0000,,可您竟然分配我到法拉古特号上\NI'm assigned to the Farragut?
+Dialogue: 0,0:37:10.94,0:37:14.14,Default,,0000,0000,0000,,这是为了避免表现出偏爱\NIt was an attempt to avoid the appearance of favoritism.
+Dialogue: 0,0:37:14.14,0:37:16.74,Default,,0000,0000,0000,,不  我要去进取号\NNo. I'm assigned to the Enterprise.
+Dialogue: 0,0:37:20.44,0:37:22.94,Default,,0000,0000,0000,,-好吧  你是去进取号  -谢谢\N- Yes, I believe you are. - Thank you.
+Dialogue: 0,0:37:23.74,0:37:26.04,Default,,0000,0000,0000,,-你在做什么  -帮你的忙\N- What are you doing? - I'm doing you a favor.
+Dialogue: 0,0:37:26.05,0:37:29.05,Default,,0000,0000,0000,,我不能把你留在那里可怜兮兮的  坐下\NI couldn抰 just leave you there looking all pathetic. Take a seat.
+Dialogue: 0,0:37:29.05,0:37:30.88,Default,,0000,0000,0000,,坐下 我要给你打一针抗泥蚤...\NLet me give you a vaccine against viral infection...
+Dialogue: 0,0:37:30.88,0:37:33.05,Default,,0000,0000,0000,,病毒感染的疫苗\NFrom the Ovaran mud flies.
+Dialogue: 0,0:37:34.25,0:37:36.45,Default,,0000,0000,0000,,-干嘛  -为了让你出现症状\N- What for? - To give you the symptoms.
+Dialogue: 0,0:37:36.45,0:37:37.55,Default,,0000,0000,0000,,你在说什么\NWhat're you talking about?
+Dialogue: 0,0:37:37.55,0:37:39.45,Default,,0000,0000,0000,,你的左眼很快会失去视力\NYou're gonna start to lose vision in your left eye.
+Dialogue: 0,0:37:39.45,0:37:40.85,Default,,0000,0000,0000,,对  已经开始了\NYeah, I already have.
+Dialogue: 0,0:37:40.85,0:37:43.85,Default,,0000,0000,0000,,然后你会出现严重的头疼  大量流汗\NOh, and you're gonna get a really bad headache and flop sweat.
+Dialogue: 0,0:37:43.85,0:37:46.95,Default,,0000,0000,0000,,-你管这叫帮忙  - 对啊  你欠我一次\N- You call this a favor? - Yeah, you owe me one.
+Dialogue: 0,0:37:48.35,0:37:53.05,Default,,0000,0000,0000,,柯克  詹姆斯·T  他没被分派到进取号上\NKirk, James T. He is not cleared for duty aboard the Enterprise.
+Dialogue: 0,0:37:53.06,0:37:55.93,Default,,0000,0000,0000,,医务条例规定  治疗与运送一名病人...\NMedical code states the treatment and transport of a patient is...
+Dialogue: 0,0:37:55.93,0:37:58.86,Default,,0000,0000,0000,,必须听从其主治医生的意见\NTo be determined at the discretion of his attending physician.
+Dialogue: 0,0:37:58.86,0:38:01.66,Default,,0000,0000,0000,,也就是我  所以我要带柯克先生上船\NWhich is me. So I'm taking Mr. Kirk aboard.
+Dialogue: 0,0:38:01.66,0:38:04.26,Default,,0000,0000,0000,,或者  你宁愿去向派克舰长解释\NOr you would you like to explain to captain Pike...
+Dialogue: 0,0:38:04.26,0:38:05.99,Default,,0000,0000,0000,,为何进取号曲速冲向危机时\NWhy Enterprise warped into a crisis...
+Dialogue: 0,0:38:05.99,0:38:08.86,Default,,0000,0000,0000,,舰上竟少了一名它的主要医官\NWithout one of its senior medical officers?
+Dialogue: 0,0:38:09.46,0:38:12.36,Default,,0000,0000,0000,,-上船吧  -上船  走吧\N- As you were. - As you were. Come on.
+Dialogue: 0,0:38:30.47,0:38:32.17,Default,,0000,0000,0000,,我可能会吐你身上\NI might throw up on you.
+Dialogue: 0,0:38:32.37,0:38:34.97,Default,,0000,0000,0000,,詹姆斯  你真该看看这个\NJim, you've gotta look at this.
+Dialogue: 0,0:38:34.97,0:38:37.57,Default,,0000,0000,0000,,-詹姆斯  看  -什么\N- Jim, look. - What?
+Dialogue: 0,0:39:34.09,0:39:36.29,Default,,0000,0000,0000,,我们得替你换件衣服\NWe need to get you changed.
+Dialogue: 0,0:39:36.29,0:39:38.23,Default,,0000,0000,0000,,我觉得不太对劲  好像尿裤子了\NI don't feel right. I feel like I'm leaking.
+Dialogue: 0,0:39:38.23,0:39:40.79,Default,,0000,0000,0000,,见鬼  尖耳杂种在那\NDamn, it's that pointy-eared bastard.
+Dialogue: 0,0:39:58.10,0:40:00.90,Default,,0000,0000,0000,,-斯波克先生  -舰长\N- Mr. Spock. - Captain.
+Dialogue: 0,0:40:00.90,0:40:03.90,Default,,0000,0000,0000,,-轮机部报告  已做好起飞准备  -谢谢\N- Engineering reports ready for launch. - Thank you.
+Dialogue: 0,0:40:03.90,0:40:06.54,Default,,0000,0000,0000,,女士们先生们  我们最新旗舰的处女航\NLadies and gentlemen, the maiden voyage of our newest flagship
+Dialogue: 0,0:40:06.54,0:40:09.60,Default,,0000,0000,0000,,值得比我们今天提供的更加盛大的仪式\NDeserves more pompon circumstance that we can afford today.
+Dialogue: 0,0:40:09.90,0:40:13.00,Default,,0000,0000,0000,,她的洗礼仪式将是对我们顺利返航的奖励\NThe christening will just have to be our reward for a safe return.
+Dialogue: 0,0:40:13.20,0:40:14.70,Default,,0000,0000,0000,,继续\NCarry on.
+Dialogue: 0,0:40:14.71,0:40:17.11,Default,,0000,0000,0000,,各舰层  我是派克舰长  准备立即出发\NAll decks, this is Captain Pike. Prepare for immediate departure.
+Dialogue: 0,0:40:17.11,0:40:18.41,Default,,0000,0000,0000,,舵手  推进器\NHelm, thrusters.
+Dialogue: 0,0:40:18.41,0:40:21.01,Default,,0000,0000,0000,,系具已收回  舰长  港口控制室报告准备完毕\N...retracted, captain, dock control reports ready.
+Dialogue: 0,0:40:21.01,0:40:24.01,Default,,0000,0000,0000,,推进器点火  离开太空港\NThrusters fired. Separating from space dock.
+Dialogue: 0,0:40:33.01,0:40:36.31,Default,,0000,0000,0000,,已离开太空港  舰长  所有舰船准备曲速前进\NThe fleet's cleared space dock, captain. All ships ready for warp.
+Dialogue: 0,0:40:36.31,0:40:38.91,Default,,0000,0000,0000,,-设定到瓦肯星的航线  -是  舰长\N- Set course for Vulcan. - Aye-aye, captain.
+Dialogue: 0,0:40:39.51,0:40:41.51,Default,,0000,0000,0000,,航线已设定\NCourse laid in.
+Dialogue: 0,0:40:41.71,0:40:44.42,Default,,0000,0000,0000,,最大曲速  冲吧\NMaximum warp. Punch it.
+Dialogue: 0,0:41:01.12,0:41:04.16,Default,,0000,0000,0000,,-中尉 麦肯纳舵手在哪  -他患上肺虫了  长官\N- Lieutenant, where's helmsmen McKenna? - He has lung worms sir.
+Dialogue: 0,0:41:04.16,0:41:06.12,Default,,0000,0000,0000,,没法到位\NHe couldn't report to his post.
+Dialogue: 0,0:41:06.12,0:41:09.72,Default,,0000,0000,0000,,-我是苏鲁田光  -你是个飞行员吧\N- I'm Hikaru Sulu. - And you are a pilot, right?
+Dialogue: 0,0:41:09.82,0:41:14.33,Default,,0000,0000,0000,,毋庸置疑  长官  我...不太确定出了什么问题\NVery much so, sir. I'm... I'm not sure what's wrong here.
+Dialogue: 0,0:41:14.33,0:41:16.63,Default,,0000,0000,0000,,制动系统还开着么\NIs the parking brake on?
+Dialogue: 0,0:41:16.63,0:41:17.73,Default,,0000,0000,0000,,关了\NNo.
+Dialogue: 0,0:41:17.73,0:41:18.73,Default,,0000,0000,0000,,我会查出来的  只是...\NI figured it out, I'm just...
+Dialogue: 0,0:41:18.73,0:41:21.43,Default,,0000,0000,0000,,你松开外层惯性抑制器了么\NHave you disengaged the external inertial dampener?
+Dialogue: 0,0:41:26.03,0:41:28.83,Default,,0000,0000,0000,,-准备曲速前进 长官  -我们走吧\N- Ready for warp, sir. - Let's punch it.
+Dialogue: 0,0:41:35.63,0:41:37.43,Default,,0000,0000,0000,,-我们在哪  -医疗部\N- Where are we? - Medical bay.
+Dialogue: 0,0:41:37.44,0:41:39.47,Default,,0000,0000,0000,,-这可不值得  -苦其体肤对灵魂有好处\N- This isn't worth it. - A little suffering's good for the soul.
+Dialogue: 0,0:41:39.47,0:41:40.94,Default,,0000,0000,0000,,你好啊\NHi, how are you?
+Dialogue: 0,0:41:41.24,0:41:43.25,Default,,0000,0000,0000,,我嘴巴痒痒 这正常吗\NMy mouth is itchy. Is that normal?
+Dialogue: 0,0:41:43.25,0:41:44.84,Default,,0000,0000,0000,,那些症状不会持续很久的\NWell, those symptoms won't last long.
+Dialogue: 0,0:41:44.84,0:41:46.75,Default,,0000,0000,0000,,我再给你一针中效镇静剂\NI'm going to give you a mild sedative.
+Dialogue: 0,0:41:46.75,0:41:47.97,Default,,0000,0000,0000,,我真希望不认识你\NOh, I wish I didn't know you.
+Dialogue: 0,0:41:47.97,0:41:49.64,Default,,0000,0000,0000,,别幼稚了\NDon't be such an infant.
+Dialogue: 0,0:41:51.24,0:41:53.34,Default,,0000,0000,0000,,这到底要多久...\NHow long is it supposed to...
+Dialogue: 0,0:41:53.34,0:41:55.44,Default,,0000,0000,0000,,难以置信\NUnbelievable.
+Dialogue: 0,0:41:56.24,0:41:57.54,Default,,0000,0000,0000,,引擎已至最大曲速  舰长\NEngines at maximum warp captain.
+Dialogue: 0,0:41:57.54,0:41:59.94,Default,,0000,0000,0000,,俄罗斯神童  你叫什么  柴可  切泼夫\NRussian whiz kid, what's your name? Cheikov? Chirpov?
+Dialogue: 0,0:41:59.94,0:42:03.14,Default,,0000,0000,0000,,-切科夫少尉  帕维尔·安德烈  长官  -好\N- Ensign Chekov, Pavel Andrejevic, sir. - Fine.
+Dialogue: 0,0:42:03.14,0:42:06.14,Default,,0000,0000,0000,,切科夫  帕维尔·安德烈  开始全舰任务广播\NChekov, Pavel Andrejevic, begin ship wide mission broadcast.
+Dialogue: 0,0:42:06.14,0:42:08.35,Default,,0000,0000,0000,,是  长官  乐意之至\NYes, sir. Happy to.
+Dialogue: 0,0:42:08.55,0:42:12.45,Default,,0000,0000,0000,,少尉级授权码  9-5-Wictor-Wictor-2\NEnsign authorization code 95 Wictor Wictor 2.
+Dialogue: 0,0:42:12.45,0:42:14.65,Default,,0000,0000,0000,,授权码无效\NAuthorization not recognized.
+Dialogue: 0,0:42:14.65,0:42:21.45,Default,,0000,0000,0000,,少尉级授权码  9-5-Victor-Victor-2\NEnsign authorization code 95 Victor Victor 2.
+Dialogue: 0,0:42:21.55,0:42:23.55,Default,,0000,0000,0000,,成功进入\NAccess granted.
+Dialogue: 0,0:42:23.55,0:42:26.55,Default,,0000,0000,0000,,请各位注意\NMay I have your attention please.
+Dialogue: 0,0:42:26.65,0:42:32.15,Default,,0000,0000,0000,,22:00  遥感勘测仪在中立地带发现异常现象\NAt 22:00, telemetry detected an anomaly in the neutral zone.
+Dialogue: 0,0:42:32.15,0:42:35.85,Default,,0000,0000,0000,,看着像是在宇宙间发生的雷暴\NWhat appeared to be a lightning storm in space.
+Dialogue: 0,0:42:35.85,0:42:40.76,Default,,0000,0000,0000,,不久后  舰队收到瓦肯议会发来的求救信号\NSoon after, Starfleet received a distress signal from the Vulcan high command
+Dialogue: 0,0:42:40.76,0:42:44.66,Default,,0000,0000,0000,,称他们的星球目前地壳活动剧烈\NThat their planet was experiencing seismic activity.
+Dialogue: 0,0:42:44.66,0:42:48.56,Default,,0000,0000,0000,,我们的使命  就是评估瓦肯星的情况\NOur mission is to assess the condition of Vulcan
+Dialogue: 0,0:42:48.56,0:42:52.56,Default,,0000,0000,0000,,在必要之时帮助其撤离\NAnd assist in evacuations if necessary.
+Dialogue: 0,0:42:52.56,0:42:57.76,Default,,0000,0000,0000,,三分钟内  我们将到达瓦肯星  谢谢您的收听\NWe should be arriving at Vulcan within 3 minutes. Thank you for your time.
+Dialogue: 0,0:42:58.86,0:43:00.76,Default,,0000,0000,0000,,雷暴\NLightning storm.
+Dialogue: 0,0:43:00.76,0:43:03.96,Default,,0000,0000,0000,,詹姆斯  你醒了  感觉如何\NAah Jim, you're awake. How do you feel?
+Dialogue: 0,0:43:04.87,0:43:07.57,Default,,0000,0000,0000,,-老天  -怎么了\N- Good God, man! - What? Aah!
+Dialogue: 0,0:43:09.27,0:43:12.57,Default,,0000,0000,0000,,-这他妈怎么回事  -疫苗过敏  该死\N- What the hell's this? - A reaction to the vaccine. Damn it.
+Dialogue: 0,0:43:12.57,0:43:15.17,Default,,0000,0000,0000,,夏蓓尔护士  我需要50毫升可的松\NNurse Chapel, I need 50cc of cortisone.
+Dialogue: 0,0:43:15.17,0:43:16.67,Default,,0000,0000,0000,,是  先生\NYes, sir.
+Dialogue: 0,0:43:18.87,0:43:22.47,Default,,0000,0000,0000,,请...像是在宇宙间发生的雷暴\NMay I... Appeared to be a lightning storm in space.
+Dialogue: 0,0:43:23.27,0:43:24.57,Default,,0000,0000,0000,,我们得把船停下\NWe've gotta stop the ship.
+Dialogue: 0,0:43:24.57,0:43:27.57,Default,,0000,0000,0000,,詹姆斯  我不是开玩笑  你得把心率降下来\NJim. I'm not kidding. You need to keep your heart rate down.
+Dialogue: 0,0:43:28.37,0:43:30.17,Default,,0000,0000,0000,,电脑  标示乘务员乌胡拉所在地\NComputer, locate crew member Uhura.
+Dialogue: 0,0:43:30.17,0:43:32.76,Default,,0000,0000,0000,,自从毕业后我还没见过这么糟糕的反应\NI haven't seen a reaction this severe since medical school.
+Dialogue: 0,0:43:32.76,0:43:35.78,Default,,0000,0000,0000,,-我们正驶向陷阱  -该死  詹姆斯  给我站好\N- We're flying into a trap! - Damn it, Jim! Stand still.
+Dialogue: 0,0:43:36.88,0:43:38.98,Default,,0000,0000,0000,,住手\NStop it!
+Dialogue: 0,0:43:47.08,0:43:49.29,Default,,0000,0000,0000,,-乌胡拉  乌胡拉...  -柯克  你在这做什么\N- Uhura, Uhura... - Kirk. What're you doing here?
+Dialogue: 0,0:43:49.29,0:43:51.13,Default,,0000,0000,0000,,从克林贡囚星发来的信号  具体说什么\NTransmission from the Klingon prison planet, what exactly did it say?
+Dialogue: 0,0:43:51.13,0:43:53.48,Default,,0000,0000,0000,,见鬼  你的手怎么了\NOh my God, what's wrong with your hands?
+Dialogue: 0,0:43:53.48,0:43:55.78,Default,,0000,0000,0000,,是谁攻击了克林贡人\NWho is responsible for the Klingon attack?
+Dialogue: 0,0:43:55.78,0:43:58.28,Default,,0000,0000,0000,,-那舰船...  -那舰船怎么了\N- And was the ship Romu...? - Was the ship what?
+Dialogue: 0,0:43:58.28,0:44:00.32,Default,,0000,0000,0000,,-我的嘴巴怎么了  -舌头麻痹\N- What's happening to my mouth? - You got numb tongue?
+Dialogue: 0,0:44:00.32,0:44:02.58,Default,,0000,0000,0000,,-舌头麻痹  -我能解决\N- Numb tongue?! - I can fix that.
+Dialogue: 0,0:44:02.59,0:44:04.62,Default,,0000,0000,0000,,-那舰船怎么了  -罗慕伦人\N- Was the ship what? - Romulan.
+Dialogue: 0,0:44:04.62,0:44:06.19,Default,,0000,0000,0000,,-什么  -罗慕伦人\N- What? - Romulan.
+Dialogue: 0,0:44:06.19,0:44:07.29,Default,,0000,0000,0000,,-罗慕伦人  -没错\N- Romulan? - Yeah.
+Dialogue: 0,0:44:07.29,0:44:09.39,Default,,0000,0000,0000,,-对  -对\N- Yes. - Yeah!
+Dialogue: 0,0:44:43.80,0:44:47.70,Default,,0000,0000,0000,,尼禄舰长  七艘联邦星舰飞过来了\NProd Nero seven Federation ships are on their way.
+Dialogue: 0,0:44:49.40,0:44:50.89,Default,,0000,0000,0000,,-詹姆斯  -发生什么了\N- Jim! - What's going on?
+Dialogue: 0,0:44:50.89,0:44:52.70,Default,,0000,0000,0000,,-詹姆斯  回来  -舰长\N- Jim, come back. - Captain!
+Dialogue: 0,0:44:52.70,0:44:54.30,Default,,0000,0000,0000,,派克舰长  我们必须停船\NCaptain Pike, sir, we have to stop the ship.
+Dialogue: 0,0:44:54.30,0:44:56.80,Default,,0000,0000,0000,,柯克  你是怎么登上进取号的\NKirk, how the hell did you get on board the Enterprise?
+Dialogue: 0,0:44:56.81,0:44:58.61,Default,,0000,0000,0000,,舰长  这家伙正在被疫苗的...\NCaptain, this man is under the influence of a...
+Dialogue: 0,0:44:58.61,0:45:00.20,Default,,0000,0000,0000,,-强烈过敏反应所影响  -老骨头  拜...\N- Severe reaction to a vaccine. - Bones, plea...
+Dialogue: 0,0:45:00.21,0:45:01.31,Default,,0000,0000,0000,,他现在完全是胡言乱语...\NHe's completely delusional...
+Dialogue: 0,0:45:01.31,0:45:03.51,Default,,0000,0000,0000,,瓦肯星正在经历的并非自然灾害\NVulcan is not a experiencing a natural disaster,
+Dialogue: 0,0:45:03.51,0:45:04.91,Default,,0000,0000,0000,,那是被罗慕伦人攻击了\NIt's being attacked by Romulans.
+Dialogue: 0,0:45:04.91,0:45:08.31,Default,,0000,0000,0000,,罗慕伦人  柯克  你今天得到的关注够多了...\NRomulans? Cadet Kirk, I think you've had enough attention for one day...
+Dialogue: 0,0:45:08.31,0:45:10.84,Default,,0000,0000,0000,,麦考伊  带他回医疗部去  我们一会儿再谈\NMcCoy, take him back to medical. We'll have words later.
+Dialogue: 0,0:45:10.84,0:45:12.71,Default,,0000,0000,0000,,-是 舰长  -长官  与此相同的异常现象...\N- Aye captain. - Sir, that same anomaly...
+Dialogue: 0,0:45:12.71,0:45:14.81,Default,,0000,0000,0000,,柯克先生无权登上此舰  舰长...\NMr. Kirk is not cleared to be aboard this vessel, captain...
+Dialogue: 0,0:45:14.81,0:45:16.21,Default,,0000,0000,0000,,我明白  你的辩论很了不起...\NLook, I get it, you're a great...
+Dialogue: 0,0:45:16.21,0:45:17.81,Default,,0000,0000,0000,,我很乐意再来一次...\NI'd love to do it again with you soon...
+Dialogue: 0,0:45:17.81,0:45:19.40,Default,,0000,0000,0000,,-我可以送走这学员...  -你试试看\N- I can remove the cadet... - Try it!
+Dialogue: 0,0:45:19.40,0:45:21.01,Default,,0000,0000,0000,,这名学员正试图拯救整个舰桥\NThis cadet is trying to save the bridge!
+Dialogue: 0,0:45:21.01,0:45:24.01,Default,,0000,0000,0000,,就要求肩负使命的星舰停止曲速飞行吗\NBy recommending a full stop mid-warp doing a rescue mission?
+Dialogue: 0,0:45:24.01,0:45:25.75,Default,,0000,0000,0000,,这不是救援任务  听我说  这是攻击\NIt's not a rescue mission. Listen to me. It's an attack.
+Dialogue: 0,0:45:25.75,0:45:28.42,Default,,0000,0000,0000,,基于何种理由\NBased on what facts?
+Dialogue: 0,0:45:29.42,0:45:32.52,Default,,0000,0000,0000,,与此相同的异常现象  在宇宙空间中的雷暴\NThat same anomaly, a lightning storm in space
+Dialogue: 0,0:45:32.52,0:45:34.52,Default,,0000,0000,0000,,我们今天见到的  我出生那天也发生过\NThat we saw today, also occurred on the day of my birth.
+Dialogue: 0,0:45:34.52,0:45:37.52,Default,,0000,0000,0000,,在一艘罗慕伦飞船攻击星舰开尔文号之前\NBefore a Romulan ship attacked the USS Kelvin.
+Dialogue: 0,0:45:37.52,0:45:39.62,Default,,0000,0000,0000,,您知道的  长官  我看过您的论文\NYou know that, sir. I've read your dissertation.
+Dialogue: 0,0:45:39.62,0:45:42.22,Default,,0000,0000,0000,,那艘拥有令人畏惧的先进武器的飞船\NThat ship, which had formidable and advanced weaponry...
+Dialogue: 0,0:45:42.22,0:45:44.12,Default,,0000,0000,0000,,之后没再有人见过或听说过\NWas never seen or heard from again.
+Dialogue: 0,0:45:44.12,0:45:46.16,Default,,0000,0000,0000,,开尔文号攻击战发生在克林贡星区边缘\NThe Kelvin attacked a place on the edge of Klingon space.
+Dialogue: 0,0:45:46.16,0:45:48.82,Default,,0000,0000,0000,,昨晚23:00  那里发生了一次战斗\NAnd at 23:00 last night there was an attack.
+Dialogue: 0,0:45:48.82,0:45:52.72,Default,,0000,0000,0000,,有47艘克林贡飞船被罗慕伦人摧毁  长官\N47 Klingon war birds destroyed by Romulans, sir.
+Dialogue: 0,0:45:52.72,0:45:55.86,Default,,0000,0000,0000,,据报告罗慕伦人乘坐的是一艘庞大的飞船\NAnd it was reported that the Romulans were in one ship, one massive ship.
+Dialogue: 0,0:45:55.86,0:45:58.83,Default,,0000,0000,0000,,你怎么知道这次克林贡人被袭的\NAnd you know of this Klingon attack how?
+Dialogue: 0,0:46:00.73,0:46:04.53,Default,,0000,0000,0000,,长官  是我截获并翻译了那条信息\NSir, I intercepted and translated the message myself.
+Dialogue: 0,0:46:04.73,0:46:07.46,Default,,0000,0000,0000,,-柯克的报告准确无误  -我们正飞向圈套  长官\N- Kirk's report is accurate. - We're warping into a trap, sir.
+Dialogue: 0,0:46:07.46,0:46:10.43,Default,,0000,0000,0000,,罗慕伦人正等着我们  我可以保证\NThe Romulans are waiting for us. I promise you that.
+Dialogue: 0,0:46:11.23,0:46:13.73,Default,,0000,0000,0000,,该学员的逻辑分析很有道理\NThe cadet's logic is sound.
+Dialogue: 0,0:46:13.93,0:46:16.17,Default,,0000,0000,0000,,乌胡拉中尉在外星语言学的造诣无人能及\NAnd Lt. Uhura's is unmatched in xenolinguistics.
+Dialogue: 0,0:46:16.17,0:46:17.83,Default,,0000,0000,0000,,我们应该明智地接受她的推论\NWe would be wise to accept her conclusion.
+Dialogue: 0,0:46:17.83,0:46:20.93,Default,,0000,0000,0000,,扫描瓦肯星域  彻查有无罗慕伦人的信号\NScan Vulcan space. Check for any transmissions in Romulan.
+Dialogue: 0,0:46:20.93,0:46:24.53,Default,,0000,0000,0000,,长官  我不确定能否辨别罗慕伦语和瓦肯语\NSir, I'm not sure I can distinguish the Romulan language from Vulcan.
+Dialogue: 0,0:46:24.54,0:46:26.47,Default,,0000,0000,0000,,你呢  你懂罗慕伦语吗  学员\NWhat about you? Do you speak Romulan, cadet?
+Dialogue: 0,0:46:26.47,0:46:28.14,Default,,0000,0000,0000,,乌胡拉  三种方言都懂  长官\NUhura. All 3 dialects, sir.
+Dialogue: 0,0:46:28.14,0:46:31.44,Default,,0000,0000,0000,,-乌胡拉  去接替中尉  -是  长官\N- Uhura, relieve the lieutenant. - Yes, sir.
+Dialogue: 0,0:46:31.44,0:46:32.94,Default,,0000,0000,0000,,汉妮蒂  呼叫联邦星舰杜鲁门号\NHannity, hail the USS Truman.
+Dialogue: 0,0:46:32.94,0:46:35.57,Default,,0000,0000,0000,,其他舰船已停止曲速飞行且抵达瓦肯星系\NAll the other ships are out of warp sir and have arrived at Vulcan,
+Dialogue: 0,0:46:35.57,0:46:37.84,Default,,0000,0000,0000,,但我们似乎失去了所有联系\Nbut we seem to have lost all contact.
+Dialogue: 0,0:46:37.84,0:46:42.44,Default,,0000,0000,0000,,长官  我在没有收到罗慕伦人或其他信号\NSir, I pick up no Romulan transmission or transmission of any kind in the area.
+Dialogue: 0,0:46:42.44,0:46:45.34,Default,,0000,0000,0000,,那因为他们被攻击了\NIt's because they're being attacked.
+Dialogue: 0,0:46:49.14,0:46:51.24,Default,,0000,0000,0000,,升起护盾  红色警戒\NShields up. Red alert.
+Dialogue: 0,0:46:53.15,0:46:55.75,Default,,0000,0000,0000,,五秒内抵达瓦肯星系\NArrival at Vulcan in 5 seconds.
+Dialogue: 0,0:46:55.75,0:46:59.35,Default,,0000,0000,0000,,4...3...2...\N4... 3... 2...
+Dialogue: 0,0:47:00.35,0:47:02.95,Default,,0000,0000,0000,,-紧急闪避  -遵命  长官\N- Emergency evasives. - Running, sir.
+Dialogue: 0,0:47:10.45,0:47:12.09,Default,,0000,0000,0000,,-受损情况报告  -偏针仪护盾正常\N- Damage report. - Deflector shields are holding.
+Dialogue: 0,0:47:12.09,0:47:14.75,Default,,0000,0000,0000,,所有单位  奥尔森轮机长  报告\NAll stations. Engineering, Olson, report.
+Dialogue: 0,0:47:24.16,0:47:26.06,Default,,0000,0000,0000,,整体翻转  右舷转向90度\NFull reverse. Come about starboard, 90'
+Dialogue: 0,0:47:26.06,0:47:28.16,Default,,0000,0000,0000,,苏鲁  降到它们底下去\NDrop us down underneath them, Sulu.
+Dialogue: 0,0:47:46.87,0:47:50.17,Default,,0000,0000,0000,,-长官  还有一艘联邦星舰  -照样毁掉\N- Sir, there's another Federation ship. - Destroy it too.
+Dialogue: 0,0:47:50.17,0:47:51.17,Default,,0000,0000,0000,,发射鱼雷\NFire torpedoes.
+Dialogue: 0,0:47:51.17,0:47:52.37,Default,,0000,0000,0000,,舰长  他们正用鱼雷锁定我们\NCaptain, they're locking torpedoes.
+Dialogue: 0,0:47:52.37,0:47:55.57,Default,,0000,0000,0000,,将引擎的所有备用能源都输送给前方护盾\NDivert auxiliary power from port nossel to forward shields.
+Dialogue: 0,0:48:02.67,0:48:05.27,Default,,0000,0000,0000,,-苏鲁  报告情况  -护盾32%\N- Sulu, status report. - Shields at 32%.
+Dialogue: 0,0:48:05.27,0:48:07.67,Default,,0000,0000,0000,,对方武器太强大  长官  我们无法再承受一次\NTheir weapons are powerful, sir. We can't take another hit like that.
+Dialogue: 0,0:48:07.67,0:48:09.37,Default,,0000,0000,0000,,-给我接星际舰队指挥部  -舰长\N- Get me Starfleet command. - Captain.
+Dialogue: 0,0:48:09.37,0:48:12.27,Default,,0000,0000,0000,,罗慕伦飞船将某种高能脉冲装置\NThe Romulan ship has lowered some kind of high energy pulse device
+Dialogue: 0,0:48:12.27,0:48:13.47,Default,,0000,0000,0000,,刺入瓦肯星的大气层\Ninto the Vulcan atmosphere.
+Dialogue: 0,0:48:13.47,0:48:16.37,Default,,0000,0000,0000,,它发出的讯号堵塞了我们的通信以及传送\NIt's signal appears to be blocking our communications and transporter abilities.
+Dialogue: 0,0:48:16.38,0:48:19.08,Default,,0000,0000,0000,,所有能量集中到前护盾  所有武器准备开火\NAll power to forward shields. Prepare to fire all weapons.
+Dialogue: 0,0:48:23.38,0:48:24.88,Default,,0000,0000,0000,,武器准备完毕\NWeapons ready.
+Dialogue: 0,0:48:24.88,0:48:26.38,Default,,0000,0000,0000,,等等\NWait!
+Dialogue: 0,0:48:26.48,0:48:29.78,Default,,0000,0000,0000,,-船身  把它放大  -是  长官\N- Gohol, magnify! - Yes, sir.
+Dialogue: 0,0:48:33.88,0:48:36.18,Default,,0000,0000,0000,,长官  他们致电过来\NCaptain, we're being hailed.
+Dialogue: 0,0:48:37.08,0:48:39.78,Default,,0000,0000,0000,,你们好\NHello.
+Dialogue: 0,0:48:40.18,0:48:42.88,Default,,0000,0000,0000,,我是克里斯托弗·派克舰长  您是哪位\NI am the captain Christopher Pike. To whom am I speaking?
+Dialogue: 0,0:48:43.18,0:48:45.18,Default,,0000,0000,0000,,克里斯托弗  我是尼禄\NHi Christopher. I am Nero.
+Dialogue: 0,0:48:45.39,0:48:47.99,Default,,0000,0000,0000,,你已经向星际联邦宣战  如果撤退\NYou've declared war against the Federation. Withdraw...
+Dialogue: 0,0:48:47.99,0:48:49.59,Default,,0000,0000,0000,,我还能同意在中立地点安排一次\NAnd I'll agree to arrange a conference...
+Dialogue: 0,0:48:49.59,0:48:51.29,Default,,0000,0000,0000,,与罗慕伦高层之间的会谈\NWith Romulan leadership at a neutral location.
+Dialogue: 0,0:48:51.29,0:48:55.89,Default,,0000,0000,0000,,我并不代表罗慕伦帝国  我们彼此独立\NI do not speak for the Empire. We stand apart.
+Dialogue: 0,0:48:56.89,0:49:00.89,Default,,0000,0000,0000,,就像你们那位瓦肯船员  不是么  斯波克\NAs does your Vulcan crew member. Isn't that right, Spock?
+Dialogue: 0,0:49:03.29,0:49:06.29,Default,,0000,0000,0000,,恕我冒昧  我相信你我并不相识吧\NPardon me, I do not believe that you and I are acquainted.
+Dialogue: 0,0:49:06.29,0:49:07.89,Default,,0000,0000,0000,,不  我们不认识\NNo, we're not.
+Dialogue: 0,0:49:07.89,0:49:09.79,Default,,0000,0000,0000,,还没认识\NNot yet.
+Dialogue: 0,0:49:09.79,0:49:13.29,Default,,0000,0000,0000,,斯波克  有样东西我要让你看看\NSpock, there's something I would like you to see.
+Dialogue: 0,0:49:14.60,0:49:18.80,Default,,0000,0000,0000,,派克舰长  你们的传送装置已经无效\NCaptain Pike, your transporter has been disabled.
+Dialogue: 0,0:49:18.80,0:49:22.80,Default,,0000,0000,0000,,你也看到了其他星舰的下场  你已别无选择\NAs you can see, by the rest of the armada, you have no choice.
+Dialogue: 0,0:49:23.20,0:49:27.60,Default,,0000,0000,0000,,你必须亲自驾驶飞船到纳拉达号进行谈判\NYou will man a shuttle. Come aboard the Narada for negotiations.
+Dialogue: 0,0:49:27.90,0:49:30.20,Default,,0000,0000,0000,,就这样\NThat is all.
+Dialogue: 0,0:49:38.50,0:49:40.50,Default,,0000,0000,0000,,-他会杀了你  你知道的  -你将不可能存活\N- They'll kill you, you know that. - Your survival is unlikely.
+Dialogue: 0,0:49:40.51,0:49:41.99,Default,,0000,0000,0000,,舰长  外交手段毫无用处\NCaptain, we gain nothing by diplomacy.
+Dialogue: 0,0:49:41.99,0:49:43.60,Default,,0000,0000,0000,,到那艘飞船上去是个错误\NGoing over to that ship is a mistake.
+Dialogue: 0,0:49:43.61,0:49:45.31,Default,,0000,0000,0000,,我也同意 你应该重新思考战略\NI too agree. You should rethink your strategy.
+Dialogue: 0,0:49:45.31,0:49:47.01,Default,,0000,0000,0000,,我明白\NI understand that.
+Dialogue: 0,0:49:47.71,0:49:51.11,Default,,0000,0000,0000,,我需要接受过高级近身搏击训练的士兵\NI need officers who've been trained in advanced hand to hand combat.
+Dialogue: 0,0:49:51.21,0:49:53.51,Default,,0000,0000,0000,,我受过训  长官\NI have training, sir.
+Dialogue: 0,0:49:53.61,0:49:55.51,Default,,0000,0000,0000,,跟我来\NCome with me.
+Dialogue: 0,0:49:55.51,0:49:57.91,Default,,0000,0000,0000,,柯克  你一起来  反正你也不该呆在这里\NKirk, you too. You're not supposed to be here anyway.
+Dialogue: 0,0:49:57.91,0:50:00.91,Default,,0000,0000,0000,,-切科夫  你负责掌舵  -遵命  舰长\N- Chekov, you have the con. - Aye, Captain.
+Dialogue: 0,0:50:21.62,0:50:23.72,Default,,0000,0000,0000,,准备好红色物质\NPrepare the red matter.
+Dialogue: 0,0:50:25.22,0:50:27.72,Default,,0000,0000,0000,,是  长官\NYes, sir.
+Dialogue: 0,0:51:04.84,0:51:06.92,Default,,0000,0000,0000,,没有传送器  我们没法将自己传离飞船\NWithout transporters we can't beam off the ship.
+Dialogue: 0,0:51:06.92,0:51:09.34,Default,,0000,0000,0000,,我们无法救援瓦肯人  我们完不成任务\NWe can't assist Vulcan. We can't do our job.
+Dialogue: 0,0:51:09.34,0:51:14.44,Default,,0000,0000,0000,,柯克 苏鲁 和奥尔森将从飞船进行太空跳伞\NMr. Kirk, Mr. Sulu and engineer Olson will space-jump from the shuttle.
+Dialogue: 0,0:51:14.44,0:51:17.24,Default,,0000,0000,0000,,你们要降落到他们伸进大气的那台机器上\NYou will land on that machine they've lowered into the atmosphere...
+Dialogue: 0,0:51:17.24,0:51:20.44,Default,,0000,0000,0000,,它扰乱了我们的传输  你们进去把它关掉\NThat's scrambling our gear, you'll get inside, you'll disable it...
+Dialogue: 0,0:51:20.44,0:51:22.04,Default,,0000,0000,0000,,然后你们就能被传送回船上\NThen you'll beam back to the ship.
+Dialogue: 0,0:51:22.04,0:51:25.44,Default,,0000,0000,0000,,斯波克先生  进取号现在由你指挥\NMr. Spock, I'm leaving you in command of the Enterprise.
+Dialogue: 0,0:51:25.54,0:51:28.14,Default,,0000,0000,0000,,传送与通信功能一旦恢复\NOnce we have transport capability and communication back up
+Dialogue: 0,0:51:28.14,0:51:31.14,Default,,0000,0000,0000,,你马上联系星际舰队  报告这里的一切情况\NYou'll contact Starfleet and report what the hell's going on here.
+Dialogue: 0,0:51:31.14,0:51:33.24,Default,,0000,0000,0000,,如果其他人都失败了  迅速撤退\NAnd if all else fails, fall back...
+Dialogue: 0,0:51:33.24,0:51:35.28,Default,,0000,0000,0000,,与在劳伦星系的舰队会合\NAnd rendezvous with the fleet in the Laurentian system.
+Dialogue: 0,0:51:35.28,0:51:36.84,Default,,0000,0000,0000,,柯克  我现在升你为大副\NKirk, I'm promoting you to first officer.
+Dialogue: 0,0:51:36.85,0:51:38.05,Default,,0000,0000,0000,,-什么  -舰长\N- What? - Captain?
+Dialogue: 0,0:51:38.05,0:51:41.35,Default,,0000,0000,0000,,抱歉  但我无法理解人类玩笑话的复杂性\NPlease, I apologize. The complexities of Human pranks escape me.
+Dialogue: 0,0:51:41.35,0:51:43.45,Default,,0000,0000,0000,,斯波克  这不是玩笑\NIt's not a prank, Spock.
+Dialogue: 0,0:51:43.45,0:51:46.65,Default,,0000,0000,0000,,我也不是舰长了  你才是\NAnd I am not the captain, you are.
+Dialogue: 0,0:51:47.15,0:51:49.05,Default,,0000,0000,0000,,我们走吧\NLet's go.
+Dialogue: 0,0:51:51.05,0:51:53.85,Default,,0000,0000,0000,,长官  我们毁掉那钻头后  你怎么办\NSir, after we knock out that drill, what happens to you?
+Dialogue: 0,0:51:53.85,0:51:55.65,Default,,0000,0000,0000,,我想  你可能得过来接我了\NI guess you have to come and get me.
+Dialogue: 0,0:51:56.05,0:51:59.15,Default,,0000,0000,0000,,小心驾驶这船  斯波克  她还是崭新的\NCareful with the ship, Spock. She's brand new.
+Dialogue: 0,0:52:09.96,0:52:12.54,Default,,0000,0000,0000,,-普利医生  请报告  -我是麦考伊\N- Dr. Puri, report. - It's McCoy.
+Dialogue: 0,0:52:12.54,0:52:15.56,Default,,0000,0000,0000,,普利医生在第六层甲板  他死了\NDoctor Puri was on deck 6. He's dead.
+Dialogue: 0,0:52:16.36,0:52:19.26,Default,,0000,0000,0000,,那你刚刚接过了他主任医官的职务\NThen you have just inherited his responsibility as chief medical officer.
+Dialogue: 0,0:52:19.26,0:52:21.96,Default,,0000,0000,0000,,是  说点我不知道的行不\NYeah, tell me something I don't know.
+Dialogue: 0,0:52:25.36,0:52:29.56,Default,,0000,0000,0000,,89号飞船  这里是联邦星舰进取号  你可以...\NShuttle 89, USS Enterprise, you are clear...
+Dialogue: 0,0:52:31.37,0:52:33.46,Default,,0000,0000,0000,,-炸药你带着吧  -当然\N- You've got the charges, right? - Oh yeah.
+Dialogue: 0,0:52:33.47,0:52:36.37,Default,,0000,0000,0000,,都等不及狠踹那些罗慕伦人了\NCan't wait to kick some Romulan ass.
+Dialogue: 0,0:52:36.37,0:52:39.17,Default,,0000,0000,0000,,-对  -当然\N- Yeah. - Oh yeah.
+Dialogue: 0,0:52:57.97,0:52:59.97,Default,,0000,0000,0000,,你接受过哪种搏击训练\NSo what kinda combat training do you have?
+Dialogue: 0,0:52:59.98,0:53:02.48,Default,,0000,0000,0000,,击剑\NFencing.
+Dialogue: 0,0:53:04.48,0:53:06.38,Default,,0000,0000,0000,,准备跳伞\NPre-jump.
+Dialogue: 0,0:53:10.08,0:53:13.98,Default,,0000,0000,0000,,飞船指挥官  你们已离开进取号领空\NShuttle commander, you are clear from USS Enterprise...
+Dialogue: 0,0:53:20.28,0:53:22.38,Default,,0000,0000,0000,,先生们  我们就要到达跳伞区域了\NGentlemen, we're approaching the drop zone.
+Dialogue: 0,0:53:22.38,0:53:25.28,Default,,0000,0000,0000,,你们只有一次机会降落到平台上\NYou have one shot to land on that platform.
+Dialogue: 0,0:53:25.28,0:53:28.59,Default,,0000,0000,0000,,他们可能有所防备  所以尽量晚点开降落伞\NThey may have defenses, so pull your chute as late as possible.
+Dialogue: 0,0:53:28.69,0:53:32.39,Default,,0000,0000,0000,,3...2...1\N3... 2... 1.
+Dialogue: 0,0:53:33.29,0:53:35.58,Default,,0000,0000,0000,,记住  进取号没法把你们传送回去\NRemember, the Enterprise won't be able to beam you back...
+Dialogue: 0,0:53:35.58,0:53:37.69,Default,,0000,0000,0000,,除非你们先关掉那钻头\NUntil you've turned off that drill.
+Dialogue: 0,0:53:39.39,0:53:41.09,Default,,0000,0000,0000,,祝你们好运\NGood luck.
+Dialogue: 0,0:54:01.90,0:54:04.80,Default,,0000,0000,0000,,外勤小队正在进入大气层  长官\NAway team is entering the atmosphere, sir.
+Dialogue: 0,0:54:04.80,0:54:06.90,Default,,0000,0000,0000,,两万米高空\N20000 m.
+Dialogue: 0,0:54:30.91,0:54:33.21,Default,,0000,0000,0000,,正在接近位于5800米处的平台\NApproaching the platform at 5800 m.
+Dialogue: 0,0:54:33.21,0:54:37.41,Default,,0000,0000,0000,,柯克呼叫进取号  目标距离 5000米\NKirk to Enterprise. Distance to target 5000 m.
+Dialogue: 0,0:54:39.91,0:54:41.91,Default,,0000,0000,0000,,离平台还有4600米\N4600 m from the platform.
+Dialogue: 0,0:54:41.91,0:54:43.61,Default,,0000,0000,0000,,离目标还剩4100米\N4100 m to target.
+Dialogue: 0,0:54:45.31,0:54:46.91,Default,,0000,0000,0000,,4000米\N4000 m.
+Dialogue: 0,0:54:46.91,0:54:49.31,Default,,0000,0000,0000,,3000米\N3000 m.
+Dialogue: 0,0:54:49.31,0:54:52.11,Default,,0000,0000,0000,,2000米  打开降落伞\N2000 m. Pull the chute.
+Dialogue: 0,0:54:57.02,0:55:00.62,Default,,0000,0000,0000,,-2000米  -快点  打开降落伞  奥尔森\N- 2000 m. - Pull your chute, Olson.
+Dialogue: 0,0:55:00.62,0:55:02.52,Default,,0000,0000,0000,,不  还不行  还不行\NNo, not yet. Not yet.
+Dialogue: 0,0:55:02.52,0:55:05.82,Default,,0000,0000,0000,,-1500米  -打开降落伞\N- 1500 m. - Open the chute!
+Dialogue: 0,0:55:06.02,0:55:09.02,Default,,0000,0000,0000,,-奥尔森 打开你的降落伞  -1000米\N- Olson, pull your chute! - 1000 m.
+Dialogue: 0,0:55:21.43,0:55:23.22,Default,,0000,0000,0000,,奥尔森\NOlson!
+Dialogue: 0,0:55:23.23,0:55:25.93,Default,,0000,0000,0000,,奥尔森死了 长官\NOlson is gone, sir.
+Dialogue: 0,0:55:45.53,0:55:47.33,Default,,0000,0000,0000,,柯克着陆了 长官\NKirk has landed, sir.
+Dialogue: 0,0:57:50.98,0:57:52.88,Default,,0000,0000,0000,,手给我 快点\NGimme your hand.
+Dialogue: 0,0:57:59.78,0:58:02.18,Default,,0000,0000,0000,,炸弹在奥尔森那\NOlson had the charges.
+Dialogue: 0,0:58:02.58,0:58:04.98,Default,,0000,0000,0000,,我知道\NI know.
+Dialogue: 0,0:58:05.88,0:58:08.98,Default,,0000,0000,0000,,-我们怎么办  -这样\N- What do we do? - This.
+Dialogue: 0,0:58:20.89,0:58:24.39,Default,,0000,0000,0000,,干扰信号消失  通信功能已经恢复\NThe jamming signal's gone. Transport abilities are reestablished.
+Dialogue: 0,0:58:24.39,0:58:26.39,Default,,0000,0000,0000,,传送控制中心恢复了  长官\NTransporter control is reengaged sir.
+Dialogue: 0,0:58:26.39,0:58:29.43,Default,,0000,0000,0000,,启动传感器  我要知道他们对星球做了什么\NCheck all gravitational sensors. I wanna know what they were doing to the planet.
+Dialogue: 0,0:58:29.43,0:58:32.39,Default,,0000,0000,0000,,是  指挥官  舰长  抱歉  舰长\NAye, Commander. Captain. Sorry, captain.
+Dialogue: 0,0:58:36.79,0:58:40.29,Default,,0000,0000,0000,,钻头被破坏  长官  不过我们已经钻至地核\NThe drill's been sabotaged sir but we have reached the planet's core.
+Dialogue: 0,0:58:40.30,0:58:42.80,Default,,0000,0000,0000,,发射红色物质\NLaunch red matter.
+Dialogue: 0,0:58:56.30,0:58:59.75,Default,,0000,0000,0000,,柯克呼叫进取号  他们往星球上发射了东西\NKirk to Enterprise. They just launched something at the planet...
+Dialogue: 0,0:58:59.75,0:59:01.50,Default,,0000,0000,0000,,直接进入他们刚钻的洞里\NThrough the hole they just drilled.
+Dialogue: 0,0:59:01.50,0:59:04.50,Default,,0000,0000,0000,,-听到了吗  进取号  -听到了  长官\N- Do you copy Enterprise? - Yes, sir.
+Dialogue: 0,0:59:05.00,0:59:08.20,Default,,0000,0000,0000,,舰长 引力传感器超过读数范围\NCaptain, gravitational sensors are off the scale.
+Dialogue: 0,0:59:08.21,0:59:13.01,Default,,0000,0000,0000,,如果我的计算正确  他们正制造一个奇异点\NIf my calculations are correct, they're creating a singularity...
+Dialogue: 0,0:59:13.01,0:59:16.51,Default,,0000,0000,0000,,足以吞噬整个星球\NThat will consume the planet.
+Dialogue: 0,0:59:17.91,0:59:21.51,Default,,0000,0000,0000,,他们在瓦肯星中心制造了一个黑洞\NThey're creating a black hole at the center of Vulcan?
+Dialogue: 0,0:59:21.51,0:59:23.01,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:59:23.01,0:59:25.11,Default,,0000,0000,0000,,星球还剩多少时间\NHow long does the planet have?
+Dialogue: 0,0:59:26.21,0:59:28.71,Default,,0000,0000,0000,,几分钟  长官  几分钟而已\NMinutes, sir. Minutes.
+Dialogue: 0,0:59:29.51,0:59:31.91,Default,,0000,0000,0000,,向瓦肯议会中心发出警报  撤离整个星球\NAlert Vulcan command center to signal a planet wide evacuation...
+Dialogue: 0,0:59:31.92,0:59:33.00,Default,,0000,0000,0000,,用所有频道 所有频率\NAll channels, all frequencies.
+Dialogue: 0,0:59:33.01,0:59:34.25,Default,,0000,0000,0000,,-斯波克  等等  -保持标准轨道\N- Spock, wait. - Maintain standard orbit.
+Dialogue: 0,0:59:34.25,0:59:36.11,Default,,0000,0000,0000,,-是  长官  -你去哪\N- Yes, sir. - Where are you going?
+Dialogue: 0,0:59:36.12,0:59:37.92,Default,,0000,0000,0000,,去撤离瓦肯长老会\NTo evacuate the Vulcan High Council.
+Dialogue: 0,0:59:37.92,0:59:39.42,Default,,0000,0000,0000,,他们的职责是保护我们的历史文化\NTheir task is to protect our cultural history,
+Dialogue: 0,0:59:39.42,0:59:41.55,Default,,0000,0000,0000,,-我的父母也在其中  -你不能把他们传上来吗\N- My parents will be among them. - Can't you beam them out?
+Dialogue: 0,0:59:41.55,0:59:44.02,Default,,0000,0000,0000,,那不可能  他们呆在卡催克方舟里\NThat is impossible. They will be in the Katric ark.
+Dialogue: 0,0:59:44.12,0:59:45.72,Default,,0000,0000,0000,,我得亲自去接他们\NI must get them myself.
+Dialogue: 0,0:59:45.72,0:59:49.02,Default,,0000,0000,0000,,-切科夫  你负责掌舵  -是\N- Chekov, you have the con. - Aye.
+Dialogue: 0,0:59:51.62,0:59:54.26,Default,,0000,0000,0000,,柯克呼叫进取号  把我们传出这里\NKirk to Enterprise. Beam us out of here.
+Dialogue: 0,0:59:54.26,0:59:56.22,Default,,0000,0000,0000,,请准备  正在锁定你们的信号\NStand by, locking on your signal.
+Dialogue: 0,0:59:56.52,0:59:59.02,Default,,0000,0000,0000,,-收起钻头  我们走吧  -是  长官\N- Retract the drill. Let's move out - Yes, sir.
+Dialogue: 0,0:59:59.02,1:00:00.92,Default,,0000,0000,0000,,收起钻头\NFold up.
+Dialogue: 0,1:00:03.23,1:00:06.23,Default,,0000,0000,0000,,我没法跟踪他们  别动  别动\NI can't lock on to them. Don't move. Don't move!
+Dialogue: 0,1:00:06.23,1:00:08.53,Default,,0000,0000,0000,,苏鲁\NHey, Sulu!
+Dialogue: 0,1:00:15.43,1:00:17.53,Default,,0000,0000,0000,,苏鲁\NSulu!
+Dialogue: 0,1:00:19.63,1:00:21.93,Default,,0000,0000,0000,,坚持住\NHold on.
+Dialogue: 0,1:00:23.43,1:00:25.93,Default,,0000,0000,0000,,我抓住你了  快打开我的降落伞\NI've gotcha. Now pull my chute.
+Dialogue: 0,1:00:32.04,1:00:36.34,Default,,0000,0000,0000,,柯克呼叫进取号  我们正在下落  没有降落伞\NKirk to Enterprise! We're falling without a chute!
+Dialogue: 0,1:00:36.34,1:00:37.40,Default,,0000,0000,0000,,快传我们上去\NBeam us up!
+Dialogue: 0,1:00:37.40,1:00:39.37,Default,,0000,0000,0000,,抱歉我追踪不上你们的信号\NI'm sorry I can't lock on to your signal.
+Dialogue: 0,1:00:39.37,1:00:41.24,Default,,0000,0000,0000,,-传我们上去  -你们移动太快了\N- Beam us up! - You're moving too fast.
+Dialogue: 0,1:00:41.24,1:00:44.04,Default,,0000,0000,0000,,我能做到  我能做到\NI can do that. I can do that!
+Dialogue: 0,1:00:44.24,1:00:46.04,Default,,0000,0000,0000,,-你掌舵  -是  长官\N- Take the con. - Aye, sir.
+Dialogue: 0,1:00:46.04,1:00:47.64,Default,,0000,0000,0000,,黑洞正在扩张\NThe black hole's expanding.
+Dialogue: 0,1:00:47.64,1:00:50.49,Default,,0000,0000,0000,,不马上离开  我们就无法到达最小安全距离\NWe won't reach minimum safe distance if we don't leave immediately.
+Dialogue: 0,1:00:51.74,1:00:54.54,Default,,0000,0000,0000,,让开  让开 我能做到  我能做到  让开  让开\NMove. Move... I can do that. I can do that. Move. Move...
+Dialogue: 0,1:00:56.64,1:00:59.94,Default,,0000,0000,0000,,-让我人工控制  我能追踪到他们  -传我们上去\N- Give me manual control, I can lock on. - Beam us up!
+Dialogue: 0,1:01:00.85,1:01:04.15,Default,,0000,0000,0000,,-进取号  你们在干嘛  -坚持住  坚持住  坚持住\N- Enterprise, where are you? - Hold on. Hold on! Hold on!
+Dialogue: 0,1:01:04.75,1:01:09.15,Default,,0000,0000,0000,,现在  现在  就现在  快啊  现在  现在\NNow! Now! Now! Do it now! Now! Now! Now!
+Dialogue: 0,1:01:09.15,1:01:15.05,Default,,0000,0000,0000,,坚持住  坚持住  修正重力牵引作用  然后...\NHold on. Hold on. Compensating gravitational pull. Aaand...
+Dialogue: 0,1:01:18.45,1:01:19.95,Default,,0000,0000,0000,,搞定\NGotcha.
+Dialogue: 0,1:01:29.16,1:01:32.06,Default,,0000,0000,0000,,-谢谢  -不客气\N- Thanks. - No problem.
+Dialogue: 0,1:01:34.16,1:01:36.86,Default,,0000,0000,0000,,清空发射台  我要到地面去\NClear the pad. I'm beaming to the surface.
+Dialogue: 0,1:01:37.96,1:01:39.96,Default,,0000,0000,0000,,什么地面\NThe surface of what?
+Dialogue: 0,1:01:40.26,1:01:43.06,Default,,0000,0000,0000,,什么  你要下去  疯了吗\NWhat, you're going down there? Are you nuts?
+Dialogue: 0,1:01:43.06,1:01:45.86,Default,,0000,0000,0000,,-斯波克  你不能那么做  -启动\N- Spock, you can't do that. - Energize.
+Dialogue: 0,1:02:24.70,1:02:25.91,Default,,0000,0000,0000,,斯波克\NSpock?
+Dialogue: 0,1:02:25.91,1:02:28.28,Default,,0000,0000,0000,,星球仅剩几秒钟  我们必须离开\NThe planet has only seconds left, we must evacuate.
+Dialogue: 0,1:02:28.98,1:02:31.28,Default,,0000,0000,0000,,母亲  快走\NMother, now.
+Dialogue: 0,1:02:51.97,1:02:54.07,Default,,0000,0000,0000,,斯波克呼叫进取号  传我们上去\NSpock to Enterprise. Get us out now.
+Dialogue: 0,1:02:54.07,1:02:56.87,Default,,0000,0000,0000,,正在锁定  别动  呆在原地\NLocking on to you. Don't move. Stay right where you are.
+Dialogue: 0,1:03:02.87,1:03:07.97,Default,,0000,0000,0000,,传送准备  五  四  三  二...\NTransport in 5... 4... 3... 2...
+Dialogue: 0,1:03:09.77,1:03:13.78,Default,,0000,0000,0000,,-妈妈  -我要失去她了  我要失去她了\N- Mother! - I'm losing her! I'm losing her!...
+Dialogue: 0,1:03:14.28,1:03:16.78,Default,,0000,0000,0000,,我失去她了  我找不回她了\NI've lost her! I've lost her.
+Dialogue: 0,1:04:12.89,1:04:17.09,Default,,0000,0000,0000,,启动舰长日志  星际历2258.42\NActing captain's log, star date 2258.42.
+Dialogue: 0,1:04:18.29,1:04:21.29,Default,,0000,0000,0000,,派克舰长未能给我们发来只字片语\NWe have had no word from captain Pike.
+Dialogue: 0,1:04:22.19,1:04:23.85,Default,,0000,0000,0000,,因此我确定他已成为\NI have therefore classified him a hostage...
+Dialogue: 0,1:04:23.86,1:04:26.39,Default,,0000,0000,0000,,名为尼禄之战犯的人质\Nof the war criminal known as Nero...
+Dialogue: 0,1:04:26.79,1:04:32.09,Default,,0000,0000,0000,,尼禄  他毁了我的母星及其六十亿居民\NNero, who has destroyed my home planet and most of its 6 billion inhabitants.
+Dialogue: 0,1:04:33.19,1:04:35.40,Default,,0000,0000,0000,,虽然我们文化之精髓  因守护它的长老们\NWhile the essence of our culture has been saved...
+Dialogue: 0,1:04:35.40,1:04:38.19,Default,,0000,0000,0000,,登上这艘飞船而得以保存\Nin the elders who now reside upon this ship...
+Dialogue: 0,1:04:40.19,1:04:43.89,Default,,0000,0000,0000,,我估计幸存者不会超过一万人\NI estimate no more than 10000 have survived.
+Dialogue: 0,1:04:46.39,1:04:50.70,Default,,0000,0000,0000,,我现在成了濒危物种的一员\NI am now a member of an endangered species.
+Dialogue: 0,1:05:17.30,1:05:20.30,Default,,0000,0000,0000,,我很遗憾\NI'm sorry.
+Dialogue: 0,1:05:21.00,1:05:26.30,Default,,0000,0000,0000,,真的很遗憾\NI'm so sorry.
+Dialogue: 0,1:05:39.71,1:05:44.41,Default,,0000,0000,0000,,你需要什么  告诉我吧\NWhat do you need. Tell me. Tell me.
+Dialogue: 0,1:05:52.31,1:05:55.11,Default,,0000,0000,0000,,我要每个人...\NI need everyone...
+Dialogue: 0,1:05:55.51,1:05:59.11,Default,,0000,0000,0000,,都能继续出色工作\Nto continue performing admirably.
+Dialogue: 0,1:06:04.74,1:06:07.09,Default,,0000,0000,0000,,好的\NOkay.
+Dialogue: 0,1:06:25.52,1:06:28.22,Default,,0000,0000,0000,,你肯定有很多问题想问我\NYou must have a lotta questions for me.
+Dialogue: 0,1:06:28.52,1:06:31.32,Default,,0000,0000,0000,,我只有一个要问你的\NI only have one for you.
+Dialogue: 0,1:06:32.22,1:06:36.72,Default,,0000,0000,0000,,我要星际舰队  边境防护屏障的子空间频段\NI need the subspace frequencies of Starfleet's border protection grids.
+Dialogue: 0,1:06:36.72,1:06:40.12,Default,,0000,0000,0000,,尤其是包围着地球的\NSpecifically those surrounding Earth.
+Dialogue: 0,1:06:41.12,1:06:44.42,Default,,0000,0000,0000,,克里斯托弗  回答我的问题\NChristopher, answer my question.
+Dialogue: 0,1:06:44.42,1:06:45.53,Default,,0000,0000,0000,,不  你回答一下\NNo, you answer for the...
+Dialogue: 0,1:06:45.54,1:06:47.65,Default,,0000,0000,0000,,为何刚刚对一个和平的星球进行种族灭绝\NGenocide you just committed against a peaceful planet.
+Dialogue: 0,1:06:47.65,1:06:51.02,Default,,0000,0000,0000,,不  我避免了种族灭绝\NNo, I prevented genocide.
+Dialogue: 0,1:06:53.32,1:06:58.22,Default,,0000,0000,0000,,在我那时候来的那地方  这只是一艘采矿船\NIn my time, where I come from, this is a simple mining vessel.
+Dialogue: 0,1:06:58.32,1:07:01.62,Default,,0000,0000,0000,,我选择了用辛勤劳动\NI chose a life of honest labor.
+Dialogue: 0,1:07:01.62,1:07:05.52,Default,,0000,0000,0000,,来养活自己和即将分娩的妻子\Nto provide for myself and the wife who was expecting my child.
+Dialogue: 0,1:07:05.52,1:07:07.92,Default,,0000,0000,0000,,我那时离开了星球去工作...\NI was off planet doing my job...
+Dialogue: 0,1:07:07.92,1:07:10.42,Default,,0000,0000,0000,,而你们星际联邦就眼睁睁地...\NWhile your Federation did nothing.
+Dialogue: 0,1:07:10.42,1:07:14.03,Default,,0000,0000,0000,,坐视我的同胞们  随着星球爆炸而粉身碎骨\NAnd allowed my people to burn while their planet broke in half.
+Dialogue: 0,1:07:14.03,1:07:17.23,Default,,0000,0000,0000,,还有斯波克  他没来帮助我们  他背叛了我们\NAnd Spock, he didn't help us. He betrayed us.
+Dialogue: 0,1:07:17.23,1:07:19.43,Default,,0000,0000,0000,,不  你迷糊了  你的消息是错误的\NNo, no... you're confused. You're misinformed.
+Dialogue: 0,1:07:19.43,1:07:20.93,Default,,0000,0000,0000,,罗慕伦星球并未被毁\NRomulus hasn't been destroyed.
+Dialogue: 0,1:07:20.93,1:07:22.29,Default,,0000,0000,0000,,它现在好端端的\NIt's out there right now.
+Dialogue: 0,1:07:22.29,1:07:24.53,Default,,0000,0000,0000,,你为某件未曾发生的事情  而谴责星际联邦\NYou're blaming the Federation for something that hasn't happened...
+Dialogue: 0,1:07:24.53,1:07:27.83,Default,,0000,0000,0000,,它发生了  我亲眼看着它发生  我看到了\NIt has happened! I watched it happen! I saw it happen!
+Dialogue: 0,1:07:27.83,1:07:30.13,Default,,0000,0000,0000,,少跟我扯什么它没发生\NDon't tell me it didn't happen!
+Dialogue: 0,1:07:34.13,1:07:39.03,Default,,0000,0000,0000,,我失去她的那时  我向自己保证  要他们赔偿\NAnd when I lost her. I promised myself retribution.
+Dialogue: 0,1:07:39.03,1:07:43.23,Default,,0000,0000,0000,,25年来  我计划着  该如何向星际联邦寻仇\NAnd for 25 years I planned my revenge against the Federation.
+Dialogue: 0,1:07:43.23,1:07:46.83,Default,,0000,0000,0000,,忘记了所谓的正常生活是什么样\NAnd forgot what it was like to live a normal life.
+Dialogue: 0,1:07:46.83,1:07:49.53,Default,,0000,0000,0000,,但我没有忘记痛苦\NI did not forget the pain.
+Dialogue: 0,1:07:50.63,1:07:54.83,Default,,0000,0000,0000,,现在每一个幸存的瓦肯人都与我共享痛苦\NIt's a pain that every surviving Vulcan now shares.
+Dialogue: 0,1:07:55.83,1:07:57.93,Default,,0000,0000,0000,,我的目的  克里斯托弗\NMy purpose, Christopher,
+Dialogue: 0,1:07:57.94,1:07:59.24,Default,,0000,0000,0000,,不仅仅是\NIs to not simply...
+Dialogue: 0,1:07:59.24,1:08:02.44,Default,,0000,0000,0000,,让我所爱的家园免遭破坏\NAvoid the destruction of the home that I love...
+Dialogue: 0,1:08:03.34,1:08:08.94,Default,,0000,0000,0000,,还要建立一个  独立于联邦之外的罗慕伦\NBut to create a Romulus that exists free of the Federation.
+Dialogue: 0,1:08:11.14,1:08:15.04,Default,,0000,0000,0000,,只有到那时  她才能真正被拯救\NYou see only then will she be truly saved.
+Dialogue: 0,1:08:15.14,1:08:19.74,Default,,0000,0000,0000,,所以  我要摧毁  现存的每一个联邦星球\NThat is why I will destroy all the remaining Federation planets.
+Dialogue: 0,1:08:19.74,1:08:22.24,Default,,0000,0000,0000,,就从你的开始\NStarting with yours.
+Dialogue: 0,1:08:22.44,1:08:25.64,Default,,0000,0000,0000,,那我们就没什么好说的了\NThen we have nothing left to discuss.
+Dialogue: 0,1:08:29.14,1:08:32.74,Default,,0000,0000,0000,,你会告诉我  解除地球防御系统的频段的\NYou will give me the frequencies to disable Earth's defenses.
+Dialogue: 0,1:08:35.34,1:08:40.24,Default,,0000,0000,0000,,人马座蠕虫  它们会寄居到你的脑干上...\NCentaurian slugs. They latch on to your brain stem...
+Dialogue: 0,1:08:41.44,1:08:44.54,Default,,0000,0000,0000,,释放一种毒素  强迫你回答问题\NAnd release a toxin that will force you to answer.
+Dialogue: 0,1:08:45.55,1:08:48.15,Default,,0000,0000,0000,,频段  请说吧  先生\NFrequencies please, sir.
+Dialogue: 0,1:08:48.25,1:08:50.48,Default,,0000,0000,0000,,克里斯托弗·派克  联邦星舰进取号舰长...\NChristopher Pike, captain of the USS Enterprise...
+Dialogue: 0,1:08:50.48,1:08:52.25,Default,,0000,0000,0000,,如你所愿\NAs you wish.
+Dialogue: 0,1:08:59.55,1:09:01.25,Default,,0000,0000,0000,,你确定尼禄是往地球去了吗\NHave you confirmed that Nero is heading for Earth?
+Dialogue: 0,1:09:01.25,1:09:04.55,Default,,0000,0000,0000,,他们的行进轨道上  没有其他目的地  舰长\NTheir trajectory suggests no other destination, captain.
+Dialogue: 0,1:09:04.55,1:09:06.05,Default,,0000,0000,0000,,谢谢你  中尉\NThank you, It.
+Dialogue: 0,1:09:06.05,1:09:08.45,Default,,0000,0000,0000,,他的下一站或许是地球  但我们得假设...\NEarth may be his next stop, but we have to assume...
+Dialogue: 0,1:09:08.45,1:09:10.38,Default,,0000,0000,0000,,联邦的每一颗星球都是目标\NEvery Federation planet's a target.
+Dialogue: 0,1:09:10.39,1:09:11.95,Default,,0000,0000,0000,,从椅子上起来\NOut of the chair.
+Dialogue: 0,1:09:11.95,1:09:16.15,Default,,0000,0000,0000,,如果星际联邦是目标  为何不摧毁我们\NWell, if the Federation is the target, why didn't they destroy us?
+Dialogue: 0,1:09:16.15,1:09:18.03,Default,,0000,0000,0000,,他们干吗要  何必浪费武器\NWhy would they? Why waste a weapon?
+Dialogue: 0,1:09:18.03,1:09:19.15,Default,,0000,0000,0000,,我们显然不构成威胁\NWe obviously weren't a threat.
+Dialogue: 0,1:09:19.15,1:09:22.05,Default,,0000,0000,0000,,不是  他说  他要我看什么东西\NThat is not it. He said he wanted me to see something.
+Dialogue: 0,1:09:22.05,1:09:23.85,Default,,0000,0000,0000,,我母星的毁灭\NThe destruction of my home planet.
+Dialogue: 0,1:09:23.85,1:09:25.75,Default,,0000,0000,0000,,顺便问问  他们干吗那么做\NHow the hell did they do that, by the way?
+Dialogue: 0,1:09:25.75,1:09:28.05,Default,,0000,0000,0000,,罗慕伦人从哪得到的那种武器\NAnd where did the Romulans get that kind of weaponry?
+Dialogue: 0,1:09:28.05,1:09:31.75,Default,,0000,0000,0000,,人工制造出黑洞所需的必备工程水平...\NThe engineering comprehension necessary to artificially create a black hole...
+Dialogue: 0,1:09:31.75,1:09:33.35,Default,,0000,0000,0000,,或许给出了答案\NMay suggest an answer.
+Dialogue: 0,1:09:33.35,1:09:35.85,Default,,0000,0000,0000,,如此的技术水平  从理论上说...\NSuch technology could theoretically be manipulated...
+Dialogue: 0,1:09:35.86,1:09:38.06,Default,,0000,0000,0000,,完全能制造出穿越时空的隧道\Nto create a tunnel through space-time.
+Dialogue: 0,1:09:38.06,1:09:39.96,Default,,0000,0000,0000,,该死  哥们  我是医生  不是物理学家\NDamn it man, I am a doctor, not physicist.
+Dialogue: 0,1:09:39.96,1:09:42.16,Default,,0000,0000,0000,,你是当真认为  他们来自未来\NAre you actually suggesting they're from the future?
+Dialogue: 0,1:09:42.16,1:09:45.26,Default,,0000,0000,0000,,如果你排除不可能的  剩下来的无论多荒谬\NIf you eliminate the impossible, what ever remains, however improbable...
+Dialogue: 0,1:09:45.26,1:09:46.56,Default,,0000,0000,0000,,肯定都是事实\NMust be the truth.
+Dialogue: 0,1:09:46.56,1:09:47.56,Default,,0000,0000,0000,,真有诗意\NHow poetic.
+Dialogue: 0,1:09:47.56,1:09:49.56,Default,,0000,0000,0000,,那一个来自未来的愤怒罗慕伦人\NThen what would an angry future Romulan
+Dialogue: 0,1:09:49.56,1:09:51.19,Default,,0000,0000,0000,,想从派克舰长身上得到什么呢\NWant with captain Pike?
+Dialogue: 0,1:09:51.19,1:09:53.86,Default,,0000,0000,0000,,作为舰长  他当然清楚舰队的所有防御资料\NAs captain he does know details of Starfleet's defenses.
+Dialogue: 0,1:09:53.86,1:09:55.56,Default,,0000,0000,0000,,我们要做的就是追上那艘船\NWhat we need to do is catch up to that ship,
+Dialogue: 0,1:09:55.56,1:09:57.66,Default,,0000,0000,0000,,废掉它  接管过来  再带回派克\Ndisable it, take it over and get Pike back.
+Dialogue: 0,1:09:57.66,1:10:00.16,Default,,0000,0000,0000,,我们的技术  无论哪个方面都无法企及\NWe are technologically outmatched in every way.
+Dialogue: 0,1:10:00.16,1:10:02.16,Default,,0000,0000,0000,,试图拯救是极不合逻辑的\NA rescue attempt would be illogical.
+Dialogue: 0,1:10:02.16,1:10:05.06,Default,,0000,0000,0000,,尼禄的飞船不用曲速行进  我们才可能赶上\NNero's ship would have to drop out of warp for us to overtake it.
+Dialogue: 0,1:10:05.06,1:10:08.36,Default,,0000,0000,0000,,那不然派技术人员试着提高我们的曲速域\NThen what about assigning engineering crews to try and boost our warp yield?
+Dialogue: 0,1:10:08.36,1:10:10.46,Default,,0000,0000,0000,,剩下的人员都在修理底层甲板上的...\NRemaining power and crew are being used to repair radiation leaks...
+Dialogue: 0,1:10:10.46,1:10:12.36,Default,,0000,0000,0000,,-放射性泄漏...  -行了  行了\N- On the lower decks... - Okay. Alright. Alright.
+Dialogue: 0,1:10:12.36,1:10:13.38,Default,,0000,0000,0000,,以及子空间通信装置的损伤  没有它..\NThe damage communications. Without it...
+Dialogue: 0,1:10:13.38,1:10:14.86,Default,,0000,0000,0000,,-肯定能有办法的  -我们无法联络星际舰队\N- There's got to be some way. - We cannot contact Starfleet.
+Dialogue: 0,1:10:14.86,1:10:17.95,Default,,0000,0000,0000,,我们必须集合星际舰队其他飞船\NWe must gather with the rest of Starfleet.
+Dialogue: 0,1:10:17.95,1:10:19.66,Default,,0000,0000,0000,,才能在下次遭遇时与之相抗衡\NTo balance the terms of the next engagement,
+Dialogue: 0,1:10:19.66,1:10:21.16,Default,,0000,0000,0000,,不会有下一次遭遇了\NThere won't be a next engagement.
+Dialogue: 0,1:10:21.17,1:10:24.56,Default,,0000,0000,0000,,等我们集合  已经太迟了\NBy the time we gather it'll be too late.
+Dialogue: 0,1:10:24.57,1:10:26.70,Default,,0000,0000,0000,,可你说  他来自未来  他知道将会发生的事情\NLook, you say he's from the future and knows what's gonna happen...
+Dialogue: 0,1:10:26.70,1:10:29.17,Default,,0000,0000,0000,,那符合逻辑的方法  就是让自己无法预测\Nthen the logical thing is to be unpredictable.
+Dialogue: 0,1:10:29.17,1:10:32.57,Default,,0000,0000,0000,,你这是假设  尼禄知道事态将如何发展\NYou're assuming that Nero knows how event's are predicted to unfold.
+Dialogue: 0,1:10:32.57,1:10:35.12,Default,,0000,0000,0000,,恰恰相反  尼禄的出现已经完全改变了历史\NThe contrary. Nero's very presence has altered the flow of history...
+Dialogue: 0,1:10:35.12,1:10:36.97,Default,,0000,0000,0000,,从他对开尔文号星舰的攻击开始\NBeginning with the attack on the USS Kelvin,
+Dialogue: 0,1:10:36.97,1:10:38.32,Default,,0000,0000,0000,,直至今天达到顶峰\NCulminating with the events of today,
+Dialogue: 0,1:10:38.32,1:10:40.47,Default,,0000,0000,0000,,因而产生了一系列全新的事件...\NThereby creating an entire new chain of incidents...
+Dialogue: 0,1:10:40.47,1:10:43.47,Default,,0000,0000,0000,,那是双方都无法预测的\Nthat cannot be anticipated by either party.
+Dialogue: 0,1:10:43.47,1:10:45.57,Default,,0000,0000,0000,,一个平行宇宙\NAn alternate reality.
+Dialogue: 0,1:10:46.17,1:10:47.97,Default,,0000,0000,0000,,不错\NPrecisely.
+Dialogue: 0,1:10:47.97,1:10:49.66,Default,,0000,0000,0000,,不管我们的生活什么样\NWhatever our lives might have been
+Dialogue: 0,1:10:49.66,1:10:51.97,Default,,0000,0000,0000,,如果时间统一体被干扰了\NIf the time continuum was disrupted
+Dialogue: 0,1:10:52.37,1:10:54.67,Default,,0000,0000,0000,,我们的命运也就改变了\NOur destinies have changed.
+Dialogue: 0,1:10:54.67,1:10:57.27,Default,,0000,0000,0000,,苏鲁  确定前往劳伦星系的航线  曲速三前进\NMr. Sulu, plot a course for the Laurentian system. Warp factor 3.
+Dialogue: 0,1:10:57.27,1:10:58.67,Default,,0000,0000,0000,,斯波克  别那样\NSpock, don't do that.
+Dialogue: 0,1:10:58.67,1:11:03.17,Default,,0000,0000,0000,,回舰队所在地去开会  是对时间的极大浪费\NRunning back to the rest of the fleet for a con fab is a massive waste of time...
+Dialogue: 0,1:11:03.17,1:11:04.91,Default,,0000,0000,0000,,这是派克舰长离舰之前下的命令\NThese orders were issued by captain Pike when he left.
+Dialogue: 0,1:11:04.91,1:11:06.57,Default,,0000,0000,0000,,他也命令我们回去救他\NHe also ordered us to go back and get him.
+Dialogue: 0,1:11:06.58,1:11:08.78,Default,,0000,0000,0000,,斯波克  你现在是舰长  你必须得...\NSpock, you are captain now. You have...
+Dialogue: 0,1:11:08.79,1:11:10.07,Default,,0000,0000,0000,,我很明白我的职责  柯克先生\NI am aware of my responsibilities...
+Dialogue: 0,1:11:10.08,1:11:12.47,Default,,0000,0000,0000,,我们每浪费一秒  尼禄更接近他的下个目标\NEvery second we waste Nero's getting closer to his next target.
+Dialogue: 0,1:11:12.48,1:11:15.58,Default,,0000,0000,0000,,不错  所以我才告诉你接受事实\NThat is correct and why I'm instructing you to accept the fact that I'm...
+Dialogue: 0,1:11:15.58,1:11:19.58,Default,,0000,0000,0000,,我不能让我们回去...而不是去追踪尼禄\NI will not allow us to go backwards... ... instead of hunting Nero down.
+Dialogue: 0,1:11:19.58,1:11:22.58,Default,,0000,0000,0000,,卫兵  押他出去\NSecurity, escort him out.
+Dialogue: 0,1:11:30.98,1:11:33.08,Default,,0000,0000,0000,,-不  -詹姆斯\N- No. - Jim!
+Dialogue: 0,1:11:37.58,1:11:40.28,Default,,0000,0000,0000,,把他扔出船去\NGet him off this ship.
+Dialogue: 0,1:11:59.69,1:12:00.99,Default,,0000,0000,0000,,电脑  我在哪里\NComputer, where am I?
+Dialogue: 0,1:12:00.99,1:12:04.49,Default,,0000,0000,0000,,地点  织女三星  M级行星  危险\NLocation: Delta Vega. Class M planet. Unsafe.
+Dialogue: 0,1:12:04.49,1:12:08.39,Default,,0000,0000,0000,,西北方向14公里外有一星际舰队哨站\NThere is a Starfleet outpost 14km to the northwest.
+Dialogue: 0,1:12:08.39,1:12:12.49,Default,,0000,0000,0000,,-请呆在分离舱内...  -开什么玩笑\N- Remain in your pod... - Oh, you've gotta be kidding me.
+Dialogue: 0,1:12:54.50,1:12:58.70,Default,,0000,0000,0000,,星际历2258.42\NStar date 2258.42.
+Dialogue: 0,1:12:58.80,1:13:02.60,Default,,0000,0000,0000,,因为...因为...随便吧\N...For... for... Whatever.
+Dialogue: 0,1:13:02.60,1:13:06.30,Default,,0000,0000,0000,,执行舰长斯波克  将我流放到织女三星上\NActing captain Spock has marooned me on Delta Vega.
+Dialogue: 0,1:13:06.30,1:13:11.00,Default,,0000,0000,0000,,我估计是因为  违反了保安条例49.09\NWhat I believe to be a violation of security protocol 49.09
+Dialogue: 0,1:13:11.00,1:13:14.20,Default,,0000,0000,0000,,其对应处置  乃是将囚犯放在星...\NGoverning the treatment of prisoners aboard a starship.
+Dialogue: 0,1:15:24.03,1:15:27.33,Default,,0000,0000,0000,,詹姆斯·T·柯克\NJames T. Kirk.
+Dialogue: 0,1:15:28.03,1:15:30.83,Default,,0000,0000,0000,,-什么  -你怎么找到我的\N- Excuse me? - How did you find me?
+Dialogue: 0,1:15:32.53,1:15:35.23,Default,,0000,0000,0000,,你怎么知道我的名字\NHow do you know my name?
+Dialogue: 0,1:15:35.53,1:15:40.23,Default,,0000,0000,0000,,我曾经是  也永远都是你的朋友\NI have been and always shall be your friend.
+Dialogue: 0,1:15:43.13,1:15:45.77,Default,,0000,0000,0000,,听着  我不认识你\NLook, I don't know you.
+Dialogue: 0,1:15:45.77,1:15:49.13,Default,,0000,0000,0000,,我是斯波克\NI am Spock.
+Dialogue: 0,1:15:52.63,1:15:54.13,Default,,0000,0000,0000,,胡说\NBullshit.
+Dialogue: 0,1:15:54.14,1:15:57.34,Default,,0000,0000,0000,,能再见到你真是无比的高兴啊  老朋友\NIt is remarkably pleasing to see you again old friend.
+Dialogue: 0,1:15:57.44,1:16:00.64,Default,,0000,0000,0000,,尤其是在今天发生的一切之后\NEspecially after the events today.
+Dialogue: 0,1:16:02.04,1:16:04.04,Default,,0000,0000,0000,,先生  我很感激您今天给我的帮助\NSir, I appreciate what you did for me today
+Dialogue: 0,1:16:04.04,1:16:07.84,Default,,0000,0000,0000,,可如果您是斯波克  就该知道我们不是朋友\Nbut if you were Spock, you'd know we're not friends at all.
+Dialogue: 0,1:16:07.84,1:16:10.34,Default,,0000,0000,0000,,你恨我  你以抗命为名将我流放至此\NYou hate me. You marooned me here for mutiny.
+Dialogue: 0,1:16:10.34,1:16:12.34,Default,,0000,0000,0000,,-抗命  -是的\N- Mutiny? - Yes.
+Dialogue: 0,1:16:12.34,1:16:15.04,Default,,0000,0000,0000,,你不是舰长吗\NYou are not the captain?
+Dialogue: 0,1:16:17.44,1:16:21.64,Default,,0000,0000,0000,,不不  你才是舰长\NNo, no... You're the captain.
+Dialogue: 0,1:16:21.64,1:16:24.34,Default,,0000,0000,0000,,派克被抓去当人质了\NPike was taken hostage.
+Dialogue: 0,1:16:24.34,1:16:27.04,Default,,0000,0000,0000,,被尼禄吗\NBy Nero?
+Dialogue: 0,1:16:31.44,1:16:34.34,Default,,0000,0000,0000,,你对他了解多少\NWhat do you know about him?
+Dialogue: 0,1:16:34.34,1:16:37.84,Default,,0000,0000,0000,,他是个非常棘手的罗慕伦人\NHe is a particularly troubled Romulan.
+Dialogue: 0,1:16:38.34,1:16:41.15,Default,,0000,0000,0000,,请容许我...\NPlease. Allow me.
+Dialogue: 0,1:16:41.25,1:16:42.85,Default,,0000,0000,0000,,这样简单得多\NIt will be easier.
+Dialogue: 0,1:16:42.85,1:16:47.15,Default,,0000,0000,0000,,-你在做什么  -我们的思想  融为一体\N- Whoa, whoa. What are you doing? - Our minds, one and together.
+Dialogue: 0,1:16:48.95,1:16:55.55,Default,,0000,0000,0000,,再过129年  一颗恒星将会爆炸  银河可能被毁灭\N129 years from now, a star will explode and threaten to destroy the galaxy.
+Dialogue: 0,1:16:56.55,1:16:59.45,Default,,0000,0000,0000,,那就是我的来处  詹姆斯\NThat is where I'm from Jim.
+Dialogue: 0,1:16:59.45,1:17:01.55,Default,,0000,0000,0000,,未来\NThe future.
+Dialogue: 0,1:17:04.85,1:17:07.95,Default,,0000,0000,0000,,一颗恒星演化成超新星\NA star went supernova.
+Dialogue: 0,1:17:08.95,1:17:11.55,Default,,0000,0000,0000,,毁灭了其轨迹上的一切物体\NConsuming everything in its path.
+Dialogue: 0,1:17:11.55,1:17:15.55,Default,,0000,0000,0000,,我许诺过罗慕伦人  会去拯救他们的星球\NI promised the Romulans that I will save their planet.
+Dialogue: 0,1:17:20.35,1:17:23.36,Default,,0000,0000,0000,,我们装备了最快的飞船\NWe outfitted our fastest ship.
+Dialogue: 0,1:17:23.76,1:17:26.45,Default,,0000,0000,0000,,利用红色物质  我可以制造出一个黑洞\NUsing red matter I would create a black hole
+Dialogue: 0,1:17:26.46,1:17:29.86,Default,,0000,0000,0000,,让它吸收正在爆发的恒星\Nwhich would absorb the exploding star.
+Dialogue: 0,1:17:30.46,1:17:34.16,Default,,0000,0000,0000,,我还在路上时  难以置信的事情发生了\NI was on root when the unthinkable happened.
+Dialogue: 0,1:17:34.86,1:17:39.16,Default,,0000,0000,0000,,超新星摧毁了罗慕伦星\NThe supernova destroyed Romulus.
+Dialogue: 0,1:17:43.76,1:17:46.36,Default,,0000,0000,0000,,我没有时间\NI had little time.
+Dialogue: 0,1:17:47.96,1:17:52.56,Default,,0000,0000,0000,,只能提取出红物质  将它射入超新星\NI had to extract the red matter and shoot it into the supernova.
+Dialogue: 0,1:18:08.46,1:18:11.26,Default,,0000,0000,0000,,当我准备返航时  我被截击了\NAs I began my return trip I was intercepted.
+Dialogue: 0,1:18:11.27,1:18:15.46,Default,,0000,0000,0000,,他说自己叫尼禄  罗慕伦帝国的最后遗民\N- He called himself Nero, - ... collapse of Romulan Empire.
+Dialogue: 0,1:18:15.47,1:18:19.97,Default,,0000,0000,0000,,当我试图逃跑时  我们都被黑洞吸了进去\NIn my attempt to escape, both of us were pulled into the black hole.
+Dialogue: 0,1:18:27.97,1:18:32.17,Default,,0000,0000,0000,,尼禄先飞出来  他是首先到达的\NNero went through first. He was the first to arrive.
+Dialogue: 0,1:18:38.87,1:18:42.07,Default,,0000,0000,0000,,尼禄和他的同伴  花了25年的时间等我到来\NNero spent the next 25 years awaiting my arrival.
+Dialogue: 0,1:18:42.07,1:18:44.87,Default,,0000,0000,0000,,可  对于尼禄而言的几十年\NBut what was years for Nero
+Dialogue: 0,1:18:45.77,1:18:48.57,Default,,0000,0000,0000,,在我不过数秒之瞬\NWas only seconds for me.
+Dialogue: 0,1:18:48.77,1:18:51.77,Default,,0000,0000,0000,,我穿过了黑洞\NI went through the black hole.
+Dialogue: 0,1:18:53.07,1:18:56.87,Default,,0000,0000,0000,,尼禄在等着我\NNero was waiting for me.
+Dialogue: 0,1:19:01.28,1:19:05.08,Default,,0000,0000,0000,,他认为是我害他失去了自己的世界\NHe held me responsible for the loss of his world.
+Dialogue: 0,1:19:06.28,1:19:09.58,Default,,0000,0000,0000,,他逮住了我的飞船  却没有杀我\NHe captured my vessel and spared my life.
+Dialogue: 0,1:19:09.98,1:19:15.68,Default,,0000,0000,0000,,只为了一个原因  好让我了解他的痛苦\NFor one reason. So that I would know his pain.
+Dialogue: 0,1:19:17.08,1:19:21.78,Default,,0000,0000,0000,,他将我传送到这里  让我亲眼目睹他的复仇\NHe beamed me here so that I can observe his vengeance.
+Dialogue: 0,1:19:22.98,1:19:26.08,Default,,0000,0000,0000,,如他无力挽救自己的星球一般\NAs he was helpless to save his planet
+Dialogue: 0,1:19:26.08,1:19:30.48,Default,,0000,0000,0000,,我也该无力挽救我的\NI would be helpless to save mine.
+Dialogue: 0,1:19:32.08,1:19:36.48,Default,,0000,0000,0000,,几十亿条生灵因他而涂炭  詹姆斯\NBillions of lives lost because of me, Jim.
+Dialogue: 0,1:19:36.48,1:19:40.08,Default,,0000,0000,0000,,因为我失败了\NBecause I failed.
+Dialogue: 0,1:19:41.68,1:19:46.49,Default,,0000,0000,0000,,请原谅  情绪转移是思维融合的结果\NForgive me. Emotional transference is an effect of the mind meld.
+Dialogue: 0,1:19:52.99,1:19:56.19,Default,,0000,0000,0000,,-所以  你确实有感情  -当然\N- So you do feel. - Yes.
+Dialogue: 0,1:19:56.19,1:19:59.69,Default,,0000,0000,0000,,穿越时空  你改变了我们所有人的生活\NGoing back in time you changed all our lives.
+Dialogue: 0,1:19:59.99,1:20:03.39,Default,,0000,0000,0000,,詹姆斯  我们得走了\NJim! We must go.
+Dialogue: 0,1:20:03.39,1:20:06.39,Default,,0000,0000,0000,,离这不远有一处星际舰队的哨站\NThere is a Starfleet outpost not far from here.
+Dialogue: 0,1:20:07.29,1:20:09.59,Default,,0000,0000,0000,,等等\NWait.
+Dialogue: 0,1:20:09.59,1:20:12.49,Default,,0000,0000,0000,,你来的那地方\NWhere you came from...
+Dialogue: 0,1:20:13.89,1:20:16.49,Default,,0000,0000,0000,,我认识我父亲么\NDid I know my father?
+Dialogue: 0,1:20:16.89,1:20:18.69,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,1:20:18.69,1:20:22.69,Default,,0000,0000,0000,,你经常说  你加入星际舰队是因为他的鼓励\NYou often spoke of him as being your inspiration for joining Starfleet.
+Dialogue: 0,1:20:23.09,1:20:27.09,Default,,0000,0000,0000,,他看到了你成为进取号的舰长  并引以为豪\NHe proudly lived to see you become captain of the Enterprise.
+Dialogue: 0,1:20:27.09,1:20:28.39,Default,,0000,0000,0000,,舰长\NCaptain?
+Dialogue: 0,1:20:28.39,1:20:32.00,Default,,0000,0000,0000,,那艘我们必须尽快送你回去的飞船\NA ship we must return you to as soon as possible.
+Dialogue: 0,1:20:40.00,1:20:42.60,Default,,0000,0000,0000,,-曲速三  长官  -航向1-5-1  三号位\N- Warp 3, sir. - Course 151-3.
+Dialogue: 0,1:20:42.60,1:20:45.30,Default,,0000,0000,0000,,-劳伦星系  长官  -谢谢  先生们\N- Laurentian system, sir. - Thank you gentlemen.
+Dialogue: 0,1:20:45.30,1:20:49.50,Default,,0000,0000,0000,,-你想见我  -是的  医生\N- You wanted to see me? - Yes. Doctor.
+Dialogue: 0,1:20:50.10,1:20:52.40,Default,,0000,0000,0000,,我知道詹姆斯·柯克是你的一位朋友\NI am aware that James Kirk is a friend of yours.
+Dialogue: 0,1:20:52.40,1:20:55.33,Default,,0000,0000,0000,,我认识到  如你那般支持我是颇为困难的\NI recognize that supporting me as you did must have been difficult.
+Dialogue: 0,1:20:55.33,1:20:57.30,Default,,0000,0000,0000,,这算是感谢么\NIs that thank you?
+Dialogue: 0,1:20:57.30,1:21:00.30,Default,,0000,0000,0000,,我只是指出你的难处而已\NI am simply acknowledging your difficulties.
+Dialogue: 0,1:21:00.30,1:21:02.50,Default,,0000,0000,0000,,能允许我自由发言么  长官\NPermission to speak freely, sir.
+Dialogue: 0,1:21:03.20,1:21:05.70,Default,,0000,0000,0000,,-欢迎之至  -真的\N- I welcome it. - Do you?
+Dialogue: 0,1:21:05.90,1:21:09.50,Default,,0000,0000,0000,,很好  你那瓦肯脑袋疯了吗\NOkay then. Are you out of your Vulcan mind?
+Dialogue: 0,1:21:09.50,1:21:12.02,Default,,0000,0000,0000,,遣走柯克  你的选择符合逻辑\NAre you making a logical choice sending Kirk away?
+Dialogue: 0,1:21:12.02,1:21:13.90,Default,,0000,0000,0000,,可能吧  但正确的选择呢\NProbably. But the right one?
+Dialogue: 0,1:21:13.90,1:21:15.27,Default,,0000,0000,0000,,知道么  我们老家有句俗话\NBack home we've got a saying.
+Dialogue: 0,1:21:15.27,1:21:16.95,Default,,0000,0000,0000,,"要想在肯塔基赛马会上一展身手"\NIf you're gonna ride in the Kentucky derby...
+Dialogue: 0,1:21:16.95,1:21:19.20,Default,,0000,0000,0000,,"就别把最棒的种马留在厩里"\NYou don't leave your prize stallion in the stable...
+Dialogue: 0,1:21:19.20,1:21:23.00,Default,,0000,0000,0000,,有趣的隐喻  医生  因为种马发挥出潜能之前...\NA curious metaphor, Doctor, as a stallion must first be broken...
+Dialogue: 0,1:21:23.01,1:21:25.51,Default,,0000,0000,0000,,必须先被驯服\NBefore it can reach its potential.
+Dialogue: 0,1:21:25.51,1:21:28.01,Default,,0000,0000,0000,,天啊  你至少可以表现得  好像抉择艰难\NMy God man. You could at least act like it was a hard decision.
+Dialogue: 0,1:21:28.01,1:21:29.55,Default,,0000,0000,0000,,我正打算去帮忙...\NI intend to insist in the effort...
+Dialogue: 0,1:21:29.55,1:21:31.61,Default,,0000,0000,0000,,修复与星际舰队之间的通信\NTo reestablish communication with Starfleet.
+Dialogue: 0,1:21:31.61,1:21:33.71,Default,,0000,0000,0000,,不过  如果我呜咽着穿过走廊...\NHowever, if crew moral is better served...
+Dialogue: 0,1:21:33.71,1:21:35.51,Default,,0000,0000,0000,,能对士气起到更好的鼓舞作用\NBy my roaming the halls weeping...
+Dialogue: 0,1:21:35.51,1:21:39.31,Default,,0000,0000,0000,,我会很乐意遵从你的医学知识\NI would gladly defer to your medical expertise.
+Dialogue: 0,1:21:40.01,1:21:42.21,Default,,0000,0000,0000,,失陪\NExcuse me.
+Dialogue: 0,1:21:45.71,1:21:48.41,Default,,0000,0000,0000,,绿血死小鬼\NGreen blooded little goblin.
+Dialogue: 0,1:23:08.43,1:23:10.63,Default,,0000,0000,0000,,干嘛\NWhat?
+Dialogue: 0,1:23:13.63,1:23:15.83,Default,,0000,0000,0000,,你明白这有多令人无法接受吗\NYou realize how unacceptable this is?
+Dialogue: 0,1:23:15.83,1:23:17.53,Default,,0000,0000,0000,,-真有趣  -什么\N- Fascinating. - What?
+Dialogue: 0,1:23:17.53,1:23:18.93,Default,,0000,0000,0000,,好吧  我相信你们只是完成工作\NI am sure you're just doing your job,
+Dialogue: 0,1:23:18.93,1:23:20.33,Default,,0000,0000,0000,,可你们就不能来得更快一点点吗\NBut could you not come a wee bit sooner?
+Dialogue: 0,1:23:20.33,1:23:22.13,Default,,0000,0000,0000,,我在这呆了六个月了\NSix months I've been here.
+Dialogue: 0,1:23:22.13,1:23:25.23,Default,,0000,0000,0000,,就靠舰队的蛋白质棒和许诺的大餐撑下来\NLiving off Starfleet botty nips and a promise of a good meal.
+Dialogue: 0,1:23:25.23,1:23:27.73,Default,,0000,0000,0000,,我很清楚这是怎么回事  懂吗\NAnd I know exactly what's going on here.
+Dialogue: 0,1:23:27.73,1:23:29.98,Default,,0000,0000,0000,,惩罚  不是么  进行中的\NOk? Punishment, isn't it? Ongoing.
+Dialogue: 0,1:23:29.98,1:23:31.93,Default,,0000,0000,0000,,为了显然只是一起意外的事情\NFor something that was clearly an accident.
+Dialogue: 0,1:23:31.93,1:23:34.93,Default,,0000,0000,0000,,-你是蒙哥马利·斯科特  -你认识他\N- You are Montgomery Scott. - You know him?
+Dialogue: 0,1:23:34.93,1:23:36.93,Default,,0000,0000,0000,,对  就是我  你说对了\NYeah, it's me. You're in the right place.
+Dialogue: 0,1:23:36.93,1:23:40.03,Default,,0000,0000,0000,,除非附近还有个辛苦工作却快饿死的军官\NUnless there's another hard working equally starved Starfleet officer around.
+Dialogue: 0,1:23:40.03,1:23:42.94,Default,,0000,0000,0000,,-我  -给我闭嘴\N- Me. - Getup, shut up.
+Dialogue: 0,1:23:43.04,1:23:46.53,Default,,0000,0000,0000,,你根本不吃东西  你吃那么个...比如一个豆子\NYou aren't doing anything. You can eat, like, a bean and you're done.
+Dialogue: 0,1:23:46.54,1:23:48.73,Default,,0000,0000,0000,,就行了  我说的可是食物  真正的食物\NI'm talking about food, real food.
+Dialogue: 0,1:23:48.74,1:23:51.44,Default,,0000,0000,0000,,不过你们现在来了  谢天谢地  它在哪\NBut you're here now. So, thank you. Where is it?
+Dialogue: 0,1:23:51.44,1:23:53.54,Default,,0000,0000,0000,,你实际上是  那位斯科特先生\NYou are in fact a Mr. Scott...
+Dialogue: 0,1:23:53.54,1:23:55.54,Default,,0000,0000,0000,,你提出了  在曲速飞行中进行传送的假设\NWho postulated the theory of transwarp beaming?
+Dialogue: 0,1:23:55.54,1:23:59.04,Default,,0000,0000,0000,,我说的就是那个  你以为我为什么会在这里\NThat's what I'm talking about. How'd ya think I wound up here?
+Dialogue: 0,1:23:59.04,1:24:01.54,Default,,0000,0000,0000,,我跟我的导师争论了那么一次\NI had a little debate with my instructor on the issue...
+Dialogue: 0,1:24:01.54,1:24:03.24,Default,,0000,0000,0000,,关于相对论性物理学\NOf relativistic physics...
+Dialogue: 0,1:24:03.24,1:24:04.54,Default,,0000,0000,0000,,以及它对子空间航行的相符性\NAnd how it pertains to subspace travel.
+Dialogue: 0,1:24:04.54,1:24:07.24,Default,,0000,0000,0000,,他似乎认为  传送某物\NHe seemed to think that the range of transporting...
+Dialogue: 0,1:24:07.24,1:24:08.64,Default,,0000,0000,0000,,比如一个柚子  其最远范围\NSomething like a grapefruit...
+Dialogue: 0,1:24:08.64,1:24:10.54,Default,,0000,0000,0000,,只能在100公里内\NWas limited to about a 100 miles.
+Dialogue: 0,1:24:10.54,1:24:12.74,Default,,0000,0000,0000,,我告诉他  我不仅能把一个柚子  从一颗星球...\NI told him that I could not only beam a grapefruit...
+Dialogue: 0,1:24:12.74,1:24:14.34,Default,,0000,0000,0000,,传送到同一星系的另一颗星球上\NFrom one planet to the adjacent planet in the same system...
+Dialogue: 0,1:24:14.34,1:24:17.04,Default,,0000,0000,0000,,顺带一提  这容易得很\NWhich is easy by the way...
+Dialogue: 0,1:24:17.04,1:24:19.54,Default,,0000,0000,0000,,我还能传送活着的生物\NI could do it with a life form.
+Dialogue: 0,1:24:19.54,1:24:21.98,Default,,0000,0000,0000,,所以  我用阿齐将军的猎兔犬做实验\NSo, I tested it on admiral Archer's prize beagle.
+Dialogue: 0,1:24:21.98,1:24:24.04,Default,,0000,0000,0000,,-我知道那条狗  它怎么样了\NI know that dog. What happened to it?
+Dialogue: 0,1:24:24.04,1:24:25.84,Default,,0000,0000,0000,,等它再次出现时  我会告诉你的\NI'll tell you when it reappears.
+Dialogue: 0,1:24:25.84,1:24:27.44,Default,,0000,0000,0000,,我也不知道  对此我确实很有罪恶感\NI don't know. I do feel guilty about that.
+Dialogue: 0,1:24:27.44,1:24:30.44,Default,,0000,0000,0000,,如果我告诉你  你曲速传送的理论是正确的\NWhat if I told you that your transwarp theory was correct?
+Dialogue: 0,1:24:30.44,1:24:33.75,Default,,0000,0000,0000,,往正以曲速行驶的飞船上传送是可能的呢\NThat it is indeed possible to beam onto a ship that is travelling at warp speed?
+Dialogue: 0,1:24:33.75,1:24:36.35,Default,,0000,0000,0000,,要是那方程式被人发现过  我会听说的\NI think that if that equation had been discovered I'd have heard about it.
+Dialogue: 0,1:24:36.35,1:24:38.38,Default,,0000,0000,0000,,你之所以还没听说  斯科特先生\NThe reason you haven't heard of it, Mr. Scott,
+Dialogue: 0,1:24:38.38,1:24:41.35,Default,,0000,0000,0000,,是因为你还没发现它\NIs because you haven't discovered it yet.
+Dialogue: 0,1:24:46.15,1:24:50.05,Default,,0000,0000,0000,,-你来自未来么  -他是  我不是\N- Are you from the future? - He is. I'm not.
+Dialogue: 0,1:24:50.05,1:24:53.45,Default,,0000,0000,0000,,太酷了  那时候还有三明治不\NWell that's brilliant. Do they still have sandwiches there?
+Dialogue: 0,1:24:53.75,1:24:56.25,Default,,0000,0000,0000,,她是有那么一点点危险  护盾发射器...\NWell, she's a wee bit dodgy. Shield emitters are...
+Dialogue: 0,1:24:56.25,1:24:58.75,Default,,0000,0000,0000,,完全被咔嚓了  其他一些东西也是\NTotally bum jacked as well as a few other things.
+Dialogue: 0,1:24:58.75,1:25:00.75,Default,,0000,0000,0000,,走吧\NIn you go.
+Dialogue: 0,1:25:00.75,1:25:03.19,Default,,0000,0000,0000,,进取号开始她的处女航了  对吧\NSo, the Enterprise has had it's maiden voyage, has it?
+Dialogue: 0,1:25:03.19,1:25:04.95,Default,,0000,0000,0000,,她可是位娴雅淑女\NShe is one well endowed lady.
+Dialogue: 0,1:25:04.95,1:25:07.35,Default,,0000,0000,0000,,我真希望能亲手碰碰她的引擎舱\NI'd like to get my hands on her ample nossels,
+Dialogue: 0,1:25:07.35,1:25:09.65,Default,,0000,0000,0000,,如果你能听懂轮机师隐语的话\NIf you'd pardon the engineering parlance.
+Dialogue: 0,1:25:11.25,1:25:13.39,Default,,0000,0000,0000,,除了一点  就算我相信你吧\NExcept, the thing is, even if I believed you.
+Dialogue: 0,1:25:13.39,1:25:15.39,Default,,0000,0000,0000,,你来的那地方  我做过的事情\NWhere you're from, what I've done...
+Dialogue: 0,1:25:15.39,1:25:17.39,Default,,0000,0000,0000,,顺带一提  我还没做过\NWhich I don't, by the way.
+Dialogue: 0,1:25:17.39,1:25:19.75,Default,,0000,0000,0000,,你所说的可是传送到正以快过光速行驶的...\NWe're still talking about beaming aboard the Enterprise...
+Dialogue: 0,1:25:19.76,1:25:22.66,Default,,0000,0000,0000,,进取号上  而且它上面还没有适合的接受台\NWhile she's travelling faster than light without a proper receiving pad.
+Dialogue: 0,1:25:22.66,1:25:25.66,Default,,0000,0000,0000,,给我出去  这可不是攀登架\NGet off there. It's not a climbing frame.
+Dialogue: 0,1:25:25.66,1:25:26.96,Default,,0000,0000,0000,,曲速传送  其实就像是\NThe notion of transwarp beaming...
+Dialogue: 0,1:25:26.96,1:25:30.36,Default,,0000,0000,0000,,企图用较小的一颗子弹去打中另一颗...\NIs like trying to hit a bullet with a smaller bullet...
+Dialogue: 0,1:25:30.36,1:25:33.36,Default,,0000,0000,0000,,而且是蒙着眼睛骑在马上这么做\Nwhilst wearing a blindfold, riding a horse.
+Dialogue: 0,1:25:33.36,1:25:34.36,Default,,0000,0000,0000,,那是什么\NWhat's that?
+Dialogue: 0,1:25:34.36,1:25:38.26,Default,,0000,0000,0000,,你提出的能完成曲速传送的方程\NYour equation for achieving transwarp beaming.
+Dialogue: 0,1:25:39.96,1:25:42.46,Default,,0000,0000,0000,,免了吧\NYou're out of it...
+Dialogue: 0,1:25:45.16,1:25:47.66,Default,,0000,0000,0000,,想象一下  我从没想到...\NImagine that. It never occurred to me...
+Dialogue: 0,1:25:47.66,1:25:49.76,Default,,0000,0000,0000,,空间也是会运动的...\NTo think of space as the thing that was moving...
+Dialogue: 0,1:25:49.76,1:25:52.46,Default,,0000,0000,0000,,你跟我们一起来吗\NYou're coming with us, right?
+Dialogue: 0,1:25:53.66,1:25:56.56,Default,,0000,0000,0000,,不  詹姆斯  那不是我的命运\NNo, Jim. That is not my destiny.
+Dialogue: 0,1:25:56.66,1:25:58.96,Default,,0000,0000,0000,,你的命...\NYour dest...
+Dialogue: 0,1:25:58.96,1:26:01.40,Default,,0000,0000,0000,,他...那个斯波克不会相信我的  只有你能解释...\NHe. The other Spock is not gonna believe me, only you can explain...
+Dialogue: 0,1:26:01.40,1:26:03.30,Default,,0000,0000,0000,,-清楚发生的一切  -无论何种情况下...\N- What the hell has happened. - Under no circumstances...
+Dialogue: 0,1:26:03.30,1:26:04.26,Default,,0000,0000,0000,,都不能让他得知...\NCan he be made aware...
+Dialogue: 0,1:26:04.27,1:26:06.26,Default,,0000,0000,0000,,我的存在  你必须向我保证\NOf my existence. You must promise me this.
+Dialogue: 0,1:26:06.27,1:26:07.76,Default,,0000,0000,0000,,你是说  我不能告诉你...\NSo you're telling me I can't tell you...
+Dialogue: 0,1:26:07.77,1:26:10.16,Default,,0000,0000,0000,,我其实是遵循你的命令  为什么不  怎么了\NThat I'm following you're own orders, why not? What happens?
+Dialogue: 0,1:26:10.17,1:26:12.57,Default,,0000,0000,0000,,詹姆斯  这是你不能违反的规则\NJim, this is one rule you cannot break.
+Dialogue: 0,1:26:12.57,1:26:16.27,Default,,0000,0000,0000,,为了阻止尼禄  你必须独自指挥你的飞船\NTo stop Nero, you alone must take command of your ship.
+Dialogue: 0,1:26:16.27,1:26:18.10,Default,,0000,0000,0000,,怎么做  踩过你的尸体吗\NHow? Over your dead body?
+Dialogue: 0,1:26:18.10,1:26:19.17,Default,,0000,0000,0000,,希望不是\NPreferably, not.
+Dialogue: 0,1:26:19.17,1:26:22.37,Default,,0000,0000,0000,,不过  有星际舰队章程619\NHowever, there is Starfleet regulation 619.
+Dialogue: 0,1:26:22.37,1:26:25.77,Default,,0000,0000,0000,,619条规定了  任何指挥官...\N619 states that any command officer...
+Dialogue: 0,1:26:25.77,1:26:28.37,Default,,0000,0000,0000,,如果因情绪化危及手头任务\NWho is emotionally compromised by the mission at hand...
+Dialogue: 0,1:26:28.37,1:26:31.67,Default,,0000,0000,0000,,就必须放弃指挥权\NMust resign set command.
+Dialogue: 0,1:26:33.27,1:26:37.17,Default,,0000,0000,0000,,所以  你是说  我得在情感上伤害你们吗\NSo, you're saying that I have to emotionally compromise you... guys?
+Dialogue: 0,1:26:37.17,1:26:41.07,Default,,0000,0000,0000,,詹姆斯  我刚刚失去了我的母星\NJim, I just lost my planet.
+Dialogue: 0,1:26:41.47,1:26:45.47,Default,,0000,0000,0000,,我可以告诉你  我的情感受到极大损伤\NI can tell you, I am emotionally compromised.
+Dialogue: 0,1:26:45.47,1:26:48.27,Default,,0000,0000,0000,,你只需让我表现出来即可\NWhat you must do is get me to show it.
+Dialogue: 0,1:26:48.27,1:26:51.67,Default,,0000,0000,0000,,好了  老弟  是死是活  我们搏它一搏吧\NAye then lady. Live or die. Let's get this over with.
+Dialogue: 0,1:26:57.78,1:27:00.58,Default,,0000,0000,0000,,不  走开  你不能跟我来  走开啊\NYou cannot come with me. Go on.
+Dialogue: 0,1:27:01.08,1:27:06.18,Default,,0000,0000,0000,,知道么  回到现在  改变历史  那是作弊\NComing back in time, changing history, that's cheating.
+Dialogue: 0,1:27:07.98,1:27:11.38,Default,,0000,0000,0000,,我从一位老朋友那里学到的诡计\NA trick I learned from an old friend.
+Dialogue: 0,1:27:19.08,1:27:23.28,Default,,0000,0000,0000,,生生不息  繁荣昌盛\NLive long and prosper.
+Dialogue: 0,1:27:41.89,1:27:44.69,Default,,0000,0000,0000,,斯科特先生\NMr. Scott?
+Dialogue: 0,1:27:48.49,1:27:51.29,Default,,0000,0000,0000,,斯科特先生  能听到我说话吗\NMr. Scott, can you hear me?
+Dialogue: 0,1:27:58.29,1:28:01.79,Default,,0000,0000,0000,,坚持一下\NHold on a second.
+Dialogue: 0,1:28:18.29,1:28:20.19,Default,,0000,0000,0000,,不  不\NNo. No!
+Dialogue: 0,1:28:30.30,1:28:32.10,Default,,0000,0000,0000,,涡轮机排泄阀开启\NRELEASE VALVE.
+Dialogue: 0,1:28:38.70,1:28:42.20,Default,,0000,0000,0000,,涡轮机排泄阀开启\NPurifier release valve activated.
+Dialogue: 0,1:28:48.00,1:28:51.30,Default,,0000,0000,0000,,你没事吧  你没事吧\NYou all right? You all right?
+Dialogue: 0,1:28:52.60,1:28:55.30,Default,,0000,0000,0000,,我脑袋嗡嗡作响  全身湿漉漉  不过其他还好\NMy head's buzzing and I'm soaked, but otherwise I'm fine.
+Dialogue: 0,1:28:55.30,1:29:01.10,Default,,0000,0000,0000,,斯波克舰长  发现入侵者进入涡轮控制甲板\NCaptain Spock, detecting unauthorized access to water turbine control board.
+Dialogue: 0,1:29:01.10,1:29:03.50,Default,,0000,0000,0000,,调出视频记录\NBring up the video.
+Dialogue: 0,1:29:06.60,1:29:10.80,Default,,0000,0000,0000,,保安  封锁轮机甲板  涡轮三区有入侵者\NSecurity, seal the engineering deck. We have intruders in turbine section 3.
+Dialogue: 0,1:29:11.30,1:29:13.50,Default,,0000,0000,0000,,将激光枪设至击晕档\NSet phasers to stun.
+Dialogue: 0,1:29:24.51,1:29:26.71,Default,,0000,0000,0000,,站住\NHalt!
+Dialogue: 0,1:29:29.71,1:29:31.51,Default,,0000,0000,0000,,跟我来吧...\NCome with me...
+Dialogue: 0,1:29:31.51,1:29:34.21,Default,,0000,0000,0000,,小甜心\Ncupcake!
+Dialogue: 0,1:29:41.13,1:29:42.21,Default,,0000,0000,0000,,你是谁\NWho are you?
+Dialogue: 0,1:29:42.21,1:29:43.42,Default,,0000,0000,0000,,-我跟他一起的  -他跟我一起的\N- I'm with him. - He's with me.
+Dialogue: 0,1:29:43.42,1:29:44.81,Default,,0000,0000,0000,,我们正以曲速航行\NWe're travelling at warp speed.
+Dialogue: 0,1:29:44.81,1:29:46.71,Default,,0000,0000,0000,,你们是怎么传送到飞船上来的\NHow did you manage to beam aboard this ship?
+Dialogue: 0,1:29:46.71,1:29:48.21,Default,,0000,0000,0000,,你不是天才么  自己猜啊\NYou're the genius, you figure it out.
+Dialogue: 0,1:29:48.21,1:29:50.65,Default,,0000,0000,0000,,作为飞船的执行舰长  我命令你回答问题\NAs acting captain of this vessel I order you to answer the question.
+Dialogue: 0,1:29:50.65,1:29:53.61,Default,,0000,0000,0000,,我不想说  执行舰长\NWell I'm not telling, acting captain.
+Dialogue: 0,1:29:54.41,1:29:55.71,Default,,0000,0000,0000,,怎么\NWhat?
+Dialogue: 0,1:29:55.71,1:29:57.91,Default,,0000,0000,0000,,怎么了  这没法让你沮丧  是吧\NWhat now? That doesn't frustrate you, does it?
+Dialogue: 0,1:29:57.91,1:30:00.61,Default,,0000,0000,0000,,我不肯合作这点...没法让你生气吗\NMy lack of cooperation, that doesn't make you angry?
+Dialogue: 0,1:30:00.61,1:30:04.01,Default,,0000,0000,0000,,-你是舰队的一员么  -我...是  能给我条毛巾么\N- Are you a member of Starfleet? - Um... yes. Can I get a towel?
+Dialogue: 0,1:30:04.01,1:30:06.62,Default,,0000,0000,0000,,我命令你向我解释  你们怎么能够被传送至...\NUnder penalty of court martial I order you to explain to me
+Dialogue: 0,1:30:06.62,1:30:08.70,Default,,0000,0000,0000,,正以曲速飞行的飞船  否则就上军事法庭吧\NHow you were able to beam aboard the ship while moving at warp?
+Dialogue: 0,1:30:09.71,1:30:12.92,Default,,0000,0000,0000,,-别回答他  -你必须回答我\N- Don't answer him. - You will answer me.
+Dialogue: 0,1:30:14.32,1:30:17.62,Default,,0000,0000,0000,,-我还是哪边都不选好了  -你怎么了  斯波克\N- I'd rather not take sides. - What is it with you, Spock?
+Dialogue: 0,1:30:18.72,1:30:21.02,Default,,0000,0000,0000,,你的星球刚刚被毁\NYour planet was just destroyed,
+Dialogue: 0,1:30:21.02,1:30:23.92,Default,,0000,0000,0000,,你的母亲被杀了  你甚至不为所动\NYour mother murdered, and you're not even upset.
+Dialogue: 0,1:30:23.92,1:30:26.42,Default,,0000,0000,0000,,如果你以为  这些经历有可能...\NIf you are presuming that these experiences in any way...
+Dialogue: 0,1:30:26.42,1:30:28.82,Default,,0000,0000,0000,,对我指挥飞船的能力造成妨碍  你就错了\NImpede my ability to command this ship you are mistaking.
+Dialogue: 0,1:30:28.82,1:30:32.32,Default,,0000,0000,0000,,然而  是你说了  恐惧是指挥官的必需品\NAnd yet you were the one who said fear was necessary for command.
+Dialogue: 0,1:30:32.32,1:30:35.92,Default,,0000,0000,0000,,你看到他的船了吗  看到他做了什么不\NI mean, did you his ship? Did you see what he did?
+Dialogue: 0,1:30:36.12,1:30:38.62,Default,,0000,0000,0000,,-嗯  我当然看到了  -你到底怕  还是不怕呢\N- Yes, of course I did. - So are you afraid or aren't you?
+Dialogue: 0,1:30:38.62,1:30:41.61,Default,,0000,0000,0000,,我不用你来教导我情感的好处\NI will not allow you to lecture me about the merits of emotion.
+Dialogue: 0,1:30:41.61,1:30:43.02,Default,,0000,0000,0000,,-那你干嘛不阻止我  -离我远点  柯克先生\N- Then why don't you stop me? - Step away from me Mr. Kirk.
+Dialogue: 0,1:30:43.02,1:30:46.92,Default,,0000,0000,0000,,完全感觉不到愤怒是什么滋味  心碎呢\NWhat is it like not to feel anger or heartbreak?
+Dialogue: 0,1:30:46.92,1:30:48.32,Default,,0000,0000,0000,,再或者  想要肆无忌惮地...\NOr the need to stop at nothing...
+Dialogue: 0,1:30:48.32,1:30:50.52,Default,,0000,0000,0000,,为那个生下你的女人复仇的欲望\NTo avenge the death of the woman who gave birth to you.
+Dialogue: 0,1:30:50.53,1:30:52.46,Default,,0000,0000,0000,,-离我远点  -你什么都感觉不到\N- Back away from me. - You feel nothing!
+Dialogue: 0,1:30:52.46,1:30:55.33,Default,,0000,0000,0000,,你连算都懒得去算\NIt must not even compute for you.
+Dialogue: 0,1:30:55.33,1:30:57.83,Default,,0000,0000,0000,,-你从来没爱过她  -不\N- You never loved her! - No!
+Dialogue: 0,1:31:21.43,1:31:23.53,Default,,0000,0000,0000,,斯波克\NSpock.
+Dialogue: 0,1:31:59.94,1:32:02.74,Default,,0000,0000,0000,,医生  我不再适合这一职务了\NDoctor, I am no longer fit for duty.
+Dialogue: 0,1:32:02.74,1:32:08.44,Default,,0000,0000,0000,,因为我已受情绪影响  我在此放弃指挥权\NI relinquish my command based on the fact that I have been emotionally compromised.
+Dialogue: 0,1:32:08.74,1:32:11.64,Default,,0000,0000,0000,,请在航行日志上记录下时间日期\NPlease note the time and date in the ship's log.
+Dialogue: 0,1:32:37.85,1:32:40.05,Default,,0000,0000,0000,,我爱这艘飞船\NI like this ship.
+Dialogue: 0,1:32:40.05,1:32:42.35,Default,,0000,0000,0000,,太教人兴奋了\NYou know it's exciting.
+Dialogue: 0,1:32:44.15,1:32:47.45,Default,,0000,0000,0000,,恭喜啊  詹姆斯  现在我们没有舰长了\NWell congratulations, Jim. Now we've got no captain...
+Dialogue: 0,1:32:47.45,1:32:50.05,Default,,0000,0000,0000,,也没他妈的大副可取代他\NAnd no God damn first officer to replace him.
+Dialogue: 0,1:32:50.85,1:32:52.55,Default,,0000,0000,0000,,不  我们有\NYeah we do.
+Dialogue: 0,1:32:52.55,1:32:55.45,Default,,0000,0000,0000,,-什么  -派克让他当了大副\N- What? - Pike made him first officer.
+Dialogue: 0,1:32:55.45,1:32:58.85,Default,,0000,0000,0000,,-你开玩笑吧  -多谢支持\N- You've gotta be kidding me. - Thanks for the support.
+Dialogue: 0,1:33:01.35,1:33:05.85,Default,,0000,0000,0000,,我希望你知道自己在做什么  舰长\NI sure hope you know what you're doing, captain.
+Dialogue: 0,1:33:06.55,1:33:09.15,Default,,0000,0000,0000,,我也一样\NSo do I.
+Dialogue: 0,1:33:12.75,1:33:16.06,Default,,0000,0000,0000,,注意  进取号所有船员  我是詹姆斯·柯克\NAttention, crew of the Enterprise, this is James Kirk.
+Dialogue: 0,1:33:16.76,1:33:21.06,Default,,0000,0000,0000,,斯波克先生放弃指挥权  晋升我为执行舰长\NMr. Spock has resigned commission and advanced me to acting captain.
+Dialogue: 0,1:33:21.56,1:33:24.96,Default,,0000,0000,0000,,我明白大家都希望能与舰队会合\NI know you're all expecting a regroup with the fleet,
+Dialogue: 0,1:33:24.96,1:33:27.68,Default,,0000,0000,0000,,但我要改变航线  追踪往地球而去的敌舰\NBut I'm ordering a pursuit course of the enemy ship to Earth.
+Dialogue: 0,1:33:27.68,1:33:30.76,Default,,0000,0000,0000,,我要所有部门  在10分钟内做好战斗准备\NI want all departments at battle stations and ready in 10 minutes.
+Dialogue: 0,1:33:30.96,1:33:35.86,Default,,0000,0000,0000,,不是我们死  就是他们亡\NEither we're going down or they are.
+Dialogue: 0,1:33:35.96,1:33:37.96,Default,,0000,0000,0000,,柯克讲话完毕\NKirk out.
+Dialogue: 0,1:33:44.96,1:33:47.96,Default,,0000,0000,0000,,说出你的想法吧  斯波克\NSpeak your mind Spock.
+Dialogue: 0,1:33:49.86,1:33:51.86,Default,,0000,0000,0000,,那样很不明智\NThat would be unwise.
+Dialogue: 0,1:33:51.86,1:33:56.36,Default,,0000,0000,0000,,必要之事永远都不会不明智\NWhat is necessary is never unwise.
+Dialogue: 0,1:33:57.16,1:34:00.97,Default,,0000,0000,0000,,我仍像小时候一般好斗\NI am as conflicted as I once was as a child.
+Dialogue: 0,1:34:01.97,1:34:05.47,Default,,0000,0000,0000,,你永远都是两个世界的孩子\NYou will always be a child of two worlds.
+Dialogue: 0,1:34:06.67,1:34:10.07,Default,,0000,0000,0000,,我很感激这点\NI am grateful for this.
+Dialogue: 0,1:34:10.47,1:34:13.17,Default,,0000,0000,0000,,也感激有你\NAnd for you.
+Dialogue: 0,1:34:13.97,1:34:17.87,Default,,0000,0000,0000,,我对那个夺去母亲生命的人感到愤怒\NI feel anger for the one who took mother's life.
+Dialogue: 0,1:34:18.47,1:34:22.07,Default,,0000,0000,0000,,我无法控制的愤怒\NAn anger I cannot control.
+Dialogue: 0,1:34:24.97,1:34:30.97,Default,,0000,0000,0000,,我相信她会说\NI believe, as she would say...
+Dialogue: 0,1:34:31.27,1:34:34.47,Default,,0000,0000,0000,,"不必勉强"\NDo not try to.
+Dialogue: 0,1:34:34.47,1:34:39.67,Default,,0000,0000,0000,,有一次你问我  为何会娶你母亲\NYou asked me once why I married your mother.
+Dialogue: 0,1:34:43.27,1:34:46.77,Default,,0000,0000,0000,,我娶她是因为爱她\NI married her because I loved her.
+Dialogue: 0,1:34:53.88,1:34:56.91,Default,,0000,0000,0000,,无论如何我们都得悄悄地登上尼禄的飞船\NWhatever the case we need to get aboard Nero's ship undetected.
+Dialogue: 0,1:34:56.91,1:34:58.88,Default,,0000,0000,0000,,我们不能就那么挥着枪冲进去  詹姆斯\NJust can't just go in there guns blazing, Jim.
+Dialogue: 0,1:34:58.88,1:35:00.68,Default,,0000,0000,0000,,我告诉你..\NI'm telling you to...
+Dialogue: 0,1:35:00.68,1:35:03.58,Default,,0000,0000,0000,,-柯克舰长  柯克舰长  -什么事  切科夫先生\N- Captain Kirk. Captain Kirk. - Yes, Chekov. What is it?
+Dialogue: 0,1:35:03.58,1:35:06.18,Default,,0000,0000,0000,,基于纳拉达号  从瓦肯星系飞出的航线\NBased on the Nerada's course from Vulcan...
+Dialogue: 0,1:35:06.18,1:35:09.06,Default,,0000,0000,0000,,我预计尼禄会从土星飞过\NI have projected that Nero will travel pass Saturn.
+Dialogue: 0,1:35:09.07,1:35:12.58,Default,,0000,0000,0000,,就像你说的  不能让尼禄看到  不然会被摧毁\NLike you said we need to stay invisible to Nero or he'll destroy us.
+Dialogue: 0,1:35:12.58,1:35:15.18,Default,,0000,0000,0000,,如果斯科特先生  能让我们以曲速四前进\NIf Mr. Scott can get us to warp factor 4...
+Dialogue: 0,1:35:15.18,1:35:19.78,Default,,0000,0000,0000,,然后在土星卫星  比如泰坦星后面脱离曲速\NAnd if we drop out of warp behind one of Saturn's moons, say Titan.
+Dialogue: 0,1:35:19.78,1:35:22.28,Default,,0000,0000,0000,,土星光环的磁场畸变\NThe magnetic distortion from the planet's rings...
+Dialogue: 0,1:35:22.28,1:35:24.68,Default,,0000,0000,0000,,能保证我们不被尼禄的传感器察觉\NWill make us invisible to Nero's sensors.
+Dialogue: 0,1:35:24.68,1:35:27.18,Default,,0000,0000,0000,,在那里  只要钻头还未启动\NFrom there, as long as the drill is not activated...
+Dialogue: 0,1:35:27.18,1:35:28.62,Default,,0000,0000,0000,,我们可以被传送上敌舰\NWe can beam aboard the enemy ship.
+Dialogue: 0,1:35:28.62,1:35:30.98,Default,,0000,0000,0000,,不错  这个可行\NAye, that might work.
+Dialogue: 0,1:35:30.98,1:35:34.08,Default,,0000,0000,0000,,-等一下  小子  你几岁了  -17岁  长官\N- Wait a minute kid, how old are you? - 17, sir.
+Dialogue: 0,1:35:34.08,1:35:35.42,Default,,0000,0000,0000,,好极了  他才17岁\NOh good, he's 17.
+Dialogue: 0,1:35:35.42,1:35:37.08,Default,,0000,0000,0000,,医生\NDoctor.
+Dialogue: 0,1:35:37.09,1:35:40.99,Default,,0000,0000,0000,,切科夫先生是正确的  我可以证明他的理论\NMr. Chekov is correct. I can confirm his telemetry.
+Dialogue: 0,1:35:40.99,1:35:43.09,Default,,0000,0000,0000,,如果苏鲁先生  能够将我们带到特定位置\NIf Mr. Sulu is able to maneuver us into position
+Dialogue: 0,1:35:43.09,1:35:45.89,Default,,0000,0000,0000,,我可以传送到尼禄的船上  偷回黑洞装置\NI can beam aboard Nero's ship, steal back the black hole device
+Dialogue: 0,1:35:45.89,1:35:48.69,Default,,0000,0000,0000,,可能的话  再带回派克舰长\NAnd if possible bring back captain Pike.
+Dialogue: 0,1:35:48.69,1:35:51.29,Default,,0000,0000,0000,,我不会允许你那么做的  斯波克先生\NI won't allow you to do that Mr. Spock.
+Dialogue: 0,1:35:51.39,1:35:54.59,Default,,0000,0000,0000,,罗慕伦人与瓦肯人拥有共同的祖先\NRomulans and Vulcans share a common ancestry.
+Dialogue: 0,1:35:54.59,1:35:57.09,Default,,0000,0000,0000,,我们文化的相似之处可以令我更加容易地...\NOur cultural similarities will make it easier...
+Dialogue: 0,1:35:57.09,1:35:58.69,Default,,0000,0000,0000,,侵入飞船电脑\NFor me to access the ship's computer...
+Dialogue: 0,1:35:58.69,1:36:00.39,Default,,0000,0000,0000,,找出装置的所在地\NTo locate the device.
+Dialogue: 0,1:36:01.09,1:36:03.17,Default,,0000,0000,0000,,还有  我母亲是人类\NAlso my mother was human.
+Dialogue: 0,1:36:03.17,1:36:05.99,Default,,0000,0000,0000,,这使得地球成了我仅剩的家园\NWhich makes Earth the only home I have left.
+Dialogue: 0,1:36:12.59,1:36:14.79,Default,,0000,0000,0000,,那么  我跟你一起去\NI'm coming with you.
+Dialogue: 0,1:36:14.79,1:36:18.69,Default,,0000,0000,0000,,我想引用规章制度  可我知道你会不屑一顾\NI would cite regulation, but I know you will simply ignore it.
+Dialogue: 0,1:36:20.69,1:36:24.50,Default,,0000,0000,0000,,看看  我们已经开始彼此了解了\NSee? We are getting to know each other.
+Dialogue: 0,1:36:39.10,1:36:41.90,Default,,0000,0000,0000,,准备钻头\NPrepare the drill.
+Dialogue: 0,1:36:56.70,1:37:03.40,Default,,0000,0000,0000,,飞船停止  三  二  一\NAll stop in 3... 2... 1.
+Dialogue: 0,1:37:07.60,1:37:10.85,Default,,0000,0000,0000,,给我五秒钟  四分之一的脉冲推力\NGive me 1/4 impulse burst for 5 seconds.
+Dialogue: 0,1:37:10.86,1:37:12.77,Default,,0000,0000,0000,,剩下的我用推进器搞定  听我信号\NI'll do the rest with thrusters. On my mark.
+Dialogue: 0,1:37:12.77,1:37:14.20,Default,,0000,0000,0000,,好的\NAye.
+Dialogue: 0,1:37:14.21,1:37:15.91,Default,,0000,0000,0000,,开动\NFire.
+Dialogue: 0,1:37:42.01,1:37:45.06,Default,,0000,0000,0000,,传送室  我们已经在泰坦星上方\NTransporter room. We are in position above Titan.
+Dialogue: 0,1:37:45.06,1:37:48.16,Default,,0000,0000,0000,,真的  做得好  苏鲁先生  真厉害\NReally? Fine job Mr. Sulu, well done.
+Dialogue: 0,1:37:48.16,1:37:49.86,Default,,0000,0000,0000,,情况如何  斯考提\NHow are we Scotty?
+Dialogue: 0,1:37:49.87,1:37:52.31,Default,,0000,0000,0000,,难以置信  长官  飞船已经就位\NUnbelievably sir. The ship is in position.
+Dialogue: 0,1:37:55.41,1:37:57.31,Default,,0000,0000,0000,,无论发生何事  苏鲁先生\NWhatever happens Mr. Sulu,
+Dialogue: 0,1:37:57.32,1:37:59.71,Default,,0000,0000,0000,,如果你认为  我们已有战略优势\NIf you think you have the tactical advantage...
+Dialogue: 0,1:37:59.72,1:38:03.32,Default,,0000,0000,0000,,直接开火  不管我们是否还在船上  这是命令\NYou fire on that ship even if we're still on board. That's an order.
+Dialogue: 0,1:38:05.02,1:38:06.02,Default,,0000,0000,0000,,是  长官\NYes, sir.
+Dialogue: 0,1:38:06.02,1:38:09.52,Default,,0000,0000,0000,,等我们准备传送回来时  我们会联系进取号\NOtherwise we'll contact the Enterprise when we're ready to be beamed back.
+Dialogue: 0,1:38:09.92,1:38:12.72,Default,,0000,0000,0000,,祝您好运\NGood luck.
+Dialogue: 0,1:38:24.12,1:38:27.72,Default,,0000,0000,0000,,-我会回来的  -最好如此\N- I will be back. - You better be.
+Dialogue: 0,1:38:28.42,1:38:33.02,Default,,0000,0000,0000,,-我会一直监视着你的频率  -谢谢你  妮欧塔\N- I'll be monitoring your frequency. - Thank you, Nyota.
+Dialogue: 0,1:38:48.73,1:38:51.53,Default,,0000,0000,0000,,-她的名字原来是妮欧塔啊  -我无可奉告\N- So her first name's Nyota? - I have no comment on the matter.
+Dialogue: 0,1:38:51.53,1:38:54.71,Default,,0000,0000,0000,,好吧  如果那敌舰设计用的是普通常识的话\NOky doky then. If there's any common sense in the design of the enemy's ship
+Dialogue: 0,1:38:54.71,1:38:58.23,Default,,0000,0000,0000,,我应该会把你们送到货舱某处  不会被看到\NI should be putting you somewhere in the cargo bay, shouldn't be a soul in site.
+Dialogue: 0,1:38:58.23,1:39:00.03,Default,,0000,0000,0000,,启动吧\NEnergize.
+Dialogue: 0,1:39:42.74,1:39:45.44,Default,,0000,0000,0000,,舰长  有星际舰队的人上船来了\NCaptain, we have Starfleet officers aboard the ship.
+Dialogue: 0,1:39:45.44,1:39:48.74,Default,,0000,0000,0000,,-其中一个是瓦肯人  -不\N- One of them is Vulcan. - No.
+Dialogue: 0,1:39:52.54,1:39:55.04,Default,,0000,0000,0000,,阿伊尔\NAyel!
+Dialogue: 0,1:40:08.24,1:40:10.68,Default,,0000,0000,0000,,-我掩护你  -你确定\N- I'll cover ya. - Are you certain?
+Dialogue: 0,1:40:10.68,1:40:12.84,Default,,0000,0000,0000,,没错  我掩护\NYeah, I've gotcha.
+Dialogue: 0,1:40:31.85,1:40:35.95,Default,,0000,0000,0000,,你知道它在哪吗  黑洞装置\NDo you know where it is? The black hole device?
+Dialogue: 0,1:40:37.05,1:40:39.85,Default,,0000,0000,0000,,还有派克舰长\NAnd captain Pike.
+Dialogue: 0,1:41:01.25,1:41:03.05,Default,,0000,0000,0000,,快走\NMove.
+Dialogue: 0,1:41:03.25,1:41:05.95,Default,,0000,0000,0000,,他们已经启动了钻头\NThey have activated the drill.
+Dialogue: 0,1:41:06.25,1:41:07.95,Default,,0000,0000,0000,,通讯与传送都不能用了\NCommunication and transportation are inoperative.
+Dialogue: 0,1:41:07.95,1:41:09.55,Default,,0000,0000,0000,,苏鲁  拜托告诉我你抓到时机了\NSulu, please tell me you have them.
+Dialogue: 0,1:41:09.56,1:41:11.19,Default,,0000,0000,0000,,否则我们没法把他们传回来\NOtherwise we won't be able to beam them back.
+Dialogue: 0,1:41:11.19,1:41:13.76,Default,,0000,0000,0000,,柯克和斯波克现在只能靠自己了\NKirk and Spock are on their own now.
+Dialogue: 0,1:41:32.26,1:41:34.96,Default,,0000,0000,0000,,我预见到一个新的难题\NI foresee a complication. The design of this ship...
+Dialogue: 0,1:41:34.96,1:41:36.46,Default,,0000,0000,0000,,他们飞船设计的先进性  远远超乎我的预期\NIs far more advanced than I have anticipated.
+Dialogue: 0,1:41:36.46,1:41:39.36,Default,,0000,0000,0000,,声纹与脸部识别分析系统启动\NVoice print and face recognition analysis enabled.
+Dialogue: 0,1:41:39.36,1:41:41.56,Default,,0000,0000,0000,,欢迎回来  斯波克大使\NWelcome back ambassador Spock.
+Dialogue: 0,1:41:41.56,1:41:43.66,Default,,0000,0000,0000,,真是奇怪\NThat's weird.
+Dialogue: 0,1:41:44.36,1:41:47.36,Default,,0000,0000,0000,,电脑  你的制造者是谁\NComputer, what is your manufacturing origin?
+Dialogue: 0,1:41:47.36,1:41:52.56,Default,,0000,0000,0000,,星际历2387  由瓦肯科学院委托制造\NStar date 2387. Commissioned by the Vulcan Science Academy.
+Dialogue: 0,1:41:54.87,1:41:57.56,Default,,0000,0000,0000,,看来你一直对我隐瞒了某些重要信息\NIt appears that you have been keeping important information from me.
+Dialogue: 0,1:41:57.57,1:41:59.50,Default,,0000,0000,0000,,你能够让这东西飞起来  对吧\NYou'll be able to fly this thing, right?
+Dialogue: 0,1:41:59.50,1:42:01.77,Default,,0000,0000,0000,,有什么东西告诉我  我已经有这能力了\NSomething tells me I already have.
+Dialogue: 0,1:42:02.37,1:42:05.27,Default,,0000,0000,0000,,-祝你好运  -詹姆斯\N- Good luck. - Jim.
+Dialogue: 0,1:42:05.27,1:42:08.11,Default,,0000,0000,0000,,我们这计划的成功率  就统计学上来说...\NThe statistical likelihood that our plan will succeed...
+Dialogue: 0,1:42:08.11,1:42:09.87,Default,,0000,0000,0000,,-不到4.3%  -会起作用的\N- Is less than 4,3%. - It'll work.
+Dialogue: 0,1:42:09.87,1:42:11.77,Default,,0000,0000,0000,,万一我回不去  -请告诉乌胡拉中尉...\NIn the event that I do not return please tell Lt. Uhura...
+Dialogue: 0,1:42:11.77,1:42:14.37,Default,,0000,0000,0000,,斯波克  会奏效的\NSpock, it'll work.
+Dialogue: 0,1:42:24.37,1:42:26.47,Default,,0000,0000,0000,,不可思议\NFascinating.
+Dialogue: 0,1:42:34.27,1:42:37.67,Default,,0000,0000,0000,,相关程序启动\NStartup sequence initiated.
+Dialogue: 0,1:43:20.78,1:43:24.08,Default,,0000,0000,0000,,尼禄  命令你的人关掉钻头  不然我就...\NNero, order your men to disable the drill or I will...
+Dialogue: 0,1:43:33.49,1:43:37.19,Default,,0000,0000,0000,,我从地球历史中认识了你的脸\NI know your face from Earth's history.
+Dialogue: 0,1:44:21.60,1:44:25.00,Default,,0000,0000,0000,,詹姆斯·T·柯克被认为是个伟人\NJames T. Kirk was considered to be a great man.
+Dialogue: 0,1:44:25.00,1:44:27.90,Default,,0000,0000,0000,,他成为了联邦星舰进取号的舰长\NHe went on to captain the USS Enterprise.
+Dialogue: 0,1:44:27.90,1:44:29.80,Default,,0000,0000,0000,,但  那是在另一个世界\NBut that was another life.
+Dialogue: 0,1:44:29.80,1:44:33.20,Default,,0000,0000,0000,,被我夺走了的世界  正如我对你父亲所做的\NA life I will deprive you of just like I did your father.
+Dialogue: 0,1:45:05.51,1:45:10.01,Default,,0000,0000,0000,,尼禄舰长  瓦肯飞船被盗  钻头已被摧毁\NCaptain Nero. The Vulcan ship's been taken. The drill has been destroyed.
+Dialogue: 0,1:45:10.11,1:45:15.11,Default,,0000,0000,0000,,斯波克  斯波克\NSpock! Spock!
+Dialogue: 0,1:45:32.21,1:45:34.71,Default,,0000,0000,0000,,-开启一个通信频道  -是  长官\N- Open a channel. - Yes, sir.
+Dialogue: 0,1:45:35.31,1:45:38.61,Default,,0000,0000,0000,,斯波克  我就知道  一有机会我就该杀了你\NSpock, I knew I should have killed you when I had the chance.
+Dialogue: 0,1:45:38.61,1:45:40.65,Default,,0000,0000,0000,,我在此没收这艘非法获得的飞船\NI hereby confiscate this illegally obtained ship...
+Dialogue: 0,1:45:40.65,1:45:42.71,Default,,0000,0000,0000,,并命令你们无条件交出飞船投降\NAnd order you to surrender your vessel. No terms.
+Dialogue: 0,1:45:42.71,1:45:44.21,Default,,0000,0000,0000,,除掉那艘船\NThat ship... take it out.
+Dialogue: 0,1:45:44.21,1:45:48.02,Default,,0000,0000,0000,,-长官  如果引发红色物质...  -我要斯波克现在死\N- Sir, if you ignite the red matter.. - I want the Spock dead now!
+Dialogue: 0,1:46:03.02,1:46:04.85,Default,,0000,0000,0000,,-他进行曲速飞行了  -追上他\N- He went to warp. - Go after him.
+Dialogue: 0,1:46:04.85,1:46:06.52,Default,,0000,0000,0000,,是  长官\NYes, sir.
+Dialogue: 0,1:46:36.23,1:46:39.43,Default,,0000,0000,0000,,你们这物种比我预期的脆弱太多\NYour species is even weaker than I expected.
+Dialogue: 0,1:46:42.73,1:46:45.33,Default,,0000,0000,0000,,你连话都没法说\NYou can't even speak.
+Dialogue: 0,1:46:46.83,1:46:48.53,Default,,0000,0000,0000,,什么\NWhat?
+Dialogue: 0,1:46:48.53,1:46:51.53,Default,,0000,0000,0000,,我拿到了你的枪\NI got your gun.
+Dialogue: 0,1:47:16.83,1:47:18.23,Default,,0000,0000,0000,,他在做什么\NWhat's he doing?
+Dialogue: 0,1:47:18.23,1:47:21.63,Default,,0000,0000,0000,,斯波克大使  你正处于碰撞航线上\NAmbassador Spock, you are on a collision course.
+Dialogue: 0,1:47:21.63,1:47:24.04,Default,,0000,0000,0000,,发射所有武器\NFire everything.
+Dialogue: 0,1:47:30.04,1:47:34.34,Default,,0000,0000,0000,,导弹飞来  如果被击中  红色物质将被引发\NIncoming missiles. If the ship is hit, the red matter will be ignited.
+Dialogue: 0,1:47:34.34,1:47:36.84,Default,,0000,0000,0000,,明白\NUnderstood.
+Dialogue: 0,1:47:42.14,1:47:44.34,Default,,0000,0000,0000,,舰长  我发现了另一艘船\NCaptain, I've picked up another ship.
+Dialogue: 0,1:48:05.24,1:48:08.44,Default,,0000,0000,0000,,-你在这做什么  -遵循命令啊\N- What are you doing here? - Following orders.
+Dialogue: 0,1:48:28.45,1:48:31.05,Default,,0000,0000,0000,,进取号  就是现在\NEnterprise now!
+Dialogue: 0,1:48:52.95,1:48:55.35,Default,,0000,0000,0000,,时机正好啊  斯考提\NNice timing Scotty.
+Dialogue: 0,1:48:55.56,1:48:57.85,Default,,0000,0000,0000,,我还从没同时把三个人  自两个地方\NI've never beamed three people from two targets
+Dialogue: 0,1:48:57.86,1:48:59.65,Default,,0000,0000,0000,,传到同一个接收台上呢\NOnto one pad before.
+Dialogue: 0,1:48:59.66,1:49:02.86,Default,,0000,0000,0000,,-詹姆斯  -老骨头  -我扶住他了\N- Jim. - Bones. - I've got him.
+Dialogue: 0,1:49:05.36,1:49:07.86,Default,,0000,0000,0000,,真是太棒了\NThat was pretty good.
+Dialogue: 0,1:49:07.86,1:49:11.16,Default,,0000,0000,0000,,舰长  敌舰已丧失动力  他们的护盾消失了\NCaptain, the enemy ship is loosing power. They're shields are down.
+Dialogue: 0,1:49:11.16,1:49:13.76,Default,,0000,0000,0000,,-连线他们  -是\N- Hail them now. - Aye.
+Dialogue: 0,1:49:48.47,1:49:51.77,Default,,0000,0000,0000,,我是联邦星舰进取号舰长  詹姆斯·T·柯克\NThis is captain James T. Kirk of the USS Enterprise.
+Dialogue: 0,1:49:51.77,1:49:54.47,Default,,0000,0000,0000,,你们的飞船正处于危机之中  离奇异点太近\NYour ship is compromised. You're too close to the singularity
+Dialogue: 0,1:49:54.47,1:49:58.17,Default,,0000,0000,0000,,若没援助无法幸存  我们很乐意伸出援手\NTo survive without assistance which we are willing to provide.
+Dialogue: 0,1:50:00.67,1:50:02.57,Default,,0000,0000,0000,,舰长  你在做什么\NCaptain, what are you doing?
+Dialogue: 0,1:50:02.57,1:50:04.20,Default,,0000,0000,0000,,向他们表示怜悯  或许是与罗慕伦人...\NShowing them compassion may be the only way...
+Dialogue: 0,1:50:04.20,1:50:05.20,Default,,0000,0000,0000,,达成和平的唯一方式\NTo make peace with Romulus, Spock.
+Dialogue: 0,1:50:05.20,1:50:08.57,Default,,0000,0000,0000,,很合逻辑  斯波克  我想你会喜欢的\NIt's logical, Spock. Thought you'd like that.
+Dialogue: 0,1:50:08.57,1:50:11.27,Default,,0000,0000,0000,,不  其实不然  这次不可能\NNo, not really. Not this time.
+Dialogue: 0,1:50:11.27,1:50:15.57,Default,,0000,0000,0000,,我宁可千遍地忍受罗慕伦帝国消亡的痛楚\NI would rather suffer the end of Romulus a thousand times,
+Dialogue: 0,1:50:15.57,1:50:20.07,Default,,0000,0000,0000,,我宁愿痛苦地死去  也不愿接受你们的援助\NI would rather die in agony than accept assistance from you.
+Dialogue: 0,1:50:20.07,1:50:21.97,Default,,0000,0000,0000,,那你就受死吧\NYou've got it.
+Dialogue: 0,1:50:21.97,1:50:24.31,Default,,0000,0000,0000,,准备激光炮  发射我们的所有武器\NArm phasers. Fire everything we've got.
+Dialogue: 0,1:50:24.31,1:50:25.97,Default,,0000,0000,0000,,是  长官\NYes, sir.
+Dialogue: 0,1:51:10.18,1:51:12.98,Default,,0000,0000,0000,,-苏鲁  让我们回家吧  -是  长官\N- Sulu, let's go home. - Yes, sir.
+Dialogue: 0,1:51:23.49,1:51:25.99,Default,,0000,0000,0000,,-我们为什么不曲速飞行  -正飞着呢  长官\N- Why aren't we at warp? - We are, sir.
+Dialogue: 0,1:51:25.99,1:51:28.22,Default,,0000,0000,0000,,柯克呼叫轮机部  让我们离开这里  斯考提\NKirk to engineering. Get us out of here, Scotty.
+Dialogue: 0,1:51:28.22,1:51:30.89,Default,,0000,0000,0000,,你他妈说对了  舰长\NYou bet your ass captain.
+Dialogue: 0,1:51:33.29,1:51:35.42,Default,,0000,0000,0000,,舰长  我们被引力井吸住了  它吸住我们了\NCaptain, we're caught in the gravity well. It's got us.
+Dialogue: 0,1:51:35.42,1:51:36.99,Default,,0000,0000,0000,,开启最大曲速  冲出去\NGo to maximum warp. Push it!
+Dialogue: 0,1:51:36.99,1:51:39.69,Default,,0000,0000,0000,,我会让她给出所有力量的  舰长\NI'm giving it all she's got captain.
+Dialogue: 0,1:51:48.29,1:51:50.83,Default,,0000,0000,0000,,她所有的还不足够  你还有什么\NAll she's got isn't good enough. What else you got?
+Dialogue: 0,1:51:50.83,1:51:53.55,Default,,0000,0000,0000,,好吧  如果我们发射能量核  然后引爆\NOk, if we eject the core and detonate the blast...
+Dialogue: 0,1:51:53.55,1:51:56.69,Default,,0000,0000,0000,,冲击波应该能推我们出去  不过我不能保证\NCould be enough to push us away. I can't promise anything though.
+Dialogue: 0,1:51:59.29,1:52:01.89,Default,,0000,0000,0000,,动手  动手  动手吧\NDo it! Do it! Do it!
+Dialogue: 0,1:52:01.89,1:52:04.39,Default,,0000,0000,0000,,-把这地方清空快  -是  长官\N- Clear the area. Go! - Yes, sir.
+Dialogue: 0,1:53:31.31,1:53:33.41,Default,,0000,0000,0000,,父亲\NFather?
+Dialogue: 0,1:53:41.31,1:53:44.62,Default,,0000,0000,0000,,我可不是我们的父亲\NI am not our father.
+Dialogue: 0,1:53:50.82,1:53:56.12,Default,,0000,0000,0000,,剩下的瓦肯人如此之少  我们不能彼此忽视\NThere are so few Vulcans left we cannot afford to ignore each other.
+Dialogue: 0,1:53:58.52,1:54:00.13,Default,,0000,0000,0000,,那你为什么把柯克送上船来\NThen why did you send Kirk aboard
+Dialogue: 0,1:54:00.13,1:54:01.52,Default,,0000,0000,0000,,你自己就能解释清楚一切了\NWhen you alone could have explained the truth?
+Dialogue: 0,1:54:01.52,1:54:03.52,Default,,0000,0000,0000,,因为你们需要彼此\NBecause you needed each other.
+Dialogue: 0,1:54:03.52,1:54:07.92,Default,,0000,0000,0000,,我不能透露你们将共同完成的创举\NI could not deprive you of the revelation of all that you can accomplish together.
+Dialogue: 0,1:54:07.92,1:54:11.32,Default,,0000,0000,0000,,以及你们尚未察觉的\NOf a friendship that will define you both.
+Dialogue: 0,1:54:11.32,1:54:14.22,Default,,0000,0000,0000,,将造就你们特质的友谊\NIn ways you cannot yet realize.
+Dialogue: 0,1:54:14.92,1:54:17.52,Default,,0000,0000,0000,,你是怎么让他保住秘密的\NHow'd you persuade him to keep your secret?
+Dialogue: 0,1:54:17.52,1:54:20.82,Default,,0000,0000,0000,,他以为  若是他食言了...\NHe inferred that universe ending paradoxes would ensue
+Dialogue: 0,1:54:20.82,1:54:22.46,Default,,0000,0000,0000,,将出现宇宙终结之像\NShould he break his promise.
+Dialogue: 0,1:54:22.46,1:54:24.82,Default,,0000,0000,0000,,你撒谎了\NYou lied?
+Dialogue: 0,1:54:25.12,1:54:28.32,Default,,0000,0000,0000,,-我...只是暗示  -这是赌博\N- Oh. I implied. - A gamble?
+Dialogue: 0,1:54:28.33,1:54:30.12,Default,,0000,0000,0000,,这是信任\NAn act of faith.
+Dialogue: 0,1:54:30.13,1:54:33.82,Default,,0000,0000,0000,,我希望你将来  在星际舰队中能继续这点\NOne I hope you will repeat in the future in Starfleet.
+Dialogue: 0,1:54:33.83,1:54:35.65,Default,,0000,0000,0000,,面临灭绝  唯一符合逻辑的便是...\NIn the face of extinction it is only logical...
+Dialogue: 0,1:54:35.65,1:54:38.33,Default,,0000,0000,0000,,我放弃星际舰队使命  帮助重建我们的民族\NI resign my Starfleet commission And help rebuild our race.
+Dialogue: 0,1:54:38.33,1:54:41.63,Default,,0000,0000,0000,,可是  你完全可以分身两处\NAnd yet you can be in two places at once.
+Dialogue: 0,1:54:41.93,1:54:44.83,Default,,0000,0000,0000,,我主张你继续留在星际舰队\NI urge you to remain in Starfleet.
+Dialogue: 0,1:54:45.03,1:54:49.33,Default,,0000,0000,0000,,我已找到一颗适合建立瓦肯殖民地的星球\NI've already located a suitable planet on which to establish a Vulcan colony.
+Dialogue: 0,1:54:49.33,1:54:53.93,Default,,0000,0000,0000,,斯波克  这一次  帮你自己个忙吧...\NSpock, in this case do yourself a favor...
+Dialogue: 0,1:54:54.63,1:54:58.73,Default,,0000,0000,0000,,把逻辑推一边  跟着感觉走\NPut aside logic, do what feels right.
+Dialogue: 0,1:55:04.13,1:55:07.63,Default,,0000,0000,0000,,由于我惯用的告别方式  会显得额外自私\NSince my customary farewell would appear awfully self serving...
+Dialogue: 0,1:55:07.63,1:55:11.33,Default,,0000,0000,0000,,所以我只说祝你好运\NI shall simply say good luck.
+Dialogue: 0,1:55:22.34,1:55:26.44,Default,,0000,0000,0000,,本会议是为詹姆斯·提比留斯·柯克召开\NThis assembly calls captain James Tiberius Kirk.
+Dialogue: 0,1:55:26.64,1:55:29.94,Default,,0000,0000,0000,,你的机智勇敢和对战友们的无私奉献...\NYour inspirational valor and supreme dedication to your comrades...
+Dialogue: 0,1:55:29.94,1:55:32.94,Default,,0000,0000,0000,,正符合这一职务的最高传统\NIs in keeping with the highest traditions of service.
+Dialogue: 0,1:55:33.04,1:55:38.24,Default,,0000,0000,0000,,亦为你  船员们以及星际联邦增添无上荣光\NAnd reflect at most credit to yourself, your crew and the Federation.
+Dialogue: 0,1:55:38.74,1:55:42.54,Default,,0000,0000,0000,,我很荣幸能颁发给你这一勋章\NIt is my honor to award you with this commendation.
+Dialogue: 0,1:55:46.14,1:55:51.14,Default,,0000,0000,0000,,星际舰队命令28455号  特此宣布  你直接向...\NBy Starfleet order 28455, you are hereby directed to report to admiral Pike...
+Dialogue: 0,1:55:51.14,1:55:55.44,Default,,0000,0000,0000,,联邦星舰进取号派克将军报告  接替职务\NUSS Enterprise, for duty as his relief.
+Dialogue: 0,1:56:03.04,1:56:05.24,Default,,0000,0000,0000,,我接过您的担子  先生\NI relieve you, sir.
+Dialogue: 0,1:56:05.34,1:56:08.05,Default,,0000,0000,0000,,我放心了\NI am relieved.
+Dialogue: 0,1:56:09.05,1:56:12.35,Default,,0000,0000,0000,,-谢谢你  先生  -恭喜  舰长\N- Thank you, sir. - Congratulations, captain.
+Dialogue: 0,1:56:13.45,1:56:16.35,Default,,0000,0000,0000,,你父亲一定会以你为荣的\NYour father would be proud of you.
+Dialogue: 0,1:56:45.05,1:56:47.15,Default,,0000,0000,0000,,推进器满速了\NThrusters on full.
+Dialogue: 0,1:56:47.15,1:56:49.95,Default,,0000,0000,0000,,正按您的命令  调适推进器与脉冲引擎  长官\NFiring thrusters and impulse engines at your command, sir.
+Dialogue: 0,1:56:49.95,1:56:52.85,Default,,0000,0000,0000,,武器系统与护盾准备完毕\NWeapon systems and shields on standby.
+Dialogue: 0,1:56:52.86,1:56:56.26,Default,,0000,0000,0000,,港口控制室报告完毕  舰长\NDock control reports ready, captain.
+Dialogue: 0,1:56:59.76,1:57:01.56,Default,,0000,0000,0000,,老骨头\NBones.
+Dialogue: 0,1:57:01.86,1:57:04.26,Default,,0000,0000,0000,,扣好安全带哦\NBuckle up.
+Dialogue: 0,1:57:07.06,1:57:08.86,Default,,0000,0000,0000,,斯考提  情况如何\NScotty, how we doin'?
+Dialogue: 0,1:57:08.86,1:57:11.96,Default,,0000,0000,0000,,重锂室已达到最高水平  舰长\NDilithium chambers at maximum captain.
+Dialogue: 0,1:57:12.56,1:57:15.06,Default,,0000,0000,0000,,给我下来\NGet down!
+Dialogue: 0,1:57:16.16,1:57:19.76,Default,,0000,0000,0000,,苏鲁先生  准备发动推进器\NMr. Sulu, prepare to engage thrusters.
+Dialogue: 0,1:57:21.96,1:57:24.46,Default,,0000,0000,0000,,请准许我登舰  舰长\NPermission to come aboard, captain.
+Dialogue: 0,1:57:24.76,1:57:27.16,Default,,0000,0000,0000,,请求批准\NPermission granted.
+Dialogue: 0,1:57:27.26,1:57:29.46,Default,,0000,0000,0000,,既然您尚未敲定大副人选\NAs you have yet to select a first officer,
+Dialogue: 0,1:57:29.46,1:57:32.56,Default,,0000,0000,0000,,我在此不才自荐\NRespectfully I would like to submit my candidacy.
+Dialogue: 0,1:57:32.96,1:57:36.36,Default,,0000,0000,0000,,若您需要  我可以提供推荐信\NShould you desire I can provide character references.
+Dialogue: 0,1:57:36.96,1:57:39.67,Default,,0000,0000,0000,,这是我的荣幸  指挥官\NIt would be my honor commander.
+Dialogue: 0,1:57:42.87,1:57:45.67,Default,,0000,0000,0000,,部署推进器  苏鲁先生\NManeuvering thrusters Mr. Sulu.
+Dialogue: 0,1:57:47.37,1:57:50.47,Default,,0000,0000,0000,,-推进器准备完毕  -我们走吧\N- Thrusters on standby. - Take us out.
+Dialogue: 0,1:57:50.47,1:57:52.47,Default,,0000,0000,0000,,遵命  舰长\NAye aye, captain.
+Dialogue: 0,1:57:56.47,1:58:00.37,Default,,0000,0000,0000,,宇宙  最后的边境\NSPACE, THE FINAL FRONTIER
+Dialogue: 0,1:58:01.37,1:58:05.57,Default,,0000,0000,0000,,这是进取号星舰的航程\NTHESE ARE THE VOYAGES OF THE STARSHIP ENTERPRISE
+Dialogue: 0,1:58:05.97,1:58:10.47,Default,,0000,0000,0000,,她将继续去  探索未知的新世界\NHER ONGOING MISSION: TO EXPLORE STRANGE NEW WORLDS,
+Dialogue: 0,1:58:10.57,1:58:14.87,Default,,0000,0000,0000,,找寻新的生命以及新的文明\NTO SEEK OUT NEW LIFE FORMS AND NEW CIVILISATIONS
+Dialogue: 0,1:58:14.87,1:58:20.07,Default,,0000,0000,0000,,勇敢地航向前人所未至的领域\NTO BOLDLY GO WHERE NO ONE HAS GONE BEFORE.
+
+

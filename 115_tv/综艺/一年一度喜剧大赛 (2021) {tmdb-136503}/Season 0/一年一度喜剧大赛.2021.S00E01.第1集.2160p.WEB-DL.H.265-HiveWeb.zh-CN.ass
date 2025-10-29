@@ -1,0 +1,834 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,21,&H00FFFFFF,&H0000FFFF,&H00272727,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,20,20,1,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.05,0:00:05.60,Default,,0000,0000,0000,,{\fad(0,5000)}{\fn方正黑体简体\fs86\bord1\alpha&HE6&\3a&HA9&\pos(190,208)\fscx600\fscy120\1c&H000000&\3c&HE8E8E8&}■
+Dialogue: 0,0:00:00.05,0:00:05.60,Default,,0000,0000,0000,,{\fad(0,5000)}{\fe134}{\fsp0}{\fad(500,500)}{\c&HFFFFFF&}{\pos(190,188)}{\fs16}{\fn楷体}{\bord0}本字幕由{\fs24}{\fn楷体}{\fe0}{\c&H26F4FF&}3e-online{\fe134}{\fn楷体}{\c&HFFAE1A&}3E帝國{\fscy100}{\fe134}{\fn楷体}{\c&HFFFFFF&}{\fs16}校訂翻譯制作\N{\fn楷体}{\fs14}{\b0}{\bord0}{\shad0}{\c&HFFFFFF&}僅供學習交流,嚴禁用于商業用途,轉載請注明出處\N{\3c&H2F2F2F&}{\4c&H000000&}{\fsp0}{\fs16} {\c&HFFFFFF&}更多精彩字幕請登錄  {\fn微软雅黑\fs24\1c&H26F4FF&\b0\i1}bbs.3e-online.com{\r}
+Dialogue: 0,0:00:05.65,0:00:11.80,Default,,0000,0000,0000,,{\t(0,100,\fscx165)}{\K250\2a&Hff&\shad0\bord0}{\fs14\pos(190,145)}时间轴/后期 剑齿虎{\r}
+Dialogue: 0,0:00:05.65,0:00:11.80,Default,,0000,0000,0000,,{\fs36\bord1\alpha&HE6&\3a&H64&\pos(190,184)\fscx1800\fscy420\3c&H4080FF&}■{\r}
+Dialogue: 0,0:00:05.65,0:00:11.80,Default,,0000,0000,0000,,{\t(0,100,\fscx165)}{\K250\2a&Hff&\shad0\bord0}{\fs14\pos(190,125)}翻译/校对    scrawl{\r}
+Dialogue: 0,0:02:11.43,0:02:16.97,Default,,0000,0000,0000,,{\move(190,210,190,240,0,6800)}{\fad(500,500)}{\fs34}{\t(0,6500,\fs45)}{\t(0,100,\fscy160){\bord1\pos(190,240)\3c&HFFFFFF&\b1}寂静之战{\r}
+Dialogue: 0,0:02:17.34,0:02:23.02,Default,,0000,0000,0000,,{\move(190,190,190,200,0,6800)}{\fad(500,500)}{\fs20}{\t(0,6500,\fs25)}{\t(0,100,\fscy160){\bord1\pos(190,200)\3c&HFFFFFF&\b1}知 己 知 彼{\r}
+Dialogue: 0,0:00:06.57,0:00:09.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}40 years ago at the height of the Cold War,{\r}\N四十年前，冷战正激烈
+Dialogue: 0,0:00:09.82,0:00:13.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}these nuclear submarines were locked in battle against the Soviet Navy.{\r}\N这些核潜艇专门被用于对抗苏联海军的战争
+Dialogue: 0,0:00:19.32,0:00:22.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Their crews were bound by a code of silence,{\r}\N潜艇作战人员受到沉默守则的约束
+Dialogue: 0,0:00:22.92,0:00:27.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}forbidden to tell their families where they were going or what they were doing.{\r}\N不允许告诉他们的家人他们去哪儿，做什么
+Dialogue: 0,0:00:32.02,0:00:35.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Deep in the oceans, submariners from three navies,{\r}\N海洋深处，三国的潜艇
+Dialogue: 0,0:00:35.49,0:00:37.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}British, American and Soviet,{\r}\N英国、美国和苏联
+Dialogue: 0,0:00:38.16,0:00:42.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}played cat and mouse on the front line of the Cold War.{\r}\N在冷战前线玩起了猫和老鼠的游戏
+Dialogue: 0,0:00:42.81,0:00:45.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was obsessed with the Soviets.{\r}\N我很被苏联人吸引
+Dialogue: 0,0:00:46.31,0:00:47.79,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The whole idea was to go in{\r}\N他们的整个想法就是全身投入
+Dialogue: 0,0:00:47.79,0:00:50.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and put a decisive blow and walk away.{\r}\N果断一击，潇洒走人
+Dialogue: 0,0:00:51.66,0:00:55.94,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们一直处在备战状态{\r}
+Dialogue: 0,0:00:57.36,0:00:59.89,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}很坚苦{\r}
+Dialogue: 0,0:01:01.53,0:01:06.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Cold War superpowers pledged to reduce their arsenals of nuclear weapons.{\r}\N参与冷战的三个强国承诺减少其核武器军械库
+Dialogue: 0,0:01:07.23,0:01:08.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But beneath the waves,{\r}\N然而在暗潮之下
+Dialogue: 0,0:01:09.08,0:01:12.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Soviet and Western submarines spied on each other,{\r}\N苏联和西方的潜艇相互监视
+Dialogue: 0,0:01:12.78,0:01:14.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}hunted each other down{\r}\N相互厮杀
+Dialogue: 0,0:01:14.83,0:01:19.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and prepared to fight a war with enough firepower to destroy civilisation.{\r}\N并准备好用足够摧毁世界文明的火力大打一战
+Dialogue: 0,0:01:22.16,0:01:25.98,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In that ship we had more explosive power{\r}\N在那艘船上我们有足够的爆炸力
+Dialogue: 0,0:01:26.03,0:01:28.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}than all the weapons dropped in World War Two.{\r}\N比二战中所有投放的武器的爆炸力都强
+Dialogue: 0,0:01:28.97,0:01:30.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And we're talking about both sides now.{\r}\N更不用说双方的力量加起来了
+Dialogue: 0,0:01:32.40,0:01:34.60,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}This was a secret war{\r}\N那是一场秘密的战争
+Dialogue: 0,0:01:35.20,0:01:39.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}driven by espionage to maintain the tactical advantage.{\r}\N由间谍活动驱使着来维持战略优势
+Dialogue: 0,0:01:39.85,0:01:42.03,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Can you tell how many propellers it has? Yes.{\r}\N你能说出它有多少螺旋桨吗？ 能
+Dialogue: 0,0:01:42.05,0:01:44.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Can you tell how many blades are on each propeller? Yes.{\r}\N你能说出每个螺旋桨上有多少刀片吗？ 能
+Dialogue: 0,0:01:44.22,0:01:46.47,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Does one of them have a nick in it? Yes.{\r}\N其中哪一片上有划痕吗？有
+Dialogue: 0,0:01:48.37,0:01:52.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}For over 40 years the details of this Cold War stand-off{\r}\N四十多年来，冷战平衡的细节
+Dialogue: 0,0:01:52.95,0:01:55.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}have been a closely guarded secret.{\r}\N一直是保守得很好的秘密
+Dialogue: 0,0:01:56.17,0:02:00.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We're in a submarine that actually could sink him in three minutes.{\r}\N我们所在的潜艇实际上能在三分钟内沉没
+Dialogue: 0,0:02:01.67,0:02:03.87,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He would have difficulty sinking us.{\r}\N他没那么容易使我们沉没
+Dialogue: 0,0:02:06.27,0:02:09.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Now the story can be told.{\r}\N现在这个故事可以被人所知了
+Dialogue: 0,0:02:23.99,0:02:25.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Captain speaking.{\r}\N船长有话
+Dialogue: 0,0:02:26.49,0:02:28.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We shall be going from Plymouth{\r}\N我们将从普利茅斯出发，
+Dialogue: 0,0:02:28.09,0:02:31.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}towards the nearest point in the ice edge, north of Iceland.{\r}\N去冰缘线离这里最近的冰岛南部
+Dialogue: 0,0:02:32.06,0:02:35.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The submarines of the 1950s had hardly changed{\r}\N20世纪50年代的潜艇几乎都是那个样子
+Dialogue: 0,0:02:35.57,0:02:38.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}since the days of the Second World War.{\r}\N一直到二战都没有什么变化
+Dialogue: 0,0:02:38.40,0:02:41.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But Soviet, American and British sailors didn't mind.{\r}\N但是苏联、美国和英国的水手们并不介意
+Dialogue: 0,0:02:42.38,0:02:45.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Joining up felt like a special calling.{\r}\N参军像是一种特殊的集结
+Dialogue: 0,0:02:45.48,0:02:47.06,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's a club, it's a small club,{\r}\N那是一个俱乐部，小俱乐部
+Dialogue: 0,0:02:47.06,0:02:48.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and it's great to be a member of it.{\r}\N能成为其中一员感觉很棒
+Dialogue: 0,0:02:49.17,0:02:54.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}?No other love?{\r}\N♪别无他爱♪
+Dialogue: 0,0:02:54.24,0:02:56.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I can probably tell you fairly rapidly{\r}\N我可以很快告诉你
+Dialogue: 0,0:02:56.47,0:02:59.40,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}whether a chap is a submariner after ten minutes of conversation or not.{\r}\N一个人是不是潜艇人员，只需要和他聊几分钟
+Dialogue: 0,0:02:59.86,0:03:04.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Now that I've known...{\r}\N♪因为我知道♪
+Dialogue: 0,0:03:04.49,0:03:06.06,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我喜爱海{\r}
+Dialogue: 0,0:03:09.49,0:03:11.23,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}你站在那里看着船只{\r}
+Dialogue: 0,0:03:11.26,0:03:13.07,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}划破行过水面{\r}
+Dialogue: 0,0:03:13.32,0:03:16.64,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}每片海都由自己的颜色{\r}
+Dialogue: 0,0:03:16.81,0:03:19.00,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}每一次都是不一样的{\r}
+Dialogue: 0,0:03:22.63,0:03:26.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Every time, every time...{\r}\N♪每一次，每一次♪
+Dialogue: 0,0:03:26.73,0:03:29.23,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He said, "Honey, I really don't want to leave you{\r}\N他说：“亲爱的，我真的不想离开你
+Dialogue: 0,0:03:29.26,0:03:31.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}but it's just something I have to do.{\r}\N但我不得不走
+Dialogue: 0,0:03:32.21,0:03:33.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I want you to know I don't want to go."{\r}\N我想让你知道我不想走”
+Dialogue: 0,0:03:33.61,0:03:37.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I say, "OK."  He gets upstairs, he's packing and I hear...{\r}\N我说：“好的。”他上楼，整理行李，我听到
+Dialogue: 0,0:03:39.81,0:03:41.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He's happy as a clam!{\r}\N他非常快活
+Dialogue: 0,0:03:42.76,0:03:48.12,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# ..to glory in your kiss...{\r}\N♪因你的吻而得意♪
+Dialogue: 0,0:03:49.30,0:03:51.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Good company. And good pay.{\r}\N他人很风趣 是个好伙伴
+Dialogue: 0,0:03:51.84,0:03:55.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And we had extra food, special food, called submarine comforts.{\r}\N我们有大量的特殊食物，叫做潜艇安慰品
+Dialogue: 0,0:03:56.32,0:03:59.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Things like tinned sausages, that was a luxury in those days.{\r}\N像罐装香肠之类的东西在那时候是种奢侈
+Dialogue: 0,0:03:59.65,0:04:01.04,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Still had rationing in this country.{\r}\N国内还实行定量配给，
+Dialogue: 0,0:04:01.79,0:04:03.59,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And fruit juice. Absolutely amazing.{\r}\N但我们还有果汁，简直不可思议
+Dialogue: 0,0:04:04.39,0:04:05.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Good life.{\r}\N生活很好
+Dialogue: 0,0:04:10.10,0:04:14.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}On the surface, submarines were still powered by diesel engines.{\r}\N在水面上，潜艇还是由柴油机发动
+Dialogue: 0,0:04:15.71,0:04:19.18,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Under water, rechargeable batteries took over.{\r}\N在水下就用充电电池代替
+Dialogue: 0,0:04:20.07,0:04:24.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The maximum sort of speed underwater was sort of 15 or 16 knots{\r}\N水下最大速度大约是15或16海里每小时
+Dialogue: 0,0:04:24.58,0:04:27.18,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and you could do that for about ten minutes, the battery ran out.{\r}\N之后最多十分钟电池就耗完了
+Dialogue: 0,0:04:29.17,0:04:30.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Oxygen was limited{\r}\N氧气很有限
+Dialogue: 0,0:04:31.01,0:04:35.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so the submarine could stay submerged for no more than 20 hours.{\r}\N因此潜艇在水下不能待超过20小时
+Dialogue: 0,0:04:36.04,0:04:37.87,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Water was rationed.{\r}\N淡水也有限
+Dialogue: 0,0:04:39.01,0:04:41.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The captain used to say, "I will use the basin,"{\r}\N船长当时常常说：“我要用洗脸盆”
+Dialogue: 0,0:04:41.65,0:04:43.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which is about so wide and about so deep,{\r}\N脸盆差不多这么宽这么深
+Dialogue: 0,0:04:43.74,0:04:45.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}"first in the morning and have my shave{\r}\N“第一个用，然后我要刮胡子
+Dialogue: 0,0:04:45.51,0:04:48.91,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and you make such use of what I leave in the pan afterwards."{\r}\N然后你们也这么用我剩下的混水”
+Dialogue: 0,0:04:50.53,0:04:51.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So that was it.{\r}\N就是这样
+Dialogue: 0,0:04:51.77,0:04:53.10,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So you would wash in his shaving  foam?{\r}\N所以你会用他的剃须泡沫洗脸？
+Dialogue: 0,0:04:53.27,0:04:54.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So we didn't wash.{\r}\N因此我们就都没有洗
+Dialogue: 0,0:04:55.77,0:04:57.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Echo classified submarine.{\r}\N回音可以将潜艇分类
+Dialogue: 0,0:04:58.08,0:05:00.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Submarine, surfacing on the fourth quarter, sir.{\r}\N长官，有潜艇，在第四象限位置
+Dialogue: 0,0:05:00.62,0:05:02.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The diesel submarine's limitations{\r}\N柴油机潜艇的局限
+Dialogue: 0,0:05:02.74,0:05:05.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}meant they were often reduced to acting as training targets{\r}\N在于它们常常被大材小用当成训练用的目标物
+Dialogue: 0,0:05:05.91,0:05:08.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}for sonar operators on Nato ships.{\r}\N提供给北约船只的声呐操作员
+Dialogue: 0,0:05:08.77,0:05:10.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Submarine altering course towards us.{\r}\N潜艇正朝我们这边转向
+Dialogue: 0,0:05:12.71,0:05:14.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was known as "ping running".{\r}\N这被称作“撞击奔跑”
+Dialogue: 0,0:05:16.03,0:05:19.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Ping running is when the submarine runs for a surface ship{\r}\N撞击奔跑是指当潜艇朝一艘水面船只追赶
+Dialogue: 0,0:05:19.77,0:05:22.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}who pings on him with his active sonar{\r}\N该船只用其主动式声呐“撞击”潜艇
+Dialogue: 0,0:05:22.91,0:05:26.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and it was a very basic, boring way of spending the time.{\r}\N这是一种非常基本且无聊的度过时间的方式
+Dialogue: 0,0:05:26.35,0:05:29.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were really acting very much as the loyal opposition in those days{\r}\N当时我们真的像是忠实的反对派
+Dialogue: 0,0:05:30.26,0:05:33.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and without a particularly warlike role.{\r}\N没有一个特别的战争角色
+Dialogue: 0,0:05:34.33,0:05:36.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}From sturding to Captain Deezer,{\r}\N迪泽船长你好
+Dialogue: 0,0:05:36.28,0:05:37.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}thank you for the Royal Salute,{\r}\N感谢你的皇家礼炮
+Dialogue: 0,0:05:37.77,0:05:40.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and regret we must consider ourselves sunk.{\r}\N很遗憾我们必须考虑自己被击沉了
+Dialogue: 0,0:05:43.62,0:05:46.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In the Cold War stand-off between East and West{\r}\N在东西方的冷战平衡中
+Dialogue: 0,0:05:47.35,0:05:50.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the battle for supremacy was taking place on land,{\r}\N争夺霸权的战斗是发生在陆地上
+Dialogue: 0,0:05:50.66,0:05:51.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}not on the high seas.{\r}\N而不是公海上
+Dialogue: 0,0:05:55.12,0:05:58.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In 1956, the Soviet Union invaded Hungary.{\r}\N1956年苏联入侵匈牙利
+Dialogue: 0,0:06:00.46,0:06:02.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}For the West, this was an ominous sign{\r}\N对西方来说，这是一个征兆
+Dialogue: 0,0:06:02.78,0:06:06.78,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that the Soviet still had ambitions beyond the Iron Curtain.{\r}\N说明苏联仍然对铁幕之外的世界有野心
+Dialogue: 0,0:06:08.84,0:06:12.74,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, it's easy to forget now what the Cold War was like.{\r}\N人们很容易忘记冷战时候的状况
+Dialogue: 0,0:06:13.67,0:06:18.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I mean, we lived with a threat from the Soviet Union{\r}\N我是说，我们当时生存受到了来自苏联的威胁
+Dialogue: 0,0:06:18.81,0:06:21.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}right up until the fall of the Berlin Wall.{\r}\N一直到柏林墙倒下为止
+Dialogue: 0,0:06:23.77,0:06:28.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Nato's conventional forces were far outnumbered by the Red Army.{\r}\N北约的常规部队比红军少得多
+Dialogue: 0,0:06:28.89,0:06:32.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The West saw America's long-range nuclear weapons{\r}\N西方把美国的远距离核武器
+Dialogue: 0,0:06:32.60,0:06:35.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}as an essential deterrent to Soviet aggression.{\r}\N当作对苏联进攻的主要震慑
+Dialogue: 0,0:06:38.23,0:06:42.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You have to go back and think about how attractive nuclear weapons,{\r}\N你得回过头想想核武器有多么诱人
+Dialogue: 0,0:06:42.93,0:06:44.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}if you could maintain an advantage,{\r}\N你能够保持一个优势
+Dialogue: 0,0:06:45.19,0:06:48.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}how attractive that prospect was for a NATO alliance{\r}\N这对北约联盟来说是多么有吸引力的前景
+Dialogue: 0,0:06:49.30,0:06:53.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that perceived that it could never defend Western Europe conventionally.{\r}\N北约本以为以传统方式不可能抵挡得住西欧
+Dialogue: 0,0:06:57.39,0:07:01.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Anything that could give you the promise of compensating for that,{\r}\N只要有任何能弥补不足的可能性
+Dialogue: 0,0:07:02.24,0:07:05.55,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and that would preserve basically the status quo,{\r}\N并且能够维持当时的平衡状况
+Dialogue: 0,0:07:05.82,0:07:08.27,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was incredibly attractive.{\r}\N任何那样的东西都有无比的吸引力
+Dialogue: 0,0:07:11.33,0:07:15.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But in 1957 the Soviets launched Sputnik.{\r}\N但是在1957年苏联发射了人造卫星斯普特尼克
+Dialogue: 0,0:07:16.52,0:07:18.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If they could send a satellite into space{\r}\N加入他们能发射卫星
+Dialogue: 0,0:07:19.88,0:07:23.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they would soon be able to launch nuclear ballistic missiles{\r}\N那么很快他们就能发射核弹道导弹
+Dialogue: 0,0:07:23.08,0:07:24.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}against mainland America.{\r}\N用于对付美国本土
+Dialogue: 0,0:07:27.18,0:07:29.10,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}"As Sputnik whirled around the globe,{\r}\N“正当斯普特尼克绕着地球旋转时
+Dialogue: 0,0:07:29.15,0:07:32.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}American citizen bases became as vulnerable to Soviet threat{\r}\N美国民军基地很容易受到苏联的威胁
+Dialogue: 0,0:07:32.85,0:07:37.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}as Soviet defences had been in the past to the nuclear strike power of America."{\r}\N因为苏联的防御工事已经超过了美国核打击能力”
+Dialogue: 0,0:07:37.91,0:07:39.74,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It gets the American people alarmed{\r}\N这是美国人民很惊恐，
+Dialogue: 0,0:07:39.74,0:07:43.22,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that a foreign country, especially an enemy country, can do this.{\r}\N一个别的国家，尤其是敌国，可以做到这点
+Dialogue: 0,0:07:43.33,0:07:45.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I think it's a very bad thing to have around.{\r}\N我觉得这是一件令人时刻觉得糟糕的事情
+Dialogue: 0,0:07:45.76,0:07:48.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}- To have these satellites going round?  - That's right.{\r}\N- 因为这些卫星时刻围绕着？  - 对
+Dialogue: 0,0:07:48.53,0:07:50.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}As Sputnik went up{\r}\N随着斯普特可的升空
+Dialogue: 0,0:07:50.61,0:07:55.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Russians were launching missiles more successfully{\r}\N俄罗斯人发射导弹也更成功了
+Dialogue: 0,0:07:55.37,0:07:57.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}than the US was at the time.{\r}\N比当时的美国更成功
+Dialogue: 0,0:07:57.48,0:07:59.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We fear this.{\r}\N我们很害怕
+Dialogue: 0,0:07:59.88,0:08:03.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We fear that they have something out there that the majority don't know about.{\r}\N我们害怕他们拥有一些大多数人不知道的东西
+Dialogue: 0,0:08:05.24,0:08:10.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Western Europe could no longer rely on America's land-based nuclear missiles.{\r}\N西欧无法继续依赖美国的地面基地核导弹
+Dialogue: 0,0:08:11.40,0:08:16.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}President Eisenhower looked to the navy for a new way to defend the West.{\r}\N艾森豪威尔总统转向海军以求寻找防御的新方法
+Dialogue: 0,0:08:17.37,0:08:22.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}President Eisenhower said he wanted to be able to shoot a ballistic missile from sea.{\r}\N艾森豪威尔总统说他希望能够从海上攻击弹道导弹
+Dialogue: 0,0:08:22.94,0:08:26.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We had no missile, we had no warhead,{\r}\N我们没有导弹也没有弹头
+Dialogue: 0,0:08:26.23,0:08:29.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}we had no guidance system, we had no submarine.{\r}\N没有制导系统和潜艇
+Dialogue: 0,0:08:30.03,0:08:32.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The US Navy launched a massive programme{\r}\N美国海军开展了一个巨大项目
+Dialogue: 0,0:08:32.40,0:08:37.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to build a new kind of submarine, capable of launching nuclear missiles.{\r}\N建设一种新型潜艇，能够发射核导弹
+Dialogue: 0,0:08:38.80,0:08:42.31,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# You keep saying you got something for me{\r}\N♪你不停说你有东西要给我♪
+Dialogue: 0,0:08:42.54,0:08:46.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}This is a simplified schematic drawing of a nuclear propulsion plan.{\r}\N这是一幅简化了的原理图，解释核动力推进计划
+Dialogue: 0,0:08:46.34,0:08:50.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The part of the navy that Eisenhower liked was the part that had nuclear in it.{\r}\N关于海军，艾森豪威尔喜欢的就是其中的核
+Dialogue: 0,0:08:50.43,0:08:54.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And so this was where the money was, this is what the future was,{\r}\N因此这就是资金集中的地方，也是未来的寄居地
+Dialogue: 0,0:08:54.38,0:08:57.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}this is what the West's strategy was at the time.{\r}\N这就是当时西方的战略
+Dialogue: 0,0:08:58.25,0:09:00.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# These boots are made for walking{\r}\N♪靴子是用来走路的♪
+Dialogue: 0,0:09:00.88,0:09:02.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# And that's just what they'll do{\r}\N♪那就是它们会做的事情♪
+Dialogue: 0,0:09:03.35,0:09:07.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# One of these days these boots are gonna walk all over you{\r}\N♪总有一天那些鞋子会从你身上踩着踏过去♪
+Dialogue: 0,0:09:09.74,0:09:12.23,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Submariners were back in business.{\r}\N潜艇人员又开始忙碌了
+Dialogue: 0,0:09:15.46,0:09:17.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}What are we going to do on Thanksgiving?{\r}\N感恩节我们都做什么呢？
+Dialogue: 0,0:09:17.00,0:09:19.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We're going to work, that's what we're going to do!{\r}\N我们得工作，那就是我们要做的
+Dialogue: 0,0:09:22.31,0:09:26.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Your family just almost ceased to exist, you know.{\r}\N你的家庭好像都不存在了，你知道吗
+Dialogue: 0,0:09:28.29,0:09:30.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But we got through it.{\r}\N但是我们熬了过来
+Dialogue: 0,0:09:31.70,0:09:33.95,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# These boots are made for walking{\r}\N♪靴子是用来走路的♪
+Dialogue: 0,0:09:34.50,0:09:36.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# And that's just what they'll do{\r}\N♪那就是它们会做的事情♪
+Dialogue: 0,0:09:36.14,0:09:39.40,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were the pioneers for the finest weapon system on earth.{\r}\N我们是地球上最精良武器系统的先驱
+Dialogue: 0,0:09:40.70,0:09:43.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The nuclear reactor gave the submarine limitless power.{\r}\N核反应堆给了潜艇无限能源
+Dialogue: 0,0:09:44.87,0:09:46.86,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Twice the speed of a diesel submarine,{\r}\N速度比柴油潜艇高了一倍
+Dialogue: 0,0:09:47.20,0:09:50.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}it could also produce its own water and oxygen supplies.{\r}\N它能够自己产生淡水和氧气供给
+Dialogue: 0,0:09:51.01,0:09:54.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}As long as there was enough food it never had to surface.{\r}\N只要有足够食物，核潜艇永远不需要浮上水面
+Dialogue: 0,0:09:55.00,0:09:56.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Going from diesel to nuclear was{\r}\N从柴油机过渡到核能
+Dialogue: 0,0:09:56.58,0:09:59.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}like going from riding a bicycle to driving a Formula One.{\r}\N就像从骑自行车变到驾驶一级方程式赛车
+Dialogue: 0,0:10:00.90,0:10:03.56,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Armed with Polaris nuclear warheads,{\r}\N配备着北极星核弹头
+Dialogue: 0,0:10:03.93,0:10:07.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the missile submarine was capable of destroying Soviet cities{\r}\N导弹潜艇能够摧毁苏联城市
+Dialogue: 0,0:10:07.38,0:10:10.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}at a range of more than 2000 miles.{\r}\N范围是2000英里多
+Dialogue: 0,0:10:13.73,0:10:17.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In that ship we had more explosive power{\r}\N那艘船上我们有大量爆炸性能量
+Dialogue: 0,0:10:17.29,0:10:20.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}than all the weapons dropped in World War Two.{\r}\N比二战中投放的所有武器都有威力
+Dialogue: 0,0:10:20.22,0:10:22.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And we're talking about both sides now.{\r}\N更不用说双方的力量相加了
+Dialogue: 0,0:10:25.30,0:10:28.02,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's a terrible responsibility.{\r}\N那是一份可怕的责任
+Dialogue: 0,0:10:30.07,0:10:33.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The modern submariner. A new breed.{\r}\N现代潜艇，一个新品种
+Dialogue: 0,0:10:33.47,0:10:35.64,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Young, technically oriented.{\r}\N年轻，以技术为根本
+Dialogue: 0,0:10:35.72,0:10:38.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Make your depth 200 feet. Make your depth 200 feet.{\r}\N将你的深度设置在200英尺...
+Dialogue: 0,0:10:38.50,0:10:41.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Hidden in the ocean, impervious to Soviet attack,{\r}\N深藏在海洋中，不受苏联攻击影响
+Dialogue: 0,0:10:42.58,0:10:46.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}submarine crews were now on the front line of the Cold War.{\r}\N潜艇人员如今处在了冷战前线
+Dialogue: 0,0:10:50.15,0:10:53.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I said, "This sounds dangerous to me,"{\r}\N我说：“这听起来挺危险”
+Dialogue: 0,0:10:53.93,0:10:59.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and he said, "I am far safer than you will ever be staying at home."{\r}\N他说：“我在这儿比你待在家里还安全”
+Dialogue: 0,0:11:00.24,0:11:02.91,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He said, "I don't know what's going to happen to you,{\r}\N他说：“我不确定你会发生什么
+Dialogue: 0,0:11:03.04,0:11:05.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I don't know what's going to happen to this country,{\r}\N我也不确定这个国家会发生什么
+Dialogue: 0,0:11:05.39,0:11:07.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}but nothing's going to touch me. I'm...{\r}\N但什么也不会影戏我，我在
+Dialogue: 0,0:11:08.42,0:11:10.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Where I am they can't get me."{\r}\N一个他们抓不住我的地方”
+Dialogue: 0,0:11:11.80,0:11:13.68,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The defence of the Western world{\r}\N西方世界的防卫系统
+Dialogue: 0,0:11:13.71,0:11:18.04,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was now in the hands of a small band of young American submariners.{\r}\N现在由一小撮年轻美国潜艇士兵掌握
+Dialogue: 0,0:11:19.65,0:11:21.71,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was a tremendous deterrent{\r}\N这是巨大的威慑力
+Dialogue: 0,0:11:21.88,0:11:25.20,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that was always available to the National Command Authority.{\r}\N美国国家最高指挥部掌握着它的使用
+Dialogue: 0,0:11:25.28,0:11:28.47,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We felt proud about that and I think the country did also.{\r}\N我们很骄傲，我相信整个国家都是
+Dialogue: 0,0:11:30.62,0:11:35.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Soviet Union was racing to produce its own missile submarine programme{\r}\N苏联也正加速生产其自主导弹潜艇项目
+Dialogue: 0,0:11:35.79,0:11:38.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}but it was beset with engineering problems.{\r}\N但受到了工程问题困扰
+Dialogue: 0,0:11:39.34,0:11:41.71,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Soviet Premier Nikita Khrushchev{\r}\N苏联总理尼基塔赫鲁晓夫
+Dialogue: 0,0:11:41.99,0:11:46.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}needed a land-based launch site within range of the United States.{\r}\N需要一个在美国射程以内的地面基地发射点
+Dialogue: 0,0:11:47.17,0:11:49.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In the late summer of 1962,{\r}\N1962年晚夏
+Dialogue: 0,0:11:50.14,0:11:53.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Khrushchev sent as many as 40 ballistic missiles to Cuba.{\r}\N赫鲁晓夫足足输送了40架弹道导弹去古巴
+Dialogue: 0,0:11:54.97,0:11:58.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And provoked the worst crisis of the Cold War.{\r}\N这激起了冷战最严重的危机
+Dialogue: 0,0:11:59.32,0:12:01.66,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It shall be the policy of this nation{\r}\N应该制定国家政策
+Dialogue: 0,0:12:02.06,0:12:04.82,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to regard any nuclear missile launched from Cuba{\r}\N将任何从古巴发射的核导弹
+Dialogue: 0,0:12:04.85,0:12:07.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}against any nation in the western hemisphere{\r}\N即攻击西半球任何国家的核弹
+Dialogue: 0,0:12:07.83,0:12:11.59,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}as an attack by the Soviet Union on the United States.{\r}\N都看作是苏联对美国的攻击
+Dialogue: 0,0:12:16.00,0:12:18.91,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Four diesel submarines, known as Foxtrots,{\r}\N四艘柴油潜艇，代号为狐步
+Dialogue: 0,0:12:19.17,0:12:21.80,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}were sent to defend the Soviet forces in Cuba.{\r}\N被派出以保护苏联在古巴的军力
+Dialogue: 0,0:12:22.74,0:12:25.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Each was armed with a nuclear-tip torpedo.{\r}\N每艘都备有核弹头鱼雷
+Dialogue: 0,0:12:25.89,0:12:28.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Enough firepower to destroy the American fleet.{\r}\N火力足够摧毁美国舰队
+Dialogue: 0,0:12:30.32,0:12:32.63,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}在三种情况下{\r}
+Dialogue: 0,0:12:32.89,0:12:36.29,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们可以遵从指示使用鱼雷{\r}
+Dialogue: 0,0:12:43.11,0:12:45.26,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}一，如果你遭到轰炸{\r}
+Dialogue: 0,0:12:45.35,0:12:47.43,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}并且船体被炸出了洞{\r}
+Dialogue: 0,0:12:47.51,0:12:49.67,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}二，如果他们在水面上轰炸或射击你{\r}
+Dialogue: 0,0:12:49.80,0:12:51.83,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}三，如果你得到莫斯科方面的指令{\r}
+Dialogue: 0,0:12:51.92,0:12:54.20,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们的参谋长拉索卡很冷静地补充说{\r}
+Dialogue: 0,0:12:54.32,0:12:59.33,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}“一旦有需要就使用鱼类，其他的我们事后再来解决”{\r}
+Dialogue: 0,0:13:00.98,0:13:03.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Anatolii Andreev was a young submariner{\r}\N阿那托里安德烈夫是四艘潜艇中
+Dialogue: 0,0:13:03.49,0:13:05.98,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}on one of the four Soviet submarines.{\r}\N一艘上的一位年轻潜艇手
+Dialogue: 0,0:13:08.66,0:13:13.52,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}最亲爱的索菲亚，我写这封信给你{\r}
+Dialogue: 0,0:13:14.30,0:13:18.16,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}尽管不知怎样以及何时能寄予你{\r}
+Dialogue: 0,0:13:18.43,0:13:21.69,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我真想在你身边{\r}
+Dialogue: 0,0:13:21.84,0:13:24.66,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}即使只是在我的脑海里{\r}
+Dialogue: 0,0:13:24.93,0:13:28.53,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}日子并不容易，而且将会更艰难{\r}
+Dialogue: 0,0:13:30.92,0:13:33.78,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我不能和妻子通信{\r}
+Dialogue: 0,0:13:34.22,0:13:39.27,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}但我有个习惯，每月11日{\r}
+Dialogue: 0,0:13:40.07,0:13:42.45,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}给她写封信{\r}
+Dialogue: 0,0:13:47.25,0:13:49.02,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们驶入了大西洋{\r}
+Dialogue: 0,0:13:49.90,0:13:53.30,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们完全没料到自己发现了什么{\r}
+Dialogue: 0,0:13:54.72,0:13:57.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}As the Soviet Foxtrots neared Cuba,{\r}\N当苏联狐步潜艇靠近古巴时
+Dialogue: 0,0:13:57.90,0:14:00.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the American fleet was lying in wait.{\r}\N美国舰队静静等候
+Dialogue: 0,0:14:02.70,0:14:03.71,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We knew they were coming.{\r}\N我们知道他们来了
+Dialogue: 0,0:14:03.74,0:14:08.56,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We had known for weeks because of our detection capabilities,{\r}\N四星期前我们就知道了，根据我们的探测能力
+Dialogue: 0,0:14:08.68,0:14:10.48,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}including our sound surveillance system{\r}\N包括声音监控系统
+Dialogue: 0,0:14:10.51,0:14:12.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which was top secret at the time.{\r}\N该系统在当时是高级机密
+Dialogue: 0,0:14:13.47,0:14:15.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Unknown to the Soviets,{\r}\N苏联毫不知情
+Dialogue: 0,0:14:15.50,0:14:19.50,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Americans had placed a 3000 mile transatlantic cable{\r}\N美国设置了一条3000英里的跨大西洋电缆
+Dialogue: 0,0:14:19.51,0:14:21.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}deep on to the ocean bed.{\r}\N深藏海底
+Dialogue: 0,0:14:21.99,0:14:24.22,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was known as SOSUS.{\r}\N该电缆被称作声纳监听系统
+Dialogue: 0,0:14:25.44,0:14:27.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Devised after the Second World War,{\r}\N它是在二战后发明的
+Dialogue: 0,0:14:27.33,0:14:31.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}SOSUS was an early warning system for any approaching enemy Navy.{\r}\N是针对靠近的敌方海军的预防警示系统
+Dialogue: 0,0:14:33.30,0:14:36.91,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Fixed on the cable was an array of highly sensitive sonars.{\r}\N电缆上固定有一系列高敏度声呐
+Dialogue: 0,0:14:38.88,0:14:42.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}As the four Soviet Foxtrot submarines entered the Atlantic,{\r}\N当四艘苏联狐步潜艇进入大西洋
+Dialogue: 0,0:14:43.25,0:14:46.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}SOSUS could detect the sound of the submarines{\r}\N声纳监测系统就能探测到潜艇的声音
+Dialogue: 0,0:14:46.48,0:14:48.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and pinpoint their position.{\r}\N并指出它们所在位置
+Dialogue: 0,0:14:54.13,0:14:57.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Soviet submarines were forced to stay underwater{\r}\N苏联潜艇不得不呆在水底
+Dialogue: 0,0:14:57.88,0:15:00.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}with no way of replenishing their dwindling air supplies.{\r}\N没有办法再补充他们不断减少的空中补给
+Dialogue: 0,0:15:03.02,0:15:06.09,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}感觉就像在地狱{\r}
+Dialogue: 0,0:15:06.56,0:15:09.45,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}空气闷热{\r}
+Dialogue: 0,0:15:09.59,0:15:14.12,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}没地方扔垃圾，都发臭了{\r}
+Dialogue: 0,0:15:14.55,0:15:19.22,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}人们在臭气中喘息{\r}
+Dialogue: 0,0:15:19.55,0:15:25.51,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}闻着粪便和腐食{\r}
+Dialogue: 0,0:15:28.12,0:15:32.18,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Our orders were simply to harass them to bring them to the surface{\r}\N我们收到的命令就是骚扰他们，让他们浮上水面
+Dialogue: 0,0:15:32.45,0:15:34.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and we were very, very good at that.{\r}\N而我们非常非常擅长这一点
+Dialogue: 0,0:15:37.78,0:15:39.11,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}索菲亚{\r}
+Dialogue: 0,0:15:39.35,0:15:41.24,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我可以从潜望镜看到美国舰队{\r}
+Dialogue: 0,0:15:43.75,0:15:45.91,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们可真大胆{\r}
+Dialogue: 0,0:15:49.80,0:15:52.81,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}捕杀非常激烈{\r}
+Dialogue: 0,0:15:54.07,0:16:00.35,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们的每艘潜艇都来面对他们的所有舰队{\r}
+Dialogue: 0,0:16:02.81,0:16:05.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They knew we were right on top of them.{\r}\N他们知道我们就在他们上头
+Dialogue: 0,0:16:05.74,0:16:09.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Our sonar could be used as an offensive weapon essentially.{\r}\N我们的声呐基本上可以被用作是进攻性武器
+Dialogue: 0,0:16:09.66,0:16:11.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We could turn up the volume{\r}\N我们可以增强音量
+Dialogue: 0,0:16:11.50,0:16:15.72,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and the amplitude of the sound that we could transmit{\r}\N我们能够传播的声音的振幅十分巨大
+Dialogue: 0,0:16:15.97,0:16:20.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and bounce off the hull of a submarine was immense.{\r}\N声音是从潜艇船体上反弹回来的
+Dialogue: 0,0:16:34.26,0:16:38.06,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}爆炸开始了，有时距离非常近{\r}
+Dialogue: 0,0:16:38.47,0:16:40.78,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}以至于灯泡都炸裂了{\r}
+Dialogue: 0,0:16:41.52,0:16:43.83,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}光线没有了{\r}
+Dialogue: 0,0:16:46.67,0:16:51.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Starved of oxygen and overwhelmed by two days of constant pounding,{\r}\N两天缺氧，被不断的撞击而不知所措
+Dialogue: 0,0:16:51.92,0:16:55.22,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Soviet submarines were finally forced to surface.{\r}\N苏联潜艇最终被迫浮上水面
+Dialogue: 0,0:16:55.99,0:16:57.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When I jumped out with our flag{\r}\N当我举着旗帜跳出来时
+Dialogue: 0,0:16:59.55,0:17:02.13,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我站在那里非常紧张{\r}
+Dialogue: 0,0:17:02.47,0:17:06.16,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}只穿着破碎的内裤——我没有更多的衣物了{\r}
+Dialogue: 0,0:17:06.81,0:17:09.58,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}身上很脏，没有刮脸{\r}
+Dialogue: 0,0:17:11.73,0:17:13.98,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们会开枪吗{\r}
+Dialogue: 0,0:17:14.47,0:17:16.22,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}会撞击我们吗{\r}
+Dialogue: 0,0:17:16.36,0:17:17.98,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们会对我们做什么{\r}
+Dialogue: 0,0:17:20.91,0:17:23.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They didn't really stand a chance. We had them outnumbered.{\r}\N他们真的没有任何机会，我们数量上远胜于他们
+Dialogue: 0,0:17:24.10,0:17:26.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Our skill levels were extremely high,{\r}\N我们的技术水平相当高
+Dialogue: 0,0:17:26.81,0:17:28.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I felt sorry for them in a sense.{\r}\N某种程度上我为他们感到遗憾
+Dialogue: 0,0:17:28.93,0:17:34.51,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I welcome Chairman Khrushchev's decision dismantling offensive weapons,{\r}\N我很高兴看到赫鲁晓夫主席废除进攻性武器的决定
+Dialogue: 0,0:17:35.45,0:17:39.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}returning them to the Soviet Union under UN verification.{\r}\N将这些武器带回苏联，由联合国核查
+Dialogue: 0,0:17:49.59,0:17:53.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Vladimir Chernavin was a young submariner during the Cuban Crisis.{\r}\N弗拉基米尔谢尔那文是古巴危机期间一名年轻潜艇员
+Dialogue: 0,0:17:58.83,0:18:01.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He would later become commander-in-chief{\r}\N后来他成为总指挥
+Dialogue: 0,0:18:02.03,0:18:04.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}of the Soviet Navy.{\r}\N带领苏联海军
+Dialogue: 0,0:18:05.88,0:18:08.05,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}让我来拿吧，你自己来吗{\r}
+Dialogue: 0,0:18:08.14,0:18:09.39,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我自己来{\r}
+Dialogue: 0,0:18:13.26,0:18:15.48,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们不得不浮上水面{\r}
+Dialogue: 0,0:18:15.82,0:18:17.49,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}举起海军旗帜{\r}
+Dialogue: 0,0:18:17.86,0:18:19.80,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}尽管他们做的是正确的事情{\r}
+Dialogue: 0,0:18:19.94,0:18:21.62,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}还展现了英雄主义精神{\r}
+Dialogue: 0,0:18:21.99,0:18:23.09,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}但我们还是败了{\r}
+Dialogue: 0,0:18:23.31,0:18:25.94,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们逼迫我们浮上水面，暴露自己{\r}
+Dialogue: 0,0:18:26.22,0:18:28.46,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}假如这是一场战争的话，他们早就摧毁我们了{\r}
+Dialogue: 0,0:18:30.62,0:18:35.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Foxtrot crews would find no heroes' welcome on their return home.{\r}\N狐步潜艇人员归国时没有人对他们进行英雄式欢迎
+Dialogue: 0,0:18:37.66,0:18:40.98,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}哈，那事情就完全不同了{\r}
+Dialogue: 0,0:18:41.48,0:18:43.22,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们见了我们说{\r}
+Dialogue: 0,0:18:43.55,0:18:50.02,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}你们浮上水面，还不如不回来更好{\r}
+Dialogue: 0,0:18:50.54,0:18:53.88,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}参谋长见了我们{\r}
+Dialogue: 0,0:18:55.03,0:18:58.31,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们被指示去清理船只{\r}
+Dialogue: 0,0:18:58.61,0:19:01.38,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}交还核鱼雷{\r}
+Dialogue: 0,0:19:02.43,0:19:07.84,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}不仅如此，甚至连仪式都没有{\r}
+Dialogue: 0,0:19:11.71,0:19:14.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Determined never to be humiliated again,{\r}\N决心再不能被羞辱
+Dialogue: 0,0:19:14.61,0:19:16.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Soviet leadership instructed their shipyards{\r}\N苏联领导层吩咐他们的造船厂
+Dialogue: 0,0:19:16.97,0:19:19.78,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to build a new class of nuclear submarine{\r}\N建造新等级的核潜艇
+Dialogue: 0,0:19:20.01,0:19:23.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that could retaliate in the event of an American nuclear attack.{\r}\N使其能够对美国可能的核攻击进行报复
+Dialogue: 0,0:19:24.35,0:19:27.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The whole idea was in some sense driven by Soviet vulnerability.{\r}\N这整个想法在某种程度上是由于苏联的脆弱性导致的
+Dialogue: 0,0:19:28.09,0:19:30.46,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We're in this very dangerous competition,{\r}\N我们处在这种危险的竞争中
+Dialogue: 0,0:19:30.92,0:19:33.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}we're at a great disadvantage,{\r}\N处于很大的劣势
+Dialogue: 0,0:19:34.04,0:19:39.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}we really have to achieve parity with the US Navy that have been,{\r}\N我们真的不得不争取和美国对等
+Dialogue: 0,0:19:40.10,0:19:43.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}you know, for ten years outbuilding us and had these advantages.{\r}\N你知道，美国10年来一直比我们建造的更好，拥有这些优势
+Dialogue: 0,0:19:44.03,0:19:45.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We have to catch up.{\r}\N我们必须要赶上
+Dialogue: 0,0:19:46.49,0:19:53.10,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In just five years the Soviet Union built 34 nuclear-powered missile submarines.{\r}\N仅仅用了五年苏联就建造了34架核动力导弹潜艇
+Dialogue: 0,0:19:54.01,0:19:57.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They called the new class Project 667-A.{\r}\N他们把这种新等级叫做项目667-A
+Dialogue: 0,0:19:59.73,0:20:04.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Western submariners dubbed the submarine the Yankee.{\r}\N西方潜艇人员称其为洋基
+Dialogue: 0,0:20:15.30,0:20:19.95,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我知道那是他们军队的一个部分{\r}
+Dialogue: 0,0:20:20.68,0:20:24.18,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}最有前途的部分{\r}
+Dialogue: 0,0:20:24.78,0:20:32.76,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}那就是为什么我想要在潜艇上的生活{\r}
+Dialogue: 0,0:20:40.68,0:20:43.51,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}要想成为潜艇指挥官{\r}
+Dialogue: 0,0:20:43.73,0:20:45.84,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}首先必须是共产党员{\r}
+Dialogue: 0,0:20:46.01,0:20:48.05,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}那是很明确的意识形态{\r}
+Dialogue: 0,0:20:48.22,0:20:53.41,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们知道我们的社会主义是最好的{\r}
+Dialogue: 0,0:20:53.58,0:20:57.67,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}美国想要组织我们建设社会主义{\r}
+Dialogue: 0,0:21:02.68,0:21:05.00,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我确信，有一天当我醒来时{\r}
+Dialogue: 0,0:21:05.13,0:21:07.96,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们会告诉我“社会主义建成啦”{\r}
+Dialogue: 0,0:21:10.39,0:21:13.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The theory of nuclear deterrence between the superpowers{\r}\N在超级大国之间核威慑的理论
+Dialogue: 0,0:21:13.83,0:21:16.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was known as Mutually Assured Destruction.{\r}\N被叫做相互确定的破坏力
+Dialogue: 0,0:21:17.96,0:21:20.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Many people preferred the acronym MAD.{\r}\N许多人喜欢其首字母缩写简称MAD
+Dialogue: 0,0:21:23.02,0:21:25.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# This is the story of the land of the free{\r}\N♪这就是自由土地上的故事♪
+Dialogue: 0,0:21:25.09,0:21:27.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# And what we have done for your security{\r}\N?以及我们为了你们的安全所做的事?
+Dialogue: 0,0:21:27.36,0:21:29.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# For the greatest thing you must agree{\r}\N♪因为你无法否认，最重要的♪
+Dialogue: 0,0:21:29.60,0:21:32.23,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Is that you be safe in the land of the free{\r}\N♪就是你在自由土地上安全无忧♪
+Dialogue: 0,0:21:32.26,0:21:33.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Safe as can be{\r}\N♪尽可能地安全♪
+Dialogue: 0,0:21:34.40,0:21:36.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Soviets could go after our bomber bases,{\r}\N苏联人可以攻击我们的轰炸机基地
+Dialogue: 0,0:21:36.65,0:21:38.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they could go after our bombers,{\r}\N他们可以攻击我们的轰炸机
+Dialogue: 0,0:21:38.37,0:21:41.06,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they could go after our land-based missiles.{\r}\N可以攻击我们的地面基地导弹
+Dialogue: 0,0:21:41.08,0:21:43.22,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# So then we showed that we had the means{\r}\N♪因此我们证明了我们有办法♪
+Dialogue: 0,0:21:43.28,0:21:45.43,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# To launch our missiles from submarines{\r}\N♪从潜艇上发射导弹♪
+Dialogue: 0,0:21:45.46,0:21:47.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# We sent the subs far across the sea{\r}\N♪我们将潜艇远送出海♪
+Dialogue: 0,0:21:47.88,0:21:50.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# For retaliatory capability{\r}\N♪因为有受到报复的可能♪
+Dialogue: 0,0:21:50.75,0:21:52.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But they couldn't go after the submarines.{\r}\N但是他们不能够攻击潜艇
+Dialogue: 0,0:21:52.65,0:21:55.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# But then they got the same sort of thing{\r}\N♪但他们有类似的东西♪
+Dialogue: 0,0:21:56.72,0:22:00.91,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们从没想过我们会先出击{\r}
+Dialogue: 0,0:22:01.08,0:22:06.26,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}原本只是在有必要时准备实施报复——假如美国或北约先攻击我们{\r}
+Dialogue: 0,0:22:06.72,0:22:08.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# With all that power would any state{\r}\N♪拥有那样的力量，有哪一个国家♪
+Dialogue: 0,0:22:09.05,0:22:10.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Dare to tempt such a horrible fate{\r}\N♪敢尝试那样一个可怕的命运♪
+Dialogue: 0,0:22:10.91,0:22:12.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Balance of terror{\r}\N♪恐惧的平衡♪
+Dialogue: 0,0:22:12.51,0:22:15.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The nuclear submarine was the ideal weapon{\r}\N核潜艇是理想的武器
+Dialogue: 0,0:22:15.38,0:22:19.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to apply the calculated logic of Cold War strategy.{\r}\N可以运用冷战策略的合适逻辑
+Dialogue: 0,0:22:20.89,0:22:23.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When the ballistic missile submarine came along{\r}\N当配上弹道导弹潜艇
+Dialogue: 0,0:22:23.28,0:22:26.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}it was like this perfect match{\r}\N那真是绝佳组合
+Dialogue: 0,0:22:26.40,0:22:31.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}between these theories about trying to seek a kind of balance.{\r}\N尤其是和其他为了寻求平衡的理论相比
+Dialogue: 0,0:22:32.35,0:22:37.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You can see unfolding a period of not instability but complete stability.{\r}\N你将能看到一段时期，没有动乱，完全稳定
+Dialogue: 0,0:22:40.21,0:22:44.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We wanted to make sure we could properly deter action{\r}\N我们想确保自己能正确地制止军事行动
+Dialogue: 0,0:22:44.80,0:22:47.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that would be bad for the world, not just for our country.{\r}\N行动的后果将损害整个世界，不仅仅是我们国家
+Dialogue: 0,0:22:48.77,0:22:52.72,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In 1966 the Royal Navy joined the nuclear club{\r}\N1966年英国皇家海军加入了核俱乐部（有核国家）
+Dialogue: 0,0:22:53.18,0:22:56.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}when it launched the first of four ballistic missile submarines.{\r}\N当时英国率先研发出四艘弹道导弹潜艇
+Dialogue: 0,0:22:57.61,0:23:01.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Britain's submarine force would now work alongside the United States{\r}\N之后英国的潜艇力量与美国相合作
+Dialogue: 0,0:23:01.89,0:23:04.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to deter the Soviet Union.{\r}\N来遏制苏联
+Dialogue: 0,0:23:04.76,0:23:08.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The British and American submarine service relationship was extremely close.{\r}\N英美两国潜艇军队关系非常亲密
+Dialogue: 0,0:23:08.64,0:23:12.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We talked about almost everything, and we shared information,{\r}\N我们几乎无话不谈，相互分享信息
+Dialogue: 0,0:23:13.84,0:23:15.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and we had something to offer.{\r}\N我们相互帮助
+Dialogue: 0,0:23:17.29,0:23:19.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Britain's bases in western Scotland{\r}\N英国在苏格兰西部的基地
+Dialogue: 0,0:23:19.53,0:23:22.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}would now harbour US and British submarines{\r}\N如今停靠着英美两国的潜艇
+Dialogue: 0,0:23:22.32,0:23:24.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}before they headed into the Atlantic.{\r}\N随后它们驶进了大西洋
+Dialogue: 0,0:23:30.95,0:23:35.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Right. Pipe action stations, set condition 1SQ.{\r}\N对，管道进入战斗位置，设定置1状态
+Dialogue: 0,0:23:37.25,0:23:41.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Polaris missiles had a range of 2500 miles.{\r}\N北极星导弹射程有2500英里
+Dialogue: 0,0:23:41.98,0:23:46.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Submarines could hide far from the Soviet Union and still remain a threat.{\r}\N潜艇可以躲苏联很远并仍然造成威胁
+Dialogue: 0,0:23:47.35,0:23:48.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Launcher prepared.{\r}\N发射器准备
+Dialogue: 0,0:23:49.04,0:23:51.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They would be a continuous presence.{\r}\N他们能保持存在
+Dialogue: 0,0:23:52.39,0:23:57.04,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Ready to launch, 365 days a year.{\r}\N一年365天岁时准备发射
+Dialogue: 0,0:23:59.13,0:24:02.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If you consider the Doomsday scenario,{\r}\N如果你想象一下末日的场景
+Dialogue: 0,0:24:02.42,0:24:07.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which is that the UK has been taken out by a nuclear strike,{\r}\N也就是英国通过核打击带来的场景
+Dialogue: 0,0:24:07.89,0:24:13.44,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}there are instructions on board which tell you what you are then supposed to do.{\r}\N船上有指令说明告诉你到时候该做什么
+Dialogue: 0,0:24:14.65,0:24:17.68,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Navigation ready.{\r}\N导航就绪
+Dialogue: 0,0:24:18.27,0:24:22.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The envelope was kept in a safe in my cabin behind my bunk.{\r}\N信封放在我的船舱里床铺后方一个保险箱里
+Dialogue: 0,0:24:23.31,0:24:26.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So I slept alongside it{\r}\N我就和它一起睡觉
+Dialogue: 0,0:24:26.47,0:24:32.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and all the other material in that safe every time I lay down.{\r}\N还包括其他在箱内的材料，每当我躺下我都和它们在一起
+Dialogue: 0,0:24:33.68,0:24:35.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It came from the Cabinet office.{\r}\N信封是来自内阁的
+Dialogue: 0,0:24:35.85,0:24:37.79,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I think it gave instructions about{\r}\N我想里面的指令是关于
+Dialogue: 0,0:24:37.80,0:24:41.82,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}whether you were to fire your missiles and if so what targets.{\r}\N你是否该发射导弹，以及目标是什么
+Dialogue: 0,0:24:44.02,0:24:46.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, I must have sorted it out in my mind at some stage{\r}\N嗯，我在某个阶段想必是在脑中想了一遍
+Dialogue: 0,0:24:46.90,0:24:48.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and talked to Toby about it{\r}\N然后就去和托比谈了
+Dialogue: 0,0:24:48.45,0:24:54.51,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and if he's happy with what he's doing that's OK.{\r}\N如果他对所做的事满意，那就没问题了
+Dialogue: 0,0:24:55.66,0:24:59.46,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I didn't dwell on it because how can you?{\r}\N我没怎么细想，我怎么能细想呢
+Dialogue: 0,0:25:05.85,0:25:10.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The potential targets for British, American and Soviet missile submarines{\r}\N英美苏导弹潜艇的潜在目标
+Dialogue: 0,0:25:11.15,0:25:13.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}were always a closely guarded secret.{\r}\N一直是保守得很好的秘密
+Dialogue: 0,0:25:17.28,0:25:20.00,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}指挥官一直都不知道{\r}
+Dialogue: 0,0:25:20.25,0:25:22.82,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}那些导弹本来要攻击哪些城市{\r}
+Dialogue: 0,0:25:27.37,0:25:30.68,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他的任务就是发射所有的16颗导弹，加起来有160颗原子弹的威力{\r}
+Dialogue: 0,0:25:30.81,0:25:33.74,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}发射完就结束任务了{\r}
+Dialogue: 0,0:25:35.94,0:25:37.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Patrols were classified.{\r}\N巡逻队被分了类
+Dialogue: 0,0:25:38.48,0:25:41.12,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Few were allowed to know the submarine's location.{\r}\N没有多少人能知道潜艇的所在
+Dialogue: 0,0:25:43.37,0:25:45.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Hopefully the navigator knew where you were.{\r}\N希望导航器会知道你在哪里
+Dialogue: 0,0:25:46.52,0:25:50.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But the nearest thing you got was you knew the seawater temperature.{\r}\N但基本上你能知道的只有海水温度
+Dialogue: 0,0:25:52.15,0:25:54.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That gave you the nearest indication{\r}\N那是你能知道的最多提示了
+Dialogue: 0,0:25:54.55,0:25:59.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}of am I in the Tropics or am I in the Arctic or what.{\r}\N能够知道我在热带或北极或其他什么
+Dialogue: 0,0:26:00.78,0:26:03.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Critical to the success of the deterrent{\r}\N对威慑成功很关键的是
+Dialogue: 0,0:26:03.40,0:26:07.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was the submarine's ability to remain undetected by the enemy.{\r}\N潜艇保持不被敌方发现的能力
+Dialogue: 0,0:26:09.83,0:26:12.76,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The prime reason for remaining undetected{\r}\N保持不被发现的主要原因
+Dialogue: 0,0:26:12.78,0:26:19.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was because you wanted to be sure as you went into missile launch mode,{\r}\N是因为你要确定当你进入导弹发射模式时
+Dialogue: 0,0:26:19.95,0:26:22.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that a Soviet submarine that might have been trailing you{\r}\N一艘可能一直在跟踪你的苏联潜艇
+Dialogue: 0,0:26:23.03,0:26:25.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}wouldn't then fire a torpedo and take you out.{\r}\N不会发射鱼雷轰你出局
+Dialogue: 0,0:26:26.79,0:26:29.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Staying hidden meant remaining quiet.{\r}\N保持隐蔽意味着保持安静
+Dialogue: 0,0:26:29.99,0:26:33.98,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Crews were rigorously trained in what was called "noise hygiene".{\r}\N船员经过严酷训练，课程叫做噪音卫生学
+Dialogue: 0,0:26:35.13,0:26:38.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Submariners, it's drummed into them from the first day to the last{\r}\N潜艇人员从第一天到最后一天都被反复灌输着
+Dialogue: 0,0:26:38.85,0:26:43.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that by dropping a spanner at the wrong moment you're capable of getting yourself sunk.{\r}\N只要在错误的时间掉落一个错误的扳手都能让你被击沉
+Dialogue: 0,0:26:45.64,0:26:47.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If a spanner hits a metal deck,{\r}\N如果扳手撞响了金属甲板
+Dialogue: 0,0:26:47.69,0:26:51.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the noise will be transmitted through the hull of a submarine into the ocean.{\r}\N噪音将被传播，通过潜艇船体进入大海
+Dialogue: 0,0:26:52.22,0:26:54.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Sound travels easily through water{\r}\N声音在水下传播很容易
+Dialogue: 0,0:26:54.73,0:26:57.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and enemy sonar would pick up the sound of the spanner.{\r}\N地方的声呐就会接收到扳手的声音
+Dialogue: 0,0:26:58.82,0:27:01.56,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Britain and America rubber-insulated their decks{\r}\N英美两国将他们的甲板用橡胶绝缘
+Dialogue: 0,0:27:01.58,0:27:05.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to ensure no sound was transmitted outside the submarine.{\r}\N以确保没有声音传出艇外
+Dialogue: 0,0:27:05.93,0:27:09.68,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Machinery connected to the hull was suspended on rubber mounts.{\r}\N连接船体的机械用橡胶垫架悬挂
+Dialogue: 0,0:27:14.04,0:27:17.16,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}New recruits quickly learned the difference between sounds{\r}\N新员工很快学会分辨不同的声音
+Dialogue: 0,0:27:17.16,0:27:19.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that could be transmitted into the ocean{\r}\N一种是能够传入海中的
+Dialogue: 0,0:27:19.84,0:27:23.91,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and the ambient noise of voices that stayed inside the submarine.{\r}\N另一种是由留在艇内的声音发出的环绕噪音
+Dialogue: 0,0:27:26.07,0:27:28.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}My first day at sea, I always remember this.{\r}\N我永远会记得我第一天出海
+Dialogue: 0,0:27:28.41,0:27:32.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was a Sunday and, er, there was a church service on board.{\r}\N那是一个星期天，船上有礼拜仪式
+Dialogue: 0,0:27:33.54,0:27:37.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But somebody mentioned to me they give you a free drink so I went down to it.{\r}\N但是有人对我说他们给我准备了免费酒水，于是我就下去
+Dialogue: 0,0:27:38.42,0:27:43.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And then after it had finished, after we'd been singing these hymns, which were quite loud,{\r}\N等一切结束，唱完响亮的国歌
+Dialogue: 0,0:27:43.87,0:27:47.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I went from 1 Deck down to 2 Deck on a ladder{\r}\N我从甲板1下了梯子到甲板2
+Dialogue: 0,0:27:48.16,0:27:52.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and stumbled at the bottom and fell and I made a bit of noise{\r}\N在下面绊倒了，摔了下来，发出了声响
+Dialogue: 0,0:27:52.97,0:27:56.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and the first lieutenant shouted at me, "You're making a lot of noise there."{\r}\N第一中尉冲我喊：“你弄出了很大的噪音”
+Dialogue: 0,0:27:57.34,0:28:00.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And I thought, that's funny because we'd just been singing for the last hour, you know.{\r}\N我想这真是有趣，刚才一小时前我们还在唱歌
+Dialogue: 0,0:28:03.93,0:28:05.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I used to do a lot of chess myself{\r}\N我以前很喜欢下象棋
+Dialogue: 0,0:28:05.89,0:28:08.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and the winner would win a packet of cigarettes.{\r}\N赢的人能得到一包香烟
+Dialogue: 0,0:28:09.06,0:28:11.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Hold on honey I'd like to say{\r}\N♪等等，亲爱的，我想说♪
+Dialogue: 0,0:28:11.62,0:28:14.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# I'm busting out and breaking away{\r}\N♪我正在成长，挣脱♪
+Dialogue: 0,0:28:14.36,0:28:18.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}On a boat, you're on a tin can, underwater for months on end,{\r}\N在船上，你就像在罐头里，在水下一直待上几个月
+Dialogue: 0,0:28:18.80,0:28:20.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and it becomes very close knit.{\r}\N大家变得紧密结合
+Dialogue: 0,0:28:21.72,0:28:23.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Think about how it's gonna be{\r}\N♪想想以后会怎样♪
+Dialogue: 0,0:28:23.99,0:28:27.02,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们船长喜欢拉手风琴{\r}
+Dialogue: 0,0:28:30.91,0:28:32.14,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}你一定会想“哦天呐”{\r}
+Dialogue: 0,0:28:32.26,0:28:34.15,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}当他拉的时候，我们都坐在那儿，从中学了各种曲子{\r}
+Dialogue: 0,0:28:34.28,0:28:35.72,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们还进行了一场演出{\r}
+Dialogue: 0,0:28:44.09,0:28:48.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The only way you identified the days that were going by{\r}\N确定流逝时间日期的唯一方法
+Dialogue: 0,0:28:48.14,0:28:50.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was you got grapefruit segments on Sunday,{\r}\N就是在周日你可以拿到葡萄柚瓣
+Dialogue: 0,0:28:51.41,0:28:53.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}you got mushrooms on Wednesday.{\r}\N周三你拿到蘑菇
+Dialogue: 0,0:28:53.91,0:28:57.06,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Food was critical. We had steak once a week.{\r}\N食物非常关键，我们每周吃一次牛排
+Dialogue: 0,0:28:57.06,0:29:00.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We would have things like lobster once a week.{\r}\N还有龙虾一类的东西
+Dialogue: 0,0:29:01.21,0:29:02.51,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们有很多肉类{\r}
+Dialogue: 0,0:29:02.66,0:29:04.44,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}潜艇上有一些东西{\r}
+Dialogue: 0,0:29:04.58,0:29:05.86,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}你在店铺里买不到的{\r}
+Dialogue: 0,0:29:06.41,0:29:09.06,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We had frogs' legs way too often.{\r}\N我们有很多青蛙腿
+Dialogue: 0,0:29:09.55,0:29:12.61,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们把我们喂得很好，都吃不完{\r}
+Dialogue: 0,0:29:17.57,0:29:20.66,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我把他们给我的巧克力都收了起来，寄给我在圣彼得堡的妹妹{\r}
+Dialogue: 0,0:29:20.94,0:29:23.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}This time I shall not fail!{\r}\N这一次我不会输
+Dialogue: 0,0:29:23.92,0:29:26.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Oh ye gods, help me!{\r}\N噢上帝祝我一臂之力
+Dialogue: 0,0:29:28.38,0:29:31.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Crews stayed submerged for two months.{\r}\N人员在水下待了两个月
+Dialogue: 0,0:29:33.40,0:29:35.73,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}曾经我做了个梦{\r}
+Dialogue: 0,0:29:36.92,0:29:39.23,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}梦里有个我认识的医生{\r}
+Dialogue: 0,0:29:39.43,0:29:41.33,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}塔提亚纳——她很可爱{\r}
+Dialogue: 0,0:29:41.90,0:29:44.30,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我梦见她是我们潜艇上的医生{\r}
+Dialogue: 0,0:29:44.53,0:29:47.06,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}梦那么真实，我醒来后{\r}
+Dialogue: 0,0:29:47.41,0:29:51.12,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}去那个医生那里敲门{\r}
+Dialogue: 0,0:29:51.38,0:29:54.15,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}直到门打开{\r}
+Dialogue: 0,0:29:54.50,0:29:57.36,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我看到这个大胡子医生而不是美丽的塔提亚纳{\r}
+Dialogue: 0,0:29:58.49,0:30:01.59,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我才意识到自己疯了{\r}
+Dialogue: 0,0:30:02.41,0:30:03.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Get out of my space{\r}\N♪离开我的地盘♪
+Dialogue: 0,0:30:03.96,0:30:05.18,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Leaving now{\r}\N♪正在离开♪
+Dialogue: 0,0:30:06.16,0:30:08.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# I'm leaving now{\r}\N♪我正在离开♪
+Dialogue: 0,0:30:19.24,0:30:22.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The nuclear stalemate between the Soviet Union and the West{\r}\N苏联和西方的核僵局
+Dialogue: 0,0:30:23.55,0:30:26.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}failed to deter Soviet aggression in Europe.{\r}\N没能阻止苏联对欧洲的进攻
+Dialogue: 0,0:30:28.04,0:30:32.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was duty minister in the summer of 1968{\r}\N1968年夏天我担任责任部长
+Dialogue: 0,0:30:32.51,0:30:34.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}with the forecast from Nato{\r}\N北约传来预测
+Dialogue: 0,0:30:35.02,0:30:38.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that there would be no invasion in the immediate future,{\r}\N短期内不会有进攻
+Dialogue: 0,0:30:38.93,0:30:40.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and was woken up in the early morning{\r}\N我一大早被叫醒
+Dialogue: 0,0:30:40.97,0:30:46.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to be told that they had invaded with Russian tanks into Czechoslovakia.{\r}\N被告知俄罗斯开着坦克进了捷克斯洛伐克
+Dialogue: 0,0:30:47.05,0:30:49.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}"Heavy tanks rolled through the streets of Prague{\r}\N重型坦克碾压过了布拉格的街道
+Dialogue: 0,0:30:49.62,0:30:51.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}as Russian, Polish and Hungarian troops{\r}\N俄罗斯，波兰和匈牙利军队
+Dialogue: 0,0:30:52.05,0:30:54.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}carry out their cold-blooded occupation of Czechoslovakia."{\r}\N对捷克斯洛伐克开展了冷血的侵占
+Dialogue: 0,0:30:57.99,0:31:00.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We had an enemy and a serious enemy{\r}\N我们有敌人，很棘手的敌人
+Dialogue: 0,0:31:01.00,0:31:03.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and we were in ideological conflict{\r}\N我们处在意识形态的冲突中
+Dialogue: 0,0:31:03.85,0:31:09.50,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}with the Soviet Communism all through the Cold War.{\r}\N和苏联共产主义有冲突，一直延续了整个冷战
+Dialogue: 0,0:31:21.83,0:31:25.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}By 1970 the rapidly expanding Soviet fleet{\r}\N至1970，苏联快速扩张舰队
+Dialogue: 0,0:31:26.09,0:31:28.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}had further fuelled Western insecurity.{\r}\N这加剧了西方动荡
+Dialogue: 0,0:31:39.60,0:31:43.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I couldn't think why they were building so many ships and submarines{\r}\N我想不出为什么他们建造那么多船只和潜艇
+Dialogue: 0,0:31:43.48,0:31:46.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}unless they wanted to use them offensively one day{\r}\N他们只可能是为了将来有一天要用来进攻
+Dialogue: 0,0:31:46.85,0:31:49.52,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so it didn't seem like a defensive force.{\r}\N因此这不像是防御型军力
+Dialogue: 0,0:31:50.78,0:31:53.74,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}At Northwood military headquarters in north London,{\r}\N在伦敦北部的诺斯伍德军事总部
+Dialogue: 0,0:31:54.18,0:31:57.03,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}naval intelligence devised a new strategy{\r}\N海军情报机关设计出一种新战略
+Dialogue: 0,0:31:57.75,0:32:02.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to locate and follow all Soviet missile submarines.{\r}\N用以定位跟踪所有苏联导弹潜艇
+Dialogue: 0,0:32:03.21,0:32:04.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If war broke out,{\r}\N如果战争爆发
+Dialogue: 0,0:32:04.83,0:32:08.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the West would sink the submarines before they could launch their warheads.{\r}\N西方将在苏联能发射弹头之前将其潜艇击沉
+Dialogue: 0,0:32:10.06,0:32:14.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}An organisation was set up known as Task Force 311.{\r}\N一个名为任务力量311的组织成立了
+Dialogue: 0,0:32:15.03,0:32:17.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was the operations officer for two years{\r}\N我担任了两年行动事务员
+Dialogue: 0,0:32:17.92,0:32:20.43,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I ran many, many operations{\r}\N我组织了很多很多次行动
+Dialogue: 0,0:32:21.12,0:32:24.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}out of Northwood prosecuting Soviet submarines.{\r}\N从诺斯伍德攻击苏联潜艇
+Dialogue: 0,0:32:26.27,0:32:30.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}SOSUS, the Americans' secret underwater surveillance system,{\r}\N美国水下监控秘密系统  声纳监听系统
+Dialogue: 0,0:32:30.81,0:32:33.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}remained critical to Western strategy.{\r}\N对于西方战略依旧很关键
+Dialogue: 0,0:32:34.64,0:32:36.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Naval intelligence knew{\r}\N海军情报机关知道
+Dialogue: 0,0:32:36.01,0:32:39.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that with a missile range of just 1300 miles{\r}\N装载着射程仅为1300英里的导弹
+Dialogue: 0,0:32:39.52,0:32:42.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Soviet Yankee submarines had to cross the Atlantic{\r}\N苏联洋基潜艇就要横跨大西洋
+Dialogue: 0,0:32:42.66,0:32:45.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}before they could threaten American cities.{\r}\N而后会对美国城市造成威胁
+Dialogue: 0,0:32:45.97,0:32:47.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}As they entered the Atlantic,{\r}\N正当他们进入大西洋
+Dialogue: 0,0:32:47.58,0:32:50.98,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they still had no idea that SOSUS had located them.{\r}\N他们仍然不知道声纳监听系统已经定位到了他们
+Dialogue: 0,0:32:52.39,0:32:54.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And SOSUS had improved.{\r}\N该系统还进行了改善
+Dialogue: 0,0:32:54.93,0:32:56.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was now so sensitive{\r}\N如今十分灵敏
+Dialogue: 0,0:32:56.39,0:33:01.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}it could differentiate between the frequencies emitted by each submarine.{\r}\N能够对每艘潜艇的声音频率进行区分
+Dialogue: 0,0:33:02.50,0:33:03.72,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If naval intelligence{\r}\N如果海军情报机关
+Dialogue: 0,0:33:03.72,0:33:06.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}could identify the frequencies SOSUS detected,{\r}\N能识别声纳监听系统探测到的不同频率
+Dialogue: 0,0:33:07.12,0:33:12.02,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they would always know what type of Soviet submarine was entering the Atlantic.{\r}\N他们就能知道 进入大西洋的是什么型号的苏联潜艇
+Dialogue: 0,0:33:13.26,0:33:18.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That became the job of both American and British nuclear submarines in the Cold War,{\r}\N这就成为了英美核潜艇在冷战期间的任务
+Dialogue: 0,0:33:18.12,0:33:22.79,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which is to acquire those signatures from Soviet submarines{\r}\N就是获取苏联潜艇的特征
+Dialogue: 0,0:33:22.82,0:33:27.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so that they could be put into a database that would be maintained and updated.{\r}\N以便将之存入数据库，并进行维持和更新
+Dialogue: 0,0:33:27.49,0:33:30.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That would enable SOSUS to maximise its effectiveness.{\r}\N这会促进声纳监听系统有效性最大化
+Dialogue: 0,0:33:32.87,0:33:35.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}To record a Soviet submarine's acoustic signature{\r}\N记录一艘苏联潜艇的声音特征
+Dialogue: 0,0:33:35.91,0:33:38.55,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}meant shadowing it at close quarters.{\r}\N意味着要紧紧尾随其后
+Dialogue: 0,0:33:40.69,0:33:43.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}A new kind of submarine was needed.{\r}\N这就需要一种新型潜艇
+Dialogue: 0,0:33:44.76,0:33:46.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The hunter killer.{\r}\N猎人杀手
+Dialogue: 0,0:33:47.64,0:33:49.11,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They were weapons of war. They're dark,{\r}\N他们是战争的武器，他们是阴暗的
+Dialogue: 0,0:33:49.11,0:33:51.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they're black. They're aggressive.{\r}\N是黑色的，有进攻性的
+Dialogue: 0,0:33:51.24,0:33:52.47,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They look evil,{\r}\N他们看起来很邪恶
+Dialogue: 0,0:33:53.10,0:33:54.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and the whole idea was to go in{\r}\N其核心理念是直接进入
+Dialogue: 0,0:33:54.68,0:33:56.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and put a decisive blow and walk away.{\r}\N致命一击，潇洒走人
+Dialogue: 0,0:33:58.82,0:34:03.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The hunter killer was smaller and stealthier than the missile submarine.{\r}\N猎人杀手比导弹潜艇小且更隐秘
+Dialogue: 0,0:34:05.10,0:34:09.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was also nuclear powered so could stay submerged indefinitely,{\r}\N它使用核能，因此一直可以保持在水下
+Dialogue: 0,0:34:09.44,0:34:11.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}shadowing enemy ships.{\r}\N尾随着敌船
+Dialogue: 0,0:34:12.11,0:34:14.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was a complete revolution.{\r}\N这是彻底的革命
+Dialogue: 0,0:34:15.27,0:34:18.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The whole concept of operations now allowed you to get in close enough{\r}\N行动的整个理念如今能让你尾随得足够近
+Dialogue: 0,0:34:19.00,0:34:21.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to get a good readout from this signature,{\r}\N能够非常好地采集潜艇特征
+Dialogue: 0,0:34:22.02,0:34:25.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which you recognised as only emanating{\r}\N据此你能够完美的识别出某种声音特征
+Dialogue: 0,0:34:25.53,0:34:28.96,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}from the particular sort of target that you were looking for{\r}\N就是从你想找的那种型号目标上发射来的
+Dialogue: 0,0:34:29.60,0:34:33.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so it was almost possible to fingerprint each submarine.{\r}\N因此几乎可以对每艘潜艇进行声音指纹采集
+Dialogue: 0,0:34:34.14,0:34:35.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In 1975{\r}\N1975年
+Dialogue: 0,0:34:36.17,0:34:40.59,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Britain and America released their hunter killers into the Atlantic.{\r}\N英美将他们的猎人杀手放入了大西洋
+Dialogue: 0,0:34:40.89,0:34:43.96,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}"We're going north," that was the phrase.{\r}\N“我们在往北”，那是我们的习语
+Dialogue: 0,0:34:44.08,0:34:45.60,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We're going to make a northern run.{\r}\N我们要向北方前行
+Dialogue: 0,0:34:46.85,0:34:48.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When? In the fall.{\r}\N什么时候？秋天
+Dialogue: 0,0:34:48.20,0:34:50.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}OK. Make your plans now.{\r}\N好，现在就制定计划吧
+Dialogue: 0,0:34:54.46,0:34:59.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I used to say a quiet prayer and hope that it all went well.{\r}\N我过去常常轻轻祈祷一句，希望一切都好
+Dialogue: 0,0:35:02.69,0:35:06.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}A large number of the operations were extremely highly classified.{\r}\N大量行动是高度机密的
+Dialogue: 0,0:35:13.29,0:35:17.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The intelligence they collected was always known as "the take".{\r}\N它们收集到的情报被叫做“收入”
+Dialogue: 0,0:35:22.98,0:35:25.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The whole boat was in quiet mode.{\r}\N整艘船都处在安静模式
+Dialogue: 0,0:35:28.63,0:35:32.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Everybody on the vessel was told to walk around in their stockinged feet, you know.{\r}\N每个船上的人都被告知要脱了鞋只穿袜子走路
+Dialogue: 0,0:35:32.40,0:35:35.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}No stomping about. If you didn't have to move, don't.{\r}\N别跺脚，如果可以尽量别动
+Dialogue: 0,0:35:35.67,0:35:37.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Stay in bed.{\r}\N呆在床上
+Dialogue: 0,0:35:39.55,0:35:42.52,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was all about trying to get close to them.{\r}\N一切都是为了接近他们
+Dialogue: 0,0:35:42.55,0:35:45.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was a whispered excitement.{\r}\N这是在窃窃私语中的兴奋
+Dialogue: 0,0:35:48.25,0:35:51.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}SOSUS could guide the hunter killer into the area of the ocean{\r}\N声纳监听系统能够将猎人杀手引导到
+Dialogue: 0,0:35:51.78,0:35:53.78,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}where the enemy had been detected.{\r}\N监测到敌方的那片海域
+Dialogue: 0,0:35:55.17,0:36:00.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Then the sonar crews had to identify the submarine's noise signature.{\r}\N之后声呐人员就需要辨认该潜艇的声音特征
+Dialogue: 0,0:36:01.44,0:36:03.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Bearing node 116.{\r}\N方位点116
+Dialogue: 0,0:36:04.00,0:36:06.87,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Sitting at the sonar stack with the headphones on,{\r}\N坐在声呐堆栈边上，带着耳机
+Dialogue: 0,0:36:07.18,0:36:10.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}scanning the water back and forth{\r}\N来回观测水域
+Dialogue: 0,0:36:11.13,0:36:13.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and if you get to a part that sounds different than the rest of it{\r}\N如果你发现一部分的声音和其他不同
+Dialogue: 0,0:36:14.21,0:36:15.59,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that could be a submarine.{\r}\N那可能就是一艘潜艇
+Dialogue: 0,0:36:18.22,0:36:20.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Bearing node 113.{\r}\N方位点113
+Dialogue: 0,0:36:26.06,0:36:29.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Very quiet, not really so much as a tone,{\r}\N非常小声，几乎不能算是音调
+Dialogue: 0,0:36:29.95,0:36:33.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}just sort of a ssssshhhh, a different sound in the water.{\r}\N只是某种“嘶”声，在水里听起来和别的声音不同
+Dialogue: 0,0:36:40.04,0:36:42.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Can you tell how many propellers it has? Yes.{\r}\N你能说出它有多少螺旋桨吗？ 能
+Dialogue: 0,0:36:42.29,0:36:44.50,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Can you tell how many blades are on each propeller? Yes.{\r}\N你能说出每个螺旋桨上有多少刀片吗？ 能
+Dialogue: 0,0:36:44.53,0:36:46.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Does one of them have a nick in it? Yes.{\r}\N其中哪一片上有划痕吗？有
+Dialogue: 0,0:36:47.13,0:36:51.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We have phase one audible on track 296. Possible dangerous contact.{\r}\N音轨296上可以听第一阶段，那是可能的危险接触
+Dialogue: 0,0:36:51.62,0:36:53.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That is what you listen for.{\r}\N那是你要听到的东西
+Dialogue: 0,0:36:55.29,0:36:58.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You can tell the difference by the rhythmic beats{\r}\N你能通过有节奏的振动分辨区别
+Dialogue: 0,0:36:58.71,0:37:01.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and on the rhythmic beats is one stronger than the rest.{\r}\N其中一个振动比其他的都强
+Dialogue: 0,0:37:01.33,0:37:02.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If one's stronger than the rest{\r}\N如果某一个比其他的振动都强
+Dialogue: 0,0:37:02.44,0:37:05.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}there's some sort of damage to that particular blade of the propeller.{\r}\N那说明那个螺旋桨刀片受损了
+Dialogue: 0,0:37:09.21,0:37:11.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}There really wasn't a lot of sound to hear,{\r}\N实际上几乎没有什么声音
+Dialogue: 0,0:37:11.19,0:37:14.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}it was more like low hums.{\r}\N更像是低沉的哼哼
+Dialogue: 0,0:37:15.08,0:37:16.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Bearing 111.{\r}\N方位点111
+Dialogue: 0,0:37:20.61,0:37:22.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But very quietly.{\r}\N但是很小声
+Dialogue: 0,0:37:26.07,0:37:28.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Once they had found the submarine,{\r}\N一旦他们发现潜艇
+Dialogue: 0,0:37:28.63,0:37:31.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the hunter killer closed in on its prey.{\r}\N猎人杀手紧跟上它的猎物
+Dialogue: 0,0:37:33.43,0:37:37.33,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我们清楚地知道美国人{\r}
+Dialogue: 0,0:37:37.56,0:37:40.33,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}拥有的潜艇比我们更隐蔽{\r}
+Dialogue: 0,0:37:40.59,0:37:44.48,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}并且监测范围是我们的两倍{\r}
+Dialogue: 0,0:37:46.88,0:37:48.65,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}我听不见它{\r}
+Dialogue: 0,0:37:49.46,0:37:51.02,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}但我不得不假设它就在我附近{\r}
+Dialogue: 0,0:37:52.82,0:37:55.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So you'd get in behind the Soviet submarine{\r}\N所以你就跟在苏联潜艇后面
+Dialogue: 0,0:37:55.79,0:37:59.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}recording all the radiated noises from the submarine,{\r}\N记录下它传播出来的所有声音
+Dialogue: 0,0:37:59.34,0:38:03.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}then usually one of the sonar riders would come out and say,{\r}\N通常这时一个声呐操控员就会出来说
+Dialogue: 0,0:38:03.11,0:38:05.28,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}"No, no, we didn't get enough, we need more."{\r}\N“不不，我们还获取得不够，我们需要更多”
+Dialogue: 0,0:38:05.42,0:38:07.86,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Sometimes the captain would say, "We'll make another run at it."{\r}\N有时候船长会说“我们再来一次”
+Dialogue: 0,0:38:07.89,0:38:11.12,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Sometimes he'd say a bad word and say, "You've got enough."{\r}\N有时候他就骂一句脏话然后说“已经够了”
+Dialogue: 0,0:38:12.34,0:38:14.08,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You weren't fighting the submarine,{\r}\N你并不在对抗潜艇
+Dialogue: 0,0:38:14.37,0:38:16.53,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}you were fighting the bloke who was driving it,{\r}\N你是在对抗那个驾驶它的家伙
+Dialogue: 0,0:38:17.12,0:38:21.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and therefore you had to focus on what these people were like.{\r}\N因此你需要关注那些人是什么样的
+Dialogue: 0,0:38:23.98,0:38:26.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's all about trying to outwit your opponent.{\r}\N一切都是为了以机智胜过你的对手
+Dialogue: 0,0:38:27.17,0:38:30.11,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And that game of chess, if you want to call it that,{\r}\N象棋游戏，或许你愿意这么叫它
+Dialogue: 0,0:38:30.60,0:38:32.15,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}to me was fascinating.{\r}\N它对我来说很有吸引力
+Dialogue: 0,0:38:32.69,0:38:34.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Closing, increasing.{\r}\N靠近，增加
+Dialogue: 0,0:38:35.37,0:38:37.60,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}American and British submariners knew{\r}\N英美潜艇人员知道，
+Dialogue: 0,0:38:37.60,0:38:40.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that their ability to go undetected at close quarters{\r}\N他们有能力在很近的距离尾随而不被发现
+Dialogue: 0,0:38:41.24,0:38:44.64,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}gave them the tactical advantage over the Soviets.{\r}\N这种能力使他们在战术上有优势
+Dialogue: 0,0:38:48.12,0:38:51.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Although our numbers theoretically were lower than theirs,{\r}\N尽管我们的数量理论上说比他们少
+Dialogue: 0,0:38:51.97,0:38:54.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}in fact, it certainly convinced me{\r}\N但实际上我完全信服
+Dialogue: 0,0:38:55.06,0:38:58.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that we were in a position to win a shooting war{\r}\N我们处在一个能够打赢热战的地位
+Dialogue: 0,0:38:58.40,0:39:01.10,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}against the Soviet submarine service, yes.{\r}\N可以打败苏联潜艇军力，是的
+Dialogue: 0,0:39:03.23,0:39:08.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Collecting intelligence on Soviet submarines wasn't without risks.{\r}\N搜集苏联潜艇情报是有风险的
+Dialogue: 0,0:39:09.94,0:39:15.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were very conscious that what we were doing was somewhat dangerous.{\r}\N我们都很清楚我们做的事情有些危险
+Dialogue: 0,0:39:19.78,0:39:24.80,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Frank Turvey was a young engineering officer on a British hunter killer submarine.{\r}\N弗兰克特维是当时一艘英国猎人杀手的年轻工程员
+Dialogue: 0,0:39:26.18,0:39:30.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Its crew of 98 had been at sea for five weeks.{\r}\N船上的98人已经在海上过了五周
+Dialogue: 0,0:39:32.99,0:39:35.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}One night when I went on watch,{\r}\N一个晚上我正值班
+Dialogue: 0,0:39:38.15,0:39:41.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I left my sleeping area, my bunk space,{\r}\N我离开睡觉的地方，我的床铺
+Dialogue: 0,0:39:41.59,0:39:44.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I had to walk through the control room.{\r}\N我穿过控制室
+Dialogue: 0,0:39:46.76,0:39:48.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Everything looked good{\r}\N一切看起来都很好
+Dialogue: 0,0:39:50.32,0:39:52.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and we were in silent mode.{\r}\N我们处在安静模式
+Dialogue: 0,0:39:55.85,0:39:59.16,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}About 25 minutes past midnight{\r}\N午夜过了25分钟左右，
+Dialogue: 0,0:40:00.22,0:40:02.16,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}there was an awful bang.{\r}\N传来一声可怕的巨响
+Dialogue: 0,0:40:03.02,0:40:05.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And crushing and scraping.{\r}\N伴随着破碎和刮擦声
+Dialogue: 0,0:40:07.08,0:40:12.02,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And we were pushed right over in our chair...chairs,{\r}\N我们坐在椅子上被推滑出去
+Dialogue: 0,0:40:12.85,0:40:16.99,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}about 74 degrees, so we were almost on our backs.{\r}\N船体倾斜了大约74度，因此我们几乎背面朝下
+Dialogue: 0,0:40:18.82,0:40:24.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}There were alarms on all of the panels, bells ringing, red lights flashing.{\r}\N所有控制盘上警报都响起来了,闪着红光
+Dialogue: 0,0:40:27.48,0:40:30.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The submarine had lost much of its electrical power.{\r}\N潜艇几乎断电
+Dialogue: 0,0:40:31.73,0:40:35.47,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The severe listing had also damaged some of its engineering equipment.{\r}\N严重的倾斜也导致一些工程设备损毁
+Dialogue: 0,0:40:37.40,0:40:39.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But a strange thing happened to me.{\r}\N但有件奇怪的事情在我身上发生了
+Dialogue: 0,0:40:40.28,0:40:43.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When I was at school we had a great Latin teacher.{\r}\N当我上学时,我们有一位优秀的拉丁语老师
+Dialogue: 0,0:40:43.91,0:40:48.44,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}One of the sentences he diagnosed in detail.{\r}\N他详细分析过一个句子
+Dialogue: 0,0:40:48.94,0:40:52.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Una salus victus nonum sparare salutem.{\r}\N（拉丁语）
+Dialogue: 0,0:40:53.56,0:40:57.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The one hope of the defeated{\r}\N被打败的人要想获得希望
+Dialogue: 0,0:40:58.42,0:41:00.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}is not to think about your safety.{\r}\N就不要考虑自己的安全
+Dialogue: 0,0:41:03.26,0:41:04.40,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Do the right thing.{\r}\N做正确的事情
+Dialogue: 0,0:41:06.62,0:41:08.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}For the next three hours{\r}\N接下来三个小时
+Dialogue: 0,0:41:08.73,0:41:13.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Turvey and his team of engineers fought to stabilise the submarine.{\r}\N特维和他的工程师队员奋力稳定潜艇
+Dialogue: 0,0:41:15.79,0:41:18.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Only later did he ask what had happened.{\r}\N之后他才问发生了什么
+Dialogue: 0,0:41:21.28,0:41:26.82,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were told as far as I remember that we collided with ice.{\r}\N据我的记忆,我们被告知我们撞上了冰
+Dialogue: 0,0:41:27.97,0:41:29.66,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}An iceberg.{\r}\N一座冰山
+Dialogue: 0,0:41:31.74,0:41:35.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And, er, that was it.{\r}\N就是这样了
+Dialogue: 0,0:41:40.03,0:41:42.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}What did you think when you were lying in your bunk?{\r}\N当你躺在床上时你想了些什么
+Dialogue: 0,0:41:46.61,0:41:53.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I suppose I thought that I was, and all of us, we were lucky.{\r}\N我大概想着，我和所有人，我们都很幸运
+Dialogue: 0,0:41:54.28,0:41:55.78,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And er...{\r}\N还有
+Dialogue: 0,0:41:57.74,0:42:02.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I, er, in situations like that you think of family a lot.{\r}\N我，嗯，在那种情况下，一般人都会很想家
+Dialogue: 0,0:42:04.12,0:42:07.29,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I did. Erm...{\r}\N我也是
+Dialogue: 0,0:42:08.80,0:42:11.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And I could look forward to...{\r}\N我能够有所期盼了
+Dialogue: 0,0:42:25.80,0:42:28.64,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's become known now that during my tenure{\r}\N我任期间，了解到
+Dialogue: 0,0:42:28.66,0:42:32.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}one of our submarines was quite badly damaged.{\r}\N我们的一艘潜艇毁损非常厉害
+Dialogue: 0,0:42:32.37,0:42:38.15,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I mean, its conning tower was not quite destroyed but very seriously bent.{\r}\N就是说，它的指挥塔并没有完全毁坏但严重弯曲了
+Dialogue: 0,0:42:38.57,0:42:41.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And of course we lied about how it had happened{\r}\N当然，我们对于事情的原因说了谎
+Dialogue: 0,0:42:42.49,0:42:47.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and just said that now it is known it had hit a Soviet submarine{\r}\N我们只说现在大家都知道是撞上了一艘苏联潜艇
+Dialogue: 0,0:42:47.76,0:42:49.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}because it was shadowing it.{\r}\N因为跟得太紧了
+Dialogue: 0,0:42:53.18,0:42:55.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Now, boys will be boys{\r}\N好吧，小伙子就是小伙子
+Dialogue: 0,0:42:55.41,0:42:59.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and there was an element of just going off and doing this for bravado{\r}\N当时似乎就只想着动身出发虚张声势一番
+Dialogue: 0,0:42:59.16,0:43:01.19,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and we needed to curb some of it{\r}\N我们需要克制一点儿
+Dialogue: 0,0:43:01.50,0:43:03.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I think some of it was curbed.{\r}\N我想我们也确实被约束了一点儿
+Dialogue: 0,0:43:04.84,0:43:09.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Ministry of Defence has never confirmed any collision with a Soviet submarine.{\r}\N国防部一直未证实曾与苏联潜艇撞击
+Dialogue: 0,0:43:10.52,0:43:13.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Operational details remain classified.{\r}\N行动细节仍然是机密
+Dialogue: 0,0:43:15.22,0:43:19.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}On their return home, American, British and Soviet crews{\r}\N英美苏联船员在回国途中
+Dialogue: 0,0:43:19.76,0:43:22.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}were forbidden to talk about their patrols.{\r}\N他们被禁止谈论巡查之事
+Dialogue: 0,0:43:22.55,0:43:27.38,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# No other lips{\r}\N♪其他人的唇♪
+Dialogue: 0,0:43:27.55,0:43:31.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Could want you more{\r}\N♪你都不会想要♪
+Dialogue: 0,0:43:32.22,0:43:35.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I didn't know very much because he never told me very much.{\r}\N我不太知道情况因为他没告诉我太多
+Dialogue: 0,0:43:35.78,0:43:40.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I knew he was at sea, and I knew he would be gone for three months{\r}\N我知道他当时在出海，他要去三个月
+Dialogue: 0,0:43:41.24,0:43:45.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and they knew that, and that was it, that was it.{\r}\N他们也知道，就是那样了，就是那样
+Dialogue: 0,0:43:50.99,0:43:53.11,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}这些分离的时期是一个考验——充满困难{\r}
+Dialogue: 0,0:43:53.14,0:43:54.88,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}但再次见到所有人 时感觉棒极了{\r}
+Dialogue: 0,0:43:55.45,0:43:57.57,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}你能体会到无比的快乐和幸福{\r}
+Dialogue: 0,0:43:57.74,0:43:59.65,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}孩子们跑来跑去叫着“爸爸回来啦”{\r}
+Dialogue: 0,0:43:59.77,0:44:02.99,Default,,0000,0000,0000,,{\fs16\1c&H00FFFF&\b1}他们一直在等爸爸{\r}
+Dialogue: 0,0:44:04.74,0:44:07.43,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was so excited about him coming home, it had been three months,{\r}\N我很高兴他回家了，都过了三个月了
+Dialogue: 0,0:44:07.57,0:44:12.30,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so I made this big plaque that said "Tonight's the night",{\r}\N因此我做了这块大饰板，写着“就在今夜”
+Dialogue: 0,0:44:12.99,0:44:16.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I took it down and waved it over the pier.{\r}\N我带着它走下去在码头上举着挥舞
+Dialogue: 0,0:44:16.66,0:44:17.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, I was frowned on.{\r}\N有人冲我皱眉头
+Dialogue: 0,0:44:21.89,0:44:25.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Who frowned on you? All the Admirals and their wives.{\r}\N谁？所有的海军上将和他们的妻子
+Dialogue: 0,0:44:28.28,0:44:30.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}What did they think was going to happen?{\r}\N他们觉得会发生什么
+Dialogue: 0,0:44:31.09,0:44:33.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I think they thought we were going to have sex.{\r}\N我想他们觉得我们准备上床
+Dialogue: 0,0:44:33.92,0:44:45.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# The wonder of your smile{\r}\N♪你那笑容的美妙♪
+Dialogue: 0,0:44:46.02,0:44:47.66,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In 1974,{\r}\N1974年
+Dialogue: 0,0:44:48.06,0:44:52.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}East and West agreed to reduce their arsenals of nuclear ballistic missiles.{\r}\N东西方同意减少其核弹道导弹武库
+Dialogue: 0,0:44:54.77,0:44:58.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But at sea, western naval intelligence learned of a new threat.{\r}\N但是在海上，西方海军情报处了解到了新的威胁
+Dialogue: 0,0:45:01.25,0:45:03.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The most dangerous ship in the Soviet Fleet,{\r}\N苏联舰队中最危险的船
+Dialogue: 0,0:45:04.51,0:45:08.05,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}a 40,000 ton aircraft carrier called the Kiev.{\r}\N是一艘叫做基辅的四万吨运载量的航空母舰
+Dialogue: 0,0:45:09.94,0:45:11.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Along with fighter aircraft,{\r}\N配合上歼击机
+Dialogue: 0,0:45:11.98,0:45:14.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the Kiev had eight Cruise missiles,{\r}\N基辅共有八艘巡航导弹
+Dialogue: 0,0:45:14.69,0:45:16.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}each eight times more powerful{\r}\N每一颗威力十分
+Dialogue: 0,0:45:16.77,0:45:18.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}than the bomb that was dropped on Hiroshima.{\r}\N比投射在广岛的力量强八倍
+Dialogue: 0,0:45:20.81,0:45:25.10,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were dealing with some pretty big bits of kit.{\r}\N我们要对付的是一堆大型装备
+Dialogue: 0,0:45:26.27,0:45:30.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}There was a slight sort of apprehension verging on fear{\r}\N大家有一点点恐惧
+Dialogue: 0,0:45:30.81,0:45:34.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that the Soviet fleet were flexing their muscles.{\r}\N担心苏联舰队正在展示实力
+Dialogue: 0,0:45:34.92,0:45:37.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The carrier was also faster than any submarine.{\r}\N航母比任何潜艇都要快
+Dialogue: 0,0:45:38.97,0:45:41.86,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Within 18 hours of leaving territorial waters,{\r}\N在18小时内就能离开领海
+Dialogue: 0,0:45:42.41,0:45:45.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}she would be capable of launching her missiles on Europe.{\r}\N它能够对欧洲发射导弹
+Dialogue: 0,0:45:49.46,0:45:52.04,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I name this ship Swiftsure.{\r}\N我将这艘船命名为敏捷号
+Dialogue: 0,0:45:52.23,0:45:55.56,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}May God bless her and all who sail in her.{\r}\N愿主保佑它和所有船上的人
+Dialogue: 0,0:45:57.90,0:45:59.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In early 1977,{\r}\N1977年初，
+Dialogue: 0,0:46:00.38,0:46:02.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Britain's newest hunter killer submarine,{\r}\N英国最新猎人杀手潜艇
+Dialogue: 0,0:46:03.15,0:46:04.52,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}HMS Swiftsure,{\r}\N皇家海军舰艇敏捷号
+Dialogue: 0,0:46:04.99,0:46:10.12,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was sent north to find the Kiev and record her acoustic signature.{\r}\N朝北方出发寻找基辅并记录其声音特征
+Dialogue: 0,0:46:11.96,0:46:13.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Swiftsure was an operational submarine{\r}\N敏捷号是一艘行动潜艇
+Dialogue: 0,0:46:13.78,0:46:16.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}who'd done all its tricks and was ready,{\r}\N能力俱全，万事俱备
+Dialogue: 0,0:46:16.70,0:46:21.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and what's more, about to go on front line deployment.{\r}\N而且，它将前往前线部署
+Dialogue: 0,0:46:21.92,0:46:23.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Oh, it's exciting.{\r}\N真激动人心
+Dialogue: 0,0:46:30.75,0:46:33.50,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I always found sailing extremely difficult,{\r}\N我一直觉得航海非常困难
+Dialogue: 0,0:46:34.67,0:46:38.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}leaving your family knowing that there was going to be{\r}\N你留下了家人，他们知道
+Dialogue: 0,0:46:38.96,0:46:42.58,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}a very significant challenge ahead.{\r}\N你要面对严峻的挑战
+Dialogue: 0,0:46:52.94,0:46:55.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}There was a feeling that perhaps in the back of our minds,{\r}\N我们脑海中大概有这样一种隐约的感觉
+Dialogue: 0,0:46:55.78,0:46:57.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Soviets were eight foot tall.{\r}\N苏联人似乎都八英尺高
+Dialogue: 0,0:47:03.61,0:47:05.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We wanted to bring them down to five foot nine,{\r}\N我们想将他们压倒至五英尺九
+Dialogue: 0,0:47:05.67,0:47:07.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}which is probably the average.{\r}\N这样差不多是平均身高
+Dialogue: 0,0:47:14.17,0:47:17.02,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Swiftsure was heading for the Barents Sea,{\r}\N敏捷号正朝巴伦支海前进，
+Dialogue: 0,0:47:17.60,0:47:20.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}home to the vast Soviet northern fleet.{\r}\N巴伦支海是苏联北方广大舰队的老巢
+Dialogue: 0,0:47:22.83,0:47:26.13,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The only way you could detect the potential enemy{\r}\N监测潜在敌人的唯一方式
+Dialogue: 0,0:47:26.39,0:47:29.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}was going there close up and covertly.{\r}\N就是去暗中紧紧跟着，
+Dialogue: 0,0:47:30.48,0:47:32.94,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And when they're operating in their own areas{\r}\N当他们在自己的海域行动时
+Dialogue: 0,0:47:32.96,0:47:35.76,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they're obviously a little bit freer and easier,{\r}\N明显更加自由且容易
+Dialogue: 0,0:47:35.79,0:47:37.66,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}thinking that maybe they are on their own.{\r}\N他们觉得是在独处
+Dialogue: 0,0:47:39.99,0:47:42.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}They were engaged in a very dangerous activity.{\r}\N他们正进行很危险的活动
+Dialogue: 0,0:47:42.66,0:47:45.56,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But they knew what they were doing, they knew how dangerous it was,{\r}\N但他们知道自己在做什么，知道有多么危险
+Dialogue: 0,0:47:45.57,0:47:46.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}they knew how important it was.{\r}\N也知道多么重要
+Dialogue: 0,0:47:47.14,0:47:50.80,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And they experienced when they did it how difficult it was.{\r}\N当他们真正做的时候，他们感受到了有多么困难
+Dialogue: 0,0:47:52.85,0:47:57.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Among the crew were Russian linguists and electronic intelligence experts.{\r}\N人员中包括了俄语语言学家和电子情报专家
+Dialogue: 0,0:47:59.51,0:48:03.89,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were going to do business with the Soviet Navy{\r}\N我们是在对付苏联海军
+Dialogue: 0,0:48:04.94,0:48:08.86,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}so Soviet terms would be used, Russian names would be used.{\r}\N因此会用到苏联用语，还有俄罗斯人名
+Dialogue: 0,0:48:13.75,0:48:16.74,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Swiftsure would be operating near the Arctic Circle.{\r}\N敏捷号将在北极圈附近行动
+Dialogue: 0,0:48:17.75,0:48:20.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}With just an hour of daylight in every 24-hour period,{\r}\N每24小时只有1小时是白天
+Dialogue: 0,0:48:21.51,0:48:23.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}special red lighting had to be used.{\r}\N我们得使用特殊的红光照明
+Dialogue: 0,0:48:26.38,0:48:30.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When it's dark up there, which it is for a lot of the time,{\r}\N当天黑时，也就是大部分时间
+Dialogue: 0,0:48:30.29,0:48:32.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}light inside, at the bottom of the periscope,{\r}\N潜望镜底部安装的内部照明灯
+Dialogue: 0,0:48:32.86,0:48:36.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}has got to be the same or less than the light at the top of the periscope.{\r}\N亮度需要和潜望镜顶部的灯相等或更暗
+Dialogue: 0,0:48:38.01,0:48:43.15,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was red lighting for the best part of, probably going to be about two months.{\r}\N差不多两个月的大部分时间都是红光照明
+Dialogue: 0,0:48:43.47,0:48:45.71,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It became very, very tiring.{\r}\N非常非常累人
+Dialogue: 0,0:48:48.81,0:48:51.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}When Swiftsure entered the Barents Sea{\r}\N当敏捷号进入巴伦支海
+Dialogue: 0,0:48:51.92,0:48:55.83,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the crew found themselves in the middle of a major naval exercise.{\r}\N船员们发现自己处在一个重大海军演习中
+Dialogue: 0,0:48:59.77,0:49:03.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was surprised at how incredibly busy we really were.{\r}\N我很惊讶地发现我们有多么忙碌
+Dialogue: 0,0:49:18.07,0:49:23.86,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Your level of activity is absolutely constant, reporting, noise.{\r}\N你的活跃水平非常稳定,不停地报告声音
+Dialogue: 0,0:49:27.38,0:49:31.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I saw missiles streaking through the air.{\r}\N我看见导弹划破空气
+Dialogue: 0,0:49:31.92,0:49:33.47,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I saw firings by guns.{\r}\N我看见枪开火
+Dialogue: 0,0:49:33.50,0:49:36.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I saw a torpedo firing exercise.{\r}\N我看见鱼雷开火演习
+Dialogue: 0,0:49:38.15,0:49:41.67,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Never ever in my wildest dreams thought I would do that.{\r}\N我做梦都想不到自己有一天会做这种事
+Dialogue: 0,0:49:43.30,0:49:46.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, you're sitting there at the centre of the spider's web.{\r}\N坐在蜘蛛网中央
+Dialogue: 0,0:49:46.12,0:49:48.71,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's a lovely feeling of being surrounded by people{\r}\N这是一种愉快的感觉,你身边都是人
+Dialogue: 0,0:49:48.72,0:49:51.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}who can't see you but you can see them.{\r}\N他们看不见你,你却看得见他们
+Dialogue: 0,0:49:53.56,0:49:57.55,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Then, Swiftsure's sonar detected something new.{\r}\N接着,敏捷号的声呐监听到了新的东西
+Dialogue: 0,0:49:59.54,0:50:00.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The Kiev.{\r}\N基辅
+Dialogue: 0,0:50:12.99,0:50:15.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I remember the excitement first time I saw her.{\r}\N我记得自己第一次看见它时有多兴奋
+Dialogue: 0,0:50:16.61,0:50:20.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The captain and the XO had lots sightings before I did{\r}\N船长和XO在我看见之前已经看了很久
+Dialogue: 0,0:50:20.76,0:50:21.87,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and I remember thinking, come on,{\r}\N我记得当时在想,拜托
+Dialogue: 0,0:50:21.87,0:50:23.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I want to have a look at this. I really want to see her.{\r}\N我真想看一眼,我想看看它
+Dialogue: 0,0:50:25.10,0:50:27.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And when I did she was impressive.{\r}\N当我真的看到时,觉得她太令人难忘了
+Dialogue: 0,0:50:27.42,0:50:28.54,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Beautiful-looking ship.{\r}\N真是一艘美丽的船
+Dialogue: 0,0:50:29.71,0:50:32.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}She was big, clean lines, just looked the part.{\r}\N她很宏大,流线型,看上去就该是那样的
+Dialogue: 0,0:50:37.47,0:50:41.50,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Soon after that Captain John said, "Right, let's go and have a look at this."{\r}\N很快约翰船长说:”好了,让我们出发看一看”
+Dialogue: 0,0:50:43.88,0:50:46.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We started our approach from behind the carrier,{\r}\N我们从跟在航母后边开始接近
+Dialogue: 0,0:50:47.13,0:50:51.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and obviously we had to go in at a slightly higher speed than his.{\r}\N很显然我们需要比它的速度稍微快一点儿
+Dialogue: 0,0:50:51.49,0:50:56.76,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We were constantly assessing his course and speed as accurately as we possibly can.{\r}\N我们不停地分析它的路线和速度,尽可能准确
+Dialogue: 0,0:51:02.13,0:51:06.85,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Coming up from astern you can identify the wash from the propellers.{\r}\N在船尾上你能够认出螺旋桨卷起的水波
+Dialogue: 0,0:51:07.69,0:51:10.62,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Once we see that we know we are very close.{\r}\N当看到那个,我们就知道离得很近了
+Dialogue: 0,0:51:10.69,0:51:13.43,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Course 130. Speed 50 knots.{\r}\N航线130，速度50海里/小时
+Dialogue: 0,0:51:13.48,0:51:16.15,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We needed to match his speed almost exactly.{\r}\N我们几乎需要完全匹配上它的速度
+Dialogue: 0,0:51:16.53,0:51:19.20,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Going up one revolution at a time.{\r}\N每次旋转一次
+Dialogue: 0,0:51:19.54,0:51:22.09,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And you give yourself enough time to get down,{\r}\N你要给自己足够时间下沉
+Dialogue: 0,0:51:22.18,0:51:25.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}steady on the depth that you want to do this operation at{\r}\N稳稳停在你想要执行行动的深度
+Dialogue: 0,0:51:25.43,0:51:27.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and then slide in underneath.{\r}\N然后滑下去
+Dialogue: 0,0:51:34.77,0:51:38.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was quite a relief to find that we were sliding under him.{\r}\N我们很欣慰我们终于滑到它底部了
+Dialogue: 0,0:51:39.31,0:51:42.21,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Gently and without incident, so to speak.{\r}\N可以说是轻缓而平安无事
+Dialogue: 0,0:51:45.51,0:51:48.34,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Swiftsure's cameras and acoustic devices  .{\r}\N敏捷号的影像和声音设备
+Dialogue: 0,0:51:48.35,0:51:50.77,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}began gathering the Kiev's secrets{\r}\N开始收集基辅号的秘密
+Dialogue: 0,0:52:05.01,0:52:08.00,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Always tense, always total concentration.{\r}\N总是充满紧张感，完全集中注意力
+Dialogue: 0,0:52:10.49,0:52:12.63,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}How close were you to the Kiev?{\r}\N当时你们离基辅有多近
+Dialogue: 0,0:52:13.18,0:52:15.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Top of the periscope be about 10 to 12 feet.{\r}\N潜望镜顶部离它大约10至12英尺
+Dialogue: 0,0:52:20.96,0:52:24.60,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We're running 12 feet away from a 40,000 ton aircraft carrier.{\r}\N我们离这样一艘4万吨载重的航母有12英尺远
+Dialogue: 0,0:52:24.63,0:52:27.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, so be it. That's what we're doing.{\r}\N那就这样吧，那就是我们当时做的事情
+Dialogue: 0,0:52:28.50,0:52:32.12,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If that makes you nervous to think about it, yes, fine.{\r}\N如果这样想让你觉得紧张了，那好吧
+Dialogue: 0,0:52:32.15,0:52:37.57,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But if you're there, you're sharp, you're on the ball.{\r}\N但如果你当时在那里，你很敏锐，全神贯注
+Dialogue: 0,0:52:37.57,0:52:41.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You're not day dreaming while you are doing this, that's for sure.{\r}\N可以肯定的是你做这一切时并不是在白日做梦
+Dialogue: 0,0:52:48.53,0:52:50.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But we are in a little ship.{\r}\N但我们在一艘小船上
+Dialogue: 0,0:52:50.04,0:52:50.79,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You say it{\r}\N随你怎么说
+Dialogue: 0,0:52:50.79,0:52:55.76,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}but we are in a submarine that could actually sink him in three minutes.{\r}\N总之我们在一艘能在三分钟内击沉它的潜艇上
+Dialogue: 0,0:52:56.42,0:52:58.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}He would have difficulty sinking us.{\r}\N它要击沉我们却不容易
+Dialogue: 0,0:52:59.79,0:53:04.33,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That's the sort of arrogant bit of knowledge to tuck away.{\r}\N那是我们藏在心里的某种骄傲的认知
+Dialogue: 0,0:53:04.76,0:53:08.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We know he's there and we're controlling this whole evolution.{\r}\N我们知道它在那里，我们掌控着事态发展
+Dialogue: 0,0:53:08.87,0:53:09.95,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And he doesn't know we're there.{\r}\N它却不知道我们在这里
+Dialogue: 0,0:53:17.36,0:53:20.45,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}After we had been underneath for quite a long time{\r}\N我们在水下呆了较长一段时间以后
+Dialogue: 0,0:53:20.73,0:53:22.95,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}we felt we'd seen everything that we could usefully see.{\r}\N我们觉得自己已经观察到了能看到的一切
+Dialogue: 0,0:53:23.15,0:53:27.14,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}We pulled out gently and went off to a decent distance.{\r}\N我们悄然撤离到了一个安全距离
+Dialogue: 0,0:53:41.24,0:53:45.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}After 70 days at sea, Swiftsure returned to Britain.{\r}\N在海上70天后，敏捷号回到了英国
+Dialogue: 0,0:53:46.77,0:53:52.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Contained in her sonar bays was the Kiev's entire acoustic fingerprint.{\r}\N它的声呐储存库中有基辅的所有声音特征
+Dialogue: 0,0:53:53.08,0:53:55.41,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}If the carrier ever planned to attack,{\r}\N如果那艘航母真的计划进攻
+Dialogue: 0,0:53:55.88,0:53:58.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}the West would be able to find and sink her{\r}\N西方能够找到并击沉它
+Dialogue: 0,0:53:58.94,0:54:02.11,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}before she was in range of Britain or Western Europe.{\r}\N它没有机会进入英国或西欧范围
+Dialogue: 0,0:54:06.66,0:54:10.68,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was sharp end, cutting edge of the services.{\r}\N那是非常尖端的先锋技术
+Dialogue: 0,0:54:11.39,0:54:14.66,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It was the front line of the Cold War operations.{\r}\N在冷战行动中处于前线
+Dialogue: 0,0:54:14.69,0:54:17.39,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And it was a very exciting thing to be part of.{\r}\N能成为其一部分是非常激动人心的
+Dialogue: 0,0:54:20.32,0:54:24.32,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Over two decades, British and American hunter killers{\r}\N二十年来，英国和美国的猎人杀手
+Dialogue: 0,0:54:24.37,0:54:27.60,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}brought back vital intelligence about the Soviet fleet.{\r}\N获得了关于苏联舰队的大量情报
+Dialogue: 0,0:54:29.72,0:54:34.92,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}This gave the West a priceless strategic advantage over the Soviet Union.{\r}\N这使西方比苏联多了极宝贵的战略优势
+Dialogue: 0,0:54:38.38,0:54:42.81,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Well, this was given to me as a parting present by my ship's company{\r}\N这是所有船员在分别时送给我的
+Dialogue: 0,0:54:43.14,0:54:46.46,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and it says HMS Swiftsure on it.{\r}\N上面写着皇家海军舰队敏捷号
+Dialogue: 0,0:54:47.71,0:54:52.43,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}But this actually is a model made by my ship's company{\r}\N但实际上这是由全体船员做的一个仿制品
+Dialogue: 0,0:54:52.80,0:54:58.37,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}who, over a glass with them, this was presented to me.{\r}\N一起喝酒的时候，他们把它给了我
+Dialogue: 0,0:54:58.37,0:54:59.97,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I was absolutely delighted.{\r}\N我开心极了
+Dialogue: 0,0:54:59.97,0:55:02.88,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}It's based on the Kiev, the carrier.{\r}\N这是根据航母基辅的样子做的
+Dialogue: 0,0:55:08.69,0:55:11.35,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Did you talk to your wife about it when you came home? No.{\r}\N你回家后和妻子聊过这事吗? 没有
+Dialogue: 0,0:55:11.48,0:55:13.52,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I wasn't allowed to do that, no.{\r}\N我不能这么做，不能
+Dialogue: 0,0:55:14.34,0:55:15.75,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}So what did you tell your wife?{\r}\N那你怎么和你妻子说的？
+Dialogue: 0,0:55:16.57,0:55:18.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}I said, well, we had a story{\r}\N我说了我们自己准备的故事
+Dialogue: 0,0:55:18.84,0:55:23.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that we had just been on a training patrol.{\r}\N就是我们进行了一次训练巡逻
+Dialogue: 0,0:55:23.74,0:55:25.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}That's what all the ship's company were told.{\r}\N所有船员都是这么被告知的
+Dialogue: 0,0:55:26.52,0:55:32.93,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}My wife knew that these were difficult patrols{\r}\N我妻子只知道巡逻很艰险
+Dialogue: 0,0:55:32.93,0:55:39.17,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}and she was used to seeing me come back having lost weight and grown a beard and tense.{\r}\N她习惯了看到我每次回来都瘦了，长了胡渣而且难以放松
+Dialogue: 0,0:55:39.81,0:55:41.20,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}No doubt about that.{\r}\N这毫无疑问
+Dialogue: 0,0:55:43.78,0:55:48.49,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}My wife was absolutely incredible looking after my children.{\r}\N我妻子在照顾孩子方面真的很伟大
+Dialogue: 0,0:55:56.09,0:55:57.73,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Very, very rarely there.{\r}
+Dialogue: 0,0:55:58.49,0:56:03.84,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Through the Swiftsure days through... Tough.{\r}\N在敏捷号的那些日子，还有其他艰难的日子
+Dialogue: 0,0:56:08.58,0:56:10.65,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}The whole part of that world{\r}\N所有世界另一面的那些正常生活
+Dialogue: 0,0:56:10.69,0:56:16.61,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}that you've put to one side for almost two months you pick it up again.{\r}\N你几乎扔掉了两个月，如今又捡了起来重新生活
+Dialogue: 0,0:56:18.82,0:56:21.70,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}You hadn't seen the colour green for a long time.{\r}\N你很久没有看见绿色了
+Dialogue: 0,0:56:22.35,0:56:23.55,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Grass.{\r}\N草的颜色
+Dialogue: 0,0:56:28.13,0:56:30.31,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}All the delights, you know. The smell of a woman.{\r}\N还有所有的幸福，你知道的，心爱女人的香味
+Dialogue: 0,0:56:30.85,0:56:34.15,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And I don't mean that salaciously, I just mean smelling a woman.{\r}\N并不带有色情的成分，我只是说气味
+Dialogue: 0,0:56:34.42,0:56:35.25,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}And touch.{\r}\N和触感
+Dialogue: 0,0:56:35.37,0:56:41.01,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}No one touches you in a submarine and that's something that I found I noticed.{\r}\N我注意到一件事，在潜艇上，没有人碰你
+Dialogue: 0,0:56:42.34,0:56:43.82,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}How did it feel?{\r}\N那回家的感觉怎样？
+Dialogue: 0,0:56:44.27,0:56:46.24,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Ah, it was lovely, lovely.{\r}\N很愉快，很美妙
+Dialogue: 0,0:56:46.36,0:56:48.90,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}What you haven't had you miss.{\r}\N你思念那些没能拥有的东西
+Dialogue: 0,0:56:50.97,0:56:56.07,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# It's all over{\r}\N♪一切都结束了♪
+Dialogue: 0,0:56:57.80,0:57:04.36,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Didn't even cry{\r}\N♪甚至没有流泪♪
+Dialogue: 0,0:57:05.69,0:57:13.42,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# I just stopped living{\r}\N♪我只是停止了生活♪
+Dialogue: 0,0:57:15.76,0:57:21.11,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# When you said goodbye{\r}\N♪在你说再见的时候♪
+Dialogue: 0,0:57:22.65,0:57:27.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# It's all over{\r}\N♪一切都结束了♪
+Dialogue: 0,0:57:29.43,0:57:36.26,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# Didn't feel a thing{\r}\N♪什么都感觉不到♪
+Dialogue: 0,0:57:37.42,0:57:44.79,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}# I just stopped living...{\r}\N♪我只是不再生活♪
+Dialogue: 0,0:57:45.94,0:57:49.74,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}In the next programme, the Russians fight back.{\r}\N在下一集中，苏联人将要反击
+Dialogue: 0,0:57:50.39,0:57:55.69,Default,,0000,0000,0000,,{\fs13\1c&H00FFFF&}Secret weapons beneath the ice and a disaster at sea.{\r}\N冰下隐藏的武器以及海上的灾难
+Dialogue: 0,0:57:59.24,0:58:10.84,Default,,0000,0000,0000,,{\move(190,280,190,030)}{\fs16\pos(190,190)\1c&H00FFFF&}http://bbs.3e-online.com   2014.01.10\N================================\N================================\N本字幕僅供學習交流,轉載請注明出處\N翻译/校对:scrawl 时间轴/後期:劍齒虎{\r}
+
+

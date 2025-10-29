@@ -1,0 +1,746 @@
+[Script Info]
+; // 此字幕由PopSub生成  2013-10-23 15:03:30
+; // 版本: 0.72
+; // popgo_fansub@yahoo.co.jp
+; // 欢迎访问漫游天下 http://bbs.popgo.net
+Title:漫游字幕
+Original Script:漫游字幕组
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,楷体,18,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,4,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:55.69,0:00:57.80,*Default,说话人,0000,0000,0000,,{\pos(256,175)}{\bord0\shad0\fn汉仪娃娃篆简\b0\fs20}{\c&H1A3333&}花仙女王
+Dialogue: 0,0:01:03.28,0:01:05.98,*Default,说话人,0000,0000,0000,,{\fn华文新魏}{\fs28}{\shad9}费雪小姐探案集
+Dialogue: 0,0:01:10.30,0:01:12.32,*Default,说话人,0000,0000,0000,,我肯定教过这些姑娘们要准时啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sure I taught those girls punctuality.
+Dialogue: 0,0:01:15.36,0:01:19.32,*Default,说话人,0000,0000,0000,,需要我等其余女孩来了再上第一道菜么 小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Should I delay the first course for our other maidens,Miss?
+Dialogue: 0,0:01:19.34,0:01:22.36,*Default,说话人,0000,0000,0000,,不用 上菜吧 巴特勒先生 时间就是金钱啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,forge ahead,Mr Butler. Every moment counts.
+Dialogue: 0,0:01:25.30,0:01:28.35,*Default,说话人,0000,0000,0000,,现在 假设你们正坐在市长晚宴的餐桌上\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now,you're seated at the Mayoral Supper
+Dialogue: 0,0:01:28.37,0:01:31.38,*Default,说话人,0000,0000,0000,,第一道菜刚刚上来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and you've just been served your first course.
+Dialogue: 0,0:01:32.29,0:01:33.64,*Default,说话人,0000,0000,0000,,你们该选什么餐具?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What is your weapon of choice?
+Dialogue: 0,0:01:36.36,0:01:38.32,*Default,说话人,0000,0000,0000,,呃 这是食鱼刀\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,that's a fish knife.
+Dialogue: 0,0:01:40.30,0:01:42.36,*Default,说话人,0000,0000,0000,,- 但这不是鱼 - 正确\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- But that's not a fish. - Correct.
+Dialogue: 0,0:01:44.36,0:01:46.36,*Default,说话人,0000,0000,0000,,而且应该是从外向内的顺序用\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I know it's from the outside in.
+Dialogue: 0,0:01:46.37,0:01:48.38,*Default,说话人,0000,0000,0000,,但这个问题可能有陷阱\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But it's a trick question.
+Dialogue: 0,0:01:52.28,0:01:54.36,*Default,说话人,0000,0000,0000,,- 那我放弃了 - 绝佳的选择 玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I give up,then. - Excellent choice,Marie.
+Dialogue: 0,0:01:54.38,0:01:57.32,*Default,说话人,0000,0000,0000,,芦笋是完全可以用手抓食的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Asparagus is perfectly acceptable finger food,
+Dialogue: 0,0:01:57.34,0:02:00.32,*Default,说话人,0000,0000,0000,,只要没浸在酱汁里或煮的稀烂就行\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}provided it's not drowned in sauce or overcooked
+Dialogue: 0,0:02:00.34,0:02:03.32,*Default,说话人,0000,0000,0000,,还有 只要学着晚宴主人的吃法就没错\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and as long as you take your lead from your host or your hostess.
+Dialogue: 0,0:02:04.37,0:02:05.66,*Default,说话人,0000,0000,0000,,下一道菜... \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Next course...
+Dialogue: 0,0:02:05.66,0:02:07.34,*Default,说话人,0000,0000,0000,,你又上了社会版了 小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You made the social pages again,Miss.
+Dialogue: 0,0:02:07.36,0:02:09.36,*Default,说话人,0000,0000,0000,,- 花仙女王 - 哦!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Queen Of The Flowers. - Oh!
+Dialogue: 0,0:02:12.28,0:02:14.28,*Default,说话人,0000,0000,0000,,"花朵节将以由市政厅举办的"\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"The festival will culminate in a supper dance"
+Dialogue: 0,0:02:14.29,0:02:15.38,*Default,说话人,0000,0000,0000,,"晚宴舞会隆重结束"\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"hosted by the Town Hall"
+Dialogue: 0,0:02:16.30,0:02:19.33,*Default,说话人,0000,0000,0000,,"届时 这些身世坎坷的女孩们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"at which these young unfortunates
+Dialogue: 0,0:02:19.33,0:02:22.36,*Default,说话人,0000,0000,0000,,将在费雪小姐的专家级指导下"\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}will blossom into flower maidens"
+Dialogue: 0,0:02:22.37,0:02:24.34,*Default,说话人,0000,0000,0000,,蜕变为花仙小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"and demonstrate the grace and poise"
+Dialogue: 0,0:02:24.36,0:02:28.33,*Default,说话人,0000,0000,0000,,尽情展现她们的魅力和风姿"\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}acquired under Miss Fisher's expert tutelage."
+Dialogue: 0,0:02:30.28,0:02:31.74,*Default,说话人,0000,0000,0000,,我们还剩几天时间?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How many days do we have left?
+Dialogue: 0,0:02:33.34,0:02:36.32,*Default,说话人,0000,0000,0000,,四天 四天半\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Four. And a half.
+Dialogue: 0,0:02:36.34,0:02:39.28,*Default,说话人,0000,0000,0000,,要是四年半可能更好\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Four and a half years might be more useful.
+Dialogue: 0,0:02:47.28,0:02:49.35,*Default,说话人,0000,0000,0000,,对不起我迟到了 费雪小姐 我没赶上车\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry I'm late,Miss Fisher. I missed my tram.
+Dialogue: 0,0:02:49.37,0:02:52.34,*Default,说话人,0000,0000,0000,,电车跟你一块去了海滩了吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did your tram happen to follow you to the foreshore?
+Dialogue: 0,0:02:55.33,0:02:58.30,*Default,说话人,0000,0000,0000,,我今天早上本来要在海边见凯蒂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I was meant to meet Kitty at the bathing boxes this morning
+Dialogue: 0,0:02:58.31,0:02:59.36,*Default,说话人,0000,0000,0000,,但是我没找到她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but I couldn't find her.
+Dialogue: 0,0:03:01.34,0:03:03.29,*Default,说话人,0000,0000,0000,,不用脱外套了 萝丝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Leave your coat on,Rose.
+Dialogue: 0,0:03:03.31,0:03:05.06,*Default,说话人,0000,0000,0000,,我们要去找我们的失踪少女\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We're going in search of our missing maiden.
+Dialogue: 0,0:03:05.07,0:03:08.00,*Default,说话人,0000,0000,0000,,来吧 女士们 去海边\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on,ladies. Beach.
+Dialogue: 0,0:03:18.32,0:03:22.30,*Default,说话人,0000,0000,0000,,与其说是训练年轻女士还不如说是赶羊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This job is more like rounding up sheep than grooming young ladies.
+Dialogue: 0,0:03:25.34,0:03:27.34,*Default,说话人,0000,0000,0000,,- 费雪小姐! - 又怎么了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Miss Fisher! - What now?
+Dialogue: 0,0:03:31.34,0:03:33.30,*Default,说话人,0000,0000,0000,,都退后 姑娘们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Stand back,girls!
+Dialogue: 0,0:03:43.32,0:03:46.29,*Default,说话人,0000,0000,0000,,- 哦 不! - 是凯蒂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Oh,no. - It's Kitty.
+Dialogue: 0,0:03:46.31,0:03:47.36,*Default,说话人,0000,0000,0000,,她还有呼吸吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is she breathing?
+Dialogue: 0,0:03:49.34,0:03:52.30,*Default,说话人,0000,0000,0000,,- 没了 - 圣母玛利亚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Nothing. - Holy Mary,Mother of God.
+Dialogue: 0,0:03:56.36,0:03:59.35,*Default,说话人,0000,0000,0000,,但她很会游泳啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she was a good swimmer.
+Dialogue: 0,0:03:59.37,0:04:01.30,*Default,说话人,0000,0000,0000,,我们去野餐的时候\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}When we went for the picnic,
+Dialogue: 0,0:04:01.32,0:04:03.32,*Default,说话人,0000,0000,0000,,她游到了码头而且差点比你还快 小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}she swam to the pier and almost beat you,Miss.
+Dialogue: 0,0:04:05.30,0:04:07.88,*Default,说话人,0000,0000,0000,,- 我记得 - 她一定是自杀的 你们说呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I remember. - She must have drowned herself,don't you think?
+Dialogue: 0,0:04:08.30,0:04:10.26,*Default,说话人,0000,0000,0000,,淹死自己没那么容易 玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's not that easy to drown yourself,Marie.
+Dialogue: 0,0:04:11.31,0:04:12.36,*Default,说话人,0000,0000,0000,,对吗 小姐?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is it,Miss?
+Dialogue: 0,0:04:13.28,0:04:15.31,*Default,说话人,0000,0000,0000,,也许她在自己的口袋里装满了石头\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,maybe she filled her pockets full of stones.
+Dialogue: 0,0:04:15.33,0:04:17.31,*Default,说话人,0000,0000,0000,,她没有口袋 玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She didn't have pockets,Marie.
+Dialogue: 0,0:04:17.33,0:04:18.36,*Default,说话人,0000,0000,0000,,姑娘们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Girls.
+Dialogue: 0,0:04:23.34,0:04:25.38,*Default,说话人,0000,0000,0000,,你觉得她在水里待多久了 警官?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How long do you think she's been in the water,sir?
+Dialogue: 0,0:04:26.30,0:04:29.30,*Default,说话人,0000,0000,0000,,根据她的皮肤状况推断应该时间很久了 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}By the look of her skin,a good few hours.
+Dialogue: 0,0:04:29.30,0:04:30.30,*Default,说话人,0000,0000,0000,,可能是一整晚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe overnight.
+Dialogue: 0,0:04:30.32,0:04:33.32,*Default,说话人,0000,0000,0000,,也许费雪小姐能提供点信息\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Perhaps Miss Fisher can enlighten us.
+Dialogue: 0,0:04:45.30,0:04:47.30,*Default,说话人,0000,0000,0000,,你这儿其它的女孩子还好吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How are your other maidens bearing up?
+Dialogue: 0,0:04:47.32,0:04:51.29,*Default,说话人,0000,0000,0000,,她们都不是省油的灯 包括简\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They're tough customers,including Jane.
+Dialogue: 0,0:04:51.31,0:04:54.30,*Default,说话人,0000,0000,0000,,要唬住她们真不容易 但我想这案子奏效了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Takes a lot to shock them but I think this has done the trick.
+Dialogue: 0,0:04:55.38,0:04:57.36,*Default,说话人,0000,0000,0000,,你有什么想法?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are your thoughts?
+Dialogue: 0,0:04:57.37,0:04:59.33,*Default,说话人,0000,0000,0000,,她死的时候可是穿戴整齐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The fact that she was fully dressed?
+Dialogue: 0,0:04:59.35,0:05:01.32,*Default,说话人,0000,0000,0000,,划船事故\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A boating accident.
+Dialogue: 0,0:05:01.33,0:05:03.38,*Default,说话人,0000,0000,0000,,你不用跟我玩幽默 杰克\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't need to humour me,Jack.
+Dialogue: 0,0:05:04.30,0:05:05.78,*Default,说话人,0000,0000,0000,,她前一天晚上就穿着那身衣服\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She was dressed from the evening before
+Dialogue: 0,0:05:06.10,0:05:08.28,*Default,说话人,0000,0000,0000,,晚上可没人敢划船\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}when the foreshore is a less friendly place.
+Dialogue: 0,0:05:08.30,0:05:10.34,*Default,说话人,0000,0000,0000,,我们还没联系上她的家人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We haven't been able to contact her next of kin.
+Dialogue: 0,0:05:12.29,0:05:14.30,*Default,说话人,0000,0000,0000,,我想她就是举目无亲\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't think she had any.
+Dialogue: 0,0:05:14.32,0:05:16.76,*Default,说话人,0000,0000,0000,,这些女孩都是长期住在福利院里的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All of the girls have spent a great deal of time in welfare
+Dialogue: 0,0:05:16.77,0:05:18.31,*Default,说话人,0000,0000,0000,,除了萝丝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}apart from Rose.
+Dialogue: 0,0:05:18.33,0:05:20.32,*Default,说话人,0000,0000,0000,,我审案子的时候你能来旁听吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you think you could sit in on my interviews?
+Dialogue: 0,0:05:20.33,0:05:22.32,*Default,说话人,0000,0000,0000,,你是在邀请我吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Are you actually inviting me?
+Dialogue: 0,0:05:22.34,0:05:26.30,*Default,说话人,0000,0000,0000,,我很乐于和愤怒的码头工或者无赖恶棍打交道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm happy to deal with angry wharfies and trigger-happy thugs
+Dialogue: 0,0:05:26.31,0:05:27.98,*Default,说话人,0000,0000,0000,,但是碰到反复无常的少女时\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but I will bow to your expertise
+Dialogue: 0,0:05:28.30,0:05:30.30,*Default,说话人,0000,0000,0000,,我不得不臣服于你了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}when it comes to wayward teenage girls.
+Dialogue: 0,0:05:31.36,0:05:34.30,*Default,说话人,0000,0000,0000,,你知道凯蒂住哪吗 卫兰小姐?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you know where Kitty lived,Miss Whelan?
+Dialogue: 0,0:05:34.32,0:05:38.31,*Default,说话人,0000,0000,0000,,不知道 她说她原来是个洗衣女仆\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No idea. She said she used to be a laundry maid.
+Dialogue: 0,0:05:38.33,0:05:40.35,*Default,说话人,0000,0000,0000,,她穿的不像个穷女仆 不是吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She didn't dress like a maid,did she?
+Dialogue: 0,0:05:42.31,0:05:45.31,*Default,说话人,0000,0000,0000,,看看那身艳紫色的连衣裙和金闪闪的鞋子\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Her frock all shiny purple and those golden shoes?
+Dialogue: 0,0:05:45.33,0:05:48.38,*Default,说话人,0000,0000,0000,,她最近有什么伤心事么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Had she seemed upset about anything lately?
+Dialogue: 0,0:05:50.28,0:05:51.38,*Default,说话人,0000,0000,0000,,也许有吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe.
+Dialogue: 0,0:05:52.29,0:05:54.29,*Default,说话人,0000,0000,0000,,那你觉得是什么事?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}About what,do you think?
+Dialogue: 0,0:05:57.30,0:06:00.35,*Default,说话人,0000,0000,0000,,- 我只是瞎猜 - 好的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Well,I'd be guessing. - Alright.
+Dialogue: 0,0:06:00.37,0:06:03.32,*Default,说话人,0000,0000,0000,,你猜她是怎么了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What do you imagine was wrong with her?
+Dialogue: 0,0:06:05.30,0:06:08.34,*Default,说话人,0000,0000,0000,,我猜她是被一个迷了眼的男孩伤了心\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,I imagine her heart was broke by some starry-eyed boy
+Dialogue: 0,0:06:08.35,0:06:11.30,*Default,说话人,0000,0000,0000,,那男孩可能突然改变心意 爱上别人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}who came back to his true mind
+Dialogue: 0,0:06:11.30,0:06:15.32,*Default,说话人,0000,0000,0000,,凯蒂失望之下找不到生存的意义了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and so Kitty had no reason to breathe another breath
+Dialogue: 0,0:06:15.34,0:06:18.34,*Default,说话人,0000,0000,0000,,于是深海之歌召唤了她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the song of the black ocean called her.
+Dialogue: 0,0:06:18.35,0:06:20.34,*Default,说话人,0000,0000,0000,,我就是这么猜的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's what I guess.
+Dialogue: 0,0:06:20.36,0:06:24.30,*Default,说话人,0000,0000,0000,,那我猜你读了太多廉价的惊险小说了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I guess you've been reading too many penny dreadfuls.
+Dialogue: 0,0:06:27.34,0:06:29.30,*Default,说话人,0000,0000,0000,,谢谢你 玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you,Marie.
+Dialogue: 0,0:06:37.32,0:06:39.60,*Default,说话人,0000,0000,0000,,希望她刚顺走的钢笔对你没什么特殊意义\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I hope you weren't attached to that fountain pen.
+Dialogue: 0,0:06:44.33,0:06:46.34,*Default,说话人,0000,0000,0000,,我不清楚到底凯蒂有没有烦心事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't know if anything was bothering Kitty.
+Dialogue: 0,0:06:51.32,0:06:53.37,*Default,说话人,0000,0000,0000,,不过上周她突然晕倒在了大厅\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she collapsed in the hall last week.
+Dialogue: 0,0:06:54.29,0:06:55.58,*Default,说话人,0000,0000,0000,,我没注意到啊 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I wasn't aware of that.
+Dialogue: 0,0:06:55.58,0:06:57.30,*Default,说话人,0000,0000,0000,,她不想让费雪小姐知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She didn't want Miss Fisher to know.
+Dialogue: 0,0:06:58.35,0:07:01.30,*Default,说话人,0000,0000,0000,,她怕你改变主意 不让她做花仙小姐了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}In case you changed your mind about her being a flower maiden.
+Dialogue: 0,0:07:01.32,0:07:03.30,*Default,说话人,0000,0000,0000,,就因为她身体不适?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Because she wasn't well?
+Dialogue: 0,0:07:03.32,0:07:04.65,*Default,说话人,0000,0000,0000,,打扰了 警官 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Excuse me,sir.
+Dialogue: 0,0:07:04.65,0:07:07.32,*Default,说话人,0000,0000,0000,,委员会说这是凯蒂·佩斯的住址\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The council gave this as Kitty Pace's address.
+Dialogue: 0,0:07:07.33,0:07:09.37,*Default,说话人,0000,0000,0000,,"巴拉克拉瓦区 蒙特莱大道15号" \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"15 Montclair Avenue,Balaclava.'
+Dialogue: 0,0:07:10.29,0:07:12.29,*Default,说话人,0000,0000,0000,,但这是萝丝家啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But that's where Rose lives.
+Dialogue: 0,0:07:12.31,0:07:14.34,*Default,说话人,0000,0000,0000,,巴拉克拉瓦区 蒙特莱大道?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Montclair Avenue,Balaclava?
+Dialogue: 0,0:07:16.32,0:07:20.28,*Default,说话人,0000,0000,0000,,- 是我家 - 凯蒂填的也是这个地址\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- That's right. - The same details Kitty gave to the Council.
+Dialogue: 0,0:07:20.30,0:07:23.29,*Default,说话人,0000,0000,0000,,洗衣女仆 巴拉克拉瓦区 蒙特莱大道15号\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Laundry maid. 15,Montclair Avenue,Balaclava.
+Dialogue: 0,0:07:23.31,0:07:27.29,*Default,说话人,0000,0000,0000,,这是很久以前的事了 我和凯蒂还不太熟\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That was ages ago. I didn't know Kitty very well then.
+Dialogue: 0,0:07:27.31,0:07:28.87,*Default,说话人,0000,0000,0000,,但你们住在一起\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But you lived at the same address.
+Dialogue: 0,0:07:29.29,0:07:31.36,*Default,说话人,0000,0000,0000,,我爷爷雇了她做洗衣女仆\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}My grandfather employed her as a laundry maid.
+Dialogue: 0,0:07:31.38,0:07:35.31,*Default,说话人,0000,0000,0000,,今天早上你本来约了她准备做什么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What were you planning on doing this morning? When you arranged to meet?
+Dialogue: 0,0:07:35.33,0:07:37.29,*Default,说话人,0000,0000,0000,,没什么事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nothing.
+Dialogue: 0,0:07:40.30,0:07:43.32,*Default,说话人,0000,0000,0000,,凯蒂昨晚打电话说要见我一面\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kitty telephoned me last night and she asked me to meet her.
+Dialogue: 0,0:07:43.33,0:07:45.35,*Default,说话人,0000,0000,0000,,她遇到什么麻烦了吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Was she in some kind of trouble?
+Dialogue: 0,0:07:45.37,0:07:48.30,*Default,说话人,0000,0000,0000,,有人找她麻烦了吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Was anyone bothering her?
+Dialogue: 0,0:07:48.31,0:07:49.37,*Default,说话人,0000,0000,0000,,她没提到\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not that she said.
+Dialogue: 0,0:07:51.36,0:07:54.34,*Default,说话人,0000,0000,0000,,谢谢你 萝丝 你能在客厅等我一下吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you,Rose. Would you please wait for me in the parlour?
+Dialogue: 0,0:07:58.34,0:08:00.32,*Default,说话人,0000,0000,0000,,为什么你会选中萝丝?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why is Rose one of your lucky maidens?
+Dialogue: 0,0:08:00.34,0:08:01.88,*Default,说话人,0000,0000,0000,,她看起来没什么竞争力\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She doesn't seem like a battler.
+Dialogue: 0,0:08:02.29,0:08:04.32,*Default,说话人,0000,0000,0000,,她爷爷是弗朗克林·维斯顿\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Her grandfather is Franklin Weston.
+Dialogue: 0,0:08:04.34,0:08:06.36,*Default,说话人,0000,0000,0000,,维斯顿百货公司原来就是他们家的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They used to own Weston's department stores.
+Dialogue: 0,0:08:08.32,0:08:10.88,*Default,说话人,0000,0000,0000,,但很显然 现在他已经落败养不起她了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But apparently,she's become too much for him to handle.
+Dialogue: 0,0:08:32.32,0:08:34.36,*Default,说话人,0000,0000,0000,,外面有个女人 一直盯着咱们屋里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}There's a lady out there staring at the house.
+Dialogue: 0,0:08:36.34,0:08:38.33,*Default,说话人,0000,0000,0000,,好事不出门 坏事传千里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It doesn't take long for bad news to spread.
+Dialogue: 0,0:08:38.35,0:08:41.29,*Default,说话人,0000,0000,0000,,不用管她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Take no notice.
+Dialogue: 0,0:08:41.31,0:08:44.29,*Default,说话人,0000,0000,0000,,罗宾逊探长已经讯问完女孩们了 桃乐西\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Inspector Robinson has finished with the girls for now,Dot.
+Dialogue: 0,0:08:44.31,0:08:45.74,*Default,说话人,0000,0000,0000,,市长办公室刚打电话过来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And the Mayor's office telephoned.
+Dialogue: 0,0:08:45.76,0:08:47.52,*Default,说话人,0000,0000,0000,,他还在市政厅等你的排练\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's still waiting at the hall for your rehearsals.
+Dialogue: 0,0:08:47.53,0:08:48.58,*Default,说话人,0000,0000,0000,,哦 天呐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,dear.
+Dialogue: 0,0:08:49.30,0:08:51.72,*Default,说话人,0000,0000,0000,,罗宾逊探长说可以把萝丝捎回家\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Inspector Robinson's offered to give Rose a lift home
+Dialogue: 0,0:08:51.74,0:08:53.64,*Default,说话人,0000,0000,0000,,我把赛斯和伯特叫来送玛丽了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I've got Cec and Bert calling by for Marie.
+Dialogue: 0,0:08:53.65,0:08:55.34,*Default,说话人,0000,0000,0000,,我们不上舞蹈课了么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What about our dance lesson?
+Dialogue: 0,0:08:55.36,0:08:57.29,*Default,说话人,0000,0000,0000,,不是说好要练习队形\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We were meant to practise the procession
+Dialogue: 0,0:08:57.31,0:08:58.54,*Default,说话人,0000,0000,0000,,赢得"花仙小姐"的嘛\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and getting our Flower Maidens prize.
+Dialogue: 0,0:08:58.56,0:09:01.55,*Default,说话人,0000,0000,0000,,我想今天的艰巨任务已经够多了 玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I think we've all had enough challenges for today,Marie.
+Dialogue: 0,0:09:04.34,0:09:06.34,*Default,说话人,0000,0000,0000,,来吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come along.
+Dialogue: 0,0:09:09.30,0:09:11.30,*Default,说话人,0000,0000,0000,,玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marie.
+Dialogue: 0,0:09:11.31,0:09:13.30,*Default,说话人,0000,0000,0000,,开信刀拿来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Letter opener.
+Dialogue: 0,0:09:33.36,0:09:35.34,*Default,说话人,0000,0000,0000,,我要去市政厅见市长\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm going to go in and see the Mayor.
+Dialogue: 0,0:09:35.36,0:09:38.34,*Default,说话人,0000,0000,0000,,- 和我一块去吗? - 不 谢谢 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Coming with me? - No,no,thank you.
+Dialogue: 0,0:09:38.35,0:09:40.34,*Default,说话人,0000,0000,0000,,我要待在屋里 我要待在家里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll stay inside,I'll stay here.
+Dialogue: 0,0:09:56.30,0:09:57.38,*Default,说话人,0000,0000,0000,,是我啊 爷爷!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Only me,Grandpa!
+Dialogue: 0,0:10:06.30,0:10:09.32,*Default,说话人,0000,0000,0000,,我是探长杰克·罗宾逊 这是警探科林斯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Detective Inspector Jack Robinson,sir,and Constable Collins.
+Dialogue: 0,0:10:11.36,0:10:13.32,*Default,说话人,0000,0000,0000,,我是弗朗克林·D·维斯顿\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm Franklin D Weston.
+Dialogue: 0,0:10:13.33,0:10:15.30,*Default,说话人,0000,0000,0000,,很高兴见到你们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Pleased to make your acquaintance.
+Dialogue: 0,0:10:15.32,0:10:17.36,*Default,说话人,0000,0000,0000,,要来点什么茶点吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Can I offer you some kind of refreshment?
+Dialogue: 0,0:10:17.37,0:10:19.32,*Default,说话人,0000,0000,0000,,不用了 谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ah,no thank you.
+Dialogue: 0,0:10:19.34,0:10:23.34,*Default,说话人,0000,0000,0000,,今天早上我们在圣基尔达海滩发现一起溺水案\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We attended a drowning this morning at St Kilda foreshore.
+Dialogue: 0,0:10:23.36,0:10:25.39,*Default,说话人,0000,0000,0000,,死者是您孙女的一个朋友\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The girl was a friend of your granddaughter's,
+Dialogue: 0,0:10:26.30,0:10:28.38,*Default,说话人,0000,0000,0000,,花仙小姐之一 叫凯瑟琳·佩斯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}one of the flower maidens,Katherine Pace.
+Dialogue: 0,0:10:29.29,0:10:30.36,*Default,说话人,0000,0000,0000,,你记得凯蒂吧?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You remember Kitty?
+Dialogue: 0,0:10:32.32,0:10:34.34,*Default,说话人,0000,0000,0000,,萝丝说你曾经雇用过她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose tells us you employed her for a time.
+Dialogue: 0,0:10:34.35,0:10:36.35,*Default,说话人,0000,0000,0000,,是这样的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,that's right,so I did.
+Dialogue: 0,0:10:36.37,0:10:40.36,*Default,说话人,0000,0000,0000,,不过 六个月前我让她走了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I had to let her go,oh,about six months ago.
+Dialogue: 0,0:10:40.38,0:10:44.36,*Default,说话人,0000,0000,0000,,她的工作 呃 怎么说 达不到一定标准吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Her work just,well,wasn't up to standard.
+Dialogue: 0,0:10:44.38,0:10:47.30,*Default,说话人,0000,0000,0000,,不过她人倒是不错\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she was a nice enough young lady,though.
+Dialogue: 0,0:10:47.31,0:10:48.36,*Default,说话人,0000,0000,0000,,你说她淹死了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Drowned,you said?
+Dialogue: 0,0:10:48.38,0:10:52.32,*Default,说话人,0000,0000,0000,,- 是意外吗? - 我们目前还不清楚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Was it an accident? - We're not sure at this stage.
+Dialogue: 0,0:10:52.34,0:10:56.31,*Default,说话人,0000,0000,0000,,您知道凯蒂离开这以后去哪了吗\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you know where Kitty moved on to after she left this address.
+Dialogue: 0,0:10:56.33,0:10:58.34,*Default,说话人,0000,0000,0000,,她有什么朋友家人之类的么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Any friends or family you might know of?
+Dialogue: 0,0:10:58.36,0:11:01.38,*Default,说话人,0000,0000,0000,,我不知道她是不是找到下家了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not sure if she found herself a new employer
+Dialogue: 0,0:11:02.30,0:11:04.30,*Default,说话人,0000,0000,0000,,我当时还给她写了封推荐信呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but I did write her a good reference at the time.
+Dialogue: 0,0:11:04.32,0:11:06.32,*Default,说话人,0000,0000,0000,,但是她没拿就走了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,she left without taking it with her.
+Dialogue: 0,0:11:06.33,0:11:08.36,*Default,说话人,0000,0000,0000,,应该就在这边\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I should have it here somewhere.
+Dialogue: 0,0:11:16.28,0:11:17.35,*Default,说话人,0000,0000,0000,,探长\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sir.
+Dialogue: 0,0:11:17.36,0:11:19.30,*Default,说话人,0000,0000,0000,,看电话线\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Telephone wire.
+Dialogue: 0,0:11:19.32,0:11:21.34,*Default,说话人,0000,0000,0000,,别找了 爷爷 这帮不上忙\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't think that will help,Grandpa.
+Dialogue: 0,0:11:21.35,0:11:23.32,*Default,说话人,0000,0000,0000,,没事的 维斯顿小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's quite alright,Miss Weston.
+Dialogue: 0,0:11:29.32,0:11:30.38,*Default,说话人,0000,0000,0000,,谢谢你的酒\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you.
+Dialogue: 0,0:11:31.30,0:11:34.34,*Default,说话人,0000,0000,0000,,如果您想起任何有关此案的线索\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And if you do remember any handy details about Miss Pace,
+Dialogue: 0,0:11:34.35,0:11:37.31,*Default,说话人,0000,0000,0000,,请打电话到警察局\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}please contact the police station.
+Dialogue: 0,0:11:37.33,0:11:40.31,*Default,说话人,0000,0000,0000,,希望凶手早日落网\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let's hope the perpetrator is caught and punished
+Dialogue: 0,0:11:40.33,0:11:42.78,*Default,说话人,0000,0000,0000,,- 并受到严惩 - 我们会尽力的 先生\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- with the full force of the law. - We'll do our best,sir.
+Dialogue: 0,0:11:51.32,0:11:53.30,*Default,说话人,0000,0000,0000,,刚才观察的很到位嘛 警探\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nice work on the telephone,Constable.
+Dialogue: 0,0:11:53.31,0:11:54.35,*Default,说话人,0000,0000,0000,,谢谢夸奖\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you,sir.
+Dialogue: 0,0:11:54.37,0:11:56.38,*Default,说话人,0000,0000,0000,,这房子想必经历了兴衰吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This house has definitely seen better days.
+Dialogue: 0,0:11:57.30,0:11:59.34,*Default,说话人,0000,0000,0000,,联络电信邮政局\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Contact the Post Master General's department.
+Dialogue: 0,0:11:59.36,0:12:01.32,*Default,说话人,0000,0000,0000,,查一下这个电话什么时候断线的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Find out if the phone's been disconnected.
+Dialogue: 0,0:12:02.37,0:12:04.32,*Default,说话人,0000,0000,0000,,这是一条线索吗 探长\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Will that help us,sir?
+Dialogue: 0,0:12:04.34,0:12:07.80,*Default,说话人,0000,0000,0000,,要是早就断线了 凯蒂还怎么可能给萝丝打电话\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It will be if it was before Rose Weston claims Kitty rang her.
+Dialogue: 0,0:12:11.30,0:12:12.65,*Default,说话人,0000,0000,0000,,再往上点 一点就行...\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just up,that's a bit high...
+Dialogue: 0,0:12:12.66,0:12:14.34,*Default,说话人,0000,0000,0000,,往左移一点 好的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A bit to the left,good.
+Dialogue: 0,0:12:14.35,0:12:16.30,*Default,说话人,0000,0000,0000,,好了 完美\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,perfect.
+Dialogue: 0,0:12:16.32,0:12:19.37,*Default,说话人,0000,0000,0000,,我的上帝啊 可怜的姑娘 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Goodness gracious! Poor girl.
+Dialogue: 0,0:12:19.37,0:12:21.34,*Default,说话人,0000,0000,0000,,到底发生了什么\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I wonder what happened.
+Dialogue: 0,0:12:23.29,0:12:25.33,*Default,说话人,0000,0000,0000,,哦 您见过我的外甥了么 费雪小姐?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,have you met my nephew,Miss Fisher?
+Dialogue: 0,0:12:25.35,0:12:26.62,*Default,说话人,0000,0000,0000,,他叫德里克·菲利普斯 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Derek Phillips.
+Dialogue: 0,0:12:26.62,0:12:28.29,*Default,说话人,0000,0000,0000,,见过了 上次跳狐步舞你帮忙来着\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,you helped out with the fox trot.
+Dialogue: 0,0:12:28.31,0:12:31.30,*Default,说话人,0000,0000,0000,,我们在学校有国标和摩登舞课 我很乐意帮忙\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We do ballroom and modern at Grammar. I was happy to lend a hand.
+Dialogue: 0,0:12:31.32,0:12:33.76,*Default,说话人,0000,0000,0000,,我们知道她家境贫寒卑微\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I know she came from the wrong side of the tracks but she...
+Dialogue: 0,0:12:33.77,0:12:35.71,*Default,说话人,0000,0000,0000,,但她不是个傻姑娘啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She wasn't a stupid girl.
+Dialogue: 0,0:12:36.36,0:12:38.34,*Default,说话人,0000,0000,0000,,真可惜啊 浪费了这一切\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It'll be a shame to waste all this.
+Dialogue: 0,0:12:38.36,0:12:40.33,*Default,说话人,0000,0000,0000,,其他女孩会理解的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The other girls will have to understand.
+Dialogue: 0,0:12:40.35,0:12:43.28,*Default,说话人,0000,0000,0000,,我们不能取消晚餐舞会\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We can't cancel the Supper Dance.
+Dialogue: 0,0:12:43.30,0:12:44.36,*Default,说话人,0000,0000,0000,,你不觉得应该取消舞会?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't think we should?
+Dialogue: 0,0:12:46.31,0:12:47.77,*Default,说话人,0000,0000,0000,,以表对死者的尊敬么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Out of respect?
+Dialogue: 0,0:12:48.29,0:12:50.72,*Default,说话人,0000,0000,0000,,我觉得正因如此反而更该办这场舞会\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't you feel it's all the more reason to forge ahead?
+Dialogue: 0,0:12:50.74,0:12:52.30,*Default,说话人,0000,0000,0000,,我是说 女孩们各个都不容易\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean,these girls lead difficult lives
+Dialogue: 0,0:12:52.31,0:12:54.31,*Default,说话人,0000,0000,0000,,这是个好机会一展风采啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and this is their chance to shine.
+Dialogue: 0,0:12:54.33,0:12:56.29,*Default,说话人,0000,0000,0000,,她们的苦我也能理解 费雪小姐 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We understand them,Miss Fisher.
+Dialogue: 0,0:12:56.30,0:12:57.34,*Default,说话人,0000,0000,0000,,谁也不是天生权贵\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}None of us were born to privilege.
+Dialogue: 0,0:12:59.30,0:13:02.37,*Default,说话人,0000,0000,0000,,玛乔丽 在门口再放一面委员会的旗帜吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marjorie? I think we need another Council banner over the entrance.
+Dialogue: 0,0:13:03.29,0:13:05.66,*Default,说话人,0000,0000,0000,,她们走在街上都要担心自身安危\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I do question the point of teaching them social graces
+Dialogue: 0,0:13:05.68,0:13:08.29,*Default,说话人,0000,0000,0000,,我实在不知为何还要费劲学这些社交礼仪?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}when they can't even walk the streets safely.
+Dialogue: 0,0:13:08.31,0:13:09.76,*Default,说话人,0000,0000,0000,,你教她们什么都可以 费雪小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Teach them what you want,Miss Fisher.
+Dialogue: 0,0:13:09.78,0:13:12.78,*Default,说话人,0000,0000,0000,,不过姑娘们日夜练习 翘首企盼\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The girls have worked so hard and are so looking forward to it.
+Dialogue: 0,0:13:13.29,0:13:15.66,*Default,说话人,0000,0000,0000,,我们怎么忍心让她们失望呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We can't disappoint them.
+Dialogue: 0,0:13:26.32,0:13:27.38,*Default,说话人,0000,0000,0000,,在想什么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Penny for your thoughts.
+Dialogue: 0,0:13:29.34,0:13:33.78,*Default,说话人,0000,0000,0000,,我太幸运了能成为芙莱妮小姐家的一员\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just thinking how lucky I've been to end up with Miss Phryne.
+Dialogue: 0,0:13:35.36,0:13:37.38,*Default,说话人,0000,0000,0000,,还有我呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And me.
+Dialogue: 0,0:13:38.29,0:13:41.32,*Default,说话人,0000,0000,0000,,我们还会继续幸运下去的 简\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We're still lucky,Jane. Both of us.
+Dialogue: 0,0:13:43.34,0:13:45.34,*Default,说话人,0000,0000,0000,,我和芙莱妮小姐在一起真的很开心\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've had such a lovely time with her.
+Dialogue: 0,0:13:47.32,0:13:49.70,*Default,说话人,0000,0000,0000,,墨香书籍 锦衣玉食 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}with Books and new clothes
+Dialogue: 0,0:13:49.70,0:13:52.32,*Default,说话人,0000,0000,0000,,还有朝夕相伴的同窗挚友\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and a wonderful school and friends,
+Dialogue: 0,0:13:54.28,0:13:56.85,*Default,说话人,0000,0000,0000,,还有巴特勒先生 赛斯和伯特 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mr Butler,and Cec and Bert.
+Dialogue: 0,0:13:56.85,0:13:58.32,*Default,说话人,0000,0000,0000,,还有你呢 桃乐西\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And you,Dot.
+Dialogue: 0,0:14:00.34,0:14:03.34,*Default,说话人,0000,0000,0000,,无论未来如何 我都曾经拥有这些\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Whatever happens,I've had all that.
+Dialogue: 0,0:14:08.30,0:14:12.36,*Default,说话人,0000,0000,0000,,未来你也能拥有啊 你这个小笨蛋\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nothing's going to happen. You funny thing.
+Dialogue: 0,0:14:22.29,0:14:24.32,*Default,说话人,0000,0000,0000,,电信邮政局已经确认过了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The Post Master General's department confirmed
+Dialogue: 0,0:14:24.34,0:14:27.34,*Default,说话人,0000,0000,0000,,维斯顿家的电话十个月前就已经断线了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}that the Weston's telephone line was interrupted ten months ago,
+Dialogue: 0,0:14:27.35,0:14:29.30,*Default,说话人,0000,0000,0000,,由于家庭活在\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}by a house fire.
+Dialogue: 0,0:14:29.31,0:14:30.76,*Default,说话人,0000,0000,0000,,然后就再也没连上过么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And the service was never restored?
+Dialogue: 0,0:14:30.78,0:14:32.78,*Default,说话人,0000,0000,0000,,是的 因为他们没有支付重连费用\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,because the reconnection bill was never paid.
+Dialogue: 0,0:14:33.30,0:14:35.34,*Default,说话人,0000,0000,0000,,所以说凯蒂死的当晚并不可能打电话给萝丝咯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So Kitty Pace couldn't have telephoned Rose the night she died.
+Dialogue: 0,0:14:35.36,0:14:38.32,*Default,说话人,0000,0000,0000,,是的 而且之前的火灾疑似纵火案\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,sir. And it seems the fire was a case of arson.
+Dialogue: 0,0:14:38.34,0:14:39.86,*Default,说话人,0000,0000,0000,,没有人处理此案 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No-one was charged
+Dialogue: 0,0:14:39.86,0:14:42.34,*Default,说话人,0000,0000,0000,,不过维斯顿小姐被列为嫌疑人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but Miss Weston was listed as a person of interest.
+Dialogue: 0,0:14:42.36,0:14:47.34,*Default,说话人,0000,0000,0000,,好一位爱说瞎话 爱纵火的花仙小姐啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Right. A liar,an arsonist and a flower maiden.
+Dialogue: 0,0:14:47.36,0:14:49.78,*Default,说话人,0000,0000,0000,,我开始感激费雪小姐给我带来的危机感了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm beginning to appreciate Miss Fisher's challenge.
+Dialogue: 0,0:14:53.34,0:14:56.32,*Default,说话人,0000,0000,0000,,我就知道你会来的 萝丝还说你不会呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I knew you'd come. Rose said you wouldn't.
+Dialogue: 0,0:14:57.37,0:15:00.30,*Default,说话人,0000,0000,0000,,现在你还有心思跳舞?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How can you even think about dancing?
+Dialogue: 0,0:15:00.32,0:15:02.32,*Default,说话人,0000,0000,0000,,不想跳就走人 回你那富丽堂皇的别墅吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Go home,then,to your nice big house...
+Dialogue: 0,0:15:02.34,0:15:04.38,*Default,说话人,0000,0000,0000,,计划变了 女士们 别想什么狐步舞了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Change of plan,ladies. Forget the fox trot.
+Dialogue: 0,0:15:05.30,0:15:07.34,*Default,说话人,0000,0000,0000,,- 你说过这很要紧的 - 我知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You said it mattered. - I know what I said.
+Dialogue: 0,0:15:07.36,0:15:09.77,*Default,说话人,0000,0000,0000,,而且我还非常相信女性\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I'm a great believer in the power of the feminine
+Dialogue: 0,0:15:10.29,0:15:11.88,*Default,说话人,0000,0000,0000,,具有改变这个文明世界的力量\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to wield influence in the civilised world.
+Dialogue: 0,0:15:12.30,0:15:16.32,*Default,说话人,0000,0000,0000,,但发生在凯蒂身上的事可没这么文明\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But whatever happened to Kitty wasn't very civilised.
+Dialogue: 0,0:15:16.34,0:15:18.28,*Default,说话人,0000,0000,0000,,这么说你觉得她不是自杀?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So you don't think she did herself in?
+Dialogue: 0,0:15:18.30,0:15:19.34,*Default,说话人,0000,0000,0000,,对\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No.
+Dialogue: 0,0:15:19.36,0:15:21.78,*Default,说话人,0000,0000,0000,,而且我很后悔没有教给凯蒂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I wish I could have taught Kitty something more useful
+Dialogue: 0,0:15:22.30,0:15:24.34,*Default,说话人,0000,0000,0000,,比跳舞和礼仪更有用的东西\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}than dancing or deportment or etiquette.
+Dialogue: 0,0:15:24.35,0:15:26.30,*Default,说话人,0000,0000,0000,,比如呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like what?
+Dialogue: 0,0:15:26.32,0:15:29.34,*Default,说话人,0000,0000,0000,,脱掉外套吧 姑娘们 我来教你们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Take your coats off,ladies,and I'll show you.
+Dialogue: 0,0:15:29.35,0:15:31.29,*Default,说话人,0000,0000,0000,,来吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on!
+Dialogue: 0,0:15:31.30,0:15:33.31,*Default,说话人,0000,0000,0000,,脱掉外套\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Coats off!
+Dialogue: 0,0:15:41.30,0:15:43.34,*Default,说话人,0000,0000,0000,,想办法反击啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now,think hard.
+Dialogue: 0,0:15:46.30,0:15:47.36,*Default,说话人,0000,0000,0000,,做得好\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Good choice!
+Dialogue: 0,0:15:47.37,0:15:49.32,*Default,说话人,0000,0000,0000,,现在又上来一个\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now here come another one.
+Dialogue: 0,0:15:51.28,0:15:52.37,*Default,说话人,0000,0000,0000,,用第一式\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Manoeuvre one.
+Dialogue: 0,0:15:53.28,0:15:54.36,*Default,说话人,0000,0000,0000,,攻击下半身\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Groin.
+Dialogue: 0,0:15:54.37,0:15:56.32,*Default,说话人,0000,0000,0000,,现在用第二式 锁喉!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Manoeuvre two - throat!
+Dialogue: 0,0:15:58.30,0:15:59.38,*Default,说话人,0000,0000,0000,,做得好!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well done!
+Dialogue: 0,0:16:01.34,0:16:03.38,*Default,说话人,0000,0000,0000,,探长 原来费雪小姐会柔道啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss Fisher knows judo,sir?
+Dialogue: 0,0:16:04.29,0:16:05.34,*Default,说话人,0000,0000,0000,,当然了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Of course.
+Dialogue: 0,0:16:07.32,0:16:09.32,*Default,说话人,0000,0000,0000,,- 现在怎么办? - 怎么办?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Now what? - What?
+Dialogue: 0,0:16:09.34,0:16:12.32,*Default,说话人,0000,0000,0000,,- 经典桥段吊带袜上别匕首 - 小姐?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- The old dagger in the garter! - Miss?
+Dialogue: 0,0:16:17.30,0:16:20.32,*Default,说话人,0000,0000,0000,,你该不是在裙子底下藏了什么危险武器吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I hope you're not concealing a dangerous weapon under that skirt.
+Dialogue: 0,0:16:22.28,0:16:25.31,*Default,说话人,0000,0000,0000,,我裙子底下的好东西多了 女人皆如此\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm concealing a lot of things. That's what a lady does.
+Dialogue: 0,0:16:27.36,0:16:31.30,*Default,说话人,0000,0000,0000,,我和科林斯警探得问维斯顿小姐几个问题\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Constable Collins and I need to ask Miss Weston a few more questions.
+Dialogue: 0,0:16:37.28,0:16:38.36,*Default,说话人,0000,0000,0000,,萝丝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose.
+Dialogue: 0,0:16:38.38,0:16:42.38,*Default,说话人,0000,0000,0000,,如果你真是最后一个见过凯蒂的人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If you were the last person to see or speak with Kitty before she died,
+Dialogue: 0,0:16:43.30,0:16:47.29,*Default,说话人,0000,0000,0000,,警察会不停审问你直到找到线索的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the police will keep on questioning you until they get somewhere.
+Dialogue: 0,0:16:51.34,0:16:53.36,*Default,说话人,0000,0000,0000,,凯蒂的确没给我打电话\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kitty didn't telephone me.
+Dialogue: 0,0:16:56.28,0:16:58.30,*Default,说话人,0000,0000,0000,,因为我们早已经有约定\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Because we already had an arrangement...
+Dialogue: 0,0:16:58.32,0:16:59.78,*Default,说话人,0000,0000,0000,,每周五晚上都在浴池碰面\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Friday nights we'd meet at the bathing sheds
+Dialogue: 0,0:17:00.29,0:17:01.74,*Default,说话人,0000,0000,0000,,然后一起坐电车\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and then we'd catch the tram.
+Dialogue: 0,0:17:01.75,0:17:03.70,*Default,说话人,0000,0000,0000,,去哪?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where to?
+Dialogue: 0,0:17:05.36,0:17:10.36,*Default,说话人,0000,0000,0000,,去月亮公园或者去金合欢公园跳舞\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We'd go to Luna Park or we'd go dancing at Wattle Park.
+Dialogue: 0,0:17:11.29,0:17:13.30,*Default,说话人,0000,0000,0000,,有时我们甚至会去酒店坐坐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sometimes we'd even go to a hotel.
+Dialogue: 0,0:17:16.34,0:17:20.30,*Default,说话人,0000,0000,0000,,我很喜欢这样 但凯蒂不想再陪我一起去了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'd come all that way and Kitty didn't want to go out anymore.
+Dialogue: 0,0:17:20.31,0:17:21.38,*Default,说话人,0000,0000,0000,,她很生气\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She was angry.
+Dialogue: 0,0:17:24.30,0:17:26.32,*Default,说话人,0000,0000,0000,,说我不了解她生活的艰辛\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Told me I didn't know how hard her life was
+Dialogue: 0,0:17:26.34,0:17:29.31,*Default,说话人,0000,0000,0000,,- 就因为我住在大房子里 - 然后呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- because I lived in a big house. - And?
+Dialogue: 0,0:17:29.33,0:17:31.32,*Default,说话人,0000,0000,0000,,我们吵了起来 她还推了我\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We argued and she pushed me.
+Dialogue: 0,0:17:31.34,0:17:34.29,*Default,说话人,0000,0000,0000,,然后突然 她滑了一下 撞到了头\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Then somehow she tripped and banged her head.
+Dialogue: 0,0:17:35.34,0:17:37.32,*Default,说话人,0000,0000,0000,,然后你怎么做了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So what did you do?
+Dialogue: 0,0:17:39.28,0:17:42.30,*Default,说话人,0000,0000,0000,,我把她叫醒 然后跟她说我去找人帮忙\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I woke her up,then told her I'd go and fetch some help.
+Dialogue: 0,0:17:45.34,0:17:48.30,*Default,说话人,0000,0000,0000,,但我回来的时候 她已经不在了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But when I came back,she was gone.
+Dialogue: 0,0:17:48.32,0:17:51.34,*Default,说话人,0000,0000,0000,,我以为她只是走开一下 马上就回来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought she must have come to or maybe she'd just come back.
+Dialogue: 0,0:17:55.28,0:17:57.32,*Default,说话人,0000,0000,0000,,所以我等了一整晚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So I waited all night.
+Dialogue: 0,0:17:57.34,0:18:00.36,*Default,说话人,0000,0000,0000,,但我发誓我不知道她怎么就落水了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I don't know how she ended up in the water,I swear.
+Dialogue: 0,0:18:03.32,0:18:05.29,*Default,说话人,0000,0000,0000,,你会把我关起来么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Are you going to lock me up?
+Dialogue: 0,0:18:13.36,0:18:15.34,*Default,说话人,0000,0000,0000,,暂时不会\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's enough for now.
+Dialogue: 0,0:18:17.29,0:18:19.30,*Default,说话人,0000,0000,0000,,萝丝 到那边和其他姑娘们一块等着吧?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why don't you go and wait with the others,Rose?
+Dialogue: 0,0:18:29.28,0:18:30.64,*Default,说话人,0000,0000,0000,,我们会进行尸检\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We'll see if the autopsy confirms
+Dialogue: 0,0:18:30.66,0:18:32.53,*Default,说话人,0000,0000,0000,,看看死者头部的伤痕是否和她描述的一致\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a head injury consistent with her story.
+Dialogue: 0,0:18:32.55,0:18:35.29,*Default,说话人,0000,0000,0000,,我希望头上的伤不是致命原因\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I just hope it doesn't confirm it as the cause of death.
+Dialogue: 0,0:18:38.32,0:18:40.32,*Default,说话人,0000,0000,0000,,你知道她是个纵火狂吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did you know she was a pyromaniac?
+Dialogue: 0,0:18:40.34,0:18:43.30,*Default,说话人,0000,0000,0000,,- 这是消防队提供的资料 - 谢谢提醒\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- According to the fire brigade. - Thank you.
+Dialogue: 0,0:18:45.28,0:18:46.98,*Default,说话人,0000,0000,0000,,我会看好自己的家的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll keep a close eye on my flammables.
+Dialogue: 0,0:18:52.34,0:18:54.30,*Default,说话人,0000,0000,0000,,小姐 你好\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello,Miss.
+Dialogue: 0,0:18:56.28,0:18:58.34,*Default,说话人,0000,0000,0000,,简有访客在厨房里等着呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane has a visitor waiting in the kitchen.
+Dialogue: 0,0:18:58.35,0:19:00.34,*Default,说话人,0000,0000,0000,,她等了你一个上午了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She's been here since this morning.
+Dialogue: 0,0:19:00.36,0:19:04.67,*Default,说话人,0000,0000,0000,,她说 她是你妈妈\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She,um,claims to be your mother.
+Dialogue: 0,0:19:09.36,0:19:11.34,*Default,说话人,0000,0000,0000,,我没想到还能再见到她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I didn't think I'd ever see her again.
+Dialogue: 0,0:19:11.35,0:19:14.30,*Default,说话人,0000,0000,0000,,她肯定认不出我了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She won't recognise me.
+Dialogue: 0,0:19:14.31,0:19:16.30,*Default,说话人,0000,0000,0000,,这么多年没见\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's been too long.
+Dialogue: 0,0:19:18.28,0:19:19.35,*Default,说话人,0000,0000,0000,,她一定能认出你的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She'll recognise you.
+Dialogue: 0,0:19:27.32,0:19:29.30,*Default,说话人,0000,0000,0000,,你好 妈妈\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello,Mother.
+Dialogue: 0,0:19:31.34,0:19:33.30,*Default,说话人,0000,0000,0000,,我的宝贝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}My girl.
+Dialogue: 0,0:19:35.32,0:19:37.30,*Default,说话人,0000,0000,0000,,我的天啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,my.
+Dialogue: 0,0:19:40.32,0:19:42.30,*Default,说话人,0000,0000,0000,,真是亭亭玉立的大姑娘了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How pretty you've grown.
+Dialogue: 0,0:19:43.36,0:19:45.34,*Default,说话人,0000,0000,0000,,多漂亮的裙子啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Such a lovely dress.
+Dialogue: 0,0:19:48.28,0:19:51.35,*Default,说话人,0000,0000,0000,,- 芙莱妮小姐买给我的 - 嗨\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Miss Phryne bought it for me. - Hello.
+Dialogue: 0,0:19:51.37,0:19:53.32,*Default,说话人,0000,0000,0000,,我是芙莱妮·费雪\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm Phryne Fisher.
+Dialogue: 0,0:19:53.34,0:19:55.34,*Default,说话人,0000,0000,0000,,就是你一直在照顾简吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're the one who's been minding my Jane.
+Dialogue: 0,0:19:55.36,0:19:57.37,*Default,说话人,0000,0000,0000,,我没把你送到福利院 他们不可信\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Didn't like to go to Welfare. You can't trust them.
+Dialogue: 0,0:19:58.29,0:20:01.38,*Default,说话人,0000,0000,0000,,但我病情一稳定就立马开始找你了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But once I got back on my feet,I started looking.
+Dialogue: 0,0:20:02.29,0:20:06.32,*Default,说话人,0000,0000,0000,,我 我在早报上看到你了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I... I saw you in the morning paper.
+Dialogue: 0,0:20:08.34,0:20:11.30,*Default,说话人,0000,0000,0000,,上面写着 费雪小姐的养女\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss Fisher's ward,it says.
+Dialogue: 0,0:20:12.35,0:20:15.30,*Default,说话人,0000,0000,0000,,- 简·罗斯 - 是啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Jane Ross. - Yes.
+Dialogue: 0,0:20:17.30,0:20:19.34,*Default,说话人,0000,0000,0000,,简在我这儿已经有段时间了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane's been with me for quite some time now.
+Dialogue: 0,0:20:21.30,0:20:25.36,*Default,说话人,0000,0000,0000,,真的很感谢你把我女儿照顾的健康快乐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thank you so very much for keeping my little girl safe and healthy.
+Dialogue: 0,0:20:27.32,0:20:29.29,*Default,说话人,0000,0000,0000,,乐意之极\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's been my absolute pleasure.
+Dialogue: 0,0:20:34.28,0:20:36.34,*Default,说话人,0000,0000,0000,,- 费雪小姐? - 我就是\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Miss Fisher? - That's me.
+Dialogue: 0,0:20:39.28,0:20:41.82,*Default,说话人,0000,0000,0000,,我不明白 小姐 不是说简的妈妈去世了么\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't understand,Miss. I thought Jane's mother was dead.
+Dialogue: 0,0:20:44.28,0:20:45.34,*Default,说话人,0000,0000,0000,,我也这么以为\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We all did,Dot.
+Dialogue: 0,0:20:48.30,0:20:49.75,*Default,说话人,0000,0000,0000,,如果我知道她妈仍健在\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I would have never stepped in
+Dialogue: 0,0:20:49.77,0:20:52.30,*Default,说话人,0000,0000,0000,,我绝不会插手的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}if I had the slightest inkling her mother was alive and well.
+Dialogue: 0,0:20:52.31,0:20:53.36,*Default,说话人,0000,0000,0000,,喝药\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Medicinal.
+Dialogue: 0,0:20:58.28,0:21:00.34,*Default,说话人,0000,0000,0000,,这是在离凯蒂·佩斯尸体一百米处拾到的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was found a hundred yards from Kitty Pace's body.
+Dialogue: 0,0:21:17.34,0:21:19.31,*Default,说话人,0000,0000,0000,,这把钥匙看起来有点故事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This key looks promising.
+Dialogue: 0,0:21:19.33,0:21:21.38,*Default,说话人,0000,0000,0000,,看来她不住在街上的房子里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Perhaps she wasn't living on the streets after all.
+Dialogue: 0,0:21:22.30,0:21:23.97,*Default,说话人,0000,0000,0000,,而应该是一个整日风吹日晒的地方\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Somewhere exposed to the elements,though.
+Dialogue: 0,0:21:26.28,0:21:28.28,*Default,说话人,0000,0000,0000,,会不会只是被海水泡了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Wouldn't that just be the saltwater,sir?
+Dialogue: 0,0:21:28.30,0:21:32.32,*Default,说话人,0000,0000,0000,,别急着下结论 看包的闩子\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not this quickly. Look at the latch on the bag.
+Dialogue: 0,0:21:32.33,0:21:35.36,*Default,说话人,0000,0000,0000,,这个粉底盒 还都在发光呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The compact. All still gleaming.
+Dialogue: 0,0:21:37.32,0:21:42.32,*Default,说话人,0000,0000,0000,,还有这个 我觉得是啤酒杯垫\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I believe that is a beer coaster.
+Dialogue: 0,0:21:44.32,0:21:48.28,*Default,说话人,0000,0000,0000,,- 上面还写着点什么 - 是啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- And there's something written on it. - So there is.
+Dialogue: 0,0:21:48.30,0:21:49.94,*Default,说话人,0000,0000,0000,,碎片应该都在这\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All the pieces must be here.
+Dialogue: 0,0:21:51.30,0:21:53.32,*Default,说话人,0000,0000,0000,,你觉得我们能把它拼回来吗\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you think we can put it together again?
+Dialogue: 0,0:21:55.28,0:21:58.32,*Default,说话人,0000,0000,0000,,- 我可以试一下 长官 - 不错\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I can try,sir. - Good.
+Dialogue: 0,0:21:58.33,0:21:59.38,*Default,说话人,0000,0000,0000,,很好\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Good.
+Dialogue: 0,0:22:05.36,0:22:07.32,*Default,说话人,0000,0000,0000,,简?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane?
+Dialogue: 0,0:22:11.33,0:22:13.37,*Default,说话人,0000,0000,0000,,- 你妈妈呢? - 她有事走了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Where's your mother? - She had to go.
+Dialogue: 0,0:22:14.29,0:22:16.38,*Default,说话人,0000,0000,0000,,- 去哪了? - 她没告诉我具体的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Where? - She didn't give an address.
+Dialogue: 0,0:22:17.29,0:22:18.34,*Default,说话人,0000,0000,0000,,太荒唐了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But that's ridiculous.
+Dialogue: 0,0:22:18.36,0:22:20.36,*Default,说话人,0000,0000,0000,,- 都找到你了还走? - 她还会回来的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- After all this time? - She'll come back.
+Dialogue: 0,0:22:20.37,0:22:22.32,*Default,说话人,0000,0000,0000,,反正她知道我在哪\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now that she knows where I am.
+Dialogue: 0,0:22:22.33,0:22:24.30,*Default,说话人,0000,0000,0000,,我们需要谈一谈\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We need to discuss this.
+Dialogue: 0,0:22:24.32,0:22:27.36,*Default,说话人,0000,0000,0000,,而且我们应该跟她谈一谈你的未来 简\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And we need to discuss things with her,Jane,about your future.
+Dialogue: 0,0:22:27.37,0:22:29.31,*Default,说话人,0000,0000,0000,,我还有历史作业没做完\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I have history homework to do.
+Dialogue: 0,0:22:34.28,0:22:36.35,*Default,说话人,0000,0000,0000,,她不能把简带走 是吧?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she can't take Jane back. Can she?
+Dialogue: 0,0:22:36.37,0:22:38.34,*Default,说话人,0000,0000,0000,,是你收养了她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You adopted her.
+Dialogue: 0,0:22:38.35,0:22:40.33,*Default,说话人,0000,0000,0000,,我们当时没找到她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We couldn't find her,Dot.
+Dialogue: 0,0:22:40.35,0:22:42.37,*Default,说话人,0000,0000,0000,,也不能确认她是否还健在\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And we couldn't verify her death either.
+Dialogue: 0,0:22:43.29,0:22:46.31,*Default,说话人,0000,0000,0000,,所以收养文件一直没正式签署\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So the papers were never signed.
+Dialogue: 0,0:22:46.32,0:22:48.32,*Default,说话人,0000,0000,0000,,这个应该是个W\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's got to be a W.
+Dialogue: 0,0:22:49.37,0:22:51.34,*Default,说话人,0000,0000,0000,,肯定是W\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Surely that's a W.
+Dialogue: 0,0:22:53.34,0:22:55.36,*Default,说话人,0000,0000,0000,,这个看起来更像N和W\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That looks more like an N and a W.
+Dialogue: 0,0:22:59.30,0:23:00.36,*Default,说话人,0000,0000,0000,,那这个是什么呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Then what is that?
+Dialogue: 0,0:23:16.34,0:23:18.32,*Default,说话人,0000,0000,0000,,休\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hugh.
+Dialogue: 0,0:23:18.33,0:23:20.32,*Default,说话人,0000,0000,0000,,休 醒醒 我拼好了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hugh,wake up. I'm finished.
+Dialogue: 0,0:23:27.33,0:23:28.38,*Default,说话人,0000,0000,0000,,威顿公司的麦酒?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Whitten's Pale Ale?
+Dialogue: 0,0:23:29.29,0:23:31.32,*Default,说话人,0000,0000,0000,,这是种澳大利亚南部的酒\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's a South Australian beer.
+Dialogue: 0,0:23:31.34,0:23:34.34,*Default,说话人,0000,0000,0000,,- 另一面写的是什么? - 全是名字\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- What's on the other side? - Just a whole lot of names.
+Dialogue: 0,0:23:38.30,0:23:40.30,*Default,说话人,0000,0000,0000,,恩 你真聪明啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hmm,aren't you clever?
+Dialogue: 0,0:23:42.30,0:23:43.36,*Default,说话人,0000,0000,0000,,谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you.
+Dialogue: 0,0:23:49.36,0:23:51.32,*Default,说话人,0000,0000,0000,,小姐 我不知道您还没睡\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I didn't know you were still up,Miss.
+Dialogue: 0,0:23:51.33,0:23:52.38,*Default,说话人,0000,0000,0000,,要为您来杯可可么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Can I make you a cocoa?
+Dialogue: 0,0:23:53.30,0:23:55.76,*Default,说话人,0000,0000,0000,,我想今晚要喝一些更烈的东西 谢谢 桃乐西\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I think I need something stronger tonight,thanks,Dot.
+Dialogue: 0,0:23:57.34,0:23:59.32,*Default,说话人,0000,0000,0000,,你完成了你的刑侦工作?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You finished your police work?
+Dialogue: 0,0:24:08.37,0:24:11.37,*Default,说话人,0000,0000,0000,,简说凯蒂 在大厅里晕倒过\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane said Kitty fainted in the hall.
+Dialogue: 0,0:24:12.29,0:24:14.72,*Default,说话人,0000,0000,0000,,而且还让你帮她松了松裙子?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And didn't you have to let out the seams of her frock?
+Dialogue: 0,0:24:14.73,0:24:15.78,*Default,说话人,0000,0000,0000,,是的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's right.
+Dialogue: 0,0:24:16.29,0:24:18.30,*Default,说话人,0000,0000,0000,,在腰腹部帮她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A couple of inches mostly around...
+Dialogue: 0,0:24:20.28,0:24:21.38,*Default,说话人,0000,0000,0000,,留了几英尺的空\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}mostly around the waist.
+Dialogue: 0,0:24:22.29,0:24:25.36,*Default,说话人,0000,0000,0000,,'爱德华 泰迪 埃德温...'\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}'Edward,Teddie,Edwin...'
+Dialogue: 0,0:24:28.28,0:24:30.30,*Default,说话人,0000,0000,0000,,可能是她的男性朋友?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Gentlemen friends?
+Dialogue: 0,0:24:30.31,0:24:32.29,*Default,说话人,0000,0000,0000,,这里也有女孩的名字\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}There's girls' names here too.
+Dialogue: 0,0:24:32.31,0:24:37.29,*Default,说话人,0000,0000,0000,,'埃德温娜 埃迪' 都是同一个名字变换的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}'Edwina,Edie' - all variants of the same name.
+Dialogue: 0,0:24:37.31,0:24:39.88,*Default,说话人,0000,0000,0000,,我打赌凯蒂家里肯定有叫爱德华的人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll wager there was an Edward somewhere in Kitty's family tree.
+Dialogue: 0,0:24:40.29,0:24:41.33,*Default,说话人,0000,0000,0000,,是宝宝的名字\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Babies' names.
+Dialogue: 0,0:24:41.35,0:24:43.32,*Default,说话人,0000,0000,0000,,宝宝的?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Babies.
+Dialogue: 0,0:24:46.36,0:24:48.32,*Default,说话人,0000,0000,0000,,什么宝宝?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What babies?
+Dialogue: 0,0:24:51.34,0:24:53.38,*Default,说话人,0000,0000,0000,,长官 佩斯小姐怀孕了么\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,sir? Was Miss Pace expecting?
+Dialogue: 0,0:24:54.29,0:24:55.38,*Default,说话人,0000,0000,0000,,这样说吧 科林斯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Put it this way,Collins.
+Dialogue: 0,0:24:56.30,0:24:58.32,*Default,说话人,0000,0000,0000,,如果这个世界上全凭女性的直觉办事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If the world had any more womanly intuition,
+Dialogue: 0,0:24:58.34,0:25:01.30,*Default,说话人,0000,0000,0000,,- 那验尸官肯定都要下岗了 - 是啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- the coroner would be out of a job. - Absolutely.
+Dialogue: 0,0:25:02.35,0:25:04.30,*Default,说话人,0000,0000,0000,,有查出死因吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And the cause of death?
+Dialogue: 0,0:25:04.32,0:25:06.36,*Default,说话人,0000,0000,0000,,他发现头骨后面有一个裂伤口\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He notes a laceration to the back of the skull.
+Dialogue: 0,0:25:07.28,0:25:09.86,*Default,说话人,0000,0000,0000,,但是 胃里有大量的液体和碎屑\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}However,large quantities of fluid and debris in the stomach
+Dialogue: 0,0:25:10.28,0:25:13.31,*Default,说话人,0000,0000,0000,,充分证实了死者是溺水后死亡\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}strongly suggest death occurred subsequent to immersion.
+Dialogue: 0,0:25:13.33,0:25:15.96,*Default,说话人,0000,0000,0000,,- 这么说凶手不是萝丝 - 恩\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- So Rose is off the hook. - Mmm.
+Dialogue: 0,0:25:15.97,0:25:18.30,*Default,说话人,0000,0000,0000,,而且凯蒂落水时还活着\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And Kitty was alive when she drowned.
+Dialogue: 0,0:25:18.31,0:25:19.36,*Default,说话人,0000,0000,0000,,可以这么推断\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's the conclusion.
+Dialogue: 0,0:25:20.28,0:25:21.88,*Default,说话人,0000,0000,0000,,但是另有一处挫伤\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But there was bruising suggestive of someone
+Dialogue: 0,0:25:22.30,0:25:24.30,*Default,说话人,0000,0000,0000,,是个比萝丝更强壮的人造成的 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a lot more hefty than Rose Weston.
+Dialogue: 0,0:25:24.30,0:25:25.30,*Default,说话人,0000,0000,0000,,什么样的挫伤\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What kind of bruising?
+Dialogue: 0,0:25:25.32,0:25:27.38,*Default,说话人,0000,0000,0000,,- 你无需知道 - 我必须知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}-You don't need to know. - Tell me.
+Dialogue: 0,0:25:28.30,0:25:31.30,*Default,说话人,0000,0000,0000,,在她的腰背部有个男性的鞋印\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A man's boot print across the small of her back.
+Dialogue: 0,0:25:35.34,0:25:37.30,*Default,说话人,0000,0000,0000,,这个徽章很眼熟\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That badge looks familiar.
+Dialogue: 0,0:25:39.28,0:25:40.34,*Default,说话人,0000,0000,0000,,这颜色\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The colours.
+Dialogue: 0,0:25:40.35,0:25:43.33,*Default,说话人,0000,0000,0000,,'和谐源于真理'\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}'Concordium cum veritate.'
+Dialogue: 0,0:25:43.34,0:25:46.30,*Default,说话人,0000,0000,0000,,和谐源于真理\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Harmony through truth.
+Dialogue: 0,0:25:46.31,0:25:48.31,*Default,说话人,0000,0000,0000,,非常赞成\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm all for that.
+Dialogue: 0,0:25:49.36,0:25:51.32,*Default,说话人,0000,0000,0000,,简 下来了么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane,are you coming?
+Dialogue: 0,0:25:55.29,0:25:56.45,*Default,说话人,0000,0000,0000,,我以为你都准备好了 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought you were all ready?
+Dialogue: 0,0:25:56.45,0:25:57.74,*Default,说话人,0000,0000,0000,,这可是咱们最后一次彩排\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's our last rehearsal.
+Dialogue: 0,0:25:57.75,0:25:59.32,*Default,说话人,0000,0000,0000,,我不太舒服\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not feeling very well.
+Dialogue: 0,0:25:59.33,0:26:01.29,*Default,说话人,0000,0000,0000,,应该只是感冒了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sure it's just a cold.
+Dialogue: 0,0:26:02.36,0:26:04.38,*Default,说话人,0000,0000,0000,,好吧 那回去睡会吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Alright,back to bed with you.
+Dialogue: 0,0:26:08.36,0:26:10.32,*Default,说话人,0000,0000,0000,,德里克\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Derek.
+Dialogue: 0,0:26:28.34,0:26:30.29,*Default,说话人,0000,0000,0000,,打扰一下 费雪小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Excuse me,Miss Fisher.
+Dialogue: 0,0:26:30.31,0:26:32.81,*Default,说话人,0000,0000,0000,,我应该把这些酒放哪里呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where would you like me to stack the refreshments?
+Dialogue: 0,0:26:34.30,0:26:37.36,*Default,说话人,0000,0000,0000,,德里克 我没听说过威顿牌的酒啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry,Derek. Whitten's. I haven't heard of that.
+Dialogue: 0,0:26:37.37,0:26:40.38,*Default,说话人,0000,0000,0000,,产自阿德莱德 顶级酿造\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ah,it's from Adelaide. Top brew.
+Dialogue: 0,0:26:41.30,0:26:43.32,*Default,说话人,0000,0000,0000,,看不出你年纪轻轻还是个行家\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're very young to be a beer connoisseur.
+Dialogue: 0,0:26:43.33,0:26:45.32,*Default,说话人,0000,0000,0000,,放厨房吧 谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kitchen will be fine,thank you.
+Dialogue: 0,0:27:00.34,0:27:05.30,*Default,说话人,0000,0000,0000,,我很喜欢你的校服 这校训是什么意思?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I was just intrigued by your school crest. What does the motto say?
+Dialogue: 0,0:27:06.35,0:27:10.30,*Default,说话人,0000,0000,0000,,是关于什么真理和谐之类的 是拉丁语\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Something about truth and harmony. It's Latin.
+Dialogue: 0,0:27:10.32,0:27:14.32,*Default,说话人,0000,0000,0000,,我之前在一个校徽上也见过\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've seen it before. On a school badge.
+Dialogue: 0,0:27:16.34,0:27:20.36,*Default,说话人,0000,0000,0000,,嗯 是的 以前的那个被我弄丢了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ah,yes. I used to own one. But I lost it.
+Dialogue: 0,0:27:22.34,0:27:26.34,*Default,说话人,0000,0000,0000,,警察帮你找到了 在凯蒂 佩斯的手包里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The police have found it. In Kitty Pace's handbag.
+Dialogue: 0,0:27:26.35,0:27:28.36,*Default,说话人,0000,0000,0000,,收拾好你的东西 德里克\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Gather your things,Derek.
+Dialogue: 0,0:27:32.34,0:27:35.34,*Default,说话人,0000,0000,0000,,抱歉 姑娘们 今天花仙的事忙乎够了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry,ladies. Enough maidenhood for one day.
+Dialogue: 0,0:27:35.36,0:27:37.34,*Default,说话人,0000,0000,0000,,我和德里克有点急事要处理\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Derek and I have an urgent appointment.
+Dialogue: 0,0:27:42.28,0:27:43.34,*Default,说话人,0000,0000,0000,,德里克不会伤害凯蒂的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Derek wouldn't hurt Kitty.
+Dialogue: 0,0:27:45.34,0:27:47.38,*Default,说话人,0000,0000,0000,,他很爱她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He was sweet on her.
+Dialogue: 0,0:27:48.29,0:27:50.32,*Default,说话人,0000,0000,0000,,德里克不喜欢凯蒂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Derek wasn't sweet on Kitty.
+Dialogue: 0,0:27:50.34,0:27:52.32,*Default,说话人,0000,0000,0000,,他只是抵挡不了诱惑罢了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He just couldn't resist the other thing.
+Dialogue: 0,0:27:52.33,0:27:54.34,*Default,说话人,0000,0000,0000,,你懂的 下半身的诱惑\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know,down there.
+Dialogue: 0,0:27:58.32,0:28:00.38,*Default,说话人,0000,0000,0000,,你知道些什么啊? 嗯?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And what would you know? Hmm?
+Dialogue: 0,0:28:04.28,0:28:07.36,*Default,说话人,0000,0000,0000,,她身陷窘境 所以想趁机赖到他身上\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She was trying to trap him because she was in strife.
+Dialogue: 0,0:28:07.37,0:28:09.32,*Default,说话人,0000,0000,0000,,我在房子后面看到她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I saw her out the back
+Dialogue: 0,0:28:09.34,0:28:12.36,*Default,说话人,0000,0000,0000,,正在呕吐 我立刻就懂了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}heaving her guts out and I picked it right off.
+Dialogue: 0,0:28:12.37,0:28:14.32,*Default,说话人,0000,0000,0000,,她怀孕了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She was in the family way.
+Dialogue: 0,0:28:16.30,0:28:17.88,*Default,说话人,0000,0000,0000,,我把徽章给了玛丽\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I gave that badge to Marie.
+Dialogue: 0,0:28:18.30,0:28:20.31,*Default,说话人,0000,0000,0000,,也许凯蒂因为嫉妒所以就拿走了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe Kitty took it because she was jealous.
+Dialogue: 0,0:28:20.33,0:28:23.32,*Default,说话人,0000,0000,0000,,你要是真遵守校训的话 事情就简单多了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This'd be a lot easier if you stick to your school motto.
+Dialogue: 0,0:28:23.34,0:28:26.31,*Default,说话人,0000,0000,0000,,德里克 你穿几码的鞋?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What shoe size do you take,Derek?
+Dialogue: 0,0:28:26.33,0:28:28.29,*Default,说话人,0000,0000,0000,,十码 怎么了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Size ten,why?
+Dialogue: 0,0:28:32.28,0:28:34.34,*Default,说话人,0000,0000,0000,,探长 我尽快赶来了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Inspector. I came as quickly as I could.
+Dialogue: 0,0:28:38.32,0:28:41.28,*Default,说话人,0000,0000,0000,,这么说你与凯蒂·佩斯没有任何瓜葛么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So you weren't involved with Kitty Pace in any way?
+Dialogue: 0,0:28:41.30,0:28:43.32,*Default,说话人,0000,0000,0000,,是她极力想跟我有瓜葛\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I think she wanted me to be.
+Dialogue: 0,0:28:43.34,0:28:46.30,*Default,说话人,0000,0000,0000,,她那天晚上邀我去一个海边浴屋见面\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She asked me to meet her that night at one of the bathing sheds.
+Dialogue: 0,0:28:46.32,0:28:48.36,*Default,说话人,0000,0000,0000,,- 我想了想 - 就是她溺水的那晚?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}-I thought about it. -The night she drowned?
+Dialogue: 0,0:28:50.34,0:28:52.30,*Default,说话人,0000,0000,0000,,但是我没有去\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I didn't go.
+Dialogue: 0,0:28:52.32,0:28:55.28,*Default,说话人,0000,0000,0000,,我去叔叔家听收音机听到很晚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I went to my Uncle's and listened to the wireless until late
+Dialogue: 0,0:28:55.30,0:28:57.34,*Default,说话人,0000,0000,0000,,- 然后还在那过夜了 - 是这样么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- and then slept over. - Can you confirm this?
+Dialogue: 0,0:28:57.36,0:28:59.30,*Default,说话人,0000,0000,0000,,是的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes.
+Dialogue: 0,0:28:59.32,0:29:02.38,*Default,说话人,0000,0000,0000,,德里克来的时候我晚上正好还有个会要开\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We had a late sitting at Council but when Derek arrived,
+Dialogue: 0,0:29:03.30,0:29:05.38,*Default,说话人,0000,0000,0000,,但我觉得他的事更要紧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I decided his visit was more important.
+Dialogue: 0,0:29:06.29,0:29:08.29,*Default,说话人,0000,0000,0000,,应该有人陪陪他\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He seemed in need of company.
+Dialogue: 0,0:29:08.31,0:29:10.32,*Default,说话人,0000,0000,0000,,你当时知道凯蒂·佩斯怀孕了吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did you know Kitty Pace was pregnant?
+Dialogue: 0,0:29:10.33,0:29:12.37,*Default,说话人,0000,0000,0000,,不 不 我不知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No. No,I didn't.
+Dialogue: 0,0:29:21.36,0:29:24.33,*Default,说话人,0000,0000,0000,,小姐 别按了 你会把铃给弄坏的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss,steady on. You're going to wear out the bell.
+Dialogue: 0,0:29:24.35,0:29:27.34,*Default,说话人,0000,0000,0000,,告诉我 凯蒂有没有怀孕?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tell me,please. Was Kitty expecting?
+Dialogue: 0,0:29:27.36,0:29:30.37,*Default,说话人,0000,0000,0000,,- 不如你先坐坐吧- 你先回答我?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Perhaps you should take a seat. - Tell me,yes or no?
+Dialogue: 0,0:29:31.29,0:29:32.72,*Default,说话人,0000,0000,0000,,怎么了 警探?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What's going on out here,Constable?
+Dialogue: 0,0:29:32.74,0:29:34.36,*Default,说话人,0000,0000,0000,,维斯顿小姐想问一些关于凯蒂·佩斯的事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss Weston's enquiring about Kitty Pace,sir.
+Dialogue: 0,0:29:34.38,0:29:37.34,*Default,说话人,0000,0000,0000,,你稍等片刻吧 我这马上就完了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,I'm just finishing up if you'd like to wait.
+Dialogue: 0,0:29:40.28,0:29:41.34,*Default,说话人,0000,0000,0000,,不必了 没事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,it's alright.
+Dialogue: 0,0:29:41.36,0:29:43.35,*Default,说话人,0000,0000,0000,,你说得对 这不关我事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You were right,it's none of my business.
+Dialogue: 0,0:29:46.28,0:29:48.30,*Default,说话人,0000,0000,0000,,- 萝丝? - 对不起打扰了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Rose? - Sorry to bother you.
+Dialogue: 0,0:29:52.34,0:29:54.37,*Default,说话人,0000,0000,0000,,为什么萝丝这么惊慌失措的?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What was all that fuss about with Rose?
+Dialogue: 0,0:29:55.29,0:29:57.34,*Default,说话人,0000,0000,0000,,也许她也喜欢德里克吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe she holds a torch for Derek too.
+Dialogue: 0,0:29:57.36,0:29:59.34,*Default,说话人,0000,0000,0000,,虽然我看不出他到底哪有魅力了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Though I can't see what the attraction is myself.
+Dialogue: 0,0:29:59.35,0:30:01.30,*Default,说话人,0000,0000,0000,,可能是校服控吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Could be a man in uniform.
+Dialogue: 0,0:30:13.28,0:30:14.88,*Default,说话人,0000,0000,0000,,拿上小桶和铲子吧 同志们\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Get your buckets and spades,boys.
+Dialogue: 0,0:30:15.30,0:30:17.07,*Default,说话人,0000,0000,0000,,我想我们得去海边玩一趟\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I think another trip to the seaside's in order.
+Dialogue: 0,0:30:22.32,0:30:24.30,*Default,说话人,0000,0000,0000,,继续试试白门 科林斯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Keep going. White door,Collins.
+Dialogue: 0,0:30:26.34,0:30:28.30,*Default,说话人,0000,0000,0000,,是的 就是这个 长官\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah,this is the one,sir.
+Dialogue: 0,0:30:35.34,0:30:37.30,*Default,说话人,0000,0000,0000,,不错的藏身所啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nice hideaway.
+Dialogue: 0,0:30:40.28,0:30:41.87,*Default,说话人,0000,0000,0000,,你看又是这种酒 先生\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Here's that beer again,sir.
+Dialogue: 0,0:30:42.29,0:30:44.30,*Default,说话人,0000,0000,0000,,是的 正是德里克推荐的酒\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,Derek Philips recommends it.
+Dialogue: 0,0:30:44.32,0:30:46.34,*Default,说话人,0000,0000,0000,,看来我们得再找他聊聊了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We may need another chat with that young man.
+Dialogue: 0,0:30:46.36,0:30:50.34,*Default,说话人,0000,0000,0000,,文法学校的乖学生 还是个高官子弟\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Good Grammar boy. Head Prefect to boot.
+Dialogue: 0,0:30:50.36,0:30:53.34,*Default,说话人,0000,0000,0000,,这种男孩最爱找没身份的野姑娘\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just the sort to sow his wild oats with a bad girl
+Dialogue: 0,0:30:53.35,0:30:55.36,*Default,说话人,0000,0000,0000,,然后放荡一番了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}from the wrong side of the tracks,
+Dialogue: 0,0:30:55.38,0:30:58.29,*Default,说话人,0000,0000,0000,,结果一遇到点麻烦就怂了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}only to panic at the first sign of trouble.
+Dialogue: 0,0:31:03.32,0:31:05.38,*Default,说话人,0000,0000,0000,,一把男士剃须刀\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A gentleman's razor.
+Dialogue: 0,0:31:06.30,0:31:09.31,*Default,说话人,0000,0000,0000,,看来 德里克并不是凯蒂唯一的男性访客\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Looks like Derek wasn't Kitty's only male visitor.
+Dialogue: 0,0:31:10.37,0:31:12.32,*Default,说话人,0000,0000,0000,,他这么小还用不着剃须呢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's barely old enough to shave.
+Dialogue: 0,0:31:19.28,0:31:23.30,*Default,说话人,0000,0000,0000,,亨利·劳森:澳大利亚著名诗人 作家
+Dialogue: 0,0:31:19.28,0:31:22.02,*Default,说话人,0000,0000,0000,,你还是亨利·劳森的忠实读者呢 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I didn't know you were a Henry Lawson fan.
+Dialogue: 0,0:31:22.02,0:31:23.30,*Default,说话人,0000,0000,0000,,现在好点了么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How are you feeling?
+Dialogue: 0,0:31:24.36,0:31:29.30,*Default,说话人,0000,0000,0000,,好多了 我想搭电车去看看萝丝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Much better. I thought I'd catch the tram to see Rose.
+Dialogue: 0,0:31:29.32,0:31:31.30,*Default,说话人,0000,0000,0000,,今天有些晚了吧 ?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's a bit late in the day,isn't it?
+Dialogue: 0,0:31:31.31,0:31:32.87,*Default,说话人,0000,0000,0000,,她因为凯蒂的事情很是伤心\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She's been so upset about Kitty.
+Dialogue: 0,0:31:33.29,0:31:36.32,*Default,说话人,0000,0000,0000,,你不如明天再去 等不了多久的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I think it can wait until tomorrow. You'll see her soon enough.
+Dialogue: 0,0:31:57.28,0:31:59.32,*Default,说话人,0000,0000,0000,,不要 停下来好么? 我不能这样\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,stop it,OK? I can't do this.
+Dialogue: 0,0:31:59.34,0:32:01.38,*Default,说话人,0000,0000,0000,,我满脑子想的都是她 抱歉\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can't stop thinking about her. I'm sorry.
+Dialogue: 0,0:32:04.34,0:32:07.32,*Default,说话人,0000,0000,0000,,你是该觉得抱歉 因为我不干了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You will be sorry because the deal's off.
+Dialogue: 0,0:32:07.33,0:32:09.32,*Default,说话人,0000,0000,0000,,我不会帮你撒谎掩护了!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not covering for you anymore!
+Dialogue: 0,0:32:09.33,0:32:11.34,*Default,说话人,0000,0000,0000,,不 等等 玛丽!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No,wait! Marie!
+Dialogue: 0,0:33:17.34,0:33:20.38,*Default,说话人,0000,0000,0000,,妈妈? 是我 简\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mother? It's me. Jane.
+Dialogue: 0,0:33:25.34,0:33:29.30,*Default,说话人,0000,0000,0000,,我就知道你会如约过来的 你总是说到做到\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I knew you'd come like you promised. You always keep your word.
+Dialogue: 0,0:33:30.35,0:33:32.30,*Default,说话人,0000,0000,0000,,进来吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come in.
+Dialogue: 0,0:33:50.34,0:33:52.38,*Default,说话人,0000,0000,0000,,我带了一些文件需要你签字\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've brought some papers I need you to sign.
+Dialogue: 0,0:33:56.44,0:33:57.68,*Default,说话人,0000,0000,0000,,收养文件\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Adoption Documents
+Dialogue: 0,0:34:01.35,0:34:03.37,*Default,说话人,0000,0000,0000,,我还是会常来看你的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't think I won't visit.
+Dialogue: 0,0:34:04.28,0:34:06.30,*Default,说话人,0000,0000,0000,,我保证\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I will.
+Dialogue: 0,0:34:06.31,0:34:08.34,*Default,说话人,0000,0000,0000,,只不过还是这样更好\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But it's better this way.
+Dialogue: 0,0:34:14.32,0:34:15.38,*Default,说话人,0000,0000,0000,,嗯 我明白\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah,I know.
+Dialogue: 0,0:34:16.29,0:34:18.32,*Default,说话人,0000,0000,0000,,别担心\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't worry.
+Dialogue: 0,0:34:18.34,0:34:20.38,*Default,说话人,0000,0000,0000,,我还带了些你可能需要的东西\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I brought you some things you might need.
+Dialogue: 0,0:34:27.30,0:34:28.86,*Default,说话人,0000,0000,0000,,买日常用品的钱\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Money for shopping.
+Dialogue: 0,0:34:32.36,0:34:34.32,*Default,说话人,0000,0000,0000,,还有本书\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A book.
+Dialogue: 0,0:34:39.32,0:34:42.36,*Default,说话人,0000,0000,0000,,亨利·劳森 我们可以像原来一样一块念书\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Henry Lawson. We can read them together like we used to.
+Dialogue: 0,0:34:42.37,0:34:45.32,*Default,说话人,0000,0000,0000,,就一小会儿 怎么样?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just for a short while,hmm?
+Dialogue: 0,0:34:59.32,0:35:01.32,*Default,说话人,0000,0000,0000,,谁?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello?
+Dialogue: 0,0:35:01.33,0:35:02.38,*Default,说话人,0000,0000,0000,,是你么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is that you?
+Dialogue: 0,0:35:08.30,0:35:09.38,*Default,说话人,0000,0000,0000,,你来这里干嘛?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you doing here?
+Dialogue: 0,0:35:11.36,0:35:14.36,*Default,说话人,0000,0000,0000,,"跋山涉水 翻山越岭\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}'In deep ways and steep ways and high ways and low,
+Dialogue: 0,0:35:14.38,0:35:18.34,*Default,说话人,0000,0000,0000,,我在陌生的路上觉得安逸而不拘\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm at home and at ease on a track that I know not,
+Dialogue: 0,0:35:18.36,0:35:22.32,*Default,说话人,0000,0000,0000,,却在熟悉的路上觉得迷失和不安"\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and restless and lost on a road that I know.'
+Dialogue: 0,0:35:29.32,0:35:30.97,*Default,说话人,0000,0000,0000,,现在 我们还得来点下午茶 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now,all we need is some afternoon tea,
+Dialogue: 0,0:35:30.97,0:35:32.36,*Default,说话人,0000,0000,0000,,像原来一样 还记得么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}like we used to make,remember?
+Dialogue: 0,0:35:32.37,0:35:36.36,*Default,说话人,0000,0000,0000,,但现在已经是晚上了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But it's late. It's night-time.
+Dialogue: 0,0:35:36.37,0:35:38.31,*Default,说话人,0000,0000,0000,,没关系的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No matter.
+Dialogue: 0,0:35:38.33,0:35:40.19,*Default,说话人,0000,0000,0000,,我做个蛋糕来庆祝一下 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll bake us a cake to celebrate.
+Dialogue: 0,0:35:40.19,0:35:42.38,*Default,说话人,0000,0000,0000,,你向来喜欢吃我做的苹果蛋糕\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You always loved my apple cake.
+Dialogue: 0,0:35:43.29,0:35:44.86,*Default,说话人,0000,0000,0000,,很快就好了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It'll be done before you know it.
+Dialogue: 0,0:35:46.36,0:35:48.36,*Default,说话人,0000,0000,0000,,我天亮之前必须回去\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I have to be back before morning.
+Dialogue: 0,0:35:52.36,0:35:54.33,*Default,说话人,0000,0000,0000,,当然了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Of course you do.
+Dialogue: 0,0:36:10.32,0:36:14.32,*Default,说话人,0000,0000,0000,,奇怪了 貌似家用不太够了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Odd,I don't seem to have enough housekeeping money.
+Dialogue: 0,0:36:14.34,0:36:17.36,*Default,说话人,0000,0000,0000,,看来我们家的小扒手们日渐猖狂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe our light-fingered visitors are becoming more daring.
+Dialogue: 0,0:36:20.28,0:36:21.38,*Default,说话人,0000,0000,0000,,你看见了简吗? \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Have you seen Jane?
+Dialogue: 0,0:36:21.38,0:36:23.30,*Default,说话人,0000,0000,0000,,她不在楼上 床还跌的整整齐齐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She's not upstairs and her bed's made.
+Dialogue: 0,0:36:24.36,0:36:27.32,*Default,说话人,0000,0000,0000,,- 早安 - 早安 !\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Morning! - Morning.
+Dialogue: 0,0:36:27.34,0:36:29.38,*Default,说话人,0000,0000,0000,,到处都找不到简 小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can't seem to find Jane anywhere,Miss.
+Dialogue: 0,0:36:30.30,0:36:31.96,*Default,说话人,0000,0000,0000,,她是不是早起去上学了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you know if she left early for school?
+Dialogue: 0,0:36:35.30,0:36:37.32,*Default,说话人,0000,0000,0000,,两个都没去?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Both of them?
+Dialogue: 0,0:36:37.34,0:36:42.34,*Default,说话人,0000,0000,0000,,是啊 的确很奇怪 但我相信肯定没什么大事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes,it is odd but I'm sure there'll be some simple explanation.
+Dialogue: 0,0:36:43.29,0:36:44.34,*Default,说话人,0000,0000,0000,,谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you.
+Dialogue: 0,0:36:47.30,0:36:49.30,*Default,说话人,0000,0000,0000,,萝丝今天也没有去学校\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose hasn't shown up for school either.
+Dialogue: 0,0:36:54.28,0:36:56.34,*Default,说话人,0000,0000,0000,,玛丽说你定期会和凯蒂会面\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marie said you were meeting Kitty regularly.
+Dialogue: 0,0:36:56.36,0:36:59.32,*Default,说话人,0000,0000,0000,,每周两次 在海边的小浴屋\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Twice a week at the bathing shed.
+Dialogue: 0,0:36:59.33,0:37:01.30,*Default,说话人,0000,0000,0000,,我翘掉了辩论小组\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Instead of debating practice.
+Dialogue: 0,0:37:03.28,0:37:04.86,*Default,说话人,0000,0000,0000,,而且我是真心爱她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I loved her,I did.
+Dialogue: 0,0:37:07.36,0:37:10.29,*Default,说话人,0000,0000,0000,,但是她想让我退学和她结婚\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she wanted me to leave school to marry her.
+Dialogue: 0,0:37:10.31,0:37:12.30,*Default,说话人,0000,0000,0000,,这太疯狂了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It all seemed so mad.
+Dialogue: 0,0:37:12.32,0:37:13.74,*Default,说话人,0000,0000,0000,,然后你怎么做的? \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So what did you do?
+Dialogue: 0,0:37:13.74,0:37:15.29,*Default,说话人,0000,0000,0000,,她那晚要我给她个准信\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She wanted an answer that night.
+Dialogue: 0,0:37:15.31,0:37:18.34,*Default,说话人,0000,0000,0000,,但我跟我叔叔交代了我俩的事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I told my uncle that I was mixed up with her
+Dialogue: 0,0:37:18.36,0:37:21.38,*Default,说话人,0000,0000,0000,,叔叔让我离她远点 我并不知道她怀孕了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and he said to stay away. I didn't know Kitty was pregnant.
+Dialogue: 0,0:37:22.29,0:37:23.48,*Default,说话人,0000,0000,0000,,而且我绝对没有杀她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I certainly didn't  kill her.
+Dialogue: 0,0:37:24.30,0:37:28.32,*Default,说话人,0000,0000,0000,,但是...我的确不该撒谎\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But... I just feel so wretched that I lied.
+Dialogue: 0,0:37:28.33,0:37:30.36,*Default,说话人,0000,0000,0000,,还让别人帮我圆谎\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And other people had to lie for me.
+Dialogue: 0,0:37:30.37,0:37:32.32,*Default,说话人,0000,0000,0000,,比如谁呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like who?
+Dialogue: 0,0:37:32.34,0:37:34.30,*Default,说话人,0000,0000,0000,,玛丽说她会替我撒谎\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marie said she would back what I said
+Dialogue: 0,0:37:34.32,0:37:36.11,*Default,说话人,0000,0000,0000,,说我把校徽给了她 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}about giving her my school badge
+Dialogue: 0,0:37:36.11,0:37:39.30,*Default,说话人,0000,0000,0000,,而且叔叔也愿意为我提供不在场证明\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I needed my uncle as an alibi.
+Dialogue: 0,0:37:39.32,0:37:42.33,*Default,说话人,0000,0000,0000,,他当时没和我在一起 他去开会了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He wasn't with me. He was at a meeting.
+Dialogue: 0,0:37:46.36,0:37:48.36,*Default,说话人,0000,0000,0000,,你认识凯蒂多长时间了?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How long had you known Kitty?
+Dialogue: 0,0:37:50.33,0:37:51.38,*Default,说话人,0000,0000,0000,,六周吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Six weeks.
+Dialogue: 0,0:37:54.34,0:37:57.29,*Default,说话人,0000,0000,0000,,凯蒂至少有了三个月的身孕了 德里克\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kitty was at least three months pregnant,Derek.
+Dialogue: 0,0:38:02.30,0:38:04.38,*Default,说话人,0000,0000,0000,,这么说孩子不是我的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So it wasn't mine.
+Dialogue: 0,0:38:05.30,0:38:07.72,*Default,说话人,0000,0000,0000,,打扰了 长官 你应该看看这份\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ah,excuse me,sir. You might like to know the result
+Dialogue: 0,0:38:07.74,0:38:09.74,*Default,说话人,0000,0000,0000,,关于沙滩浴屋所属人的文件\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}of that Titles search on that bathing shed.
+Dialogue: 0,0:38:18.36,0:38:20.33,*Default,说话人,0000,0000,0000,,我从来没去过浴屋那\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I never go near the shed.
+Dialogue: 0,0:38:20.35,0:38:24.33,*Default,说话人,0000,0000,0000,,在一场赌博中 我输掉了我的船和所有的一切\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I lost my boat,along with everything else,in a card game.
+Dialogue: 0,0:38:24.35,0:38:26.35,*Default,说话人,0000,0000,0000,,你的家具也是因此消失了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That would explain your disappearing furniture.
+Dialogue: 0,0:38:26.37,0:38:29.25,*Default,说话人,0000,0000,0000,,听着 我完全不知道凯蒂 佩斯在那里住 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look,I had no idea Kitty Pace was living there.
+Dialogue: 0,0:38:29.25,0:38:30.31,*Default,说话人,0000,0000,0000,,我可以向你保证\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I give you my word.
+Dialogue: 0,0:38:30.33,0:38:33.30,*Default,说话人,0000,0000,0000,,像你这样输得精光的人 维斯顿先生\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A man who has lost as much money as you have,Mr Weston,
+Dialogue: 0,0:38:33.32,0:38:35.38,*Default,说话人,0000,0000,0000,,是会不择手段寻找补救机会的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}is willing to embrace all kinds of opportunities,
+Dialogue: 0,0:38:36.30,0:38:38.88,*Default,说话人,0000,0000,0000,,- 甚至不惜犯法 - 我不明白你什么意思\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- not all of them legal.- I don't know what you're implying.
+Dialogue: 0,0:38:39.30,0:38:41.74,*Default,说话人,0000,0000,0000,,你把凯蒂·佩斯安置在那是为了图自己方便\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did you set Kitty Pace up there for your own convenience
+Dialogue: 0,0:38:41.76,0:38:44.30,*Default,说话人,0000,0000,0000,,还是为了给其他男人也提供方便?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}or perhaps the convenience of other gentlemen?
+Dialogue: 0,0:38:44.31,0:38:45.38,*Default,说话人,0000,0000,0000,,维斯顿先生 !\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mr Weston!
+Dialogue: 0,0:38:47.33,0:38:49.32,*Default,说话人,0000,0000,0000,,我一直想给你打电话 维斯顿先生\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've been trying to telephone you,Mr Weston.
+Dialogue: 0,0:38:49.34,0:38:51.34,*Default,说话人,0000,0000,0000,,我在找我的女儿 萝丝在哪里?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm looking for my daughter. Where's Rose?
+Dialogue: 0,0:38:51.36,0:38:54.31,*Default,说话人,0000,0000,0000,,- 她在学校 - 不 她没有\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- She's at school. - No,she's not.
+Dialogue: 0,0:38:54.33,0:38:56.35,*Default,说话人,0000,0000,0000,,简也没去学校 两个女孩子都失踪了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Neither is Jane. Both girls are missing.
+Dialogue: 0,0:38:56.37,0:38:59.30,*Default,说话人,0000,0000,0000,,- 她们能去哪里呢?- 我不知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Where could they be? - I have no idea.
+Dialogue: 0,0:38:59.32,0:39:02.32,*Default,说话人,0000,0000,0000,,萝丝给我留了字条 但是我没有在意\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose left me a note but I didn't take it seriously.
+Dialogue: 0,0:39:04.28,0:39:07.30,*Default,说话人,0000,0000,0000,,萝丝昨晚把字条放在门阶上了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose left this on the doorstep last night.
+Dialogue: 0,0:39:07.32,0:39:10.34,*Default,说话人,0000,0000,0000,,但是包 衣服 钱她什么都没拿\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But she didn't take her bag,clothes,money,nothing.
+Dialogue: 0,0:39:10.36,0:39:12.36,*Default,说话人,0000,0000,0000,,所以我觉得她肯定会回来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So naturally I assumed she'd be back.
+Dialogue: 0,0:39:12.38,0:39:14.36,*Default,说话人,0000,0000,0000,,但这张字条上写她不想继续这样了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But this says that she doesn't want to go on.
+Dialogue: 0,0:39:14.38,0:39:16.36,*Default,说话人,0000,0000,0000,,- 你认为简和她在一起 - 我不知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Do you think Jane's with her?- I don't know.
+Dialogue: 0,0:39:16.37,0:39:19.30,*Default,说话人,0000,0000,0000,,我只想尽快找到她俩\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I just want to find them both. Fast.
+Dialogue: 0,0:39:19.31,0:39:20.36,*Default,说话人,0000,0000,0000,,萝丝能去哪里呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where would Rose go?
+Dialogue: 0,0:39:23.32,0:39:26.32,*Default,说话人,0000,0000,0000,,她喜欢海滩 海滩浴屋\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,she liked the beach. The bathing sheds.
+Dialogue: 0,0:39:36.28,0:39:37.84,*Default,说话人,0000,0000,0000,,我看见有人在里面 快点!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can see someone. Hurry up!
+Dialogue: 0,0:39:45.30,0:39:47.30,*Default,说话人,0000,0000,0000,,天啊! 她做了什么傻事?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,God! What has she done?
+Dialogue: 0,0:39:48.35,0:39:50.32,*Default,说话人,0000,0000,0000,,安眠药\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sleeping pills.
+Dialogue: 0,0:39:51.37,0:39:54.32,*Default,说话人,0000,0000,0000,,- 她还有气儿吗 ? - 一点点\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Is she breathing?- Just.
+Dialogue: 0,0:39:55.37,0:39:57.35,*Default,说话人,0000,0000,0000,,萝丝 萝丝 你听得见我说话么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose! Rose,can you hear me?
+Dialogue: 0,0:39:57.37,0:39:59.38,*Default,说话人,0000,0000,0000,,醒过来啊 萝丝 醒过来吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on,Rose,come on.
+Dialogue: 0,0:40:00.29,0:40:01.38,*Default,说话人,0000,0000,0000,,求你了!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Please!
+Dialogue: 0,0:40:02.30,0:40:04.32,*Default,说话人,0000,0000,0000,,- 是他逼我的 - 什么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- He made me do it. - What?
+Dialogue: 0,0:40:05.37,0:40:08.37,*Default,说话人,0000,0000,0000,,- 谁 ? - 他逼我这样的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Who? - He made me do it.
+Dialogue: 0,0:40:09.28,0:40:10.82,*Default,说话人,0000,0000,0000,,好了 我们把她抬出去\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Alright,let's get her out of here.
+Dialogue: 0,0:40:12.34,0:40:14.32,*Default,说话人,0000,0000,0000,,一 二 三\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}One,two,three.
+Dialogue: 0,0:40:29.34,0:40:32.31,*Default,说话人,0000,0000,0000,,- 她没什么大碍吧? - 她很幸运\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Is she alright? - She was lucky.
+Dialogue: 0,0:40:32.33,0:40:34.31,*Default,说话人,0000,0000,0000,,护士把她胃里的药都给清空了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They pumped what they could out of her stomach.
+Dialogue: 0,0:40:34.33,0:40:36.29,*Default,说话人,0000,0000,0000,,她现在只要睡过了药效就好了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She just has to sleep the rest off.
+Dialogue: 0,0:40:36.31,0:40:38.34,*Default,说话人,0000,0000,0000,,- 还是没有简的消息么? - 嗯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Still no news of Jane? - No.
+Dialogue: 0,0:40:38.36,0:40:40.37,*Default,说话人,0000,0000,0000,,看来她俩没在一起\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It doesn't seem like they were together.
+Dialogue: 0,0:40:41.29,0:40:42.36,*Default,说话人,0000,0000,0000,,你看过抽屉了么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did you check the bureau?
+Dialogue: 0,0:40:42.37,0:40:45.32,*Default,说话人,0000,0000,0000,,是 是的 你说得对\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Y-yes and you were right.
+Dialogue: 0,0:40:45.33,0:40:47.29,*Default,说话人,0000,0000,0000,,收养文件不见了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The adoption papers are gone.
+Dialogue: 0,0:40:51.28,0:40:52.94,*Default,说话人,0000,0000,0000,,我现在要回警察局\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm going back to the police station.
+Dialogue: 0,0:41:02.30,0:41:03.38,*Default,说话人,0000,0000,0000,,做好了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's done.
+Dialogue: 0,0:41:09.32,0:41:10.38,*Default,说话人,0000,0000,0000,,起床吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Wake up.
+Dialogue: 0,0:41:12.33,0:41:14.31,*Default,说话人,0000,0000,0000,,一切都准备好了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Everything's ready.
+Dialogue: 0,0:41:40.32,0:41:42.34,*Default,说话人,0000,0000,0000,,- 怎么了? - 没事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- What's wrong? - Nothing.
+Dialogue: 0,0:41:53.36,0:41:56.30,*Default,说话人,0000,0000,0000,,真是一团糟 怎么回事?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's all wrong. But why is it?
+Dialogue: 0,0:41:58.28,0:41:59.74,*Default,说话人,0000,0000,0000,,一定有人在捣鬼\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Someone must have tampered with it.
+Dialogue: 0,0:41:59.76,0:42:01.32,*Default,说话人,0000,0000,0000,,你一定是把盐和糖搞混了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You must have used salt instead of sugar.
+Dialogue: 0,0:42:01.34,0:42:03.55,*Default,说话人,0000,0000,0000,,不可能 肯定是有人在这屋子里捣鬼\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I didn't. Someone's been in here.
+Dialogue: 0,0:42:03.57,0:42:06.38,*Default,说话人,0000,0000,0000,,- 不会的- 不 是他干的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- No,they haven't. - Yes,they have. It's him.
+Dialogue: 0,0:42:07.29,0:42:08.76,*Default,说话人,0000,0000,0000,,我前些天也听见他的动静了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I heard him the other night.
+Dialogue: 0,0:42:08.78,0:42:10.33,*Default,说话人,0000,0000,0000,,他有段时间没来这里了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He hasn't been around here for a while.
+Dialogue: 0,0:42:10.35,0:42:13.38,*Default,说话人,0000,0000,0000,,放错了盐是个凶兆 你还记得洛特的妻子么\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's a bad omen to spill salt. Do you remember Lot's wife?
+Dialogue: 0,0:42:14.30,0:42:17.32,*Default,说话人,0000,0000,0000,,记得么? 我们得把盐往肩上洒辟邪\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Remember? We've got to throw some over our shoulder.
+Dialogue: 0,0:42:17.33,0:42:18.38,*Default,说话人,0000,0000,0000,,你需要休息\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You need some sleep.
+Dialogue: 0,0:42:19.30,0:42:22.32,*Default,说话人,0000,0000,0000,,还有 我得回家了 她们会担心我的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A-and I need to go home. They'll be worried.
+Dialogue: 0,0:42:22.34,0:42:24.36,*Default,说话人,0000,0000,0000,,但是你不能走 出去就不安全了 过来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But you can't. It's not safe out there. Here.
+Dialogue: 0,0:42:24.38,0:42:27.33,*Default,说话人,0000,0000,0000,,我得走了 钥匙在哪里?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I need to go. Where's the key?
+Dialogue: 0,0:42:27.35,0:42:30.36,*Default,说话人,0000,0000,0000,,是他啊 简 你还不明白么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's him,Jane. Don't you understand?
+Dialogue: 0,0:42:30.37,0:42:33.29,*Default,说话人,0000,0000,0000,,把门打开 拜托!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Unlock the door. Please!
+Dialogue: 0,0:42:36.31,0:42:38.38,*Default,说话人,0000,0000,0000,,安娜! 我知道你在里面\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Anna! I know you're in there.
+Dialogue: 0,0:42:41.34,0:42:44.38,*Default,说话人,0000,0000,0000,,简·罗斯 十四岁 母亲的名字是安娜·罗斯\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane Ross,14 years old. Mother's name is Anna Ross.
+Dialogue: 0,0:42:46.33,0:42:47.87,*Default,说话人,0000,0000,0000,,假若她没和她妈妈在一起怎么办?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What if she's not with her mother?
+Dialogue: 0,0:42:48.29,0:42:50.72,*Default,说话人,0000,0000,0000,,假如逼萝丝服药的人也对简做同样的事怎么办\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What if the same person who drugged Rose has Jane as well
+Dialogue: 0,0:42:50.74,0:42:52.28,*Default,说话人,0000,0000,0000,,- 一直以来.. - 冷静 芙莱妮\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- and all this time... - Calm down,Phryne.
+Dialogue: 0,0:42:52.30,0:42:54.73,*Default,说话人,0000,0000,0000,,你记得被你收养钱她什么样吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You remember what she was like before you rescued her.
+Dialogue: 0,0:42:54.75,0:42:57.66,*Default,说话人,0000,0000,0000,,简是最会在逆境里照顾好自己的人了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If anyone knows how to look after themselves on the street,it's Jane.
+Dialogue: 0,0:42:57.68,0:42:59.36,*Default,说话人,0000,0000,0000,,我不知此事是否有关联\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not sure if this is relevant,sir,
+Dialogue: 0,0:42:59.38,0:43:00.95,*Default,说话人,0000,0000,0000,,但是委员会证实\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but the Council confirmed
+Dialogue: 0,0:43:00.96,0:43:04.33,*Default,说话人,0000,0000,0000,,维斯顿先生的确由于赌博丢了工作\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mr Weston lost office due to his gambling.
+Dialogue: 0,0:43:04.35,0:43:06.35,*Default,说话人,0000,0000,0000,,尽管市长尽力想让他复职\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Though the Mayor is trying to get him reinstated.
+Dialogue: 0,0:43:06.37,0:43:09.30,*Default,说话人,0000,0000,0000,,为什么市长要费劲帮一个这样的人?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why would he bother trying to help a man like that?
+Dialogue: 0,0:43:09.32,0:43:11.30,*Default,说话人,0000,0000,0000,,警探 看看你能不能拖住时间了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}See if you can get hold of the minutes,Constable.
+Dialogue: 0,0:43:12.37,0:43:15.36,*Default,说话人,0000,0000,0000,,城南警局 对的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}City South. Yeah,that's right.
+Dialogue: 0,0:43:15.38,0:43:18.32,*Default,说话人,0000,0000,0000,,在罗斯堂大街 谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}In Rathdowne Street. Thank you.
+Dialogue: 0,0:43:19.37,0:43:22.30,*Default,说话人,0000,0000,0000,,卡尔顿警方接到一个罗斯夫人的电话\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Carlton Police had a call to check on a Mrs Ross.
+Dialogue: 0,0:43:22.32,0:43:24.32,*Default,说话人,0000,0000,0000,,说在一家公寓发生了点家庭纠纷\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Some domestic dispute at a boarding house.
+Dialogue: 0,0:43:26.32,0:43:29.34,*Default,说话人,0000,0000,0000,,安娜 是我啦! 你打算在里面待多久?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Anna,it's me again! How long are you going to stay in there?
+Dialogue: 0,0:43:29.35,0:43:31.36,*Default,说话人,0000,0000,0000,,噢 放弃吧! 开门吧!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,give up! Unlock it!
+Dialogue: 0,0:43:31.38,0:43:34.36,*Default,说话人,0000,0000,0000,,- 放弃吧 你这个婊子! - 嘿 警察!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Give up,you trollop! - Hey! Police!
+Dialogue: 0,0:43:34.37,0:43:37.31,*Default,说话人,0000,0000,0000,,嘿 冷静点 我是房东\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey,steady on,I'm the landlord.
+Dialogue: 0,0:43:37.33,0:43:40.32,*Default,说话人,0000,0000,0000,,她把自己反锁在里面 我都闻见煤气味了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She's bloody locked herself in and I can smell gas.
+Dialogue: 0,0:43:40.34,0:43:42.30,*Default,说话人,0000,0000,0000,,- 简! - 让开点\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Jane! - Out of the way.
+Dialogue: 0,0:43:46.30,0:43:47.38,*Default,说话人,0000,0000,0000,,帮帮我! 快来!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Help me! Please!
+Dialogue: 0,0:43:48.29,0:43:49.88,*Default,说话人,0000,0000,0000,,我在外面! 她要跳下去了!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Out here! She's going to jump!
+Dialogue: 0,0:43:51.34,0:43:53.36,*Default,说话人,0000,0000,0000,,简! 坚持住!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Jane! Hold on!
+Dialogue: 0,0:43:53.38,0:43:55.36,*Default,说话人,0000,0000,0000,,- 等等 等等 - 快点!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Wait,wait. - Please!
+Dialogue: 0,0:43:55.37,0:43:57.32,*Default,说话人,0000,0000,0000,,帮帮我!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Help me!
+Dialogue: 0,0:44:03.34,0:44:05.32,*Default,说话人,0000,0000,0000,,没事了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's alright.
+Dialogue: 0,0:44:05.52,0:44:07.00,*Default,说话人,0000,0000,0000,,你现在安全了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're safe now.
+Dialogue: 0,0:44:17.32,0:44:18.38,*Default,说话人,0000,0000,0000,,你现在安全了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're safe now.
+Dialogue: 0,0:44:25.29,0:44:26.76,*Default,说话人,0000,0000,0000,,我很抱歉 但我必须把她赶出去\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry but I'll have to evict her.
+Dialogue: 0,0:44:26.77,0:44:28.32,*Default,说话人,0000,0000,0000,,你看 她人都不清醒!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean,she's not full quid!
+Dialogue: 0,0:44:28.34,0:44:30.30,*Default,说话人,0000,0000,0000,,默里 我对你的想法没兴趣\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not interested in your opinion,Murray.
+Dialogue: 0,0:44:30.32,0:44:33.31,*Default,说话人,0000,0000,0000,,你得跟我走一趟 快走\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're coming with me to the station. Move.
+Dialogue: 0,0:44:33.32,0:44:34.35,*Default,说话人,0000,0000,0000,,快点\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now.
+Dialogue: 0,0:44:34.37,0:44:36.30,*Default,说话人,0000,0000,0000,,来吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on.
+Dialogue: 0,0:44:40.32,0:44:43.36,*Default,说话人,0000,0000,0000,,她不肯...她不肯听我的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She wouldn't... She wouldn't listen to me.
+Dialogue: 0,0:44:43.37,0:44:47.34,*Default,说话人,0000,0000,0000,,我试过了 她其实人不坏\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I tried. She's not mean.
+Dialogue: 0,0:44:49.34,0:44:52.32,*Default,说话人,0000,0000,0000,,她...她只是需要我\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She... She just needs me.
+Dialogue: 0,0:44:53.37,0:44:55.38,*Default,说话人,0000,0000,0000,,我很抱歉没有告诉你\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry I didn't tell you.
+Dialogue: 0,0:45:07.30,0:45:09.34,*Default,说话人,0000,0000,0000,,- 罗斯夫人 要添茶吗? - 谢谢\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- More tea,Mrs Ross? - Thank you.
+Dialogue: 0,0:45:09.36,0:45:14.29,*Default,说话人,0000,0000,0000,,我感觉好多了 你的房子真漂亮\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I feel so much better. Such a beautiful home you have here.
+Dialogue: 0,0:45:14.31,0:45:17.32,*Default,说话人,0000,0000,0000,,噢 这不是我的房子\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,it's not mine,really.
+Dialogue: 0,0:45:17.34,0:45:21.30,*Default,说话人,0000,0000,0000,,但这里欢迎每一个人 包括你罗斯夫人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But everyone is welcome including you,Mrs Ross.
+Dialogue: 0,0:45:21.31,0:45:23.34,*Default,说话人,0000,0000,0000,,噢 像画里的花仙子\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,what a picture.
+Dialogue: 0,0:45:27.30,0:45:29.34,*Default,说话人,0000,0000,0000,,真是女大十八变了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You've grown into a wonderful young lady.
+Dialogue: 0,0:45:37.32,0:45:41.30,*Default,说话人,0000,0000,0000,,桃乐西 你可以带罗斯夫人上楼洗个澡吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Dot,would you like to take Mrs Ross up for her bath?
+Dialogue: 0,0:45:41.31,0:45:43.32,*Default,说话人,0000,0000,0000,,噢!\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh!
+Dialogue: 0,0:45:43.33,0:45:44.38,*Default,说话人,0000,0000,0000,,真体贴\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How lovely.
+Dialogue: 0,0:45:54.32,0:45:58.30,*Default,说话人,0000,0000,0000,,他们会再把她关起来的 人们会伤害她的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They'll lock her up again and people will hurt her.
+Dialogue: 0,0:45:59.35,0:46:02.30,*Default,说话人,0000,0000,0000,,我去过那些地方的 她还能去哪呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've been to those places. Where can she go?
+Dialogue: 0,0:46:02.32,0:46:04.30,*Default,说话人,0000,0000,0000,,我们会找到一个她喜欢待的地方\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We'll find somewhere where she's happy.
+Dialogue: 0,0:46:06.28,0:46:07.85,*Default,说话人,0000,0000,0000,,而且你还能随时见她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And you can visit her whenever you like.
+Dialogue: 0,0:46:07.87,0:46:09.80,*Default,说话人,0000,0000,0000,,我保证\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I promise.
+Dialogue: 0,0:46:15.28,0:46:16.36,*Default,说话人,0000,0000,0000,,你好 探长\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello,Inspector.
+Dialogue: 0,0:46:16.37,0:46:18.34,*Default,说话人,0000,0000,0000,,你应该会想知道\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You might like to know why
+Dialogue: 0,0:46:18.36,0:46:21.28,*Default,说话人,0000,0000,0000,,为什么维斯顿先生没有在委员会复职吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mr Weston wasn't reinstated to Council.
+Dialogue: 0,0:46:21.30,0:46:24.36,*Default,说话人,0000,0000,0000,,委员会在凯蒂溺水那晚对复职一事进行了投票\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They put it to the vote the night Kitty Pace was drowned.
+Dialogue: 0,0:46:24.38,0:46:29.33,*Default,说话人,0000,0000,0000,,而市长并未出席 尽管他不承认\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And Mayor Phillips,despite all his lobbying,was absent.
+Dialogue: 0,0:46:29.35,0:46:31.32,*Default,说话人,0000,0000,0000,,但德里克说他俩不在一起啊\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But Derek said he wasn't with him.
+Dialogue: 0,0:46:31.34,0:46:33.31,*Default,说话人,0000,0000,0000,,那他在哪里呢?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So where was he?
+Dialogue: 0,0:46:36.32,0:46:39.32,*Default,说话人,0000,0000,0000,,萝丝 谁逼你服药的?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose,who made you take all those pills?
+Dialogue: 0,0:46:39.34,0:46:42.32,*Default,说话人,0000,0000,0000,,和杀凯蒂的是同一个人吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Was it the same person who killed Kitty?
+Dialogue: 0,0:46:44.30,0:46:46.98,*Default,说话人,0000,0000,0000,,和你那天在警局躲着的是同一个人么?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Was it the same person you ran from at the police station?
+Dialogue: 0,0:46:54.34,0:46:57.30,*Default,说话人,0000,0000,0000,,当你祖父失势时 没有人愿意帮他\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The Mayor helped your grandfather when he was disgraced
+Dialogue: 0,0:46:57.31,0:46:58.36,*Default,说话人,0000,0000,0000,,只有市长帮了他\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}when no-one else would.
+Dialogue: 0,0:46:58.37,0:47:00.36,*Default,说话人,0000,0000,0000,,为什么他要那样做?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why would he do that?
+Dialogue: 0,0:47:00.38,0:47:03.32,*Default,说话人,0000,0000,0000,,那天你惊慌的离家出走也是因为他吧\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was the Mayor who was there when you ran away in fear.
+Dialogue: 0,0:47:03.34,0:47:08.32,*Default,说话人,0000,0000,0000,,就是那个热心选出花仙小姐的市长\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And the Mayor who was so helpful choosing all the flower maidens.
+Dialogue: 0,0:47:08.34,0:47:11.32,*Default,说话人,0000,0000,0000,,萝丝 是他强迫你写那张纸条的吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did he force you to write that note,Rose?
+Dialogue: 0,0:47:16.34,0:47:19.30,*Default,说话人,0000,0000,0000,,他把凯蒂安置在那间老浴屋里\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He set Kitty up in our old bathing shed.
+Dialogue: 0,0:47:20.35,0:47:23.32,*Default,说话人,0000,0000,0000,,他付她钱 这样就能随时去找她\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He paid her money so he could visit whenever he felt like it.
+Dialogue: 0,0:47:23.34,0:47:28.34,*Default,说话人,0000,0000,0000,,但凯蒂不想干了 她想告发他让他出丑\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But Kitty changed her mind. She wanted to tell on him,disgrace him.
+Dialogue: 0,0:47:28.35,0:47:30.35,*Default,说话人,0000,0000,0000,,这就是我们争吵的事\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's what we argued about.
+Dialogue: 0,0:47:30.37,0:47:33.37,*Default,说话人,0000,0000,0000,,但当我发现凯蒂怀孕时 我就知道原因了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But when I found out Kitty was pregnant,I knew why.
+Dialogue: 0,0:47:34.29,0:47:36.34,*Default,说话人,0000,0000,0000,,我知道是市长溺死她的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I knew it was the Mayor who drowned her.
+Dialogue: 0,0:47:41.30,0:47:43.29,*Default,说话人,0000,0000,0000,,这都是我的错\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's all my fault.
+Dialogue: 0,0:47:46.28,0:47:48.46,*Default,说话人,0000,0000,0000,,我应该当机立断听凯蒂的去告发他\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I should have told on him when Kitty wanted me to.
+Dialogue: 0,0:47:48.47,0:47:51.29,*Default,说话人,0000,0000,0000,,他说我很聪明很漂亮\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He said I was clever and pretty.
+Dialogue: 0,0:47:51.31,0:47:52.35,*Default,说话人,0000,0000,0000,,他送我礼物\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He bought me presents.
+Dialogue: 0,0:47:54.32,0:47:55.38,*Default,说话人,0000,0000,0000,,他借我们钱\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He loaned us money.
+Dialogue: 0,0:47:57.34,0:47:59.38,*Default,说话人,0000,0000,0000,,他想让我做他真正的女友\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He wanted me to be his proper girlfriend.
+Dialogue: 0,0:48:08.28,0:48:09.35,*Default,说话人,0000,0000,0000,,我们只发生过一次关系\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It only happened once.
+Dialogue: 0,0:48:11.36,0:48:14.36,*Default,说话人,0000,0000,0000,,然后祖父向他介绍了凯蒂\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And then grandfather introduced him to Kitty
+Dialogue: 0,0:48:14.38,0:48:17.32,*Default,说话人,0000,0000,0000,,她取代我变成了他的情人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and she became his girlfriend instead.
+Dialogue: 0,0:48:18.37,0:48:20.36,*Default,说话人,0000,0000,0000,,噢 萝丝\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh,Rose.
+Dialogue: 0,0:48:20.38,0:48:23.38,*Default,说话人,0000,0000,0000,,维斯顿先生来见她的孙女\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mr Weston is here to see his granddaughter.
+Dialogue: 0,0:48:28.34,0:48:30.32,*Default,说话人,0000,0000,0000,,请他进来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Show him in.
+Dialogue: 0,0:48:40.34,0:48:42.30,*Default,说话人,0000,0000,0000,,萝丝告诉了我们一切\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Rose has told us everything.
+Dialogue: 0,0:48:44.28,0:48:47.32,*Default,说话人,0000,0000,0000,,你不惜出卖自己的孙女来还债\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You sold your granddaughter so you could pay your debts.
+Dialogue: 0,0:48:47.33,0:48:50.56,*Default,说话人,0000,0000,0000,,然后又推凯蒂进火坑\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And then let Kitty suffer instead.
+Dialogue: 0,0:48:52.36,0:48:55.46,*Default,说话人,0000,0000,0000,,市长想杀死萝丝并伪装成自杀事件\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The Mayor tried to murder Rose and make it look like suicide.
+Dialogue: 0,0:48:59.32,0:49:01.32,*Default,说话人,0000,0000,0000,,萝丝 对不起\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm so sorry,Rose.
+Dialogue: 0,0:49:04.34,0:49:07.30,*Default,说话人,0000,0000,0000,,请你 请你原谅我\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Please,please forgive me.
+Dialogue: 0,0:49:26.34,0:49:28.30,*Default,说话人,0000,0000,0000,,费雪小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss Fisher.
+Dialogue: 0,0:49:51.30,0:49:52.36,*Default,说话人,0000,0000,0000,,他就是那个人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's the one.
+Dialogue: 0,0:49:52.37,0:49:54.37,*Default,说话人,0000,0000,0000,,他就是那个想杀我的人\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's the one who tried to kill me.
+Dialogue: 0,0:49:56.32,0:49:58.18,*Default,说话人,0000,0000,0000,,莱昂内尔·菲利普斯市长 你被逮捕了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mayor Lionel Phillips,you're under arrest.
+Dialogue: 0,0:49:58.30,0:50:00.38,*Default,说话人,0000,0000,0000,,你居然相信这个不良少女的证词?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You accept the word of this troubled young girl?
+Dialogue: 0,0:50:01.30,0:50:04.30,*Default,说话人,0000,0000,0000,,维斯顿小姐和她的祖父提供了完整详细的口供\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Miss Weston and her grandfather gave a full and detailed statement.
+Dialogue: 0,0:50:04.32,0:50:06.97,*Default,说话人,0000,0000,0000,,你被控告绑架 多次猥亵少女\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're charged with kidnap,various indecency charges,
+Dialogue: 0,0:50:07.29,0:50:10.30,*Default,说话人,0000,0000,0000,,谋杀未遂 和谋杀凯瑟琳·佩斯小姐\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}attempted murder and the murder of Miss Katherine Pace.
+Dialogue: 0,0:50:19.30,0:50:23.54,*Default,说话人,0000,0000,0000,,萝丝 干得好 到车里面等我 我很快就来\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well done,Rose. Wait for me in the car,I won't be long.
+Dialogue: 0,0:50:32.30,0:50:36.30,*Default,说话人,0000,0000,0000,,看来我开设的社交礼仪课程简直就是场灾难\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well,my school of social graces was a complete disaster.
+Dialogue: 0,0:50:36.32,0:50:38.98,*Default,说话人,0000,0000,0000,,看来这镇里有不少老狐狸觊觎那些年轻姑娘\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}There are enough fox trotting young ladies in this town.
+Dialogue: 0,0:50:39.30,0:50:42.33,*Default,说话人,0000,0000,0000,,你教会了她们追求正义\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You taught them to demand justice instead.
+Dialogue: 0,0:50:42.35,0:50:45.36,*Default,说话人,0000,0000,0000,,毫无疑问她们此后会维护自己权益\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And no doubt they'll all become firebrands in their own right
+Dialogue: 0,0:50:45.38,0:50:48.34,*Default,说话人,0000,0000,0000,,努力改变世界的 上帝保佑\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and try to change the world,God help us.
+Dialogue: 0,0:50:50.34,0:50:54.44,*Default,说话人,0000,0000,0000,,噢 这是简的收养文件 \N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh. Janie's adoption papers,
+Dialogue: 0,0:50:54.44,0:50:56.30,*Default,说话人,0000,0000,0000,,有一点皱了\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a little the worse for wear.
+Dialogue: 0,0:50:59.32,0:51:00.38,*Default,说话人,0000,0000,0000,,谢谢你\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you.
+Dialogue: 0,0:51:03.36,0:51:06.34,*Default,说话人,0000,0000,0000,,但简的母亲永远是她的母亲\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But Jane's mother will always be her mother.
+Dialogue: 0,0:51:06.36,0:51:09.36,*Default,说话人,0000,0000,0000,,那你是什么? 她的守护天使吗?\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And what will you be? Her guardian angel?
+Dialogue: 0,0:51:11.31,0:51:13.30,*Default,说话人,0000,0000,0000,,这倒是挺像我的风格的\N{\fs14\fscx75\fscy75}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Much more my style.
+
+
+

@@ -1,0 +1,759 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.73,0:00:09.23,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs24\bord0\shad2\4a&H80&\2c&H000000&}动物王朝{\r}
+Dialogue: 0,0:00:20.84,0:00:24.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions are the very image of majesty.{\r}
+Dialogue: 0,0:00:20.84,0:00:24.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子是庄严的代名词{\r}
+Dialogue: 0,0:00:25.60,0:00:28.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And, indeed, of Africa itself.{\r}
+Dialogue: 0,0:00:25.60,0:00:28.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}也是非洲的代名词{\r}
+Dialogue: 0,0:00:34.16,0:00:38.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their strength lies in the power of the pride,{\r}
+Dialogue: 0,0:00:34.16,0:00:38.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们的强大 来自于狮群的力量{\r}
+Dialogue: 0,0:00:38.16,0:00:40.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}their tight-knit family.{\r}
+Dialogue: 0,0:00:38.16,0:00:40.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}紧密相连的家族的力量{\r}
+Dialogue: 0,0:00:44.52,0:00:48.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions have ruled the savannahs for millennia.{\r}
+Dialogue: 0,0:00:44.52,0:00:48.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}数千年来 狮子一直统治着热带大草原{\r}
+Dialogue: 0,0:00:48.48,0:00:51.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And yet, within the last 20 years or so,{\r}
+Dialogue: 0,0:00:48.48,0:00:51.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}然而 在最近20多年中{\r}
+Dialogue: 0,0:00:51.80,0:00:54.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}their numbers have fallen by almost half.{\r}
+Dialogue: 0,0:00:51.80,0:00:54.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们的数量减少了将近一半{\r}
+Dialogue: 0,0:01:04.72,0:01:09.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Our team has spent two years following perhaps the most famous{\r}
+Dialogue: 0,0:01:04.72,0:01:09.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们小组花费两年时间 跟踪可能是全世界最著名的{\r}
+Dialogue: 0,0:01:09.48,0:01:13.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}lion family of all, the Marsh pride of Kenya's Masai Mara.{\r}
+Dialogue: 0,0:01:09.48,0:01:13.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子家族 肯尼亚马赛马拉的玛莎狮群{\r}
+Dialogue: 0,0:01:16.04,0:01:20.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}As we join them, the very survival of this great dynasty{\r}
+Dialogue: 0,0:01:16.04,0:01:20.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在我们开始观察它们的时候 这个伟大王朝的生存{\r}
+Dialogue: 0,0:01:20.16,0:01:21.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}is under threat.{\r}
+Dialogue: 0,0:01:20.16,0:01:21.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}正面临威胁{\r}
+Dialogue: 0,0:01:37.96,0:01:43.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their future depends entirely on the strength and determination{\r}
+Dialogue: 0,0:01:37.96,0:01:43.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们的未来完全取决于一位卓越领导者的{\r}
+Dialogue: 0,0:01:43.12,0:01:45.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of one extraordinary leader.{\r}
+Dialogue: 0,0:01:43.12,0:01:45.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}力量与意志{\r}
+Dialogue: 0,0:01:48.24,0:01:53.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Perhaps the most powerful in the history of the Marsh pride.{\r}
+Dialogue: 0,0:01:48.24,0:01:53.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}或许它是玛莎狮群历史上最强大的领导者{\r}
+Dialogue: 0,0:02:04.40,0:02:08.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}A lioness known as Charm.{\r}
+Dialogue: 0,0:02:04.40,0:02:08.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一头叫做查姆的雌狮{\r}
+Dialogue: 0,0:02:10.68,0:02:15.78,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs22\bord0\shad2\4a&H80&\2c&H000000&}狮子{\r}
+Dialogue: 0,0:02:21.20,0:02:22.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The Masai Mara.{\r}
+Dialogue: 0,0:02:21.20,0:02:22.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这里是马赛马拉{\r}
+Dialogue: 0,0:02:37.04,0:02:41.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The pride have always thrived here through an alliance{\r}
+Dialogue: 0,0:02:37.04,0:02:41.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮群一直在此生生不息{\r}
+Dialogue: 0,0:02:41.60,0:02:45.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}between powerful alpha males to protect the family{\r}
+Dialogue: 0,0:02:41.60,0:02:45.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}强势的雄狮结成联盟 保护家族{\r}
+Dialogue: 0,0:02:45.68,0:02:49.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and experienced females to raise the cubs.{\r}
+Dialogue: 0,0:02:45.68,0:02:49.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}并且与雌狮一起抚养幼崽{\r}
+Dialogue: 0,0:02:52.56,0:02:55.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But, for the first time in the pride's history,{\r}
+Dialogue: 0,0:02:52.56,0:02:55.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}然而在狮群的历史上{\r}
+Dialogue: 0,0:02:55.64,0:02:58.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}this alliance has been shattered.{\r}
+Dialogue: 0,0:02:55.64,0:02:58.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这个联盟第一次分崩离析{\r}
+Dialogue: 0,0:03:00.04,0:03:04.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The family has been abandoned by all the adult males.{\r}
+Dialogue: 0,0:03:00.04,0:03:04.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}所有成年雄狮都抛弃了家族{\r}
+Dialogue: 0,0:03:09.92,0:03:15.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The survival of the pride now rests upon the shoulders of Charm{\r}
+Dialogue: 0,0:03:09.92,0:03:15.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如今狮群生存的重担落到了查姆{\r}
+Dialogue: 0,0:03:15.72,0:03:17.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and her cousin, Sienna.{\r}
+Dialogue: 0,0:03:15.72,0:03:17.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}以及它的表亲西耶娜肩上{\r}
+Dialogue: 0,0:03:18.68,0:03:21.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The only remaining adults.{\r}
+Dialogue: 0,0:03:18.68,0:03:21.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们是仅存的成年狮子{\r}
+Dialogue: 0,0:03:28.32,0:03:32.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}If their young are to reach adulthood and the dynasty return{\r}
+Dialogue: 0,0:03:28.32,0:03:32.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}要想让幼崽长大成年 王朝恢复昔日的辉煌{\r}
+Dialogue: 0,0:03:32.40,0:03:37.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to full strength, they must now both protect and feed the whole family.{\r}
+Dialogue: 0,0:03:32.40,0:03:37.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们必须保护并且养活整个家族{\r}
+Dialogue: 0,0:03:54.40,0:03:55.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}August.{\r}
+Dialogue: 0,0:03:54.40,0:03:55.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}8月{\r}
+Dialogue: 0,0:03:57.24,0:04:01.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Following the recent rains, it's a time of plenty.{\r}
+Dialogue: 0,0:03:57.24,0:04:01.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}近日降雨之后 丰衣足食的时间到了{\r}
+Dialogue: 0,0:04:08.76,0:04:11.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The lions are surrounded by wildebeest{\r}
+Dialogue: 0,0:04:08.76,0:04:11.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子的周围全是{\r}
+Dialogue: 0,0:04:11.92,0:04:14.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}on their annual migration.{\r}
+Dialogue: 0,0:04:11.92,0:04:14.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}开始年度迁徙的角马{\r}
+Dialogue: 0,0:04:20.36,0:04:22.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}A quarter-tonne bull would make a good meal{\r}
+Dialogue: 0,0:04:20.36,0:04:22.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一头重达250公斤的公牛{\r}
+Dialogue: 0,0:04:22.96,0:04:25.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for all ten of the pride.{\r}
+Dialogue: 0,0:04:22.96,0:04:25.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可以让狮群的十头狮子饱餐一顿{\r}
+Dialogue: 0,0:04:34.16,0:04:38.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But even though Charm is an experienced hunter,{\r}
+Dialogue: 0,0:04:34.16,0:04:38.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}尽管查姆的狩猎经验十分丰富{\r}
+Dialogue: 0,0:04:38.72,0:04:41.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}most attempts end in failure.{\r}
+Dialogue: 0,0:04:38.72,0:04:41.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}大多数尝试却以失败告终{\r}
+Dialogue: 0,0:05:10.16,0:05:14.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm uses her hind legs to knock the wildebeest off-balance.{\r}
+Dialogue: 0,0:05:10.16,0:05:14.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆用后腿打破角马的平衡{\r}
+Dialogue: 0,0:06:11.28,0:06:15.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The smallest cubs won't be able to catch food for themselves{\r}
+Dialogue: 0,0:06:11.28,0:06:15.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最小的幼崽要等到12个月后{\r}
+Dialogue: 0,0:06:15.36,0:06:17.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for another 12 months.{\r}
+Dialogue: 0,0:06:15.36,0:06:17.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}才能独自捕食{\r}
+Dialogue: 0,0:06:19.72,0:06:23.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their ever-growing appetites mean that Charm and Sienna{\r}
+Dialogue: 0,0:06:19.72,0:06:23.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们日益增大的胃口意味着查姆与西耶娜{\r}
+Dialogue: 0,0:06:23.16,0:06:25.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}have to hunt around the clock.{\r}
+Dialogue: 0,0:06:23.16,0:06:25.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}必须连续不断地狩猎{\r}
+Dialogue: 0,0:06:30.76,0:06:34.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The females are often forced to head out alone.{\r}
+Dialogue: 0,0:06:30.76,0:06:34.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雌狮常常被迫独自外出{\r}
+Dialogue: 0,0:06:36.04,0:06:39.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Tonight, it's Sienna's turn.{\r}
+Dialogue: 0,0:06:36.04,0:06:39.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}今晚 轮到西耶娜了{\r}
+Dialogue: 0,0:06:44.68,0:06:46.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Sunrise.{\r}
+Dialogue: 0,0:06:44.68,0:06:46.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}太阳升起{\r}
+Dialogue: 0,0:06:54.04,0:06:56.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Sienna is seriously injured.{\r}
+Dialogue: 0,0:06:54.04,0:06:56.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}西耶娜受了重伤{\r}
+Dialogue: 0,0:06:57.96,0:07:00.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's too week to move.{\r}
+Dialogue: 0,0:06:57.96,0:07:00.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它太虚弱了 无法移动{\r}
+Dialogue: 0,0:07:06.84,0:07:11.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}A lone lion is always at risk of attack by buffalo,{\r}
+Dialogue: 0,0:07:06.84,0:07:11.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}落单的狮子往往面临被攻击的风险{\r}
+Dialogue: 0,0:07:11.52,0:07:15.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}hyenas, even other lion prides.{\r}
+Dialogue: 0,0:07:11.52,0:07:15.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}野牛 鬣狗 甚至其他狮群都可能对它虎视眈眈{\r}
+Dialogue: 0,0:07:45.00,0:07:51.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's evening, and Sienna hasn't returned to her family.{\r}
+Dialogue: 0,0:07:45.00,0:07:51.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}入夜 万籁俱寂 西耶娜还没回来{\r}
+Dialogue: 0,0:07:56.04,0:07:59.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Now, everything depends on Charm.{\r}
+Dialogue: 0,0:07:56.04,0:07:59.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如今一切担子都落到了查姆的肩上{\r}
+Dialogue: 0,0:08:15.76,0:08:21.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}As night falls, Charm has no choice but to head out to hunt,{\r}
+Dialogue: 0,0:08:15.76,0:08:21.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}随着夜幕降临 查姆别无选择 只能外出狩猎{\r}
+Dialogue: 0,0:08:21.20,0:08:23.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}leaving the vulnerable cubs alone.{\r}
+Dialogue: 0,0:08:21.20,0:08:23.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}留下容易受到伤害的幼崽{\r}
+Dialogue: 0,0:08:51.80,0:08:53.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's being trailed.{\r}
+Dialogue: 0,0:08:51.80,0:08:53.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它被跟踪了{\r}
+Dialogue: 0,0:08:56.68,0:08:58.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Hyenas.{\r}
+Dialogue: 0,0:08:56.68,0:08:58.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}鬣狗{\r}
+Dialogue: 0,0:08:59.32,0:09:02.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They'll attack lone lions if they get the chance,{\r}
+Dialogue: 0,0:08:59.32,0:09:02.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一有机会 它们就会攻击落单的狮子{\r}
+Dialogue: 0,0:09:02.68,0:09:04.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to steal any kill they make.{\r}
+Dialogue: 0,0:09:02.68,0:09:04.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}偷走它们的猎物{\r}
+Dialogue: 0,0:09:15.16,0:09:18.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm must work fast before they find her.{\r}
+Dialogue: 0,0:09:15.16,0:09:18.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆必须抢在被它们发现之前 速战速决{\r}
+Dialogue: 0,0:09:40.44,0:09:42.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They've tracked her down.{\r}
+Dialogue: 0,0:09:40.44,0:09:42.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们找到它了{\r}
+Dialogue: 0,0:09:47.72,0:09:50.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}On her own, she couldn't hold them off.{\r}
+Dialogue: 0,0:09:47.72,0:09:50.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}单枪匹马的它难以驱赶这群不速之客{\r}
+Dialogue: 0,0:09:52.12,0:09:54.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But another of the pride has been following Charm.{\r}
+Dialogue: 0,0:09:52.12,0:09:54.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}然而狮群的另一个成员一直尾随查姆{\r}
+Dialogue: 0,0:09:56.00,0:09:58.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Her three-year-old daughter, Yaya.{\r}
+Dialogue: 0,0:09:56.00,0:09:58.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它三岁的女儿雅雅{\r}
+Dialogue: 0,0:10:28.04,0:10:31.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The rest of the pride arrive.{\r}
+Dialogue: 0,0:10:28.04,0:10:31.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮群的其他成员赶到了{\r}
+Dialogue: 0,0:10:31.32,0:10:32.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}To eat.{\r}
+Dialogue: 0,0:10:31.32,0:10:32.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}大快朵颐{\r}
+Dialogue: 0,0:10:36.08,0:10:41.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Yaya has stepped up to help defend the pride and feed her family.{\r}
+Dialogue: 0,0:10:36.08,0:10:41.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雅雅走上前 帮助保护狮群 喂养家族{\r}
+Dialogue: 0,0:10:55.00,0:10:58.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Daughters stay with their mothers for life, and may eventually{\r}
+Dialogue: 0,0:10:55.00,0:10:58.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}女儿与母亲终生相伴 或许{\r}
+Dialogue: 0,0:10:58.88,0:11:00.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}have cubs of their own.{\r}
+Dialogue: 0,0:10:58.88,0:11:00.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最终还会产下自己的幼崽{\r}
+Dialogue: 0,0:11:04.16,0:11:08.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Yaya is not yet an adult, but as Charm's eldest daughter,{\r}
+Dialogue: 0,0:11:04.16,0:11:08.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雅雅还未成年 但是身为查姆最大的女儿{\r}
+Dialogue: 0,0:11:08.44,0:11:11.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}she's next in line to lead the pride.{\r}
+Dialogue: 0,0:11:08.44,0:11:11.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它是狮群下一任的领导者{\r}
+Dialogue: 0,0:11:17.32,0:11:21.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm also has a three-year-old son, Tatu.{\r}
+Dialogue: 0,0:11:17.32,0:11:21.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆还有一个三岁的儿子 塔图{\r}
+Dialogue: 0,0:11:23.28,0:11:26.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The beginnings of an impressive mane are a sign{\r}
+Dialogue: 0,0:11:23.28,0:11:26.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}开始长出威严的鬃毛{\r}
+Dialogue: 0,0:11:26.32,0:11:28.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of his approaching adulthood.{\r}
+Dialogue: 0,0:11:26.32,0:11:28.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}是他接近成年的信号{\r}
+Dialogue: 0,0:11:37.96,0:11:43.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Like every adolescent, Tatu can't resist the chance{\r}
+Dialogue: 0,0:11:37.96,0:11:43.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}和所有青春期的狮子一样 测试日益增强的力量的机会摆在面前{\r}
+Dialogue: 0,0:11:43.20,0:11:45.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to test his growing strength.{\r}
+Dialogue: 0,0:11:43.20,0:11:45.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}塔图难以抵抗{\r}
+Dialogue: 0,0:11:58.56,0:12:01.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Even against a two-tonne hippo.{\r}
+Dialogue: 0,0:11:58.56,0:12:01.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}哪怕对方是两吨重的河马{\r}
+Dialogue: 0,0:12:09.60,0:12:12.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But he's not the only young male in this pride.{\r}
+Dialogue: 0,0:12:09.60,0:12:12.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过在这个狮群里 它不是唯一的年轻雄狮{\r}
+Dialogue: 0,0:12:15.00,0:12:16.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}His cousin, Red.{\r}
+Dialogue: 0,0:12:15.00,0:12:16.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这是它的表弟瑞德{\r}
+Dialogue: 0,0:12:27.88,0:12:30.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Over the last few months, the two of them have begun{\r}
+Dialogue: 0,0:12:27.88,0:12:30.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在过去几个月内 它俩开始{\r}
+Dialogue: 0,0:12:30.92,0:12:32.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to forge an alliance.{\r}
+Dialogue: 0,0:12:30.92,0:12:32.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}结成联盟{\r}
+Dialogue: 0,0:12:36.04,0:12:39.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But even together, they're not really going to worry{\r}
+Dialogue: 0,0:12:36.04,0:12:39.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可是就算联手 一头愤怒的河马{\r}
+Dialogue: 0,0:12:39.36,0:12:40.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}an angry hippo.{\r}
+Dialogue: 0,0:12:39.36,0:12:40.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}也没有把它们放在眼里{\r}
+Dialogue: 0,0:12:47.44,0:12:51.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Unlike their sisters, sons always leave their family{\r}
+Dialogue: 0,0:12:47.44,0:12:51.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}和姐妹们不同 雄狮在成年后{\r}
+Dialogue: 0,0:12:51.24,0:12:53.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}when they reach adulthood.{\r}
+Dialogue: 0,0:12:51.24,0:12:53.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}通常会离开家族{\r}
+Dialogue: 0,0:12:58.64,0:13:03.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their growing bond may enable them to leave as a powerful partnership.{\r}
+Dialogue: 0,0:12:58.64,0:13:03.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}越来越亲密的关系 让它们在离开后组成了强大的搭档{\r}
+Dialogue: 0,0:13:08.16,0:13:12.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Eventually, they'll fight other males to try and take over a pride{\r}
+Dialogue: 0,0:13:08.16,0:13:12.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最终它们将与其他雄狮搏斗{\r}
+Dialogue: 0,0:13:12.56,0:13:13.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of their own.{\r}
+Dialogue: 0,0:13:12.56,0:13:13.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}试图掌管自己的狮群{\r}
+Dialogue: 0,0:13:19.68,0:13:23.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But for the time being, they still need Charm{\r}
+Dialogue: 0,0:13:19.68,0:13:23.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过暂时 它们依然需要{\r}
+Dialogue: 0,0:13:23.12,0:13:24.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to look after them.{\r}
+Dialogue: 0,0:13:23.12,0:13:24.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆的照顾{\r}
+Dialogue: 0,0:13:41.88,0:13:45.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's been four days since Sienna was attacked.{\r}
+Dialogue: 0,0:13:41.88,0:13:45.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}距离西耶娜被攻击已经过去四天了{\r}
+Dialogue: 0,0:13:47.28,0:13:50.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's back on her feet.{\r}
+Dialogue: 0,0:13:47.28,0:13:50.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它虽然再次站了起来{\r}
+Dialogue: 0,0:13:50.24,0:13:52.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But she's in urgent need of a meal.{\r}
+Dialogue: 0,0:13:50.24,0:13:52.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}却急需填饱肚子{\r}
+Dialogue: 0,0:15:10.04,0:15:12.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She simply doesn't have the strength.{\r}
+Dialogue: 0,0:15:10.04,0:15:12.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它已经没有足够的力气{\r}
+Dialogue: 0,0:15:33.32,0:15:37.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}As they mature, young males begin to explore the boundaries{\r}
+Dialogue: 0,0:15:33.32,0:15:37.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}发育成熟后 年轻的雄狮开始探索{\r}
+Dialogue: 0,0:15:37.40,0:15:39.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of the pride's territory.{\r}
+Dialogue: 0,0:15:37.40,0:15:39.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮群领地的边界{\r}
+Dialogue: 0,0:15:44.52,0:15:47.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Red has ventured out alone.{\r}
+Dialogue: 0,0:15:44.52,0:15:47.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}瑞德独自冒险外出{\r}
+Dialogue: 0,0:16:02.00,0:16:06.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And blundered straight into the middle of the hyena clan.{\r}
+Dialogue: 0,0:16:02.00,0:16:06.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}径直闯进了一群鬣狗中间{\r}
+Dialogue: 0,0:16:28.20,0:16:31.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}He's trapped by over 20 of them.{\r}
+Dialogue: 0,0:16:28.20,0:16:31.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它被20多只鬣狗包围了{\r}
+Dialogue: 0,0:16:49.92,0:16:52.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The pack tries to wear him down.{\r}
+Dialogue: 0,0:16:49.92,0:16:52.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}鬣狗试图拖垮它{\r}
+Dialogue: 0,0:16:53.48,0:16:55.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}This number of hyenas could kill him.{\r}
+Dialogue: 0,0:16:53.48,0:16:55.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这么多的鬣狗可以置它于死地{\r}
+Dialogue: 0,0:17:22.08,0:17:25.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's impossible to fight them all at once.{\r}
+Dialogue: 0,0:17:22.08,0:17:25.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它寡不敌众{\r}
+Dialogue: 0,0:17:39.72,0:17:43.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}He can't keep them at bay for much longer.{\r}
+Dialogue: 0,0:17:39.72,0:17:43.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它再也阻止不了它们的进攻{\r}
+Dialogue: 0,0:17:43.16,0:17:44.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}He's tiring fast.{\r}
+Dialogue: 0,0:17:43.16,0:17:44.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它的体力快速减退{\r}
+Dialogue: 0,0:17:54.40,0:17:57.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}His ally, Tatu, has heard the commotion.{\r}
+Dialogue: 0,0:17:54.40,0:17:57.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它的盟友塔图听到了骚乱的声音{\r}
+Dialogue: 0,0:18:18.36,0:18:21.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Now, the odds have changed.{\r}
+Dialogue: 0,0:18:18.36,0:18:21.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这下局势改变了{\r}
+Dialogue: 0,0:18:28.12,0:18:32.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Even for 20 hyenas, a pair of male lions{\r}
+Dialogue: 0,0:18:28.12,0:18:32.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}哪怕对20只鬣狗来说 两头雄狮也太过强大{\r}
+Dialogue: 0,0:18:32.24,0:18:34.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}is too much to take on.{\r}
+Dialogue: 0,0:18:32.24,0:18:34.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}无法拿下{\r}
+Dialogue: 0,0:18:44.68,0:18:46.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Red is lucky.{\r}
+Dialogue: 0,0:18:44.68,0:18:46.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}瑞德是幸运的{\r}
+Dialogue: 0,0:18:54.72,0:18:57.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Tatu has saved his cousin's life.{\r}
+Dialogue: 0,0:18:54.72,0:18:57.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}塔图救了表弟一命{\r}
+Dialogue: 0,0:19:39.40,0:19:45.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}After weeks of feeding on scraps, Sienna has grown strong enough{\r}
+Dialogue: 0,0:19:39.40,0:19:45.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在吃了几周的零星食物之后 西耶娜恢复了足够的体力{\r}
+Dialogue: 0,0:19:45.64,0:19:48.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to try and rejoin her family.{\r}
+Dialogue: 0,0:19:45.64,0:19:48.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}能够返回家族{\r}
+Dialogue: 0,0:20:06.68,0:20:08.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She greets Charm first.{\r}
+Dialogue: 0,0:20:06.68,0:20:08.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它首先和查姆打招呼{\r}
+Dialogue: 0,0:20:11.00,0:20:14.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Even after being apart for so long, the bond between them{\r}
+Dialogue: 0,0:20:11.00,0:20:14.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}即使分离已久 它们之间的感情{\r}
+Dialogue: 0,0:20:14.64,0:20:16.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}is still strong.{\r}
+Dialogue: 0,0:20:14.64,0:20:16.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}依然深厚{\r}
+Dialogue: 0,0:20:36.72,0:20:40.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Yaya also welcomes Sienna back into the pride.{\r}
+Dialogue: 0,0:20:36.72,0:20:40.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雅雅也欢迎西耶娜重返狮群{\r}
+Dialogue: 0,0:21:08.40,0:21:12.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}At last, Charm's family are back together.{\r}
+Dialogue: 0,0:21:08.40,0:21:12.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆的家族最终团聚了{\r}
+Dialogue: 0,0:21:28.08,0:21:31.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm not only has her hunting partner back,{\r}
+Dialogue: 0,0:21:28.08,0:21:31.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}对查姆来说 不仅一个狩猎搭档回归{\r}
+Dialogue: 0,0:21:31.80,0:21:35.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}but another hunter is emerging.{\r}
+Dialogue: 0,0:21:31.80,0:21:35.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}另一个猎手正浮出水面{\r}
+Dialogue: 0,0:21:37.16,0:21:40.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Yaya is becoming a powerful lioness.{\r}
+Dialogue: 0,0:21:37.16,0:21:40.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雅雅逐渐长成一头强大的雌狮{\r}
+Dialogue: 0,0:21:56.32,0:21:58.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's learned how to stalk.{\r}
+Dialogue: 0,0:21:56.32,0:21:58.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它学会了如何跟踪猎物{\r}
+Dialogue: 0,0:22:08.12,0:22:09.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Stay low.{\r}
+Dialogue: 0,0:22:08.12,0:22:09.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}低调{\r}
+Dialogue: 0,0:22:16.52,0:22:18.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Approach silently.{\r}
+Dialogue: 0,0:22:16.52,0:22:18.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}悄声靠近{\r}
+Dialogue: 0,0:22:19.80,0:22:21.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And from downwind.{\r}
+Dialogue: 0,0:22:19.80,0:22:21.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}循着顺风的方向{\r}
+Dialogue: 0,0:22:25.00,0:22:29.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But the key to a successful ambush is not being noticed.{\r}
+Dialogue: 0,0:22:25.00,0:22:29.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过成功伏击的关键在于不被察觉{\r}
+Dialogue: 0,0:22:39.24,0:22:43.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Now it's seen her, the wildebeest, with its sharp horns,{\r}
+Dialogue: 0,0:22:39.24,0:22:43.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这下角马看见它了 角马凭借锋利的角{\r}
+Dialogue: 0,0:22:43.16,0:22:44.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}has the advantage.{\r}
+Dialogue: 0,0:22:43.16,0:22:44.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}占据上风{\r}
+Dialogue: 0,0:23:08.08,0:23:10.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But Yaya is learning.{\r}
+Dialogue: 0,0:23:08.08,0:23:10.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过雅雅正在学习{\r}
+Dialogue: 0,0:23:11.64,0:23:15.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Mother and daughter are starting to develop their partnership.{\r}
+Dialogue: 0,0:23:11.64,0:23:15.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}母亲和女儿开始培养合作关系{\r}
+Dialogue: 0,0:23:38.52,0:23:40.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's October.{\r}
+Dialogue: 0,0:23:38.52,0:23:40.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}10月到了{\r}
+Dialogue: 0,0:23:40.76,0:23:45.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The great wildebeest migration never stops.{\r}
+Dialogue: 0,0:23:40.76,0:23:45.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}角马大迁徙永不停歇{\r}
+Dialogue: 0,0:23:45.16,0:23:48.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And now, they're leaving the Masai Mara.{\r}
+Dialogue: 0,0:23:45.16,0:23:48.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们正离开马赛马拉{\r}
+Dialogue: 0,0:24:09.60,0:24:12.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}For Charm and her family, food is about to become{\r}
+Dialogue: 0,0:24:09.60,0:24:12.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}对查姆和家族来说 觅食的难度{\r}
+Dialogue: 0,0:24:12.80,0:24:15.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}much more difficult to find.{\r}
+Dialogue: 0,0:24:12.80,0:24:15.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}即将大大增加{\r}
+Dialogue: 0,0:24:51.80,0:24:53.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The plains are now empty.{\r}
+Dialogue: 0,0:24:51.80,0:24:53.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如今的平原空空荡荡{\r}
+Dialogue: 0,0:24:53.92,0:24:55.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And, in search of food,{\r}
+Dialogue: 0,0:24:53.92,0:24:55.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}为了寻找食物{\r}
+Dialogue: 0,0:24:55.96,0:24:59.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm leads the pride to the edge of their range.{\r}
+Dialogue: 0,0:24:55.96,0:24:59.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆带领狮群去往它们活动范围的边缘{\r}
+Dialogue: 0,0:25:02.80,0:25:05.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Here, she finds another kind of prey.{\r}
+Dialogue: 0,0:25:02.80,0:25:05.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它在这里发现了另一种猎物{\r}
+Dialogue: 0,0:25:09.20,0:25:13.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Cattle, illegally brought into the lions' territory to graze.{\r}
+Dialogue: 0,0:25:09.20,0:25:13.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}牛群 被非法赶到狮子领地吃草{\r}
+Dialogue: 0,0:25:17.20,0:25:20.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}An opportunity to feed her hungry family.{\r}
+Dialogue: 0,0:25:17.20,0:25:20.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}喂饱饥肠辘辘的家族的好机会{\r}
+Dialogue: 0,0:25:24.48,0:25:27.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But hunting cattle can lead to disaster.{\r}
+Dialogue: 0,0:25:24.48,0:25:27.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}然而狩猎牛群可能导致灾难{\r}
+Dialogue: 0,0:25:36.32,0:25:38.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}To protect their livestock,{\r}
+Dialogue: 0,0:25:36.32,0:25:38.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}为了保护牲畜{\r}
+Dialogue: 0,0:25:38.52,0:25:41.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}herdsmen sometimes put out poisoned bait.{\r}
+Dialogue: 0,0:25:38.52,0:25:41.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}放牧者有时候会放出有毒的诱饵{\r}
+Dialogue: 0,0:25:58.40,0:26:01.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions can't tell when a meal is toxic.{\r}
+Dialogue: 0,0:25:58.40,0:26:01.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子分辨不出有毒的食物{\r}
+Dialogue: 0,0:26:03.88,0:26:09.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}A week later, Charm's one-year-old son is so ill he can hardly stand.{\r}
+Dialogue: 0,0:26:03.88,0:26:09.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一周后 查姆一岁的儿子病入膏肓 几乎无法站立{\r}
+Dialogue: 0,0:26:18.56,0:26:22.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The whole pride are showing the signs of poisoning.{\r}
+Dialogue: 0,0:26:18.56,0:26:22.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}整个狮群都出现了中毒的迹象{\r}
+Dialogue: 0,0:26:24.76,0:26:27.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And Sienna is missing once again.{\r}
+Dialogue: 0,0:26:24.76,0:26:27.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}西耶娜再次失踪了{\r}
+Dialogue: 0,0:26:34.00,0:26:38.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}As the temperature climbs, the pride heads off to find shade.{\r}
+Dialogue: 0,0:26:34.00,0:26:38.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}随着气温升高 狮群出发寻找阴凉{\r}
+Dialogue: 0,0:26:40.20,0:26:43.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But the struggling cub is too weak to follow.{\r}
+Dialogue: 0,0:26:40.20,0:26:43.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可是这头挣扎的幼崽太虚弱 无法跟随大部队{\r}
+Dialogue: 0,0:26:56.28,0:27:00.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm needs to stay with the rest of the pride.{\r}
+Dialogue: 0,0:26:56.28,0:27:00.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆必须与狮群剩下的成员待在一起{\r}
+Dialogue: 0,0:27:33.00,0:27:37.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Hours later, the cub still hasn't caught up with his mother.{\r}
+Dialogue: 0,0:27:33.00,0:27:37.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}数小时后 幼崽依然赶不上它的母亲{\r}
+Dialogue: 0,0:27:41.48,0:27:44.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And there's no sign of Sienna, either.{\r}
+Dialogue: 0,0:27:41.48,0:27:44.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}也没有西耶娜的踪影{\r}
+Dialogue: 0,0:28:19.08,0:28:23.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The next day, Charm returns to her son's side.{\r}
+Dialogue: 0,0:28:19.08,0:28:23.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}第二天 查姆回到儿子身边{\r}
+Dialogue: 0,0:28:43.16,0:28:45.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}He's still very unsteady.{\r}
+Dialogue: 0,0:28:43.16,0:28:45.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它的情况依旧很不稳定{\r}
+Dialogue: 0,0:28:55.04,0:28:59.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But his mother can't abandon the rest of the pride.{\r}
+Dialogue: 0,0:28:55.04,0:28:59.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}但是母亲不能抛下剩下的狮群成员{\r}
+Dialogue: 0,0:30:11.52,0:30:17.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}For the sake of the pride, Charm abandons her young cub.{\r}
+Dialogue: 0,0:30:11.52,0:30:17.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}为了狮群 查姆抛下了年幼的儿子{\r}
+Dialogue: 0,0:30:38.08,0:30:40.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The others are waiting for her.{\r}
+Dialogue: 0,0:30:38.08,0:30:40.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}其他狮子等待着它{\r}
+Dialogue: 0,0:30:47.52,0:30:50.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They need her now more than ever.{\r}
+Dialogue: 0,0:30:47.52,0:30:50.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}此时的它们比任何时候都更需要它{\r}
+Dialogue: 0,0:31:25.44,0:31:30.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She will never see her son, or Sienna, alive again.{\r}
+Dialogue: 0,0:31:25.44,0:31:30.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它再也看不到自己的儿子 还有西耶娜活着了{\r}
+Dialogue: 0,0:31:56.28,0:32:00.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Despite her losses, there may still be a future{\r}
+Dialogue: 0,0:31:56.28,0:32:00.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}尽管尝到了失去的痛苦{\r}
+Dialogue: 0,0:32:00.40,0:32:02.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for Charm and her dynasty.{\r}
+Dialogue: 0,0:32:00.40,0:32:02.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆和它的王朝或许还有未来{\r}
+Dialogue: 0,0:32:05.44,0:32:10.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Her eldest cubs, Yaya and Tatu, have survived the poisoning.{\r}
+Dialogue: 0,0:32:05.44,0:32:10.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它年纪最大的幼崽 雅雅和塔图挺过了中毒的难关{\r}
+Dialogue: 0,0:32:40.76,0:32:45.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm keeps the pride moving in a constant search for prey.{\r}
+Dialogue: 0,0:32:40.76,0:32:45.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆带领狮群前行 不断寻找猎物{\r}
+Dialogue: 0,0:33:04.12,0:33:08.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Catching enough food is hard, even with Yaya's help.{\r}
+Dialogue: 0,0:33:04.12,0:33:08.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}哪怕在雅雅的帮助下 捕捉足够的食物也并非易事{\r}
+Dialogue: 0,0:33:19.28,0:33:21.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But Charm is relentless.{\r}
+Dialogue: 0,0:33:19.28,0:33:21.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}然而查姆毫不松懈{\r}
+Dialogue: 0,0:33:38.36,0:33:42.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The younger members of the pride try to follow her example.{\r}
+Dialogue: 0,0:33:38.36,0:33:42.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}更年轻的狮群成员以它为榜样{\r}
+Dialogue: 0,0:34:00.20,0:34:03.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Even with little to hunt and the constant harassment{\r}
+Dialogue: 0,0:34:00.20,0:34:03.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}尽管可以狩猎的对象少之又少 加上鬣狗的{\r}
+Dialogue: 0,0:34:03.28,0:34:07.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of hyenas, Charm's skill and experience as a leader{\r}
+Dialogue: 0,0:34:03.28,0:34:07.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不断骚扰 查姆身为领导者的能力与经验{\r}
+Dialogue: 0,0:34:07.72,0:34:09.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}is keeping the pride alive.{\r}
+Dialogue: 0,0:34:07.72,0:34:09.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}依然保持狮群活下去{\r}
+Dialogue: 0,0:34:19.48,0:34:23.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}A few weeks later, her efforts begin to be rewarded.{\r}
+Dialogue: 0,0:34:19.48,0:34:23.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}几周后 它的努力得到了回报{\r}
+Dialogue: 0,0:34:28.76,0:34:32.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Tatu and Red are now over four years old,{\r}
+Dialogue: 0,0:34:28.76,0:34:32.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如今塔图和瑞德四岁多了{\r}
+Dialogue: 0,0:34:32.52,0:34:36.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}ready to take the final step to adulthood.{\r}
+Dialogue: 0,0:34:32.52,0:34:36.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}准备迈出最后一步 跨入成年的大门{\r}
+Dialogue: 0,0:34:42.56,0:34:45.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's time for them to leave the pride.{\r}
+Dialogue: 0,0:34:42.56,0:34:45.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}到了它们离开狮群的时候了{\r}
+Dialogue: 0,0:35:07.92,0:35:11.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}For Charm, this is success.{\r}
+Dialogue: 0,0:35:07.92,0:35:11.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}对查姆而言 这是成功{\r}
+Dialogue: 0,0:35:14.04,0:35:19.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They head out as a partnership, to battle other males,{\r}
+Dialogue: 0,0:35:14.04,0:35:19.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}成为搭档的它们渐行渐远 去和其他雄狮争斗{\r}
+Dialogue: 0,0:35:19.24,0:35:22.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to win a pride of their own,{\r}
+Dialogue: 0,0:35:19.24,0:35:22.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}赢得自己的狮群{\r}
+Dialogue: 0,0:35:22.96,0:35:26.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and continue the family's bloodline elsewhere.{\r}
+Dialogue: 0,0:35:22.96,0:35:26.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在别处延续家族的血统{\r}
+Dialogue: 0,0:35:31.40,0:35:35.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But Charm still needs to get the remaining four female cubs{\r}
+Dialogue: 0,0:35:31.40,0:35:35.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}但是查姆依然需要抚养剩下的四头年幼雌狮{\r}
+Dialogue: 0,0:35:35.84,0:35:37.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}safely to adulthood.{\r}
+Dialogue: 0,0:35:35.84,0:35:37.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}直至它们平安长大{\r}
+Dialogue: 0,0:36:01.40,0:36:04.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}One early morning in May...{\r}
+Dialogue: 0,0:36:01.40,0:36:04.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}5月的一个清晨{\r}
+Dialogue: 0,0:36:04.84,0:36:08.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}..the roar of adult male lions.{\r}
+Dialogue: 0,0:36:04.84,0:36:08.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}成年雄狮在吼叫{\r}
+Dialogue: 0,0:36:16.20,0:36:21.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Two new males, outsiders, are searching for a pride{\r}
+Dialogue: 0,0:36:16.20,0:36:21.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}两头新出现的雄狮 外来者 正在寻找狮群{\r}
+Dialogue: 0,0:36:21.64,0:36:23.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to take over as their own.{\r}
+Dialogue: 0,0:36:21.64,0:36:23.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}试图将其占为己有{\r}
+Dialogue: 0,0:36:38.64,0:36:41.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}New males could bring the possibility{\r}
+Dialogue: 0,0:36:38.64,0:36:41.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}新雄狮可以带来{\r}
+Dialogue: 0,0:36:41.24,0:36:43.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of a new generation of cubs.{\r}
+Dialogue: 0,0:36:41.24,0:36:43.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}新一代幼崽的可能性{\r}
+Dialogue: 0,0:36:57.52,0:37:02.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But they could just as easily bring disaster.{\r}
+Dialogue: 0,0:36:57.52,0:37:02.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}但是它们也可以轻易地带来灾难{\r}
+Dialogue: 0,0:37:18.40,0:37:22.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Soon, the new males begin to impose their authority{\r}
+Dialogue: 0,0:37:18.40,0:37:22.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}很快 新雄狮开始对玛莎狮群{\r}
+Dialogue: 0,0:37:22.52,0:37:24.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}on the Marsh pride.{\r}
+Dialogue: 0,0:37:22.52,0:37:24.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}施加权威{\r}
+Dialogue: 0,0:37:26.32,0:37:29.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm's youngest daughter is still too young to breed.{\r}
+Dialogue: 0,0:37:26.32,0:37:29.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆最小的女儿还太年轻 无法繁殖{\r}
+Dialogue: 0,0:37:32.56,0:37:35.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}To the males, she's nothing more than another mouth{\r}
+Dialogue: 0,0:37:32.56,0:37:35.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在雄狮眼里 它不过是需要分享食物的{\r}
+Dialogue: 0,0:37:35.68,0:37:37.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to share food with.{\r}
+Dialogue: 0,0:37:35.68,0:37:37.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}另一张嘴{\r}
+Dialogue: 0,0:37:41.64,0:37:44.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They don't want her in their pride.{\r}
+Dialogue: 0,0:37:41.64,0:37:44.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们不希望它加入自己的狮群{\r}
+Dialogue: 0,0:37:56.04,0:38:00.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Try as she might, Charm struggles to defend her daughter.{\r}
+Dialogue: 0,0:37:56.04,0:38:00.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆竭尽全力 挣扎着保护女儿{\r}
+Dialogue: 0,0:38:06.48,0:38:09.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Even she is no match for an adult male.{\r}
+Dialogue: 0,0:38:06.48,0:38:09.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}哪怕它并不是一头成年雄狮的对手{\r}
+Dialogue: 0,0:38:13.36,0:38:16.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm tries distracting them,{\r}
+Dialogue: 0,0:38:13.36,0:38:16.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆横亘在它们与幼崽之间{\r}
+Dialogue: 0,0:38:16.20,0:38:19.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}putting herself between them and her cub.{\r}
+Dialogue: 0,0:38:16.20,0:38:19.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}试图引开雄狮的注意{\r}
+Dialogue: 0,0:38:24.08,0:38:25.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But it's no good.{\r}
+Dialogue: 0,0:38:24.08,0:38:25.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可是没用{\r}
+Dialogue: 0,0:38:32.80,0:38:36.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}If her daughter stays, the males will eventually kill her.{\r}
+Dialogue: 0,0:38:32.80,0:38:36.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如果它的女儿留在原地 雄狮最终会要了它的命{\r}
+Dialogue: 0,0:38:46.84,0:38:49.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The cub has no choice but to leave.{\r}
+Dialogue: 0,0:38:46.84,0:38:49.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}幼崽别无选择 只能离开{\r}
+Dialogue: 0,0:38:58.92,0:39:01.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And the males don't stop there.{\r}
+Dialogue: 0,0:38:58.92,0:39:01.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雄狮并未就此停止{\r}
+Dialogue: 0,0:39:03.72,0:39:06.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Every young cub is driven out.{\r}
+Dialogue: 0,0:39:03.72,0:39:06.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}幼崽统统被赶走{\r}
+Dialogue: 0,0:39:15.00,0:39:17.16,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their future is uncertain.{\r}
+Dialogue: 0,0:39:15.00,0:39:17.16,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们的未来是个未知数{\r}
+Dialogue: 0,0:39:21.56,0:39:24.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}There's nothing Charm can do.{\r}
+Dialogue: 0,0:39:21.56,0:39:24.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆无能为力{\r}
+Dialogue: 0,0:39:33.60,0:39:38.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Eight months ago, Charm's pride numbered ten lions.{\r}
+Dialogue: 0,0:39:33.60,0:39:38.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}八个月后 查姆的狮群达到了十头狮子{\r}
+Dialogue: 0,0:39:40.64,0:39:44.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Of them, only she and Yaya now remain.{\r}
+Dialogue: 0,0:39:40.64,0:39:44.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}其中留下来的只有它和雅雅{\r}
+Dialogue: 0,0:40:30.32,0:40:35.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The return of the wildebeest signals the end, at last,{\r}
+Dialogue: 0,0:40:30.32,0:40:35.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}角马的回归 宣告着艰难的时光{\r}
+Dialogue: 0,0:40:35.44,0:40:37.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of the hard times.{\r}
+Dialogue: 0,0:40:35.44,0:40:37.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}终于结束了{\r}
+Dialogue: 0,0:40:50.68,0:40:53.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Time for a new beginning.{\r}
+Dialogue: 0,0:40:50.68,0:40:53.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}新的帷幕拉开了{\r}
+Dialogue: 0,0:41:05.16,0:41:10.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm is starting the process of rebuilding the Marsh pride.{\r}
+Dialogue: 0,0:41:05.16,0:41:10.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆开始着手重建玛莎狮群的大业{\r}
+Dialogue: 0,0:41:17.84,0:41:21.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She and one of the males have separated themselves{\r}
+Dialogue: 0,0:41:17.84,0:41:21.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它和一头雄狮远离其他成员{\r}
+Dialogue: 0,0:41:21.60,0:41:23.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}from the rest of the group.{\r}
+Dialogue: 0,0:41:21.60,0:41:23.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}享受二人世界{\r}
+Dialogue: 0,0:41:29.12,0:41:33.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Females are only able to conceive once every few months.{\r}
+Dialogue: 0,0:41:29.12,0:41:33.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}每隔几个月 雌狮才能怀孕一次{\r}
+Dialogue: 0,0:41:36.40,0:41:40.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}For those crucial days, the male won't leave her side.{\r}
+Dialogue: 0,0:41:36.40,0:41:40.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在那些关键的日子里 雄狮守在它身边{\r}
+Dialogue: 0,0:42:05.88,0:42:10.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm stays close to him to strengthen their bond.{\r}
+Dialogue: 0,0:42:05.88,0:42:10.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆对它寸步不离 增进感情{\r}
+Dialogue: 0,0:42:14.88,0:42:19.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}If the male isn't certain any future cubs are his,{\r}
+Dialogue: 0,0:42:14.88,0:42:19.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如果雄狮不确定幼崽是否是自己的{\r}
+Dialogue: 0,0:42:19.52,0:42:21.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}he will probably kill them.{\r}
+Dialogue: 0,0:42:19.52,0:42:21.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它可能会下杀手{\r}
+Dialogue: 0,0:42:44.60,0:42:46.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Four months later.{\r}
+Dialogue: 0,0:42:44.60,0:42:46.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}四个月后{\r}
+Dialogue: 0,0:42:57.00,0:43:01.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm is alone, away from the pride.{\r}
+Dialogue: 0,0:42:57.00,0:43:01.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆形单影只 远离狮群{\r}
+Dialogue: 0,0:43:08.92,0:43:13.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Over the last 14 months, her dynasty has faced ruin.{\r}
+Dialogue: 0,0:43:08.92,0:43:13.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在过去的14个月中 它的王朝面临毁灭{\r}
+Dialogue: 0,0:43:27.24,0:43:31.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But now, there is new hope.{\r}
+Dialogue: 0,0:43:27.24,0:43:31.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可是如今 出现了新的希望{\r}
+Dialogue: 0,0:43:50.48,0:43:52.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Just two weeks old.{\r}
+Dialogue: 0,0:43:50.48,0:43:52.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这只才两周大{\r}
+Dialogue: 0,0:43:56.24,0:43:59.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm gave birth away from the others.{\r}
+Dialogue: 0,0:43:56.24,0:43:59.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆离开狮群 生下幼崽{\r}
+Dialogue: 0,0:43:59.60,0:44:04.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Inquisitive and clumsy lions could be a threat to the newborns.{\r}
+Dialogue: 0,0:43:59.60,0:44:04.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}好奇而笨拙的狮子 可能对新生儿构成威胁{\r}
+Dialogue: 0,0:44:07.64,0:44:11.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But her two cubs are still extremely vulnerable.{\r}
+Dialogue: 0,0:44:07.64,0:44:11.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过它的两头幼崽依然相当娇弱{\r}
+Dialogue: 0,0:44:15.28,0:44:19.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Buffaloes seek out lion cubs and will kill them{\r}
+Dialogue: 0,0:44:15.28,0:44:19.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}野牛四处寻找幼狮 一有机会{\r}
+Dialogue: 0,0:44:19.08,0:44:20.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}if they get the chance.{\r}
+Dialogue: 0,0:44:19.08,0:44:20.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}就会杀了它们{\r}
+Dialogue: 0,0:44:25.56,0:44:28.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She shields them with her body.{\r}
+Dialogue: 0,0:44:25.56,0:44:28.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它用身体挡住它们{\r}
+Dialogue: 0,0:44:33.52,0:44:36.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Without her to protect them, the buffalo will trample{\r}
+Dialogue: 0,0:44:33.52,0:44:36.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}没有它的保护 野牛会把幼崽{\r}
+Dialogue: 0,0:44:36.40,0:44:37.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}them to death.{\r}
+Dialogue: 0,0:44:36.40,0:44:37.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}踩死{\r}
+Dialogue: 0,0:45:11.24,0:45:15.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm has forced the entire herd to back down.{\r}
+Dialogue: 0,0:45:11.24,0:45:15.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆逼迫整个牛群撤退{\r}
+Dialogue: 0,0:45:39.92,0:45:43.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Life is always dangerous for lion cubs.{\r}
+Dialogue: 0,0:45:39.92,0:45:43.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}对幼狮来说 生活充满了危险{\r}
+Dialogue: 0,0:45:43.68,0:45:48.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But these two have an experienced mother to look after them.{\r}
+Dialogue: 0,0:45:43.68,0:45:48.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过这两个小家伙的妈妈经验丰富 能够照顾它们{\r}
+Dialogue: 0,0:45:53.00,0:45:57.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}At last, Charm's pride is increasing again.{\r}
+Dialogue: 0,0:45:53.00,0:45:57.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最终 查姆的狮群再次扩大{\r}
+Dialogue: 0,0:46:42.64,0:46:45.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}One male and one female.{\r}
+Dialogue: 0,0:46:42.64,0:46:45.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}新添了一头雄狮和一头雌狮{\r}
+Dialogue: 0,0:46:50.12,0:46:54.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And these cubs may soon be joined by more.{\r}
+Dialogue: 0,0:46:50.12,0:46:54.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}很快会有更多的幼崽加入{\r}
+Dialogue: 0,0:47:10.36,0:47:14.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Yaya has paired off with the other adult male.{\r}
+Dialogue: 0,0:47:10.36,0:47:14.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}雅雅与另一头成年雄狮结伴离开了{\r}
+Dialogue: 0,0:47:22.08,0:47:25.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Soon, she too will have cubs.{\r}
+Dialogue: 0,0:47:22.08,0:47:25.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它很快也将诞下幼崽{\r}
+Dialogue: 0,0:47:25.88,0:47:27.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm's grandchildren.{\r}
+Dialogue: 0,0:47:25.88,0:47:27.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆的外孙{\r}
+Dialogue: 0,0:47:53.20,0:47:58.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm is taking her cubs to meet the rest of the Marsh pride{\r}
+Dialogue: 0,0:47:53.20,0:47:58.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆带着幼崽 与玛莎狮群的其他成员{\r}
+Dialogue: 0,0:47:58.28,0:47:59.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for the first time.{\r}
+Dialogue: 0,0:47:58.28,0:47:59.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}第一次会合{\r}
+Dialogue: 0,0:48:05.40,0:48:09.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Once their father has accepted the cubs, he'll defend them{\r}
+Dialogue: 0,0:48:05.40,0:48:09.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一旦幼崽的父亲接受了它们 它就会和它们的母亲一样{\r}
+Dialogue: 0,0:48:09.00,0:48:11.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}as fiercely as their mother.{\r}
+Dialogue: 0,0:48:09.00,0:48:11.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}拼命地保护它们{\r}
+Dialogue: 0,0:48:21.12,0:48:24.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They are the future of his dynasty, too.{\r}
+Dialogue: 0,0:48:21.12,0:48:24.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们也是它的王朝的未来{\r}
+Dialogue: 0,0:48:31.68,0:48:35.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm has been away from the pride since giving birth,{\r}
+Dialogue: 0,0:48:31.68,0:48:35.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}自从产子以来 查姆一直远离狮群{\r}
+Dialogue: 0,0:48:35.44,0:48:37.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and hasn't seen Yaya for weeks.{\r}
+Dialogue: 0,0:48:35.44,0:48:37.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}数周没有见过雅雅{\r}
+Dialogue: 0,0:48:43.16,0:48:47.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Their bond has held through perhaps the hardest times{\r}
+Dialogue: 0,0:48:43.16,0:48:47.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在狮群历史上最艰难的日子里{\r}
+Dialogue: 0,0:48:47.88,0:48:50.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}in the pride's history.{\r}
+Dialogue: 0,0:48:47.88,0:48:50.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们情比金坚{\r}
+Dialogue: 0,0:48:56.44,0:49:00.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}With her daughter pregnant and her son looking for a pride{\r}
+Dialogue: 0,0:48:56.44,0:49:00.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}女儿怀孕 儿子寻找自己的狮群{\r}
+Dialogue: 0,0:49:00.12,0:49:05.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of his own, Charm's dynasty and the Marsh pride will live on.{\r}
+Dialogue: 0,0:49:00.12,0:49:05.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆的王朝 玛莎狮群得以延续{\r}
+Dialogue: 0,0:49:09.32,0:49:13.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}This extraordinary lioness has succeeded.{\r}
+Dialogue: 0,0:49:09.32,0:49:13.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这头非凡的雌狮成功了{\r}
+Dialogue: 0,0:49:22.87,0:49:26.97,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs22\bord0\shad2\4a&H80&\2c&H000000&}王朝 幕后纪实{\r}
+Dialogue: 0,0:49:28.92,0:49:31.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}To follow the story of Charm and her family,{\r}
+Dialogue: 0,0:49:28.92,0:49:31.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}为了追踪查姆和它的家族的故事{\r}
+Dialogue: 0,0:49:31.56,0:49:34.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}the Dynasties team travelled to the Masai Mara,{\r}
+Dialogue: 0,0:49:31.56,0:49:34.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}王朝摄制组来到马赛马拉{\r}
+Dialogue: 0,0:49:34.64,0:49:37.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}one of these big cats' last strongholds.{\r}
+Dialogue: 0,0:49:34.64,0:49:37.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这些大型猫科动物最后的生存地之一{\r}
+Dialogue: 0,0:49:38.72,0:49:42.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The crew's aim is to immerse themselves in the lives{\r}
+Dialogue: 0,0:49:38.72,0:49:42.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}摄制组的目的是通过400多天的{\r}
+Dialogue: 0,0:49:42.04,0:49:45.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}of these powerful predators, following them closely{\r}
+Dialogue: 0,0:49:42.04,0:49:45.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}近距离跟踪 潜心记录这些{\r}
+Dialogue: 0,0:49:45.40,0:49:48.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for over 400 days.{\r}
+Dialogue: 0,0:49:45.40,0:49:48.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}强大的食肉动物的生活{\r}
+Dialogue: 0,0:49:48.08,0:49:52.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But first, they need to master the tricky task of identifying{\r}
+Dialogue: 0,0:49:48.08,0:49:52.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不过首先他们需要完成一项棘手的任务{\r}
+Dialogue: 0,0:49:52.88,0:49:54.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}each individual lion.{\r}
+Dialogue: 0,0:49:52.88,0:49:54.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}那就是辨认出每头狮子{\r}
+Dialogue: 0,0:49:56.20,0:49:59.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Every lion has its own unique set of whisker spots,{\r}
+Dialogue: 0,0:49:56.20,0:49:59.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}每头狮子都有一套独特的胡须点{\r}
+Dialogue: 0,0:49:59.36,0:50:04.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and put that together with coat colour, ear notches, nose colour,{\r}
+Dialogue: 0,0:49:59.36,0:50:04.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}加上毛色 耳朵切口 鼻子颜色{\r}
+Dialogue: 0,0:50:04.84,0:50:08.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}you can pretty much identify that lion.{\r}
+Dialogue: 0,0:50:04.84,0:50:08.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}完全可以辨认出那头狮子{\r}
+Dialogue: 0,0:50:08.44,0:50:12.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It would be really great if we could stick moustaches on them and glasses{\r}
+Dialogue: 0,0:50:08.44,0:50:12.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}要是我们能给它们粘上胡须 戴上墨镜和帽子{\r}
+Dialogue: 0,0:50:12.32,0:50:15.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and hats, because that would make it a lot easier for everybody{\r}
+Dialogue: 0,0:50:12.32,0:50:15.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}那就太好了 因为这样一来 大家就更容易{\r}
+Dialogue: 0,0:50:15.08,0:50:16.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to understand who they were!{\r}
+Dialogue: 0,0:50:15.08,0:50:16.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}辨认它们是谁了{\r}
+Dialogue: 0,0:50:21.20,0:50:24.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}After weeks of following the family for 12 hours a day,{\r}
+Dialogue: 0,0:50:21.20,0:50:24.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}摄制组每天工作12小时 跟踪家族数周后{\r}
+Dialogue: 0,0:50:24.72,0:50:26.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}they're getting to know the lions.{\r}
+Dialogue: 0,0:50:24.72,0:50:26.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}他们越来越了解狮子{\r}
+Dialogue: 0,0:50:30.24,0:50:33.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And the lions, it seems, are getting to know them, too.{\r}
+Dialogue: 0,0:50:30.24,0:50:33.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}看起来狮子也越来越了解他们{\r}
+Dialogue: 0,0:50:42.64,0:50:44.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Well done.{\r}
+Dialogue: 0,0:50:42.64,0:50:44.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}干得好{\r}
+Dialogue: 0,0:50:44.00,0:50:45.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It was the closest I've ever been.{\r}
+Dialogue: 0,0:50:44.00,0:50:45.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我第一次和狮子靠这么近{\r}
+Dialogue: 0,0:50:45.64,0:50:48.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She had her chin over the door. Yeah!{\r}
+Dialogue: 0,0:50:45.64,0:50:48.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它把下巴伸进了车门{\r}
+Dialogue: 0,0:50:48.52,0:50:51.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}I mean, my feet are within two feet of her.{\r}
+Dialogue: 0,0:50:48.52,0:50:51.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我的脚离它只有不到60厘米{\r}
+Dialogue: 0,0:50:53.00,0:50:54.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's big when she's that close.{\r}
+Dialogue: 0,0:50:53.00,0:50:54.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}那么近的距离 它显得好大{\r}
+Dialogue: 0,0:50:56.20,0:50:59.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Before long, it becomes clear that each lion{\r}
+Dialogue: 0,0:50:56.20,0:50:59.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}不久之后 大家都清楚了 每头狮子{\r}
+Dialogue: 0,0:50:59.40,0:51:01.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}has its own particular character.{\r}
+Dialogue: 0,0:50:59.40,0:51:01.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}都有自己独一无二的特点{\r}
+Dialogue: 0,0:51:04.00,0:51:06.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}On a long project like this, there's a real luxury,{\r}
+Dialogue: 0,0:51:04.00,0:51:06.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}像这样的长期项目有一大好处{\r}
+Dialogue: 0,0:51:06.88,0:51:10.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and the luxury is you get to know the individuals.{\r}
+Dialogue: 0,0:51:06.88,0:51:10.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}好处就是你能了解每个个体{\r}
+Dialogue: 0,0:51:10.20,0:51:12.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They are different to each other.{\r}
+Dialogue: 0,0:51:10.20,0:51:12.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们各有不同{\r}
+Dialogue: 0,0:51:12.08,0:51:13.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Some sit and follow, others watch.{\r}
+Dialogue: 0,0:51:12.08,0:51:13.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}有的坐着跟随 其他观察{\r}
+Dialogue: 0,0:51:13.84,0:51:16.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Some are into everything, some are funny,{\r}
+Dialogue: 0,0:51:13.84,0:51:16.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}有的对一切都很好奇 有的很可笑{\r}
+Dialogue: 0,0:51:16.44,0:51:18.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}some are really stupid, in a way.{\r}
+Dialogue: 0,0:51:16.44,0:51:18.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}有的还真的有点蠢{\r}
+Dialogue: 0,0:51:18.72,0:51:20.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}I mean, you can see the rest of the pride kind of rolling{\r}
+Dialogue: 0,0:51:18.72,0:51:20.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}你能看到当另一头雄狮加入后 又一次捕猎失手{\r}
+Dialogue: 0,0:51:20.96,0:51:25.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}their eyes as yet another male comes in and blows another hunt.{\r}
+Dialogue: 0,0:51:20.96,0:51:25.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮群的其他成员那有点鄙夷的眼神{\r}
+Dialogue: 0,0:51:32.28,0:51:33.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}You begin to care for them.{\r}
+Dialogue: 0,0:51:32.28,0:51:33.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}你开始关心它们{\r}
+Dialogue: 0,0:51:33.72,0:51:35.92,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}You can't help it.{\r}
+Dialogue: 0,0:51:33.72,0:51:35.92,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}你忍不住{\r}
+Dialogue: 0,0:51:35.92,0:51:38.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Charm, she is what a lion should be.{\r}
+Dialogue: 0,0:51:35.92,0:51:38.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}查姆拥有一头狮子应该拥有的一切{\r}
+Dialogue: 0,0:51:38.40,0:51:41.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's a provider, she's a mother, she looks after cubs{\r}
+Dialogue: 0,0:51:38.40,0:51:41.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它供养狮群 它是母亲 它照顾别人的幼崽{\r}
+Dialogue: 0,0:51:41.88,0:51:44.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}that aren't her own, she's the matriarch.{\r}
+Dialogue: 0,0:51:41.88,0:51:44.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它是女族长{\r}
+Dialogue: 0,0:51:44.08,0:51:46.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's the... She's the dame.{\r}
+Dialogue: 0,0:51:44.08,0:51:46.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它是女王{\r}
+Dialogue: 0,0:51:52.68,0:51:55.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The crew's attachment to the lions is what makes{\r}
+Dialogue: 0,0:51:52.68,0:51:55.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}摄制组对狮子的感情令接下来的事情{\r}
+Dialogue: 0,0:51:55.68,0:51:58.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}what happens next so hard to deal with.{\r}
+Dialogue: 0,0:51:55.68,0:51:58.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}变得难以接受{\r}
+Dialogue: 0,0:52:03.68,0:52:07.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Poisoning is one of the biggest threats lions face{\r}
+Dialogue: 0,0:52:03.68,0:52:07.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}中毒是如今非洲的狮子面临的{\r}
+Dialogue: 0,0:52:07.52,0:52:09.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}across Africa today.{\r}
+Dialogue: 0,0:52:07.52,0:52:09.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最大威胁之一{\r}
+Dialogue: 0,0:52:21.44,0:52:22.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It can...{\r}
+Dialogue: 0,0:52:21.44,0:52:22.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如果{\r}
+Dialogue: 0,0:52:22.80,0:52:26.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It becomes very close to home when it's animals that you know{\r}
+Dialogue: 0,0:52:22.80,0:52:26.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}中毒的是你非常熟悉的动物{\r}
+Dialogue: 0,0:52:26.28,0:52:27.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}so well, individuals.{\r}
+Dialogue: 0,0:52:26.28,0:52:27.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}是我们那么了解的个体{\r}
+Dialogue: 0,0:52:27.64,0:52:29.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}We know them really well now.{\r}
+Dialogue: 0,0:52:27.64,0:52:29.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们真的感到了切肤之痛{\r}
+Dialogue: 0,0:52:29.84,0:52:31.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's, um, much more...{\r}
+Dialogue: 0,0:52:29.84,0:52:31.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}加倍的痛{\r}
+Dialogue: 0,0:52:32.88,0:52:35.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Erm, you feel it much more.{\r}
+Dialogue: 0,0:52:32.88,0:52:35.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}感受更加强烈{\r}
+Dialogue: 0,0:52:39.80,0:52:44.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Soon after the pride leave him, emergency wildlife vets arrive{\r}
+Dialogue: 0,0:52:39.80,0:52:44.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮群离去不久之后 紧急野生动物兽医就抵达了{\r}
+Dialogue: 0,0:52:44.00,0:52:46.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}to try and save Charm's youngest son.{\r}
+Dialogue: 0,0:52:44.00,0:52:46.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}试图拯救查姆最小的儿子{\r}
+Dialogue: 0,0:52:50.32,0:52:53.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But the poison has no simple antidote.{\r}
+Dialogue: 0,0:52:50.32,0:52:53.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}可是没有简单的解毒药{\r}
+Dialogue: 0,0:52:58.36,0:53:01.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The vets try to ease the symptoms.{\r}
+Dialogue: 0,0:52:58.36,0:53:01.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}兽医试图缓解症状{\r}
+Dialogue: 0,0:53:01.00,0:53:05.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}All they and the crew can do now is wait in the hope he can recover{\r}
+Dialogue: 0,0:53:01.00,0:53:05.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}如今全摄制组只能等待 希望它能康复{\r}
+Dialogue: 0,0:53:05.36,0:53:07.08,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and return to the pride.{\r}
+Dialogue: 0,0:53:05.36,0:53:07.08,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}返回兽群{\r}
+Dialogue: 0,0:53:09.52,0:53:15.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Eventually, it becomes clear nothing more can be done for him.{\r}
+Dialogue: 0,0:53:09.52,0:53:15.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}最终大家都明白了 对它无能为力{\r}
+Dialogue: 0,0:53:15.28,0:53:18.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}This animal is in a very bad condition, a critical condition,{\r}
+Dialogue: 0,0:53:15.28,0:53:18.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这头狮子的情况相当糟糕 危在旦夕{\r}
+Dialogue: 0,0:53:18.84,0:53:23.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and we think it's not going to make it.{\r}
+Dialogue: 0,0:53:18.84,0:53:23.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们觉得它凶多吉少{\r}
+Dialogue: 0,0:53:23.04,0:53:27.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Across Africa, the need for teams like these is on the rise,{\r}
+Dialogue: 0,0:53:23.04,0:53:27.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在非洲 对这种小组的需求日渐增加{\r}
+Dialogue: 0,0:53:27.36,0:53:30.88,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}treating wildlife after encounters with man.{\r}
+Dialogue: 0,0:53:27.36,0:53:30.88,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在野生动物与人类相遇之后 对它们进行治疗{\r}
+Dialogue: 0,0:53:32.36,0:53:34.48,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's just entirely wrong, isn't it?{\r}
+Dialogue: 0,0:53:32.36,0:53:34.48,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这简直大错特错 不是吗{\r}
+Dialogue: 0,0:53:34.48,0:53:35.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions are so endangered.{\r}
+Dialogue: 0,0:53:34.48,0:53:35.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子濒临灭绝{\r}
+Dialogue: 0,0:53:35.60,0:53:37.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}There are hardly any of them, really.{\r}
+Dialogue: 0,0:53:35.60,0:53:37.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}数量稀少{\r}
+Dialogue: 0,0:53:37.72,0:53:39.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}This is one of the best places in the world.{\r}
+Dialogue: 0,0:53:37.72,0:53:39.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这是全世界最好的地方之一{\r}
+Dialogue: 0,0:53:39.96,0:53:43.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They're disappearing so quickly, and then this happens to them.{\r}
+Dialogue: 0,0:53:39.96,0:53:43.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们消失得非常快 然后发生了这种事{\r}
+Dialogue: 0,0:53:45.40,0:53:48.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Because of pressure on the land, of people.{\r}
+Dialogue: 0,0:53:45.40,0:53:48.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}因为土地压力 到处都是人{\r}
+Dialogue: 0,0:53:50.44,0:53:53.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Conflict between humans and lions is increasing{\r}
+Dialogue: 0,0:53:50.44,0:53:53.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在这片大陆上 人类与狮子之间的冲突{\r}
+Dialogue: 0,0:53:53.36,0:53:55.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}throughout the continent.{\r}
+Dialogue: 0,0:53:53.36,0:53:55.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}与日俱增{\r}
+Dialogue: 0,0:53:55.52,0:54:00.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Dr Shivani Bhalla is a Kenyan conservationist who has been working{\r}
+Dialogue: 0,0:53:55.52,0:54:00.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}西瓦利巴娜博士是肯尼亚自然资源保护者{\r}
+Dialogue: 0,0:54:00.12,0:54:04.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}with lions and local communities for over a decade.{\r}
+Dialogue: 0,0:54:00.12,0:54:04.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在过去十多年间 她一直与狮子和当地社区打交道{\r}
+Dialogue: 0,0:54:04.04,0:54:08.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}So many people are surprised to hear that there's only about 20,000 lions{\r}
+Dialogue: 0,0:54:04.04,0:54:08.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}当听到非洲仅存大约两万头狮子 很多人{\r}
+Dialogue: 0,0:54:08.56,0:54:09.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}left in Africa.{\r}
+Dialogue: 0,0:54:08.56,0:54:09.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}都非常惊讶{\r}
+Dialogue: 0,0:54:09.68,0:54:12.60,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}There's less than 2,000 lions left in Kenya.{\r}
+Dialogue: 0,0:54:09.68,0:54:12.60,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在肯尼亚 狮子的数量不足两千头{\r}
+Dialogue: 0,0:54:12.60,0:54:14.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They are disappearing so quickly.{\r}
+Dialogue: 0,0:54:12.60,0:54:14.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它们消失的速度相当快{\r}
+Dialogue: 0,0:54:17.08,0:54:19.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions don't have enough food and they don't have enough space,{\r}
+Dialogue: 0,0:54:17.08,0:54:19.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子得不到充足的食物 得不到充足的空间{\r}
+Dialogue: 0,0:54:19.96,0:54:22.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}but communities also don't have enough grazing{\r}
+Dialogue: 0,0:54:19.96,0:54:22.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}同时 社区也缺少足够的草原{\r}
+Dialogue: 0,0:54:22.64,0:54:23.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}for their livestock.{\r}
+Dialogue: 0,0:54:22.64,0:54:23.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}放牧牲畜{\r}
+Dialogue: 0,0:54:23.84,0:54:25.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}They also don't have enough space.{\r}
+Dialogue: 0,0:54:23.84,0:54:25.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}他们也得不到充足的空间{\r}
+Dialogue: 0,0:54:25.72,0:54:28.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}We've got to try and understand both sides of the picture.{\r}
+Dialogue: 0,0:54:25.72,0:54:28.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们试图理解双方的情况{\r}
+Dialogue: 0,0:54:28.68,0:54:32.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Coexistence between people and lions is possible.{\r}
+Dialogue: 0,0:54:28.68,0:54:32.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}人类与狮子共存是可能的{\r}
+Dialogue: 0,0:54:32.04,0:54:34.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Our strategy has been working with warriors,{\r}
+Dialogue: 0,0:54:32.04,0:54:34.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们的策略是 让勇士{\r}
+Dialogue: 0,0:54:34.52,0:54:38.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}women, children, to really bring them on board and engage them{\r}
+Dialogue: 0,0:54:34.52,0:54:38.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}女人 孩子加入到保护狮子的队伍中来{\r}
+Dialogue: 0,0:54:38.32,0:54:41.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}in lion conservation, because they're the ones herding{\r}
+Dialogue: 0,0:54:38.32,0:54:41.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}因为每天放牧的人是他们{\r}
+Dialogue: 0,0:54:41.36,0:54:44.36,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}livestock every day, they're the ones coming into contact{\r}
+Dialogue: 0,0:54:41.36,0:54:44.36,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}每天与野生动物接触的人{\r}
+Dialogue: 0,0:54:44.36,0:54:45.96,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}with wildlife every day.{\r}
+Dialogue: 0,0:54:44.36,0:54:45.96,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}是他们{\r}
+Dialogue: 0,0:54:47.72,0:54:52.04,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Community programmes have shown that lions can actually recover{\r}
+Dialogue: 0,0:54:47.72,0:54:52.04,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}社区计划表明 在狮子曾经生活{\r}
+Dialogue: 0,0:54:52.04,0:54:55.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}in areas where they used to be once, but then their numbers{\r}
+Dialogue: 0,0:54:52.04,0:54:55.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}后来因为被杀 数量减少的地区{\r}
+Dialogue: 0,0:54:55.24,0:54:57.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}declined because they were being killed.{\r}
+Dialogue: 0,0:54:55.24,0:54:57.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子有复原的力量{\r}
+Dialogue: 0,0:55:01.12,0:55:05.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And Sophie and John witness that power of recovery{\r}
+Dialogue: 0,0:55:01.12,0:55:05.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}在这里 在查姆身上 索菲和约翰{\r}
+Dialogue: 0,0:55:05.24,0:55:07.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}first-hand, here with Charm.{\r}
+Dialogue: 0,0:55:05.24,0:55:07.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}亲眼见证了恢复的力量{\r}
+Dialogue: 0,0:55:11.56,0:55:13.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Well, that's that, I think.{\r}
+Dialogue: 0,0:55:11.56,0:55:13.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}就是那里 我觉得{\r}
+Dialogue: 0,0:55:13.00,0:55:14.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Today's the day.{\r}
+Dialogue: 0,0:55:13.00,0:55:14.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}就是今天{\r}
+Dialogue: 0,0:55:14.28,0:55:18.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's gone in there now to have her cubs,{\r}
+Dialogue: 0,0:55:14.28,0:55:18.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它现在进去产子{\r}
+Dialogue: 0,0:55:18.32,0:55:21.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}which is quite exciting, really.{\r}
+Dialogue: 0,0:55:18.32,0:55:21.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}太令人激动了{\r}
+Dialogue: 0,0:55:21.20,0:55:23.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}We're kind of living it with her, really, aren't we?{\r}
+Dialogue: 0,0:55:21.20,0:55:23.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们现在算是和它一起生活了 不是吗{\r}
+Dialogue: 0,0:55:23.68,0:55:25.40,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}It's about sharing that experience.{\r}
+Dialogue: 0,0:55:23.68,0:55:25.40,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}关键在于分享这段经历{\r}
+Dialogue: 0,0:55:25.40,0:55:28.32,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}That's the whole point. That's why we're making the film.{\r}
+Dialogue: 0,0:55:25.40,0:55:28.32,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这是重点 也是我们拍摄的原因{\r}
+Dialogue: 0,0:55:34.76,0:55:40.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Over a year ago, the team set out to find a lion{\r}
+Dialogue: 0,0:55:34.76,0:55:40.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一年多前 摄制组找到一头狮子{\r}
+Dialogue: 0,0:55:40.24,0:55:42.12,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}and to tell its story.{\r}
+Dialogue: 0,0:55:40.24,0:55:42.12,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}讲述它的故事{\r}
+Dialogue: 0,0:55:42.12,0:55:47.00,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And here we are, over a year later, and just there,{\r}
+Dialogue: 0,0:55:42.12,0:55:47.00,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一年多后 我们来到这里 就在那边{\r}
+Dialogue: 0,0:55:47.00,0:55:51.76,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}where the camera's pointing, we've got Charm and two little cubs.{\r}
+Dialogue: 0,0:55:47.00,0:55:51.76,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}摄影机面对的地方 我们拍到了查姆和两头幼崽{\r}
+Dialogue: 0,0:55:53.72,0:55:56.44,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's had such a hard, hard year.{\r}
+Dialogue: 0,0:55:53.72,0:55:56.44,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它这一年的日子很不好过{\r}
+Dialogue: 0,0:55:57.60,0:56:01.80,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}I don't think any of us could've predicted a happier, better way.{\r}
+Dialogue: 0,0:55:57.60,0:56:01.80,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们谁都想不出更快乐更美好的方式{\r}
+Dialogue: 0,0:56:01.80,0:56:03.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's the most amazing lion.{\r}
+Dialogue: 0,0:56:01.80,0:56:03.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}它是最神奇的狮子{\r}
+Dialogue: 0,0:56:03.64,0:56:05.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}She's just incredible.{\r}
+Dialogue: 0,0:56:03.64,0:56:05.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}简直不可思议{\r}
+Dialogue: 0,0:56:05.28,0:56:09.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}And... It's the perfect ending, really.{\r}
+Dialogue: 0,0:56:05.28,0:56:09.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}这真是完美的结局{\r}
+Dialogue: 0,0:56:13.48,0:56:15.72,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Lions are incredibly resilient.{\r}
+Dialogue: 0,0:56:13.48,0:56:15.72,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子的适应能力惊人{\r}
+Dialogue: 0,0:56:15.72,0:56:20.84,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Given space, enough food and security, they can bounce back.{\r}
+Dialogue: 0,0:56:15.72,0:56:20.84,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}只要给予空间 足够的食物与安全 它们就能再次崛起{\r}
+Dialogue: 0,0:56:22.04,0:56:26.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}The challenges facing lion conservationists are formidable.{\r}
+Dialogue: 0,0:56:22.04,0:56:26.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}狮子保护区面临严峻的挑战{\r}
+Dialogue: 0,0:56:26.64,0:56:29.68,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Indeed, unbelievable though it may sound,{\r}
+Dialogue: 0,0:56:26.64,0:56:29.68,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}虽然听起来难以置信{\r}
+Dialogue: 0,0:56:29.68,0:56:35.28,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}there is a real possibility that, before long, lions in the wild{\r}
+Dialogue: 0,0:56:29.68,0:56:35.28,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}但是在不远的将来 世界上的狮子有可能{\r}
+Dialogue: 0,0:56:35.28,0:56:37.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}could disappear entirely.{\r}
+Dialogue: 0,0:56:35.28,0:56:37.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}彻底消失{\r}
+Dialogue: 0,0:56:38.76,0:56:42.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}But if conservationists and the people who have to live{\r}
+Dialogue: 0,0:56:38.76,0:56:42.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}假如自然资源保护者 以及必须和这些狩猎的大型野兽{\r}
+Dialogue: 0,0:56:42.64,0:56:47.52,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}alongside these great beasts of prey can work together,{\r}
+Dialogue: 0,0:56:42.64,0:56:47.52,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}共同生活的人们能携手努力{\r}
+Dialogue: 0,0:56:47.52,0:56:50.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}there is still a chance to save them.{\r}
+Dialogue: 0,0:56:47.52,0:56:50.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}我们依然有机会拯救它们{\r}
+Dialogue: 0,0:57:02.12,0:57:07.24,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Next time - one of the last great families of painted wolves.{\r}
+Dialogue: 0,0:57:02.12,0:57:07.24,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}下集请观看 世上仅存的非洲野犬大家族之一{\r}
+Dialogue: 0,0:57:09.20,0:57:11.56,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}An intense rivalry.{\r}
+Dialogue: 0,0:57:09.20,0:57:11.56,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}一场激烈的斗争{\r}
+Dialogue: 0,0:57:11.56,0:57:16.20,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Mother against daughter, each striving to rule.{\r}
+Dialogue: 0,0:57:11.56,0:57:16.20,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}母女反目 各自都想维系统治{\r}
+Dialogue: 0,0:57:16.20,0:57:20.64,Default,,0000,0000,0000,,{\fnMicrosoft Sans Serif\fs12\bord0\shad2\4a&H80&\1c&HCFBA28&\2c&H000000&}Who will triumph, and can they bring peace to these lands?{\r}
+Dialogue: 0,0:57:16.20,0:57:20.64,Default,,0000,0000,0000,,{\fnNoto Sans S Chinese Medium\fs20\bord0\shad2\4a&H80&\2c&H000000&}谁能胜出 并给这片土地带来和平呢？{\r}
+
+

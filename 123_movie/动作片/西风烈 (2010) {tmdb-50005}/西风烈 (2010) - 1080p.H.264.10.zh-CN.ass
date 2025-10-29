@@ -1,0 +1,658 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:59.28,0:04:00.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}累了 搭个车
+Dialogue: 0,0:04:02.08,0:04:03.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}去哪儿
+Dialogue: 0,0:04:03.24,0:04:04.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}敦煌
+Dialogue: 0,0:04:04.88,0:04:05.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}就你一个人
+Dialogue: 0,0:04:06.08,0:04:08.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}哪有这样的人呀 你见过这样的人吗
+Dialogue: 0,0:04:08.72,0:04:10.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}几个大男人 就把我一个女孩这样扔路边了
+Dialogue: 0,0:04:11.08,0:04:12.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我都走了这么远了 一个人也没看见
+Dialogue: 0,0:04:12.92,0:04:14.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不就因为一句玩笑话吗 至于的吗
+Dialogue: 0,0:05:10.04,0:05:10.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}下来
+Dialogue: 0,0:05:11.72,0:05:12.86,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}说你呢 下来
+Dialogue: 0,0:05:20.36,0:05:21.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}过来 过来
+Dialogue: 0,0:05:23.92,0:05:25.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你脑子是不是有问题啊
+Dialogue: 0,0:05:26.04,0:05:27.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}耍什么呢这是
+Dialogue: 0,0:05:27.52,0:05:30.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}真把自己当成周杰伦了是不是
+Dialogue: 0,0:05:30.20,0:05:32.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么着 不服是吧
+Dialogue: 0,0:05:33.84,0:05:35.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我弄死你
+Dialogue: 0,0:06:07.44,0:06:08.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走了
+Dialogue: 0,0:06:15.92,0:06:17.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你 你干嘛又打我
+Dialogue: 0,0:06:17.96,0:06:19.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}手拿下去 腿放下
+Dialogue: 0,0:06:21.60,0:06:22.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干啥去了
+Dialogue: 0,0:06:22.96,0:06:24.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那姑娘怪可怜的 给她送过去呀
+Dialogue: 0,0:06:25.12,0:06:26.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}掏钱
+Dialogue: 0,0:06:26.28,0:06:27.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}凭什么呀
+Dialogue: 0,0:06:27.48,0:06:28.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你干啥去我还不知道
+Dialogue: 0,0:06:28.68,0:06:29.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}掏油钱 磨损费
+Dialogue: 0,0:06:44.44,0:06:45.58,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}知道了
+Dialogue: 0,0:06:48.36,0:06:50.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静和张宁接上头了
+Dialogue: 0,0:06:50.48,0:06:51.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}在什么地方
+Dialogue: 0,0:06:51.72,0:06:53.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}离矿点五公里的地方 牦牛盯着
+Dialogue: 0,0:08:15.12,0:08:17.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这就是马步芳的那个土匪窝子吧
+Dialogue: 0,0:08:17.40,0:08:18.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对
+Dialogue: 0,0:08:18.44,0:08:20.82,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}马步芳的骑兵五军在这儿藏过半年
+Dialogue: 0,0:08:21.00,0:08:22.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}一九五一年被解放军剿灭了
+Dialogue: 0,0:15:12.88,0:15:13.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}上
+Dialogue: 0,0:15:27.20,0:15:30.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你 你 你们是 是什么人
+Dialogue: 0,0:15:39.80,0:15:43.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是杨大哥托 托人带带过来的
+Dialogue: 0,0:16:58.80,0:17:03.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}人生就是一个惊喜接着一个惊喜
+Dialogue: 0,0:17:09.60,0:17:12.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我除了杀了个人 我可什么坏事都没干过
+Dialogue: 0,0:17:12.76,0:17:13.90,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你还想干啥坏事
+Dialogue: 0,0:17:14.08,0:17:15.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}为什么杀他
+Dialogue: 0,0:17:15.20,0:17:17.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}除了钱 还能为什么呀
+Dialogue: 0,0:17:17.44,0:17:19.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你在深圳打黑拳不挺挣钱的吗
+Dialogue: 0,0:17:20.24,0:17:22.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那不叫挣钱
+Dialogue: 0,0:17:23.08,0:17:24.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那叫拿命换钱
+Dialogue: 0,0:17:24.80,0:17:26.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不知道杀人犯法
+Dialogue: 0,0:17:26.44,0:17:29.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我拿命换来的钱让人给骗了
+Dialogue: 0,0:17:29.48,0:17:30.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}谁骗的
+Dialogue: 0,0:17:30.84,0:17:32.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我的老乡啊
+Dialogue: 0,0:17:32.48,0:17:34.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}说帮我去办一个什么化妆品厂
+Dialogue: 0,0:17:34.80,0:17:36.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}能挂香港牌子
+Dialogue: 0,0:17:37.64,0:17:39.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}拿了钱就找不着人了
+Dialogue: 0,0:17:39.24,0:17:40.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}堂堂体育学院毕业
+Dialogue: 0,0:17:41.20,0:17:42.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}还拿过省里冠军
+Dialogue: 0,0:17:43.60,0:17:45.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不好好找个工作 干啥老打黑拳
+Dialogue: 0,0:17:46.00,0:17:48.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我也想好好找个工作呀
+Dialogue: 0,0:17:48.28,0:17:51.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我也想在省体工大队当个教练啊
+Dialogue: 0,0:17:52.00,0:17:53.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}最后还不是让人给顶了
+Dialogue: 0,0:17:53.60,0:17:54.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你杀人还有理了
+Dialogue: 0,0:17:55.08,0:17:58.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我有什么理呀
+Dialogue: 0,0:17:58.44,0:17:59.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}坐下
+Dialogue: 0,0:17:59.48,0:18:00.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}行行行
+Dialogue: 0,0:18:01.60,0:18:02.58,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何
+Dialogue: 0,0:18:10.56,0:18:13.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们是不是 特别想知道是谁指使我干的
+Dialogue: 0,0:18:13.84,0:18:14.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对
+Dialogue: 0,0:18:14.96,0:18:16.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}接受任务的时候
+Dialogue: 0,0:18:17.16,0:18:19.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我把那人的照片给拍了
+Dialogue: 0,0:18:22.20,0:18:23.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}只要你们把孙静放了
+Dialogue: 0,0:18:24.80,0:18:25.94,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我就什么都交代
+Dialogue: 0,0:18:26.32,0:18:27.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁
+Dialogue: 0,0:18:29.08,0:18:32.62,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}自从去年5月20号 你在香港杀人潜逃后
+Dialogue: 0,0:18:33.12,0:18:35.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}先在广西你一个同学那里
+Dialogue: 0,0:18:35.44,0:18:37.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}住了一个月零八天
+Dialogue: 0,0:18:40.00,0:18:41.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}然后又回到湖南永州老家
+Dialogue: 0,0:18:42.20,0:18:44.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}在你姑姑家里住了三个月
+Dialogue: 0,0:18:47.76,0:18:50.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}然后在你女朋友协助下 又来到这儿
+Dialogue: 0,0:18:50.96,0:18:52.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}找她舅舅打工
+Dialogue: 0,0:18:54.80,0:18:56.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你的逃亡路线关系人
+Dialogue: 0,0:18:56.88,0:18:58.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我们都掌握得清清楚楚
+Dialogue: 0,0:19:01.92,0:19:04.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}按照那啥 法律规定
+Dialogue: 0,0:19:05.88,0:19:07.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这些协助过你的人
+Dialogue: 0,0:19:07.36,0:19:09.66,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}都涉嫌构成了 包庇罪
+Dialogue: 0,0:19:09.84,0:19:11.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们俩谁官大
+Dialogue: 0,0:19:11.48,0:19:12.62,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}他 他
+Dialogue: 0,0:19:15.04,0:19:16.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}羊馆走了
+Dialogue: 0,0:19:45.60,0:19:47.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们怎么到这儿来的
+Dialogue: 0,0:19:57.08,0:20:00.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}从明天起做一个幸福的人
+Dialogue: 0,0:20:01.16,0:20:04.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}喂马劈柴周游世界
+Dialogue: 0,0:20:05.56,0:20:09.18,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}从明天起关心根食和蔬菜
+Dialogue: 0,0:20:09.36,0:20:11.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我有一所房子
+Dialogue: 0,0:20:11.72,0:20:14.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}面朝大海 春暖花开
+Dialogue: 0,0:20:15.84,0:20:17.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这哪儿有海呀
+Dialogue: 0,0:20:19.12,0:20:22.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大漠就是我们心目中的海
+Dialogue: 0,0:20:23.04,0:20:26.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我们己经漂泊很久了
+Dialogue: 0,0:20:26.76,0:20:28.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}想找个落处
+Dialogue: 0,0:20:30.72,0:20:34.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走到这儿都累了 决定停下来
+Dialogue: 0,0:20:35.04,0:20:37.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}远离红尘喧嚣
+Dialogue: 0,0:20:38.08,0:20:40.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放牧狩猎种植
+Dialogue: 0,0:20:41.08,0:20:42.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}生一大堆娃
+Dialogue: 0,0:20:42.60,0:20:43.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}终此一生
+Dialogue: 0,0:20:53.60,0:20:54.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我去过哈瓦那
+Dialogue: 0,0:20:55.76,0:20:58.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}阿根廷冰岛非洲
+Dialogue: 0,0:20:59.76,0:21:01.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}在美国的亚利桑那
+Dialogue: 0,0:21:02.52,0:21:03.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}找到了我的归宿
+Dialogue: 0,0:21:05.44,0:21:07.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}后来我们俩就到这儿了
+Dialogue: 0,0:21:40.12,0:21:44.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}维也纳冰岛非洲
+Dialogue: 0,0:21:45.56,0:21:47.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我全都去过
+Dialogue: 0,0:21:48.92,0:21:51.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}但是我是去杀人
+Dialogue: 0,0:21:53.32,0:21:54.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}羡慕你们哪
+Dialogue: 0,0:22:08.00,0:22:09.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我去把奶茶带上
+Dialogue: 0,0:22:39.32,0:22:41.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁你干啥去了
+Dialogue: 0,0:22:42.60,0:22:43.82,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你带这么多人做啥
+Dialogue: 0,0:22:44.00,0:22:46.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}俺都要撤了 你赶紧收拾东西咱走了
+Dialogue: 0,0:22:47.96,0:22:50.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}静静你咋到这儿来了
+Dialogue: 0,0:22:50.80,0:22:53.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁被警察抓了 他们是警察
+Dialogue: 0,0:22:55.20,0:22:56.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}警察
+Dialogue: 0,0:23:12.08,0:23:13.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁啥时到你这里的
+Dialogue: 0,0:23:13.64,0:23:15.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}去年冬天
+Dialogue: 0,0:23:15.44,0:23:18.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}俺这伙人 每年从开春到十月份
+Dialogue: 0,0:23:18.92,0:23:20.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}就在这儿开工呢
+Dialogue: 0,0:23:20.48,0:23:22.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}平常时间都回城里休息
+Dialogue: 0,0:23:22.64,0:23:24.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}最近看没看见张宁藏过啥东西
+Dialogue: 0,0:23:26.56,0:23:29.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你看 我这矿上这么多工人
+Dialogue: 0,0:23:29.52,0:23:31.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我咋可能光注意他呢嘛
+Dialogue: 0,0:24:20.08,0:24:22.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀杀手
+Dialogue: 0,0:24:22.28,0:24:23.42,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}什么杀手
+Dialogue: 0,0:24:23.60,0:24:25.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}混口饭吃
+Dialogue: 0,0:24:25.24,0:24:26.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}队长
+Dialogue: 0,0:24:27.16,0:24:28.22,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}队长
+Dialogue: 0,0:24:29.76,0:24:30.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}队长
+Dialogue: 0,0:24:37.16,0:24:38.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我没干什么
+Dialogue: 0,0:24:39.40,0:24:40.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么了
+Dialogue: 0,0:24:40.76,0:24:42.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我要求跟孙静单独待一会儿
+Dialogue: 0,0:24:43.04,0:24:44.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这不是做梦吗
+Dialogue: 0,0:24:46.88,0:24:49.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}羊馆出去
+Dialogue: 0,0:25:05.32,0:25:06.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}豹子
+Dialogue: 0,0:25:07.64,0:25:09.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}能不能叫我大侠呀
+Dialogue: 0,0:25:09.56,0:25:12.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别叫羊馆了怪土的
+Dialogue: 0,0:25:13.80,0:25:15.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大侠 大侠
+Dialogue: 0,0:25:20.92,0:25:23.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}豹子己经答应我叫大侠了啊
+Dialogue: 0,0:25:23.44,0:25:25.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}以后不许再叫我羊馆了
+Dialogue: 0,0:25:25.52,0:25:26.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒还没答应呢
+Dialogue: 0,0:25:26.96,0:25:29.26,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}完了事这儿还不是藏獒说了算
+Dialogue: 0,0:25:30.16,0:25:32.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}答不答应我都叫大侠了
+Dialogue: 0,0:25:32.28,0:25:33.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大蛤蟆
+Dialogue: 0,0:25:44.16,0:25:46.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}让小俩口住帐篷
+Dialogue: 0,0:25:46.28,0:25:49.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}把手铐给他们打开 我看着
+Dialogue: 0,0:25:53.72,0:25:55.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}省厅和基层就是不一样
+Dialogue: 0,0:25:56.40,0:25:57.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}湖南和这里也不一样
+Dialogue: 0,0:26:06.04,0:26:08.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何实在是对不起
+Dialogue: 0,0:26:08.56,0:26:09.54,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}啥对不起
+Dialogue: 0,0:26:10.28,0:26:12.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}晓明的警籍还没解决
+Dialogue: 0,0:26:12.40,0:26:14.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}他现在还是一个辅警
+Dialogue: 0,0:26:14.32,0:26:15.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那是他自己不争气
+Dialogue: 0,0:26:19.80,0:26:20.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我这次走
+Dialogue: 0,0:26:21.00,0:26:22.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}一定找省厅把这事解决了
+Dialogue: 0,0:26:26.60,0:26:28.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}有你这话 我先替羊馆谢谢你
+Dialogue: 0,0:26:29.12,0:26:31.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这事省厅说了不算
+Dialogue: 0,0:26:31.20,0:26:32.34,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}省人事厅说了算
+Dialogue: 0,0:26:39.32,0:26:40.54,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}说说案子吧
+Dialogue: 0,0:26:40.84,0:26:42.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这个案子很复杂
+Dialogue: 0,0:26:43.12,0:26:45.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}香港警方追踪了一年才破
+Dialogue: 0,0:26:45.60,0:26:47.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你不觉得我们破得太简单了
+Dialogue: 0,0:26:47.52,0:26:48.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}简单
+Dialogue: 0,0:26:49.96,0:26:53.50,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}简单是因为 因为我们的判断情报都准确
+Dialogue: 0,0:26:53.92,0:26:55.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}尤其是你们配合得力
+Dialogue: 0,0:26:56.16,0:26:58.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}咋又分起你我来了
+Dialogue: 0,0:26:58.32,0:26:59.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我们不是一家的
+Dialogue: 0,0:26:59.72,0:27:02.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你刚才都把我 已经放在那湖南省那边去了
+Dialogue: 0,0:27:02.68,0:27:04.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}追逃组是你在的时候建立起来的
+Dialogue: 0,0:27:05.12,0:27:07.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}四大名捕也是你在的时候叫起来的
+Dialogue: 0,0:27:07.56,0:27:09.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}但但现在你是组长 你是领导啊
+Dialogue: 0,0:27:09.72,0:27:10.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们全家都是领导
+Dialogue: 0,0:27:23.16,0:27:24.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对不起
+Dialogue: 0,0:27:31.04,0:27:32.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你有什么可对不起的呀
+Dialogue: 0,0:27:34.60,0:27:36.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这事跟你没关系
+Dialogue: 0,0:27:36.36,0:27:37.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}都是我自己选的
+Dialogue: 0,0:27:39.00,0:27:40.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大不了就是一死嘛
+Dialogue: 0,0:27:40.80,0:27:42.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}反正我就是喜欢你
+Dialogue: 0,0:27:42.96,0:27:44.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你让我挣钱去证明 我就证明嘛
+Dialogue: 0,0:27:45.00,0:27:46.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你是为了我去杀人吗
+Dialogue: 0,0:27:48.08,0:27:49.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不是
+Dialogue: 0,0:27:51.16,0:27:53.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你是为了我去打黑拳
+Dialogue: 0,0:27:53.76,0:27:55.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}打黑拳赚的钱被人家骗了
+Dialogue: 0,0:27:56.92,0:27:59.38,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}所以你跑去当杀手赚钱
+Dialogue: 0,0:28:01.32,0:28:03.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}目的就是要证明给我看
+Dialogue: 0,0:28:03.72,0:28:05.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你不是个废物
+Dialogue: 0,0:28:05.56,0:28:07.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你也是个可以赚钱的人
+Dialogue: 0,0:28:09.52,0:28:11.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这还不都是我害的吗
+Dialogue: 0,0:28:11.52,0:28:12.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,0:28:12.64,0:28:14.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我只是开玩笑啊
+Dialogue: 0,0:28:14.64,0:28:16.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我从来都不开玩笑
+Dialogue: 0,0:28:16.32,0:28:18.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我喜欢开玩笑 你是知道的
+Dialogue: 0,0:28:19.32,0:28:20.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你这个笨蛋
+Dialogue: 0,0:28:20.60,0:28:21.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}行了 孙静
+Dialogue: 0,0:28:21.60,0:28:23.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你听我一句劝
+Dialogue: 0,0:28:24.56,0:28:25.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}把孩子打了吧
+Dialogue: 0,0:28:28.40,0:28:30.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不可能的 孙静
+Dialogue: 0,0:28:31.40,0:28:32.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}必须给我打了
+Dialogue: 0,0:28:34.72,0:28:36.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是我活着最后一件事
+Dialogue: 0,0:28:36.92,0:28:38.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我不想让孩子生到世上
+Dialogue: 0,0:28:41.12,0:28:42.26,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你明白吗
+Dialogue: 0,0:28:46.32,0:28:47.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你明白吗
+Dialogue: 0,0:28:49.76,0:28:50.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}懂吗
+Dialogue: 0,0:31:24.60,0:31:27.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何 三点钟方向有埋伏
+Dialogue: 0,0:32:19.72,0:32:21.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我和牦牛压住 羊馆冲出去
+Dialogue: 0,0:32:22.16,0:32:23.14,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}保护帐篷
+Dialogue: 0,0:32:35.20,0:32:37.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干啥呢 打兔子呢
+Dialogue: 0,0:35:39.96,0:35:42.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒 我把顶子掀开 咱们冲出去
+Dialogue: 0,0:36:40.24,0:36:41.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没事别怕
+Dialogue: 0,0:38:32.24,0:38:33.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别慌
+Dialogue: 0,0:38:38.24,0:38:39.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走
+Dialogue: 0,0:39:38.32,0:39:40.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁 上马
+Dialogue: 0,0:39:40.96,0:39:41.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}上来
+Dialogue: 0,0:39:42.96,0:39:44.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}要不然我打死她
+Dialogue: 0,0:39:51.20,0:39:52.18,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别过来
+Dialogue: 0,0:39:55.60,0:39:56.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}过来我就开枪了
+Dialogue: 0,0:41:07.60,0:41:08.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}铐起来
+Dialogue: 0,0:41:16.20,0:41:17.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这到底是什么人哪
+Dialogue: 0,0:41:19.00,0:41:20.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手
+Dialogue: 0,0:41:20.88,0:41:22.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}什么 杀手
+Dialogue: 0,0:41:22.24,0:41:23.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}受过特种训练的杀手
+Dialogue: 0,0:41:24.72,0:41:26.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这回麻烦大了
+Dialogue: 0,0:41:28.80,0:41:29.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}幼稚
+Dialogue: 0,0:41:35.76,0:41:37.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对方是有备而来
+Dialogue: 0,0:41:38.04,0:41:39.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}肯定有卫星定位
+Dialogue: 0,0:41:39.24,0:41:40.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}否则不会对我们了如指掌
+Dialogue: 0,0:41:41.16,0:41:43.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何 把这里地形介绍一下
+Dialogue: 0,0:41:43.52,0:41:45.82,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}从这儿向南五十公里是流沙地
+Dialogue: 0,0:41:47.32,0:41:49.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}向东一公里是沙漠戈壁
+Dialogue: 0,0:41:50.36,0:41:52.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}向北二百二十三公里是中蒙边境
+Dialogue: 0,0:41:53.96,0:41:55.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手来历不明
+Dialogue: 0,0:41:55.76,0:41:57.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}目的是抢人 不是杀人
+Dialogue: 0,0:41:58.36,0:42:01.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}最重要的是必须把张宁活着送上法庭
+Dialogue: 0,0:42:02.60,0:42:04.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我和牦牛去追杀手
+Dialogue: 0,0:42:04.28,0:42:06.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何对方是职业杀手
+Dialogue: 0,0:42:06.36,0:42:07.58,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我是职业警察
+Dialogue: 0,0:43:16.92,0:43:18.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么开的 羊馆
+Dialogue: 0,0:43:21.56,0:43:22.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}慢点
+Dialogue: 0,0:43:27.36,0:43:28.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没事吧
+Dialogue: 0,0:43:30.32,0:43:31.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}羊馆
+Dialogue: 0,0:43:34.08,0:43:35.14,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}抓紧了
+Dialogue: 0,0:43:37.00,0:43:37.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}停车
+Dialogue: 0,0:43:39.00,0:43:39.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}停车
+Dialogue: 0,0:43:40.92,0:43:41.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}停车
+Dialogue: 0,0:43:43.40,0:43:44.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你停车
+Dialogue: 0,0:43:55.44,0:43:56.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}滚下来 我开
+Dialogue: 0,0:43:59.76,0:44:02.32,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}叫我大侠 别再叫我羊馆
+Dialogue: 0,0:44:03.52,0:44:04.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}叫什么不是别人叫出来的
+Dialogue: 0,0:44:06.68,0:44:08.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}向西
+Dialogue: 0,0:44:08.64,0:44:11.02,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}自打你来到我们这儿就没有安生过
+Dialogue: 0,0:44:11.20,0:44:12.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我哥是怎么死的
+Dialogue: 0,0:44:12.68,0:44:14.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}还不是被你想立功害死的
+Dialogue: 0,0:44:14.80,0:44:17.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你回去升职了 我哥呢
+Dialogue: 0,0:44:18.00,0:44:20.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是 你把功劳都让给他了
+Dialogue: 0,0:44:21.00,0:44:23.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我也因此当上这个辅警了
+Dialogue: 0,0:44:23.60,0:44:25.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}可我宁愿我哥还活着
+Dialogue: 0,0:44:25.72,0:44:28.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我宁愿不当这个狗屁辅警
+Dialogue: 0,0:44:29.88,0:44:32.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我继续当我的搬运工
+Dialogue: 0,0:44:32.20,0:44:33.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我当运动员没拿过奥运会金牌
+Dialogue: 0,0:44:34.04,0:44:35.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}拿过全运会金牌
+Dialogue: 0,0:44:36.44,0:44:39.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是 这些是屁
+Dialogue: 0,0:44:40.36,0:44:42.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我最后还得当一个搬运工
+Dialogue: 0,0:44:43.44,0:44:45.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我还
+Dialogue: 0,0:44:45.36,0:44:47.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}只能因为我哥 死了
+Dialogue: 0,0:44:48.16,0:44:50.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我才能当上警察
+Dialogue: 0,0:44:51.84,0:44:53.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}成了辅警
+Dialogue: 0,0:45:01.40,0:45:02.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我就是不服
+Dialogue: 0,0:45:03.32,0:45:05.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我就是不服 死也不服 怎么了
+Dialogue: 0,0:45:09.64,0:45:11.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你怨谁啊
+Dialogue: 0,0:45:20.44,0:45:22.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我可以把开车的权利还给你
+Dialogue: 0,0:45:24.44,0:45:26.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}但是路 还要靠你自己走
+Dialogue: 0,0:46:24.04,0:46:25.02,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么样
+Dialogue: 0,0:46:32.80,0:46:35.10,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}应该就在附近了 我去看一下
+Dialogue: 0,0:48:22.00,0:48:24.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒 咱们俩能行吗
+Dialogue: 0,0:48:31.72,0:48:32.70,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干啥你
+Dialogue: 0,0:48:32.88,0:48:33.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}拉肚子
+Dialogue: 0,0:48:34.68,0:48:35.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}专治拉肚子
+Dialogue: 0,0:48:40.64,0:48:43.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你知道为什么我们要救你啊
+Dialogue: 0,0:48:43.48,0:48:46.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}救你是因为你拍了他的照片
+Dialogue: 0,0:48:47.72,0:48:51.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}打你 是你破坏了规矩
+Dialogue: 0,0:48:53.64,0:48:56.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你不应该拍他的照片
+Dialogue: 0,0:48:58.88,0:49:00.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}否则 你还有命
+Dialogue: 0,0:49:03.88,0:49:07.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 拍不拍他的照片
+Dialogue: 0,0:49:08.92,0:49:10.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}都不会有命的
+Dialogue: 0,0:49:12.24,0:49:13.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你早知道啊
+Dialogue: 0,0:49:16.24,0:49:18.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀完人我就知道
+Dialogue: 0,0:49:20.64,0:49:22.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}也不算太晚
+Dialogue: 0,0:49:24.68,0:49:29.70,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}有很多人到死 才知道
+Dialogue: 0,0:49:29.88,0:49:31.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我招
+Dialogue: 0,0:50:17.84,0:50:19.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你不怕死
+Dialogue: 0,0:50:22.48,0:50:25.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}死 现在是最容易的了
+Dialogue: 0,0:50:26.04,0:50:28.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我有一万种方法让你生不如死
+Dialogue: 0,0:50:29.44,0:50:32.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你知道这些年打黑拳
+Dialogue: 0,0:50:32.76,0:50:35.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我最大的收获是什么吗
+Dialogue: 0,0:50:35.48,0:50:36.70,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}就是
+Dialogue: 0,0:50:38.00,0:50:41.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这个身体早就不是我的了
+Dialogue: 0,0:51:09.08,0:51:11.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我知道你需要钱多少
+Dialogue: 0,0:51:16.76,0:51:20.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}把孙静救出来
+Dialogue: 0,0:51:22.80,0:51:26.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那个女人 跟这件事没关系
+Dialogue: 0,0:51:26.24,0:51:27.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}警察不会为难她
+Dialogue: 0,0:51:28.24,0:51:29.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我告诉你
+Dialogue: 0,0:51:31.24,0:51:33.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不把她救出来
+Dialogue: 0,0:51:35.32,0:51:37.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}打死我也不跟你走
+Dialogue: 0,0:51:39.00,0:51:43.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}更不可能把照片给你
+Dialogue: 0,0:51:44.88,0:51:49.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这张照片救不了我的命
+Dialogue: 0,0:51:50.40,0:51:54.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}但是 可以救她的
+Dialogue: 0,0:52:02.88,0:52:07.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 说到做到
+Dialogue: 0,0:52:32.32,0:52:34.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不许动 把手举起来
+Dialogue: 0,0:52:36.96,0:52:39.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏熨枪法更准 你们别乱动
+Dialogue: 0,0:52:44.08,0:52:46.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}枪扔地下 双手抱头 蹲下
+Dialogue: 0,0:52:46.52,0:52:47.66,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}快点
+Dialogue: 0,0:52:59.48,0:53:01.78,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}还想来这招啊
+Dialogue: 0,0:53:02.84,0:53:04.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}搜身
+Dialogue: 0,0:53:24.24,0:53:25.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别乱动
+Dialogue: 0,0:53:25.88,0:53:27.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我知道你力气大
+Dialogue: 0,0:53:27.76,0:53:30.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}但是我用一点力就可以让你死
+Dialogue: 0,0:53:30.76,0:53:33.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}或者是一辈子躺在床上
+Dialogue: 0,0:53:33.72,0:53:34.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒
+Dialogue: 0,0:53:35.16,0:53:38.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}现在该怎么做 不用我教你了吧
+Dialogue: 0,0:53:38.56,0:53:40.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒 开枪干掉他
+Dialogue: 0,0:53:44.04,0:53:45.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放了警察 我让你们走
+Dialogue: 0,0:53:47.20,0:53:48.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}阿诺 开车
+Dialogue: 0,0:53:55.88,0:53:57.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手你记住
+Dialogue: 0,0:53:57.60,0:54:00.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我枪膛里最后一颗子弹 一定是孝敬你的
+Dialogue: 0,0:54:47.44,0:54:49.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}豹子 杀手
+Dialogue: 0,0:54:50.28,0:54:51.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}抓不抓
+Dialogue: 0,0:54:51.84,0:54:54.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你看他那样子是让你抓的吗
+Dialogue: 0,0:54:55.60,0:54:56.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好像不是
+Dialogue: 0,0:54:58.00,0:54:59.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大侠
+Dialogue: 0,0:55:00.80,0:55:01.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}跟他们玩玩
+Dialogue: 0,0:55:04.72,0:55:05.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是
+Dialogue: 0,0:55:06.68,0:55:08.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静 把安全带系好
+Dialogue: 0,0:56:24.08,0:56:27.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大侠 保护好孙静 我上卡车
+Dialogue: 0,0:56:55.04,0:56:57.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛有打火机吗 有
+Dialogue: 0,0:56:58.04,0:57:00.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}能不能扔进驾驶楼子 能
+Dialogue: 0,0:57:00.60,0:57:02.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我喊三的时候你就扔
+Dialogue: 0,0:57:02.20,0:57:03.34,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没问题
+Dialogue: 0,0:57:03.56,0:57:07.26,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}一二三
+Dialogue: 0,1:00:07.80,1:00:08.86,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}关门
+Dialogue: 0,1:00:09.08,1:00:10.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}关门 吐车里
+Dialogue: 0,1:00:58.56,1:00:59.70,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走 跳车
+Dialogue: 0,1:01:43.24,1:01:44.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}急救包 急救包
+Dialogue: 0,1:02:24.36,1:02:26.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别动 别别别
+Dialogue: 0,1:02:26.72,1:02:27.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}让我看看
+Dialogue: 0,1:02:27.40,1:02:28.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别动
+Dialogue: 0,1:02:45.72,1:02:48.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老何你和晓明先回去调人
+Dialogue: 0,1:02:48.64,1:02:50.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我跟牦牛去追
+Dialogue: 0,1:02:50.24,1:02:53.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不行 那是职业杀手 你们俩对付不了
+Dialogue: 0,1:02:55.68,1:02:58.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}大侠 用最快的速度把老何送回去救治
+Dialogue: 0,1:02:59.04,1:03:00.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}向局里汇报 请求支援
+Dialogue: 0,1:03:01.48,1:03:02.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}快点
+Dialogue: 0,1:03:09.24,1:03:11.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}藏獒 你们小心点
+Dialogue: 0,1:03:13.76,1:03:14.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛
+Dialogue: 0,1:03:16.04,1:03:17.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}保护好豹子
+Dialogue: 0,1:03:18.00,1:03:20.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}他己经是湖南省厅的人了
+Dialogue: 0,1:03:20.52,1:03:22.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不能在咱们这出差错
+Dialogue: 0,1:03:23.20,1:03:25.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你发誓 我发誓
+Dialogue: 0,1:03:26.40,1:03:27.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走吧
+Dialogue: 0,1:04:03.56,1:04:05.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干 干什么你
+Dialogue: 0,1:04:06.04,1:04:07.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不 不要命了你
+Dialogue: 0,1:04:14.84,1:04:16.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干啥呢
+Dialogue: 0,1:04:25.08,1:04:26.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}油漏光了
+Dialogue: 0,1:04:27.64,1:04:29.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你在这等 我去支援
+Dialogue: 0,1:04:29.80,1:04:32.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放屁 哪那么多废话
+Dialogue: 0,1:04:32.48,1:04:33.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}快点 扶我下车
+Dialogue: 0,1:04:39.72,1:04:43.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}狗脸 说翻就翻
+Dialogue: 0,1:05:11.68,1:05:13.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}肯定是逃到土匪窝子那边去了
+Dialogue: 0,1:05:13.72,1:05:14.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}土匪窝子
+Dialogue: 0,1:05:16.04,1:05:17.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}土匪都会给自己挖一个暗堡
+Dialogue: 0,1:05:18.92,1:05:20.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好在被包围时逃生
+Dialogue: 0,1:05:29.56,1:05:31.86,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那那那 我 我怎么办
+Dialogue: 0,1:05:33.72,1:05:35.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你抽颗烟吧
+Dialogue: 0,1:05:48.60,1:05:49.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}起来
+Dialogue: 0,1:05:51.24,1:05:53.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我给你绑上
+Dialogue: 0,1:07:47.64,1:07:48.78,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你看着他
+Dialogue: 0,1:07:49.32,1:07:52.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我把那两个人叫来
+Dialogue: 0,1:07:52.60,1:07:53.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}准备离开
+Dialogue: 0,1:07:58.20,1:07:59.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}还有你可以走了
+Dialogue: 0,1:07:59.96,1:08:01.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这里没你的事了
+Dialogue: 0,1:08:01.72,1:08:02.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}为什么
+Dialogue: 0,1:08:05.32,1:08:07.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你根本不适合干这行
+Dialogue: 0,1:08:07.52,1:08:09.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你回去找个人嫁了
+Dialogue: 0,1:08:10.76,1:08:12.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手杀人只是为了钱
+Dialogue: 0,1:08:12.72,1:08:13.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}心里没有恨
+Dialogue: 0,1:08:13.84,1:08:15.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你杀人是因为恨
+Dialogue: 0,1:08:15.76,1:08:16.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你恨所有的人
+Dialogue: 0,1:08:36.24,1:08:37.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你老了
+Dialogue: 0,1:08:37.52,1:08:38.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对
+Dialogue: 0,1:08:41.08,1:08:42.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我老了
+Dialogue: 0,1:08:43.40,1:08:45.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我六岁跟你爷爷学武
+Dialogue: 0,1:08:46.80,1:08:51.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}十六岁 在缅北给李尼门当雇佣兵
+Dialogue: 0,1:08:52.96,1:08:55.52,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}二十五岁才离开 独拼天下
+Dialogue: 0,1:08:55.68,1:08:56.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}当杀手 保镖
+Dialogue: 0,1:08:58.44,1:09:00.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}算起来我在这个行当
+Dialogue: 0,1:09:00.56,1:09:03.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}出生入死也有二十三年了
+Dialogue: 0,1:09:04.04,1:09:06.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我一直对自己说
+Dialogue: 0,1:09:06.24,1:09:09.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}做我们这行 杀人不是目的
+Dialogue: 0,1:09:10.28,1:09:12.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我们只是有目的地去杀人
+Dialogue: 0,1:09:14.72,1:09:16.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我所杀的人 都是该死的
+Dialogue: 0,1:09:20.44,1:09:24.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}二十一世纪 不是杀手的天下了
+Dialogue: 0,1:09:29.16,1:09:31.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}就像铁匠铺一样
+Dialogue: 0,1:09:33.68,1:09:35.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}该退出历史了
+Dialogue: 0,1:09:39.52,1:09:40.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}师傅
+Dialogue: 0,1:09:41.96,1:09:44.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这路 能走通吗
+Dialogue: 0,1:09:58.52,1:09:59.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁呢
+Dialogue: 0,1:10:19.56,1:10:23.26,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 我 我很想
+Dialogue: 0,1:10:23.48,1:10:27.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}箱子里是什么 是什么东西
+Dialogue: 0,1:10:52.80,1:10:54.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静在外面等
+Dialogue: 0,1:10:55.68,1:10:56.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走吧
+Dialogue: 0,1:10:57.80,1:10:59.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}为什么不让她进来
+Dialogue: 0,1:10:59.40,1:11:00.54,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这里不能待
+Dialogue: 0,1:11:01.48,1:11:04.04,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}警察很快会找到这里来的
+Dialogue: 0,1:11:09.40,1:11:10.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你犹豫什么
+Dialogue: 0,1:11:43.40,1:11:46.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你说 你要我办的事我都办了
+Dialogue: 0,1:11:46.60,1:11:49.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我还救你出去 你为什么要害我
+Dialogue: 0,1:11:50.20,1:11:53.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你救我 不也是让我死吗
+Dialogue: 0,1:11:55.20,1:11:58.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}法律让我死我服
+Dialogue: 0,1:11:58.60,1:12:02.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们让我死 我不服
+Dialogue: 0,1:12:10.92,1:12:14.70,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}要 要 要 不把把钱给我
+Dialogue: 0,1:12:14.92,1:12:16.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 我先走
+Dialogue: 0,1:12:22.48,1:12:24.94,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不 不 不不
+Dialogue: 0,1:12:25.40,1:12:28.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}算 算我没说
+Dialogue: 0,1:12:29.28,1:12:30.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你怀孕了
+Dialogue: 0,1:12:34.72,1:12:36.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你以前怀过孕
+Dialogue: 0,1:12:40.16,1:12:44.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}和我前夫 每年都怀孕
+Dialogue: 0,1:12:46.00,1:12:47.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}他不喜欢孩子
+Dialogue: 0,1:12:47.92,1:12:49.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}每次都叫我打掉
+Dialogue: 0,1:12:53.56,1:12:54.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}所以你离婚了
+Dialogue: 0,1:13:04.44,1:13:06.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}女人真是可怜的东西
+Dialogue: 0,1:13:28.12,1:13:30.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛 你顺着那峡谷搜
+Dialogue: 0,1:13:30.36,1:13:31.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我搜这边
+Dialogue: 0,1:13:49.52,1:13:50.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,1:13:58.88,1:14:00.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静孙静 你老婆要流产了你知不知道
+Dialogue: 0,1:14:03.00,1:14:03.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你说什么
+Dialogue: 0,1:15:16.52,1:15:18.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}帮我把鞋带解开
+Dialogue: 0,1:16:21.60,1:16:22.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}炸
+Dialogue: 0,1:16:23.24,1:16:24.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静 快
+Dialogue: 0,1:16:24.28,1:16:25.34,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}踩着我的肩膀上去
+Dialogue: 0,1:16:49.64,1:16:50.62,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}炸
+Dialogue: 0,1:16:50.80,1:16:53.26,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}炸 炸 炸 炸药
+Dialogue: 0,1:17:07.52,1:17:08.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}快走
+Dialogue: 0,1:17:12.16,1:17:13.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走
+Dialogue: 0,1:18:05.96,1:18:06.94,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}豹子
+Dialogue: 0,1:18:09.40,1:18:10.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没事吧
+Dialogue: 0,1:18:10.88,1:18:12.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没事 没事 没事
+Dialogue: 0,1:18:15.44,1:18:16.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}没事
+Dialogue: 0,1:18:19.20,1:18:20.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}谁炸的
+Dialogue: 0,1:19:05.00,1:19:06.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}来
+Dialogue: 0,1:21:03.40,1:21:04.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不许动
+Dialogue: 0,1:21:09.08,1:21:10.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}把枪放下 把枪放下
+Dialogue: 0,1:21:11.12,1:21:12.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}双手抱头
+Dialogue: 0,1:21:46.72,1:21:49.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 我是被他们劫 劫持的人质
+Dialogue: 0,1:21:49.48,1:21:51.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我叫常中建
+Dialogue: 0,1:21:51.64,1:21:54.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老白蛋 我知道你是谁
+Dialogue: 0,1:21:58.08,1:21:59.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}停 停
+Dialogue: 0,1:22:01.76,1:22:03.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}有人
+Dialogue: 0,1:22:25.20,1:22:27.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}师傅 我抓着张宁了
+Dialogue: 0,1:22:34.48,1:22:36.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干嘛又打我
+Dialogue: 0,1:22:37.04,1:22:38.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}子弹打光了 杀手咋办
+Dialogue: 0,1:22:39.28,1:22:40.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是麦高
+Dialogue: 0,1:22:40.36,1:22:41.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是大侠
+Dialogue: 0,1:22:41.80,1:22:44.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}只有他才能干得出一下子打光一梭子
+Dialogue: 0,1:22:45.68,1:22:46.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}羊馆
+Dialogue: 0,1:22:46.80,1:22:48.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}他们在谷口 离这两公里
+Dialogue: 0,1:22:49.16,1:22:50.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}去 接应他们
+Dialogue: 0,1:23:33.28,1:23:35.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}如果不是嫁到长沙
+Dialogue: 0,1:23:37.16,1:23:38.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}如果不是开了那家店
+Dialogue: 0,1:23:42.16,1:23:43.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你后悔了
+Dialogue: 0,1:23:45.24,1:23:47.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}命运是后悔可以改变的吗
+Dialogue: 0,1:23:53.48,1:23:56.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我现在心里只有愧疚
+Dialogue: 0,1:23:58.20,1:23:59.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}命运
+Dialogue: 0,1:24:02.08,1:24:04.64,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是愧疚可以改变的吗
+Dialogue: 0,1:24:07.64,1:24:09.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我好想回家
+Dialogue: 0,1:26:41.32,1:26:42.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}往右边拐
+Dialogue: 0,1:26:42.64,1:26:43.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}右边
+Dialogue: 0,1:26:43.80,1:26:44.78,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}往前走
+Dialogue: 0,1:26:51.04,1:26:52.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好 嗯
+Dialogue: 0,1:26:56.20,1:26:57.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}刘涛带人过来
+Dialogue: 0,1:26:58.04,1:27:00.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}从市局开车到这儿几个小时啊
+Dialogue: 0,1:27:00.80,1:27:02.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}正常的情况 五个小时就到了
+Dialogue: 0,1:27:03.12,1:27:04.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}现在这么大风 那就不好说了
+Dialogue: 0,1:27:24.00,1:27:25.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}蹲下
+Dialogue: 0,1:27:25.88,1:27:26.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}还有别的房间吗
+Dialogue: 0,1:27:27.16,1:27:29.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}房间倒有 都没门了
+Dialogue: 0,1:27:30.28,1:27:31.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们这有几个人
+Dialogue: 0,1:27:31.24,1:27:32.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}两个人
+Dialogue: 0,1:27:32.24,1:27:33.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不是还有城管和拆迁办吗
+Dialogue: 0,1:27:34.04,1:27:35.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}今天下雪 他们先回去了
+Dialogue: 0,1:27:37.08,1:27:38.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是枪伤
+Dialogue: 0,1:27:38.52,1:27:39.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这我那能看得了
+Dialogue: 0,1:27:40.08,1:27:41.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}得 得赶紧送到市医院去
+Dialogue: 0,1:27:41.96,1:27:43.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你赶紧给他处置一下
+Dialogue: 0,1:27:43.68,1:27:44.90,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别感染了啊
+Dialogue: 0,1:28:04.56,1:28:06.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你准点 行吗
+Dialogue: 0,1:28:35.28,1:28:37.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}政 政府
+Dialogue: 0,1:28:37.60,1:28:40.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这皮 皮大衣借 借我穿穿
+Dialogue: 0,1:28:42.36,1:28:43.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}想什么呢
+Dialogue: 0,1:28:44.72,1:28:46.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是防弹衣
+Dialogue: 0,1:28:46.48,1:28:49.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}防 防弹衣
+Dialogue: 0,1:28:50.44,1:28:53.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}防 防个蛋 防
+Dialogue: 0,1:28:53.48,1:28:54.54,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}闭上你的臭嘴
+Dialogue: 0,1:28:56.80,1:28:58.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}看见没
+Dialogue: 0,1:28:58.32,1:28:59.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这一件
+Dialogue: 0,1:29:00.12,1:29:02.58,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是我爷爷 从剿匪
+Dialogue: 0,1:29:02.76,1:29:04.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}到杭美援朝一直穿下来
+Dialogue: 0,1:29:05.36,1:29:07.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}从来没有受过一次伤
+Dialogue: 0,1:29:09.36,1:29:12.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}防弹衣 我奶奶说的
+Dialogue: 0,1:29:12.32,1:29:15.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我 我被被被劫持的人质 为 为什么不放我
+Dialogue: 0,1:29:16.40,1:29:18.55,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我们得调查清楚了再说
+Dialogue: 0,1:29:18.72,1:29:20.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不能由着你说了算
+Dialogue: 0,1:29:20.52,1:29:22.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}询 询私枉法
+Dialogue: 0,1:29:57.60,1:29:58.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么回事啊
+Dialogue: 0,1:29:58.88,1:29:59.86,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}给市局打电话
+Dialogue: 0,1:30:00.08,1:30:00.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是
+Dialogue: 0,1:30:02.92,1:30:03.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}出事了
+Dialogue: 0,1:30:04.08,1:30:05.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}快去看看
+Dialogue: 0,1:30:10.40,1:30:11.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}肯定是麦高
+Dialogue: 0,1:30:11.80,1:30:12.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁交给你了
+Dialogue: 0,1:30:13.16,1:30:14.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放心
+Dialogue: 0,1:31:05.60,1:31:06.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,1:31:06.92,1:31:07.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你别过来 孙静
+Dialogue: 0,1:31:18.48,1:31:20.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放开 放开
+Dialogue: 0,1:31:22.76,1:31:24.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静 你别过来
+Dialogue: 0,1:31:29.60,1:31:30.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,1:31:34.48,1:31:37.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别 别别别 别开枪 开枪
+Dialogue: 0,1:31:45.68,1:31:46.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,1:31:47.48,1:31:47.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙静
+Dialogue: 0,1:32:01.04,1:32:03.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你就是把他们全干死 也逃不出去
+Dialogue: 0,1:32:29.04,1:32:29.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}盯着里面
+Dialogue: 0,1:32:34.88,1:32:36.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}进去 谁让你们出来的
+Dialogue: 0,1:32:38.96,1:32:41.42,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}五个 换两个
+Dialogue: 0,1:32:41.84,1:32:43.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎样
+Dialogue: 0,1:32:55.60,1:32:56.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛
+Dialogue: 0,1:32:57.04,1:32:58.18,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}别动
+Dialogue: 0,1:33:14.32,1:33:15.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛 挺住
+Dialogue: 0,1:33:18.52,1:33:22.06,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对不起我 从来没杀过警察
+Dialogue: 0,1:33:22.28,1:33:23.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手不用说对不起
+Dialogue: 0,1:33:24.40,1:33:25.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}女的留给你们
+Dialogue: 0,1:33:25.96,1:33:27.18,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁我带走 怎样
+Dialogue: 0,1:33:28.96,1:33:31.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}警察跟杀手有条件可讲吗
+Dialogue: 0,1:33:32.56,1:33:33.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁我必须带走
+Dialogue: 0,1:33:34.44,1:33:35.66,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这是我的命
+Dialogue: 0,1:33:35.88,1:33:37.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁我也必须带走
+Dialogue: 0,1:33:37.76,1:33:39.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这也是我的命
+Dialogue: 0,1:33:40.28,1:33:45.40,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}那 我们俩 只有一个人能有命了
+Dialogue: 0,1:33:54.84,1:33:58.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好 这一局我让你
+Dialogue: 0,1:33:59.92,1:34:01.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你赶紧把牦牛救了
+Dialogue: 0,1:34:02.04,1:34:04.42,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不用
+Dialogue: 0,1:34:04.64,1:34:06.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我有防弹衣
+Dialogue: 0,1:34:09.00,1:34:10.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}对不起
+Dialogue: 0,1:34:33.96,1:34:36.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}牦牛牦牛
+Dialogue: 0,1:34:42.72,1:34:46.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我对不起我爷爷奶奶
+Dialogue: 0,1:34:50.24,1:34:53.43,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我给他们丢人了
+Dialogue: 0,1:35:09.88,1:35:12.44,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放下人质走人
+Dialogue: 0,1:35:39.56,1:35:40.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁 别乱动
+Dialogue: 0,1:35:41.96,1:35:44.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放下人质 走
+Dialogue: 0,1:36:50.28,1:36:51.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手
+Dialogue: 0,1:36:52.48,1:36:53.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}她怎么跑出来了
+Dialogue: 0,1:36:53.56,1:36:54.54,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}人在哪儿呢
+Dialogue: 0,1:38:00.44,1:38:01.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走
+Dialogue: 0,1:38:09.80,1:38:11.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}往豹子他们那去了
+Dialogue: 0,1:38:11.44,1:38:13.74,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你去支援 我去抓杀手
+Dialogue: 0,1:38:13.92,1:38:14.95,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你一个人能行啊
+Dialogue: 0,1:38:15.12,1:38:16.07,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}绰绰有余
+Dialogue: 0,1:38:16.28,1:38:17.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}小心点儿
+Dialogue: 0,1:40:42.28,1:40:44.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}杀手在一楼
+Dialogue: 0,1:41:21.40,1:41:22.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}回去 蹲下
+Dialogue: 0,1:41:24.28,1:41:25.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}去那边去
+Dialogue: 0,1:41:29.64,1:41:30.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老白蛋
+Dialogue: 0,1:41:32.20,1:41:33.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}不 不是
+Dialogue: 0,1:41:33.76,1:41:35.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这 这几匹马是我的
+Dialogue: 0,1:41:35.76,1:41:36.90,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}去 看着他们
+Dialogue: 0,1:43:07.28,1:43:08.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老刘
+Dialogue: 0,1:43:23.04,1:43:23.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干嘛去
+Dialogue: 0,1:43:24.16,1:43:26.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我办公室里有急救包
+Dialogue: 0,1:43:46.12,1:43:48.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老刘 老刘
+Dialogue: 0,1:44:08.48,1:44:10.86,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁 你干什么呀你 张宁
+Dialogue: 0,1:44:11.04,1:44:12.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}放开我 放开我
+Dialogue: 0,1:44:12.68,1:44:14.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}张宁 你要造反 你不想活啦
+Dialogue: 0,1:44:14.44,1:44:16.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}退后 退后 都别拦着我退后
+Dialogue: 0,1:44:17.16,1:44:18.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老白蛋 告诉你
+Dialogue: 0,1:44:18.96,1:44:20.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}咱俩现在都是有罪的人
+Dialogue: 0,1:44:20.48,1:44:21.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你现在跟我一块出去
+Dialogue: 0,1:44:21.96,1:44:23.91,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}帮着那个警察杀死那个狗日的
+Dialogue: 0,1:44:24.08,1:44:25.67,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你就是功臣了 你知道吗
+Dialogue: 0,1:44:25.84,1:44:27.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}反正我也没命了
+Dialogue: 0,1:44:27.32,1:44:28.46,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你要是杀了他
+Dialogue: 0,1:44:28.64,1:44:30.94,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你这叫戴罪立功 你懂了吗
+Dialogue: 0,1:44:31.12,1:44:33.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}警察的事情我们警察处理 你闭嘴
+Dialogue: 0,1:44:33.64,1:44:35.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老白蛋 你告诉他的 你给我闭嘴
+Dialogue: 0,1:44:35.28,1:44:37.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}老白蛋 你听不听
+Dialogue: 0,1:44:37.48,1:44:39.11,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}听听听 听
+Dialogue: 0,1:44:39.44,1:44:40.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}听就给我走
+Dialogue: 0,1:44:41.08,1:44:41.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走
+Dialogue: 0,1:44:42.08,1:44:43.30,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}走 跟我走 走
+Dialogue: 0,1:44:47.20,1:44:49.58,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你们怎么下来了 回去
+Dialogue: 0,1:44:49.80,1:44:52.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我不跑 我是来帮你的
+Dialogue: 0,1:44:52.40,1:44:53.62,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你一个人根本顶不住
+Dialogue: 0,1:44:53.96,1:44:56.15,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}怎么处置我都行 你让我杀了他
+Dialogue: 0,1:44:56.56,1:44:58.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}想死也由不得你自己做决定
+Dialogue: 0,1:44:58.68,1:44:59.66,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}躲起来
+Dialogue: 0,1:45:00.32,1:45:03.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}麦高出来 你给我出来
+Dialogue: 0,1:45:03.92,1:45:05.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}炸弹 快跑
+Dialogue: 0,1:45:21.52,1:45:24.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我要杀了他 我要杀了他
+Dialogue: 0,1:45:24.64,1:45:25.39,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我要杀了他
+Dialogue: 0,1:45:27.76,1:45:32.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}麦高 你还欠欠我钱呢
+Dialogue: 0,1:46:00.60,1:46:01.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}孙子
+Dialogue: 0,1:46:03.64,1:46:04.59,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}麦高
+Dialogue: 0,1:46:05.04,1:46:06.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}有种我们单挑
+Dialogue: 0,1:46:07.24,1:46:11.35,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}干死我 你带走张宁 来呀
+Dialogue: 0,1:46:14.92,1:46:18.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你现在还有胜算的机会吗
+Dialogue: 0,1:46:18.80,1:46:20.87,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我还有俩呢
+Dialogue: 0,1:46:23.36,1:46:25.31,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我这是给你机会
+Dialogue: 0,1:46:31.04,1:46:33.50,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好 佩服
+Dialogue: 0,1:46:34.60,1:46:35.47,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}同意
+Dialogue: 0,1:46:35.64,1:46:36.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}好啊
+Dialogue: 0,1:46:36.44,1:46:37.42,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我不答应
+Dialogue: 0,1:46:38.40,1:46:39.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}有你什么事
+Dialogue: 0,1:51:01.44,1:51:03.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}和这样的杂种 你说你
+Dialogue: 0,1:51:05.88,1:51:08.75,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你和他决斗 值得吗
+Dialogue: 0,1:51:23.12,1:51:24.51,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}喂
+Dialogue: 0,1:51:24.88,1:51:25.99,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}向西
+Dialogue: 0,1:51:26.16,1:51:27.03,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是我
+Dialogue: 0,1:51:27.40,1:51:28.71,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}我的签证办下来了
+Dialogue: 0,1:51:30.96,1:51:33.19,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你还是不能跟我们一起走吗
+Dialogue: 0,1:51:54.76,1:51:56.23,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}师傅
+Dialogue: 0,1:51:59.56,1:52:03.79,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}这次我没和她打
+Dialogue: 0,1:52:04.16,1:52:05.83,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}你是我徒弟嘛
+Dialogue: 0,1:52:13.12,1:52:15.63,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}把你的手机借我用一下吧
+Dialogue: 0,1:52:53.24,1:52:54.27,Default,,0000,0000,0000,,{\fnKaiTi\3a&H50&\4a&H96&\1c&HD9D9D9&}是他呀
+
+

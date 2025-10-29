@@ -1,0 +1,628 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 720雅黑,微软雅黑,20,&H00FFFFFF,&HF0000000,&H00523936,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,5,134
+Style: 720 - srt,新宋体,22,&H00C2C4C5,&H32000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,1
+Style: Subtitle,微软雅黑,26,&H00C2E0EC,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: 720方正,方正黑体简体,18,&H00FFFFFF,&HF0000000,&H00523936,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,5,134
+Style: 双语1.78 : 1,新宋体,19,&H00B6B6B6,&H28000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,1
+Style: 双语2.35 : 1,微软雅黑,22,&H008C8C8C,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,5,1
+Style: Default,新宋体,19,&H00CCCCCC,&HF03E3E3E,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:08:51.78,0:08:58.79,720 - srt,,0,0,0,,(绝 命 逃 亡)
+Dialogue: 0,0:09:01.90,0:09:06.50,720 - srt,,0,0,0,,(远东地区 三年后)
+Dialogue: 0,0:01:01.87,0:01:05.50,720 - srt,,0,0,0,,无上的主啊,请与我同行\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Almighty God, in my hour of need, be with me{\r}
+Dialogue: 0,0:01:06.58,0:01:10.52,720 - srt,,0,0,0,,我永远不会忘记那神圣的誓言\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let me never forget my sacred and holy vows onto Thee{\r}
+Dialogue: 0,0:01:10.89,0:01:16.22,720 - srt,,0,0,0,,我在这个苦难的世界里斩妖除魔\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}and I should not be prey onto demons and devils, and all the dark things of this world{\r}
+Dialogue: 0,0:01:17.34,0:01:20.31,720 - srt,,0,0,0,,用正义武装我的身躯\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Honour me with the armor of Thy righteousness{\r}
+Dialogue: 0,0:01:20.43,0:01:24.04,720 - srt,,0,0,0,,赐予我宝剑,助我发现敌人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Give me the sword of truth, that I shall confound mine enemies...{\r}
+Dialogue: 0,0:01:24.16,0:01:28.58,720 - srt,,0,0,0,,直至成为真正的骑士\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... and be onto Thee... the true knight{\r}
+Dialogue: 0,0:03:09.96,0:03:12.23,720 - srt,,0,0,0,,攻进皇宫去\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They blockade the path!{\r}
+Dialogue: 0,0:03:12.94,0:03:14.86,720 - srt,,0,0,0,,这边\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}This way!{\r}
+Dialogue: 0,0:03:24.37,0:03:25.39,720 - srt,,0,0,0,,当心\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Guard!{\r}
+Dialogue: 0,0:03:26.16,0:03:27.56,720 - srt,,0,0,0,,后撤\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Fall back!{\r}
+Dialogue: 0,0:03:28.56,0:03:30.33,720 - srt,,0,0,0,,快撤\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}COVEEER!!{\r}
+Dialogue: 0,0:03:39.72,0:03:43.01,720 - srt,,0,0,0,,- 雅各布,我们可以阻止  - 现在阻止会损失更多人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Jacob, we can stop this.   - Stop now, we lose more men.{\r}
+Dialogue: 0,0:03:43.27,0:03:45.68,720 - srt,,0,0,0,,这场血战在所难免\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}There is no stopping this{\r}
+Dialogue: 0,0:03:45.98,0:03:49.24,720 - srt,,0,0,0,,- 我们要包抄他们  - 里边有妇女和儿童呢\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- We can outflank them.   - There are women and children in it.{\r}
+Dialogue: 0,0:03:49.32,0:03:51.22,720 - srt,,0,0,0,,- 不会伤害他们的  - 肯定会\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- They won't be hurt.   - They WILL be hurt.{\r}
+Dialogue: 0,0:03:51.30,0:03:52.97,720 - srt,,0,0,0,,今天必须结束战斗\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We end this today!{\r}
+Dialogue: 0,0:03:55.20,0:03:56.65,720 - srt,,0,0,0,,跟我来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}WITH ME!!{\r}
+Dialogue: 0,0:03:57.71,0:03:58.72,720 - srt,,0,0,0,,陛下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your Highness.{\r}
+Dialogue: 0,0:03:59.14,0:04:02.92,720 - srt,,0,0,0,,- 求助就可以取胜  - 来不及了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- With Allah's help we may still prevail.   - The time for false hope is over.{\r}
+Dialogue: 0,0:04:04.57,0:04:07.66,720 - srt,,0,0,0,,我对你只有最后一个请求\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}There is one final request I must beg of you, my friend.{\r}
+Dialogue: 0,0:04:12.84,0:04:16.29,720 - srt,,0,0,0,,你还没打够吗?帮那些伪善的神父作战\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Haven't you had enough of this-killing for hypocrite priests?{\r}
+Dialogue: 0,0:04:16.49,0:04:20.28,720 - srt,,0,0,0,,- 那是上帝的意志  - 我们这是在滥杀无辜\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- We do God's work.   - The blood we spill here is on our blades.{\r}
+Dialogue: 0,0:04:20.36,0:04:22.55,720 - srt,,0,0,0,,是我们的灵魂在堕落,不是上帝的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Our souls, not God's!{\r}
+Dialogue: 0,0:04:30.02,0:04:33.36,720 - srt,,0,0,0,,我们再也不用这么做了,可以走了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We don't have to do this anymore. We can just go.{\r}
+Dialogue: 0,0:04:33.44,0:04:34.80,720 - srt,,0,0,0,,- 去哪儿?  - 东方\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Go where?   - East.{\r}
+Dialogue: 0,0:04:35.08,0:04:36.31,720 - srt,,0,0,0,,去你的东方吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No one goes East.{\r}
+Dialogue: 0,0:04:39.49,0:04:42.74,720 - srt,,0,0,0,,- 那里没这里惨  - 你质疑我们的事业吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Cannot be any worse than here.   - You doubt our cause?{\r}
+Dialogue: 0,0:04:43.98,0:04:47.59,720 - srt,,0,0,0,,- 你不是发号施令的人  - 没一个是\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- You're not the man you once were.   - None of us are.{\r}
+Dialogue: 0,0:04:52.50,0:04:54.80,720 - srt,,0,0,0,,那就去你的东方吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go there. Go East!{\r}
+Dialogue: 0,0:04:55.25,0:04:58.81,720 - srt,,0,0,0,,要知道,我对你父亲发誓过\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You know, I swore an oath to your father.{\r}
+Dialogue: 0,0:04:59.01,0:05:02.19,720 - srt,,0,0,0,,我父亲死了,你走你的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My father is dead, you are released of your oath.{\r}
+Dialogue: 0,0:05:02.71,0:05:04.72,720 - srt,,0,0,0,,我走我的,滚\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I release you. Go!{\r}
+Dialogue: 0,0:05:11.87,0:05:13.94,720 - srt,,0,0,0,,- 父王  - 爸爸\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Father.   - Papa!{\r}
+Dialogue: 0,0:05:22.87,0:05:25.07,720 - srt,,0,0,0,,阿欣会护送你走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Hassan will escort you away from here.{\r}
+Dialogue: 0,0:05:25.49,0:05:28.07,720 - srt,,0,0,0,,趁现在还能走,快点\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I will see you again... very soon.{\r}
+Dialogue: 0,0:05:28.77,0:05:30.50,720 - srt,,0,0,0,,你必须坚强\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You have to be strong.{\r}
+Dialogue: 0,0:05:31.29,0:05:33.92,720 - srt,,0,0,0,,为了孩子们,为了我们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You have to be strong. For the children, for us.{\r}
+Dialogue: 0,0:05:34.52,0:05:36.35,720 - srt,,0,0,0,,亲爱的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My love.{\r}
+Dialogue: 0,0:06:01.51,0:06:04.00,720 - srt,,0,0,0,,冲啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}GOD WITH US!!!{\r}
+Dialogue: 0,0:07:28.82,0:07:30.19,720 - srt,,0,0,0,,我们决斗吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Stop, this is finished.{\r}
+Dialogue: 0,0:08:27.17,0:08:28.76,720 - srt,,0,0,0,,走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Leave.{\r}
+Dialogue: 0,0:09:14.55,0:09:17.16,720 - srt,,0,0,0,,我大限将至,儿子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My days draw to an end, my son.{\r}
+Dialogue: 0,0:09:17.24,0:09:21.21,720 - srt,,0,0,0,,- 不,父王  - 是的,昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- No, father!   - They do... child.{\r}
+Dialogue: 0,0:09:22.67,0:09:24.60,720 - srt,,0,0,0,,这是自然规律\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That is the nature of life.{\r}
+Dialogue: 0,0:09:27.91,0:09:30.27,720 - srt,,0,0,0,,现在仅剩的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}All that is left for me...{\r}
+Dialogue: 0,0:09:30.92,0:09:35.68,720 - srt,,0,0,0,,就是确保我的国家找到一个明主\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...is to ensure my Kingdom receives the leader it deserves.{\r}
+Dialogue: 0,0:09:36.51,0:09:38.76,720 - srt,,0,0,0,,所以我选择了你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Which is why I have chosen you...{\r}
+Dialogue: 0,0:09:39.54,0:09:41.13,720 - srt,,0,0,0,,取代我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...to sucseed me.{\r}
+Dialogue: 0,0:09:41.64,0:09:47.42,720 - srt,,0,0,0,,- 我?可是星...  - 你皇兄是个大将军\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Me? But... Shing?   - Your brother is a great warrior.{\r}
+Dialogue: 0,0:09:49.63,0:09:52.75,720 - srt,,0,0,0,,现在是和平时代\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Now it's the time for peace{\r}
+Dialogue: 0,0:09:53.89,0:09:56.27,720 - srt,,0,0,0,,这是我对你的要求\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That is my request of you.{\r}
+Dialogue: 0,0:09:56.79,0:09:59.31,720 - srt,,0,0,0,,父王,没人会追随我的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}NFather, no one will follow me.{\r}
+Dialogue: 0,0:09:59.43,0:10:00.50,720 - srt,,0,0,0,,会的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They will...{\r}
+Dialogue: 0,0:10:01.20,0:10:03.36,720 - srt,,0,0,0,,因为你会是皇帝\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...because you will be King.{\r}
+Dialogue: 0,0:10:11.90,0:10:14.20,720 - srt,,0,0,0,,陛下,星王爷到大门外了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Majesty, Prince Shing approaches the gates.{\r}
+Dialogue: 0,0:10:15.05,0:10:17.32,720 - srt,,0,0,0,,时间所剩无几了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Our time is less than we thought.{\r}
+Dialogue: 0,0:10:17.95,0:10:19.95,720 - srt,,0,0,0,,元龙,拿玉玺来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Qiang Long, the royal seal.{\r}
+Dialogue: 0,0:10:22.28,0:10:23.99,720 - srt,,0,0,0,,遵命,陛下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Yes, your Majesty.{\r}
+Dialogue: 0,0:10:30.76,0:10:32.75,720 - srt,,0,0,0,,元龙会护送你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Qiang Long will escort you...{\r}
+Dialogue: 0,0:10:33.51,0:10:37.62,720 - srt,,0,0,0,,一定要让昭平安找到高将军\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...ensure that you all safely reaches the General Sen Ching Wen.{\r}
+Dialogue: 0,0:10:40.57,0:10:43.51,720 - srt,,0,0,0,,我会誓死保护他的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I will protect him with my life.{\r}
+Dialogue: 0,0:10:50.35,0:10:53.73,720 - srt,,0,0,0,,我是不会轻易决定的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I have made none of these decisions lightly.{\r}
+Dialogue: 0,0:10:55.55,0:10:59.01,720 - srt,,0,0,0,,所以我选择了你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Which is why... I have chosen you.{\r}
+Dialogue: 0,0:11:05.47,0:11:06.70,720 - srt,,0,0,0,,父王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Father.{\r}
+Dialogue: 0,0:11:11.51,0:11:13.88,720 - srt,,0,0,0,,莲,你虽然不能继承皇位\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Out of necessity, Lian.{\r}
+Dialogue: 0,0:11:15.40,0:11:18.14,720 - srt,,0,0,0,,但父王对爱女的爱...\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}A King... tends more to his sons.{\r}
+Dialogue: 0,0:11:18.54,0:11:22.59,720 - srt,,0,0,0,,并不亚于对皇太子的爱\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But it does not mean... he has any less love for his daughter.{\r}
+Dialogue: 0,0:11:25.40,0:11:28.43,720 - srt,,0,0,0,,我把你弟弟的性命交付于你了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I trust you... with your brother's life.{\r}
+Dialogue: 0,0:11:29.40,0:11:31.68,720 - srt,,0,0,0,,他是江山之后\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}With the future of our Kingdom.{\r}
+Dialogue: 0,0:11:33.19,0:11:35.07,720 - srt,,0,0,0,,走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go{\r}
+Dialogue: 0,0:11:35.09,0:11:36.46,720 - srt,,0,0,0,,快走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go now.{\r}
+Dialogue: 0,0:11:51.96,0:11:53.67,720 - srt,,0,0,0,,陛下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Majesty.{\r}
+Dialogue: 0,0:11:55.22,0:11:58.47,720 - srt,,0,0,0,,- 久违了  - 确实久违了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- It's been a long time.   - Too long, my son.{\r}
+Dialogue: 0,0:11:58.90,0:12:01.85,720 - srt,,0,0,0,,我一接到您龙体欠安的消息就赶来了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I came as soon as I heard of your declining health.{\r}
+Dialogue: 0,0:12:01.93,0:12:05.77,720 - srt,,0,0,0,,你一直惦记着朕的龙体啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My health has always been a concern of yours.{\r}
+Dialogue: 0,0:12:10.24,0:12:13.23,720 - srt,,0,0,0,,我一直都关心你,父王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I have other concerns, father.{\r}
+Dialogue: 0,0:12:14.52,0:12:17.38,720 - srt,,0,0,0,,但坊间传闻甚多\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}About... rumors I've heard.{\r}
+Dialogue: 0,0:12:17.82,0:12:23.29,720 - srt,,0,0,0,,传闻?你杀了那么多妇女和儿童\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Rumors... are the distraction of children and old women.{\r}
+Dialogue: 0,0:12:24.35,0:12:27.71,720 - srt,,0,0,0,,是的,确实不假\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Indeed. Unless they are true.{\r}
+Dialogue: 0,0:12:28.65,0:12:34.10,720 - srt,,0,0,0,,还有什么传闻?太可惜了,儿子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And... what rumor carries... such weight, my son?{\r}
+Dialogue: 0,0:12:35.09,0:12:38.60,720 - srt,,0,0,0,,我已经传皇弟前来商讨大事\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Perhaps we should summon my baby brother to discuss it?{\r}
+Dialogue: 0,0:12:41.30,0:12:45.51,720 - srt,,0,0,0,,抱歉,你的皇弟已经出宫\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Unfortunately, your brother is away from the palace.{\r}
+Dialogue: 0,0:12:46.67,0:12:51.16,720 - srt,,0,0,0,,看来你的决定太草率了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I fear your ill health is clouding your judgement, father.{\r}
+Dialogue: 0,0:12:52.18,0:12:55.23,720 - srt,,0,0,0,,皇位是属于我的!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The throne is my BIRTHRIGHT!!{\r}
+Dialogue: 0,0:12:56.07,0:12:58.81,720 - srt,,0,0,0,,是你欠我的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I earned it, fighting your wars!{\r}
+Dialogue: 0,0:12:59.54,0:13:03.47,720 - srt,,0,0,0,,没有你,就没有这个国家\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Without you... there would be no Kingdom...{\r}
+Dialogue: 0,0:13:03.85,0:13:05.32,720 - srt,,0,0,0,,我的一切\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... but everything!{\r}
+Dialogue: 0,0:13:07.73,0:13:09.95,720 - srt,,0,0,0,,我为你牺牲一切\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I've given everything for you.{\r}
+Dialogue: 0,0:13:10.98,0:13:13.22,720 - srt,,0,0,0,,我知道,儿子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I know... my son.{\r}
+Dialogue: 0,0:13:14.36,0:13:15.42,720 - srt,,0,0,0,,但请你高抬贵手\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But please...{\r}
+Dialogue: 0,0:13:16.88,0:13:19.67,720 - srt,,0,0,0,,这是子民的福祉所在\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...it is in the best interests of the people.{\r}
+Dialogue: 0,0:13:19.79,0:13:23.91,720 - srt,,0,0,0,,- 什么?你了解子民吗?  - 星皇子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- What... do you know about THE PEOPLE?!   - Prince Shing!{\r}
+Dialogue: 0,0:13:25.73,0:13:29.34,720 - srt,,0,0,0,,吾儿并无恶意\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My son means me... no harm.{\r}
+Dialogue: 0,0:13:40.14,0:13:42.52,720 - srt,,0,0,0,,父王对你信任有加\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My father must trust you very much.{\r}
+Dialogue: 0,0:13:45.36,0:13:51.00,720 - srt,,0,0,0,,你有家人,有妻儿老小\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You have family? A wife? Children?{\r}
+Dialogue: 0,0:13:53.31,0:13:58.81,720 - srt,,0,0,0,,我一定会把你的孩子赶尽杀绝\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Resist me and I will see that your children are nailed to the walls of your home...{\r}
+Dialogue: 0,0:13:59.07,0:14:02.14,720 - srt,,0,0,0,,- 一刀一刀的  - 星\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}-...one piece at a time.   - Shing!{\r}
+Dialogue: 0,0:14:02.95,0:14:08.11,720 - srt,,0,0,0,,你妻子要被我的卫兵蹂躏一辈子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That your wife spends the rest of her life pleasuring my guards.{\r}
+Dialogue: 0,0:14:09.32,0:14:12.48,720 - srt,,0,0,0,,为王捐躯的日子一去不复返了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Die for a King whose time has passed...{\r}
+Dialogue: 0,0:14:13.06,0:14:15.20,720 - srt,,0,0,0,,快选择服侍新主吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}or choose to serve a new one.{\r}
+Dialogue: 0,0:14:21.38,0:14:25.69,720 - srt,,0,0,0,,下去吧,出去,全部退下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Leave us. Out! All of you.{\r}
+Dialogue: 0,0:14:42.45,0:14:44.79,720 - srt,,0,0,0,,记得这把匕首吗,父王?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Remember this blade, Father?{\r}
+Dialogue: 0,0:14:45.65,0:14:49.37,720 - srt,,0,0,0,,你母后曾经用它来救我的命\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your mother... once saved my life with it.{\r}
+Dialogue: 0,0:14:50.20,0:14:55.79,720 - srt,,0,0,0,,在我小时候,她送给了我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}When I was old enough... she gave it to me.{\r}
+Dialogue: 0,0:14:56.65,0:14:59.02,720 - srt,,0,0,0,,还说我会登基\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And told me I would be King.{\r}
+Dialogue: 0,0:14:59.21,0:15:01.73,720 - srt,,0,0,0,,但你不是她的宠儿\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But you are not the child she loved.{\r}
+Dialogue: 0,0:15:07.99,0:15:09.86,720 - srt,,0,0,0,,玉玺在哪儿?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Where is the seal?{\r}
+Dialogue: 0,0:15:16.90,0:15:20.15,720 - srt,,0,0,0,,玉玺在哪儿?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Where. Is. The. Seal?{\r}
+Dialogue: 0,0:15:59.86,0:16:02.99,720 - srt,,0,0,0,,老天不会原谅你的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Heaven... forgive him.{\r}
+Dialogue: 0,0:16:03.34,0:16:08.08,720 - srt,,0,0,0,,老天接近你了,都是你咎由自取\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Heaven is closed to me... because of all the things I've done for you.{\r}
+Dialogue: 0,0:16:22.49,0:16:25.60,720 - srt,,0,0,0,,陛下驾崩了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The King... is dead.{\r}
+Dialogue: 0,0:16:26.84,0:16:29.89,720 - srt,,0,0,0,,是被我的皇弟昭所杀\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Murdered. By Prince Qiang.{\r}
+Dialogue: 0,0:16:30.91,0:16:34.20,720 - srt,,0,0,0,,他夺走玉玺,给我找到他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}He stole the royal seal. Bring it to me.{\r}
+Dialogue: 0,0:16:41.08,0:16:42.11,720 - srt,,0,0,0,,跟我来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Follow me.{\r}
+Dialogue: 0,0:16:44.39,0:16:47.42,720 - srt,,0,0,0,,控制好你的手下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Keep your men under control.{\r}
+Dialogue: 0,0:16:47.88,0:16:49.35,720 - srt,,0,0,0,,传高将军进宫\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Summon General Gao.{\r}
+Dialogue: 0,0:16:50.78,0:16:51.66,720 - srt,,0,0,0,,好了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Now.{\r}
+Dialogue: 0,0:16:52.21,0:16:53.85,720 - srt,,0,0,0,,,我该如何发配你的家人?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Or should I send for your family?{\r}
+Dialogue: 0,0:17:00.04,0:17:01.61,720 - srt,,0,0,0,,快点\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The horse!{\r}
+Dialogue: 0,0:17:20.54,0:17:21.87,720 - srt,,0,0,0,,杀了他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Stop them!{\r}
+Dialogue: 0,0:17:31.43,0:17:32.71,720 - srt,,0,0,0,,走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go!{\r}
+Dialogue: 0,0:18:54.98,0:18:56.94,720 - srt,,0,0,0,,我们继续走吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Maybe we should just keep going?{\r}
+Dialogue: 0,0:18:57.22,0:19:01.18,720 - srt,,0,0,0,,走不了多远的,没马了,我们需要求助\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And how far will we get? We have no horse. We need help.{\r}
+Dialogue: 0,0:19:10.00,0:19:12.79,720 - srt,,0,0,0,,- 你留下  - 莲,应该是我去\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- You stay here.   - But Lian, I should go!{\r}
+Dialogue: 0,0:19:13.08,0:19:17.36,720 - srt,,0,0,0,,父王选择你,因为他知道你很坚强\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Father chose you, because he knows you are strong.{\r}
+Dialogue: 0,0:19:20.57,0:19:24.47,720 - srt,,0,0,0,,不管怎样,你都要继续走,你会找到将军的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Whatever happens, you keep going. You reach the Generals.{\r}
+Dialogue: 0,0:19:24.82,0:19:26.41,720 - srt,,0,0,0,,做你的皇帝\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And you will be King.{\r}
+Dialogue: 0,0:19:35.11,0:19:36.37,720 - srt,,0,0,0,,千万当心\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Be careful.{\r}
+Dialogue: 0,0:20:32.38,0:20:33.34,720 - srt,,0,0,0,,来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Here.{\r}
+Dialogue: 0,0:20:36.01,0:20:37.56,720 - srt,,0,0,0,,没钱就别想吃\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No money, no food.{\r}
+Dialogue: 0,0:20:44.08,0:20:48.14,720 - srt,,0,0,0,,当初你进来的时候,我还以为你是白幽灵呢\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}When you first came in, I thought you might be the White Ghost.{\r}
+Dialogue: 0,0:20:50.07,0:20:51.72,720 - srt,,0,0,0,,看来我错了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I guess I was wrong.{\r}
+Dialogue: 0,0:20:58.28,0:20:59.76,720 - srt,,0,0,0,,那是公主吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Is that the Princess?{\r}
+Dialogue: 0,0:21:04.55,0:21:06.01,720 - srt,,0,0,0,,我想找护卫\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I seek an escort for the road.{\r}
+Dialogue: 0,0:21:12.87,0:21:13.85,720 - srt,,0,0,0,,我有钱\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I can pay.{\r}
+Dialogue: 0,0:21:14.11,0:21:17.56,720 - srt,,0,0,0,,死人要钱干什么?黑衣护卫在猎杀你们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What use is coin to the dead? The Black Guards are hunting you.{\r}
+Dialogue: 0,0:21:19.24,0:21:21.86,720 - srt,,0,0,0,,看我看到谁在外边转悠了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Look who I found skulking outside!{\r}
+Dialogue: 0,0:21:23.85,0:21:25.59,720 - srt,,0,0,0,,昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}zhao{\r}
+Dialogue: 0,0:21:26.70,0:21:28.87,720 - srt,,0,0,0,,对不起,我没发现他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm sorry, I did not see them.{\r}
+Dialogue: 0,0:21:32.98,0:21:36.57,720 - srt,,0,0,0,,- 我父王会知道的  - 他早死了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- My father will hear of this.   - So the dead have ears.{\r}
+Dialogue: 0,0:21:37.64,0:21:41.29,720 - srt,,0,0,0,,不,我父王没死,不是真的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No, my father is not dead. It's not true!{\r}
+Dialogue: 0,0:21:41.41,0:21:45.26,720 - srt,,0,0,0,,哦,是吗,还是你杀死他的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Oh, you know it is. After all it was you who murdered him.{\r}
+Dialogue: 0,0:21:46.46,0:21:50.63,720 - srt,,0,0,0,,- 或者是你,莲公主?  - 是星\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Or was it you, Princess?   - Shing.{\r}
+Dialogue: 0,0:21:52.11,0:21:54.85,720 - srt,,0,0,0,,玉玺在哪儿?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The seal, where is it?{\r}
+Dialogue: 0,0:21:59.39,0:22:00.21,720 - srt,,0,0,0,,可以吧?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You mind?{\r}
+Dialogue: 0,0:22:09.80,0:22:11.18,720 - srt,,0,0,0,,抓住他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Hold them.{\r}
+Dialogue: 0,0:22:13.14,0:22:15.48,720 - srt,,0,0,0,,不,住手\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No! Stop it.{\r}
+Dialogue: 0,0:22:19.27,0:22:20.56,720 - srt,,0,0,0,,还给我!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Give it back to me!{\r}
+Dialogue: 0,0:22:22.01,0:22:25.39,720 - srt,,0,0,0,,- 玉玺是我的!  - 杀了他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- The seal is mine!   - Cut these throats.{\r}
+Dialogue: 0,0:22:25.83,0:22:27.50,720 - srt,,0,0,0,,不\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No{\r}
+Dialogue: 0,0:22:27.63,0:22:29.51,720 - srt,,0,0,0,,不\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}NO{\r}
+Dialogue: 0,0:22:37.60,0:22:40.05,720 - srt,,0,0,0,,剑是我的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The sword... is mine.{\r}
+Dialogue: 0,0:22:41.62,0:22:43.31,720 - srt,,0,0,0,,它属于我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It belongs to me.{\r}
+Dialogue: 0,0:22:45.35,0:22:47.03,720 - srt,,0,0,0,,我想要回来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'd like it back.{\r}
+Dialogue: 0,0:22:47.23,0:22:48.70,720 - srt,,0,0,0,,过来拿啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Then come.{\r}
+Dialogue: 0,0:22:51.63,0:22:53.42,720 - srt,,0,0,0,,拿着\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Take it.{\r}
+Dialogue: 0,0:23:04.35,0:23:05.84,720 - srt,,0,0,0,,鸦片\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Opium.{\r}
+Dialogue: 0,0:23:06.89,0:23:11.02,720 - srt,,0,0,0,,你这种傻瓜,收拾他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your kind are such fools. Clean him up.{\r}
+Dialogue: 0,0:23:19.97,0:23:21.08,720 - srt,,0,0,0,,宰了他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Kill him.{\r}
+Dialogue: 0,0:24:28.14,0:24:29.76,720 - srt,,0,0,0,,- 莲  - 昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Lian.   - Qiang!{\r}
+Dialogue: 0,0:24:40.61,0:24:43.82,720 - srt,,0,0,0,,对了,这孩子死定了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Either way, the boy dies.{\r}
+Dialogue: 0,0:24:45.31,0:24:51.14,720 - srt,,0,0,0,,- 杀吧,我只想要回剑  - 给你的话,你就走?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Kill him then, I just want my sword back.   - If I give it to you, then will you leave?{\r}
+Dialogue: 0,0:25:20.31,0:25:21.97,720 - srt,,0,0,0,,你一定要帮帮我们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You have to help us.{\r}
+Dialogue: 0,0:25:22.92,0:25:24.49,720 - srt,,0,0,0,,祝你好运,公主\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Good luck, Princess.{\r}
+Dialogue: 0,0:25:45.84,0:25:47.04,720 - srt,,0,0,0,,且慢,请留步\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wait!{\r}
+Dialogue: 0,0:26:00.02,0:26:01.60,720 - srt,,0,0,0,,当心点\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Much obliged.{\r}
+Dialogue: 0,0:26:02.65,0:26:04.99,720 - srt,,0,0,0,,等下,昭,来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wait. Qiang, come.{\r}
+Dialogue: 0,0:26:05.93,0:26:09.97,720 - srt,,0,0,0,,求你了,帮我们吧,我们必须去行云城\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Please!Help us. We must get to Shing Yuing.{\r}
+Dialogue: 0,0:26:10.48,0:26:13.44,720 - srt,,0,0,0,,你会得到荣华富贵的,我们有黄金\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If your reward is what you seek, we have gold.{\r}
+Dialogue: 0,0:26:14.99,0:26:17.24,720 - srt,,0,0,0,,我弟弟是江山最后的希望了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My brother is the Kingdom's only hope.{\r}
+Dialogue: 0,0:26:17.24,0:26:19.54,720 - srt,,0,0,0,,你不帮我们,我们会被杀的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If you don't help us, we will be killed.{\r}
+Dialogue: 0,0:26:20.15,0:26:23.40,720 - srt,,0,0,0,,走,留在这只有死路一条\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Come. You will be if you stay here.{\r}
+Dialogue: 0,0:28:08.08,0:28:10.48,720 - srt,,0,0,0,,驾!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Jia{\r}
+Dialogue: 0,0:28:15.58,0:28:19.48,720 - srt,,0,0,0,,想动手就动吧,有人来了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do what you must, but there are riders down below.{\r}
+Dialogue: 0,0:28:21.01,0:28:24.24,720 - srt,,0,0,0,,- 多少人?  - 叫醒他,轻点\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- How many?   - Wake the boy. Quietly.{\r}
+Dialogue: 0,0:28:27.11,0:28:29.50,720 - srt,,0,0,0,,- 嘘,我们必须藏起来  - 什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Shh. We have to hide.   - What.{\r}
+Dialogue: 0,0:29:08.11,0:29:09.60,720 - srt,,0,0,0,,继续搜\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Keep looking!{\r}
+Dialogue: 0,0:29:10.24,0:29:11.54,720 - srt,,0,0,0,,驾!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Jia{\r}
+Dialogue: 0,0:29:20.97,0:29:22.22,720 - srt,,0,0,0,,你怎么回来了?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Why did you come back?{\r}
+Dialogue: 0,0:29:24.06,0:29:25.61,720 - srt,,0,0,0,,你拿回你的剑了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You had your sword.{\r}
+Dialogue: 0,0:29:28.93,0:29:30.21,720 - srt,,0,0,0,,是你说有黄金的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You promised gold.{\r}
+Dialogue: 0,0:29:36.95,0:29:39.18,720 - srt,,0,0,0,,反正我也要去那里\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And I was having that way, anyway.{\r}
+Dialogue: 0,0:29:45.98,0:29:47.92,720 - srt,,0,0,0,,你去那里做什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What brings you to our lands?{\r}
+Dialogue: 0,0:29:58.77,0:30:02.41,720 - srt,,0,0,0,,我知道,但我们只有这些了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I know. But it's all we have.{\r}
+Dialogue: 0,0:30:24.33,0:30:25.39,720 - srt,,0,0,0,,停下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let's stop.{\r}
+Dialogue: 0,0:30:29.39,0:30:30.42,720 - srt,,0,0,0,,等着我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wait here.{\r}
+Dialogue: 0,0:30:46.76,0:30:48.47,720 - srt,,0,0,0,,我叫你等着\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I said, wait.{\r}
+Dialogue: 0,0:31:02.04,0:31:03.39,720 - srt,,0,0,0,,这都是我们的错\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}This is our fault.{\r}
+Dialogue: 0,0:31:07.98,0:31:10.44,720 - srt,,0,0,0,,- 他们需要求助  - 我们需要离开,走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- They need help.   - We need to go, come on.{\r}
+Dialogue: 0,0:31:11.38,0:31:13.02,720 - srt,,0,0,0,,你不能一走了之\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You can't just go!{\r}
+Dialogue: 0,0:31:14.25,0:31:15.78,720 - srt,,0,0,0,,等下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wait!{\r}
+Dialogue: 0,0:32:10.81,0:32:12.37,720 - srt,,0,0,0,,这怎么可能?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}How is that possible?{\r}
+Dialogue: 0,0:32:26.78,0:32:29.70,720 - srt,,0,0,0,,- 放开我  - 快走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Let me go!   - Come on!{\r}
+Dialogue: 0,0:32:37.13,0:32:38.34,720 - srt,,0,0,0,,不客气\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're welcome.{\r}
+Dialogue: 0,0:32:39.81,0:32:41.25,720 - srt,,0,0,0,,没事了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's great.{\r}
+Dialogue: 0,0:32:41.27,0:32:42.84,720 - srt,,0,0,0,,没事了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's great.{\r}
+Dialogue: 0,0:32:47.74,0:32:49.16,720 - srt,,0,0,0,,我们是来帮你的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm only trying to help.{\r}
+Dialogue: 0,0:32:50.21,0:32:51.80,720 - srt,,0,0,0,,好吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}All right?{\r}
+Dialogue: 0,0:32:53.53,0:32:55.86,720 - srt,,0,0,0,,- 我叫莲  - 我叫昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- I'm Lian.   - I'm Qiang.{\r}
+Dialogue: 0,0:32:57.08,0:32:57.97,720 - srt,,0,0,0,,你呢?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And you?{\r}
+Dialogue: 0,0:33:01.21,0:33:02.64,720 - srt,,0,0,0,,小丽\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Xaoi.{\r}
+Dialogue: 0,0:33:03.70,0:33:05.18,720 - srt,,0,0,0,,好名字啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Beautiflu name.{\r}
+Dialogue: 0,0:33:07.59,0:33:09.61,720 - srt,,0,0,0,,不能丢下她\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We can't just abandon her.{\r}
+Dialogue: 0,0:33:11.14,0:33:14.59,720 - srt,,0,0,0,,又多一张嘴吃饭,又要多藏一个人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's one more mouth to feed, and one more body to hide.{\r}
+Dialogue: 0,0:33:18.04,0:33:20.43,720 - srt,,0,0,0,,是三个,不是四个\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They seek three, not four.{\r}
+Dialogue: 0,0:33:25.64,0:33:27.21,720 - srt,,0,0,0,,好吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}All right.{\r}
+Dialogue: 0,0:33:31.70,0:33:34.32,720 - srt,,0,0,0,,那一箭,你是怎么做到的?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That shot. How did you make it?{\r}
+Dialogue: 0,0:33:35.59,0:33:36.97,720 - srt,,0,0,0,,练习\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Practice.{\r}
+Dialogue: 0,0:33:37.53,0:33:40.08,720 - srt,,0,0,0,,我们进山回到林子里\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We go off the map, get through the woods.{\r}
+Dialogue: 0,0:33:40.55,0:33:43.97,720 - srt,,0,0,0,,但愿一路上不会再遇到黑衣护卫\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Hopefully we won't see any Black Guards until Ching Shao.{\r}
+Dialogue: 0,0:33:56.62,0:33:59.69,720 - srt,,0,0,0,,陛下,高将军到\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your Majesty, General Gao.{\r}
+Dialogue: 0,0:34:01.46,0:34:04.16,720 - srt,,0,0,0,,- 星王爷  - 是陛下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Lord Shing.   - Majesty.{\r}
+Dialogue: 0,0:34:06.97,0:34:10.67,720 - srt,,0,0,0,,你手下有多少将士奉命保护他?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}How many of your fellow generals will offer support to the boy?{\r}
+Dialogue: 0,0:34:11.81,0:34:16.58,720 - srt,,0,0,0,,一旦诏书下发,就要举行仪式,没有仪式了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Once the Council has officiated over the appropriate ceremony...{\r}
+Dialogue: 0,0:34:16.77,0:34:21.27,720 - srt,,0,0,0,,得先有玉玺\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... can't be no ceremonies without the seal.{\r}
+Dialogue: 0,0:34:22.83,0:34:28.55,720 - srt,,0,0,0,,但是,既然玉玺在他手上,那就没办法了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But... if he... has the seal, there's nothing to be done.{\r}
+Dialogue: 0,0:34:36.74,0:34:38.52,720 - srt,,0,0,0,,他谋杀父王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}He murdered my father.{\r}
+Dialogue: 0,0:34:39.81,0:34:41.99,720 - srt,,0,0,0,,抢走玉玺\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Stole the Seal.{\r}
+Dialogue: 0,0:34:44.01,0:34:45.81,720 - srt,,0,0,0,,如果这样\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If that's the case...{\r}
+Dialogue: 0,0:34:46.52,0:34:49.29,720 - srt,,0,0,0,,他会受到相应的惩罚\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...he will be punished. Accordingly.{\r}
+Dialogue: 0,0:34:49.92,0:34:52.31,720 - srt,,0,0,0,,罪不可赦\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's inexcusable.{\r}
+Dialogue: 0,0:34:52.95,0:34:55.63,720 - srt,,0,0,0,,皇太子也不例外\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Even from a Prince.{\r}
+Dialogue: 0,0:35:06.96,0:35:08.47,720 - srt,,0,0,0,,请见谅,将军\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Forgive me, General.{\r}
+Dialogue: 0,0:35:11.82,0:35:15.65,720 - srt,,0,0,0,,父王被杀,令我心灰意冷\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My father's murder has left me overemotional.{\r}
+Dialogue: 0,0:35:24.04,0:35:26.12,720 - srt,,0,0,0,,他们会去行云城\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They will be heading to Shing Yuing.{\r}
+Dialogue: 0,0:35:26.93,0:35:28.81,720 - srt,,0,0,0,,一定不能让他们得逞\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Make sure they never get there.{\r}
+Dialogue: 0,0:35:33.34,0:35:35.19,720 - srt,,0,0,0,,对不起,星的手下滥杀无辜\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm sorry, for what Shing's men did.{\r}
+Dialogue: 0,0:35:36.57,0:35:38.24,720 - srt,,0,0,0,,他也杀了我父亲\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}He murdered my father, too.{\r}
+Dialogue: 0,0:35:38.32,0:35:41.32,720 - srt,,0,0,0,,为什么?你们没收了我们的犁头\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}For what, a few coins and a rusty plough?{\r}
+Dialogue: 0,0:35:41.54,0:35:43.13,720 - srt,,0,0,0,,那不是我们的错\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Does it matter what it was for?{\r}
+Dialogue: 0,0:35:43.58,0:35:46.81,720 - srt,,0,0,0,,我会改革的,帮助你这样的百姓\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I want to make things better, for people like you!{\r}
+Dialogue: 0,0:35:47.44,0:35:52.11,720 - srt,,0,0,0,,你以为我这种百姓能改善生活?你高高在上的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do you think it makes a difference for people like me-who sits on the throne?{\r}
+Dialogue: 0,0:35:52.19,0:35:55.54,720 - srt,,0,0,0,,应该能,我会改善民生的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It should. And we change things.{\r}
+Dialogue: 0,0:35:56.99,0:35:58.45,720 - srt,,0,0,0,,你不信我?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You don't believe me?{\r}
+Dialogue: 0,0:35:59.66,0:36:05.01,720 - srt,,0,0,0,,我不信你,你还那么小,而行云城还远在天边呢\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I believe you're just a boy, and Shing Yuing is still faaar away.{\r}
+Dialogue: 0,0:36:05.19,0:36:08.24,720 - srt,,0,0,0,,但比昨天更近了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And yet, it's closer than yesterday.{\r}
+Dialogue: 0,0:36:20.14,0:36:21.75,720 - srt,,0,0,0,,在这里宿营\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We'll make camp here.{\r}
+Dialogue: 0,0:36:46.88,0:36:48.27,720 - srt,,0,0,0,,喂!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Hei{\r}
+Dialogue: 0,0:36:52.73,0:36:54.24,720 - srt,,0,0,0,,可恶\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Shit{\r}
+Dialogue: 0,0:36:56.57,0:36:58.25,720 - srt,,0,0,0,,我需要它\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I needed that.{\r}
+Dialogue: 0,0:36:58.89,0:37:02.12,720 - srt,,0,0,0,,那是摧毁人意志的力量\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Tear of the poppy. Dull the man's senses.{\r}
+Dialogue: 0,0:37:04.69,0:37:06.99,720 - srt,,0,0,0,,总比清醒要好\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Some things are better dulled.{\r}
+Dialogue: 0,0:37:08.81,0:37:11.30,720 - srt,,0,0,0,,我们的性命和国家的命运\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Our lives and the future of our Kingdom...{\r}
+Dialogue: 0,0:37:13.07,0:37:15.12,720 - srt,,0,0,0,,都仰仗你了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... depending upon your wits.{\r}
+Dialogue: 0,0:37:16.75,0:37:18.46,720 - srt,,0,0,0,,那是你的国家\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your Kingdom.{\r}
+Dialogue: 0,0:37:23.86,0:37:25.70,720 - srt,,0,0,0,,你背井离乡\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're far from home.{\r}
+Dialogue: 0,0:37:26.87,0:37:30.57,720 - srt,,0,0,0,,是在逃亡吗?还是在搜索?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Are you running? Or searching?{\r}
+Dialogue: 0,0:37:31.01,0:37:32.51,720 - srt,,0,0,0,,两者都是\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Both.{\r}
+Dialogue: 0,0:37:36.67,0:37:38.65,720 - srt,,0,0,0,,你们的人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your people...{\r}
+Dialogue: 0,0:37:39.89,0:37:43.69,720 - srt,,0,0,0,,- 相信有地狱吗?  - 我们相信你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}-... do they believe in Hell?   - We believe in Diyu.{\r}
+Dialogue: 0,0:37:44.93,0:37:46.92,720 - srt,,0,0,0,,周围都是死神\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The realm of the Dead.{\r}
+Dialogue: 0,0:37:47.93,0:37:50.92,720 - srt,,0,0,0,,社稷江山都在等我们振兴\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}One is assigned to one of 18 levels.{\r}
+Dialogue: 0,0:37:51.00,0:37:54.47,720 - srt,,0,0,0,,不能出错,不能再有血雨腥风\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}A place of heart. The Lake of blood.{\r}
+Dialogue: 0,0:37:57.72,0:37:59.48,720 - srt,,0,0,0,,有罪就必须要惩处\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The punishment fits the crime.{\r}
+Dialogue: 0,0:38:01.33,0:38:03.00,720 - srt,,0,0,0,,你有什么罪?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What was yours?{\r}
+Dialogue: 0,0:38:05.11,0:38:07.56,720 - srt,,0,0,0,,我作恶多端\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Ohh... there've been many.{\r}
+Dialogue: 0,0:38:11.33,0:38:13.81,720 - srt,,0,0,0,,我们都有罪要赎\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We all have our weights to bear.{\r}
+Dialogue: 0,0:38:17.38,0:38:22.64,720 - srt,,0,0,0,,公主肯定不用...承担重负\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No doubt, the life of a Princess... is a heavy burden.{\r}
+Dialogue: 0,0:38:22.76,0:38:25.85,720 - srt,,0,0,0,,你知道在这个世界做女人是什么滋味吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do you know what it's like-being a woman in this world?{\r}
+Dialogue: 0,0:38:26.05,0:38:29.88,720 - srt,,0,0,0,,你以为眼睁睁看着生灵涂炭,就没有负担吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do you think watching men destroy everything you care about bears no weight?{\r}
+Dialogue: 0,0:38:30.55,0:38:32.73,720 - srt,,0,0,0,,因为什么?荣耀?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And for what? Pride?{\r}
+Dialogue: 0,0:38:34.35,0:38:35.60,720 - srt,,0,0,0,,贪婪?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Greed?{\r}
+Dialogue: 0,0:38:36.55,0:38:39.73,720 - srt,,0,0,0,,你们士兵一定要创造新世界\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You warriors march off and forge new worlds.{\r}
+Dialogue: 0,0:38:39.99,0:38:42.60,720 - srt,,0,0,0,,我们一定要保护孩子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We have to stay behind, to raise the children.{\r}
+Dialogue: 0,0:38:44.46,0:38:47.12,720 - srt,,0,0,0,,我们一定要为父王报仇\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We have to explain why their fathers don't return.{\r}
+Dialogue: 0,0:38:48.54,0:38:51.94,720 - srt,,0,0,0,,我们还一定要惩罚那个畜生\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And we have to fix the broken creatures that do.{\r}
+Dialogue: 0,0:38:56.55,0:38:58.95,720 - srt,,0,0,0,,不要批评我的生活\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do not judge my life.{\r}
+Dialogue: 0,0:38:59.21,0:39:02.84,720 - srt,,0,0,0,,- 你根本就不了解女人  - 对不起\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- When you know nothing about being a woman.   - I'm sorry.{\r}
+Dialogue: 0,0:39:03.62,0:39:06.69,720 - srt,,0,0,0,,公主也是人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}A Princess... is a woman, too.{\r}
+Dialogue: 0,0:39:09.54,0:39:12.54,720 - srt,,0,0,0,,我以前什么事都依你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I am, what you wanted of me.{\r}
+Dialogue: 0,0:39:15.19,0:39:18.22,720 - srt,,0,0,0,,我做了你下不了手的事\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I did what you needed, but couldn't.{\r}
+Dialogue: 0,0:39:22.13,0:39:24.94,720 - srt,,0,0,0,,我会如愿以偿的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I will have what is mine.{\r}
+Dialogue: 0,0:39:36.50,0:39:37.57,720 - srt,,0,0,0,,醒醒\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wake up.{\r}
+Dialogue: 0,0:39:44.58,0:39:46.73,720 - srt,,0,0,0,,我想像你那样射箭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I want to fire arrows like you.{\r}
+Dialogue: 0,0:39:54.52,0:39:55.51,720 - srt,,0,0,0,,教教我吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Teach me.{\r}
+Dialogue: 0,0:40:06.12,0:40:07.46,720 - srt,,0,0,0,,求你了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}please{\r}
+Dialogue: 0,0:40:12.01,0:40:13.10,720 - srt,,0,0,0,,教我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Teach me!{\r}
+Dialogue: 0,0:40:17.77,0:40:19.73,720 - srt,,0,0,0,,我还以为白幽灵不用洗澡呢\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I thought White Devils didn't bathe.{\r}
+Dialogue: 0,0:40:21.88,0:40:24.87,720 - srt,,0,0,0,,这是远离家乡养成的恶习\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}A man picks up bad habits when he is away from home.{\r}
+Dialogue: 0,0:40:26.84,0:40:30.57,720 - srt,,0,0,0,,你征战无数,我也想成为一名勇士\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You've been in many battles? I wish to become a great warrior, too.{\r}
+Dialogue: 0,0:40:31.25,0:40:34.48,720 - srt,,0,0,0,,可父王让我读书,不让我习武\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My father wanted me to learn from books, not have to fight.{\r}
+Dialogue: 0,0:40:35.93,0:40:37.47,720 - srt,,0,0,0,,教我吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Teach me!{\r}
+Dialogue: 0,0:40:38.08,0:40:40.21,720 - srt,,0,0,0,,- 为什么?  - 为我父王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Why?   - My father...{\r}
+Dialogue: 0,0:40:42.16,0:40:43.77,720 - srt,,0,0,0,,星必须付出代价\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Shing must pay.{\r}
+Dialogue: 0,0:40:46.51,0:40:47.56,720 - srt,,0,0,0,,求你了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Please.{\r}
+Dialogue: 0,0:40:49.41,0:40:50.34,720 - srt,,0,0,0,,教我吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Teach me.{\r}
+Dialogue: 0,0:40:53.41,0:40:55.64,720 - srt,,0,0,0,,战争需要技能\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Battle is both craft and art.{\r}
+Dialogue: 0,0:40:56.87,0:40:58.97,720 - srt,,0,0,0,,首先你要勤学苦练\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}First you must learn to craft.{\r}
+Dialogue: 0,0:41:00.01,0:41:05.88,720 - srt,,0,0,0,,然后取得进步,直到行动和反应成为本能\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Then you push past it, until action and reaction become instinct. A part of you.{\r}
+Dialogue: 0,0:41:07.76,0:41:11.12,720 - srt,,0,0,0,,教你的人武功高强吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The man who taught you, was he a great warrior?{\r}
+Dialogue: 0,0:41:27.57,0:41:30.75,720 - srt,,0,0,0,,腰一定要挺直,肩膀放平\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Use your back, allright? Not your shoulders.{\r}
+Dialogue: 0,0:41:32.25,0:41:33.25,720 - srt,,0,0,0,,放\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Release.{\r}
+Dialogue: 0,0:41:49.45,0:41:50.42,720 - srt,,0,0,0,,射箭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Fire.{\r}
+Dialogue: 0,0:42:03.84,0:42:04.63,720 - srt,,0,0,0,,放\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Fire!{\r}
+Dialogue: 0,0:42:11.15,0:42:12.06,720 - srt,,0,0,0,,对不起\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm sorry!{\r}
+Dialogue: 0,0:42:13.95,0:42:14.73,720 - srt,,0,0,0,,没关系\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Better.{\r}
+Dialogue: 0,0:42:18.10,0:42:20.06,720 - srt,,0,0,0,,你对我弟弟真好\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're good with my brother.{\r}
+Dialogue: 0,0:42:21.00,0:42:23.06,720 - srt,,0,0,0,,这孩子心地善良,头脑聪明\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The boy has a good heart and mind.{\r}
+Dialogue: 0,0:42:24.51,0:42:26.22,720 - srt,,0,0,0,,跟他姐姐一样\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Like his sister.{\r}
+Dialogue: 0,0:42:29.16,0:42:32.38,720 - srt,,0,0,0,,一直往东走的话,早就到行云城了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If we'd gone East, we'd already been nearing Shing Yuing.{\r}
+Dialogue: 0,0:42:32.53,0:42:34.79,720 - srt,,0,0,0,,你以为黑衣护卫不知道吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Where do you think the most of Black Guard are concentrated?{\r}
+Dialogue: 0,0:42:35.50,0:42:38.33,720 - srt,,0,0,0,,所以我们要绕道而行\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Once we get past Ching Shao, there is less chance that they follow.{\r}
+Dialogue: 0,0:42:38.82,0:42:41.64,720 - srt,,0,0,0,,我弟弟走到哪儿,他们就杀到哪儿\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They follow where my brother instructs.{\r}
+Dialogue: 0,0:42:41.96,0:42:45.85,720 - srt,,0,0,0,,白色骑士也杀过你的人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}In the Silver Mountains there said to be bandits who despise your brother and his men.{\r}
+Dialogue: 0,0:42:46.48,0:42:48.21,720 - srt,,0,0,0,,你指白幽灵?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You mean the White Ghost.{\r}
+Dialogue: 0,0:42:48.50,0:42:50.61,720 - srt,,0,0,0,,难道你不一视同仁吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Wouldn't he despise us equally?{\r}
+Dialogue: 0,0:42:59.97,0:43:01.70,720 - srt,,0,0,0,,安静,蹲下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Quiet, stay low.{\r}
+Dialogue: 0,0:43:11.20,0:43:13.87,720 - srt,,0,0,0,,我们要快点走,上马\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We should move on, quickly, Mount off.{\r}
+Dialogue: 0,0:43:19.86,0:43:21.34,720 - srt,,0,0,0,,谢谢\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Thank you.{\r}
+Dialogue: 0,0:43:22.70,0:43:24.14,720 - srt,,0,0,0,,不客气\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're welcome.{\r}
+Dialogue: 0,0:43:41.81,0:43:43.46,720 - srt,,0,0,0,,青纱城\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Ching Shao.{\r}
+Dialogue: 0,0:43:45.85,0:43:48.06,720 - srt,,0,0,0,,所有人都在找你们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Everyone will be looking for you.{\r}
+Dialogue: 0,0:43:49.49,0:43:51.56,720 - srt,,0,0,0,,得设法进城\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We need to find a way in.{\r}
+Dialogue: 0,0:44:11.49,0:44:13.90,720 - srt,,0,0,0,,- 你好  - 你好\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Greetings.   - Greetings.{\r}
+Dialogue: 0,0:44:15.93,0:44:20.31,720 - srt,,0,0,0,,我在带我家小姐和她的男仆赶路,想找个伴\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm travelling with my mistress and her servant boy, searching for new company.{\r}
+Dialogue: 0,0:44:22.04,0:44:27.01,720 - srt,,0,0,0,,这个要求一定可以满足,只要价钱合适\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You will find us extremely hospitable, for the right price.{\r}
+Dialogue: 0,0:44:32.34,0:44:35.44,720 - srt,,0,0,0,,你和你家小姐可以跟着我们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You and your lady are welcome to join us.{\r}
+Dialogue: 0,0:44:39.16,0:44:41.72,720 - srt,,0,0,0,,她很害羞,喜欢一个人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}She's shy, she enjoys her privacy.{\r}
+Dialogue: 0,0:44:42.06,0:44:45.44,720 - srt,,0,0,0,,到了城里,那就更喜欢了,那里可全都是陌生人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}She will enjoy it so much more in a city full of strangers.{\r}
+Dialogue: 0,0:44:58.53,0:45:00.38,720 - srt,,0,0,0,,你把你的黄金给他了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You gave her your gold.{\r}
+Dialogue: 0,0:45:03.15,0:45:06.92,720 - srt,,0,0,0,,我想等我们到达鑫源会付你钱的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'll see you are properly rewarded when we reach Shing Yuing.{\r}
+Dialogue: 0,0:45:26.80,0:45:28.51,720 - srt,,0,0,0,,不要说话\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Stay calm.{\r}
+Dialogue: 0,0:45:30.53,0:45:31.42,720 - srt,,0,0,0,,让开\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}make move{\r}
+Dialogue: 0,0:45:34.73,0:45:36.24,720 - srt,,0,0,0,,这必须慢点来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Dismount slowly.{\r}
+Dialogue: 0,0:45:44.65,0:45:47.04,720 - srt,,0,0,0,,- 下车  - 有什么问题吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Out of the cart!   - What seems to be the problem?{\r}
+Dialogue: 0,0:45:47.12,0:45:49.62,720 - srt,,0,0,0,,我们在找殿下和公主\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We are searching for the Prince and Princess.{\r}
+Dialogue: 0,0:45:50.11,0:45:52.41,720 - srt,,0,0,0,,你在里面是找不到让你有兴趣的东西的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You'll find nothing of interest here.{\r}
+Dialogue: 0,0:45:56.96,0:45:58.83,720 - srt,,0,0,0,,让他们通过\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let them through!{\r}
+Dialogue: 0,0:46:04.88,0:46:07.20,720 - srt,,0,0,0,,快,我们走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Come on, let's go.{\r}
+Dialogue: 0,0:46:26.63,0:46:28.31,720 - srt,,0,0,0,,你做得很好\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You did well.{\r}
+Dialogue: 0,0:46:48.33,0:46:50.09,720 - srt,,0,0,0,,你们应该跟我们在一起\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You should stay with us.{\r}
+Dialogue: 0,0:46:50.09,0:46:51.89,720 - srt,,0,0,0,,我想我的女主人更愿意自己上路\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I think my mistress would prefer to keep travelling.{\r}
+Dialogue: 0,0:46:51.99,0:46:54.84,720 - srt,,0,0,0,,你们都累坏了,想想孩子吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're exhausted, and think of the children.{\r}
+Dialogue: 0,0:46:55.45,0:46:59.93,720 - srt,,0,0,0,,我有特权,你们也同样会有\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I have private rooms, your mistress will appreciate the privacy.{\r}
+Dialogue: 0,0:47:40.90,0:47:42.53,720 - srt,,0,0,0,,你看什么啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Waht are you looking at?{\r}
+Dialogue: 0,0:47:56.59,0:47:58.48,720 - srt,,0,0,0,,你们要比看起来更饿\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You are hungrier than you appeared.{\r}
+Dialogue: 0,0:48:00.06,0:48:04.51,720 - srt,,0,0,0,,带我的客人去沐浴,他们一定累了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Take my guests to clean up. They must be tired.{\r}
+Dialogue: 0,0:48:11.46,0:48:12.83,720 - srt,,0,0,0,,留下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Stay.{\r}
+Dialogue: 0,0:48:14.27,0:48:17.05,720 - srt,,0,0,0,,我可能有你感兴趣的东西\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I have something that may interest you.{\r}
+Dialogue: 0,0:48:27.14,0:48:29.26,720 - srt,,0,0,0,,一定要确保自己的旅途安全\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Make sure you are fit to travel.{\r}
+Dialogue: 0,0:48:32.45,0:48:34.66,720 - srt,,0,0,0,,谢谢你的好客\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Thank you for your hospitality.{\r}
+Dialogue: 0,0:48:47.66,0:48:49.85,720 - srt,,0,0,0,,这是为你身体着想\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's all to your health.{\r}
+Dialogue: 0,0:48:58.41,0:48:59.76,720 - srt,,0,0,0,,这边走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}This way.{\r}
+Dialogue: 0,0:49:10.06,0:49:12.59,720 - srt,,0,0,0,,- 你没事吧?  - 我当然没事\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Are you all right?   - Of course I am.{\r}
+Dialogue: 0,0:49:13.38,0:49:16.69,720 - srt,,0,0,0,,- 他也为我们服务  - 有人说他不是吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- He served us well.   - Did anyone say he hasn't?{\r}
+Dialogue: 0,0:49:18.31,0:49:19.77,720 - srt,,0,0,0,,现在快去夕照\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Now go and get cleaned up.{\r}
+Dialogue: 0,0:49:21.09,0:49:23.43,720 - srt,,0,0,0,,明天第一件事就是离开这里\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I want to be ready to leave first thing tomorrow.{\r}
+Dialogue: 0,0:49:23.51,0:49:26.31,720 - srt,,0,0,0,,- 太早了  - 照我说的做,昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- It's still early.   - Just do as I say, Xiaoli.{\r}
+Dialogue: 0,0:49:34.57,0:49:39.24,720 - srt,,0,0,0,,失陪一下,我有生意要照看\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If you'll excuse me, I have some business to attend to.{\r}
+Dialogue: 0,0:49:43.85,0:49:45.60,720 - srt,,0,0,0,,你给我喝的是什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What did you give me?{\r}
+Dialogue: 0,0:49:50.38,0:49:51.76,720 - srt,,0,0,0,,抓住他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Help the man!{\r}
+Dialogue: 0,0:49:53.28,0:49:55.80,720 - srt,,0,0,0,,很显然他不胜酒力\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Apparently he can't handle his drink.{\r}
+Dialogue: 0,0:51:22.18,0:51:27.19,720 - srt,,0,0,0,,你们要的不是他,我会给你数不清的钱\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's not you they want! They're worth more money than you've ever seen! Your share alone!{\r}
+Dialogue: 0,0:51:28.52,0:51:30.21,720 - srt,,0,0,0,,我已经有了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I already have a mistress.{\r}
+Dialogue: 0,0:51:32.49,0:51:36.19,720 - srt,,0,0,0,,- 快走  - 发生什么事了?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Come on, you have to go. Come on, now!   - What happened?{\r}
+Dialogue: 0,0:51:36.59,0:51:39.32,720 - srt,,0,0,0,,我们走,我们落入陷阱了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let's go! We've been betrayed.{\r}
+Dialogue: 0,0:51:41.11,0:51:44.71,720 - srt,,0,0,0,,- 快点  - 等等,我们的马呢?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Hurry, this way.   - Wait, our horses!{\r}
+Dialogue: 0,0:51:44.81,0:51:48.10,720 - srt,,0,0,0,,骑马是无法通过关卡的,到河里,找船\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You'll never pass the city gates. Go to the river and find a boat.{\r}
+Dialogue: 0,0:51:48.18,0:51:50.85,720 - srt,,0,0,0,,下了船,在山上等我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Head downstream, wait for me at the Silver Mountain.{\r}
+Dialogue: 0,0:51:50.93,0:51:54.36,720 - srt,,0,0,0,,- 那里是荒山  - 我知道,所以我才要去\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- There are bandits!   - I know, that's where I was going.{\r}
+Dialogue: 0,0:51:54.52,0:51:56.55,720 - srt,,0,0,0,,- 你呢?  - 我会去找你们的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- And you?   - I'll meet you there.{\r}
+Dialogue: 0,0:51:57.48,0:52:00.77,720 - srt,,0,0,0,,如果我没来,就在山上\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If I don't arrive, Shing Yuing is a day beyond the mountain.{\r}
+Dialogue: 0,0:52:01.65,0:52:03.70,720 - srt,,0,0,0,,我还不知道你的名字\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I don't even know your name.{\r}
+Dialogue: 0,0:52:03.70,0:52:06.42,720 - srt,,0,0,0,,快走,快啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Please Lian, go. Go now!{\r}
+Dialogue: 0,0:52:07.66,0:52:09.06,720 - srt,,0,0,0,,好了,快走,走啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Allright, just go.{\r}
+Dialogue: 0,0:52:19.02,0:52:20.68,720 - srt,,0,0,0,,都解开\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Untie them all.{\r}
+Dialogue: 0,0:52:44.20,0:52:45.51,720 - srt,,0,0,0,,快搜查房子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go search the building!{\r}
+Dialogue: 0,0:53:05.78,0:53:07.14,720 - srt,,0,0,0,,别杀他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Don't kill him yet!{\r}
+Dialogue: 0,0:53:12.65,0:53:15.20,720 - srt,,0,0,0,,他们在哪,快说\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Where are they? Speak quickly.{\r}
+Dialogue: 0,0:53:20.23,0:53:22.65,720 - srt,,0,0,0,,告诉我,否则我杀了你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Tell me now, or I kill you.{\r}
+Dialogue: 0,0:53:24.59,0:53:28.67,720 - srt,,0,0,0,,将军,发现殿下和公主划船往山上去了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}General, Prince Qiang and Princess Lian are on the river headed toward the Silver M ountains.{\r}
+Dialogue: 0,0:53:29.34,0:53:30.52,720 - srt,,0,0,0,,找到他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go after them.{\r}
+Dialogue: 0,0:56:00.75,0:56:02.39,720 - srt,,0,0,0,,快到河边去\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Get to the shore!{\r}
+Dialogue: 0,0:56:07.09,0:56:08.57,720 - srt,,0,0,0,,快跑\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Run!{\r}
+Dialogue: 0,0:57:28.23,0:57:31.60,720 - srt,,0,0,0,,放开我,放开我!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let me go! Let go!{\r}
+Dialogue: 0,0:59:22.91,0:59:24.07,720 - srt,,0,0,0,,张嘴\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Open your mouth.{\r}
+Dialogue: 0,0:59:38.58,0:59:40.09,720 - srt,,0,0,0,,不要...\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Don't don't...{\r}
+Dialogue: 0,1:00:11.95,1:00:12.91,720 - srt,,0,0,0,,好痛\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}hurts{\r}
+Dialogue: 0,1:00:14.79,1:00:16.00,720 - srt,,0,0,0,,很好,\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}good{\r}
+Dialogue: 0,1:00:16.25,1:00:18.51,720 - srt,,0,0,0,,要是我的话就让你烂掉\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It was my choice, I would have let you rot.{\r}
+Dialogue: 0,1:00:20.31,1:00:22.15,720 - srt,,0,0,0,,天哪\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}God{\r}
+Dialogue: 0,1:00:25.82,1:00:27.89,720 - srt,,0,0,0,,- 你怎么在这?  - 够了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- My companions?   - Safe!{\r}
+Dialogue: 0,1:00:29.99,1:00:33.85,720 - srt,,0,0,0,,就因为你们,官兵铺天盖地\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The Black Guards are as thick as flies on a fart ask because of you.{\r}
+Dialogue: 0,1:00:34.30,1:00:36.04,720 - srt,,0,0,0,,是你们把他们引来的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You brought them here.{\r}
+Dialogue: 0,1:00:39.80,1:00:41.19,720 - srt,,0,0,0,,你是怎么找到我的,拉德\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}How did you find me, lad?{\r}
+Dialogue: 0,1:00:41.43,1:00:45.59,720 - srt,,0,0,0,,没有人会去东边\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Nobody goes East.{\r}
+Dialogue: 0,1:00:45.96,1:00:47.07,720 - srt,,0,0,0,,你知道吗\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Remember?{\r}
+Dialogue: 0,1:00:51.99,1:00:55.41,720 - srt,,0,0,0,,几乎没人活着回巴格达\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}There is few of our kind beyond Baghdad.{\r}
+Dialogue: 0,1:01:03.88,1:01:07.99,720 - srt,,0,0,0,,- 我们需要谈谈  - 我们没话好说了  - 拜托\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- We need to talk.   - We have nothing to say.   - Please.{\r}
+Dialogue: 0,1:01:09.38,1:01:13.03,720 - srt,,0,0,0,,我应该就把你留在树林里自生自灭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I should have left you in the woods.{\r}
+Dialogue: 0,1:01:18.25,1:01:19.78,720 - srt,,0,0,0,,他没有...\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But you didn't.{\r}
+Dialogue: 0,1:01:25.82,1:01:28.12,720 - srt,,0,0,0,,等你能走就快离开\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}As soon as you can move, you leave.{\r}
+Dialogue: 0,1:01:30.20,1:01:34.00,720 - srt,,0,0,0,,加蓝,拜托\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Gallain. Gallain, please!{\r}
+Dialogue: 0,1:01:49.47,1:01:53.30,720 - srt,,0,0,0,,- 他走了?  - 暂时的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Please. He lives?   - For now.{\r}
+Dialogue: 0,1:01:53.50,1:01:55.75,720 - srt,,0,0,0,,你就是他们称为白幽灵的坏蛋?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You're the outlaw they call the White Ghost?{\r}
+Dialogue: 0,1:01:55.78,1:01:58.37,720 - srt,,0,0,0,,我就是白幽灵\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I am the White Ghost.{\r}
+Dialogue: 0,1:01:58.35,1:02:01.22,720 - srt,,0,0,0,,但是没人叫我坏蛋,孩子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But no one calls me outlaw, child.{\r}
+Dialogue: 0,1:02:01.31,1:02:03.09,720 - srt,,0,0,0,,在我的面前没有\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Not to my face!{\r}
+Dialogue: 0,1:02:04.64,1:02:06.33,720 - srt,,0,0,0,,你的朋友带我们来的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your friend sent us here.{\r}
+Dialogue: 0,1:02:06.44,1:02:07.87,720 - srt,,0,0,0,,我的朋友?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My friend?{\r}
+Dialogue: 0,1:02:08.46,1:02:10.70,720 - srt,,0,0,0,,你们想着他能依靠?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And you expect that to count in your favor?{\r}
+Dialogue: 0,1:02:11.51,1:02:14.77,720 - srt,,0,0,0,,- 你救了我们  - 我也可以杀了你们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- You saved our lives.   - Well, killing Black Guards, that was no hardship.{\r}
+Dialogue: 0,1:02:15.36,1:02:17.03,720 - srt,,0,0,0,,你们活着还有用\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your lives have value.{\r}
+Dialogue: 0,1:02:18.48,1:02:19.83,720 - srt,,0,0,0,,是的,我亲爱的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Yes, my love.{\r}
+Dialogue: 0,1:02:20.56,1:02:25.05,720 - srt,,0,0,0,,- 把他们送回去领赏  - 我会杀了你的,坏蛋\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Shing will pay handsomely for your return.   - Or he might just kill you. Outlaw!{\r}
+Dialogue: 0,1:02:26.46,1:02:29.71,720 - srt,,0,0,0,,如果我们能够逃脱我哥哥的追杀,我就是国王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If we escape my brother, I will be the King.{\r}
+Dialogue: 0,1:02:31.31,1:02:34.75,720 - srt,,0,0,0,,- 你多大?10岁?  - 14岁\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- How old are you? 10?   - 14!{\r}
+Dialogue: 0,1:02:36.66,1:02:39.61,720 - srt,,0,0,0,,- 我为什么要帮你?  - 我会给你报酬的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- And I should help you, because?   - I will give you a reward!{\r}
+Dialogue: 0,1:02:40.02,1:02:44.21,720 - srt,,0,0,0,,- 只要我们能够自由下山  - 现在,我不知道\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- And you may come down from this mountain! A free man.   - Now, I do not know.{\r}
+Dialogue: 0,1:02:44.82,1:02:47.22,720 - srt,,0,0,0,,我的经验告诉我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}In my experience those who climb to...{\r}
+Dialogue: 0,1:02:47.22,1:02:49.74,720 - srt,,0,0,0,,国王是不会赦免坏人的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...the top only ever remember they got there by their own effort.{\r}
+Dialogue: 0,1:02:49.98,1:02:51.11,720 - srt,,0,0,0,,我会忘记的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I won't forget!{\r}
+Dialogue: 0,1:02:51.26,1:02:54.12,720 - srt,,0,0,0,,也许你会,也许不会,还需要时间才知道\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Maybe you will, maybe you won't. I need time to think.{\r}
+Dialogue: 0,1:02:54.50,1:02:57.59,720 - srt,,0,0,0,,很幸运,我的老婆喜欢你,我的酒在哪?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You are lucky my wife likes you. Where is my wine?!{\r}
+Dialogue: 0,1:03:00.91,1:03:03.35,720 - srt,,0,0,0,,放了他们,他们想跑就跑\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Free them, they got nowhere to run.{\r}
+Dialogue: 0,1:03:22.15,1:03:23.99,720 - srt,,0,0,0,,你们曾经是朋友?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You were his friend.{\r}
+Dialogue: 0,1:03:27.26,1:03:29.40,720 - srt,,0,0,0,,我们曾经一起作战\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We fought alongside one another.{\r}
+Dialogue: 0,1:03:30.11,1:03:32.63,720 - srt,,0,0,0,,- 他以为你死了  - 他是对的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- He belives he's damned.   - He's right.{\r}
+Dialogue: 0,1:03:33.74,1:03:36.22,720 - srt,,0,0,0,,我们所有人都是杀手\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We were, all of us-killers.{\r}
+Dialogue: 0,1:03:38.53,1:03:40.22,720 - srt,,0,0,0,,但是他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But he became...{\r}
+Dialogue: 0,1:03:41.98,1:03:43.60,720 - srt,,0,0,0,,更进一步\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...more than that.{\r}
+Dialogue: 0,1:03:45.70,1:03:47.11,720 - srt,,0,0,0,,你们都是做这个的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That what warriors do!{\r}
+Dialogue: 0,1:03:47.25,1:03:50.14,720 - srt,,0,0,0,,有的人被血吞没了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Some get a taste for blood.{\r}
+Dialogue: 0,1:03:51.11,1:03:52.97,720 - srt,,0,0,0,,他不是其中之一\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}He is not one of them.{\r}
+Dialogue: 0,1:03:53.72,1:03:58.02,720 - srt,,0,0,0,,曾经我想要这一切都是真的,就像你现在做的一样\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}There was a time I wanted that to be true, as much as you do now.{\r}
+Dialogue: 0,1:04:01.48,1:04:03.61,720 - srt,,0,0,0,,至少他还能够看到其他人的希望\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}At least he still sees hope in others.{\r}
+Dialogue: 0,1:04:04.82,1:04:08.92,720 - srt,,0,0,0,,会拿起剑为他人,而不是去做自己的游戏\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Puts his sword at the service of that, rather than his own game.{\r}
+Dialogue: 0,1:04:34.57,1:04:36.44,720 - srt,,0,0,0,,陛下,有消息\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your Majesty, we have news!{\r}
+Dialogue: 0,1:04:42.06,1:04:43.52,720 - srt,,0,0,0,,备马\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Saddle the horses.{\r}
+Dialogue: 0,1:05:07.43,1:05:08.85,720 - srt,,0,0,0,,雅各布\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Jacob...{\r}
+Dialogue: 0,1:05:10.71,1:05:13.33,720 - srt,,0,0,0,,我叫雅各布\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My name is Jacob.{\r}
+Dialogue: 0,1:05:13.57,1:05:15.42,720 - srt,,0,0,0,,很高兴认识你,雅各布\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Nice to meet you, Jacob.{\r}
+Dialogue: 0,1:05:18.77,1:05:22.47,720 - srt,,0,0,0,,- 对不起  - 为什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- I am sorry.   - For what?{\r}
+Dialogue: 0,1:05:24.94,1:05:28.27,720 - srt,,0,0,0,,如果没有你,我们是到不了这里的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We'd never have come this far without you.{\r}
+Dialogue: 0,1:05:35.08,1:05:38.13,720 - srt,,0,0,0,,你也基本可以做到\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You... don't have to do that.{\r}
+Dialogue: 0,1:05:39.10,1:05:41.96,720 - srt,,0,0,0,,我知道,我想要你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I know. I want to.{\r}
+Dialogue: 0,1:05:43.22,1:05:47.31,720 - srt,,0,0,0,,除了看着昭吃东西,你什么都没做\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}There's not much else to do here, except watch Xaoi eat.{\r}
+Dialogue: 0,1:05:53.90,1:05:55.86,720 - srt,,0,0,0,,他因为你才活下来的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}She lives because of you.{\r}
+Dialogue: 0,1:05:57.09,1:05:57.97,720 - srt,,0,0,0,,我们都是\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}As do we.{\r}
+Dialogue: 0,1:06:01.30,1:06:03.88,720 - srt,,0,0,0,,也许你是在为你杀的人赎罪\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Maybe you've repaid your debt.{\r}
+Dialogue: 0,1:06:06.39,1:06:08.85,720 - srt,,0,0,0,,休息吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Rest, for now.{\r}
+Dialogue: 0,1:06:13.85,1:06:16.25,720 - srt,,0,0,0,,别走,请你抱着我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Please, help me.{\r}
+Dialogue: 0,1:06:17.45,1:06:19.30,720 - srt,,0,0,0,,我一定得见见他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I must see him.{\r}
+Dialogue: 0,1:06:50.46,1:06:51.35,720 - srt,,0,0,0,,干嘛\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What?{\r}
+Dialogue: 0,1:06:52.90,1:06:55.49,720 - srt,,0,0,0,,女人,你够啦啊\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Oh man, don't you ever stop?{\r}
+Dialogue: 0,1:07:17.65,1:07:20.44,720 - srt,,0,0,0,,妈的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Here, fucking opium.{\r}
+Dialogue: 0,1:07:20.69,1:07:22.52,720 - srt,,0,0,0,,你是鬼魂吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It keeps the ghosts away, huh?{\r}
+Dialogue: 0,1:07:23.35,1:07:24.86,720 - srt,,0,0,0,,这是我的魔法\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}This is MY medicine.{\r}
+Dialogue: 0,1:07:28.06,1:07:29.70,720 - srt,,0,0,0,,她那天看到了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What you saw that day...{\r}
+Dialogue: 0,1:07:30.17,1:07:33.71,720 - srt,,0,0,0,,是什么让你来到这里,你走了老远却是徒劳\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If it's forgiveness that brought you here, you've come a long way for nothing.{\r}
+Dialogue: 0,1:07:34.48,1:07:37.63,720 - srt,,0,0,0,,不用你来告诉我这是个错误\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Perhaps you've come to tell me it was some terrible mistake?{\r}
+Dialogue: 0,1:07:38.29,1:07:41.11,720 - srt,,0,0,0,,你没杀他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That you didn't kill them? Huh?{\r}
+Dialogue: 0,1:07:41.24,1:07:42.36,720 - srt,,0,0,0,,我不能告诉你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I can't tell you that.{\r}
+Dialogue: 0,1:07:43.23,1:07:46.17,720 - srt,,0,0,0,,但是我保证,他们不是死在我的剑下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But they did not die by my sword, I promise.{\r}
+Dialogue: 0,1:07:47.41,1:07:49.43,720 - srt,,0,0,0,,这事情让我很头痛\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Riddles give me headaches.{\r}
+Dialogue: 0,1:07:54.49,1:07:56.00,720 - srt,,0,0,0,,孩子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The children{\r}
+Dialogue: 0,1:07:56.04,1:07:57.40,720 - srt,,0,0,0,,被他们的母亲杀死\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}were killed by their own mothers.{\r}
+Dialogue: 0,1:08:03.82,1:08:05.92,720 - srt,,0,0,0,,女人被冤死\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The women died by their own hands.{\r}
+Dialogue: 0,1:08:19.74,1:08:22.70,720 - srt,,0,0,0,,因为你会成为什么\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Because they fear of what you have become.{\r}
+Dialogue: 0,1:08:23.50,1:08:24.51,720 - srt,,0,0,0,,是\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Yes.{\r}
+Dialogue: 0,1:08:26.58,1:08:27.84,720 - srt,,0,0,0,,那是什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What is it?{\r}
+Dialogue: 0,1:08:29.09,1:08:32.61,720 - srt,,0,0,0,,我以为你说过上帝会原谅你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You think if you save this boy, God will forgive you?{\r}
+Dialogue: 0,1:08:34.79,1:08:37.00,720 - srt,,0,0,0,,可是上帝不存在\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Men can not know God's will,{\r}
+Dialogue: 0,1:08:37.13,1:08:39.22,720 - srt,,0,0,0,,他们想要去的时候,\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}and when they pretend to...{\r}
+Dialogue: 0,1:08:39.36,1:08:41.66,720 - srt,,0,0,0,,用血来结束\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... it ends in blood.{\r}
+Dialogue: 0,1:08:41.71,1:08:42.89,720 - srt,,0,0,0,,我们喝的就是血\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}That I'll drink to.{\r}
+Dialogue: 0,1:09:00.66,1:09:04.40,720 - srt,,0,0,0,,你怎么了?白幽灵不在了?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}So what happened to you? The White Ghost, bandits?{\r}
+Dialogue: 0,1:09:05.21,1:09:07.22,720 - srt,,0,0,0,,我已经试过了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I tried my hand as a merchant.{\r}
+Dialogue: 0,1:09:07.39,1:09:09.60,720 - srt,,0,0,0,,让黑色的守卫挡住了我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But the Black Guards took all I had.{\r}
+Dialogue: 0,1:09:12.20,1:09:14.00,720 - srt,,0,0,0,,我的妻子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My wife{\r}
+Dialogue: 0,1:09:14.05,1:09:17.18,720 - srt,,0,0,0,,她的刀法不错哦\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}she's good with a knife, aint't it?{\r}
+Dialogue: 0,1:09:18.11,1:09:22.66,720 - srt,,0,0,0,,但是有一次,见到了最美的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But in one time... she had the most... beautiful...{\r}
+Dialogue: 0,1:09:22.83,1:09:24.01,720 - srt,,0,0,0,,景色\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}singing voice.{\r}
+Dialogue: 0,1:09:25.06,1:09:27.14,720 - srt,,0,0,0,,上帝\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But the... Guards...{\r}
+Dialogue: 0,1:09:28.74,1:09:31.21,720 - srt,,0,0,0,,却把她的舌头割掉了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... cut out her tongue!!{\r}
+Dialogue: 0,1:09:32.03,1:09:34.33,720 - srt,,0,0,0,,让我的右眼瞎了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Blinded my right eye.{\r}
+Dialogue: 0,1:09:34.65,1:09:36.50,720 - srt,,0,0,0,,但是我还能听到\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But I still have her.{\r}
+Dialogue: 0,1:09:37.21,1:09:39.39,720 - srt,,0,0,0,,但是你的剑依然是个问题\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Which is all that really matters.{\r}
+Dialogue: 0,1:09:40.37,1:09:42.66,720 - srt,,0,0,0,,如果是星成了国王\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}If Shing becomes King,{\r}
+Dialogue: 0,1:09:42.70,1:09:43.88,720 - srt,,0,0,0,,这个地方会成为焦土\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}this land will burn.{\r}
+Dialogue: 0,1:09:44.81,1:09:49.07,720 - srt,,0,0,0,,所有的地方都会成为焦土,雅各布\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}All lands burn, Jacob. You know that.{\r}
+Dialogue: 0,1:09:49.62,1:09:51.04,720 - srt,,0,0,0,,你比任何人都清楚这一点\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Better than anyone.{\r}
+Dialogue: 0,1:09:53.39,1:09:55.17,720 - srt,,0,0,0,,我得去尿尿\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I have to take a piss.{\r}
+Dialogue: 0,1:10:28.04,1:10:29.71,720 - srt,,0,0,0,,你应该休息的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You should be resting.{\r}
+Dialogue: 0,1:10:30.92,1:10:33.89,720 - srt,,0,0,0,,我比你更年轻更健康\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm younger and healthier than you.{\r}
+Dialogue: 0,1:10:43.97,1:10:45.88,720 - srt,,0,0,0,,我跟我的父亲保证过\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I made a promise to my father.{\r}
+Dialogue: 0,1:10:47.41,1:10:48.98,720 - srt,,0,0,0,,我发过誓\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I swore to him...{\r}
+Dialogue: 0,1:10:50.90,1:10:52.93,720 - srt,,0,0,0,,我会用生命保护昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}... I'd protect Qiang with my life.{\r}
+Dialogue: 0,1:11:00.21,1:11:01.57,720 - srt,,0,0,0,,但是你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But you...{\r}
+Dialogue: 0,1:11:03.32,1:11:04.44,720 - srt,,0,0,0,,是为什么呢?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...why?{\r}
+Dialogue: 0,1:11:10.28,1:11:13.40,720 - srt,,0,0,0,,我一直用错误的方法去寻找上帝\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I once looked for God in all of the wrong places.{\r}
+Dialogue: 0,1:11:16.66,1:11:19.15,720 - srt,,0,0,0,,但是你,你的弟弟\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But you... your brother...{\r}
+Dialogue: 0,1:11:21.30,1:11:23.22,720 - srt,,0,0,0,,让这一切变得说得通\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It started to make sense again.{\r}
+Dialogue: 0,1:11:28.57,1:11:30.67,720 - srt,,0,0,0,,我的弟弟会赦免你的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}My father would have liked you.{\r}
+Dialogue: 0,1:11:32.94,1:11:35.22,720 - srt,,0,0,0,,我不知道\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Ohhh, I don't know.{\r}
+Dialogue: 0,1:11:35.79,1:11:38.04,720 - srt,,0,0,0,,我想你的父亲会杀我的头\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I think your father would have taken my head.{\r}
+Dialogue: 0,1:11:42.61,1:11:44.29,720 - srt,,0,0,0,,用真的剑\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And rightly so.{\r}
+Dialogue: 0,1:11:47.58,1:11:49.86,720 - srt,,0,0,0,,还记得第一次见你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Perhaps to the man we first met.{\r}
+Dialogue: 0,1:11:51.69,1:11:53.45,720 - srt,,0,0,0,,但是你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But you...{\r}
+Dialogue: 0,1:11:54.00,1:11:56.03,720 - srt,,0,0,0,,你是我爱的人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}he would have loved.{\r}
+Dialogue: 0,1:11:58.23,1:11:59.95,720 - srt,,0,0,0,,是吗,我...\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Lian, I...{\r}
+Dialogue: 0,1:12:26.97,1:12:28.81,720 - srt,,0,0,0,,他已经出去几小时了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}He's been out there for hours.{\r}
+Dialogue: 0,1:12:29.30,1:12:32.06,720 - srt,,0,0,0,,有正确的人辅佐他,会带来和平\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}With the right people by his side he will hold the peace.{\r}
+Dialogue: 0,1:12:33.74,1:12:36.55,720 - srt,,0,0,0,,你听起来被那个公主迷住了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You sound like one of those priests{\r}
+Dialogue: 0,1:12:36.72,1:12:38.74,720 - srt,,0,0,0,,你必须为她拔剑\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}that blessed us as we marched off to war.{\r}
+Dialogue: 0,1:12:39.80,1:12:41.34,720 - srt,,0,0,0,,说到幽灵\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The ghosts...{\r}
+Dialogue: 0,1:12:42.14,1:12:45.56,720 - srt,,0,0,0,,- 你真的见过?  - 只是上帝见过\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}-...you really see them, too?   - Only when I let my guard down.{\r}
+Dialogue: 0,1:12:46.38,1:12:48.38,720 - srt,,0,0,0,,他们会怎么问你?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And what do they ask of you?{\r}
+Dialogue: 0,1:12:51.35,1:12:55.13,720 - srt,,0,0,0,,- 他们说了是吗?  - 他们不需要说\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Mine don't talk.   - They don't need to.{\r}
+Dialogue: 0,1:12:56.78,1:12:58.22,720 - srt,,0,0,0,,如果他们说了呢?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And if they did?{\r}
+Dialogue: 0,1:12:58.36,1:13:00.47,720 - srt,,0,0,0,,死亡低语会是什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What would the dead whisper?{\r}
+Dialogue: 0,1:13:00.57,1:13:02.38,720 - srt,,0,0,0,,一定要血债血偿\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What is ought, must be paid.{\r}
+Dialogue: 0,1:13:06.58,1:13:09.06,720 - srt,,0,0,0,,这不是我们来决定的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}It's not for us to decide when, though.{\r}
+Dialogue: 0,1:13:11.57,1:13:14.23,720 - srt,,0,0,0,,你为我们所有人做的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}To the damned, each and every one of us.{\r}
+Dialogue: 0,1:13:16.71,1:13:18.56,720 - srt,,0,0,0,,现在要努力做到\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You are not hard enough on him.{\r}
+Dialogue: 0,1:13:19.23,1:13:22.46,720 - srt,,0,0,0,,- 葛雷恩,有了你的帮助  - 不\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Gallain, with your help...   - No!{\r}
+Dialogue: 0,1:13:24.56,1:13:26.15,720 - srt,,0,0,0,,我跟你说过了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I told you before!{\r}
+Dialogue: 0,1:13:26.83,1:13:29.19,720 - srt,,0,0,0,,我不会再为他人战斗了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm done fighting other men's causes.{\r}
+Dialogue: 0,1:13:30.18,1:13:32.55,720 - srt,,0,0,0,,你可以将他们交给星\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Ah, you could have handed him over to Shing{\r}
+Dialogue: 0,1:13:32.41,1:13:34.12,720 - srt,,0,0,0,,我是个平民\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm a simple man.{\r}
+Dialogue: 0,1:13:34.25,1:13:37.28,720 - srt,,0,0,0,,很容易就会被年轻的公主说服\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Easily bedazzled by swift-talking young Princess.{\r}
+Dialogue: 0,1:13:37.59,1:13:41.68,720 - srt,,0,0,0,,你什么都是\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You are many things,{\r}
+Dialogue: 0,1:13:40.02,1:13:41.73,720 - srt,,0,0,0,,就是不简单\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}none of them simple.{\r}
+Dialogue: 0,1:14:07.37,1:14:09.62,720 - srt,,0,0,0,,他们已经到达河堤了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}They have... reached the riverbank.{\r}
+Dialogue: 0,1:14:11.53,1:14:13.22,720 - srt,,0,0,0,,我们别无选择了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We have no choice now.{\r}
+Dialogue: 0,1:14:13.37,1:14:15.43,720 - srt,,0,0,0,,全力准备吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Make what preparations you can!{\r}
+Dialogue: 0,1:14:36.30,1:14:38.88,720 - srt,,0,0,0,,没有人能够活下来\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No more that four bombs in each bag.{\r}
+Dialogue: 0,1:14:40.66,1:14:42.42,720 - srt,,0,0,0,,我选这个地方是有原因的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I chose this place for a reason.{\r}
+Dialogue: 0,1:14:42.63,1:14:45.36,720 - srt,,0,0,0,,我们会尽量在山下杀掉他们的人\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}We beat them down below, take as many as we can.{\r}
+Dialogue: 0,1:14:45.44,1:14:47.86,720 - srt,,0,0,0,,- 并尽量迷惑他们  - 然后撤退掩护\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Bring confusion.   - Fall back to the caves?{\r}
+Dialogue: 0,1:14:49.08,1:14:50.88,720 - srt,,0,0,0,,昭,你留下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No, you stay here.{\r}
+Dialogue: 0,1:14:51.00,1:14:52.70,720 - srt,,0,0,0,,但是这都是为了我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}But they're here for me.{\r}
+Dialogue: 0,1:14:53.88,1:14:58.10,720 - srt,,0,0,0,,如果你死在山上,你就无法做你的皇帝了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And if you die on the Mountain, you will never be the leader your father wanted.{\r}
+Dialogue: 0,1:15:05.56,1:15:07.12,720 - srt,,0,0,0,,保重\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Be careful.{\r}
+Dialogue: 0,1:15:55.55,1:16:01.59,720 - srt,,0,0,0,,举起盾牌,盾牌,防御\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}SHIELDS!! SHIELDS UP!! SHIELDS!!!{\r}
+Dialogue: 0,1:16:02.15,1:16:06.56,720 - srt,,0,0,0,,快射箭,放箭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Return fire! RETURN FIRE NOW!!!{\r}
+Dialogue: 0,1:16:19.61,1:16:20.95,720 - srt,,0,0,0,,后退\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Fall back!!{\r}
+Dialogue: 0,1:17:37.19,1:17:39.07,720 - srt,,0,0,0,,快回到洞穴\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Get back to the cave, now!!{\r}
+Dialogue: 0,1:17:47.28,1:17:49.65,720 - srt,,0,0,0,,回到洞穴,在那里消灭他们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Back to the cave, we'll finish them there!{\r}
+Dialogue: 0,1:17:59.20,1:18:00.89,720 - srt,,0,0,0,,快走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}LET'S GO!!{\r}
+Dialogue: 0,1:18:09.80,1:18:11.66,720 - srt,,0,0,0,,回去洞里\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Get your sister and Xiaoli back to the inner cave.{\r}
+Dialogue: 0,1:18:11.90,1:18:12.66,720 - srt,,0,0,0,,我应该留下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I should stay!{\r}
+Dialogue: 0,1:18:12.73,1:18:14.00,720 - srt,,0,0,0,,你无需证明了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You've got nothing more to prove,{\r}
+Dialogue: 0,1:18:14.15,1:18:16.89,720 - srt,,0,0,0,,好吗,如果我是你的话就藏好\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}all right? Men have died for you, don't let that be in vain.{\r}
+Dialogue: 0,1:18:17.07,1:18:19.42,720 - srt,,0,0,0,,快走,快\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go! Go now!{\r}
+Dialogue: 0,1:19:06.16,1:19:08.19,720 - srt,,0,0,0,,就是现在\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Mei!! NOW!!{\r}
+Dialogue: 0,1:19:11.21,1:19:13.96,720 - srt,,0,0,0,,御林军\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The Black Guards!!{\r}
+Dialogue: 0,1:19:20.66,1:19:24.15,720 - srt,,0,0,0,,快走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}GO!! GO, MEI, GO!!{\r}
+Dialogue: 0,1:20:22.23,1:20:24.11,720 - srt,,0,0,0,,走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Go...{\r}
+Dialogue: 0,1:20:24.29,1:20:27.52,720 - srt,,0,0,0,,带上孩子,快走\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}get the boy... now!{\r}
+Dialogue: 0,1:20:43.74,1:20:47.14,720 - srt,,0,0,0,,想要我的血吗?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You want my blood? You want my BLOOD?!{\r}
+Dialogue: 0,1:21:07.43,1:21:08.66,720 - srt,,0,0,0,,你没事?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The others?{\r}
+Dialogue: 0,1:21:08.74,1:21:12.15,720 - srt,,0,0,0,,加蓝挡住他们,我们必须马上离开\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Oh, it's just Gallain. We have to leave, before more Black Guards arrive.{\r}
+Dialogue: 0,1:22:51.03,1:22:52.91,720 - srt,,0,0,0,,我能看见你们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I see you...{\r}
+Dialogue: 0,1:22:55.58,1:22:57.28,720 - srt,,0,0,0,,这是谁?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...woman...{\r}
+Dialogue: 0,1:23:01.22,1:23:02.92,720 - srt,,0,0,0,,还有你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I see you...{\r}
+Dialogue: 0,1:23:27.22,1:23:29.00,720 - srt,,0,0,0,,昭,莲\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Qiang Lian{\r}
+Dialogue: 0,1:23:29.09,1:23:30.42,720 - srt,,0,0,0,,白色猴子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}and the white monkey.{\r}
+Dialogue: 0,1:23:31.73,1:23:33.21,720 - srt,,0,0,0,,你是帮他们的?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Did you help them?{\r}
+Dialogue: 0,1:23:34.95,1:23:36.94,720 - srt,,0,0,0,,还是跟这个人一伙的?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Or was it this one?{\r}
+Dialogue: 0,1:23:46.32,1:23:49.76,720 - srt,,0,0,0,,不,我想这是白色幽灵才对\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No. I think this one is the White Ghost.{\r}
+Dialogue: 0,1:23:53.55,1:23:55.66,720 - srt,,0,0,0,,为什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Why?{\r}
+Dialogue: 0,1:23:55.88,1:23:56.79,720 - srt,,0,0,0,,因为\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Because...{\r}
+Dialogue: 0,1:23:58.60,1:24:00.43,720 - srt,,0,0,0,,这孩子喜欢我们\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}...the boy isn't like us.{\r}
+Dialogue: 0,1:24:02.42,1:24:04.37,720 - srt,,0,0,0,,我们喜欢什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And what are we like?{\r}
+Dialogue: 0,1:24:08.34,1:24:10.73,720 - srt,,0,0,0,,没有我们,世界将会是一片战争\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}The world will be better without us.{\r}
+Dialogue: 0,1:24:15.42,1:24:16.88,720 - srt,,0,0,0,,你呢?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}And you...{\r}
+Dialogue: 0,1:24:17.07,1:24:18.27,720 - srt,,0,0,0,,小兄弟\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}little brother.{\r}
+Dialogue: 0,1:24:20.05,1:24:23.55,720 - srt,,0,0,0,,你真的觉得你能够登上王位\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Do you really think bandits and barbarians can win you the throne?{\r}
+Dialogue: 0,1:24:23.63,1:24:26.30,720 - srt,,0,0,0,,我们的父亲将会讨厌你现在的样子\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Our father would hate what you have become.{\r}
+Dialogue: 0,1:24:32.90,1:24:34.90,720 - srt,,0,0,0,,看来我应该先杀了你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Then it's probably a good thing you killed him.{\r}
+Dialogue: 0,1:25:03.83,1:25:06.60,720 - srt,,0,0,0,,你今天流了很多血\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You've spilled a lot of blood today.{\r}
+Dialogue: 0,1:25:10.37,1:25:12.88,720 - srt,,0,0,0,,让我们看看还剩多少吧\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Let's see how much you have left.{\r}
+Dialogue: 0,1:26:39.79,1:26:41.05,720 - srt,,0,0,0,,不!\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}NO{\r}
+Dialogue: 0,1:26:44.31,1:26:47.45,720 - srt,,0,0,0,,放倒他\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}his bow, dies!{\r}
+Dialogue: 0,1:27:06.84,1:27:08.11,720 - srt,,0,0,0,,小心点,莲\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Careful, qing{\r}
+Dialogue: 0,1:27:08.41,1:27:09.64,720 - srt,,0,0,0,,别杀了自己\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}You might cut yourself.{\r}
+Dialogue: 0,1:27:15.29,1:27:17.55,720 - srt,,0,0,0,,别再这样了,星\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}No more, Shing...{\r}
+Dialogue: 0,1:27:17.75,1:27:18.61,720 - srt,,0,0,0,,不要\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}no more...{\r}
+Dialogue: 0,1:27:24.68,1:27:26.31,720 - srt,,0,0,0,,莲,不要\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Lian, no!!{\r}
+Dialogue: 0,1:28:06.99,1:28:10.36,720 - srt,,0,0,0,,星陛下已经死了\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Lord Shing is dead.{\r}
+Dialogue: 0,1:28:34.16,1:28:35.37,720 - srt,,0,0,0,,莲\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}lian{\r}
+Dialogue: 0,1:28:37.25,1:28:40.35,720 - srt,,0,0,0,,- 姐姐  - 你会没事的\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}- Sister!   - I'll be all right.{\r}
+Dialogue: 0,1:28:46.55,1:28:50.00,720 - srt,,0,0,0,,你在想什么?\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}What were you thinking?{\r}
+Dialogue: 0,1:28:50.19,1:28:51.93,720 - srt,,0,0,0,,在我的国家\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Of my country...{\r}
+Dialogue: 0,1:28:53.01,1:28:55.11,720 - srt,,0,0,0,,昭\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}zhao And Qiang...{\r}
+Dialogue: 0,1:28:55.33,1:28:57.39,720 - srt,,0,0,0,,我爱你\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I love you...{\r}
+Dialogue: 0,1:29:02.91,1:29:04.91,720 - srt,,0,0,0,,对不起\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}I'm sorry.{\r}
+Dialogue: 0,1:29:14.27,1:29:15.88,720 - srt,,0,0,0,,陛下\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Your Majesty.{\r}
+Dialogue: 0,1:29:25.71,1:29:27.25,720 - srt,,0,0,0,,请原谅我\N{\fn微软雅黑 Light\fs14\bord2\shad1\2a&H32&\b0}Please, forgive me.{\r}
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0000,0000,0000,,
+
+

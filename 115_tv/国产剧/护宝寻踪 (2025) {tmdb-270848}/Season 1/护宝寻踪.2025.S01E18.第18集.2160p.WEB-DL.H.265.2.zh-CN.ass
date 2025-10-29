@@ -1,0 +1,884 @@
+﻿[Script Info]
+; // 此字幕由TimeM生成
+; // 欢迎访问人人影视 http://www.YYeTs.net
+Title:YYeTs
+Original Script:YYeTs
+Synch Point:1
+ScriptType:v4.00+
+Collisions:Normal
+Timer:100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体简体,18,&H00FFFFFF,&HF0000000,&H006C3300,&H00000000,-1,0,0,0,100,100,0,0.00,1,2,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.61,0:00:01.00,*Default,NTP,0000,0000,0000,,欢迎来到地牢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Ome to the dungeon.
+Dialogue: 0,0:00:01.12,0:00:03.34,*Default,NTP,0000,0000,0000,,为什么FBI总是把太平间放在 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why do the fbi always stick their morgues 
+Dialogue: 0,0:00:03.34,0:00:05.57,*Default,NTP,0000,0000,0000,,他们能找到的最阴森的地下室里?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}in the most depressing basement they can find?
+Dialogue: 0,0:00:05.65,0:00:06.81,*Default,NTP,0000,0000,0000,,别那么瞧不起别人 Bones\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Don't be such a snob,bones.
+Dialogue: 0,0:00:06.92,0:00:09.85,*Default,NTP,0000,0000,0000,,不是谁都能在造价几百万的实验室里工作 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,not everyone gets to play in a multi-million-dollar lab,
+Dialogue: 0,0:00:09.85,0:00:10.94,*Default,NTP,0000,0000,0000,,你想 还有天窗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you know,with skylights...
+Dialogue: 0,0:00:11.02,0:00:14.19,*Default,NTP,0000,0000,0000,,这是因为 作为一个社会团体 我们需要把死亡隐藏起来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it's because,as a society,we feel the need to hide death away.
+Dialogue: 0,0:00:14.30,0:00:17.75,*Default,NTP,0000,0000,0000,,那些和死人打交道的人被看成是怪胎\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The people who deal with the dead are viewed as freaks.
+Dialogue: 0,0:00:17.87,0:00:19.32,*Default,NTP,0000,0000,0000,,我不知道这个是否就是 停尸房会是这样的原因\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah. I don't know if it's the basement thing,
+Dialogue: 0,0:00:19.43,0:00:21.09,*Default,NTP,0000,0000,0000,,但是你即将见到的那个人-- Harry--他有一点被扭曲了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but this guy you're about to meet-- harry--he's a bit twisted.
+Dialogue: 0,0:00:21.17,0:00:23.11,*Default,NTP,0000,0000,0000,,你可能认为我在工作时是一种匆忙的状态 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You probably think I get some kind of rush when I work,
+Dialogue: 0,0:00:23.11,0:00:24.55,*Default,NTP,0000,0000,0000,,就像是 不知为何心里痒痒那种\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that I'm somehow titillated.
+Dialogue: 0,0:00:24.67,0:00:27.36,*Default,NTP,0000,0000,0000,,注意用词 Bones 注意用词\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}choice of words,bones,choice of words.
+Dialogue: 0,0:00:30.61,0:00:32.22,*Default,NTP,0000,0000,0000,,Booth探员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}agent booth.
+Dialogue: 0,0:00:32.34,0:00:33.39,*Default,NTP,0000,0000,0000,,Harry Tepper来见见Jeffersonian的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Harry tepper,meet dr. Temperance brennan 
+Dialogue: 0,0:00:33.40,0:00:34.40,*Default,NTP,0000,0000,0000,,Temperance Brennan博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}from the jeffersonian.
+Dialogue: 0,0:00:34.72,0:00:35.78,*Default,NTP,0000,0000,0000,,我看过她的档案\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I've read her.
+Dialogue: 0,0:00:35.90,0:00:36.85,*Default,NTP,0000,0000,0000,,你好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hello.
+Dialogue: 0,0:00:36.96,0:00:38.56,*Default,NTP,0000,0000,0000,,她很棒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}She's good.
+Dialogue: 0,0:00:38.68,0:00:40.05,*Default,NTP,0000,0000,0000,,也读过你的小说\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Read your novel,too.
+Dialogue: 0,0:00:40.16,0:00:42.68,*Default,NTP,0000,0000,0000,,那个女英雄很好斗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The heroine's very aggressive.
+Dialogue: 0,0:00:42.76,0:00:45.29,*Default,NTP,0000,0000,0000,,Harry 你是不是想 ?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Harry,you want to...?
+Dialogue: 0,0:00:47.42,0:00:51.42,*Default,NTP,0000,0000,0000,,好吧 大家来见见Ted Macy 尸体在国家公园被找到\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,everybody,meet ted macy.Body was found in a national park.
+Dialogue: 0,0:00:51.54,0:00:54.41,*Default,NTP,0000,0000,0000,,当地验尸官下的结论是某种意外溺死\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Local coroner wrote it off as some kind of an accidental drowning,
+Dialogue: 0,0:00:54.45,0:00:57.21,*Default,NTP,0000,0000,0000,,但是我们得调查联邦土地上的 每一起死亡\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but you see,we have tonvestigate every death on federal land.
+Dialogue: 0,0:00:57.29,0:01:00.60,*Default,NTP,0000,0000,0000,,通过我的检查 我发现他的喉咙被压碎了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}During my examination,I found he had a crushed larynx.
+Dialogue: 0,0:01:00.71,0:01:02.52,*Default,NTP,0000,0000,0000,,那看起来不是意外\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That didn't seem accidental.
+Dialogue: 0,0:01:02.62,0:01:05.02,*Default,NTP,0000,0000,0000,,这是具有皮肉的尸体\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is a corpse with skin.
+Dialogue: 0,0:01:05.09,0:01:05.91,*Default,NTP,0000,0000,0000,,她很棒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}She is good.
+Dialogue: 0,0:01:05.98,0:01:08.50,*Default,NTP,0000,0000,0000,,为什么我在这儿? 你知道我不跟皮肉打交道的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why am I here?You know i don't work with the skin.
+Dialogue: 0,0:01:08.61,0:01:10.92,*Default,NTP,0000,0000,0000,,放松点 Bones 我带你来不是检查这具尸体的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Relax,bones.I didn't bring you here to examine the body.
+Dialogue: 0,0:01:11.00,0:01:13.31,*Default,NTP,0000,0000,0000,,我想让你看看他们 在他手心里找到的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I want you to see what they found in his hand.
+Dialogue: 0,0:01:13.42,0:01:16.24,*Default,NTP,0000,0000,0000,,Harry 那个骨头呢?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Harry,the bone?
+Dialogue: 0,0:01:21.13,0:01:22.04,*Default,NTP,0000,0000,0000,,那是什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What is that?
+Dialogue: 0,0:01:22.12,0:01:23.68,*Default,NTP,0000,0000,0000,,是节指骨\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a phalanx.
+Dialogue: 0,0:01:23.75,0:01:26.99,*Default,NTP,0000,0000,0000,,手指骨 还以为她会知道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Finger bone.Figured she'd know that.
+Dialogue: 0,0:01:27.10,0:01:28.79,*Default,NTP,0000,0000,0000,,我知道任何一个有能力的医学检查者\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah,I'd figure any competent medical examiner
+Dialogue: 0,0:01:28.90,0:01:32.16,*Default,NTP,0000,0000,0000,,都应该知道不要损伤证物 这是来苏尔水(消毒剂)吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}would know not to compromise evidence.Is this lysol ic?
+Dialogue: 0,0:01:32.23,0:01:34.31,*Default,NTP,0000,0000,0000,,我们用它来净化残留的污垢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We use it to decontaminate remains.
+Dialogue: 0,0:01:34.38,0:01:37.31,*Default,NTP,0000,0000,0000,,你是想要把骨膜从骨头表面弄掉\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Are you trying to break down the periosteal surface of the bone,
+Dialogue: 0,0:01:37.39,0:01:40.59,*Default,NTP,0000,0000,0000,,破坏掉骨髓? 你有没有稀释过这个?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}wreak havoc on the marrow?Did you even dilute this?
+Dialogue: 0,0:01:40.66,0:01:41.54,*Default,NTP,0000,0000,0000,,Bones 什么?!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bones...what?!
+Dialogue: 0,0:01:41.61,0:01:44.02,*Default,NTP,0000,0000,0000,,你移除了骨头上的微粒和痕迹\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You've removed particulates and trace elements
+Dialogue: 0,0:01:44.06,0:01:46.14,*Default,NTP,0000,0000,0000,,那些有可能带我们找到凶手的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that could potentially lead us to his killer.
+Dialogue: 0,0:01:46.25,0:01:48.12,*Default,NTP,0000,0000,0000,,你是头一天干这行么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is this your first day on the job?
+Dialogue: 0,0:01:48.23,0:01:51.30,*Default,NTP,0000,0000,0000,,下个月就18年了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}18 years next month.
+Dialogue: 0,0:01:55.62,0:01:58.09,*Default,NTP,0000,0000,0000,,她太激动了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}She's intense.
+Dialogue: 0,0:02:00.45,0:02:02.39,*Default,NTP,0000,0000,0000,,印第安人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Native american.
+Dialogue: 0,0:02:02.47,0:02:03.67,*Default,NTP,0000,0000,0000,,英国殖民者\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}British colonial.
+Dialogue: 0,0:02:03.75,0:02:06.19,*Default,NTP,0000,0000,0000,,美国革命 嘿 我们在干嘛?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}American revolutionary.Hey,what are we playing?
+Dialogue: 0,0:02:06.27,0:02:08.86,*Default,NTP,0000,0000,0000,,Brennan博士 证据毁灭者来了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dr. Brennan,the destroyer of evidence is here.
+Dialogue: 0,0:02:08.97,0:02:11.19,*Default,NTP,0000,0000,0000,,呃 我假定那是个笑话 这样大家都不会受伤害\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,I assume that's a joke,so nobody gets hurt.
+Dialogue: 0,0:02:11.30,0:02:12.80,*Default,NTP,0000,0000,0000,,Harry真的把这块骨头搞砸了?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Did harry really mess up that bone?
+Dialogue: 0,0:02:12.87,0:02:15.62,*Default,NTP,0000,0000,0000,,他溶解了所有生长在表面的微粒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He dissolved any traces of ingrained particulates on the surface,
+Dialogue: 0,0:02:15.69,0:02:19.07,*Default,NTP,0000,0000,0000,,但我们还是能够保留下来 一些有价值的特性\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but we were still able to save some valuable attributes.
+Dialogue: 0,0:02:19.15,0:02:19.88,*Default,NTP,0000,0000,0000,,好比是?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Like what?
+Dialogue: 0,0:02:19.95,0:02:22.94,*Default,NTP,0000,0000,0000,,在骨膜下表面的骨质疏松与 硬化的结合地带\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Alternating sclerotic and porotic areas on subperiosteal surface
+Dialogue: 0,0:02:23.05,0:02:28.31,*Default,NTP,0000,0000,0000,,有东西证明了不管是谁 他曾经经受了三期梅毒的折磨\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}demonstrates that whoever this was suffered from tertiary syphilis.
+Dialogue: 0,0:02:28.42,0:02:31.71,*Default,NTP,0000,0000,0000,,三期梅毒 那是最遭的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Tertiary syphilis.,that's the worst.
+Dialogue: 0,0:02:31.78,0:02:33.95,*Default,NTP,0000,0000,0000,,在17世纪它是很常见的疾病\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It was a common ailment in the 17th century.
+Dialogue: 0,0:02:34.07,0:02:35.82,*Default,NTP,0000,0000,0000,,正是这块骨头的年代\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Which is where the bone dates from.
+Dialogue: 0,0:02:35.89,0:02:37.49,*Default,NTP,0000,0000,0000,,你说什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Say what?
+Dialogue: 0,0:02:37.61,0:02:39.73,*Default,NTP,0000,0000,0000,,我们做了碳14年代鉴定\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We ran a radiocarbon dating test.
+Dialogue: 0,0:02:39.78,0:02:41.83,*Default,NTP,0000,0000,0000,,这个手指的历史超过了300年\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The finger's over 300 years old.
+Dialogue: 0,0:02:41.94,0:02:43.44,*Default,NTP,0000,0000,0000,,它是该地区相当独特的发现\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a unique find for the area.
+Dialogue: 0,0:02:43.47,0:02:45.26,*Default,NTP,0000,0000,0000,,我准备换成法国捕兽者了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm going to change to french trapper.
+Dialogue: 0,0:02:45.38,0:02:46.98,*Default,NTP,0000,0000,0000,,你不能改变你的选择\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You can't change yours.
+Dialogue: 0,0:02:47.08,0:02:48.67,*Default,NTP,0000,0000,0000,,Booth 他们在哪找到受害者的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Booth,where did they find the victim?
+Dialogue: 0,0:02:48.75,0:02:51.83,*Default,NTP,0000,0000,0000,,他们从一个联邦海滨保留地的 什么旅游胜地小镇运来的:\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They shipped him over from some resort town next to a federal seaside reserve:
+Dialogue: 0,0:02:51.91,0:02:53.61,*Default,NTP,0000,0000,0000,,Assateague岛\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Assateague island.
+Dialogue: 0,0:02:53.72,0:02:55.24,*Default,NTP,0000,0000,0000,,就是有藏宝坑的那个地方\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's where the money pit is.
+Dialogue: 0,0:02:55.35,0:02:56.95,*Default,NTP,0000,0000,0000,,藏宝坑?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Money pit?
+Dialogue: 0,0:02:57.03,0:03:01.82,*Default,NTP,0000,0000,0000,,据传说 Assateague岛是黑胡子 埋藏他的宝藏的地方\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Legend is,assateague island is where blackbeard buried his treasure.
+Dialogue: 0,0:03:01.93,0:03:03.99,*Default,NTP,0000,0000,0000,,300年来 人们一直在尝试找到它\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}For 300 years,people have been trying to find it.
+Dialogue: 0,0:03:04.06,0:03:07.22,*Default,NTP,0000,0000,0000,,他们挖了大概150英尺 但什么也没有找到\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They've dug it out to something like 150 feet,but they've found nothing.
+Dialogue: 0,0:03:07.34,0:03:08.84,*Default,NTP,0000,0000,0000,,每次他们靠近的时候 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Every time they come close,
+Dialogue: 0,0:03:08.84,0:03:11.54,*Default,NTP,0000,0000,0000,,就会触发一个挡板 然后海水灌满了深坑\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}they trigger a baffle that floods the pit with sea water.
+Dialogue: 0,0:03:11.62,0:03:12.89,*Default,NTP,0000,0000,0000,,傻瓜陷阱 酷\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Booby traps.Cool.
+Dialogue: 0,0:03:12.96,0:03:14.77,*Default,NTP,0000,0000,0000,,尸体在一个发掘现场被发现\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The body was found at a dig site.
+Dialogue: 0,0:03:14.89,0:03:18.89,*Default,NTP,0000,0000,0000,,这是让那个宝藏显得不再仅是一个传说的 第一个实在的证据\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is the first concrete evidence that the treasure is more than a legend.
+Dialogue: 0,0:03:18.98,0:03:21.80,*Default,NTP,0000,0000,0000,,我敢打赌这是来自那些埋下宝藏的人 中的某一个\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'll bet this is from one of the men who buried the treasure.
+Dialogue: 0,0:03:21.91,0:03:22.82,*Default,NTP,0000,0000,0000,,纯粹是猜想\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pure conjecture.
+Dialogue: 0,0:03:22.90,0:03:23.81,*Default,NTP,0000,0000,0000,,海盗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pirate.
+Dialogue: 0,0:03:23.89,0:03:24.60,*Default,NTP,0000,0000,0000,,海盗? 海盗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pirate?Pirate?
+Dialogue: 0,0:03:24.71,0:03:26.01,*Default,NTP,0000,0000,0000,,它是个海盗的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a pirate.
+Dialogue: 0,0:03:26.08,0:03:27.48,*Default,NTP,0000,0000,0000,,"你不能改变你的选择"\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}"You can't change yours."
+Dialogue: 0,0:03:27.59,0:03:30.09,*Default,NTP,0000,0000,0000,,等等 所以说那个受害者 找到了宝藏存在的证据\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Wait,so the victim finds evidence that the treasure exists.
+Dialogue: 0,0:03:30.19,0:03:31.94,*Default,NTP,0000,0000,0000,,另外有人想要霸占全部财宝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Somebody else wants it all for themselves.
+Dialogue: 0,0:03:32.01,0:03:34.28,*Default,NTP,0000,0000,0000,,那当然 那是个不错的谋杀动机\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's certainly...that's a good motive for murder.
+Dialogue: 0,0:03:34.39,0:03:36.86,*Default,NTP,0000,0000,0000,,我们得去那个发掘现场 我很乐意帮忙\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We got to get to that dig sited.I'll be glad to help.
+Dialogue: 0,0:03:36.97,0:03:38.13,*Default,NTP,0000,0000,0000,,没事儿 我-我能搞定\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's okay. I-I can handle it.
+Dialogue: 0,0:03:38.26,0:03:39.59,*Default,NTP,0000,0000,0000,,嘿 哥们儿 分享财宝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Come on,man,share the wealth.
+Dialogue: 0,0:03:39.67,0:03:42.97,*Default,NTP,0000,0000,0000,,我们在寻找答案 Jack 不是宝藏\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We're looking for answers,jack,not treasure.
+Dialogue: 0,0:03:43.09,0:03:44.80,*Default,NTP,0000,0000,0000,,你真的以为那下面有宝藏?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Do you really think that treasure exists down there?
+Dialogue: 0,0:03:44.91,0:03:46.10,*Default,NTP,0000,0000,0000,,你怎么看?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What do you think?
+Dialogue: 0,0:03:47.30,0:03:50.45,*Default,NTP,0000,0000,0000,,你们在笑什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why are you guys smiling?
+Dialogue: 0,0:03:50.57,0:03:52.24,*Default,NTP,0000,0000,0000,,海盗!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pirates!
+Dialogue: 0,0:03:53.49,0:03:56.45,*Default,NTP,0000,0000,0000,,那是男人的事 甜心\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a guy thing,sweetie.
+Dialogue: 0,0:04:19.52,0:04:21.81,*Default,NTP,0000,0000,0000,,是那个死者 Macy 主导这个发掘的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}so,the dead guy,macy,ran the dig?
+Dialogue: 0,0:04:21.88,0:04:24.16,*Default,NTP,0000,0000,0000,,和他的搭档 Hardewicke\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}With his partner,hardewicke.
+Dialogue: 0,0:04:24.20,0:04:26.11,*Default,NTP,0000,0000,0000,,他们是被某个想烧钱的家伙雇佣的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They were hired by anyone with money to burn.
+Dialogue: 0,0:04:26.14,0:04:27.78,*Default,NTP,0000,0000,0000,,什么 人们会做这种事?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What,people would do that?
+Dialogue: 0,0:04:27.82,0:04:30.18,*Default,NTP,0000,0000,0000,,一个健全的人去寻找宝藏?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sane people look for treasure?
+Dialogue: 0,0:04:30.24,0:04:32.29,*Default,NTP,0000,0000,0000,,那不就是考古学家干的事么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,isn't that what archeologists do?
+Dialogue: 0,0:04:32.36,0:04:34.20,*Default,NTP,0000,0000,0000,,考古学家是运用证据 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Archeologists are scientists 
+Dialogue: 0,0:04:34.20,0:04:36.41,*Default,NTP,0000,0000,0000,,来做为他们勘探的基础的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}who use evidence on which to base their explorations,
+Dialogue: 0,0:04:36.42,0:04:39.18,*Default,NTP,0000,0000,0000,,而不是那些人在十岁时看过的海盗电影\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}not some pirate movie they saw when they were ten.
+Dialogue: 0,0:04:39.25,0:04:43.10,*Default,NTP,0000,0000,0000,,耶 呃 那个 嗯 我们找到的 有300年历史的骨头在某种程度上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah,well,that,uh,300-year-old bone that we just found sort of,
+Dialogue: 0,0:04:43.17,0:04:46.10,*Default,NTP,0000,0000,0000,,让事情改变了 不是吗 伙计?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}changes things now,doesn't it there,matey?
+Dialogue: 0,0:04:46.18,0:04:48.11,*Default,NTP,0000,0000,0000,,那儿的犯罪现场发生了什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What's going on over there the crime scene?
+Dialogue: 0,0:04:48.20,0:04:50.99,*Default,NTP,0000,0000,0000,,那是为什么我停下了 Branson Rose在那里 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's why i stop,that's Branson Rose is back there.
+Dialogue: 0,0:04:51.06,0:04:52.19,*Default,NTP,0000,0000,0000,,市长告诉我让他进去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The mayor told me to let him in.
+Dialogue: 0,0:04:52.33,0:04:54.04,*Default,NTP,0000,0000,0000,,Branson Rose赞助了这个发掘?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Branson rose is funding this dig?
+Dialogue: 0,0:04:54.12,0:04:56.37,*Default,NTP,0000,0000,0000,,两年了 但我听说他在撤资了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Has been for two years.But I heard he was pulling out.
+Dialogue: 0,0:04:56.48,0:04:57.91,*Default,NTP,0000,0000,0000,,好吧 谢谢 我会从这儿接手\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All right,thanks.I'll take it from here.
+Dialogue: 0,0:04:57.98,0:04:58.38,*Default,NTP,0000,0000,0000,,当然\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sure.
+Dialogue: 0,0:04:58.49,0:04:59.63,*Default,NTP,0000,0000,0000,,谁是Branson Rose?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who's branson rose?
+Dialogue: 0,0:04:59.71,0:05:00.97,*Default,NTP,0000,0000,0000,,一个亿万富翁探险家\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The billionaire adventurer.
+Dialogue: 0,0:05:01.04,0:05:04.16,*Default,NTP,0000,0000,0000,,他用他的财富为军队制造飞行器 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,he made his fortune making aircraft for the military.
+Dialogue: 0,0:05:04.16,0:05:06.24,*Default,NTP,0000,0000,0000,,他掌控了大约半个世界\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He owns abt the world.
+Dialogue: 0,0:05:06.32,0:05:09.55,*Default,NTP,0000,0000,0000,,他就是那个搞环游世界的真人秀的人 还有 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's the guy who has that reality show that goes all over the world and...
+Dialogue: 0,0:05:09.67,0:05:13.68,*Default,NTP,0000,0000,0000,,还是没有电视? 我为什么要操心啊?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}still no tv?Why do I even bother?
+Dialogue: 0,0:05:14.51,0:05:16.50,*Default,NTP,0000,0000,0000,,你不能现在撤资 Rose先生 我们有合同\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You can't pull out now,mr. Rose.we got a contract.
+Dialogue: 0,0:05:16.58,0:05:19.28,*Default,NTP,0000,0000,0000,,那你可以告我但我不认为 你有可以打倒我的实力\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}so you can consue but i don't think i've got the resouse to take me on
+Dialogue: 0,0:05:19.35,0:05:21.64,*Default,NTP,0000,0000,0000,,Rose先生 我们刚刚突破了200英尺! \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}mr. Rose,we just broke 200 feet!
+Dialogue: 0,0:05:21.65,0:05:23.73,*Default,NTP,0000,0000,0000,,现在你撤资的话你肯定会错过什么好东西的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Now you pull out now you must miss something.
+Dialogue: 0,0:05:23.81,0:05:27.35,*Default,NTP,0000,0000,0000,,这话我已经听了两年了 停下来 把东西装到我的卡车上!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}n hearing that fortwo years,get f and load my gear!
+Dialogue: 0,0:05:27.42,0:05:28.26,*Default,NTP,0000,0000,0000,,打扰一下?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Excuse me?
+Dialogue: 0,0:05:28.38,0:05:31.31,*Default,NTP,0000,0000,0000,,Rose先生 Macy-- 他知道 他感觉到了 那些衣服!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mr. Rose,macy--he knew it.He felt it.These clothes!
+Dialogue: 0,0:05:31.38,0:05:32.63,*Default,NTP,0000,0000,0000,,两年了 两百万美元\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}two years,twllion dollars,
+Dialogue: 0,0:05:32.63,0:05:36.40,*Default,NTP,0000,0000,0000,,那下面什么都没有 Giles Macy 死得一文不值\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}there's nothing down there,giles.Macy died for nothing.
+Dialogue: 0,0:05:36.48,0:05:39.36,*Default,NTP,0000,0000,0000,,FBI! 你们全都被捕了!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Fbi! You're all under arrest!
+Dialogue: 0,0:05:39.71,0:05:42.78,*Default,NTP,0000,0000,0000,,天哪 Bones 你不用说这个的 我是管事的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Come on,bones,you don't get to say that.I'm the one with the badge.
+Dialogue: 0,0:05:42.89,0:05:44.20,*Default,NTP,0000,0000,0000,,现在FBI也卷进来了?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The fbi's involved now?
+Dialogue: 0,0:05:44.31,0:05:47.46,*Default,NTP,0000,0000,0000,,呃 是的 在联邦领土上的谋杀-- 我们希望- 四处看看\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,yeah. You know,murdern deral land--we like to,poke around a little.
+Dialogue: 0,0:05:47.58,0:05:48.72,*Default,NTP,0000,0000,0000,,谋杀?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Murder?
+Dialogue: 0,0:05:48.80,0:05:51.04,*Default,NTP,0000,0000,0000,,是的 谋杀\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah,murder.
+Dialogue: 0,0:05:51.16,0:05:53.20,*Default,NTP,0000,0000,0000,,你说那是个意外的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You said it was an accident.
+Dialogue: 0,0:05:53.28,0:05:55.37,*Default,NTP,0000,0000,0000,,我就是那么认为的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's what I thought.
+Dialogue: 0,0:05:55.75,0:05:57.50,*Default,NTP,0000,0000,0000,,哦 我的上帝啊 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,my god...
+Dialogue: 0,0:06:01.13,0:06:03.63,*Default,NTP,0000,0000,0000,,他发现了什么了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}he found something.
+Dialogue: 0,0:06:04.09,0:06:06.53,*Default,NTP,0000,0000,0000,,把我的东西放回去 现在!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Put my stuff back now!
+Dialogue: 0,0:06:06.68,0:06:10.88,*Default,NTP,0000,0000,0000,,到底Macy找到了什么 竟然会招致杀身之祸?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What did macy find that would be worth killing him for?
+Dialogue: 0,0:06:43.81,0:06:47.99,*Default,NTP,0000,0000,0000,,1832年 一个六人寻宝小组被杀了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}In 1832,a team of six men looking for the treasure were killed
+Dialogue: 0,0:06:48.10,0:06:49.93,*Default,NTP,0000,0000,0000,,当他们正在挖掘的一个坑道坍塌的时候\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}when a shaft they were digging collapsed.
+Dialogue: 0,0:06:50.01,0:06:52.29,*Default,NTP,0000,0000,0000,,黑胡子的诅咒 兄弟\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Blackbeard's curse,man.
+Dialogue: 0,0:06:52.37,0:06:54.73,*Default,NTP,0000,0000,0000,,诅咒? 我们是科学家\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A curse?We're scientists.
+Dialogue: 0,0:06:54.84,0:07:00.64,*Default,NTP,0000,0000,0000,,看看这个 1902年 两个人在挖掘时消失了尸体从未被找到\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look at this. 1902.Two men disappeared while digging.Never found their bodies.
+Dialogue: 0,0:07:00.71,0:07:02.69,*Default,NTP,0000,0000,0000,,哦 那真是很有诅咒的味道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,that's very cursey.
+Dialogue: 0,0:07:02.81,0:07:04.67,*Default,NTP,0000,0000,0000,,所以你相信海盗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So you believe in pirates?
+Dialogue: 0,0:07:04.75,0:07:08.22,*Default,NTP,0000,0000,0000,,海盗不是圣诞老人 Zack 他们确实存在\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pirates aren't santa,zack.They did exist.
+Dialogue: 0,0:07:08.30,0:07:10.40,*Default,NTP,0000,0000,0000,,他们确实拥有宝藏 他们确实把它埋起来了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They did have treasures,and they did bury it.
+Dialogue: 0,0:07:10.44,0:07:12.91,*Default,NTP,0000,0000,0000,,你知道吗 在六岁时我有过一个眼罩\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,I had an eye patch when I was six.
+Dialogue: 0,0:07:12.99,0:07:15.74,*Default,NTP,0000,0000,0000,,谁没有呢 我的朋友? 谁没有?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who didn't,my friend?Who didn't?
+Dialogue: 0,0:07:15.85,0:07:18.67,*Default,NTP,0000,0000,0000,,不用像教小孩子一样带我\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's not necessary to lead me like a child.
+Dialogue: 0,0:07:18.73,0:07:21.22,*Default,NTP,0000,0000,0000,,我不希望再有更多的证据被毁坏\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'd rather not have any more evidence compromised.
+Dialogue: 0,0:07:21.30,0:07:23.51,*Default,NTP,0000,0000,0000,,你把我的胳膊拽的太紧了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're squeezing my arm very tightly.
+Dialogue: 0,0:07:23.58,0:07:24.16,*Default,NTP,0000,0000,0000,,对不起\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sorry.
+Dialogue: 0,0:07:24.28,0:07:25.69,*Default,NTP,0000,0000,0000,,不 不用 没事儿\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No,no,it's okay.
+Dialogue: 0,0:07:25.81,0:07:28.50,*Default,NTP,0000,0000,0000,,你可以把它交给Hodgins 博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You can give it to dr. Hodgins.
+Dialogue: 0,0:07:28.58,0:07:29.42,*Default,NTP,0000,0000,0000,,这是什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What is this?
+Dialogue: 0,0:07:29.53,0:07:33.30,*Default,NTP,0000,0000,0000,,从Ted Macy的胃和肺里收集的泥土和水\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Soil and water collected from ted macy's throat and lungs.
+Dialogue: 0,0:07:33.38,0:07:36.39,*Default,NTP,0000,0000,0000,,他被发现时穿着干西装漂在坑道顶部\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He was found floating in his dry suit at the top of the shaft.
+Dialogue: 0,0:07:36.51,0:07:38.52,*Default,NTP,0000,0000,0000,,好了 我需要你来做你的"脏活儿"\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All right,you know what?We need you to do your dirt thing.
+Dialogue: 0,0:07:38.59,0:07:40.30,*Default,NTP,0000,0000,0000,,你知道 把那些粘土和罪案相匹配\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,match the slime to the crime,
+Dialogue: 0,0:07:40.38,0:07:42.47,*Default,NTP,0000,0000,0000,,确定那就是他被杀的地方\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}make sure that's where he was killed.
+Dialogue: 0,0:07:42.53,0:07:46.53,*Default,NTP,0000,0000,0000,,我要看受害者骨骼的X光片\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'd like to look at x rays of the victim's skeleton.
+Dialogue: 0,0:07:46.57,0:07:49.20,*Default,NTP,0000,0000,0000,,- 真专横 - 别那么说\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bossy.Do not go there.
+Dialogue: 0,0:07:49.24,0:07:50.44,*Default,NTP,0000,0000,0000,,本着要把事情搞清楚的精神\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}In the interest of being thorough,
+Dialogue: 0,0:07:50.56,0:07:54.18,*Default,NTP,0000,0000,0000,,我要确定他是死在坑道上面的 还是在下面死了漂上来的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I need to determine if he died at the top or died at the bottom and floated up.
+Dialogue: 0,0:07:54.26,0:07:56.54,*Default,NTP,0000,0000,0000,,我需要各个层次的泥土样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I need silt abstracts from both levels.
+Dialogue: 0,0:07:56.62,0:07:57.60,*Default,NTP,0000,0000,0000,,行 我们会帮你搞到的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Fine. We'll get those for you.
+Dialogue: 0,0:07:57.68,0:08:00.66,*Default,NTP,0000,0000,0000,,不 不 不 那种土壤看起来像是一种\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No,no. No.The soil looks like an odd mixture of clay,
+Dialogue: 0,0:08:00.73,0:08:02.89,*Default,NTP,0000,0000,0000,,粘土 长石 辉石的混合物 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}plagioclase feldspar,pyroxene...
+Dialogue: 0,0:08:02.92,0:08:05.56,*Default,NTP,0000,0000,0000,,我真的不能信任任何人 可以正确地收集到这些样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I really wouldn't trust anyone else to harvest the samples properly.
+Dialogue: 0,0:08:05.64,0:08:08.00,*Default,NTP,0000,0000,0000,,你就是想去探宝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You just want to look for treasure.
+Dialogue: 0,0:08:08.80,0:08:14.21,*Default,NTP,0000,0000,0000,,我是一个严肃的科学家仅仅是 在努力把我的工作做到最好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I am a serious scientist merely trying to do my job as well as possible.
+Dialogue: 0,0:08:14.28,0:08:16.98,*Default,NTP,0000,0000,0000,,那个坑道有超过200英尺深 你知道的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That shaft is over 200 feet deep,you know.
+Dialogue: 0,0:08:17.06,0:08:19.25,*Default,NTP,0000,0000,0000,,需要专业的潜水员来做这个\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It requires an experienced diver.
+Dialogue: 0,0:08:19.37,0:08:23.13,*Default,NTP,0000,0000,0000,,我是个有执照的潜水者 那意味着我可以下到200英尺以下\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I am a certified cave diver,which means I can go deeper than 200 feet.
+Dialogue: 0,0:08:23.17,0:08:26.25,*Default,NTP,0000,0000,0000,,我曾经潜过Mayan Blue Dos Ojos Tortuga \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I dove mayan blue,dos ojos,tortuga...
+Dialogue: 0,0:08:26.29,0:08:27.31,*Default,NTP,0000,0000,0000,,有去过Naharon 吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}ever dive naharon?
+Dialogue: 0,0:08:27.35,0:08:28.22,*Default,NTP,0000,0000,0000,,一次\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Once.
+Dialogue: 0,0:08:28.30,0:08:30.17,*Default,NTP,0000,0000,0000,,我命名了Naharon\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I named naharon.
+Dialogue: 0,0:08:30.24,0:08:32.72,*Default,NTP,0000,0000,0000,,哦 那你怎么能对我说不呢?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,then how can you say no to me?
+Dialogue: 0,0:08:32.79,0:08:35.87,*Default,NTP,0000,0000,0000,,好吧 但仅限于收集泥土样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay.But just to collect soil samples.
+Dialogue: 0,0:08:35.98,0:08:37.12,*Default,NTP,0000,0000,0000,,当然了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Of course.
+Dialogue: 0,0:08:37.22,0:08:39.47,*Default,NTP,0000,0000,0000,,呃 你也会潜水?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So,you dive,too?
+Dialogue: 0,0:08:39.54,0:08:42.51,*Default,NTP,0000,0000,0000,,我有的是时间因为我没有电视看\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I have the time because i don't own a tv.
+Dialogue: 0,0:08:42.63,0:08:45.55,*Default,NTP,0000,0000,0000,,那么你要穿一件橡胶衣?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You wear a rubber suit,then?
+Dialogue: 0,0:08:50.66,0:08:52.53,*Default,NTP,0000,0000,0000,,那是意外 你知道吗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Accidents happen,you know.
+Dialogue: 0,0:08:52.61,0:08:55.46,*Default,NTP,0000,0000,0000,,Macy和我是为了挖掘而做了准备 但是谋杀?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Macy and I were prepared for that,but murder?
+Dialogue: 0,0:08:55.58,0:08:58.85,*Default,NTP,0000,0000,0000,,谋杀 如果有任何我能帮上忙的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Murder. Anything I can do to help...
+Dialogue: 0,0:08:58.89,0:09:00.54,*Default,NTP,0000,0000,0000,,行 这个我们呆会儿再谈\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}okay,we'll talk about that a little later.
+Dialogue: 0,0:09:00.61,0:09:02.57,*Default,NTP,0000,0000,0000,,现在 我要Hodgins下到坑里去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Right now,I want to get hodgins down that shaft.
+Dialogue: 0,0:09:02.68,0:09:03.79,*Default,NTP,0000,0000,0000,,{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dane Mcginnis\NDane mcginnis.
+Dialogue: 0,0:09:03.90,0:09:07.55,*Default,NTP,0000,0000,0000,,他-据我所知他是最棒的 他为我们工作多年了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He-he's the best i know. he's worked for us for years.
+Dialogue: 0,0:09:07.63,0:09:10.56,*Default,NTP,0000,0000,0000,,Booth探员? 你是Booth探员吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Agent booth?Are you agent booth?
+Dialogue: 0,0:09:10.67,0:09:12.98,*Default,NTP,0000,0000,0000,,你得呆在黄带外面\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're going to have to stay behind the yellow tape.
+Dialogue: 0,0:09:13.05,0:09:14.23,*Default,NTP,0000,0000,0000,,我是市长Ney\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm mayor ney.
+Dialogue: 0,0:09:14.31,0:09:17.20,*Default,NTP,0000,0000,0000,,你们的人把我们的观光者 推得越来越靠后了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Your men keep pushing our tourists further and further back.
+Dialogue: 0,0:09:17.32,0:09:21.28,*Default,NTP,0000,0000,0000,,市长? 我- 我希望他们选你的时候 你看来不是这样的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mayor?I-I hope you didn't look like that when they elected you.
+Dialogue: 0,0:09:21.36,0:09:25.52,*Default,NTP,0000,0000,0000,,黑胡子的宝藏推动这个小岛的经济向前\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Blackbeard's treasure is what keeps the economy on this little island running.
+Dialogue: 0,0:09:25.63,0:09:27.89,*Default,NTP,0000,0000,0000,,有时候太强了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sometimes too intensely.
+Dialogue: 0,0:09:27.96,0:09:29.05,*Default,NTP,0000,0000,0000,,嘿 我并不感到羞愧 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,I'm not ashamed.
+Dialogue: 0,0:09:29.05,0:09:31.34,*Default,NTP,0000,0000,0000,,自我接管政府以来 已经让旅游业上升了63%\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I've increased tourism 63% since I took office,
+Dialogue: 0,0:09:31.42,0:09:34.62,*Default,NTP,0000,0000,0000,,而如果观光客可以凑近点看的话 我可以做的更好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and I can boost it a bit more if the tourists could get a closer look.
+Dialogue: 0,0:09:34.69,0:09:36.41,*Default,NTP,0000,0000,0000,,它是个谋杀现场 不是场秀\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a murder scene,not a show.
+Dialogue: 0,0:09:36.45,0:09:38.37,*Default,NTP,0000,0000,0000,,黑胡子的诅咒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Blackbeard's curse.
+Dialogue: 0,0:09:38.49,0:09:42.20,*Default,NTP,0000,0000,0000,,Macy也许是想给 自己深爱的小镇一点回报\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Macy would've wanted to give a little back to the town that he loved.
+Dialogue: 0,0:09:42.27,0:09:44.73,*Default,NTP,0000,0000,0000,,Frank 警察告诉他们不可以拍照\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Frank,the police are telling them no pictures.
+Dialogue: 0,0:09:44.81,0:09:48.46,*Default,NTP,0000,0000,0000,,现在 这位是谁呢?海盗皇后? 正确 这是我的太太 Katie\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Now,who is this?The pirate queen? That's right.My wife,katie.
+Dialogue: 0,0:09:48.53,0:09:50.44,*Default,NTP,0000,0000,0000,,好的 听着 你只需要告诉那些游客\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's right. Great.Listen,you just tell the tourists
+Dialogue: 0,0:09:50.52,0:09:52.29,*Default,NTP,0000,0000,0000,,这里景点不好是诅咒的一部分\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that the bad view is part of the curse.
+Dialogue: 0,0:09:52.40,0:09:54.90,*Default,NTP,0000,0000,0000,,你可以护送这个海盗和他的少妇 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Will you please escort the pirate and his wench 
+Dialogue: 0,0:09:54.90,0:09:56.24,*Default,NTP,0000,0000,0000,,到黄线后吗?谢谢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}behind the yellow tape?Thank you.
+Dialogue: 0,0:09:56.32,0:10:00.01,*Default,NTP,0000,0000,0000,,所以 Da--他是个经验丰富的人?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}so,da-- he's,an experienced guy?
+Dialogue: 0,0:10:00.09,0:10:03.35,*Default,NTP,0000,0000,0000,,- 我和上百个合作过 他是最好的 - 好的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I've worked with hundreds.He's the best.--All right.
+Dialogue: 0,0:10:03.87,0:10:06.00,*Default,NTP,0000,0000,0000,,我希望这个人明白他在做什么\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I hope this guy knows what he's doing,
+Dialogue: 0,0:10:06.09,0:10:07.76,*Default,NTP,0000,0000,0000,,因为下面压力很大\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}'cause it's tight down there.
+Dialogue: 0,0:10:07.84,0:10:10.39,*Default,NTP,0000,0000,0000,,太棒了!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Avast,ye lubbers!
+Dialogue: 0,0:10:15.60,0:10:17.90,*Default,NTP,0000,0000,0000,,Dane 帮他准备好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dane,let's get him ready.
+Dialogue: 0,0:10:23.02,0:10:24.88,*Default,NTP,0000,0000,0000,,你认为这是个海盗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You think it's a pirate?
+Dialogue: 0,0:10:24.96,0:10:28.20,*Default,NTP,0000,0000,0000,,那是一根300岁男人左手中的手指\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a 300-year-old finger from the left hand of a male.
+Dialogue: 0,0:10:28.23,0:10:30.15,*Default,NTP,0000,0000,0000,,这是我所可以肯定的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's all i'm sure of so far.
+Dialogue: 0,0:10:30.27,0:10:31.64,*Default,NTP,0000,0000,0000,,值得被杀?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Worth killing for?
+Dialogue: 0,0:10:31.71,0:10:34.49,*Default,NTP,0000,0000,0000,,我做过一宗一个女人被杀的案件\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I worked a case once where a woman was killed,
+Dialogue: 0,0:10:34.53,0:10:36.83,*Default,NTP,0000,0000,0000,,被肢解和焚烧因为她的朋友 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}dismembered and burned because her friend thought 
+Dialogue: 0,0:10:36.83,0:10:39.13,*Default,NTP,0000,0000,0000,,认为她拿走了最爱的一双拖鞋\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}she took favorite pair of slippers.
+Dialogue: 0,0:10:39.19,0:10:40.34,*Default,NTP,0000,0000,0000,,爽快\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Cheery.
+Dialogue: 0,0:10:40.41,0:10:41.53,*Default,NTP,0000,0000,0000,,或者他们是对的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Maybe they're right.
+Dialogue: 0,0:10:41.61,0:10:45.57,*Default,NTP,0000,0000,0000,,或者这个男人在藏宝时死了 够讽刺的......\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Maybe this man died burying the treasure.Ironic...
+Dialogue: 0,0:10:45.64,0:10:48.76,*Default,NTP,0000,0000,0000,,偷盗了这么多却没有机会好好享受\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}stealing all that and never enjoying the spoils.
+Dialogue: 0,0:10:48.84,0:10:51.43,*Default,NTP,0000,0000,0000,,所以你相信那里有宝藏?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So you believe there's treasure?
+Dialogue: 0,0:10:51.54,0:10:54.43,*Default,NTP,0000,0000,0000,,我认为那里是贪婪\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I believe there's greed.
+Dialogue: 0,0:10:54.51,0:10:57.07,*Default,NTP,0000,0000,0000,,这是真正的诅咒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's the real curse.
+Dialogue: 0,0:11:01.23,0:11:08.20,*Default,NTP,0000,0000,0000,,好的 安全线 氧气管 其中一个断了你都不能回来的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All right,safety line,air hose.Either one breaks,you ain't coming back up.
+Dialogue: 0,0:11:08.26,0:11:10.60,*Default,NTP,0000,0000,0000,,你得好好学习你的礼貌啊 伙计\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You got to work on your bedside manner,dude.
+Dialogue: 0,0:11:10.67,0:11:12.95,*Default,NTP,0000,0000,0000,,我不想为了那些周末消遣的人负责任\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,I don't want to be responsible for some weekender
+Dialogue: 0,0:11:13.03,0:11:16.30,*Default,NTP,0000,0000,0000,,他们下去只是因为他们高估了自己\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}who buys it down there because he thinks he's better than he is.
+Dialogue: 0,0:11:16.41,0:11:18.81,*Default,NTP,0000,0000,0000,,你真想下去 是吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You want to go down,don't you?
+Dialogue: 0,0:11:18.92,0:11:20.75,*Default,NTP,0000,0000,0000,,这是我的坑 好吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it's my shaft,okay?
+Dialogue: 0,0:11:20.82,0:11:22.69,*Default,NTP,0000,0000,0000,,我在这里工作已经十年了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I've been working it ten years.
+Dialogue: 0,0:11:22.76,0:11:27.21,*Default,NTP,0000,0000,0000,,不过联邦调查局的人 他们说这是案发现场 所以我帮不上忙\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But the feds-- they say it's a crime scene,so I can't help.
+Dialogue: 0,0:11:27.36,0:11:29.19,*Default,NTP,0000,0000,0000,,你现在正在帮我\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're helping me.
+Dialogue: 0,0:11:29.30,0:11:31.39,*Default,NTP,0000,0000,0000,,为什么他还需要氧气管? 为什么他不可以只用氧气筒?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why's he need the air line?Why can't he just use the tank?
+Dialogue: 0,0:11:31.46,0:11:35.05,*Default,NTP,0000,0000,0000,,因为在100尺下 坑下会狭小一点\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Because around 100 foot down,the shaft gets a little cozy.
+Dialogue: 0,0:11:35.16,0:11:38.19,*Default,NTP,0000,0000,0000,,你不怕紧迫感 是吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You ain't afraid of a tight squeeze,are you,doc?
+Dialogue: 0,0:11:38.23,0:11:40.36,*Default,NTP,0000,0000,0000,,手套\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Gloves.
+Dialogue: 0,0:11:40.40,0:11:42.74,*Default,NTP,0000,0000,0000,,慢慢来 好啊?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Just take it slow,okay?
+Dialogue: 0,0:11:42.86,0:11:44.95,*Default,NTP,0000,0000,0000,,在下面有许多东西会缠到氧气管\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's a lot of stuff to catch your hose on on the way down.
+Dialogue: 0,0:11:45.05,0:11:46.75,*Default,NTP,0000,0000,0000,,我看过Rose拍下的图片\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah,I saw the pictures rose took.
+Dialogue: 0,0:11:46.86,0:11:51.25,*Default,NTP,0000,0000,0000,,Rose 他从未下到你今天要下得 那么深的地方 没有人做过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Rose. He never went as far as you're going.No one has.
+Dialogue: 0,0:11:51.32,0:11:52.65,*Default,NTP,0000,0000,0000,,也许他只是没有尝试 是呵?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Maybe he shouldn't try,you know?
+Dialogue: 0,0:11:52.69,0:11:54.77,*Default,NTP,0000,0000,0000,,有人在那下面死 不仅仅Macy\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}People have died down there,not just macy.
+Dialogue: 0,0:11:54.84,0:11:55.87,*Default,NTP,0000,0000,0000,,我知道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I know.
+Dialogue: 0,0:11:55.95,0:11:58.87,*Default,NTP,0000,0000,0000,,我哥哥就是其中一个\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}My brother was one of them.
+Dialogue: 0,0:11:58.95,0:12:02.28,*Default,NTP,0000,0000,0000,,我会下到那地方去的 在200尺下?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm going all the way down.What's at 200 feet?
+Dialogue: 0,0:12:02.39,0:12:04.15,*Default,NTP,0000,0000,0000,,我们上个礼拜到的是200尺\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We just hit 200 last week.
+Dialogue: 0,0:12:04.22,0:12:06.54,*Default,NTP,0000,0000,0000,,等你告诉我\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're going to have to tell me.
+Dialogue: 0,0:12:06.62,0:12:08.22,*Default,NTP,0000,0000,0000,,好的 我准备好了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,I'm ready.
+Dialogue: 0,0:12:08.26,0:12:09.80,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay.
+Dialogue: 0,0:12:42.99,0:12:44.99,*Default,NTP,0000,0000,0000,,你朋友最好就像他自己说的那样好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}your friend better be as good as he says he is.
+Dialogue: 0,0:12:45.07,0:12:47.26,*Default,NTP,0000,0000,0000,,你只需要照顾着他 好吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You just take care of him,alright?
+Dialogue: 0,0:12:54.60,0:12:56.14,*Default,NTP,0000,0000,0000,,Hodgins 你能听到我说吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hodgins,you read me?
+Dialogue: 0,0:12:56.22,0:12:59.16,*Default,NTP,0000,0000,0000,,洪亮清晰\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I hear you loud and clear.
+Dialogue: 0,0:13:06.63,0:13:08.12,*Default,NTP,0000,0000,0000,,Hodgins?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hodgins?
+Dialogue: 0,0:13:08.23,0:13:09.11,*Default,NTP,0000,0000,0000,,这里很暖\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's warm.
+Dialogue: 0,0:13:09.22,0:13:10.82,*Default,NTP,0000,0000,0000,,过了第一个洪水瓣\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Passing the first flood trap.
+Dialogue: 0,0:13:10.86,0:13:13.48,*Default,NTP,0000,0000,0000,,我们在那里失去了第一个人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We lost our first man there.
+Dialogue: 0,0:13:13.50,0:13:16.69,*Default,NTP,0000,0000,0000,,在石灰石下这里有些木头\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's wood here below the limestone.
+Dialogue: 0,0:13:16.77,0:13:18.21,*Default,NTP,0000,0000,0000,,他对你有意义吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Does he make any sense to you?
+Dialogue: 0,0:13:18.29,0:13:21.27,*Default,NTP,0000,0000,0000,,他过了坑塌下的地方\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's passing the site of the first pit collapse.
+Dialogue: 0,0:13:21.35,0:13:23.14,*Default,NTP,0000,0000,0000,,在那里下面很紧的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's tight down here.
+Dialogue: 0,0:13:23.26,0:13:27.58,*Default,NTP,0000,0000,0000,,这里有很多碎片 我不确定能不能穿过去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's lots of debris.Not sure I can squeeze through.
+Dialogue: 0,0:13:27.70,0:13:29.99,*Default,NTP,0000,0000,0000,,嘿 这个人游得像条乌贼\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,this guy swims like a squid.
+Dialogue: 0,0:13:30.07,0:13:31.44,*Default,NTP,0000,0000,0000,,事实上 他游得像个怪物\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Actually,he swims like a squint.
+Dialogue: 0,0:13:31.55,0:13:32.63,*Default,NTP,0000,0000,0000,,什么?不要在意\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What? Never mind.
+Dialogue: 0,0:13:32.70,0:13:35.11,*Default,NTP,0000,0000,0000,,好 现在畅通了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,I'm clear now.
+Dialogue: 0,0:13:35.19,0:13:36.98,*Default,NTP,0000,0000,0000,,也拍的好照片\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Good picture,too.
+Dialogue: 0,0:13:37.08,0:13:39.15,*Default,NTP,0000,0000,0000,,我们就没有这样的人才\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We can't get resolution like that.
+Dialogue: 0,0:13:39.22,0:13:41.90,*Default,NTP,0000,0000,0000,,他是个为政府工作的人 你没有在下面发现什么东西吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}he's a geek who works for the government.You ever find anything down here?
+Dialogue: 0,0:13:42.01,0:13:42.56,*Default,NTP,0000,0000,0000,,还未发现\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Not yet.
+Dialogue: 0,0:13:42.65,0:13:44.88,*Default,NTP,0000,0000,0000,,十年没有发现 而你继续在努力\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Ten years of finding nothing,and you keep trying.
+Dialogue: 0,0:13:44.95,0:13:46.63,*Default,NTP,0000,0000,0000,,过程比较重要 伙计\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's all about the search,man.
+Dialogue: 0,0:13:46.71,0:13:48.84,*Default,NTP,0000,0000,0000,,他在170尺\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's at 170 feet.
+Dialogue: 0,0:13:50.87,0:13:53.20,*Default,NTP,0000,0000,0000,,180尺\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}one-eighty.
+Dialogue: 0,0:13:54.50,0:13:57.05,*Default,NTP,0000,0000,0000,,190尺\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}one-ninety.
+Dialogue: 0,0:13:57.12,0:14:01.15,*Default,NTP,0000,0000,0000,,没有人到这个深度了 他在200尺了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No one's ever been this deep.He's at 200.
+Dialogue: 0,0:14:01.22,0:14:03.94,*Default,NTP,0000,0000,0000,,碰到下面 我在底部了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Touch down. I am on the bottom.
+Dialogue: 0,0:14:04.05,0:14:07.44,*Default,NTP,0000,0000,0000,,能见度超乎想象的好啊\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Visibility is surprisingly good.
+Dialogue: 0,0:14:07.55,0:14:10.63,*Default,NTP,0000,0000,0000,,等一下 这里有些东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Wait a minute.Ere's-there's something here.
+Dialogue: 0,0:14:12.57,0:14:14.44,*Default,NTP,0000,0000,0000,,那是什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}what is that?
+Dialogue: 0,0:14:14.53,0:14:16.37,*Default,NTP,0000,0000,0000,,是不是......\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}is that...?
+Dialogue: 0,0:14:18.35,0:14:20.48,*Default,NTP,0000,0000,0000,,老天......\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,my god.
+Dialogue: 0,0:14:20.56,0:14:22.16,*Default,NTP,0000,0000,0000,,这是不是......\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is that...?
+Dialogue: 0,0:14:28.21,0:14:31.16,*Default,NTP,0000,0000,0000,,对你发现了整副骸骨我很惊讶\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm amazed you found a complete skeleton.
+Dialogue: 0,0:14:31.24,0:14:34.24,*Default,NTP,0000,0000,0000,,碳14测试追溯到300年前\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}C-14 dating matches at 300 years.
+Dialogue: 0,0:14:34.32,0:14:42.17,*Default,NTP,0000,0000,0000,,这个是男性 20几岁 接近五尺六寸高\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Subject is male,early twenties,approximately five feet...six inches.
+Dialogue: 0,0:14:42.24,0:14:46.04,*Default,NTP,0000,0000,0000,,腿被压弯 因为明显的磷酸钙缺乏\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Legs are bowed,result of visible calcium and phosphate deficiency.
+Dialogue: 0,0:14:46.12,0:14:47.94,*Default,NTP,0000,0000,0000,,他有像孩子一样的软骨病 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He had rickets as a child,
+Dialogue: 0,0:14:47.94,0:14:50.07,*Default,NTP,0000,0000,0000,,但是他的身体却意外地发育良好\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but his upper body is extraordinarily well-developed.
+Dialogue: 0,0:14:50.15,0:14:53.37,*Default,NTP,0000,0000,0000,,骺在长的骨头析出\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Epiphyseal separation in the long bones.
+Dialogue: 0,0:14:53.44,0:14:59.03,*Default,NTP,0000,0000,0000,,消瘦的胸骨在肋骨或肩胛骨旁 形成坏血症的玫瑰花形\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sunken sternum forms scorbutic rosary at costochondral margin.
+Dialogue: 0,0:14:59.14,0:15:01.80,*Default,NTP,0000,0000,0000,,他患有坏血症 而且有第三期的梅毒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He suffered from scurvy,as well as tertiary syphilis.
+Dialogue: 0,0:15:01.87,0:15:04.46,*Default,NTP,0000,0000,0000,,什么是第三期? 不是有梅毒就都够糟糕了吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What's with the tertiary? Isn't plain all syphilis bad enough?
+Dialogue: 0,0:15:04.52,0:15:08.17,*Default,NTP,0000,0000,0000,,坏血病 梅毒 海盗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Scurvy,syphilis.Pirate.
+Dialogue: 0,0:15:08.25,0:15:11.14,*Default,NTP,0000,0000,0000,,有人类学上的证据证明黑胡子\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There is anthropological evidence which supports the claim
+Dialogue: 0,0:15:11.22,0:15:14.57,*Default,NTP,0000,0000,0000,,在完成了挖洞后埋葬了他的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that blackbeard executed his burial crews after they were done digging.
+Dialogue: 0,0:15:14.61,0:15:15.75,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay.
+Dialogue: 0,0:15:15.87,0:15:18.15,*Default,NTP,0000,0000,0000,,就说这个人是海盗\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Let's say it's a pirate.
+Dialogue: 0,0:15:18.23,0:15:19.22,*Default,NTP,0000,0000,0000,,是的!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yes!
+Dialogue: 0,0:15:19.29,0:15:21.69,*Default,NTP,0000,0000,0000,,这会是一个非凡的发现\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This would be an extraordinary find.
+Dialogue: 0,0:15:21.80,0:15:25.84,*Default,NTP,0000,0000,0000,,而且这会公开宝藏的真实情况\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And would open up the reality of the treasure.
+Dialogue: 0,0:15:25.92,0:15:28.39,*Default,NTP,0000,0000,0000,,在这个时候不考虑周全是很愚蠢的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It would be stupid to dismiss anything at this point.
+Dialogue: 0,0:15:28.51,0:15:32.10,*Default,NTP,0000,0000,0000,,不过我们需要发现为什么骨胶原 没有完全被分解\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But we need to discover why the ossein isn't fully decomposed
+Dialogue: 0,0:15:32.18,0:15:33.63,*Default,NTP,0000,0000,0000,,在水底下这么久\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}from being waterlogged for so long.
+Dialogue: 0,0:15:33.70,0:15:34.97,*Default,NTP,0000,0000,0000,,大约在坑50尺下 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}About 50 feet down the shaft,
+Dialogue: 0,0:15:34.97,0:15:37.52,*Default,NTP,0000,0000,0000,,有一层由硅和黏土 组成的兰色宝石墨粉\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}is a layer of blue putty,consisting of silicon and clay.
+Dialogue: 0,0:15:37.64,0:15:39.72,*Default,NTP,0000,0000,0000,,这可以用来做防水隔离\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It can be used to form a watertight seal.
+Dialogue: 0,0:15:39.80,0:15:41.62,*Default,NTP,0000,0000,0000,,这可以解释骨头的状况\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That would explain the condition of the bones.
+Dialogue: 0,0:15:41.66,0:15:45.32,*Default,NTP,0000,0000,0000,,我拿了些在200-207尺间 同样的兰色黏土样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I took samples of the same blue clay between 200 and 207 feet.
+Dialogue: 0,0:15:45.40,0:15:47.26,*Default,NTP,0000,0000,0000,,有些东西埋在那里下面\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Something is buried down there.
+Dialogue: 0,0:15:47.36,0:15:49.19,*Default,NTP,0000,0000,0000,,这些骨头在它们上面放着\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And these bones were lying on top of it.
+Dialogue: 0,0:15:49.27,0:15:51.54,*Default,NTP,0000,0000,0000,,Macy因为他发现这些东西所以被杀了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Macy was killed because of something that he found.
+Dialogue: 0,0:15:51.62,0:15:54.63,*Default,NTP,0000,0000,0000,,在他喉咙和肺的泥沙确定 他是在竖井顶部被杀的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Silt in his throat and lungs confirms he was killed at the top of the shaft.
+Dialogue: 0,0:15:54.73,0:15:57.10,*Default,NTP,0000,0000,0000,,在他带着宝藏游上回来后\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}After he swam back up with the treasure.
+Dialogue: 0,0:15:57.18,0:15:58.94,*Default,NTP,0000,0000,0000,,Booth探员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Special agent booth.
+Dialogue: 0,0:15:59.10,0:16:01.85,*Default,NTP,0000,0000,0000,,我讨厌打断你们的调查 Booth探员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I hate to interrupt your investigation,agent booth,
+Dialogue: 0,0:16:01.95,0:16:06.00,*Default,NTP,0000,0000,0000,,不过有个非常生气的亿万富翁 在我的办公室并且他不离开\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but there's an angry billionaire in my office,and he won't go away.
+Dialogue: 0,0:16:06.44,0:16:07.54,*Default,NTP,0000,0000,0000,,这很简单\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's simple.
+Dialogue: 0,0:16:07.66,0:16:10.63,*Default,NTP,0000,0000,0000,,你们拥有一些属于我的东西 而我不会离开这里直到我拿回它\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You have something that belongs to me,and I'm not leaving here without it.
+Dialogue: 0,0:16:10.70,0:16:12.12,*Default,NTP,0000,0000,0000,,一天前 你等着要离开\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A day ago,you couldn't wait to leave.
+Dialogue: 0,0:16:12.20,0:16:15.14,*Default,NTP,0000,0000,0000,,从你的岛上撤退 中断你的损失 记得吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pull out of the island,cut your losses.You remember that?
+Dialogue: 0,0:16:15.26,0:16:16.61,*Default,NTP,0000,0000,0000,,一天内很多事会改变的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A lot can change in a day.
+Dialogue: 0,0:16:16.72,0:16:18.76,*Default,NTP,0000,0000,0000,,对于Ted Macy 很多事改变了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}For ted macy,a lot changed.
+Dialogue: 0,0:16:18.83,0:16:21.66,*Default,NTP,0000,0000,0000,,我对Ted感到很抱歉 但是我会受谴责如果联邦政府\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look,I'm sorry about ted,but I'll be damned if the federal government
+Dialogue: 0,0:16:21.73,0:16:23.54,*Default,NTP,0000,0000,0000,,在这里用11个小时抢去和偷去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}swoops in here at the eleventh hour and steals 
+Dialogue: 0,0:16:23.54,0:16:25.49,*Default,NTP,0000,0000,0000,,我用了2年的时间去寻找的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}what I've been trying to find for two years
+Dialogue: 0,0:16:25.56,0:16:27.79,*Default,NTP,0000,0000,0000,,我没有看到这事和Jeffersonian有关联\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I fail to see what this has to do with the jeffersonian.
+Dialogue: 0,0:16:27.86,0:16:32.37,*Default,NTP,0000,0000,0000,,这些骨头属于我 它们是在我的地方被发现的!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Those bones belong to me.They were uncovered at my site.
+Dialogue: 0,0:16:32.48,0:16:37.84,*Default,NTP,0000,0000,0000,,我是被授权允许在那里 挖凿和拥有所发现的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was granted a permit to dig there and keep what was found.
+Dialogue: 0,0:16:37.92,0:16:41.46,*Default,NTP,0000,0000,0000,,我的律师向我确认 对这些骨头你们没有任何权利拥有\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}My attorneys assure me,you have no claim to those bones.
+Dialogue: 0,0:16:41.58,0:16:44.46,*Default,NTP,0000,0000,0000,,如果你的律师想接下来20年到法庭\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sure,I mean,your attorney wants to go to court for the next 20 years,
+Dialogue: 0,0:16:44.53,0:16:47.16,*Default,NTP,0000,0000,0000,,和给他在Tuscany一个很好的家庭假期\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and buy himself a nice vacation home in tuscany,
+Dialogue: 0,0:16:47.27,0:16:50.10,*Default,NTP,0000,0000,0000,,不过事实是 当Ted Macy被谋杀了 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but the fact is,when ted macy was murdered,
+Dialogue: 0,0:16:50.10,0:16:51.95,*Default,NTP,0000,0000,0000,,你的财产就变成了我们的证据\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}your property became our evidence.
+Dialogue: 0,0:16:52.07,0:16:55.78,*Default,NTP,0000,0000,0000,,而且这将会持续到我们发现凶手是谁\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And it's going to stay that way until we find the killer.
+Dialogue: 0,0:16:56.09,0:16:58.80,*Default,NTP,0000,0000,0000,,我原本打算友好地解决的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was hoping to settle this amicably.
+Dialogue: 0,0:16:58.87,0:17:01.87,*Default,NTP,0000,0000,0000,,是啊?因为我们直到现在还未发现这点\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Really?Because,you know,we haven't seen that yet.
+Dialogue: 0,0:17:03.10,0:17:05.98,*Default,NTP,0000,0000,0000,,这可能会成为麻烦 他有些很厉害的朋友\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is going to be a headache.He has some very important friends.
+Dialogue: 0,0:17:06.06,0:17:08.63,*Default,NTP,0000,0000,0000,,我不明白为什么他会这么不开心 看不出来他需要这些钱啊\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I don't understand why he's so upset.It's not like he needs the money.
+Dialogue: 0,0:17:08.71,0:17:11.10,*Default,NTP,0000,0000,0000,,但是他的合作伙伴需要\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But he has partners that do.
+Dialogue: 0,0:17:11.18,0:17:14.15,*Default,NTP,0000,0000,0000,,Macy和Gardewicke 打算分配他们所发现的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Macy and hardewicke were going to split what they found.
+Dialogue: 0,0:17:14.22,0:17:15.33,*Default,NTP,0000,0000,0000,,但是Macy死了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But macy is dead.
+Dialogue: 0,0:17:15.44,0:17:19.82,*Default,NTP,0000,0000,0000,,正确 剩下Hardewicke可以分得大块的一份\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Exactly. Leaving hardewicke with a bigger piece of the pie.
+Dialogue: 0,0:17:19.93,0:17:23.15,*Default,NTP,0000,0000,0000,,这是从我们一起发现的第一个挖掘\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is from our very first dig together.
+Dialogue: 0,0:17:23.27,0:17:26.78,*Default,NTP,0000,0000,0000,,我们发现这些箱在一个新英格兰Simith \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}we found this-this chest buried under a flood 
+Dialogue: 0,0:17:26.78,0:17:28.79,*Default,NTP,0000,0000,0000,,的洪水退去的小河湾被埋着\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}drain up in smith's cove in new england.
+Dialogue: 0,0:17:28.86,0:17:30.47,*Default,NTP,0000,0000,0000,,那里没有宝藏的 但是你知道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There was no treasure,but,you know,
+Dialogue: 0,0:17:30.55,0:17:33.47,*Default,NTP,0000,0000,0000,,只是在地低下有些很老 有很多历史的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}just to unearth something that was that old,had that much history--
+Dialogue: 0,0:17:33.55,0:17:35.24,*Default,NTP,0000,0000,0000,,我们被吸引住了 没有回头过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}we were hooked.Never looked back.
+Dialogue: 0,0:17:35.32,0:17:37.22,*Default,NTP,0000,0000,0000,,我查看了一下你们的公司历史\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,I glanced through your company history.
+Dialogue: 0,0:17:37.37,0:17:40.62,*Default,NTP,0000,0000,0000,,生意很呆滞 因为你们在这里 不能找到什么宝藏\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I mean,business was pretty slow,since you didn't find any treasure out here.
+Dialogue: 0,0:17:40.70,0:17:41.97,*Default,NTP,0000,0000,0000,,你们越来越少客户了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You were getting fewer and fewer clients.
+Dialogue: 0,0:17:42.04,0:17:43.87,*Default,NTP,0000,0000,0000,,这是很困难\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it's been difficult.
+Dialogue: 0,0:17:43.95,0:17:46.62,*Default,NTP,0000,0000,0000,,Branson Rose几乎是你最后一个机会了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Branson rose was almost your last chance.
+Dialogue: 0,0:17:46.81,0:17:49.84,*Default,NTP,0000,0000,0000,,这里总是有人寻宝的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's always somebody who wants to look for treasure.
+Dialogue: 0,0:17:49.96,0:17:50.99,*Default,NTP,0000,0000,0000,,是吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Really?
+Dialogue: 0,0:17:51.10,0:17:54.58,*Default,NTP,0000,0000,0000,,因为Branson Rose 要退出和拿走很多设施\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}'Cause,you know,branson rose,he pulls out,and get a lot of publicity,
+Dialogue: 0,0:17:54.66,0:17:56.12,*Default,NTP,0000,0000,0000,,你们就会结束 就是你们的公司会倒闭\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you could end up,you know...Sinking your business.
+Dialogue: 0,0:17:56.19,0:17:57.87,*Default,NTP,0000,0000,0000,,但是Macy最后发现些东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but macy found something finally,
+Dialogue: 0,0:17:57.98,0:18:01.18,*Default,NTP,0000,0000,0000,,我们也会和Rose五五分账 50%归我们\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and we're going to share the find with rose-- 50% for him,50 for us.
+Dialogue: 0,0:18:01.25,0:18:02.50,*Default,NTP,0000,0000,0000,,完全正确\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Exactly.
+Dialogue: 0,0:18:02.63,0:18:07.68,*Default,NTP,0000,0000,0000,,噢 我明白了 如果Macy不在了 我就可以分得多一些是吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,I see.More for me if macy's out of the picture,right?
+Dialogue: 0,0:18:07.76,0:18:11.56,*Default,NTP,0000,0000,0000,,你忘记了一件事 Macy就像是我的家人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're forgetting one thing.Macy was like family to me.
+Dialogue: 0,0:18:11.64,0:18:12.52,*Default,NTP,0000,0000,0000,,真的吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Really?
+Dialogue: 0,0:18:12.59,0:18:14.13,*Default,NTP,0000,0000,0000,,看看这个 看到吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look at this. See that?
+Dialogue: 0,0:18:14.21,0:18:17.29,*Default,NTP,0000,0000,0000,,我在93年因为拉Macy 脱离个流沙洞而得到\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I got that pulling macy out of a sinkhole back in '93.
+Dialogue: 0,0:18:17.33,0:18:19.52,*Default,NTP,0000,0000,0000,,他身上也有很多因为我的伤痕\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's got plenty of scars on him because of me,too.
+Dialogue: 0,0:18:19.59,0:18:22.55,*Default,NTP,0000,0000,0000,,你是这些痂附近的伤痕怎么得到的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How'd you get all those bruises around your scar there?
+Dialogue: 0,0:18:24.38,0:18:25.81,*Default,NTP,0000,0000,0000,,市长\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the mayor.
+Dialogue: 0,0:18:25.92,0:18:27.96,*Default,NTP,0000,0000,0000,,市长是怎么卷进来的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How does the mayor figure into all this?
+Dialogue: 0,0:18:28.00,0:18:30.15,*Default,NTP,0000,0000,0000,,他的妻子 你见过她 对吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}His wife. You saw her,right?
+Dialogue: 0,0:18:30.22,0:18:32.48,*Default,NTP,0000,0000,0000,,Macy是个有点爱同女人有关系的男人 如果你明白我的意思\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,macy was a bit of a hound,if you know what I mean.
+Dialogue: 0,0:18:32.56,0:18:34.32,*Default,NTP,0000,0000,0000,,他和海盗皇后上床?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He was sleeping with the pirate queen?
+Dialogue: 0,0:18:34.39,0:18:36.63,*Default,NTP,0000,0000,0000,,市长开始怀疑 他上个星期来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The mayor got suspicious,he came around last week,
+Dialogue: 0,0:18:36.70,0:18:38.40,*Default,NTP,0000,0000,0000,,而我最后保护了Macy\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and I ended up taking the heat for macy,
+Dialogue: 0,0:18:38.47,0:18:40.14,*Default,NTP,0000,0000,0000,,因为Macy就像我的兄弟\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}because macy's like my brother,
+Dialogue: 0,0:18:40.22,0:18:42.62,*Default,NTP,0000,0000,0000,,而我要告诉你的是 骨瘦如柴的海盗也会打架的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and I'll tell you,that scrawny little pirate-- hcan kick,too.
+Dialogue: 0,0:18:42.70,0:18:45.36,*Default,NTP,0000,0000,0000,,幸运的是他没有时间在装弹药\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Lucky he didn't have time to load that flintlock.
+Dialogue: 0,0:18:45.43,0:18:50.30,*Default,NTP,0000,0000,0000,,Charlie? 不是 放下这个 放它在那里 你在干什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Charlie?No. Put that down.Leave it there.What are you doing?
+Dialogue: 0,0:18:55.15,0:18:58.27,*Default,NTP,0000,0000,0000,,Zack? Zack 那些骨头...\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Zack?Zack,the bones--
+Dialogue: 0,0:18:58.35,0:18:59.63,*Default,NTP,0000,0000,0000,,你对那些骨头做什么了?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}what did you do with the bones?
+Dialogue: 0,0:18:59.71,0:19:03.94,*Default,NTP,0000,0000,0000,,没有啊 Brenna教授 我就按你要求的放他们在桌上啊\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Nothing,dr. Brennan. I left them on the table just like you asked.
+Dialogue: 0,0:19:05.38,0:19:08.53,*Default,NTP,0000,0000,0000,,我的骨头在哪里啊?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Where the hell are my bones?
+Dialogue: 0,0:19:09.18,0:19:13.52,*Default,NTP,0000,0000,0000,,骨头不会无端失踪的 我以为这里有安全机构\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}bones don't just disappear.I thought is was a secure facility.
+Dialogue: 0,0:19:13.60,0:19:16.07,*Default,NTP,0000,0000,0000,,你向我保证这里有安全机构的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You assured me this was a secure facility.
+Dialogue: 0,0:19:16.14,0:19:18.06,*Default,NTP,0000,0000,0000,,你知道我会在斯坦福工作的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I could be working at stanford,you know.
+Dialogue: 0,0:19:18.13,0:19:19.65,*Default,NTP,0000,0000,0000,,这不会发生在斯坦福的!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This never would have happened at stanford.
+Dialogue: 0,0:19:19.73,0:19:21.86,*Default,NTP,0000,0000,0000,,我们花了450万在我们的安全设施上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We spend three quarters of a million dollars annually on security.
+Dialogue: 0,0:19:21.98,0:19:25.63,*Default,NTP,0000,0000,0000,,很明显这个是不够的 我要我的骨头 你找到我的骨头了吗?!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Obviously that's not enough.I want my bones.Did you find my bones?!
+Dialogue: 0,0:19:25.71,0:19:27.89,*Default,NTP,0000,0000,0000,,或许你会想要 冷静点?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh! Maybe you want just want to,you know,chill a little?
+Dialogue: 0,0:19:27.97,0:19:29.57,*Default,NTP,0000,0000,0000,,冷静?! 你知道 吃点药\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Chill?-- You know,take a pill.
+Dialogue: 0,0:19:29.61,0:19:33.21,*Default,NTP,0000,0000,0000,,听着 伙计 我的实验室被侵入了 我的骨头被偷了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Listen,dude,my lab was violated,my bones were stolen,
+Dialogue: 0,0:19:33.33,0:19:36.10,*Default,NTP,0000,0000,0000,,因此我认为我会愤怒多一会儿!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}so I think I'll remain warm for a little while longer.
+Dialogue: 0,0:19:36.18,0:19:38.72,*Default,NTP,0000,0000,0000,,- 呼吸 甜心 也许你该注意一下呼吸 - 深呼吸\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Honey,maybe you should focus on your breathing.--Breathing.
+Dialogue: 0,0:19:38.80,0:19:40.09,*Default,NTP,0000,0000,0000,,- 数到十 - 数到十\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Count to ten.--Count to ten.
+Dialogue: 0,0:19:40.17,0:19:41.01,*Default,NTP,0000,0000,0000,,给点行动来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Have a shot of jack.
+Dialogue: 0,0:19:41.08,0:19:43.45,*Default,NTP,0000,0000,0000,,给点行动 瞧 我们正在做 我们可以做的事情 好吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Shot of jack.Look,we're doing everything that we can,okay?
+Dialogue: 0,0:19:43.56,0:19:46.09,*Default,NTP,0000,0000,0000,,我答应你 我们会找回你的骨头 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I promise you,we're going to f find your bone
+Dialogue: 0,0:19:46.09,0:19:48.80,*Default,NTP,0000,0000,0000,,但是你也必须准许我们做我们的工作\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but you have to allow us to do our job.
+Dialogue: 0,0:19:48.92,0:19:52.44,*Default,NTP,0000,0000,0000,,我想我帮不了什么 对吧?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I guess I wasn't helping all that much,was I?
+Dialogue: 0,0:19:53.39,0:19:59.02,*Default,NTP,0000,0000,0000,,- 我...... - 对不起......\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I...I'M...sorry.
+Dialogue: 0,0:19:59.18,0:20:00.85,*Default,NTP,0000,0000,0000,,这不要紧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's cool.
+Dialogue: 0,0:20:00.92,0:20:02.55,*Default,NTP,0000,0000,0000,,嘿 想积极的一面 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,look on the bright side.
+Dialogue: 0,0:20:02.55,0:20:05.45,*Default,NTP,0000,0000,0000,,这个盗窃会对我们有帮助的 是吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I mean,this whole theft thing could be good for us,right?
+Dialogue: 0,0:20:05.53,0:20:07.01,*Default,NTP,0000,0000,0000,,我的意思是 不管谁偷走了骨头明显地\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I mean,whoever took the bones obviously
+Dialogue: 0,0:20:07.13,0:20:09.34,*Default,NTP,0000,0000,0000,,肯定和凶手有关 我们又近一步了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}had something to do with the murder.We're getting closer.
+Dialogue: 0,0:20:09.42,0:20:11.13,*Default,NTP,0000,0000,0000,,我已经命令所有当时执勤人员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I've ordered all on-duty security personnel to
+Dialogue: 0,0:20:11.25,0:20:13.25,*Default,NTP,0000,0000,0000,,提交了一份详细到分钟的执勤报告\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}give a minute-by-minute account of their rounds.
+Dialogue: 0,0:20:13.33,0:20:15.21,*Default,NTP,0000,0000,0000,,我也同样这样要求了 那些不执勤的人员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I want an account of all off-duty personnel,as well.
+Dialogue: 0,0:20:15.25,0:20:16.43,*Default,NTP,0000,0000,0000,,他们没有拿走全部\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They didn't get everything.
+Dialogue: 0,0:20:16.51,0:20:18.07,*Default,NTP,0000,0000,0000,,我还认为所有的骨头都已在这台上了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I thought all the bones were on the table.
+Dialogue: 0,0:20:18.17,0:20:19.89,*Default,NTP,0000,0000,0000,,只有刚发现有坏血病的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All the new ones.
+Dialogue: 0,0:20:19.89,0:20:21.77,*Default,NTP,0000,0000,0000,,那段我还在检验原始的指骨\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was still examining the original finger bone we found for scurvy,
+Dialogue: 0,0:20:21.85,0:20:24.35,*Default,NTP,0000,0000,0000,,还在我的房间里\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}so it was in my room.
+Dialogue: 0,0:20:24.55,0:20:29.77,*Default,NTP,0000,0000,0000,,有些他们不想我们在这些骨头上 发现的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There is something they don't want us to find on these bones.
+Dialogue: 0,0:20:29.96,0:20:32.52,*Default,NTP,0000,0000,0000,,大家都认识Macy 帮助Frank赢得了选举\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Everyone knew macy.Helped frank get elected.
+Dialogue: 0,0:20:32.59,0:20:36.59,*Default,NTP,0000,0000,0000,,所以你指你们的关系是朋友喽?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So you would categorize your relationship as just friends?
+Dialogue: 0,0:20:36.82,0:20:40.28,*Default,NTP,0000,0000,0000,,是的 朋友 这是个小镇 大家都是朋友\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Friends.It's a small town.We're all friends.
+Dialogue: 0,0:20:40.40,0:20:43.36,*Default,NTP,0000,0000,0000,,不管怎样 杀了Macy的人 就不是那么友好了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,whoever killed macy wasn't too friendly.
+Dialogue: 0,0:20:43.47,0:20:46.59,*Default,NTP,0000,0000,0000,,他不会伤害任何人--Macy\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He wouldn't hurt a soul-- macy.
+Dialogue: 0,0:20:46.62,0:20:48.73,*Default,NTP,0000,0000,0000,,他是个好人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He was a sweet guy.
+Dialogue: 0,0:20:48.81,0:20:51.23,*Default,NTP,0000,0000,0000,,从你谈论他的语气看来 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The way you're talking about him,
+Dialogue: 0,0:20:51.23,0:20:52.99,*Default,NTP,0000,0000,0000,,你们不只是朋友吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it seems like you were more than just friends.
+Dialogue: 0,0:20:55.16,0:20:58.63,*Default,NTP,0000,0000,0000,,Hardewicke告诉你的? 像是他是个圣人一样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hardewicke told you,right?Like he's such a saint.
+Dialogue: 0,0:20:58.67,0:21:00.09,*Default,NTP,0000,0000,0000,,你们两个的关系怎样?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How involved were the two of you?
+Dialogue: 0,0:21:00.13,0:21:02.68,*Default,NTP,0000,0000,0000,,这只是其中一件事\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It was just one of those things,you know.
+Dialogue: 0,0:21:02.72,0:21:05.86,*Default,NTP,0000,0000,0000,,不管怎样我不会离开Frank的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I wasn't going to leave frank or anything.
+Dialogue: 0,0:21:05.97,0:21:08.98,*Default,NTP,0000,0000,0000,,我猜我想看到一个名副其实的冒险家\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I guess I wanted to see what it was like to be with a real adventurer
+Dialogue: 0,0:21:09.06,0:21:11.25,*Default,NTP,0000,0000,0000,,而不是一个穿冒险装的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}rather than a guy who dresses up like one.
+Dialogue: 0,0:21:11.32,0:21:14.07,*Default,NTP,0000,0000,0000,,Frank以为看到了Hardewicke 所以跟了过去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So,frank went after hardewicke when he thought it was him.
+Dialogue: 0,0:21:14.14,0:21:16.86,*Default,NTP,0000,0000,0000,,你认为Frank杀了他? 你见到过Frank了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You think frank killed him?You saw frank.
+Dialogue: 0,0:21:16.97,0:21:19.40,*Default,NTP,0000,0000,0000,,你知道 他情绪有点不稳定\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,You know,he's a little,a little unstable.
+Dialogue: 0,0:21:19.48,0:21:22.29,*Default,NTP,0000,0000,0000,,当他发现有人耍了他两次时 我 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}When he finds out somebody made a fool of him twice,I...
+Dialogue: 0,0:21:22.41,0:21:25.43,*Default,NTP,0000,0000,0000,,你应该注意的是Hardewicke和那个富翁\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}look,it's hardewicke and the rich guy you should be looking at.
+Dialogue: 0,0:21:25.51,0:21:28.71,*Default,NTP,0000,0000,0000,,Macy说过他们常常因为分钱不均而吵架\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Macy said they were all fighting over the money they were spending.
+Dialogue: 0,0:21:28.83,0:21:31.64,*Default,NTP,0000,0000,0000,,也说过Hardewicke并不喜欢他做的事 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Said hardewicke didn't appreciate all the work he did,
+Dialogue: 0,0:21:31.64,0:21:32.92,*Default,NTP,0000,0000,0000,,而且想要结束合作关系\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}wanted to break up the company.
+Dialogue: 0,0:21:32.96,0:21:35.82,*Default,NTP,0000,0000,0000,,我们-我们正在调查每个人 谢谢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,we're-we're looking into everyone.Thanks.
+Dialogue: 0,0:21:35.90,0:21:39.33,*Default,NTP,0000,0000,0000,,不用谢 但是再提起这些事\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sure.But all this coming up again.
+Dialogue: 0,0:21:40.26,0:21:45.02,*Default,NTP,0000,0000,0000,,只要不毁了我的婚姻就行了 好吗? 我错过一次\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Just try not to ruin my marriage,okay?I made a mistake.
+Dialogue: 0,0:21:45.10,0:21:48.86,*Default,NTP,0000,0000,0000,,但是我爱那个傻海盗 我不想失去他\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But I love that stupid pirate,and I don't want to lose him.
+Dialogue: 0,0:21:48.94,0:21:53.39,*Default,NTP,0000,0000,0000,,谢谢告诉我这些 我会保持联络的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,thanks for talking to me.I'll be in touch.
+Dialogue: 0,0:21:56.73,0:21:59.43,*Default,NTP,0000,0000,0000,,指骨的骨膜表面没有\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The periosteal surface on the phalanx doesn't
+Dialogue: 0,0:21:59.47,0:22:01.49,*Default,NTP,0000,0000,0000,,我可以还原的根深蒂固的颗粒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}have any ingrained particulates that I can recover.
+Dialogue: 0,0:22:01.57,0:22:04.31,*Default,NTP,0000,0000,0000,,使用M.E.可以溶解任何\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The solution that M.E. Used probably dissolved anything
+Dialogue: 0,0:22:04.39,0:22:07.47,*Default,NTP,0000,0000,0000,,在不规则表面的物质\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that was lodged in any surface irregularities.
+Dialogue: 0,0:22:07.54,0:22:10.56,*Default,NTP,0000,0000,0000,,谁在提取有用信息前洗过这骨头?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who would clean a bone before extracting all available information from it?
+Dialogue: 0,0:22:10.63,0:22:13.09,*Default,NTP,0000,0000,0000,,不是每个人都像我们这样专业 Zack\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Not everyone is as thorough as we are,zack.
+Dialogue: 0,0:22:13.13,0:22:14.69,*Default,NTP,0000,0000,0000,,真对 真对\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So true,so true.
+Dialogue: 0,0:22:14.79,0:22:16.65,*Default,NTP,0000,0000,0000,,我希望上面能有金沙呢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I wonder if there was gold dust on it.
+Dialogue: 0,0:22:16.76,0:22:19.58,*Default,NTP,0000,0000,0000,,也许你应该在你肩上放只鹦鹉 一起工作\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Perhaps you should start working with a parrot on your shoulder.
+Dialogue: 0,0:22:19.69,0:22:20.64,*Default,NTP,0000,0000,0000,,你不好奇吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You're not curious?
+Dialogue: 0,0:22:20.76,0:22:22.86,*Default,NTP,0000,0000,0000,,当然 只对于真相\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yes. About the facts.
+Dialogue: 0,0:22:23.35,0:22:28.68,*Default,NTP,0000,0000,0000,,在手指的末梢关节面上有个洞\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's a small hole along the distal articular facet of the finger.
+Dialogue: 0,0:22:28.76,0:22:32.14,*Default,NTP,0000,0000,0000,,那可能是通气孔 也可能是别的 人造的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It could be a foramen,but it could be something else,man-made.
+Dialogue: 0,0:22:32.22,0:22:33.41,*Default,NTP,0000,0000,0000,,武器?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A weapon?
+Dialogue: 0,0:22:33.49,0:22:37.44,*Default,NTP,0000,0000,0000,,也许 你看看能不能找到什么吻合的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Maybe.See if you can find any possible matches.
+Dialogue: 0,0:22:37.55,0:22:40.39,*Default,NTP,0000,0000,0000,,我想知道在Macy身上 会不会有相似的地方?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I wonder if there are any other similar marks on macy?
+Dialogue: 0,0:22:40.47,0:22:45.49,*Default,NTP,0000,0000,0000,,我会找到的 看牢那段骨头\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'll find out.And don't let that bone out of your sight.
+Dialogue: 0,0:22:49.64,0:22:53.39,*Default,NTP,0000,0000,0000,,Brennan博士认为你也许能 找到些什么武器之类的东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dr. Brennan thought you might have overlooked a weapon of some kind.
+Dialogue: 0,0:22:53.60,0:22:57.66,*Default,NTP,0000,0000,0000,,他不是被武器打死的 而是被扼死的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}he wasn't killed by any weapon.He was strangled.
+Dialogue: 0,0:22:57.77,0:23:01.41,*Default,NTP,0000,0000,0000,,很明显他的咽喉被压碎了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The larynx is crushed.It's plain.
+Dialogue: 0,0:23:01.48,0:23:03.11,*Default,NTP,0000,0000,0000,,从c2到c4是断裂的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And c2 through c4 are fractured.
+Dialogue: 0,0:23:03.11,0:23:05.79,*Default,NTP,0000,0000,0000,,如果他仅仅是被扼死的话 是不会这样的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That wouldn't have occurred if he were merely strangled.
+Dialogue: 0,0:23:05.86,0:23:08.75,*Default,NTP,0000,0000,0000,,如果受害人被扼住并被摇晃 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}If the victim was shaken while being strangled...
+Dialogue: 0,0:23:08.87,0:23:11.15,*Default,NTP,0000,0000,0000,,骨折就会全是从左到右的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the fractures are all left to right,
+Dialogue: 0,0:23:11.16,0:23:13.64,*Default,NTP,0000,0000,0000,,沿45度角分布在每根骨头上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}approximately 45-degree angles on each bone.
+Dialogue: 0,0:23:13.75,0:23:16.71,*Default,NTP,0000,0000,0000,,那就是说他的头是从左向上被猛扯的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That means the head was jerked to the left and up,
+Dialogue: 0,0:23:16.78,0:23:19.27,*Default,NTP,0000,0000,0000,,为了让脊椎骨能碎裂\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}makin sure that the spinal cord would tear.
+Dialogue: 0,0:23:19.33,0:23:22.02,*Default,NTP,0000,0000,0000,,当他的脖子被折断时 他的咽喉就被压碎了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The larynx was crushed when his neck was broken.
+Dialogue: 0,0:23:22.14,0:23:24.90,*Default,NTP,0000,0000,0000,,我永远欢迎别人的纠正\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm always open to being corrected.
+Dialogue: 0,0:23:24.97,0:23:26.50,*Default,NTP,0000,0000,0000,,你为什么认为会有武器存在\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why do you think there might have been a weapon?
+Dialogue: 0,0:23:26.80,0:23:29.90,*Default,NTP,0000,0000,0000,,你放进溶液那块骨头上有穿孔\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I saw a perforation in the finger bone you put in the solvent.
+Dialogue: 0,0:23:30.02,0:23:33.50,*Default,NTP,0000,0000,0000,,你用什么东西毁坏过 捅过 刺过骨头吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Did you damage the bone,poke it,stick it in some way?
+Dialogue: 0,0:23:33.57,0:23:36.02,*Default,NTP,0000,0000,0000,,我还是在生气 好吧 没有\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Still angry.Okay,no.
+Dialogue: 0,0:23:36.09,0:23:38.20,*Default,NTP,0000,0000,0000,,我严格遵守守则操作:\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I handled it according to protocol:
+Dialogue: 0,0:23:38.27,0:23:40.97,*Default,NTP,0000,0000,0000,,带着橡胶手套进行溶解\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Rubber gloves right into the solvent.
+Dialogue: 0,0:23:41.05,0:23:44.72,*Default,NTP,0000,0000,0000,,有东西破坏过那骨头 但是在300年内没有过 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Something damaged that bone,and it didn't happen 300 years...
+Dialogue: 0,0:23:47.76,0:23:49.74,*Default,NTP,0000,0000,0000,,等一下\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}wait a minute.
+Dialogue: 0,0:23:53.56,0:23:56.32,*Default,NTP,0000,0000,0000,,我想到另一种造成那个洞的可能性\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I have alternatives that could have caused the hole.
+Dialogue: 0,0:23:56.35,0:23:58.98,*Default,NTP,0000,0000,0000,,是一种用于针刺疗法的可任意使用的针\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is a disposable acupuncture needle.
+Dialogue: 0,0:23:59.06,0:24:00.76,*Default,NTP,0000,0000,0000,,他是在治疗中死亡的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He was healed to death?
+Dialogue: 0,0:24:00.85,0:24:04.37,*Default,NTP,0000,0000,0000,,那是一种用于血管重建术的细铁丝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is a filament used for an angioplasty.
+Dialogue: 0,0:24:04.45,0:24:06.24,*Default,NTP,0000,0000,0000,,给我那铁丝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hand me the wire.
+Dialogue: 0,0:24:12.52,0:24:15.28,*Default,NTP,0000,0000,0000,,- 你在做什么? - 降低荧光性\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What are you doing? --Diminished fluorescence.
+Dialogue: 0,0:24:15.35,0:24:18.85,*Default,NTP,0000,0000,0000,,只有这骨头已经被清洗处理过 它才会变成这样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That only happens if the bones have been cleaned and treated.
+Dialogue: 0,0:24:18.93,0:24:24.35,*Default,NTP,0000,0000,0000,,- 这些骨头不是源于钻井而是被放在那的 - 什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}These bones didn't start out in the shaft.They were placed there. What?
+Dialogue: 0,0:24:24.81,0:24:27.89,*Default,NTP,0000,0000,0000,,谁会有300年的骨头?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who has got 300-year-old bones?
+Dialogue: 0,0:24:31.58,0:24:34.37,*Default,NTP,0000,0000,0000,,我保证这所有的东西都是真的 Brennan博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I assure you everything here is authentic,dr. Brennan.
+Dialogue: 0,0:24:34.45,0:24:37.19,*Default,NTP,0000,0000,0000,,我自己组织过Jeffersonian的展览\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I curated this exhibit for the jeffersonian myself.
+Dialogue: 0,0:24:37.27,0:24:39.67,*Default,NTP,0000,0000,0000,,你能打开这柜子吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Could you please open the case?
+Dialogue: 0,0:24:41.01,0:24:43.92,*Default,NTP,0000,0000,0000,,这是个非常漂亮的标本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is a beautiful specimen.
+Dialogue: 0,0:24:43.99,0:24:45.86,*Default,NTP,0000,0000,0000,,在牙买加被找到的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Found in jamaica.
+Dialogue: 0,0:24:45.94,0:24:48.08,*Default,NTP,0000,0000,0000,,我相信他和Henry Morgan一起出过海\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We believe he sailed with henry morgan.
+Dialogue: 0,0:24:48.16,0:24:50.45,*Default,NTP,0000,0000,0000,,他一生中从没乘过船\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's never been on a boat in his life.
+Dialogue: 0,0:24:50.53,0:24:52.21,*Default,NTP,0000,0000,0000,,真可笑\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Absurd.
+Dialogue: 0,0:24:52.88,0:24:53.85,*Default,NTP,0000,0000,0000,,哦 我的天哪\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,my god.
+Dialogue: 0,0:24:53.97,0:24:58.77,*Default,NTP,0000,0000,0000,,这些骨头是人造的 丙烯酸 不是人骨\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}These bones are artificial.It's acrylic,not bone.
+Dialogue: 0,0:24:58.84,0:25:02.81,*Default,NTP,0000,0000,0000,,当骨头被重组时 你可以看到\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You can see the real hole where the wire was threaded
+Dialogue: 0,0:25:02.85,0:25:05.77,*Default,NTP,0000,0000,0000,,在铁丝穿过的地方有个洞\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}when the bones were assembled for display.
+Dialogue: 0,0:25:05.88,0:25:08.09,*Default,NTP,0000,0000,0000,,我的水手的其他部分在哪?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Then where's the rest of my sailor?
+Dialogue: 0,0:25:08.17,0:25:10.24,*Default,NTP,0000,0000,0000,,它被转移到了Assateague岛的钻井里\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He was planted in the shaft in assateague island
+Dialogue: 0,0:25:10.32,0:25:13.66,*Default,NTP,0000,0000,0000,,让整个宝藏的传说看起来像真的一样 但是有人找到了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}to make the whole treasure business seem real,but somebody found out.
+Dialogue: 0,0:25:13.73,0:25:14.91,*Default,NTP,0000,0000,0000,,谁?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who?
+Dialogue: 0,0:25:14.99,0:25:17.17,*Default,NTP,0000,0000,0000,,一个杀人犯\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A murderer.
+Dialogue: 0,0:25:20.04,0:25:22.26,*Default,NTP,0000,0000,0000,,好吧 让我看看我是否明白了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,let me see if I get this straight.
+Dialogue: 0,0:25:22.34,0:25:27.20,*Default,NTP,0000,0000,0000,,你还原的海盗的骸骨 是来自Jeffersonian的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the pirate bones you recovered came from the jeffersonian to start with?
+Dialogue: 0,0:25:27.32,0:25:28.06,*Default,NTP,0000,0000,0000,,是\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Correct.
+Dialogue: 0,0:25:28.34,0:25:30.60,*Default,NTP,0000,0000,0000,,300年的骨头 在我们自己的海盗展览中被偷了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}300-year-old bones stolen from our own pirate exhibit.
+Dialogue: 0,0:25:30.67,0:25:32.94,*Default,NTP,0000,0000,0000,,然后被你们的人还原了 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And then recovered by one of your own people...
+Dialogue: 0,0:25:33.02,0:25:33.97,*Default,NTP,0000,0000,0000,,Hodgins博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dr. Hodgins.
+Dialogue: 0,0:25:34.05,0:25:35.91,*Default,NTP,0000,0000,0000,,把他们送了回来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}...Who brought them back to the jeffersonian,
+Dialogue: 0,0:25:35.99,0:25:38.01,*Default,NTP,0000,0000,0000,,在那又再次被盗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}where they were stolen again?
+Dialogue: 0,0:25:38.12,0:25:39.60,*Default,NTP,0000,0000,0000,,再次被盗 先生\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Re-stolen,sir.
+Dialogue: 0,0:25:39.71,0:25:41.48,*Default,NTP,0000,0000,0000,,你有安全上的麻烦 Goodman博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You have a security problem,dr. Goodman.
+Dialogue: 0,0:25:41.59,0:25:44.05,*Default,NTP,0000,0000,0000,,当我找到这个小偷时 你可能有杀人上的麻烦了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And when I find out who did this,you may have a murder problem.
+Dialogue: 0,0:25:44.12,0:25:46.16,*Default,NTP,0000,0000,0000,,但是我在查的 好吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But I'm on top of it,okay?
+Dialogue: 0,0:25:46.20,0:25:47.61,*Default,NTP,0000,0000,0000,,你不用牵扯进来 先生\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You didn't have to come down here,sir.
+Dialogue: 0,0:25:47.69,0:25:48.90,*Default,NTP,0000,0000,0000,,我也这么想直到 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's what I thought,
+Dialogue: 0,0:25:48.90,0:25:50.58,*Default,NTP,0000,0000,0000,,我接到国防部某人的电话\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}until I got a call from someone at the department of defense.
+Dialogue: 0,0:25:50.65,0:25:54.06,*Default,NTP,0000,0000,0000,,国防部? 他们怎么能插手杀人案调查?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Defense? Howo they figure into a murder investigation?
+Dialogue: 0,0:25:54.13,0:25:56.26,*Default,NTP,0000,0000,0000,,Branson Rose 他在上头有朋友\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Branson rose,he has friends in high places,
+Dialogue: 0,0:25:56.35,0:26:00.08,*Default,NTP,0000,0000,0000,,他们不会想要 那个造轰炸机的家伙不高兴的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and they don't like it when the guy who builds their bombers is unhappy.
+Dialogue: 0,0:26:00.16,0:26:01.64,*Default,NTP,0000,0000,0000,,他们怕他会炸了他们?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}They afraid he'll bomb them?
+Dialogue: 0,0:26:01.76,0:26:05.05,*Default,NTP,0000,0000,0000,,那算什么 嘲笑吗? 我可没在笑\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What is that,squint humor?Because I'm not laughing.
+Dialogue: 0,0:26:05.13,0:26:07.00,*Default,NTP,0000,0000,0000,,国防部可以不言而战 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Defense doesn't need a reason to go to war,
+Dialogue: 0,0:26:07.00,0:26:09.44,*Default,NTP,0000,0000,0000,,但我不会是他们下一个的目标\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and I'm not about to be their next target.
+Dialogue: 0,0:26:09.55,0:26:11.76,*Default,NTP,0000,0000,0000,,我们追查嫌疑犯有很严格的规定\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We have a rude roles out to our suspect.
+Dialogue: 0,0:26:11.87,0:26:13.84,*Default,NTP,0000,0000,0000,,当然不行了 为了找骨头你们已经很忙了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,of course not.You're too busy looking for your bones.
+Dialogue: 0,0:26:13.92,0:26:15.70,*Default,NTP,0000,0000,0000,,不要把这当成是私事\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Let's not make this personal.
+Dialogue: 0,0:26:15.81,0:26:17.48,*Default,NTP,0000,0000,0000,,如果Rose想要继续趟这潭浑水\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Rose wants to keep playing in the mud,
+Dialogue: 0,0:26:17.59,0:26:20.33,*Default,NTP,0000,0000,0000,,他的大朋友就会来一看究竟 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and his big-shot friends are going to see that happens,
+Dialogue: 0,0:26:20.33,0:26:22.86,*Default,NTP,0000,0000,0000,,除非我们能早一步知道答案\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}unless we get some answers fast.
+Dialogue: 0,0:26:22.93,0:26:25.06,*Default,NTP,0000,0000,0000,,在这点上 看起来那些被偷的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}At this point,it appears as if 
+Dialogue: 0,0:26:25.06,0:26:26.89,*Default,NTP,0000,0000,0000,,300年的骨头正在被用于\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the stolen 300-year-old bones are being used to,
+Dialogue: 0,0:26:26.96,0:26:28.72,*Default,NTP,0000,0000,0000,,腌制竖井\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you know,salt the shaft.
+Dialogue: 0,0:26:28.80,0:26:30.17,*Default,NTP,0000,0000,0000,,腌制竖井?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Salt the shaft?
+Dialogue: 0,0:26:30.26,0:26:31.62,*Default,NTP,0000,0000,0000,,投资者花了上百万美元 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yeah,you know,an investor spends a million bucks,
+Dialogue: 0,0:26:31.62,0:26:33.36,*Default,NTP,0000,0000,0000,,因为什么都没发现时而坐立不安\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}gets antsy when nothing happens,
+Dialogue: 0,0:26:33.44,0:26:36.68,*Default,NTP,0000,0000,0000,,然后 哇啦 海盗的骸骨被发现了 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and then,voil,you know,pirate bones appear,
+Dialogue: 0,0:26:36.68,0:26:37.70,*Default,NTP,0000,0000,0000,,就像是金鸡\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and the golden goose keeps,you know...
+Dialogue: 0,0:26:37.82,0:26:39.05,*Default,NTP,0000,0000,0000,,开始生金蛋了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}...laying those eggs.
+Dialogue: 0,0:26:39.13,0:26:42.04,*Default,NTP,0000,0000,0000,,好了 那是很令人费解的比喻 Booth\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay,that is a convoluted metaphor,booth.
+Dialogue: 0,0:26:42.12,0:26:44.56,*Default,NTP,0000,0000,0000,,这叫欺骗 Brennan博士 就像是Piltdown的男人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a hoax,dr. Brennan,like piltdown man.
+Dialogue: 0,0:26:44.63,0:26:47.22,*Default,NTP,0000,0000,0000,,哦 知道了 你为什么不能说的那样清楚?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,got it.Why can't you be clear like that?
+Dialogue: 0,0:26:47.33,0:26:49.24,*Default,NTP,0000,0000,0000,,假设那些骸骨被偷 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Assuming the bones were stolen...
+Dialogue: 0,0:26:49.36,0:26:50.46,*Default,NTP,0000,0000,0000,,再次被偷?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}re-stolen?
+Dialogue: 0,0:26:50.58,0:26:53.70,*Default,NTP,0000,0000,0000,,再次被偷 那你不可能发现他们是假的 你是怎么做到的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}...Re-stolen so you wouldn't find out they were bogus,how did you?
+Dialogue: 0,0:26:53.77,0:26:54.56,*Default,NTP,0000,0000,0000,,我怎么做什么了?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How did I what?
+Dialogue: 0,0:26:54.67,0:26:57.40,*Default,NTP,0000,0000,0000,,从指骨上得知的 他们没有拿到整个的骸骨\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}From the finger. They didn't get the entire skeleton.
+Dialogue: 0,0:26:57.52,0:26:59.91,*Default,NTP,0000,0000,0000,,你愿意让Brennan博士讲一下过程吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Would you like dr. Brennan to take you through the process?
+Dialogue: 0,0:27:00.03,0:27:02.86,*Default,NTP,0000,0000,0000,,我实在 实在是不想 那你认为是谁?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I really,really wouldn'T.So who do you like?
+Dialogue: 0,0:27:02.98,0:27:03.80,*Default,NTP,0000,0000,0000,,我想是拍档\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I like the partner.
+Dialogue: 0,0:27:03.87,0:27:06.21,*Default,NTP,0000,0000,0000,,Giles Hardewicke 出入自由 动机 能力 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Giles hardewicke.Access,motive,ability...
+Dialogue: 0,0:27:06.27,0:27:07.89,*Default,NTP,0000,0000,0000,,Goodman博士 FBI会提供\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}dr. Goodman,the fbi will provide
+Dialogue: 0,0:27:08.00,0:27:11.09,*Default,NTP,0000,0000,0000,,一切帮你解决Jeffersonian的安全问题\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}whatever help you need to solve your breach of security at the jeffersonian.
+Dialogue: 0,0:27:11.17,0:27:13.69,*Default,NTP,0000,0000,0000,,你有合伙人了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You work the partner angle.
+Dialogue: 0,0:27:17.64,0:27:21.63,*Default,NTP,0000,0000,0000,,我父亲在渔船上工作 他的父亲以前也是\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,my father worked a fishing boat,his dad before that.
+Dialogue: 0,0:27:21.71,0:27:24.63,*Default,NTP,0000,0000,0000,,Heck 我和我哥哥 除了大海我们对其他一无所知\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Heck,me and my brother,we never knew anything but the sea.
+Dialogue: 0,0:27:24.74,0:27:27.60,*Default,NTP,0000,0000,0000,,我想我会找到宝藏\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hunting for treasure just sort of grew out of that I guess.
+Dialogue: 0,0:27:27.71,0:27:29.23,*Default,NTP,0000,0000,0000,,后悔了吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Any regrets?
+Dialogue: 0,0:27:29.29,0:27:32.29,*Default,NTP,0000,0000,0000,,是的 我哥哥\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sure. My brother.
+Dialogue: 0,0:27:32.86,0:27:36.17,*Default,NTP,0000,0000,0000,,还有他们可以让我们关门这个事实\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that and the fact they might shut us down.
+Dialogue: 0,0:27:36.25,0:27:39.36,*Default,NTP,0000,0000,0000,,嘿 除非我们找到什么\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,not if we find something.
+Dialogue: 0,0:27:39.48,0:27:43.27,*Default,NTP,0000,0000,0000,,我还以为你会回到办公室变回\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,I thought you were going to turn out to be just another desk jockey
+Dialogue: 0,0:27:43.39,0:27:44.89,*Default,NTP,0000,0000,0000,,那种读点书\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}who'd read a few books and was
+Dialogue: 0,0:27:44.97,0:27:47.78,*Default,NTP,0000,0000,0000,,找些东西可以打发无聊生活的人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}looking for something to brighten up his boring-ass life.
+Dialogue: 0,0:27:47.86,0:27:49.72,*Default,NTP,0000,0000,0000,,我来告诉你 我现在就想再下去一次\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'll tell you what,I'd be down that shaft right now
+Dialogue: 0,0:27:49.80,0:27:54.29,*Default,NTP,0000,0000,0000,,如果我有更多时间潜水的话\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}if big brother didn't have a minimum time requirement between dives.
+Dialogue: 0,0:27:54.40,0:27:58.51,*Default,NTP,0000,0000,0000,,你来这来对了 真的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you deserve to be here.you really do.
+Dialogue: 0,0:27:58.59,0:28:00.49,*Default,NTP,0000,0000,0000,,谢谢了 伙计\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Thanks for that,man.
+Dialogue: 0,0:28:00.90,0:28:07.09,*Default,NTP,0000,0000,0000,,实话和你说 那些骨头是被转移过来的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}as true as i tell you,The bones were planted.
+Dialogue: 0,0:28:09.15,0:28:10.47,*Default,NTP,0000,0000,0000,,你看起来并不惊讶\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you don't seem surprised.
+Dialogue: 0,0:28:10.54,0:28:14.94,*Default,NTP,0000,0000,0000,,没有什么让我吃惊 在钻井里见多了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}nothing surprises me out of that ... pit anymore.
+Dialogue: 0,0:28:16.45,0:28:20.35,*Default,NTP,0000,0000,0000,,只要你挖的够深 你就能到地狱了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I mean,you dig down far enough,you'll come out in hell.
+Dialogue: 0,0:28:20.73,0:28:25.40,*Default,NTP,0000,0000,0000,,如果你没有发现什么 你会让我们关门吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So,if you don't find anything,are you gonna shut us down?
+Dialogue: 0,0:28:25.44,0:28:28.07,*Default,NTP,0000,0000,0000,,我不是FBI 我只是个科学家\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm not fbi.I'm just a scientist.
+Dialogue: 0,0:28:28.15,0:28:29.47,*Default,NTP,0000,0000,0000,,这里是犯罪现场\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a crime scene.
+Dialogue: 0,0:28:29.53,0:28:31.18,*Default,NTP,0000,0000,0000,,我很惊讶他们让你下来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm surprised they let you down there.
+Dialogue: 0,0:28:31.25,0:28:34.07,*Default,NTP,0000,0000,0000,,我是泥沙 植物和昆虫方面的专家--\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm an expert in silt,plants,and insects--
+Dialogue: 0,0:28:34.15,0:28:34.60,*Default,NTP,0000,0000,0000,,对哦\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}that's right.
+Dialogue: 0,0:28:34.64,0:28:36.71,*Default,NTP,0000,0000,0000,,我拿到了三个博士头衔\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I got three doctorates.
+Dialogue: 0,0:28:36.79,0:28:40.06,*Default,NTP,0000,0000,0000,,当你拿到三个博士头衔的时候 你告诉FBI你需要更多的样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}When you got three doctorates,and you tell the fbi you need more samples,
+Dialogue: 0,0:28:40.13,0:28:45.60,*Default,NTP,0000,0000,0000,,谁会怀疑? 一个 也许会 但三个呢?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}who's gonna argue?One doctorate,maybe they argue,but three?
+Dialogue: 0,0:28:45.81,0:28:50.65,*Default,NTP,0000,0000,0000,,你想要再回去一次吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you want to go back down again,don't you?
+Dialogue: 0,0:28:53.02,0:28:54.68,*Default,NTP,0000,0000,0000,,我需要你的帮助 伙计\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I could use your help,man.
+Dialogue: 0,0:28:54.76,0:28:56.89,*Default,NTP,0000,0000,0000,,你真喜欢潜水啊 伙计! \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You got the bug,man!
+Dialogue: 0,0:28:56.97,0:29:00.80,*Default,NTP,0000,0000,0000,,嘿 就像我说的 我是虫男\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,like I said,I am the bug man.
+Dialogue: 0,0:29:02.81,0:29:05.37,*Default,NTP,0000,0000,0000,,如果你丢了那些骨头 你怎么知道它们是假的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}If you lost the bones,how do you know they're fake?
+Dialogue: 0,0:29:05.45,0:29:06.94,*Default,NTP,0000,0000,0000,,小偷 他们没有拿走全部\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Thieves,they didn't get everything.
+Dialogue: 0,0:29:07.05,0:29:08.97,*Default,NTP,0000,0000,0000,,那些好人走运了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Stroke of luck for the good guys.
+Dialogue: 0,0:29:09.05,0:29:10.18,*Default,NTP,0000,0000,0000,,我们会找出那些骨头 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We will find out
+Dialogue: 0,0:29:10.18,0:29:12.46,*Default,NTP,0000,0000,0000,,是怎样从Jeffersonian那被偷的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&} how those bones were stolen from the jeffersonian.
+Dialogue: 0,0:29:12.54,0:29:14.87,*Default,NTP,0000,0000,0000,,你还是认为是我做的 是吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You still think i did it,don't you?
+Dialogue: 0,0:29:14.95,0:29:17.22,*Default,NTP,0000,0000,0000,,你为什么要拆伙?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why were you going to break up the company?
+Dialogue: 0,0:29:17.66,0:29:20.39,*Default,NTP,0000,0000,0000,,让我猜猜 Katie Ney告诉你的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}let me guess,katie ney tell you that?
+Dialogue: 0,0:29:20.46,0:29:21.75,*Default,NTP,0000,0000,0000,,你为什么会想到是Katie?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What makes you think it was katie?
+Dialogue: 0,0:29:21.84,0:29:26.29,*Default,NTP,0000,0000,0000,,那就是Macy调情的技巧所在 那非常有效\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That was a stock part of macy's seduction technique,and it was very effective.
+Dialogue: 0,0:29:26.33,0:29:31.47,*Default,NTP,0000,0000,0000,,"我在那洞里出生入死 而我的同伴却稳稳的高高在上"\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}"I risk my life down in that hole while my partner stays safe topside."
+Dialogue: 0,0:29:31.54,0:29:35.35,*Default,NTP,0000,0000,0000,,那就是他怎样把自己 塑造的像个英勇的冒险家的 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's how he positioned himself as the heroic explorer...
+Dialogue: 0,0:29:35.38,0:29:38.43,*Default,NTP,0000,0000,0000,,事实上他是的 顺便提一下 当是对女人的时候\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}which he was,by the way,when it came to the ladies.
+Dialogue: 0,0:29:38.50,0:29:39.76,*Default,NTP,0000,0000,0000,,你的关系牢靠吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Your partnership was intact?
+Dialogue: 0,0:29:39.87,0:29:43.19,*Default,NTP,0000,0000,0000,,只有死亡可以分开我们\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Till death did us part.I'll tell you what.
+Dialogue: 0,0:29:43.26,0:29:45.72,*Default,NTP,0000,0000,0000,,我给你们所有你们要的所有通行许可\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm gonna give you guys full access to the books.
+Dialogue: 0,0:29:45.80,0:29:47.31,*Default,NTP,0000,0000,0000,,你们甚至不需要搜查证\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You don't even need a search warrant.
+Dialogue: 0,0:29:47.39,0:29:52.60,*Default,NTP,0000,0000,0000,,没有Macy的日子每一天我都很难过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's not a single way in which my life is tter off without macy.
+Dialogue: 0,0:29:53.04,0:29:55.66,*Default,NTP,0000,0000,0000,,像我说的 我想念那家伙\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Like I said,I miss the man.
+Dialogue: 0,0:29:58.82,0:30:00.76,*Default,NTP,0000,0000,0000,,那些骨头被偷了两次--\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the bones were stolen twice--
+Dialogue: 0,0:30:00.83,0:30:02.53,*Default,NTP,0000,0000,0000,,第一次是在海盗展上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the first time from the pirate exhibit,
+Dialogue: 0,0:30:02.61,0:30:05.51,*Default,NTP,0000,0000,0000,,第二次是在这的法医试验室里\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the second from the bone room here in the medico-legal lab.
+Dialogue: 0,0:30:05.55,0:30:08.97,*Default,NTP,0000,0000,0000,,试验室的监控是很紧密的 所以摄像机一直在工作\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The security in the lab is tighter,so the camera is continuous,
+Dialogue: 0,0:30:09.05,0:30:11.79,*Default,NTP,0000,0000,0000,,但是在圆形大厅里的会每三秒停一次\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}but the camera in the rotunda is stop-action,every three seconds.
+Dialogue: 0,0:30:11.91,0:30:13.39,*Default,NTP,0000,0000,0000,,我从试验室的那次查起 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I started with the lab theft 
+Dialogue: 0,0:30:13.39,0:30:17.18,*Default,NTP,0000,0000,0000,,因为我们都知道骨头是在9p.m.到6a.m.之间被偷的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}because we know the bones were stolen between 9 P.M.And 6 A.M.
+Dialogue: 0,0:30:18.72,0:30:22.23,*Default,NTP,0000,0000,0000,,好吧 看 这里\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay.Watch... here.
+Dialogue: 0,0:30:22.33,0:30:23.89,*Default,NTP,0000,0000,0000,,骨头不见了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The bones are gone.
+Dialogue: 0,0:30:24.00,0:30:26.36,*Default,NTP,0000,0000,0000,,注意时间条码\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Notice the time-code.
+Dialogue: 0,0:30:26.44,0:30:27.70,*Default,NTP,0000,0000,0000,,那是什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What's that?
+Dialogue: 0,0:30:27.77,0:30:29.41,*Default,NTP,0000,0000,0000,,摄影机被关了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The camera was turned off.
+Dialogue: 0,0:30:29.49,0:30:33.19,*Default,NTP,0000,0000,0000,,摄像机停了1分46秒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Camera was turned off for one minute and 46 seconds.
+Dialogue: 0,0:30:33.30,0:30:35.96,*Default,NTP,0000,0000,0000,,这个时间足够进屋\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It would take a lot less time that 
+Dialogue: 0,0:30:35.96,0:30:38.97,*Default,NTP,0000,0000,0000,,收集尸骨然后逃跑了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}to enter the room and gather up the bones and escape.
+Dialogue: 0,0:30:40.09,0:30:41.73,*Default,NTP,0000,0000,0000,,现在 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Now...
+Dialogue: 0,0:30:42.18,0:30:42.95,*Default,NTP,0000,0000,0000,,Goodman博士?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}dr. Goodman?
+Dialogue: 0,0:30:43.03,0:30:43.87,*Default,NTP,0000,0000,0000,,什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yes?
+Dialogue: 0,0:30:43.94,0:30:48.14,*Default,NTP,0000,0000,0000,,我能不能问一下 为什么我们 而不是保安来做这个调查?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Could I ask,why are we doing this investigation instead of security?
+Dialogue: 0,0:30:48.21,0:30:49.21,*Default,NTP,0000,0000,0000,,我们不能走的太快；\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We shouldn't walk too quickly;
+Dialogue: 0,0:30:49.21,0:30:51.11,*Default,NTP,0000,0000,0000,,会引起怀疑的 也不想引起小偷的注意\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it would arouse suspicion.Neither would our thief.
+Dialogue: 0,0:30:51.18,0:30:54.56,*Default,NTP,0000,0000,0000,,我很乐意帮忙 但是我们确实拥有 真正的安全专家们 他们 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm happy to help,but we do have actual security professionals who...
+Dialogue: 0,0:30:54.64,0:30:57.25,*Default,NTP,0000,0000,0000,,有方法分辨出哪些带子是修改过的?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}is there any way to tell if those tapes have been doctored?
+Dialogue: 0,0:30:57.58,0:31:01.62,*Default,NTP,0000,0000,0000,,有啊 因为那些是物理磁带 而不是数码储存数据\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Since they're physical magnetic tapes,not stored digitally.
+Dialogue: 0,0:31:01.70,0:31:04.18,*Default,NTP,0000,0000,0000,,我更喜欢模拟数据 现在我知道原因了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I always did like analog better.Now,I know why.
+Dialogue: 0,0:31:04.25,0:31:06.49,*Default,NTP,0000,0000,0000,,我的意思是我对这方面只是业余水平\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}My point is is that I'm only an amateur at this,
+Dialogue: 0,0:31:06.61,0:31:08.09,*Default,NTP,0000,0000,0000,,并且 我相信安全部门在这方面 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and I'm sure the security department 
+Dialogue: 0,0:31:08.10,0:31:09.49,*Default,NTP,0000,0000,0000,,有更好的装备 也更加训练有素\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}is better equipped and trained...
+Dialogue: 0,0:31:09.60,0:31:11.76,*Default,NTP,0000,0000,0000,,下午好 Paul 问Susan和Laura好 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}afternoon,paul.Best to susan and laura.
+Dialogue: 0,0:31:11.76,0:31:12.89,*Default,NTP,0000,0000,0000,,希望Johnny好点儿了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I hope johnny feels better.
+Dialogue: 0,0:31:13.01,0:31:16.33,*Default,NTP,0000,0000,0000,,好吧 你不想谈这个 明白了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay you don't want to talk about it.I get it.
+Dialogue: 0,0:31:17.47,0:31:18.91,*Default,NTP,0000,0000,0000,,长官?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Sir?
+Dialogue: 0,0:31:18.99,0:31:21.27,*Default,NTP,0000,0000,0000,,按一下你的秒表 Montenegro女士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hit your stopwatch,please,ms. Montenegro.
+Dialogue: 0,0:31:21.35,0:31:24.24,*Default,NTP,0000,0000,0000,,35.6 秒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}35.6 seconds.
+Dialogue: 0,0:31:24.31,0:31:26.76,*Default,NTP,0000,0000,0000,,一个来回是这个时间的双倍 就是1分10秒 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Double that for a round-trip.That's one minute,ten seconds,
+Dialogue: 0,0:31:26.80,0:31:29.75,*Default,NTP,0000,0000,0000,,离开大约30秒 装下尸骨然后回去\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}leaving approximately 30 seconds to bag the bones and get back.
+Dialogue: 0,0:31:29.79,0:31:31.95,*Default,NTP,0000,0000,0000,,回哪里?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Get back where?
+Dialogue: 0,0:31:33.93,0:31:37.36,*Default,NTP,0000,0000,0000,,你肯定以为我是个白痴\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you must think i'm an idiot.
+Dialogue: 0,0:31:37.43,0:31:39.27,*Default,NTP,0000,0000,0000,,旁观者清 我也可以像你一样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was grandstanding.I can be like that.
+Dialogue: 0,0:31:39.35,0:31:42.16,*Default,NTP,0000,0000,0000,,我们发现了这两宗盗窃发生的时候 保安还在值班\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So we find out what guards were on duty during the two thefts
+Dialogue: 0,0:31:42.27,0:31:45.01,*Default,NTP,0000,0000,0000,,或许是我们这有内贼\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}and we might have our thief.
+Dialogue: 0,0:31:45.12,0:31:47.06,*Default,NTP,0000,0000,0000,,我没偷Hummy\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I don't steal the Hummy.
+Dialogue: 0,0:31:47.14,0:31:49.39,*Default,NTP,0000,0000,0000,,偷窃尸骨?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}In stealing human remains?
+Dialogue: 0,0:31:49.46,0:31:52.12,*Default,NTP,0000,0000,0000,,300年后 他好像不会有一个家庭成员 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}After 300 years,it's not like he's got 
+Dialogue: 0,0:31:52.12,0:31:53.80,*Default,NTP,0000,0000,0000,,在那里为他的死而悲痛欲绝\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}a family grieving for him out there.
+Dialogue: 0,0:31:53.87,0:31:55.55,*Default,NTP,0000,0000,0000,,可以想象我是一个悲痛的家长\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Think of me as a grieving parent.
+Dialogue: 0,0:31:55.59,0:31:57.32,*Default,NTP,0000,0000,0000,,重大盗窃案 老兄 你已经等了8年了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Grand theft,buddy;you're looking at eight years.
+Dialogue: 0,0:31:57.39,0:31:58.57,*Default,NTP,0000,0000,0000,,如果我没杀你\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}If I don't kill you.
+Dialogue: 0,0:31:58.65,0:32:02.26,*Default,NTP,0000,0000,0000,,少来了 一堆这样的旧尸骨能值多少?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Come on,what's a bunch of old bones like that worth?
+Dialogue: 0,0:32:02.34,0:32:03.14,*Default,NTP,0000,0000,0000,,一文不值\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Nothing.
+Dialogue: 0,0:32:03.22,0:32:04.55,*Default,NTP,0000,0000,0000,,你得到了多少?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How much you get for them?
+Dialogue: 0,0:32:04.63,0:32:05.99,*Default,NTP,0000,0000,0000,,几百块\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Couple of hundred bucks.
+Dialogue: 0,0:32:06.06,0:32:13.74,*Default,NTP,0000,0000,0000,,这个小偷在你户头上转入了1万块 是什么 遗产?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So this wire transfer into your bank for ten grand,what's that,inheritance?
+Dialogue: 0,0:32:15.00,0:32:18.01,*Default,NTP,0000,0000,0000,,你为谁偷窃?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Who did you steal them for?
+Dialogue: 0,0:32:18.12,0:32:22.02,*Default,NTP,0000,0000,0000,,我们不做姓名交易\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We didn't really do the name-exchange thing.
+Dialogue: 0,0:32:22.13,0:32:23.87,*Default,NTP,0000,0000,0000,,有人接近过你?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Somebody approached you?
+Dialogue: 0,0:32:27.14,0:32:29.03,*Default,NTP,0000,0000,0000,,我们看看 好吧 是哪个?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Let's see. Okay.Which one was it?
+Dialogue: 0,0:32:29.14,0:32:30.93,*Default,NTP,0000,0000,0000,,哪一次?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Which time?
+Dialogue: 0,0:32:31.99,0:32:33.97,*Default,NTP,0000,0000,0000,,第一次\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The first time.
+Dialogue: 0,0:32:34.05,0:32:39.90,*Default,NTP,0000,0000,0000,,他 但是他真人比照片好看多了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Him...but he looked better.
+Dialogue: 0,0:32:39.98,0:32:41.20,*Default,NTP,0000,0000,0000,,第二次呢?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And the second time?
+Dialogue: 0,0:32:41.27,0:32:44.05,*Default,NTP,0000,0000,0000,,他\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}him.
+Dialogue: 0,0:32:44.54,0:32:48.06,*Default,NTP,0000,0000,0000,,看 伙计们 我合作 行吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look,guys,I'm cooperating,all right?
+Dialogue: 0,0:32:48.14,0:32:51.15,*Default,NTP,0000,0000,0000,,我把钱还给你们 我辞职不干了 行吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I will give back the money.I will quit my job,all right?
+Dialogue: 0,0:32:51.23,0:32:52.57,*Default,NTP,0000,0000,0000,,我们公平交易怎么样?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How's about we just call it even?
+Dialogue: 0,0:32:52.69,0:32:53.72,*Default,NTP,0000,0000,0000,,我们叫地方检察官怎么样?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How's about we call the D.A.?
+Dialogue: 0,0:32:53.83,0:32:55.87,*Default,NTP,0000,0000,0000,,你知道 你们需要在博物馆 设立更好的监视程序\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You know,you need a better screening process down at the museum.
+Dialogue: 0,0:32:55.95,0:32:59.26,*Default,NTP,0000,0000,0000,,真是讽刺 何不把你的提议交给FBI\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Ironic,given we contract that out to the fbi.
+Dialogue: 0,0:33:01.19,0:33:02.96,*Default,NTP,0000,0000,0000,,你认为他很危险?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You think he's dangerous?
+Dialogue: 0,0:33:03.04,0:33:04.62,*Default,NTP,0000,0000,0000,,重大盗窃案 谋杀 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Grand theft,murder,
+Dialogue: 0,0:33:04.96,0:33:07.92,*Default,NTP,0000,0000,0000,,有音乐\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the music.
+Dialogue: 0,0:33:08.04,0:33:09.12,*Default,NTP,0000,0000,0000,,他在下面\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's down there.
+Dialogue: 0,0:33:09.20,0:33:11.51,*Default,NTP,0000,0000,0000,,那不是音乐 是风笛\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's not music,it's bagpipes.
+Dialogue: 0,0:33:14.40,0:33:24.00,*Default,NTP,0000,0000,0000,,Harde先生 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mr. Harde...
+Dialogue: 0,0:33:28.57,0:33:31.88,*Default,NTP,0000,0000,0000,,或许我们要找的是别人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Maybe we're looking for someone else.
+Dialogue: 0,0:33:34.78,0:33:36.73,*Default,NTP,0000,0000,0000,,喉管被压碎了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}the larynx was crushed.
+Dialogue: 0,0:33:36.77,0:33:39.07,*Default,NTP,0000,0000,0000,,那就是你的死因规律?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is that going to be your cause-of-death ruling?
+Dialogue: 0,0:33:39.11,0:33:40.70,*Default,NTP,0000,0000,0000,,关于这个我们要再吵一架?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We gonna have another fight about this?
+Dialogue: 0,0:33:40.78,0:33:43.26,*Default,NTP,0000,0000,0000,,我是非常宽容的 但是如果你一直这样自以为是\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm a pretty open guy,harry,but if you keep pushing like that,
+Dialogue: 0,0:33:43.37,0:33:44.92,*Default,NTP,0000,0000,0000,,把你喉管压碎的将会是我\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it's gonna be me who smacks you around.
+Dialogue: 0,0:33:45.03,0:33:48.21,*Default,NTP,0000,0000,0000,,你怎么知道你来这套就对我管用呢?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How do you know that won't work for me just as well?
+Dialogue: 0,0:33:49.62,0:33:52.81,*Default,NTP,0000,0000,0000,,你推断Macy死于喉管压碎\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You ruled that macy died from a crushed larynx.
+Dialogue: 0,0:33:52.85,0:33:57.21,*Default,NTP,0000,0000,0000,,压碎喉管是致命的 因此导致死亡\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A crushed larynx is fatal,ergo it results in death.
+Dialogue: 0,0:33:57.32,0:33:59.32,*Default,NTP,0000,0000,0000,,你之前错了 现在也错了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You were wrong then,and you're wrong now.
+Dialogue: 0,0:33:59.36,0:34:01.11,*Default,NTP,0000,0000,0000,,看到没?他喜欢这样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}See? He likes it.
+Dialogue: 0,0:34:01.23,0:34:06.15,*Default,NTP,0000,0000,0000,,我想看他和Macy的X光片\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I need to see both sets of x rays,his and macy'S.
+Dialogue: 0,0:34:07.95,0:34:12.24,*Default,NTP,0000,0000,0000,,并不总是对和错的问题\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's not always about being right or wrong.
+Dialogue: 0,0:34:12.31,0:34:14.45,*Default,NTP,0000,0000,0000,,是对话的问题\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's about the dialogue.
+Dialogue: 0,0:34:14.56,0:34:19.48,*Default,NTP,0000,0000,0000,,一场激烈的谈话 可以是一种非常好的交流\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}An intense conversation can be the most wonderful kind of intercourse.
+Dialogue: 0,0:34:19.56,0:34:21.42,*Default,NTP,0000,0000,0000,,知道吗?这家伙是个变态\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Know what?This guy is a pervert.
+Dialogue: 0,0:34:21.54,0:34:25.60,*Default,NTP,0000,0000,0000,,c-2和c-4之间伤害 45度角 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Damage between c-2 and c-4,45 degree angle,
+Dialogue: 0,0:34:25.60,0:34:28.47,*Default,NTP,0000,0000,0000,,和Macy的被害模式一样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}exact same pattern of injury as macy.
+Dialogue: 0,0:34:28.55,0:34:33.91,*Default,NTP,0000,0000,0000,,他的头被转了一圈 可能另一只手在压喉管\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}His head was wrenched around,probably while the other hand crushed the larynx.
+Dialogue: 0,0:34:33.99,0:34:36.66,*Default,NTP,0000,0000,0000,,我弄错了一定让你很不爽\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That must really frustrate you that I missed that.
+Dialogue: 0,0:34:36.73,0:34:38.51,*Default,NTP,0000,0000,0000,,那是特种部队的行为方式 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's a special forces move.
+Dialogue: 0,0:34:38.51,0:34:41.05,*Default,NTP,0000,0000,0000,,把守卫撂倒 压碎喉管 所以喊不出声\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Take a sentry down,crush the larynx,so he can't scream.
+Dialogue: 0,0:34:41.08,0:34:42.84,*Default,NTP,0000,0000,0000,,你做过?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You've done that to people?
+Dialogue: 0,0:34:42.91,0:34:45.35,*Default,NTP,0000,0000,0000,,不是 我们的凶手是个特种兵\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No. Our murderer is special forces.
+Dialogue: 0,0:34:45.42,0:34:49.56,*Default,NTP,0000,0000,0000,,你的Inter网简历说你曾在 英国空军特种部队待过一段时间\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Your internet bio says you spent time in special air services.
+Dialogue: 0,0:34:49.63,0:34:52.26,*Default,NTP,0000,0000,0000,,Rose先生的生活丰富多彩\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mr. Rose has led a diverse and full life.
+Dialogue: 0,0:34:52.33,0:34:55.04,*Default,NTP,0000,0000,0000,,当你发现那个采掘地被保护起来后 有什么感觉?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How did you feel when you found out the dig site had been salted?
+Dialogue: 0,0:34:55.15,0:34:57.17,*Default,NTP,0000,0000,0000,,当然 我很失望\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was disappointed,certainly.
+Dialogue: 0,0:34:57.25,0:34:58.43,*Default,NTP,0000,0000,0000,,只是失望?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Just disappointed?
+Dialogue: 0,0:34:58.50,0:35:00.72,*Default,NTP,0000,0000,0000,,我还没烦到杀了Ted macy行了吧 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look,I wasn't irked enough to kill ted macy.
+Dialogue: 0,0:35:00.72,0:35:01.89,*Default,NTP,0000,0000,0000,,现在 我们说重点吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Now,could we get to the point,please?
+Dialogue: 0,0:35:01.93,0:35:03.83,*Default,NTP,0000,0000,0000,,什么是英国空军特种部队?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What is special air services?
+Dialogue: 0,0:35:03.87,0:35:06.32,*Default,NTP,0000,0000,0000,,普遍认为 英国空军特种部队是世界上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The S.A.S. Is widely regarded as one of the
+Dialogue: 0,0:35:06.39,0:35:09.05,*Default,NTP,0000,0000,0000,,最杰出 最训练有素的一支特种部队\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}finest and best trained special forces units in the world.
+Dialogue: 0,0:35:09.16,0:35:10.70,*Default,NTP,0000,0000,0000,,行动过吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}See any active service?
+Dialogue: 0,0:35:10.76,0:35:13.68,*Default,NTP,0000,0000,0000,,Rose先生对讨论细节不太感冒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mr. Rose is not comfortable discussing specifics.
+Dialogue: 0,0:35:13.76,0:35:15.73,*Default,NTP,0000,0000,0000,,我不希望以好人的性命为代价 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I don't like to exploit my role in operations 
+Dialogue: 0,0:35:15.73,0:35:17.56,*Default,NTP,0000,0000,0000,,来发挥我在军事行动中的作用\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}which cost good men their lives.
+Dialogue: 0,0:35:17.67,0:35:20.14,*Default,NTP,0000,0000,0000,,好吧 如果你们都对我过去的经历感兴趣 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Now,if all you're interested in is my history,
+Dialogue: 0,0:35:20.14,0:35:21.44,*Default,NTP,0000,0000,0000,,那全在我网上的简历上\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}there's a bio on my web site.
+Dialogue: 0,0:35:21.55,0:35:24.56,*Default,NTP,0000,0000,0000,,太好了 我们只是想知道你的名声 是不是真的 先生\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Great.We just want to know if your reputation is for real,sir.
+Dialogue: 0,0:35:24.64,0:35:27.64,*Default,NTP,0000,0000,0000,,我们只要联系英国空军特种部队就行了 他们会说的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,we'll just contact the S.A.S.They'll tell us.
+Dialogue: 0,0:35:27.72,0:35:29.77,*Default,NTP,0000,0000,0000,,好吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Look...fine.
+Dialogue: 0,0:35:30.60,0:35:33.46,*Default,NTP,0000,0000,0000,,别指望快速回复\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Don't expect a speedy response.
+Dialogue: 0,0:35:33.53,0:35:35.28,*Default,NTP,0000,0000,0000,,{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bones\Nbones.
+Dialogue: 0,0:35:35.35,0:35:36.23,*Default,NTP,0000,0000,0000,,那是人身攻击!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That's assault!
+Dialogue: 0,0:35:36.30,0:35:38.97,*Default,NTP,0000,0000,0000,,一个特种兵 有没有可能阻止我刚才的行为?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Would a special forces guy have been able to stop that?
+Dialogue: 0,0:35:39.08,0:35:41.74,*Default,NTP,0000,0000,0000,,我不清楚 你刚才好像是扑向他那边\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I don't know,you kind of got the jump on him there.
+Dialogue: 0,0:35:41.86,0:35:43.72,*Default,NTP,0000,0000,0000,,这次可不会是个突袭了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This one won't be a surprise.
+Dialogue: 0,0:35:43.80,0:35:44.07,*Default,NTP,0000,0000,0000,,准备好了吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You ready?
+Dialogue: 0,0:35:44.15,0:35:44.87,*Default,NTP,0000,0000,0000,,什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What?
+Dialogue: 0,0:35:44.99,0:35:47.73,*Default,NTP,0000,0000,0000,,这是粗俗的人身攻击!你们得赔偿!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is common assault!Charges will be laid!
+Dialogue: 0,0:35:47.81,0:35:50.44,*Default,NTP,0000,0000,0000,,他不可能是特种兵 那是胡说八道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No way he's special ops.It's just pr crap.
+Dialogue: 0,0:35:50.51,0:35:52.11,*Default,NTP,0000,0000,0000,,好吧 没问题了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All right,no more questions.
+Dialogue: 0,0:35:52.21,0:35:54.26,*Default,NTP,0000,0000,0000,,我要求以人身侵犯罪逮捕她!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I demand she be arrested for assault!
+Dialogue: 0,0:35:54.37,0:35:55.53,*Default,NTP,0000,0000,0000,,闭嘴 Kendall\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Shut up,kendall.
+Dialogue: 0,0:35:57.69,0:36:02.30,*Default,NTP,0000,0000,0000,,我把这女的送上法庭 因为她抽了我耳光?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}That I'm taking a woman to court for slapping me?
+Dialogue: 0,0:36:02.69,0:36:04.30,*Default,NTP,0000,0000,0000,,走吧 我们离开这儿吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Come on,let's get out of here.
+Dialogue: 0,0:36:04.50,0:36:05.00,*Default,NTP,0000,0000,0000,,你不会因为这个有麻烦吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You won't get into trouble for this?
+Dialogue: 0,0:36:05.10,0:36:07.48,*Default,NTP,0000,0000,0000,,三级谋杀\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Three degrees.
+Dialogue: 0,0:36:07.56,0:36:12.40,*Default,NTP,0000,0000,0000,,我告诉你了 不管是真是假 那个竖井底部有一些东西\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'm telling you,salted or not,there's something at the bottom of that shaft.
+Dialogue: 0,0:36:12.47,0:36:15.13,*Default,NTP,0000,0000,0000,,永远别不到黄河不死心\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Never got to go all the way down.
+Dialogue: 0,0:36:15.25,0:36:16.51,*Default,NTP,0000,0000,0000,,那尸骨在木头上放着\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}The bones were laying on wood.
+Dialogue: 0,0:36:16.59,0:36:18.41,*Default,NTP,0000,0000,0000,,我想看看那底下是什么\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I want to see what's underneath.
+Dialogue: 0,0:36:18.45,0:36:20.55,*Default,NTP,0000,0000,0000,,从来都觉得找到它的人应该是我\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Always thought it'd be me who'd find it.
+Dialogue: 0,0:36:20.58,0:36:23.21,*Default,NTP,0000,0000,0000,,嘿 人人为我 我为人人 不是吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hey,all for one d one for all,right?
+Dialogue: 0,0:36:24.19,0:36:26.76,*Default,NTP,0000,0000,0000,,他们对于我来说都是海盗之类\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}they were always pirate-y to me.
+Dialogue: 0,0:36:27.07,0:36:29.36,*Default,NTP,0000,0000,0000,,我们开始吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Let's do this.Let's do it.
+Dialogue: 0,0:36:35.49,0:36:37.51,*Default,NTP,0000,0000,0000,,好的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Okay.
+Dialogue: 0,0:37:03.97,0:37:05.92,*Default,NTP,0000,0000,0000,,紧急通讯 22705\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dispatch,22705.
+Dialogue: 0,0:37:06.00,0:37:09.71,*Default,NTP,0000,0000,0000,,姓:Mcginnes；名:Dane 中间名首字母:P\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Last name: Mcginnis; first name:Dane; middle initial: P.
+Dialogue: 0,0:37:09.79,0:37:11.93,*Default,NTP,0000,0000,0000,,我需要知道他服役于哪支部队\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I need to know which branch of the military he served in.
+Dialogue: 0,0:37:12.05,0:37:14.79,*Default,NTP,0000,0000,0000,,收到 22705 待命\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Affirmative,22705.Stand by.
+Dialogue: 0,0:37:15.02,0:37:15.90,*Default,NTP,0000,0000,0000,,为什么是Dane?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why dane?
+Dialogue: 0,0:37:15.98,0:37:17.67,*Default,NTP,0000,0000,0000,,他说Hodgins游起来像鱿鱼\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He said hodgins swam like a squid.
+Dialogue: 0,0:37:17.75,0:37:19.89,*Default,NTP,0000,0000,0000,,怪物 他说的一定是怪物\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Squint.He must have said "squint."
+Dialogue: 0,0:37:19.96,0:37:21.91,*Default,NTP,0000,0000,0000,,对 我说的是怪物 行吗? \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}No,I said "squint," okay?
+Dialogue: 0,0:37:21.91,0:37:24.76,*Default,NTP,0000,0000,0000,,Dane说的是乌贼 这是水兵的军事用语\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dane said "squid," which is military slang for a sailor.
+Dialogue: 0,0:37:24.87,0:37:27.69,*Default,NTP,0000,0000,0000,,这就是他们所谓的万福玛利亚通行证?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is this what they call a hail mary pass?
+Dialogue: 0,0:37:27.80,0:37:28.64,*Default,NTP,0000,0000,0000,,你在接收吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You receiving?
+Dialogue: 0,0:37:28.68,0:37:29.82,*Default,NTP,0000,0000,0000,,洪亮清晰\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Loud and clear.
+Dialogue: 0,0:37:29.90,0:37:31.85,*Default,NTP,0000,0000,0000,,老兄 今天的泥真多\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Man,it's muddy today.
+Dialogue: 0,0:37:31.93,0:37:35.92,*Default,NTP,0000,0000,0000,,通常在12米初要清理过去的 第一个洪水通道\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Usually clears up past the first flood channel at 12 meters.
+Dialogue: 0,0:37:35.96,0:37:39.58,*Default,NTP,0000,0000,0000,,还有一瓶朗姆酒呢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Yo-ho-ho and a bottle of rum.
+Dialogue: 0,0:37:39.66,0:37:42.45,*Default,NTP,0000,0000,0000,,可别把鬼魂召来了 博士\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Don't conjure up any ghosts,doc.
+Dialogue: 0,0:37:42.52,0:37:45.43,*Default,NTP,0000,0000,0000,,底下太多了 等着找你呢\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There's too many down there already waiting to claim your ass.
+Dialogue: 0,0:37:45.57,0:37:48.50,*Default,NTP,0000,0000,0000,,鬼魂 是啊\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Ghosts.Right.
+Dialogue: 0,0:37:49.37,0:37:51.37,*Default,NTP,0000,0000,0000,,22705 紧急通讯\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}22705,dispatch.
+Dialogue: 0,0:37:51.45,0:37:53.70,*Default,NTP,0000,0000,0000,,Mcginnis Dane 在海军服役过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Mcginnis,dane,served in the navy.
+Dialogue: 0,0:37:53.78,0:37:57.01,*Default,NTP,0000,0000,0000,,军衔:军士长 海军特殊战争\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Rating: Chief petty officer,naval special warfare.
+Dialogue: 0,0:37:57.09,0:37:59.14,*Default,NTP,0000,0000,0000,,肯定是\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Had to be.
+Dialogue: 0,0:37:59.26,0:38:00.55,*Default,NTP,0000,0000,0000,,什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What?
+Dialogue: 0,0:38:10.94,0:38:12.42,*Default,NTP,0000,0000,0000,,这家伙是一名海军陆战队员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Guy was a navy seal.
+Dialogue: 0,0:38:12.50,0:38:14.13,*Default,NTP,0000,0000,0000,,所以?你是个向导\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}So? You were a guide.
+Dialogue: 0,0:38:14.21,0:38:17.25,*Default,NTP,0000,0000,0000,,突击队员 我曾是个突击队员 Bones 行吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A ranger. I was a ranger,bones,okay?
+Dialogue: 0,0:38:17.33,0:38:18.84,*Default,NTP,0000,0000,0000,,我不是个向导\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was not a guide.
+Dialogue: 0,0:38:18.92,0:38:22.38,*Default,NTP,0000,0000,0000,,向导 他们带你看瀑布 他们卖饼干给你 我是个突击队员\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Guides,they show you waterfalls,they sell you cookies.I was a ranger.
+Dialogue: 0,0:38:22.46,0:38:24.95,*Default,NTP,0000,0000,0000,,他在竖井那干嘛?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What's he doing at the shaft?
+Dialogue: 0,0:38:25.67,0:38:28.05,*Default,NTP,0000,0000,0000,,突击队员害怕海军陆战队员吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Are rangers afraid of seals?
+Dialogue: 0,0:38:28.12,0:38:31.61,*Default,NTP,0000,0000,0000,,什么?少来了 Bones 不 突击队员谁都不怕 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What? Come on,bones,no.Rangers aren't afraid of anybody.
+Dialogue: 0,0:38:31.72,0:38:35.04,*Default,NTP,0000,0000,0000,,行吗?虽然海军陆战队员也很棒\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}All right?Seals are pretty good,though.
+Dialogue: 0,0:38:47.61,0:38:48.90,*Default,NTP,0000,0000,0000,,{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dane\Ndane.
+Dialogue: 0,0:38:48.98,0:38:50.97,*Default,NTP,0000,0000,0000,,怎么了?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What's up?
+Dialogue: 0,0:38:51.05,0:38:52.80,*Default,NTP,0000,0000,0000,,我们知道是你\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}We know it was you.
+Dialogue: 0,0:38:52.88,0:38:53.56,*Default,NTP,0000,0000,0000,,Bones 算了吧 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bones,please...
+Dialogue: 0,0:38:53.64,0:38:55.07,*Default,NTP,0000,0000,0000,,怎么了?你有枪 他有什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why? You have a gun.What's he got?
+Dialogue: 0,0:38:55.16,0:38:56.61,*Default,NTP,0000,0000,0000,,他在竖井下有一个人\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's got somebody in the shaft.
+Dialogue: 0,0:38:56.73,0:38:58.06,*Default,NTP,0000,0000,0000,,我潜了多深?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How far down am I?
+Dialogue: 0,0:38:58.13,0:38:59.37,*Default,NTP,0000,0000,0000,,那是Hodgins吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is that hodgins?
+Dialogue: 0,0:39:01.81,0:39:09.45,*Default,NTP,0000,0000,0000,,我看不见深度显示 有什么事吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I can't read my depth display.is something going on?
+Dialogue: 0,0:39:09.75,0:39:13.30,*Default,NTP,0000,0000,0000,,上面有人吗?怎么不回答我?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Is there anybody up there?Why don't you answer me?
+Dialogue: 0,0:39:13.42,0:39:16.69,*Default,NTP,0000,0000,0000,,Cpo Mcginnis 离开那个通气管\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Cpo mcginnis,step away from the air hose.
+Dialogue: 0,0:39:16.85,0:39:20.49,*Default,NTP,0000,0000,0000,,我需要你把枪扔到竖井这来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,I need you to toss that gun into the shaft.
+Dialogue: 0,0:39:20.53,0:39:22.41,*Default,NTP,0000,0000,0000,,然后 把你的钥匙扔过来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Then,toss me your keys.
+Dialogue: 0,0:39:22.48,0:39:26.48,*Default,NTP,0000,0000,0000,,然后 把自己铐在那台起重机上 我开走你的卡车\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Then,handcuff yourselves to that crane.I take your truck.
+Dialogue: 0,0:39:26.56,0:39:29.79,*Default,NTP,0000,0000,0000,,否则 我就切断这根管子 让你朋友去死\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Otherwise,I am gonna cut this hose,and your buddy's gonna die.
+Dialogue: 0,0:39:29.87,0:39:31.05,*Default,NTP,0000,0000,0000,,照他说的做吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}do that.
+Dialogue: 0,0:39:31.13,0:39:33.26,*Default,NTP,0000,0000,0000,,Bones 那不可能发生\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bones.Not gonna happen.
+Dialogue: 0,0:39:35.99,0:39:38.19,*Default,NTP,0000,0000,0000,,我感觉到一股冷水\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Feel a blast of cold water.
+Dialogue: 0,0:39:38.31,0:39:41.46,*Default,NTP,0000,0000,0000,,要么是泉水 要么是海水中的一种涌泉\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Either a spring or some kind of conduit from the ocean.
+Dialogue: 0,0:39:41.53,0:39:43.85,*Default,NTP,0000,0000,0000,,这是很清澈的水 可见度更高\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's clear,clean water,so visibility is better.
+Dialogue: 0,0:39:43.93,0:39:46.33,*Default,NTP,0000,0000,0000,,你杀了两个人 我不可能让你开车逃走的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You killed two men.I can't just let you drive away.
+Dialogue: 0,0:39:46.40,0:39:47.89,*Default,NTP,0000,0000,0000,,那些人 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Those guys...
+Dialogue: 0,0:39:47.96,0:39:52.88,*Default,NTP,0000,0000,0000,,把假尸骨放那里 把整个事件变成了一个骗局\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}putting fake bones in there,making the whole thing into a con job.
+Dialogue: 0,0:39:52.96,0:39:58.03,*Default,NTP,0000,0000,0000,,我的兄弟为了寻找宝藏死在那下面 很多好人也都死了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}My brother died down there looking for that treasure,lot of good men did.
+Dialogue: 0,0:39:58.10,0:40:02.52,*Default,NTP,0000,0000,0000,,这就是他们的命 这些人不尊重他们\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This was their life.Those men dishonored them.
+Dialogue: 0,0:40:02.60,0:40:05.39,*Default,NTP,0000,0000,0000,,Dane 你能听到我吗 老兄?我在水底\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Dane,can you hear me,man?I am on the bottom.
+Dialogue: 0,0:40:05.46,0:40:06.92,*Default,NTP,0000,0000,0000,,在我切断这个同期管之前 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You good enough to take that shot 
+Dialogue: 0,0:40:06.92,0:40:09.00,*Default,NTP,0000,0000,0000,,你能足够准确的射中我吗 突击队员?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}before I cut this air hose,ranger?
+Dialogue: 0,0:40:09.08,0:40:10.05,*Default,NTP,0000,0000,0000,,会很准\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Pretty good.
+Dialogue: 0,0:40:10.09,0:40:11.27,*Default,NTP,0000,0000,0000,,只是很准?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Just pretty good?
+Dialogue: 0,0:40:11.35,0:40:13.00,*Default,NTP,0000,0000,0000,,拜托 我在努力了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Please,I'm working.
+Dialogue: 0,0:40:15.98,0:40:21.45,*Default,NTP,0000,0000,0000,,下面看起来像含沙的肥土 可能有些黏土 我取些样本\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Looks like a sandy loam down,maybe a little clay.I'll get a sample.
+Dialogue: 0,0:40:21.60,0:40:25.98,*Default,NTP,0000,0000,0000,,我能看见以前竖井的围墙倒塌的地方\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I can see where the shaft walls collapsed before.
+Dialogue: 0,0:40:28.74,0:40:30.41,*Default,NTP,0000,0000,0000,,噢 我的天 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Oh,my god.
+Dialogue: 0,0:40:30.53,0:40:34.88,*Default,NTP,0000,0000,0000,,Holy 你能看见这个吗 Dane?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Holy...can you see this,dane?
+Dialogue: 0,0:40:34.96,0:40:37.68,*Default,NTP,0000,0000,0000,,是什么?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What is it?
+Dialogue: 0,0:40:37.76,0:40:38.85,*Default,NTP,0000,0000,0000,,你为什么不看看?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Why don't you take a look?
+Dialogue: 0,0:40:38.88,0:40:41.24,*Default,NTP,0000,0000,0000,,我看了你会开枪的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I do,you'll shoot me.
+Dialogue: 0,0:40:41.32,0:40:46.53,*Default,NTP,0000,0000,0000,,Dane!你能看见这个吗?老兄?!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}dane!Can you see this,man?!
+Dialogue: 0,0:40:46.57,0:40:47.55,*Default,NTP,0000,0000,0000,,是枚金币\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's a gold coin.
+Dialogue: 0,0:40:47.62,0:40:51.63,*Default,NTP,0000,0000,0000,,这可能是他们从你的博物馆偷来的 扔到那里的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}it's probably something else they stole from your museum and threw in there.
+Dialogue: 0,0:40:51.74,0:40:54.70,*Default,NTP,0000,0000,0000,,这是真的!这是大 !\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}This is real!It's a big...!
+Dialogue: 0,0:40:57.41,0:41:00.38,*Default,NTP,0000,0000,0000,,你想看 就得把Hodgins拉上来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}you want to see it,you're going to have to bring hodgins up.
+Dialogue: 0,0:41:00.50,0:41:05.15,*Default,NTP,0000,0000,0000,,求你了 他在下面是因为他相信\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Please.He's down there because he believes.
+Dialogue: 0,0:41:05.91,0:41:09.06,*Default,NTP,0000,0000,0000,,他和你没什么不同 和你兄弟也没什么不同\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's no different than you,no different than your brother.
+Dialogue: 0,0:41:09.14,0:41:11.16,*Default,NTP,0000,0000,0000,,把他拉上来\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Bring him up.
+Dialogue: 0,0:41:11.24,0:41:13.97,*Default,NTP,0000,0000,0000,,为了你兄弟 拉他上来吧\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Do it for your brother.
+Dialogue: 0,0:41:25.94,0:41:31.11,*Default,NTP,0000,0000,0000,,原始的褐绿色984.5西班牙古金币 以色列石匠设计\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}An original breen 984 half doubloon,designed by ephraim brasher,
+Dialogue: 0,0:41:31.18,0:41:33.62,*Default,NTP,0000,0000,0000,,雕刻 并且\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}engraved by ephraim brasher,and,
+Dialogue: 0,0:41:33.69,0:41:37.58,*Default,NTP,0000,0000,0000,,屏住呼吸 女士们先生们 204格令(约为0.466盎司)\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}hold your breath,gentlemen and ladies,204 grains.
+Dialogue: 0,0:41:37.66,0:41:39.41,*Default,NTP,0000,0000,0000,,真的海盗金币\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}A real,gold,pirate coin.
+Dialogue: 0,0:41:39.52,0:41:40.75,*Default,NTP,0000,0000,0000,,那下面还有多少?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}How many more are down there?
+Dialogue: 0,0:41:40.82,0:41:42.67,*Default,NTP,0000,0000,0000,,Branson Rose已经同意 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Branson rose has agreed 
+Dialogue: 0,0:41:42.67,0:41:43.87,*Default,NTP,0000,0000,0000,,等这些宝藏全捞上来后 \N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}to have the museum do the authentication 
+Dialogue: 0,0:41:43.87,0:41:45.18,*Default,NTP,0000,0000,0000,,博物馆来为整个宝藏做鉴定\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}of the entire treasure when they bring it up.
+Dialogue: 0,0:41:45.29,0:41:46.32,*Default,NTP,0000,0000,0000,,不会再有了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}There won't be any more.
+Dialogue: 0,0:41:46.44,0:41:47.58,*Default,NTP,0000,0000,0000,,你为什么这么说?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What makes you say that?
+Dialogue: 0,0:41:47.65,0:41:49.09,*Default,NTP,0000,0000,0000,,我下去过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I was down there.
+Dialogue: 0,0:41:49.32,0:41:51.42,*Default,NTP,0000,0000,0000,,不要这么轻易放弃\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}It's not gonna give it up that easily.
+Dialogue: 0,0:41:51.49,0:41:52.82,*Default,NTP,0000,0000,0000,,但是 这个宝藏已经被找到了\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}But the treasure's been located.
+Dialogue: 0,0:41:52.98,0:41:54.54,*Default,NTP,0000,0000,0000,,而且 我肯定以前也被找到过\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}And I'm sure it's been located before.
+Dialogue: 0,0:41:54.61,0:41:56.13,*Default,NTP,0000,0000,0000,,我来保管这个\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}I'll take that.
+Dialogue: 0,0:42:01.00,0:42:03.36,*Default,NTP,0000,0000,0000,,你觉得会开心的回家吗?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}You think he's happy to be back home?
+Dialogue: 0,0:42:03.43,0:42:06.25,*Default,NTP,0000,0000,0000,,我觉得他会这样\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Well,he looks that way to me.
+Dialogue: 0,0:42:11.72,0:42:13.27,*Default,NTP,0000,0000,0000,,他不开心\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He's not happy.
+Dialogue: 0,0:42:13.35,0:42:14.32,*Default,NTP,0000,0000,0000,,你什么意思?\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}What do you mean?
+Dialogue: 0,0:42:14.36,0:42:15.58,*Default,NTP,0000,0000,0000,,Hodgins是对的\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Hodgins is right.
+Dialogue: 0,0:42:15.66,0:42:18.32,*Default,NTP,0000,0000,0000,,他在竖井底下的时候更开心\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}He'd be a lot happier at the bottom of that shaft.
+Dialogue: 0,0:42:18.39,0:42:20.42,*Default,NTP,0000,0000,0000,,和那些海盗一起\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}With the other pirates.
+Dialogue: 0,0:42:24.15,0:42:25.78,*Default,NTP,0000,0000,0000,,兄弟!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}matey!
+Dialogue: 0,0:42:25.86,0:42:28.60,*Default,NTP,0000,0000,0000,,啊! 啊 兄弟!\N{\fn微软雅黑}{\fs15}{\bord1}{\shad1}{\b0}{\c&HFFFFFF&}{\3c&H111111&}{\4c&H111111&}Arr! Arr,matey!
+

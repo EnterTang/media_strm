@@ -1,0 +1,840 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,1,1
+Style: 译文字幕,方正黑体_GBK,18,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,13,1
+Style: 原文字幕,Microsoft YaHei,14,&H00FFFFFF,&HF0000000,&H00202020,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:51.70,0:01:54.13,译文字幕,,0,0,0,,等着  我马上就到\N{\r原文字幕}Just wait in line. I'll be right there!
+Dialogue: 0,0:04:01.23,0:04:05.03,译文字幕,tag,0,0,0,,{\b1\fs30\pos(192.5,260)\c&He4ebb2&}找到你了
+Dialogue: 0,0:04:21.02,0:04:22.41,译文字幕,,0,0,0,,有什么烧着了\N{\r原文字幕}Hey, something's burning.
+Dialogue: 0,0:04:24.02,0:04:26.55,译文字幕,,0,0,0,,哎  该死\N{\r原文字幕}Ow! Damn it.
+Dialogue: 0,0:04:26.72,0:04:28.46,译文字幕,,0,0,0,,离我的生日还有两个月呢吧\N{\r原文字幕}You know, my birthday isn't for another two months.
+Dialogue: 0,0:04:28.64,0:04:29.72,译文字幕,,0,0,0,,我知道\N{\r原文字幕}I know that.
+Dialogue: 0,0:04:29.90,0:04:32.55,译文字幕,,0,0,0,,我要是想的话可以给你做煎饼\N{\r原文字幕}I can make you pancakes if I want to.
+Dialogue: 0,0:04:32.73,0:04:33.77,译文字幕,,0,0,0,,不用了\N{\r原文字幕}I'm good.
+Dialogue: 0,0:04:35.43,0:04:37.21,译文字幕,,0,0,0,,别这样\N{\r原文字幕}Please don't do that.
+Dialogue: 0,0:04:45.70,0:04:47.09,译文字幕,,0,0,0,,是谁啊\N{\r原文字幕}Who's that?
+Dialogue: 0,0:04:48.00,0:04:49.61,译文字幕,,0,0,0,,你看见我的杯子了吗\N{\r原文字幕}Have you seen my mug?
+Dialogue: 0,0:04:49.79,0:04:51.96,译文字幕,,0,0,0,,带向日葵的那个\N{\r原文字幕}The one with the sunflowers on it.
+Dialogue: 0,0:04:56.27,0:04:57.88,译文字幕,,0,0,0,,你上学要钱吗\N{\r原文字幕}Do you need money for school?
+Dialogue: 0,0:05:09.94,0:05:11.11,译文字幕,,0,0,0,,我要迟到了\N{\r原文字幕}I'm gonna be late.
+Dialogue: 0,0:05:21.47,0:05:23.34,译文字幕,,0,0,0,,还是应该吃煎饼的\N{\r原文字幕}You should've gone for the pancakes.
+Dialogue: 0,0:05:23.52,0:05:25.43,译文字幕,,0,0,0,,这样她就满意了吗\N{\r原文字幕}And given her the satisfaction?
+Dialogue: 0,0:05:28.74,0:05:30.61,译文字幕,,0,0,0,,你从什么时候开始睡在沙发上的\N{\r原文字幕}So when'd you start sleeping on the couch?
+Dialogue: 0,0:05:31.83,0:05:36.53,译文字幕,,0,0,0,,不是  我只是经常在看电视的时候睡过去\N{\r原文字幕}No, I just keep on passing out in front of the TV.
+Dialogue: 0,0:05:36.70,0:05:39.49,译文字幕,,0,0,0,,我说的不是那个\N{\r原文字幕}I mean, not that I blame you.
+Dialogue: 0,0:05:41.67,0:05:42.80,译文字幕,,0,0,0,,她做的东西真他妈糟糕\N{\r原文字幕}Pretty shitty thing, what she did.
+Dialogue: 0,0:05:42.97,0:05:45.28,译文字幕,,0,0,0,,少说这种话\N{\r原文字幕}Hey, hey. None of that.
+Dialogue: 0,0:05:51.98,0:05:54.20,译文字幕,,0,0,0,,怎么了  打架了吗\N{\r原文字幕}So, what, you getting into fights now?
+Dialogue: 0,0:05:54.37,0:05:55.81,译文字幕,,0,0,0,,一群混蛋罢了\N{\r原文字幕}They were being assholes.
+Dialogue: 0,0:05:55.98,0:05:57.42,译文字幕,,0,0,0,,这不是理由\N{\r原文字幕}That's no excuse.
+Dialogue: 0,0:05:58.90,0:06:00.25,译文字幕,,0,0,0,,听着\N{\r原文字幕}Look...
+Dialogue: 0,0:06:01.29,0:06:03.21,译文字幕,,0,0,0,,我知道我和你妈之间的事\N{\r原文字幕}I know things between your mom and me--
+Dialogue: 0,0:06:03.38,0:06:04.60,译文字幕,,0,0,0,,和这个无关\N{\r原文字幕}Has nothing to do with this.
+Dialogue: 0,0:06:11.22,0:06:12.74,译文字幕,,0,0,0,,那其他孩子怎么样了\N{\r原文字幕}So how'd the other kid look?
+Dialogue: 0,0:06:13.65,0:06:14.96,译文字幕,,0,0,0,,另外两个孩子\N{\r原文字幕}The other two kids.
+Dialogue: 0,0:06:17.53,0:06:18.79,译文字幕,,0,0,0,,有一个哭了\N{\r原文字幕}One of them cried.
+Dialogue: 0,0:07:26.29,0:07:27.55,译文字幕,,0,0,0,,怎么了\N{\r原文字幕}Yeah?
+Dialogue: 0,0:07:27.73,0:07:28.95,译文字幕,,0,0,0,,是我\N{\r原文字幕}Hey, it's me.
+Dialogue: 0,0:07:29.12,0:07:31.21,译文字幕,,0,0,0,,我没想这么早叫你\N{\r原文字幕}I didn't want to wake you earlier.
+Dialogue: 0,0:07:31.38,0:07:32.25,译文字幕,,0,0,0,,有煎饼在\N{\r原文字幕}There are pancakes--
+Dialogue: 0,0:07:32.43,0:07:33.73,译文字幕,,0,0,0,,你打电话就为了这个吗\N{\r原文字幕}Is that why you're calling?
+Dialogue: 0,0:07:33.91,0:07:35.17,译文字幕,,0,0,0,,我其实也想聊聊天\N{\r原文字幕}Well, I also wanna talk.
+Dialogue: 0,0:07:35.34,0:07:36.82,译文字幕,,0,0,0,,我吃过了  回头见\N{\r原文字幕}I already ate. I'll see you later.
+Dialogue: 0,0:07:37.00,0:07:38.22,译文字幕,,0,0,0,,格雷格\N{\r原文字幕}Greg--
+Dialogue: 0,0:07:47.75,0:07:49.75,译文字幕,,0,0,0,,你他妈在逗我吗\N{\r原文字幕}Are you fucking kidding me?
+Dialogue: 0,0:08:13.25,0:08:14.95,译文字幕,,0,0,0,,天啊  康纳\N{\r原文字幕}Jesus Christ, Connor.
+Dialogue: 0,0:08:31.18,0:08:33.53,译文字幕,,0,0,0,,哈珀医生  您九点预约的病人到了\N{\r原文字幕}Dr. Harper, your nine o'clock is here.
+Dialogue: 0,0:08:41.80,0:08:44.20,译文字幕,,0,0,0,,贾斯汀·威特  十岁\N{\r原文字幕}Justin Whitter, 10 years old.
+Dialogue: 0,0:08:44.37,0:08:46.85,译文字幕,,0,0,0,,昨晚在诗人公园附近骑自行车时失踪\N{\r原文字幕}Went missing on a bike ride last night near Troubadour Park.
+Dialogue: 0,0:08:47.02,0:08:49.33,译文字幕,,0,0,0,,看公园的只找到了自行车  没找到人\N{\r原文字幕}Park ranger found the bike, no boy.
+Dialogue: 0,0:08:50.38,0:08:51.68,译文字幕,,0,0,0,,跟迈克尔·金一样啊\N{\r原文字幕}Just like Michael King?
+Dialogue: 0,0:08:51.86,0:08:54.03,译文字幕,,0,0,0,,不  我们不知道这两起事件之间的联系\N{\r原文字幕}No, we don't know if the two are connected.
+Dialogue: 0,0:08:54.21,0:08:55.34,译文字幕,,0,0,0,,迈克尔·金在骑车\N{\r原文字幕}Michael King was abducted
+Dialogue: 0,0:08:55.51,0:08:56.99,译文字幕,,0,0,0,,去城里的小店的时候被绑架了\N{\r原文字幕}cycling to a corner store in the city.
+Dialogue: 0,0:08:57.17,0:09:00.56,译文字幕,,0,0,0,,贾斯汀·威特  本地人  家境优越\N{\r原文字幕}Justin Whitter, local boy. Good home, respected family.
+Dialogue: 0,0:09:00.73,0:09:01.82,译文字幕,,0,0,0,,在县界线附近失踪\N{\r原文字幕}He went missing on county lines,
+Dialogue: 0,0:09:02.00,0:09:03.91,译文字幕,,0,0,0,,但是今天早上九点起\N{\r原文字幕}but as of nine o'clock this morning
+Dialogue: 0,0:09:04.09,0:09:05.48,译文字幕,,0,0,0,,这起案子归我们管了\N{\r原文字幕}the case was ruled ours.
+Dialogue: 0,0:09:06.78,0:09:08.61,译文字幕,,0,0,0,,斯皮茨知道了吗\N{\r原文字幕}Does Spitz know about this?
+Dialogue: 0,0:09:08.79,0:09:10.83,译文字幕,,0,0,0,,他想不想参与取决于他自己的意愿\N{\r原文字幕}It's up to him if he wants to get involved.
+Dialogue: 0,0:09:12.27,0:09:13.79,译文字幕,,0,0,0,,他会参与的\N{\r原文字幕}He'll wanna get involved.
+Dialogue: 0,0:09:15.05,0:09:17.14,译文字幕,,0,0,0,,你觉得合适的话我会让你带领这起案子的\N{\r原文字幕}I'll let you manage the situation as you see fit.
+Dialogue: 0,0:09:17.75,0:09:19.19,译文字幕,,0,0,0,,你负责这个了\N{\r原文字幕}You're lead on this.
+Dialogue: 0,0:09:19.36,0:09:20.49,译文字幕,,0,0,0,,明白\N{\r原文字幕}Got it.
+Dialogue: 0,0:10:27.91,0:10:29.13,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor?
+Dialogue: 0,0:10:40.79,0:10:42.62,译文字幕,,0,0,0,,我只是个修窗户的  不会伤害你的\N{\r原文字幕}I'm just a window repairman. I'm not gonna hurt you.
+Dialogue: 0,0:10:42.79,0:10:44.52,译文字幕,,0,0,0,,-你在这干什么  -你丈夫打电话\N{\r原文字幕}- What are you doing here? - Your husband called
+Dialogue: 0,0:10:44.52,0:10:45.45,译文字幕,,0,0,0,,说有一个窗户坏了\N{\r原文字幕}about a broken window.
+Dialogue: 0,0:10:45.62,0:10:46.97,译文字幕,,0,0,0,,我刚给你换了个新的\N{\r原文字幕}Just finished putting in a new one for you.
+Dialogue: 0,0:10:48.15,0:10:49.58,译文字幕,,0,0,0,,我的天啊\N{\r原文字幕}Oh, my God.
+Dialogue: 0,0:10:50.58,0:10:52.06,译文字幕,,0,0,0,,不用谢了\N{\r原文字幕}Okeydokey.
+Dialogue: 0,0:10:52.24,0:10:53.63,译文字幕,,0,0,0,,有什么问题再联系我就行了\N{\r原文字幕}Just give me a jingle if you have any problems with it,
+Dialogue: 0,0:10:53.80,0:10:55.28,译文字幕,,0,0,0,,再会\N{\r原文字幕}and have a good day.
+Dialogue: 0,0:10:55.46,0:10:56.37,译文字幕,,0,0,0,,谢谢你\N{\r原文字幕}Thank you.
+Dialogue: 0,0:10:56.55,0:10:58.29,译文字幕,,0,0,0,,不好意思  请问是谁让你进来的\N{\r原文字幕}I'm sorry, who let you in?
+Dialogue: 0,0:10:58.46,0:11:00.11,译文字幕,,0,0,0,,你的孩子  非常礼貌的一个小孩\N{\r原文字幕}That kid of yours. Very polite.
+Dialogue: 0,0:11:00.29,0:11:02.90,译文字幕,,0,0,0,,很有教养\N{\r原文字幕}You trained her well.
+Dialogue: 0,0:11:03.07,0:11:04.95,译文字幕,,0,0,0,,-谁  -是啊约翰  没有\N{\r原文字幕}- Who? - Yeah, John. No.
+Dialogue: 0,0:11:09.73,0:11:12.39,译文字幕,,0,0,0,,事实是  你找到的任何东西\N{\r原文字幕}And the truth is, anything you find
+Dialogue: 0,0:11:12.56,0:11:14.61,译文字幕,,0,0,0,,都可能是重要线索\N{\r原文字幕}could be important.
+Dialogue: 0,0:11:14.78,0:11:18.12,译文字幕,,0,0,0,,最后目击者称贾斯汀当时\N{\r原文字幕}Justin was last seen wearing a green soccer jersey
+Dialogue: 0,0:11:18.12,0:11:19.52,译文字幕,,0,0,0,,身着绿色足球衣  带着\N{\r原文字幕}and carrying--
+Dialogue: 0,0:11:19.70,0:11:21.74,译文字幕,,0,0,0,,我们很快就需要一些回复\N{\r原文字幕}Gonna want answers, and fast.
+Dialogue: 0,0:11:21.92,0:11:25.57,译文字幕,,0,0,0,,所以那个孩子是骑着车一个人穿过树林\N{\r原文字幕}So the kid's riding his bike all alone through the woods.
+Dialogue: 0,0:11:25.75,0:11:27.36,译文字幕,,0,0,0,,他的父母不介意吗\N{\r原文字幕}The parents are okay with that?
+Dialogue: 0,0:11:27.53,0:11:29.84,译文字幕,,0,0,0,,他十岁了  估计是觉得他已经够大了吧\N{\r原文字幕}He's 10. Figure he's old enough.
+Dialogue: 0,0:11:30.97,0:11:33.32,译文字幕,,0,0,0,,家庭生活怎么样  我真心问的\N{\r原文字幕}How's the home life? You know, really.
+Dialogue: 0,0:11:33.50,0:11:35.02,译文字幕,,0,0,0,,有爹有娘  两个孩子  生活美满\N{\r原文字幕}Mom, dad, two happy kids.
+Dialogue: 0,0:11:35.19,0:11:38.20,译文字幕,,0,0,0,,完美的美式家庭\N{\r原文字幕}Perfect all-American family.
+Dialogue: 0,0:11:38.37,0:11:39.81,译文字幕,,0,0,0,,是啊\N{\r原文字幕}Yeah.
+Dialogue: 0,0:11:39.98,0:11:41.98,译文字幕,,0,0,0,,这些不就够了吗\N{\r原文字幕}Aren't they all?
+Dialogue: 0,0:11:42.16,0:11:45.12,译文字幕,,0,0,0,,丽萨和我去年出了点问题\N{\r原文字幕}Lisa and I went through that rough patch last year.
+Dialogue: 0,0:11:45.29,0:11:46.68,译文字幕,,0,0,0,,别这样  斯皮茨\N{\r原文字幕}Hey, come on, Spitz.
+Dialogue: 0,0:11:47.47,0:11:48.73,译文字幕,,0,0,0,,听着\N{\r原文字幕}Look,
+Dialogue: 0,0:11:48.90,0:11:50.56,译文字幕,,0,0,0,,我也不是想装得什么都懂一样\N{\r原文字幕}I'm not saying I know anything.
+Dialogue: 0,0:11:50.73,0:11:52.34,译文字幕,,0,0,0,,不过之前有一个咨询师\N{\r原文字幕}Just there was this counselor.
+Dialogue: 0,0:11:52.51,0:11:54.12,译文字幕,,0,0,0,,杰姬就是个咨询师\N{\r原文字幕}Jackie is a counselor.
+Dialogue: 0,0:11:54.30,0:11:56.65,译文字幕,,0,0,0,,-是啊  -我们会没事的\N{\r原文字幕}- Yeah. - We'll be fine.
+Dialogue: 0,0:11:56.82,0:11:58.48,译文字幕,,0,0,0,,这儿有什么东西\N{\r原文字幕}There's something up here!
+Dialogue: 0,0:12:02.70,0:12:04.87,译文字幕,,0,0,0,,大家离开这里  你发现了什么\N{\r原文字幕}All right, step away. What you got?
+Dialogue: 0,0:12:11.19,0:12:12.75,译文字幕,,0,0,0,,天啊\N{\r原文字幕}Jesus Christ.
+Dialogue: 0,0:12:13.84,0:12:15.89,译文字幕,,0,0,0,,要当作证据吗\N{\r原文字幕}Sir, should we bring it in?
+Dialogue: 0,0:12:17.02,0:12:18.41,译文字幕,,0,0,0,,是  是的  你能\N{\r原文字幕}Yeah.Yeah, you can...
+Dialogue: 0,0:12:19.76,0:12:20.89,译文字幕,,0,0,0,,你可以把它包起来了\N{\r原文字幕}You can bag it.
+Dialogue: 0,0:12:21.93,0:12:23.02,译文字幕,,0,0,0,,谢谢  凯拉\N{\r原文字幕}Thanks, Kayla.
+Dialogue: 0,0:12:26.37,0:12:27.55,译文字幕,,0,0,0,,斯皮茨\N{\r原文字幕}Spitz.
+Dialogue: 0,0:12:29.38,0:12:31.21,译文字幕,,0,0,0,,你还好吗\N{\r原文字幕}You okay?
+Dialogue: 0,0:12:31.38,0:12:33.77,译文字幕,,0,0,0,,你还记得科尔·戈顿吗  在你之前\N{\r原文字幕}You remember Cole Gordon? It was before your time.
+Dialogue: 0,0:12:33.95,0:12:34.99,译文字幕,,0,0,0,,我当然记得\N{\r原文字幕}Oh, of course I remember.
+Dialogue: 0,0:12:35.17,0:12:36.34,译文字幕,,0,0,0,,那把绿色的小刀\N{\r原文字幕}The green knives.
+Dialogue: 0,0:12:37.86,0:12:39.08,译文字幕,,0,0,0,,和六个男孩\N{\r原文字幕}Six boys.
+Dialogue: 0,0:12:40.00,0:12:41.48,译文字幕,,0,0,0,,所有人都发现跟那个刀埋在一起\N{\r原文字幕}All found buried with those knives.
+Dialogue: 0,0:12:41.65,0:12:42.87,译文字幕,,0,0,0,,是啊  我知道\N{\r原文字幕}Yeah, I know.
+Dialogue: 0,0:12:44.48,0:12:45.57,译文字幕,,0,0,0,,但是戈顿他\N{\r原文字幕}But Gordon, he's--
+Dialogue: 0,0:12:45.74,0:12:46.79,译文字幕,,0,0,0,,没错  是我让他陷入那种境地的\N{\r原文字幕}Yeah, yeah, I helped put him there,
+Dialogue: 0,0:12:46.96,0:12:48.40,译文字幕,,0,0,0,,而且他也没能逃出来\N{\r原文字幕}and he ain't getting out.
+Dialogue: 0,0:12:48.57,0:12:49.88,译文字幕,,0,0,0,,所以你觉得呢\N{\r原文字幕}So what're you thinking?
+Dialogue: 0,0:13:11.03,0:13:12.51,译文字幕,,0,0,0,,能把酱递给我吗\N{\r原文字幕}Could you pass the dressing?
+Dialogue: 0,0:13:19.86,0:13:21.08,译文字幕,,0,0,0,,谢谢\N{\r原文字幕}Thank you.
+Dialogue: 0,0:13:22.95,0:13:24.90,译文字幕,,0,0,0,,今天我不在的时候\N{\r原文字幕}Hey, did you let a repairman in today
+Dialogue: 0,0:13:24.91,0:13:26.35,译文字幕,,0,0,0,,你是不是放了一个修理工进来了\N{\r原文字幕}when I wasn't here?
+Dialogue: 0,0:13:27.26,0:13:28.96,译文字幕,,0,0,0,,天啊  妈妈  就是那个人吗\N{\r原文字幕}Jesus, Mom, is that who it was?
+Dialogue: 0,0:13:30.61,0:13:32.18,译文字幕,,0,0,0,,你跟一个修理工出轨了吗\N{\r原文字幕}Did you screw a repairman?
+Dialogue: 0,0:13:37.23,0:13:38.32,译文字幕,,0,0,0,,好了\N{\r原文字幕}Okay.
+Dialogue: 0,0:13:39.53,0:13:40.71,译文字幕,,0,0,0,,你生气了\N{\r原文字幕}Okay, you're angry.
+Dialogue: 0,0:13:40.71,0:13:41.97,译文字幕,,0,0,0,,你怎么能这么做\N{\r原文字幕}How could you do that?
+Dialogue: 0,0:13:44.10,0:13:45.67,译文字幕,,0,0,0,,你怎么能这样对爸爸\N{\r原文字幕}How could you do that to Dad?
+Dialogue: 0,0:13:51.42,0:13:52.72,译文字幕,,0,0,0,,是谁\N{\r原文字幕}Who was it?
+Dialogue: 0,0:13:54.59,0:13:56.20,译文字幕,,0,0,0,,就是一个人  亲爱的\N{\r原文字幕}Just someone, sweetie--
+Dialogue: 0,0:13:56.38,0:13:58.51,译文字幕,,0,0,0,,别这么叫我\N{\r原文字幕}Oh, you don't get to call me that.
+Dialogue: 0,0:13:58.68,0:14:01.30,译文字幕,,0,0,0,,你以后都别想这么叫我了\N{\r原文字幕}You don't ever get to call me that again.
+Dialogue: 0,0:14:01.47,0:14:02.73,译文字幕,,0,0,0,,我知道你现在很生气\N{\r原文字幕}I see how mad you are.
+Dialogue: 0,0:14:02.91,0:14:04.73,译文字幕,,0,0,0,,你有什么资格这么镇定\N{\r原文字幕}You don't get to act like nothing happened!
+Dialogue: 0,0:14:04.91,0:14:07.26,译文字幕,,0,0,0,,做几个煎饼和一顿大餐就完事儿了吗\N{\r原文字幕}You think pancakes and fancy dinners are gonna make it up?
+Dialogue: 0,0:14:07.43,0:14:09.30,译文字幕,,0,0,0,,-不  我不是  -你毁了我们的家庭\N{\r原文字幕}- No, I don't-- - You ruined our family and
+Dialogue: 0,0:14:09.30,0:14:10.83,译文字幕,,0,0,0,,你他妈会付出代价的\N{\r原文字幕}you should fucking pay for it!
+Dialogue: 0,0:14:27.80,0:14:29.76,译文字幕,,0,0,0,,看到诗人公园现场的谢里尔\N{\r原文字幕}...the scene in Troubadour Park. Cheryl?
+Dialogue: 0,0:14:29.93,0:14:33.24,译文字幕,,0,0,0,,这个月内威特已经是失踪的第二个男孩了\N{\r原文字幕}Whitter is the second boy reported missing in the last month.
+Dialogue: 0,0:14:33.41,0:14:35.94,译文字幕,,0,0,0,,提醒一下各位  九岁的迈克尔·金\N{\r原文字幕}Now, if you remember, nine-year-old Michael King
+Dialogue: 0,0:14:36.11,0:14:37.72,译文字幕,,0,0,0,,就是在他家里\N{\r原文字幕}went missing just--
+Dialogue: 0,0:14:42.81,0:14:46.22,译文字幕,,0,0,0,,失踪的  专家们正告诫父母们\N{\r原文字幕}...from his house. Authorities are now telling parents of young
+Dialogue: 0,0:14:46.22,0:14:49.73,译文字幕,,0,0,0,,要看好小孩子们  并且要时刻监管\N{\r原文字幕}children to keep them close and well supervised at all times.
+Dialogue: 0,0:14:49.91,0:14:51.02,译文字幕,,0,0,0,,在早些时候的一场新闻发布会中\N{\r原文字幕}Earlier in a press conference,
+Dialogue: 0,0:14:51.02,0:14:52.43,译文字幕,,0,0,0,,警方负责人称他们一定能\N{\r原文字幕}the police chief said that he is confident...
+Dialogue: 0,0:14:52.61,0:14:54.83,译文字幕,,0,0,0,,将凶手绳之以\N{\r原文字幕}...that those who are responsible...
+Dialogue: 0,0:14:55.00,0:14:58.40,译文字幕,,0,0,0,,我都没听到你进来了\N{\r原文字幕}Oh, I didn't hear you pull in.
+Dialogue: 0,0:15:00.62,0:15:02.92,译文字幕,,0,0,0,,我给你打了好几个电话了\N{\r原文字幕}I tried calling you a bunch.
+Dialogue: 0,0:15:04.05,0:15:05.53,译文字幕,,0,0,0,,今天怎么样\N{\r原文字幕}How was your day?
+Dialogue: 0,0:15:08.71,0:15:10.32,译文字幕,,0,0,0,,你弄坏了个窗户吗\N{\r原文字幕}You broke a window?
+Dialogue: 0,0:15:15.72,0:15:18.42,译文字幕,,0,0,0,,我打电话上报了那个修理工\N{\r原文字幕}I called and reported that repairman they sent out.
+Dialogue: 0,0:15:18.59,0:15:19.68,译文字幕,,0,0,0,,他从我们家偷东西了\N{\r原文字幕}I think he stole from us.
+Dialogue: 0,0:15:19.85,0:15:21.42,译文字幕,,0,0,0,,什么\N{\r原文字幕}You what?
+Dialogue: 0,0:15:21.59,0:15:23.59,译文字幕,,0,0,0,,我们家所有的银器都没了\N{\r原文字幕}All of our silverware is completely gone.
+Dialogue: 0,0:15:23.77,0:15:25.47,译文字幕,,0,0,0,,找找抽屉里\N{\r原文字幕}Look in the drawer.
+Dialogue: 0,0:15:25.64,0:15:27.86,译文字幕,,0,0,0,,他还说了一些奇怪的话  什么帮忙的女孩\N{\r原文字幕}He said something strange about some girl who was helping--
+Dialogue: 0,0:15:28.03,0:15:29.86,译文字幕,,0,0,0,,他为什么要拿我们的银器呢\N{\r原文字幕}Why would he take our shitty silverware?
+Dialogue: 0,0:15:30.04,0:15:31.39,译文字幕,,0,0,0,,我也不知道  格雷格  但是我找不到\N{\r原文字幕}I don't know, Greg, but it's not there.
+Dialogue: 0,0:15:31.56,0:15:33.08,译文字幕,,0,0,0,,他的老板会调查的\N{\r原文字幕}His boss is gonna look into it.
+Dialogue: 0,0:15:33.26,0:15:35.17,译文字幕,,0,0,0,,我不知道你是怎么了\N{\r原文字幕}I don't know what's wrong with you.
+Dialogue: 0,0:15:35.35,0:15:37.57,译文字幕,,0,0,0,,跟我说说你的儿子吧  威特夫人\N{\r原文字幕}So tell us a little bit about your son, Mrs. Whitter.
+Dialogue: 0,0:15:37.74,0:15:40.13,译文字幕,,0,0,0,,他的名字叫贾斯汀  贾斯汀·威特\N{\r原文字幕}His name is Justin. Justin Whitter.
+Dialogue: 0,0:15:40.87,0:15:42.40,译文字幕,,0,0,0,,他十岁了\N{\r原文字幕}He's 10 years old.
+Dialogue: 0,0:15:42.57,0:15:45.70,译文字幕,,0,0,0,,他很高兴马上要上五年级了\N{\r原文字幕}Um... He's very excited about starting fifth grade.
+Dialogue: 0,0:15:47.14,0:15:49.93,译文字幕,,0,0,0,,他总是骑着车穿过大街小巷\N{\r原文字幕}He rides his bike all over this neighborhood all the time.
+Dialogue: 0,0:15:50.10,0:15:52.49,译文字幕,,0,0,0,,所以他放学骑车回家也很正常\N{\r原文字幕}So it's really normal for him to ride his bike home from school.
+Dialogue: 0,0:15:52.67,0:15:54.23,译文字幕,,0,0,0,,附近所有人都知道他\N{\r原文字幕}Everybody in the neighborhood knows him.
+Dialogue: 0,0:15:55.24,0:15:56.93,译文字幕,,0,0,0,,他是个好孩子\N{\r原文字幕}He's just a really great kid.
+Dialogue: 0,0:16:10.04,0:16:11.27,译文字幕,tag,0,0,0,,{\an8}处方药  安比恩[安眠药]
+Dialogue: 0,0:16:25.79,0:16:27.96,译文字幕,,0,0,0,,嘿  你是怎么进来的\N{\r原文字幕}Hey. How'd you get in here?
+Dialogue: 0,0:16:32.10,0:16:33.32,译文字幕,,0,0,0,,过来\N{\r原文字幕}Come here.
+Dialogue: 0,0:16:39.45,0:16:40.45,译文字幕,,0,0,0,,你去哪啊\N{\r原文字幕}Where are you going?
+Dialogue: 0,0:16:47.33,0:16:48.33,译文字幕,,0,0,0,,来吧\N{\r原文字幕}Come on.
+Dialogue: 0,0:16:51.77,0:16:53.63,译文字幕,,0,0,0,,没错  这的确是你的房间\N{\r原文字幕}Yeah, this is your room, but,
+Dialogue: 0,0:16:53.63,0:16:54.99,译文字幕,,0,0,0,,等等  不是那里啊\N{\r原文字幕}no, not in there.
+Dialogue: 0,0:16:58.30,0:16:59.56,译文字幕,,0,0,0,,出来\N{\r原文字幕}Hey, come on.
+Dialogue: 0,0:17:03.09,0:17:04.57,译文字幕,,0,0,0,,出来吧\N{\r原文字幕}Come on.
+Dialogue: 0,0:17:04.74,0:17:05.70,译文字幕,,0,0,0,,我不会伤害你的\N{\r原文字幕}I'm not gonna hurt you.
+Dialogue: 0,0:17:07.35,0:17:08.66,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor?
+Dialogue: 0,0:17:13.49,0:17:14.88,译文字幕,,0,0,0,,别这样  康纳\N{\r原文字幕}Connor, come on.
+Dialogue: 0,0:17:19.93,0:17:21.89,译文字幕,,0,0,0,,别无理取闹了  快让我出来\N{\r原文字幕}You're hilarious, but let me out now.
+Dialogue: 0,0:17:27.20,0:17:28.33,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor?
+Dialogue: 0,0:17:30.90,0:17:32.81,译文字幕,,0,0,0,,康纳  快开门\N{\r原文字幕}Connor, open the door!
+Dialogue: 0,0:17:34.99,0:17:37.64,译文字幕,,0,0,0,,开门  我是认真的\N{\r原文字幕}Open the door. I'm serious!
+Dialogue: 0,0:17:39.77,0:17:42.08,译文字幕,,0,0,0,,康纳  快开门\N{\r原文字幕}Connor, open this door!
+Dialogue: 0,0:17:43.78,0:17:44.95,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor!
+Dialogue: 0,0:17:48.48,0:17:49.52,译文字幕,,0,0,0,,你在干什么\N{\r原文字幕}What're you doing?
+Dialogue: 0,0:17:49.70,0:17:51.87,译文字幕,,0,0,0,,你在干什么\N{\r原文字幕}What are you doing?
+Dialogue: 0,0:17:52.05,0:17:53.48,译文字幕,,0,0,0,,我听到声音了  所以来看\N{\r原文字幕}I heard pounding, so I came up the--
+Dialogue: 0,0:17:53.66,0:17:54.88,译文字幕,,0,0,0,,康纳呢\N{\r原文字幕}Where's Connor?
+Dialogue: 0,0:17:55.05,0:17:56.36,译文字幕,,0,0,0,,他出去了\N{\r原文字幕}He's out.
+Dialogue: 0,0:17:57.18,0:17:58.36,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,0:18:15.77,0:18:16.85,译文字幕,,0,0,0,,有什么消息吗\N{\r原文字幕}Anything?
+Dialogue: 0,0:18:20.47,0:18:21.69,译文字幕,,0,0,0,,没有\N{\r原文字幕}No.
+Dialogue: 0,0:18:22.95,0:18:24.56,译文字幕,,0,0,0,,你想报警吗\N{\r原文字幕}Do you wanna call the station?
+Dialogue: 0,0:18:27.30,0:18:29.13,译文字幕,,0,0,0,,可能  我只是太累了吧\N{\r原文字幕}You know, maybe I'm just tired.
+Dialogue: 0,0:18:33.39,0:18:35.40,译文字幕,,0,0,0,,那你先上楼睡觉吧\N{\r原文字幕}Why don't you sleep upstairs tonight?
+Dialogue: 0,0:18:36.74,0:18:38.79,译文字幕,,0,0,0,,好  那我搬点东西去客房\N{\r原文字幕}Yeah, I'm gonna move some stuff into the guest room.
+Dialogue: 0,0:18:42.66,0:18:45.54,译文字幕,,0,0,0,,我知道你不会就这样原谅我\N{\r原文字幕}I know you can't just forgive me.
+Dialogue: 0,0:18:46.71,0:18:49.54,译文字幕,,0,0,0,,我不指望你能原谅  真的\N{\r原文字幕}I don't expect you to, I really don't.
+Dialogue: 0,0:18:49.71,0:18:52.32,译文字幕,,0,0,0,,但是我想让你知道  我什么都愿意  只要\N{\r原文字幕}But I want you to know I'll do whatever it takes to make--
+Dialogue: 0,0:18:52.50,0:18:54.11,译文字幕,,0,0,0,,你之前是真的想结婚吗\N{\r原文字幕}Did you wanna get married?
+Dialogue: 0,0:18:56.42,0:18:58.42,译文字幕,,0,0,0,,什么  什么意思\N{\r原文字幕}What? What do you mean?
+Dialogue: 0,0:18:58.59,0:18:59.89,译文字幕,,0,0,0,,一个不务正业的警察  赚不了几个钱\N{\r原文字幕}A shitty cop making shitty pay,
+Dialogue: 0,0:18:59.89,0:19:00.84,译文字幕,,0,0,0,,不仅在镇子上没什么人缘\N{\r原文字幕}this out-of-towner
+Dialogue: 0,0:19:00.84,0:19:01.99,译文字幕,,0,0,0,,你的父母也讨厌我\N{\r原文字幕}who your parents hated.
+Dialogue: 0,0:19:02.16,0:19:03.68,译文字幕,,0,0,0,,-我父母不讨厌你  -你爸爸讨厌我\N{\r原文字幕}- My parents didn't hate you. - Your dad hated me
+Dialogue: 0,0:19:03.68,0:19:05.82,译文字幕,,0,0,0,,因为他知道我没办法像他那样给你一切\N{\r原文字幕}'cause he knew I wouldn't provide for you like he did,
+Dialogue: 0,0:19:05.99,0:19:07.12,译文字幕,,0,0,0,,没法让你他妈住上间跟他家一样的大房子\N{\r原文字幕}like he did with this fucking house.
+Dialogue: 0,0:19:07.30,0:19:08.60,译文字幕,,0,0,0,,我从来没想要你给我荣华富贵\N{\r原文字幕}I never needed you to provide for me.
+Dialogue: 0,0:19:08.78,0:19:09.69,译文字幕,,0,0,0,,我从来没那样想过\N{\r原文字幕}I never wanted that.
+Dialogue: 0,0:19:09.86,0:19:11.43,译文字幕,,0,0,0,,但是我想\N{\r原文字幕}I wanted that.
+Dialogue: 0,0:19:15.33,0:19:16.02,译文字幕,,0,0,0,,你真的觉得\N{\r原文字幕}You really think
+Dialogue: 0,0:19:16.02,0:19:16.83,译文字幕,,0,0,0,,如果你没怀孕的话\N{\r原文字幕}we'd still be together
+Dialogue: 0,0:19:16.83,0:19:18.27,译文字幕,,0,0,0,,我们还会在一起吗\N{\r原文字幕}if you hadn't gotten pregnant?
+Dialogue: 0,0:19:19.79,0:19:22.49,译文字幕,,0,0,0,,我很高兴这份婚姻能走到今天\N{\r原文字幕}I'm glad things worked out the way they did.
+Dialogue: 0,0:19:24.79,0:19:26.58,译文字幕,,0,0,0,,我很努力了  格雷格\N{\r原文字幕}I'm trying, Greg.
+Dialogue: 0,0:20:41.22,0:20:43.04,译文字幕,,0,0,0,,屋顶上还有个男的  往上看  就在那\N{\r原文字幕}What about the guy on top? Watch it. Up there.
+Dialogue: 0,0:20:43.22,0:20:44.87,译文字幕,,0,0,0,,十一点钟方向  对  有掩体\N{\r原文字幕}Eleven o'clock. Yep. Covered.
+Dialogue: 0,0:20:45.05,0:20:46.22,译文字幕,,0,0,0,,别对着我开枪啊\N{\r原文字幕}Don't shoot me in the face!
+Dialogue: 0,0:20:46.40,0:20:47.61,译文字幕,,0,0,0,,我明白兄弟  我在掩护你\N{\r原文字幕}I know, man, I'm covering you!
+Dialogue: 0,0:20:47.79,0:20:49.22,译文字幕,,0,0,0,,就在那里  兄弟\N{\r原文字幕}Right there, right there, dude.
+Dialogue: 0,0:21:05.55,0:21:06.55,译文字幕,,0,0,0,,你在干嘛\N{\r原文字幕}What're you doing?
+Dialogue: 0,0:21:09.72,0:21:10.72,译文字幕,,0,0,0,,你刚去哪了\N{\r原文字幕}Where were you?
+Dialogue: 0,0:21:11.46,0:21:12.60,译文字幕,,0,0,0,,刚才有点口渴\N{\r原文字幕}I was thirsty.
+Dialogue: 0,0:21:14.68,0:21:17.51,译文字幕,,0,0,0,,都这么晚了  就别继续打游戏了吧\N{\r原文字幕}It's a little late to be playing video games, isn't it?
+Dialogue: 0,0:21:20.30,0:21:21.69,译文字幕,,0,0,0,,我明天送你上学\N{\r原文字幕}I'm taking you to school tomorrow.
+Dialogue: 0,0:21:21.87,0:21:22.95,译文字幕,,0,0,0,,什么  为什么\N{\r原文字幕}What? Why?
+Dialogue: 0,0:21:23.13,0:21:24.26,译文字幕,,0,0,0,,没什么  就是载你上学啊\N{\r原文字幕}Doesn't matter, I'm just taking you.
+Dialogue: 0,0:21:24.43,0:21:26.22,译文字幕,,0,0,0,,我又不会被绑架  妈\N{\r原文字幕}I'm not gonna get kidnapped, Mom.
+Dialogue: 0,0:21:26.39,0:21:28.79,译文字幕,,0,0,0,,我的天  我很久没有见过这个公仔了\N{\r原文字幕}Oh, my God, I haven't seen him in forever.
+Dialogue: 0,0:21:30.13,0:21:32.57,译文字幕,,0,0,0,,西皮  记得他吗\N{\r原文字幕}Hippie. Remember him?
+Dialogue: 0,0:21:33.22,0:21:34.27,译文字幕,,0,0,0,,不记得\N{\r原文字幕}No.
+Dialogue: 0,0:21:50.59,0:21:51.72,译文字幕,,0,0,0,,妈\N{\r原文字幕}Mom.
+Dialogue: 0,0:21:55.64,0:21:56.81,译文字幕,,0,0,0,,晚安\N{\r原文字幕}Good night.
+Dialogue: 0,0:22:45.38,0:22:47.17,译文字幕,,0,0,0,,戴维斯要见我们  现在过来\N{\r原文字幕}Davis wants to see us. Now.
+Dialogue: 0,0:22:47.34,0:22:49.26,译文字幕,,0,0,0,,好  我马上就到\N{\r原文字幕}Yeah, okay. I'll be right there.
+Dialogue: 0,0:23:14.76,0:23:16.11,译文字幕,,0,0,0,,抱歉\N{\r原文字幕}Sorry.
+Dialogue: 0,0:23:16.28,0:23:17.46,译文字幕,,0,0,0,,我错过了什么\N{\r原文字幕}What'd I miss?
+Dialogue: 0,0:23:19.85,0:23:21.38,译文字幕,,0,0,0,,科尔·戈顿\N{\r原文字幕}Cole Gordon.
+Dialogue: 0,0:23:21.55,0:23:23.47,译文字幕,,0,0,0,,以前的案子  半夜叫我起床就为了这个\N{\r原文字幕}A closed case. I got pulled out of bed for this.
+Dialogue: 0,0:23:23.64,0:23:24.73,译文字幕,,0,0,0,,你知道为什么叫你来  斯皮茨\N{\r原文字幕}You know why you're here, Spitz.
+Dialogue: 0,0:23:24.90,0:23:26.34,译文字幕,,0,0,0,,这人的作案手法和15年前你逮捕的\N{\r原文字幕}The MO is an exact match
+Dialogue: 0,0:23:26.51,0:23:29.04,译文字幕,,0,0,0,,一个连环儿童绑架案主犯高度相似\N{\r原文字幕}of a serial child abductor you put away 15 years ago.
+Dialogue: 0,0:23:29.21,0:23:29.99,译文字幕,,0,0,0,,你还在缩在被窝里的时候\N{\r原文字幕}I was on the phone
+Dialogue: 0,0:23:29.99,0:23:30.91,译文字幕,,0,0,0,,我就在和你的老搭档\N{\r原文字幕}with your old partner
+Dialogue: 0,0:23:30.91,0:23:32.26,译文字幕,,0,0,0,,通过电话了\N{\r原文字幕}while you were all tucked up.
+Dialogue: 0,0:23:33.26,0:23:35.39,译文字幕,,0,0,0,,他们送来了保存的资料\N{\r原文字幕}They sent what they still had on hand.
+Dialogue: 0,0:23:35.56,0:23:37.65,译文字幕,,0,0,0,,老天  把那些东西收起来\N{\r原文字幕}Jesus Christ. Put that shit away.
+Dialogue: 0,0:23:39.18,0:23:40.79,译文字幕,,0,0,0,,戈顿的辩护律师正在尝试\N{\r原文字幕}Gordon's defense attorney's trying to use it
+Dialogue: 0,0:23:40.96,0:23:42.27,译文字幕,,0,0,0,,利用这些证据申请无效审判\N{\r原文字幕}to build a case for a mistrial.
+Dialogue: 0,0:23:42.44,0:23:43.70,译文字幕,,0,0,0,,他们从不放过这些机会\N{\r原文字幕}They didn't waste any time.
+Dialogue: 0,0:23:43.88,0:23:45.31,译文字幕,,0,0,0,,我很遗憾要让那个白痴律师失望了\N{\r原文字幕}I'm sorry to disappoint the dickhead lawyer,
+Dialogue: 0,0:23:45.49,0:23:47.36,译文字幕,,0,0,0,,不过戈顿是一个被定罪的恋童癖\N{\r原文字幕}but Gordon was a convicted pedophile
+Dialogue: 0,0:23:47.53,0:23:49.04,译文字幕,,0,0,0,,当时在他车尾箱里查获了不胜数的刀子\N{\r原文字幕}with a trunk packed full of those knives,
+Dialogue: 0,0:23:49.04,0:23:50.59,译文字幕,,0,0,0,,更别说在他房子里\N{\r原文字幕}not to mention clothes from
+Dialogue: 0,0:23:50.59,0:23:51.39,译文字幕,,0,0,0,,发现了受害者当中\N{\r原文字幕}half a dozen of the victims
+Dialogue: 0,0:23:51.39,0:23:52.10,译文字幕,,0,0,0,,六个人的衣服\N{\r原文字幕}we found at his house.
+Dialogue: 0,0:23:52.28,0:23:53.75,译文字幕,,0,0,0,,这个人可能会是模仿犯罪\N{\r原文字幕}Yeah, well, it's probably a copycat.
+Dialogue: 0,0:23:53.75,0:23:55.55,译文字幕,,0,0,0,,不过我们要阻止他\N{\r原文字幕}But we need to get in front of this.
+Dialogue: 0,0:23:55.55,0:23:57.18,译文字幕,,0,0,0,,我已经派拉森去追查\N{\r原文字幕}I sent Larson to track down
+Dialogue: 0,0:23:57.18,0:23:58.17,译文字幕,,0,0,0,,那两个逃掉的男孩\N{\r原文字幕}the two boys that escaped,
+Dialogue: 0,0:23:58.17,0:23:58.94,译文字幕,,0,0,0,,布劳恩和特拉弗斯\N{\r原文字幕}Braun and Travers.
+Dialogue: 0,0:23:59.11,0:24:00.80,译文字幕,,0,0,0,,我的天\N{\r原文字幕}Oh, Jesus Christ.
+Dialogue: 0,0:24:00.80,0:24:01.88,译文字幕,,0,0,0,,虽然已经过去15年了\N{\r原文字幕}Yeah, it's been 15 years,
+Dialogue: 0,0:24:01.88,0:24:03.26,译文字幕,,0,0,0,,但他们可能还记得一些当时的细节\N{\r原文字幕}but they might remember details now
+Dialogue: 0,0:24:03.26,0:24:04.98,译文字幕,,0,0,0,,可以帮助戳穿戈顿的辩护\N{\r原文字幕}that could help impede Gordon's defense.
+Dialogue: 0,0:24:04.99,0:24:06.14,译文字幕,,0,0,0,,那我没错啊\N{\r原文字幕}I wasn't wrong.
+Dialogue: 0,0:24:06.14,0:24:08.95,译文字幕,,0,0,0,,当时我广泛和那些孩子都做过谈话\N{\r原文字幕}I interviewed both those boys extensively when it happened.
+Dialogue: 0,0:24:09.99,0:24:12.51,译文字幕,,0,0,0,,铁案如山  毫无疑问\N{\r原文字幕}There's no doubt. No doubt.
+Dialogue: 0,0:24:12.69,0:24:13.63,译文字幕,,0,0,0,,那你现在怎么\N{\r原文字幕}Then why'd you end up
+Dialogue: 0,0:24:13.63,0:24:14.82,译文字幕,,0,0,0,,还和我们坐在这儿呢  雷\N{\r原文字幕}with us, Ray?
+Dialogue: 0,0:24:18.39,0:24:19.74,译文字幕,,0,0,0,,给我们他的地址\N{\r原文字幕}Get his address.
+Dialogue: 0,0:24:32.10,0:24:34.06,译文字幕,,0,0,0,,但是他去监狱了  被关起来了\N{\r原文字幕}But he went to prison. He's locked away.
+Dialogue: 0,0:24:34.23,0:24:35.67,译文字幕,,0,0,0,,据我们最后的了解  确实如此\N{\r原文字幕}To the best of our knowledge he is,
+Dialogue: 0,0:24:35.67,0:24:36.19,译文字幕,,0,0,0,,布劳恩先生\N{\r原文字幕}Mr. Braun.
+Dialogue: 0,0:24:36.36,0:24:38.89,译文字幕,,0,0,0,,如果可以  我们想跟您儿子聊聊\N{\r原文字幕}But we'd like to talk to your son, if that's possible.
+Dialogue: 0,0:24:39.72,0:24:41.24,译文字幕,,0,0,0,,他在房子后面\N{\r原文字幕}He's out back.
+Dialogue: 0,0:24:54.69,0:24:55.95,译文字幕,,0,0,0,,汤米\N{\r原文字幕}Tommy.
+Dialogue: 0,0:24:56.78,0:24:57.82,译文字幕,,0,0,0,,汤米\N{\r原文字幕}Tommy?
+Dialogue: 0,0:24:59.00,0:25:00.74,译文字幕,,0,0,0,,有几个挺好的人想见你一面\N{\r原文字幕}There's some nice men here to see you.
+Dialogue: 0,0:25:04.31,0:25:05.57,译文字幕,,0,0,0,,汤米\N{\r原文字幕}Tommy?
+Dialogue: 0,0:25:06.31,0:25:07.57,译文字幕,,0,0,0,,记得我吗\N{\r原文字幕}Remember me?
+Dialogue: 0,0:25:12.10,0:25:13.62,译文字幕,,0,0,0,,斯皮茨基警官\N{\r原文字幕}Officer Spitzky.
+Dialogue: 0,0:25:15.27,0:25:17.41,译文字幕,,0,0,0,,好久不见了  汤米\N{\r原文字幕}It's been a long time, Tommy,
+Dialogue: 0,0:25:17.58,0:25:20.32,译文字幕,,0,0,0,,我还留着你送我的雷龙模型\N{\r原文字幕}but I still have that brontosaurus you gave me.
+Dialogue: 0,0:25:24.02,0:25:25.24,译文字幕,,0,0,0,,汤米\N{\r原文字幕}Tommy?
+Dialogue: 0,0:25:34.38,0:25:36.99,译文字幕,,0,0,0,,不  不  不  不  不\N{\r原文字幕}No, no, no, no, No, no, no, no!
+Dialogue: 0,0:25:37.77,0:25:39.34,译文字幕,,0,0,0,,不要  不要  不要\N{\r原文字幕}No! No! No!
+Dialogue: 0,0:25:39.51,0:25:41.21,译文字幕,,0,0,0,,不要  不要\N{\r原文字幕}No! No!
+Dialogue: 0,0:25:41.39,0:25:42.30,译文字幕,,0,0,0,,不要过来\N{\r原文字幕}No!
+Dialogue: 0,0:25:46.87,0:25:48.31,译文字幕,,0,0,0,,你好  汤米\N{\r原文字幕}Hey, Tommy.
+Dialogue: 0,0:25:48.96,0:25:50.61,译文字幕,,0,0,0,,汤米\N{\r原文字幕}Tommy?
+Dialogue: 0,0:25:50.79,0:25:53.01,译文字幕,,0,0,0,,你可以从头开始讲一遍吗\N{\r原文字幕}Can you start at the beginning for me?
+Dialogue: 0,0:25:53.18,0:25:55.31,译文字幕,,0,0,0,,我需要你回答一些问题  好吗\N{\r原文字幕}I need you to answer my questions, okay?
+Dialogue: 0,0:25:55.49,0:25:56.97,译文字幕,,0,0,0,,我知道你很害怕\N{\r原文字幕}I know you're scared.
+Dialogue: 0,0:25:57.14,0:25:58.66,译文字幕,,0,0,0,,是一个男的\N{\r原文字幕}There was a man.
+Dialogue: 0,0:25:59.40,0:26:00.62,译文字幕,,0,0,0,,一个男人吗\N{\r原文字幕}A man?
+Dialogue: 0,0:26:01.36,0:26:02.97,译文字幕,,0,0,0,,你认识他吗\N{\r原文字幕}Someone you knew?
+Dialogue: 0,0:26:03.15,0:26:05.85,译文字幕,,0,0,0,,不  不过他说他认识我们\N{\r原文字幕}No, but he said he knew us.
+Dialogue: 0,0:26:06.02,0:26:08.02,译文字幕,,0,0,0,,你是在哪里见到他的\N{\r原文字幕}Where did you see him?
+Dialogue: 0,0:26:08.20,0:26:10.55,译文字幕,,0,0,0,,他站在铁轨上看着我们\N{\r原文字幕}Watching us on the tracks.
+Dialogue: 0,0:26:10.72,0:26:13.33,译文字幕,,0,0,0,,是他弄伤了你的脸吗  汤米\N{\r原文字幕}Did he do that to your face, Tommy?
+Dialogue: 0,0:26:13.50,0:26:15.72,译文字幕,,0,0,0,,是我自己弄的\N{\r原文字幕}I did it to myself.
+Dialogue: 0,0:26:15.90,0:26:18.68,译文字幕,,0,0,0,,在我从那个树林里的木屋子出来以后\N{\r原文字幕}After the little house in the trees.
+Dialogue: 0,0:26:18.86,0:26:20.47,译文字幕,,0,0,0,,那就是他带你去的地方吗\N{\r原文字幕}Is that where he took you?
+Dialogue: 0,0:26:20.64,0:26:22.25,译文字幕,,0,0,0,,你能记起来那个屋子在哪吗\N{\r原文字幕}Do you think you can remember where it is?
+Dialogue: 0,0:26:22.43,0:26:24.34,译文字幕,,0,0,0,,已经不在那了\N{\r原文字幕}It's not there anymore.
+Dialogue: 0,0:26:24.52,0:26:27.48,译文字幕,,0,0,0,,那是个魔法屋  它消失了\N{\r原文字幕}It's a magic house. It disappears.
+Dialogue: 0,0:26:27.65,0:26:29.22,译文字幕,,0,0,0,,什么意思\N{\r原文字幕}What does that mean?
+Dialogue: 0,0:26:29.39,0:26:32.48,译文字幕,,0,0,0,,就是  你永远都找不到他了\N{\r原文字幕}It means... you're never gonna find him.
+Dialogue: 0,0:27:04.86,0:27:05.77,译文字幕,,0,0,0,,你好吗\N{\r原文字幕}Hey.
+Dialogue: 0,0:27:05.95,0:27:07.82,译文字幕,,0,0,0,,你怎么在这\N{\r原文字幕}What are you doing here?
+Dialogue: 0,0:27:07.99,0:27:09.34,译文字幕,,0,0,0,,我一早坐公交过来的\N{\r原文字幕}I took the bus out this morning.
+Dialogue: 0,0:27:09.52,0:27:11.00,译文字幕,,0,0,0,,我和我大学朋友住在布拉克斯福德\N{\r原文字幕}I'm staying with a college buddy in Braxfield.
+Dialogue: 0,0:27:11.17,0:27:12.43,译文字幕,,0,0,0,,你没收到我的短信吗\N{\r原文字幕}Did you not get my messages?
+Dialogue: 0,0:27:12.61,0:27:15.13,译文字幕,,0,0,0,,你不能在这  我儿子在家\N{\r原文字幕}You cannot be here. My son is here.
+Dialogue: 0,0:27:15.31,0:27:17.26,译文字幕,,0,0,0,,好吧  我们出去走走  今天放假\N{\r原文字幕}Well, let's go somewhere. Take the day off work.
+Dialogue: 0,0:27:17.44,0:27:19.57,译文字幕,,0,0,0,,-见到你真好  -不  先别这样\N{\r原文字幕}- It's so good to see you. - No, no, no, no.
+Dialogue: 0,0:27:19.74,0:27:21.40,译文字幕,,0,0,0,,你没看手机短信吗\N{\r原文字幕}Did you not get my texts?
+Dialogue: 0,0:27:23.75,0:27:25.88,译文字幕,,0,0,0,,-我上次说的话吓到你了吗  -没有\N{\r原文字幕}- Did I freak you out by what I said last time? - No, no.
+Dialogue: 0,0:27:26.06,0:27:26.72,译文字幕,,0,0,0,,-因为那时候是  -没有\N{\r原文字幕}- Because that was... - No, no.
+Dialogue: 0,0:27:26.72,0:27:27.26,译文字幕,,0,0,0,,完全不同的我\N{\r原文字幕}a whole different
+Dialogue: 0,0:27:27.26,0:27:28.80,译文字幕,,0,0,0,,因为我爱上你了\N{\r原文字幕}Because I'm in love with you!
+Dialogue: 0,0:27:28.97,0:27:30.19,译文字幕,,0,0,0,,我爱上你了  杰姬\N{\r原文字幕}I'm in love with you, Jackie.
+Dialogue: 0,0:27:32.24,0:27:33.45,译文字幕,,0,0,0,,我没法\N{\r原文字幕}I can't...
+Dialogue: 0,0:27:35.59,0:27:37.37,译文字幕,,0,0,0,,我不想和你在一起\N{\r原文字幕}I don't want to be with you.
+Dialogue: 0,0:27:38.37,0:27:40.07,译文字幕,,0,0,0,,杰姬  听着  我知道你很害怕\N{\r原文字幕}Jackie, listen. I know you're scared.
+Dialogue: 0,0:27:40.24,0:27:42.85,译文字幕,,0,0,0,,-托德  别说了  -我也害怕  但我们有\N{\r原文字幕}- Todd, stop! - I'm scared too. But what we have, you know--
+Dialogue: 0,0:27:44.12,0:27:45.51,译文字幕,,0,0,0,,我的天\N{\r原文字幕}Ow!Oh, my God.
+Dialogue: 0,0:27:45.68,0:27:47.60,译文字幕,,0,0,0,,怎么回事啊\N{\r原文字幕}Ow. What the hell?
+Dialogue: 0,0:27:47.77,0:27:49.21,译文字幕,,0,0,0,,-天啊  -让我看看\N{\r原文字幕}- Jesus. - Let me see.
+Dialogue: 0,0:27:49.38,0:27:50.95,译文字幕,,0,0,0,,没事  没事\N{\r原文字幕}No, no, I'm fine, I'm fine.
+Dialogue: 0,0:27:51.12,0:27:52.91,译文字幕,,0,0,0,,我还好  我要坐下来\N{\r原文字幕}I'm fine. I gotta sit down.
+Dialogue: 0,0:27:53.08,0:27:54.52,译文字幕,,0,0,0,,不  不  跟我来\N{\r原文字幕}No, no, come with me. Come with me.
+Dialogue: 0,0:27:54.69,0:27:57.30,译文字幕,,0,0,0,,亲爱的  我没事\N{\r原文字幕}Okay. All right, honey. I'm good.
+Dialogue: 0,0:27:57.83,0:27:59.44,译文字幕,,0,0,0,,我的天啊\N{\r原文字幕}Oh, my God.
+Dialogue: 0,0:28:01.00,0:28:02.53,译文字幕,,0,0,0,,有没有搞错\N{\r原文字幕}What the fuck?
+Dialogue: 0,0:28:12.10,0:28:13.93,译文字幕,,0,0,0,,天啊\N{\r原文字幕}Oh, Jesus.
+Dialogue: 0,0:28:14.10,0:28:15.32,译文字幕,,0,0,0,,-杰姬  -小心\N{\r原文字幕}- Jackie. - Careful.
+Dialogue: 0,0:28:15.50,0:28:17.98,译文字幕,,0,0,0,,让我想起高中了  记得吗\N{\r原文字幕}This reminds me of high school. Remember?
+Dialogue: 0,0:28:18.15,0:28:20.94,译文字幕,,0,0,0,,总是溜进你爸妈的地下室\N{\r原文字幕}Sneaking into your parents' basement all those times.
+Dialogue: 0,0:28:21.55,0:28:23.80,译文字幕,,0,0,0,,-等等  -怎么了\N{\r原文字幕}- Wait, wait, wait, wait. - What? Okay.
+Dialogue: 0,0:28:26.20,0:28:28.12,译文字幕,,0,0,0,,这就像\N{\r原文字幕}Whoa. This is like...
+Dialogue: 0,0:28:28.29,0:28:29.42,译文字幕,,0,0,0,,过来这里\N{\r原文字幕}Come here.
+Dialogue: 0,0:28:29.60,0:28:30.82,译文字幕,,0,0,0,,-过来坐下  -我感觉有点疼\N{\r原文字幕}- Come here. - This kinda hurts a little bit.
+Dialogue: 0,0:28:30.99,0:28:33.17,译文字幕,,0,0,0,,-过来  -好了\N{\r原文字幕}- Come here. - Oh, nice, ohh.
+Dialogue: 0,0:28:33.34,0:28:35.30,译文字幕,,0,0,0,,太棒了\N{\r原文字幕}This is great. Yeah.
+Dialogue: 0,0:28:37.74,0:28:39.00,译文字幕,,0,0,0,,轻点\N{\r原文字幕}Be careful.
+Dialogue: 0,0:28:54.84,0:28:56.06,译文字幕,,0,0,0,,妈\N{\r原文字幕}Mom?
+Dialogue: 0,0:28:57.84,0:29:01.72,译文字幕,,0,0,0,,亲爱的  你要是做护士绝对行\N{\r原文字幕}Honey, you'd make an amazing nurse.
+Dialogue: 0,0:29:01.89,0:29:04.55,译文字幕,,0,0,0,,操  疼死我了\N{\r原文字幕}Oh, ow! Fuck.
+Dialogue: 0,0:29:06.68,0:29:08.51,译文字幕,,0,0,0,,等我送完康纳上学\N{\r原文字幕}As soon as Connor goes to school,
+Dialogue: 0,0:29:08.68,0:29:10.68,译文字幕,,0,0,0,,我就送你去医院\N{\r原文字幕}I think I should take you to the hospital.
+Dialogue: 0,0:29:37.93,0:29:40.19,译文字幕,,0,0,0,,听起来不错\N{\r原文字幕}Yeah, that sounds great.
+Dialogue: 0,0:29:40.93,0:29:42.28,译文字幕,,0,0,0,,你在打给我\N{\r原文字幕}You're calling me.
+Dialogue: 0,0:29:43.41,0:29:45.28,译文字幕,,0,0,0,,-你手机在哪  -你在说什么\N{\r原文字幕}- Where's your phone? - What're you talking about?
+Dialogue: 0,0:29:45.46,0:29:46.72,译文字幕,,0,0,0,,你手机呢\N{\r原文字幕}Where's your phone?
+Dialogue: 0,0:29:48.11,0:29:50.20,译文字幕,,0,0,0,,喂\N{\r原文字幕}Hello?
+Dialogue: 0,0:29:53.55,0:29:55.16,译文字幕,,0,0,0,,你手机放哪了吗\N{\r原文字幕}Did you leave your phone somewhere?
+Dialogue: 0,0:29:55.34,0:29:57.34,译文字幕,,0,0,0,,我的手机吗\N{\r原文字幕}My phone.
+Dialogue: 0,0:30:20.80,0:30:22.36,译文字幕,,0,0,0,,是你打开的吗\N{\r原文字幕}Did you turn this on?
+Dialogue: 0,0:30:23.54,0:30:24.67,译文字幕,,0,0,0,,没有\N{\r原文字幕}No.
+Dialogue: 0,0:30:24.84,0:30:26.80,译文字幕,,0,0,0,,你刚才在屋顶上吗\N{\r原文字幕}Were you just up on the roof?
+Dialogue: 0,0:30:26.98,0:30:28.59,译文字幕,,0,0,0,,什么  没有啊  你在说什么\N{\r原文字幕}What? No, what're you talking about?
+Dialogue: 0,0:30:28.76,0:30:30.07,译文字幕,,0,0,0,,你说要送我上学的\N{\r原文字幕}You said you were taking me to school.
+Dialogue: 0,0:30:30.24,0:30:31.55,译文字幕,,0,0,0,,是的\N{\r原文字幕}I am.
+Dialogue: 0,0:30:33.90,0:30:35.03,译文字幕,,0,0,0,,出什么事了吗\N{\r原文字幕}Is something wrong?
+Dialogue: 0,0:30:36.42,0:30:38.90,译文字幕,,0,0,0,,上车  我马上过去\N{\r原文字幕}Get in the car. I'll be right there.
+Dialogue: 0,0:30:47.17,0:30:48.96,译文字幕,,0,0,0,,康纳  你要是做了什么事\N{\r原文字幕}Connor, if you did something,
+Dialogue: 0,0:30:48.96,0:30:49.95,译文字幕,,0,0,0,,如果心里难受\N{\r原文字幕}if you were upset
+Dialogue: 0,0:30:50.13,0:30:51.17,译文字幕,,0,0,0,,你在说什么\N{\r原文字幕}What're you talking about?
+Dialogue: 0,0:30:51.17,0:30:52.70,译文字幕,,0,0,0,,你可以告诉我  我不会生气的\N{\r原文字幕}You can tell me. I won't be mad.
+Dialogue: 0,0:30:52.87,0:30:53.96,译文字幕,,0,0,0,,-我只希望…  -妈\N{\r原文字幕}- I just want... - Mom!
+Dialogue: 0,0:31:00.53,0:31:01.91,译文字幕,,0,0,0,,-很抱歉打扰您  哈珀女士  -不会\N{\r原文字幕}- Sorry to bother you, Mrs. Harper. - No,
+Dialogue: 0,0:31:01.91,0:31:04.06,译文字幕,,0,0,0,,威特女士  令郎的事让我很难过\N{\r原文字幕}Mrs. Whitter, I'm so sorry for your son
+Dialogue: 0,0:31:04.23,0:31:07.06,译文字幕,,0,0,0,,他有听说什么消息吗  您丈夫那边\N{\r原文字幕}Has he heard anything? Your husband?
+Dialogue: 0,0:31:07.23,0:31:09.15,译文字幕,,0,0,0,,我不知道\N{\r原文字幕}I-I... I'm not sure.
+Dialogue: 0,0:31:09.32,0:31:11.37,译文字幕,,0,0,0,,不过我知道他们正尽全力\N{\r原文字幕}I know they're doing everything they can.
+Dialogue: 0,0:31:13.20,0:31:16.72,译文字幕,,0,0,0,,我儿子就在外面某个地方\N{\r原文字幕}My son is out there somewhere.
+Dialogue: 0,0:31:17.98,0:31:19.38,译文字幕,,0,0,0,,他们会找到他的\N{\r原文字幕}They're gonna find him.
+Dialogue: 0,0:31:21.12,0:31:23.12,译文字幕,,0,0,0,,格雷格会找到他的\N{\r原文字幕}Greg is going to find him.
+Dialogue: 0,0:31:25.12,0:31:26.34,译文字幕,,0,0,0,,好\N{\r原文字幕}Yeah.
+Dialogue: 0,0:31:28.65,0:31:29.86,译文字幕,,0,0,0,,谢谢\N{\r原文字幕}Thanks.
+Dialogue: 0,0:33:01.87,0:33:03.00,译文字幕,,0,0,0,,你觉得他认识绑匪吗\N{\r原文字幕}You think he knew him?
+Dialogue: 0,0:33:03.87,0:33:04.79,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,0:33:04.96,0:33:06.40,译文字幕,,0,0,0,,贾斯汀·威特\N{\r原文字幕}Justin Whitter.
+Dialogue: 0,0:33:07.66,0:33:09.57,译文字幕,,0,0,0,,那孩子其实有可能认识绑匪\N{\r原文字幕}Chances are he knew the kidnapper.
+Dialogue: 0,0:33:10.75,0:33:11.92,译文字幕,,0,0,0,,有可能\N{\r原文字幕}Maybe.
+Dialogue: 0,0:33:14.66,0:33:16.10,译文字幕,,0,0,0,,不  你想想\N{\r原文字幕}No, think about it.
+Dialogue: 0,0:33:17.93,0:33:19.54,译文字幕,,0,0,0,,那孩子在骑车\N{\r原文字幕}Kid's on his bike.
+Dialogue: 0,0:33:20.84,0:33:22.72,译文字幕,,0,0,0,,看见犯人  他们互相认识\N{\r原文字幕}Sees the perp. They know each other.
+Dialogue: 0,0:33:23.76,0:33:25.02,译文字幕,,0,0,0,,所以那孩子停了下来\N{\r原文字幕}So the kids stops.
+Dialogue: 0,0:33:26.33,0:33:28.16,译文字幕,,0,0,0,,他把他带走\N{\r原文字幕}He grabs him,
+Dialogue: 0,0:33:28.33,0:33:30.94,译文字幕,,0,0,0,,扔下一把刀来甩掉我们\N{\r原文字幕}drops one of the knives to throw us off.
+Dialogue: 0,0:33:32.33,0:33:34.60,译文字幕,,0,0,0,,-斯皮茨  -可能吧\N{\r原文字幕}- Spitz? - Maybe.
+Dialogue: 0,0:33:38.12,0:33:39.30,译文字幕,,0,0,0,,或者\N{\r原文字幕}Or...
+Dialogue: 0,0:33:42.00,0:33:43.74,译文字幕,,0,0,0,,是他拦住了那个孩子\N{\r原文字幕}He stops the kid.
+Dialogue: 0,0:34:04.32,0:34:06.28,译文字幕,,0,0,0,,抱歉花了这么长时间  我原本…\N{\r原文字幕}Sorry it took so long, I didn't--
+Dialogue: 0,0:34:35.83,0:34:37.23,译文字幕,,0,0,0,,帮帮我\N{\r原文字幕}Help me.
+Dialogue: 0,0:34:38.57,0:34:40.97,译文字幕,,0,0,0,,天啊  杰姬  告诉我发生了什么\N{\r原文字幕}Jesus Christ, Jackie. Walk me through what happened.
+Dialogue: 0,0:34:41.14,0:34:42.67,译文字幕,,0,0,0,,-整件事  -我们聊了一会\N{\r原文字幕}- Everything. - We were talking.
+Dialogue: 0,0:34:42.84,0:34:44.49,译文字幕,,0,0,0,,就只聊天吗\N{\r原文字幕}Just talking?
+Dialogue: 0,0:34:44.49,0:34:47.80,译文字幕,,0,0,0,,对  我们在门口聊天\N{\r原文字幕}Yes, we were talking by the side of the house.
+Dialogue: 0,0:34:47.98,0:34:49.67,译文字幕,,0,0,0,,我明确拒绝了他\N{\r原文字幕}I explained that we were over,
+Dialogue: 0,0:34:49.85,0:34:52.76,译文字幕,,0,0,0,,然后不知道哪里掉下来这东西\N{\r原文字幕}and out of nowhere it just fell.
+Dialogue: 0,0:34:54.07,0:34:56.38,译文字幕,,0,0,0,,流了些血  不过不至于这样子\N{\r原文字幕}It was bleeding, but it wasn't like that.
+Dialogue: 0,0:34:56.55,0:34:57.90,译文字幕,,0,0,0,,为什么你不叫救护车\N{\r原文字幕}Why didn't you call an ambulance?
+Dialogue: 0,0:34:57.90,0:34:58.81,译文字幕,,0,0,0,,你能叫什么人来处理吗\N{\r原文字幕}Is there anyone you can call?
+Dialogue: 0,0:34:58.85,0:35:01.73,译文字幕,,0,0,0,,-你怎么没叫救护车  -是康纳干的\N{\r原文字幕}- Why didn't you call an ambulance? - It was Connor.
+Dialogue: 0,0:35:03.86,0:35:05.12,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,0:35:05.91,0:35:07.21,译文字幕,,0,0,0,,他在楼上\N{\r原文字幕}He was upstairs.
+Dialogue: 0,0:35:08.60,0:35:10.78,译文字幕,,0,0,0,,他那时很生气\N{\r原文字幕}He's been so angry.
+Dialogue: 0,0:35:10.95,0:35:12.35,译文字幕,,0,0,0,,很生气\N{\r原文字幕}So angry.
+Dialogue: 0,0:35:12.52,0:35:14.26,译文字幕,,0,0,0,,生气到想杀人吗\N{\r原文字幕}So angry he tried to kill someone.
+Dialogue: 0,0:35:14.44,0:35:17.31,译文字幕,,0,0,0,,-也许是个意外呢  -天呐  杰姬\N{\r原文字幕}- Maybe it was an accident? - Jesus Christ, Jackie.
+Dialogue: 0,0:35:17.48,0:35:19.27,译文字幕,,0,0,0,,我不知道发生了什么\N{\r原文字幕}I don't know what's happening--
+Dialogue: 0,0:35:19.44,0:35:21.79,译文字幕,,0,0,0,,不  不  你现在不能崩溃\N{\r原文字幕}No, no! You don't get to lose it right now!
+Dialogue: 0,0:35:22.44,0:35:23.45,译文字幕,,0,0,0,,听我说\N{\r原文字幕}Listen to me.
+Dialogue: 0,0:35:24.58,0:35:26.36,译文字幕,,0,0,0,,你知道如果真是儿子干的\N{\r原文字幕}Do you know...
+Dialogue: 0,0:35:27.14,0:35:28.89,译文字幕,,0,0,0,,他将面临什么吗\N{\r原文字幕}what will happen to our son?
+Dialogue: 0,0:35:32.72,0:35:34.50,译文字幕,,0,0,0,,我保不了他\N{\r原文字幕}I won't be able to protect him.
+Dialogue: 0,0:35:49.73,0:35:51.52,译文字幕,,0,0,0,,去把那些脏衣服换掉\N{\r原文字幕}Go change out of those clothes.
+Dialogue: 0,0:37:29.01,0:37:30.22,译文字幕,,0,0,0,,好\N{\r原文字幕}Okay.
+Dialogue: 0,0:38:48.04,0:38:49.52,译文字幕,,0,0,0,,对不起\N{\r原文字幕}I'm sorry.
+Dialogue: 0,0:38:51.26,0:38:53.79,译文字幕,,0,0,0,,对不起  对不起\N{\r原文字幕}I'm sorry. I'm sorry.
+Dialogue: 0,0:38:53.86,0:38:56.49,译文字幕,,0,0,0,,对不起  对不起\N{\r原文字幕}I'm sorry. Sorry.
+Dialogue: 0,0:38:56.66,0:38:57.79,译文字幕,,0,0,0,,对不起\N{\r原文字幕}I'm sorry.
+Dialogue: 0,0:38:57.96,0:39:01.23,译文字幕,,0,0,0,,对不起  对不起  对不起\N{\r原文字幕}I'm sorry, I'm sorry, I'm sorry.
+Dialogue: 0,0:39:01.37,0:39:02.70,译文字幕,,0,0,0,,对不起\N{\r原文字幕}I'm sorry.
+Dialogue: 0,0:39:22.18,0:39:25.31,译文字幕,tag,0,0,0,,{\fs12\pos(160,120)\fr-9}你知道什么是蛙居吗
+Dialogue: 0,0:39:25.31,0:39:27.40,译文字幕,tag,0,0,0,,{\fs12\pos(160,110)\fr-9}你知道什么是蛙居吗
+Dialogue: 0,0:39:25.31,0:39:27.40,译文字幕,tag,0,0,0,,{\fs12\pos(240,155)\fr-9}你是谁
+Dialogue: 0,0:39:27.40,0:39:28.94,译文字幕,tag,0,0,0,,{\fs12\pos(170,90)\fr-9}你知道什么是蛙居吗
+Dialogue: 0,0:39:34.94,0:39:36.57,译文字幕,tag,0,0,0,,{\fs14\fr-9\pos(150,100)}蛙居
+Dialogue: 0,0:39:27.40,0:39:28.94,译文字幕,tag,0,0,0,,{\fs12\pos(240,140)\fr-9}你是谁
+Dialogue: 0,0:39:27.40,0:39:28.94,译文字幕,tag,0,0,0,,{\fs14\pos(170,150)\fr-9}你知道什么是蛙居吗
+Dialogue: 0,0:40:12.02,0:40:13.69,译文字幕,tag,0,0,0,,{\fs12\pos(148,50)\fr-12}你知道什么是蛙居吗
+Dialogue: 0,0:40:12.02,0:40:13.69,译文字幕,tag,0,0,0,,{\fs12\pos(260,130)\fr-12}这是谁
+Dialogue: 0,0:40:12.02,0:40:13.69,译文字幕,tag,0,0,0,,{\fs14\pos(150,135)\fr-13}你知道什么是蛙居吗
+Dialogue: 0,0:40:12.02,0:40:13.69,译文字幕,tag,0,0,0,,{\fs14\pos(250,225)\fr-14}告诉我你是谁
+Dialogue: 0,0:41:03.95,0:41:04.96,译文字幕,,0,0,0,,杰姬\N{\r原文字幕}Jackie!
+Dialogue: 0,0:41:27.81,0:41:29.86,译文字幕,,0,0,0,,直接开车去医院  碰到什么都不要停下\N{\r原文字幕}Drive straight to the hospital. Don't stop for anything.
+Dialogue: 0,0:41:30.03,0:41:31.52,译文字幕,,0,0,0,,我上路再给你打电话\N{\r原文字幕}I'll call you when I'm on my way.
+Dialogue: 0,0:41:31.52,0:41:32.31,译文字幕,,0,0,0,,杰姬  我一定会找到他的\N{\r原文字幕}I'll find him, Jackie!
+Dialogue: 0,0:41:32.31,0:41:34.23,译文字幕,,0,0,0,,我一定会找到这个该死的混蛋的\N{\r原文字幕}I'm gonna find the son of a bitch who did this.
+Dialogue: 0,0:41:34.23,0:41:35.38,译文字幕,,0,0,0,,开车\N{\r原文字幕}Drive.
+Dialogue: 0,0:41:46.96,0:41:49.40,译文字幕,,0,0,0,,斯皮茨  911分局刚接到一个电话\N{\r原文字幕}Spitz. 911 dispatch just got a call from someone
+Dialogue: 0,0:41:49.57,0:41:51.46,译文字幕,,0,0,0,,来电者声称看到了绑匪\N{\r原文字幕}claiming to have seen our kidnapper.
+Dialogue: 0,0:41:51.70,0:41:52.79,译文字幕,,0,0,0,,不是吧  在哪儿\N{\r原文字幕}No shit. Where?
+Dialogue: 0,0:41:52.97,0:41:54.62,译文字幕,,0,0,0,,他们正在追踪定位信号\N{\r原文字幕}They're tracking GPS signal now.
+Dialogue: 0,0:41:54.79,0:41:56.45,译文字幕,,0,0,0,,哈珀还没接电话\N{\r原文字幕}And Harper's not answering his cell.
+Dialogue: 0,0:41:56.62,0:41:57.97,译文字幕,,0,0,0,,我直接去接他\N{\r原文字幕}I can pick him up.
+Dialogue: 0,0:44:39.39,0:44:41.18,译文字幕,,0,0,0,,你拍下来了吗\N{\r原文字幕}Did you get that on camera?
+Dialogue: 0,0:44:41.35,0:44:44.14,译文字幕,,0,0,0,,-拍了  -我以为没拍上呢  我离得太近了\N{\r原文字幕}- Yeah. - I thought that wasn't gonna happen. I was so close.
+Dialogue: 0,0:44:44.31,0:44:45.22,译文字幕,,0,0,0,,棒呆\N{\r原文字幕}Hell yeah!
+Dialogue: 0,0:44:45.40,0:44:47.66,译文字幕,,0,0,0,,天哪\N{\r原文字幕}Holy shit.
+Dialogue: 0,0:44:47.84,0:44:49.14,译文字幕,,0,0,0,,你看这视野\N{\r原文字幕}You see this view?
+Dialogue: 0,0:44:49.88,0:44:51.80,译文字幕,,0,0,0,,天哪\N{\r原文字幕}What?
+Dialogue: 0,0:44:53.06,0:44:55.02,译文字幕,,0,0,0,,我从没见过这么美的房子\N{\r原文字幕}I don't think I've ever seen a view this nice before.
+Dialogue: 0,0:44:55.19,0:44:57.45,译文字幕,,0,0,0,,这简直就是人间仙境\N{\r原文字幕}Nobody deserves this.
+Dialogue: 0,0:44:59.63,0:45:02.50,译文字幕,,0,0,0,,那是冰箱吗  这么高级\N{\r原文字幕}That's a fridge? What the hell?
+Dialogue: 0,0:45:04.98,0:45:06.72,译文字幕,,0,0,0,,别弄坏任何东西\N{\r原文字幕}Hey, don't break anything.
+Dialogue: 0,0:45:06.90,0:45:08.60,译文字幕,,0,0,0,,我没想碰坏东西\N{\r原文字幕}I wasn't planning on it.
+Dialogue: 0,0:45:10.38,0:45:11.86,译文字幕,,0,0,0,,我的天\N{\r原文字幕}My God!
+Dialogue: 0,0:45:12.03,0:45:13.21,译文字幕,,0,0,0,,他们竟然有  星战\N{\r原文字幕}They have "Battlestar"?
+Dialogue: 0,0:45:13.86,0:45:15.65,译文字幕,,0,0,0,,还有那么多酒\N{\r原文字幕}Look at all that wine.
+Dialogue: 0,0:45:15.82,0:45:17.30,译文字幕,,0,0,0,,这家一定都是酒鬼\N{\r原文字幕}Bet they're alcoholics.
+Dialogue: 0,0:45:18.08,0:45:19.52,译文字幕,,0,0,0,,天哪\N{\r原文字幕}Jesus.
+Dialogue: 0,0:45:20.56,0:45:22.39,译文字幕,,0,0,0,,他们照了这么多相片\N{\r原文字幕}They take so many pictures.
+Dialogue: 0,0:45:24.83,0:45:26.27,译文字幕,,0,0,0,,真是变态老妈\N{\r原文字幕}Creepy mom.
+Dialogue: 0,0:45:28.35,0:45:30.83,译文字幕,,0,0,0,,房子一直延伸\N{\r原文字幕}It just keeps going and going.
+Dialogue: 0,0:45:31.62,0:45:33.45,译文字幕,,0,0,0,,甚至还有配楼\N{\r原文字幕}It has, like, actual wings.
+Dialogue: 0,0:45:39.02,0:45:40.89,译文字幕,,0,0,0,,他们把你关起来了\N{\r原文字幕}They got you locked up.
+Dialogue: 0,0:45:47.16,0:45:48.37,译文字幕,,0,0,0,,亚历克\N{\r原文字幕}Alec!
+Dialogue: 0,0:45:48.55,0:45:50.29,译文字幕,,0,0,0,,快来看  我们有房间了\N{\r原文字幕}Hey, check it out. I found our room!
+Dialogue: 0,0:45:57.51,0:45:59.25,译文字幕,,0,0,0,,是客房哦  亲\N{\r原文字幕}Guest room, baby.
+Dialogue: 0,0:46:02.39,0:46:04.09,译文字幕,,0,0,0,,这才叫生活\N{\r原文字幕}This is the life.
+Dialogue: 0,0:46:05.74,0:46:07.18,译文字幕,,0,0,0,,这什么\N{\r原文字幕}What the...
+Dialogue: 0,0:46:07.35,0:46:10.05,译文字幕,,0,0,0,,床单上落满了灰尘\N{\r原文字幕}These sheets are covered in, like, a layer of dust.
+Dialogue: 0,0:46:10.61,0:46:13.23,译文字幕,,0,0,0,,他妈的像场沙尘暴一样  老天\N{\r原文字幕}It's a fucking sandstorm, Jesus.
+Dialogue: 0,0:46:13.40,0:46:15.10,译文字幕,,0,0,0,,这家人难道没有朋友吗\N{\r原文字幕}Do these people not have friends?
+Dialogue: 0,0:46:15.27,0:46:18.27,译文字幕,,0,0,0,,你不是说我们得睡在看不见的地方吗\N{\r原文字幕}Didn't you say we had to sleep somewhere out of sight?
+Dialogue: 0,0:46:18.45,0:46:20.10,译文字幕,,0,0,0,,我说过\N{\r原文字幕}I did.
+Dialogue: 0,0:46:20.28,0:46:22.36,译文字幕,,0,0,0,,跟我去咱们的卧室吧\N{\r原文字幕}Let me take you to our sleeping quarters.
+Dialogue: 0,0:46:23.71,0:46:25.11,译文字幕,,0,0,0,,到了晚上\N{\r原文字幕}And at night...
+Dialogue: 0,0:46:26.11,0:46:29.20,译文字幕,,0,0,0,,我们就睡在这里\N{\r原文字幕}we are going to sleep in here.
+Dialogue: 0,0:46:34.81,0:46:36.42,译文字幕,,0,0,0,,看\N{\r原文字幕}Ta-da.
+Dialogue: 0,0:46:36.60,0:46:38.77,译文字幕,,0,0,0,,你开玩笑吧\N{\r原文字幕}You gotta be fucking kidding me.
+Dialogue: 0,0:46:38.95,0:46:40.34,译文字幕,,0,0,0,,并没有\N{\r原文字幕}I'm not.
+Dialogue: 0,0:46:44.69,0:46:46.13,译文字幕,,0,0,0,,好吧\N{\r原文字幕}Okay.
+Dialogue: 0,0:46:50.78,0:46:52.70,译文字幕,,0,0,0,,所以说\N{\r原文字幕}So,
+Dialogue: 0,0:46:52.87,0:46:54.93,译文字幕,,0,0,0,,我现在应该讲讲\N{\r原文字幕}I should probably tell you a little bit about
+Dialogue: 0,0:46:54.93,0:46:57.05,译文字幕,,0,0,0,,我们到底在做什么\N{\r原文字幕}what we're doing.
+Dialogue: 0,0:46:57.23,0:47:01.27,译文字幕,,0,0,0,,这算是一部纪录片了  没错\N{\r原文字幕}So this is a documentary. Yeah.
+Dialogue: 0,0:47:01.45,0:47:03.64,译文字幕,,0,0,0,,我们将为你展现\N{\r原文字幕}It's to give you all a look
+Dialogue: 0,0:47:03.64,0:47:05.84,译文字幕,,0,0,0,,一名职业的蛙居党\N{\r原文字幕}at how a professional phrog
+Dialogue: 0,0:47:05.84,0:47:07.71,译文字幕,,0,0,0,,是如何进行蛙居的\N{\r原文字幕}goes about phrogging.
+Dialogue: 0,0:47:07.89,0:47:09.54,译文字幕,,0,0,0,,我们之所以被称为蛙居党\N{\r原文字幕}They call us phrogs with a "P-H"
+Dialogue: 0,0:47:09.72,0:47:12.68,译文字幕,,0,0,0,,因为我们从一家跳到另一家\N{\r原文字幕}because we hop from pad to pad
+Dialogue: 0,0:47:12.85,0:47:15.59,译文字幕,,0,0,0,,而房主却不知道我们的存在\N{\r原文字幕}undetected by the people who actually live in the house.
+Dialogue: 0,0:47:15.77,0:47:17.62,译文字幕,,0,0,0,,通常我在每一户停留不会超过\N{\r原文字幕}Usually I try to stay in a place for no longer than,
+Dialogue: 0,0:47:17.62,0:47:19.12,译文字幕,,0,0,0,,四五天\N{\r原文字幕}like, four or five days
+Dialogue: 0,0:47:19.29,0:47:20.95,译文字幕,,0,0,0,,这样不容易被户主发现\N{\r原文字幕}'cause it makes it harder to be discovered.
+Dialogue: 0,0:47:20.95,0:47:22.54,译文字幕,,0,0,0,,多数情况下  我尽可能不干扰\N{\r原文字幕}For the most part, I really try to disrupt
+Dialogue: 0,0:47:22.54,0:47:23.82,译文字幕,,0,0,0,,他们的生活\N{\r原文字幕}their lives as little as possible.
+Dialogue: 0,0:47:23.99,0:47:26.82,译文字幕,,0,0,0,,屋内最好有间客房\N{\r原文字幕}And it's a good thing that these people have a guest room.
+Dialogue: 0,0:47:26.99,0:47:28.54,译文字幕,,0,0,0,,我们要找的\N{\r原文字幕}That's what you wanna look for.
+Dialogue: 0,0:47:28.54,0:47:31.67,译文字幕,,0,0,0,,就是一间户主很少使用的房间\N{\r原文字幕}A room that is rarely used by the family
+Dialogue: 0,0:47:31.67,0:47:32.96,译文字幕,,0,0,0,,这可以做我们的根据地\N{\r原文字幕}that you can make headquarters.
+Dialogue: 0,0:47:33.13,0:47:34.52,译文字幕,,0,0,0,,正如你所见\N{\r原文字幕}As you can see,
+Dialogue: 0,0:47:34.70,0:47:36.61,译文字幕,,0,0,0,,我正在吃他们的食物\N{\r原文字幕}I'm eating some of their food.
+Dialogue: 0,0:47:36.79,0:47:38.79,译文字幕,,0,0,0,,这是可以的  因为\N{\r原文字幕}This is allowed because, you know,
+Dialogue: 0,0:47:40.26,0:47:41.75,译文字幕,,0,0,0,,女生天生就是吃货\N{\r原文字幕}a girl's gotta eat.
+Dialogue: 0,0:47:41.92,0:47:44.19,译文字幕,,0,0,0,,只要别吃掉太多就好\N{\r原文字幕}We just try not to take too much of one thing.
+Dialogue: 0,0:47:46.06,0:47:48.06,译文字幕,,0,0,0,,亚历克  你个混蛋\N{\r原文字幕}You asshole! Alec!
+Dialogue: 0,0:47:49.50,0:47:54.98,译文字幕,,0,0,0,,这个讨厌鬼是我的摄影师  亚历克\N{\r原文字幕}This disturbing creature is my cameraman, Alec.
+Dialogue: 0,0:47:55.15,0:47:57.02,译文字幕,,0,0,0,,真不明白你为啥要戴这么诡异的东西\N{\r原文字幕}I can't believe you brought this creepy thing with you.
+Dialogue: 0,0:47:57.20,0:47:58.55,译文字幕,,0,0,0,,怎么了  这很应景  我们是蛙居党呀\N{\r原文字幕}What? It's fitting. We're phrogs.
+Dialogue: 0,0:47:58.72,0:48:00.29,译文字幕,,0,0,0,,-这是个青蛙面具  -你个变态\N{\r原文字幕}- It's a frog. - You're such a freak.
+Dialogue: 0,0:48:00.46,0:48:03.81,译文字幕,,0,0,0,,他从没经历过蛙居  所以我在给他讲规矩\N{\r原文字幕}He has never done this before, so I'm showing him the ropes
+Dialogue: 0,0:48:03.99,0:48:06.90,译文字幕,,0,0,0,,而他则负责用他的小可爱相机记录下来\N{\r原文字幕}while he documents with his nifty camera.
+Dialogue: 0,0:48:07.08,0:48:08.30,译文字幕,,0,0,0,,我还让他挑选了这所房子\N{\r原文字幕}I also let him pick out this house.
+Dialogue: 0,0:48:08.47,0:48:10.26,译文字幕,,0,0,0,,我当然知道怎么挑选\N{\r原文字幕}And I sure know how to pick 'em, huh?
+Dialogue: 0,0:48:10.43,0:48:11.91,译文字幕,,0,0,0,,目前  一切正常\N{\r原文字幕}So far, so good.
+Dialogue: 0,0:48:12.08,0:48:13.61,译文字幕,,0,0,0,,现在是一天中最美好的时光\N{\r原文字幕}This is the best part of the day.
+Dialogue: 0,0:48:13.78,0:48:15.52,译文字幕,,0,0,0,,我们可以大声说话  房子现在全归我们\N{\r原文字幕}We get to be loud, and we have the house to ourselves
+Dialogue: 0,0:48:15.70,0:48:17.13,译文字幕,,0,0,0,,我们可以自由活动\N{\r原文字幕}and we can move about freely.
+Dialogue: 0,0:48:17.31,0:48:18.61,译文字幕,,0,0,0,,但当他们回家时\N{\r原文字幕}But when they come home,
+Dialogue: 0,0:48:18.79,0:48:21.00,译文字幕,,0,0,0,,我们只能躲进藏身之处\N{\r原文字幕}we have to stick to our hiding places
+Dialogue: 0,0:48:21.18,0:48:22.18,译文字幕,,0,0,0,,并保持安静\N{\r原文字幕}and stay quiet.
+Dialogue: 0,0:48:22.35,0:48:24.57,译文字幕,,0,0,0,,那时的感觉真心很烂\N{\r原文字幕}And that part's gonna suck.
+Dialogue: 0,0:48:24.75,0:48:25.79,译文字幕,,0,0,0,,没错\N{\r原文字幕}Yep.
+Dialogue: 0,0:48:32.28,0:48:33.41,译文字幕,,0,0,0,,那么\N{\r原文字幕}So...
+Dialogue: 0,0:48:34.80,0:48:38.72,译文字幕,,0,0,0,,现在是凌晨2点10分\N{\r原文字幕}It is ten minutes after 2:00 a.m.
+Dialogue: 0,0:48:39.94,0:48:41.50,译文字幕,,0,0,0,,亚历克和我刚睡着了\N{\r原文字幕}Alec and I fell asleep,
+Dialogue: 0,0:48:41.68,0:48:45.68,译文字幕,,0,0,0,,户主一定是在我们睡着时回家了\N{\r原文字幕}and the family must've come home while we were passed out.
+Dialogue: 0,0:48:48.21,0:48:49.86,译文字幕,,0,0,0,,你醒着吗  亚历克\N{\r原文字幕}Alec, are you awake?
+Dialogue: 0,0:48:51.69,0:48:54.43,译文字幕,,0,0,0,,亚历克  亚历克\N{\r原文字幕}Alec? Alec?
+Dialogue: 0,0:49:03.87,0:49:05.22,译文字幕,,0,0,0,,亚历克\N{\r原文字幕}Alec?
+Dialogue: 0,0:49:06.18,0:49:07.88,译文字幕,,0,0,0,,你在搞什么\N{\r原文字幕}What the hell are you doing?
+Dialogue: 0,0:49:09.14,0:49:10.66,译文字幕,,0,0,0,,我好无聊\N{\r原文字幕}I was bored.
+Dialogue: 0,0:49:12.58,0:49:14.80,译文字幕,,0,0,0,,你不能想什么时候出去就什么时候出去\N{\r原文字幕}You can't just go outside whenever you want.
+Dialogue: 0,0:49:16.71,0:49:18.19,译文字幕,,0,0,0,,他刚到家\N{\r原文字幕}He just got home.
+Dialogue: 0,0:49:18.37,0:49:19.67,译文字幕,,0,0,0,,谁\N{\r原文字幕}Who?
+Dialogue: 0,0:49:21.06,0:49:22.50,译文字幕,,0,0,0,,这家的丈夫\N{\r原文字幕}The husband.
+Dialogue: 0,0:49:23.24,0:49:24.46,译文字幕,,0,0,0,,他看见你了吗\N{\r原文字幕}Did he see you?
+Dialogue: 0,0:49:25.85,0:49:27.77,译文字幕,,0,0,0,,看到了  他挥了挥手\N{\r原文字幕}Yeah, I mean, he saw me. He waved.
+Dialogue: 0,0:49:27.94,0:49:30.12,译文字幕,,0,0,0,,好吧好吧  快点回来啦\N{\r原文字幕}Okay, very funny. Come on. Get back inside.
+Dialogue: 0,0:49:47.44,0:49:49.27,译文字幕,,0,0,0,,做个好梦\N{\r原文字幕}Sweet dreams.
+Dialogue: 0,0:49:54.27,0:49:56.14,译文字幕,,0,0,0,,好戏才刚刚开始\N{\r原文字幕}And here we go.
+Dialogue: 0,0:51:27.67,0:51:29.11,译文字幕,,0,0,0,,我们要迟到了\N{\r原文字幕}We're gonna be late.
+Dialogue: 0,0:51:46.21,0:51:48.17,译文字幕,,0,0,0,,你疯了吗\N{\r原文字幕}Hey, are you insane?
+Dialogue: 0,0:51:48.34,0:51:50.17,译文字幕,,0,0,0,,你难道想触发烟雾报警器吗\N{\r原文字幕}You trying to set off a smoke alarm?
+Dialogue: 0,0:51:50.34,0:51:52.87,译文字幕,,0,0,0,,-对啊  -离窗户远点\N{\r原文字幕}- Yes. - Stay away from the window.
+Dialogue: 0,0:51:53.04,0:51:54.81,译文字幕,,0,0,0,,天  谁能想到\N{\r原文字幕}God, who knew this phrogging thing
+Dialogue: 0,0:51:54.81,0:51:56.10,译文字幕,,0,0,0,,蛙居这么没劲\N{\r原文字幕}would give you such a stick up your ass?
+Dialogue: 0,0:51:56.10,0:51:58.05,译文字幕,,0,0,0,,嘘  轻声点\N{\r原文字幕}Shh! Hushed voices.
+Dialogue: 0,0:51:58.22,0:51:59.61,译文字幕,,0,0,0,,抱歉\N{\r原文字幕}Sorry.
+Dialogue: 0,0:52:04.97,0:52:07.27,译文字幕,,0,0,0,,老兄  你不知道这有多危险吗\N{\r原文字幕}Dude, I don't think you understand how dangerous this is.
+Dialogue: 0,0:52:07.45,0:52:08.38,译文字幕,,0,0,0,,我们会坐牢的\N{\r原文字幕}We could go to jail.
+Dialogue: 0,0:52:09.07,0:52:10.74,译文字幕,,0,0,0,,光是私闯民宅就够我们受的了\N{\r原文字幕}We're breaking so many laws just by being here.
+Dialogue: 0,0:52:10.74,0:52:12.32,译文字幕,,0,0,0,,我明白\N{\r原文字幕}I do understand.
+Dialogue: 0,0:52:13.59,0:52:15.50,译文字幕,,0,0,0,,但在被抓的边缘左右横跳不是最有趣的吗\N{\r原文字幕}But isn't that part of the fun, almost getting caught?
+Dialogue: 0,0:52:15.67,0:52:18.20,译文字幕,,0,0,0,,不  逃离被抓的边缘才是最有趣的\N{\r原文字幕}No, the fun is to not come close to getting caught.
+Dialogue: 0,0:52:30.04,0:52:31.12,译文字幕,,0,0,0,,想玩个文字游戏吗\N{\r原文字幕}Wanna play the word game?
+Dialogue: 0,0:52:34.52,0:52:36.35,译文字幕,,0,0,0,,好端端玩什么文字游戏\N{\r原文字幕}What is it with you and that word game?
+Dialogue: 0,0:52:36.52,0:52:38.09,译文字幕,,0,0,0,,找点事做而已\N{\r原文字幕}Something to fucking do.
+Dialogue: 0,0:52:38.26,0:52:40.65,译文字幕,,0,0,0,,好吧  是你一直缠着我要我跟来\N{\r原文字幕}Okay, you're the one who's been hounding me to come along.
+Dialogue: 0,0:52:41.13,0:52:42.83,译文字幕,,0,0,0,,我一个人本来挺开心的\N{\r原文字幕}I was perfectly happy doing this alone.
+Dialogue: 0,0:52:45.05,0:52:46.40,译文字幕,,0,0,0,,我知道\N{\r原文字幕}I know.
+Dialogue: 0,0:52:47.24,0:52:48.57,译文字幕,,0,0,0,,我很荣幸\N{\r原文字幕}I'm glad to.
+Dialogue: 0,0:52:49.23,0:52:51.80,译文字幕,,0,0,0,,我只是想更\N{\r原文字幕}I just thought it would be a little more...
+Dialogue: 0,0:52:53.15,0:52:54.10,译文字幕,,0,0,0,,有趣点\N{\r原文字幕}less shit.
+Dialogue: 0,0:52:58.41,0:53:00.85,译文字幕,,0,0,0,,这比地铁和\N{\r原文字幕}It's better than...
+Dialogue: 0,0:53:01.02,0:53:02.98,译文字幕,,0,0,0,,公园长椅好多了\N{\r原文字幕}...subways and park benches.
+Dialogue: 0,0:53:07.94,0:53:08.94,译文字幕,,0,0,0,,差不多\N{\r原文字幕}Just about.
+Dialogue: 0,0:53:19.48,0:53:20.78,译文字幕,,0,0,0,,好吧\N{\r原文字幕}Okay.
+Dialogue: 0,0:53:22.70,0:53:24.92,译文字幕,,0,0,0,,我想好一个\N{\r原文字幕}I'm thinking of a...
+Dialogue: 0,0:53:25.96,0:53:27.92,译文字幕,,0,0,0,,7个字母的词\N{\r原文字幕}seven-letter word.
+Dialogue: 0,0:53:28.09,0:53:29.49,译文字幕,,0,0,0,,B开头\N{\r原文字幕}It starts with a "B".
+Dialogue: 0,0:54:18.01,0:54:19.75,译文字幕,,0,0,0,,天哪  康纳\N{\r原文字幕}Jesus Christ, Connor.
+Dialogue: 0,0:54:19.93,0:54:21.32,译文字幕,,0,0,0,,王八蛋\N{\r原文字幕}Bastard.
+Dialogue: 0,0:54:21.50,0:54:23.19,译文字幕,,0,0,0,,你说什么\N{\r原文字幕}What?
+Dialogue: 0,0:54:23.37,0:54:25.54,译文字幕,,0,0,0,,你说的B开头7字词\N{\r原文字幕}Seven-letter word, starts with "B."
+Dialogue: 0,0:54:55.96,0:54:57.62,译文字幕,,0,0,0,,任务完成\N{\r原文字幕}Mission accomplished.
+Dialogue: 0,0:55:00.62,0:55:02.54,译文字幕,,0,0,0,,这里有多地方可以让我们藏东西\N{\r原文字幕}There's so many places to hide shit down there.
+Dialogue: 0,0:55:04.54,0:55:06.50,译文字幕,,0,0,0,,如果我们要跑  那是最佳路线\N{\r原文字幕}If we need a quick escape, that's our route.
+Dialogue: 0,0:55:10.02,0:55:11.05,译文字幕,,0,0,0,,来看看\N{\r原文字幕}Check it out.
+Dialogue: 0,0:55:13.51,0:55:14.42,译文字幕,,0,0,0,,你怎么做到的\N{\r原文字幕}How'd you do that?
+Dialogue: 0,0:55:14.59,0:55:16.07,译文字幕,,0,0,0,,我下载了个软件\N{\r原文字幕}Downloaded an app.
+Dialogue: 0,0:55:16.25,0:55:18.81,译文字幕,,0,0,0,,他家无线密码就写在任务表旁边\N{\r原文字幕}They keep their Wi-Fi password next to the chore chart.
+Dialogue: 0,0:55:20.77,0:55:22.64,译文字幕,,0,0,0,,你真是个鬼才\N{\r原文字幕}You are such a freak.
+Dialogue: 0,0:55:27.39,0:55:29.52,译文字幕,,0,0,0,,给他们捣捣乱不是会很有趣吗\N{\r原文字幕}Wouldn't it be kinda funny to mess with them?
+Dialogue: 0,0:55:30.91,0:55:33.65,译文字幕,,0,0,0,,随便拿点什么  让他们疑神疑鬼\N{\r原文字幕}Take some random shit, make them think they're going crazy?
+Dialogue: 0,0:55:33.83,0:55:35.00,译文字幕,,0,0,0,,不要\N{\r原文字幕}No.
+Dialogue: 0,0:55:36.18,0:55:37.31,译文字幕,,0,0,0,,这样不好\N{\r原文字幕}It wouldn't.
+Dialogue: 0,0:55:37.48,0:55:40.27,译文字幕,,0,0,0,,别再乱碰东西了  好吗\N{\r原文字幕}Stop touching stuff, okay?
+Dialogue: 0,0:55:42.92,0:55:45.67,译文字幕,,0,0,0,,你能想象这些人有多有钱吗\N{\r原文字幕}Can you believe how loaded these people are?
+Dialogue: 0,0:55:45.84,0:55:49.58,译文字幕,,0,0,0,,他们这么有钱  这就是他们要买的东西吗\N{\r原文字幕}They have so much money, and this is the shit they decide to buy?
+Dialogue: 0,0:55:49.76,0:55:51.63,译文字幕,,0,0,0,,我猜这家的妻子是个医生\N{\r原文字幕}The wife's some sort of doctor, I think.
+Dialogue: 0,0:55:51.80,0:55:53.20,译文字幕,,0,0,0,,她的信箱上写着\N{\r原文字幕}It was on her mail.
+Dialogue: 0,0:55:53.37,0:55:55.05,译文字幕,,0,0,0,,娇妻大夫\N{\r原文字幕}Dr. "Stepford Wife."
+Dialogue: 0,0:55:55.72,0:55:57.07,译文字幕,,0,0,0,,靠\N{\r原文字幕}Shit.
+Dialogue: 0,0:55:58.68,0:56:00.59,译文字幕,,0,0,0,,有人吗\N{\r原文字幕}Hello?
+Dialogue: 0,0:56:00.77,0:56:03.25,译文字幕,,0,0,0,,-有人打电话报修窗户吗  -稍等\N{\r原文字幕}- Someone call about a broken window? - Just a second!
+Dialogue: 0,0:56:03.42,0:56:06.08,译文字幕,,0,0,0,,让他进来  他不知道你不住这儿\N{\r原文字幕}Just let him in. He doesn't know you don't live here.
+Dialogue: 0,0:56:16.22,0:56:18.66,译文字幕,,0,0,0,,你好  我接到电话  说窗户坏了\N{\r原文字幕}Hi. I got a call about a broken window.
+Dialogue: 0,0:56:18.83,0:56:20.83,译文字幕,,0,0,0,,是的  我爸爸打的\N{\r原文字幕}Yeah, that was my dad.
+Dialogue: 0,0:56:21.01,0:56:22.18,译文字幕,,0,0,0,,就在这边\N{\r原文字幕}It's right this way.
+Dialogue: 0,0:57:12.36,0:57:14.41,译文字幕,,0,0,0,,亚历克  快来\N{\r原文字幕}Alec! Come on!
+Dialogue: 0,0:57:14.58,0:57:15.76,译文字幕,,0,0,0,,立刻\N{\r原文字幕}Now!
+Dialogue: 0,0:57:19.54,0:57:21.81,译文字幕,,0,0,0,,我只是个修窗户的  我不会伤害你的\N{\r原文字幕}I'm just a window repairman. I'm not gonna hurt you.
+Dialogue: 0,0:57:21.98,0:57:23.21,译文字幕,,0,0,0,,-你在这儿干什么  -你丈夫打电话\N{\r原文字幕}- What're you doing here? -Your husband
+Dialogue: 0,0:57:23.21,0:57:24.24,译文字幕,,0,0,0,,说窗户坏了\N{\r原文字幕}called about a broken window.
+Dialogue: 0,0:57:24.42,0:57:25.90,译文字幕,,0,0,0,,我刚给你换了个新的\N{\r原文字幕}Just finished putting in a new one.
+Dialogue: 0,0:57:26.94,0:57:28.64,译文字幕,,0,0,0,,不要再下楼了\N{\r原文字幕}No more going downstairs.
+Dialogue: 0,0:57:39.43,0:57:41.61,译文字幕,,0,0,0,,第五十九关\N{\r原文字幕}Ha-ha. Level 59.
+Dialogue: 0,0:57:41.78,0:57:43.18,译文字幕,,0,0,0,,去死吧  混蛋\N{\r原文字幕}Suck it, asshole.
+Dialogue: 0,0:57:43.35,0:57:44.96,译文字幕,,0,0,0,,这世道太乱了\N{\r原文字幕}This is so messed up.
+Dialogue: 0,0:57:46.61,0:57:48.57,译文字幕,,0,0,0,,又一个孩子失踪了\N{\r原文字幕}Another kid got swiped.
+Dialogue: 0,0:57:49.62,0:57:51.66,译文字幕,,0,0,0,,就在这  镇上\N{\r原文字幕}Here, in this town.
+Dialogue: 0,0:57:51.84,0:57:55.27,译文字幕,,0,0,0,,贾斯汀·威特  十岁\N{\r原文字幕}Justin Whitter. Ten years old.
+Dialogue: 0,0:57:56.58,0:57:57.93,译文字幕,,0,0,0,,噢对  贾斯汀\N{\r原文字幕}Oh, yeah, Justin.
+Dialogue: 0,0:57:59.19,0:58:00.71,译文字幕,,0,0,0,,你认识他吗\N{\r原文字幕}You know him?
+Dialogue: 0,0:58:00.89,0:58:02.63,译文字幕,,0,0,0,,不认识  明迪  我十岁时就不怎么跟\N{\r原文字幕}No, Mindy, I kinda stopped hanging out with ten-year-olds
+Dialogue: 0,0:58:02.80,0:58:03.98,译文字幕,,0,0,0,,那些十岁的小孩玩了\N{\r原文字幕}when I was, like, ten.
+Dialogue: 0,0:58:03.98,0:58:06.29,译文字幕,,0,0,0,,好了  你他妈激动什么\N{\r原文字幕}Okay, yeah. Fucking hysterical.
+Dialogue: 0,0:58:07.16,0:58:08.94,译文字幕,,0,0,0,,哥们  这真让人伤心\N{\r原文字幕}Dude, this is sad.
+Dialogue: 0,0:58:09.11,0:58:11.55,译文字幕,,0,0,0,,"失踪前穿着绿色足球衫\N{\r原文字幕}"Last seen wearing a green soccer jersey.
+Dialogue: 0,0:58:11.73,0:58:14.29,译文字幕,,0,0,0,,在诗人公园失踪"\N{\r原文字幕}Went missing in Troubadour Park."
+Dialogue: 0,0:58:15.25,0:58:16.77,译文字幕,,0,0,0,,他挺惨的\N{\r原文字幕}Sucks for him.
+Dialogue: 0,0:58:17.95,0:58:19.52,译文字幕,,0,0,0,,是的  是很惨\N{\r原文字幕}Yeah, it does.
+Dialogue: 0,0:58:21.69,0:58:23.00,译文字幕,,0,0,0,,你的水瓶\N{\r原文字幕}Here's your bottle.
+Dialogue: 0,0:58:24.52,0:58:25.74,译文字幕,,0,0,0,,好\N{\r原文字幕}Okay.
+Dialogue: 0,0:58:25.91,0:58:27.22,译文字幕,,0,0,0,,谢谢\N{\r原文字幕}Thanks.
+Dialogue: 0,0:58:27.83,0:58:29.66,译文字幕,,0,0,0,,你得多喝点水\N{\r原文字幕}Gotta stay hydrated.
+Dialogue: 0,0:58:29.83,0:58:31.27,译文字幕,,0,0,0,,谢了  老父亲\N{\r原文字幕}Thanks, Dad.
+Dialogue: 0,0:58:45.89,0:58:47.85,译文字幕,,0,0,0,,诗人公园案件  谢里尔\N{\r原文字幕}...the scene in Troubadour Park. Cheryl?
+Dialogue: 0,0:58:48.02,0:58:51.50,译文字幕,,0,0,0,,威特是过去一个月来失踪的第二个孩子\N{\r原文字幕}Whitter is the second boy reported missing in the last month.
+Dialogue: 0,0:58:52.72,0:58:54.72,译文字幕,,0,0,0,,他是个好孩子\N{\r原文字幕}He's just a really great kid.
+Dialogue: 0,0:59:25.93,0:59:27.15,译文字幕,,0,0,0,,过来\N{\r原文字幕}Come on.
+Dialogue: 0,0:59:28.32,0:59:29.59,译文字幕,,0,0,0,,这是你的房间  不过\N{\r原文字幕}Yeah, this is your room, but,
+Dialogue: 0,0:59:29.76,0:59:31.85,译文字幕,,0,0,0,,不  别进去\N{\r原文字幕}no, not in there.
+Dialogue: 0,0:59:34.85,0:59:36.07,译文字幕,,0,0,0,,过来\N{\r原文字幕}Hey, come on.
+Dialogue: 0,0:59:38.99,0:59:40.38,译文字幕,,0,0,0,,来吧\N{\r原文字幕}Come on.
+Dialogue: 0,0:59:43.60,0:59:44.51,译文字幕,,0,0,0,,我不会伤害你的\N{\r原文字幕}I'm not gonna hurt you.
+Dialogue: 0,0:59:46.08,0:59:47.30,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor?
+Dialogue: 0,0:59:50.35,0:59:51.78,译文字幕,,0,0,0,,别这样  康纳\N{\r原文字幕}Connor, come on.
+Dialogue: 0,0:59:57.96,1:00:00.01,译文字幕,,0,0,0,,行了  你真调皮  让我出去\N{\r原文字幕}All right, you're hilarious, but let me out now.
+Dialogue: 0,1:00:04.71,1:00:06.41,译文字幕,,0,0,0,,康纳  我认真的  开门\N{\r原文字幕}Connor, I'm serious. Open the door.
+Dialogue: 0,1:00:07.62,1:00:09.58,译文字幕,,0,0,0,,康纳  开门\N{\r原文字幕}Connor, open the door!
+Dialogue: 0,1:00:09.76,1:00:11.28,译文字幕,,0,0,0,,开门\N{\r原文字幕}Open the door!
+Dialogue: 0,1:00:11.45,1:00:12.67,译文字幕,,0,0,0,,我认真的\N{\r原文字幕}I'm serious.
+Dialogue: 0,1:00:14.85,1:00:17.24,译文字幕,,0,0,0,,-康纳  开门  -格雷格\N{\r原文字幕}- Connor, open this door! - Greg?
+Dialogue: 0,1:00:21.55,1:00:22.60,译文字幕,,0,0,0,,康纳\N{\r原文字幕}Connor!
+Dialogue: 0,1:00:25.82,1:00:27.25,译文字幕,,0,0,0,,你在干什么\N{\r原文字幕}What're you doing?
+Dialogue: 0,1:00:27.43,1:00:29.17,译文字幕,,0,0,0,,你在干什么\N{\r原文字幕}What are you doing?
+Dialogue: 0,1:00:29.34,1:00:30.73,译文字幕,,0,0,0,,我听到撞击声  就上来\N{\r原文字幕}I heard pounding, so I came up the--
+Dialogue: 0,1:00:30.91,1:00:32.17,译文字幕,,0,0,0,,康纳在哪\N{\r原文字幕}Where's Connor?
+Dialogue: 0,1:00:32.34,1:00:33.61,译文字幕,,0,0,0,,他出去了\N{\r原文字幕}He's out.
+Dialogue: 0,1:00:34.69,1:00:35.96,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,1:01:48.07,1:01:52.37,译文字幕,tag,0,0,0,,{\an8}在此处签名
+Dialogue: 0,1:01:52.37,1:01:55.27,译文字幕,tag,0,0,0,,{\an8}帮忙带贾斯汀回家
+Dialogue: 0,1:02:13.71,1:02:15.27,译文字幕,,0,0,0,,亚历克\N{\r原文字幕}Alec!
+Dialogue: 0,1:02:15.45,1:02:18.32,译文字幕,,0,0,0,,赶快进来\N{\r原文字幕}Get back inside right now!
+Dialogue: 0,1:02:18.49,1:02:19.89,译文字幕,,0,0,0,,如果有人看见你了呢\N{\r原文字幕}What if someone sees you?
+Dialogue: 0,1:02:22.89,1:02:24.28,译文字幕,,0,0,0,,床怎么回事\N{\r原文字幕}What happened to the bed?
+Dialogue: 0,1:02:25.72,1:02:27.55,译文字幕,,0,0,0,,男主人尿床了\N{\r原文字幕}Husband pissed himself.
+Dialogue: 0,1:02:29.16,1:02:30.33,译文字幕,,0,0,0,,或者他是这么觉得的\N{\r原文字幕}Or so he thinks.
+Dialogue: 0,1:02:30.51,1:02:31.77,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,1:02:32.33,1:02:33.51,译文字幕,,0,0,0,,亚历克\N{\r原文字幕}Alec.
+Dialogue: 0,1:02:34.73,1:02:36.21,译文字幕,,0,0,0,,别啊  你答应过我的\N{\r原文字幕}Come on. You promised.
+Dialogue: 0,1:02:37.12,1:02:38.82,译文字幕,,0,0,0,,你说过你不会惹事的\N{\r原文字幕}You said that you would be cool.
+Dialogue: 0,1:02:40.04,1:02:42.00,译文字幕,,0,0,0,,我还没玩够呢\N{\r原文字幕}I'm not finished playing yet.
+Dialogue: 0,1:02:43.26,1:02:44.91,译文字幕,,0,0,0,,玩什么\N{\r原文字幕}Playing with what?
+Dialogue: 0,1:02:46.43,1:02:49.70,译文字幕,,0,0,0,,不  不  不该这样的\N{\r原文字幕}No. No. That's not how this works.
+Dialogue: 0,1:02:49.87,1:02:52.44,译文字幕,,0,0,0,,好吗  我们不捉弄这些人\N{\r原文字幕}Okay? We don't mess with these people.
+Dialogue: 0,1:02:52.61,1:02:54.62,译文字幕,,0,0,0,,我们不恐吓他们  我们只是共存\N{\r原文字幕}We don't terrorize them. We coexist.
+Dialogue: 0,1:02:54.79,1:02:56.31,译文字幕,,0,0,0,,那意义何在\N{\r原文字幕}Then what's the point?
+Dialogue: 0,1:02:57.92,1:02:59.46,译文字幕,,0,0,0,,如果我们不让他们质疑自己是否清醒\N{\r原文字幕}What's the point if we don't make them
+Dialogue: 0,1:02:59.46,1:03:00.84,译文字幕,,0,0,0,,那意义何在\N{\r原文字幕}question their sanity a little?
+Dialogue: 0,1:03:01.01,1:03:04.28,译文字幕,,0,0,0,,亲爱的  我上次说的事情吓到你了吗\N{\r原文字幕}Honey, did I freak you out by what I said last time?
+Dialogue: 0,1:03:05.35,1:03:07.69,译文字幕,,0,0,0,,我认真的\N{\r原文字幕}I mean it.
+Dialogue: 0,1:03:10.20,1:03:11.55,译文字幕,,0,0,0,,拜托  求你了\N{\r原文字幕}Come on, please.
+Dialogue: 0,1:03:14.11,1:03:16.07,译文字幕,,0,0,0,,我不想和你待在一起\N{\r原文字幕}I don't want to be with you.
+Dialogue: 0,1:03:18.51,1:03:19.90,译文字幕,,0,0,0,,行吧\N{\r原文字幕}Okeydokey.
+Dialogue: 0,1:03:22.95,1:03:24.21,译文字幕,,0,0,0,,什么\N{\r原文字幕}What the...
+Dialogue: 0,1:03:25.39,1:03:26.61,译文字幕,,0,0,0,,搞什么\N{\r原文字幕}What the hell?
+Dialogue: 0,1:03:26.78,1:03:27.91,译文字幕,,0,0,0,,让我看看\N{\r原文字幕}Let me see.
+Dialogue: 0,1:03:28.09,1:03:29.52,译文字幕,,0,0,0,,不  我没事  我没事\N{\r原文字幕}No, no, no, I'm fine. I'm fine.
+Dialogue: 0,1:03:30.48,1:03:32.00,译文字幕,,0,0,0,,我得坐下\N{\r原文字幕}I gotta sit down.
+Dialogue: 0,1:03:32.18,1:03:34.09,译文字幕,,0,0,0,,不  不  跟我来  跟我来\N{\r原文字幕}No, no, no, Come with me. Come with me.
+Dialogue: 0,1:03:37.75,1:03:40.45,译文字幕,,0,0,0,,-你他妈做了什么  -冷静  小问题而已\N{\r原文字幕}- What the fuck did you just do? - Relax. It's a little bump.
+Dialogue: 0,1:03:40.62,1:03:42.66,译文字幕,,0,0,0,,-你有什么毛病  -我没毛病\N{\r原文字幕}- What is wrong with you? - Nothing is wrong with me.
+Dialogue: 0,1:03:42.84,1:03:44.41,译文字幕,,0,0,0,,你知道他们会叫警察来吗\N{\r原文字幕}Do you realize that they're gonna call the cops?
+Dialogue: 0,1:03:44.58,1:03:46.15,译文字幕,,0,0,0,,-不  他们不会  -我们得从这出去\N{\r原文字幕}- No, they're not. - We have to get out of here.
+Dialogue: 0,1:03:46.32,1:03:47.41,译文字幕,,0,0,0,,是的  你去吧\N{\r原文字幕}Yeah, you do.
+Dialogue: 0,1:03:48.45,1:03:49.85,译文字幕,,0,0,0,,什么\N{\r原文字幕}What?
+Dialogue: 0,1:03:50.41,1:03:51.63,译文字幕,,0,0,0,,怎么回事\N{\r原文字幕}What is going on?
+Dialogue: 0,1:03:51.80,1:03:53.59,译文字幕,,0,0,0,,你为什么要这样  亚历克\N{\r原文字幕}Why are you doing this, Alec?
+Dialogue: 0,1:03:53.76,1:03:56.85,译文字幕,,0,0,0,,我带你到这来是因为信任你\N{\r原文字幕}Okay, I brought you here because I trusted you.
+Dialogue: 0,1:03:57.03,1:03:58.46,译文字幕,,0,0,0,,我知道\N{\r原文字幕}I know.
+Dialogue: 0,1:03:59.46,1:04:00.99,译文字幕,,0,0,0,,我很抱歉\N{\r原文字幕}And I'm sorry.
+Dialogue: 0,1:04:06.99,1:04:08.60,译文字幕,,0,0,0,,但我玩得很开心\N{\r原文字幕}But I'm having fun.
+Dialogue: 0,1:04:11.13,1:04:12.96,译文字幕,,0,0,0,,我不知道你在说什么\N{\r原文字幕}I don't know what you're talking about.
+Dialogue: 0,1:04:13.13,1:04:15.26,译文字幕,,0,0,0,,怎么回事  亚历克  我不知道怎么了\N{\r原文字幕}What's going on? Alec, I don't know what's happening.
+Dialogue: 0,1:05:07.18,1:05:08.27,译文字幕,,0,0,0,,够了\N{\r原文字幕}That's it.
+Dialogue: 0,1:05:09.27,1:05:10.80,译文字幕,,0,0,0,,我们现在就走\N{\r原文字幕}We're leaving right now.
+Dialogue: 0,1:05:18.03,1:05:19.33,译文字幕,,0,0,0,,好吧\N{\r原文字幕}Okay.
+Dialogue: 0,1:05:13.89,1:05:15.19,译文字幕,,0,0,0,,好吧\N{\r原文字幕}Okay.
+Dialogue: 0,1:05:21.59,1:05:22.59,译文字幕,,0,0,0,,该死\N{\r原文字幕}Shit.
+Dialogue: 0,1:05:24.59,1:05:26.46,译文字幕,,0,0,0,,我们的东西在地下室\N{\r原文字幕}Our stuff is in the basement.
+Dialogue: 0,1:05:28.64,1:05:31.08,译文字幕,,0,0,0,,-计划不错  -本来是不错的\N{\r原文字幕}- Great plan. - Well, it would've been.
+Dialogue: 0,1:05:35.21,1:05:37.48,译文字幕,,0,0,0,,我们得想办法让他们出房子\N{\r原文字幕}We need to figure out a way to get them out of the house
+Dialogue: 0,1:05:37.65,1:05:40.43,译文字幕,,0,0,0,,或者引开他们什么的\N{\r原文字幕}or just distract them or something.
+Dialogue: 0,1:05:40.61,1:05:42.00,译文字幕,,0,0,0,,他挂了电话\N{\r原文字幕}He dropped his phone.
+Dialogue: 0,1:06:18.78,1:06:20.39,译文字幕,,0,0,0,,是你打开的吗\N{\r原文字幕}Did you turn this on?
+Dialogue: 0,1:06:21.17,1:06:22.35,译文字幕,,0,0,0,,不是\N{\r原文字幕}No.
+Dialogue: 0,1:06:22.52,1:06:24.44,译文字幕,,0,0,0,,你刚才在屋顶上吗\N{\r原文字幕}Where you just up on the roof?
+Dialogue: 0,1:06:24.61,1:06:25.91,译文字幕,,0,0,0,,什么  没有啊  你在说什么\N{\r原文字幕}What? No, what're you talking about?
+Dialogue: 0,1:06:26.09,1:06:27.53,译文字幕,,0,0,0,,你说你要送我去学校的啊\N{\r原文字幕}You said you were taking me to school.
+Dialogue: 0,1:06:27.70,1:06:28.79,译文字幕,,0,0,0,,是的\N{\r原文字幕}I am.
+Dialogue: 0,1:06:28.96,1:06:30.96,译文字幕,,0,0,0,,上车  我马上过去\N{\r原文字幕}Get in the car. I'll be right there.
+Dialogue: 0,1:08:03.45,1:08:04.62,译文字幕,,0,0,0,,就知道在那里\N{\r原文字幕}Knew it was in there.
+Dialogue: 0,1:08:04.80,1:08:06.01,译文字幕,,0,0,0,,好样的\N{\r原文字幕}Good man.
+Dialogue: 0,1:08:23.42,1:08:24.77,译文字幕,,0,0,0,,该死\N{\r原文字幕}Holy shit.
+Dialogue: 0,1:09:14.47,1:09:16.69,译文字幕,,0,0,0,,很抱歉让你等这么久  我没有\N{\r原文字幕}So sorry it took so long, I wasn't--
+Dialogue: 0,1:09:23.44,1:09:24.75,译文字幕,,0,0,0,,你怎么不叫救护车\N{\r原文字幕}Why didn't you call an ambulance?
+Dialogue: 0,1:09:24.92,1:09:26.70,译文字幕,,0,0,0,,你就不能打电话给什么人吗\N{\r原文字幕}Is there anyone you can call?
+Dialogue: 0,1:09:26.88,1:09:29.32,译文字幕,,0,0,0,,-你怎么不叫救护车  -是康纳\N{\r原文字幕}- Why didn't you call an ambulance? - It was Connor.
+Dialogue: 0,1:09:29.49,1:09:31.62,译文字幕,,0,0,0,,-什么  -他在楼上\N{\r原文字幕}- What? - He was upstairs.
+Dialogue: 0,1:09:31.80,1:09:34.10,译文字幕,,0,0,0,,他一直很生气\N{\r原文字幕}He's been so angry.
+Dialogue: 0,1:09:34.28,1:09:35.58,译文字幕,,0,0,0,,生气到想杀人吗\N{\r原文字幕}So angry he tried to kill someone.
+Dialogue: 0,1:09:35.76,1:09:37.54,译文字幕,,0,0,0,,说不定只是个意外\N{\r原文字幕}Maybe it was an accident.
+Dialogue: 0,1:09:37.72,1:09:39.67,译文字幕,,0,0,0,,我不知道怎么了\N{\r原文字幕}I don't know what's happening.
+Dialogue: 0,1:09:39.85,1:09:42.11,译文字幕,,0,0,0,,不  不  你现在不能崩溃\N{\r原文字幕}No, no! You don't get to lose it right now!
+Dialogue: 0,1:09:42.89,1:09:44.07,译文字幕,,0,0,0,,听我说\N{\r原文字幕}Listen to me.
+Dialogue: 0,1:09:45.16,1:09:49.34,译文字幕,,0,0,0,,你知道  我们的儿子会怎么样吗\N{\r原文字幕}Do you know... what will happen to our son?
+Dialogue: 0,1:09:53.08,1:09:54.65,译文字幕,,0,0,0,,我会没法保护他\N{\r原文字幕}I won't be able to protect him.
+Dialogue: 0,1:10:32.16,1:10:33.51,译文字幕,,0,0,0,,亚历克\N{\r原文字幕}Alec?
+Dialogue: 0,1:10:59.97,1:11:01.02,译文字幕,,0,0,0,,出去\N{\r原文字幕}Get out.
+Dialogue: 0,1:11:04.54,1:11:06.54,译文字幕,,0,0,0,,别那么看着我\N{\r原文字幕}Don't look at me like that.
+Dialogue: 0,1:11:07.89,1:11:09.55,译文字幕,,0,0,0,,你疯了\N{\r原文字幕}You're insane.
+Dialogue: 0,1:11:14.59,1:11:16.25,译文字幕,,0,0,0,,-求你了  -我要报警了\N{\r原文字幕}- Please. - I'm calling the cops.
+Dialogue: 0,1:11:16.42,1:11:18.82,译文字幕,,0,0,0,,-不  我能让你毁了我这一切的  -放开我\N{\r原文字幕}- No, I am not going to let you ruin this for me. - Get off me!
+Dialogue: 0,1:11:21.82,1:11:22.82,译文字幕,,0,0,0,,明迪\N{\r原文字幕}Mindy?
+Dialogue: 0,1:12:10.96,1:12:11.96,译文字幕,,0,0,0,,快啊\N{\r原文字幕}Come on!
+Dialogue: 0,1:12:31.45,1:12:32.63,译文字幕,,0,0,0,,杰姬\N{\r原文字幕}Jackie!
+Dialogue: 0,1:12:35.33,1:12:38.07,译文字幕,,0,0,0,,我出发时打给你  我会找到他的  杰姬\N{\r原文字幕}I'll call you when I'm on my way. I'm gonna find him, Jackie.
+Dialogue: 0,1:12:38.24,1:12:40.20,译文字幕,,0,0,0,,我要找到那个对康纳下手的混蛋\N{\r原文字幕}I'm gonna find the son of a bitch who did this to Connor.
+Dialogue: 0,1:15:11.48,1:15:13.83,译文字幕,,0,0,0,,请接通  请接通\N{\r原文字幕}Please work, please work, please work.
+Dialogue: 0,1:15:15.33,1:15:18.37,译文字幕,,0,0,0,,-911  你有什么紧急情况  -我需要帮助\N{\r原文字幕}- 911, what's your emergency? - Hi. Yeah, I need help.
+Dialogue: 0,1:15:19.93,1:15:21.93,译文字幕,,0,0,0,,我觉得我和绑架那些男孩的人\N{\r原文字幕}I think I'm with the kidnapper...
+Dialogue: 0,1:15:22.10,1:15:23.67,译文字幕,,0,0,0,,在一起\N{\r原文字幕}of those boys.
+Dialogue: 0,1:15:23.84,1:15:24.93,译文字幕,,0,0,0,,我刚刚在他的车里醒来\N{\r原文字幕}I just woke up in his car.
+Dialogue: 0,1:15:25.11,1:15:26.37,译文字幕,,0,0,0,,女士  你在哪里\N{\r原文字幕}Ma'am, what location?
+Dialogue: 0,1:15:26.54,1:15:28.28,译文字幕,,0,0,0,,我不知道\N{\r原文字幕}I don't know.
+Dialogue: 0,1:15:28.46,1:15:30.72,译文字幕,,0,0,0,,-在吗  -我们在某个树林里\N{\r原文字幕}- Hello? - We're in the woods somewhere.
+Dialogue: 0,1:15:30.89,1:15:33.03,译文字幕,,0,0,0,,别挂电话  我们会用定位系统追踪你\N{\r原文字幕}Stay on the line. We'll track you on the GPS.
+Dialogue: 0,1:15:33.20,1:15:34.51,译文字幕,,0,0,0,,不  不  在吗\N{\r原文字幕}No, no. Hello?
+Dialogue: 0,1:15:34.68,1:15:35.94,译文字幕,,0,0,0,,能听见我吗\N{\r原文字幕}Hello, can you hear me?
+Dialogue: 0,1:15:36.12,1:15:37.29,译文字幕,,0,0,0,,-听得见吗  -听得见吗\N{\r原文字幕}- Hello? - Hello?
+Dialogue: 0,1:15:37.47,1:15:38.51,译文字幕,,0,0,0,,不  见鬼\N{\r原文字幕}No, shit!
+Dialogue: 0,1:15:40.34,1:15:42.38,译文字幕,,0,0,0,,别挂电话\N{\r原文字幕}Don't hang up.
+Dialogue: 0,1:17:25.97,1:17:27.71,译文字幕,,0,0,0,,救救我们  请救救我们\N{\r原文字幕}Help us! Help us, please!
+Dialogue: 0,1:17:28.88,1:17:30.58,译文字幕,,0,0,0,,他说他会杀了我们\N{\r原文字幕}He said he's gonna kill us!
+Dialogue: 0,1:17:30.75,1:17:32.67,译文字幕,,0,0,0,,快点  快点\N{\r原文字幕}Hurry! Hurry!
+Dialogue: 0,1:17:32.84,1:17:34.45,译文字幕,,0,0,0,,求你了  快点\N{\r原文字幕}Please, please hurry!
+Dialogue: 0,1:17:34.63,1:17:35.84,译文字幕,,0,0,0,,他在挖坑\N{\r原文字幕}He's digging a hole!
+Dialogue: 0,1:17:36.02,1:17:37.11,译文字幕,,0,0,0,,好了\N{\r原文字幕}Yeah.
+Dialogue: 0,1:17:38.02,1:17:39.41,译文字幕,,0,0,0,,求你了\N{\r原文字幕}Please!
+Dialogue: 0,1:17:39.59,1:17:41.59,译文字幕,,0,0,0,,我不会丢下你们的\N{\r原文字幕}I'm not gonna leave you.
+Dialogue: 0,1:17:41.76,1:17:43.81,译文字幕,,0,0,0,,快  快  他就在外面\N{\r原文字幕}Hurry. Hurry, he's out there!
+Dialogue: 0,1:17:43.98,1:17:45.94,译文字幕,,0,0,0,,-救救我们  -好了  我会把你们救出来的\N{\r原文字幕}- Help us! - Okay. I'm gonna get you out of here.
+Dialogue: 0,1:17:46.12,1:17:47.42,译文字幕,,0,0,0,,不  不\N{\r原文字幕}No. No.
+Dialogue: 0,1:17:49.16,1:17:50.77,译文字幕,,0,0,0,,会没事的\N{\r原文字幕}It's gonna be okay.
+Dialogue: 0,1:17:53.25,1:17:54.25,译文字幕,,0,0,0,,他回来了\N{\r原文字幕}He's back.
+Dialogue: 0,1:18:35.51,1:18:38.17,译文字幕,,0,0,0,,你不是说我们得在没人看见的地方睡觉吗\N{\r原文字幕}Didn't you say we had to sleep somewhere out of sight?
+Dialogue: 0,1:18:38.91,1:18:40.56,译文字幕,,0,0,0,,我是说过\N{\r原文字幕}I did.
+Dialogue: 0,1:18:40.74,1:18:42.69,译文字幕,,0,0,0,,我带你去睡觉的地方吧\N{\r原文字幕}Let me take you to our sleeping quarters.
+Dialogue: 0,1:18:44.17,1:18:45.57,译文字幕,,0,0,0,,晚上时\N{\r原文字幕}And at night...
+Dialogue: 0,1:18:46.87,1:18:49.05,译文字幕,,0,0,0,,混蛋\N{\r原文字幕}Son of a bitch.
+Dialogue: 0,1:18:59.84,1:19:00.80,译文字幕,,0,0,0,,斯皮茨\N{\r原文字幕}Spitz.
+Dialogue: 0,1:19:00.97,1:19:02.37,译文字幕,,0,0,0,,911调度中心刚刚接到电话\N{\r原文字幕}911 dispatch just got a call
+Dialogue: 0,1:19:02.54,1:19:04.80,译文字幕,,0,0,0,,有人说见到了绑架案的嫌犯\N{\r原文字幕}from someone claiming to have seen our kidnapper.
+Dialogue: 0,1:19:04.98,1:19:06.33,译文字幕,,0,0,0,,不会吧  哪里\N{\r原文字幕}No shit. Where?
+Dialogue: 0,1:19:55.77,1:19:57.03,译文字幕,,0,0,0,,醒醒\N{\r原文字幕}Wake up.
+Dialogue: 0,1:20:05.78,1:20:07.08,译文字幕,,0,0,0,,听着  听我说\N{\r原文字幕}Listen. Listen to me.
+Dialogue: 0,1:20:10.22,1:20:11.91,译文字幕,,0,0,0,,听我说\N{\r原文字幕}Listen to me.
+Dialogue: 0,1:20:13.65,1:20:15.22,译文字幕,,0,0,0,,我需要你\N{\r原文字幕}What I need you to do...
+Dialogue: 0,1:20:16.31,1:20:17.53,译文字幕,,0,0,0,,站起来\N{\r原文字幕}is stand up.
+Dialogue: 0,1:20:18.44,1:20:19.44,译文字幕,,0,0,0,,好吗\N{\r原文字幕}Okay?
+Dialogue: 0,1:20:32.54,1:20:33.63,译文字幕,,0,0,0,,站起来\N{\r原文字幕}Stand up.
+Dialogue: 0,1:20:34.81,1:20:37.33,译文字幕,,0,0,0,,好吗\N{\r原文字幕}Okay?
+Dialogue: 0,1:20:48.17,1:20:49.47,译文字幕,,0,0,0,,站起来就行\N{\r原文字幕}Just stand up.
+Dialogue: 0,1:21:04.40,1:21:06.62,译文字幕,,0,0,0,,站起来\N{\r原文字幕}Stand up.
+Dialogue: 0,1:21:13.85,1:21:15.15,译文字幕,,0,0,0,,求你了\N{\r原文字幕}Please...
+Dialogue: 0,1:21:20.19,1:21:21.49,译文字幕,,0,0,0,,求你了\N{\r原文字幕}Please...
+Dialogue: 0,1:21:25.64,1:21:27.25,译文字幕,,0,0,0,,你不必如此\N{\r原文字幕}You don't have to do this.
+Dialogue: 0,1:21:27.82,1:21:29.12,译文字幕,,0,0,0,,不  我必须这样\N{\r原文字幕}Yes, I do.
+Dialogue: 0,1:25:18.61,1:25:20.18,译文字幕,,0,0,0,,我知道你是谁\N{\r原文字幕}I know what you are.
+Dialogue: 0,1:25:23.09,1:25:24.49,译文字幕,,0,0,0,,那你是谁\N{\r原文字幕}And what are you?
+Dialogue: 0,1:25:25.18,1:25:26.62,译文字幕,,0,0,0,,某个义警吗\N{\r原文字幕}Some kind of vigilante?
+Dialogue: 0,1:25:27.58,1:25:29.84,译文字幕,,0,0,0,,我知道你带走了那些男孩\N{\r原文字幕}I know you took those boys.
+Dialogue: 0,1:25:32.02,1:25:33.71,译文字幕,,0,0,0,,不  是你带走了那些男孩\N{\r原文字幕}No, you took those boys.
+Dialogue: 0,1:25:34.80,1:25:36.80,译文字幕,,0,0,0,,你和你朋友绑架了那些男孩\N{\r原文字幕}You and your friend kidnapped those boys.
+Dialogue: 0,1:25:38.24,1:25:40.63,译文字幕,,0,0,0,,然后你来这恐吓这案子的首席警探\N{\r原文字幕}Then you came here to terrorize the lead detective on the case.
+Dialogue: 0,1:25:40.81,1:25:42.46,译文字幕,,0,0,0,,你绑了他的儿子\N{\r原文字幕}You tied up his son.
+Dialogue: 0,1:25:42.64,1:25:45.46,译文字幕,,0,0,0,,他就是下一个  我及时阻止了你\N{\r原文字幕}He was gonna be next. I stopped you just in time.
+Dialogue: 0,1:25:48.64,1:25:50.43,译文字幕,,0,0,0,,你朝我开枪  就是在朝一个警察开枪\N{\r原文字幕}You shoot me, you're shooting a cop.
+Dialogue: 0,1:25:51.51,1:25:53.65,译文字幕,,0,0,0,,你知道你会面临什么吗\N{\r原文字幕}You have any idea what's coming for you?
+Dialogue: 0,1:26:11.40,1:26:12.58,译文字幕,,0,0,0,,等等\N{\r原文字幕}Wait.
+Dialogue: 0,1:26:13.71,1:26:14.97,译文字幕,,0,0,0,,求你了\N{\r原文字幕}Please...
+Dialogue: 0,1:26:17.06,1:26:18.54,译文字幕,,0,0,0,,你不明白\N{\r原文字幕}You don't understand.
+Dialogue: 0,1:26:19.80,1:26:21.85,译文字幕,,0,0,0,,-我还小的时候  -我他妈不在乎\N{\r原文字幕}- When I was a little boy-- - I don't give a fuck.
+Dialogue: 0,1:27:16.64,1:27:18.34,译文字幕,,0,0,0,,斯皮茨基警探\N{\r原文字幕}Detective Spitzky?
+
+

@@ -1,0 +1,2108 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ypwx365-1,simhei,12,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,5,1
+Style: ypwx365-2,simhei,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,50,1
+Style: Default,simhei,12,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:20.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}《蜘蛛侠-英雄归来》--字幕压制：姜嵩
+Dialogue: 0,0:00:40.47,0:00:42.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这世界要变样了
+Dialogue: 0,0:00:43.25,0:00:44.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看啊
+Dialogue: 0,0:00:45.47,0:00:46.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}画了外星人
+Dialogue: 0,0:00:47.70,0:00:50.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还有绿色的大块头把楼砸坏
+Dialogue: 0,0:00:51.05,0:00:54.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我小时候   画的都是牛仔和印第安人
+Dialogue: 0,0:00:54.48,0:00:57.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实    得叫美国土著    无所谓了
+Dialogue: 0,0:00:58.68,0:01:00.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯    不过    告诉你
+Dialogue: 0,0:01:01.73,0:01:02.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还不赖    是吧
+Dialogue: 0,0:01:04.08,0:01:05.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊     嗯
+Dialogue: 0,0:01:05.65,0:01:07.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这孩子有前途
+Dialogue: 0,0:01:07.78,0:01:08.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊
+Dialogue: 0,0:01:10.28,0:01:11.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}走着瞧吧
+Dialogue: 0,0:01:36.50,0:01:37.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行
+Dialogue: 0,0:01:38.59,0:01:40.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那玩意     锯不断的
+Dialogue: 0,0:01:41.13,0:01:43.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这些外星玩意     很结实
+Dialogue: 0,0:01:43.15,0:01:45.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你得用他们的东西     对付他们
+Dialogue: 0,0:01:47.81,0:01:48.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}瞧
+Dialogue: 0,0:01:48.31,0:01:49.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好     好
+Dialogue: 0,0:01:54.58,0:01:56.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真高兴你能来啊    下午好
+Dialogue: 0,0:01:56.08,0:01:57.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯    我的闹钟没响
+Dialogue: 0,0:01:57.00,0:01:58.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊    你的闹钟
+Dialogue: 0,0:01:58.74,0:02:01.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}照我说的     把那个装甲板摞起来
+Dialogue: 0,0:02:01.77,0:02:03.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这可是个大单
+Dialogue: 0,0:02:03.77,0:02:05.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}请注意
+Dialogue: 0,0:02:05.23,0:02:08.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}依照行政命令396b
+Dialogue: 0,0:02:08.40,0:02:10.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所有战后清理工作
+Dialogue: 0,0:02:10.16,0:02:12.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}均由我们接管
+Dialogue: 0,0:02:12.08,0:02:14.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}感谢你们的服务   我们会接手了
+Dialogue: 0,0:02:14.45,0:02:15.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是谁
+Dialogue: 0,0:02:15.89,0:02:17.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有资质人员
+Dialogue: 0,0:02:17.52,0:02:19.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听着    我跟市政府签了合同
+Dialogue: 0,0:02:19.90,0:02:21.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}清理废墟
+Dialogue: 0,0:02:21.63,0:02:23.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很抱歉     图姆斯先生
+Dialogue: 0,0:02:23.28,0:02:26.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但一切清理行动    现在都由我们负责了
+Dialogue: 0,0:02:26.52,0:02:30.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}请交出全部     你们已收集的外星物质
+Dialogue: 0,0:02:30.16,0:02:31.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}否则你们将被起诉
+Dialogue: 0,0:02:31.84,0:02:33.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}女士     什么...
+Dialogue: 0,0:02:33.71,0:02:36.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托   过来   女士    拜托
+Dialogue: 0,0:02:36.84,0:02:37.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听着
+Dialogue: 0,0:02:38.88,0:02:40.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我为这单活儿    买了卡车
+Dialogue: 0,0:02:41.17,0:02:42.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还招了新人
+Dialogue: 0,0:02:42.78,0:02:45.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这些人都有家室     我也有
+Dialogue: 0,0:02:45.33,0:02:47.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我赌上了一切    我可能丢掉房子的
+Dialogue: 0,0:02:47.75,0:02:49.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉    先生    我也没办法
+Dialogue: 0,0:02:51.35,0:02:53.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许下次    别不自量力
+Dialogue: 0,0:02:55.37,0:02:56.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你说什么
+Dialogue: 0,0:02:58.80,0:02:59.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯
+Dialogue: 0,0:03:00.32,0:03:02.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他是对的    我不自量力了
+Dialogue: 0,0:03:04.28,0:03:05.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别
+Dialogue: 0,0:03:06.66,0:03:07.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}都放下
+Dialogue: 0,0:03:10.41,0:03:11.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果你有不满
+Dialogue: 0,0:03:11.37,0:03:13.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可以去找我的上级
+Dialogue: 0,0:03:13.89,0:03:16.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的上级    那是谁
+Dialogue: 0,0:03:16.59,0:03:19.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克工业    和联邦政府的合营企业
+Dialogue: 0,0:03:19.40,0:03:20.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}损害控制局
+Dialogue: 0,0:03:20.93,0:03:25.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}将监督外星   和其他外来物质的   收集和存储
+Dialogue: 0,0:03:25.24,0:03:28.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个搞出烂摊子的混蛋    现在又要收钱收拾残局
+Dialogue: 0,0:03:28.52,0:03:29.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊     都是内部交易
+Dialogue: 0,0:03:29.40,0:03:33.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}据专家估计   整个三州地区散落了超过
+Dialogue: 0,0:03:33.59,0:03:35.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}1500吨的外来物质
+Dialogue: 0,0:03:35.67,0:03:36.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老大
+Dialogue: 0,0:03:37.59,0:03:39.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们还有一车    昨天的货
+Dialogue: 0,0:03:39.80,0:03:41.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们得上交的   是吧
+Dialogue: 0,0:03:41.16,0:03:43.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可不去送    太可惜了
+Dialogue: 0,0:03:43.75,0:03:46.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们可以用   那些外星玩意   做不少好玩的
+Dialogue: 0,0:03:49.30,0:03:50.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这样吧
+Dialogue: 0,0:03:51.42,0:03:52.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们不交了
+Dialogue: 0,0:03:54.84,0:03:56.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这世界在变
+Dialogue: 0,0:04:00.48,0:04:02.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们也该变变了
+Dialogue: 0,0:04:03.22,0:04:05.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"八年后"
+Dialogue: 0,0:04:48.10,0:04:49.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给       梅森
+Dialogue: 0,0:04:53.05,0:04:53.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太棒了
+Dialogue: 0,0:04:54.19,0:04:55.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}生意很好
+Dialogue: 0,0:05:36.30,0:05:38.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}纽约市     皇后区
+Dialogue: 0,0:05:38.56,0:05:40.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这一带不太平    但终归是家
+Dialogue: 0,0:05:40.37,0:05:41.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在跟谁说话
+Dialogue: 0,0:05:42.16,0:05:44.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没谁      我在拍摄行程
+Dialogue: 0,0:05:44.49,0:05:46.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不能拿给任何人看    我知道
+Dialogue: 0,0:05:47.07,0:05:48.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那你还变声念旁白
+Dialogue: 0,0:05:49.03,0:05:50.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好玩嘛      好玩
+Dialogue: 0,0:05:51.88,0:05:53.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你为什么叫哈皮
+Dialogue: 0,0:05:56.85,0:05:59.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快点    我可不给你拿包    快走
+Dialogue: 0,0:06:00.19,0:06:02.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要先上个厕所吗
+Dialogue: 0,0:06:02.01,0:06:03.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}上面有厕所
+Dialogue: 0,0:06:03.82,0:06:05.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}无人驾驶吗       太赞了
+Dialogue: 0,0:06:06.30,0:06:07.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你就坐那儿吗       嗯
+Dialogue: 0,0:06:08.37,0:06:10.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你第一次做专机吗
+Dialogue: 0,0:06:10.51,0:06:11.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我第一次坐飞机
+Dialogue: 0,0:06:12.23,0:06:14.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个... 它... 这噪音没问题吗
+Dialogue: 0,0:06:23.76,0:06:25.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}并没人跟我说过
+Dialogue: 0,0:06:25.22,0:06:27.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我为什么要来柏林     或是我要做什么
+Dialogue: 0,0:06:27.83,0:06:31.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好像是美国队长发疯了
+Dialogue: 0,0:06:31.27,0:06:33.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你到了    我们住隔壁吗
+Dialogue: 0,0:06:33.46,0:06:35.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们不住同间    换衣服
+Dialogue: 0,0:06:35.44,0:06:37.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧    彼得    你行的
+Dialogue: 0,0:06:37.12,0:06:38.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你穿的啥玩意
+Dialogue: 0,0:06:39.26,0:06:40.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的战衣啊
+Dialogue: 0,0:06:40.46,0:06:42.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}箱子呢      什么箱子
+Dialogue: 0,0:06:42.21,0:06:44.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那不是我的... 什么    我以为那是个橱柜
+Dialogue: 0,0:06:44.22,0:06:45.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里也是我的房间吗   快去吧
+Dialogue: 0,0:06:45.51,0:06:47.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的房间好大... 快去
+Dialogue: 0,0:06:47.15,0:06:49.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我找到箱子了    我找到箱子了
+Dialogue: 0,0:06:49.87,0:06:51.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"稍作升级"
+Dialogue: 0,0:06:53.48,0:06:54.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,0:06:55.26,0:06:56.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}穿上     什么
+Dialogue: 0,0:06:56.77,0:06:58.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我见过的       最酷的东西
+Dialogue: 0,0:06:58.61,0:07:01.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快点       我不明白
+Dialogue: 0,0:07:01.28,0:07:04.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是给我的吗   哈皮   哈皮   等等
+Dialogue: 0,0:07:04.61,0:07:06.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这太疯狂了    太疯狂了
+Dialogue: 0,0:07:06.97,0:07:08.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看这个啊    看看这眼睛
+Dialogue: 0,0:07:08.87,0:07:11.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我人生    最棒的一天    快点换吧
+Dialogue: 0,0:07:11.40,0:07:14.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了   那是美国队长   钢铁侠   黑寡妇
+Dialogue: 0,0:07:15.17,0:07:16.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个新来的是谁    内衣宝宝
+Dialogue: 0,0:07:16.39,0:07:18.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}叫我呢     我得走了
+Dialogue: 0,0:07:20.48,0:07:21.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家好
+Dialogue: 0,0:07:23.51,0:07:25.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧     刚刚太疯狂了
+Dialogue: 0,0:07:25.10,0:07:26.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我跟美国队长     打了一架
+Dialogue: 0,0:07:26.40,0:07:28.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我偷了他的盾    还拿盾丢他
+Dialogue: 0,0:07:28.78,0:07:31.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}搞什么   他变大了   我得走了   等等
+Dialogue: 0,0:07:34.41,0:07:36.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}简直太赞了
+Dialogue: 0,0:07:36.31,0:07:37.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生喊    "内衣宝宝"
+Dialogue: 0,0:07:37.68,0:07:39.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就一个翻身     偷了美队的盾
+Dialogue: 0,0:07:39.76,0:07:41.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还说    "大家好啊"
+Dialogue: 0,0:07:41.17,0:07:43.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后     等一下
+Dialogue: 0,0:07:43.08,0:07:44.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来了
+Dialogue: 0,0:07:47.72,0:07:49.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}墙不太隔音
+Dialogue: 0,0:07:50.99,0:07:52.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你干什么呢      做视频日志吗
+Dialogue: 0,0:07:54.08,0:07:55.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      没事
+Dialogue: 0,0:07:55.21,0:07:56.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}换了我也会的      我叫他别了
+Dialogue: 0,0:07:56.87,0:07:59.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他什么都拍      我会抹掉芯片的
+Dialogue: 0,0:08:00.37,0:08:02.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}知道吗      我们反正也该拍段视频
+Dialogue: 0,0:08:02.59,0:08:04.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当托辞骗你婶婶     准备好了吗
+Dialogue: 0,0:08:04.19,0:08:04.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}托辞      拍了吗
+Dialogue: 0,0:08:04.82,0:08:05.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊      到镜头里来
+Dialogue: 0,0:08:06.10,0:08:06.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,0:08:06.68,0:08:08.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅       你好吗
+Dialogue: 0,0:08:08.15,0:08:09.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你穿着什么呢      希望是布料少的
+Dialogue: 0,0:08:11.12,0:08:12.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得      这么说不太好
+Dialogue: 0,0:08:12.35,0:08:14.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}重来吧      你可以剪辑一下
+Dialogue: 0,0:08:14.11,0:08:16.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}三 二 一     你好啊     梅
+Dialogue: 0,0:08:16.43,0:08:19.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐     我想告诉你
+Dialogue: 0,0:08:19.02,0:08:23.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你侄子这周末     在斯塔克实习基地
+Dialogue: 0,0:08:23.05,0:08:25.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}表现得太出色了
+Dialogue: 0,0:08:26.17,0:08:27.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家都交口称赞
+Dialogue: 0,0:08:28.01,0:08:29.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托
+Dialogue: 0,0:08:29.25,0:08:30.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}并道啊      抱歉
+Dialogue: 0,0:08:30.24,0:08:31.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谁叫你不走皇后大道
+Dialogue: 0,0:08:31.89,0:08:35.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮本希望    能升职到资产管理部
+Dialogue: 0,0:08:35.13,0:08:37.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他本是安保主管    再之前是个司机
+Dialogue: 0,0:08:37.82,0:08:39.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是私人谈话
+Dialogue: 0,0:08:40.05,0:08:42.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不喜欢拿这事开玩笑  很难启齿的
+Dialogue: 0,0:08:42.75,0:08:43.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}说真的     他是不是拼命打呼噜来着
+Dialogue: 0,0:08:43.79,0:08:45.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们到了    到家了
+Dialogue: 0,0:08:48.26,0:08:49.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮     能让我们    单独待会儿吗
+Dialogue: 0,0:08:49.69,0:08:50.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要我下车吗
+Dialogue: 0,0:08:50.47,0:08:52.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你去把彼得的箱子     从后备箱拿出来吧
+Dialogue: 0,0:08:53.65,0:08:54.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能留下战衣吗
+Dialogue: 0,0:08:55.33,0:08:56.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是的     我们刚刚不正说呢嘛
+Dialogue: 0,0:08:58.93,0:09:00.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但是     帮个忙
+Dialogue: 0,0:09:00.38,0:09:01.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮算是你的负责人
+Dialogue: 0,0:09:01.83,0:09:03.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别给他太多压力     别干蠢事
+Dialogue: 0,0:09:04.12,0:09:05.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我看过他的心电图
+Dialogue: 0,0:09:06.18,0:09:07.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吗     好
+Dialogue: 0,0:09:07.81,0:09:09.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别做我会做的事
+Dialogue: 0,0:09:09.32,0:09:11.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}更不要做我     不会做的事
+Dialogue: 0,0:09:11.60,0:09:14.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这之间有一小块灰色区域    就是你的活动范围
+Dialogue: 0,0:09:14.59,0:09:15.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那么我是个复仇者了吗
+Dialogue: 0,0:09:15.87,0:09:16.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是
+Dialogue: 0,0:09:17.54,0:09:19.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这个吗      七楼
+Dialogue: 0,0:09:19.17,0:09:20.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我拿上去吧      不劳您了
+Dialogue: 0,0:09:20.85,0:09:22.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你自己拿啊     嗯     我自己拿吧
+Dialogue: 0,0:09:22.57,0:09:23.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,0:09:25.25,0:09:26.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那我们下次什么时候...
+Dialogue: 0,0:09:26.42,0:09:28.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再什么时候去 "实习"
+Dialogue: 0,0:09:28.31,0:09:29.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下次任务吗
+Dialogue: 0,0:09:29.51,0:09:30.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对     任务    今后的任务
+Dialogue: 0,0:09:30.95,0:09:33.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们会联络你的    你有我的号码吗
+Dialogue: 0,0:09:33.12,0:09:34.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不      就是会通知你的
+Dialogue: 0,0:09:34.73,0:09:36.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是有人会打给你的     好吗
+Dialogue: 0,0:09:36.88,0:09:38.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你团队的人     那好
+Dialogue: 0,0:09:38.92,0:09:40.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是抱你     我就是替你开车门
+Dialogue: 0,0:09:40.78,0:09:42.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们还没那么好呢
+Dialogue: 0,0:09:45.35,0:09:46.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见
+Dialogue: 0,0:09:51.88,0:09:52.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们会联络我的
+Dialogue: 0,0:09:57.12,0:10:00.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"两个月后"
+Dialogue: 0,0:10:06.75,0:10:10.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"哈皮   就是问问   我下午2:45放学"
+Dialogue: 0,0:10:10.19,0:10:12.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"可以进行下次任务了"
+Dialogue: 0,0:10:12.09,0:10:14.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"是彼得哦"
+Dialogue: 0,0:10:14.06,0:10:15.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"帕克"
+Dialogue: 0,0:10:15.19,0:10:17.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"哈皮"
+Dialogue: 0,0:10:43.19,0:10:45.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你好啊      软蛋·帕克
+Dialogue: 0,0:10:48.06,0:10:50.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}早上好      城区科技高中
+Dialogue: 0,0:10:50.58,0:10:52.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}学生们      别忘记返校节门票
+Dialogue: 0,0:10:52.67,0:10:54.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你返校节     有男伴吗
+Dialogue: 0,0:10:54.84,0:10:56.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢     杰森     但我有男伴了
+Dialogue: 0,0:10:56.93,0:10:58.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧      嗯
+Dialogue: 0,0:11:05.07,0:11:08.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}该死     你    马上去我办公室
+Dialogue: 0,0:11:27.86,0:11:29.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加入我     我们一起
+Dialogue: 0,0:11:29.67,0:11:32.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}建造我的新乐高死星
+Dialogue: 0,0:11:32.77,0:11:34.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么     太没劲了
+Dialogue: 0,0:11:35.15,0:11:36.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不会吧    太棒了    多少块的
+Dialogue: 0,0:11:36.98,0:11:38.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}３８０３
+Dialogue: 0,0:11:38.87,0:11:40.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不可思议       是啊
+Dialogue: 0,0:11:40.91,0:11:42.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你想今晚做吗
+Dialogue: 0,0:11:42.25,0:11:44.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}今晚不行     我得去斯塔克...
+Dialogue: 0,0:11:44.25,0:11:46.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克实习      是啊
+Dialogue: 0,0:11:46.13,0:11:47.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}总得去做实习
+Dialogue: 0,0:11:47.45,0:11:48.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      希望
+Dialogue: 0,0:11:48.44,0:11:50.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很快就真能     在那儿谋个职了
+Dialogue: 0,0:11:50.72,0:11:52.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那就太棒了     是吧
+Dialogue: 0,0:11:52.37,0:11:54.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他会说   "表格做得真好    彼得
+Dialogue: 0,0:11:54.71,0:11:55.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给你枚金币"
+Dialogue: 0,0:11:56.93,0:11:58.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我根本不懂工作     是什么样的
+Dialogue: 0,0:11:58.01,0:11:59.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是这样的
+Dialogue: 0,0:12:00.88,0:12:03.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会在我家     把死星的大体结构搭好
+Dialogue: 0,0:12:03.65,0:12:04.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后再去你家
+Dialogue: 0,0:12:04.76,0:12:07.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}主要的难点是底座
+Dialogue: 0,0:12:07.54,0:12:10.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}上部至多两小时     就能做好
+Dialogue: 0,0:12:12.70,0:12:13.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那好啊
+Dialogue: 0,0:12:15.05,0:12:17.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     我们如何计算
+Dialogue: 0,0:12:17.09,0:12:20.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}A点和B点之间的     线性加速度
+Dialogue: 0,0:12:21.37,0:12:22.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士
+Dialogue: 0,0:12:22.12,0:12:24.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}角正弦
+Dialogue: 0,0:12:24.19,0:12:25.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}乘重力除质量
+Dialogue: 0,0:12:25.67,0:12:27.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不对      彼得
+Dialogue: 0,0:12:27.89,0:12:29.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还在听吗
+Dialogue: 0,0:12:30.81,0:12:31.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在听      在听
+Dialogue: 0,0:12:34.22,0:12:36.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}质量抵消了      就是重力乘正弦
+Dialogue: 0,0:12:36.77,0:12:38.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对    瞧    弗拉士    如果答错
+Dialogue: 0,0:12:38.99,0:12:41.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最快也未必是最好的
+Dialogue: 0,0:12:41.47,0:12:42.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你死定了
+Dialogue: 0,0:12:46.79,0:12:49.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}今天我们要讨论     丹麦物理学家尼尔斯·玻尔
+Dialogue: 0,0:12:49.29,0:12:50.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"蛛网液"
+Dialogue: 0,0:12:50.51,0:12:53.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但相信我      他发现的
+Dialogue: 0,0:12:54.32,0:12:57.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}量子理论     可绝对不无聊
+Dialogue: 0,0:13:04.72,0:13:07.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"返校节"
+Dialogue: 0,0:13:07.48,0:13:09.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹换新上衣了吗     没有
+Dialogue: 0,0:13:09.89,0:13:12.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这件我们见过    只是没配过这条裙子
+Dialogue: 0,0:13:12.74,0:13:14.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹
+Dialogue: 0,0:13:14.55,0:13:15.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真不错
+Dialogue: 0,0:13:15.81,0:13:18.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们还是别再盯着看了    否则要像变态了
+Dialogue: 0,0:13:18.60,0:13:21.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}已经变态了    你俩真可悲
+Dialogue: 0,0:13:22.46,0:13:24.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那为什么      跟我们坐一起
+Dialogue: 0,0:13:24.23,0:13:25.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为我没有朋友
+Dialogue: 0,0:13:27.07,0:13:28.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"学术竞赛 10月13至15日 华盛顿特区"
+Dialogue: 0,0:13:28.41,0:13:29.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下一问题
+Dialogue: 0,0:13:30.03,0:13:32.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最重的自然元素是什么
+Dialogue: 0,0:13:33.71,0:13:35.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}氢是最轻的
+Dialogue: 0,0:13:35.08,0:13:36.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但那不是问题        好吧
+Dialogue: 0,0:13:36.96,0:13:38.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}铀
+Dialogue: 0,0:13:38.34,0:13:40.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}正确     谢谢     亚伯拉罕
+Dialogue: 0,0:13:40.42,0:13:42.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊       请将书打开到第10页
+Dialogue: 0,0:13:42.54,0:13:44.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得       这是全国赛
+Dialogue: 0,0:13:44.85,0:13:46.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你就不能      放一个周末的假吗
+Dialogue: 0,0:13:46.99,0:13:49.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不能去华盛顿     万一斯塔克先生需要我
+Dialogue: 0,0:13:49.35,0:13:51.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我一定得在这儿
+Dialogue: 0,0:13:51.19,0:13:53.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你都没见过     托尼·斯塔克本人吧
+Dialogue: 0,0:13:53.72,0:13:55.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等      怎么了
+Dialogue: 0,0:13:55.11,0:13:56.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得不去华盛顿了
+Dialogue: 0,0:13:56.64,0:13:59.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不        为什么不去
+Dialogue: 0,0:13:59.72,0:14:01.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是吧       马上就国家赛了
+Dialogue: 0,0:14:01.46,0:14:03.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他已经退了军乐团      和机器人实验室
+Dialogue: 0,0:14:05.55,0:14:07.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不是迷上他了     就是观察力强
+Dialogue: 0,0:14:07.99,0:14:10.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士      你替彼得
+Dialogue: 0,0:14:10.20,0:14:12.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这个嘛      我得先看看我的日程
+Dialogue: 0,0:14:12.62,0:14:14.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我跟黑寡妇的约会      就要到了
+Dialogue: 0,0:14:15.68,0:14:16.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}伪命题
+Dialogue: 0,0:14:16.79,0:14:19.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是叫你      别乱按铃胡闹吗
+Dialogue: 0,0:14:36.43,0:14:37.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊      你好
+Dialogue: 0,0:14:40.74,0:14:41.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你好啊     达尔摩先生
+Dialogue: 0,0:14:42.34,0:14:43.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}帕克先生
+Dialogue: 0,0:14:43.75,0:14:44.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还是5号      是吗
+Dialogue: 0,0:14:44.94,0:14:46.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯      加酸黄瓜
+Dialogue: 0,0:14:46.73,0:14:48.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}麻烦压得扁扁的       谢谢
+Dialogue: 0,0:14:48.67,0:14:49.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好嘞
+Dialogue: 0,0:14:50.56,0:14:51.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你婶婶怎么样了
+Dialogue: 0,0:14:52.45,0:14:53.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她挺好
+Dialogue: 0,0:14:54.28,0:14:56.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他婶婶是个    很性感的意大利女人
+Dialogue: 0,0:14:58.09,0:14:59.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你女儿怎么样了
+Dialogue: 0,0:15:02.12,0:15:04.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}10美元      写着5元啊
+Dialogue: 0,0:15:04.40,0:15:05.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}叫你嘴贱       10美元
+Dialogue: 0,0:15:05.46,0:15:07.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托      就是开玩笑
+Dialogue: 0,0:15:08.91,0:15:10.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给你5美元
+Dialogue: 0,0:15:11.42,0:15:12.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊        墨菲
+Dialogue: 0,0:15:13.64,0:15:14.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你好吗      伙计
+Dialogue: 0,0:15:16.94,0:15:18.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}学校怎么样
+Dialogue: 0,0:15:18.96,0:15:20.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}无聊啊     我有更好玩的事可做
+Dialogue: 0,0:15:20.92,0:15:22.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要好好上学    孩子    记住
+Dialogue: 0,0:15:22.93,0:15:24.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}否则      会落得像我一样
+Dialogue: 0,0:15:24.93,0:15:27.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这多棒      皇后区最好的三明治
+Dialogue: 0,0:16:37.78,0:16:38.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可算啊
+Dialogue: 0,0:16:42.60,0:16:44.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你什么毛病
+Dialogue: 0,0:16:44.63,0:16:47.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能拿一下吗      谢谢
+Dialogue: 0,0:16:48.79,0:16:51.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是谁的自行车     没人认吗
+Dialogue: 0,0:16:52.16,0:16:54.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们    这是你的自行车吗    没零钱
+Dialogue: 0,0:16:54.66,0:16:56.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谁有笔吗      你有笔吗
+Dialogue: 0,0:16:56.32,0:16:58.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"这是你的自行车吗  如果不是  别偷走  蜘蛛侠"
+Dialogue: 0,0:17:01.10,0:17:02.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家都好吗
+Dialogue: 0,0:17:10.49,0:17:12.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是油管上那个蜘蛛男      是吧
+Dialogue: 0,0:17:12.73,0:17:13.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}叫我蜘蛛侠啦
+Dialogue: 0,0:17:13.93,0:17:17.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊     蜘蛛侠     翻个身
+Dialogue: 0,0:17:17.83,0:17:20.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊    不赖
+Dialogue: 0,0:17:33.12,0:17:33.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}伙计
+Dialogue: 0,0:17:35.78,0:17:37.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别偷车      这可不好
+Dialogue: 0,0:17:37.13,0:17:38.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我的车      蠢蛋
+Dialogue: 0,0:17:39.17,0:17:40.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快关掉
+Dialogue: 0,0:17:40.33,0:17:42.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}能不能告诉他    这是我的车    我就是...
+Dialogue: 0,0:17:42.54,0:17:44.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还上夜班呢       拜托
+Dialogue: 0,0:17:44.43,0:17:45.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那不是你的车
+Dialogue: 0,0:17:45.43,0:17:46.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是他的车     我怎么能知道是他的
+Dialogue: 0,0:17:46.96,0:17:49.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他还撬窗      每天都这么吵吵
+Dialogue: 0,0:17:49.96,0:17:52.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}关掉      别逼我下去收拾你
+Dialogue: 0,0:17:52.89,0:17:56.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加里      你好吗
+Dialogue: 0,0:17:56.05,0:17:58.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}玛乔莉     你好吗     你妈妈好吗
+Dialogue: 0,0:18:04.86,0:18:07.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没事
+Dialogue: 0,0:18:07.16,0:18:09.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}已为您接入语音信箱     收件人
+Dialogue: 0,0:18:09.55,0:18:11.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮·霍根
+Dialogue: 0,0:18:11.12,0:18:13.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮     跟你报告    下今天的战绩
+Dialogue: 0,0:18:13.68,0:18:15.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我拦截了一个      自行车大盗
+Dialogue: 0,0:18:15.12,0:18:17.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但没找到车主      就留了张字条
+Dialogue: 0,0:18:19.03,0:18:21.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还帮助了一位       迷路的多米尼加老太太
+Dialogue: 0,0:18:21.39,0:18:23.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她很客气    还给我买了个西班牙油条
+Dialogue: 0,0:18:24.93,0:18:27.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是觉得       我还能做到更多
+Dialogue: 0,0:18:27.76,0:18:30.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是想知道       下次任务会是什么时候
+Dialogue: 0,0:18:31.67,0:18:33.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯       那打给我哦
+Dialogue: 0,0:18:33.77,0:18:35.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是彼得    帕克
+Dialogue: 0,0:18:40.93,0:18:42.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}干嘛把油条的事说出来啊
+Dialogue: 0,0:18:53.16,0:18:54.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:18:56.09,0:18:57.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真等不及看看它的威力了
+Dialogue: 0,0:18:57.83,0:18:59.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可算有动真格的了
+Dialogue: 0,0:19:02.50,0:19:04.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有这高科技的玩意      简直太轻松了
+Dialogue: 0,0:19:05.12,0:19:07.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就说这个值吧      快来
+Dialogue: 0,0:19:12.53,0:19:13.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}漂亮
+Dialogue: 0,0:19:14.01,0:19:16.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们今晚       还能再劫五个网点
+Dialogue: 0,0:19:22.62,0:19:27.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"遇到身份盗用了吗    我们保护你"
+Dialogue: 0,0:19:27.94,0:19:29.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}几位好啊      这是忘记卡号了吗
+Dialogue: 0,0:19:31.00,0:19:32.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们是复仇者诶
+Dialogue: 0,0:19:32.64,0:19:34.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们怎么在这儿
+Dialogue: 0,0:19:36.10,0:19:39.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}托尔    绿巨人   可算见到你们了
+Dialogue: 0,0:19:39.82,0:19:42.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我以为你们本人    会更帅些呢    钢铁侠
+Dialogue: 0,0:19:42.74,0:19:45.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你抢银行干什么    你是亿万富翁啊
+Dialogue: 0,0:19:49.65,0:19:51.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}感觉好怪啊
+Dialogue: 0,0:19:53.87,0:19:55.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是什么玩意
+Dialogue: 0,0:19:55.97,0:19:57.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我开始... 觉得...
+Dialogue: 0,0:19:57.61,0:19:59.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们不是... 复仇者了
+Dialogue: 0,0:20:04.25,0:20:05.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}911 有什么紧急情况
+Dialogue: 0,0:20:06.12,0:20:08.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠在大战复仇者联盟
+Dialogue: 0,0:20:08.82,0:20:10.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就在21街的一家银行里
+Dialogue: 0,0:20:10.80,0:20:11.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了    各位     我们做个了结吧
+Dialogue: 0,0:20:11.92,0:20:13.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}明天还上学呢
+Dialogue: 0,0:20:17.00,0:20:19.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你这样的混混     哪弄来这样的装备的
+Dialogue: 0,0:20:21.15,0:20:22.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不      等等
+Dialogue: 0,0:20:27.71,0:20:28.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}达尔摩先生
+Dialogue: 0,0:20:30.77,0:20:34.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}达尔摩先生   你在吗   有人在吗   有人吗
+Dialogue: 0,0:20:43.08,0:20:44.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是吧
+Dialogue: 0,0:20:46.72,0:20:47.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得...
+Dialogue: 0,0:20:48.70,0:20:51.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给      好
+Dialogue: 0,0:20:52.57,0:20:54.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的      很好
+Dialogue: 0,0:20:54.50,0:20:56.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别别      放下来
+Dialogue: 0,0:20:56.25,0:20:57.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那可比你我都值钱
+Dialogue: 0,0:20:58.80,0:20:59.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么事
+Dialogue: 0,0:20:59.40,0:21:01.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮     我刚碰到了    特别疯狂的事
+Dialogue: 0,0:21:01.28,0:21:02.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有群人拿着       高科技的武器
+Dialogue: 0,0:21:02.59,0:21:03.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}打劫了一个      自动提款机网点
+Dialogue: 0,0:21:03.52,0:21:05.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}慢慢说      我没工夫管小打小闹的
+Dialogue: 0,0:21:05.91,0:21:07.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}劫匪       但是
+Dialogue: 0,0:21:07.26,0:21:09.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还有你体贴的留言
+Dialogue: 0,0:21:09.03,0:21:10.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还得操心搬家的事
+Dialogue: 0,0:21:10.35,0:21:12.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下周前       所有东西都得搬走
+Dialogue: 0,0:21:12.71,0:21:14.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等     搬家     谁要搬家
+Dialogue: 0,0:21:14.49,0:21:15.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不看新闻吗
+Dialogue: 0,0:21:16.25,0:21:17.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}托尼卖了复仇者大楼
+Dialogue: 0,0:21:17.85,0:21:19.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们将迁至        州北的新设施
+Dialogue: 0,0:21:19.60,0:21:22.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}希望      那里的手机信号     要烂一些
+Dialogue: 0,0:21:22.06,0:21:24.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那我呢     你怎么了
+Dialogue: 0,0:21:24.99,0:21:26.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那要是斯塔克先生      需要我呢
+Dialogue: 0,0:21:26.50,0:21:28.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或是发生了      什么大事呢
+Dialogue: 0,0:21:28.52,0:21:30.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}能不能让我       跟斯塔克先生谈谈
+Dialogue: 0,0:21:30.00,0:21:31.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别干什么      太危险的事
+Dialogue: 0,0:21:31.86,0:21:34.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要负责确保你      会负责行事     好吗
+Dialogue: 0,0:21:36.57,0:21:37.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我很负责的        我...
+Dialogue: 0,0:21:38.17,0:21:39.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}该死
+Dialogue: 0,0:21:39.23,0:21:41.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的背包没了     那不像负责的样子
+Dialogue: 0,0:21:41.66,0:21:44.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我再打给你吧    不打也行的
+Dialogue: 0,0:22:45.02,0:22:46.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么声音
+Dialogue: 0,0:22:47.43,0:22:49.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没什么     没什么
+Dialogue: 0,0:22:49.43,0:22:50.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是蜘蛛侠
+Dialogue: 0,0:22:51.60,0:22:54.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}油管上那个     我不是
+Dialogue: 0,0:22:54.14,0:22:55.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你刚刚趴在天花板上
+Dialogue: 0,0:22:55.42,0:22:56.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没有... 你为什么在我房间里
+Dialogue: 0,0:22:56.87,0:22:58.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅让我进来的    我们说好一起做完死星的
+Dialogue: 0,0:22:58.77,0:23:00.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不能就这么     闯进我的房间
+Dialogue: 0,0:23:01.15,0:23:04.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个火鸡肉卷的菜谱太烂了
+Dialogue: 0,0:23:04.31,0:23:05.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们出去吃吧     泰国菜行吗
+Dialogue: 0,0:23:05.96,0:23:07.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德     吃泰国菜吗
+Dialogue: 0,0:23:07.05,0:23:08.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊     不好     他还有事
+Dialogue: 0,0:23:08.49,0:23:10.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}之后再做
+Dialogue: 0,0:23:11.44,0:23:12.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:23:13.92,0:23:15.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}穿上点衣服吧
+Dialogue: 0,0:23:17.43,0:23:19.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她还不知道吗     谁都不知道
+Dialogue: 0,0:23:19.67,0:23:21.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生知道     因为他给我做了战衣
+Dialogue: 0,0:23:21.16,0:23:21.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但没别人了
+Dialogue: 0,0:23:21.98,0:23:25.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是托尼·斯塔克做的    你是复仇者吗
+Dialogue: 0,0:23:26.62,0:23:28.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      差不多吧
+Dialogue: 0,0:23:28.18,0:23:31.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐      你不能告诉任何人
+Dialogue: 0,0:23:31.13,0:23:32.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你得保密
+Dialogue: 0,0:23:32.66,0:23:34.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}秘密    为什么   你知道她的
+Dialogue: 0,0:23:34.23,0:23:35.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她要是知道     我每晚都被人追杀
+Dialogue: 0,0:23:35.93,0:23:37.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她就不会允许     我再做下去了
+Dialogue: 0,0:23:37.72,0:23:38.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托了     内德
+Dialogue: 0,0:23:38.81,0:23:40.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:23:41.07,0:23:42.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我跟你说实话
+Dialogue: 0,0:23:42.88,0:23:43.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我觉得      我保不了密
+Dialogue: 0,0:23:43.91,0:23:45.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我      遇到过的最棒的事
+Dialogue: 0,0:23:45.19,0:23:46.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德         梅绝不能知道
+Dialogue: 0,0:23:46.53,0:23:48.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我现在      不能让她那样担心
+Dialogue: 0,0:23:48.69,0:23:49.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}知道吗
+Dialogue: 0,0:23:49.80,0:23:51.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她经受了那么多事      我...
+Dialogue: 0,0:23:51.75,0:23:52.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}求你
+Dialogue: 0,0:23:54.83,0:23:57.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧    发誓     好吗
+Dialogue: 0,0:23:58.14,0:23:58.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我发誓
+Dialogue: 0,0:23:59.26,0:24:01.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢      嗯
+Dialogue: 0,0:24:01.31,0:24:03.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真不敢相信
+Dialogue: 0,0:24:03.39,0:24:04.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能试试战衣吗     不能
+Dialogue: 0,0:24:04.53,0:24:05.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}它是什么原理     磁铁吗
+Dialogue: 0,0:24:05.59,0:24:06.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那些线        你怎么射出来的
+Dialogue: 0,0:24:06.65,0:24:09.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}明天到学校跟你讲     好吗    太好了
+Dialogue: 0,0:24:09.20,0:24:10.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧      等一下
+Dialogue: 0,0:24:11.37,0:24:14.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你怎么同时做这个    和斯塔克的实习
+Dialogue: 0,0:24:15.83,0:24:17.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这就是斯塔克的实习
+Dialogue: 0,0:24:19.36,0:24:20.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走吧
+Dialogue: 0,0:24:24.20,0:24:25.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么了
+Dialogue: 0,0:24:26.18,0:24:27.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不是喜欢肉沙拉吗
+Dialogue: 0,0:24:28.30,0:24:29.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太腻了吗
+Dialogue: 0,0:24:30.22,0:24:32.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不够腻
+Dialogue: 0,0:24:33.02,0:24:35.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还要我说几次"腻"
+Dialogue: 0,0:24:36.11,0:24:37.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}才肯跟我说话
+Dialogue: 0,0:24:37.99,0:24:39.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道我爱腻
+Dialogue: 0,0:24:40.10,0:24:43.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是压力大     实习让我好累
+Dialogue: 0,0:24:43.40,0:24:44.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很忙碌
+Dialogue: 0,0:24:44.60,0:24:46.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克的实习
+Dialogue: 0,0:24:46.86,0:24:50.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}跟你说    我可不怎么喜欢    那个托尼·斯塔克
+Dialogue: 0,0:24:51.68,0:24:55.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你总是一心多用      他搞得你心神不宁
+Dialogue: 0,0:24:55.26,0:24:57.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}深受喜爱的皇后区   达尔摩三明治店   他都叫你做什么
+Dialogue: 0,0:24:57.88,0:25:00.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在今晚早些时候的一场爆炸中被毁    你得相信直觉
+Dialogue: 0,0:25:00.28,0:25:02.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爆炸起因是一场被挫败的     自动提款机抢劫
+Dialogue: 0,0:25:02.25,0:25:05.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而见义勇为的   正是皇后区本地的犯罪终结者   怎么了
+Dialogue: 0,0:25:05.03,0:25:06.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠
+Dialogue: 0,0:25:06.48,0:25:08.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠在阻止他们抢劫的过程中
+Dialogue: 0,0:25:08.84,0:25:10.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}一股强大的冲击波被触发
+Dialogue: 0,0:25:10.54,0:25:12.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}结果切碎了街对面的小店
+Dialogue: 0,0:25:12.85,0:25:15.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}奇迹的是     没人受伤
+Dialogue: 0,0:25:15.03,0:25:17.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要是看到了这样的事
+Dialogue: 0,0:25:17.02,0:25:18.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}立刻调头就跑
+Dialogue: 0,0:25:19.22,0:25:21.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯嗯       当然了
+Dialogue: 0,0:25:21.06,0:25:22.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}离我们就六个街区
+Dialogue: 0,0:25:22.74,0:25:24.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我需要新背包
+Dialogue: 0,0:25:26.01,0:25:28.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么      我需要新背包
+Dialogue: 0,0:25:28.59,0:25:30.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这都第五个了
+Dialogue: 0,0:25:31.08,0:25:33.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}糯米布丁     我们没点那个
+Dialogue: 0,0:25:33.59,0:25:34.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}请你们的
+Dialogue: 0,0:25:36.48,0:25:37.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,0:25:39.31,0:25:40.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他真好心
+Dialogue: 0,0:25:41.70,0:25:43.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我觉得他喜欢腻
+Dialogue: 0,0:25:45.71,0:25:47.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你被一只蜘蛛咬了
+Dialogue: 0,0:25:47.42,0:25:48.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}能让它咬咬我吗
+Dialogue: 0,0:25:49.26,0:25:50.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大概挺疼的吧
+Dialogue: 0,0:25:51.21,0:25:53.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}算了    就算真疼    我也忍了
+Dialogue: 0,0:25:53.66,0:25:55.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许吧     到底多疼
+Dialogue: 0,0:25:55.61,0:25:57.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那只蜘蛛死了    内德
+Dialogue: 0,0:26:06.21,0:26:07.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你当时在场
+Dialogue: 0,0:26:08.65,0:26:09.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊
+Dialogue: 0,0:26:11.03,0:26:12.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你可能会没命呢
+Dialogue: 0,0:26:15.77,0:26:17.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你下蛋吗
+Dialogue: 0,0:26:17.50,0:26:19.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么     不
+Dialogue: 0,0:26:21.55,0:26:24.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能吐毒液吗     不能
+Dialogue: 0,0:26:24.52,0:26:26.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能召唤一支蜘蛛大军出来吗
+Dialogue: 0,0:26:27.12,0:26:28.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不能     内德
+Dialogue: 0,0:26:28.10,0:26:31.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}《索科威亚协议》的签订
+Dialogue: 0,0:26:31.31,0:26:33.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的网能射多远
+Dialogue: 0,0:26:33.83,0:26:35.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没试过      闭嘴
+Dialogue: 0,0:26:35.21,0:26:36.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}开始管理...
+Dialogue: 0,0:26:36.56,0:26:39.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要是你     就站在一栋建筑边缘
+Dialogue: 0,0:26:39.12,0:26:41.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}尽量往远了射    闭嘴啦    内德
+Dialogue: 0,0:26:42.45,0:26:43.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"美国队长    健身挑战"
+Dialogue: 0,0:26:43.55,0:26:44.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家好    我是美国队长
+Dialogue: 0,0:26:44.94,0:26:46.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不管你是在课堂里    还是战场上
+Dialogue: 0,0:26:46.40,0:26:48.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还认识他吗    嗯    我们见过
+Dialogue: 0,0:26:49.73,0:26:51.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我偷了他的盾     什么
+Dialogue: 0,0:26:51.40,0:26:54.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}今天    我的好朋友   你们的体育老师
+Dialogue: 0,0:26:54.52,0:26:57.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}将带大家进行     美国队长健身挑战
+Dialogue: 0,0:26:57.45,0:26:58.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢       队长
+Dialogue: 0,0:26:58.51,0:26:59.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"第一关   仰卧起坐"
+Dialogue: 0,0:26:59.61,0:27:00.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这家伙按说     现在是战犯了
+Dialogue: 0,0:27:00.90,0:27:02.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但管他呢     我必须给你们看视频
+Dialogue: 0,0:27:02.10,0:27:03.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是州的要求      我们开始吧
+Dialogue: 0,0:27:04.06,0:27:05.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}复仇者还要缴税吗
+Dialogue: 0,0:27:05.95,0:27:07.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}绿巨人什么味儿
+Dialogue: 0,0:27:07.63,0:27:09.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}肯定香香的     闭嘴吧
+Dialogue: 0,0:27:09.68,0:27:12.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}美国队长人挺好吗    还是坏脾气老头那种
+Dialogue: 0,0:27:12.65,0:27:14.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德    别说了    好吗
+Dialogue: 0,0:27:15.65,0:27:17.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能做你的     技术支援吗
+Dialogue: 0,0:27:17.56,0:27:18.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么
+Dialogue: 0,0:27:18.30,0:27:21.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是那个戴着耳机
+Dialogue: 0,0:27:21.33,0:27:23.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}指挥另一个人行动的人
+Dialogue: 0,0:27:23.24,0:27:25.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}比如      如果你困在了火场里
+Dialogue: 0,0:27:25.50,0:27:26.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可以告诉你        该去哪
+Dialogue: 0,0:27:26.22,0:27:28.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可以在一堆屏幕之间周旋
+Dialogue: 0,0:27:28.62,0:27:29.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可以做你的技术支援
+Dialogue: 0,0:27:29.92,0:27:32.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德      我不需要技术支援
+Dialogue: 0,0:27:32.22,0:27:33.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不错      帕克
+Dialogue: 0,0:27:35.85,0:27:39.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是我呢     就是上托尔
+Dialogue: 0,0:27:39.83,0:27:41.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嫁钢铁侠     杀绿巨人
+Dialogue: 0,0:27:41.77,0:27:43.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那蜘蛛大侠呢
+Dialogue: 0,0:27:43.69,0:27:44.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是蜘蛛侠
+Dialogue: 0,0:27:44.82,0:27:46.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们在油管上    看到银行的监控录像了吗
+Dialogue: 0,0:27:46.98,0:27:48.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他打退了四个人
+Dialogue: 0,0:27:48.41,0:27:50.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐      她喜欢上蜘蛛侠了
+Dialogue: 0,0:27:50.39,0:27:51.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不会吧
+Dialogue: 0,0:27:51.82,0:27:54.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有点吧      恶心
+Dialogue: 0,0:27:54.80,0:27:55.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他可能都30了
+Dialogue: 0,0:27:55.84,0:27:57.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你都不知道      他长什么样
+Dialogue: 0,0:27:57.10,0:27:59.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是他严重烧伤了呢
+Dialogue: 0,0:27:59.17,0:28:02.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不会在乎    我还是会爱他的为人
+Dialogue: 0,0:28:02.07,0:28:03.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得认识蜘蛛侠
+Dialogue: 0,0:28:06.68,0:28:09.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不     我不     不...
+Dialogue: 0,0:28:10.08,0:28:11.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们是朋友
+Dialogue: 0,0:28:11.22,0:28:13.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}威尔森教练     还是美国队长的"好朋友"呢
+Dialogue: 0,0:28:14.93,0:28:17.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是见过他几次
+Dialogue: 0,0:28:17.88,0:28:19.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但是
+Dialogue: 0,0:28:19.81,0:28:22.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是因为斯塔克实习
+Dialogue: 0,0:28:23.04,0:28:25.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我不该说出来的
+Dialogue: 0,0:28:25.57,0:28:27.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太赞了      这样吧
+Dialogue: 0,0:28:27.97,0:28:30.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许你该请他参加丽兹的派对 是吧
+Dialogue: 0,0:28:30.02,0:28:32.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊       我今晚请大家来玩的
+Dialogue: 0,0:28:32.73,0:28:34.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}非常欢迎你也来
+Dialogue: 0,0:28:34.01,0:28:36.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}开派对吗    是啊    会很赞的
+Dialogue: 0,0:28:36.37,0:28:38.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你真该把你的私密好友     蜘蛛侠也请来
+Dialogue: 0,0:28:39.74,0:28:40.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}算了
+Dialogue: 0,0:28:41.38,0:28:44.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道彼得    反正也忙得没时间    参加派对
+Dialogue: 0,0:28:44.44,0:28:46.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}得了    他会去的    是吧    帕克
+Dialogue: 0,0:28:52.70,0:28:53.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在干什么
+Dialogue: 0,0:28:53.80,0:28:55.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}帮你忙
+Dialogue: 0,0:28:55.82,0:28:57.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没听到她说吗
+Dialogue: 0,0:28:57.60,0:28:59.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹喜欢你
+Dialogue: 0,0:29:02.90,0:29:04.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们     你是个复仇者
+Dialogue: 0,0:29:04.74,0:29:07.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要说我们中    谁有机会约到高四女生    就是你了
+Dialogue: 0,0:29:12.17,0:29:14.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}郊区的家庭派对
+Dialogue: 0,0:29:15.45,0:29:18.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这我记得      好嫉妒
+Dialogue: 0,0:29:18.16,0:29:19.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}今晚会难以忘怀
+Dialogue: 0,0:29:20.95,0:29:23.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德    有些帽子挑人    那顶帽子很衬你
+Dialogue: 0,0:29:23.79,0:29:25.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯       它能给我自信
+Dialogue: 0,0:29:25.97,0:29:27.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是个错误
+Dialogue: 0,0:29:27.34,0:29:28.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们还是回家吧
+Dialogue: 0,0:29:29.39,0:29:30.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,0:29:30.35,0:29:33.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道      我知道这很难
+Dialogue: 0,0:29:33.23,0:29:36.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}努力融入的同时     眼看着自己的身体发生变化
+Dialogue: 0,0:29:36.70,0:29:38.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你正在萌发
+Dialogue: 0,0:29:39.97,0:29:42.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他最近压力好大
+Dialogue: 0,0:29:42.02,0:29:43.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}去参加派对       很能减压的
+Dialogue: 0,0:29:43.81,0:29:44.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们去吧     嗯     我们去吧
+Dialogue: 0,0:29:44.91,0:29:46.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我去了     我去了
+Dialogue: 0,0:29:48.26,0:29:49.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,0:29:50.33,0:29:52.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好好玩     好吗    好啊
+Dialogue: 0,0:29:53.00,0:29:54.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见       梅
+Dialogue: 0,0:29:56.58,0:29:58.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们      你带战衣了吧
+Dialogue: 0,0:29:59.93,0:30:01.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们的人生     要就此改变了
+Dialogue: 0,0:30:12.56,0:30:14.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}DJ弗拉士
+Dialogue: 0,0:30:15.14,0:30:17.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好       让蜘蛛侠飞进来
+Dialogue: 0,0:30:17.77,0:30:19.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后说      你们关系很好
+Dialogue: 0,0:30:19.18,0:30:21.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后跟我撞个拳    或来个那种哥们半抱
+Dialogue: 0,0:30:21.88,0:30:23.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真不敢相信      你们也来这个没劲的派对了
+Dialogue: 0,0:30:24.13,0:30:25.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不也来了吗
+Dialogue: 0,0:30:26.55,0:30:27.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我来了吗
+Dialogue: 0,0:30:30.63,0:30:31.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,0:30:31.64,0:30:33.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们好啊     帽子真帅     内德
+Dialogue: 0,0:30:33.97,0:30:35.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊    丽兹    好啊    丽兹
+Dialogue: 0,0:30:35.81,0:30:37.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们来我太高兴了
+Dialogue: 0,0:30:37.87,0:30:40.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有披萨    有酒    别客气
+Dialogue: 0,0:30:41.40,0:30:43.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}派对真棒     谢谢
+Dialogue: 0,0:30:47.66,0:30:50.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是真打破了什么     我爸妈会杀了我的
+Dialogue: 0,0:30:50.10,0:30:51.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得去...  嗯
+Dialogue: 0,0:30:51.99,0:30:52.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好好玩
+Dialogue: 0,0:30:52.49,0:30:53.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见      再见
+Dialogue: 0,0:30:54.48,0:30:56.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们      你干什么呢
+Dialogue: 0,0:30:56.82,0:30:58.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她就在这儿     快去扮成蜘蛛
+Dialogue: 0,0:30:58.95,0:31:01.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不      我不能这么做
+Dialogue: 0,0:31:01.73,0:31:03.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠不是派对猴戏     好吗
+Dialogue: 0,0:31:04.26,0:31:07.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就做我自己吧
+Dialogue: 0,0:31:07.67,0:31:09.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得       没人想看那个
+Dialogue: 0,0:31:09.78,0:31:10.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老铁
+Dialogue: 0,0:31:11.80,0:31:14.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}软蛋     帕克    你好啊
+Dialogue: 0,0:31:15.10,0:31:16.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的好哥们蜘蛛侠呢
+Dialogue: 0,0:31:16.70,0:31:19.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我猜猜     跟你的假想女友    在加拿大吗
+Dialogue: 0,0:31:20.82,0:31:22.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那不是蜘蛛侠啊
+Dialogue: 0,0:31:22.34,0:31:24.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是穿红衬衫的内德
+Dialogue: 0,0:31:32.68,0:31:34.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊       我是蜘蛛侠
+Dialogue: 0,0:31:34.90,0:31:37.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是路过     跟我哥们彼得打个招呼
+Dialogue: 0,0:31:38.18,0:31:40.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德     好啊     彼得人呢
+Dialogue: 0,0:31:40.26,0:31:41.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他就在附近吧
+Dialogue: 0,0:31:46.70,0:31:48.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐      这真蠢
+Dialogue: 0,0:31:48.58,0:31:49.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在干什么
+Dialogue: 0,0:31:58.87,0:31:59.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}搞什么
+Dialogue: 0,0:32:21.55,0:32:22.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真烦人
+Dialogue: 0,0:32:27.91,0:32:32.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是用    在索科威亚回收的奥创手臂    制作的
+Dialogue: 0,0:32:32.15,0:32:33.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给      你试试看
+Dialogue: 0,0:32:35.21,0:32:37.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们     我只想要点低调的东西
+Dialogue: 0,0:32:37.17,0:32:38.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你干吗卖我这些高档货
+Dialogue: 0,0:32:38.48,0:32:40.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧      我有符合你要求的
+Dialogue: 0,0:32:40.75,0:32:42.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我这里有一堆好东西
+Dialogue: 0,0:32:43.23,0:32:44.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}稍等
+Dialogue: 0,0:32:44.26,0:32:49.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我有黑洞手榴弹     齐塔瑞磁轨炮
+Dialogue: 0,0:32:49.00,0:32:51.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还在野外乱开火了    快点吧
+Dialogue: 0,0:32:51.07,0:32:52.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}时代变了
+Dialogue: 0,0:32:52.70,0:32:55.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}只有我们卖这些个高科技武器
+Dialogue: 0,0:32:55.74,0:32:57.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}自动提款机劫匪      肯定就从他们这儿买的武器
+Dialogue: 0,0:32:57.91,0:32:59.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只是想要     打劫的家伙事
+Dialogue: 0,0:32:59.97,0:33:02.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没想      把他们打回到过去
+Dialogue: 0,0:33:02.84,0:33:05.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我有反重力攀爬器
+Dialogue: 0,0:33:05.22,0:33:06.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}攀爬器
+Dialogue: 0,0:33:08.99,0:33:10.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是什么鬼动静
+Dialogue: 0,0:33:11.17,0:33:12.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"内德"
+Dialogue: 0,0:33:12.69,0:33:14.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是你布的局吗     冷静      哥们
+Dialogue: 0,0:33:17.97,0:33:20.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}喂喂     你想开枪     就冲我来吧
+Dialogue: 0,0:33:20.88,0:33:21.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊
+Dialogue: 0,0:33:34.57,0:33:35.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是什么
+Dialogue: 0,0:33:47.82,0:33:50.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们得联系他     不用
+Dialogue: 0,0:33:56.59,0:33:57.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你又乱开火了吗
+Dialogue: 0,0:33:58.20,0:34:00.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}闭嘴      我要打给他
+Dialogue: 0,0:34:09.42,0:34:10.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}图姆斯电话
+Dialogue: 0,0:34:12.37,0:34:13.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老大
+Dialogue: 0,0:34:14.20,0:34:15.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的屁股
+Dialogue: 0,0:34:35.01,0:34:37.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这可好      那我得走捷径了
+Dialogue: 0,0:34:40.39,0:34:42.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}两位     打得好     玩得开心点
+Dialogue: 0,0:34:43.79,0:34:44.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}乖狗狗
+Dialogue: 0,0:34:45.19,0:34:47.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉     没工夫玩     去捡
+Dialogue: 0,0:34:49.40,0:34:51.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这才像话嘛
+Dialogue: 0,0:35:04.27,0:35:05.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好香
+Dialogue: 0,0:35:09.30,0:35:10.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这电影真棒
+Dialogue: 0,0:35:16.81,0:35:17.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们好啊
+Dialogue: 0,0:35:21.84,0:35:23.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是彼得    请留言
+Dialogue: 0,0:35:24.47,0:35:25.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得     你去哪了
+Dialogue: 0,0:35:26.10,0:35:28.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}帽子没给我加分    你这样可不好
+Dialogue: 0,0:35:29.08,0:35:30.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}差一点
+Dialogue: 0,0:35:43.33,0:35:44.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}以为你甩掉我了    是吧
+Dialogue: 0,0:35:46.22,0:35:48.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我早料到你会到这儿了
+Dialogue: 0,0:35:48.68,0:35:50.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}惊不惊喜
+Dialogue: 0,0:35:54.41,0:35:55.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么回事
+Dialogue: 0,0:36:48.53,0:36:51.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后他像个怪物似的     一个猛子扎下来
+Dialogue: 0,0:36:51.15,0:36:52.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱起了我
+Dialogue: 0,0:36:52.25,0:36:55.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}带我飞了好高      然后又把我丢了下来
+Dialogue: 0,0:36:55.80,0:36:56.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你怎么找到我的
+Dialogue: 0,0:36:56.47,0:36:58.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在我的战衣上      装了追踪器吗
+Dialogue: 0,0:36:58.18,0:36:59.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在你的战衣上     什么都装了
+Dialogue: 0,0:37:00.43,0:37:02.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}包括这个加热器
+Dialogue: 0,0:37:05.06,0:37:06.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}舒服多了     谢谢
+Dialogue: 0,0:37:07.72,0:37:08.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你怎么想的啊
+Dialogue: 0,0:37:08.82,0:37:10.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个带翅膀的男人    显然是武器的源头
+Dialogue: 0,0:37:10.98,0:37:12.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得拿下他
+Dialogue: 0,0:37:12.25,0:37:14.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还拿下他呢
+Dialogue: 0,0:37:14.25,0:37:17.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别冲动     这种事是有专人负责管的
+Dialogue: 0,0:37:17.19,0:37:18.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}复仇者吗      不不
+Dialogue: 0,0:37:18.84,0:37:19.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这种事      不值得他们出手
+Dialogue: 0,0:37:19.96,0:37:22.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}总之    斯塔克先生    您不必大老远赶来的
+Dialogue: 0,0:37:22.36,0:37:24.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我刚刚能搞定的     我没事的
+Dialogue: 0,0:37:24.50,0:37:26.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没赶来
+Dialogue: 0,0:37:28.30,0:37:30.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}幸好这地方     有无线网络
+Dialogue: 0,0:37:30.34,0:37:32.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}否则你现在      就死翘翘了
+Dialogue: 0,0:37:32.14,0:37:33.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}顺便也感谢象鼻神吧
+Dialogue: 0,0:37:33.57,0:37:34.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,0:37:35.22,0:37:37.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托你别管那个会飞的秃鹫男了
+Dialogue: 0,0:37:37.70,0:37:38.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}为什么     还为什么
+Dialogue: 0,0:37:38.56,0:37:40.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为我说了
+Dialogue: 0,0:37:41.16,0:37:43.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉     教训小孩子呢
+Dialogue: 0,0:37:44.17,0:37:45.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}脚踏实地
+Dialogue: 0,0:37:45.75,0:37:47.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}先帮助小人物     循序渐进
+Dialogue: 0,0:37:47.95,0:37:50.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}比如那个     给你买油条的老太太
+Dialogue: 0,0:37:50.57,0:37:52.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不能就做个友善的
+Dialogue: 0,0:37:54.12,0:37:55.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好街坊蜘蛛侠吗
+Dialogue: 0,0:37:55.51,0:37:57.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我现在已经准备好     承担更多责任了
+Dialogue: 0,0:37:57.95,0:37:59.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不      你没有
+Dialogue: 0,0:37:59.01,0:38:01.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我迎战美国队长时    你可不是这么想的
+Dialogue: 0,0:38:01.37,0:38:02.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}相信我       孩子
+Dialogue: 0,0:38:02.32,0:38:04.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是美队真想打趴你     他是做得到的
+Dialogue: 0,0:38:04.56,0:38:05.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听我说
+Dialogue: 0,0:38:05.41,0:38:08.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要是再碰到这些武器     联系哈皮
+Dialogue: 0,0:38:09.22,0:38:10.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在开车吗
+Dialogue: 0,0:38:10.75,0:38:13.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}考虑大学的事       永远不嫌早
+Dialogue: 0,0:38:14.04,0:38:16.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在麻省理工有关系      结束通话
+Dialogue: 0,0:38:17.36,0:38:18.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不     我不需要去大学
+Dialogue: 0,0:38:18.52,0:38:20.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生     斯塔克先生已断线
+Dialogue: 0,0:38:23.59,0:38:24.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这可好
+Dialogue: 0,0:38:28.00,0:38:30.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"脚踏实地"     他说什么呢
+Dialogue: 0,0:38:50.61,0:38:52.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}伙计     怎么了     我正要回去
+Dialogue: 0,0:38:52.09,0:38:54.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实     我是打来告诉你     你还是别来了
+Dialogue: 0,0:38:54.52,0:38:55.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家听着      听啊
+Dialogue: 0,0:38:55.46,0:38:58.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我说"软蛋"       你们说"帕克
+Dialogue: 0,0:38:58.05,0:38:59.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}软蛋      帕克
+Dialogue: 0,0:38:59.38,0:39:00.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}软蛋      帕克
+Dialogue: 0,0:39:00.96,0:39:03.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉    彼得    看来我们还是那么可悲
+Dialogue: 0,0:39:03.42,0:39:04.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}明天见
+Dialogue: 0,0:39:04.16,0:39:05.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}明天学校见
+Dialogue: 0,0:39:46.49,0:39:47.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}白痴
+Dialogue: 0,0:39:49.06,0:39:49.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}白痴
+Dialogue: 0,0:39:50.05,0:39:51.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}白痴
+Dialogue: 0,0:39:52.80,0:39:56.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老大     你老婆一直在给你发短信
+Dialogue: 0,0:39:56.19,0:39:57.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么刹车灯的事
+Dialogue: 0,0:39:57.75,0:39:59.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不是叫你       别看我的手机吗
+Dialogue: 0,0:40:00.10,0:40:01.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉      你就搁在这儿了
+Dialogue: 0,0:40:01.42,0:40:03.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道       我这人天生好奇
+Dialogue: 0,0:40:05.25,0:40:08.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我设计好那个      高空真空密封装置了
+Dialogue: 0,0:40:09.53,0:40:12.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果你想...  干票大的的话
+Dialogue: 0,0:40:12.74,0:40:14.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还在研究那个     我说不行了
+Dialogue: 0,0:40:14.97,0:40:16.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行的       别想了
+Dialogue: 0,0:40:28.18,0:40:30.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}刚刚太帅了
+Dialogue: 0,0:40:33.21,0:40:35.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我跟你说多少次了
+Dialogue: 0,0:40:35.49,0:40:37.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别在外面乱开火
+Dialogue: 0,0:40:37.26,0:40:40.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你叫我卖掉货的     低调卖
+Dialogue: 0,0:40:40.08,0:40:41.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}低调卖
+Dialogue: 0,0:40:41.20,0:40:42.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这样我们才能生存下去
+Dialogue: 0,0:40:43.48,0:40:45.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要是招来了损害控制
+Dialogue: 0,0:40:45.04,0:40:47.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或是复仇者       我们就完了
+Dialogue: 0,0:40:47.28,0:40:49.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在外面       戴着那个傻兮兮的玩意
+Dialogue: 0,0:40:49.15,0:40:52.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}到处炸车       还自称"惊悚"
+Dialogue: 0,0:40:52.12,0:40:54.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是惊悚       我以惊制人
+Dialogue: 0,0:40:54.07,0:40:55.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是职业摔跤吗
+Dialogue: 0,0:40:55.35,0:40:57.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}随你说吧     老头子     行了
+Dialogue: 0,0:40:58.66,0:40:59.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听着
+Dialogue: 0,0:41:00.33,0:41:01.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听着
+Dialogue: 0,0:41:01.83,0:41:04.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道      你是什么都不在乎
+Dialogue: 0,0:41:04.75,0:41:05.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我在乎
+Dialogue: 0,0:41:06.59,0:41:07.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我建立这里
+Dialogue: 0,0:41:07.79,0:41:09.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是为了照顾      我要照顾的人
+Dialogue: 0,0:41:09.71,0:41:12.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯嗯
+Dialogue: 0,0:41:15.24,0:41:16.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道吗
+Dialogue: 0,0:41:16.84,0:41:18.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我受不起你的胡闹
+Dialogue: 0,0:41:19.64,0:41:21.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}滚      什么
+Dialogue: 0,0:41:21.24,0:41:22.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你完了     你被踢出去了
+Dialogue: 0,0:41:22.93,0:41:23.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:41:25.48,0:41:26.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:41:26.54,0:41:29.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但你赶我出去能放心吗
+Dialogue: 0,0:41:29.27,0:41:30.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道那么多事
+Dialogue: 0,0:41:32.05,0:41:32.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你说什么
+Dialogue: 0,0:41:33.90,0:41:36.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是说     或许你妻子会想知道
+Dialogue: 0,0:41:36.61,0:41:38.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的钱        究竟是哪来的
+Dialogue: 0,0:41:39.57,0:41:41.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道吗      什么
+Dialogue: 0,0:41:41.64,0:41:42.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你说的对
+Dialogue: 0,0:41:43.05,0:41:44.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个好使吗     我不知道
+Dialogue: 0,0:41:45.75,0:41:47.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是不放心
+Dialogue: 0,0:41:48.21,0:41:49.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等
+Dialogue: 0,0:41:56.62,0:41:57.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我去
+Dialogue: 0,0:42:00.71,0:42:02.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这不是反重力枪吗
+Dialogue: 0,0:42:02.57,0:42:04.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么    不    那个才是
+Dialogue: 0,0:42:17.92,0:42:18.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给
+Dialogue: 0,0:42:20.05,0:42:21.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}现在你是惊悚了
+Dialogue: 0,0:42:21.31,0:42:23.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}去把他丢的武器     找回来
+Dialogue: 0,0:42:24.33,0:42:25.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,0:42:34.74,0:42:36.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢你      抛下我了
+Dialogue: 0,0:42:36.32,0:42:37.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}突然有事嘛
+Dialogue: 0,0:42:38.77,0:42:39.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是什么啊
+Dialogue: 0,0:42:40.39,0:42:43.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不知道     有人企图拿它蒸发了我
+Dialogue: 0,0:42:43.15,0:42:44.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的      嗯
+Dialogue: 0,0:42:44.66,0:42:45.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}赞啊
+Dialogue: 0,0:42:46.27,0:42:49.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不赞        那人太过分了
+Dialogue: 0,0:42:49.58,0:42:51.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真吓人      是啊
+Dialogue: 0,0:42:52.66,0:42:56.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我觉得这是个能源
+Dialogue: 0,0:42:56.14,0:42:58.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊       但它连着各种微处理器
+Dialogue: 0,0:42:58.96,0:43:00.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是感应充电板
+Dialogue: 0,0:43:00.40,0:43:02.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就用那个       给我的牙刷充电
+Dialogue: 0,0:43:02.13,0:43:03.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}做这些武器的人
+Dialogue: 0,0:43:03.37,0:43:05.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}显然是结合了外星和人类的科技
+Dialogue: 0,0:43:05.58,0:43:09.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这真是史上      最酷的一句话了
+Dialogue: 0,0:43:09.52,0:43:10.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只想感谢你
+Dialogue: 0,0:43:10.87,0:43:12.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}让我加入你的旅途
+Dialogue: 0,0:43:12.73,0:43:14.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}进入这神奇的...
+Dialogue: 0,0:43:17.67,0:43:20.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}手指别往刀刃上送
+Dialogue: 0,0:43:23.03,0:43:25.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得查明这玩意     是什么    是谁做的
+Dialogue: 0,0:43:25.21,0:43:27.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们下课后     去实验室做些测试
+Dialogue: 0,0:43:27.26,0:43:28.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,0:43:36.36,0:43:38.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}首先    我觉得该用质谱仪    分析一下发光物
+Dialogue: 0,0:43:38.94,0:43:41.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}首先   我们得想个比  "发光物"  更好的名字
+Dialogue: 0,0:43:41.34,0:43:42.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊
+Dialogue: 0,0:43:43.88,0:43:44.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}该死
+Dialogue: 0,0:43:45.79,0:43:47.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}过来
+Dialogue: 0,0:43:51.93,0:43:53.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}高中真让我不舒服
+Dialogue: 0,0:43:54.09,0:43:56.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有种奇怪的味儿      知道吗
+Dialogue: 0,0:43:56.37,0:43:58.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是企图杀我的人之一
+Dialogue: 0,0:43:58.77,0:44:00.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么      是啊
+Dialogue: 0,0:44:00.41,0:44:01.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们得赶紧跑
+Dialogue: 0,0:44:01.38,0:44:02.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不
+Dialogue: 0,0:44:03.02,0:44:03.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得跟上他们
+Dialogue: 0,0:44:03.72,0:44:06.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许他们能引我找到       把我丢进湖里的人
+Dialogue: 0,0:44:06.34,0:44:07.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有人把你丢进了湖里
+Dialogue: 0,0:44:07.32,0:44:08.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      那滋味可不好受
+Dialogue: 0,0:44:10.39,0:44:12.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得    不   待在这里    内德
+Dialogue: 0,0:44:12.23,0:44:13.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,0:44:16.84,0:44:17.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你干什么呢
+Dialogue: 0,0:44:18.33,0:44:19.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没什么
+Dialogue: 0,0:44:19.76,0:44:21.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯     你挺好吗
+Dialogue: 0,0:44:22.31,0:44:23.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下象棋呢
+Dialogue: 0,0:44:25.81,0:44:27.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是老大知道      我们在哪
+Dialogue: 0,0:44:27.33,0:44:28.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他会怎么说啊
+Dialogue: 0,0:44:29.68,0:44:31.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}读数显示      这里有能量脉冲
+Dialogue: 0,0:44:31.97,0:44:33.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但武器不在
+Dialogue: 0,0:44:33.53,0:44:35.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就算之前在      现在也不在了
+Dialogue: 0,0:44:35.77,0:44:36.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们也走吧
+Dialogue: 0,0:45:09.03,0:45:11.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这好赞
+Dialogue: 0,0:45:12.11,0:45:13.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是吧
+Dialogue: 0,0:45:17.15,0:45:18.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们在布鲁克林
+Dialogue: 0,0:45:23.11,0:45:24.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔顿岛
+Dialogue: 0,0:45:30.69,0:45:31.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}离开泽西了
+Dialogue: 0,0:45:40.16,0:45:41.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们停下了
+Dialogue: 0,0:45:44.76,0:45:45.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}马里兰州
+Dialogue: 0,0:45:45.89,0:45:47.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那里有什么     我不知道
+Dialogue: 0,0:45:48.49,0:45:49.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}邪恶老巢吗
+Dialogue: 0,0:45:50.03,0:45:51.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们有老巢      哥们
+Dialogue: 0,0:45:51.07,0:45:52.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}一个鼓捣外星武器     老大长翅膀的团伙
+Dialogue: 0,0:45:52.91,0:45:54.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们绝对有老巢啊
+Dialogue: 0,0:45:54.23,0:45:55.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}厉害
+Dialogue: 0,0:45:55.82,0:45:58.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但你要怎么过去啊     离这儿有300英里呢
+Dialogue: 0,0:45:59.65,0:46:00.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"学术竞赛    华盛顿特区"
+Dialogue: 0,0:46:00.89,0:46:02.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}离华盛顿不远
+Dialogue: 0,0:46:04.76,0:46:05.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是彼得      各位
+Dialogue: 0,0:46:05.94,0:46:06.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得      好啊      伙计
+Dialogue: 0,0:46:06.79,0:46:08.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我希望      我还能归队
+Dialogue: 0,0:46:08.65,0:46:11.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行      你不能突然退出
+Dialogue: 0,0:46:11.15,0:46:13.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后又大摇大摆地回来     还指望大家都欢迎你
+Dialogue: 0,0:46:13.44,0:46:14.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}欢迎回来     彼得
+Dialogue: 0,0:46:14.96,0:46:16.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士     你还做回第一替补
+Dialogue: 0,0:46:16.71,0:46:17.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么      他要占你的位子
+Dialogue: 0,0:46:17.99,0:46:19.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个     我们能不能走了
+Dialogue: 0,0:46:19.78,0:46:21.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想在晚餐之前     去哪个大使馆
+Dialogue: 0,0:46:21.48,0:46:23.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小小抗议一会儿
+Dialogue: 0,0:46:23.67,0:46:26.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抗议是爱国行为     我们上大巴吧
+Dialogue: 0,0:46:28.29,0:46:29.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家注意了
+Dialogue: 0,0:46:29.16,0:46:30.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下一话题      土星卫星
+Dialogue: 0,0:46:30.50,0:46:31.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"华盛顿 126英里"
+Dialogue: 0,0:46:32.15,0:46:33.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}热力学第二定律
+Dialogue: 0,0:46:33.77,0:46:35.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗兰克·辛纳屈
+Dialogue: 0,0:46:35.42,0:46:36.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}萨姆特堡
+Dialogue: 0,0:46:36.53,0:46:38.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士说错了    好了    大家专心
+Dialogue: 0,0:46:38.39,0:46:40.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下一个     丽兹     别累着他们了
+Dialogue: 0,0:46:41.16,0:46:42.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}锶    钡    振金
+Dialogue: 0,0:46:42.79,0:46:44.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很好    彼得    很高兴你能回来
+Dialogue: 0,0:46:44.92,0:46:45.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很高兴能回来
+Dialogue: 0,0:46:46.81,0:46:47.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"哈皮"
+Dialogue: 0,0:46:47.71,0:46:48.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}目前的标准...
+Dialogue: 0,0:46:48.87,0:46:49.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能去接个电话吗
+Dialogue: 0,0:46:49.86,0:46:51.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很快的     去吧
+Dialogue: 0,0:46:52.08,0:46:52.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}喂
+Dialogue: 0,0:46:52.77,0:46:55.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我屏幕的光点显示    你是出纽约了
+Dialogue: 0,0:46:55.30,0:46:56.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了    各位注意     追踪器
+Dialogue: 0,0:46:56.90,0:46:59.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊    学校旅行    没事的
+Dialogue: 0,0:46:59.45,0:47:00.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮     我得说
+Dialogue: 0,0:47:00.64,0:47:01.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你这样不经我允许追踪我
+Dialogue: 0,0:47:01.92,0:47:04.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}完全侵犯了我的隐私
+Dialogue: 0,0:47:04.58,0:47:06.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那不一样        什么不一样
+Dialogue: 0,0:47:06.23,0:47:08.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没什么    听着    只是学术竞赛而已
+Dialogue: 0,0:47:08.67,0:47:09.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不是什么大事
+Dialogue: 0,0:47:10.11,0:47:12.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是不是大事        我说了算
+Dialogue: 0,0:47:14.49,0:47:15.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听起来      的确不是大事
+Dialogue: 0,0:47:15.51,0:47:17.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但你记住      我在看着你
+Dialogue: 0,0:47:20.56,0:47:24.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"美国学术竞赛"
+Dialogue: 0,0:47:28.10,0:47:30.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家跟紧了       对
+Dialogue: 0,0:47:31.37,0:47:33.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你逗我吗      这地方好大
+Dialogue: 0,0:47:33.29,0:47:35.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我见过更大的      里面有只鸟
+Dialogue: 0,0:47:35.97,0:47:37.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你带电脑了吧
+Dialogue: 0,0:47:38.61,0:47:39.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}干什么
+Dialogue: 0,0:47:39.57,0:47:40.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"请勿打扰"
+Dialogue: 0,0:47:45.50,0:47:47.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"读取数据集"
+Dialogue: 0,0:47:47.30,0:47:48.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,0:47:48.91,0:47:51.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}为什么要去掉      你战衣上的追踪器
+Dialogue: 0,0:47:53.53,0:47:55.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为我要在这些人      再次转移前
+Dialogue: 0,0:47:55.20,0:47:56.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}跟着他们      找到他们的老大
+Dialogue: 0,0:47:56.75,0:47:59.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且我      不想让斯塔克先生知道
+Dialogue: 0,0:47:59.71,0:48:01.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要对钢铁侠撒谎
+Dialogue: 0,0:48:01.71,0:48:03.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不       不是撒谎
+Dialogue: 0,0:48:03.70,0:48:05.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他只是     还不知道我的能耐
+Dialogue: 0,0:48:10.83,0:48:11.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,0:48:12.52,0:48:16.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了    哈皮    追踪台灯去吧
+Dialogue: 0,0:48:19.36,0:48:22.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里还有一堆     其他的子系统
+Dialogue: 0,0:48:22.72,0:48:26.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但都被辅助轮协议      禁用了
+Dialogue: 0,0:48:26.99,0:48:27.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么
+Dialogue: 0,0:48:27.91,0:48:29.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}辅助轮协议
+Dialogue: 0,0:48:30.40,0:48:31.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}关掉
+Dialogue: 0,0:48:31.46,0:48:33.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这样不好吧
+Dialogue: 0,0:48:33.17,0:48:34.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}禁用大概      是有原因的
+Dialogue: 0,0:48:35.08,0:48:37.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托      我不需要辅助轮
+Dialogue: 0,0:48:37.63,0:48:40.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我受够了      他一直把我当小孩
+Dialogue: 0,0:48:40.02,0:48:42.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太过分了    但你确实是小孩
+Dialogue: 0,0:48:42.21,0:48:44.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊    一个能徒手拦下大巴的小孩
+Dialogue: 0,0:48:44.59,0:48:46.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得     我觉得这样做不好
+Dialogue: 0,0:48:46.81,0:48:48.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是是违法的怎么办
+Dialogue: 0,0:48:48.65,0:48:49.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}求你了
+Dialogue: 0,0:48:49.67,0:48:51.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我证明自己的机会
+Dialogue: 0,0:48:52.21,0:48:53.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能行的    内德    来吧
+Dialogue: 0,0:48:53.74,0:48:55.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我真觉得这样不好
+Dialogue: 0,0:48:55.43,0:48:56.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}技术支援啊
+Dialogue: 0,0:48:56.98,0:48:59.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别勾我     来吧
+Dialogue: 0,0:49:13.47,0:49:15.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}发光物是证据   保管好   好吗
+Dialogue: 0,0:49:15.58,0:49:16.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好 好
+Dialogue: 0,0:49:18.43,0:49:20.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们在移动   小心点
+Dialogue: 0,0:49:24.16,0:49:26.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹      时间掐得刚好
+Dialogue: 0,0:49:26.45,0:49:27.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们要去游泳
+Dialogue: 0,0:49:27.44,0:49:28.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快来      快来     什么
+Dialogue: 0,0:49:29.87,0:49:30.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,0:49:35.28,0:49:39.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我正要去商务中心学习
+Dialogue: 0,0:49:39.10,0:49:40.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得      你不用学习了
+Dialogue: 0,0:49:40.04,0:49:41.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是我认识的       最聪明的人
+Dialogue: 0,0:49:41.79,0:49:45.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且       比赛前一天
+Dialogue: 0,0:49:45.12,0:49:47.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}集体进行反叛活动   有助于鼓舞士气
+Dialogue: 0,0:49:48.88,0:49:50.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在TED演讲里读到的
+Dialogue: 0,0:49:50.74,0:49:53.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在TED演讲里听到的
+Dialogue: 0,0:49:53.04,0:49:54.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还读了本指导技巧书
+Dialogue: 0,0:49:56.13,0:49:58.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你真的    这次竞赛对你    真的很重要
+Dialogue: 0,0:49:58.32,0:50:00.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      这是我们的未来
+Dialogue: 0,0:50:00.49,0:50:01.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不想搞砸
+Dialogue: 0,0:50:02.94,0:50:04.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且     我们席卷了小冰箱
+Dialogue: 0,0:50:04.29,0:50:06.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这些巧克力棒11美元呢
+Dialogue: 0,0:50:06.98,0:50:09.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}换上泳衣快来吧
+Dialogue: 0,0:50:09.22,0:50:09.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来吧
+Dialogue: 0,0:50:10.47,0:50:12.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来吧      我来了     来了
+Dialogue: 0,0:50:12.82,0:50:13.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}走吧
+Dialogue: 0,0:50:37.50,0:50:38.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}晚上好     彼得
+Dialogue: 0,0:50:38.88,0:50:40.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}喂       谁啊
+Dialogue: 0,0:50:40.04,0:50:41.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}祝贺你完成了
+Dialogue: 0,0:50:41.26,0:50:43.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}严格的辅助轮协议
+Dialogue: 0,0:50:43.14,0:50:46.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可以使用本战衣的     所有功能了
+Dialogue: 0,0:50:46.27,0:50:47.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,0:50:47.64,0:50:49.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你今晚要带我去哪
+Dialogue: 0,0:50:49.27,0:50:52.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在某个人身上    放了追踪器    他是坏人
+Dialogue: 0,0:50:52.44,0:50:53.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}追踪器已锁定
+Dialogue: 0,0:50:55.03,0:50:57.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拦截目标路线规划中
+Dialogue: 0,0:50:57.08,0:50:58.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好      只要我能在学术竞赛前
+Dialogue: 0,0:50:58.42,0:51:00.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}赶回来就行
+Dialogue: 0,0:51:01.11,0:51:04.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"美国学术竞赛"
+Dialogue: 0,0:51:08.28,0:51:10.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}距离目的地    还有一百米    正在接近
+Dialogue: 0,0:51:11.56,0:51:12.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}跳
+Dialogue: 0,0:51:17.38,0:51:19.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}检测到三个人
+Dialogue: 0,0:51:20.59,0:51:24.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们的秘密据点    竟然在加油站    逊爆了
+Dialogue: 0,0:51:28.14,0:51:29.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}战衣姐姐      他们在干什么
+Dialogue: 0,0:51:30.00,0:51:31.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你想听到他们     在说什么吗
+Dialogue: 0,0:51:31.46,0:51:34.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能听到他们在说什么    好啊
+Dialogue: 0,0:51:34.01,0:51:36.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动强化侦查模式
+Dialogue: 0,0:51:36.07,0:51:38.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这铁臂    是我在拉各斯清理行动中   找到的
+Dialogue: 0,0:51:38.14,0:51:40.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}剩下是我自己设计的     真酷
+Dialogue: 0,0:51:40.51,0:51:42.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不敢相信    他们还在清理三曲翼[神盾局]总部
+Dialogue: 0,0:51:42.85,0:51:44.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我喜欢      他们一直闯祸
+Dialogue: 0,0:51:44.97,0:51:47.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们就一直有财发    目标到达
+Dialogue: 0,0:51:47.46,0:51:49.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们正在打劫
+Dialogue: 0,0:51:49.26,0:51:51.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能抓他们个现行    太棒了
+Dialogue: 0,0:51:51.47,0:51:52.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     我要靠近一些
+Dialogue: 0,0:51:52.72,0:51:54.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好看清情况
+Dialogue: 0,0:51:54.07,0:51:57.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要我启动强化战斗模式吗
+Dialogue: 0,0:51:57.00,0:51:59.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}强化战斗模式     好啊
+Dialogue: 0,0:51:59.34,0:52:01.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动击杀功能
+Dialogue: 0,0:52:01.12,0:52:03.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不      我不想杀人
+Dialogue: 0,0:52:03.40,0:52:05.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}关闭击杀功能
+Dialogue: 0,0:52:08.67,0:52:09.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们听见了吗
+Dialogue: 0,0:52:10.63,0:52:12.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}刚刚怎么了     怎么回事
+Dialogue: 0,0:52:12.95,0:52:15.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你从招牌上跳了下来     脸冲下落地了
+Dialogue: 0,0:52:17.51,0:52:19.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}战衣姐姐       我的射网器怎么了
+Dialogue: 0,0:52:19.19,0:52:21.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}飞射    是强化战斗模式的默认模式
+Dialogue: 0,0:52:21.77,0:52:23.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我干吗要飞射
+Dialogue: 0,0:52:23.22,0:52:24.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你想看看      更多选项吗
+Dialogue: 0,0:52:24.71,0:52:27.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你共有576种射网选择
+Dialogue: 0,0:52:28.15,0:52:29.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生      做得太过了
+Dialogue: 0,0:52:29.76,0:52:31.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你俩等在这里
+Dialogue: 0,0:52:31.44,0:52:33.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等      你最好打开减震器
+Dialogue: 0,0:52:33.12,0:52:35.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}否则那玩意     会震碎你的胳膊
+Dialogue: 0,0:52:35.36,0:52:36.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧     减震器在哪
+Dialogue: 0,0:52:36.82,0:52:38.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个    选得好
+Dialogue: 0,0:52:38.98,0:52:41.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要我把这个设成你的     新默认模式吗
+Dialogue: 0,0:52:42.57,0:52:44.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不      摁下去
+Dialogue: 0,0:52:44.07,0:52:45.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里吗     不是     另一个
+Dialogue: 0,0:52:45.28,0:52:46.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这个吗      对      摁下去
+Dialogue: 0,0:52:46.63,0:52:49.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那又是什么     电击蛛网
+Dialogue: 0,0:52:49.11,0:52:51.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}电击蛛网     我不想要电击蛛网
+Dialogue: 0,0:52:51.21,0:52:54.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你似乎对你的射网器设置     很不熟悉
+Dialogue: 0,0:52:54.26,0:52:56.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要进行一次复习课程吗
+Dialogue: 0,0:52:56.15,0:52:58.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不     你选吧      好的
+Dialogue: 0,0:52:58.73,0:53:01.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}6A9    你正点运行吗
+Dialogue: 0,0:53:01.46,0:53:05.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}收到  中心  6A9正点运行
+Dialogue: 0,0:53:07.91,0:53:10.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我看到了    行动    行动
+Dialogue: 0,0:53:14.37,0:53:15.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是他
+Dialogue: 0,0:53:19.13,0:53:21.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好      我看到车队了
+Dialogue: 0,0:53:21.57,0:53:23.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}正在靠近最后一辆
+Dialogue: 0,0:53:24.68,0:53:26.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下锚
+Dialogue: 0,0:53:36.42,0:53:37.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}进入
+Dialogue: 0,0:53:40.16,0:53:42.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没有发出求救信号      开始行动
+Dialogue: 0,0:53:44.94,0:53:46.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看来这里      有些好东西啊
+Dialogue: 0,0:53:56.22,0:53:59.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}酷啊     似乎是某种物质移相器
+Dialogue: 0,0:54:03.54,0:54:05.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     我上来了
+Dialogue: 0,0:54:10.86,0:54:13.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大鸟     这不是你的
+Dialogue: 0,0:54:14.17,0:54:14.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,0:54:22.20,0:54:24.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}战衣姐姐    那是什么   你叫我选的
+Dialogue: 0,0:54:25.88,0:54:28.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么    都设成正常的就好
+Dialogue: 0,0:54:29.00,0:54:31.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动所有系统
+Dialogue: 0,0:54:48.04,0:54:49.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的头啊
+Dialogue: 0,0:54:49.02,0:54:51.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你似乎轻微脑震荡了
+Dialogue: 0,0:54:55.31,0:54:56.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我现在在哪
+Dialogue: 0,0:54:57.46,0:54:58.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不确定
+Dialogue: 0,0:54:59.15,0:55:01.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}集装箱壁     隔绝了我的传感器
+Dialogue: 0,0:55:02.97,0:55:03.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等
+Dialogue: 0,0:55:04.48,0:55:05.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们肯定是     劫持了卡车
+Dialogue: 0,0:55:05.60,0:55:07.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}把我带回了     他们的邪恶老巢
+Dialogue: 0,0:55:08.47,0:55:09.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧      战衣姐姐
+Dialogue: 0,0:55:09.31,0:55:11.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这次我们得     杀出一条血路了
+Dialogue: 0,0:55:12.35,0:55:15.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}三   二   一
+Dialogue: 0,0:55:20.80,0:55:21.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是什么地方
+Dialogue: 0,0:55:22.83,0:55:24.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}战衣姐姐      我在哪
+Dialogue: 0,0:55:24.20,0:55:27.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在东海岸      最安全的设施内
+Dialogue: 0,0:55:27.14,0:55:28.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}损害控制储存库
+Dialogue: 0,0:55:28.93,0:55:30.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不      不是吧
+Dialogue: 0,0:55:34.29,0:55:37.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大门应该是       到早上才会开启
+Dialogue: 0,0:55:37.07,0:55:38.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}早上
+Dialogue: 0,0:55:38.72,0:55:40.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}战衣姐姐     我觉得不该
+Dialogue: 0,0:55:40.77,0:55:43.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}一直喊你"战衣姐姐" 知道吗
+Dialogue: 0,0:55:43.94,0:55:45.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我或许该给你起个名字
+Dialogue: 0,0:55:46.32,0:55:48.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}比如丽兹      不不
+Dialogue: 0,0:55:48.61,0:55:50.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐      那太怪了
+Dialogue: 0,0:55:50.74,0:55:52.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦呢
+Dialogue: 0,0:55:53.91,0:55:55.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果你想     可以喊我凯伦
+Dialogue: 0,0:55:55.77,0:55:58.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦      战衣还有什么功能
+Dialogue: 0,0:55:59.78,0:56:00.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么
+Dialogue: 0,0:56:00.64,0:56:02.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许我们该运行一下复习课程
+Dialogue: 0,0:56:03.06,0:56:05.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弹跳蛛网       弹跳蛛网
+Dialogue: 0,0:56:05.48,0:56:06.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}酷
+Dialogue: 0,0:56:06.57,0:56:07.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}分流蛛网
+Dialogue: 0,0:56:09.41,0:56:11.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蛛网手雷      蛛网手雷
+Dialogue: 0,0:56:14.17,0:56:16.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我该告诉丽兹      我是蜘蛛侠吗
+Dialogue: 0,0:56:16.96,0:56:17.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹是谁
+Dialogue: 0,0:56:18.31,0:56:20.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹是谁      她...
+Dialogue: 0,0:56:21.07,0:56:22.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她最棒了      她好赞
+Dialogue: 0,0:56:22.75,0:56:24.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她是我们学校的一个姑娘
+Dialogue: 0,0:56:25.59,0:56:26.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且
+Dialogue: 0,0:56:26.71,0:56:28.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我真的很想告诉她
+Dialogue: 0,0:56:28.50,0:56:30.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但这有点怪怪的
+Dialogue: 0,0:56:31.04,0:56:33.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"我是蜘蛛侠"
+Dialogue: 0,0:56:34.23,0:56:35.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这有什么奇怪的
+Dialogue: 0,0:56:35.43,0:56:37.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是她以为    我会是托尼·斯塔克    那样的人呢
+Dialogue: 0,0:56:37.60,0:56:39.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等她看到是我     得多失望啊
+Dialogue: 0,0:56:39.79,0:56:41.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果我是她
+Dialogue: 0,0:56:41.86,0:56:43.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就一点不会失望
+Dialogue: 0,0:56:43.57,0:56:44.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢      凯伦
+Dialogue: 0,0:56:45.29,0:56:47.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真高兴     有人能聊聊
+Dialogue: 0,0:56:48.37,0:56:49.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们在这里待多久了
+Dialogue: 0,0:56:49.94,0:56:52.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}37分钟       什么
+Dialogue: 0,0:56:52.04,0:56:54.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}37分钟       这不可能
+Dialogue: 0,0:56:54.12,0:56:55.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我再也受不了了
+Dialogue: 0,0:56:55.37,0:56:57.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得出去
+Dialogue: 0,0:56:59.87,0:57:01.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里肯定有什么     我能用的
+Dialogue: 0,0:57:03.10,0:57:04.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我看看
+Dialogue: 0,0:57:05.57,0:57:06.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行
+Dialogue: 0,0:57:08.20,0:57:09.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这个好赞
+Dialogue: 0,0:57:11.18,0:57:12.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这就像那个发光物
+Dialogue: 0,0:57:12.64,0:57:15.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个发光物     是爆炸性齐塔瑞能量核
+Dialogue: 0,0:57:16.02,0:57:17.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是说我们      一直到处带着枚炸弹
+Dialogue: 0,0:57:17.91,0:57:19.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}得有辐射才会让它
+Dialogue: 0,0:57:19.39,0:57:20.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}进入易爆状态
+Dialogue: 0,0:57:20.45,0:57:21.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"呼叫   内德"
+Dialogue: 0,0:57:21.79,0:57:22.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"呼叫失败"
+Dialogue: 0,0:57:22.85,0:57:23.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不不
+Dialogue: 0,0:57:28.70,0:57:30.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托      谁来放我出去
+Dialogue: 0,0:57:31.52,0:57:33.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦     你得帮我超控那个时间锁
+Dialogue: 0,0:57:34.01,0:57:36.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好    凯伦    降低电压    运行一下
+Dialogue: 0,0:57:36.16,0:57:37.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}试验不成功
+Dialogue: 0,0:57:37.87,0:57:39.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧     我们只能把所有组合    都试一遍了
+Dialogue: 0,0:57:43.27,0:57:45.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德   彼得   我们要迟了   走吧
+Dialogue: 0,0:57:46.64,0:57:48.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好       等等
+Dialogue: 0,0:57:52.56,0:57:55.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}第247次试验
+Dialogue: 0,0:57:56.22,0:57:58.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}成功了     成功了
+Dialogue: 0,0:58:09.46,0:58:10.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"美国学术竞赛"
+Dialogue: 0,0:58:10.55,0:58:13.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}务必关闭所有手机
+Dialogue: 0,0:58:13.97,0:58:14.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,0:58:14.67,0:58:17.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦     你得尽快送我去竞赛场地
+Dialogue: 0,0:58:17.15,0:58:18.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的     告诉我在哪
+Dialogue: 0,0:58:18.28,0:58:20.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就在华盛顿纪念碑街对面
+Dialogue: 0,0:58:20.12,0:58:21.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是内德       请留言
+Dialogue: 0,0:58:21.12,0:58:23.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德     给我打电话     那个发光物是炸弹
+Dialogue: 0,0:58:28.69,0:58:30.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你右边有辆车靠近
+Dialogue: 0,0:58:31.08,0:58:33.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们进入了赛点
+Dialogue: 0,0:58:33.43,0:58:36.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下一个回答正确者     将赢下冠军
+Dialogue: 0,0:58:40.88,0:58:42.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}中城区科技高中
+Dialogue: 0,0:58:43.00,0:58:43.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}０
+Dialogue: 0,0:58:44.92,0:58:46.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}正确
+Dialogue: 0,0:58:46.43,0:58:48.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}中城区拿下冠军
+Dialogue: 0,0:58:50.31,0:58:51.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们赢了
+Dialogue: 0,0:58:51.05,0:58:52.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}各位       我好为你们骄傲
+Dialogue: 0,0:58:52.54,0:58:53.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就说我们     不需要彼得吧
+Dialogue: 0,0:58:53.79,0:58:55.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士     你一个问题都没答过
+Dialogue: 0,0:58:55.84,0:58:58.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在感受气氛呢    米歇尔     是啊
+Dialogue: 0,0:58:58.96,0:59:01.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不太想颂扬      奴隶建造的东西
+Dialogue: 0,0:59:01.69,0:59:04.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}华盛顿纪念碑不会是...
+Dialogue: 0,0:59:07.42,0:59:08.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,0:59:08.84,0:59:11.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好好看书吧      谢谢
+Dialogue: 0,0:59:13.66,0:59:15.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德    你还活着    彼得    你没事吧
+Dialogue: 0,0:59:15.97,0:59:17.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德    发光物呢    发光物
+Dialogue: 0,0:59:17.95,0:59:19.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别担心    安全着呢    在我背包里
+Dialogue: 0,0:59:19.13,0:59:20.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不    内德    听着
+Dialogue: 0,0:59:20.32,0:59:21.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不    内德    发光物是危险品
+Dialogue: 0,0:59:21.80,0:59:22.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你错过了竞赛
+Dialogue: 0,0:59:22.98,0:59:24.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我替你掩护了    内德    听我说
+Dialogue: 0,0:59:24.18,0:59:25.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们在华盛顿纪念碑
+Dialogue: 0,0:59:25.65,0:59:27.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得     是你吗    丽兹
+Dialogue: 0,0:59:27.08,0:59:28.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是丽兹吗      请让内德接电话
+Dialogue: 0,0:59:28.78,0:59:30.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你该把你的感觉告诉她    你不见人影
+Dialogue: 0,0:59:30.35,0:59:32.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}幸好我们赢了
+Dialogue: 0,0:59:32.02,0:59:33.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想生你气      但我更加担心
+Dialogue: 0,0:59:33.90,0:59:35.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是怎么回事啊
+Dialogue: 0,0:59:35.54,0:59:37.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹     我得跟内德讲话     真的是要紧事
+Dialogue: 0,0:59:37.38,0:59:38.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小姐    请把东西    都放在传送带上
+Dialogue: 0,0:59:38.69,0:59:39.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹    内德背包里有样东西
+Dialogue: 0,0:59:39.66,0:59:41.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}非常危险      千万不能过X光
+Dialogue: 0,0:59:44.52,0:59:46.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹     丽兹     该死
+Dialogue: 0,0:59:50.46,0:59:53.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈林顿老师    能让我去告诉彼得    他被开除了吗
+Dialogue: 0,0:59:57.00,1:00:03.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}华盛顿纪念碑       高169.29米
+Dialogue: 0,1:00:04.40,1:00:06.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可以看到大理石和花岗岩
+Dialogue: 0,1:00:06.42,1:00:08.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}沿着石块周围被切开
+Dialogue: 0,1:00:13.38,1:00:14.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你听到了吗
+Dialogue: 0,1:00:15.00,1:00:17.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不不     凯伦    上面什么情况
+Dialogue: 0,1:00:18.64,1:00:19.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}齐塔瑞能量核爆炸了
+Dialogue: 0,1:00:19.77,1:00:22.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}导致电梯结构严重受损
+Dialogue: 0,1:00:22.32,1:00:23.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}糟糕       我的朋友在上面
+Dialogue: 0,1:00:23.67,1:00:26.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么     别担心     女士     一切都会没事的
+Dialogue: 0,1:00:26.26,1:00:29.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}借过    借过    天呐    好高啊
+Dialogue: 0,1:00:34.48,1:00:36.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐      看天花板
+Dialogue: 0,1:00:36.04,1:00:37.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家冷静
+Dialogue: 0,1:00:37.94,1:00:39.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们都要死在这里了
+Dialogue: 0,1:00:42.00,1:00:44.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}预计10分钟后     将发生致命失效
+Dialogue: 0,1:00:44.83,1:00:45.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们完蛋了
+Dialogue: 0,1:00:45.93,1:00:47.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     各位     我知道那很吓人
+Dialogue: 0,1:00:47.75,1:00:49.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我们的安全系统还好使
+Dialogue: 0,1:00:49.80,1:00:52.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}安全系统     已完全失效
+Dialogue: 0,1:00:52.15,1:00:54.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们在这里很安全
+Dialogue: 0,1:00:54.26,1:00:56.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}电梯内的人    面临即刻的死亡威胁
+Dialogue: 0,1:00:56.67,1:00:58.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我已经尽快了
+Dialogue: 0,1:01:07.82,1:01:09.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来吧       把手递给我
+Dialogue: 0,1:01:10.27,1:01:13.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}125秒后      将发生致命失效
+Dialogue: 0,1:01:13.53,1:01:14.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么      为什么
+Dialogue: 0,1:01:14.48,1:01:17.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}意外动作       导致了情况加速恶化
+Dialogue: 0,1:01:17.62,1:01:19.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我怎么进去
+Dialogue: 0,1:01:19.00,1:01:21.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动侦查无人机
+Dialogue: 0,1:01:23.84,1:01:26.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个一直在我胸前吗     太赞了
+Dialogue: 0,1:01:26.54,1:01:28.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}寻找最佳进入口
+Dialogue: 0,1:01:30.37,1:01:32.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}前往西南窗口
+Dialogue: 0,1:01:32.07,1:01:33.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦       我就去
+Dialogue: 0,1:01:38.38,1:01:40.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里有好多玻璃     你行的
+Dialogue: 0,1:01:40.66,1:01:41.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}继续
+Dialogue: 0,1:01:56.01,1:01:58.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     天呐
+Dialogue: 0,1:01:58.27,1:01:59.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:02:01.45,1:02:03.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么了    你已经到达西南窗口了
+Dialogue: 0,1:02:03.72,1:02:06.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你为什么犹豫不前   没事
+Dialogue: 0,1:02:06.05,1:02:07.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是从没爬过这么高
+Dialogue: 0,1:02:07.23,1:02:09.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且你还没有重装你的降落伞
+Dialogue: 0,1:02:09.80,1:02:12.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果从这么高掉下去  很可能会致命
+Dialogue: 0,1:02:14.20,1:02:15.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太好了
+Dialogue: 0,1:02:15.90,1:02:16.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,1:02:18.93,1:02:20.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}它怎么不碎
+Dialogue: 0,1:02:20.04,1:02:21.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是10厘米厚的防弹玻璃
+Dialogue: 0,1:02:21.33,1:02:23.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你得制造       更大的动量
+Dialogue: 0,1:02:42.80,1:02:45.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里是特区警察     上报身份
+Dialogue: 0,1:02:45.47,1:02:47.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我朋友在里面呢     快停下
+Dialogue: 0,1:02:47.37,1:02:49.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}立刻回到地面上
+Dialogue: 0,1:02:49.14,1:02:51.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下一个谁     我     到我了
+Dialogue: 0,1:02:51.30,1:02:53.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士    不是吧     你干什么呢
+Dialogue: 0,1:02:53.54,1:02:55.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}上去吧     别管奖杯了
+Dialogue: 0,1:03:03.79,1:03:05.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}退下
+Dialogue: 0,1:03:05.20,1:03:07.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}立刻回到地面上
+Dialogue: 0,1:03:11.68,1:03:14.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}回到地面上    否则我们开火了
+Dialogue: 0,1:03:14.20,1:03:15.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}上去     上去
+Dialogue: 0,1:03:16.96,1:03:18.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我行的
+Dialogue: 0,1:03:18.31,1:03:19.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拿着我的奖杯
+Dialogue: 0,1:03:22.11,1:03:23.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是你最后的机会
+Dialogue: 0,1:03:24.62,1:03:25.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我死定了
+Dialogue: 0,1:03:26.94,1:03:27.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小心
+Dialogue: 0,1:03:50.43,1:03:51.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我成功了
+Dialogue: 0,1:04:05.96,1:04:06.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们好吗
+Dialogue: 0,1:04:06.59,1:04:08.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别担心    有我呢
+Dialogue: 0,1:04:08.14,1:04:10.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太好了
+Dialogue: 0,1:04:10.81,1:04:11.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大块头     别乱动了
+Dialogue: 0,1:04:11.70,1:04:13.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉    先生    真抱歉
+Dialogue: 0,1:04:16.56,1:04:17.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走
+Dialogue: 0,1:04:23.86,1:04:24.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:04:24.44,1:04:26.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈林顿老师    来    内德    来啊
+Dialogue: 0,1:04:26.62,1:04:28.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了  你们到了   来吧    丽兹
+Dialogue: 0,1:04:28.71,1:04:30.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走     都出去
+Dialogue: 0,1:04:30.43,1:04:31.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走啊      快走
+Dialogue: 0,1:04:31.86,1:04:34.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你确定安全吗      丽兹
+Dialogue: 0,1:04:39.72,1:04:41.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没事   你没事
+Dialogue: 0,1:04:44.84,1:04:45.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:04:46.26,1:04:48.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐     很好
+Dialogue: 0,1:04:48.14,1:04:49.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来吧     各位     退后
+Dialogue: 0,1:04:49.93,1:04:52.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}进来     没事吧
+Dialogue: 0,1:04:52.53,1:04:54.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家都没事了吧
+Dialogue: 0,1:04:55.33,1:04:56.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的机会来了   彼得
+Dialogue: 0,1:04:57.56,1:04:58.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}吻她吧
+Dialogue: 0,1:05:02.97,1:05:03.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,1:05:07.71,1:05:09.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你真跟彼得·帕克是朋友吗
+Dialogue: 0,1:05:17.14,1:05:18.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可以完成下一单
+Dialogue: 0,1:05:18.95,1:05:21.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但没有车上的新材料
+Dialogue: 0,1:05:22.64,1:05:24.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊       该死
+Dialogue: 0,1:05:25.56,1:05:27.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们还有足够物料     完成盖根的订单吧
+Dialogue: 0,1:05:27.53,1:05:28.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯       然后就没了
+Dialogue: 0,1:05:33.56,1:05:36.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许我该做      高空密封装置了
+Dialogue: 0,1:05:36.16,1:05:37.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能不能别再念叨了    就那一票
+Dialogue: 0,1:05:37.97,1:05:38.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行
+Dialogue: 0,1:05:40.71,1:05:43.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}八年了      条子毫无动静
+Dialogue: 0,1:05:43.52,1:05:46.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克塔上      那些穿万圣节服装的白痴
+Dialogue: 0,1:05:46.20,1:05:47.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}也没来找过事
+Dialogue: 0,1:05:48.52,1:05:50.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后突然
+Dialogue: 0,1:05:50.15,1:05:52.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}冒出这么个      穿红紧身衣的小混蛋
+Dialogue: 0,1:05:53.51,1:05:56.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就以为自己      能毁掉我所建立的一切
+Dialogue: 0,1:05:58.60,1:05:59.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是吗
+Dialogue: 0,1:06:01.23,1:06:02.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要杀了他
+Dialogue: 0,1:06:02.56,1:06:04.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要找到他     找到了
+Dialogue: 0,1:06:04.74,1:06:07.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠从天而降    英勇地救下了
+Dialogue: 0,1:06:07.13,1:06:09.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}一支来自皇后区的      学术竞赛队
+Dialogue: 0,1:06:09.85,1:06:13.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这位蒙面英雄     的身份仍不清楚
+Dialogue: 0,1:06:14.73,1:06:17.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}妈妈     好了    没事
+Dialogue: 0,1:06:17.39,1:06:19.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得 过来
+Dialogue: 0,1:06:20.01,1:06:21.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,1:06:24.06,1:06:26.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这周末    中城高中学术竞赛队
+Dialogue: 0,1:06:26.84,1:06:28.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}击败了国内翘楚
+Dialogue: 0,1:06:28.27,1:06:29.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}赢下了全国冠军
+Dialogue: 0,1:06:29.84,1:06:31.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当天晚些时候    他们还战胜了死神
+Dialogue: 0,1:06:31.62,1:06:34.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爆炸   莎莉叫   弗拉士叫   大家都叫
+Dialogue: 0,1:06:34.02,1:06:35.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}到处是紫激光     还有烟
+Dialogue: 0,1:06:35.87,1:06:38.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太... 紧张       就像邦·乔维演唱会
+Dialogue: 0,1:06:38.07,1:06:39.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家知道      我们活下来了
+Dialogue: 0,1:06:39.65,1:06:41.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这才是最重要的
+Dialogue: 0,1:06:41.94,1:06:44.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可受不了    在学校出行期间    有学生出事
+Dialogue: 0,1:06:46.24,1:06:47.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不能再来一次了
+Dialogue: 0,1:06:47.51,1:06:49.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}幸好       没人受重伤
+Dialogue: 0,1:06:49.81,1:06:51.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这要多谢蜘蛛侠
+Dialogue: 0,1:06:51.75,1:06:53.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢你    蜘蛛侠    谢谢你    蜘蛛侠
+Dialogue: 0,1:06:53.70,1:06:56.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}接下来     蜘蛛侠热横扫全校
+Dialogue: 0,1:06:56.81,1:06:59.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要如何展现     你的蜘蛛精神
+Dialogue: 0,1:07:02.24,1:07:05.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们
+Dialogue: 0,1:07:05.48,1:07:08.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这么出名   可大家又都不知道是你   是个什么感觉
+Dialogue: 0,1:07:08.16,1:07:09.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好疯狂     哥们     真疯狂
+Dialogue: 0,1:07:09.76,1:07:11.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们要不要告诉大家    不行
+Dialogue: 0,1:07:12.14,1:07:13.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要不要告诉大家
+Dialogue: 0,1:07:13.19,1:07:15.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不行     哥们     那可不好
+Dialogue: 0,1:07:15.11,1:07:16.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧    走     我们上课要迟了
+Dialogue: 0,1:07:16.74,1:07:17.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不去上课了
+Dialogue: 0,1:07:18.34,1:07:20.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在竞赛时抛弃了我们     已经闯大祸了
+Dialogue: 0,1:07:20.16,1:07:22.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哥们     听着     我想明白了
+Dialogue: 0,1:07:22.04,1:07:24.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}翅膀男在偷损害控制的东西
+Dialogue: 0,1:07:24.17,1:07:25.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他把从损害控制偷的东西
+Dialogue: 0,1:07:26.25,1:07:27.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}做成武器
+Dialogue: 0,1:07:27.09,1:07:28.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只需要抓到他
+Dialogue: 0,1:07:28.76,1:07:30.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我们还有西班牙语测试呢
+Dialogue: 0,1:07:30.22,1:07:32.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德   我可能再也不回来了
+Dialogue: 0,1:07:32.79,1:07:34.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生要把复仇者迁到州北
+Dialogue: 0,1:07:34.37,1:07:38.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等我抓到这人   哥们
+Dialogue: 0,1:07:38.19,1:07:40.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你想高中辍学吗
+Dialogue: 0,1:07:40.32,1:07:42.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}高中现在根本罩不住我了
+Dialogue: 0,1:07:42.90,1:07:45.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}帕克   去我办公室
+Dialogue: 0,1:07:48.45,1:07:49.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,1:07:50.24,1:07:51.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你被留堂了
+Dialogue: 0,1:07:51.92,1:07:54.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你搞砸了   你知道你做错了
+Dialogue: 0,1:07:54.15,1:07:56.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}问题是   你要如何弥补
+Dialogue: 0,1:07:56.64,1:07:58.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或许你是想扮酷
+Dialogue: 0,1:07:58.54,1:08:01.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但听我一个冻了65年的人一句劝
+Dialogue: 0,1:08:01.57,1:08:05.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真正想酷   就只能遵守规矩
+Dialogue: 0,1:08:05.61,1:08:08.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们都分得清对错
+Dialogue: 0,1:08:08.43,1:08:09.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}下次再有人
+Dialogue: 0,1:08:09.65,1:08:11.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}想在你面前颠倒黑白
+Dialogue: 0,1:08:11.49,1:08:13.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你去哪 回来   就想想
+Dialogue: 0,1:08:14.02,1:08:15.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}美国队长会怎么做
+Dialogue: 0,1:08:16.14,1:08:18.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你干吗坐这儿 你根本没被留堂
+Dialogue: 0,1:08:18.33,1:08:18.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道
+Dialogue: 0,1:08:18.84,1:08:21.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就是喜欢来这儿 画处于危机中的人
+Dialogue: 0,1:08:23.83,1:08:24.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"我是谁"
+Dialogue: 0,1:08:24.88,1:08:25.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是你
+Dialogue: 0,1:08:26.81,1:08:28.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的身体在发生变化
+Dialogue: 0,1:08:28.30,1:08:30.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}相信我   我了解那感受
+Dialogue: 0,1:08:34.34,1:08:35.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"蛛网液"
+Dialogue: 0,1:08:42.24,1:08:43.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅
+Dialogue: 0,1:08:47.62,1:08:48.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦   好啊
+Dialogue: 0,1:08:48.62,1:08:50.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得   你的西班牙语考得怎样
+Dialogue: 0,1:08:50.54,1:08:51.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个   能帮我个忙吗
+Dialogue: 0,1:08:51.57,1:08:52.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想查明那晚
+Dialogue: 0,1:08:52.96,1:08:54.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}桥下的人的身份
+Dialogue: 0,1:08:54.21,1:08:56.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我只能记住部分的车牌号
+Dialogue: 0,1:08:56.97,1:08:59.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可以用当晚的视频进行面部识别
+Dialogue: 0,1:08:59.89,1:09:01.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}视频   是的   彼得
+Dialogue: 0,1:09:01.69,1:09:03.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会记录你看到的一切
+Dialogue: 0,1:09:03.78,1:09:04.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}一切    是的
+Dialogue: 0,1:09:04.82,1:09:05.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}随时随地吗
+Dialogue: 0,1:09:05.64,1:09:07.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是宝贝监控协议
+Dialogue: 0,1:09:08.20,1:09:09.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当然了
+Dialogue: 0,1:09:11.36,1:09:13.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯    倒回上周五
+Dialogue: 0,1:09:13.57,1:09:14.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的
+Dialogue: 0,1:09:14.50,1:09:16.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家好   派对真棒
+Dialogue: 0,1:09:16.25,1:09:18.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊   丽兹  彼得跟我说过你不少事
+Dialogue: 0,1:09:18.99,1:09:21.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不   这是我胡闹呢
+Dialogue: 0,1:09:21.12,1:09:23.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快进到当天后面
+Dialogue: 0,1:09:23.14,1:09:25.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是我   托尔  奥丁之子
+Dialogue: 0,1:09:25.60,1:09:26.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不
+Dialogue: 0,1:09:26.48,1:09:28.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那绝不是我们要看的
+Dialogue: 0,1:09:28.86,1:09:30.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的模仿非常逗
+Dialogue: 0,1:09:30.68,1:09:32.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快进到军火交易那里
+Dialogue: 0,1:09:32.44,1:09:33.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,1:09:33.95,1:09:35.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}右边的俩人   是谁
+Dialogue: 0,1:09:35.45,1:09:37.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}搜索执法部门数据库
+Dialogue: 0,1:09:38.47,1:09:40.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}并未找到这两人的记录
+Dialogue: 0,1:09:40.61,1:09:42.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没有吗    一人身份确认
+Dialogue: 0,1:09:42.79,1:09:44.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}艾伦·戴维斯 33岁
+Dialogue: 0,1:09:45.06,1:09:47.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他有犯罪记录 而且就住在皇后区
+Dialogue: 0,1:09:47.95,1:09:49.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们去会会他吧
+Dialogue: 0,1:09:49.51,1:09:50.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要我启动
+Dialogue: 0,1:09:50.44,1:09:52.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}强化审讯模式吗
+Dialogue: 0,1:09:53.44,1:09:54.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊
+Dialogue: 0,1:10:08.99,1:10:10.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}记得我吗
+Dialogue: 0,1:10:10.68,1:10:13.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我需要情报 你得马上给我
+Dialogue: 0,1:10:13.26,1:10:15.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧    冷静    快说
+Dialogue: 0,1:10:15.67,1:10:16.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你声音怎么了
+Dialogue: 0,1:10:16.81,1:10:18.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么怎么了
+Dialogue: 0,1:10:18.31,1:10:19.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在桥下听到你说话了
+Dialogue: 0,1:10:19.13,1:10:20.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我认得出那是姑娘的声音
+Dialogue: 0,1:10:20.47,1:10:22.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不是女的 我是男孩
+Dialogue: 0,1:10:22.23,1:10:23.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}男人... 我是男人
+Dialogue: 0,1:10:23.57,1:10:25.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我才不管你是男的还是女的
+Dialogue: 0,1:10:25.66,1:10:27.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不是女的 我是男人
+Dialogue: 0,1:10:27.70,1:10:28.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拜托
+Dialogue: 0,1:10:28.36,1:10:30.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是谁在出售武器
+Dialogue: 0,1:10:30.39,1:10:32.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我需要知道   告诉我名字 否则我不客气
+Dialogue: 0,1:10:36.01,1:10:37.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没干过这个吧
+Dialogue: 0,1:10:37.85,1:10:40.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}关闭审讯模式
+Dialogue: 0,1:10:41.98,1:10:42.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}听着    伙计
+Dialogue: 0,1:10:43.56,1:10:46.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这些人在售卖非常危险的武器
+Dialogue: 0,1:10:46.35,1:10:47.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不能任它们流入街头
+Dialogue: 0,1:10:47.74,1:10:50.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是有能一下切开达尔摩小店的武器
+Dialogue: 0,1:10:50.12,1:10:51.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还知道达尔摩的店
+Dialogue: 0,1:10:51.41,1:10:52.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当然   皇后区最好的三明治
+Dialogue: 0,1:10:52.97,1:10:55.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}三明治港也不错    面包太厚
+Dialogue: 0,1:10:55.43,1:10:57.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就喜欢面包   拜托了  伙计
+Dialogue: 0,1:10:59.77,1:11:02.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}破审讯模式 凯伦 再也别启用了
+Dialogue: 0,1:11:02.79,1:11:03.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那天晚上  你跟那人说
+Dialogue: 0,1:11:03.86,1:11:06.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"你想开枪  就冲我来吧"
+Dialogue: 0,1:11:06.56,1:11:07.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}挺有种的
+Dialogue: 0,1:11:08.08,1:11:09.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不希望那种武器进入这一带
+Dialogue: 0,1:11:09.73,1:11:11.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我有个侄子住这儿呢
+Dialogue: 0,1:11:12.86,1:11:14.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那些人是谁
+Dialogue: 0,1:11:14.29,1:11:16.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能跟我讲讲那个长翅膀的男人吗
+Dialogue: 0,1:11:16.16,1:11:18.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}只知道他是个扮成恶魔的疯子
+Dialogue: 0,1:11:18.89,1:11:21.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不知道他是谁 他在哪
+Dialogue: 0,1:11:23.63,1:11:25.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我知道他会去哪
+Dialogue: 0,1:11:26.28,1:11:27.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是吗
+Dialogue: 0,1:11:27.33,1:11:30.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对   我以前合作过的一个疯子
+Dialogue: 0,1:11:30.83,1:11:32.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他要跟那人做笔交易
+Dialogue: 0,1:11:32.20,1:11:34.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太好了
+Dialogue: 0,1:11:34.43,1:11:35.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢了
+Dialogue: 0,1:11:35.73,1:11:38.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还没告诉你在哪呢  你都不知道地点
+Dialogue: 0,1:11:38.21,1:11:40.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊  抱歉  我的错  真傻
+Dialogue: 0,1:11:40.97,1:11:41.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,1:11:42.55,1:11:44.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在哪   我能提点建议吗
+Dialogue: 0,1:11:45.38,1:11:47.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你这部分的能力得加强
+Dialogue: 0,1:11:47.78,1:11:49.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不懂
+Dialogue: 0,1:11:49.56,1:11:50.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我很吓人的
+Dialogue: 0,1:11:50.99,1:11:54.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔顿岛渡轮  11点   那快了
+Dialogue: 0,1:11:54.29,1:11:56.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那个两小时后就能溶解
+Dialogue: 0,1:11:56.17,1:11:58.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不   过来给我解开
+Dialogue: 0,1:11:58.73,1:11:59.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}两小时   你罪有应得
+Dialogue: 0,1:11:59.88,1:12:01.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我买了冰淇淋呢   这是罪有应得
+Dialogue: 0,1:12:01.02,1:12:03.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是罪犯 再见了 罪犯先生
+Dialogue: 0,1:12:03.36,1:12:05.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"斯塔顿岛"
+Dialogue: 0,1:12:17.98,1:12:18.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}漂亮
+Dialogue: 0,1:12:22.36,1:12:25.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好 凯伦 启动强化侦查模式
+Dialogue: 0,1:12:25.30,1:12:26.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的
+Dialogue: 0,1:12:26.65,1:12:28.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他在前面   主甲板
+Dialogue: 0,1:12:29.03,1:12:30.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我恨这家伙
+Dialogue: 0,1:12:30.34,1:12:32.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是桥下那人吧
+Dialogue: 0,1:12:32.13,1:12:34.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}另一个是谁   有情况通知我
+Dialogue: 0,1:12:34.39,1:12:36.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在犯罪数据库里找不到他
+Dialogue: 0,1:12:36.99,1:12:38.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅·帕克来电
+Dialogue: 0,1:12:38.21,1:12:39.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要接到你的显示器上吗
+Dialogue: 0,1:12:39.90,1:12:41.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我现在没法接 我回头打回去
+Dialogue: 0,1:12:43.01,1:12:45.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小蛛  去盯着那家伙
+Dialogue: 0,1:12:45.29,1:12:47.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这次不能让任何人逃脱
+Dialogue: 0,1:12:55.72,1:12:57.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}左边那人是谁   麦克·盖根
+Dialogue: 0,1:12:57.99,1:13:00.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有大量案底   包括凶杀
+Dialogue: 0,1:13:00.63,1:13:02.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要我启动击杀功能吗
+Dialogue: 0,1:13:02.48,1:13:05.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不  凯伦  别再提击杀功能了
+Dialogue: 0,1:13:07.04,1:13:08.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}白色皮卡
+Dialogue: 0,1:13:13.71,1:13:16.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小蛛  在渡轮上搜寻白色皮卡
+Dialogue: 0,1:13:37.38,1:13:38.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这也太完美了
+Dialogue: 0,1:13:38.54,1:13:40.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}武器  买家  卖家  一网打尽
+Dialogue: 0,1:13:40.69,1:13:43.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}托尼·斯塔克来电   不不不
+Dialogue: 0,1:13:43.88,1:13:46.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别接   帕克先生   有时间吗
+Dialogue: 0,1:13:46.58,1:13:48.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在上学    你没有
+Dialogue: 0,1:13:48.75,1:13:51.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在华盛顿特区干得漂亮   好
+Dialogue: 0,1:13:51.12,1:13:54.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我爸爸从来都没怎么支持过我
+Dialogue: 0,1:13:54.06,1:13:55.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想打破这个坏循环
+Dialogue: 0,1:13:55.82,1:13:57.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我现在正在忙
+Dialogue: 0,1:13:57.15,1:13:59.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我夸你的时候别打断我
+Dialogue: 0,1:13:59.06,1:14:02.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}总之  大事将要... 那是什么声音
+Dialogue: 0,1:14:03.10,1:14:04.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在乐队排练
+Dialogue: 0,1:14:04.96,1:14:09.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怪了 哈皮告诉我你六周前退出乐队了
+Dialogue: 0,1:14:09.04,1:14:11.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么回事   我得挂了  结束通话
+Dialogue: 0,1:14:11.96,1:14:13.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给我吧
+Dialogue: 0,1:14:17.01,1:14:19.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}各位  非法武器交易的那班渡轮是10点半
+Dialogue: 0,1:14:19.61,1:14:20.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们错过了
+Dialogue: 0,1:14:29.18,1:14:30.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛人来了
+Dialogue: 0,1:14:34.11,1:14:35.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}想得美
+Dialogue: 0,1:14:36.85,1:14:39.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们没事吧 我错了 下手有点重了
+Dialogue: 0,1:14:40.84,1:14:43.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得说  另一个人比你用得好多了
+Dialogue: 0,1:14:44.43,1:14:45.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我真是
+Dialogue: 0,1:14:45.75,1:14:46.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}被惊住了
+Dialogue: 0,1:14:59.84,1:15:02.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不许动  联调局   不许动
+Dialogue: 0,1:15:02.07,1:15:03.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}趴在地上   联调局
+Dialogue: 0,1:15:03.45,1:15:04.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等等   联调局  什么意思
+Dialogue: 0,1:15:04.98,1:15:06.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}联调局全称联邦调查局
+Dialogue: 0,1:15:06.55,1:15:08.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道联调局是什么 但他们来这儿干吗
+Dialogue: 0,1:15:10.82,1:15:11.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}搞什么
+Dialogue: 0,1:15:16.42,1:15:18.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}让开   让开
+Dialogue: 0,1:15:18.34,1:15:20.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走
+Dialogue: 0,1:15:20.01,1:15:21.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快闪开
+Dialogue: 0,1:15:22.65,1:15:24.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小心  快走  快走
+Dialogue: 0,1:15:31.01,1:15:32.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走   去顶层甲板
+Dialogue: 0,1:15:32.73,1:15:33.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们走
+Dialogue: 0,1:16:13.38,1:16:14.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动电击蛛网
+Dialogue: 0,1:16:26.59,1:16:29.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你这是在摆弄你不了解的东西
+Dialogue: 0,1:17:09.11,1:17:10.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天啊   我怎么办
+Dialogue: 0,1:17:10.51,1:17:12.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}凯伦 X光扫描这艘船
+Dialogue: 0,1:17:12.07,1:17:13.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}标出所有最坚固的点
+Dialogue: 0,1:17:17.10,1:17:18.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蛛网手雷   蛛网手雷
+Dialogue: 0,1:17:21.23,1:17:22.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}分流蛛网 出
+Dialogue: 0,1:17:51.24,1:17:54.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}干得好  彼得  你成功了98%
+Dialogue: 0,1:17:54.57,1:17:57.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}98%   棒啊   蜘蛛侠
+Dialogue: 0,1:17:59.97,1:18:01.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不不
+Dialogue: 0,1:18:19.56,1:18:20.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不
+Dialogue: 0,1:18:36.42,1:18:37.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么会
+Dialogue: 0,1:18:41.55,1:18:42.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么回事
+Dialogue: 0,1:18:45.12,1:18:46.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊    蜘蛛侠
+Dialogue: 0,1:18:46.92,1:18:48.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}乐队排练是吧
+Dialogue: 0,1:18:54.17,1:18:55.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看   看
+Dialogue: 0,1:19:10.97,1:19:12.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}棒啊   钢铁侠
+Dialogue: 0,1:19:20.82,1:19:21.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生
+Dialogue: 0,1:19:24.05,1:19:25.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生  我能做什么吗
+Dialogue: 0,1:19:25.36,1:19:26.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要我做什么
+Dialogue: 0,1:19:28.28,1:19:30.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你做得够多了
+Dialogue: 0,1:19:44.69,1:19:47.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就这样了 你要逃跑了
+Dialogue: 0,1:19:50.35,1:19:51.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}联调局埋伏在那里
+Dialogue: 0,1:19:52.91,1:19:54.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}现在我们又被钢铁侠盯上了
+Dialogue: 0,1:19:56.24,1:19:57.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对   我是要逃跑
+Dialogue: 0,1:19:58.80,1:19:59.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你也该跑
+Dialogue: 0,1:20:00.63,1:20:02.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道我不能
+Dialogue: 0,1:20:02.42,1:20:03.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那现在怎么办
+Dialogue: 0,1:20:04.18,1:20:04.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅森
+Dialogue: 0,1:20:05.54,1:20:08.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能及时做好那个高空密封装置吗
+Dialogue: 0,1:20:09.67,1:20:10.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗
+Dialogue: 0,1:20:11.15,1:20:13.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}能  你不会后悔的
+Dialogue: 0,1:20:16.74,1:20:17.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你加入吗
+Dialogue: 0,1:20:28.97,1:20:31.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}《彼得闯大祸》前情提要
+Dialogue: 0,1:20:31.11,1:20:33.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我叫你别管这事
+Dialogue: 0,1:20:33.04,1:20:35.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但你黑进了价值几百万的战衣
+Dialogue: 0,1:20:35.98,1:20:37.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好偷偷背着我
+Dialogue: 0,1:20:37.83,1:20:41.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}做我不让你做的事
+Dialogue: 0,1:20:41.31,1:20:42.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大家都没事吧
+Dialogue: 0,1:20:43.17,1:20:44.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}反正你没帮上忙
+Dialogue: 0,1:20:46.50,1:20:47.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没帮上忙
+Dialogue: 0,1:20:50.30,1:20:52.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那些武器流通在外 我一直想尽办法告诉你
+Dialogue: 0,1:20:52.65,1:20:54.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但你不听
+Dialogue: 0,1:20:54.35,1:20:57.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是你肯听我的  这些事都不会发生
+Dialogue: 0,1:20:57.96,1:21:00.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要是你真在乎的话 就会亲自来了
+Dialogue: 0,1:21:04.59,1:21:05.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我听了  孩子
+Dialogue: 0,1:21:05.63,1:21:07.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你以为是谁把联调局叫来的
+Dialogue: 0,1:21:08.02,1:21:10.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道我是唯一一个相信你的人吗
+Dialogue: 0,1:21:10.58,1:21:12.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其他人都说我疯了
+Dialogue: 0,1:21:12.63,1:21:15.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}招来个14岁的小孩   我15
+Dialogue: 0,1:21:15.24,1:21:16.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不   你把嘴闭严了 好吗
+Dialogue: 0,1:21:16.82,1:21:18.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大人说话别插嘴
+Dialogue: 0,1:21:18.10,1:21:19.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是今晚有人死了怎么办
+Dialogue: 0,1:21:19.73,1:21:22.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那可就不一样了  对吧  那是你的责任
+Dialogue: 0,1:21:22.70,1:21:23.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是你死了
+Dialogue: 0,1:21:24.56,1:21:25.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会觉得责任在我
+Dialogue: 0,1:21:27.23,1:21:28.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我可不想良心不安
+Dialogue: 0,1:21:28.39,1:21:29.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊  先生 我很抱歉   是啊
+Dialogue: 0,1:21:29.64,1:21:30.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对不起
+Dialogue: 0,1:21:30.20,1:21:32.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对不起也没用   我明白
+Dialogue: 0,1:21:32.42,1:21:34.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只是想像你一样
+Dialogue: 0,1:21:34.51,1:21:35.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我希望你比我强
+Dialogue: 0,1:21:37.81,1:21:38.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧   这样不行
+Dialogue: 0,1:21:38.87,1:21:40.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得收回战衣
+Dialogue: 0,1:21:40.03,1:21:42.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}收回多久  永久收回
+Dialogue: 0,1:21:42.61,1:21:44.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对   就是这样   不 不 拜托
+Dialogue: 0,1:21:44.56,1:21:45.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快脱吧    你不明白
+Dialogue: 0,1:21:45.95,1:21:48.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我的一切 没有这套战衣我一无是处
+Dialogue: 0,1:21:49.10,1:21:50.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果没有这套战衣你就一无是处
+Dialogue: 0,1:21:50.52,1:21:52.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那你就不配拥有它 好吗
+Dialogue: 0,1:21:53.07,1:21:54.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天哪   我口气跟我爸一样
+Dialogue: 0,1:21:57.12,1:21:58.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没别的衣服了
+Dialogue: 0,1:21:59.82,1:22:01.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧   我们会想办法的
+Dialogue: 0,1:22:02.52,1:22:07.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"纽约之旅幸存者"
+Dialogue: 0,1:22:18.13,1:22:19.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我给你打了一天电话
+Dialogue: 0,1:22:19.85,1:22:21.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你一直不接
+Dialogue: 0,1:22:21.57,1:22:22.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不能这样做
+Dialogue: 0,1:22:23.23,1:22:25.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后渡轮出了事
+Dialogue: 0,1:22:26.05,1:22:28.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我打电话问了五个警局
+Dialogue: 0,1:22:28.88,1:22:31.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}五个  我还给你五个朋友打了电话
+Dialogue: 0,1:22:31.34,1:22:32.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我给内德的妈妈打了电话   我没事
+Dialogue: 0,1:22:32.19,1:22:33.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅   我没事
+Dialogue: 0,1:22:33.18,1:22:35.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的   放松   我没事
+Dialogue: 0,1:22:36.77,1:22:39.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别胡扯了  我知道你逃了留校
+Dialogue: 0,1:22:39.79,1:22:41.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道你离开了华盛顿的酒店房间
+Dialogue: 0,1:22:42.48,1:22:44.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道你每天晚上都从家偷溜出去
+Dialogue: 0,1:22:44.65,1:22:45.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这可不行
+Dialogue: 0,1:22:45.92,1:22:48.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得  你得告诉我到底怎么了
+Dialogue: 0,1:22:48.30,1:22:50.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}说出来吧 这里只有我们两个
+Dialogue: 0,1:22:52.78,1:22:54.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我丢了在斯塔克的实习工作
+Dialogue: 0,1:22:54.96,1:22:56.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么   是的
+Dialogue: 0,1:22:57.12,1:22:58.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}出什么事了
+Dialogue: 0,1:22:58.72,1:23:00.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只是以为我可以努力工作
+Dialogue: 0,1:23:00.55,1:23:02.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后他就会... 就会...
+Dialogue: 0,1:23:02.44,1:23:05.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但是... 我搞砸了
+Dialogue: 0,1:23:06.08,1:23:07.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没事的   没事的
+Dialogue: 0,1:23:09.70,1:23:10.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没事的
+Dialogue: 0,1:23:12.20,1:23:13.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉我让你担心了
+Dialogue: 0,1:23:14.75,1:23:16.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你明白我并不是想毁掉你的生活
+Dialogue: 0,1:23:16.76,1:23:17.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我明白
+Dialogue: 0,1:23:18.12,1:23:18.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}只是...
+Dialogue: 0,1:23:19.74,1:23:22.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我以前也会偷溜出去   嗯
+Dialogue: 0,1:23:25.10,1:23:27.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}洗个澡吧  你臭死了
+Dialogue: 0,1:23:28.07,1:23:30.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你身上一股... 垃圾味儿
+Dialogue: 0,1:23:30.53,1:23:31.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道
+Dialogue: 0,1:23:35.26,1:23:37.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得  你是个好孩子  聪明的孩子
+Dialogue: 0,1:23:37.49,1:23:39.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以  把精神用在正地方  好吗
+Dialogue: 0,1:23:40.99,1:23:41.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,1:23:42.50,1:23:43.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了 出去吧
+Dialogue: 0,1:23:52.25,1:23:53.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是不是被开除了
+Dialogue: 0,1:23:53.55,1:23:54.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是不是要去46街那个高中
+Dialogue: 0,1:23:54.70,1:23:56.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们校长有把十字弩
+Dialogue: 0,1:23:56.75,1:23:57.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那八成只是街头传闻
+Dialogue: 0,1:23:57.86,1:23:59.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不 我没有被开除
+Dialogue: 0,1:24:00.60,1:24:01.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你真走运
+Dialogue: 0,1:24:06.33,1:24:09.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"返校节"
+Dialogue: 0,1:24:24.07,1:24:25.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很好   帕克先生
+Dialogue: 0,1:24:53.23,1:24:55.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我以为你第五节课要上微积分
+Dialogue: 0,1:24:55.86,1:24:57.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊  我只是在做返校节的东西
+Dialogue: 0,1:24:58.39,1:24:59.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我...
+Dialogue: 0,1:25:00.99,1:25:03.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想为学术竞赛的事道歉
+Dialogue: 0,1:25:03.49,1:25:04.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没关系   真抱歉
+Dialogue: 0,1:25:05.09,1:25:07.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}上周  学术竞赛是最重要的事
+Dialogue: 0,1:25:07.44,1:25:09.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但接着   我死里逃生
+Dialogue: 0,1:25:09.47,1:25:11.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不   我只是...
+Dialogue: 0,1:25:11.43,1:25:12.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我只是说
+Dialogue: 0,1:25:13.94,1:25:15.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那样很不好   尤其...
+Dialogue: 0,1:25:18.39,1:25:19.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为...
+Dialogue: 0,1:25:21.25,1:25:23.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我喜欢你
+Dialogue: 0,1:25:24.35,1:25:25.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道
+Dialogue: 0,1:25:28.64,1:25:29.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道
+Dialogue: 0,1:25:30.17,1:25:32.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你太不会保密了
+Dialogue: 0,1:25:32.45,1:25:34.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这你就不知道了
+Dialogue: 0,1:25:37.35,1:25:39.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得去上课了   但是...
+Dialogue: 0,1:25:40.07,1:25:41.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我想说我们应该一起聊聊
+Dialogue: 0,1:25:41.54,1:25:43.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但是我还要留校...
+Dialogue: 0,1:25:44.79,1:25:46.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}留很久   但是...
+Dialogue: 0,1:25:47.72,1:25:50.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我猜你已经有返校节舞会舞伴了
+Dialogue: 0,1:25:50.13,1:25:51.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实   我一直在忙着准备
+Dialogue: 0,1:25:51.70,1:25:54.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还没来得及找   所以...
+Dialogue: 0,1:25:56.31,1:25:57.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你愿意
+Dialogue: 0,1:25:58.11,1:25:58.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}做我的舞伴吗
+Dialogue: 0,1:25:59.98,1:26:01.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当然愿意
+Dialogue: 0,1:26:01.70,1:26:04.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗 太好了
+Dialogue: 0,1:26:05.11,1:26:05.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,1:26:06.89,1:26:09.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我应该往那边走
+Dialogue: 0,1:26:21.34,1:26:22.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅   我需要你的帮助
+Dialogue: 0,1:26:36.46,1:26:38.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"温莎领结"
+Dialogue: 0,1:26:45.84,1:26:46.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对吧
+Dialogue: 0,1:26:57.47,1:26:59.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大日子到了 说说计划
+Dialogue: 0,1:26:59.56,1:27:00.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给她开门
+Dialogue: 0,1:27:01.55,1:27:03.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}夸她漂亮   但别太过了
+Dialogue: 0,1:27:03.07,1:27:05.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不然会吓到人家  别吓到人家
+Dialogue: 0,1:27:05.08,1:27:06.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好   跟她跳舞的时候
+Dialogue: 0,1:27:06.63,1:27:09.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}把手放在她的胯上 我行的
+Dialogue: 0,1:27:12.62,1:27:13.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爱你    再见
+Dialogue: 0,1:27:28.33,1:27:29.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你一定就是彼得了
+Dialogue: 0,1:27:30.77,1:27:31.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是的
+Dialogue: 0,1:27:32.06,1:27:33.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是丽兹的爸爸
+Dialogue: 0,1:27:33.72,1:27:34.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}握个手吧
+Dialogue: 0,1:27:35.85,1:27:37.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}手挺有劲儿
+Dialogue: 0,1:27:37.41,1:27:39.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}进来吧   来
+Dialogue: 0,1:28:03.37,1:28:04.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你好   得
+Dialogue: 0,1:28:05.33,1:28:06.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}挺帅嘛
+Dialogue: 0,1:28:07.01,1:28:07.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,1:28:08.89,1:28:10.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没叫错他的名字吧
+Dialogue: 0,1:28:11.09,1:28:12.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗雷迪吗   是彼得
+Dialogue: 0,1:28:12.52,1:28:13.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得   彼得
+Dialogue: 0,1:28:14.79,1:28:16.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我去叫丽兹
+Dialogue: 0,1:28:16.34,1:28:17.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好
+Dialogue: 0,1:28:23.79,1:28:24.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没事吧 彼得
+Dialogue: 0,1:28:25.37,1:28:26.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯
+Dialogue: 0,1:28:26.75,1:28:29.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为你脸色很苍白
+Dialogue: 0,1:28:31.09,1:28:31.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}想来点喝的吗
+Dialogue: 0,1:28:31.88,1:28:33.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}波本
+Dialogue: 0,1:28:33.07,1:28:34.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}或者威士忌之类的
+Dialogue: 0,1:28:34.98,1:28:36.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还没到能喝酒的年龄
+Dialogue: 0,1:28:36.94,1:28:38.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}回答正确
+Dialogue: 0,1:28:42.60,1:28:43.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你可真美
+Dialogue: 0,1:28:43.55,1:28:45.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别丢人了   爸爸
+Dialogue: 0,1:28:45.28,1:28:46.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是吧   彼得
+Dialogue: 0,1:28:47.00,1:28:49.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊   你真的很美
+Dialogue: 0,1:28:49.63,1:28:51.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}又是正确答案
+Dialogue: 0,1:28:51.95,1:28:53.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是胸花吗
+Dialogue: 0,1:28:55.84,1:28:56.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,1:28:57.60,1:28:58.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是你们的司机
+Dialogue: 0,1:28:58.80,1:29:00.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们赶紧上路吧
+Dialogue: 0,1:29:00.88,1:29:03.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不不   我们得先拍几张照片  宝贝
+Dialogue: 0,1:29:03.34,1:29:03.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:29:03.96,1:29:06.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这儿呢   完美  妈妈
+Dialogue: 0,1:29:06.48,1:29:08.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了 你们俩过来
+Dialogue: 0,1:29:08.96,1:29:10.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得 靠近点
+Dialogue: 0,1:29:12.39,1:29:13.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}笑一笑
+Dialogue: 0,1:29:14.69,1:29:15.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:29:22.20,1:29:23.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}先生  你不用开车送我们的
+Dialogue: 0,1:29:23.08,1:29:25.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不不  小事一桩
+Dialogue: 0,1:29:25.56,1:29:27.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我正要出城 顺路
+Dialogue: 0,1:29:27.77,1:29:29.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他老是出门忙活
+Dialogue: 0,1:29:29.02,1:29:29.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最后一次了   好好玩
+Dialogue: 0,1:29:29.95,1:29:31.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢你   我保证
+Dialogue: 0,1:29:31.31,1:29:32.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他很可爱
+Dialogue: 0,1:29:34.75,1:29:35.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}几天后见
+Dialogue: 0,1:29:35.26,1:29:36.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见    宝贝   好
+Dialogue: 0,1:29:37.82,1:29:38.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}走吧 小彼
+Dialogue: 0,1:29:39.58,1:29:41.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见  彼得  好好玩  我会的
+Dialogue: 0,1:29:51.80,1:29:52.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你打算做什么  彼得
+Dialogue: 0,1:29:53.70,1:29:54.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么
+Dialogue: 0,1:29:54.90,1:29:56.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你毕业后   你打算做什么
+Dialogue: 0,1:29:56.64,1:29:59.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不知道    别拷问他   爸爸
+Dialogue: 0,1:30:00.17,1:30:02.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就问问
+Dialogue: 0,1:30:02.72,1:30:04.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们上那么好的学校
+Dialogue: 0,1:30:04.04,1:30:06.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}应该都已经规划好自己的人生了吧
+Dialogue: 0,1:30:07.24,1:30:09.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没有   我还在读高二
+Dialogue: 0,1:30:09.46,1:30:11.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得在托尼·斯塔克的公司实习
+Dialogue: 0,1:30:11.52,1:30:13.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以我觉得他不用担心
+Dialogue: 0,1:30:13.66,1:30:14.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗
+Dialogue: 0,1:30:14.87,1:30:16.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克   多棒
+Dialogue: 0,1:30:18.45,1:30:19.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你是做什么的
+Dialogue: 0,1:30:20.46,1:30:23.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实我已经不在他那里实习了
+Dialogue: 0,1:30:23.06,1:30:25.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗   是啊   有点...
+Dialogue: 0,1:30:26.26,1:30:27.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}无聊了
+Dialogue: 0,1:30:27.27,1:30:28.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}无聊吗
+Dialogue: 0,1:30:28.73,1:30:30.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你还有机会见蜘蛛侠呢
+Dialogue: 0,1:30:30.59,1:30:32.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗   蜘蛛侠
+Dialogue: 0,1:30:34.32,1:30:35.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他是怎样的人
+Dialogue: 0,1:30:36.63,1:30:37.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他挺好
+Dialogue: 0,1:30:38.30,1:30:39.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}人挺好
+Dialogue: 0,1:30:40.35,1:30:41.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很可靠
+Dialogue: 0,1:30:45.05,1:30:47.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看   多可爱啊
+Dialogue: 0,1:30:52.58,1:30:54.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在哪里见过你吧
+Dialogue: 0,1:30:54.18,1:30:56.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在什么地方
+Dialogue: 0,1:30:56.00,1:30:59.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们有没有... 因为你的声音也...
+Dialogue: 0,1:30:59.34,1:31:01.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他和我一起参加了学术竞赛
+Dialogue: 0,1:31:02.06,1:31:03.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他还来过我的派对
+Dialogue: 0,1:31:03.86,1:31:05.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}派对很棒
+Dialogue: 0,1:31:05.07,1:31:06.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的很棒
+Dialogue: 0,1:31:06.42,1:31:08.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}房子真漂亮 有很多窗户
+Dialogue: 0,1:31:08.97,1:31:10.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你才待了一小会儿
+Dialogue: 0,1:31:11.32,1:31:11.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是...
+Dialogue: 0,1:31:11.85,1:31:14.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}也没那么短吧
+Dialogue: 0,1:31:14.74,1:31:16.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你消失了  没有
+Dialogue: 0,1:31:16.67,1:31:18.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不   我没有消失   你消失了
+Dialogue: 0,1:31:18.99,1:31:20.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你和往常一样消失了
+Dialogue: 0,1:31:20.50,1:31:21.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在华盛顿也是
+Dialogue: 0,1:31:30.18,1:31:33.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}华盛顿发生的事太可怕了
+Dialogue: 0,1:31:33.67,1:31:34.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你害怕吗
+Dialogue: 0,1:31:36.14,1:31:38.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你看到你的老朋友蜘蛛侠
+Dialogue: 0,1:31:38.69,1:31:40.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}出现在电梯里时肯定很高兴吧
+Dialogue: 0,1:31:43.62,1:31:45.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实当时我没有上去
+Dialogue: 0,1:31:45.61,1:31:47.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是在地面上看到的
+Dialogue: 0,1:31:48.27,1:31:49.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯
+Dialogue: 0,1:31:49.79,1:31:51.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还好他那天在
+Dialogue: 0,1:31:55.38,1:31:57.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好伙计蜘蛛侠
+Dialogue: 0,1:32:01.66,1:32:03.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爸爸 绿灯了
+Dialogue: 0,1:32:18.92,1:32:21.18,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们到了 到地方了
+Dialogue: 0,1:32:21.19,1:32:22.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢    爸爸
+Dialogue: 0,1:32:23.17,1:32:24.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你先进去吧 宝贝
+Dialogue: 0,1:32:24.76,1:32:27.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要给彼得来一场"父亲训话"
+Dialogue: 0,1:32:29.49,1:32:30.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}别被他吓到了
+Dialogue: 0,1:32:31.67,1:32:32.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爱你
+Dialogue: 0,1:32:32.93,1:32:34.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}爱你   宝贝  一路顺风
+Dialogue: 0,1:32:37.73,1:32:40.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们看上去真美
+Dialogue: 0,1:32:45.14,1:32:46.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}她知道吗
+Dialogue: 0,1:32:47.10,1:32:48.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}知道什么
+Dialogue: 0,1:32:48.76,1:32:50.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那么她不知道   很好
+Dialogue: 0,1:32:50.44,1:32:53.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}会保守秘密  这点我很钦佩
+Dialogue: 0,1:32:53.72,1:32:55.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我自己也有一些秘密
+Dialogue: 0,1:32:56.45,1:32:59.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我有那么多理由反对我女儿约会 到头来...
+Dialogue: 0,1:33:02.34,1:33:03.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,1:33:04.07,1:33:06.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没有什么比家庭更重要
+Dialogue: 0,1:33:06.44,1:33:08.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你救了我女儿的命
+Dialogue: 0,1:33:08.32,1:33:10.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我绝不会忘记这种恩情
+Dialogue: 0,1:33:10.27,1:33:12.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以我给你一个机会
+Dialogue: 0,1:33:12.44,1:33:13.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}准备好了吗
+Dialogue: 0,1:33:14.16,1:33:15.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你走进去
+Dialogue: 0,1:33:15.31,1:33:17.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}忘掉这些事
+Dialogue: 0,1:33:17.52,1:33:18.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}永远不准
+Dialogue: 0,1:33:19.55,1:33:20.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再来
+Dialogue: 0,1:33:21.09,1:33:23.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}插手我的生意
+Dialogue: 0,1:33:23.84,1:33:24.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}否则
+Dialogue: 0,1:33:26.03,1:33:27.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会杀了你
+Dialogue: 0,1:33:28.36,1:33:30.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}和你爱的每个人
+Dialogue: 0,1:33:31.17,1:33:32.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会要你的命
+Dialogue: 0,1:33:32.84,1:33:35.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这是我为了保护家人能做出的事 彼得
+Dialogue: 0,1:33:35.29,1:33:36.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你明白吗
+Dialogue: 0,1:33:40.63,1:33:43.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我刚刚救了你的命 你该怎么说
+Dialogue: 0,1:33:46.23,1:33:47.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,1:33:47.70,1:33:48.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不客气
+Dialogue: 0,1:33:49.66,1:33:51.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你现在进去
+Dialogue: 0,1:33:51.95,1:33:54.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}让我女儿    好好开心一下    知道了吗
+Dialogue: 0,1:33:55.96,1:33:57.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}也别太开心了
+Dialogue: 0,1:34:55.04,1:34:56.53,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他和你说了什么
+Dialogue: 0,1:35:00.82,1:35:01.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得走了
+Dialogue: 0,1:35:04.07,1:35:05.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对不起
+Dialogue: 0,1:35:06.09,1:35:07.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这对你不公平
+Dialogue: 0,1:35:29.35,1:35:30.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他给了你选择
+Dialogue: 0,1:35:30.98,1:35:33.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你选错了    搞什么
+Dialogue: 0,1:35:33.00,1:35:34.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这破烂衣服       是怎么回事
+Dialogue: 0,1:35:37.09,1:35:38.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的射网器
+Dialogue: 0,1:35:47.46,1:35:49.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我本来还对这玩意抱有怀疑 但是...
+Dialogue: 0,1:35:50.99,1:35:51.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天啊
+Dialogue: 0,1:35:57.28,1:35:58.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真恶心
+Dialogue: 0,1:36:10.04,1:36:13.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他为什么派你来     你永远不会知道了
+Dialogue: 0,1:36:17.95,1:36:19.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}漂亮
+Dialogue: 0,1:36:24.64,1:36:25.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太好了
+Dialogue: 0,1:36:25.68,1:36:28.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德    那个有翅膀的家伙     是丽兹的爸爸
+Dialogue: 0,1:36:28.07,1:36:29.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么     我知道     我得告诉斯塔克先生
+Dialogue: 0,1:36:29.84,1:36:32.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}联系哈皮·霍根      他是斯塔克先生的安保主管
+Dialogue: 0,1:36:32.35,1:36:34.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}去找一台电脑     帮我追踪我的手机
+Dialogue: 0,1:36:34.55,1:36:35.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你没事吧
+Dialogue: 0,1:36:35.26,1:36:37.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快点    我们得在他出城前    抓住他
+Dialogue: 0,1:36:38.85,1:36:40.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}晚餐的事我很抱歉
+Dialogue: 0,1:36:41.49,1:36:42.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我知道新鲜柠檬鲈鱼什么味儿
+Dialogue: 0,1:36:42.73,1:36:44.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那绝对不新鲜 好吗
+Dialogue: 0,1:36:44.35,1:36:45.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以...
+Dialogue: 0,1:36:46.05,1:36:48.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}弗拉士 我需要你的车和你的手机
+Dialogue: 0,1:36:48.10,1:36:50.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}先生 严格来说这是我爸的车
+Dialogue: 0,1:36:50.38,1:36:51.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以我不能
+Dialogue: 0,1:36:59.41,1:37:01.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德  你听得到吗
+Dialogue: 0,1:37:01.48,1:37:02.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这里是内德
+Dialogue: 0,1:37:02.89,1:37:05.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德     我需要你帮我追踪我的手机
+Dialogue: 0,1:37:05.05,1:37:06.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好      但你的手机在哪
+Dialogue: 0,1:37:11.03,1:37:13.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太聪明了    他刚刚经过杰克逊大道的游戏站
+Dialogue: 0,1:37:13.92,1:37:15.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这玩意的前灯      怎么开
+Dialogue: 0,1:37:15.52,1:37:18.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在开弗拉士的车     我来查操作说明书
+Dialogue: 0,1:37:18.04,1:37:19.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的     给你开免提了
+Dialogue: 0,1:37:19.32,1:37:21.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你偷了弗拉士的车     赞
+Dialogue: 0,1:37:21.29,1:37:23.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      很赞      很...
+Dialogue: 0,1:37:23.75,1:37:25.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}让开    让开    快点    快点
+Dialogue: 0,1:37:25.99,1:37:28.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得     你没事吧     我从来没开过车
+Dialogue: 0,1:37:28.06,1:37:29.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就和梅在停车场练过
+Dialogue: 0,1:37:29.47,1:37:31.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这跨度也太大了
+Dialogue: 0,1:37:33.55,1:37:35.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你联系到哈皮了吗
+Dialogue: 0,1:37:35.12,1:37:36.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯       我正在努力
+Dialogue: 0,1:37:36.11,1:37:37.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得攻破手机系统的后门
+Dialogue: 0,1:37:41.90,1:37:43.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}技术支援
+Dialogue: 0,1:37:48.47,1:37:50.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}九分钟后起飞
+Dialogue: 0,1:37:50.06,1:37:52.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}喂      喂      谁啊
+Dialogue: 0,1:37:52.19,1:37:53.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮先生    我是内德     谁
+Dialogue: 0,1:37:53.66,1:37:54.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是彼得·帕克的同伴
+Dialogue: 0,1:37:54.98,1:37:56.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有很重要的事     要和你说...
+Dialogue: 0,1:37:56.16,1:37:57.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在逗我吧
+Dialogue: 0,1:37:58.72,1:37:59.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}该死
+Dialogue: 0,1:37:59.55,1:38:01.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}内德     搞清楚前灯    怎么用了吗
+Dialogue: 0,1:38:03.71,1:38:05.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}方向盘左边的圆形把手
+Dialogue: 0,1:38:05.77,1:38:07.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}顺时针转     左边     好了
+Dialogue: 0,1:38:08.05,1:38:10.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}完美    我的手机    现在在哪里
+Dialogue: 0,1:38:11.35,1:38:13.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他停在了布鲁克林一家旧工业园区
+Dialogue: 0,1:38:13.14,1:38:14.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么       那没道理啊
+Dialogue: 0,1:38:14.55,1:38:16.16,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我以为他说      他要出城了
+Dialogue: 0,1:38:16.21,1:38:18.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真奇怪       我联系到了哈皮先生
+Dialogue: 0,1:38:18.27,1:38:19.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他好像不是很喜欢你
+Dialogue: 0,1:38:19.53,1:38:21.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他好像正忙着赶飞机
+Dialogue: 0,1:38:21.24,1:38:23.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}说什么九分钟后起飞
+Dialogue: 0,1:38:23.10,1:38:25.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}什么  他边上都是箱子
+Dialogue: 0,1:38:25.02,1:38:26.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}箱子 今天是搬家日
+Dialogue: 0,1:38:26.82,1:38:28.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是搬家日     搬家日    他要劫那架飞机
+Dialogue: 0,1:38:28.84,1:38:30.11,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得阻止他
+Dialogue: 0,1:38:33.95,1:38:35.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了   八分钟后起飞
+Dialogue: 0,1:38:35.84,1:38:38.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}只要再装上托尼的      旧反浩克盔甲
+Dialogue: 0,1:38:38.64,1:38:42.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}队长新盾牌的原型机     还有梅金...
+Dialogue: 0,1:38:42.37,1:38:43.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅金...
+Dialogue: 0,1:38:44.08,1:38:45.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}托尔的魔法腰带
+Dialogue: 0,1:38:46.63,1:38:48.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}慢点       你接近了
+Dialogue: 0,1:38:48.40,1:38:49.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就在你右边      什么
+Dialogue: 0,1:38:49.74,1:38:51.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}右转       右转
+Dialogue: 0,1:39:00.53,1:39:02.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得      你没事吧      没事
+Dialogue: 0,1:39:02.92,1:39:04.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}继续尝试联系哈皮
+Dialogue: 0,1:39:05.80,1:39:07.20,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很荣幸      蜘蛛侠
+Dialogue: 0,1:39:08.10,1:39:09.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在干什么     在举办舞会呢
+Dialogue: 0,1:39:14.66,1:39:16.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在看...
+Dialogue: 0,1:39:17.35,1:39:18.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}黄片
+Dialogue: 0,1:40:00.46,1:40:01.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没想到吧
+Dialogue: 0,1:40:02.25,1:40:03.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,1:40:04.49,1:40:05.85,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我没听见你进来
+Dialogue: 0,1:40:05.96,1:40:07.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}都结束了    我抓住你了
+Dialogue: 0,1:40:08.22,1:40:10.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得说      彼得
+Dialogue: 0,1:40:10.86,1:40:13.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我真的     真的佩服你的勇气
+Dialogue: 0,1:40:15.25,1:40:16.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我能看出丽兹       为什么喜欢你
+Dialogue: 0,1:40:18.75,1:40:20.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的      你刚走进我家门时
+Dialogue: 0,1:40:20.82,1:40:22.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还不确定   我想   就这小子吗
+Dialogue: 0,1:40:22.62,1:40:23.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我现在明白了
+Dialogue: 0,1:40:24.72,1:40:26.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你怎么能这样对她
+Dialogue: 0,1:40:26.60,1:40:28.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对她     我没有对她做任何事     彼得
+Dialogue: 0,1:40:28.97,1:40:30.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我做这些都是为了她
+Dialogue: 0,1:40:31.74,1:40:32.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊
+Dialogue: 0,1:40:36.76,1:40:37.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}彼得
+Dialogue: 0,1:40:39.10,1:40:40.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你很年轻
+Dialogue: 0,1:40:40.32,1:40:42.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不明白这个世界是怎么样的
+Dialogue: 0,1:40:42.63,1:40:43.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我明白
+Dialogue: 0,1:40:43.50,1:40:45.75,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}把武器卖给罪犯是错的
+Dialogue: 0,1:40:45.75,1:40:48.37,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你以为你的朋友斯塔克哪来的钱造那幢大楼
+Dialogue: 0,1:40:48.37,1:40:49.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}还有他那些小玩具
+Dialogue: 0,1:40:50.16,1:40:51.05,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那些人   彼得
+Dialogue: 0,1:40:51.05,1:40:53.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那些高高在上 有权有势的人
+Dialogue: 0,1:40:53.55,1:40:54.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可以为所欲为
+Dialogue: 0,1:40:54.66,1:40:57.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们这样的人 像你和我
+Dialogue: 0,1:40:58.57,1:40:59.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们根本就不会在乎
+Dialogue: 0,1:41:00.22,1:41:03.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们为他们铺设道路 为他们浴血作战什么的
+Dialogue: 0,1:41:03.46,1:41:04.90,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但他们      根本不在乎我们
+Dialogue: 0,1:41:05.35,1:41:06.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们得跟在他们后头捡漏
+Dialogue: 0,1:41:06.46,1:41:08.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们只能吃     他们的残羹冷炙
+Dialogue: 0,1:41:10.65,1:41:11.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这世界就是这样
+Dialogue: 0,1:41:13.13,1:41:15.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我知道你明白    我在说什么    彼得
+Dialogue: 0,1:41:15.28,1:41:16.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你为什么     要告诉我这些
+Dialogue: 0,1:41:17.28,1:41:19.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}因为我希望     你能理解
+Dialogue: 0,1:41:19.84,1:41:20.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}而且
+Dialogue: 0,1:41:21.43,1:41:23.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}它需要一点时间     才能起飞
+Dialogue: 0,1:41:37.21,1:41:38.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对不起   彼得
+Dialogue: 0,1:41:41.75,1:41:42.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在说什么
+Dialogue: 0,1:41:42.76,1:41:44.81,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那东西     根本就没刮到我
+Dialogue: 0,1:41:46.03,1:41:47.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}没错      但是
+Dialogue: 0,1:41:48.47,1:41:50.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}根本没打算刮到你
+Dialogue: 0,1:41:55.92,1:41:57.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老大    他们发动引擎了
+Dialogue: 0,1:41:57.49,1:41:59.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好的     知道了     快点    快点
+Dialogue: 0,1:42:46.28,1:42:47.09,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天啊
+Dialogue: 0,1:42:52.12,1:42:53.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}准备
+Dialogue: 0,1:43:02.79,1:43:03.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有人吗
+Dialogue: 0,1:43:07.15,1:43:08.66,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有人吗
+Dialogue: 0,1:43:08.66,1:43:09.63,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}救命啊
+Dialogue: 0,1:43:11.09,1:43:13.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}救命啊      我在下面
+Dialogue: 0,1:43:13.29,1:43:14.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在下面      我被卡住了
+Dialogue: 0,1:43:15.00,1:43:17.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我卡住了     我动不了     我动...
+Dialogue: 0,1:43:34.88,1:43:36.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}如果没有这套战衣      你就一无是处
+Dialogue: 0,1:43:37.05,1:43:38.44,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那你就不配拥有它
+Dialogue: 0,1:43:44.74,1:43:45.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加油      彼得
+Dialogue: 0,1:43:46.80,1:43:48.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加油      蜘蛛侠
+Dialogue: 0,1:43:48.69,1:43:49.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加油      蜘蛛侠
+Dialogue: 0,1:43:50.68,1:43:52.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加油      蜘蛛侠
+Dialogue: 0,1:43:54.59,1:43:56.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}加油      蜘蛛侠
+Dialogue: 0,1:44:48.08,1:44:50.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}出发拦截    行动    行动
+Dialogue: 0,1:44:50.07,1:44:51.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊
+Dialogue: 0,1:45:06.73,1:45:08.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动反光板
+Dialogue: 0,1:45:21.00,1:45:22.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看到飞机了
+Dialogue: 0,1:45:22.66,1:45:24.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我感觉       好像有点阻力
+Dialogue: 0,1:45:24.00,1:45:26.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}可能只是新涡轮的曳力
+Dialogue: 0,1:45:39.38,1:45:40.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}小心隐形摄像机
+Dialogue: 0,1:45:40.36,1:45:41.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}躲在盲区里
+Dialogue: 0,1:45:51.83,1:45:53.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的天啊      我的天啊
+Dialogue: 0,1:45:54.24,1:45:56.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}启动高空真空密封
+Dialogue: 0,1:45:56.80,1:45:58.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最好管用     梅森
+Dialogue: 0,1:46:03.96,1:46:05.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}相信我     老大     这里一个箱子
+Dialogue: 0,1:46:05.71,1:46:07.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}都够我们吃一辈子      嗯
+Dialogue: 0,1:46:20.60,1:46:22.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你有30秒时间      进入驾驶舱
+Dialogue: 0,1:46:22.17,1:46:23.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}超控他们的安保程序
+Dialogue: 0,1:46:35.65,1:46:37.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}复制应答机信号
+Dialogue: 0,1:46:37.30,1:46:39.28,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}发射诱饵无人机
+Dialogue: 0,1:46:43.36,1:46:44.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}设定新坐标
+Dialogue: 0,1:46:51.43,1:46:52.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}很好      那么     一切顺利
+Dialogue: 0,1:46:52.89,1:46:53.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是的     先生    航线正常
+Dialogue: 0,1:46:53.69,1:46:54.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好      谢谢你
+Dialogue: 0,1:46:56.34,1:46:57.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了
+Dialogue: 0,1:47:10.36,1:47:11.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的乖乖
+Dialogue: 0,1:48:01.73,1:48:03.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}只是一个普通的返校节
+Dialogue: 0,1:48:03.61,1:48:05.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}趴在一架隐形飞机外
+Dialogue: 0,1:48:06.67,1:48:08.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}对付我女朋友的爸爸
+Dialogue: 0,1:48:17.82,1:48:19.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天啊
+Dialogue: 0,1:48:26.94,1:48:28.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真不敢相信       这样也行
+Dialogue: 0,1:49:05.46,1:49:07.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}老大     飞机在坠落      赶紧离开
+Dialogue: 0,1:49:07.62,1:49:09.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我不要空手而归
+Dialogue: 0,1:49:19.42,1:49:20.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}天呐
+Dialogue: 0,1:49:35.49,1:49:37.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}快走       你在干什么
+Dialogue: 0,1:49:37.07,1:49:38.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}转向啊      转向啊
+Dialogue: 0,1:51:13.78,1:51:14.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊     小彼
+Dialogue: 0,1:52:02.90,1:52:03.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}中奖了
+Dialogue: 0,1:52:19.96,1:52:21.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的翅膀战衣
+Dialogue: 0,1:52:21.53,1:52:23.30,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你的翅膀要炸了
+Dialogue: 0,1:52:31.40,1:52:32.78,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}该回家了      彼得
+Dialogue: 0,1:52:33.06,1:52:34.68,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是想救你
+Dialogue: 0,1:52:44.90,1:52:45.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不
+Dialogue: 0,1:52:49.67,1:52:50.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不
+Dialogue: 0,1:52:51.78,1:52:52.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不
+Dialogue: 0,1:54:07.98,1:54:11.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"找到会飞秃鹫男一个 蜘蛛侠 飞机的事抱歉了"
+Dialogue: 0,1:54:31.20,1:54:32.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"返校日舞会"
+Dialogue: 0,1:54:32.84,1:54:34.93,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看上去好疯狂        整件...
+Dialogue: 0,1:54:34.93,1:54:36.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}简直疯了
+Dialogue: 0,1:54:36.55,1:54:38.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他就...
+Dialogue: 0,1:54:39.00,1:54:40.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你就...
+Dialogue: 0,1:54:41.13,1:54:43.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后我拿那个打中了他
+Dialogue: 0,1:54:43.15,1:54:44.86,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}简直... 天呐
+Dialogue: 0,1:54:45.23,1:54:46.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你救了我
+Dialogue: 0,1:54:47.49,1:54:48.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}太赞了
+Dialogue: 0,1:54:55.24,1:54:56.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹
+Dialogue: 0,1:54:58.36,1:54:59.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会想你的
+Dialogue: 0,1:55:00.05,1:55:00.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见
+Dialogue: 0,1:55:02.30,1:55:03.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹
+Dialogue: 0,1:55:10.53,1:55:12.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹      我很抱歉
+Dialogue: 0,1:55:12.84,1:55:13.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你老说抱歉
+Dialogue: 0,1:55:13.51,1:55:15.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这次又是为了什么
+Dialogue: 0,1:55:17.31,1:55:18.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}舞会的事
+Dialogue: 0,1:55:19.42,1:55:22.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那是挺过分的
+Dialogue: 0,1:55:22.71,1:55:24.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊     但是     你爸爸
+Dialogue: 0,1:55:24.79,1:55:26.51,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我无法想象      你现在的感觉
+Dialogue: 0,1:55:26.91,1:55:28.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是我能帮上什么
+Dialogue: 0,1:55:29.35,1:55:31.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我猜我们       要搬去俄勒冈州了
+Dialogue: 0,1:55:32.14,1:55:35.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}妈妈说那里挺不错的     所以还好了
+Dialogue: 0,1:55:36.11,1:55:39.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}反正    爸爸不希望我们    庭审期间待在这里
+Dialogue: 0,1:55:41.74,1:55:43.64,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}丽兹   我
+Dialogue: 0,1:55:44.62,1:55:45.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}再见   彼得
+Dialogue: 0,1:55:47.18,1:55:48.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不管你究竟有什么事
+Dialogue: 0,1:55:48.34,1:55:49.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我希望你能解决
+Dialogue: 0,1:56:03.13,1:56:06.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}恭喜   学术竞赛全国冠军们
+Dialogue: 0,1:56:06.70,1:56:08.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊
+Dialogue: 0,1:56:09.03,1:56:11.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我稍后要把这个      放回奖杯陈列柜里
+Dialogue: 0,1:56:11.12,1:56:14.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}现在练习期间      放在这里作为激励
+Dialogue: 0,1:56:14.28,1:56:15.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我有点超前了
+Dialogue: 0,1:56:15.33,1:56:17.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但我们明年      需要位新队长
+Dialogue: 0,1:56:17.76,1:56:20.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}所以我要指派米歇尔
+Dialogue: 0,1:56:21.27,1:56:22.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好啊
+Dialogue: 0,1:56:25.52,1:56:26.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢
+Dialogue: 0,1:56:26.71,1:56:28.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我的朋友喊我MJ
+Dialogue: 0,1:56:28.89,1:56:30.57,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你不是没有朋友吗
+Dialogue: 0,1:56:30.79,1:56:32.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}现在有了
+Dialogue: 0,1:56:35.09,1:56:37.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"未知号码   去厕所"
+Dialogue: 0,1:56:37.87,1:56:39.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得走了     你要去哪
+Dialogue: 0,1:56:42.59,1:56:44.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在隐瞒什么    彼得
+Dialogue: 0,1:56:46.91,1:56:48.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}开玩笑的    我才不关心    去吧
+Dialogue: 0,1:56:48.41,1:56:50.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了      我们该排练一下
+Dialogue: 0,1:56:50.64,1:56:51.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯
+Dialogue: 0,1:56:59.97,1:57:03.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮      你怎么在这里
+Dialogue: 0,1:57:04.13,1:57:05.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我真的欠你个人情
+Dialogue: 0,1:57:07.27,1:57:09.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要是没了这份工作    真不知如何是好
+Dialogue: 0,1:57:09.98,1:57:11.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我认识托尼之前
+Dialogue: 0,1:57:41.50,1:57:43.59,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你在这里待了多久了
+Dialogue: 0,1:57:43.59,1:57:46.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}反正是够尴尬了    老板想见你
+Dialogue: 0,1:57:46.86,1:57:47.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他也在这里吗
+Dialogue: 0,1:57:48.06,1:57:50.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}在厕所里吗     不     他在州北
+Dialogue: 0,1:57:50.22,1:57:51.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}州北     就那个地方吗
+Dialogue: 0,1:57:51.99,1:57:53.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊      走吧
+Dialogue: 0,1:57:53.75,1:57:54.89,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"奥迪人工智能启动   可以脱手"
+Dialogue: 0,1:57:54.89,1:57:55.69,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看看
+Dialogue: 0,1:57:56.11,1:57:57.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}挺气派吧
+Dialogue: 0,1:57:59.15,1:58:01.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们刚完成整体重装
+Dialogue: 0,1:58:28.28,1:58:29.42,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这可不是每天     都看得见的
+Dialogue: 0,1:58:29.42,1:58:30.52,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们来了
+Dialogue: 0,1:58:32.04,1:58:33.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}来得路上怎么样
+Dialogue: 0,1:58:34.05,1:58:34.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}挺好的
+Dialogue: 0,1:58:34.70,1:58:35.96,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}让我跟这孩子     单独谈会儿
+Dialogue: 0,1:58:37.48,1:58:38.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真的吗      是的
+Dialogue: 0,1:58:39.76,1:58:40.94,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我得跟孩子谈谈
+Dialogue: 0,1:58:41.68,1:58:42.73,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我就跟在后面
+Dialogue: 0,1:58:43.01,1:58:44.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}跟远点吧
+Dialogue: 0,1:58:44.15,1:58:45.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}行吗       距离产生美
+Dialogue: 0,1:58:51.61,1:58:52.92,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}抱歉      我拿走了你的战衣
+Dialogue: 0,1:58:53.05,1:58:54.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}虽然你是活该
+Dialogue: 0,1:58:54.60,1:58:56.02,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}事实证明       这是正合适的
+Dialogue: 0,1:58:56.02,1:58:57.70,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你需要的严厉管教     是吧
+Dialogue: 0,1:58:57.70,1:58:59.67,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}敦促你发奋     你说是吧
+Dialogue: 0,1:58:59.67,1:59:00.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是吧       嗯
+Dialogue: 0,1:59:00.87,1:59:02.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}大概是吧      就算是吧
+Dialogue: 0,1:59:04.60,1:59:05.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}斯塔克先生       我...
+Dialogue: 0,1:59:05.14,1:59:08.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你闯了大祸
+Dialogue: 0,1:59:08.38,1:59:09.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但之后       你做了正确的事
+Dialogue: 0,1:59:10.25,1:59:11.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你带狗狗      去了免费诊所
+Dialogue: 0,1:59:11.47,1:59:13.62,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}然后养大了      混血狗崽
+Dialogue: 0,1:59:13.62,1:59:14.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧     这个比喻不是很好
+Dialogue: 0,1:59:16.66,1:59:17.77,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我错怪你了
+Dialogue: 0,1:59:19.16,1:59:20.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我觉得   稍加指教
+Dialogue: 0,1:59:21.55,1:59:23.19,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你可以成为团队里      有价值的一员
+Dialogue: 0,1:59:25.74,1:59:27.71,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}队员    是啊
+Dialogue: 0,1:59:27.71,1:59:29.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那扇门后有50来个记者
+Dialogue: 0,1:59:29.34,1:59:30.82,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真记者     不是博主
+Dialogue: 0,1:59:31.29,1:59:32.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}等你准备好了
+Dialogue: 0,1:59:33.58,1:59:34.74,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}试试这件吧
+Dialogue: 0,1:59:35.22,1:59:37.17,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我会向世界介绍
+Dialogue: 0,1:59:37.17,1:59:39.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}复仇者联盟的最新正式成员
+Dialogue: 0,1:59:39.53,1:59:40.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}蜘蛛侠
+Dialogue: 0,1:59:43.69,1:59:44.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我...
+Dialogue: 0,1:59:46.83,1:59:48.38,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯      看看吧
+Dialogue: 0,1:59:54.62,1:59:55.80,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}发布会之后
+Dialogue: 0,1:59:55.80,1:59:58.14,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮会带你回房间     你的新住处
+Dialogue: 0,1:59:58.21,2:00:00.56,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}给他安排在哪了    幻视隔壁吗
+Dialogue: 0,2:00:00.65,2:00:02.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}嗯       幻视不怎么走门
+Dialogue: 0,2:00:02.30,2:00:04.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}挺好玩的      还穿墙
+Dialogue: 0,2:00:04.51,2:00:05.61,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你能很好融入的
+Dialogue: 0,2:00:12.82,2:00:14.12,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢      斯塔克先生
+Dialogue: 0,2:00:15.27,2:00:16.45,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}但是      还是不用了
+Dialogue: 0,2:00:17.63,2:00:19.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不用了    怎么说
+Dialogue: 0,2:00:20.43,2:00:21.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是说
+Dialogue: 0,2:00:21.79,2:00:24.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我还是想再多     脚踏实地一阵子
+Dialogue: 0,2:00:24.67,2:00:26.39,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}做个友善的好街坊蜘蛛侠
+Dialogue: 0,2:00:27.15,2:00:29.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}总得有人      去照顾小人物嘛
+Dialogue: 0,2:00:29.32,2:00:30.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你要拒绝我吗
+Dialogue: 0,2:00:31.03,2:00:32.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你想清楚了    看那个啊
+Dialogue: 0,2:00:33.26,2:00:34.08,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看我
+Dialogue: 0,2:00:35.30,2:00:36.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最后机会    要不要
+Dialogue: 0,2:00:36.33,2:00:37.43,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不要      好
+Dialogue: 0,2:00:37.86,2:00:39.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这种斯普林斯汀
+Dialogue: 0,2:00:39.03,2:00:41.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}工人阶级英雄的气概     我还蛮喜欢的
+Dialogue: 0,2:00:41.61,2:00:43.32,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮会送你回家
+Dialogue: 0,2:00:43.83,2:00:45.10,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}行吧    好
+Dialogue: 0,2:00:45.49,2:00:47.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}能去车里等着吗     我需要点时间
+Dialogue: 0,2:00:49.18,2:00:49.99,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢     斯塔克先生
+Dialogue: 0,2:00:49.99,2:00:51.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}不客气     帕克先生     那好
+Dialogue: 0,2:00:51.72,2:00:53.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}回见      好
+Dialogue: 0,2:01:01.94,2:01:03.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}刚刚是试我吧
+Dialogue: 0,2:01:03.96,2:01:05.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那后面根本没人
+Dialogue: 0,2:01:05.23,2:01:06.46,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}是啊     你通过了
+Dialogue: 0,2:01:07.33,2:01:08.65,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好了     快走吧
+Dialogue: 0,2:01:08.65,2:01:10.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢     斯塔克先生    谢谢    小家伙
+Dialogue: 0,2:01:10.26,2:01:11.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}谢谢你才对
+Dialogue: 0,2:01:13.90,2:01:15.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就说     他是个好孩子吧
+Dialogue: 0,2:01:20.23,2:01:21.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}派珀     派珀
+Dialogue: 0,2:01:22.27,2:01:23.07,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}那孩子呢
+Dialogue: 0,2:01:23.07,2:01:24.58,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他走了    大家都等着呢
+Dialogue: 0,2:01:24.58,2:01:26.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}其实      他做了个很成熟的决定
+Dialogue: 0,2:01:26.96,2:01:28.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}就是让我们措手不及
+Dialogue: 0,2:01:28.49,2:01:29.98,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你们搞砸了吗
+Dialogue: 0,2:01:29.98,2:01:31.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他叫那孩子     去车里等着了
+Dialogue: 0,2:01:31.23,2:01:34.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}开什么玩笑     那一屋子的人
+Dialogue: 0,2:01:34.00,2:01:35.41,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}都在等待一个重大消息
+Dialogue: 0,2:01:35.41,2:01:36.55,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要跟他们说什么
+Dialogue: 0,2:01:36.55,2:01:39.23,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}想点别的吧      比如
+Dialogue: 0,2:01:39.76,2:01:41.03,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}哈皮     戒指你还带着吗
+Dialogue: 0,2:01:41.03,2:01:41.95,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我...
+Dialogue: 0,2:01:41.96,2:01:43.40,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}订婚戒指     开玩笑吗
+Dialogue: 0,2:01:43.40,2:01:45.79,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我从2008年     带到现在
+Dialogue: 0,2:01:49.36,2:01:50.21,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}好吧
+Dialogue: 0,2:01:50.63,2:01:52.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我觉得    我能想到    比那个好的
+Dialogue: 0,2:01:52.31,2:01:53.88,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这能给我们     争取点时间嘛
+Dialogue: 0,2:01:55.88,2:01:57.54,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我们也不需要时间了
+Dialogue: 0,2:01:58.25,2:02:00.01,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}真不敢相信     你把那玩意就揣兜里
+Dialogue: 0,2:02:00.01,2:02:00.97,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要我替你开门吗     亲爱的
+Dialogue: 0,2:02:00.97,2:02:01.91,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我来吧
+Dialogue: 0,2:02:18.63,2:02:20.26,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅婶婶      你做晚饭了吗
+Dialogue: 0,2:02:23.89,2:02:29.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}"物归原主   托尼·斯塔克"
+Dialogue: 0,2:02:31.53,2:02:32.36,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}梅
+Dialogue: 0,2:02:55.11,2:02:56.00,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}怎么回...
+Dialogue: 0,2:05:10.22,2:05:12.33,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}看看这是谁
+Dialogue: 0,2:05:13.97,2:05:14.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}多巧啊
+Dialogue: 0,2:05:14.84,2:05:16.83,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}咱俩进了同一个夏令营
+Dialogue: 0,2:05:17.40,2:05:18.87,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}放松
+Dialogue: 0,2:05:19.27,2:05:21.13,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这      不怪你
+Dialogue: 0,2:05:21.44,2:05:24.25,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要怪我们那位蜘蛛小朋友
+Dialogue: 0,2:05:24.70,2:05:26.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我在外面有人
+Dialogue: 0,2:05:26.29,2:05:28.22,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他们很想认识认识他
+Dialogue: 0,2:05:28.22,2:05:29.72,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}拍张合照
+Dialogue: 0,2:05:29.72,2:05:32.29,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}割了他的喉咙     把他脑袋塞进烘干机
+Dialogue: 0,2:05:32.43,2:05:34.31,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我听到传闻说
+Dialogue: 0,2:05:37.94,2:05:39.47,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你知道他的身份
+Dialogue: 0,2:05:43.27,2:05:45.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}要是我知道
+Dialogue: 0,2:05:45.82,2:05:47.35,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}他早就死了
+Dialogue: 0,2:05:51.89,2:05:54.50,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}图姆斯    你的家人来了
+Dialogue: 0,2:12:34.94,2:12:36.24,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我是美国队长
+Dialogue: 0,2:12:36.25,2:12:38.49,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}我要跟你们谈谈    一名士兵或学生能拥有的
+Dialogue: 0,2:12:38.49,2:12:40.48,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}最宝贵的品质之一
+Dialogue: 0,2:12:41.05,2:12:42.04,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}耐心
+Dialogue: 0,2:12:42.87,2:12:45.15,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有时     耐心能换来胜利
+Dialogue: 0,2:12:45.15,2:12:47.34,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}有时     却回报甚少
+Dialogue: 0,2:12:47.41,2:12:49.06,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}会让人觉得很不值
+Dialogue: 0,2:12:49.86,2:12:50.84,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}你会想
+Dialogue: 0,2:12:51.58,2:12:52.76,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}当初何必等那么久
+Dialogue: 0,2:12:52.76,2:12:54.60,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}盼来的却是失望
+Dialogue: 0,2:12:59.10,2:13:00.27,Default,,0000,0000,0000,,{\fnFZHei-B01S\fs20}这玩意还要拍几条
+
+

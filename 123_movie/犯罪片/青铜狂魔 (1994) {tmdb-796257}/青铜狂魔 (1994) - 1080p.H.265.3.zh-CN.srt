@@ -1,0 +1,1056 @@
+1
+00:00:00,660 --> 00:00:01,300
+Welcome back.
+
+2
+00:00:02,310 --> 00:00:05,140
+In this segment we'll briefly described
+the latest video
+
+3
+00:00:05,140 --> 00:00:10,960
+compression standards, the high efficiency
+video coding standard, HGVC.
+
+4
+00:00:12,110 --> 00:00:15,100
+It's a result of the effort by the joint
+collaborative
+
+5
+00:00:15,100 --> 00:00:18,393
+team on video coding and it is therefore
+additional names.
+
+6
+00:00:18,393 --> 00:00:25,470
+It's called H.265 by ITU-T, and MPEG-H
+part two by MPEG.
+
+7
+00:00:27,650 --> 00:00:31,380
+As computers become more powerful, more
+involved ideas from
+
+8
+00:00:31,380 --> 00:00:35,160
+the literature, or new ideas can be
+implemented and tested.
+
+9
+00:00:36,700 --> 00:00:38,716
+So the old idea of breaking a frame
+
+10
+00:00:38,716 --> 00:00:42,392
+into blocks of various sizes using a
+[INAUDIBLE] structure.
+
+11
+00:00:42,392 --> 00:00:45,152
+To perform motion estimation and
+compensation
+
+12
+00:00:45,152 --> 00:00:47,185
+can now become part of a standard.
+
+13
+00:00:47,185 --> 00:00:50,360
+Since adequate computational resources are
+available.
+
+14
+00:00:51,800 --> 00:00:56,030
+Similarly, instead of the eight spatial
+prediction
+
+15
+00:00:56,030 --> 00:00:59,467
+modes used in H.264 33 plus 235.
+
+16
+00:00:59,467 --> 00:01:05,042
+Such prediction modes can be implemented
+in H.265.
+
+17
+00:01:05,042 --> 00:01:09,712
+The overall result is that the latest
+standard is a very powerful one.
+
+18
+00:01:09,712 --> 00:01:12,280
+Especially for large spatial resolutions.
+
+19
+00:01:13,540 --> 00:01:16,429
+As a matter of fact, it supports
+
+20
+00:01:16,429 --> 00:01:21,050
+resolution up to 8k UHD, ultra high
+definition.
+
+21
+00:01:23,270 --> 00:01:25,080
+It's really fascinating to watch the
+
+22
+00:01:25,080 --> 00:01:27,810
+progress the video compression standards
+are making.
+
+23
+00:01:27,810 --> 00:01:30,844
+They bring of course up the important
+question of
+
+24
+00:01:30,844 --> 00:01:33,793
+how much longer can we be push in the
+envelope.
+
+25
+00:01:33,793 --> 00:01:36,349
+By having the rate of the previous
+standard
+
+26
+00:01:36,349 --> 00:01:39,899
+while maintaining the quality of the
+constructed video.
+
+27
+00:01:41,330 --> 00:01:45,180
+Maybe some of you might be the ones to
+further push this envelope.
+
+28
+00:01:46,480 --> 00:01:50,550
+So let us look into some of the details of
+this exciting standard.
+
+29
+00:01:52,890 --> 00:01:57,110
+High efficiency video coding standard is
+the latest standard
+
+30
+00:01:57,110 --> 00:02:01,180
+out of the Joint Collaborative Team on
+Video Coding.
+
+31
+00:02:01,180 --> 00:02:06,382
+That initial objective can be to reduce
+the bit rate by 50%
+
+32
+00:02:06,382 --> 00:02:12,640
+of the same quality when compared to H.264
+High Profile.
+
+33
+00:02:12,640 --> 00:02:18,894
+Since it's a joint def it has various
+names; in ITU is referred
+
+34
+00:02:18,894 --> 00:02:25,190
+to as an H.265 or an H Next Generation
+Video Coding.
+
+35
+00:02:25,190 --> 00:02:32,050
+Whereby the ISO is referred to as MPEG-H
+Part 2.
+
+36
+00:02:32,050 --> 00:02:36,810
+In comparing HEVC to H.264 it provides in
+practice better
+
+37
+00:02:36,810 --> 00:02:42,610
+coding efficiency by more than 35% at the
+same quality level.
+
+38
+00:02:42,610 --> 00:02:51,880
+It supports resolutions up to 8K UHD while
+H.264 supporting resolutions up to 4K UHD.
+
+39
+00:02:54,050 --> 00:02:59,090
+It also supports stereo and multi-view
+video encoding and also it
+
+40
+00:02:59,090 --> 00:03:04,690
+supports increased use of parallel
+processing, as we are going to see.
+
+41
+00:03:06,970 --> 00:03:14,420
+One of the novelties of ATVC is the use of
+coding tree units and coding tree blocks.
+
+42
+00:03:14,420 --> 00:03:20,790
+The CTU contains the lumen and chromacity
+B as well as syntax element.
+
+43
+00:03:20,790 --> 00:03:27,020
+So this is a departure from the standard
+16 by 16 microblock used by all standards.
+
+44
+00:03:27,020 --> 00:03:34,070
+Of course, we saw that H.264 subdivides
+this microblock into various sizes.
+
+45
+00:03:34,070 --> 00:03:39,410
+This CTU however can be as large as 64 by
+64 pixels.
+
+46
+00:03:39,410 --> 00:03:41,930
+And therefore, it's suitable for encoding
+high
+
+47
+00:03:41,930 --> 00:03:45,130
+definition content and results in better
+coding efficiency.
+
+48
+00:03:49,640 --> 00:03:53,826
+The CTU is subdivided into coding blocks,
+which can be
+
+49
+00:03:53,826 --> 00:03:58,495
+as small as four by four, based on their
+[UNKNOWN] structure.
+
+50
+00:03:58,495 --> 00:04:02,450
+And of course some rate control logic.
+
+51
+00:04:02,450 --> 00:04:07,889
+What we see in this table is how the CTU
+maximum size affects
+
+52
+00:04:07,889 --> 00:04:13,750
+the bit rate, the encoding time and the
+decoding time.
+
+53
+00:04:13,750 --> 00:04:17,789
+So when the largest possible CTU is used,
+we are saving bits.
+
+54
+00:04:17,789 --> 00:04:22,218
+Because there are many more choices in sub
+dividing
+
+55
+00:04:22,218 --> 00:04:26,445
+the CTU and adopting to the content of the
+frame.
+
+56
+00:04:26,445 --> 00:04:34,052
+So with the smaller CTU sizes the bit rate
+increased by 2.2 here and 11%.
+
+57
+00:04:34,052 --> 00:04:36,262
+If we consider the smaller one, which is
+
+58
+00:04:36,262 --> 00:04:39,122
+concise with the standard size of the
+macro blocks.
+
+59
+00:04:39,122 --> 00:04:42,304
+The encoding time however is higher here,
+because
+
+60
+00:04:42,304 --> 00:04:45,330
+again there are more choices to be made.
+
+61
+00:04:45,330 --> 00:04:49,815
+The decoding time however is smaller than
+the other choices of the CTU's.
+
+62
+00:04:49,815 --> 00:04:54,300
+Because there are larger now blocks and
+not so many blocks to be decoded.
+
+63
+00:04:56,950 --> 00:05:02,520
+The idea of course of using a quad-32
+segment or tesselate the frame is not new.
+
+64
+00:05:02,520 --> 00:05:08,520
+Here's an old result and we see here the
+segmentation for this particular frame.
+
+65
+00:05:08,520 --> 00:05:14,480
+And those are the associated motion
+vectors for each of these specific blocks.
+
+66
+00:05:14,480 --> 00:05:17,958
+The actually segmentation as well as the
+bit allocation
+
+67
+00:05:17,958 --> 00:05:21,050
+was done in the [UNKNOWN] in this
+particular work.
+
+68
+00:05:22,980 --> 00:05:26,250
+Behind the segmentation I showed you the
+previous frame, there's
+
+69
+00:05:26,250 --> 00:05:31,330
+this multilevel trellis that one hand
+shows the [UNKNOWN] structure.
+
+70
+00:05:31,330 --> 00:05:36,415
+So a 32 by 32 block is potentially broken
+down into
+
+71
+00:05:36,415 --> 00:05:41,870
+four 16 by 16, 16 by 16 and four 8 by 8
+and so on.
+
+72
+00:05:42,890 --> 00:05:47,020
+But this Trellis also allows us to perform
+optimal
+
+73
+00:05:47,020 --> 00:05:52,600
+bit relocation for encoding the
+segmentation, the motion vectors.
+
+74
+00:05:52,600 --> 00:05:56,660
+As well as the texture so that the overall
+
+75
+00:05:56,660 --> 00:06:00,210
+performance is optimized or the overall
+distortion is minimized.
+
+76
+00:06:03,380 --> 00:06:07,068
+We see here the coding three unit idea
+being demonstrated.
+
+77
+00:06:07,068 --> 00:06:10,596
+Based on this segmentation or tessellation
+of the
+
+78
+00:06:10,596 --> 00:06:13,744
+space or the coding decisions will be
+made.
+
+79
+00:06:13,744 --> 00:06:16,400
+How the bits will be allocated again,
+
+80
+00:06:16,400 --> 00:06:20,850
+amongst segmentation, motion vectors, as
+well as texture.
+
+81
+00:06:22,690 --> 00:06:27,010
+Here's an example showing that the
+tessellation of this
+
+82
+00:06:27,010 --> 00:06:31,720
+frame from the Foreman sequence by H.264
+and H.265.
+
+83
+00:06:31,720 --> 00:06:35,320
+Clearly seems many more choices available
+
+84
+00:06:35,320 --> 00:06:40,498
+with H.265, their coding efficiency only
+increases.
+
+85
+00:06:40,498 --> 00:06:46,258
+So here we see that there are large blocks
+64 by
+
+86
+00:06:46,258 --> 00:06:52,046
+64, smaller ones all the way down to 4 by
+4.
+
+87
+00:06:52,046 --> 00:06:55,701
+Their choices again are not as many when
+we work with
+
+88
+00:06:55,701 --> 00:07:01,360
+H.264 we talked about the various choices
+in the previous presentation.
+
+89
+00:07:04,910 --> 00:07:07,992
+When it comes to motion estimation and
+compensation,
+
+90
+00:07:07,992 --> 00:07:11,346
+quarter sample precision is used for
+motion estimation.
+
+91
+00:07:11,346 --> 00:07:15,816
+And this was the case also with H.264.
+
+92
+00:07:15,816 --> 00:07:23,483
+H.265 however uses 7-tap or 8-tap filters
+for this fractional sample interpolation.
+
+93
+00:07:23,483 --> 00:07:30,032
+While H.264 uses a 6-tap filter to go to
+half-sample precision
+
+94
+00:07:30,032 --> 00:07:36,069
+and then linear interpolation for quarter
+[UNKNOWN] precision.
+
+95
+00:07:36,069 --> 00:07:38,610
+Regarding motion vector signaling.
+
+96
+00:07:38,610 --> 00:07:42,300
+An advanced motion vector prediction
+scheme is used.
+
+97
+00:07:42,300 --> 00:07:44,850
+According to which candidate motion
+vectors
+
+98
+00:07:44,850 --> 00:07:48,510
+have derived from neighbouring prediction
+blocks.
+
+99
+00:07:48,510 --> 00:07:52,500
+In addition there's the option to merge or
+
+100
+00:07:52,500 --> 00:07:57,880
+inherit motion vectors from the temporal
+or spatial neighbors.
+
+101
+00:07:57,880 --> 00:08:03,880
+And this compared to HW64 then it's an
+improved skip or direct motion mode.
+
+102
+00:08:06,140 --> 00:08:12,937
+As far as interprediction goes AW65s
+supports 33 different directional modes.
+
+103
+00:08:12,937 --> 00:08:16,826
+As compared to the eight ones that are
+supported by AW64.
+
+104
+00:08:16,826 --> 00:08:21,721
+And this directional modes applied,
+they're applied to blocks
+
+105
+00:08:21,721 --> 00:08:24,649
+from 44 or the way up to 32 by 32.
+
+106
+00:08:24,649 --> 00:08:29,220
+In addition, there is the planar mode
+prediction.
+
+107
+00:08:29,220 --> 00:08:33,230
+And it's done by assuming an object
+service with the
+
+108
+00:08:33,230 --> 00:08:36,580
+horizontal and vertical slope that is
+derived from the boundaries.
+
+109
+00:08:37,780 --> 00:08:43,960
+And finally there's another mode, the DC
+prediction or flat mode prediction.
+
+110
+00:08:43,960 --> 00:08:46,490
+According to which a flat surface with a
+value
+
+111
+00:08:46,490 --> 00:08:50,280
+matching the min value of the boundary
+samples is utilized.
+
+112
+00:08:52,190 --> 00:08:59,380
+We see here a pictorially the 33
+prediction directions, and direction
+
+113
+00:08:59,380 --> 00:09:04,850
+zero is the planar prediction and one the
+DC prediction we just mentioned.
+
+114
+00:09:04,850 --> 00:09:07,860
+It should be noted here that all these
+directions are
+
+115
+00:09:07,860 --> 00:09:13,110
+not equally spaced and some directions are
+more popular than others.
+
+116
+00:09:17,100 --> 00:09:21,800
+So we see here schematically that
+intra-prediction by the direction
+
+117
+00:09:21,800 --> 00:09:26,620
+of mode 29 as goes numbered in the
+previous slide.
+
+118
+00:09:26,620 --> 00:09:29,812
+When using this intra-angular mode each
+block is
+
+119
+00:09:29,812 --> 00:09:32,472
+predicted directionally from spatially
+
+120
+00:09:32,472 --> 00:09:35,703
+neighbouring samples that are
+reconstructed.
+
+121
+00:09:35,703 --> 00:09:39,340
+But not get filtered by the in loop
+filters.
+
+122
+00:09:39,340 --> 00:09:42,380
+For a block N by N, a total of four N
+
+123
+00:09:42,380 --> 00:09:46,280
+plus one spatially neighbouring samples
+may be used for this prediction.
+
+124
+00:09:48,860 --> 00:09:54,812
+When it comes to entropy coding a CABAC
+encoder, context adapting binary
+
+125
+00:09:54,812 --> 00:10:00,380
+arithmetic code that is used to in, in 265
+as is the with 264.
+
+126
+00:10:00,380 --> 00:10:03,572
+The one H.265; however, has undergone
+
+127
+00:10:03,572 --> 00:10:07,660
+several improvements to improve its
+throughput speed.
+
+128
+00:10:07,660 --> 00:10:11,514
+Especially when its used for parallel
+processing, its
+
+129
+00:10:11,514 --> 00:10:16,764
+compression performance and to reduce its
+context memory requirements.
+
+130
+00:10:16,764 --> 00:10:22,476
+And in 265 no variable length codes are
+used as opposed
+
+131
+00:10:22,476 --> 00:10:28,080
+to [INAUDIBLE] and variable length coding
+in H.264.
+
+132
+00:10:29,150 --> 00:10:31,870
+With respect to the in-loop filters.
+
+133
+00:10:31,870 --> 00:10:35,040
+They're used in the inter-picture
+prediction loop.
+
+134
+00:10:35,040 --> 00:10:39,590
+It's similar to the one used in H.264
+however it's simpler
+
+135
+00:10:39,590 --> 00:10:45,820
+than the one used in 264 and it better
+supports parallel processing.
+
+136
+00:10:45,820 --> 00:10:53,330
+And also a different filter, this sample
+adaptive offset filter is used.
+
+137
+00:10:53,330 --> 00:10:57,190
+It's applied after the deblocking filter
+so that a better reconstruction
+
+138
+00:10:57,190 --> 00:11:02,750
+of original signal amplitude by using an
+offset from a look-up table.
+
+139
+00:11:05,920 --> 00:11:08,490
+HEVC supports slices and tiles.
+
+140
+00:11:08,490 --> 00:11:11,750
+Slices are rows of CTUs, as shown here.
+
+141
+00:11:11,750 --> 00:11:15,170
+This is an example of a slice.
+
+142
+00:11:16,260 --> 00:11:19,923
+And as mentioned multiple times during
+this
+
+143
+00:11:19,923 --> 00:11:25,208
+week, slices are needed for terminating
+error propagation.
+
+144
+00:11:25,208 --> 00:11:29,254
+Since they're independently decoded,
+decodable.
+
+145
+00:11:29,254 --> 00:11:34,564
+In addition to slices, HDVC supports
+tiles.
+
+146
+00:11:34,564 --> 00:11:37,504
+And tiles are self-contained and
+independently
+
+147
+00:11:37,504 --> 00:11:40,590
+recordable rectangular regions in the
+pictures.
+
+148
+00:11:40,590 --> 00:11:48,010
+So this is one tile here, this is another
+tile and so on.
+
+149
+00:11:48,010 --> 00:11:50,350
+The main purpose of tiles is to enable
+
+150
+00:11:50,350 --> 00:11:54,150
+the use of parallel processing for
+encoding and decoding.
+
+151
+00:11:57,000 --> 00:12:01,840
+Now the slice is divided into rows of
+CTU's.
+
+152
+00:12:01,840 --> 00:12:07,650
+So the decoding of each row can begin as
+soon as some, the decisions are made.
+
+153
+00:12:07,650 --> 00:12:11,330
+And therefore this supports parallel
+processing in
+
+154
+00:12:11,330 --> 00:12:13,650
+the form of threads as shown here.
+
+155
+00:12:13,650 --> 00:12:17,970
+So all this threads can be processed at
+the same time.
+
+156
+00:12:17,970 --> 00:12:21,060
+So there are two different mechanisms,
+
+157
+00:12:21,060 --> 00:12:24,580
+if you will, that support parallel
+processing.
+
+158
+00:12:24,580 --> 00:12:27,410
+The use of tiles and the use of threads.
+
+159
+00:12:30,280 --> 00:12:35,120
+We show here an experiment of comparison,
+of some of the more recent standards.
+
+160
+00:12:35,120 --> 00:12:42,504
+So HDVC is compared against 264, 263,
+MPEG-4, and MPEG-2.
+
+161
+00:12:42,504 --> 00:12:48,090
+So the rate distortion curves are shown
+here for this particular sequence.
+
+162
+00:12:48,090 --> 00:12:52,322
+So, the bitrate is down here, from 0 to 10
+megabits
+
+163
+00:12:52,322 --> 00:12:57,699
+per second, and the PSNR improvement is
+shown on the vertical axis.
+
+164
+00:12:58,870 --> 00:13:00,886
+So as expected you see kind of
+
+165
+00:13:00,886 --> 00:13:04,720
+the chronology of a development of these
+standards.
+
+166
+00:13:04,720 --> 00:13:08,836
+The older standard has a registration
+curve shown here and
+
+167
+00:13:08,836 --> 00:13:13,280
+the newest one has the registration curve
+shown here in blue.
+
+168
+00:13:14,470 --> 00:13:19,846
+So there are considerably savings involved
+as the newer standards
+
+169
+00:13:19,846 --> 00:13:25,660
+arrive and the savings are shown on the
+plot here on the right.
+
+170
+00:13:25,660 --> 00:13:30,400
+So what's shown here, is the bitrate
+savings with respect to HEVC.
+
+171
+00:13:31,500 --> 00:13:32,920
+And we say that with respect to the
+
+172
+00:13:32,920 --> 00:13:40,060
+older standards, there's savings anywhere
+between 85% and 70%.
+
+173
+00:13:40,060 --> 00:13:48,570
+Y with respect to AW64 the savings range
+from 55% to around 40% down here.
+
+174
+00:13:48,570 --> 00:13:49,410
+So in
+
+175
+00:13:52,550 --> 00:13:55,880
+some sense, we can, we have come to full
+circle.
+
+176
+00:13:55,880 --> 00:13:59,710
+If you recall at the very beginning of
+this week's lecture.
+
+177
+00:13:59,710 --> 00:14:03,365
+I show the similar rate distortion
+comparison with
+
+178
+00:14:03,365 --> 00:14:07,970
+some of the earlier standards with also
+smaller sequences.
+
+179
+00:14:07,970 --> 00:14:11,376
+We use their format, a QCIF image.
+
+180
+00:14:11,376 --> 00:14:17,046
+At frame rate I believe it was ten frames
+per second.
+
+181
+00:14:17,046 --> 00:14:21,500
+Nevertheless the philosophical question
+still remains.
+
+182
+00:14:21,500 --> 00:14:27,560
+As time goes on these curves keep being
+pushed this direction
+
+183
+00:14:27,560 --> 00:14:31,940
+and we see here that there's not that much
+space left.
+
+184
+00:14:31,940 --> 00:14:35,196
+So the obvious question is will there then
+be
+
+185
+00:14:35,196 --> 00:14:39,485
+a next standard that can push the envelope
+even further.
+
+186
+00:14:39,485 --> 00:14:43,900
+Or in other words, what is really the
+limit of compression?
+
+187
+00:14:43,900 --> 00:14:47,430
+How far can we compress a given video?
+
+188
+00:14:50,570 --> 00:14:53,260
+This is a question that we can not really
+answer.
+
+189
+00:14:53,260 --> 00:14:55,550
+We have to wait and see.
+
+190
+00:14:55,550 --> 00:14:57,700
+You know for the reduction of the bit rate
+is going
+
+191
+00:14:57,700 --> 00:15:02,100
+to be with the new standard while keeping
+the same quality.
+
+192
+00:15:02,100 --> 00:15:05,690
+Of course, the objectives change as well.
+
+193
+00:15:05,690 --> 00:15:09,850
+We have the proliferation of large
+displays and
+
+194
+00:15:09,850 --> 00:15:14,330
+large formats the 4K and And 8K formats.
+
+195
+00:15:14,330 --> 00:15:20,800
+And clearly, we need new tools and new
+approaches to handle these larger formats.
+
+196
+00:15:20,800 --> 00:15:24,670
+At the same time, the computational speed
+
+197
+00:15:24,670 --> 00:15:29,180
+and capabilities increase tremendously as
+time goes on.
+
+198
+00:15:29,180 --> 00:15:32,400
+And it's only natural that more
+sophisticated
+
+199
+00:15:32,400 --> 00:15:35,680
+algorithms will be able to be implemented.
+
+200
+00:15:35,680 --> 00:15:39,150
+That will of course provide the additional
+gains that are needed.
+
+201
+00:15:41,630 --> 00:15:44,610
+So we reached the end of week ten, two
+more weeks to go.
+
+202
+00:15:45,910 --> 00:15:48,520
+During this week the third week out of
+three
+
+203
+00:15:48,520 --> 00:15:53,200
+dedicated to compression we talked about
+[UNKNOWN] video compression.
+
+204
+00:15:53,200 --> 00:15:56,320
+This is probably the most important topic
+from an application point
+
+205
+00:15:56,320 --> 00:16:01,130
+of view since we are surrounded by
+application used in video compression.
+
+206
+00:16:01,130 --> 00:16:04,790
+This is also reflected by the large number
+of video compression standards.
+
+207
+00:16:06,620 --> 00:16:10,460
+We discussed and analyzed the important
+topics and covered
+
+208
+00:16:10,460 --> 00:16:14,340
+some of the intellectually interesting and
+practically useful techniques.
+
+209
+00:16:14,340 --> 00:16:17,380
+We talked about the important concept of
+temporal prediction
+
+210
+00:16:17,380 --> 00:16:20,280
+and also of the concept of intra and inter
+prediction.
+
+211
+00:16:21,310 --> 00:16:25,310
+We described the evolution in video
+cooperation standards which represents
+
+212
+00:16:25,310 --> 00:16:27,960
+a history of the research and development
+in this area.
+
+213
+00:16:29,820 --> 00:16:32,100
+I repeat here a comment I made last week,
+that
+
+214
+00:16:32,100 --> 00:16:35,555
+is, there was nothing really terribly
+mathematical in this part.
+
+215
+00:16:35,555 --> 00:16:39,430
+So I hope everybody feels comfortable with
+this material.
+
+216
+00:16:39,430 --> 00:16:44,330
+You're now knowledgable to also follow the
+future development in this exciting film.
+
+217
+00:16:47,020 --> 00:16:50,130
+Next week we'll talk about a different
+topic.
+
+218
+00:16:50,130 --> 00:16:52,930
+The topic of image and video segmentation.
+
+219
+00:16:52,930 --> 00:16:54,510
+So, see you next week.
+
+

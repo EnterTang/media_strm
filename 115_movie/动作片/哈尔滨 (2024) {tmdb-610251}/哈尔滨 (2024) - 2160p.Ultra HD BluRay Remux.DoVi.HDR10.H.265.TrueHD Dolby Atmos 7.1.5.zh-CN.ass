@@ -1,0 +1,1795 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:06:38.02,0:06:38.72,Default,,0000,0000,0000,,马赛
+Dialogue: 0,0:06:40.52,0:06:41.77,Default,,0000,0000,0000,,马赛
+Dialogue: 0,0:06:41.93,0:06:44.31,Default,,0000,0000,0000,,市政警察局
+Dialogue: 0,0:06:44.31,0:06:46.31,Default,,0000,0000,0000,,警界猛汉
+Dialogue: 0,0:09:01.06,0:09:03.56,Default,,0000,0000,0000,,市政警花
+Dialogue: 0,0:10:03.27,0:10:04.47,Default,,0000,0000,0000,,我的小甜甜
+Dialogue: 0,0:31:56.43,0:31:57.22,Default,,0000,0000,0000,,绿色之城马赛
+Dialogue: 0,0:32:46.72,0:32:48.06,Default,,0000,0000,0000,,纯电动车
+Dialogue: 0,0:45:25.85,0:45:26.97,Default,,0000,0000,0000,,明天忘不掉的意外
+Dialogue: 0,0:58:29.64,0:58:31.72,Default,,0000,0000,0000,,海洋公园
+Dialogue: 0,0:59:14.64,0:59:15.52,Default,,0000,0000,0000,,警告  此处危险 禁止翻越
+Dialogue: 0,1:13:59.10,1:14:01.43,Default,,0000,0000,0000,,市政警察
+Dialogue: 0,1:14:04.03,1:14:04.03,Default,,0000,0000,0000,,保护和惩罚
+Dialogue: 0,0:01:13.12,0:01:14.83,Default,,0000,0000,0000,,到了  时间刚刚好\NTop ! In time !
+Dialogue: 0,0:01:15.58,0:01:18.25,Default,,0000,0000,0000,,感谢您选择乘坐  哈米德的拉风出租车\NThank you for choosing "Hamid taxis du bled".
+Dialogue: 0,0:01:18.41,0:01:20.70,Default,,0000,0000,0000,,希望您旅途愉快\NI hope the trip was as good
+Dialogue: 0,0:01:20.87,0:01:22.41,Default,,0000,0000,0000,,你好  我也好\Nfor YOU than for us.
+Dialogue: 0,0:01:23.45,0:01:25.79,Default,,0000,0000,0000,,但是我们很快就不能接着聊了\NBut I'm not telling you soon.
+Dialogue: 0,0:01:27.87,0:01:28.70,Default,,0000,0000,0000,,谁电话在响\NNot my mp
+Dialogue: 0,0:01:28.87,0:01:30.54,Default,,0000,0000,0000,,抱歉\NI'm sorry.
+Dialogue: 0,0:01:31.20,0:01:33.12,Default,,0000,0000,0000,,有电话来了  看看是谁\NThey call me. Who is it?
+Dialogue: 0,0:01:34.04,0:01:35.62,Default,,0000,0000,0000,,你好\NAllo?
+Dialogue: 0,0:01:35.79,0:01:37.16,Default,,0000,0000,0000,,是叔叔吗\NAllo uncle?
+Dialogue: 0,0:01:37.33,0:01:39.08,Default,,0000,0000,0000,,- 你谁呀  - 艾迪  你侄子呀\N- Who's ? - Eddy, your nephew.
+Dialogue: 0,0:01:39.25,0:01:43.04,Default,,0000,0000,0000,,- 你想干什么  - 快开车来接我  不然我就死定了\N- He wants what? - Give me the taxi otherwise I'm my '.
+Dialogue: 0,0:01:43.20,0:01:45.20,Default,,0000,0000,0000,,抱歉  你就去死去吧\NSorry, but you died then.
+Dialogue: 0,0:01:45.37,0:01:48.66,Default,,0000,0000,0000,,不  不  真的很重要  你还没意识到\NNo, it's very important. You do not realize.
+Dialogue: 0,0:01:48.83,0:01:51.54,Default,,0000,0000,0000,,- 我很惨吗  - 我进隧道了\N- Too bad, - I go in a tunnel.
+Dialogue: 0,0:01:51.70,0:01:54.29,Default,,0000,0000,0000,,另外还有  信号不好  听不见\NIn addition, it is broken, the phone.
+Dialogue: 0,0:01:54.45,0:01:55.50,Default,,0000,0000,0000,,没信号啦\NIt is broken !
+Dialogue: 0,0:01:59.95,0:02:03.91,Default,,0000,0000,0000,,就是你在我车上画的鸡鸡  给我站住\NIs it you who draw zizis on my car? Here!
+Dialogue: 0,0:02:04.20,0:02:06.87,Default,,0000,0000,0000,,要是你们还有人\NSo! If there is anyone yet
+Dialogue: 0,0:02:07.04,0:02:11.08,Default,,0000,0000,0000,,在我的出租车上画鸡鸡的话  我就得和他说道说道了\Nwho draws a zizi on my taxi, he will deal with me.
+Dialogue: 0,0:02:11.50,0:02:12.66,Default,,0000,0000,0000,,听明白了吗\NIt's understood ?
+Dialogue: 0,0:02:20.16,0:02:24.37,Default,,0000,0000,0000,,我要抓5个你这样的人  我会把握机会的\N5 people you are looking for. The odds I will take!
+Dialogue: 0,0:02:24.54,0:02:28.75,Default,,0000,0000,0000,,- 你什么都抓不到  我是无辜的  - 这话留着跟局长去说吧\N- You'll take nothing: I'm innocent. - You'll tell that to the commissioner.
+Dialogue: 0,0:02:28.91,0:02:33.54,Default,,0000,0000,0000,,- 介意我抄个近道儿吗  - 走吧  我还赶着去打球呢\N- Do you mind if you take a shortcut? - Go ahead, I fight my balls.
+Dialogue: 0,0:02:35.50,0:02:37.79,Default,,0000,0000,0000,,如果你同意的话\NIf you take it like that.
+Dialogue: 0,0:02:40.70,0:02:43.12,Default,,0000,0000,0000,,- 那你介不介意我再放个音乐  - 随你的便吧\N- Do not you mind the music? - Let go of me.
+Dialogue: 0,0:02:44.79,0:02:45.37,Default,,0000,0000,0000,,走起\NGo!
+Dialogue: 0,0:02:50.54,0:02:52.75,Default,,0000,0000,0000,,你可别跟我说\NDo not tell me that
+Dialogue: 0,0:02:52.91,0:02:56.08,Default,,0000,0000,0000,,- 你还没系好安全带啊  - 我他喵的有手吗\N- you have not put on your belt. - But I can not !
+Dialogue: 0,0:02:57.87,0:03:00.12,Default,,0000,0000,0000,,- 你想干什么  - 看好了\N- What do you do to me? - Yes what ?
+Dialogue: 0,0:03:02.04,0:03:03.54,Default,,0000,0000,0000,,不  不  快停下\NNo, not stop!
+Dialogue: 0,0:03:03.70,0:03:04.62,Default,,0000,0000,0000,,你可坚持住了啊\NHang in there.
+Dialogue: 0,0:03:07.12,0:03:08.12,Default,,0000,0000,0000,,搞什么鸡毛呢\NWhat are you doing ?
+Dialogue: 0,0:03:08.29,0:03:09.95,Default,,0000,0000,0000,,哦  我好像走错路了\NOh no, I was wrong!
+Dialogue: 0,0:03:15.12,0:03:16.20,Default,,0000,0000,0000,,停车\NStopped !
+Dialogue: 0,0:03:17.37,0:03:19.91,Default,,0000,0000,0000,,停车  好吗  就是我\NStop, OK, it's me!
+Dialogue: 0,0:03:20.08,0:03:21.00,Default,,0000,0000,0000,,我承认\NIt's me !
+Dialogue: 0,0:03:26.54,0:03:27.25,Default,,0000,0000,0000,,哦\NOh !
+Dialogue: 0,0:03:27.41,0:03:29.20,Default,,0000,0000,0000,,开慢点儿\NSlow down there!
+Dialogue: 0,0:03:29.37,0:03:30.79,Default,,0000,0000,0000,,她咋刹不了车了\NShe does not advance!
+Dialogue: 0,0:03:30.95,0:03:31.79,Default,,0000,0000,0000,,看着点儿路\NLook in front!
+Dialogue: 0,0:03:31.95,0:03:33.33,Default,,0000,0000,0000,,耶\NYeah!
+Dialogue: 0,0:03:33.50,0:03:34.58,Default,,0000,0000,0000,,哇哦\NVVaouh!
+Dialogue: 0,0:03:34.75,0:03:35.83,Default,,0000,0000,0000,,好了  我全都交代了\NOK, I tell you everything.
+Dialogue: 0,0:03:36.00,0:03:36.79,Default,,0000,0000,0000,,是希门尼斯\NIt's Jimenez.
+Dialogue: 0,0:03:36.95,0:03:39.62,Default,,0000,0000,0000,,- 继续说  - 你可看着点儿路吧\N- Tell us. - Look in front of you !
+Dialogue: 0,0:03:44.45,0:03:45.91,Default,,0000,0000,0000,,- 我就知道这个  - 手不管用了\N- I do not know more! - Without hands.
+Dialogue: 0,0:03:48.83,0:03:50.16,Default,,0000,0000,0000,,- 腿也不管用了  - 把手放好\N- Knee! - Hands !
+Dialogue: 0,0:03:53.62,0:03:57.37,Default,,0000,0000,0000,,我可以告诉你他的地址  就在圣丹尼斯天堂大酒\NDo you want his address? Paradis hotel in Saint-Denis.
+Dialogue: 0,0:03:57.54,0:03:58.54,Default,,0000,0000,0000,,312号房\NRoom 312!
+Dialogue: 0,0:04:01.50,0:04:02.16,Default,,0000,0000,0000,,你还好吧\NIt's okay?
+Dialogue: 0,0:04:02.33,0:04:03.12,Default,,0000,0000,0000,,别这么开了\NDo not do that.
+Dialogue: 0,0:04:03.95,0:04:04.58,Default,,0000,0000,0000,,来了\NOh yes.
+Dialogue: 0,0:04:10.12,0:04:11.50,Default,,0000,0000,0000,,你看  只有一只手\NLook, a hand!
+Dialogue: 0,0:04:21.00,0:04:22.00,Default,,0000,0000,0000,,交货时间是\NThe delivery
+Dialogue: 0,0:04:22.16,0:04:24.16,Default,,0000,0000,0000,,- 是这个周六六  - 周六几点呀\N- is for Saturday! - At what time ?
+Dialogue: 0,0:04:24.62,0:04:25.58,Default,,0000,0000,0000,,下午三点\N15h!
+Dialogue: 0,0:04:26.29,0:04:27.12,Default,,0000,0000,0000,,这不就对了嘛\NThat's it !
+Dialogue: 0,0:04:28.66,0:04:29.62,Default,,0000,0000,0000,,来拍照纪念一下吧\NGreet the camera.
+Dialogue: 0,0:04:31.08,0:04:31.83,Default,,0000,0000,0000,,这狗东西\NAnd shit.
+Dialogue: 0,0:04:37.08,0:04:39.79,Default,,0000,0000,0000,,猜猜谁登上了警界猛汉的封面\NGuess who is still covering Keuf Mag.
+Dialogue: 0,0:04:39.95,0:04:40.91,Default,,0000,0000,0000,,车都给你开坏了\NIt's buggy!
+Dialogue: 0,0:04:41.08,0:04:42.70,Default,,0000,0000,0000,,如果不这么搞突击的话\NIf that, it does not accelerate my mutation
+Dialogue: 0,0:04:42.87,0:04:44.00,Default,,0000,0000,0000,,我怎么获取罪犯信息\Nto RAID, I do not understand.
+Dialogue: 0,0:04:46.91,0:04:47.91,Default,,0000,0000,0000,,先坐吧\NSit down.
+Dialogue: 0,0:04:51.79,0:04:54.20,Default,,0000,0000,0000,,马洛特  我把经费都花到了\NMarot, I pass on the expenses
+Dialogue: 0,0:04:54.37,0:04:57.66,Default,,0000,0000,0000,,- 你的车的轮胎上  - 不就是爆了个胎吗\N- tire of your vehicle... - It's just tires.
+Dialogue: 0,0:04:57.83,0:05:00.50,Default,,0000,0000,0000,,- 现在还有一个更严重的问题  - 我听着呢\N- There is a bigger problem. - I listen.
+Dialogue: 0,0:05:00.66,0:05:02.50,Default,,0000,0000,0000,,你认识克里斯泰勒·布切洛特吗\NDo you know Christelle Bucherot?
+Dialogue: 0,0:05:03.95,0:05:06.79,Default,,0000,0000,0000,,克里斯泰勒  这名字的人也太多了吧\NChristelle... I knew a lot...
+Dialogue: 0,0:05:06.95,0:05:10.08,Default,,0000,0000,0000,,就昨天晚上和你在一起的那个人\NThe one with whom you spent the night yesterday.
+Dialogue: 0,0:05:11.12,0:05:13.12,Default,,0000,0000,0000,,克里斯泰勒  当然了\NChristelle, of course!
+Dialogue: 0,0:05:14.00,0:05:17.20,Default,,0000,0000,0000,,- 她还好吗  我没跟她一起多久  - 是在农场\N- She is fine ? I did not stay... - The farm.
+Dialogue: 0,0:05:17.50,0:05:18.75,Default,,0000,0000,0000,,当地长官叫什么名字\NWhat is the name of the prefect?
+Dialogue: 0,0:05:19.41,0:05:20.37,Default,,0000,0000,0000,,长官叫\NMr. Prefect...
+Dialogue: 0,0:05:21.50,0:05:23.54,Default,,0000,0000,0000,,长官叫  叫\NIt's Mr. Prefect...
+Dialogue: 0,0:05:23.70,0:05:25.29,Default,,0000,0000,0000,,- 让·贝特朗  - 布切洛特\N- Jean-Bertrand... - Bucherot.
+Dialogue: 0,0:05:25.45,0:05:27.33,Default,,0000,0000,0000,,对  就是布切洛特\NAh, here we are, Bucherot.
+Dialogue: 0,0:05:27.50,0:05:30.54,Default,,0000,0000,0000,,有意思  突然就想起来了  一个姓啊\NIt's funny, suddenly, it's the same name.
+Dialogue: 0,0:05:30.70,0:05:32.29,Default,,0000,0000,0000,,他们是一家人\NThere is a family link
+Dialogue: 0,0:05:32.45,0:05:35.79,Default,,0000,0000,0000,,还是  亲戚什么的\Nor of... maybe alliance?
+Dialogue: 0,0:05:38.00,0:05:38.75,Default,,0000,0000,0000,,他妻子\NHis wife.
+Dialogue: 0,0:05:40.29,0:05:42.16,Default,,0000,0000,0000,,- 她可没说起过  - 多亏\N- she had not said it. - Thanks to
+Dialogue: 0,0:05:42.33,0:05:45.25,Default,,0000,0000,0000,,你的过往表现  你才不会被开除出队\Nyour service records, you will not be written off.
+Dialogue: 0,0:05:45.41,0:05:46.79,Default,,0000,0000,0000,,但是你被禁止\NBut you are mutated
+Dialogue: 0,0:05:46.95,0:05:48.33,Default,,0000,0000,0000,,出外勤\Non the field.
+Dialogue: 0,0:05:49.66,0:05:53.12,Default,,0000,0000,0000,,- 并不是我被升职到特警队吗  - 不是\N- It is not the RAID I imagine? - Oh no.
+Dialogue: 0,0:05:53.29,0:05:54.79,Default,,0000,0000,0000,,- 不  - 你还是做警察\N- No... - To the police
+Dialogue: 0,0:05:54.95,0:05:56.00,Default,,0000,0000,0000,,市政警察\NMunicipal.
+Dialogue: 0,0:05:57.50,0:05:58.37,Default,,0000,0000,0000,,到马赛去\NFrom Marseille.
+Dialogue: 0,0:06:05.25,0:06:06.29,Default,,0000,0000,0000,,去南方吗\NIn the south ?
+Dialogue: 0,0:06:06.83,0:06:07.50,Default,,0000,0000,0000,,是的\NYes...
+Dialogue: 0,0:06:07.66,0:06:12.75,Default,,0000,0000,0000,,- 这不太适合我  离巴黎也太远了  - 马洛特  已经定了\N- It does not suit me, it's far from Paris... - Marot, it's like that.
+Dialogue: 0,0:06:18.25,0:06:19.70,Default,,0000,0000,0000,,你可以走了\NYou can dispose.
+Dialogue: 0,0:06:21.95,0:06:23.37,Default,,0000,0000,0000,,你个没良心的\NYou have no heart.
+Dialogue: 0,0:06:26.70,0:06:27.50,Default,,0000,0000,0000,,去马赛吧\NMarseille.
+Dialogue: 0,0:06:49.29,0:06:50.45,Default,,0000,0000,0000,,收拾好了吗\NWell-established ?
+Dialogue: 0,0:06:50.87,0:06:51.54,Default,,0000,0000,0000,,都好了\N'It's okay.
+Dialogue: 0,0:06:51.70,0:06:52.91,Default,,0000,0000,0000,,我带你转转\NI present to you.
+Dialogue: 0,0:06:53.08,0:06:55.12,Default,,0000,0000,0000,,- 能让你更快进入工作  - 是吗\N- It will reassure you. - Ah yes ?
+Dialogue: 0,0:06:55.29,0:06:56.58,Default,,0000,0000,0000,,我们的队伍\NKiller team !
+Dialogue: 0,0:06:57.66,0:06:58.54,Default,,0000,0000,0000,,生龙活虎\NDynamic.
+Dialogue: 0,0:06:59.29,0:07:00.70,Default,,0000,0000,0000,,我们一个一个来\NTenors. First,
+Dialogue: 0,0:07:00.87,0:07:02.41,Default,,0000,0000,0000,,那个坐着的家伙\Nyou see the guy sitting,
+Dialogue: 0,0:07:02.58,0:07:05.29,Default,,0000,0000,0000,,留着怪怪的胡子的那个  他是梅纳德\Nthe big bearded, weird, is Menard.
+Dialogue: 0,0:07:05.45,0:07:07.83,Default,,0000,0000,0000,,气场在地表之内  无人能敌\NFor the atmosphere, it's impeccable.
+Dialogue: 0,0:07:08.00,0:07:10.50,Default,,0000,0000,0000,,但他人超好  开放友好之类的\NHe is super nice, open, all that.
+Dialogue: 0,0:07:12.70,0:07:17.12,Default,,0000,0000,0000,,他无聊的时候就像个混蛋似的  而他是个很无聊的人\NHe's bullshit when he gets bored. And he's bored a lot.
+Dialogue: 0,0:07:20.25,0:07:22.66,Default,,0000,0000,0000,,一级警报  赶快出警\NGeneral alert! Intervention!
+Dialogue: 0,0:07:29.25,0:07:31.91,Default,,0000,0000,0000,,你们是刚从水烟酒吧出来吗\NDid you go to a shisha bar?
+Dialogue: 0,0:07:32.08,0:07:33.20,Default,,0000,0000,0000,,你混蛋\NBastard!
+Dialogue: 0,0:07:33.75,0:07:34.45,Default,,0000,0000,0000,,那边的侏儒呢\NAnd the dwarf,
+Dialogue: 0,0:07:34.62,0:07:37.29,Default,,0000,0000,0000,,- 是正式警察吗  - 听着  出于尊重\N- it's regulatory? - Here, out of respect,
+Dialogue: 0,0:07:37.45,0:07:40.16,Default,,0000,0000,0000,,- 我们不会直接喊他侏儒  - 好吧\N- we do not say "the dwarf". - Oh ok.
+Dialogue: 0,0:07:40.33,0:07:42.54,Default,,0000,0000,0000,,我们不以长短定好坏\NWe say nobody of small size.
+Dialogue: 0,0:07:43.50,0:07:46.45,Default,,0000,0000,0000,,这个侏儒是米歇尔  他  他的爱好\NSo the dwarf is Michel. Him, what he loves
+Dialogue: 0,0:07:46.62,0:07:49.12,Default,,0000,0000,0000,,就是微缩制品  制作模型  模具什么的\Nit's the miniature: model making, model...
+Dialogue: 0,0:07:49.29,0:07:50.33,Default,,0000,0000,0000,,他这个儿头\Nhe has not a head
+Dialogue: 0,0:07:50.50,0:07:53.66,Default,,0000,0000,0000,,法国历史上很多著名足球运动员都叫米歇尔
+Dialogue: 0,0:07:50.50,0:07:53.66,Default,,0000,0000,0000,,- 怎么配得上叫米歇尔  - 他原先叫阿卜杜勒拉赫曼\N- to be called Michel. - He was called Abdelrrahmane,
+Dialogue: 0,0:07:53.83,0:07:57.08,Default,,0000,0000,0000,,但是自从他皈依天主教之后  就叫米歇尔了\Nbut since his conversion to Christianity, it's Michel.
+Dialogue: 0,0:07:57.79,0:08:00.58,Default,,0000,0000,0000,,- 是吗  - 没错  他找到了信仰\N- Ah yes ? - Obliged. He found faith.
+Dialogue: 0,0:08:00.75,0:08:04.33,Default,,0000,0000,0000,,自那开始  我们在所有的宗教节日里大快朵颐的时候\NSince then, we feast on all the religious holidays.
+Dialogue: 0,0:08:04.50,0:08:07.70,Default,,0000,0000,0000,,他却在圣诞的时候到处去传播福音\NAt Christmas, he wants cribs everywhere.
+Dialogue: 0,0:08:07.87,0:08:09.08,Default,,0000,0000,0000,,活得真累啊\NIt's hard.
+Dialogue: 0,0:08:09.25,0:08:11.66,Default,,0000,0000,0000,,而他一看到修女\NAnd when he sees nuns,
+Dialogue: 0,0:08:11.83,0:08:14.33,Default,,0000,0000,0000,,- 情绪就异常兴奋  - 这合适吗\N- he is very excited. - Is he radicalized?
+Dialogue: 0,0:08:14.50,0:08:15.16,Default,,0000,0000,0000,,谁说不是呢\NYes.
+Dialogue: 0,0:08:16.12,0:08:19.20,Default,,0000,0000,0000,,很是烦人  他对面的另一个\NIt's exhausting. And opposite, the other,
+Dialogue: 0,0:08:19.37,0:08:21.58,Default,,0000,0000,0000,,秃头顶的  是雷吉斯\Nwith his head pervert, it's Regis.
+Dialogue: 0,0:08:21.75,0:08:22.62,Default,,0000,0000,0000,,我们总是笑他\NWe laugh more.
+Dialogue: 0,0:08:22.79,0:08:23.66,Default,,0000,0000,0000,,别盯着他看\NNot in the eyes.
+Dialogue: 0,0:08:23.83,0:08:24.62,Default,,0000,0000,0000,,不行吗\NDo not ?
+Dialogue: 0,0:08:24.79,0:08:26.25,Default,,0000,0000,0000,,- 可别看  - 好吧\N- Please. - Ah?
+Dialogue: 0,0:08:27.08,0:08:29.29,Default,,0000,0000,0000,,雷吉斯钟爱间谍活动\NRegis, he loves spying:
+Dialogue: 0,0:08:29.45,0:08:32.29,Default,,0000,0000,0000,,他经常监视他的妻子  但是他妻子还是离开了他\Nhe was watching his wife, but she left him.
+Dialogue: 0,0:08:32.70,0:08:36.00,Default,,0000,0000,0000,,- 我明白了  - 请不要盯着他看  拜托了\N- I understand it. - Do not look at him, please.
+Dialogue: 0,0:08:36.16,0:08:39.62,Default,,0000,0000,0000,,从那时起  他就变成了定位专家\NSince then, he has become a geolocation pro.
+Dialogue: 0,0:08:40.50,0:08:43.50,Default,,0000,0000,0000,,好吧  我们局里有女孩儿吗\NWell, are there girls in the brigade?
+Dialogue: 0,0:08:44.87,0:08:48.00,Default,,0000,0000,0000,,我正准备介绍给你呢  注点儿意啊\NI was going to come there. Attention regal.
+Dialogue: 0,0:08:48.95,0:08:50.08,Default,,0000,0000,0000,,那边那个\NThere, right.
+Dialogue: 0,0:08:50.95,0:08:52.20,Default,,0000,0000,0000,,很辣眼睛的\NIt hurts the eyes.
+Dialogue: 0,0:08:52.70,0:08:55.62,Default,,0000,0000,0000,,- 桑德琳  警队里的队花  - 确定是队花吗\N- Sandrine, the hottie of the brigade. - The hottie?
+Dialogue: 0,0:08:55.79,0:08:57.87,Default,,0000,0000,0000,,听好了\NAttention,
+Dialogue: 0,0:08:58.04,0:09:00.91,Default,,0000,0000,0000,,13  14  15年连续三界被选为PACA区的\NElected Miss Police Municipal Region PACA
+Dialogue: 0,0:09:01.08,0:09:03.41,Default,,0000,0000,0000,,警界之花\N2013, 2014, 2015.
+Dialogue: 0,0:09:03.87,0:09:05.87,Default,,0000,0000,0000,,哦  很有份儿吧\NOh ! A piece.
+Dialogue: 0,0:09:06.04,0:09:09.50,Default,,0000,0000,0000,,- 是相当一大份儿  - 我们在一起巨开心的\N- Yes, a piece. - It's heavy, we laugh more.
+Dialogue: 0,0:09:09.66,0:09:11.37,Default,,0000,0000,0000,,- 巨开心的  - 看这个\N- Very heavy. - Look at this.
+Dialogue: 0,0:09:13.54,0:09:17.54,Default,,0000,0000,0000,,在车辆方面  我们都装备了些什么车\NAnd at the level of the vehicles, are you equipped?
+Dialogue: 0,0:09:18.58,0:09:20.29,Default,,0000,0000,0000,,- 你喜欢车吗  - 喜欢\N- Do you like cars? - Yes.
+Dialogue: 0,0:09:20.45,0:09:21.58,Default,,0000,0000,0000,,如你所愿\NYou'll be served.
+Dialogue: 0,0:09:32.62,0:09:33.50,Default,,0000,0000,0000,,你一定很饿吧\NYou were hungry.
+Dialogue: 0,0:09:33.66,0:09:36.91,Default,,0000,0000,0000,,14号车  没什么情况  我们去海滩吧\NIt unit 14. Nothing to report, we go to the beach.
+Dialogue: 0,0:09:45.12,0:09:47.00,Default,,0000,0000,0000,,你这车门是丢了吗\NDo you miss a door?
+Dialogue: 0,0:09:48.75,0:09:53.41,Default,,0000,0000,0000,,是  门去修理了  还不知道能不能装回去呢\NYes, she is under revision: people do not do enough to overhaul!
+Dialogue: 0,0:09:53.58,0:09:55.04,Default,,0000,0000,0000,,你把我当傻子了吗\NYou take me for a con?
+Dialogue: 0,0:09:55.62,0:09:59.33,Default,,0000,0000,0000,,- 不  你怎么说都对  - 我现在已经非常紧张了\N- No, that's right. - Already I'm upside down, there,
+Dialogue: 0,0:09:59.50,0:10:00.25,Default,,0000,0000,0000,,停车\Nstopped !
+Dialogue: 0,0:10:00.41,0:10:02.20,Default,,0000,0000,0000,,今天可不是时候  你看\NIt's not the day! You saw
+Dialogue: 0,0:10:02.37,0:10:03.12,Default,,0000,0000,0000,,比赛了吗\Nthe game ?
+Dialogue: 0,0:10:03.29,0:10:04.33,Default,,0000,0000,0000,,没看\NNo.
+Dialogue: 0,0:10:04.50,0:10:08.79,Default,,0000,0000,0000,,- 你都不看比赛的吗  - 对  不看  我女朋友打来的\N- Did not you see the match? - No. Yes, my girlfriend calls me.
+Dialogue: 0,0:10:08.95,0:10:09.75,Default,,0000,0000,0000,,抱歉\NSorry.
+Dialogue: 0,0:10:09.91,0:10:10.79,Default,,0000,0000,0000,,小甜甜\NMy sugar ?
+Dialogue: 0,0:10:10.95,0:10:12.58,Default,,0000,0000,0000,,你怎么样啊  我的小熊熊\NHow are you, my plump bear?
+Dialogue: 0,0:10:12.75,0:10:14.45,Default,,0000,0000,0000,,我和客户在一起呢\NI am with a client.
+Dialogue: 0,0:10:14.62,0:10:18.37,Default,,0000,0000,0000,,我爸爸不在家  你要不要过来给我一个爱的抱抱呢\NMy dad is not here, you come to give me an express hug?
+Dialogue: 0,0:10:19.16,0:10:21.62,Default,,0000,0000,0000,,- 辣妹啊  - 好啊  但我现在不能\N- Hottie. - Yes, but I can not,
+Dialogue: 0,0:10:21.79,0:10:24.70,Default,,0000,0000,0000,,我得去见雷内聊聊比赛的事情\NI have to go see Rene to talk about the game.
+Dialogue: 0,0:10:24.87,0:10:26.08,Default,,0000,0000,0000,,你昨天就去聊了\NYou saw it yesterday.
+Dialogue: 0,0:10:26.25,0:10:29.25,Default,,0000,0000,0000,,- 是的  没有  是的  - 你去见你的朋友吧\N- Yes... No... Yes.  - Va see your friends,
+Dialogue: 0,0:10:29.41,0:10:31.54,Default,,0000,0000,0000,,只有他们才能让你兴奋\Nthey will cheer you up.
+Dialogue: 0,0:10:31.87,0:10:33.45,Default,,0000,0000,0000,,什么  说什么呢\NWhat? What moral?
+Dialogue: 0,0:10:33.62,0:10:36.54,Default,,0000,0000,0000,,艾迪  我喜欢你  但是现在已经不可能了\NEddy, I adore you, but it's more possible.
+Dialogue: 0,0:10:36.70,0:10:38.16,Default,,0000,0000,0000,,- 我想要个真男人  - 什么\N-  I want a man. - What?
+Dialogue: 0,0:10:38.33,0:10:41.83,Default,,0000,0000,0000,,- 一个能让我如痴如梦的人  - 谁能让你如痴如梦\N- A guy who makes me dream. - Who makes you dream?
+Dialogue: 0,0:10:42.00,0:10:44.83,Default,,0000,0000,0000,,是谁带你去看的马赛对洛里昂的比赛啊\NWho took you to see Marseille-Lorient?
+Dialogue: 0,0:10:45.00,0:10:46.58,Default,,0000,0000,0000,,- 那比赛烂透了  - 我们都没有\N- Match in wood!  - We were not
+Dialogue: 0,0:10:46.75,0:10:47.70,Default,,0000,0000,0000,,挨着坐\Nsitting next.
+Dialogue: 0,0:10:47.87,0:10:48.95,Default,,0000,0000,0000,,毕竟票是赠的嘛\NIt was free!
+Dialogue: 0,0:10:49.12,0:10:50.04,Default,,0000,0000,0000,,我想要一个\NI want
+Dialogue: 0,0:10:50.20,0:10:51.04,Default,,0000,0000,0000,,真男人\Na man
+Dialogue: 0,0:10:51.20,0:10:55.08,Default,,0000,0000,0000,,- 一个有计划  有抱负的男人  - 我也有计划\N- who has projects, ambition. - I have plans.
+Dialogue: 0,0:10:55.70,0:10:58.66,Default,,0000,0000,0000,,我的无麸质吉开酒项目正在进行中\NMy gluten-free chicha project is underway.
+Dialogue: 0,0:10:58.83,0:11:00.20,Default,,0000,0000,0000,,一切就要完成了\NEverything is complete.
+Dialogue: 0,0:11:00.37,0:11:03.41,Default,,0000,0000,0000,,你没听懂  让我用你能理解的话来说\NYou do not understand. I try in your language:
+Dialogue: 0,0:11:03.58,0:11:05.54,Default,,0000,0000,0000,,我不需要一个替补队员\N7th do not want a substitute.
+Dialogue: 0,0:11:05.70,0:11:08.83,Default,,0000,0000,0000,,我想要的是一个前锋  一个知道在我身前  身后活跃的前锋\NI want an attacker who knows how to play in front, behind,
+Dialogue: 0,0:11:09.00,0:11:10.87,Default,,0000,0000,0000,,把我放在首要位置的前锋\Nthat puts me goals in strength.
+Dialogue: 0,0:11:11.04,0:11:12.12,Default,,0000,0000,0000,,我说清楚了吗\NIt's clear ?
+Dialogue: 0,0:11:13.04,0:11:13.70,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:11:13.87,0:11:15.91,Default,,0000,0000,0000,,我父亲那边可是有\NI have Brazilian origins
+Dialogue: 0,0:11:16.08,0:11:17.79,Default,,0000,0000,0000,,- 巴西血统的  - 胡说八道\N- of my father. - The mytho!
+Dialogue: 0,0:11:20.37,0:11:21.62,Default,,0000,0000,0000,,我会把你点燃的\NI'll fire you.
+Dialogue: 0,0:11:21.79,0:11:23.70,Default,,0000,0000,0000,,那我得叫消防员小哥哥来灭灭火了\NOtherwise I call the fire department,
+Dialogue: 0,0:11:23.87,0:11:25.08,Default,,0000,0000,0000,,而不是去买\Nbut not to buy
+Dialogue: 0,0:11:25.25,0:11:26.62,Default,,0000,0000,0000,,一本日历\Na calendar.
+Dialogue: 0,0:11:28.04,0:11:29.08,Default,,0000,0000,0000,,喂\NHello?
+Dialogue: 0,0:11:34.58,0:11:35.58,Default,,0000,0000,0000,,你犯病了吧\NYou're ill !
+Dialogue: 0,0:11:35.75,0:11:36.37,Default,,0000,0000,0000,,没事的\NIt's okay,
+Dialogue: 0,0:11:36.54,0:11:37.87,Default,,0000,0000,0000,,- 我很厉害的  - 什么\N- I master. - What?
+Dialogue: 0,0:11:38.04,0:11:39.08,Default,,0000,0000,0000,,你这车还想厉害个屁\NYou master nothing.
+Dialogue: 0,0:11:39.25,0:11:41.50,Default,,0000,0000,0000,,你他喵的是疯了吧\NYou're crazy mad!
+Dialogue: 0,0:11:42.04,0:11:43.08,Default,,0000,0000,0000,,我们会成为\NWe will do
+Dialogue: 0,0:11:43.25,0:11:44.66,Default,,0000,0000,0000,,最棒的队伍\Na great team.
+Dialogue: 0,0:11:45.12,0:11:49.00,Default,,0000,0000,0000,,我们不用着急建立感情  我肯定会调回到特警队去的\NIt should not be attached too much, I must be transferred to RAID,
+Dialogue: 0,0:11:49.16,0:11:51.70,Default,,0000,0000,0000,,所以我不会在马赛呆太久的\Nso I will not stay in Marseille too much.
+Dialogue: 0,0:11:53.41,0:11:54.33,Default,,0000,0000,0000,,你做梦去吧\NYou think ?
+Dialogue: 0,0:12:03.25,0:12:04.04,Default,,0000,0000,0000,,占用公交车道\NBus Lane !
+Dialogue: 0,0:12:04.20,0:12:05.66,Default,,0000,0000,0000,,我去搞定它\NI will do it!
+Dialogue: 0,0:12:05.83,0:12:06.83,Default,,0000,0000,0000,,我去吧\NI arrive!
+Dialogue: 0,0:12:07.00,0:12:08.29,Default,,0000,0000,0000,,吃你的三明治吧\NFinish the sandwich.
+Dialogue: 0,0:12:11.87,0:12:13.00,Default,,0000,0000,0000,,地方警察\NLocal police !
+Dialogue: 0,0:12:13.16,0:12:14.20,Default,,0000,0000,0000,,请停车\NWe stop.
+Dialogue: 0,0:12:14.37,0:12:15.00,Default,,0000,0000,0000,,他在做什么\NWhat does he do ?
+Dialogue: 0,0:12:15.16,0:12:16.00,Default,,0000,0000,0000,,停下\NStop !
+Dialogue: 0,0:12:16.66,0:12:17.62,Default,,0000,0000,0000,,他会自己躲开的\NHe will push himself
+Dialogue: 0,0:12:17.79,0:12:18.91,Default,,0000,0000,0000,,这里  这个傻子\Nthis con, there!
+Dialogue: 0,0:12:19.08,0:12:20.00,Default,,0000,0000,0000,,你这傻瓜  快停下\NHe stops this con, there.
+Dialogue: 0,0:12:29.83,0:12:31.87,Default,,0000,0000,0000,,你撞上了警察\NFada! You've built a conde.
+Dialogue: 0,0:12:32.04,0:12:34.20,Default,,0000,0000,0000,,但他是自己撞上来的\NBut it's not that his way to him!
+Dialogue: 0,0:12:34.37,0:12:35.37,Default,,0000,0000,0000,,宝贝\NHoney !
+Dialogue: 0,0:12:35.54,0:12:37.45,Default,,0000,0000,0000,,我的小宝贝  你怎么样了\NMy little cat, how are you?
+Dialogue: 0,0:12:37.62,0:12:41.16,Default,,0000,0000,0000,,- 不  为什么是我  - 等下  我没事\N- No ! Why me? - Wait, I'm fine!
+Dialogue: 0,0:12:41.33,0:12:42.16,Default,,0000,0000,0000,,我没事\NIt's okay!
+Dialogue: 0,0:12:42.33,0:12:45.70,Default,,0000,0000,0000,,我都说了是警察了  他们还不停车\NJust say police, otherwise they do not stop.
+Dialogue: 0,0:12:45.87,0:12:47.12,Default,,0000,0000,0000,,我去搞定\NI'll do it.
+Dialogue: 0,0:12:47.29,0:12:48.62,Default,,0000,0000,0000,,我要抓住他\NI will do it!
+Dialogue: 0,0:12:48.79,0:12:52.58,Default,,0000,0000,0000,,你别来  你会拖我后腿的\NYou do not have to come, you're going to delay me.
+Dialogue: 0,0:12:56.33,0:12:59.66,Default,,0000,0000,0000,,- 系好安全带  - 我好兴奋\N- Attach your belt ! - I'm excited!
+Dialogue: 0,0:13:00.58,0:13:01.45,Default,,0000,0000,0000,,你来吗\NYou come ?
+Dialogue: 0,0:13:01.62,0:13:05.91,Default,,0000,0000,0000,,我在这儿呆着  万一他回来了  还可以搜查\NI stay here, in case he comes back, for the search.
+Dialogue: 0,0:13:08.33,0:13:09.08,Default,,0000,0000,0000,,走吧\NGo!
+Dialogue: 0,0:13:16.66,0:13:18.50,Default,,0000,0000,0000,,终于有一次倒霉的不是我了\NFor once, it's not me.
+Dialogue: 0,0:13:21.66,0:13:24.79,Default,,0000,0000,0000,,- 他看起来非常生气啊  - 你真是吓到我了\N- he looks angry and more. - You surprise me !
+Dialogue: 0,0:13:24.95,0:13:26.75,Default,,0000,0000,0000,,- 你就是个疯子  - 都2018年了\N- You're a madman! - In 2018,
+Dialogue: 0,0:13:26.91,0:13:30.95,Default,,0000,0000,0000,,他们还会亲自站到车道上来让我们停车  这不正常啊\Nthey put themselves on the path to stop us! It's normal ?
+Dialogue: 0,0:13:31.12,0:13:32.12,Default,,0000,0000,0000,,真是个白痴\NWhat an idiot!
+Dialogue: 0,0:13:32.29,0:13:33.62,Default,,0000,0000,0000,,- 你说什么  - 我感觉不太舒服\N- Sorry ? - I'm not fine.
+Dialogue: 0,0:13:34.83,0:13:36.66,Default,,0000,0000,0000,,让我专心点\NLet me focus,
+Dialogue: 0,0:13:36.83,0:13:37.29,Default,,0000,0000,0000,,行吗\NOK?
+Dialogue: 0,0:13:37.45,0:13:38.83,Default,,0000,0000,0000,,她还没有加速呢\NShe does not advance!
+Dialogue: 0,0:13:46.45,0:13:48.37,Default,,0000,0000,0000,,等下  帮我一下\NWait. Help me.
+Dialogue: 0,0:13:48.54,0:13:49.79,Default,,0000,0000,0000,,两个轮子也能开\NIt is on 2 wheels.
+Dialogue: 0,0:13:49.95,0:13:51.70,Default,,0000,0000,0000,,肯定是重量平衡了\NMust be counterbalanced.
+Dialogue: 0,0:13:51.87,0:13:53.83,Default,,0000,0000,0000,,- 好吧  - 过去  过去\N- Okay. - Go! Go!
+Dialogue: 0,0:13:54.00,0:13:55.04,Default,,0000,0000,0000,,我不想\NI do not want!
+Dialogue: 0,0:13:55.62,0:13:56.79,Default,,0000,0000,0000,,- 像这样  - 不\N- Like this. - No !
+Dialogue: 0,0:13:56.95,0:13:58.50,Default,,0000,0000,0000,,过去\NCome on.
+Dialogue: 0,0:14:00.33,0:14:01.62,Default,,0000,0000,0000,,我们会翻车的\NWe'll turn around.
+Dialogue: 0,0:14:01.79,0:14:04.79,Default,,0000,0000,0000,,- 这辆车像个螃蟹一样  - 那是什么\N- The car is in crab! - What is that ?
+Dialogue: 0,0:14:04.95,0:14:06.29,Default,,0000,0000,0000,,重量平衡了\NCounterbalance.
+Dialogue: 0,0:14:06.45,0:14:08.41,Default,,0000,0000,0000,,一  二  三\NOne two Three.
+Dialogue: 0,0:14:11.20,0:14:13.66,Default,,0000,0000,0000,,- 好了  你给我在那儿呆好了  - 好的\N- Come on, stay in your corner. - Yes.
+Dialogue: 0,0:14:13.83,0:14:15.16,Default,,0000,0000,0000,,好吧  他们追上来了\NThat's it, they arrive.
+Dialogue: 0,0:14:15.33,0:14:16.95,Default,,0000,0000,0000,,- 我感觉不太舒服  - 你什么意思\N- I am not well. - What do you mean ?
+Dialogue: 0,0:14:17.12,0:14:18.66,Default,,0000,0000,0000,,我要吐了\NI'm going to stack!
+Dialogue: 0,0:14:18.83,0:14:20.25,Default,,0000,0000,0000,,你别在我车里吐\NYou do not throw up here!
+Dialogue: 0,0:14:20.58,0:14:22.87,Default,,0000,0000,0000,,- 我要吐出来了  - 你想吐吗\N- I am going to throw up. - Do you want to stack?
+Dialogue: 0,0:14:27.20,0:14:28.33,Default,,0000,0000,0000,,暴雨袭击哦\Nit rains behind.
+Dialogue: 0,0:14:28.50,0:14:29.04,Default,,0000,0000,0000,,不要啊\NOh no !
+Dialogue: 0,0:14:29.20,0:14:30.16,Default,,0000,0000,0000,,我不太舒服\N'I'm not fine...
+Dialogue: 0,0:14:30.33,0:14:31.66,Default,,0000,0000,0000,,- 你还好吗  - 去你妈的\N- It's okay ? - Abuse you.
+Dialogue: 0,0:14:31.83,0:14:34.16,Default,,0000,0000,0000,,- 好点了吗  - 你真是个混蛋\N- It's better ? - Rigole, con that you are.
+Dialogue: 0,0:14:34.91,0:14:35.54,Default,,0000,0000,0000,,他是故意的\NHe did it on purpose.
+Dialogue: 0,0:14:35.70,0:14:36.33,Default,,0000,0000,0000,,我好想吐\NI'm not fine.
+Dialogue: 0,0:14:36.50,0:14:37.33,Default,,0000,0000,0000,,不要\NOh no !
+Dialogue: 0,0:14:37.50,0:14:39.33,Default,,0000,0000,0000,,- 别吐在这儿  - 我心脏不好\N- Not here. - I have heart.
+Dialogue: 0,0:14:43.66,0:14:45.04,Default,,0000,0000,0000,,我不太舒服\NI'm not fine !
+Dialogue: 0,0:14:45.91,0:14:47.25,Default,,0000,0000,0000,,- 我要吐了  - 不\N- I will stack! - No.
+Dialogue: 0,0:14:51.50,0:14:54.70,Default,,0000,0000,0000,,还跟着呢  我们来看看谁更熟悉马赛\NStill there ? We'll see if you know Marseille well.
+Dialogue: 0,0:14:57.12,0:14:58.00,Default,,0000,0000,0000,,桑德琳\NSandrine!
+Dialogue: 0,0:14:59.91,0:15:01.29,Default,,0000,0000,0000,,看着点儿路啊\NLook in front of you !
+Dialogue: 0,0:15:02.83,0:15:03.58,Default,,0000,0000,0000,,好好洗个澡吧\NGood bath !
+Dialogue: 0,0:15:04.50,0:15:05.54,Default,,0000,0000,0000,,蛋糕都吐出来了\NThere are cakes!
+Dialogue: 0,0:15:06.29,0:15:06.91,Default,,0000,0000,0000,,嘿\NHey!
+Dialogue: 0,0:15:13.00,0:15:14.75,Default,,0000,0000,0000,,加油  使点劲儿\NCome on, make an effort.
+Dialogue: 0,0:15:14.91,0:15:16.20,Default,,0000,0000,0000,,推我啊  西尔万\NPush Sylvain!
+Dialogue: 0,0:15:16.37,0:15:18.29,Default,,0000,0000,0000,,推我的屁股\NPush in the ass!
+Dialogue: 0,0:15:22.37,0:15:23.16,Default,,0000,0000,0000,,你们来的太晚了吧\NNot too soon
+Dialogue: 0,0:15:25.33,0:15:26.41,Default,,0000,0000,0000,,欢迎来到马赛\NWelcome to Marseille.
+Dialogue: 0,0:15:30.08,0:15:32.95,Default,,0000,0000,0000,,一个小小的市政警察发什么神经呢\NThe municipal police, fada or what?
+Dialogue: 0,0:15:33.12,0:15:34.37,Default,,0000,0000,0000,,你是哪个\NWho are you?
+Dialogue: 0,0:15:34.54,0:15:35.75,Default,,0000,0000,0000,,以为自己很厉害吗\NEmpowered that you are.
+Dialogue: 0,0:15:35.91,0:15:38.00,Default,,0000,0000,0000,,- 他还不熟悉马赛而已  - 起开\N- He does not know Marseille. - Leash.
+Dialogue: 0,0:15:38.16,0:15:41.00,Default,,0000,0000,0000,,我们知道你是谁  超级警察先生\NWe know who you are, Mr. super cop, parigot!
+Dialogue: 0,0:15:41.16,0:15:42.16,Default,,0000,0000,0000,,听着\NListen,
+Dialogue: 0,0:15:42.50,0:15:46.66,Default,,0000,0000,0000,,你现在在马赛  是龙也得给我盘着  是凤也得给我趴着\Nyou are in Marseilles, you take care of your business and it will be fine.
+Dialogue: 0,0:15:47.25,0:15:47.91,Default,,0000,0000,0000,,明白了吗\NUnderstand?
+Dialogue: 0,0:15:49.66,0:15:51.50,Default,,0000,0000,0000,,- 没事的  - 我要杀了他\N- Its good. - I kill him !
+Dialogue: 0,0:15:51.66,0:15:53.41,Default,,0000,0000,0000,,- 我知道  冷静  - 我说了\N- I know, calm. - I say it.
+Dialogue: 0,0:15:53.58,0:15:55.33,Default,,0000,0000,0000,,- 我们不会再麻烦你们的  - 不\N- We won't bother you more. - No.
+Dialogue: 0,0:15:55.50,0:15:58.00,Default,,0000,0000,0000,,- 没事了  - 我的小宝贝怎么样了\N- Its good ! - How's my little cat?
+Dialogue: 0,0:15:58.16,0:16:00.08,Default,,0000,0000,0000,,- 我告诉他了  - 没事了  对吧\N- I told him. - It's good, what?
+Dialogue: 0,0:16:00.25,0:16:01.41,Default,,0000,0000,0000,,- 没事了吧  - 桑德琳\N- It's okay ? - Sandrine!
+Dialogue: 0,0:16:09.37,0:16:10.00,Default,,0000,0000,0000,,好吧\NOK.
+Dialogue: 0,0:16:10.16,0:16:12.50,Default,,0000,0000,0000,,会好的  让我来给你一个惊喜\NIt's good, I'll surprise you.
+Dialogue: 0,0:16:14.20,0:16:17.79,Default,,0000,0000,0000,,不是吧  我的包  天啊\NOh no, my bag! Oh, really!
+Dialogue: 0,0:16:54.33,0:16:56.70,Default,,0000,0000,0000,,有人吗  妈的\NSomeone there ? Oh fuck!
+Dialogue: 0,0:16:56.87,0:16:57.62,Default,,0000,0000,0000,,小甜甜\NMy sugar !
+Dialogue: 0,0:16:59.08,0:17:01.58,Default,,0000,0000,0000,,打过去\NGo!
+Dialogue: 0,0:17:05.25,0:17:06.04,Default,,0000,0000,0000,,小甜甜\NMy sugar ?
+Dialogue: 0,0:17:06.20,0:17:08.87,Default,,0000,0000,0000,,- 我在大门口呢  惊喜不  - 我帮你开门\N- I'm at the gate, surprise!  - I open you.
+Dialogue: 0,0:17:09.25,0:17:10.54,Default,,0000,0000,0000,,不  别开门\NNo, do not open.
+Dialogue: 0,0:17:10.70,0:17:11.58,Default,,0000,0000,0000,,喂\NHello?
+Dialogue: 0,0:17:12.50,0:17:15.41,Default,,0000,0000,0000,,还是开了  真是  美好的一天\NAh, here it is! Great... great day.
+Dialogue: 0,0:17:20.83,0:17:21.79,Default,,0000,0000,0000,,你想要如痴如梦吗\NDo you want to dream?
+Dialogue: 0,0:17:21.95,0:17:22.75,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:17:22.91,0:17:24.20,Default,,0000,0000,0000,,那我就满足你\NYou'll be served.
+Dialogue: 0,0:17:26.12,0:17:27.66,Default,,0000,0000,0000,,我们要放贝多芬的音乐吗\NAre we putting Beethoven?
+Dialogue: 0,0:17:28.33,0:17:28.95,Default,,0000,0000,0000,,神马\NWhat?
+Dialogue: 0,0:17:30.20,0:17:32.50,Default,,0000,0000,0000,,这么重要的活动才不要放那种狗狗音乐呢\NWe're not going to put a music on dogs.
+Dialogue: 0,0:17:32.66,0:17:34.45,Default,,0000,0000,0000,,那糟透了  我来\NIt sucks. I manage
+Dialogue: 0,0:17:34.62,0:17:35.79,Default,,0000,0000,0000,,- 选音乐吧  - 好的\N- the music. - OK.
+Dialogue: 0,0:17:54.91,0:17:56.00,Default,,0000,0000,0000,,我有一种被人\NI have the impression
+Dialogue: 0,0:17:56.16,0:17:58.41,Default,,0000,0000,0000,,- 监视着的感觉  - 这是我爸爸\N- to be watched. - This is my father.
+Dialogue: 0,0:17:58.58,0:17:59.83,Default,,0000,0000,0000,,他请了一个\NHe did it
+Dialogue: 0,0:18:00.00,0:18:02.08,Default,,0000,0000,0000,,- 很著名的画家画的  - 好吧\N- by a great painter. - Okay.
+Dialogue: 0,0:18:03.58,0:18:04.41,Default,,0000,0000,0000,,那雕像呢\NAnd the statue?
+Dialogue: 0,0:18:04.91,0:18:05.62,Default,,0000,0000,0000,,也是爸爸\NDad.
+Dialogue: 0,0:18:05.79,0:18:06.62,Default,,0000,0000,0000,,是我爸爸\NIt's dad.
+Dialogue: 0,0:18:07.66,0:18:08.58,Default,,0000,0000,0000,,很帅吧\NBeautiful, huh?
+Dialogue: 0,0:18:09.16,0:18:12.12,Default,,0000,0000,0000,,是的  是的  好大个儿\NYes, yes... It is massive.
+Dialogue: 0,0:18:12.29,0:18:13.12,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:18:13.66,0:18:14.29,Default,,0000,0000,0000,,来吧\NCome on.
+Dialogue: 0,0:19:06.45,0:19:07.12,Default,,0000,0000,0000,,怎么有火\NFire.
+Dialogue: 0,0:19:07.29,0:19:08.04,Default,,0000,0000,0000,,什么\NWhat?
+Dialogue: 0,0:19:08.20,0:19:09.54,Default,,0000,0000,0000,,- 那儿  - 快去啊\N- The ! - Move !
+Dialogue: 0,0:19:09.70,0:19:10.95,Default,,0000,0000,0000,,我又不是消防员\NI'm not a firefighter.
+Dialogue: 0,0:19:11.12,0:19:12.45,Default,,0000,0000,0000,,- 快去灭掉  - 哦\N- Turn it off. - Oh
+Dialogue: 0,0:19:15.20,0:19:16.25,Default,,0000,0000,0000,,那是香水\NIt's perfume!
+Dialogue: 0,0:19:21.04,0:19:23.33,Default,,0000,0000,0000,,把我爸爸的画拿走\NPick up my father's painting!
+Dialogue: 0,0:19:23.50,0:19:24.20,Default,,0000,0000,0000,,我知道\NI know !
+Dialogue: 0,0:19:25.50,0:19:26.25,Default,,0000,0000,0000,,好烫\NI am hot.
+Dialogue: 0,0:19:29.20,0:19:31.50,Default,,0000,0000,0000,,快把我解开\NCome detach me right away!
+Dialogue: 0,0:19:34.91,0:19:35.75,Default,,0000,0000,0000,,危险\NWarning !
+Dialogue: 0,0:19:35.91,0:19:38.83,Default,,0000,0000,0000,,吊灯要掉下来了  艾迪  把我解开\NThe chandelier will fall! Eddy, detach me!
+Dialogue: 0,0:19:48.75,0:19:49.66,Default,,0000,0000,0000,,您好\NHello.
+Dialogue: 0,0:19:49.83,0:19:51.91,Default,,0000,0000,0000,,这他妈的是在搞啥子\NWhat fucking going on here?
+Dialogue: 0,0:19:52.08,0:19:53.41,Default,,0000,0000,0000,,不是你想的那样\NThat's not what you think.
+Dialogue: 0,0:19:53.58,0:19:54.37,Default,,0000,0000,0000,,你爸爸\NYour father
+Dialogue: 0,0:19:54.54,0:19:55.50,Default,,0000,0000,0000,,的声音\Nhas the same voice
+Dialogue: 0,0:19:55.66,0:19:57.91,Default,,0000,0000,0000,,和EA体育游戏里的一样\Nonly in the game EA Sport.
+Dialogue: 0,0:20:03.00,0:20:05.00,Default,,0000,0000,0000,,其实你本人更帅的\NYou are better in real life.
+Dialogue: 0,0:20:05.16,0:20:06.12,Default,,0000,0000,0000,,更高雅\NElegant...
+Dialogue: 0,0:20:17.41,0:20:19.37,Default,,0000,0000,0000,,紧急集合\NGeneral alert!
+Dialogue: 0,0:20:21.70,0:20:24.20,Default,,0000,0000,0000,,好极了  怎么来的这么慢\NIts good ! It's been so long.
+Dialogue: 0,0:20:24.37,0:20:26.45,Default,,0000,0000,0000,,这感觉真不错\NThat I feel good!
+Dialogue: 0,0:20:26.62,0:20:29.00,Default,,0000,0000,0000,,从退休之家
+Dialogue: 0,0:20:29.16,0:20:31.75,Default,,0000,0000,0000,,赶过来  花了我50分钟时间呢
+Dialogue: 0,0:20:31.91,0:20:35.37,Default,,0000,0000,0000,,我需要了解地形  嗯  比松\NWhat I need is the terrain. Eh, Bichon?
+Dialogue: 0,0:20:35.54,0:20:36.58,Default,,0000,0000,0000,,- 是的  - 空地\N- Yes. - Field.
+Dialogue: 0,0:20:36.75,0:20:39.41,Default,,0000,0000,0000,,请注意  这非常重要\NAttention, the time is more than serious.
+Dialogue: 0,0:20:39.58,0:20:42.25,Default,,0000,0000,0000,,我们面临着更严峻的问题\NWe have a severe problem.
+Dialogue: 0,0:20:42.41,0:20:44.70,Default,,0000,0000,0000,,比奔驰大盗  比圣诞老人抢匪\NIt's more the niaks, it's more the Santa Claus,
+Dialogue: 0,0:20:44.87,0:20:47.16,Default,,0000,0000,0000,,比日本黑帮  比比利时人更严重的问题\Nit's more the chleus, it's even more the Belgians.
+Dialogue: 0,0:20:47.33,0:20:48.45,Default,,0000,0000,0000,,而且更糟糕\NIt's more serious.
+Dialogue: 0,0:20:50.41,0:20:51.08,Default,,0000,0000,0000,,什么问题\NIt is...?
+Dialogue: 0,0:20:51.83,0:20:52.54,Default,,0000,0000,0000,,黑人\NBlack people.
+Dialogue: 0,0:20:52.70,0:20:53.45,Default,,0000,0000,0000,,不是\NNo.
+Dialogue: 0,0:20:54.00,0:20:54.66,Default,,0000,0000,0000,,我知道\NI know.
+Dialogue: 0,0:20:55.41,0:20:56.16,Default,,0000,0000,0000,,阿拉伯人\NArabs.
+Dialogue: 0,0:20:56.33,0:20:57.20,Default,,0000,0000,0000,,不是\NNo !
+Dialogue: 0,0:20:58.08,0:20:59.37,Default,,0000,0000,0000,,- 罗马人  - 不是\N- Roma. - No !
+Dialogue: 0,0:20:59.91,0:21:00.70,Default,,0000,0000,0000,,上帝啊\NMy God...
+Dialogue: 0,0:21:00.87,0:21:03.70,Default,,0000,0000,0000,,意\NRi-ri...
+Dialogue: 0,0:21:03.87,0:21:04.95,Default,,0000,0000,0000,,熟肉酱\NRillettes.
+Dialogue: 0,0:21:05.41,0:21:06.66,Default,,0000,0000,0000,,完全偏离轨道\NTo the contravention.
+Dialogue: 0,0:21:06.83,0:21:07.79,Default,,0000,0000,0000,,- 不  - 是的\N- No. - Yes.
+Dialogue: 0,0:21:07.95,0:21:09.54,Default,,0000,0000,0000,,不是闹着玩的啊\NDo not play with me.
+Dialogue: 0,0:21:09.70,0:21:10.54,Default,,0000,0000,0000,,不要夸大其词\NDo not exaggerate.
+Dialogue: 0,0:21:10.70,0:21:11.25,Default,,0000,0000,0000,,意大利人啊\NRitals!
+Dialogue: 0,0:21:11.41,0:21:13.00,Default,,0000,0000,0000,,- 不是说过了吗  - 啊  我\N- It speaks to you? - AH I
+Dialogue: 0,0:21:13.16,0:21:16.29,Default,,0000,0000,0000,,确实  那是一伙强盗\NYes ! It's a gang of robbers
+Dialogue: 0,0:21:16.45,0:21:19.62,Default,,0000,0000,0000,,一个月内抢了五家珠宝店\Nwho made five jewelry stores in one month.
+Dialogue: 0,0:21:19.79,0:21:22.87,Default,,0000,0000,0000,,- 今天早上他们又干了一票  - 比雄  这个设备\N- They started again this morning. - Bichon, the device.
+Dialogue: 0,0:21:23.04,0:21:23.95,Default,,0000,0000,0000,,我们有\NWe have
+Dialogue: 0,0:21:24.12,0:21:26.66,Default,,0000,0000,0000,,五天时间  之后  马赛市将成为\N5 days, and after, Marseille will be
+Dialogue: 0,0:21:26.83,0:21:28.95,Default,,0000,0000,0000,,世界关注的中心\Nin the center of the world,
+Dialogue: 0,0:21:29.12,0:21:31.83,Default,,0000,0000,0000,,我们这将会展示慕尚出品的\Npearl the Mucem exhibition of diamonds
+Dialogue: 0,0:21:32.00,0:21:33.83,Default,,0000,0000,0000,,最新珠宝\Ni tutti Chianti!
+Dialogue: 0,0:21:34.00,0:21:35.87,Default,,0000,0000,0000,,这可不是闹着玩的\NIt is forbidden to ridicule oneself.
+Dialogue: 0,0:21:36.04,0:21:40.08,Default,,0000,0000,0000,,你们要四处巡查  找到所有的\NYou will start the spinning mills and find eyewitnesses
+Dialogue: 0,0:21:40.75,0:21:42.45,Default,,0000,0000,0000,,目击证人\Nwho heard everything.
+Dialogue: 0,0:21:43.66,0:21:44.62,Default,,0000,0000,0000,,你认字吗\NHave you read ?
+Dialogue: 0,0:21:46.45,0:21:47.58,Default,,0000,0000,0000,,还有就是\NSomething else,
+Dialogue: 0,0:21:47.75,0:21:50.37,Default,,0000,0000,0000,,我的民调支持率不太好\Nmy polls are not brilliant,
+Dialogue: 0,0:21:50.54,0:21:51.08,Default,,0000,0000,0000,,嗯\Nhuh?
+Dialogue: 0,0:21:51.25,0:21:53.29,Default,,0000,0000,0000,,我们不能让\NThe national police must not
+Dialogue: 0,0:21:53.45,0:21:57.33,Default,,0000,0000,0000,,国家警察领先我们一步  我们必须抢在前面\Nwe walk in front of the feet. It's for the Mumu
+Dialogue: 0,0:21:57.50,0:21:58.33,Default,,0000,0000,0000,,为了马赛\Nfro Marseille.
+Dialogue: 0,0:21:58.50,0:21:59.70,Default,,0000,0000,0000,,我说明白了吗\NI made myself understood?
+Dialogue: 0,0:21:59.87,0:22:00.66,Default,,0000,0000,0000,,明白  长官\NHE CHEF!
+Dialogue: 0,0:22:00.83,0:22:02.00,Default,,0000,0000,0000,,这次的\NI named
+Dialogue: 0,0:22:02.16,0:22:04.95,Default,,0000,0000,0000,,行动代号是  去他妈的\Nthis operation "Vaffanculo".
+Dialogue: 0,0:22:08.54,0:22:10.91,Default,,0000,0000,0000,,长官  您会说意大利语吗\NSir? You speak Italian ?
+Dialogue: 0,0:22:11.45,0:22:12.37,Default,,0000,0000,0000,,不会  怎么了\NNo why?
+Dialogue: 0,0:22:12.54,0:22:15.12,Default,,0000,0000,0000,,- 您最好改一下这个代号  - 是的\N- You must change your name. - Yes.
+Dialogue: 0,0:22:15.29,0:22:17.79,Default,,0000,0000,0000,,不  我喜欢这名字\NNo, I liked that...
+Dialogue: 0,0:22:17.95,0:22:18.70,Default,,0000,0000,0000,,去他妈的\NVaffanculo...
+Dialogue: 0,0:22:18.87,0:22:19.87,Default,,0000,0000,0000,,我再想想\NI will find.
+Dialogue: 0,0:22:20.04,0:22:20.66,Default,,0000,0000,0000,,等一下\NA second.
+Dialogue: 0,0:22:20.83,0:22:22.20,Default,,0000,0000,0000,,去他妈的  啊\NVaffanculo... Ah!
+Dialogue: 0,0:22:22.37,0:22:23.62,Default,,0000,0000,0000,,想到了\NI found.
+Dialogue: 0,0:22:23.79,0:22:27.29,Default,,0000,0000,0000,,我给这次行动命名为\NI named this operation, the operation...
+Dialogue: 0,0:22:28.29,0:22:29.33,Default,,0000,0000,0000,,黑手党\NMafia!
+Dialogue: 0,0:22:29.50,0:22:30.45,Default,,0000,0000,0000,,市长先生\NThe Mayor,
+Dialogue: 0,0:22:30.62,0:22:32.04,Default,,0000,0000,0000,,可是我们没有设备啊\Nwe do not have the equipment.
+Dialogue: 0,0:22:32.45,0:22:33.08,Default,,0000,0000,0000,,嗯\NHuh?
+Dialogue: 0,0:22:33.25,0:22:34.16,Default,,0000,0000,0000,,人手也不太够\NWe are too few.
+Dialogue: 0,0:22:34.33,0:22:37.29,Default,,0000,0000,0000,,查尔斯·马特尔在对战阿拉伯人的时候\NAnd Charles Martel, in front of all the Arabs,
+Dialogue: 0,0:22:37.45,0:22:38.79,Default,,0000,0000,0000,,他也很孤独\Nhe was alone!
+Dialogue: 0,0:22:38.95,0:22:40.12,Default,,0000,0000,0000,,我们还没那么糟\NWe can not do less.
+Dialogue: 0,0:22:40.29,0:22:43.87,Default,,0000,0000,0000,,我们有一个很棒的警察  那个超级警察在哪里\NAnd we have a great cop. Where is the super cop?
+Dialogue: 0,0:22:44.04,0:22:46.50,Default,,0000,0000,0000,,- 我在这儿  市长先生  - 昆汀\N- I am here, Mr. Mayor. - Quentin!
+Dialogue: 0,0:22:46.66,0:22:48.04,Default,,0000,0000,0000,,- 西尔万  - 米洛\N- Sylvain. - Miro?
+Dialogue: 0,0:22:48.20,0:22:49.91,Default,,0000,0000,0000,,马洛特  但是\NMarot, but...
+Dialogue: 0,0:22:50.08,0:22:50.87,Default,,0000,0000,0000,,请上来\NGo up.
+Dialogue: 0,0:22:51.04,0:22:52.08,Default,,0000,0000,0000,,啊  是吗\NAh yes?
+Dialogue: 0,0:22:54.04,0:22:55.00,Default,,0000,0000,0000,,马林将会\NMarin will be
+Dialogue: 0,0:22:55.16,0:22:56.16,Default,,0000,0000,0000,,带领着你们\Nyour leader.
+Dialogue: 0,0:22:56.33,0:22:58.50,Default,,0000,0000,0000,,他将把他的专业知识\NHe will put his expertise to work
+Dialogue: 0,0:22:58.66,0:23:00.41,Default,,0000,0000,0000,,应用到马赛市  是吧  哈默\Nfrom Marseille, eh Hammer?
+Dialogue: 0,0:23:00.58,0:23:04.25,Default,,0000,0000,0000,,是的  但是我知道我只是这里的过客\NYes, but know that I'm only passing through here,
+Dialogue: 0,0:23:04.41,0:23:06.62,Default,,0000,0000,0000,,因为我还会回到特警队的\Nbecause I intend to integrate the RAID.
+Dialogue: 0,0:23:08.25,0:23:10.75,Default,,0000,0000,0000,,但如果你想离开这里\NBut if you want to get out of here,
+Dialogue: 0,0:23:10.91,0:23:13.04,Default,,0000,0000,0000,,就必须完成这个任务\Nit will have to torch this mission.
+Dialogue: 0,0:23:13.20,0:23:13.83,Default,,0000,0000,0000,,啊  是吗\NAh yes?
+Dialogue: 0,0:23:14.00,0:23:14.91,Default,,0000,0000,0000,,是的\NEh yes.
+Dialogue: 0,0:23:15.66,0:23:16.33,Default,,0000,0000,0000,,很好\NGood,
+Dialogue: 0,0:23:16.50,0:23:17.62,Default,,0000,0000,0000,,调一下表\Nyou set your watch.
+Dialogue: 0,0:23:18.54,0:23:19.95,Default,,0000,0000,0000,,- 现在几点了  - 14点12分\N- What time ? - 14h12.
+Dialogue: 0,0:23:20.12,0:23:20.75,Default,,0000,0000,0000,,12点05分\N12h05.
+Dialogue: 0,0:23:21.45,0:23:22.16,Default,,0000,0000,0000,,该吃午饭了
+Dialogue: 0,0:23:22.33,0:23:22.95,Default,,0000,0000,0000,,走吧
+Dialogue: 0,0:23:23.12,0:23:24.62,Default,,0000,0000,0000,,大家晚安\NGood evening.
+Dialogue: 0,0:23:49.50,0:23:51.45,Default,,0000,0000,0000,,你看你还挺喜欢和我们在一起\NYou see that you like yourself
+Dialogue: 0,0:23:51.62,0:23:52.50,Default,,0000,0000,0000,,工作的\Nwith us!
+Dialogue: 0,0:23:54.33,0:23:57.79,Default,,0000,0000,0000,,越快抓住这些意大利人  我就越早回家\NThe faster you catch the Italians, the sooner I get home.
+Dialogue: 0,0:23:57.95,0:24:00.75,Default,,0000,0000,0000,,好吧  我明白了  是的\NYeah, I understand. Ah yes...
+Dialogue: 0,0:24:00.91,0:24:02.62,Default,,0000,0000,0000,,你有什么发现\NWhat do you find?
+Dialogue: 0,0:24:02.79,0:24:05.37,Default,,0000,0000,0000,,有一辆我们没发现的法拉利\NA Ferrari by steering that we do not find.
+Dialogue: 0,0:24:05.95,0:24:09.50,Default,,0000,0000,0000,,加州法拉利  型号458\NFerrari California, 458...
+Dialogue: 0,0:24:10.12,0:24:12.37,Default,,0000,0000,0000,,这种车很难找的\NWith the Dacia, it's going to be hard!
+Dialogue: 0,0:24:12.54,0:24:13.08,Default,,0000,0000,0000,,哦\NOh?
+Dialogue: 0,0:24:13.25,0:24:14.20,Default,,0000,0000,0000,,是吗\NYou think ?
+Dialogue: 0,0:24:17.37,0:24:21.87,Default,,0000,0000,0000,,这两人是前四部的两位男主
+Dialogue: 0,0:24:17.37,0:24:21.87,Default,,0000,0000,0000,,可以肯定的是  如果是丹尼尔和艾米里  那就不一样了\NIt is certain that with Daniel and Emilien, it would have been different.
+Dialogue: 0,0:24:22.83,0:24:23.50,Default,,0000,0000,0000,,他们是谁\NWho is that ?
+Dialogue: 0,0:24:24.04,0:24:26.75,Default,,0000,0000,0000,,- 丹尼尔和艾米里  - 我不认识\N- Daniel and Emilien. - I do not know.
+Dialogue: 0,0:24:26.91,0:24:29.70,Default,,0000,0000,0000,,你不知道丹尼尔和艾米里吗\NDo not you know Daniel and Emilien?
+Dialogue: 0,0:24:29.87,0:24:30.75,Default,,0000,0000,0000,,抱歉不认识\NNo, sorry.
+Dialogue: 0,0:24:30.91,0:24:33.04,Default,,0000,0000,0000,,即使在巴黎  他们也是众所周知的\NEven in Paris, they are known.
+Dialogue: 0,0:24:33.20,0:24:35.83,Default,,0000,0000,0000,,呃  奔驰大盗啊\NUh... The Mercedes gang.
+Dialogue: 0,0:24:36.29,0:24:36.95,Default,,0000,0000,0000,,知道了吗\NYou mm?
+Dialogue: 0,0:24:38.70,0:24:39.91,Default,,0000,0000,0000,,90年代末\NRobberies,
+Dialogue: 0,0:24:40.08,0:24:41.79,Default,,0000,0000,0000,,- 的抢劫案  - 是的\N- late 90s? - Yes.
+Dialogue: 0,0:24:41.95,0:24:44.25,Default,,0000,0000,0000,,丹尼尔和艾米里逮捕了他们\NDaniel and Emilien arrested them.
+Dialogue: 0,0:24:44.41,0:24:45.41,Default,,0000,0000,0000,,就在这\NHere!
+Dialogue: 0,0:24:45.58,0:24:49.04,Default,,0000,0000,0000,,还有  如果你知道\NSame for the... Ah! If you know...
+Dialogue: 0,0:24:49.20,0:24:51.00,Default,,0000,0000,0000,,那些日本人  也是\NThe Japaneses. The same.
+Dialogue: 0,0:24:51.16,0:24:51.87,Default,,0000,0000,0000,,还有\NAnd
+Dialogue: 0,0:24:52.04,0:24:53.66,Default,,0000,0000,0000,,比利时的教父\Nthe fathers, the Belgians,
+Dialogue: 0,0:24:53.83,0:24:56.87,Default,,0000,0000,0000,,丹尼尔和艾米里  艾米里  出色的警察\NDaniel and Emilien! Emilien, big cop.
+Dialogue: 0,0:24:57.04,0:24:58.08,Default,,0000,0000,0000,,就是在这儿\NIt was there!
+Dialogue: 0,0:24:58.25,0:25:00.25,Default,,0000,0000,0000,,- 记忆有点衔接不上了  - 好吧\N- I had trouble following. - Well then !
+Dialogue: 0,0:25:00.41,0:25:02.91,Default,,0000,0000,0000,,还有丹尼尔  丹尼尔开车特别牛\NAnd Daniel. Daniel, what a pilot!
+Dialogue: 0,0:25:04.29,0:25:06.70,Default,,0000,0000,0000,,他的出租车与众不同\Nwhat he wanted from his taxi.
+Dialogue: 0,0:25:06.87,0:25:08.83,Default,,0000,0000,0000,,改装的像个火箭赛车一样\NIt was a rocket, a racing car.
+Dialogue: 0,0:25:10.29,0:25:13.83,Default,,0000,0000,0000,,我们甚至都看不见他  像阵风一样\NWe did not even see him go by. There was a plaque coming out
+Dialogue: 0,0:25:14.00,0:25:15.16,Default,,0000,0000,0000,,他的手套箱里\Nfrom [lia to m
+Dialogue: 0,0:25:15.33,0:25:16.95,Default,,0000,0000,0000,,有很多按钮\Nwith buttons.
+Dialogue: 0,0:25:17.12,0:25:17.83,Default,,0000,0000,0000,,然后\NAnd there,
+Dialogue: 0,0:25:18.00,0:25:19.79,Default,,0000,0000,0000,,出租车能从地面升起\Nthe taxi rose from the ground.
+Dialogue: 0,0:25:22.12,0:25:22.70,Default,,0000,0000,0000,,他的车还能自己变形\NHe was transforming himself.
+Dialogue: 0,0:25:27.95,0:25:30.58,Default,,0000,0000,0000,,然后车牌自己就换了\NNew plate for the... Good.
+Dialogue: 0,0:25:31.87,0:25:32.87,Default,,0000,0000,0000,,马力全开\NGo Om !
+Dialogue: 0,0:25:33.04,0:25:36.37,Default,,0000,0000,0000,,他就开着那部出租车在这里\NThe taxi that it was! When he left, he tore
+Dialogue: 0,0:25:36.54,0:25:38.25,Default,,0000,0000,0000,,四处遨游
+Dialogue: 0,0:25:40.12,0:25:41.20,Default,,0000,0000,0000,,总之\NIncluding.
+Dialogue: 0,0:25:41.37,0:25:42.45,Default,,0000,0000,0000,,你不明白\NYou did not understand.
+Dialogue: 0,0:25:42.62,0:25:45.83,Default,,0000,0000,0000,,他毁了所有的测速雷达  当他经过的时候\NHe burned all the radars. They were falling
+Dialogue: 0,0:25:46.00,0:25:47.41,Default,,0000,0000,0000,,它们都失灵了\Nwhen he passed.
+Dialogue: 0,0:25:47.58,0:25:52.29,Default,,0000,0000,0000,,有次他去巴黎
+Dialogue: 0,0:25:52.45,0:25:53.16,Default,,0000,0000,0000,,你猜他怎么去的
+Dialogue: 0,0:25:55.37,0:25:56.12,Default,,0000,0000,0000,,乘飞机去的\NBy the airs.
+Dialogue: 0,0:25:56.29,0:25:59.79,Default,,0000,0000,0000,,他们被一架军用飞机空投了下去\NThey were parachuted by a military plane
+Dialogue: 0,0:25:59.95,0:26:01.50,Default,,0000,0000,0000,,飞行员正是丹尼尔的岳父\Nof Daniel's father-in-law.
+Dialogue: 0,0:26:01.66,0:26:03.08,Default,,0000,0000,0000,,飘在空中\NAnd in the air,
+Dialogue: 0,0:26:03.95,0:26:05.04,Default,,0000,0000,0000,,出租车滑翔着\Nthe taxi was floating.
+Dialogue: 0,0:26:05.20,0:26:07.20,Default,,0000,0000,0000,,我发誓大家都这么说的\NI swear ! I was told.
+Dialogue: 0,0:26:07.37,0:26:08.16,Default,,0000,0000,0000,,他的车还能伸出\NHe released
+Dialogue: 0,0:26:08.33,0:26:10.25,Default,,0000,0000,0000,,- 飞行翼  - 飞行翼\N- wings. - Wings ?
+Dialogue: 0,0:26:10.41,0:26:11.83,Default,,0000,0000,0000,,- 飞行翼  - 不可能\N- Wings. - No.
+Dialogue: 0,0:26:12.00,0:26:13.20,Default,,0000,0000,0000,,我向你发誓\NI swear to you
+Dialogue: 0,0:26:13.37,0:26:14.37,Default,,0000,0000,0000,,以吉伯特的名义\Non Gfi?
+Dialogue: 0,0:26:14.54,0:26:15.20,Default,,0000,0000,0000,,听着\NListen!
+Dialogue: 0,0:26:15.37,0:26:16.25,Default,,0000,0000,0000,,对不起\NSorry.
+Dialogue: 0,0:26:17.20,0:26:18.91,Default,,0000,0000,0000,,那辆出租车在哪儿\NWhere is this taxi?
+Dialogue: 0,0:26:20.83,0:26:25.33,Default,,0000,0000,0000,,艾米里已经不是警察了  丹尼尔住在迈阿密\NAs Emilien is no longer in the police and Daniel lives in Miami,
+Dialogue: 0,0:26:25.79,0:26:27.00,Default,,0000,0000,0000,,所以我也不知道\NI dunno.
+Dialogue: 0,0:26:28.37,0:26:32.08,Default,,0000,0000,0000,,也许可以问问丹尼尔的侄子\NMaybe by asking Daniel's grand-nephew.
+Dialogue: 0,0:26:32.25,0:26:34.66,Default,,0000,0000,0000,,肯定是老婆家的侄子\NIt must be his nephew by marriage,
+Dialogue: 0,0:26:34.83,0:26:36.79,Default,,0000,0000,0000,,有点奇怪的孩子\Nhe is a little weird.
+Dialogue: 0,0:26:36.95,0:26:40.12,Default,,0000,0000,0000,,不过  现在我只对那个出租车感兴趣\NAt the same time, there is only the taxi that interests me.
+Dialogue: 0,0:26:40.29,0:26:43.33,Default,,0000,0000,0000,,是啊  我们得找到出租车\NWell yeah. We must find this taxi.
+Dialogue: 0,0:26:43.50,0:26:45.87,Default,,0000,0000,0000,,有了这个出租车  我一定能抓住那些意大利人佬\NAnd with this taxi, I'm catching the Italians.
+Dialogue: 0,0:26:46.04,0:26:48.54,Default,,0000,0000,0000,,意大利佬  苏格兰佬  都能抓到\NItalians, Scots, everyone.
+Dialogue: 0,0:26:52.12,0:26:53.83,Default,,0000,0000,0000,,- 真的吗  - 是的\N- That is true ? - Yes.
+Dialogue: 0,0:26:54.00,0:26:58.58,Default,,0000,0000,0000,,我觉得丹尼尔和艾米里都已经过时了\NI think Daniel and Emilien, it is outdated.
+Dialogue: 0,0:26:58.75,0:27:02.95,Default,,0000,0000,0000,,就像是星际迷航之类的  巴尔和比尔  奥利弗和汤姆\NIt's like Starsky and Hutch, Ball and Bill, Olive and Tom,
+Dialogue: 0,0:27:03.12,0:27:04.45,Default,,0000,0000,0000,,都过时了\NIt's over.
+Dialogue: 0,0:27:04.95,0:27:07.25,Default,,0000,0000,0000,,因为现在才是最主要的\NBecause now it's treasure
+Dialogue: 0,0:27:07.58,0:27:09.58,Default,,0000,0000,0000,,- 我们有马洛特  - 听起来不错\N- and Marot! - It sounds good.
+Dialogue: 0,0:27:09.75,0:27:11.66,Default,,0000,0000,0000,,我不会丢下\NI would not have left
+Dialogue: 0,0:27:11.83,0:27:12.58,Default,,0000,0000,0000,,每个人的\Nalone.
+Dialogue: 0,0:27:13.00,0:27:16.00,Default,,0000,0000,0000,,你已经不是孤军作战了  我会帮你的\NYou're not alone anymore. I'm here for you.
+Dialogue: 0,0:27:16.16,0:27:20.08,Default,,0000,0000,0000,,- 你也会帮我  对吧  - 谢谢你在我身边说这些\N- You're here for me, huh? - Thank you for being there for me.
+Dialogue: 0,0:27:20.25,0:27:20.87,Default,,0000,0000,0000,,别客气\NYou're welcome.
+Dialogue: 0,0:27:21.04,0:27:23.45,Default,,0000,0000,0000,,- 要是没有你肯定会很难的  - 那肯定的\N- It would have been hard without you. - It's clear.
+Dialogue: 0,0:27:23.62,0:27:25.45,Default,,0000,0000,0000,,现在  我们是二人组了\NAnd now, we are two.
+Dialogue: 0,0:27:25.62,0:27:27.50,Default,,0000,0000,0000,,没错  - 二人合心  其利断金\N- Yes. - We are stronger.
+Dialogue: 0,0:27:27.66,0:27:29.04,Default,,0000,0000,0000,,没什么能击败我们的\NNothing will happen to us.
+Dialogue: 0,0:27:29.20,0:27:30.16,Default,,0000,0000,0000,,没错\NNothing at all.
+Dialogue: 0,0:27:30.33,0:27:31.58,Default,,0000,0000,0000,,- 我们会怎么样  - 战无不胜\N- What will happen to us? - Nothing !
+Dialogue: 0,0:27:38.00,0:27:41.50,Default,,0000,0000,0000,,不  没事的  明天我就能下地走路了\NNo, but it's nothing, tomorrow I'm up.
+Dialogue: 0,0:27:42.54,0:27:43.62,Default,,0000,0000,0000,,我们会去调查\NWe will investigate.
+Dialogue: 0,0:27:43.79,0:27:45.12,Default,,0000,0000,0000,,- 好的  - 艾兰和西尔万\N- Yes. - Alain and Sylvain,
+Dialogue: 0,0:27:45.29,0:27:46.50,Default,,0000,0000,0000,,情同手足\Nthe 2 fingers of the hand.
+Dialogue: 0,0:27:46.66,0:27:48.58,Default,,0000,0000,0000,,对  没错\NTake it, yes.
+Dialogue: 0,0:27:51.29,0:27:52.37,Default,,0000,0000,0000,,放松点\NRest.
+Dialogue: 0,0:27:53.04,0:27:53.91,Default,,0000,0000,0000,,好疼啊\NIt hurts.
+Dialogue: 0,0:27:56.83,0:27:58.00,Default,,0000,0000,0000,,没事吧\N'It's okay ?
+Dialogue: 0,0:27:58.16,0:28:00.58,Default,,0000,0000,0000,,我们知道是谁撞了你\NWe know who overthrew you.
+Dialogue: 0,0:28:00.75,0:28:03.75,Default,,0000,0000,0000,,我们查明了丹尼尔甥孙的身份\NWe have the identity of Daniel's grand-nephew.
+Dialogue: 0,0:28:07.50,0:28:09.00,Default,,0000,0000,0000,,好吧\NOK, you have
+Dialogue: 0,0:28:09.16,0:28:10.79,Default,,0000,0000,0000,,- 叫什么  - 艾迪·马克罗夫\N- his name ? - EDDY MAKLOUF.
+Dialogue: 0,0:28:12.50,0:28:13.25,Default,,0000,0000,0000,,两个人同名\NA namesake.
+Dialogue: 0,0:28:13.75,0:28:17.16,Default,,0000,0000,0000,,- 没错  - 住在一个地址吗\N- Yeah. - Do they live at the same address?
+Dialogue: 0,0:28:18.12,0:28:20.12,Default,,0000,0000,0000,,那真的是太巧了\NThat would be pretty amazing.
+Dialogue: 0,0:28:20.29,0:28:21.41,Default,,0000,0000,0000,,你们俩傻不傻\NYou are stupid,
+Dialogue: 0,0:28:21.58,0:28:25.45,Default,,0000,0000,0000,,- 这就是一个人  - 我真喜欢你发脾气的样\N- it's the same person! - I like when you talk badly.
+Dialogue: 0,0:28:25.87,0:28:26.83,Default,,0000,0000,0000,,走吧\NGo away.
+Dialogue: 0,0:28:30.50,0:28:31.25,Default,,0000,0000,0000,,没事的\NIt's okay.
+Dialogue: 0,0:28:41.70,0:28:43.70,Default,,0000,0000,0000,,1  2  3\NONE TWO THREE !
+Dialogue: 0,0:28:44.79,0:28:46.16,Default,,0000,0000,0000,,停下吧\NStop, really.
+Dialogue: 0,0:28:46.33,0:28:47.58,Default,,0000,0000,0000,,这门披了铠甲肯定\NShe is armored.
+Dialogue: 0,0:28:47.75,0:28:49.41,Default,,0000,0000,0000,,- 不  是木头的  - 老大\N- No, it's wood... - Chief,
+Dialogue: 0,0:28:49.58,0:28:50.29,Default,,0000,0000,0000,,我去吧\NI go !
+Dialogue: 0,0:28:50.45,0:28:51.12,Default,,0000,0000,0000,,不\NNo !
+Dialogue: 0,0:28:51.29,0:28:52.04,Default,,0000,0000,0000,,桑桑德琳\NSandfine!
+Dialogue: 0,0:28:53.79,0:28:54.50,Default,,0000,0000,0000,,他妈妈的\NHis mother.
+Dialogue: 0,0:28:56.41,0:28:58.12,Default,,0000,0000,0000,,- 警察  - 你们傻吗\N- Police. - You are stupid,
+Dialogue: 0,0:28:58.29,0:29:00.50,Default,,0000,0000,0000,,撞门干嘛  这门是开着的\Nyou could hit, it was open.
+Dialogue: 0,0:29:05.75,0:29:06.87,Default,,0000,0000,0000,,好烫\NIt burns.
+Dialogue: 0,0:29:07.45,0:29:08.45,Default,,0000,0000,0000,,刺疼啊\NIt stings !
+Dialogue: 0,0:29:08.62,0:29:09.75,Default,,0000,0000,0000,,老哥  为什么\NSir, why
+Dialogue: 0,0:29:09.91,0:29:10.87,Default,,0000,0000,0000,,那么做\Ndid that?
+Dialogue: 0,0:29:11.04,0:29:12.20,Default,,0000,0000,0000,,他来的那么凶\NHe was aggressive.
+Dialogue: 0,0:29:12.37,0:29:14.04,Default,,0000,0000,0000,,啊  我好痛\NOuch! It burns me!
+Dialogue: 0,0:29:14.20,0:29:15.25,Default,,0000,0000,0000,,刺痛\NIt stings !
+Dialogue: 0,0:29:17.41,0:29:18.70,Default,,0000,0000,0000,,长官  抱歉\NSir, sorry.
+Dialogue: 0,0:29:25.04,0:29:27.50,Default,,0000,0000,0000,,拒绝配合调查  超速行使\NRefusal to comply, speeding,
+Dialogue: 0,0:29:27.66,0:29:30.58,Default,,0000,0000,0000,,我会把你交给重案组的\NI pass you the intentional homicide on agent.
+Dialogue: 0,0:29:30.75,0:29:31.87,Default,,0000,0000,0000,,我很难受\N'I'm not fine.
+Dialogue: 0,0:29:32.04,0:29:33.08,Default,,0000,0000,0000,,我也是\NNeither do I.
+Dialogue: 0,0:29:33.25,0:29:35.16,Default,,0000,0000,0000,,我快崩溃了\NI'm close to burnout.
+Dialogue: 0,0:29:35.87,0:29:37.83,Default,,0000,0000,0000,,实际上  我女友还甩了我\NIn addition, my girl threw me.
+Dialogue: 0,0:29:38.29,0:29:42.08,Default,,0000,0000,0000,,那正好  那你就能在监狱里好好休息休息了\NThat's good, you're going to rest at Les Baumettes.
+Dialogue: 0,0:29:42.62,0:29:43.37,Default,,0000,0000,0000,,是的\NYes.
+Dialogue: 0,0:29:49.08,0:29:50.04,Default,,0000,0000,0000,,做个交易吧\NI have a deal.
+Dialogue: 0,0:29:54.54,0:29:57.45,Default,,0000,0000,0000,,你给我找到这个出租车  我就既往不咎\NYou find me the taxi and I forget everything.
+Dialogue: 0,0:29:58.50,0:30:02.04,Default,,0000,0000,0000,,- 还不错吧  - 是的  但是我做不到啊\N- It's not bad, is it ? - Yes... But I can not.
+Dialogue: 0,0:30:02.20,0:30:03.20,Default,,0000,0000,0000,,这个出租车\NThe taxi,
+Dialogue: 0,0:30:03.37,0:30:06.20,Default,,0000,0000,0000,,被我们送回去了\Nwe sent it to... at the bled.
+Dialogue: 0,0:30:07.25,0:30:09.83,Default,,0000,0000,0000,,- 送回去了  - 我欠了20万的债\N- Back home ? - He had 200000 on the counter,
+Dialogue: 0,0:30:10.00,0:30:11.75,Default,,0000,0000,0000,,就把车还给我叔叔了\Nwe sent him to my uncle.
+Dialogue: 0,0:30:14.12,0:30:16.25,Default,,0000,0000,0000,,我可以跟你\NI can offer you
+Dialogue: 0,0:30:16.41,0:30:19.00,Default,,0000,0000,0000,,- 做笔交易妈  - 说说看吧
+Dialogue: 0,0:30:20.29,0:30:24.16,Default,,0000,0000,0000,,我们可以组个队啊\NIf I find you, we could team up.
+Dialogue: 0,0:30:24.33,0:30:27.95,Default,,0000,0000,0000,,就像在绝地战警里一样  你是威尔·史密斯  我是马丁·劳伦斯\NAs in Bad Boy, you'll be Will Smith and I, Martin Lawrence.
+Dialogue: 0,0:30:28.12,0:30:31.20,Default,,0000,0000,0000,,- 我们不能组队  - 不能吗\N- We will not team together, no. - No ?
+Dialogue: 0,0:30:31.37,0:30:32.75,Default,,0000,0000,0000,,- 不能  - 可惜\N- No. - Pity.
+Dialogue: 0,0:30:32.91,0:30:35.00,Default,,0000,0000,0000,,本来可以找到那些意大利人的\NI could have found these Italians.
+Dialogue: 0,0:30:38.45,0:30:39.20,Default,,0000,0000,0000,,什么\NWhat?
+Dialogue: 0,0:30:39.37,0:30:43.41,Default,,0000,0000,0000,,我认识这里所有人  本来能帮你的\NI know everyone here, I could have helped you.
+Dialogue: 0,0:30:43.58,0:30:45.91,Default,,0000,0000,0000,,本来还可以找我开优步的朋友帮忙\NI could have asked my friends Uber.
+Dialogue: 0,0:30:46.83,0:30:49.58,Default,,0000,0000,0000,,但是看起来不太可能了\NBut apparently, it's not possible.
+Dialogue: 0,0:30:54.04,0:30:55.75,Default,,0000,0000,0000,,无意冒犯\NWithout disrespecting,
+Dialogue: 0,0:30:56.50,0:30:59.66,Default,,0000,0000,0000,,你现在团队也太弱鸡了吧\Nyour team there is a little Cotorep?
+Dialogue: 0,0:31:00.91,0:31:02.66,Default,,0000,0000,0000,,并不是  没有啊\NSo that, not at all.
+Dialogue: 0,0:31:02.83,0:31:03.87,Default,,0000,0000,0000,,没有吗\NNot at all?
+Dialogue: 0,0:31:04.04,0:31:05.66,Default,,0000,0000,0000,,他们很有活力\NThey are dynamic.
+Dialogue: 0,0:31:05.83,0:31:06.50,Default,,0000,0000,0000,,好吧\NOkay.
+Dialogue: 0,0:31:06.66,0:31:08.58,Default,,0000,0000,0000,,什么都逃不过他们双眼\NAnd nothing escapes them.
+Dialogue: 0,0:31:08.75,0:31:10.16,Default,,0000,0000,0000,,- 他们  - 是啊\N- They are... - Ah yes.
+Dialogue: 0,0:31:12.37,0:31:13.37,Default,,0000,0000,0000,,你好  长官\NHello chef.
+Dialogue: 0,0:31:13.87,0:31:15.33,Default,,0000,0000,0000,,- 梅纳德  - 多亏了桑德琳的\N- Menard. - Thanks to the photo
+Dialogue: 0,0:31:15.50,0:31:16.25,Default,,0000,0000,0000,,照片\Nof Sandrine,
+Dialogue: 0,0:31:16.41,0:31:18.95,Default,,0000,0000,0000,,我才能画出机器画像\NI was able to draw a robot portrait.
+Dialogue: 0,0:31:19.12,0:31:19.95,Default,,0000,0000,0000,,艾迪·马克罗夫\NEddy Maklouf.
+Dialogue: 0,0:31:20.12,0:31:22.04,Default,,0000,0000,0000,,马赛市最垃圾的\NThe worst driver Uber
+Dialogue: 0,0:31:22.20,0:31:23.12,Default,,0000,0000,0000,,优步司机\Nfrom Marseille.
+Dialogue: 0,0:31:23.29,0:31:24.37,Default,,0000,0000,0000,,没错\NExactly...
+Dialogue: 0,0:31:25.08,0:31:25.83,Default,,0000,0000,0000,,你好\NHello.
+Dialogue: 0,0:31:26.20,0:31:26.91,Default,,0000,0000,0000,,你好\NHello.
+Dialogue: 0,0:31:27.50,0:31:29.33,Default,,0000,0000,0000,,他逃不过双眼睛的\NIt will not escape me.
+Dialogue: 0,0:31:30.50,0:31:31.95,Default,,0000,0000,0000,,我们出发\NLets' go !
+Dialogue: 0,0:31:38.20,0:31:41.00,Default,,0000,0000,0000,,我没事  我们走  去抓住他\NI'm not bad, we go! We'll catch him.
+Dialogue: 0,0:31:41.37,0:31:44.25,Default,,0000,0000,0000,,带好手枪和双节棍\NTake the guns and nunchakus.
+Dialogue: 0,0:31:44.41,0:31:45.54,Default,,0000,0000,0000,,跟我一起来\NJoin me !
+Dialogue: 0,0:31:53.50,0:31:54.70,Default,,0000,0000,0000,,那是什么\NWhat is that ?
+Dialogue: 0,0:31:59.66,0:32:01.79,Default,,0000,0000,0000,,部长女士  音乐停\NMrs. Minister! Cut.
+Dialogue: 0,0:32:03.50,0:32:04.50,Default,,0000,0000,0000,,我迟到了\NI am late.
+Dialogue: 0,0:32:04.66,0:32:06.29,Default,,0000,0000,0000,,现在照相吧\NNow, photo!
+Dialogue: 0,0:32:07.20,0:32:10.25,Default,,0000,0000,0000,,我们在笑什么  我还准备了个演讲呢\NWhat are we laughing! I have a speech to make.
+Dialogue: 0,0:32:13.70,0:32:15.16,Default,,0000,0000,0000,,如你们所知\NAs you know,
+Dialogue: 0,0:32:15.33,0:32:17.50,Default,,0000,0000,0000,,我们主要的担忧\Nour main concern,
+Dialogue: 0,0:32:17.66,0:32:19.08,Default,,0000,0000,0000,,就是生态环境\Nit's ecology!
+Dialogue: 0,0:32:19.50,0:32:23.20,Default,,0000,0000,0000,,我将荣幸地为大家带来除狗粑粑\NSo I have the pride to present you the absolute weapon
+Dialogue: 0,0:32:23.37,0:32:25.58,Default,,0000,0000,0000,,不可或缺的武器\Nagainst the dog excrement.
+Dialogue: 0,0:32:29.83,0:32:30.75,Default,,0000,0000,0000,,KK
+Dialogue: 0,0:32:30.91,0:32:31.87,Default,,0000,0000,0000,,2000
+Dialogue: 0,0:32:35.91,0:32:36.79,Default,,0000,0000,0000,,奏乐啊\NPlay,
+Dialogue: 0,0:32:36.95,0:32:38.16,Default,,0000,0000,0000,,傻逼们\Nstupid!
+Dialogue: 0,0:32:40.29,0:32:41.37,Default,,0000,0000,0000,,没错\NYes !
+Dialogue: 0,0:32:41.54,0:32:43.08,Default,,0000,0000,0000,,这里不再是狗的厕所\NThis is no longer the karcher
+Dialogue: 0,0:32:43.25,0:32:45.58,Default,,0000,0000,0000,,我们将全面的清理马赛\Nwe will clean the Marseillaise... Marseille.
+Dialogue: 0,0:32:46.75,0:32:47.91,Default,,0000,0000,0000,,用KK2000清理车\NIt's with the KK 2000.
+Dialogue: 0,0:32:48.08,0:32:50.54,Default,,0000,0000,0000,,这辆车每日每夜\NThis vehicle is able to suck
+Dialogue: 0,0:32:50.70,0:32:53.00,Default,,0000,0000,0000,,能吸走35000颗\N35 000 dog poop per day
+Dialogue: 0,0:32:53.16,0:32:54.41,Default,,0000,0000,0000,,狗粑粑\Nand by night!
+Dialogue: 0,0:32:54.58,0:32:55.50,Default,,0000,0000,0000,,所有\NAll,
+Dialogue: 0,0:32:55.66,0:32:56.37,Default,,0000,0000,0000,,都收集起来\Nis collected
+Dialogue: 0,0:32:56.54,0:32:58.33,Default,,0000,0000,0000,,碾碎  压缩\Ncrushed, compacted,
+Dialogue: 0,0:32:58.50,0:32:59.70,Default,,0000,0000,0000,,最后\NFinally...
+Dialogue: 0,0:33:00.75,0:33:02.54,Default,,0000,0000,0000,,放在这宝贝里\Nin this wonder.
+Dialogue: 0,0:33:02.70,0:33:04.50,Default,,0000,0000,0000,,抱歉  我们该怎么倒掉\NExcuse me, for the emptying,
+Dialogue: 0,0:33:04.66,0:33:05.37,Default,,0000,0000,0000,,是的\Nyou do
+Dialogue: 0,0:33:05.54,0:33:07.16,Default,,0000,0000,0000,,- 怎么倒掉  - 很简单\N- how? - It's simple,
+Dialogue: 0,0:33:07.33,0:33:09.00,Default,,0000,0000,0000,,只要这么一按\Nwe support and pif.
+Dialogue: 0,0:33:10.75,0:33:11.54,Default,,0000,0000,0000,,来了\NYes!
+Dialogue: 0,0:33:13.12,0:33:14.04,Default,,0000,0000,0000,,快给他们\NA Kleenex
+Dialogue: 0,0:33:14.20,0:33:16.04,Default,,0000,0000,0000,,拿点儿心相印\Nfor the sinister!
+Dialogue: 0,0:33:16.50,0:33:18.45,Default,,0000,0000,0000,,别动  因为\NDo not move because...
+Dialogue: 0,0:33:19.00,0:33:20.08,Default,,0000,0000,0000,,这个会漏下去\NIt oozes.
+Dialogue: 0,0:33:23.79,0:33:25.37,Default,,0000,0000,0000,,亲爱的  是我\NMy sugar, it's me.
+Dialogue: 0,0:33:25.54,0:33:29.16,Default,,0000,0000,0000,,你没来电话  我已经联系你好多次了\NYou do not call me. I have called you many times.
+Dialogue: 0,0:33:29.33,0:33:32.95,Default,,0000,0000,0000,,我可是你的小熊熊啊  你怎么能把我忘记\NIt's your plump cub, do not hesitate to remember me.
+Dialogue: 0,0:33:33.12,0:33:35.91,Default,,0000,0000,0000,,我狠担心  担心你\NI'm worried about... I'm worried, what.
+Dialogue: 0,0:33:36.08,0:33:38.45,Default,,0000,0000,0000,,电话响了  可能是你的\NIt sounds, maybe it's you.
+Dialogue: 0,0:33:41.75,0:33:42.95,Default,,0000,0000,0000,,哈米德  怎么了\NWhat Hamid?
+Dialogue: 0,0:33:43.79,0:33:46.12,Default,,0000,0000,0000,,- 对  我们查到车了  - 号码\N- Yes, we get the car. - The number.
+Dialogue: 0,0:33:46.29,0:33:49.33,Default,,0000,0000,0000,,- 装箱号是哪个  - 668\NWhat is the container number? 668.
+Dialogue: 0,0:33:50.04,0:33:51.33,Default,,0000,0000,0000,,我要大笑的奶牛\NAnd I want the Laughing Cow.
+Dialogue: 0,0:33:51.50,0:33:52.62,Default,,0000,0000,0000,,就是这个\NIt's this one.
+Dialogue: 0,0:33:52.79,0:33:56.45,Default,,0000,0000,0000,,我怎么才能把大笑奶牛交给你呀\NBut how can I add you to the Laughing Cow?
+Dialogue: 0,0:33:56.62,0:33:58.00,Default,,0000,0000,0000,,还有蜂巢\NAnd Honey Pops.
+Dialogue: 0,0:33:58.16,0:34:01.08,Default,,0000,0000,0000,,好吧  我把蜂巢给你邮过去  真蜂巢\NYes, I sent you the Honey Pops, the real ones!
+Dialogue: 0,0:34:01.25,0:34:02.16,Default,,0000,0000,0000,,我还没收到\NI have not received.
+Dialogue: 0,0:34:02.33,0:34:04.62,Default,,0000,0000,0000,,你待着吧  我们去工作了\NWell, I leave you, we work.
+Dialogue: 0,0:34:04.79,0:34:08.54,Default,,0000,0000,0000,,好吧  你想要维塔尔卡  我会送给你的  拜拜\NOK, you want a Vitale card, I send it to you, ciao.
+Dialogue: 0,0:34:09.00,0:34:09.62,Default,,0000,0000,0000,,真的是醉了\NHe drank me.
+Dialogue: 0,0:34:20.45,0:34:22.04,Default,,0000,0000,0000,,1  2  3\NONE TWO THREE.
+Dialogue: 0,0:34:28.16,0:34:29.25,Default,,0000,0000,0000,,传说中的出租车\NThe famous taxi.
+Dialogue: 0,0:34:29.41,0:34:31.45,Default,,0000,0000,0000,,- 这都是真的吗  - 是\N- Was all that true? - Yes.
+Dialogue: 0,0:34:31.62,0:34:36.00,Default,,0000,0000,0000,,你以为这就是传奇了吗  其实我叔叔才是传奇\NYou take me too much for a mytho. My uncle, it's a legend.
+Dialogue: 0,0:34:37.04,0:34:37.95,Default,,0000,0000,0000,,它\N'It,
+Dialogue: 0,0:34:38.12,0:34:41.29,Default,,0000,0000,0000,,这是什么踏板  那是刹车\Nwhat's the pedal of what? That's the brake...
+Dialogue: 0,0:34:42.04,0:34:45.12,Default,,0000,0000,0000,,- 先动动雨刷吧  - 好的\N- Put a wiper's blow already. - Yes.
+Dialogue: 0,0:34:46.04,0:34:47.91,Default,,0000,0000,0000,,- 那是转向灯  - 我知道\N- It's the turn signals. - I know.
+Dialogue: 0,0:34:49.41,0:34:50.50,Default,,0000,0000,0000,,来了\NHere.
+Dialogue: 0,0:34:51.08,0:34:53.41,Default,,0000,0000,0000,,你真的会开车吗\NAre you sure you can drive it?
+Dialogue: 0,0:34:57.25,0:34:57.91,Default,,0000,0000,0000,,怎么了\NWhat?
+Dialogue: 0,0:35:02.20,0:35:03.37,Default,,0000,0000,0000,,你知道我是谁吗\NYou know who I am ?
+Dialogue: 0,0:35:04.45,0:35:09.08,Default,,0000,0000,0000,,我是艾迪·马克罗夫  丹尼尔的侄子  一个存世的传奇\NI am Eddy Maklouf, the nephew of Daniel, a living legend.
+Dialogue: 0,0:35:09.25,0:35:13.50,Default,,0000,0000,0000,,天生就有开车的血脉  所以没错  我能开得飞起来\NPiloting is in the genes. So yes, I can fly it.
+Dialogue: 0,0:35:15.33,0:35:17.54,Default,,0000,0000,0000,,- 那我们走  - 不  我来说  懂吗\N- Let's go. - No, let's go, OK?
+Dialogue: 0,0:35:17.95,0:35:21.41,Default,,0000,0000,0000,,你  我会装作你刚才什么都没说\NYou... I'll pretend I did not hear anything.
+Dialogue: 0,0:35:22.20,0:35:23.70,Default,,0000,0000,0000,,好  我们走吧\NOK here we go.
+Dialogue: 0,0:35:27.62,0:35:31.04,Default,,0000,0000,0000,,我超爱这个声音  马上来更猛的\NI love this sound. Hang on, it'll go strong.
+Dialogue: 0,0:35:37.29,0:35:38.25,Default,,0000,0000,0000,,你熄火了\NYou stalled.
+Dialogue: 0,0:35:38.41,0:35:39.04,Default,,0000,0000,0000,,不不  我没有\NNo !
+Dialogue: 0,0:35:39.20,0:35:40.04,Default,,0000,0000,0000,,你确实熄火了\NOh yes !
+Dialogue: 0,0:35:40.20,0:35:43.70,Default,,0000,0000,0000,,是由于推动我们产生了前进的离心力\NIt's the centrifugal force that propels us forward.
+Dialogue: 0,0:35:43.87,0:35:46.54,Default,,0000,0000,0000,,你这祖传的基因是隔辈传吧\NGenes have skipped a generation?
+Dialogue: 0,0:35:46.70,0:35:49.33,Default,,0000,0000,0000,,你给我压力太大了  我很难集中注意力\NYou stress me, I concentrate badly.
+Dialogue: 0,0:35:49.50,0:35:50.45,Default,,0000,0000,0000,,你有驾照吗\NDo you have the permit?
+Dialogue: 0,0:35:50.83,0:35:51.45,Default,,0000,0000,0000,,什么\NWhat?
+Dialogue: 0,0:35:51.62,0:35:52.54,Default,,0000,0000,0000,,你的驾驶证\NYour permit.
+Dialogue: 0,0:35:52.70,0:35:54.91,Default,,0000,0000,0000,,有啊  我是C2的本呢\NYes, I have my automatic license.
+Dialogue: 0,0:35:55.08,0:35:57.12,Default,,0000,0000,0000,,- 你的什么证  - 什么\N- What's your permit? - What?
+Dialogue: 0,0:35:57.29,0:35:59.41,Default,,0000,0000,0000,,我有自动挡的驾驶证\NI have my automatic license.
+Dialogue: 0,0:35:59.58,0:36:01.08,Default,,0000,0000,0000,,- 当然了  - 对\N- Oh yes. - Here.
+Dialogue: 0,0:36:01.25,0:36:04.33,Default,,0000,0000,0000,,这是手动挡的  我不知道该怎么操作\NIt's a manual, I do not know how to drive it.
+Dialogue: 0,0:36:04.50,0:36:07.75,Default,,0000,0000,0000,,- 左边的踏板是干什么用的  - 那是离合\N- The pedal on the left is used for what? - It's a clutch.
+Dialogue: 0,0:36:08.33,0:36:10.04,Default,,0000,0000,0000,,- 对  - 你不知道怎么开车\N- Yes. - You do not know how to drive.
+Dialogue: 0,0:36:11.16,0:36:11.87,Default,,0000,0000,0000,,对\NYes.
+Dialogue: 0,0:36:12.04,0:36:13.33,Default,,0000,0000,0000,,不\NNo.
+Dialogue: 0,0:36:13.50,0:36:15.50,Default,,0000,0000,0000,,- 市长先生  - 我是吉伯特\N- Mr. the mayor? - It's Gibert.
+Dialogue: 0,0:36:15.66,0:36:17.25,Default,,0000,0000,0000,,烤馅饼从烤箱里出来了\NThe calzone comes out of the oven.
+Dialogue: 0,0:36:17.91,0:36:19.41,Default,,0000,0000,0000,,我重复以便  我们观察到\NI repeat, we note.
+Dialogue: 0,0:36:19.91,0:36:21.79,Default,,0000,0000,0000,,烤馅饼从烤箱里出来了\NThe calzone comes out of the oven.
+Dialogue: 0,0:36:21.95,0:36:23.83,Default,,0000,0000,0000,,不好意思  我没听懂\NI'm sorry, but it's not clear.
+Dialogue: 0,0:36:24.50,0:36:26.04,Default,,0000,0000,0000,,意大利人开始进攻了\NThe ritals are attacking.
+Dialogue: 0,0:36:26.20,0:36:28.91,Default,,0000,0000,0000,,拉响警报  天堂街518号\NGeneral alert. 518 rue de Paradis,
+Dialogue: 0,0:36:29.08,0:36:30.45,Default,,0000,0000,0000,,现在听清了吗\Nit's clear there?
+Dialogue: 0,0:36:30.62,0:36:31.66,Default,,0000,0000,0000,,托尼奥  快来吧\NAvanti Tonio!
+Dialogue: 0,0:36:31.83,0:36:35.50,Default,,0000,0000,0000,,- 听着  感觉像是陷阱  - 有吉伯特在场\N- There, it smells the trap. * - With Giben 'on the spot,
+Dialogue: 0,0:36:35.66,0:36:37.37,Default,,0000,0000,0000,,那会是个陷阱吗\Ndoes it smell like a trap?
+Dialogue: 0,0:36:37.54,0:36:38.45,Default,,0000,0000,0000,,快\NRun!
+Dialogue: 0,0:36:38.62,0:36:39.83,Default,,0000,0000,0000,,他说什么\NWhat?
+Dialogue: 0,0:36:40.58,0:36:41.25,Default,,0000,0000,0000,,换下位置\NMove.
+Dialogue: 0,0:36:41.79,0:36:42.95,Default,,0000,0000,0000,,我跟这辆车还不熟\NI do not know her.
+Dialogue: 0,0:36:43.12,0:36:45.87,Default,,0000,0000,0000,,让我再跑个两三圈  我一定会轻松上手的\NLet me do 2 or 3 rounds, I can get used.
+Dialogue: 0,0:36:46.04,0:36:47.45,Default,,0000,0000,0000,,我又不是你教练\NI am not a monitor.
+Dialogue: 0,0:36:47.62,0:36:49.25,Default,,0000,0000,0000,,再过两三个坎就行\NJust 2 or 3 slaloms.
+Dialogue: 0,0:37:19.87,0:37:21.25,Default,,0000,0000,0000,,有音乐可以放吗\NDo you have music?
+Dialogue: 0,0:37:23.83,0:37:25.37,Default,,0000,0000,0000,,这里有一张旧CD\NYes, there is an old CD.
+Dialogue: 0,0:37:36.83,0:37:37.62,Default,,0000,0000,0000,,我们出发吧\NLet's go !
+Dialogue: 0,0:37:49.37,0:37:51.12,Default,,0000,0000,0000,,全员出警\NGeneral alert!
+Dialogue: 0,0:37:52.91,0:37:54.20,Default,,0000,0000,0000,,我的天\NOh Ohlala!
+Dialogue: 0,0:37:54.37,0:37:55.16,Default,,0000,0000,0000,,傻瓜\NThe morons
+Dialogue: 0,0:37:55.33,0:37:56.37,Default,,0000,0000,0000,,都是些傻瓜\NThe morons!
+Dialogue: 0,0:37:56.95,0:37:58.20,Default,,0000,0000,0000,,为啥要一起出来\NAll at the same time.
+Dialogue: 0,0:37:58.37,0:37:59.79,Default,,0000,0000,0000,,他们得有多蠢\NHow stupid they are!
+Dialogue: 0,0:37:59.95,0:38:02.87,Default,,0000,0000,0000,,我们这是在浪费时间  那两个\NWe are wasting time. The two remaining,
+Dialogue: 0,0:38:03.04,0:38:04.25,Default,,0000,0000,0000,,你  还有你\Nyou and you,
+Dialogue: 0,0:38:04.41,0:38:05.12,Default,,0000,0000,0000,,快点\Nquick !
+Dialogue: 0,0:38:11.04,0:38:14.33,Default,,0000,0000,0000,,- 你不想休息一下吗  - 不想\N- You do not want to rest? - No.
+Dialogue: 0,0:38:14.50,0:38:15.75,Default,,0000,0000,0000,,海边的空气会对你有好处的\NThe air of the sea will do you good.
+Dialogue: 0,0:38:15.91,0:38:17.08,Default,,0000,0000,0000,,巴黎的空气才对我有好处\NThe air of Paris will do me good.
+Dialogue: 0,0:38:17.25,0:38:18.70,Default,,0000,0000,0000,,你说得对\NYou are right.
+Dialogue: 0,0:38:18.87,0:38:20.33,Default,,0000,0000,0000,,你准备好了\NOh, you're fine!
+Dialogue: 0,0:38:21.62,0:38:22.37,Default,,0000,0000,0000,,去机场\NThe airport,
+Dialogue: 0,0:38:22.54,0:38:23.83,Default,,0000,0000,0000,,- 快  - 好的\N- and quick. - Yes.
+Dialogue: 0,0:38:25.95,0:38:28.58,Default,,0000,0000,0000,,奇基塔  千北  千北  奇基塔\NTchiki Chikita, Chikita Tchiki
+Dialogue: 0,0:38:28.75,0:38:32.16,Default,,0000,0000,0000,,奇基塔有着迷人的外表\NTchikita She has the look that kills, Tchikita
+Dialogue: 0,0:38:32.33,0:38:34.20,Default,,0000,0000,0000,,像尼基塔一样的长发\NLong hair like Nikita
+Dialogue: 0,0:38:34.37,0:38:35.83,Default,,0000,0000,0000,,如果她不离开我\NIf she does not leave me
+Dialogue: 0,0:38:36.00,0:38:39.33,Default,,0000,0000,0000,,我也不离开她  奇基塔有着迷人的外表\NI do not leave her, Tchikita She has the look that kills
+Dialogue: 0,0:38:39.50,0:38:42.50,Default,,0000,0000,0000,,千北  像尼基塔一样的长发\NChikita, long hair like Nikita
+Dialogue: 0,0:38:42.66,0:38:43.41,Default,,0000,0000,0000,,抱歉\NSorry...
+Dialogue: 0,0:38:43.58,0:38:47.91,Default,,0000,0000,0000,,别打扰我  你没看见我正陶醉吗\NLeave me alone ! You do not see that you disturb?
+Dialogue: 0,0:38:48.08,0:38:51.87,Default,,0000,0000,0000,,我正在状态为什么你不让我唱完这首歌\NI was inside Why do not you let me finish it?
+Dialogue: 0,0:38:52.58,0:38:53.58,Default,,0000,0000,0000,,我受够了\NI am wary :
+Dialogue: 0,0:38:53.75,0:38:55.20,Default,,0000,0000,0000,,在完整的灵感里面\Nthese reactions
+Dialogue: 0,0:38:55.37,0:38:57.79,Default,,0000,0000,0000,,- 这些反应  是很打击人的  - 抱歉\N- in full inspiration, it hurts. - Sorry.
+Dialogue: 0,0:38:57.95,0:39:00.12,Default,,0000,0000,0000,,- 很悲伤  - 我没这么想\N- It's sad. - I did not think.
+Dialogue: 0,0:39:00.29,0:39:02.70,Default,,0000,0000,0000,,那你就别想\NSo, do not think,
+Dialogue: 0,0:39:02.87,0:39:04.58,Default,,0000,0000,0000,,不然就是场灾难\Nit would be a disaster.
+Dialogue: 0,0:39:04.75,0:39:08.37,Default,,0000,0000,0000,,- 乖乖听就行了  别作声  - 好的\N- You listen, no comment. - Okay.
+Dialogue: 0,0:39:08.54,0:39:12.79,Default,,0000,0000,0000,,即使那样也太过分了  我们在执行任务\NEven that is too much! We are still on a mission.
+Dialogue: 0,0:39:13.95,0:39:15.66,Default,,0000,0000,0000,,我再也不想听见什么杂音\NI do not want to hear anymore
+Dialogue: 0,0:39:15.83,0:39:19.83,Default,,0000,0000,0000,,乱飞的苍蝇或者抱对儿的蜻蜓  我都不想听见\Nthe flying fly and the dragonfly kissing him. Nothing
+Dialogue: 0,0:39:20.54,0:39:22.08,Default,,0000,0000,0000,,集中注意力\NLet's stay focused.
+Dialogue: 0,0:39:22.25,0:39:24.00,Default,,0000,0000,0000,,去吧  你盯着他\NGo ahead, you point him,
+Dialogue: 0,0:39:24.16,0:39:27.45,Default,,0000,0000,0000,,把锤子带回来  你不相信我吗\Nyou bring back the Hummer. Do not you trust?
+Dialogue: 0,0:39:28.20,0:39:29.00,Default,,0000,0000,0000,,你太害怕了\NYou are scared.
+Dialogue: 0,0:39:29.16,0:39:30.91,Default,,0000,0000,0000,,我给你带来麻烦了吗\NI already put you in trouble?
+Dialogue: 0,0:39:31.08,0:39:34.08,Default,,0000,0000,0000,,- 只有一次  - 我要离开整整2个月\N- Only once? - I'm going out of 2 months firm.
+Dialogue: 0,0:39:34.25,0:39:37.87,Default,,0000,0000,0000,,- 你去出个唱片都够了  - 对\N- You came out with pecs and an album. - Yeah.
+Dialogue: 0,0:39:38.04,0:39:38.95,Default,,0000,0000,0000,,除此之外呢\N'Apart from that?
+Dialogue: 0,0:39:39.12,0:39:42.20,Default,,0000,0000,0000,,除此之外  那个别墅里  有12只斗犬\NOther than that, the villa, there were 12 pitbulls,
+Dialogue: 0,0:39:42.37,0:39:44.83,Default,,0000,0000,0000,,它们把我咬伤了\Nthey snatched me a piece of tail.
+Dialogue: 0,0:39:45.00,0:39:46.41,Default,,0000,0000,0000,,那没事  会好的\NIt's okay, it pushes.
+Dialogue: 0,0:39:47.50,0:39:48.79,Default,,0000,0000,0000,,你相信我吗\NDo you trust?
+Dialogue: 0,0:39:49.70,0:39:50.33,Default,,0000,0000,0000,,不\NNo.
+Dialogue: 0,0:39:50.75,0:39:52.29,Default,,0000,0000,0000,,- 你不相信我吗  - 不\N- Do not you trust? - No.
+Dialogue: 0,0:39:52.45,0:39:53.16,Default,,0000,0000,0000,,不相信吗\NDo you trust?
+Dialogue: 0,0:39:54.12,0:39:54.75,Default,,0000,0000,0000,,对\NYes.
+Dialogue: 0,0:39:54.91,0:39:57.50,Default,,0000,0000,0000,,去给我搞定那个四驱车然后把它带回来\NGo point me this 4X4 and bring it back.
+Dialogue: 0,0:39:59.25,0:40:00.33,Default,,0000,0000,0000,,上吧  伙计\NGo ahead, man.
+Dialogue: 0,0:40:02.58,0:40:04.62,Default,,0000,0000,0000,,不是现在  兄弟  不是\NNot now brother, not...
+Dialogue: 0,0:40:11.00,0:40:11.95,Default,,0000,0000,0000,,一切已就位\NEverything in his camp,
+Dialogue: 0,0:40:12.12,0:40:13.16,Default,,0000,0000,0000,,猎物出窝了\Nthe sheep will be well parked.
+Dialogue: 0,0:40:15.29,0:40:17.58,Default,,0000,0000,0000,,快给我滚出来  老女人  快滚出来\NGo the little old woman, go out quickly!
+Dialogue: 0,0:40:17.75,0:40:19.25,Default,,0000,0000,0000,,我会射爆你的轮胎\NI pete you the tire,
+Dialogue: 0,0:40:19.41,0:40:22.33,Default,,0000,0000,0000,,- 我会用烟雾呛死你  - 他是你的朋友吗\N- I'm going to smoke you. - Is he a friend of yours?
+Dialogue: 0,0:40:22.50,0:40:25.04,Default,,0000,0000,0000,,不  这应该是劫车的\NNo, it would be more of a car-jacking.
+Dialogue: 0,0:40:25.20,0:40:27.66,Default,,0000,0000,0000,,好  我要给他点颜色看看\NYes! I'm going to make him dirty.
+Dialogue: 0,0:40:34.00,0:40:37.79,Default,,0000,0000,0000,,他再也不会感到膨胀了\NHe will not inflate them anyway.
+Dialogue: 0,0:40:48.79,0:40:51.04,Default,,0000,0000,0000,,抢劫了抢劫了\NIt's a fucking robbery!
+Dialogue: 0,0:40:51.20,0:40:52.04,Default,,0000,0000,0000,,举起双手\NHands up!
+Dialogue: 0,0:40:52.20,0:40:53.50,Default,,0000,0000,0000,,把珠宝放进去\NPut the jewels.
+Dialogue: 0,0:40:53.66,0:40:55.08,Default,,0000,0000,0000,,别动  混蛋\NDo not move, asshole!
+Dialogue: 0,0:40:59.41,0:41:00.75,Default,,0000,0000,0000,,- 没事吧  - 没事\N- It's okay ? - Yes Yes.
+Dialogue: 0,0:41:01.04,0:41:02.62,Default,,0000,0000,0000,,- 有个问题  - 什么\N- A question. - What?
+Dialogue: 0,0:41:02.79,0:41:05.58,Default,,0000,0000,0000,,你是哪个小队来的  这里的警察\NWhat unit are you from? The keufs are not driving
+Dialogue: 0,0:41:05.75,0:41:06.62,Default,,0000,0000,0000,,可不会这样开车\Nlike that.
+Dialogue: 0,0:41:18.00,0:41:18.66,Default,,0000,0000,0000,,不是\NIt's not
+Dialogue: 0,0:41:18.83,0:41:19.62,Default,,0000,0000,0000,,这条路\Nthe road !
+Dialogue: 0,0:41:19.79,0:41:20.87,Default,,0000,0000,0000,,我只会\NI do not do
+Dialogue: 0,0:41:21.04,0:41:22.33,Default,,0000,0000,0000,,紧跟警方的车队\Nthan follow the police.
+Dialogue: 0,0:41:24.91,0:41:25.54,Default,,0000,0000,0000,,这边就绪了\NIts good.
+Dialogue: 0,0:41:26.37,0:41:26.95,Default,,0000,0000,0000,,打给他\NTell him.
+Dialogue: 0,0:41:32.25,0:41:32.83,Default,,0000,0000,0000,,怎么\NHello?
+Dialogue: 0,0:41:33.00,0:41:34.08,Default,,0000,0000,0000,,我们到了\NWe arrive.
+Dialogue: 0,0:41:34.25,0:41:35.12,Default,,0000,0000,0000,,我们准备好了\NWe are ready.
+Dialogue: 0,0:41:35.29,0:41:38.58,Default,,0000,0000,0000,,一旦他们带着赃物品出去  我就卡住他们\NAs soon as they go out with the booty, I stuck them
+Dialogue: 0,0:41:38.75,0:41:41.16,Default,,0000,0000,0000,,然后就这样  大功告成\Nand there it is, finished!
+Dialogue: 0,0:41:42.16,0:41:43.20,Default,,0000,0000,0000,,就胜利了\NLa Traviata.
+Dialogue: 0,0:41:43.37,0:41:45.62,Default,,0000,0000,0000,,快  把钱给我\NHurry, give me the money.
+Dialogue: 0,0:41:45.95,0:41:46.70,Default,,0000,0000,0000,,有动静了\NIt's wriggling.
+Dialogue: 0,0:41:49.12,0:41:50.87,Default,,0000,0000,0000,,黑手党\NMafia!
+Dialogue: 0,0:42:06.33,0:42:07.29,Default,,0000,0000,0000,,在这儿呢\NWell, here it is!
+Dialogue: 0,0:42:11.70,0:42:13.12,Default,,0000,0000,0000,,我还不知道法国的出租车
+Dialogue: 0,0:42:13.29,0:42:14.45,Default,,0000,0000,0000,,能跑这么快
+Dialogue: 0,0:42:17.95,0:42:19.12,Default,,0000,0000,0000,,看着都疼\NIt hurts !
+Dialogue: 0,0:42:22.45,0:42:23.58,Default,,0000,0000,0000,,- 想玩玩嘛  - 那就来吧
+Dialogue: 0,0:42:28.79,0:42:29.62,Default,,0000,0000,0000,,如果你再开快点\NI am dead
+Dialogue: 0,0:42:29.79,0:42:30.58,Default,,0000,0000,0000,,我就要死了\Nif you break it.
+Dialogue: 0,0:42:34.87,0:42:35.54,Default,,0000,0000,0000,,那里都撞坏多少辆车了\NHow many are there?
+Dialogue: 0,0:42:37.45,0:42:38.58,Default,,0000,0000,0000,,这条路限速50公里\NIt's limited to 50.
+Dialogue: 0,0:42:38.75,0:42:39.75,Default,,0000,0000,0000,,别慌\NStay calm,
+Dialogue: 0,0:42:39.91,0:42:40.75,Default,,0000,0000,0000,,没事的\Nit will be fine.
+Dialogue: 0,0:42:40.91,0:42:41.83,Default,,0000,0000,0000,,我很冷静\NI'm calm.
+Dialogue: 0,0:42:42.00,0:42:42.66,Default,,0000,0000,0000,,冷静\NCalm !
+Dialogue: 0,0:42:46.50,0:42:49.50,Default,,0000,0000,0000,,不是吧  这些车都是从哪里来的\NYes! Where do all these cars come from?
+Dialogue: 0,0:42:50.50,0:42:51.83,Default,,0000,0000,0000,,走快车道\NOn the fast axes,
+Dialogue: 0,0:42:52.00,0:42:53.37,Default,,0000,0000,0000,,我们还占下风\Nwe are beaten.
+Dialogue: 0,0:42:53.54,0:42:55.25,Default,,0000,0000,0000,,那就左转\NThen take a left.
+Dialogue: 0,0:42:55.41,0:42:56.41,Default,,0000,0000,0000,,- 什么时候  - 现在\N- When? - The !
+Dialogue: 0,0:43:04.43,0:43:06.14,Default,,0000,0000,0000,,我们赢了
+Dialogue: 0,0:43:08.95,0:43:09.70,Default,,0000,0000,0000,,右转\NTo the right.
+Dialogue: 0,0:43:15.20,0:43:15.95,Default,,0000,0000,0000,,这样我们会\NWe'll kill
+Dialogue: 0,0:43:16.12,0:43:16.87,Default,,0000,0000,0000,,伤到行人的\Nsomebody.
+Dialogue: 0,0:43:17.04,0:43:17.87,Default,,0000,0000,0000,,别担心\NDo not worry,
+Dialogue: 0,0:43:18.04,0:43:19.08,Default,,0000,0000,0000,,都在我的掌控之中\NI manage.
+Dialogue: 0,0:43:24.83,0:43:27.25,Default,,0000,0000,0000,,- 别碰我  - 抱歉\N- Leave me alone ! - Sorry.
+Dialogue: 0,0:43:31.20,0:43:31.91,Default,,0000,0000,0000,,艾迪\NEddy?
+Dialogue: 0,0:43:33.16,0:43:34.29,Default,,0000,0000,0000,,我来处理\NI handle that.
+Dialogue: 0,0:43:36.04,0:43:39.37,Default,,0000,0000,0000,,艾迪要来了  大家快回家\NEddy is coming, come home!
+Dialogue: 0,0:43:42.91,0:43:44.87,Default,,0000,0000,0000,,这是马赛最古老的街区\NThis is the oldest district of Marseille.
+Dialogue: 0,0:43:45.29,0:43:46.25,Default,,0000,0000,0000,,看来他并不在意\NWell, he does not care.
+Dialogue: 0,0:43:52.70,0:43:53.41,Default,,0000,0000,0000,,我的天\NMy God.
+Dialogue: 0,0:43:55.54,0:43:56.62,Default,,0000,0000,0000,,这场面怎么收拾\NWhat ugliness.
+Dialogue: 0,0:44:02.70,0:44:03.33,Default,,0000,0000,0000,,艾迪\NEddy
+Dialogue: 0,0:44:03.50,0:44:06.12,Default,,0000,0000,0000,,在旧港口边有一辆黄色的法拉利\Na yellow Ferrari on the Old Port,
+Dialogue: 0,0:44:06.29,0:44:07.75,Default,,0000,0000,0000,,- 你有兴趣吗  - 谢谢你\N- Are you interested ? - Thank you.
+Dialogue: 0,0:44:07.91,0:44:08.75,Default,,0000,0000,0000,,那辆车\NIt is
+Dialogue: 0,0:44:08.91,0:44:10.20,Default,,0000,0000,0000,,- 在旧港口  - 怎么走\N- on the Old Port. - Or ?
+Dialogue: 0,0:44:10.37,0:44:11.66,Default,,0000,0000,0000,,从那里  通过几条小路\NThere, by the small roads.
+Dialogue: 0,0:44:11.83,0:44:13.50,Default,,0000,0000,0000,,我们快没时间了\NWe do not have time anymore.
+Dialogue: 0,0:44:15.45,0:44:16.45,Default,,0000,0000,0000,,你在做什么\NWhat are you doing ?
+Dialogue: 0,0:44:16.62,0:44:17.41,Default,,0000,0000,0000,,抄近道\NIt's a shortcut.
+Dialogue: 0,0:44:18.87,0:44:19.62,Default,,0000,0000,0000,,从那里吗\NOver there ?
+Dialogue: 0,0:44:20.16,0:44:21.33,Default,,0000,0000,0000,,抓稳了\NHang in there.
+Dialogue: 0,0:44:32.45,0:44:33.20,Default,,0000,0000,0000,,好耶\N'Ole!
+Dialogue: 0,0:44:33.37,0:44:35.70,Default,,0000,0000,0000,,- 这可不好  - 还没完呢\N- It's not good. - It's not over.
+Dialogue: 0,0:44:36.72,0:44:37.89,Default,,0000,0000,0000,,又追上了
+Dialogue: 0,0:44:46.50,0:44:47.45,Default,,0000,0000,0000,,哦  停下\NOh, stop!
+Dialogue: 0,0:44:54.12,0:44:54.79,Default,,0000,0000,0000,,要撞车了\NWe will type.
+Dialogue: 0,0:45:03.95,0:45:04.95,Default,,0000,0000,0000,,拜拜\NCiao, ciao!
+Dialogue: 0,0:45:15.45,0:45:17.25,Default,,0000,0000,0000,,哦  没事儿了\NOh no, that's okay.
+Dialogue: 0,0:45:17.41,0:45:18.45,Default,,0000,0000,0000,,本来跟着他们的\NWe kept them.
+Dialogue: 0,0:45:18.83,0:45:19.91,Default,,0000,0000,0000,,我们要炸锅了\NWe're going to be badgers.
+Dialogue: 0,0:45:20.08,0:45:24.12,Default,,0000,0000,0000,,你总是小题大做  明天大家就把这事忘了\NYou dramatize everything. Tomorrow, everyone will have forgotten.
+Dialogue: 0,0:45:28.20,0:45:29.45,Default,,0000,0000,0000,,好吧  好吧\NYes, yes.
+Dialogue: 0,0:45:30.33,0:45:31.62,Default,,0000,0000,0000,,- 嗯  我在上面  - 嗯\N- Yes, I was there. - Yes.
+Dialogue: 0,0:45:32.66,0:45:34.37,Default,,0000,0000,0000,,每次都会有点事\NEvery time, there is something.
+Dialogue: 0,0:45:34.54,0:45:37.25,Default,,0000,0000,0000,,部长在普拉多出事故了\NThe minister, an accident on the Prado,
+Dialogue: 0,0:45:37.41,0:45:39.41,Default,,0000,0000,0000,,连环车祸  他们在警察内部\Na pileup. They have a mole
+Dialogue: 0,0:45:39.58,0:45:40.95,Default,,0000,0000,0000,,有内奸吗\Nin the national police?
+Dialogue: 0,0:45:43.33,0:45:44.25,Default,,0000,0000,0000,,我们怎么办\NWhat do we do ?
+Dialogue: 0,0:45:44.41,0:45:48.04,Default,,0000,0000,0000,,重新整理出租车  决不能再受这种屈辱\NReboost the taxi. Never again such humiliation.
+Dialogue: 0,0:45:48.41,0:45:51.33,Default,,0000,0000,0000,,我知道全马赛最好的修车店\NI know the best garage in all of Marseille.
+Dialogue: 0,0:45:51.50,0:45:52.04,Default,,0000,0000,0000,,是吗\NAh yes?
+Dialogue: 0,0:45:52.37,0:45:53.29,Default,,0000,0000,0000,,要有信心\NHave confidence.
+Dialogue: 0,0:45:55.00,0:45:55.87,Default,,0000,0000,0000,,走吧\NLet's go.
+Dialogue: 0,0:45:57.37,0:46:00.41,Default,,0000,0000,0000,,米歇尔  快热身  你要上场了\NMichel, warm up, you will enter the field.
+Dialogue: 0,0:46:18.75,0:46:20.08,Default,,0000,0000,0000,,这里吗\NIt's here ?
+Dialogue: 0,0:46:21.00,0:46:22.95,Default,,0000,0000,0000,,- 真的  - 这是家里的店\N- Serious? - It's the family.
+Dialogue: 0,0:46:27.50,0:46:28.29,Default,,0000,0000,0000,,你妹妹吗\NYour sister ?
+Dialogue: 0,0:46:29.00,0:46:29.70,Default,,0000,0000,0000,,对的\NYeah.
+Dialogue: 0,0:46:29.87,0:46:33.50,Default,,0000,0000,0000,,- 你是被领养的吗  - 不是  怎么了\N- Have you been adopted or what? - No, why?
+Dialogue: 0,0:46:33.66,0:46:34.70,Default,,0000,0000,0000,,像这样\NLike this.
+Dialogue: 0,0:46:35.37,0:46:36.00,Default,,0000,0000,0000,,你好\NHello.
+Dialogue: 0,0:46:36.16,0:46:37.25,Default,,0000,0000,0000,,你好\NHello.
+Dialogue: 0,0:46:43.62,0:46:46.00,Default,,0000,0000,0000,,你要是开出去  叔叔会干死你的\NIf it's you who drove it, uncle will fuck you.
+Dialogue: 0,0:46:48.75,0:46:52.70,Default,,0000,0000,0000,,- 她认识这辆车  - 她是有点为所欲为\N- She thinks about the car! - She does what she wants.
+Dialogue: 0,0:46:52.87,0:46:55.29,Default,,0000,0000,0000,,嘿  还是先看看吧\NHey, but... Go ahead...
+Dialogue: 0,0:47:01.12,0:47:02.25,Default,,0000,0000,0000,,你可以\NYou could
+Dialogue: 0,0:47:02.41,0:47:04.54,Default,,0000,0000,0000,,帮我把车重新修理一下吗\Nthe rebooster and me, I could
+Dialogue: 0,0:47:04.70,0:47:06.58,Default,,0000,0000,0000,,回头也许能请你喝一杯\Ninvite you to take a pot.
+Dialogue: 0,0:47:08.75,0:47:12.87,Default,,0000,0000,0000,,也许在巴黎是这样  但你现在是在马赛\NMaybe it works in Paris, but here you are in Marseille.
+Dialogue: 0,0:47:13.04,0:47:15.16,Default,,0000,0000,0000,,在这里要请人喝酒\NWill have to be more original to go
+Dialogue: 0,0:47:15.33,0:47:16.54,Default,,0000,0000,0000,,光这样可不够\Nhave a drink.
+Dialogue: 0,0:47:18.58,0:47:21.45,Default,,0000,0000,0000,,我会看看的  明天就会好很多\NI'll take care of it, it'll be better tomorrow.
+Dialogue: 0,0:47:24.08,0:47:25.12,Default,,0000,0000,0000,,还有\NAnd...
+Dialogue: 0,0:47:30.33,0:47:33.83,Default,,0000,0000,0000,,- 那个  你喜欢海豚吗  - 嗯\N- Otherwise, do you like dolphins? - Yeah.
+Dialogue: 0,0:47:34.00,0:47:34.75,Default,,0000,0000,0000,,我也是\NMe too...
+Dialogue: 0,0:47:37.50,0:47:39.58,Default,,0000,0000,0000,,这些都是球员\NIt's the players who play.
+Dialogue: 0,0:47:39.75,0:47:42.08,Default,,0000,0000,0000,,他们都是按照教练说的\NThey play as their request to play
+Dialogue: 0,0:47:42.25,0:47:43.29,Default,,0000,0000,0000,,踢的\Nthe coach !
+Dialogue: 0,0:47:43.45,0:47:46.62,Default,,0000,0000,0000,,要是我的员工不听我的\NIf my employee does not do what I want,
+Dialogue: 0,0:47:46.79,0:47:48.16,Default,,0000,0000,0000,,我早疯了\NI'm crazy outside.
+Dialogue: 0,0:47:48.33,0:47:52.45,Default,,0000,0000,0000,,她不接我电话  我不知道该发什么表情\NShe answers me more. I do not know what smiley to send him.
+Dialogue: 0,0:47:52.62,0:47:54.08,Default,,0000,0000,0000,,微笑行吗\NEither smiley
+Dialogue: 0,0:47:54.25,0:47:56.58,Default,,0000,0000,0000,,这都没关系  你知不知道\N"It does not matter", you know?
+Dialogue: 0,0:47:56.75,0:47:59.50,Default,,0000,0000,0000,,还是发个这样的坏笑\NThe one who is like that. Or the raging smiley.
+Dialogue: 0,0:47:59.66,0:48:01.12,Default,,0000,0000,0000,,那个歪嘴巴的\NThe one with the mouth.
+Dialogue: 0,0:48:01.75,0:48:02.79,Default,,0000,0000,0000,,你甩了我\N"You left me".
+Dialogue: 0,0:48:02.95,0:48:05.58,Default,,0000,0000,0000,,我还犹豫  真可惜没有什么表情\NI hesitate. Too bad there is not a smiley
+Dialogue: 0,0:48:05.75,0:48:07.04,Default,,0000,0000,0000,,能像阿尔及利亚人那样\NAlgerian, something like that.
+Dialogue: 0,0:48:10.29,0:48:11.58,Default,,0000,0000,0000,,你要有个妹子\NAnd you would have the same
+Dialogue: 0,0:48:11.75,0:48:15.04,Default,,0000,0000,0000,,也会这样的  你觉得呢\Nfor girls in blow drying. What do you think?
+Dialogue: 0,0:48:15.20,0:48:16.70,Default,,0000,0000,0000,,你问我吗\NYou ask me ?
+Dialogue: 0,0:48:16.87,0:48:17.54,Default,,0000,0000,0000,,对\NYes.
+Dialogue: 0,0:48:17.70,0:48:20.50,Default,,0000,0000,0000,,你已经说了两个小时了\NIt's been 2 hours that you talk about your gadgi.
+Dialogue: 0,0:48:20.66,0:48:23.04,Default,,0000,0000,0000,,我都要疯了  雷内\NI'm going crazy. Rene!
+Dialogue: 0,0:48:23.20,0:48:25.12,Default,,0000,0000,0000,,- 怎么了  - 给我点冰块\N- Yeah? - Give me some ice cubes.
+Dialogue: 0,0:48:25.29,0:48:26.41,Default,,0000,0000,0000,,给我2分钟  马上就来\N2 minutes, I arrive.
+Dialogue: 0,0:48:27.95,0:48:29.45,Default,,0000,0000,0000,,西尔万  这是小巴\NSylvain, here is Baba,
+Dialogue: 0,0:48:29.62,0:48:30.70,Default,,0000,0000,0000,,我最好的朋友\Nmy best friend.
+Dialogue: 0,0:48:30.87,0:48:33.04,Default,,0000,0000,0000,,- 终于  - 你是认真的吗\N- Finally, I thought. - Are you serious ?
+Dialogue: 0,0:48:33.20,0:48:33.91,Default,,0000,0000,0000,,嗯\NYes.
+Dialogue: 0,0:48:35.25,0:48:38.41,Default,,0000,0000,0000,,我就把接力棒交给你了  我听不下去了  祝你好运\NI give you the relay, I can not anymore. Good luck.
+Dialogue: 0,0:48:38.58,0:48:39.37,Default,,0000,0000,0000,,妈妈咪呀\NOn my mother.
+Dialogue: 0,0:48:39.54,0:48:40.91,Default,,0000,0000,0000,,嗨  小巴  谢谢\NHi Baba, thanks.
+Dialogue: 0,0:48:41.87,0:48:44.54,Default,,0000,0000,0000,,- 谢谢  兄弟  - 你把你朋友都累坏了\N- Thank you, brother. - You're exhausting all your friends.
+Dialogue: 0,0:48:47.00,0:48:48.37,Default,,0000,0000,0000,,这里是优步司机酒吧吗\NThis is the Uber HQ?
+Dialogue: 0,0:48:50.29,0:48:51.08,Default,,0000,0000,0000,,怎么了\NWhat?
+Dialogue: 0,0:48:51.75,0:48:53.87,Default,,0000,0000,0000,,我的女友  前女友\NIt's my girl. My ex-girl.
+Dialogue: 0,0:48:54.37,0:48:55.50,Default,,0000,0000,0000,,我要见她\NI had to see her,
+Dialogue: 0,0:48:55.66,0:48:57.12,Default,,0000,0000,0000,,但她不肯见我\Nbut she has an evening.
+Dialogue: 0,0:48:58.41,0:48:59.83,Default,,0000,0000,0000,,她太美了  我配不上\NShe is too beautiful for me.
+Dialogue: 0,0:49:00.00,0:49:03.50,Default,,0000,0000,0000,,换做平时  我喜欢的女孩肯定高兴的要疯\NUsually, the girls I'm interested in are nuts.
+Dialogue: 0,0:49:03.66,0:49:08.29,Default,,0000,0000,0000,,- 看着像是你妹妹经常来  - 就那一次\N- Seen like that. Your sister comes often... - And there, for once
+Dialogue: 0,0:49:08.45,0:49:12.87,Default,,0000,0000,0000,,一个漂亮的  聪明的女孩  对我感兴趣  我该怎么办\Nthat a pretty, intelligent girl is interested in me, what do I do?
+Dialogue: 0,0:49:13.04,0:49:16.58,Default,,0000,0000,0000,,- 我在家打游戏  - 那太傻了\N- I'm at home talking about games. - That's stupid.
+Dialogue: 0,0:49:16.75,0:49:17.58,Default,,0000,0000,0000,,- 你妹妹  - 那很傻吗\N- Your sister... - That's stupid?
+Dialogue: 0,0:49:18.00,0:49:21.66,Default,,0000,0000,0000,,- 你就这么给我鼓劲吗  - 这是种表达方式\N- Do you have that to cheer me up? - It's an expression.
+Dialogue: 0,0:49:21.83,0:49:22.79,Default,,0000,0000,0000,,你妹妹会来吗\NYour sister is coming...
+Dialogue: 0,0:49:22.95,0:49:24.79,Default,,0000,0000,0000,,那些意大利人呢\NAnd for the Italians?
+Dialogue: 0,0:49:29.37,0:49:31.16,Default,,0000,0000,0000,,他们肯定渗透进政府了\NMust infiltrate the environment.
+Dialogue: 0,0:49:31.33,0:49:32.66,Default,,0000,0000,0000,,你有线索吗\NDo you have tracks?
+Dialogue: 0,0:49:35.54,0:49:38.33,Default,,0000,0000,0000,,我唯一认识的意大利人是拉希德\NThe only Italian I know is Rachid.
+Dialogue: 0,0:49:40.37,0:49:43.00,Default,,0000,0000,0000,,他是同父还是同母来着\NBut he's from father and mother...
+Dialogue: 0,0:49:43.16,0:49:46.20,Default,,0000,0000,0000,,- 他是意大利人吗  - 他父母可能在这\N- He is from Italy? - It is of parents in galley,
+Dialogue: 0,0:49:46.37,0:49:48.66,Default,,0000,0000,0000,,但他不是意大利人\Nbut he is not Italian, he is...
+Dialogue: 0,0:49:50.62,0:49:53.33,Default,,0000,0000,0000,,- 好吧  - 但这是意大利人\N- Okay. - But here is an Italian.
+Dialogue: 0,0:49:53.50,0:49:54.70,Default,,0000,0000,0000,,他是这里的\NThere he is from here.
+Dialogue: 0,0:49:54.87,0:49:57.29,Default,,0000,0000,0000,,- 我不知道你有没有  - 好吧\N- I do not know if you... - Yes it's...
+Dialogue: 0,0:49:57.45,0:49:59.79,Default,,0000,0000,0000,,- 拉希德不是意大利人  - 不是\N- Rachid, it's not Italian. - No.
+Dialogue: 0,0:49:59.95,0:50:02.37,Default,,0000,0000,0000,,他在意大利有朋友\NHe has a jersey from Italy,
+Dialogue: 0,0:50:02.54,0:50:04.00,Default,,0000,0000,0000,,皮耶罗的  但是\Nfrom Del Piero, but...
+Dialogue: 0,0:50:12.92,0:50:15.38,Default,,0000,0000,0000,,意大利  1  2  3
+Dialogue: 0,0:50:15.38,0:50:18.46,Default,,0000,0000,0000,,意大利万岁  123
+Dialogue: 0,0:50:18.50,0:50:18.95,Default,,0000,0000,0000,,拉希德\NRachid!
+Dialogue: 0,0:50:19.12,0:50:20.37,Default,,0000,0000,0000,,- 小姐  - 拉希德\N- Senorita. - Rachid.
+Dialogue: 0,0:50:25.41,0:50:26.50,Default,,0000,0000,0000,,很屌吧\NIt's a bomb.
+Dialogue: 0,0:50:27.45,0:50:30.70,Default,,0000,0000,0000,,我跟你说了多少次别叫我拉希德\N"How many times have I told you not to call me Rachid?
+Dialogue: 0,0:50:30.87,0:50:34.83,Default,,0000,0000,0000,,你在桌上看到什么  蒸粗麦粉  还是塔吉锅\NWhat do you see on the tables? Couscous, tajine?
+Dialogue: 0,0:50:35.00,0:50:36.41,Default,,0000,0000,0000,,不  是披萨\NNo, it's pizza!
+Dialogue: 0,0:50:36.58,0:50:38.83,Default,,0000,0000,0000,,我叫里卡多  妈的\NMy name is Ricardo, shit!
+Dialogue: 0,0:50:40.25,0:50:41.62,Default,,0000,0000,0000,,- 这是谁  - 啊\N- Who is it? - Huh?
+Dialogue: 0,0:50:41.79,0:50:45.58,Default,,0000,0000,0000,,- 这是谁  - 拉  里卡多  我朋友西尔万\N- Who is it? - Ra... Ricardo, my friend Sylvain
+Dialogue: 0,0:50:45.75,0:50:48.33,Default,,0000,0000,0000,,是警察\Nof the police.
+Dialogue: 0,0:50:52.83,0:50:56.08,Default,,0000,0000,0000,,她真的到法定年龄了  不关我的事\NFor everyone she was major, it's not just me.
+Dialogue: 0,0:50:56.25,0:50:59.54,Default,,0000,0000,0000,,- 当然当然  - 她都40了\N- No no not at all. - She's 40 years old.
+Dialogue: 0,0:50:59.70,0:51:01.25,Default,,0000,0000,0000,,不是这样的  嘘\NNot at all, hush.
+Dialogue: 0,0:51:01.41,0:51:04.83,Default,,0000,0000,0000,,- 不  不 - 好吧  我明白  我明白\N- No no. - OK, I understood, I understood.
+Dialogue: 0,0:51:05.91,0:51:07.00,Default,,0000,0000,0000,,我明白了\NI understood.
+Dialogue: 0,0:51:07.16,0:51:09.25,Default,,0000,0000,0000,,- 我知道你们为什么来这了  - 不是\N- I know why you are here. - No.
+Dialogue: 0,0:51:09.41,0:51:11.00,Default,,0000,0000,0000,,我知道了  我知道\NYes, I know, I know.
+Dialogue: 0,0:51:11.16,0:51:12.20,Default,,0000,0000,0000,,好吧\NOK...
+Dialogue: 0,0:51:12.37,0:51:13.66,Default,,0000,0000,0000,,跟我来\NCome with me.
+Dialogue: 0,0:51:14.29,0:51:15.12,Default,,0000,0000,0000,,不是\NNo !
+Dialogue: 0,0:51:15.29,0:51:16.79,Default,,0000,0000,0000,,不是这样的\NIt's not at all that.
+Dialogue: 0,0:51:19.95,0:51:22.12,Default,,0000,0000,0000,,下注吧  要开了\NPlace your bets. Burst the bank.
+Dialogue: 0,0:51:22.70,0:51:23.75,Default,,0000,0000,0000,,有意思\NInteresting.
+Dialogue: 0,0:51:26.00,0:51:27.79,Default,,0000,0000,0000,,我们不是为这来的\NWe did not come for that.
+Dialogue: 0,0:51:27.95,0:51:29.58,Default,,0000,0000,0000,,14  不是吧\N14. Unbelievable.
+Dialogue: 0,0:51:32.29,0:51:34.33,Default,,0000,0000,0000,,- 为什么  - 不是为那个\N- Why ? - Not for that.
+Dialogue: 0,0:51:34.50,0:51:35.45,Default,,0000,0000,0000,,妈的\NOh fuck...
+Dialogue: 0,0:51:36.87,0:51:37.54,Default,,0000,0000,0000,,这儿呢\NHere.
+Dialogue: 0,0:51:39.20,0:51:40.37,Default,,0000,0000,0000,,不用说\NUseless to say
+Dialogue: 0,0:51:40.54,0:51:42.12,Default,,0000,0000,0000,,这是我的收藏\NWhat is my collection?
+Dialogue: 0,0:51:43.54,0:51:45.58,Default,,0000,0000,0000,,疯了  这里他喵的是战后伊拉克吧\NCrazy stuff, it's lrak here.
+Dialogue: 0,0:51:48.25,0:51:51.04,Default,,0000,0000,0000,,告诉我你对意大利人了解多少\NTell me what you know about the Italians.
+Dialogue: 0,0:51:52.20,0:51:54.54,Default,,0000,0000,0000,,你说什么意大利人\NWhat Italians are you talking about?
+Dialogue: 0,0:51:54.70,0:51:56.50,Default,,0000,0000,0000,,艾迪  把那放下\NEddy, put that down, mess!
+Dialogue: 0,0:51:56.66,0:51:57.91,Default,,0000,0000,0000,,抱歉\NOK sorry.
+Dialogue: 0,0:51:58.54,0:51:59.87,Default,,0000,0000,0000,,窃贼\NStealers,
+Dialogue: 0,0:52:00.04,0:52:02.45,Default,,0000,0000,0000,,- 你见过他们吗  - 乱说话会遭报应的\N- did you see them? - It'll fall back on me,
+Dialogue: 0,0:52:02.62,0:52:04.25,Default,,0000,0000,0000,,所以我谁都没见过\Nso I saw nobody.
+Dialogue: 0,0:52:04.41,0:52:05.66,Default,,0000,0000,0000,,我能开几枪吗\NCan I shoot with?
+Dialogue: 0,0:52:05.83,0:52:06.83,Default,,0000,0000,0000,,不行  别碰\NDo not touch !
+Dialogue: 0,0:52:07.00,0:52:08.79,Default,,0000,0000,0000,,- 那我不动了  - 好\N- It's not true ! - OK !
+Dialogue: 0,0:52:08.95,0:52:09.79,Default,,0000,0000,0000,,好吧\NOkay.
+Dialogue: 0,0:52:11.79,0:52:14.54,Default,,0000,0000,0000,,如果我邀请警察过来呢\NWhat if I invited the cops here?
+Dialogue: 0,0:52:14.70,0:52:17.16,Default,,0000,0000,0000,,- 你见过他们吗  - 他们来吃过\N- Have you seen them? - They came to eat.
+Dialogue: 0,0:52:17.33,0:52:18.20,Default,,0000,0000,0000,,意面\NPasta.
+Dialogue: 0,0:52:18.37,0:52:20.54,Default,,0000,0000,0000,,不  没有意大利人会来\NNo, no Italian comes to eat
+Dialogue: 0,0:52:20.70,0:52:24.87,Default,,0000,0000,0000,,你的餐馆吃饭  你卖了武器给他们  有还是没有\Nin your restaurant. You sold them weapons? Yes or no ?
+Dialogue: 0,0:52:25.04,0:52:26.87,Default,,0000,0000,0000,,有  不  一点点\NYes. No. A little.
+Dialogue: 0,0:52:27.04,0:52:27.79,Default,,0000,0000,0000,,哪一种的\NWhich ones?
+Dialogue: 0,0:52:28.41,0:52:32.00,Default,,0000,0000,0000,,小型的武器  非进攻性的武器\NSmall... Steps... Inoffensive weapons...
+Dialogue: 0,0:52:32.16,0:52:34.75,Default,,0000,0000,0000,,真的非常非常无害\NReally very very harmless.
+Dialogue: 0,0:52:36.54,0:52:38.54,Default,,0000,0000,0000,,不  看这里  看这里\NOh no, here, there, there.
+Dialogue: 0,0:52:39.00,0:52:42.08,Default,,0000,0000,0000,,- 出什么事了  - 后面有什么\N- What is happening ? - What's behind?
+Dialogue: 0,0:52:42.25,0:52:44.12,Default,,0000,0000,0000,,- 哪啊  - 墙后面\N- Where ? - Behind the wall.
+Dialogue: 0,0:52:50.37,0:52:51.04,Default,,0000,0000,0000,,哇呜\NWow!
+Dialogue: 0,0:52:51.20,0:52:55.83,Default,,0000,0000,0000,,你看到了吗  这是邻居  就在我家后面  我都没见过\NDid you see that ? The neighbor, behind my house, I had not seen.
+Dialogue: 0,0:52:56.29,0:52:57.87,Default,,0000,0000,0000,,这是我餐馆用的\NIt's for my restaurant.
+Dialogue: 0,0:52:58.04,0:52:59.29,Default,,0000,0000,0000,,- 好吧  - 没错\N- Okay. - Yes !
+Dialogue: 0,0:52:59.45,0:53:03.95,Default,,0000,0000,0000,,我们需要草药  就像是香料\NWe need herbs, so it's like aromatic herbs.
+Dialogue: 0,0:53:04.12,0:53:06.54,Default,,0000,0000,0000,,迷迭香  百里香  挨门塔尔\NRosemary, thyme and emmental.
+Dialogue: 0,0:53:06.70,0:53:07.79,Default,,0000,0000,0000,,还有一点\NAnd a little...?
+Dialogue: 0,0:53:09.29,0:53:10.04,Default,,0000,0000,0000,,大麻\NWeed.
+Dialogue: 0,0:53:10.79,0:53:11.91,Default,,0000,0000,0000,,等等\NHold on !
+Dialogue: 0,0:53:12.08,0:53:13.70,Default,,0000,0000,0000,,做沙拉用的\NI make salads!
+Dialogue: 0,0:53:13.87,0:53:18.25,Default,,0000,0000,0000,,- 他们从这拿武器走了吗  - 不  我送去给他们的\N- The ritals are gone with the weapons? - I delivered them.
+Dialogue: 0,0:53:18.41,0:53:20.08,Default,,0000,0000,0000,,- 哪啊  - 世界的尽头\N- where? - At the end of the world.
+Dialogue: 0,0:53:21.45,0:53:26.04,Default,,0000,0000,0000,,- 沃夫纳格的一个赛道  - 我们追的不是抢劫犯\N- A circuit in Vauvenargues. - We hold them. It's not the robbers,
+Dialogue: 0,0:53:26.20,0:53:27.25,Default,,0000,0000,0000,,是个驾驶员\Nit's pilots.
+Dialogue: 0,0:53:27.41,0:53:28.12,Default,,0000,0000,0000,,那又怎样\NSo what ?
+Dialogue: 0,0:53:30.04,0:53:31.58,Default,,0000,0000,0000,,我认识司机\NI know the drivers.
+Dialogue: 0,0:53:33.66,0:53:36.91,Default,,0000,0000,0000,,能让他把花放下吗\NHe can leave my grass of Provence?
+Dialogue: 0,0:53:37.08,0:53:39.41,Default,,0000,0000,0000,,- 这是大家的财产  - 这是我的\N- She's up to everyone. - It's mine.
+Dialogue: 0,0:53:39.58,0:53:41.12,Default,,0000,0000,0000,,- 不  - 放下\N- No. - Put it down.
+Dialogue: 0,0:53:41.29,0:53:43.58,Default,,0000,0000,0000,,- 你放错地方了  - 给我放下\N- You're badly placed. - Put my basilisk.
+Dialogue: 0,0:53:58.12,0:54:00.04,Default,,0000,0000,0000,,转弯的时候快点\NTake a closer look at the fi!
+Dialogue: 0,0:54:00.04,0:54:02.04,Default,,0000,0000,0000,,你太慢了
+Dialogue: 0,0:54:07.54,0:54:08.95,Default,,0000,0000,0000,,我不舒服\NI feel bad,
+Dialogue: 0,0:54:09.12,0:54:10.04,Default,,0000,0000,0000,,西尔万\NSylvain.
+Dialogue: 0,0:54:10.20,0:54:11.37,Default,,0000,0000,0000,,打电话给你妹\NCall your sister.
+Dialogue: 0,0:54:11.79,0:54:13.12,Default,,0000,0000,0000,,- 现在吗  - 对\N- Now ? - Yes !
+Dialogue: 0,0:54:14.50,0:54:15.58,Default,,0000,0000,0000,,罗科\NRocco.
+Dialogue: 0,0:54:16.25,0:54:17.62,Default,,0000,0000,0000,,这他妈是谁
+Dialogue: 0,0:54:18.45,0:54:21.37,Default,,0000,0000,0000,,- 我们现在怎么办  - 闭嘴
+Dialogue: 0,0:54:32.33,0:54:32.95,Default,,0000,0000,0000,,喂\NHello?
+Dialogue: 0,0:54:33.12,0:54:34.91,Default,,0000,0000,0000,,那个啥  出租\NThat's the taxi guy.
+Dialogue: 0,0:54:35.08,0:54:37.54,Default,,0000,0000,0000,,- 你给我弄好了吗  - 没有  抱歉\N- Are you giving me ? - No sorry.
+Dialogue: 0,0:54:38.62,0:54:39.50,Default,,0000,0000,0000,,她挂了\NShe hung up ?
+Dialogue: 0,0:54:39.66,0:54:41.29,Default,,0000,0000,0000,,- 是她的风格  - 打过去\N- It's all her. - Recall it.
+Dialogue: 0,0:54:41.45,0:54:42.70,Default,,0000,0000,0000,,- 什么  - 再打过去\N- What? - Recall it.
+Dialogue: 0,0:54:44.62,0:54:45.45,Default,,0000,0000,0000,,嗯\NYeah?
+Dialogue: 0,0:54:45.62,0:54:46.45,Default,,0000,0000,0000,,我是西尔万\NIt's Sylvain
+Dialogue: 0,0:54:46.62,0:54:47.75,Default,,0000,0000,0000,,市政警察\Nthe municipal police.
+Dialogue: 0,0:54:47.91,0:54:51.83,Default,,0000,0000,0000,,我在一个赛道上  我必须给两个意大利人一点教训\NI am on a circuit. I have to teach a lesson to two Italian girls.
+Dialogue: 0,0:54:52.00,0:54:53.83,Default,,0000,0000,0000,,好吧  你可以进入设置\NOK. You go in set-up,
+Dialogue: 0,0:54:54.00,0:54:55.37,Default,,0000,0000,0000,,换成竞赛模式\Nput yourself in race mode.
+Dialogue: 0,0:54:55.54,0:54:58.00,Default,,0000,0000,0000,,不  你不能用竞赛模式\NNo, you're not going to race or set-up.
+Dialogue: 0,0:54:58.16,0:54:59.37,Default,,0000,0000,0000,,没事儿的\NEverything is fine.
+Dialogue: 0,0:54:59.54,0:55:00.79,Default,,0000,0000,0000,,胎压调到1.3帕\NIncreases to 1.3 bars
+Dialogue: 0,0:55:00.95,0:55:04.58,Default,,0000,0000,0000,,把刹车分配调整为前轮占比65后轮占比35\Nand adjusts the braking distribution 65 at the front, 35 at the rear
+Dialogue: 0,0:55:04.75,0:55:06.08,Default,,0000,0000,0000,,然后踩下油门\Nand press the pedal.
+Dialogue: 0,0:55:06.54,0:55:07.41,Default,,0000,0000,0000,,好了\NThat's good.
+Dialogue: 0,0:55:17.25,0:55:18.37,Default,,0000,0000,0000,,好点了\NIt's better.
+Dialogue: 0,0:55:18.54,0:55:20.87,Default,,0000,0000,0000,,- 我们是个优秀的团队  - 并不是\N- We make a nice team. - No.
+Dialogue: 0,0:55:21.04,0:55:22.37,Default,,0000,0000,0000,,我会再打给你的\NI'll call you back.
+Dialogue: 0,0:55:22.54,0:55:23.83,Default,,0000,0000,0000,,可别太得意了\NDo not feel obligated.
+Dialogue: 0,0:55:25.41,0:55:26.50,Default,,0000,0000,0000,,她真难勾搭\NShe is hard.
+Dialogue: 0,0:55:26.66,0:55:27.58,Default,,0000,0000,0000,,准备好了吗\NAre you ready ?
+Dialogue: 0,0:55:31.25,0:55:31.95,Default,,0000,0000,0000,,走\NGo!
+Dialogue: 0,0:55:32.12,0:55:33.70,Default,,0000,0000,0000,,开慢点\NStop Please !
+Dialogue: 0,0:55:38.91,0:55:39.79,Default,,0000,0000,0000,,不\NNo !
+Dialogue: 0,0:55:39.95,0:55:40.70,Default,,0000,0000,0000,,爽呆了\NIts good !
+Dialogue: 0,0:55:40.87,0:55:42.04,Default,,0000,0000,0000,,耶\NYeah!
+Dialogue: 0,0:55:45.16,0:55:46.83,Default,,0000,0000,0000,,意大利人这么菜的嘛\NIt's fragile Italian,
+Dialogue: 0,0:55:47.00,0:55:48.25,Default,,0000,0000,0000,,这样的速度\Nbut to roll like that,
+Dialogue: 0,0:55:48.41,0:55:50.20,Default,,0000,0000,0000,,可谁也嬴不了\Nyou will not break them!
+Dialogue: 0,0:55:53.58,0:55:55.79,Default,,0000,0000,0000,,这里禁止飙车  你想要干什么\NIt's forbidden here. What do you want ?
+Dialogue: 0,0:55:55.95,0:55:58.58,Default,,0000,0000,0000,,之前被人耍了  我很不爽\NThe stroke of the tram, it pissed me off.
+Dialogue: 0,0:55:58.75,0:55:59.37,Default,,0000,0000,0000,,我想\NI wanted
+Dialogue: 0,0:55:59.54,0:56:02.58,Default,,0000,0000,0000,,训练一下  但不知道你们在跑了\Nto train, without knowing that you were running.
+Dialogue: 0,0:56:03.04,0:56:06.08,Default,,0000,0000,0000,,这红车真漂亮\Nthe red is pretty,
+Dialogue: 0,0:56:06.25,0:56:08.83,Default,,0000,0000,0000,,是不是菲亚特500的引擎\Nbut she has the engine of a Fiat 500?
+Dialogue: 0,0:56:09.62,0:56:11.25,Default,,0000,0000,0000,,那是我老婆的\NThat's his wife's.
+Dialogue: 0,0:56:11.41,0:56:14.41,Default,,0000,0000,0000,,- 对啊  - 卷毛  你要换个力气更大的东西\N- Ah yes. - Hair, you need something powerful.
+Dialogue: 0,0:56:15.08,0:56:16.08,Default,,0000,0000,0000,,罗科\NRocco.
+Dialogue: 0,0:56:26.62,0:56:28.00,Default,,0000,0000,0000,,你小子很狂\NYou are arrogant.
+Dialogue: 0,0:56:35.00,0:56:36.16,Default,,0000,0000,0000,,但是个好车手\NBut you are a good pilot.
+Dialogue: 0,0:56:36.75,0:56:38.54,Default,,0000,0000,0000,,我明天晚上要跑几圈\NI'm having an evening tomorrow.
+Dialogue: 0,0:56:38.70,0:56:42.41,Default,,0000,0000,0000,,如果想赚钱就过来  我会给你介绍几个人\NIf you want to make money, come on. I will introduce you to people.
+Dialogue: 0,0:56:44.83,0:56:46.37,Default,,0000,0000,0000,,好的  如果我有空的话\NYes, if I go through there.
+Dialogue: 0,0:56:46.70,0:56:47.83,Default,,0000,0000,0000,,出租司机\NTaxi drivers,
+Dialogue: 0,0:56:48.00,0:56:49.95,Default,,0000,0000,0000,,都是好赛车手\Nthey are good race drivers.
+Dialogue: 0,0:56:52.29,0:56:55.79,Default,,0000,0000,0000,,客人都催的很紧的  他们总去购物\NIn relation to the clientele, they go shopping.
+Dialogue: 0,0:57:00.04,0:57:01.37,Default,,0000,0000,0000,,他不能来\NHe does not come.
+Dialogue: 0,0:57:05.91,0:57:06.95,Default,,0000,0000,0000,,好了\NThere you go.
+Dialogue: 0,0:57:07.58,0:57:10.70,Default,,0000,0000,0000,,为什么是他不能来  为什么\NWhy him, he's not coming? Why?
+Dialogue: 0,0:57:12.08,0:57:13.16,Default,,0000,0000,0000,,他要来\NHe is coming!
+Dialogue: 0,0:57:22.87,0:57:23.79,Default,,0000,0000,0000,,你一直在工作吗\NYou're beating all the time.
+Dialogue: 0,0:57:23.95,0:57:24.79,Default,,0000,0000,0000,,你不用工作吗\NYou never.
+Dialogue: 0,0:57:24.95,0:57:26.58,Default,,0000,0000,0000,,在这儿是这样\NIt happens to me. Here,
+Dialogue: 0,0:57:26.75,0:57:28.58,Default,,0000,0000,0000,,- 给你的花  - 给我干什么\N- flowers. - What do I do?
+Dialogue: 0,0:57:29.91,0:57:31.20,Default,,0000,0000,0000,,放在花瓶里\NPut them in a vase.
+Dialogue: 0,0:57:32.12,0:57:32.79,Default,,0000,0000,0000,,谢谢\NThank you.
+Dialogue: 0,0:57:32.95,0:57:34.66,Default,,0000,0000,0000,,这还挺好看的\NUsually, it's nice.
+Dialogue: 0,0:57:37.50,0:57:39.16,Default,,0000,0000,0000,,我还准备了个惊喜但是\NI had a surprise but...
+Dialogue: 0,0:57:39.70,0:57:43.33,Default,,0000,0000,0000,,看起来你不方便  抱歉打扰了\NI feel that I do not like you. Sorry for inconvenience.
+Dialogue: 0,0:57:44.79,0:57:45.83,Default,,0000,0000,0000,,我可没这么说\NI did not say that.
+Dialogue: 0,0:57:54.45,0:57:58.87,Default,,0000,0000,0000,,解释一下  我是个好车手  但你不是模特\NExplain to me, I am a good pilot but you, you are not a model of series.
+Dialogue: 0,0:57:59.04,0:58:02.54,Default,,0000,0000,0000,,你肯定是未打磨的那种  我也没有工程单\NYou must be a prototype, I do not have the technical sheet...
+Dialogue: 0,0:58:02.70,0:58:04.66,Default,,0000,0000,0000,,还有一束光照在我的心\NThere are lights that come on,
+Dialogue: 0,0:58:04.83,0:58:07.16,Default,,0000,0000,0000,,但我不知道是什么\Nbut I do not know what it is.
+Dialogue: 0,0:58:07.33,0:58:10.58,Default,,0000,0000,0000,,如果我什么都没看到  肯定是搞错了\NIf I see nothing, maybe there is more windshield washer...
+Dialogue: 0,0:58:11.12,0:58:13.54,Default,,0000,0000,0000,,我明白了  你说完了吗\NI understood. You've finished ?
+Dialogue: 0,0:58:14.08,0:58:14.75,Default,,0000,0000,0000,,完了\NYes.
+Dialogue: 0,0:58:15.79,0:58:17.12,Default,,0000,0000,0000,,我去准备一下\NI'm going to get ready.
+Dialogue: 0,0:58:25.12,0:58:26.54,Default,,0000,0000,0000,,策略成功了\NThis technique works
+Dialogue: 0,0:58:26.70,0:58:28.12,Default,,0000,0000,0000,,- 对吧  - 别太得意\N- so ? - Not get excited !
+Dialogue: 0,0:58:32.91,0:58:33.66,Default,,0000,0000,0000,,小心\NWarning.
+Dialogue: 0,0:58:34.41,0:58:35.54,Default,,0000,0000,0000,,来吧\NThere you go !
+Dialogue: 0,0:58:36.25,0:58:38.75,Default,,0000,0000,0000,,你确定吗  我不太喜欢惊喜\NAre you sure of yourself ? I do not like surprises.
+Dialogue: 0,0:58:40.00,0:58:40.79,Default,,0000,0000,0000,,这个\NThis one,
+Dialogue: 0,0:58:41.75,0:58:43.45,Default,,0000,0000,0000,,你永远不会忘记\Nyou will never forget it.
+Dialogue: 0,0:58:43.70,0:58:45.12,Default,,0000,0000,0000,,- 好了吗  - 好了\N- It's okay ? - Well yeah.
+Dialogue: 0,0:58:55.58,0:58:57.16,Default,,0000,0000,0000,,你这是要干什么\NWhat's your delusion?
+Dialogue: 0,0:59:01.12,0:59:02.87,Default,,0000,0000,0000,,你跟海豚游过泳吗\NHave you ever swam with dolphins?
+Dialogue: 0,0:59:10.12,0:59:11.12,Default,,0000,0000,0000,,混蛋\NWhore !
+Dialogue: 0,0:59:11.29,0:59:12.54,Default,,0000,0000,0000,,- 没事吧  - 这是什么\N- It's okay ? - What's this ?
+Dialogue: 0,0:59:13.62,0:59:14.50,Default,,0000,0000,0000,,这是什么啊\NWhat's this ?
+Dialogue: 0,0:59:18.16,0:59:21.45,Default,,0000,0000,0000,,海豚不在这边  我们走吧\NIt's not here, the dolphins. We will go
+Dialogue: 0,0:59:21.62,0:59:23.95,Default,,0000,0000,0000,,在另外一边  那里\Nin the other basin, there.
+Dialogue: 0,0:59:24.12,0:59:25.08,Default,,0000,0000,0000,,我不去了\NNot with me.
+Dialogue: 0,0:59:29.20,0:59:30.83,Default,,0000,0000,0000,,只是水而已\NIt's just water!
+Dialogue: 0,0:59:32.75,0:59:34.45,Default,,0000,0000,0000,,你是怕鱼吗\NAre you afraid of a fish?
+Dialogue: 0,0:59:39.37,0:59:41.66,Default,,0000,0000,0000,,我不是在开玩笑  冷静\NI'm not kidding, stay calm!
+Dialogue: 0,0:59:42.50,0:59:43.25,Default,,0000,0000,0000,,来啊\NHere!
+Dialogue: 0,0:59:51.29,0:59:52.70,Default,,0000,0000,0000,,我调查过了\NI did my investigation,
+Dialogue: 0,0:59:52.87,0:59:55.33,Default,,0000,0000,0000,,奥利维亚6号的庄园\Nand the villa of 6 rue des Oliviers
+Dialogue: 0,0:59:55.50,0:59:58.16,Default,,0000,0000,0000,,属于伯纳索利先生  我不知道\Nbelongs to Mrs. Bonassoli. I dunno
+Dialogue: 0,0:59:58.33,1:00:01.41,Default,,0000,0000,0000,,- 她知不知道什么意思  - 继续\N- if she knows it means... - Go on.
+Dialogue: 0,1:00:01.58,1:00:04.95,Default,,0000,0000,0000,,嗯  庄园被安东尼奥·迪·拜斯租下了\NYes. The villa was rented by Antonio di Biase,
+Dialogue: 0,1:00:05.12,1:00:06.79,Default,,0000,0000,0000,,或是托尼·道格\Nor Toni Dog,
+Dialogue: 0,1:00:06.95,1:00:09.20,Default,,0000,0000,0000,,优秀的意大利车手\Ngreat Italian driver of the 2000s.
+Dialogue: 0,1:00:09.37,1:00:12.04,Default,,0000,0000,0000,,只是他跟那帮不勒斯的黑帮\NExcept that he got closer to the mafia
+Dialogue: 0,1:00:12.20,1:00:13.25,Default,,0000,0000,0000,,走得很近\NNeapolitan.
+Dialogue: 0,1:00:14.70,1:00:15.54,Default,,0000,0000,0000,,另一个\NThe other.
+Dialogue: 0,1:00:15.70,1:00:18.12,Default,,0000,0000,0000,,是罗科\NIt's Rocco
+Dialogue: 0,1:00:18.29,1:00:21.12,Default,,0000,0000,0000,,长脖子斯蒂芬·西格尔  不  他是在逃犯\NLong neck, Steven Seagal? No ! Rather NLP,
+Dialogue: 0,1:00:21.29,1:00:22.54,Default,,0000,0000,0000,,知道了吗\Nyou see ?
+Dialogue: 0,1:00:22.70,1:00:25.62,Default,,0000,0000,0000,,犯有暴力侵犯和抢劫罪\NKnown for aggravated violence and robbery.
+Dialogue: 0,1:00:25.79,1:00:26.58,Default,,0000,0000,0000,,这里\NHere.
+Dialogue: 0,1:00:27.75,1:00:28.41,Default,,0000,0000,0000,,怎么了\NYes?
+Dialogue: 0,1:00:28.58,1:00:31.50,Default,,0000,0000,0000,,这是你画的吗  真好看\NAre you the drawings? They are beautiful.
+Dialogue: 0,1:00:31.66,1:00:34.87,Default,,0000,0000,0000,,谢谢  因为有照片只要临摹就好了\NThank you. As I had the photos, I made a layer
+Dialogue: 0,1:00:35.04,1:00:37.25,Default,,0000,0000,0000,,这样更好看\Nso, it's prettier...
+Dialogue: 0,1:00:37.41,1:00:38.83,Default,,0000,0000,0000,,很好  梅纳德\NBravo Menard.
+Dialogue: 0,1:00:39.00,1:00:39.66,Default,,0000,0000,0000,,更\NMore...
+Dialogue: 0,1:00:39.83,1:00:41.70,Default,,0000,0000,0000,,我们要参加这个派对\NHave to go to this party.
+Dialogue: 0,1:00:41.87,1:00:43.08,Default,,0000,0000,0000,,有人想去吗\NVolunteers ?
+Dialogue: 0,1:00:47.25,1:00:48.25,Default,,0000,0000,0000,,有吗\NSo who?
+Dialogue: 0,1:00:50.29,1:00:52.87,Default,,0000,0000,0000,,好吧  你可以来  不过要在\NOkay, you will come and you will wait
+Dialogue: 0,1:00:53.04,1:00:54.16,Default,,0000,0000,0000,,角落等着\Nin a corner.
+Dialogue: 0,1:00:55.29,1:00:55.91,Default,,0000,0000,0000,,米歇尔\NMichel
+Dialogue: 0,1:00:56.08,1:00:58.16,Default,,0000,0000,0000,,- 我需要你  - 好吧\N- I need you. - OK,
+Dialogue: 0,1:00:58.33,1:00:59.62,Default,,0000,0000,0000,,你不是他的搭档\Nnot his teammate.
+Dialogue: 0,1:00:59.79,1:01:00.91,Default,,0000,0000,0000,,你不能这么说\NYou do not have the right.
+Dialogue: 0,1:01:01.08,1:01:02.83,Default,,0000,0000,0000,,我不能去  还要打篮球\NI can not, I have basketball.
+Dialogue: 0,1:01:03.00,1:01:03.66,Default,,0000,0000,0000,,什么\NSorry ?
+Dialogue: 0,1:01:03.83,1:01:05.91,Default,,0000,0000,0000,,打篮球  区比赛\NBasketball, with the parish.
+Dialogue: 0,1:01:08.83,1:01:09.66,Default,,0000,0000,0000,,你呢\NAnd you ?
+Dialogue: 0,1:01:09.83,1:01:11.66,Default,,0000,0000,0000,,我还有很多画要画\NI have lots of drawings going on
+Dialogue: 0,1:01:11.83,1:01:14.79,Default,,0000,0000,0000,,而且我的手指都受伤了\Nand I have my hand contours project.
+Dialogue: 0,1:01:14.95,1:01:16.29,Default,,0000,0000,0000,,我还要画\NAnd I Sandrine
+Dialogue: 0,1:01:16.45,1:01:17.62,Default,,0000,0000,0000,,桑德琳\NTo draw,
+Dialogue: 0,1:01:17.79,1:01:19.79,Default,,0000,0000,0000,,还要吃  像他们说的\Nto eat, as they say.
+Dialogue: 0,1:01:19.95,1:01:21.58,Default,,0000,0000,0000,,得要不少时间\NWill need several leaves.
+Dialogue: 0,1:01:22.79,1:01:24.75,Default,,0000,0000,0000,,额  拉比  你给我们找个\NUh... Larbi, you find us
+Dialogue: 0,1:01:24.91,1:01:26.58,Default,,0000,0000,0000,,- 耳机  - 好的\N- auricles. - Yes.
+Dialogue: 0,1:01:26.75,1:01:27.33,Default,,0000,0000,0000,,散会\NGo!
+Dialogue: 0,1:01:29.79,1:01:31.08,Default,,0000,0000,0000,,中招了吧\NI had you well.
+Dialogue: 0,1:01:31.25,1:01:32.66,Default,,0000,0000,0000,,今日最佳笑话\NThe joke of the day!
+Dialogue: 0,1:01:33.04,1:01:34.45,Default,,0000,0000,0000,,你这混蛋\NYou look con.
+Dialogue: 0,1:01:34.91,1:01:36.08,Default,,0000,0000,0000,,我卡住了\NWe are stuck!
+Dialogue: 0,1:01:37.12,1:01:37.79,Default,,0000,0000,0000,,干的漂亮\NGood.
+Dialogue: 0,1:01:37.95,1:01:39.20,Default,,0000,0000,0000,,好黏啊\NIt really sticks!
+Dialogue: 0,1:01:39.37,1:01:40.79,Default,,0000,0000,0000,,梅纳德  你这个混蛋\NMenard, you're pissing!
+Dialogue: 0,1:02:01.95,1:02:03.04,Default,,0000,0000,0000,,听得到吗\NYou hear me ?
+Dialogue: 0,1:02:04.12,1:02:06.00,Default,,0000,0000,0000,,我是矮子  不是个聋子\NI'm dwarf, not deaf.
+Dialogue: 0,1:02:06.50,1:02:08.20,Default,,0000,0000,0000,,- 我说的是耳机  - 到\N- In the atrium. - Yes.
+Dialogue: 0,1:02:12.37,1:02:13.91,Default,,0000,0000,0000,,- 晚上好  - 晚上好\N- Good evening. - Good evening.
+Dialogue: 0,1:02:14.54,1:02:16.62,Default,,0000,0000,0000,,- 要饮料不  - 不 谢谢\N- A sofa ? - No thanks.
+Dialogue: 0,1:02:17.50,1:02:18.83,Default,,0000,0000,0000,,一杯都不要吗\NNot even leather?
+Dialogue: 0,1:02:20.25,1:02:21.95,Default,,0000,0000,0000,,- 你怎么过来了  - 我警告过你\N- You're here ? - I warned you.
+Dialogue: 0,1:02:22.12,1:02:23.12,Default,,0000,0000,0000,,那是什么\NWhat is that ?
+Dialogue: 0,1:02:23.29,1:02:24.83,Default,,0000,0000,0000,,我现在是服务生\NI'm in Donnie Brasco.
+Dialogue: 0,1:02:25.00,1:02:27.58,Default,,0000,0000,0000,,我们必须渗透进去  喂\NWe must infiltrate. Hello?
+Dialogue: 0,1:02:27.75,1:02:28.29,Default,,0000,0000,0000,,喂\NOh!
+Dialogue: 0,1:02:28.83,1:02:31.41,Default,,0000,0000,0000,,- 喂  老大  - 对  我们要渗透进去\N- Oh, champion! - Yes, have to infiltrate.
+Dialogue: 0,1:02:31.58,1:02:34.29,Default,,0000,0000,0000,,你还在听我说吗  执行任务的时候\NAre you with me? Guy George, stay focused
+Dialogue: 0,1:02:34.45,1:02:36.29,Default,,0000,0000,0000,,- 专心点儿  - 好  不好意思\N- on the mission. - Yes excuse me.
+Dialogue: 0,1:02:56.12,1:02:57.20,Default,,0000,0000,0000,,任务是\NThe mission :
+Dialogue: 0,1:02:57.37,1:03:00.12,Default,,0000,0000,0000,,- 我们去找线索  - 你说得对\N- we come back and get some clues. - You're right.
+Dialogue: 0,1:03:00.29,1:03:03.58,Default,,0000,0000,0000,,- 好吧  - 我们分两队  你  我  还有\N- Here. - We make 2 teams of 2: you, me and...
+Dialogue: 0,1:03:05.75,1:03:06.83,Default,,0000,0000,0000,,他去哪了\NWhere is he ?
+Dialogue: 0,1:03:10.83,1:03:13.79,Default,,0000,0000,0000,,- 好吧  我们分两队  - 不是\N- Well, we'll do 2 teams of 1. - No.
+Dialogue: 0,1:03:13.95,1:03:17.00,Default,,0000,0000,0000,,还两队  不就是单干吗\N2 teams? 2 teams all alone, what.
+Dialogue: 0,1:03:17.16,1:03:18.25,Default,,0000,0000,0000,,你害怕了吗\N'You are scared ?
+Dialogue: 0,1:03:18.79,1:03:23.08,Default,,0000,0000,0000,,我不怕  但他们看上去很厉害\NI'm not scared, but the ritals look sturdy.
+Dialogue: 0,1:03:24.75,1:03:27.16,Default,,0000,0000,0000,,你叔叔难道也是这样吗\NYour uncle would have reacted like that?
+Dialogue: 0,1:03:27.66,1:03:31.00,Default,,0000,0000,0000,,啊  对啊  扎铁了吧\NAh, yes, there, it stings where it hurts, huh?
+Dialogue: 0,1:03:31.16,1:03:32.58,Default,,0000,0000,0000,,- 没错  - 听我说\N- That is true. - Listen.
+Dialogue: 0,1:03:32.75,1:03:35.58,Default,,0000,0000,0000,,要是我找不回来线索  我妈就没小鸡鸡\NMy mother, chuckle her if I do not bring any clues.
+Dialogue: 0,1:03:35.75,1:03:37.54,Default,,0000,0000,0000,,- 我喜欢这劲头  - 我也是\N- I like this energy. - Me too.
+Dialogue: 0,1:03:37.70,1:03:38.58,Default,,0000,0000,0000,,好啊\NThat's good.
+Dialogue: 0,1:03:38.75,1:03:40.04,Default,,0000,0000,0000,,走\NGo!
+Dialogue: 0,1:03:47.29,1:03:50.16,Default,,0000,0000,0000,,- 能听到我说话吗  - 我到位了\N- Do you receive me? - I'm at my post.
+Dialogue: 0,1:04:07.66,1:04:08.79,Default,,0000,0000,0000,,我叫米歇尔\NMy name is Michel.
+Dialogue: 0,1:04:08.95,1:04:09.66,Default,,0000,0000,0000,,辛西娅\NCynthia.
+Dialogue: 0,1:04:09.83,1:04:11.54,Default,,0000,0000,0000,,- 很高兴认识你  辛西娅  - 我也是\N- Nice to meet you, Cynthia. - Enchanted.
+Dialogue: 0,1:04:12.95,1:04:15.95,Default,,0000,0000,0000,,你知道塔赫纳吗  可美了\NDo you know Cartagena? That's wonderful.
+Dialogue: 0,1:04:16.12,1:04:16.95,Default,,0000,0000,0000,,像你一样\NLike you.
+Dialogue: 0,1:04:20.42,1:04:22.32,Default,,0000,0000,0000,,我的天啊
+Dialogue: 0,1:04:24.20,1:04:26.41,Default,,0000,0000,0000,,你在这儿啊  快点  我们走\NYou're here ? Come on, let's go.
+Dialogue: 0,1:04:26.58,1:04:28.58,Default,,0000,0000,0000,,- 你走开  - 怎么\N- Leave me. - How?
+Dialogue: 0,1:04:29.25,1:04:30.25,Default,,0000,0000,0000,,别管我\NLeave me.
+Dialogue: 0,1:04:30.95,1:04:32.16,Default,,0000,0000,0000,,额  对不起\NUh, sorry,
+Dialogue: 0,1:04:32.33,1:04:35.54,Default,,0000,0000,0000,,- 但我们不是来找乐子的  - 我说了\N- but we are not here to have fun. - I told you
+Dialogue: 0,1:04:35.70,1:04:36.66,Default,,0000,0000,0000,,离我远点儿\Nto leave me!
+Dialogue: 0,1:04:43.45,1:04:46.41,Default,,0000,0000,0000,,我们可以好好聊天的  我铁被扎了\NWe can talk to each other normally. I'm not fine !
+Dialogue: 0,1:04:47.04,1:04:50.29,Default,,0000,0000,0000,,不好意思  刚说到哪儿了\NExcuse me. Where was I? Portable
+Dialogue: 0,1:04:50.45,1:04:53.04,Default,,0000,0000,0000,,- 沙滩  宝贝儿  - 喂  你在哪儿\N- The beach, children... - Hello? Where are you ?
+Dialogue: 0,1:04:53.04,1:04:56.98,Default,,0000,0000,0000,,我在办公室找到了些图片
+Dialogue: 0,1:04:56.98,1:04:58.98,Default,,0000,0000,0000,,有人来了  我先挂了
+Dialogue: 0,1:05:21.20,1:05:23.00,Default,,0000,0000,0000,,你是藏在垃圾桶里\NYou hid in the trash
+Dialogue: 0,1:05:23.16,1:05:24.50,Default,,0000,0000,0000,,混进来的吗\Nto enter ?
+Dialogue: 0,1:05:24.66,1:05:27.91,Default,,0000,0000,0000,,我  不是  我在做任务\NMe ? No, I'm doing something,
+Dialogue: 0,1:05:28.08,1:05:31.20,Default,,0000,0000,0000,,- 但是这是秘密  - 你还是不会撒谎\N- but it's secret. - Still your shisha without lactose,
+Dialogue: 0,1:05:31.37,1:05:35.54,Default,,0000,0000,0000,,- 就这样吗  - 是啊  这可不是无麸食品推销\N- that's it ? - Already, it's gluten-free chichas.
+Dialogue: 0,1:05:35.70,1:05:37.75,Default,,0000,0000,0000,,而是有野心的男人的事业\NAnd it's an ambitious guy thing,
+Dialogue: 0,1:05:37.91,1:05:39.29,Default,,0000,0000,0000,,小姐\NMrs.
+Dialogue: 0,1:05:39.66,1:05:40.45,Default,,0000,0000,0000,,等等\NHold on.
+Dialogue: 0,1:05:42.00,1:05:43.45,Default,,0000,0000,0000,,别告诉别人  好吗\NYou do not repeat, OK?
+Dialogue: 0,1:05:44.41,1:05:46.50,Default,,0000,0000,0000,,我在卧底\NI'm undercover.
+Dialogue: 0,1:05:49.75,1:05:51.20,Default,,0000,0000,0000,,我为警察工作\NI work for the police.
+Dialogue: 0,1:05:51.91,1:05:53.33,Default,,0000,0000,0000,,好厉害的\NA sick thing.
+Dialogue: 0,1:05:53.66,1:05:55.37,Default,,0000,0000,0000,,我认识个人\NI met a guy,
+Dialogue: 0,1:05:55.54,1:05:57.25,Default,,0000,0000,0000,,- 我们就搭档了  - 真是\N- we do a team. - The funniest,
+Dialogue: 0,1:05:57.41,1:06:00.29,Default,,0000,0000,0000,,搞笑  我还以为你变了\Nfor a moment, I thought you had changed.
+Dialogue: 0,1:06:08.08,1:06:08.91,Default,,0000,0000,0000,,怎么回事儿\NWhat's this ?
+Dialogue: 0,1:06:11.20,1:06:13.12,Default,,0000,0000,0000,,- 现在怎么办  - 那是我女票\N- What now ? - There's my girl.
+Dialogue: 0,1:06:13.29,1:06:16.20,Default,,0000,0000,0000,,她跟别的男人在一起  而且  他们很帅\NShe's with guys. In addition, they are beautiful.
+Dialogue: 0,1:06:16.20,1:06:18.20,Default,,0000,0000,0000,,什么图片  快点
+Dialogue: 0,1:06:26.66,1:06:28.34,Default,,0000,0000,0000,,你看看
+Dialogue: 0,1:06:29.68,1:06:31.36,Default,,0000,0000,0000,,就是这个
+Dialogue: 0,1:06:31.36,1:06:33.36,Default,,0000,0000,0000,,他们可能就是要偷这个
+Dialogue: 0,1:06:38.36,1:06:40.74,Default,,0000,0000,0000,,- 应该就是这个  - 对  应该就是
+Dialogue: 0,1:06:40.86,1:06:42.10,Default,,0000,0000,0000,,这就是他们的目标
+Dialogue: 0,1:06:42.10,1:06:44.10,Default,,0000,0000,0000,,对  这就是他们的目标
+Dialogue: 0,1:06:44.36,1:06:45.31,Default,,0000,0000,0000,,有人来了好像
+Dialogue: 0,1:06:45.33,1:06:46.50,Default,,0000,0000,0000,,嘘\NHush.
+Dialogue: 0,1:06:50.75,1:06:52.20,Default,,0000,0000,0000,,我不认识你
+Dialogue: 0,1:06:52.20,1:06:54.84,Default,,0000,0000,0000,,你也不认识我
+Dialogue: 0,1:07:06.08,1:07:06.79,Default,,0000,0000,0000,,不行\NI can not.
+Dialogue: 0,1:07:06.95,1:07:07.95,Default,,0000,0000,0000,,- 抬屁股  - 太高了\N- The ass. - Too high.
+Dialogue: 0,1:07:08.87,1:07:10.29,Default,,0000,0000,0000,,让开  你太胖了\NMove, you're too fat.
+Dialogue: 0,1:07:12.88,1:07:14.46,Default,,0000,0000,0000,,那儿会被发现的
+Dialogue: 0,1:07:15.16,1:07:15.83,Default,,0000,0000,0000,,要不呢\NOr ?
+Dialogue: 0,1:07:15.83,1:07:17.83,Default,,0000,0000,0000,,动动脑子啊
+Dialogue: 0,1:07:29.22,1:07:31.12,Default,,0000,0000,0000,,小心点
+Dialogue: 0,1:07:34.08,1:07:35.04,Default,,0000,0000,0000,,晚上好\NGood evening.
+Dialogue: 0,1:07:35.20,1:07:35.87,Default,,0000,0000,0000,,晚上好\NGood evening.
+Dialogue: 0,1:07:36.04,1:07:37.12,Default,,0000,0000,0000,,进度怎么样了\NWhere are we now?
+Dialogue: 0,1:07:37.29,1:07:38.66,Default,,0000,0000,0000,,都到位了\NIt is in place.
+Dialogue: 0,1:07:38.83,1:07:39.58,Default,,0000,0000,0000,,准备好了\NIt's ready.
+Dialogue: 0,1:07:39.75,1:07:40.87,Default,,0000,0000,0000,,你一直\NYou have been
+Dialogue: 0,1:07:41.04,1:07:42.29,Default,,0000,0000,0000,,很有效率\Nvery effective.
+Dialogue: 0,1:07:42.45,1:07:44.50,Default,,0000,0000,0000,,这可是全世界\NThere, it is the biggest
+Dialogue: 0,1:07:44.66,1:07:46.04,Default,,0000,0000,0000,,最大的钻石\Ndiamond of the world.
+Dialogue: 0,1:07:46.20,1:07:47.79,Default,,0000,0000,0000,,不能犯任何错误\NNo right to the error.
+Dialogue: 0,1:07:47.95,1:07:50.50,Default,,0000,0000,0000,,你可以相信我们\NYou can trust us.
+Dialogue: 0,1:07:50.66,1:07:51.70,Default,,0000,0000,0000,,到达时间呢\NArriving time ?
+Dialogue: 0,1:07:51.87,1:07:53.33,Default,,0000,0000,0000,,上午11点  直升机过来\NFor 11am, by helicopter,
+Dialogue: 0,1:07:53.50,1:07:55.41,Default,,0000,0000,0000,,当天从日内瓦来\Nfrom Geneva, the same day.
+Dialogue: 0,1:07:55.58,1:07:57.37,Default,,0000,0000,0000,,我们会处理警察那边\NWe take care of the police.
+Dialogue: 0,1:07:57.54,1:07:58.70,Default,,0000,0000,0000,,完美\NIt's perfect.
+Dialogue: 0,1:07:58.87,1:08:00.12,Default,,0000,0000,0000,,怎么付款呢\NAnd the payment?
+Dialogue: 0,1:08:04.75,1:08:09.91,Default,,0000,0000,0000,,别担心  交货后24小时之内就会办妥的\NDo not worry, it will be done within 24 hours after the operation.
+Dialogue: 0,1:08:10.08,1:08:13.50,Default,,0000,0000,0000,,嗯  好  很高兴\NAh! Here ! It's a pleasure to work
+Dialogue: 0,1:08:13.66,1:08:16.12,Default,,0000,0000,0000,,跟你合作  合作愉快\Nwith you. That's when you want.
+Dialogue: 0,1:08:16.29,1:08:17.45,Default,,0000,0000,0000,,好\NYeah.
+Dialogue: 0,1:08:21.83,1:08:22.83,Default,,0000,0000,0000,,这俩傻逼
+Dialogue: 0,1:08:23.00,1:08:25.45,Default,,0000,0000,0000,,- 怎么处理他们  - 干掉
+Dialogue: 0,1:08:25.62,1:08:26.58,Default,,0000,0000,0000,,很好
+Dialogue: 0,1:08:44.91,1:08:46.08,Default,,0000,0000,0000,,哎呀  哎呀\NYes Yes...
+Dialogue: 0,1:08:47.91,1:08:48.91,Default,,0000,0000,0000,,噢\NOuch.
+Dialogue: 0,1:08:49.25,1:08:51.66,Default,,0000,0000,0000,,- 起来  - 你好  没事吧\N- Get up. - Hello. It's okay ?
+Dialogue: 0,1:08:51.83,1:08:54.12,Default,,0000,0000,0000,,- 你在这干什么  - 我在跟我朋友\N- What are you doing here ? - I'm doing a hide and seek
+Dialogue: 0,1:08:54.29,1:08:56.16,Default,,0000,0000,0000,,玩躲猫猫  西尔万\Nwith my friend... Sylvain!
+Dialogue: 0,1:08:57.29,1:08:58.58,Default,,0000,0000,0000,,我们迷路了\NWe lost !
+Dialogue: 0,1:08:58.75,1:09:02.04,Default,,0000,0000,0000,,你们找到了我们  恭喜  这儿呢\NYou found us, congratulations! Oh there ! Well...
+Dialogue: 0,1:09:02.58,1:09:03.58,Default,,0000,0000,0000,,混蛋\NWhore.
+Dialogue: 0,1:09:03.75,1:09:04.58,Default,,0000,0000,0000,,卡洛\NCarlo.
+Dialogue: 0,1:09:11.79,1:09:12.83,Default,,0000,0000,0000,,下来吧\NCome down.
+Dialogue: 0,1:09:13.00,1:09:16.16,Default,,0000,0000,0000,,我们迷路了  能不能好好说\NWe lost, there. Maybe they are nice?
+Dialogue: 0,1:09:16.70,1:09:18.25,Default,,0000,0000,0000,,我自己来  自己来\NIt's good, it's good.
+Dialogue: 0,1:09:20.45,1:09:21.37,Default,,0000,0000,0000,,好了\NIt's okay!
+Dialogue: 0,1:09:27.79,1:09:28.62,Default,,0000,0000,0000,,再见  司机\NCiao, pilot.
+Dialogue: 0,1:09:30.33,1:09:33.79,Default,,0000,0000,0000,,你要介绍人给我  我来了\NDid you want to introduce people to me? I'm here.
+Dialogue: 0,1:09:35.37,1:09:36.25,Default,,0000,0000,0000,,天啊\NOh dear !
+Dialogue: 0,1:09:37.25,1:09:38.16,Default,,0000,0000,0000,,天啊撸\NOh me too.
+Dialogue: 0,1:09:43.00,1:09:45.79,Default,,0000,0000,0000,,罗科  你让他给我开口\NRocco, you make him talk.
+Dialogue: 0,1:09:48.50,1:09:49.50,Default,,0000,0000,0000,,这个杀掉吧\NHe, you kill him.
+Dialogue: 0,1:09:50.00,1:09:50.95,Default,,0000,0000,0000,,什么意思\NWhat do you mean ?
+Dialogue: 0,1:09:51.12,1:09:52.00,Default,,0000,0000,0000,,杀掉吗\NYou kill him?
+Dialogue: 0,1:09:53.25,1:09:54.50,Default,,0000,0000,0000,,我们可以换一下吗\NWe can reverse.
+Dialogue: 0,1:09:54.66,1:09:55.66,Default,,0000,0000,0000,,长官\NSir?
+Dialogue: 0,1:10:02.87,1:10:05.95,Default,,0000,0000,0000,,和我在一起时\NWhen you're with me
+Dialogue: 0,1:10:06.12,1:10:08.37,Default,,0000,0000,0000,,你是什么感觉\NWhat do you feel?
+Dialogue: 0,1:10:09.54,1:10:11.08,Default,,0000,0000,0000,,你能告诉我吗\NWill you tell me
+Dialogue: 0,1:10:11.25,1:10:15.70,Default,,0000,0000,0000,,即使我不告诉你\NEven I won 't tell you
+Dialogue: 0,1:10:19.16,1:10:21.06,Default,,0000,0000,0000,,祝你玩得开心
+Dialogue: 0,1:10:23.41,1:10:26.00,Default,,0000,0000,0000,,看得出来那是\NI can tell that it was love
+Dialogue: 0,1:10:26.16,1:10:28.91,Default,,0000,0000,0000,,一见钟情\NAt first sight
+Dialogue: 0,1:10:30.33,1:10:32.04,Default,,0000,0000,0000,,如果我爱你\NIf l love you
+Dialogue: 0,1:10:32.20,1:10:33.37,Default,,0000,0000,0000,,那么\NSo ?
+Dialogue: 0,1:10:34.95,1:10:37.87,Default,,0000,0000,0000,,你就别装了  你们在找什么\NYou do not behave anymore. What are you looking for ?
+Dialogue: 0,1:10:46.79,1:10:48.50,Default,,0000,0000,0000,,我什么都不会说的\NI will not say anything.
+Dialogue: 0,1:10:50.45,1:10:52.58,Default,,0000,0000,0000,,我不是警官  知道吗\NI'm not a police officer, yes.
+Dialogue: 0,1:10:52.75,1:10:56.25,Default,,0000,0000,0000,,是他在找线索  因为他知道你们要偷\NHe was looking for clues because he knows you're going to steal...
+Dialogue: 0,1:10:56.41,1:10:57.33,Default,,0000,0000,0000,,闭嘴\NShut up.
+Dialogue: 0,1:10:57.50,1:11:00.50,Default,,0000,0000,0000,,我在跟他说话呢  他找到了\NI speak with the gentleman. He found
+Dialogue: 0,1:11:00.66,1:11:02.66,Default,,0000,0000,0000,,钻石的线索\Nthe clues on the diamond.
+Dialogue: 0,1:11:02.83,1:11:05.79,Default,,0000,0000,0000,,- 闭嘴  - 停  他好像有点疼\N- Shut up. .. - Stopped. He is painful.
+Dialogue: 0,1:11:06.25,1:11:08.25,Default,,0000,0000,0000,,- 太好了  - 没问题  应该的\N- Bravo. - No problem, it's normal.
+Dialogue: 0,1:11:08.41,1:11:09.83,Default,,0000,0000,0000,,- 做得好  - 谢谢\N- Good game. - Thank you.
+Dialogue: 0,1:11:10.58,1:11:11.62,Default,,0000,0000,0000,,我能走了吗\NI can go ?
+Dialogue: 0,1:11:13.26,1:11:15.10,Default,,0000,0000,0000,,你觉得可能吗
+Dialogue: 0,1:11:16.20,1:11:18.08,Default,,0000,0000,0000,,不让走吗
+Dialogue: 0,1:11:21.08,1:11:22.16,Default,,0000,0000,0000,,就这样吗\NThat's it ?
+Dialogue: 0,1:11:27.41,1:11:31.54,Default,,0000,0000,0000,,每天都是你\NTo you everyday
+Dialogue: 0,1:11:39.20,1:11:40.83,Default,,0000,0000,0000,,米歇尔  如果你能听到\NMichel, if you hear me
+Dialogue: 0,1:11:41.00,1:11:43.20,Default,,0000,0000,0000,,我们在一楼  走廊旁边第三扇门\Nwe are on the 1st, 3rd door of the corridor,
+Dialogue: 0,1:11:43.37,1:11:45.00,Default,,0000,0000,0000,,有个蠢货想杀我们  快来\Na moron wants to kill us.
+Dialogue: 0,1:11:47.58,1:11:48.37,Default,,0000,0000,0000,,好\NGood.
+Dialogue: 0,1:11:51.70,1:11:52.50,Default,,0000,0000,0000,,不\NOH NO !
+Dialogue: 0,1:11:54.45,1:11:55.41,Default,,0000,0000,0000,,我去去就来\NI'll be back.
+Dialogue: 0,1:11:56.50,1:11:57.25,Default,,0000,0000,0000,,我会\NFor you,
+Dialogue: 0,1:11:58.29,1:11:59.33,Default,,0000,0000,0000,,好好招待你的\NI have what it takes.
+Dialogue: 0,1:11:59.66,1:12:00.33,Default,,0000,0000,0000,,谢谢\NThank you.
+Dialogue: 0,1:12:00.95,1:12:02.04,Default,,0000,0000,0000,,好啊\NIt's nice.
+Dialogue: 0,1:12:04.12,1:12:05.29,Default,,0000,0000,0000,,至于你\NAnd for you,
+Dialogue: 0,1:12:06.45,1:12:10.20,Default,,0000,0000,0000,,既然你这么聪明  我准备了个小礼物\Nsince you are clever, I have a small gift.
+Dialogue: 0,1:12:18.16,1:12:19.75,Default,,0000,0000,0000,,- 他还不错啊  - 听着\N- he is nice. - Listen,
+Dialogue: 0,1:12:20.45,1:12:22.12,Default,,0000,0000,0000,,我们跳窗出去\Nwe'll jump out the window.
+Dialogue: 0,1:12:22.29,1:12:23.91,Default,,0000,0000,0000,,我们会摔死自己的\NWe're going to fuck our breeds.
+Dialogue: 0,1:12:24.54,1:12:26.75,Default,,0000,0000,0000,,你是真的傻还是故意装的\NAre you completely stupid or are you doing it on purpose?
+Dialogue: 0,1:12:26.91,1:12:27.91,Default,,0000,0000,0000,,不\NNo !
+Dialogue: 0,1:12:28.70,1:12:30.91,Default,,0000,0000,0000,,好吧你是真傻  如果呆在这  我们就死定了\NYou're completely stupid. If we stay there, we're dead.
+Dialogue: 0,1:12:31.54,1:12:34.62,Default,,0000,0000,0000,,数到三我们就跳窗  你跳不跳\NAt 3, we jump out the window. Are you with me?
+Dialogue: 0,1:12:36.70,1:12:38.04,Default,,0000,0000,0000,,- 准备好没有  - 好了\N- Are you ready? - Yes !
+Dialogue: 0,1:12:38.50,1:12:39.25,Default,,0000,0000,0000,,数到三\NAt three.
+Dialogue: 0,1:12:40.66,1:12:41.66,Default,,0000,0000,0000,,深呼吸\NBreathe.
+Dialogue: 0,1:12:41.83,1:12:44.08,Default,,0000,0000,0000,,来吧  1  2\NCome on, one, two...
+Dialogue: 0,1:12:44.83,1:12:45.62,Default,,0000,0000,0000,,3\NThree!
+Dialogue: 0,1:12:49.25,1:12:50.04,Default,,0000,0000,0000,,不\NOh no!
+Dialogue: 0,1:12:57.20,1:12:58.91,Default,,0000,0000,0000,,我的没有碎啊\NMine does not break.
+Dialogue: 0,1:12:59.08,1:13:02.16,Default,,0000,0000,0000,,- 我下不去了  - 做个蠢货还是挺好的\N- I can not come. - It's fascinating to be so stupid.
+Dialogue: 0,1:13:02.33,1:13:05.04,Default,,0000,0000,0000,,- 从我那个窗户下来  - 你不明白\N- Go through mine! - You did not understand.
+Dialogue: 0,1:13:05.20,1:13:06.54,Default,,0000,0000,0000,,我要是明白\NIf I understood.
+Dialogue: 0,1:13:08.29,1:13:10.37,Default,,0000,0000,0000,,- 但是  艾迪  - 弄不碎啊\N- But... Eddy! - She does not break.
+Dialogue: 0,1:13:10.54,1:13:12.25,Default,,0000,0000,0000,,从我那个窗户下来\NGo through mine.
+Dialogue: 0,1:13:13.58,1:13:14.12,Default,,0000,0000,0000,,快\NCome !
+Dialogue: 0,1:13:14.29,1:13:15.33,Default,,0000,0000,0000,,他来了\NHe is coming !
+Dialogue: 0,1:13:18.20,1:13:20.37,Default,,0000,0000,0000,,你来啦  他走了\NThere you go. He left there.
+Dialogue: 0,1:13:20.54,1:13:22.08,Default,,0000,0000,0000,,- 妈的  - 窗户破了\N- Shit ! - It broke it.
+Dialogue: 0,1:13:23.70,1:13:24.50,Default,,0000,0000,0000,,之前你说\NIn any case,
+Dialogue: 0,1:13:24.66,1:13:27.54,Default,,0000,0000,0000,,会好好招待  是有大鱼大肉吗\Nit's a nice reception. The meat is halal?
+Dialogue: 0,1:13:27.70,1:13:29.08,Default,,0000,0000,0000,,你死定了
+Dialogue: 0,1:13:29.25,1:13:30.29,Default,,0000,0000,0000,,我知道\NI understand,
+Dialogue: 0,1:13:30.45,1:13:33.62,Default,,0000,0000,0000,,都是他干的  又不是我想的\Nhe degraded material... I did not want to...
+Dialogue: 0,1:13:33.79,1:13:35.62,Default,,0000,0000,0000,,没必要这样  啊\NIt's not worth it. Ah!
+Dialogue: 0,1:13:35.79,1:13:37.95,Default,,0000,0000,0000,,哎呀呀\NAIE Aie Aie !
+Dialogue: 0,1:13:41.33,1:13:42.70,Default,,0000,0000,0000,,这次又是谁\NWho's that yet?
+Dialogue: 0,1:13:54.45,1:13:55.33,Default,,0000,0000,0000,,怎么样\NSo ?
+Dialogue: 0,1:13:55.50,1:13:56.25,Default,,0000,0000,0000,,该谢谢谁啊\NThanks WHO ?
+Dialogue: 0,1:13:56.70,1:13:57.79,Default,,0000,0000,0000,,谢谢你  米歇尔\NThank you, Michel.
+Dialogue: 0,1:13:57.95,1:13:58.95,Default,,0000,0000,0000,,走\NHere.
+Dialogue: 0,1:13:59.87,1:14:01.29,Default,,0000,0000,0000,,这是仙后座钻石\NHere is the Cassiopeia,
+Dialogue: 0,1:14:01.45,1:14:03.50,Default,,0000,0000,0000,,意大利人的新目标\Nthe new target of our Italians.
+Dialogue: 0,1:14:03.66,1:14:05.66,Default,,0000,0000,0000,,我们必须做好一切准备\NWe must be ready for anything.
+Dialogue: 0,1:14:05.83,1:14:06.87,Default,,0000,0000,0000,,好大啊\NIt's too big.
+Dialogue: 0,1:14:07.79,1:14:08.54,Default,,0000,0000,0000,,我们不行的\NWe will not be up to it.
+Dialogue: 0,1:14:08.70,1:14:09.87,Default,,0000,0000,0000,,你需要真的警察\NYou need real cops.
+Dialogue: 0,1:14:10.04,1:14:11.66,Default,,0000,0000,0000,,他们中有内奸\NThere are ripoux at home.
+Dialogue: 0,1:14:11.83,1:14:14.12,Default,,0000,0000,0000,,- 我们不能跟那些混蛋透漏任何消息  - 听着\N- We say nothing to these bastards. - Listen,
+Dialogue: 0,1:14:14.29,1:14:18.29,Default,,0000,0000,0000,,我到这儿的时候  还不知道有什么在等着我\Nwhen I arrived, I did not know what was waiting for me.
+Dialogue: 0,1:14:18.45,1:14:20.62,Default,,0000,0000,0000,,我觉得你们都讨厌我\NI felt that you hated me,
+Dialogue: 0,1:14:20.79,1:14:21.62,Default,,0000,0000,0000,,我也讨厌你们\Nso I hated you.
+Dialogue: 0,1:14:21.79,1:14:22.66,Default,,0000,0000,0000,,如果我都能改变\NIf I changed
+Dialogue: 0,1:14:22.83,1:14:23.75,Default,,0000,0000,0000,,你们也可以\Nand you too,
+Dialogue: 0,1:14:23.91,1:14:25.33,Default,,0000,0000,0000,,每个人\Nis that everyone
+Dialogue: 0,1:14:25.50,1:14:26.41,Default,,0000,0000,0000,,都可以\Ncan happen
+Dialogue: 0,1:14:26.58,1:14:27.45,Default,,0000,0000,0000,,改变\Nto change !
+Dialogue: 0,1:14:32.00,1:14:33.91,Default,,0000,0000,0000,,这不是洛基4的台词吗\NIt's not in Rocky 4 ?
+Dialogue: 0,1:14:34.08,1:14:35.20,Default,,0000,0000,0000,,你给我闭嘴\NYes, shut up.
+Dialogue: 0,1:14:36.37,1:14:37.16,Default,,0000,0000,0000,,哦\NOh!
+Dialogue: 0,1:14:37.33,1:14:38.00,Default,,0000,0000,0000,,雷吉斯\NRegis!
+Dialogue: 0,1:14:38.16,1:14:41.08,Default,,0000,0000,0000,,- 不不  - 别盯着他看\N- No no ! - Do not look at him.
+Dialogue: 0,1:14:41.54,1:14:42.79,Default,,0000,0000,0000,,把武器收起来\NPut the weapon back...
+Dialogue: 0,1:14:42.95,1:14:43.75,Default,,0000,0000,0000,,就像那样\NLike that.
+Dialogue: 0,1:14:43.91,1:14:46.20,Default,,0000,0000,0000,,都是因为他太高兴了\NIt's because he's happy.
+Dialogue: 0,1:14:46.75,1:14:47.95,Default,,0000,0000,0000,,冷静点\NCalms you.
+Dialogue: 0,1:14:49.45,1:14:51.16,Default,,0000,0000,0000,,好的  我们出发吧\NHere. Well, here we go.
+Dialogue: 0,1:14:51.33,1:14:52.00,Default,,0000,0000,0000,,准备好了吗\NReady?
+Dialogue: 0,1:14:52.16,1:14:53.04,Default,,0000,0000,0000,,准备好了\NHE CHEF!
+Dialogue: 0,1:15:33.08,1:15:34.45,Default,,0000,0000,0000,,松鼠正在接近\NSquirrel approaching.
+Dialogue: 0,1:15:43.20,1:15:45.41,Default,,0000,0000,0000,,保护这片区域  所有人各司其职\NSecure the area, each one his post.
+Dialogue: 0,1:16:01.25,1:16:02.00,Default,,0000,0000,0000,,好的\NOK.
+Dialogue: 0,1:16:02.70,1:16:04.04,Default,,0000,0000,0000,,坏警察到了\NThe ripoux are there.
+Dialogue: 0,1:16:07.08,1:16:10.95,Default,,0000,0000,0000,,- 这样不好  我们是同事  所以  - 是的\N- Warning. We are colleagues, so... - Yes.
+Dialogue: 0,1:16:12.08,1:16:13.62,Default,,0000,0000,0000,,- 不能这样  - 不吗\N- Can not. - No.
+Dialogue: 0,1:16:13.79,1:16:15.29,Default,,0000,0000,0000,,这太不专业了\NIt's not professional.
+Dialogue: 0,1:16:18.75,1:16:20.00,Default,,0000,0000,0000,,你的朋友们  靠谱吗\NYour friends, is it good?
+Dialogue: 0,1:16:21.95,1:16:23.08,Default,,0000,0000,0000,,一般般吧\NNormally.
+Dialogue: 0,1:16:23.25,1:16:24.12,Default,,0000,0000,0000,,你开始发热了\NYou're feverish.
+Dialogue: 0,1:16:24.29,1:16:26.04,Default,,0000,0000,0000,,我才没有\NI'm not feverish.
+Dialogue: 0,1:16:26.20,1:16:28.20,Default,,0000,0000,0000,,- 我没有发热  - 梅纳德\N- I am not feverish. - Menard,
+Dialogue: 0,1:16:28.37,1:16:29.66,Default,,0000,0000,0000,,能听到我吗\Nyou receive me ?
+Dialogue: 0,1:16:29.83,1:16:32.41,Default,,0000,0000,0000,,收到了  TC  结束\NAffirmative, Tango, Charlie, finished.
+Dialogue: 0,1:16:33.75,1:16:35.50,Default,,0000,0000,0000,,- 我爱你  - 这很正常\N- I love you. - It's normal.
+Dialogue: 0,1:16:36.45,1:16:37.16,Default,,0000,0000,0000,,米歇尔\NMichel?
+Dialogue: 0,1:16:38.66,1:16:40.75,Default,,0000,0000,0000,,- 米歇尔  - 我到位了\N- Michel? - I'm in place.
+Dialogue: 0,1:16:49.29,1:16:51.00,Default,,0000,0000,0000,,长官  你好\NMr. Prefect, hello.
+Dialogue: 0,1:16:51.16,1:16:54.50,Default,,0000,0000,0000,,是我组织的这次行动\NIt was I who organized the operation.
+Dialogue: 0,1:16:54.66,1:16:57.20,Default,,0000,0000,0000,,我动用了最好的队伍\NI mobilized the finest teams.
+Dialogue: 0,1:16:57.37,1:17:01.58,Default,,0000,0000,0000,,珠宝用直升机从日内瓦被运过来  会降落在那儿\NThe jewel arrives from Geneva by helicopter. He will land there.
+Dialogue: 0,1:17:01.75,1:17:02.70,Default,,0000,0000,0000,,那个圆圈里\NThere is a round.
+Dialogue: 0,1:17:02.87,1:17:06.79,Default,,0000,0000,0000,,一切都被被布置的像音乐会一样周密\NEverything is set like in a music basket, quiet.
+Dialogue: 0,1:17:10.41,1:17:11.79,Default,,0000,0000,0000,,松鼠即将抵达\NSquirrel with Mucem.
+Dialogue: 0,1:17:13.70,1:17:14.33,Default,,0000,0000,0000,,它在那儿\NHere it is.
+Dialogue: 0,1:17:25.45,1:17:28.62,Default,,0000,0000,0000,,- 看到直升机了  - 我觉得  我会和她滚床单的\N- Helicopter in sight. - I'm going to fuck her, I think.
+Dialogue: 0,1:17:31.45,1:17:32.45,Default,,0000,0000,0000,,没想到啊\NUnexpected.
+Dialogue: 0,1:17:36.62,1:17:37.83,Default,,0000,0000,0000,,那是什么\NWhat is that ?
+Dialogue: 0,1:17:38.00,1:17:40.79,Default,,0000,0000,0000,,无人机的正确拼法是Drone
+Dialogue: 0,1:17:38.00,1:17:40.79,Default,,0000,0000,0000,,那看起来像一个污人机  是个污无人机\NIt looks like a "brone". It's a "brone".
+Dialogue: 0,1:17:40.95,1:17:41.75,Default,,0000,0000,0000,,污人机吗\NA brone?
+Dialogue: 0,1:17:41.91,1:17:44.20,Default,,0000,0000,0000,,我说的就是这个啊  污人机\NThat's what I say, a brone.
+Dialogue: 0,1:17:44.37,1:17:45.45,Default,,0000,0000,0000,,问题是\NProblem is.
+Dialogue: 0,1:17:54.16,1:17:55.08,Default,,0000,0000,0000,,这他喵是哪儿来的\Nwhere does he come from?
+Dialogue: 0,1:17:55.25,1:17:56.91,Default,,0000,0000,0000,,别走啊\NStay here.
+Dialogue: 0,1:17:59.70,1:18:00.54,Default,,0000,0000,0000,,你打扰到我了\NYou disturb.
+Dialogue: 0,1:18:00.70,1:18:02.54,Default,,0000,0000,0000,,- 什么  - 早上好  市长先生\N-  What? - Good morning, Mr. Mayor.
+Dialogue: 0,1:18:02.70,1:18:04.41,Default,,0000,0000,0000,,你有一分钟的时间\NYou have a minute
+Dialogue: 0,1:18:04.58,1:18:07.83,Default,,0000,0000,0000,,来命令你的驾驶员跟着我们的无人机飞走\Nto order the pilot to follow our drone.
+Dialogue: 0,1:18:08.00,1:18:09.00,Default,,0000,0000,0000,,什么\NAh! What?
+Dialogue: 0,1:18:09.16,1:18:10.20,Default,,0000,0000,0000,,我会\NI'm messing
+Dialogue: 0,1:18:10.37,1:18:11.54,Default,,0000,0000,0000,,当众出丑的\Nin front of the joke.
+Dialogue: 0,1:18:11.70,1:18:12.66,Default,,0000,0000,0000,,如果你觉得\NIf you believe
+Dialogue: 0,1:18:12.83,1:18:14.62,Default,,0000,0000,0000,,可以威胁我  那你就\Nimpress me, you put your finger
+Dialogue: 0,1:18:14.79,1:18:15.79,Default,,0000,0000,0000,,大错特错了\Nin the knee.
+Dialogue: 0,1:18:15.95,1:18:16.95,Default,,0000,0000,0000,,他是傻逼吗
+Dialogue: 0,1:18:17.12,1:18:18.58,Default,,0000,0000,0000,,应该是吧
+Dialogue: 0,1:18:20.87,1:18:21.70,Default,,0000,0000,0000,,好吧\NOK.
+Dialogue: 0,1:18:22.20,1:18:23.33,Default,,0000,0000,0000,,那就来点儿刺激的吧\NIt's going to be crazy.
+Dialogue: 0,1:18:25.33,1:18:26.08,Default,,0000,0000,0000,,真是胡闹\NThe mytho.
+Dialogue: 0,1:18:26.25,1:18:27.79,Default,,0000,0000,0000,,这不是胡闹\NIt's not mytho.
+Dialogue: 0,1:18:27.95,1:18:30.41,Default,,0000,0000,0000,,今天早在弗雷尤斯的珠宝就被偷走了\NIt was stolen this morning at Frejus.
+Dialogue: 0,1:18:32.00,1:18:33.79,Default,,0000,0000,0000,,让他们看看我们是不是在开玩笑
+Dialogue: 0,1:18:38.70,1:18:39.33,Default,,0000,0000,0000,,卡洛
+Dialogue: 0,1:18:40.00,1:18:41.45,Default,,0000,0000,0000,,你知道该怎么做\NYou know it
+Dialogue: 0,1:18:47.00,1:18:49.83,Default,,0000,0000,0000,,- 各个分队  - 放松\N- To all units... - Relax.
+Dialogue: 0,1:18:56.83,1:18:57.41,Default,,0000,0000,0000,,天啊\Noh my god.
+Dialogue: 0,1:18:59.95,1:19:00.95,Default,,0000,0000,0000,,那是怎么回事\NWhat's this ?
+Dialogue: 0,1:19:05.45,1:19:06.33,Default,,0000,0000,0000,,太好了\NBravo.
+Dialogue: 0,1:19:06.50,1:19:08.62,Default,,0000,0000,0000,,联系上飞行员了吗
+Dialogue: 0,1:19:14.87,1:19:16.16,Default,,0000,0000,0000,,飞行员先生\NMr. Pilot,
+Dialogue: 0,1:19:16.33,1:19:18.29,Default,,0000,0000,0000,,请跟着你旁边的无人机飞走\Nfollow the drone where you are
+Dialogue: 0,1:19:18.45,1:19:19.75,Default,,0000,0000,0000,,好的\NOK.
+Dialogue: 0,1:19:24.91,1:19:27.16,Default,,0000,0000,0000,,不  发生什么了\NNo ! What's happening ?
+Dialogue: 0,1:19:27.33,1:19:29.25,Default,,0000,0000,0000,,直升机飞走了  我们该做什么\NThe helicopter goes off. What do we do ?
+Dialogue: 0,1:19:30.62,1:19:31.70,Default,,0000,0000,0000,,我们上吧\NWe improvise.
+Dialogue: 0,1:19:33.33,1:19:34.20,Default,,0000,0000,0000,,不\NNo.
+Dialogue: 0,1:19:34.37,1:19:35.29,Default,,0000,0000,0000,,我不同意\NDisagree.
+Dialogue: 0,1:19:40.16,1:19:42.08,Default,,0000,0000,0000,,- 他要开去哪儿  - 阻止它\N- He where goes this one? - Stop it!
+Dialogue: 0,1:19:53.16,1:19:54.33,Default,,0000,0000,0000,,米歇尔  该你了\NMichel, yours.
+Dialogue: 0,1:19:54.50,1:19:55.16,Default,,0000,0000,0000,,好的\NOK.
+Dialogue: 0,1:19:58.50,1:19:59.16,Default,,0000,0000,0000,,走你\NLet's go.
+Dialogue: 0,1:20:06.54,1:20:07.00,Default,,0000,0000,0000,,牛逼\NShit.
+Dialogue: 0,1:20:08.91,1:20:09.79,Default,,0000,0000,0000,,喂  小巴\NHello Baba?
+Dialogue: 0,1:20:09.95,1:20:10.70,Default,,0000,0000,0000,,计划有变\NChange:
+Dialogue: 0,1:20:10.87,1:20:12.16,Default,,0000,0000,0000,,清空大街\Nclear the road.
+Dialogue: 0,1:20:12.33,1:20:13.25,Default,,0000,0000,0000,,我们在追\NWe follow
+Dialogue: 0,1:20:13.41,1:20:14.50,Default,,0000,0000,0000,,一架直升飞机\Na helicopter.
+Dialogue: 0,1:20:14.66,1:20:15.75,Default,,0000,0000,0000,,好的  我来处理\NOK, I manage.
+Dialogue: 0,1:20:15.91,1:20:16.91,Default,,0000,0000,0000,,好的  多谢\NOK, thanks.
+Dialogue: 0,1:20:19.95,1:20:23.29,Default,,0000,0000,0000,,伙计们  你们去堵住主路出口\NGuys, you're blocking boulevard access,
+Dialogue: 0,1:20:23.45,1:20:25.79,Default,,0000,0000,0000,,给出租车腾出畅通无阻的路\Nthe taxi must have free field.
+Dialogue: 0,1:20:25.95,1:20:27.45,Default,,0000,0000,0000,,停下  就等两分钟\NStop, 2 minutes.
+Dialogue: 0,1:20:28.16,1:20:28.79,Default,,0000,0000,0000,,搞定了\NIts good.
+Dialogue: 0,1:20:40.00,1:20:41.58,Default,,0000,0000,0000,,- 喂  - 发生什么了\N- Yeah? - What is happening?
+Dialogue: 0,1:20:41.75,1:20:43.95,Default,,0000,0000,0000,,直升机后面有个出租车跟屁虫\NThe helicopter has the taxi to the buttocks.
+Dialogue: 0,1:20:44.62,1:20:48.41,Default,,0000,0000,0000,,出租车吗  我来解决\NThe taxi ? I'm taking care of it.
+Dialogue: 0,1:20:50.00,1:20:51.16,Default,,0000,0000,0000,,他们死定了
+Dialogue: 0,1:21:00.62,1:21:03.12,Default,,0000,0000,0000,,卡林  他们吵得我耳朵疼\NKarim, they hurt my head.
+Dialogue: 0,1:21:07.16,1:21:08.83,Default,,0000,0000,0000,,不怪我  是他要这样的\NIt's not me, it's him.
+Dialogue: 0,1:21:33.41,1:21:35.75,Default,,0000,0000,0000,,- 它开的好快啊  - 你们在这儿啊\N- It goes quickly. - There you are !
+Dialogue: 0,1:21:38.37,1:21:39.00,Default,,0000,0000,0000,,我们走\NLet's go.
+Dialogue: 0,1:21:45.91,1:21:46.62,Default,,0000,0000,0000,,放开我\NLet go of me.
+Dialogue: 0,1:21:46.79,1:21:48.00,Default,,0000,0000,0000,,你这个侏儒是从哪儿冒出来的\NWhere does this dwarf come from?
+Dialogue: 0,1:21:48.16,1:21:49.37,Default,,0000,0000,0000,,你在干什么\NWhat are you doing ?
+Dialogue: 0,1:21:49.91,1:21:51.66,Default,,0000,0000,0000,,你会飞到天上去的\NYou'll go up in the air,
+Dialogue: 0,1:21:51.83,1:21:53.20,Default,,0000,0000,0000,,草泥马的\Nfuck your mother!
+Dialogue: 0,1:21:56.25,1:21:57.37,Default,,0000,0000,0000,,他们更快一点\NThey are faster.
+Dialogue: 0,1:21:59.29,1:21:59.83,Default,,0000,0000,0000,,走着瞧\NWe'll see.
+Dialogue: 0,1:22:04.66,1:22:05.45,Default,,0000,0000,0000,,他们在那儿\NThey are there.
+Dialogue: 0,1:22:05.62,1:22:06.83,Default,,0000,0000,0000,,别担心  没事的\NDo not worry, it's okay.
+Dialogue: 0,1:22:12.58,1:22:13.83,Default,,0000,0000,0000,,但他在干什么\NBut what does he do?
+Dialogue: 0,1:22:16.70,1:22:17.70,Default,,0000,0000,0000,,停下\NStopped !
+Dialogue: 0,1:22:26.91,1:22:28.87,Default,,0000,0000,0000,,让他妈这些法国人见佛祖去吧\NIn fact, please send it to Fmm?fisa
+Dialogue: 0,1:22:31.04,1:22:33.66,Default,,0000,0000,0000,,那个傻逼侏儒呢  看着点\NWhere is this dwarf con? Watch!
+Dialogue: 0,1:22:36.25,1:22:37.91,Default,,0000,0000,0000,,- 吃我一雨刷  - 把他弄下去了\N- Take this. - Get him out of there.
+Dialogue: 0,1:22:39.12,1:22:41.66,Default,,0000,0000,0000,,看啊  他被甩出去了\NHere! He's broken the playmobil!
+Dialogue: 0,1:22:46.00,1:22:47.95,Default,,0000,0000,0000,,上高速你可不就是我的对手了
+Dialogue: 0,1:22:49.00,1:22:50.83,Default,,0000,0000,0000,,- 他们非常厉害  - 我知道\N- They are powerful. - I know.
+Dialogue: 0,1:22:51.00,1:22:52.08,Default,,0000,0000,0000,,加速了\NAccelerated.
+Dialogue: 0,1:22:55.08,1:22:56.16,Default,,0000,0000,0000,,再快点
+Dialogue: 0,1:22:56.33,1:22:58.20,Default,,0000,0000,0000,,闭嘴  让我专心点
+Dialogue: 0,1:23:02.04,1:23:03.70,Default,,0000,0000,0000,,你是吃干饭的吗
+Dialogue: 0,1:23:04.54,1:23:05.62,Default,,0000,0000,0000,,给我闭嘴
+Dialogue: 0,1:23:10.75,1:23:12.04,Default,,0000,0000,0000,,时速多少了\NHow much are you?
+Dialogue: 0,1:23:12.20,1:23:13.12,Default,,0000,0000,0000,,别看  没事的\NDo not look. It's okay.
+Dialogue: 0,1:23:13.29,1:23:14.66,Default,,0000,0000,0000,,我们可能会死\NWe can die.
+Dialogue: 0,1:23:18.25,1:23:19.37,Default,,0000,0000,0000,,我知道\NI know
+Dialogue: 0,1:23:19.54,1:23:20.58,Default,,0000,0000,0000,,你们要上这边\Nthat you are here!
+Dialogue: 0,1:23:21.08,1:23:22.78,Default,,0000,0000,0000,,超过他
+Dialogue: 0,1:23:22.78,1:23:24.78,Default,,0000,0000,0000,,干他
+Dialogue: 0,1:23:28.79,1:23:29.58,Default,,0000,0000,0000,,你不是警察\NYou're not a cop,
+Dialogue: 0,1:23:29.75,1:23:31.66,Default,,0000,0000,0000,,警察不会这么开车的\Na cop does not roll like that.
+Dialogue: 0,1:23:40.25,1:23:41.37,Default,,0000,0000,0000,,快点\NCome on !
+Dialogue: 0,1:23:42.25,1:23:43.08,Default,,0000,0000,0000,,那有一辆卡车\NThere's a truck there.
+Dialogue: 0,1:23:43.45,1:23:45.25,Default,,0000,0000,0000,,西尔万  我们别过去\NSylvain, we do not go.
+Dialogue: 0,1:23:45.70,1:23:46.83,Default,,0000,0000,0000,,走你\NIt goes.
+Dialogue: 0,1:23:53.87,1:23:56.79,Default,,0000,0000,0000,,我们差点被一辆卡车压死\NWe almost got run over by a truck!
+Dialogue: 0,1:23:57.41,1:23:58.37,Default,,0000,0000,0000,,这不没事儿吗\NThis happened.
+Dialogue: 0,1:24:00.33,1:24:01.12,Default,,0000,0000,0000,,梅纳德\NMenard,
+Dialogue: 0,1:24:01.29,1:24:04.33,Default,,0000,0000,0000,,- 你们阻止他们了吗  - 我们即兴发挥了  但准备好了\N- did you stop them? - We improvise, but it's ready.
+Dialogue: 0,1:24:04.50,1:24:05.83,Default,,0000,0000,0000,,十秒钟后袭击\NImpact in 1Os.
+Dialogue: 0,1:24:09.16,1:24:09.87,Default,,0000,0000,0000,,这是什么\NWhat's this ?
+Dialogue: 0,1:24:10.66,1:24:11.75,Default,,0000,0000,0000,,好大啊\NIt's big.
+Dialogue: 0,1:24:11.91,1:24:13.87,Default,,0000,0000,0000,,现在\NNow.
+Dialogue: 0,1:24:16.33,1:24:17.45,Default,,0000,0000,0000,,我爱你\NI love you !
+Dialogue: 0,1:24:18.95,1:24:21.12,Default,,0000,0000,0000,,- 这是什么  - 这是什么\N- What is it ? - What's this ?
+Dialogue: 0,1:24:21.29,1:24:23.00,Default,,0000,0000,0000,,就像头猪一样\NIt's like a boar.
+Dialogue: 0,1:24:23.16,1:24:24.41,Default,,0000,0000,0000,,别碰她\NDo not touch it.
+Dialogue: 0,1:24:24.58,1:24:27.25,Default,,0000,0000,0000,,- 她是我的女朋友  - 你想要什么\N- She is my girlfriend. - What do you want?
+Dialogue: 0,1:24:27.41,1:24:29.87,Default,,0000,0000,0000,,我会保护她的  别碰她\NI'll protect her. Do not touch her pistol.
+Dialogue: 0,1:24:30.04,1:24:31.50,Default,,0000,0000,0000,,闭嘴  把她带走\NShut up and clear.
+Dialogue: 0,1:24:31.66,1:24:33.58,Default,,0000,0000,0000,,- 我被撞惨了  - 妈的\N- I got screwed. - fucking shit.
+Dialogue: 0,1:24:51.58,1:24:53.56,Default,,0000,0000,0000,,快点儿啊
+Dialogue: 0,1:24:53.45,1:24:54.75,Default,,0000,0000,0000,,我的胃不舒服\NI have the sheaf.
+Dialogue: 0,1:24:55.25,1:24:56.75,Default,,0000,0000,0000,,憋不住了  要放屁了\NMy gas is coming back.
+Dialogue: 0,1:24:56.91,1:24:58.08,Default,,0000,0000,0000,,给我憋好了\NStop with that.
+Dialogue: 0,1:24:58.25,1:24:58.87,Default,,0000,0000,0000,,这又不是我的错\NIt's not my fault.
+Dialogue: 0,1:25:02.29,1:25:03.12,Default,,0000,0000,0000,,他们要开枪了\NThey will shoot.
+Dialogue: 0,1:25:05.66,1:25:06.54,Default,,0000,0000,0000,,他们开枪了\NThey shoot !
+Dialogue: 0,1:25:06.70,1:25:08.75,Default,,0000,0000,0000,,- 我看到了  - 用的可是真子弹\N- I saw ! - With real bullets.
+Dialogue: 0,1:25:15.66,1:25:16.41,Default,,0000,0000,0000,,妈的\NShit !
+Dialogue: 0,1:25:16.58,1:25:17.62,Default,,0000,0000,0000,,打给雷吉斯\NCall me Regis.
+Dialogue: 0,1:25:17.79,1:25:20.08,Default,,0000,0000,0000,,什么  你想干什么  雷吉斯\NWhat? If you want. Regis!
+Dialogue: 0,1:25:21.33,1:25:23.29,Default,,0000,0000,0000,,不是叫我雷吉斯  是打给雷吉斯\NNot me ! Call Regis,
+Dialogue: 0,1:25:23.45,1:25:25.29,Default,,0000,0000,0000,,- 那个警察  - 那个虐待狂吗\N- the policeman. - The sadist?
+Dialogue: 0,1:25:25.45,1:25:26.50,Default,,0000,0000,0000,,- 没错  - 好吧\N- Here! - OK.
+Dialogue: 0,1:25:29.37,1:25:30.12,Default,,0000,0000,0000,,雷吉斯\NRegis?
+Dialogue: 0,1:25:30.29,1:25:32.00,Default,,0000,0000,0000,,在  我跟着你呢\NYes, I follow you.
+Dialogue: 0,1:25:32.16,1:25:33.08,Default,,0000,0000,0000,,那直升机呢\NAnd the helicopter?
+Dialogue: 0,1:25:33.25,1:25:34.12,Default,,0000,0000,0000,,他被导航去了\NHe directs himself
+Dialogue: 0,1:25:34.29,1:25:35.75,Default,,0000,0000,0000,,三公里外的一个游艇上\Nto a yacht at 3km.
+Dialogue: 0,1:25:35.91,1:25:38.12,Default,,0000,0000,0000,,- 他们和我们中间隔着海呢  - 我们走\N- They are blocked by the sea. - Let's go.
+Dialogue: 0,1:25:38.29,1:25:39.33,Default,,0000,0000,0000,,谢谢你  雷吉斯\NThank you, Regis.
+Dialogue: 0,1:25:40.08,1:25:40.79,Default,,0000,0000,0000,,不\NNo.
+Dialogue: 0,1:25:48.41,1:25:49.62,Default,,0000,0000,0000,,他们要开枪了\NThey will shoot.
+Dialogue: 0,1:25:49.79,1:25:50.66,Default,,0000,0000,0000,,救命\NHelp.
+Dialogue: 0,1:25:50.83,1:25:52.41,Default,,0000,0000,0000,,- 能听到吗  - 能\N- You hear me ? - Yes.
+Dialogue: 0,1:25:52.58,1:25:55.66,Default,,0000,0000,0000,,他们要打下直升机  他们要打下来\NThey will go down the propeller. They will take it down!
+Dialogue: 0,1:26:00.83,1:26:01.54,Default,,0000,0000,0000,,手提箱丢下去\NThe suitcase.
+Dialogue: 0,1:26:15.62,1:26:16.79,Default,,0000,0000,0000,,打电话给你妹妹\NCall your sister.
+Dialogue: 0,1:26:19.83,1:26:20.66,Default,,0000,0000,0000,,怎么了\NYeah?
+Dialogue: 0,1:26:20.83,1:26:22.66,Default,,0000,0000,0000,,我跟你哥哥在一起\NI'm with your brother,
+Dialogue: 0,1:26:22.83,1:26:24.16,Default,,0000,0000,0000,,- 我们有麻烦了  - 说吧\N- We are in trouble. - Yes.
+Dialogue: 0,1:26:24.33,1:26:26.33,Default,,0000,0000,0000,,有辆兰博基尼在粘着我\NI have an Aventador who sticks to me.
+Dialogue: 0,1:26:27.58,1:26:29.04,Default,,0000,0000,0000,,我必须赶快\NI must smoke it
+Dialogue: 0,1:26:29.20,1:26:31.95,Default,,0000,0000,0000,,- 甩掉他  - 右边的驻车制动旁边\N- in 3 s. - To the right of the parking brake,
+Dialogue: 0,1:26:32.12,1:26:34.87,Default,,0000,0000,0000,,有个一次性的加速装置\Nyou have a turbo boost single use.
+Dialogue: 0,1:26:35.50,1:26:37.50,Default,,0000,0000,0000,,别这样  相信我\NYou do not do what I believe.
+Dialogue: 0,1:26:37.66,1:26:38.87,Default,,0000,0000,0000,,- 不  - 坐稳了\N- No. - Hang in there.
+Dialogue: 0,1:26:42.37,1:26:43.37,Default,,0000,0000,0000,,1\None,
+Dialogue: 0,1:26:43.54,1:26:44.54,Default,,0000,0000,0000,,2\Ntwo,
+Dialogue: 0,1:26:44.70,1:26:46.58,Default,,0000,0000,0000,,3\Nthree!
+Dialogue: 0,1:27:06.04,1:27:08.54,Default,,0000,0000,0000,,不  不  不\NOh no ! No no !
+Dialogue: 0,1:27:11.12,1:27:12.00,Default,,0000,0000,0000,,走\NGo.
+Dialogue: 0,1:27:18.16,1:27:20.20,Default,,0000,0000,0000,,对不起打扰你们的雅兴了\NWe are sorry for the inconvenience.
+Dialogue: 0,1:27:20.70,1:27:22.91,Default,,0000,0000,0000,,我们就是来取个东西\NWe just have things to recover.
+Dialogue: 0,1:27:23.08,1:27:24.62,Default,,0000,0000,0000,,不  不\NNo! No!
+Dialogue: 0,1:27:25.25,1:27:26.62,Default,,0000,0000,0000,,不\NNo !
+Dialogue: 0,1:27:26.79,1:27:28.33,Default,,0000,0000,0000,,不  不\NNo ! No
+Dialogue: 0,1:27:28.50,1:27:30.08,Default,,0000,0000,0000,,- 她死掉了  - 别在这儿吵吵\N- She is dead ! - Not here.
+Dialogue: 0,1:27:30.25,1:27:33.16,Default,,0000,0000,0000,,- 她死了  死了  - 去把他们绑起来\N- She is dead ! Dead! - Go tie them up.
+Dialogue: 0,1:27:37.62,1:27:38.45,Default,,0000,0000,0000,,不是他们\NNot them,
+Dialogue: 0,1:27:38.62,1:27:39.66,Default,,0000,0000,0000,,- 艾迪  - 怎么了\N- Eddy! - What ?
+Dialogue: 0,1:27:39.83,1:27:40.62,Default,,0000,0000,0000,,是他们啊\NThey, there.
+Dialogue: 0,1:27:40.95,1:27:43.12,Default,,0000,0000,0000,,啊  走  走\NAh! Go! Go!
+Dialogue: 0,1:27:43.29,1:27:44.87,Default,,0000,0000,0000,,把手给我\NLaaefia
+Dialogue: 0,1:27:47.16,1:27:48.29,Default,,0000,0000,0000,,这不重要\NIt's not important.
+Dialogue: 0,1:27:48.45,1:27:49.75,Default,,0000,0000,0000,,她死了啊\NShe is dead !
+Dialogue: 0,1:27:51.66,1:27:52.45,Default,,0000,0000,0000,,没死呢\NNot dead,
+Dialogue: 0,1:27:52.62,1:27:55.70,Default,,0000,0000,0000,,就是车头撞了  没事的\Nin front of her a little morfle, it's not...
+Dialogue: 0,1:27:55.87,1:27:58.70,Default,,0000,0000,0000,,找个好铂金工就行了  会没事的\NA good bodybuilder, it knows how to work. It will be fine.
+Dialogue: 0,1:27:59.75,1:28:01.45,Default,,0000,0000,0000,,啊  烦死我了\NAh! It's annoying me !
+Dialogue: 0,1:28:04.33,1:28:06.04,Default,,0000,0000,0000,,- 什么事  - 市长先生\N- What is ? - Mr. Mayor?
+Dialogue: 0,1:28:06.20,1:28:10.16,Default,,0000,0000,0000,,- 马丁  怎么样了  - 我们找到钻石了  找到了\N- Martin, what's going on? - We found the diamond. We did it.
+Dialogue: 0,1:28:10.33,1:28:12.16,Default,,0000,0000,0000,,很好  我在听音乐呢\NGood, I listen to music.
+Dialogue: 0,1:28:12.33,1:28:14.83,Default,,0000,0000,0000,,- 你能听到我吗  - 可以啊\N- Can you hear me ? - I hear more.
+Dialogue: 0,1:28:15.29,1:28:16.00,Default,,0000,0000,0000,,艾迪\NEddy.
+Dialogue: 0,1:28:16.45,1:28:17.87,Default,,0000,0000,0000,,- 艾迪  - 什么\N- Edd - Yes?
+Dialogue: 0,1:28:18.70,1:28:19.41,Default,,0000,0000,0000,,过来了\NI arrive.
+Dialogue: 0,1:28:20.41,1:28:21.45,Default,,0000,0000,0000,,任务结束\NEnd of mission.
+Dialogue: 0,1:28:21.62,1:28:24.79,Default,,0000,0000,0000,,只有抓到案件主谋才能算结束\NIt will be over when we have caught the ritals.
+Dialogue: 0,1:28:24.95,1:28:27.83,Default,,0000,0000,0000,,别担心  他们就在那儿\NDo not worry, they're just there,
+Dialogue: 0,1:28:28.00,1:28:29.16,Default,,0000,0000,0000,,等着我们呢\Nthey are waiting for us.
+Dialogue: 0,1:28:29.79,1:28:30.66,Default,,0000,0000,0000,,别动
+Dialogue: 0,1:28:32.04,1:28:34.66,Default,,0000,0000,0000,,- 你在想什么  - 冷静
+Dialogue: 0,1:28:37.04,1:28:42.54,Default,,0000,0000,0000,,混蛋们  这一下是为了06年的事情  这是复仇\NThe ritals, that one is for Zizou in 2006, it is revenge.
+Dialogue: 0,1:28:47.79,1:28:49.37,Default,,0000,0000,0000,,嘿  你会游泳吗\NHey, can you swim?
+Dialogue: 0,1:28:49.79,1:28:51.79,Default,,0000,0000,0000,,泳池里会  下海就不会了\NIn the pool, not in the sea
+Dialogue: 0,1:28:54.70,1:28:56.91,Default,,0000,0000,0000,,- 什么在碰我  - 有鱼\N- What's touching me? - Fin!
+Dialogue: 0,1:28:57.08,1:28:57.79,Default,,0000,0000,0000,,鲨鱼\NAileron!
+Dialogue: 0,1:28:57.95,1:28:58.66,Default,,0000,0000,0000,,不要\NNo !
+Dialogue: 0,1:29:00.37,1:29:01.25,Default,,0000,0000,0000,,赶走她\NStop her !
+Dialogue: 0,1:29:04.95,1:29:07.25,Default,,0000,0000,0000,,手放在方向盘上\NHands on the steering wheel.
+Dialogue: 0,1:29:28.04,1:29:28.91,Default,,0000,0000,0000,,一分钟\NOne minute.
+Dialogue: 0,1:29:32.70,1:29:33.91,Default,,0000,0000,0000,,你是个好车手\NYou're a good pilot.
+Dialogue: 0,1:29:36.00,1:29:39.20,Default,,0000,0000,0000,,我是马洛特中尉  根据交通法规\NLieutenant Marot. Strong rights granted to me
+Dialogue: 0,1:29:39.37,1:29:41.87,Default,,0000,0000,0000,,第71  72和74条之规定\Nand according to articles 71, 72 and 74
+Dialogue: 0,1:29:42.04,1:29:44.54,Default,,0000,0000,0000,,你超速并危险驾驶\Non crime and speeding,
+Dialogue: 0,1:29:44.70,1:29:48.16,Default,,0000,0000,0000,,我将亲自处理你的车辆\NI personally seize the vehicle.
+Dialogue: 0,1:29:51.08,1:29:52.04,Default,,0000,0000,0000,,是台好车\NIt's nice.
+Dialogue: 0,1:29:54.41,1:29:55.66,Default,,0000,0000,0000,,我们会再见的\NWe'll meet Again.
+Dialogue: 0,1:30:04.87,1:30:05.91,Default,,0000,0000,0000,,最近很少听到\NWe hear it less
+Dialogue: 0,1:30:06.08,1:30:09.12,Default,,0000,0000,0000,,你们这么狂的人了  真是怀念啊\Nyour big mouth. You bring her back less.
+Dialogue: 0,1:30:09.95,1:30:11.04,Default,,0000,0000,0000,,臭娘们
+Dialogue: 0,1:30:12.04,1:30:13.08,Default,,0000,0000,0000,,好吧\NOkay...
+Dialogue: 0,1:30:14.37,1:30:16.70,Default,,0000,0000,0000,,- 你吃什么了吗  - 对  我吃水了\N- You got something. - Yes, I was there.
+Dialogue: 0,1:30:16.87,1:30:19.95,Default,,0000,0000,0000,,- 满嘴都是水  - 我要怎么跟哈米德叔叔说\N- In full mouth. - And what do I say to uncle Hamid?
+Dialogue: 0,1:30:20.75,1:30:22.41,Default,,0000,0000,0000,,我还得告诉我妹妹\NAnd I must warn my sister.
+Dialogue: 0,1:30:23.29,1:30:24.83,Default,,0000,0000,0000,,她就交给我吧\NShe, I take care of it.
+Dialogue: 0,1:30:25.00,1:30:29.04,Default,,0000,0000,0000,,是我把车弄坏的  也该我去说\NIt's me who broke the car, it's up to me to assume.
+Dialogue: 0,1:30:29.20,1:30:31.54,Default,,0000,0000,0000,,我会处理的  剩下的交给你了\NI'm taking care of it. Secures the perimeter.
+Dialogue: 0,1:30:32.16,1:30:35.75,Default,,0000,0000,0000,,好吧  我终于安全了\NOK. Well then I secure, me, okay.
+Dialogue: 0,1:30:40.62,1:30:41.20,Default,,0000,0000,0000,,所以\NSo,
+Dialogue: 0,1:30:41.37,1:30:43.25,Default,,0000,0000,0000,,好消息是我没事\Ngood news, I'm fine,
+Dialogue: 0,1:30:43.41,1:30:45.08,Default,,0000,0000,0000,,坏消息是出租车\Nbad news, the taxi...
+Dialogue: 0,1:30:45.25,1:30:47.12,Default,,0000,0000,0000,,对  电视上都在放\NYes, it's on TV.
+Dialogue: 0,1:30:47.29,1:30:50.91,Default,,0000,0000,0000,,关于这次逮捕你能告诉我们什么\NWhat can you tell us about this arrest?
+Dialogue: 0,1:30:51.08,1:30:54.87,Default,,0000,0000,0000,,唐尼.布拉索出自电影《忠奸人》
+Dialogue: 0,1:30:51.08,1:30:54.87,Default,,0000,0000,0000,,我履行了自己作为警察的职责  像唐尼.布拉索一样\NI did my duty as a policeman, like Donnie Brasco
+Dialogue: 0,1:30:55.04,1:30:56.29,Default,,0000,0000,0000,,或者说杰森·伯恩\Nor Jason Bourne.
+Dialogue: 0,1:30:55.04,1:30:56.29,Default,,0000,0000,0000,,杰森·伯恩出自电影《谍影重重》
+Dialogue: 0,1:30:56.45,1:30:59.37,Default,,0000,0000,0000,,但是我这次不是孤军奋战\NBut I was not alone I take advantage
+Dialogue: 0,1:30:59.54,1:31:02.33,Default,,0000,0000,0000,,因为多亏了我的朋友西尔万\Nto make a dedication to my friend Sylvain.
+Dialogue: 0,1:31:02.50,1:31:05.00,Default,,0000,0000,0000,,我们是支好团队\NWe're doing a great team.
+Dialogue: 0,1:31:05.16,1:31:07.70,Default,,0000,0000,0000,,- 希望能再合作  - 请你放开麦克风\N- I hope we will do it again. - Leave the microphone.
+Dialogue: 0,1:31:07.87,1:31:08.95,Default,,0000,0000,0000,,我们比绝地战警还厉害\NWe are better than Bad Boy.
+Dialogue: 0,1:31:09.12,1:31:10.66,Default,,0000,0000,0000,,我是劳伦斯先生\NI am Mr Lawrence...
+Dialogue: 0,1:31:10.83,1:31:12.95,Default,,0000,0000,0000,,- 放手  - 你是威尔史密斯\N- Proud. - You're Will Smith.
+Dialogue: 0,1:31:13.12,1:31:14.08,Default,,0000,0000,0000,,谢谢\NThank you
+Dialogue: 0,1:31:14.25,1:31:16.16,Default,,0000,0000,0000,,- 你的自信  - 说得真好\N- for your confidence. - Beautiful binomial
+Dialogue: 0,1:31:16.33,1:31:19.54,Default,,0000,0000,0000,,- 我们终于有机会了  - 还有萨米亚\N- we have the opportunity... - And Samia,
+Dialogue: 0,1:31:20.20,1:31:22.20,Default,,0000,0000,0000,,- 我是你哥哥  - 妈的\N- He is your brother.- Whore !
+Dialogue: 0,1:31:22.37,1:31:23.75,Default,,0000,0000,0000,,我为你骄傲\NI'm proud of you.
+Dialogue: 0,1:31:23.91,1:31:27.50,Default,,0000,0000,0000,,我来这儿也要感谢你  谢谢你  妹妹\NI'm here thanks to you too, thank you sister.
+Dialogue: 0,1:31:27.66,1:31:29.16,Default,,0000,0000,0000,,我生命中的女人\NAnd the woman of my life,
+Dialogue: 0,1:31:29.33,1:31:30.75,Default,,0000,0000,0000,,她叫桑迪\NSandy's name
+Dialogue: 0,1:31:30.91,1:31:35.20,Default,,0000,0000,0000,,- 你让我开始生气了  - 桑迪  我爱你\N- You start to piss me off. - Sandy, I love you.
+Dialogue: 0,1:31:35.58,1:31:39.75,Default,,0000,0000,0000,,你的宝贝泰迪小熊熊会永远让你如痴如梦\NYour plump teddy bear will always be there to make you dream.
+Dialogue: 0,1:31:41.62,1:31:42.62,Default,,0000,0000,0000,,嫁给我吧\NMarry me !
+Dialogue: 0,1:31:42.79,1:31:44.50,Default,,0000,0000,0000,,- 放开麦克风  - 好吗\N- Leave the microphone. - Hein?
+Dialogue: 0,1:31:44.66,1:31:45.75,Default,,0000,0000,0000,,我爱你\NI love you !
+Dialogue: 0,1:31:45.91,1:31:48.54,Default,,0000,0000,0000,,- 谢谢  - 你就是我这辈子的女人\N- Thank you. - You are the woman of my life.
+Dialogue: 0,1:31:48.70,1:31:51.45,Default,,0000,0000,0000,,- 我的小宝贝  - 西尔万  做我的见证人\N- Plump little bear cub. - Sylvain, be my witness.
+Dialogue: 0,1:31:51.62,1:31:53.41,Default,,0000,0000,0000,,好了  谢谢  谢谢\NWell, thank you, thank you...
+Dialogue: 0,1:31:53.87,1:31:58.08,Default,,0000,0000,0000,,出租车  他死没了  出租车开不了了\NThe taxi, he's dead. There, the taxi is over.
+Dialogue: 0,1:31:58.70,1:32:01.50,Default,,0000,0000,0000,,我不喜欢那样  见了鬼了\NI do not like working like this. Shit !
+Dialogue: 0,1:32:04.29,1:32:05.00,Default,,0000,0000,0000,,伊斯万\NIslam,
+Dialogue: 0,1:32:05.16,1:32:06.58,Default,,0000,0000,0000,,在孚日山脉的报道\Nin the Vosges.
+Dialogue: 0,1:32:06.75,1:32:08.00,Default,,0000,0000,0000,,采访对象\NThis subject that...
+Dialogue: 0,1:32:08.16,1:32:09.91,Default,,0000,0000,0000,,现在必须走了\NMust leave now.
+Dialogue: 0,1:32:10.95,1:32:13.75,Default,,0000,0000,0000,,谁能让他从镜头前面走开\NCan someone clear him from the field of view?
+Dialogue: 0,1:32:21.83,1:32:23.25,Default,,0000,0000,0000,,对不起弄坏了车\NSorry for the taxi.
+Dialogue: 0,1:32:23.91,1:32:26.62,Default,,0000,0000,0000,,他已经风光过了  这个结局很好\NHe has had his day. He had a beautiful ending.
+Dialogue: 0,1:32:27.20,1:32:28.62,Default,,0000,0000,0000,,我也有个惊喜\NI have a surprise.
+Dialogue: 0,1:32:30.04,1:32:31.45,Default,,0000,0000,0000,,能回去高兴吗\NGlad to return
+Dialogue: 0,1:32:31.62,1:32:33.08,Default,,0000,0000,0000,,回北方去\Nin the far north?
+Dialogue: 0,1:32:33.25,1:32:37.45,Default,,0000,0000,0000,,也许我会留下呢  不过没什么值得我留念的\NI would have stayed, but there is nothing that holds me back...
+Dialogue: 0,1:32:38.95,1:32:41.54,Default,,0000,0000,0000,,好比说一个我很喜欢的女孩\NLike a super girl that I like a lot,
+Dialogue: 0,1:32:41.70,1:32:43.37,Default,,0000,0000,0000,,跟我有一样的热情\Nwho shares the same passion.
+Dialogue: 0,1:32:43.54,1:32:47.70,Default,,0000,0000,0000,,一个教我最美的事就是最值得做的事的女孩\NA girl who would have taught me that the most beautiful things are worthy.
+Dialogue: 0,1:32:50.45,1:32:51.87,Default,,0000,0000,0000,,哦  不是吧\NOh dear !
+Dialogue: 0,1:32:52.33,1:32:54.79,Default,,0000,0000,0000,,真的  都还没亲上呢\NThis, really, it's not done!
+Dialogue: 0,1:32:54.95,1:32:57.37,Default,,0000,0000,0000,,你以为这样就能勾搭上我吗\NYou thought you had me like that?
+Dialogue: 0,1:32:59.41,1:33:00.87,Default,,0000,0000,0000,,- 这样不好  - 对不起\N- It's not good. - Sorry,
+Dialogue: 0,1:33:01.04,1:33:03.29,Default,,0000,0000,0000,,但是你的声音都变的柔软了\Nbut you've changed your voice altogether.
+Dialogue: 0,1:33:03.45,1:33:06.08,Default,,0000,0000,0000,,- 我这么投入  这么真诚呢  - 我看到了\N- I am thoroughly in, sincere. - I saw !
+Dialogue: 0,1:33:06.25,1:33:09.29,Default,,0000,0000,0000,,- 你一点都不浪漫吗  - 当然不是了\N- Are not you romantic? - Of course yes !
+Dialogue: 0,1:33:09.45,1:33:10.70,Default,,0000,0000,0000,,这太简单了\NIt's too easy.
+Dialogue: 0,1:33:10.87,1:33:12.33,Default,,0000,0000,0000,,- 简单  - 对\N- Too easy ? - Yes !
+Dialogue: 0,1:33:12.83,1:33:15.25,Default,,0000,0000,0000,,跟你亲一个都这么难\NGiven the galley it is to kiss,
+Dialogue: 0,1:33:15.41,1:33:17.79,Default,,0000,0000,0000,,我都不敢想像该怎么跟你一起睡\NI do not even imagine sleeping with you.
+Dialogue: 0,1:33:17.95,1:33:19.04,Default,,0000,0000,0000,,确实是\NIt is deserved.
+Dialogue: 0,1:33:20.04,1:33:22.12,Default,,0000,0000,0000,,- 你想亲我啊  - 是\N- You want to kiss me ? - Yes.
+Dialogue: 0,1:33:22.29,1:33:23.20,Default,,0000,0000,0000,,那就下去\NThen down.
+Dialogue: 0,1:33:26.16,1:33:27.08,Default,,0000,0000,0000,,不太好吧\NI'm not fine,
+Dialogue: 0,1:33:27.25,1:33:28.00,Default,,0000,0000,0000,,20米呢\N20m!
+Dialogue: 0,1:33:28.16,1:33:30.00,Default,,0000,0000,0000,,只是水而已啊\NIt's just water.
+Dialogue: 0,1:33:36.70,1:33:38.83,Default,,0000,0000,0000,,- 跳就跳  - 去吧\N- When to go. - Come on.
+Dialogue: 0,1:33:39.00,1:33:41.66,Default,,0000,0000,0000,,会不会跳到石头上\NMaybe we could jump to stone?
+Dialogue: 0,1:33:41.83,1:33:43.37,Default,,0000,0000,0000,,不会  跳就是了\NNo, go ahead first.
+Dialogue: 0,1:33:43.54,1:33:44.41,Default,,0000,0000,0000,,- 安全吗  - 当然\N- Safe ? - Yes.
+Dialogue: 0,1:33:51.08,1:33:52.54,Default,,0000,0000,0000,,鱼咬你屁股了\NThe dish on the ass!
+Dialogue: 0,1:33:52.70,1:33:56.79,Default,,0000,0000,0000,,很爽的  我们都会浮起来\NI had fun! All the weight on the same!
+Dialogue: 0,1:33:56.95,1:33:59.66,Default,,0000,0000,0000,,- 来吧  - 水太凉了\N- Come. - Finally, she's cold.
+Dialogue: 0,1:33:59.83,1:34:02.25,Default,,0000,0000,0000,,- 什么  - 我也不想下去\N- What? - I do not feel it too much.
+Dialogue: 0,1:34:02.41,1:34:03.62,Default,,0000,0000,0000,,别啊  来吧\NNo, but come!
+Dialogue: 0,1:34:27.20,1:34:28.62,Default,,0000,0000,0000,,音乐停\NThe music !
+Dialogue: 0,1:34:30.41,1:34:31.12,Default,,0000,0000,0000,,市长先生\NMr. Mayor.
+Dialogue: 0,1:34:31.29,1:34:34.25,Default,,0000,0000,0000,,绶带  抱歉  抱歉\NThe scarf, sorry. Sorry.
+Dialogue: 0,1:34:34.41,1:34:36.00,Default,,0000,0000,0000,,市民们  市民们\NCitizens, citizens,
+Dialogue: 0,1:34:36.16,1:34:38.66,Default,,0000,0000,0000,,我为我们的警员们骄傲\NI am proud of our municipal police
+Dialogue: 0,1:34:38.83,1:34:43.20,Default,,0000,0000,0000,,他们揭发了警察里面的内奸\Nthe Mumu, who has just unveiled rogue police!
+Dialogue: 0,1:34:45.62,1:34:47.70,Default,,0000,0000,0000,,比松  拿奖章来\NBichon, the medals!
+Dialogue: 0,1:34:49.12,1:34:50.29,Default,,0000,0000,0000,,亲爱的\NOh dear!
+Dialogue: 0,1:34:51.08,1:34:52.95,Default,,0000,0000,0000,,- 音乐起  - 恭喜\N- Music! - Congratulations.
+Dialogue: 0,1:34:59.08,1:34:59.91,Default,,0000,0000,0000,,干得好\NBravo.
+Dialogue: 0,1:35:01.91,1:35:03.29,Default,,0000,0000,0000,,市长授予你的\NFrom the mayor.
+Dialogue: 0,1:35:03.45,1:35:04.29,Default,,0000,0000,0000,,谢谢\NThank you.
+Dialogue: 0,1:35:07.33,1:35:08.75,Default,,0000,0000,0000,,代表城市感谢你\NThe city thanks you.
+Dialogue: 0,1:35:13.16,1:35:15.62,Default,,0000,0000,0000,,- 代表马赛感谢你  - 谢谢\N- Marseille thanks you. - Thank you.
+Dialogue: 0,1:35:15.79,1:35:16.58,Default,,0000,0000,0000,,哦\NOh!
+Dialogue: 0,1:35:18.58,1:35:20.16,Default,,0000,0000,0000,,我们都很感激你\NWe thank you.
+Dialogue: 0,1:35:30.66,1:35:31.50,Default,,0000,0000,0000,,我爱你\NI love you !
+Dialogue: 0,1:35:32.04,1:35:33.04,Default,,0000,0000,0000,,我他妈是真爱你啊\NI love you fucking.
+Dialogue: 0,1:36:09.83,1:36:13.12,Default,,0000,0000,0000,,我为你感到骄傲  你跟你那口子还好吧\NI'm proud of you. It's okay with your darling.
+Dialogue: 0,1:36:13.29,1:36:15.75,Default,,0000,0000,0000,,很好  看看我给她准备的东西\NGreat. Look what I'm going to offer him.
+Dialogue: 0,1:36:24.41,1:36:26.20,Default,,0000,0000,0000,,- 这是你偷的吗  - 不是\N- Did you steal it? - No.
+Dialogue: 0,1:36:26.37,1:36:28.33,Default,,0000,0000,0000,,- 从意大利佬那儿偷的  - 没有\N- Yes, to the Italians. - No.
+Dialogue: 0,1:36:28.50,1:36:31.54,Default,,0000,0000,0000,,我只偷了个被盗的戒指而已\NAnd even! I stole a stolen ring,
+Dialogue: 0,1:36:31.70,1:36:33.20,Default,,0000,0000,0000,,没人会发现\Nit vanishes.
+Dialogue: 0,1:36:35.04,1:36:36.12,Default,,0000,0000,0000,,我们要不要\NSo, we do
+Dialogue: 0,1:36:36.29,1:36:37.29,Default,,0000,0000,0000,,一起去兜一圈\Nhis request?
+Dialogue: 0,1:36:39.33,1:36:40.20,Default,,0000,0000,0000,,你要去哪儿啊\NWhere are you going ?
+Dialogue: 0,1:36:40.37,1:36:42.75,Default,,0000,0000,0000,,我要在25分钟内赶到机场\NI have to be at the airport in 25 minutes.
+Dialogue: 0,1:36:42.91,1:36:44.20,Default,,0000,0000,0000,,25分钟绰绰有余啊\N25 minutes, it's wide.
+Dialogue: 0,1:36:44.37,1:36:45.66,Default,,0000,0000,0000,,不  25分钟\NNo, 25 minutes,
+Dialogue: 0,1:36:45.83,1:36:47.12,Default,,0000,0000,0000,,根本不可能\Nit's impossible.
+Dialogue: 0,1:36:48.08,1:36:49.45,Default,,0000,0000,0000,,我还要去市政厅\NI have a snack
+Dialogue: 0,1:36:49.62,1:36:52.45,Default,,0000,0000,0000,,吃自助呢  好多好吃的呢\Nwith the municipal... There are four quarters,
+Dialogue: 0,1:36:52.62,1:36:53.62,Default,,0000,0000,0000,,你要一起来吗\Nyou come?
+
+

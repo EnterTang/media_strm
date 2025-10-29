@@ -1,0 +1,641 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Untitled
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.34,0:00:07.67,Default,,0,0,0,,(KRS-ONE's\N"Step Into A World" plays)
+Dialogue: 0,0:00:07.77,0:00:11.74,Default,,0,0,0,,* Step into a world
+Dialogue: 0,0:00:11.84,0:00:13.58,Default,,0,0,0,,* Where there's no...
+Dialogue: 0,0:00:13.68,0:00:15.68,Default,,0,0,0,,Eighth grade done, son.\NI made it.
+Dialogue: 0,0:00:19.55,0:00:21.08,Default,,0,0,0,,(music stops)
+Dialogue: 0,0:00:21.18,0:00:22.62,Default,,0,0,0,,Can you do that again\Nfor the camera?
+Dialogue: 0,0:00:22.72,0:00:23.69,Default,,0,0,0,,(scoffs) No, man.
+Dialogue: 0,0:00:23.79,0:00:24.79,Default,,0,0,0,,And put that away.
+Dialogue: 0,0:00:24.89,0:00:26.62,Default,,0,0,0,,The graduation ceremony\Nis over.
+Dialogue: 0,0:00:26.72,0:00:28.56,Default,,0,0,0,,The end of\Nanother school year.
+Dialogue: 0,0:00:28.66,0:00:29.63,Default,,0,0,0,,(door closes)
+Dialogue: 0,0:00:29.73,0:00:30.59,Default,,0,0,0,,I have to say,
+Dialogue: 0,0:00:30.69,0:00:32.03,Default,,0,0,0,,I'm starting to think\Nmoving to Orlando
+Dialogue: 0,0:00:32.13,0:00:33.13,Default,,0,0,0,,was a good idea.
+Dialogue: 0,0:00:33.23,0:00:34.53,Default,,0,0,0,,We've been here\Nfor three years.
+Dialogue: 0,0:00:34.63,0:00:36.03,Default,,0,0,0,,Eddie finished\Nmiddle school...
+Dialogue: 0,0:00:36.13,0:00:37.30,Default,,0,0,0,,It's been a long haul
+Dialogue: 0,0:00:37.40,0:00:38.87,Default,,0,0,0,,since starting\Non that Wednesday.
+Dialogue: 0,0:00:38.97,0:00:40.47,Default,,0,0,0,,...Cattleman's\Nis going great...
+Dialogue: 0,0:00:40.57,0:00:41.74,Default,,0,0,0,,Well, pretty soon\NGolden Saddle
+Dialogue: 0,0:00:41.84,0:00:43.04,Default,,0,0,0,,will be copying me\Ncopying them.
+Dialogue: 0,0:00:43.14,0:00:45.81,Default,,0,0,0,,...and I just got\Nmy biggest listing yet --
+Dialogue: 0,0:00:45.91,0:00:47.98,Default,,0,0,0,,a house\Nin Gulf Mist Estates.
+Dialogue: 0,0:00:48.08,0:00:49.38,Default,,0,0,0,,That fancy\Ngated community?
+Dialogue: 0,0:00:49.48,0:00:50.78,Default,,0,0,0,,Damn, woman.\NRight?
+Dialogue: 0,0:00:50.88,0:00:51.95,Default,,0,0,0,,We should celebrate.
+Dialogue: 0,0:00:52.05,0:00:54.08,Default,,0,0,0,,Turn on the A.C.
+Dialogue: 0,0:00:54.18,0:00:55.25,Default,,0,0,0,,(gasps)
+Dialogue: 0,0:00:55.35,0:00:56.92,Default,,0,0,0,,EVAN: Yes.\NO-oh!
+Dialogue: 0,0:00:57.02,0:00:58.25,Default,,0,0,0,,We're doing it, Jessica --
+Dialogue: 0,0:00:58.35,0:01:00.12,Default,,0,0,0,,We're living\Nthe American dream,
+Dialogue: 0,0:01:00.22,0:01:01.42,Default,,0,0,0,,just like --\Nthe landlord!
+Dialogue: 0,0:01:01.52,0:01:03.26,Default,,0,0,0,,Quick,\Nhide your grandmother!
+Dialogue: 0,0:01:03.36,0:01:05.06,Default,,0,0,0,,You still haven't\Nadded her to the lease?
+Dialogue: 0,0:01:05.16,0:01:06.43,Default,,0,0,0,,No, it's 100 extra bucks\Na month.
+Dialogue: 0,0:01:06.53,0:01:07.40,Default,,0,0,0,,Are you gonna pay it?
+Dialogue: 0,0:01:07.50,0:01:09.00,Default,,0,0,0,,Move, move!\NPut her in the pantry!
+Dialogue: 0,0:01:09.10,0:01:10.47,Default,,0,0,0,,Go, go, go, go!
+Dialogue: 0,0:01:12.94,0:01:14.00,Default,,0,0,0,,* Fresh off the boat
+Dialogue: 0,0:01:14.10,0:01:15.74,Default,,0,0,0,,* I'm gettin' mine\Neverywhere I go *
+Dialogue: 0,0:01:15.84,0:01:18.01,Default,,0,0,0,,* If you don't know, homey,\Nnow you know *
+Dialogue: 0,0:01:18.11,0:01:19.31,Default,,0,0,0,,* Fresh off the boat
+Dialogue: 0,0:01:19.41,0:01:21.64,Default,,0,0,0,,* Homey, you don't know\Nwhere I come from *
+Dialogue: 0,0:01:21.74,0:01:23.11,Default,,0,0,0,,* But I know where I'm goin'
+Dialogue: 0,0:01:23.21,0:01:25.91,Default,,0,0,0,,* I'm fresh off the boat
+Dialogue: 0,0:01:26.01,0:01:27.52,Default,,0,0,0,,**
+Dialogue: 0,0:01:27.62,0:01:29.49,Default,,0,0,0,,Another\Ndebate team victory.
+Dialogue: 0,0:01:29.59,0:01:31.49,Default,,0,0,0,,I still haven't heard\None good reason
+Dialogue: 0,0:01:31.59,0:01:33.66,Default,,0,0,0,,why we shouldn't\Nhave capital punishment.
+Dialogue: 0,0:01:33.76,0:01:36.02,Default,,0,0,0,,You'll never sell me\Non the electric chair.
+Dialogue: 0,0:01:36.13,0:01:38.66,Default,,0,0,0,,That power bill\Nmust be so high.
+Dialogue: 0,0:01:38.76,0:01:40.96,Default,,0,0,0,,I have to make a quick stop\Nto meet my new client.
+Dialogue: 0,0:01:41.06,0:01:42.83,Default,,0,0,0,,By all means, by all means.
+Dialogue: 0,0:01:42.93,0:01:44.67,Default,,0,0,0,,Whoa.
+Dialogue: 0,0:01:44.77,0:01:46.17,Default,,0,0,0,,This place looks nice.
+Dialogue: 0,0:01:46.27,0:01:49.81,Default,,0,0,0,,Eddie Murphy's mistress\Nlives here.\NOh.
+Dialogue: 0,0:01:49.94,0:01:52.88,Default,,0,0,0,,We've had a lot of trouble\Ntrying to sell this place.
+Dialogue: 0,0:01:52.98,0:01:55.14,Default,,0,0,0,,It's a tough market\Nfor high-end real estate.
+Dialogue: 0,0:01:55.24,0:01:56.65,Default,,0,0,0,,I'll still find you\Na buyer.
+Dialogue: 0,0:01:56.75,0:01:57.78,Default,,0,0,0,,(sighs) Okay.
+Dialogue: 0,0:01:57.88,0:01:59.32,Default,,0,0,0,,I like your debate blazer.
+Dialogue: 0,0:01:59.42,0:02:00.32,Default,,0,0,0,,The gold buttons
+Dialogue: 0,0:02:00.42,0:02:02.19,Default,,0,0,0,,whisper power\Ninstead of shouting it.
+Dialogue: 0,0:02:02.29,0:02:03.95,Default,,0,0,0,,It's actually\Nmy everyday blazer.
+Dialogue: 0,0:02:04.05,0:02:05.45,Default,,0,0,0,,I go to\NSt. Orlando's Prep.
+Dialogue: 0,0:02:05.55,0:02:07.52,Default,,0,0,0,,Private school --\NDo you love it?
+Dialogue: 0,0:02:07.62,0:02:08.89,Default,,0,0,0,,I bet you love it.
+Dialogue: 0,0:02:08.99,0:02:10.56,Default,,0,0,0,,I love it.
+Dialogue: 0,0:02:10.66,0:02:11.56,Default,,0,0,0,,Every two years,
+Dialogue: 0,0:02:11.66,0:02:13.73,Default,,0,0,0,,they refresh\Nall of the library books
+Dialogue: 0,0:02:13.83,0:02:15.56,Default,,0,0,0,,so the pages\Nare always crisp.
+Dialogue: 0,0:02:15.66,0:02:16.70,Default,,0,0,0,,Girl.
+Dialogue: 0,0:02:16.80,0:02:17.70,Default,,0,0,0,,For real.
+Dialogue: 0,0:02:17.80,0:02:19.20,Default,,0,0,0,,My mom's\Na librarian there.
+Dialogue: 0,0:02:19.30,0:02:21.30,Default,,0,0,0,,Did I mention they give us\Nbriefcases?
+Dialogue: 0,0:02:22.37,0:02:25.24,Default,,0,0,0,,They have uniforms,\Nan amazing debate team...\NJESSICA: (sighs)
+Dialogue: 0,0:02:25.34,0:02:27.14,Default,,0,0,0,,...a science lab\Nthat is an actual lab.
+Dialogue: 0,0:02:27.24,0:02:28.71,Default,,0,0,0,,They even line up\Nfor the water fountain,
+Dialogue: 0,0:02:28.81,0:02:30.01,Default,,0,0,0,,unlike the savages\Nat my school.
+Dialogue: 0,0:02:30.11,0:02:34.15,Default,,0,0,0,,(all kids shouting)
+Dialogue: 0,0:02:34.25,0:02:35.38,Default,,0,0,0,,GIRL: (screams)
+Dialogue: 0,0:02:35.48,0:02:38.09,Default,,0,0,0,,Can I please go to\NSt. Orlando's next year, Mommy?
+Dialogue: 0,0:02:38.19,0:02:39.82,Default,,0,0,0,,"Saint"?\NSounds expensive.
+Dialogue: 0,0:02:39.92,0:02:42.33,Default,,0,0,0,,But I really want to be with\Na higher echelon of people.
+Dialogue: 0,0:02:42.43,0:02:44.76,Default,,0,0,0,,Did you just learn\Nthe world "echelon"?
+Dialogue: 0,0:02:44.86,0:02:46.66,Default,,0,0,0,,Yes, and I would have\Nlearned it sooner
+Dialogue: 0,0:02:46.76,0:02:48.06,Default,,0,0,0,,if I went\Nto St. Orlando's.
+Dialogue: 0,0:02:48.16,0:02:49.53,Default,,0,0,0,,Private school\Nis a waste of money.
+Dialogue: 0,0:02:49.63,0:02:51.40,Default,,0,0,0,,It's for parents\Nwho outsource their discipline.
+Dialogue: 0,0:02:51.50,0:02:53.60,Default,,0,0,0,,But the private-school kids\Ncall each other "Chum"!
+Dialogue: 0,0:02:53.70,0:02:56.94,Default,,0,0,0,,I don't need to pay people\Nto push you guys to succeed.
+Dialogue: 0,0:02:57.04,0:02:59.04,Default,,0,0,0,,(sighs)\NI already do that\Nmyself.
+Dialogue: 0,0:02:59.14,0:03:01.04,Default,,0,0,0,,The Menendez brothers\Nwent to private school,
+Dialogue: 0,0:03:01.14,0:03:02.51,Default,,0,0,0,,and look what happened\Nto them.
+Dialogue: 0,0:03:02.61,0:03:03.45,Default,,0,0,0,,Who are they?
+Dialogue: 0,0:03:03.55,0:03:04.58,Default,,0,0,0,,Doesn't matter.
+Dialogue: 0,0:03:04.68,0:03:06.62,Default,,0,0,0,,The important thing is
+Dialogue: 0,0:03:06.72,0:03:08.92,Default,,0,0,0,,they didn't\Nget away with it.
+Dialogue: 0,0:03:09.02,0:03:11.59,Default,,0,0,0,,**
+Dialogue: 0,0:03:11.69,0:03:12.96,Default,,0,0,0,,Check out my new weapon
+Dialogue: 0,0:03:13.06,0:03:15.39,Default,,0,0,0,,against the scourge\Nof dead palm fronds --
+Dialogue: 0,0:03:15.49,0:03:18.23,Default,,0,0,0,,my telescopic pruner.
+Dialogue: 0,0:03:18.33,0:03:19.96,Default,,0,0,0,,Mm! Heh.\N(laughs)
+Dialogue: 0,0:03:20.06,0:03:20.93,Default,,0,0,0,,I'll tell ya.
+Dialogue: 0,0:03:21.96,0:03:23.10,Default,,0,0,0,,The right tool\Ncan make yard work a hoot.\NHmm.
+Dialogue: 0,0:03:24.43,0:03:26.13,Default,,0,0,0,,(laughs)\NI've always dreamed of owning\Na sit-down lawn mower.
+Dialogue: 0,0:03:26.24,0:03:27.47,Default,,0,0,0,,I'd cut grass,
+Dialogue: 0,0:03:27.57,0:03:29.54,Default,,0,0,0,,reenact scenes from\N"Can't Buy Me Love"...
+Dialogue: 0,0:03:29.64,0:03:30.71,Default,,0,0,0,,Well, do it.
+Dialogue: 0,0:03:30.81,0:03:31.71,Default,,0,0,0,,Your restaurant's\Ndoing well.
+Dialogue: 0,0:03:31.81,0:03:32.71,Default,,0,0,0,,You can afford one.
+Dialogue: 0,0:03:32.81,0:03:34.54,Default,,0,0,0,,My yard doesn't\Nbelong to me.
+Dialogue: 0,0:03:34.64,0:03:35.54,Default,,0,0,0,,I rent.
+Dialogue: 0,0:03:35.64,0:03:36.95,Default,,0,0,0,,I can't pluck a dandelion
+Dialogue: 0,0:03:37.05,0:03:39.32,Default,,0,0,0,,without hearing about it\Nfrom my landlord Murray.
+Dialogue: 0,0:03:39.42,0:03:41.22,Default,,0,0,0,,I can't wait\Nto be a homeowner.
+Dialogue: 0,0:03:41.32,0:03:42.92,Default,,0,0,0,,A man should own\Nhis own house.
+Dialogue: 0,0:03:43.02,0:03:44.12,Default,,0,0,0,,Murray's open to selling,
+Dialogue: 0,0:03:44.22,0:03:45.79,Default,,0,0,0,,but Jessica and I\Nare very strict
+Dialogue: 0,0:03:45.89,0:03:46.99,Default,,0,0,0,,about our long-term plans.
+Dialogue: 0,0:03:47.09,0:03:49.09,Default,,0,0,0,,We agreed for\Nthe next three years
+Dialogue: 0,0:03:49.19,0:03:51.93,Default,,0,0,0,,we reinvest everything\Ninto our businesses.
+Dialogue: 0,0:03:52.03,0:03:53.73,Default,,0,0,0,,(Crunch)
+Dialogue: 0,0:03:53.83,0:03:54.90,Default,,0,0,0,,Oh, man!
+Dialogue: 0,0:03:55.00,0:03:58.27,Default,,0,0,0,,That was Honey's\Nfavorite flamingo.
+Dialogue: 0,0:03:58.37,0:04:00.47,Default,,0,0,0,,She's gonna be P.O.'d.\NAw.
+Dialogue: 0,0:04:00.57,0:04:02.34,Default,,0,0,0,,(Door bell chimes)
+Dialogue: 0,0:04:04.24,0:04:05.11,Default,,0,0,0,,Hey.
+Dialogue: 0,0:04:05.21,0:04:06.34,Default,,0,0,0,,Evan said\Nhe'd pay for my manicure
+Dialogue: 0,0:04:06.44,0:04:07.91,Default,,0,0,0,,if I talked to you\Nabout St. Orlando's.
+Dialogue: 0,0:04:08.01,0:04:10.41,Default,,0,0,0,,I'm an alumna -- I --
+Dialogue: 0,0:04:10.51,0:04:12.28,Default,,0,0,0,,EVAN: Will you please\Nhear her out?
+Dialogue: 0,0:04:12.38,0:04:14.48,Default,,0,0,0,,I know private school\Nis expensive,
+Dialogue: 0,0:04:14.58,0:04:16.35,Default,,0,0,0,,but we only\Nhave to send me.
+Dialogue: 0,0:04:17.52,0:04:19.12,Default,,0,0,0,,The "Others"\Ndon't need to know.
+Dialogue: 0,0:04:20.79,0:04:22.09,Default,,0,0,0,,Come with me.
+Dialogue: 0,0:04:23.26,0:04:26.70,Default,,0,0,0,,These...are life plans.
+Dialogue: 0,0:04:26.80,0:04:28.76,Default,,0,0,0,,I made one\Nfor each member of the family,
+Dialogue: 0,0:04:28.86,0:04:30.60,Default,,0,0,0,,and I update them\Nevery five years.
+Dialogue: 0,0:04:30.70,0:04:33.37,Default,,0,0,0,,I've mapped out\Nall the classes and experiences
+Dialogue: 0,0:04:33.47,0:04:37.17,Default,,0,0,0,,you boys need to be successful\Nand lead good lives.
+Dialogue: 0,0:04:37.27,0:04:39.01,Default,,0,0,0,,Emery's good\Nat so many things,
+Dialogue: 0,0:04:39.11,0:04:40.88,Default,,0,0,0,,so I left\Nhis career plan open,
+Dialogue: 0,0:04:40.98,0:04:43.81,Default,,0,0,0,,and I focused on\Nhis personal life.
+Dialogue: 0,0:04:43.91,0:04:46.85,Default,,0,0,0,,Eddie's plan was easy\Nbecause the goal was simple.
+Dialogue: 0,0:04:46.95,0:04:49.49,Default,,0,0,0,,* Yeah
+Dialogue: 0,0:04:49.59,0:04:51.02,Default,,0,0,0,,And here is your plan.
+Dialogue: 0,0:04:52.86,0:04:55.36,Default,,0,0,0,,I've thought of everything.
+Dialogue: 0,0:04:55.46,0:04:57.86,Default,,0,0,0,,I've already seen\Nthese boards.\NWhat do you mean?
+Dialogue: 0,0:04:57.96,0:04:59.70,Default,,0,0,0,,I use the garage\Nas a cartwheel zone
+Dialogue: 0,0:04:59.80,0:05:01.56,Default,,0,0,0,,when I want to express joy\Nin private.
+Dialogue: 0,0:05:01.66,0:05:03.70,Default,,0,0,0,,But I wasn't planning on you\Nfinding them
+Dialogue: 0,0:05:03.80,0:05:05.00,Default,,0,0,0,,for another two years.
+Dialogue: 0,0:05:05.10,0:05:06.90,Default,,0,0,0,,You're ahead of schedule.
+Dialogue: 0,0:05:07.00,0:05:09.54,Default,,0,0,0,,And I'm ahead of everyone\Nin my class, too.
+Dialogue: 0,0:05:09.64,0:05:11.81,Default,,0,0,0,,That's why I want to go\Nto St. Orlando's.
+Dialogue: 0,0:05:11.91,0:05:13.91,Default,,0,0,0,,I could just give you\Nmore C.L.C.
+Dialogue: 0,0:05:14.01,0:05:16.04,Default,,0,0,0,,I've already done\Nall the workbooks --
+Dialogue: 0,0:05:16.14,0:05:18.01,Default,,0,0,0,,even the French one.
+Dialogue: 0,0:05:18.11,0:05:20.48,Default,,0,0,0,,(speaks French)
+Dialogue: 0,0:05:20.58,0:05:24.92,Default,,0,0,0,,**
+Dialogue: 0,0:05:25.02,0:05:26.22,Default,,0,0,0,,JESSICA: You have five minutes\Nto convince me
+Dialogue: 0,0:05:26.32,0:05:27.76,Default,,0,0,0,,why private school's\Nbetter for my son
+Dialogue: 0,0:05:27.86,0:05:28.89,Default,,0,0,0,,than public school.
+Dialogue: 0,0:05:31.99,0:05:33.53,Default,,0,0,0,,I'll only need four.
+Dialogue: 0,0:05:35.43,0:05:38.37,Default,,0,0,0,,EDDIE: Emery, that squirrel\Nwas on the porch again.
+Dialogue: 0,0:05:38.47,0:05:40.20,Default,,0,0,0,,We need to bean him in the head\Nwith your marbles.
+Dialogue: 0,0:05:40.30,0:05:41.50,Default,,0,0,0,,(mouse clicking)
+Dialogue: 0,0:05:41.60,0:05:42.77,Default,,0,0,0,,Is that a Pentium II?\NYep.
+Dialogue: 0,0:05:42.87,0:05:44.87,Default,,0,0,0,,I borrowed it from the A/V club\Nfor the summer.
+Dialogue: 0,0:05:44.97,0:05:45.84,Default,,0,0,0,,Check it out,
+Dialogue: 0,0:05:45.94,0:05:48.21,Default,,0,0,0,,I'm editing\Nyour graduation video.
+Dialogue: 0,0:05:48.31,0:05:49.61,Default,,0,0,0,,We are gathered\Nto say goodbye
+Dialogue: 0,0:05:49.71,0:05:52.08,Default,,0,0,0,,[voice breaking]\Nto the class of 1997.
+Dialogue: 0,0:05:52.55,0:05:54.58,Default,,0,0,0,,Whoa,\Nit's like "Pop Up Video"!
+Dialogue: 0,0:05:54.68,0:05:55.92,Default,,0,0,0,,Isn't it cool?
+Dialogue: 0,0:05:56.02,0:05:58.55,Default,,0,0,0,,As the great Boyz II Men\Nonce said,
+Dialogue: 0,0:05:58.65,0:06:01.79,Default,,0,0,0,,"It's so hard to say goodbye\Nto yesterday."
+Dialogue: 0,0:06:03.89,0:06:05.36,Default,,0,0,0,,(clicks)\NSo funny, right?
+Dialogue: 0,0:06:07.30,0:06:08.23,Default,,0,0,0,,Sure.
+Dialogue: 0,0:06:08.33,0:06:10.10,Default,,0,0,0,,Snack break --\NYou guys want anything?
+Dialogue: 0,0:06:10.20,0:06:11.23,Default,,0,0,0,,You know we do.
+Dialogue: 0,0:06:13.37,0:06:14.74,Default,,0,0,0,,You guys want to have\Nsome fun?
+Dialogue: 0,0:06:14.84,0:06:16.27,Default,,0,0,0,,-Yeah.\N-Mm-hmm.
+Dialogue: 0,0:06:17.74,0:06:20.31,Default,,0,0,0,,Lou, I've been thinking\Nabout what you said.
+Dialogue: 0,0:06:20.41,0:06:21.71,Default,,0,0,0,,About dandelions?\NI know.
+Dialogue: 0,0:06:21.81,0:06:23.31,Default,,0,0,0,,I regret sharing that\Nwith you.
+Dialogue: 0,0:06:23.41,0:06:24.31,Default,,0,0,0,,It felt very personal.
+Dialogue: 0,0:06:24.41,0:06:25.41,Default,,0,0,0,,No, no, no.
+Dialogue: 0,0:06:25.51,0:06:27.12,Default,,0,0,0,,About you wanting\Nto own your own house.
+Dialogue: 0,0:06:27.22,0:06:28.95,Default,,0,0,0,,I have a friend\Nthat can help you
+Dialogue: 0,0:06:29.05,0:06:30.29,Default,,0,0,0,,free up some cash.
+Dialogue: 0,0:06:30.39,0:06:32.89,Default,,0,0,0,,He's outside right now\Nwaiting for my signal.
+Dialogue: 0,0:06:33.99,0:06:35.39,Default,,0,0,0,,Now!
+Dialogue: 0,0:06:35.49,0:06:38.46,Default,,0,0,0,,(soft music plays)
+Dialogue: 0,0:06:44.80,0:06:45.77,Default,,0,0,0,,Oh, my God.\N(chuckles nervously)
+Dialogue: 0,0:06:45.87,0:06:46.80,Default,,0,0,0,,Michael Bolton.
+Dialogue: 0,0:06:46.90,0:06:47.90,Default,,0,0,0,,(Chuckles nervously,\Nclears throat)
+Dialogue: 0,0:06:48.00,0:06:49.14,Default,,0,0,0,,Um, what are you\Ndoing here?
+Dialogue: 0,0:06:49.24,0:06:50.74,Default,,0,0,0,,Recording my new album\Nin Orlando.
+Dialogue: 0,0:06:50.84,0:06:54.51,Default,,0,0,0,,I got to be in Florida\N183 days out of the year
+Dialogue: 0,0:06:54.61,0:06:56.14,Default,,0,0,0,,for tax purposes.
+Dialogue: 0,0:06:56.24,0:06:58.58,Default,,0,0,0,,Savvy in\Nand out of the studio.
+Dialogue: 0,0:06:58.68,0:07:00.32,Default,,0,0,0,,(chuckles)
+Dialogue: 0,0:07:00.42,0:07:02.28,Default,,0,0,0,,I've got a proposal\Nfor you.
+Dialogue: 0,0:07:02.38,0:07:04.52,Default,,0,0,0,,Do you know how many women\Nwould kill to hear me say that?
+Dialogue: 0,0:07:04.62,0:07:05.99,Default,,0,0,0,,So many women!
+Dialogue: 0,0:07:06.09,0:07:07.09,Default,,0,0,0,,My wife for one.
+Dialogue: 0,0:07:07.19,0:07:08.46,Default,,0,0,0,,(chuckles)
+Dialogue: 0,0:07:08.56,0:07:10.96,Default,,0,0,0,,JESSICA: I already pay taxes\Nfor public school.
+Dialogue: 0,0:07:11.06,0:07:14.83,Default,,0,0,0,,Why would I spend an extra\Nfour grand a year on private.
+Dialogue: 0,0:07:14.93,0:07:16.00,Default,,0,0,0,,Well, first of all,
+Dialogue: 0,0:07:16.10,0:07:18.30,Default,,0,0,0,,St. Orlando's\Nis a year-round school.
+Dialogue: 0,0:07:18.40,0:07:20.14,Default,,0,0,0,,No summer vacation?
+Dialogue: 0,0:07:20.24,0:07:21.47,Default,,0,0,0,,I could just stick my kids
+Dialogue: 0,0:07:21.57,0:07:23.14,Default,,0,0,0,,in public summer school\Nfor free.
+Dialogue: 0,0:07:23.24,0:07:26.68,Default,,0,0,0,,Certainly, but half the kids\Nare forced to be there
+Dialogue: 0,0:07:26.78,0:07:29.48,Default,,0,0,0,,because they're, forgive me,\N"Dum-dums."
+Dialogue: 0,0:07:29.58,0:07:30.81,Default,,0,0,0,,Is that really\Nwhat you want?
+Dialogue: 0,0:07:30.91,0:07:32.98,Default,,0,0,0,,Well, what I don't want\Nis to help pay
+Dialogue: 0,0:07:33.08,0:07:35.02,Default,,0,0,0,,for your school's\Nfootball program.
+Dialogue: 0,0:07:35.12,0:07:36.15,Default,,0,0,0,,There's no football here.
+Dialogue: 0,0:07:36.25,0:07:37.72,Default,,0,0,0,,We teach only\Nthe "Networking" sports --
+Dialogue: 0,0:07:37.82,0:07:41.02,Default,,0,0,0,,golf, squash, birding.
+Dialogue: 0,0:07:41.12,0:07:41.99,Default,,0,0,0,,That's great.
+Dialogue: 0,0:07:43.06,0:07:44.16,Default,,0,0,0,,But I'm sure the teachers here\Nare just as lazy.
+Dialogue: 0,0:07:44.26,0:07:45.49,Default,,0,0,0,,Oh,\Nwe don't have teachers.
+Dialogue: 0,0:07:45.59,0:07:47.63,Default,,0,0,0,,We hire specialists\Nin their field.
+Dialogue: 0,0:07:47.73,0:07:49.33,Default,,0,0,0,,We call them\N"Consultants."
+Dialogue: 0,0:07:49.43,0:07:51.63,Default,,0,0,0,,Continue.\NWe're private,
+Dialogue: 0,0:07:51.73,0:07:53.54,Default,,0,0,0,,so we can easily fire
+Dialogue: 0,0:07:53.64,0:07:55.40,Default,,0,0,0,,any underperforming\Nconsultants.
+Dialogue: 0,0:07:56.84,0:07:57.84,Default,,0,0,0,,(exhales sharply)
+Dialogue: 0,0:07:57.94,0:08:00.24,Default,,0,0,0,,Did I mention that\N99% of our students
+Dialogue: 0,0:08:00.34,0:08:02.04,Default,,0,0,0,,go on\Nto Ivy League schools?
+Dialogue: 0,0:08:02.14,0:08:04.01,Default,,0,0,0,,The other 1%\Ngo straight to med school.
+Dialogue: 0,0:08:04.11,0:08:06.88,Default,,0,0,0,,The first step\Nto doctor-president.
+Dialogue: 0,0:08:06.98,0:08:09.55,Default,,0,0,0,,We have relationships\Nwith all the top universities.
+Dialogue: 0,0:08:09.65,0:08:11.02,Default,,0,0,0,,We send more kids\Nto Harvard
+Dialogue: 0,0:08:11.12,0:08:12.66,Default,,0,0,0,,than any other school\Nin Orlando.
+Dialogue: 0,0:08:12.76,0:08:13.76,Default,,0,0,0,,And with a student
+Dialogue: 0,0:08:13.86,0:08:15.99,Default,,0,0,0,,who is already\Nacademically strong,
+Dialogue: 0,0:08:16.09,0:08:16.93,Default,,0,0,0,,like your son?
+Dialogue: 0,0:08:17.03,0:08:19.23,Default,,0,0,0,,We could send him\Ninto the stratosphere.
+Dialogue: 0,0:08:23.50,0:08:25.23,Default,,0,0,0,,The astronaut\Nholding the camera
+Dialogue: 0,0:08:25.33,0:08:27.00,Default,,0,0,0,,is also\Na St. Orlando's alum.
+Dialogue: 0,0:08:30.27,0:08:31.67,Default,,0,0,0,,One tuition, please.
+Dialogue: 0,0:08:31.77,0:08:32.78,Default,,0,0,0,,Yes!
+Dialogue: 0,0:08:32.88,0:08:34.04,Default,,0,0,0,,Goodbye, Mommy.
+Dialogue: 0,0:08:34.14,0:08:36.08,Default,,0,0,0,,Tell the family\NI'll see them in six months.
+Dialogue: 0,0:08:36.18,0:08:37.61,Default,,0,0,0,,W-We're not\Na boarding school.
+Dialogue: 0,0:08:37.71,0:08:38.85,Default,,0,0,0,,Ah.
+Dialogue: 0,0:08:45.19,0:08:46.89,Default,,0,0,0,,I'll pay for everything\Nbut P.E.
+Dialogue: 0,0:08:46.99,0:08:49.12,Default,,0,0,0,,Evan can just learn tennis\Nfrom his brother.
+Dialogue: 0,0:08:49.22,0:08:50.23,Default,,0,0,0,,We can't do that.
+Dialogue: 0,0:08:50.33,0:08:51.53,Default,,0,0,0,,Okay, fine.
+Dialogue: 0,0:08:51.63,0:08:53.76,Default,,0,0,0,,I'll pay for P.E.,\Nbut no English.
+Dialogue: 0,0:08:53.86,0:08:55.73,Default,,0,0,0,,He gets that free\Nfrom life.
+Dialogue: 0,0:08:55.83,0:08:58.30,Default,,0,0,0,,We don't offer private school\Nà la carte.
+Dialogue: 0,0:08:58.40,0:08:59.87,Default,,0,0,0,,I'll pay\Nthe whole year up front,
+Dialogue: 0,0:08:59.97,0:09:00.87,Default,,0,0,0,,but you have to give me
+Dialogue: 0,0:09:00.97,0:09:02.44,Default,,0,0,0,,a substantial\Nearly-bird discount.
+Dialogue: 0,0:09:02.54,0:09:04.41,Default,,0,0,0,,It's not that simple.
+Dialogue: 0,0:09:04.51,0:09:07.11,Default,,0,0,0,,First your son must be\Naccepted into this school.
+Dialogue: 0,0:09:07.21,0:09:09.08,Default,,0,0,0,,There is an application.
+Dialogue: 0,0:09:09.18,0:09:10.05,Default,,0,0,0,,Okay, sure. Whatever.
+Dialogue: 0,0:09:10.15,0:09:11.25,Default,,0,0,0,,I'll fill it out\Nright now.
+Dialogue: 0,0:09:11.35,0:09:13.12,Default,,0,0,0,,It's more involved\Nthan that.
+Dialogue: 0,0:09:13.22,0:09:15.28,Default,,0,0,0,,We need\Nletters of recommendation,
+Dialogue: 0,0:09:15.38,0:09:17.45,Default,,0,0,0,,transcripts,\Nan interview.
+Dialogue: 0,0:09:17.55,0:09:18.82,Default,,0,0,0,,We're highly selective.
+Dialogue: 0,0:09:18.92,0:09:19.96,Default,,0,0,0,,But...
+Dialogue: 0,0:09:21.29,0:09:23.13,Default,,0,0,0,,...Diversity.
+Dialogue: 0,0:09:23.23,0:09:24.73,Default,,0,0,0,,Oh, we don't have to worry\Nabout that here.
+Dialogue: 0,0:09:24.83,0:09:25.66,Default,,0,0,0,,We're private.
+Dialogue: 0,0:09:25.76,0:09:28.00,Default,,0,0,0,,So,\NI have to earn the privilege
+Dialogue: 0,0:09:28.10,0:09:30.30,Default,,0,0,0,,to pay\Nyour ridiculous tuition?
+Dialogue: 0,0:09:31.57,0:09:33.40,Default,,0,0,0,,If my son\Ndoesn't get into Harvard,
+Dialogue: 0,0:09:33.50,0:09:35.17,Default,,0,0,0,,I want a full refund.
+Dialogue: 0,0:09:38.27,0:09:40.01,Default,,0,0,0,,Headmaster.
+Dialogue: 0,0:09:40.11,0:09:43.68,Default,,0,0,0,,**
+Dialogue: 0,0:09:43.78,0:09:45.31,Default,,0,0,0,,You want to buy\Nmy restaurant?
+Dialogue: 0,0:09:45.41,0:09:46.92,Default,,0,0,0,,Well, I've already\Nconquered music,
+Dialogue: 0,0:09:47.02,0:09:48.92,Default,,0,0,0,,and it's time to diversify\Nmy brand.
+Dialogue: 0,0:09:49.02,0:09:50.92,Default,,0,0,0,,And Kenny Rogers\Nis doing so well
+Dialogue: 0,0:09:51.02,0:09:52.86,Default,,0,0,0,,with his\Nchicken restaurants --
+Dialogue: 0,0:09:52.96,0:09:54.02,Default,,0,0,0,,so well.
+Dialogue: 0,0:09:54.12,0:09:56.12,Default,,0,0,0,,He never lets you forget.
+Dialogue: 0,0:09:56.22,0:09:57.33,Default,,0,0,0,,I carry this around with me
+Dialogue: 0,0:09:57.43,0:09:59.26,Default,,0,0,0,,just to give me\Nmotivation.
+Dialogue: 0,0:09:59.86,0:10:02.00,Default,,0,0,0,,(sleigh bells jingle)
+Dialogue: 0,0:10:02.10,0:10:04.10,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:10:05.77,0:10:08.00,Default,,0,0,0,,(chuckles) Yeah.
+Dialogue: 0,0:10:08.10,0:10:09.00,Default,,0,0,0,,Well, I'm flattered,
+Dialogue: 0,0:10:09.10,0:10:10.61,Default,,0,0,0,,but my restaurant's\Nnot for sale.
+Dialogue: 0,0:10:10.71,0:10:12.88,Default,,0,0,0,,I moved my whole family\Ndown here for this,
+Dialogue: 0,0:10:12.98,0:10:14.11,Default,,0,0,0,,put a lot of work into it.
+Dialogue: 0,0:10:14.21,0:10:15.21,Default,,0,0,0,,I built it from nothing.
+Dialogue: 0,0:10:15.31,0:10:17.11,Default,,0,0,0,,What if I come in\Nas a silent partner?
+Dialogue: 0,0:10:17.21,0:10:19.01,Default,,0,0,0,,You could still\Nrun the day-to-day,
+Dialogue: 0,0:10:19.11,0:10:20.52,Default,,0,0,0,,I'd get\Na stake of the company,
+Dialogue: 0,0:10:20.62,0:10:22.05,Default,,0,0,0,,and you get\Na big cash infusion.
+Dialogue: 0,0:10:22.15,0:10:25.65,Default,,0,0,0,,Which you can use\Nto buy your house.
+Dialogue: 0,0:10:25.75,0:10:26.66,Default,,0,0,0,,Ayy!
+Dialogue: 0,0:10:26.76,0:10:27.66,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:10:27.76,0:10:28.96,Default,,0,0,0,,That does sound like\Na good deal.
+Dialogue: 0,0:10:29.06,0:10:30.79,Default,,0,0,0,,But Jessica and I\Nhave a rule --
+Dialogue: 0,0:10:30.89,0:10:32.80,Default,,0,0,0,,We don't deviate\Nfrom our life plan.
+Dialogue: 0,0:10:32.90,0:10:34.86,Default,,0,0,0,,And it's worked out well\Nfor us so far.
+Dialogue: 0,0:10:34.96,0:10:35.90,Default,,0,0,0,,(sighs)
+Dialogue: 0,0:10:36.00,0:10:37.33,Default,,0,0,0,,Sorry,\Nbut the answer is no.
+Dialogue: 0,0:10:38.47,0:10:39.37,Default,,0,0,0,,(exhales sharply)
+Dialogue: 0,0:10:39.47,0:10:41.54,Default,,0,0,0,,Michael, I am so sorry.
+Dialogue: 0,0:10:41.64,0:10:43.51,Default,,0,0,0,,I don't know what happened.
+Dialogue: 0,0:10:43.61,0:10:45.47,Default,,0,0,0,,I'm s--\NI don't know what happened.
+Dialogue: 0,0:10:45.57,0:10:46.81,Default,,0,0,0,,It's okay.
+Dialogue: 0,0:10:46.91,0:10:47.88,Default,,0,0,0,,It was worth a shot.
+Dialogue: 0,0:10:47.98,0:10:49.54,Default,,0,0,0,,How do you guys\Neven know each other?
+Dialogue: 0,0:10:49.64,0:10:51.71,Default,,0,0,0,,Oh, I did some\Nemergency dental work on him
+Dialogue: 0,0:10:51.81,0:10:53.58,Default,,0,0,0,,during his\NTime, Love & Tenderness tour.
+Dialogue: 0,0:10:53.68,0:10:54.82,Default,,0,0,0,,Oh.
+Dialogue: 0,0:10:54.92,0:10:56.35,Default,,0,0,0,,I slipped on a bouquet\Nof white roses.
+Dialogue: 0,0:10:56.45,0:10:57.99,Default,,0,0,0,,**
+Dialogue: 0,0:10:58.09,0:10:59.15,Default,,0,0,0,,(computer bleeps)
+Dialogue: 0,0:10:59.25,0:11:00.99,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:01.09,0:11:02.16,Default,,0,0,0,,DAVE:\NIt's not funny, dude.
+Dialogue: 0,0:11:02.26,0:11:04.09,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:04.19,0:11:05.43,Default,,0,0,0,,I always wear underwear.\NLook.
+Dialogue: 0,0:11:06.53,0:11:08.83,Default,,0,0,0,,Oh. No. Never mind.
+Dialogue: 0,0:11:08.93,0:11:10.53,Default,,0,0,0,,What's going on?
+Dialogue: 0,0:11:10.63,0:11:12.37,Default,,0,0,0,,We're turning\Nyour boring gradation video
+Dialogue: 0,0:11:12.47,0:11:13.60,Default,,0,0,0,,into gold.
+Dialogue: 0,0:11:14.40,0:11:17.37,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:19.27,0:11:21.11,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:22.71,0:11:24.08,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:26.38,0:11:27.95,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:28.05,0:11:29.42,Default,,0,0,0,,Trent, I can't believe\Nyou're a Sparrow Scout.
+Dialogue: 0,0:11:29.52,0:11:30.39,Default,,0,0,0,,That's so lame.
+Dialogue: 0,0:11:30.49,0:11:31.69,Default,,0,0,0,,I know\Nhow to filet a trout.
+Dialogue: 0,0:11:31.79,0:11:32.92,Default,,0,0,0,,What can you filet?
+Dialogue: 0,0:11:33.02,0:11:34.89,Default,,0,0,0,,You know I don't eat\Nanything that has a mama.
+Dialogue: 0,0:11:34.99,0:11:36.93,Default,,0,0,0,,(computer bleeps)\NBRIAN: Wait, what?
+Dialogue: 0,0:11:37.03,0:11:38.56,Default,,0,0,0,,What the hell is this?
+Dialogue: 0,0:11:39.39,0:11:41.56,Default,,0,0,0,,(laughter)
+Dialogue: 0,0:11:41.66,0:11:43.27,Default,,0,0,0,,Who wrote this bubble?
+Dialogue: 0,0:11:43.37,0:11:44.43,Default,,0,0,0,,Who thinks this?
+Dialogue: 0,0:11:44.53,0:11:45.77,Default,,0,0,0,,No, I want to know.
+Dialogue: 0,0:11:45.87,0:11:48.80,Default,,0,0,0,,**
+Dialogue: 0,0:11:48.90,0:11:51.57,Default,,0,0,0,,We should probably update this\Nto include private school.
+Dialogue: 0,0:11:51.67,0:11:53.14,Default,,0,0,0,,Should I get\Nthe Wite-Out?
+Dialogue: 0,0:11:53.24,0:11:55.61,Default,,0,0,0,,In this family,\Nwe don't hide mistakes.
+Dialogue: 0,0:11:55.71,0:11:57.58,Default,,0,0,0,,We look at them,\Nfeel shame,
+Dialogue: 0,0:11:57.68,0:11:59.71,Default,,0,0,0,,and never talk about them\Nagain.
+Dialogue: 0,0:11:59.82,0:12:01.28,Default,,0,0,0,,Hey, what are you guys\Ndoing out here?
+Dialogue: 0,0:12:01.38,0:12:03.95,Default,,0,0,0,,I'm just showing Evan\Nour life plans.
+Dialogue: 0,0:12:04.05,0:12:05.09,Default,,0,0,0,,Oh, great.
+Dialogue: 0,0:12:05.19,0:12:06.32,Default,,0,0,0,,You know,\NI was just thinking about
+Dialogue: 0,0:12:06.42,0:12:07.49,Default,,0,0,0,,how well\Nwe've done with those.
+Dialogue: 0,0:12:07.59,0:12:08.99,Default,,0,0,0,,Yes, because\Nwe're very strict
+Dialogue: 0,0:12:09.09,0:12:10.43,Default,,0,0,0,,about sticking\Nto the plan.
+Dialogue: 0,0:12:10.53,0:12:12.39,Default,,0,0,0,,Uh, we sure are.\N(laughs)
+Dialogue: 0,0:12:12.49,0:12:13.80,Default,,0,0,0,,Never stray no matter what.
+Dialogue: 0,0:12:13.90,0:12:15.40,Default,,0,0,0,,Otherwise, what's the point\Nof a plan, right?
+Dialogue: 0,0:12:15.50,0:12:17.77,Default,,0,0,0,,Right.\N(chuckles)
+Dialogue: 0,0:12:18.97,0:12:20.60,Default,,0,0,0,,Uh, Evan, I don't know\Nif your mom mentioned this,
+Dialogue: 0,0:12:20.70,0:12:21.77,Default,,0,0,0,,but I did\Nall the collage work.
+Dialogue: 0,0:12:21.87,0:12:23.51,Default,,0,0,0,,I didn't.
+Dialogue: 0,0:12:23.61,0:12:24.64,Default,,0,0,0,,I didn't.
+Dialogue: 0,0:12:25.51,0:12:27.11,Default,,0,0,0,,Hmm.
+Dialogue: 0,0:12:30.18,0:12:31.78,Default,,0,0,0,,You're not gonna tell him\Nabout private school?
+Dialogue: 0,0:12:31.88,0:12:33.42,Default,,0,0,0,,Not yet.
+Dialogue: 0,0:12:33.52,0:12:34.85,Default,,0,0,0,,Let's get you in first.
+Dialogue: 0,0:12:34.95,0:12:36.85,Default,,0,0,0,,If I'm gonna stray\Nfrom the plan,
+Dialogue: 0,0:12:36.95,0:12:38.42,Default,,0,0,0,,it can't be\Nfor just a "Maybe."
+Dialogue: 0,0:12:38.52,0:12:40.62,Default,,0,0,0,,(Notorious B.I.G.'s\N"Mo Money Mo Problems" plays)
+Dialogue: 0,0:12:40.72,0:12:43.16,Default,,0,0,0,,Evan got a kangaroo sticker\Nin math.
+Dialogue: 0,0:12:43.26,0:12:44.79,Default,,0,0,0,,Does kangaroo mean "A"?
+Dialogue: 0,0:12:44.89,0:12:46.59,Default,,0,0,0,,We don't believe\Nin letter grades.
+Dialogue: 0,0:12:46.69,0:12:48.26,Default,,0,0,0,,Well, St. Orlando's does,
+Dialogue: 0,0:12:48.36,0:12:49.66,Default,,0,0,0,,so if you had to say
+Dialogue: 0,0:12:49.76,0:12:52.47,Default,,0,0,0,,what grade\Na kangaroo represents,
+Dialogue: 0,0:12:52.57,0:12:54.60,Default,,0,0,0,,would you say "A"?
+Dialogue: 0,0:12:54.70,0:12:56.64,Default,,0,0,0,,I'd say a "B."
+Dialogue: 0,0:12:56.74,0:12:58.71,Default,,0,0,0,,* Can't no PhD hold me down
+Dialogue: 0,0:12:58.81,0:13:00.04,Default,,0,0,0,,"A"?\N* Cudda schooled me\Nto the game *
+Dialogue: 0,0:13:00.14,0:13:01.34,Default,,0,0,0,,* Now I know my duty
+Dialogue: 0,0:13:01.44,0:13:02.64,Default,,0,0,0,,* Stay humble, stay low,\Nblow like Hootie *
+Dialogue: 0,0:13:02.74,0:13:04.31,Default,,0,0,0,,Your daughter attends\NSt. Orlando's, right?
+Dialogue: 0,0:13:04.41,0:13:05.88,Default,,0,0,0,,As the parent\Nof a current student,
+Dialogue: 0,0:13:05.98,0:13:07.55,Default,,0,0,0,,I need you to sign\Nthis letter of recommendation
+Dialogue: 0,0:13:07.65,0:13:08.95,Default,,0,0,0,,I wrote for my son.\N* I don't know what\Nthey want from me *
+Dialogue: 0,0:13:09.05,0:13:11.69,Default,,0,0,0,,I will if you lower\Nyour commission.
+Dialogue: 0,0:13:11.79,0:13:12.82,Default,,0,0,0,,* It's like the mo' money\Nwe come across *
+Dialogue: 0,0:13:12.92,0:13:15.69,Default,,0,0,0,,* The mo' problems we see
+Dialogue: 0,0:13:15.79,0:13:17.39,Default,,0,0,0,,You're an alumna\Nof St. Orlando's, right?
+Dialogue: 0,0:13:17.49,0:13:18.83,Default,,0,0,0,,I need you to sign\Nthis letter of recommendation
+Dialogue: 0,0:13:18.93,0:13:19.79,Default,,0,0,0,,I wrote for my son.
+Dialogue: 0,0:13:19.90,0:13:21.53,Default,,0,0,0,,Oh, I really\Ncan't sign anything
+Dialogue: 0,0:13:21.63,0:13:23.07,Default,,0,0,0,,with my nails\Nso jacked up.
+Dialogue: 0,0:13:23.17,0:13:25.17,Default,,0,0,0,,* I'm the D to the A\Nto the D-D-Y *
+Dialogue: 0,0:13:25.27,0:13:27.37,Default,,0,0,0,,* I know you'd rather see me die\Nthan to see me fly *
+Dialogue: 0,0:13:27.47,0:13:29.74,Default,,0,0,0,,* I call all the shots,\Nrip all the spots *
+Dialogue: 0,0:13:29.84,0:13:31.64,Default,,0,0,0,,* Rock all the rocks,\Ncop all the drops *
+Dialogue: 0,0:13:31.74,0:13:33.01,Default,,0,0,0,,So we agree.
+Dialogue: 0,0:13:33.11,0:13:34.68,Default,,0,0,0,,We pool our graduation money
+Dialogue: 0,0:13:34.78,0:13:36.68,Default,,0,0,0,,so we can turn\Nthis driveway into a gym.
+Dialogue: 0,0:13:36.78,0:13:38.18,Default,,0,0,0,,We'll have all summer\Nto get ripped.
+Dialogue: 0,0:13:38.28,0:13:39.68,Default,,0,0,0,,We show up to high school\Nyoked out,
+Dialogue: 0,0:13:39.78,0:13:41.25,Default,,0,0,0,,and people will think\Nwe're sophomores.
+Dialogue: 0,0:13:41.35,0:13:43.82,Default,,0,0,0,,I know a great\Npreacher curl workout.
+Dialogue: 0,0:13:43.92,0:13:45.25,Default,,0,0,0,,Two of my sisters\Nwork at GNC,
+Dialogue: 0,0:13:45.35,0:13:47.16,Default,,0,0,0,,so I can hook us up\Nwith some creatine.
+Dialogue: 0,0:13:47.26,0:13:49.26,Default,,0,0,0,,It's really\Ncoming together.
+Dialogue: 0,0:13:49.36,0:13:50.93,Default,,0,0,0,,My step-brother\Nhas the video.
+Dialogue: 0,0:13:51.03,0:13:53.10,Default,,0,0,0,,What?\NI took it home\Nlast night
+Dialogue: 0,0:13:53.20,0:13:54.90,Default,,0,0,0,,to work on some more\Nmean bubbles about you guys,
+Dialogue: 0,0:13:55.00,0:13:56.00,Default,,0,0,0,,and he found it\Nin my room.
+Dialogue: 0,0:13:56.10,0:13:57.57,Default,,0,0,0,,That dude is a tool.
+Dialogue: 0,0:13:57.67,0:13:59.10,Default,,0,0,0,,He's gonna show the tape\Nto everyone.
+Dialogue: 0,0:13:59.20,0:14:01.20,Default,,0,0,0,,It won't matter how buff I am\Nwhen we start school
+Dialogue: 0,0:14:01.30,0:14:02.84,Default,,0,0,0,,if people know\NI'm a Sparrow Scout.
+Dialogue: 0,0:14:02.94,0:14:05.07,Default,,0,0,0,,People will think\NI want to do it with a tree.
+Dialogue: 0,0:14:05.17,0:14:06.17,Default,,0,0,0,,I'm ruined.
+Dialogue: 0,0:14:06.27,0:14:07.51,Default,,0,0,0,,I was gonna\Ngo out for football.
+Dialogue: 0,0:14:09.11,0:14:10.61,Default,,0,0,0,,I just want your support\Non this.
+Dialogue: 0,0:14:10.71,0:14:12.35,Default,,0,0,0,,Which part, man?
+Dialogue: 0,0:14:12.45,0:14:14.12,Default,,0,0,0,,We have to get\Nthat tape back.
+Dialogue: 0,0:14:14.22,0:14:16.25,Default,,0,0,0,,We can't start high school\Nas losers.
+Dialogue: 0,0:14:18.35,0:14:20.89,Default,,0,0,0,,Royce:\NThis is the interview portion\Nof our process.
+Dialogue: 0,0:14:20.99,0:14:23.09,Default,,0,0,0,,We just have a few questions\Nto ask you.
+Dialogue: 0,0:14:23.19,0:14:24.29,Default,,0,0,0,,It's my pleasure.
+Dialogue: 0,0:14:24.39,0:14:27.30,Default,,0,0,0,,So, Evan, what's a current item\Nin the news
+Dialogue: 0,0:14:27.40,0:14:28.40,Default,,0,0,0,,that interests you?
+Dialogue: 0,0:14:28.50,0:14:29.70,Default,,0,0,0,,Sheep cloning.
+Dialogue: 0,0:14:29.80,0:14:32.03,Default,,0,0,0,,I think it would be a boon\Nfor the sweater industry.
+Dialogue: 0,0:14:32.13,0:14:33.04,Default,,0,0,0,,Who do you admire?
+Dialogue: 0,0:14:33.14,0:14:35.30,Default,,0,0,0,,Whom do I admire?
+Dialogue: 0,0:14:37.57,0:14:39.47,Default,,0,0,0,,Why are you interested\Nin our school?
+Dialogue: 0,0:14:39.57,0:14:41.11,Default,,0,0,0,,I'd come for your blazers,
+Dialogue: 0,0:14:41.21,0:14:42.11,Default,,0,0,0,,but I'd stay for your
+Dialogue: 0,0:14:42.21,0:14:43.88,Default,,0,0,0,,International\NBaccalaureate program.
+Dialogue: 0,0:14:45.31,0:14:46.41,Default,,0,0,0,,Tell me about your family.
+Dialogue: 0,0:14:46.51,0:14:47.82,Default,,0,0,0,,They're all good eggs.
+Dialogue: 0,0:14:47.92,0:14:49.58,Default,,0,0,0,,We rent a house\Nin North Orlando,
+Dialogue: 0,0:14:49.68,0:14:51.65,Default,,0,0,0,,my parents\Nrun a steakhouse.
+Dialogue: 0,0:14:51.75,0:14:53.29,Default,,0,0,0,,We're just your typical\NAmerican family
+Dialogue: 0,0:14:53.39,0:14:55.06,Default,,0,0,0,,who's overcome\Nincredible odds
+Dialogue: 0,0:14:55.16,0:14:55.99,Default,,0,0,0,,to achieve big dreams.
+Dialogue: 0,0:14:56.09,0:14:58.99,Default,,0,0,0,,(chuckles)
+Dialogue: 0,0:14:59.09,0:15:01.50,Default,,0,0,0,,Well,\Nthat's all of our questions.
+Dialogue: 0,0:15:01.60,0:15:03.00,Default,,0,0,0,,No red flags.
+Dialogue: 0,0:15:03.10,0:15:04.23,Default,,0,0,0,,(inhales sharply)
+Dialogue: 0,0:15:04.33,0:15:05.80,Default,,0,0,0,,We'll be in touch with you\Nvery soon.
+Dialogue: 0,0:15:05.90,0:15:07.07,Default,,0,0,0,,**
+Dialogue: 0,0:15:07.17,0:15:08.67,Default,,0,0,0,,(whispering)\NHey, great job.
+Dialogue: 0,0:15:11.57,0:15:13.44,Default,,0,0,0,,Evan, it's here.
+Dialogue: 0,0:15:14.08,0:15:15.84,Default,,0,0,0,,It's so big!
+Dialogue: 0,0:15:15.94,0:15:17.75,Default,,0,0,0,,That means they're sending us\Nparking instructions,
+Dialogue: 0,0:15:17.85,0:15:20.35,Default,,0,0,0,,reading lists,\Nbumper stickers for the car...
+Dialogue: 0,0:15:20.45,0:15:24.02,Default,,0,0,0,,"Dear Mr. Huang,\Nsorry to inform you that"...
+Dialogue: 0,0:15:24.12,0:15:25.32,Default,,0,0,0,,The hell?!
+Dialogue: 0,0:15:25.42,0:15:27.76,Default,,0,0,0,,Oh, you didn't get in?
+Dialogue: 0,0:15:30.96,0:15:33.03,Default,,0,0,0,,And they still sent us these?
+Dialogue: 0,0:15:38.93,0:15:41.00,Default,,0,0,0,,How could you not get in?
+Dialogue: 0,0:15:41.10,0:15:43.34,Default,,0,0,0,,You have perfect grades,\Nyou killed your interview,
+Dialogue: 0,0:15:43.44,0:15:45.51,Default,,0,0,0,,and there is no way they\Ncould tie you back to Eddie.
+Dialogue: 0,0:15:45.61,0:15:48.11,Default,,0,0,0,,Well, I guess they don't think\NI belong in their echelon.
+Dialogue: 0,0:15:48.21,0:15:51.38,Default,,0,0,0,,No.\NSomeone made a mistake.
+Dialogue: 0,0:15:51.48,0:15:52.81,Default,,0,0,0,,(knocks at door)
+Dialogue: 0,0:15:55.15,0:15:56.38,Default,,0,0,0,,You messed up, Deidre.
+Dialogue: 0,0:15:56.48,0:15:58.65,Default,,0,0,0,,Evan didn't\Nget into St. Orlando's.
+Dialogue: 0,0:15:58.75,0:16:00.46,Default,,0,0,0,,It was your\Nletter of recommendation.
+Dialogue: 0,0:16:00.56,0:16:01.79,Default,,0,0,0,,Uh, you mean\Nthe one that you wrote
+Dialogue: 0,0:16:01.89,0:16:02.79,Default,,0,0,0,,and I just signed?
+Dialogue: 0,0:16:02.89,0:16:05.86,Default,,0,0,0,,W-- It was not\Na strong signature!
+Dialogue: 0,0:16:05.96,0:16:08.80,Default,,0,0,0,,It tapered off at the end,\Nconveying doubt.
+Dialogue: 0,0:16:08.90,0:16:11.37,Default,,0,0,0,,Jessica, look,\Nprivate schools are picky.
+Dialogue: 0,0:16:11.47,0:16:14.47,Default,,0,0,0,,Unless your family\Nhas gone there for generations,
+Dialogue: 0,0:16:14.57,0:16:16.50,Default,,0,0,0,,or you're the child\Nof someone who works there,
+Dialogue: 0,0:16:16.60,0:16:18.34,Default,,0,0,0,,there's really\Nno guarantee.
+Dialogue: 0,0:16:18.44,0:16:20.64,Default,,0,0,0,,But Evan\Nis overqualified.
+Dialogue: 0,0:16:20.74,0:16:21.98,Default,,0,0,0,,How could\Nthey reject him?
+Dialogue: 0,0:16:22.08,0:16:23.65,Default,,0,0,0,,Maybe it's not him.
+Dialogue: 0,0:16:23.75,0:16:25.05,Default,,0,0,0,,Maybe it's you.
+Dialogue: 0,0:16:25.15,0:16:27.68,Default,,0,0,0,,These schools don't just\Nevaluate the student.
+Dialogue: 0,0:16:27.78,0:16:29.35,Default,,0,0,0,,They evaluate\Nthe whole family.
+Dialogue: 0,0:16:29.45,0:16:32.32,Default,,0,0,0,,Why would my family\Nbe rejected?
+Dialogue: 0,0:16:32.42,0:16:33.99,Default,,0,0,0,,We're doing great.
+Dialogue: 0,0:16:34.09,0:16:35.69,Default,,0,0,0,,We live\Nin a good neighborhood,
+Dialogue: 0,0:16:35.79,0:16:37.23,Default,,0,0,0,,we own\Nour own restaurant --
+Dialogue: 0,0:16:37.33,0:16:39.26,Default,,0,0,0,,Word in\Nthe birding community --
+Dialogue: 0,0:16:39.36,0:16:41.66,Default,,0,0,0,,St. Orlando's\Nsaw you as renters
+Dialogue: 0,0:16:41.76,0:16:45.07,Default,,0,0,0,,who work\Nin the service industry.
+Dialogue: 0,0:16:45.17,0:16:46.17,Default,,0,0,0,,And I heard sometimes
+Dialogue: 0,0:16:46.27,0:16:48.00,Default,,0,0,0,,you hide you mother-in-law\Nin the pantry?
+Dialogue: 0,0:16:48.10,0:16:49.50,Default,,0,0,0,,Mm.
+Dialogue: 0,0:16:50.00,0:16:51.27,Default,,0,0,0,,(car door closes)
+Dialogue: 0,0:16:51.37,0:16:52.61,Default,,0,0,0,,Murray,\Nwhat are you doing here?
+Dialogue: 0,0:16:52.71,0:16:54.11,Default,,0,0,0,,I already sent you\Nthis month's rent.
+Dialogue: 0,0:16:54.21,0:16:56.71,Default,,0,0,0,,Ah,\Njust inspecting my property,
+Dialogue: 0,0:16:56.81,0:16:57.85,Default,,0,0,0,,and I happen to notice
+Dialogue: 0,0:16:57.95,0:16:59.75,Default,,0,0,0,,that there's some damage\Nto the driveway
+Dialogue: 0,0:16:59.85,0:17:01.22,Default,,0,0,0,,which I'm gonna\Nhave to charge you for.
+Dialogue: 0,0:17:01.32,0:17:04.02,Default,,0,0,0,,Did you have\Nan above-ground pool out here
+Dialogue: 0,0:17:04.12,0:17:05.05,Default,,0,0,0,,or something?
+Dialogue: 0,0:17:05.15,0:17:07.29,Default,,0,0,0,,We did not.
+Dialogue: 0,0:17:07.39,0:17:09.22,Default,,0,0,0,,And I notice that the lawn\Nlooks a little different.
+Dialogue: 0,0:17:09.32,0:17:10.46,Default,,0,0,0,,Have you been\Ntampering with it?
+Dialogue: 0,0:17:10.56,0:17:12.29,Default,,0,0,0,,What? No.
+Dialogue: 0,0:17:12.39,0:17:14.13,Default,,0,0,0,,Well, someone's been\Nweeding this yard,
+Dialogue: 0,0:17:14.23,0:17:15.60,Default,,0,0,0,,'cause I don't see\Nany dandelions.
+Dialogue: 0,0:17:15.70,0:17:16.93,Default,,0,0,0,,You know they help indicate
+Dialogue: 0,0:17:17.03,0:17:19.20,Default,,0,0,0,,whether the grass\Nis getting enough moisture,
+Dialogue: 0,0:17:19.30,0:17:21.20,Default,,0,0,0,,so someone better not\Nbe messing with them.
+Dialogue: 0,0:17:22.24,0:17:23.87,Default,,0,0,0,,(inhales sharply)
+Dialogue: 0,0:17:23.97,0:17:25.27,Default,,0,0,0,,You know what, Murray?
+Dialogue: 0,0:17:25.37,0:17:26.71,Default,,0,0,0,,I did pick the dandelions.
+Dialogue: 0,0:17:26.81,0:17:28.28,Default,,0,0,0,,I picked 10 dandelions,
+Dialogue: 0,0:17:28.38,0:17:29.24,Default,,0,0,0,,and I made 10 wishes,
+Dialogue: 0,0:17:29.34,0:17:30.48,Default,,0,0,0,,and you know\Nwhat they all were?
+Dialogue: 0,0:17:30.58,0:17:31.95,Default,,0,0,0,,To own my own house.
+Dialogue: 0,0:17:32.05,0:17:34.55,Default,,0,0,0,,You know, you don't have\Nto keep making the same wish
+Dialogue: 0,0:17:34.65,0:17:35.82,Default,,0,0,0,,over and over.
+Dialogue: 0,0:17:35.92,0:17:37.42,Default,,0,0,0,,God hears you\Nafter the first one.
+Dialogue: 0,0:17:37.52,0:17:38.79,Default,,0,0,0,,(sighs)
+Dialogue: 0,0:17:40.56,0:17:42.92,Default,,0,0,0,,(Video plays,\NTyler laughs)
+Dialogue: 0,0:17:46.39,0:17:49.00,Default,,0,0,0,,Are you sure\Nyour step-brother's only 16?
+Dialogue: 0,0:17:49.10,0:17:50.13,Default,,0,0,0,,No. Tyler could be 30.
+Dialogue: 0,0:17:50.23,0:17:51.67,Default,,0,0,0,,I don't know\Nmuch about him.
+Dialogue: 0,0:17:51.77,0:17:54.67,Default,,0,0,0,,I'm just gonna go talk to him,\Nyoung man to young man --
+Dialogue: 0,0:17:54.77,0:17:56.60,Default,,0,0,0,,ask him to remember\Nwhat it was like
+Dialogue: 0,0:17:56.70,0:17:57.81,Default,,0,0,0,,when he was a freshman,
+Dialogue: 0,0:17:57.91,0:17:59.14,Default,,0,0,0,,how hard it was\Nstarting high school
+Dialogue: 0,0:17:59.24,0:18:01.18,Default,,0,0,0,,when all you have\Nis your friends
+Dialogue: 0,0:18:01.28,0:18:04.11,Default,,0,0,0,,and how I'm asking,\Nas Brian's friend,
+Dialogue: 0,0:18:04.21,0:18:05.41,Default,,0,0,0,,for that tape back.
+Dialogue: 0,0:18:05.51,0:18:07.42,Default,,0,0,0,,(inspirational music plays)
+Dialogue: 0,0:18:07.52,0:18:08.65,Default,,0,0,0,,(music stops)\NWell, that'll never work.
+Dialogue: 0,0:18:08.75,0:18:10.75,Default,,0,0,0,,Yeah, put that\Nin the "Stupid idea" file.
+Dialogue: 0,0:18:10.85,0:18:12.92,Default,,0,0,0,,You guys are too quick\Nwith that file.
+Dialogue: 0,0:18:13.02,0:18:15.79,Default,,0,0,0,,I don't know why my\N"Poison him" idea\Nis in there.
+Dialogue: 0,0:18:15.89,0:18:17.96,Default,,0,0,0,,Unless someone\Ncomes up with a better plan,
+Dialogue: 0,0:18:18.06,0:18:19.19,Default,,0,0,0,,I'm going in.
+Dialogue: 0,0:18:21.80,0:18:24.77,Default,,0,0,0,,(door opens, closes)\N(laughs)
+Dialogue: 0,0:18:24.87,0:18:26.93,Default,,0,0,0,,(knocks at door)
+Dialogue: 0,0:18:27.03,0:18:29.54,Default,,0,0,0,,Mom, I don't want\Nany muesli.
+Dialogue: 0,0:18:31.94,0:18:33.51,Default,,0,0,0,,I recognize you\Nfrom the video.
+Dialogue: 0,0:18:33.61,0:18:34.48,Default,,0,0,0,,Your pop-up said
+Dialogue: 0,0:18:35.48,0:18:35.81,Default,,0,0,0,,you ate string cheese\Nthat fell in the gutter.
+Dialogue: 0,0:18:36.61,0:18:37.55,Default,,0,0,0,,It was lying\Non a bed of leaves.
+Dialogue: 0,0:18:37.65,0:18:39.61,Default,,0,0,0,,It was clean.\NWhat are you doing here?
+Dialogue: 0,0:18:39.71,0:18:41.78,Default,,0,0,0,,I'm one of your\Nstep-brother's friends.
+Dialogue: 0,0:18:41.88,0:18:43.45,Default,,0,0,0,,I'm here to talk to you\Nyoung man to young man,
+Dialogue: 0,0:18:43.55,0:18:45.29,Default,,0,0,0,,and to ask you to remember\Nwhat it was like
+Dialogue: 0,0:18:45.39,0:18:46.52,Default,,0,0,0,,when you were\Na freshman --
+Dialogue: 0,0:18:46.62,0:18:47.96,Default,,0,0,0,,(glass shatters)
+Dialogue: 0,0:18:48.06,0:18:49.56,Default,,0,0,0,,-What the hell?\N-Get the tape!
+Dialogue: 0,0:18:52.36,0:18:53.53,Default,,0,0,0,,Poison him\Nbefore you leave!
+Dialogue: 0,0:18:53.63,0:18:56.66,Default,,0,0,0,,**
+Dialogue: 0,0:19:00.20,0:19:01.67,Default,,0,0,0,,Nope.
+Dialogue: 0,0:19:01.77,0:19:03.21,Default,,0,0,0,,Nope.
+Dialogue: 0,0:19:05.07,0:19:06.04,Default,,0,0,0,,What's this\Ntwo-tone one?
+Dialogue: 0,0:19:06.14,0:19:07.54,Default,,0,0,0,,They're all the same,\NMichael.
+Dialogue: 0,0:19:08.91,0:19:10.38,Default,,0,0,0,,Okay, let's do it.
+Dialogue: 0,0:19:10.48,0:19:11.58,Default,,0,0,0,,Is my receptionist\Nnot out there?
+Dialogue: 0,0:19:11.68,0:19:12.68,Default,,0,0,0,,Rebecca!
+Dialogue: 0,0:19:12.78,0:19:14.65,Default,,0,0,0,,I don't care if it's not\Nin my life plan.
+Dialogue: 0,0:19:14.75,0:19:16.05,Default,,0,0,0,,I can't be a renter\Nanymore.
+Dialogue: 0,0:19:16.15,0:19:17.15,Default,,0,0,0,,I need to own my house,
+Dialogue: 0,0:19:17.25,0:19:19.02,Default,,0,0,0,,so I'll sell you\Na stake in the restaurant
+Dialogue: 0,0:19:19.12,0:19:20.42,Default,,0,0,0,,and take you on\Nas a partner.
+Dialogue: 0,0:19:20.52,0:19:22.56,Default,,0,0,0,,And together,\Nwe'll destroy Kenny Rogers.
+Dialogue: 0,0:19:22.66,0:19:24.83,Default,,0,0,0,,That's more your thing,
+Dialogue: 0,0:19:24.93,0:19:26.73,Default,,0,0,0,,but I like that\Nyou're motivated by revenge.
+Dialogue: 0,0:19:26.83,0:19:27.83,Default,,0,0,0,,My wife will love that.
+Dialogue: 0,0:19:29.53,0:19:31.53,Default,,0,0,0,,(all chuckling)
+Dialogue: 0,0:19:31.63,0:19:34.84,Default,,0,0,0,,Mom, I've had time\Nto think about it,
+Dialogue: 0,0:19:34.94,0:19:36.17,Default,,0,0,0,,and it's gonna be okay.
+Dialogue: 0,0:19:36.27,0:19:38.21,Default,,0,0,0,,I thought you said\Nyou weren't feeling challenged
+Dialogue: 0,0:19:38.31,0:19:39.24,Default,,0,0,0,,in your regular school.
+Dialogue: 0,0:19:39.34,0:19:41.58,Default,,0,0,0,,And I'll make that\Nmy new challenge.
+Dialogue: 0,0:19:41.68,0:19:42.91,Default,,0,0,0,,I'll do extra C.L.C.,
+Dialogue: 0,0:19:43.01,0:19:44.88,Default,,0,0,0,,audit some\Njunior college classes,
+Dialogue: 0,0:19:44.98,0:19:46.18,Default,,0,0,0,,take an immersion trip\Nto Montreal
+Dialogue: 0,0:19:46.28,0:19:47.28,Default,,0,0,0,,to work on my French.
+Dialogue: 0,0:19:49.02,0:19:50.35,Default,,0,0,0,,Michael Bolton
+Dialogue: 0,0:19:50.45,0:19:52.22,Default,,0,0,0,,offered me a partnership deal\Nfor the restaurant,
+Dialogue: 0,0:19:52.32,0:19:53.29,Default,,0,0,0,,and I think\Nwe should take it.
+Dialogue: 0,0:19:53.39,0:19:55.09,Default,,0,0,0,,What?
+Dialogue: 0,0:19:55.19,0:19:56.62,Default,,0,0,0,,I know it means\Nstraying from our life plan,
+Dialogue: 0,0:19:56.72,0:19:58.43,Default,,0,0,0,,but we should make exceptions\Nfor good opportunities.
+Dialogue: 0,0:19:58.53,0:19:59.89,Default,,0,0,0,,I want to own our house,
+Dialogue: 0,0:19:59.99,0:20:02.10,Default,,0,0,0,,and this deal\Nwill let us do that.
+Dialogue: 0,0:20:05.93,0:20:07.27,Default,,0,0,0,,You're right.
+Dialogue: 0,0:20:07.37,0:20:10.20,Default,,0,0,0,,Maybe we can be less\Nstrict with our plans.
+Dialogue: 0,0:20:10.31,0:20:14.28,Default,,0,0,0,,But we're not buying\Nthis house.
+Dialogue: 0,0:20:18.58,0:20:19.88,Default,,0,0,0,,We'd like to buy\Nyour house.
+Dialogue: 0,0:20:20.72,0:20:22.12,Default,,0,0,0,,You want to buy\Nthis house?
+Dialogue: 0,0:20:22.22,0:20:24.25,Default,,0,0,0,,But with\None stipulation.
+Dialogue: 0,0:20:25.22,0:20:27.76,Default,,0,0,0,,You get our son\Ninto St. Orlando's.
+Dialogue: 0,0:20:27.86,0:20:28.99,Default,,0,0,0,,Your wife works there,\Nright?
+Dialogue: 0,0:20:30.33,0:20:33.13,Default,,0,0,0,,She gets our son in,\Nyou've sold your house.
+Dialogue: 0,0:20:33.23,0:20:34.76,Default,,0,0,0,,We can work\Nsomething out.
+Dialogue: 0,0:20:35.13,0:20:36.66,Default,,0,0,0,,I'm going\Nto private school!
+Dialogue: 0,0:20:36.76,0:20:38.67,Default,,0,0,0,,I'm not in the garage,\Nbut screw it!
+Dialogue: 0,0:20:38.77,0:20:41.40,Default,,0,0,0,,(chuckles)
+Dialogue: 0,0:20:41.50,0:20:42.50,Default,,0,0,0,,Are we sure about this?
+Dialogue: 0,0:20:42.60,0:20:43.91,Default,,0,0,0,,You want\Nto own your own home,
+Dialogue: 0,0:20:44.01,0:20:46.14,Default,,0,0,0,,I want Evan\Nin private school.
+Dialogue: 0,0:20:46.24,0:20:48.18,Default,,0,0,0,,Michael Bolton\Nwill get us both.
+Dialogue: 0,0:20:48.28,0:20:51.41,Default,,0,0,0,,**
+Dialogue: 0,0:20:56.35,0:20:57.18,Default,,0,0,0,,DAVE: We did it!\NWe got the tape back.
+Dialogue: 0,0:20:58.22,0:20:58.52,Default,,0,0,0,,Are you gonna get in trouble\Nfor throwing a rock
+Dialogue: 0,0:20:59.32,0:20:59.82,Default,,0,0,0,,through your\Nstepbrother's window?
+Dialogue: 0,0:21:00.92,0:21:02.46,Default,,0,0,0,,Eh, if things get heated\NI can always fake a seizure.
+Dialogue: 0,0:21:02.56,0:21:04.86,Default,,0,0,0,,Guys, we're entering high school\Non a win.
+Dialogue: 0,0:21:04.96,0:21:06.76,Default,,0,0,0,,Things are gonna be okay.
+Dialogue: 0,0:21:07.93,0:21:09.03,Default,,0,0,0,,Yeah!
+Dialogue: 0,0:21:14.27,0:21:15.37,Default,,0,0,0,,Divorce.
+Dialogue: 0,0:21:15.47,0:21:16.67,Default,,0,0,0,,What's going on?\NPack your things
+Dialogue: 0,0:21:16.77,0:21:18.01,Default,,0,0,0,,and say goodbye\Nto your friends.
+Dialogue: 0,0:21:18.11,0:21:19.01,Default,,0,0,0,,We're moving.
+Dialogue: 0,0:21:19.11,0:21:21.18,Default,,0,0,0,,Time to make new friends.
+Dialogue: 0,0:21:22.01,0:21:23.31,Default,,0,0,0,,EMERY:\NHold that look, Eddie.
+Dialogue: 0,0:21:23.41,0:21:24.95,Default,,0,0,0,,I'm trying\Nto find the zoom.
+Dialogue: 0,0:21:25.05,0:21:26.11,Default,,0,0,0,,Ah, there it is.
+Dialogue: 0,0:21:26.21,0:21:29.18,Default,,0,0,0,,**
+Dialogue: 0,0:21:34.06,0:21:36.06,Default,,0,0,0,,-- Captions by VITA --

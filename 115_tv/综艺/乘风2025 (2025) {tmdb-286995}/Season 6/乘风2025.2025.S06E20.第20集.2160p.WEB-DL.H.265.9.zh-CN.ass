@@ -1,0 +1,658 @@
+﻿[Script Info]
+;EnCode By aBu 2019
+
+Title:ReCode By aBu 2019
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微软雅黑,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.81,0:00:43.15,Default,NTP,0,0,0,,我叫做约翰·菲茨杰拉德·拜尔斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My name is John Fitzgerald Byers.{\fs}
+Dialogue: 0,0:00:43.15,0:00:46.92,Default,NTP,0,0,0,,是与我们第35任总统同名\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I was named after our 35th president.{\fs}
+Dialogue: 0,0:00:46.92,0:00:50.91,Default,NTP,0,0,0,,我不断重复着这样一个美丽的梦\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And I keep having this beautiful dream.{\fs}
+Dialogue: 0,0:00:51.92,0:00:55.92,Default,NTP,0,0,0,,在我的梦里 1963年11月22日的事情\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}In my dream, the events of November 22, 1 963...{\fs}
+Dialogue: 0,0:00:56.63,0:00:58.73,Default,NTP,0,0,0,,从来没发生过\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}never happened.{\fs}
+Dialogue: 0,0:00:58.73,0:01:02.72,Default,NTP,0,0,0,,在梦里 与我同名的总统也从来没有遇刺\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}In it, my namesake was never assassinated.{\fs}
+Dialogue: 0,0:01:04.74,0:01:08.34,Default,NTP,0,0,0,,我梦中的其它事情也与现实不同\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Other things are different too in my dream.{\fs}
+Dialogue: 0,0:01:08.34,0:01:11.54,Default,NTP,0,0,0,,我的国家充满希望与纯真\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My country is hopeful and innocent,{\fs}
+Dialogue: 0,0:01:11.54,0:01:15.54,Default,NTP,0,0,0,,再度年轻 精神上年轻\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}young again, young in spirit.{\fs}
+Dialogue: 0,0:01:15.81,0:01:19.05,Default,NTP,0,0,0,,我的同胞信任他们选出的官员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My fellow citizens trust their elected officials,{\fs}
+Dialogue: 0,0:01:19.05,0:01:22.56,Default,NTP,0,0,0,,从来没有被官员出卖过\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}never once having been betrayed by them.{\fs}
+Dialogue: 0,0:01:22.56,0:01:24.92,Default,NTP,0,0,0,,我的政府真的是人民组成\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My government is truly of the people,{\fs}
+Dialogue: 0,0:01:24.92,0:01:28.92,Default,NTP,0,0,0,,由人民选出 为人民服务\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}by the people, for the people.{\fs}
+Dialogue: 0,0:01:29.13,0:01:32.63,Default,NTP,0,0,0,,我对于国家和自己的一切希望\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}All my hopes for my country, for myself{\fs}
+Dialogue: 0,0:01:32.63,0:01:34.63,Default,NTP,0,0,0,,全都获得了满足\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}all are fulfilled.{\fs}
+Dialogue: 0,0:01:34.63,0:01:37.60,Default,NTP,0,0,0,,我拥有一个人能拥有的一切\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I have everything a person could want{\fs}
+Dialogue: 0,0:01:37.60,0:01:40.37,Default,NTP,0,0,0,,房子与家庭\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}home and family...{\fs}
+Dialogue: 0,0:01:40.37,0:01:44.37,Default,NTP,0,0,0,,还有爱情\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and love.{\fs}
+Dialogue: 0,0:01:45.71,0:01:49.70,Default,NTP,0,0,0,,人生里值得提及的每一件事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Everything that counts for anything in life...{\fs}
+Dialogue: 0,0:01:50.75,0:01:54.74,Default,NTP,0,0,0,,我都拥有\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I have it.{\fs}
+Dialogue: 0,0:01:58.26,0:02:02.25,Default,NTP,0,0,0,,但是梦每次都以同样的方式结束\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But the dream ends the same way every time.{\fs}
+Dialogue: 0,0:02:07.17,0:02:11.16,Default,NTP,0,0,0,,我失去了一切\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I lose it all.{\fs}
+Dialogue: 0,0:02:56.80,0:03:00.80,Default,NTP,0,0,0,,拉斯维加斯 内华达州
+Dialogue: 0,0:03:19.80,0:03:23.68,Default,NTP,0,0,0,,各位 玩的是德州扑克\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The game is Texas Hold 'Em, gentlemen.{\fs}
+Dialogue: 0,0:03:23.68,0:03:26.28,Default,NTP,0,0,0,,你带太太来了吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You bring your wife ?{\fs}
+Dialogue: 0,0:03:26.28,0:03:29.38,Default,NTP,0,0,0,,你以为我来这里玩牌会带我太太来吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You think I'm sitting here, I bring my wife ?{\fs}
+Dialogue: 0,0:03:29.38,0:03:32.25,Default,NTP,0,0,0,,-蠢货才带他太太来呢  -因为那个人就是我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Dumb-ass brought his wife. - 'Cause I'm the man.{\fs}
+Dialogue: 0,0:03:32.25,0:03:34.42,Default,NTP,0,0,0,,我说玩牌就是玩牌 与此同时\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I say I'm playing poker, I play poker. Meanwhile,{\fs}
+Dialogue: 0,0:03:34.42,0:03:38.06,Default,NTP,0,0,0,,你太太正在普拉诺市跟邮差乱搞呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}your wife is back in Plano boinking the mailman.{\fs}
+Dialogue: 0,0:03:38.06,0:03:40.39,Default,NTP,0,0,0,,嘿 你叫什么名字来着\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, what was your name again ?{\fs}
+Dialogue: 0,0:03:40.39,0:03:43.29,Default,NTP,0,0,0,,冯斯顿 斯图尔特·冯斯顿  嗨\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Funsten. Stuart Funsten. Hi.{\fs}
+Dialogue: 0,0:03:43.29,0:03:45.96,Default,NTP,0,0,0,,嘿 你带老婆来了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey,you bring a little lady, Stuart ?{\fs}
+Dialogue: 0,0:03:45.96,0:03:47.97,Default,NTP,0,0,0,,不 我还没结婚呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm not married.{\fs}
+Dialogue: 0,0:03:47.97,0:03:50.07,Default,NTP,0,0,0,,聪明人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Smart man.{\fs}
+Dialogue: 0,0:03:52.44,0:03:55.71,Default,NTP,0,0,0,,你们每年都来参加吗 国防会议\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You guys come to this every year ? Def-Con ?{\fs}
+Dialogue: 0,0:03:55.71,0:03:58.31,Default,NTP,0,0,0,,每年 不要了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Every year. Fold.{\fs}
+Dialogue: 0,0:03:58.31,0:04:01.48,Default,NTP,0,0,0,,-不会错过大会  -是呀 爆了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Wouldn't miss it. - Yeah. Out.{\fs}
+Dialogue: 0,0:04:01.48,0:04:04.08,Default,NTP,0,0,0,,那么 你们近来有没有搞什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}So,you guys working on anything{\fs}
+Dialogue: 0,0:04:04.08,0:04:05.08,Default,NTP,0,0,0,,有趣的东西\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}interesting these days ?{\fs}
+Dialogue: 0,0:04:05.08,0:04:10.08,Default,NTP,0,0,0,,老套的暗黑行动的玩意儿 你知道那是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Same old black-ops crapola. You know what it's like.{\fs}
+Dialogue: 0,0:04:10.12,0:04:13.06,Default,NTP,0,0,0,,我们在搞有关中子轰炸的事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, we're doing some neat stuff with neutron bombardment.{\fs}
+Dialogue: 0,0:04:13.06,0:04:14.58,Default,NTP,0,0,0,,是啊 你可以煮熟别人的脑袋\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah, you can cook somebody's{\fs}
+Dialogue: 0,0:04:14.58,0:04:17.05,Default,NTP,0,0,0,,就像是水煮蛋一样\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}brain in their skull, like hard-boiling an egg.{\fs}
+Dialogue: 0,0:04:18.80,0:04:21.33,Default,NTP,0,0,0,,它真的很棒\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's neat stuff!{\fs}
+Dialogue: 0,0:04:21.33,0:04:25.33,Default,NTP,0,0,0,,谈到烂东西    不要了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Speaking of crapola Fold.{\fs}
+Dialogue: 0,0:04:29.91,0:04:33.90,Default,NTP,0,0,0,,-谢谢  -喔 您真与众不同\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Thank you. - Oh. A man of distinction.{\fs}
+Dialogue: 0,0:04:37.55,0:04:39.95,Default,NTP,0,0,0,,你要跟进吗 冯斯顿先生\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}So, you in, Mr. Funsten ?{\fs}
+Dialogue: 0,0:04:39.95,0:04:43.55,Default,NTP,0,0,0,,是的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah.{\fs}
+Dialogue: 0,0:04:43.55,0:04:47.55,Default,NTP,0,0,0,,看来只有你和我了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Looks like it's just you and me.{\fs}
+Dialogue: 0,0:04:51.46,0:04:53.46,Default,NTP,0,0,0,,再加200\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Another 200.{\fs}
+Dialogue: 0,0:04:53.46,0:04:56.87,Default,NTP,0,0,0,,我跟你的200\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'll see your 200,{\fs}
+Dialogue: 0,0:04:56.87,0:05:00.86,Default,NTP,0,0,0,,而且再加1000\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and raise you 1 ,000.{\fs}
+Dialogue: 0,0:05:03.47,0:05:05.08,Default,NTP,0,0,0,,他全买了 斯图\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He's buying the pot, Stu.{\fs}
+Dialogue: 0,0:05:05.08,0:05:07.47,Default,NTP,0,0,0,,外面三张梅花 可能是同花\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Three clubs showing. Could be a flush.{\fs}
+Dialogue: 0,0:05:10.38,0:05:14.37,Default,NTP,0,0,0,,跟1000\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}One thousand,{\fs}
+Dialogue: 0,0:05:14.92,0:05:17.12,Default,NTP,0,0,0,,我再加1000\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and I raise you one thousand.{\fs}
+Dialogue: 0,0:05:17.12,0:05:19.59,Default,NTP,0,0,0,,-他一定有好牌 -是呀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- What stones he has ! - Yeah !{\fs}
+Dialogue: 0,0:05:24.10,0:05:26.60,Default,NTP,0,0,0,,我看你是军工集团的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I see you work for Conglomerated.{\fs}
+Dialogue: 0,0:05:26.60,0:05:30.59,Default,NTP,0,0,0,,你们的AE-135很棒\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You guys make a great AE-1 3 5 unit.{\fs}
+Dialogue: 0,0:05:31.94,0:05:34.34,Default,NTP,0,0,0,,喔 老兄 别紧张 别紧张\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, man, don't freak. Don't freak.{\fs}
+Dialogue: 0,0:05:34.34,0:05:37.81,Default,NTP,0,0,0,,我在查 AE-135\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm on it. AE-1 3 5.{\fs}
+Dialogue: 0,0:05:37.81,0:05:41.11,Default,NTP,0,0,0,,查找 有了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Searching. Bingo!{\fs}
+Dialogue: 0,0:05:41.11,0:05:43.11,Default,NTP,0,0,0,,442-J-冲程-AE-135\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}442-J-Stroke-AE-1 3 5.{\fs}
+Dialogue: 0,0:05:43.11,0:05:45.52,Default,NTP,0,0,0,,B2轰炸机的空调系统\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Air conditioning units for B-2 bombers.{\fs}
+Dialogue: 0,0:05:45.52,0:05:46.62,Default,NTP,0,0,0,,谈空调系统\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Talk air conditioners.{\fs}
+Dialogue: 0,0:05:46.62,0:05:50.61,Default,NTP,0,0,0,,喔 是呀 AE-135美极了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, yeah. The AE-1 3 5's a beauty.{\fs}
+Dialogue: 0,0:05:51.59,0:05:53.06,Default,NTP,0,0,0,,能让B-2保持冰凉\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Keeps the B-2s frosty.{\fs}
+Dialogue: 0,0:05:53.06,0:05:54.83,Default,NTP,0,0,0,,你简直看得到呼出来的水气\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You can practically see your breath.{\fs}
+Dialogue: 0,0:05:54.83,0:05:56.96,Default,NTP,0,0,0,,你们怎么解决它的毛病的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}How'd you get all the bugs out of it ?{\fs}
+Dialogue: 0,0:05:56.96,0:06:00.13,Default,NTP,0,0,0,,啊 你知道 商业机密\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ah, you know trade secrets.{\fs}
+Dialogue: 0,0:06:00.13,0:06:04.12,Default,NTP,0,0,0,,得了吧 斯图尔特 这里都是朋友\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on, Stuart. You're among friends.{\fs}
+Dialogue: 0,0:06:06.37,0:06:07.06,Default,NTP,0,0,0,,说真的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Seriously,{\fs}
+Dialogue: 0,0:06:07.06,0:06:10.01,Default,NTP,0,0,0,,你们是怎么克服复合材料的层间剥离的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}how'd you get past the "Delamination'' thing ?{\fs}
+Dialogue: 0,0:06:10.01,0:06:13.34,Default,NTP,0,0,0,,"层间剥离" 我在找\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}"Delamination. '' I'm searching.{\fs}
+Dialogue: 0,0:06:13.34,0:06:17.34,Default,NTP,0,0,0,,喔 抱歉 我跟你的1000\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, I'm sorry. I'll see your thousand,{\fs}
+Dialogue: 0,0:06:20.05,0:06:24.04,Default,NTP,0,0,0,,还有\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and...{\fs}
+Dialogue: 0,0:06:24.09,0:06:28.08,Default,NTP,0,0,0,,加到你的全部\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}raise you all you've got.{\fs}
+Dialogue: 0,0:06:31.26,0:06:34.30,Default,NTP,0,0,0,,系统检测 当机了 找不到\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Systems test. Error rates nothing.{\fs}
+Dialogue: 0,0:06:34.30,0:06:36.26,Default,NTP,0,0,0,,跟他拖时间 别跟了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Stall him and fold !{\fs}
+Dialogue: 0,0:06:37.10,0:06:38.88,Default,NTP,0,0,0,,你们想知道我们是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You want to know how we{\fs}
+Dialogue: 0,0:06:38.88,0:06:41.09,Default,NTP,0,0,0,,怎么解决层间剥离的吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}fixed the "Delamination'' problem ?{\fs}
+Dialogue: 0,0:06:43.01,0:06:46.44,Default,NTP,0,0,0,,我们把整个该死的东西转包给日本人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We subcontracted the whole damn thing to the Japanese,{\fs}
+Dialogue: 0,0:06:46.44,0:06:48.45,Default,NTP,0,0,0,,然后让政府付三倍的帐单\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}then triple-billed the government.{\fs}
+Dialogue: 0,0:06:48.45,0:06:52.44,Default,NTP,0,0,0,,这是我们的一贯作法\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Same thing we always do.{\fs}
+Dialogue: 0,0:06:57.62,0:06:59.89,Default,NTP,0,0,0,,Q打头同花\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Queen-high flush.{\fs}
+Dialogue: 0,0:06:59.89,0:07:03.66,Default,NTP,0,0,0,,哇\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}God!{\fs}
+Dialogue: 0,0:07:03.66,0:07:06.16,Default,NTP,0,0,0,,K打头\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}King-high.{\fs}
+Dialogue: 0,0:07:08.40,0:07:11.27,Default,NTP,0,0,0,,艾尔 叫保安\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Al, call security.{\fs}
+Dialogue: 0,0:07:11.27,0:07:16.26,Default,NTP,0,0,0,,叫他们来抓这位冯斯顿先生 还有他的同伙\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Have them pick up Mr. Funsten here and his partner.{\fs}
+Dialogue: 0,0:07:15.91,0:07:19.90,Default,NTP,0,0,0,,"层间剥离" 那是你瞎掰的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}"Delamination.'' You made that up.{\fs}
+Dialogue: 0,0:07:20.14,0:07:22.62,Default,NTP,0,0,0,,给你一个建议吧 斯图尔特\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My advice to you, Stuart{\fs}
+Dialogue: 0,0:07:22.62,0:07:24.14,Default,NTP,0,0,0,,不管你真名是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}or whatever your name really is{\fs}
+Dialogue: 0,0:07:25.52,0:07:29.51,Default,NTP,0,0,0,,你都不是玩扑克的料\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}poker is not your game.{\fs}
+Dialogue: 0,0:07:32.39,0:07:36.38,Default,NTP,0,0,0,,嘿 老兄 你想玩铁笼决斗吗 来呀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, man, you want to thunderdome ? Let's go !{\fs}
+Dialogue: 0,0:07:39.53,0:07:42.57,Default,NTP,0,0,0,,三千美金\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Three thousand dollars !{\fs}
+Dialogue: 0,0:07:42.57,0:07:43.70,Default,NTP,0,0,0,,我告诉你别跟了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I told you to fold.{\fs}
+Dialogue: 0,0:07:43.70,0:07:44.97,Default,NTP,0,0,0,,应该是我在里面玩牌\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That should have been me in there playing.{\fs}
+Dialogue: 0,0:07:44.97,0:07:47.19,Default,NTP,0,0,0,,为什么要拜尔斯去冒充\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why does Byers get to do the undercover ?{\fs}
+Dialogue: 0,0:07:47.19,0:07:48.74,Default,NTP,0,0,0,,因为这不是伍德斯托克音乐节\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}'Cause this ain't Woodstock.{\fs}
+Dialogue: 0,0:07:48.74,0:07:50.18,Default,NTP,0,0,0,,我们至少还应该能从\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Did we at least get some usable{\fs}
+Dialogue: 0,0:07:50.18,0:07:51.78,Default,NTP,0,0,0,,用过的酒杯上得到有用的指纹吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}prints off the drink glasses ?{\fs}
+Dialogue: 0,0:07:51.78,0:07:52.68,Default,NTP,0,0,0,,什么 你在开玩笑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What ? Are you kidding ?{\fs}
+Dialogue: 0,0:07:52.68,0:07:55.25,Default,NTP,0,0,0,,我不得不把杯子全都留下\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I had to leave them all behind.{\fs}
+Dialogue: 0,0:07:55.25,0:07:58.72,Default,NTP,0,0,0,,-我们要怎么挽回损失  -不用了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- How are we gonna salvage this ? - We're not.{\fs}
+Dialogue: 0,0:07:58.72,0:08:01.02,Default,NTP,0,0,0,,这次大会是个失败\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This convention's a bust.{\fs}
+Dialogue: 0,0:08:01.02,0:08:02.41,Default,NTP,0,0,0,,投资了五天时间和三千美金\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Five days and three grand invested.{\fs}
+Dialogue: 0,0:08:02.41,0:08:03.69,Default,NTP,0,0,0,,结果毫无所获\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We've got bubkes to show for it.{\fs}
+Dialogue: 0,0:08:03.69,0:08:05.37,Default,NTP,0,0,0,,那个玩牌的到底是谁\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Who was that player, anyway ?{\fs}
+Dialogue: 0,0:08:05.38,0:08:06.72,Default,NTP,0,0,0,,那个耍我们的家伙\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The guy who made us.{\fs}
+Dialogue: 0,0:08:06.72,0:08:08.45,Default,NTP,0,0,0,,他没有挂大会的名牌\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He wasn't wearing a convention badge.{\fs}
+Dialogue: 0,0:08:08.45,0:08:09.69,Default,NTP,0,0,0,,没人提到他的名字\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Nobody ever said his name.{\fs}
+Dialogue: 0,0:08:09.69,0:08:13.69,Default,NTP,0,0,0,,我认为他值得查一查\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I think he's worth looking into.{\fs}
+Dialogue: 0,0:08:22.51,0:08:26.50,Default,NTP,0,0,0,,中情局 开门\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}C.I.A. ! Open up !{\fs}
+Dialogue: 0,0:08:27.98,0:08:30.08,Default,NTP,0,0,0,,嘿 吉米和提米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey. Jimmy and Timmy.{\fs}
+Dialogue: 0,0:08:30.08,0:08:32.22,Default,NTP,0,0,0,,嘿 你们今天到哪儿去了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey. Where were you guys today ?{\fs}
+Dialogue: 0,0:08:32.22,0:08:34.15,Default,NTP,0,0,0,,在附近\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Around.{\fs}
+Dialogue: 0,0:08:34.15,0:08:35.76,Default,NTP,0,0,0,,喔 是吗 也许是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, yeah ? Maybe snooping{\fs}
+Dialogue: 0,0:08:35.76,0:08:37.10,Default,NTP,0,0,0,,在打探热门的411\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}for some hot 411 ?{\fs}
+Dialogue: 0,0:08:37.10,0:08:38.14,Default,NTP,0,0,0,,用秘密的手段\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}On the sneak tip ?{\fs}
+Dialogue: 0,0:08:38.32,0:08:40.79,Default,NTP,0,0,0,,-也许  -是吗 也许我们也是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Maybe. - Yeah, well, maybe we were too.{\fs}
+Dialogue: 0,0:08:40.79,0:08:44.78,Default,NTP,0,0,0,,-也许我们查到点东西  -也许我们也查到了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- And maybe we got some. - Well, maybe we did too.{\fs}
+Dialogue: 0,0:08:48.40,0:08:50.60,Default,NTP,0,0,0,,其实我们没什么收获\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ah, we got bubkes.{\fs}
+Dialogue: 0,0:08:50.60,0:08:54.21,Default,NTP,0,0,0,,真是一群口风很紧的国防厂商\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Bunch of tight-lipped defense contractors.{\fs}
+Dialogue: 0,0:08:54.21,0:08:55.41,Default,NTP,0,0,0,,我想我敢冒很大的险说\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah, I'm gonna go way{\fs}
+Dialogue: 0,0:08:55.41,0:08:57.81,Default,NTP,0,0,0,,是因为你的T恤衫  注:T恤上写着"懦夫政府"\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}out on a limb here and say it's the T-shirt.{\fs}
+Dialogue: 0,0:08:57.81,0:08:59.12,Default,NTP,0,0,0,,是啊 也许你们俩\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah. Maybe both of you{\fs}
+Dialogue: 0,0:08:59.12,0:09:01.68,Default,NTP,0,0,0,,都该穿一件上面写着"我是傻蛋"的T恤\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}could wear one that says "I'm with stupid. ''{\fs}
+Dialogue: 0,0:09:01.68,0:09:03.57,Default,NTP,0,0,0,,你就是不懂 老兄\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You just don't get it, man.{\fs}
+Dialogue: 0,0:09:03.57,0:09:06.39,Default,NTP,0,0,0,,这是说我们盯上他们了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This says that I'm onto them.{\fs}
+Dialogue: 0,0:09:06.45,0:09:08.07,Default,NTP,0,0,0,,这是说我了解\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This says that I comprehend{\fs}
+Dialogue: 0,0:09:08.07,0:09:10.35,Default,NTP,0,0,0,,军方与工业界的互动关系\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}the military-industrial power dynamic.{\fs}
+Dialogue: 0,0:09:10.35,0:09:13.02,Default,NTP,0,0,0,,这整件事就是这样\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's what this whole thing is about.{\fs}
+Dialogue: 0,0:09:13.02,0:09:15.05,Default,NTP,0,0,0,,非法行动 政治暗杀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Wetworks, political assassination.{\fs}
+Dialogue: 0,0:09:15.05,0:09:17.02,Default,NTP,0,0,0,,这是他们今年的主题\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's their theme for this year.{\fs}
+Dialogue: 0,0:09:17.36,0:09:19.53,Default,NTP,0,0,0,,-你从哪儿听来的  -喔 是呀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Where did you hear that ? - Oh, yeah.{\fs}
+Dialogue: 0,0:09:19.53,0:09:23.13,Default,NTP,0,0,0,,好像我会泄露消息来源一样  我只能告诉你们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Like I'm gonna reveal my sources. Suffice it to say,{\fs}
+Dialogue: 0,0:09:23.13,0:09:25.77,Default,NTP,0,0,0,,有一些重要的新式隐匿暗杀科技\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}there's some big, new stealth assassination technology...{\fs}
+Dialogue: 0,0:09:25.77,0:09:27.77,Default,NTP,0,0,0,,会在这里推出\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}that's supposed to be unveiled here,{\fs}
+Dialogue: 0,0:09:27.77,0:09:31.21,Default,NTP,0,0,0,,而我会在现场 坐在前排\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and I will be there, front row.{\fs}
+Dialogue: 0,0:09:31.21,0:09:34.15,Default,NTP,0,0,0,,现在 我们会突击餐厅\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}In the meantime, we're hitting the restaurant.{\fs}
+Dialogue: 0,0:09:34.15,0:09:36.35,Default,NTP,0,0,0,,-是呀 随便你吃的龙虾大餐  -免费演出\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Yeah, all-you-can-eat lobster buffet. - Free floor show.{\fs}
+Dialogue: 0,0:09:36.35,0:09:38.35,Default,NTP,0,0,0,,会有很多波霸 你们会来吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Plenty of boobage. You guys down ?{\fs}
+Dialogue: 0,0:09:38.35,0:09:42.34,Default,NTP,0,0,0,,-当然  -你们先去吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Sure. - You go ahead.{\fs}
+Dialogue: 0,0:09:44.29,0:09:48.28,Default,NTP,0,0,0,,我随后就到\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'll catch up.{\fs}
+Dialogue: 0,0:09:48.86,0:09:50.68,Default,NTP,0,0,0,,你看起来悲伤极了 拜尔斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You're one hell of a sad sack,Byers.{\fs}
+Dialogue: 0,0:09:50.69,0:09:52.85,Default,NTP,0,0,0,,不要提扑克牌局\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Lay off about the poker game.{\fs}
+Dialogue: 0,0:09:53.30,0:09:56.60,Default,NTP,0,0,0,,不 我说的不是那个\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No, that's not what I'm talking about.{\fs}
+Dialogue: 0,0:09:56.60,0:09:58.19,Default,NTP,0,0,0,,你是最积极鼓动我们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You're the one who pushes the{\fs}
+Dialogue: 0,0:09:58.19,0:10:00.59,Default,NTP,0,0,0,,来参加大会的人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}hardest for us to come to these conventions,{\fs}
+Dialogue: 0,0:10:00.67,0:10:03.34,Default,NTP,0,0,0,,我们到了之后 你却最古怪\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and then you get all squirrely once we get here.{\fs}
+Dialogue: 0,0:10:03.34,0:10:06.81,Default,NTP,0,0,0,,你还在找她 是吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You're still looking for her, aren't you ?{\fs}
+Dialogue: 0,0:10:06.81,0:10:08.17,Default,NTP,0,0,0,,苏珊·莫德斯基\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Susanne Modeski.{\fs}
+Dialogue: 0,0:10:08.17,0:10:10.08,Default,NTP,0,0,0,,我们是在一次大会上遇到她的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We met her at a convention.{\fs}
+Dialogue: 0,0:10:10.08,0:10:14.07,Default,NTP,0,0,0,,那是十年前了 在巴尔的摩\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ten years ago, in Baltimore.{\fs}
+Dialogue: 0,0:10:14.15,0:10:18.14,Default,NTP,0,0,0,,我们都知道她的遭遇\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And we both know what happened to her.{\fs}
+Dialogue: 0,0:10:18.72,0:10:20.72,Default,NTP,0,0,0,,她很可能已经死了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Most likely, she's dead.{\fs}
+Dialogue: 0,0:10:20.72,0:10:22.09,Default,NTP,0,0,0,,不 她是个有才华的科学家\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No. She was a brilliant{\fs}
+Dialogue: 0,0:10:22.10,0:10:24.72,Default,NTP,0,0,0,,对政府太重要了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}scientist too important to the government.{\fs}
+Dialogue: 0,0:10:25.10,0:10:28.60,Default,NTP,0,0,0,,老弟 不论如何 我知道我们都希望\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Buddy, either way, I know we're both hoping...{\fs}
+Dialogue: 0,0:10:28.60,0:10:32.59,Default,NTP,0,0,0,,她在比拉斯维加斯更好的地方\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}she's in a better place than Las Vegas.{\fs}
+Dialogue: 0,0:10:32.70,0:10:36.70,Default,NTP,0,0,0,,来吧 随便你吃的龙虾大餐\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on. All-you-can-eat lobster.{\fs}
+Dialogue: 0,0:10:39.51,0:10:43.50,Default,NTP,0,0,0,,-我差点就赢了  -是啊 你和其他每个人都一样\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- I almost won. - Yeah, you and everyone else.{\fs}
+Dialogue: 0,0:10:43.85,0:10:47.84,Default,NTP,0,0,0,,拜尔斯 试试这个 我感觉运气很好\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Byers, check this out. I'm feeling lucky.{\fs}
+Dialogue: 0,0:11:06.37,0:11:10.36,Default,NTP,0,0,0,,-这不可能  -什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- It can't be. - What ?{\fs}
+Dialogue: 0,0:11:30.63,0:11:34.62,Default,NTP,0,0,0,,对不起 对不起\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm so sorry. I'm sorry.{\fs}
+Dialogue: 0,0:11:35.77,0:11:39.76,Default,NTP,0,0,0,,拜尔斯 到底发生了什么事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Byers ! What the hell's going on ?{\fs}
+Dialogue: 0,0:11:54.59,0:11:57.96,Default,NTP,0,0,0,,-是我 史考利  -嗨 史考利 是我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Yeah, Scully. - Hey, Scully, it's me.{\fs}
+Dialogue: 0,0:11:57.96,0:12:01.95,Default,NTP,0,0,0,,-穆德 现在几点了  -凌晨2:34\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Mulder, what time is it ? - 2:34 a.M.{\fs}
+Dialogue: 0,0:12:02.66,0:12:03.40,Default,NTP,0,0,0,,听着 史考利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Listen, Scully,{\fs}
+Dialogue: 0,0:12:03.40,0:12:05.00,Default,NTP,0,0,0,,我要你搭下一班飞机到拉斯维加斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I need you on the next flight to Las Vegas.{\fs}
+Dialogue: 0,0:12:05.00,0:12:07.87,Default,NTP,0,0,0,,拉斯维加斯 为什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Las Vegas ? Why ?{\fs}
+Dialogue: 0,0:12:07.87,0:12:09.20,Default,NTP,0,0,0,,是孤枪侠他们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's the Lone Gunmen.{\fs}
+Dialogue: 0,0:12:09.20,0:12:10.92,Default,NTP,0,0,0,,他们发现了一些大事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They're on to something big.{\fs}
+Dialogue: 0,0:12:10.92,0:12:12.86,Default,NTP,0,0,0,,到底是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What, exactly ?{\fs}
+Dialogue: 0,0:12:13.27,0:12:17.27,Default,NTP,0,0,0,,真的很重要 相信我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's really important. Trust me.{\fs}
+Dialogue: 0,0:12:17.27,0:12:19.28,Default,NTP,0,0,0,,是的 我相信你 穆德\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah, I trust you, Mulder.{\fs}
+Dialogue: 0,0:12:19.28,0:12:21.95,Default,NTP,0,0,0,,我只是不太相信那三个小丑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's the Three Stooges I'm not so sure about.{\fs}
+Dialogue: 0,0:12:21.95,0:12:25.22,Default,NTP,0,0,0,,听着 我不能在不安全的电话里谈这些\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Look, I can't talk over an unsecured line.{\fs}
+Dialogue: 0,0:12:25.22,0:12:29.21,Default,NTP,0,0,0,,拜托一定要来 这是紧急事件\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Please just get here. It's an emergency.{\fs}
+Dialogue: 0,0:12:30.32,0:12:34.31,Default,NTP,0,0,0,,好的 好的 好的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Okay. Okay, okay, okay.{\fs}
+Dialogue: 0,0:12:36.73,0:12:38.17,Default,NTP,0,0,0,,万一她打电话给他怎么办\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What if she calls him back ?{\fs}
+Dialogue: 0,0:12:38.17,0:12:39.30,Default,NTP,0,0,0,,我锁住了她的手机号码\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I trapped her cell number.{\fs}
+Dialogue: 0,0:12:39.30,0:12:41.30,Default,NTP,0,0,0,,如果她打给他 会转到这里的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If she calls him, it rings here.{\fs}
+Dialogue: 0,0:12:41.30,0:12:43.03,Default,NTP,0,0,0,,她准会踢我们屁股的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She's gonna kick our ass.{\fs}
+Dialogue: 0,0:12:43.03,0:12:44.94,Default,NTP,0,0,0,,你究竟需要史考利做什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What do you need Scully for anyway ?{\fs}
+Dialogue: 0,0:12:44.94,0:12:46.60,Default,NTP,0,0,0,,我们在对抗政府探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We're up against agents of the government.{\fs}
+Dialogue: 0,0:12:46.60,0:12:47.91,Default,NTP,0,0,0,,我们需要自己的政府探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We need our own government agent.{\fs}
+Dialogue: 0,0:12:47.91,0:12:50.27,Default,NTP,0,0,0,,那也应该是穆德\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And that would be Mulder.{\fs}
+Dialogue: 0,0:12:50.27,0:12:52.07,Default,NTP,0,0,0,,你为什么只找史考利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why do you want just Scully ?{\fs}
+Dialogue: 0,0:12:52.07,0:12:53.41,Default,NTP,0,0,0,,她会踢我们屁股的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She's gonna kick our ass.{\fs}
+Dialogue: 0,0:12:53.41,0:12:54.60,Default,NTP,0,0,0,,穆德太引人注意了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Mulder's too high-profile.{\fs}
+Dialogue: 0,0:12:54.60,0:12:56.31,Default,NTP,0,0,0,,他的名字对于那些在巴尔的摩\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He's virtually a household name...{\fs}
+Dialogue: 0,0:12:56.31,0:12:58.42,Default,NTP,0,0,0,,绑架苏珊的黑衣人来说 简直如雷贯耳\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}to the black-ops who kidnapped Susanne in Baltimore.{\fs}
+Dialogue: 0,0:12:58.42,0:13:00.65,Default,NTP,0,0,0,,拜尔斯 我已经侵入了饭店的电脑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Byers, I've hacked into the hotel computer.{\fs}
+Dialogue: 0,0:13:00.65,0:13:03.89,Default,NTP,0,0,0,,苏珊·莫德斯基没有在这里登记\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Susanne Modeski's not registered here.{\fs}
+Dialogue: 0,0:13:03.89,0:13:06.11,Default,NTP,0,0,0,,你确定你看到她了吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Are you sure you saw her ?{\fs}
+Dialogue: 0,0:13:06.11,0:13:07.88,Default,NTP,0,0,0,,你绝对肯定是她吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Are you absolutely, positively sure ?{\fs}
+Dialogue: 0,0:13:08.29,0:13:11.70,Default,NTP,0,0,0,,是她 她在这里 我必须要找到她\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It was her. She's here. I've gotta find her.{\fs}
+Dialogue: 0,0:13:11.70,0:13:15.69,Default,NTP,0,0,0,,你必须要找一些冰块 你需要喝一杯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You've gotta find some ice. You need a drink.{\fs}
+Dialogue: 0,0:13:54.91,0:13:57.41,Default,NTP,0,0,0,,你去哪儿了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Where were you ?{\fs}
+Dialogue: 0,0:13:57.41,0:14:01.40,Default,NTP,0,0,0,,只是去玩扑克 浪费时间而已\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Just wasting time at a poker game.{\fs}
+Dialogue: 0,0:14:10.59,0:14:12.59,Default,NTP,0,0,0,,拜尔斯正在试图自杀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Byers is trying to kill himself.{\fs}
+Dialogue: 0,0:14:12.59,0:14:14.84,Default,NTP,0,0,0,,别再试图自杀了 拜尔斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Stop trying to kill yourself, Byers.{\fs}
+Dialogue: 0,0:14:14.84,0:14:15.59,Default,NTP,0,0,0,,桶不够深\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's not deep enough.{\fs}
+Dialogue: 0,0:14:15.59,0:14:18.00,Default,NTP,0,0,0,,来看看这是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come see what we got.{\fs}
+Dialogue: 0,0:14:18.00,0:14:19.46,Default,NTP,0,0,0,,1066房登记的是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Room 1 066. Registered to{\fs}
+Dialogue: 0,0:14:19.46,0:14:22.99,Default,NTP,0,0,0,,我们的神秘扑克手格兰特·艾利斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}our mystery poker player one Grant Ellis.{\fs}
+Dialogue: 0,0:14:23.13,0:14:25.14,Default,NTP,0,0,0,,他的车挂的是新墨西哥的牌照\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}New Mexico plates on his car.{\fs}
+Dialogue: 0,0:14:25.14,0:14:28.91,Default,NTP,0,0,0,,查询结果显示是国防部的车\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Which come back listed D.O.D. Motor pool.{\fs}
+Dialogue: 0,0:14:28.91,0:14:32.04,Default,NTP,0,0,0,,-是在    -白石城 新墨西哥州注册的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Signed out from - Whitestone, New Mexico.{\fs}
+Dialogue: 0,0:14:32.04,0:14:33.78,Default,NTP,0,0,0,,陆军新式武器研究所\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The Advanced Army Weapons Facility,{\fs}
+Dialogue: 0,0:14:33.78,0:14:35.35,Default,NTP,0,0,0,,苏珊以前工作的地方\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}where Susanne worked.{\fs}
+Dialogue: 0,0:14:35.35,0:14:36.72,Default,NTP,0,0,0,,艾利斯的信用卡帐单\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ellis's credit cards get{\fs}
+Dialogue: 0,0:14:36.72,0:14:39.34,Default,NTP,0,0,0,,直接送到行政办公室\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}billed directly to the administrative offices.{\fs}
+Dialogue: 0,0:14:39.95,0:14:41.35,Default,NTP,0,0,0,,他看起来像是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He's looking like{\fs}
+Dialogue: 0,0:14:41.35,0:14:43.45,Default,NTP,0,0,0,,某种秘密政府的高官\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}he's some kind of shadow government pooh-bah.{\fs}
+Dialogue: 0,0:14:43.45,0:14:45.96,Default,NTP,0,0,0,,他给她洗脑了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He brainwashed her.{\fs}
+Dialogue: 0,0:14:45.96,0:14:47.94,Default,NTP,0,0,0,,他们在那里就是干这个勾当\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Well, that's what they do there !{\fs}
+Dialogue: 0,0:14:47.94,0:14:49.63,Default,NTP,0,0,0,,她研制出来的E-H气体\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The E-H gas she developed.{\fs}
+Dialogue: 0,0:14:49.63,0:14:53.03,Default,NTP,0,0,0,,号称是心理战 行为修正\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Call it psychological warfare, behavior modification,{\fs}
+Dialogue: 0,0:14:53.03,0:14:56.60,Default,NTP,0,0,0,,但实际上就是控制心智\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}but it's all about mind control.{\fs}
+Dialogue: 0,0:14:56.60,0:14:57.71,Default,NTP,0,0,0,,毫无疑问\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And undoubtedly{\fs}
+Dialogue: 0,0:14:57.71,0:15:00.14,Default,NTP,0,0,0,,过去十年他们改进了方法\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}the process has been refined in the last decade.{\fs}
+Dialogue: 0,0:15:00.14,0:15:04.13,Default,NTP,0,0,0,,她逃离了他们 拒绝参加他们的试验\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She ran from them. Refused to take part in their tests{\fs}
+Dialogue: 0,0:15:04.54,0:15:07.51,Default,NTP,0,0,0,,那些他们对美国人民犯下的罪行\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}their crimes against the American people.{\fs}
+Dialogue: 0,0:15:07.51,0:15:09.30,Default,NTP,0,0,0,,她现在不可能自愿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}There's no way she would choose to{\fs}
+Dialogue: 0,0:15:09.30,0:15:10.41,Default,NTP,0,0,0,,为他们工作\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}be working for them now,{\fs}
+Dialogue: 0,0:15:10.41,0:15:14.41,Default,NTP,0,0,0,,为那个家伙工作 亲吻他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}working for that guy, kissing him.{\fs}
+Dialogue: 0,0:15:14.69,0:15:18.46,Default,NTP,0,0,0,,很显然 是他给她洗了脑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Clearly, he brainwashed her.{\fs}
+Dialogue: 0,0:15:18.46,0:15:22.45,Default,NTP,0,0,0,,我有办法查出来\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I know a way to find out.{\fs}
+Dialogue: 0,0:15:34.20,0:15:38.20,Default,NTP,0,0,0,,[西班牙语]日安\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Buenos dias.{\fs}
+Dialogue: 0,0:15:53.72,0:15:56.03,Default,NTP,0,0,0,,我没法儿混进大会\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I can't get into the conference.{\fs}
+Dialogue: 0,0:15:56.03,0:15:57.93,Default,NTP,0,0,0,,看门的是那个把我赶出赌场的警卫\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The guard who threw me out is working the door.{\fs}
+Dialogue: 0,0:15:57.93,0:16:00.96,Default,NTP,0,0,0,,让我去\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Let me go.{\fs}
+Dialogue: 0,0:16:00.96,0:16:04.96,Default,NTP,0,0,0,,中情局 不许动\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}C.I.A. ! Freeze !{\fs}
+Dialogue: 0,0:16:05.10,0:16:06.99,Default,NTP,0,0,0,,真是越来越好笑了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That just keeps getting funnier.{\fs}
+Dialogue: 0,0:16:06.99,0:16:08.67,Default,NTP,0,0,0,,你的女朋友提米呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Where's your girlfriend Timmy ?{\fs}
+Dialogue: 0,0:16:08.67,0:16:10.67,Default,NTP,0,0,0,,到沙漠里去了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Out in the desert.{\fs}
+Dialogue: 0,0:16:10.67,0:16:11.51,Default,NTP,0,0,0,,那里有位裸体小姐\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}There's this naked chick{\fs}
+Dialogue: 0,0:16:11.51,0:16:13.01,Default,NTP,0,0,0,,教你如何使用机关枪\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}who'll teach you how to shoot machine guns.{\fs}
+Dialogue: 0,0:16:13.01,0:16:16.95,Default,NTP,0,0,0,,但是要花200元 我告诉他他是个色鬼\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It costs 200 beans, though. I told him he was a putz.{\fs}
+Dialogue: 0,0:16:16.95,0:16:18.58,Default,NTP,0,0,0,,你怎么了 拜尔斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What's the matter, Byers ?{\fs}
+Dialogue: 0,0:16:18.58,0:16:20.94,Default,NTP,0,0,0,,你最喜欢的狗死了吗 怎么了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Your bestest dog die ? What's up ?{\fs}
+Dialogue: 0,0:16:23.02,0:16:24.60,Default,NTP,0,0,0,,我们正在想办法\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We're trying to figure out{\fs}
+Dialogue: 0,0:16:24.60,0:16:25.96,Default,NTP,0,0,0,,进入大会会场\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}how to get into the Saguaro Room.{\fs}
+Dialogue: 0,0:16:25.96,0:16:29.03,Default,NTP,0,0,0,,祝你好运 那简直就是圣杯 想用窃听器吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Good luck ! That's the Holy Grail. Bug sweeps ?{\fs}
+Dialogue: 0,0:16:29.03,0:16:31.53,Default,NTP,0,0,0,,外面有赌场警卫 里面有政府探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Casino security outside ? Government security inside ?{\fs}
+Dialogue: 0,0:16:31.53,0:16:33.11,Default,NTP,0,0,0,,我们谁都不可能进去\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}There's no way any of us are getting in.{\fs}
+Dialogue: 0,0:16:33.11,0:16:33.90,Default,NTP,0,0,0,,我能够进去\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I can get in there.{\fs}
+Dialogue: 0,0:16:33.90,0:16:37.23,Default,NTP,0,0,0,,只要时机成熟 我就能进去\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And I will too, when the time is right.{\fs}
+Dialogue: 0,0:16:37.23,0:16:38.47,Default,NTP,0,0,0,,瞎吹吧 你就\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Doo-doo, ca-ca, poo-poo.{\fs}
+Dialogue: 0,0:16:38.47,0:16:41.23,Default,NTP,0,0,0,,去梳你的头发吧 迈克尔·波顿(大明星)\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Go brush your hair, Michael Bolton.{\fs}
+Dialogue: 0,0:16:41.54,0:16:43.32,Default,NTP,0,0,0,,他们的保安有漏洞\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}There's a hole in their security.{\fs}
+Dialogue: 0,0:16:43.32,0:16:44.71,Default,NTP,0,0,0,,我已经全搞懂了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I've got it all figured out.{\fs}
+Dialogue: 0,0:16:44.71,0:16:47.14,Default,NTP,0,0,0,,但是在明天推出新型暗杀科技之前\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But there's nothing worth hearing in there until tomorrow,{\fs}
+Dialogue: 0,0:16:47.14,0:16:49.61,Default,NTP,0,0,0,,没什么值得听的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}when they unveil their new assassination technology.{\fs}
+Dialogue: 0,0:16:49.61,0:16:52.65,Default,NTP,0,0,0,,还在掰你那些暗杀科技吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Again with the assassination technology, hmm ?{\fs}
+Dialogue: 0,0:16:52.65,0:16:54.65,Default,NTP,0,0,0,,我必须混进去 吉米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I need to get in there, Jimmy.{\fs}
+Dialogue: 0,0:16:54.65,0:16:57.92,Default,NTP,0,0,0,,我必须知道那里面今天发生了什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I need to know what's happening in there today.{\fs}
+Dialogue: 0,0:16:57.92,0:17:01.91,Default,NTP,0,0,0,,如果你真能进去 证明给我看\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If you can really get in there, prove it.{\fs}
+Dialogue: 0,0:17:05.26,0:17:09.20,Default,NTP,0,0,0,,实际应用永远\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Real-world application will always,{\fs}
+Dialogue: 0,0:17:09.20,0:17:13.19,Default,NTP,0,0,0,,永远是武器测试的必要环节\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}always remain a necessary component of weapons testing.{\fs}
+Dialogue: 0,0:17:13.57,0:17:17.56,Default,NTP,0,0,0,,显然 一件武器不能用于战场\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And obviously, a weapon can't be fielded,{\fs}
+Dialogue: 0,0:17:17.61,0:17:20.18,Default,NTP,0,0,0,,不能加入军备\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}can't be put into the arsenal,{\fs}
+Dialogue: 0,0:17:20.18,0:17:22.98,Default,NTP,0,0,0,,除非它的战斗效能可以确定\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}until its efficacy in combat can be established.{\fs}
+Dialogue: 0,0:17:22.98,0:17:23.92,Default,NTP,0,0,0,,如果各位愿意\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Now, if you'll take a{\fs}
+Dialogue: 0,0:17:23.92,0:17:25.88,Default,NTP,0,0,0,,看一下我们提供的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}look at the kill/ratio productivity chart...{\fs}
+Dialogue: 0,0:17:25.88,0:17:28.02,Default,NTP,0,0,0,,杀伤力图表\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}we've provided for you.{\fs}
+Dialogue: 0,0:17:28.02,0:17:31.76,Default,NTP,0,0,0,,翻到   第22页那里 你们会发现\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Turn to On page 22 there, you'll see that{\fs}
+Dialogue: 0,0:17:31.76,0:17:35.19,Default,NTP,0,0,0,,喔 这里有你的法西斯小妞 拜尔斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ooh. There's your fascist chickie, Byers.{\fs}
+Dialogue: 0,0:17:42.77,0:17:46.76,Default,NTP,0,0,0,,提米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Timmy ?{\fs}
+Dialogue: 0,0:17:51.21,0:17:55.20,Default,NTP,0,0,0,,糟了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Damn.{\fs}
+Dialogue: 0,0:18:01.82,0:18:05.81,Default,NTP,0,0,0,,不许动 不许动\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hold on ! Hold on !{\fs}
+Dialogue: 0,0:18:06.22,0:18:10.22,Default,NTP,0,0,0,,他妈的怎么回事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What the hell is going on ?{\fs}
+Dialogue: 0,0:18:12.60,0:18:16.59,Default,NTP,0,0,0,,你是他们的人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You're one of them.{\fs}
+Dialogue: 0,0:18:18.70,0:18:22.37,Default,NTP,0,0,0,,你真的把事情搞砸了 吉米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You really screwed things up, Jimmy.{\fs}
+Dialogue: 0,0:18:22.37,0:18:25.28,Default,NTP,0,0,0,,我们本来为你安排了大计划的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We had big plans for you.{\fs}
+Dialogue: 0,0:18:25.28,0:18:26.37,Default,NTP,0,0,0,,什么大计划\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What big plans ?{\fs}
+Dialogue: 0,0:18:29.81,0:18:32.78,Default,NTP,0,0,0,,政治暗杀 我是对的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Political assassination. I was right.{\fs}
+Dialogue: 0,0:18:32.78,0:18:34.79,Default,NTP,0,0,0,,我对事件事的看法都是对的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I was right about the whole thing !{\fs}
+Dialogue: 0,0:18:34.79,0:18:38.78,Default,NTP,0,0,0,,每个好计划都需要一个替罪羊\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Every good plan needs a patsy.{\fs}
+Dialogue: 0,0:18:40.82,0:18:44.82,Default,NTP,0,0,0,,不要\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No !{\fs}
+Dialogue: 0,0:18:47.16,0:18:50.30,Default,NTP,0,0,0,,-请你提着这些行李好吗  -当然\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Can you take these up, please ? - Sure.{\fs}
+Dialogue: 0,0:18:50.30,0:18:52.30,Default,NTP,0,0,0,,-史考利探员  -穆德探员在哪儿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Agent Scully. - Where's Agent Mulder ?{\fs}
+Dialogue: 0,0:18:52.30,0:18:54.84,Default,NTP,0,0,0,,-我一直在打他的电话  -呃\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- I've been trying to call him. - Uh{\fs}
+Dialogue: 0,0:18:54.84,0:18:56.94,Default,NTP,0,0,0,,我想他的电话出了问题\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He's, uh I think his phone's messed up.{\fs}
+Dialogue: 0,0:18:56.94,0:18:59.01,Default,NTP,0,0,0,,未来几小时里可能很难联络到他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He may be hard to reach for the next few hours.{\fs}
+Dialogue: 0,0:18:59.01,0:19:02.01,Default,NTP,0,0,0,,他建议我们跟你一起工作 带你进入状况\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He suggested we work with you. Bring you up to speed.{\fs}
+Dialogue: 0,0:19:02.01,0:19:05.08,Default,NTP,0,0,0,,当然 带我进入状况吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}By all means, bring me up to speed.{\fs}
+Dialogue: 0,0:19:05.08,0:19:06.66,Default,NTP,0,0,0,,受伤的人是谁\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Who's the injured party?{\fs}
+Dialogue: 0,0:19:06.66,0:19:09.08,Default,NTP,0,0,0,,伤者名叫詹姆士·贝尔蒙特 完毕\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Subject's name is James Belmont. Over.{\fs}
+Dialogue: 0,0:19:09.32,0:19:11.62,Default,NTP,0,0,0,,-这边  -天啊 是吉米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- This way. - Oh, man. Jimmy.{\fs}
+Dialogue: 0,0:19:11.62,0:19:15.19,Default,NTP,0,0,0,,我们正经过大厅\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We're crossing the lobby now.{\fs}
+Dialogue: 0,0:19:15.19,0:19:17.79,Default,NTP,0,0,0,,他被撞了 快看 那边\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He got hit ! Look ! Over there !{\fs}
+Dialogue: 0,0:19:17.79,0:19:20.73,Default,NTP,0,0,0,,他突然跳出来 没有预兆 什么都没有\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He just jumped. No warning. No nothing.{\fs}
+Dialogue: 0,0:19:20.73,0:19:23.37,Default,NTP,0,0,0,,他突然跳到我车子前面\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He just dived right out in front of me.{\fs}
+Dialogue: 0,0:19:23.37,0:19:25.90,Default,NTP,0,0,0,,喔 天啊 是吉米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, God. It is Jimmy.{\fs}
+Dialogue: 0,0:19:25.90,0:19:27.90,Default,NTP,0,0,0,,不是我的错 他本来站在那里\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's not my fault. He was just standing there,{\fs}
+Dialogue: 0,0:19:27.90,0:19:30.81,Default,NTP,0,0,0,,然后他突然就跳到车底下了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and then he just dives under the bus.{\fs}
+Dialogue: 0,0:19:30.81,0:19:34.80,Default,NTP,0,0,0,,-这不是自杀  -你们认识这个人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- This wasn't a suicide. - You know this man ?{\fs}
+Dialogue: 0,0:19:36.15,0:19:40.14,Default,NTP,0,0,0,,这里出了什么事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What's going on here ?{\fs}
+Dialogue: 0,0:21:21.75,0:21:25.75,Default,NTP,0,0,0,,苏珊 你还记得我吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Susanne. Do you remember me ?{\fs}
+Dialogue: 0,0:21:26.32,0:21:29.36,Default,NTP,0,0,0,,约翰 你在这里作什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}John, what are you doing here ?{\fs}
+Dialogue: 0,0:21:29.36,0:21:33.35,Default,NTP,0,0,0,,-我是来救你的  -救我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- I'm here to save you. - From what ?{\fs}
+Dialogue: 0,0:21:33.93,0:21:36.20,Default,NTP,0,0,0,,我认为你失去了自我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I don't think you are yourself.{\fs}
+Dialogue: 0,0:21:36.20,0:21:38.34,Default,NTP,0,0,0,,我认为 呃 你受到虐待\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I think that, uh, you've been mistreated...{\fs}
+Dialogue: 0,0:21:38.34,0:21:41.27,Default,NTP,0,0,0,,被迷惑了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and confused and{\fs}
+Dialogue: 0,0:21:41.27,0:21:43.02,Default,NTP,0,0,0,,恐怕你的信念\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm afraid that your beliefs,{\fs}
+Dialogue: 0,0:21:43.02,0:21:45.24,Default,NTP,0,0,0,,你的意志已经不再是你自己的了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}your opinions are no longer your own.{\fs}
+Dialogue: 0,0:21:45.24,0:21:49.24,Default,NTP,0,0,0,,你是说我被洗脑了吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}As in "I've been brainwashed'' ?{\fs}
+Dialogue: 0,0:21:49.35,0:21:53.34,Default,NTP,0,0,0,,我不知道该怎么给你解释 我没被洗脑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I don't know what to tell you. I haven't been.{\fs}
+Dialogue: 0,0:21:54.15,0:21:56.32,Default,NTP,0,0,0,,你可能会有生命危险 苏珊\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Your life may be in danger, Susanne.{\fs}
+Dialogue: 0,0:21:56.32,0:21:58.26,Default,NTP,0,0,0,,我的一位朋友刚刚遇害\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}A friend of mine has just been killed.{\fs}
+Dialogue: 0,0:21:58.26,0:22:00.26,Default,NTP,0,0,0,,-是被谋杀  -什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Murdered. - What ?{\fs}
+Dialogue: 0,0:22:00.26,0:22:04.25,Default,NTP,0,0,0,,-而那个和你在一起的男人    -我的未婚夫\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- And that man that you're with - My fiance ?{\fs}
+Dialogue: 0,0:22:05.60,0:22:08.15,Default,NTP,0,0,0,,对不起 约翰 我想你该走了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm sorry,John. I-I think you better go.{\fs}
+Dialogue: 0,0:22:08.15,0:22:09.59,Default,NTP,0,0,0,,不 等等 等一下\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No, wait, wait.{\fs}
+Dialogue: 0,0:22:09.97,0:22:12.14,Default,NTP,0,0,0,,十年前 我看见你被推进车里\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ten years ago, I saw you thrown into a car.{\fs}
+Dialogue: 0,0:22:12.14,0:22:15.17,Default,NTP,0,0,0,,就在我眼前被绑架\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Kidnapped right in front of me.{\fs}
+Dialogue: 0,0:22:15.17,0:22:19.17,Default,NTP,0,0,0,,难道那没有发生过 难道那全是我做的梦吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Did that not happen ? Did I just dream all of that ?{\fs}
+Dialogue: 0,0:22:21.85,0:22:24.58,Default,NTP,0,0,0,,是发生了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It happened.{\fs}
+Dialogue: 0,0:22:24.58,0:22:28.57,Default,NTP,0,0,0,,但是事态改善了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But things got better.{\fs}
+Dialogue: 0,0:22:54.54,0:22:58.54,Default,NTP,0,0,0,,喔 抱歉 老弟\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Whoops. Sorry, buddy.{\fs}
+Dialogue: 0,0:23:05.26,0:23:09.25,Default,NTP,0,0,0,,那个苏珊还真是个受欢迎的女孩\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That Susanne's a popular girl.{\fs}
+Dialogue: 0,0:23:11.09,0:23:14.13,Default,NTP,0,0,0,,你真的确定想呆在这里\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You're absolutely sure you want to be here for this ?{\fs}
+Dialogue: 0,0:23:14.13,0:23:16.93,Default,NTP,0,0,0,,确定 我很冷静\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh,yeah.I'm cool.{\fs}
+Dialogue: 0,0:23:16.93,0:23:18.97,Default,NTP,0,0,0,,让我们找出是什么害了他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Let's just find out what killed him.{\fs}
+Dialogue: 0,0:23:18.97,0:23:22.96,Default,NTP,0,0,0,,好吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Okay.{\fs}
+Dialogue: 0,0:23:28.04,0:23:31.38,Default,NTP,0,0,0,,詹姆斯·贝尔蒙特 29岁\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}James Belmont. Age 29.{\fs}
+Dialogue: 0,0:23:31.38,0:23:34.08,Default,NTP,0,0,0,,目视检查显示伤势\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Visual exam reveals injuries...{\fs}
+Dialogue: 0,0:23:34.08,0:23:38.08,Default,NTP,0,0,0,,符合重大外伤的情况\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}consistent with massive trauma.{\fs}
+Dialogue: 0,0:23:38.56,0:23:41.69,Default,NTP,0,0,0,,肋骨多处折断 附带出血\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Multiple rib fractures with concomitant hemorrhaging,{\fs}
+Dialogue: 0,0:23:41.69,0:23:44.63,Default,NTP,0,0,0,,内部外部都有\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}both internal and external.{\fs}
+Dialogue: 0,0:23:44.63,0:23:48.62,Default,NTP,0,0,0,,脊椎断裂 而且部分暴露\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The spine is fractured and partially exposed.{\fs}
+Dialogue: 0,0:23:50.30,0:23:53.30,Default,NTP,0,0,0,,有没有可能是他们对他做了什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What if they did something to him,{\fs}
+Dialogue: 0,0:23:53.30,0:23:55.31,Default,NTP,0,0,0,,例如 使他自己惊慌失措\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}you know, to make him pancake himself?{\fs}
+Dialogue: 0,0:23:55.31,0:23:57.51,Default,NTP,0,0,0,,他们是谁\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Who's "They'' ?{\fs}
+Dialogue: 0,0:23:57.51,0:24:01.48,Default,NTP,0,0,0,,你知道的 "他们"\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You know, "Them.''{\fs}
+Dialogue: 0,0:24:01.48,0:24:05.47,Default,NTP,0,0,0,,我从胸部解剖开始\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'll begin with the "Y'' incision.{\fs}
+Dialogue: 0,0:24:36.08,0:24:37.12,Default,NTP,0,0,0,,朗格利 你能过去\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Langly, will you go over{\fs}
+Dialogue: 0,0:24:37.12,0:24:38.98,Default,NTP,0,0,0,,拿电锯给我吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}there and pass me the Stryker saw, please ?{\fs}
+Dialogue: 0,0:24:38.98,0:24:41.28,Default,NTP,0,0,0,,就在那边的台子上\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's right there on the counter.{\fs}
+Dialogue: 0,0:24:41.28,0:24:45.28,Default,NTP,0,0,0,,谢谢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Thank you.{\fs}
+Dialogue: 0,0:24:55.23,0:24:59.22,Default,NTP,0,0,0,,你没事吧 朗格利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Are you okay, Langly ?{\fs}
+Dialogue: 0,0:25:27.63,0:25:31.62,Default,NTP,0,0,0,,史考利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Scully ?{\fs}
+Dialogue: 0,0:25:44.01,0:25:46.78,Default,NTP,0,0,0,,史考利 醒醒\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Scully, wake up.{\fs}
+Dialogue: 0,0:25:46.78,0:25:50.49,Default,NTP,0,0,0,,-你没事吧  -出什么事了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Are you okay ? - What happened ?{\fs}
+Dialogue: 0,0:25:50.49,0:25:52.08,Default,NTP,0,0,0,,我想是你有点想吐\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm thinking that you got a little queasy{\fs}
+Dialogue: 0,0:25:52.08,0:25:53.32,Default,NTP,0,0,0,,然后摔到脑袋了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and took a header.{\fs}
+Dialogue: 0,0:25:53.32,0:25:56.03,Default,NTP,0,0,0,,你知道 血和内脏会让一些人难受的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You know, blood and guts can bother some people.{\fs}
+Dialogue: 0,0:25:56.03,0:25:59.53,Default,NTP,0,0,0,,我猜是吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah. I guess.{\fs}
+Dialogue: 0,0:25:59.53,0:26:03.40,Default,NTP,0,0,0,,你会没事吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You gonna be all right ?{\fs}
+Dialogue: 0,0:26:03.40,0:26:07.39,Default,NTP,0,0,0,,当然 美人儿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Sure, cutie.{\fs}
+Dialogue: 0,0:26:10.47,0:26:14.04,Default,NTP,0,0,0,,那 你检查完吉米了吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}So, you're done with Jimmy ?{\fs}
+Dialogue: 0,0:26:14.04,0:26:18.04,Default,NTP,0,0,0,,完了 完了 完了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Done, done, done.{\fs}
+Dialogue: 0,0:26:20.12,0:26:22.12,Default,NTP,0,0,0,,这玩意儿是怎么推的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}How do you roll this thing ?{\fs}
+Dialogue: 0,0:26:22.12,0:26:25.76,Default,NTP,0,0,0,,呃 史考利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Uh, Scully ?{\fs}
+Dialogue: 0,0:26:25.76,0:26:29.75,Default,NTP,0,0,0,,是什么杀了他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What killed him ?{\fs}
+Dialogue: 0,0:26:30.49,0:26:34.49,Default,NTP,0,0,0,,我的医学意见是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My medical opinion{\fs}
+Dialogue: 0,0:26:34.73,0:26:38.72,Default,NTP,0,0,0,,哔\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Beep !{\fs}
+Dialogue: 0,0:26:40.14,0:26:42.14,Default,NTP,0,0,0,,你就只发现这些\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And that's all you found ?{\fs}
+Dialogue: 0,0:26:42.14,0:26:46.13,Default,NTP,0,0,0,,就是这些\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's all I know.{\fs}
+Dialogue: 0,0:26:49.61,0:26:53.61,Default,NTP,0,0,0,,史考利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Scully ?{\fs}
+Dialogue: 0,0:26:54.62,0:26:56.25,Default,NTP,0,0,0,,你发现了什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What did you find out ?{\fs}
+Dialogue: 0,0:26:56.25,0:26:57.52,Default,NTP,0,0,0,,检尸没有结果\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Autopsy was negatory.{\fs}
+Dialogue: 0,0:26:57.52,0:26:58.91,Default,NTP,0,0,0,,吉米是自己压死的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Jimmy squished himself.{\fs}
+Dialogue: 0,0:26:58.91,0:27:01.51,Default,NTP,0,0,0,,那个秀色可餐的史考利探员呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And where is the scrumptious Agent Scully ?{\fs}
+Dialogue: 0,0:27:02.19,0:27:04.59,Default,NTP,0,0,0,,她说她有重要的事要办\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She said she had something important to do.{\fs}
+Dialogue: 0,0:27:04.59,0:27:07.56,Default,NTP,0,0,0,,老兄 她的时差还没倒过来呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Man, she is seriously jet-lagged.{\fs}
+Dialogue: 0,0:27:07.56,0:27:09.56,Default,NTP,0,0,0,,你的装置弄好了吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You got product already ?{\fs}
+Dialogue: 0,0:27:09.56,0:27:11.56,Default,NTP,0,0,0,,没有 有人捷足先登了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No. An earlier bird got the worm.{\fs}
+Dialogue: 0,0:27:11.67,0:27:13.64,Default,NTP,0,0,0,,总是等待\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}All this waiting.{\fs}
+Dialogue: 0,0:27:13.64,0:27:16.91,Default,NTP,0,0,0,,我觉得他们在监视我们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I feel like they're keeping tabs on us, watching us.{\fs}
+Dialogue: 0,0:27:16.91,0:27:19.22,Default,NTP,0,0,0,,亲爱的 你担心太多了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Honey,you worry too much.{\fs}
+Dialogue: 0,0:27:19.23,0:27:20.91,Default,NTP,0,0,0,,计划仍然依照进度\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The plan is still on schedule.{\fs}
+Dialogue: 0,0:27:20.91,0:27:24.90,Default,NTP,0,0,0,,船到桥头自然直\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Everything's falling into place.{\fs}
+Dialogue: 0,0:27:27.32,0:27:31.31,Default,NTP,0,0,0,,我们为这件事努力了这么久\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We've worked so long and so hard for this.{\fs}
+Dialogue: 0,0:27:32.62,0:27:34.62,Default,NTP,0,0,0,,这不是她的本性\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's not her.{\fs}
+Dialogue: 0,0:27:34.62,0:27:37.29,Default,NTP,0,0,0,,是他们迫使她的 用某种方法\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They're making her do this somehow.{\fs}
+Dialogue: 0,0:27:37.29,0:27:39.63,Default,NTP,0,0,0,,老弟\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Buddy, now,{\fs}
+Dialogue: 0,0:27:39.63,0:27:43.40,Default,NTP,0,0,0,,我对女人略知一二 相信我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I know something about the fairer sex, trust me.{\fs}
+Dialogue: 0,0:27:43.40,0:27:45.00,Default,NTP,0,0,0,,你可以牵马到河边\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You can bring a horse to water,{\fs}
+Dialogue: 0,0:27:45.00,0:27:46.60,Default,NTP,0,0,0,,可是你无法让她喝水\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}but you can't make her drink.{\fs}
+Dialogue: 0,0:27:46.60,0:27:49.27,Default,NTP,0,0,0,,她不会跟那个人结婚的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She would not marry that man.{\fs}
+Dialogue: 0,0:27:49.27,0:27:51.54,Default,NTP,0,0,0,,你不像我这么了解他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You don't know him like I do.{\fs}
+Dialogue: 0,0:27:51.54,0:27:54.18,Default,NTP,0,0,0,,你怎么进来的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}How'd you get in here ?{\fs}
+Dialogue: 0,0:27:54.18,0:27:58.17,Default,NTP,0,0,0,,你们中的一个把这个掉在我房里了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}One of you left this in my room.{\fs}
+Dialogue: 0,0:27:58.58,0:28:00.69,Default,NTP,0,0,0,,格兰特·艾利斯救了我一命\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Grant Ellis saved my life.{\fs}
+Dialogue: 0,0:28:00.69,0:28:02.32,Default,NTP,0,0,0,,他救了成千上万条人命\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He saved the lives of thousands.{\fs}
+Dialogue: 0,0:28:02.32,0:28:05.62,Default,NTP,0,0,0,,我必须和你谈谈 约翰\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I need to talk to you,John.{\fs}
+Dialogue: 0,0:28:05.62,0:28:08.96,Default,NTP,0,0,0,,我必须试着解释这一切\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I need to try and explain everything.{\fs}
+Dialogue: 0,0:28:08.96,0:28:12.96,Default,NTP,0,0,0,,来吧 我们去玩几把\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on. Let's hit the slots.{\fs}
+Dialogue: 0,0:28:12.96,0:28:16.96,Default,NTP,0,0,0,,小心背后\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Watch your back.{\fs}
+Dialogue: 0,0:28:17.17,0:28:21.16,Default,NTP,0,0,0,,马塔·哈瑞注:一战时德国著名的女间谍\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Mata Hari.{\fs}
+Dialogue: 0,0:28:22.44,0:28:24.54,Default,NTP,0,0,0,,你提到你的朋友遇害的事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You said something about a friend being murdered.{\fs}
+Dialogue: 0,0:28:24.54,0:28:27.98,Default,NTP,0,0,0,,我无法证明\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Not that I can prove it.{\fs}
+Dialogue: 0,0:28:27.98,0:28:29.49,Default,NTP,0,0,0,,但是我认为他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But I think he saw something{\fs}
+Dialogue: 0,0:28:29.49,0:28:31.97,Default,NTP,0,0,0,,在你们的大会上看到了不该看的事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}he was not supposed to see at your conference.{\fs}
+Dialogue: 0,0:28:33.52,0:28:37.51,Default,NTP,0,0,0,,-你可能身处险境  -我知道 一直都是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- You may be in danger. - I am always.{\fs}
+Dialogue: 0,0:28:37.75,0:28:41.75,Default,NTP,0,0,0,,格兰特也是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}So is Grant.{\fs}
+Dialogue: 0,0:28:44.83,0:28:48.82,Default,NTP,0,0,0,,这一刻我想像过许多次\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I have thought about this moment so many times.{\fs}
+Dialogue: 0,0:28:49.47,0:28:53.46,Default,NTP,0,0,0,,如果我再次遇到你 我会说些什么话\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}All the things I would say to you if I ever saw you again.{\fs}
+Dialogue: 0,0:28:55.61,0:28:58.61,Default,NTP,0,0,0,,然后你就出现在我门口\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And then there you were at my door,{\fs}
+Dialogue: 0,0:28:58.61,0:29:02.60,Default,NTP,0,0,0,,而我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and I{\fs}
+Dialogue: 0,0:29:05.78,0:29:09.78,Default,NTP,0,0,0,,十年前他们抓走我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They took me ten years ago.{\fs}
+Dialogue: 0,0:29:10.25,0:29:12.46,Default,NTP,0,0,0,,他们对我作了些事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They did things to me.{\fs}
+Dialogue: 0,0:29:12.46,0:29:16.45,Default,NTP,0,0,0,,每天都像是在溺水\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And it was like drowning every day underwater,{\fs}
+Dialogue: 0,0:29:16.89,0:29:19.80,Default,NTP,0,0,0,,挣扎着呼吸\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}struggling to breathe.{\fs}
+Dialogue: 0,0:29:19.80,0:29:22.30,Default,NTP,0,0,0,,有一天 一只手穿过水面\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And one day a hand broke the surface,{\fs}
+Dialogue: 0,0:29:22.30,0:29:26.30,Default,NTP,0,0,0,,伸下来拉我出来\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}reached down and pulled me up.{\fs}
+Dialogue: 0,0:29:26.30,0:29:29.71,Default,NTP,0,0,0,,我本来希望是你 约翰\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I wanted it to be you,John.{\fs}
+Dialogue: 0,0:29:29.71,0:29:32.74,Default,NTP,0,0,0,,但那是格兰特\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It was Grant.{\fs}
+Dialogue: 0,0:29:32.74,0:29:35.51,Default,NTP,0,0,0,,他为他们工作 为那个计划\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He worked for them the project.{\fs}
+Dialogue: 0,0:29:35.51,0:29:38.95,Default,NTP,0,0,0,,我以前不信任他 好几年都不信任\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I didn't trust him, not for years,{\fs}
+Dialogue: 0,0:29:38.95,0:29:40.42,Default,NTP,0,0,0,,直到我意识到\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}not until I realized that{\fs}
+Dialogue: 0,0:29:40.42,0:29:42.94,Default,NTP,0,0,0,,他是以他自己的方式对抗他们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}he was working against them in his own way.{\fs}
+Dialogue: 0,0:29:43.35,0:29:47.35,Default,NTP,0,0,0,,拖延他们 破坏他们的试验\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Stalling them, sabotaging their tests.{\fs}
+Dialogue: 0,0:29:48.52,0:29:52.52,Default,NTP,0,0,0,,他使我想起了你\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}He reminded me of you.{\fs}
+Dialogue: 0,0:29:53.53,0:29:56.40,Default,NTP,0,0,0,,-我有良心可是你的幸运  -怎么说\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- They're just lucky I got a conscience. - How's that ?{\fs}
+Dialogue: 0,0:29:56.40,0:29:58.57,Default,NTP,0,0,0,,如果我对赌场施展我真正的功夫\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If I unleash my true kung fu on this casino,{\fs}
+Dialogue: 0,0:29:58.57,0:30:00.70,Default,NTP,0,0,0,,我在一周之内就能让银行破产了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I could break the bank within a week.{\fs}
+Dialogue: 0,0:30:00.70,0:30:03.71,Default,NTP,0,0,0,,是啊 你会发现自己被埋在沙漠底下六英尺深的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Yeah, and find yourself buried under six feet of desert dirt.{\fs}
+Dialogue: 0,0:30:03.71,0:30:05.98,Default,NTP,0,0,0,,-嘿 伙计们  -嘿 提米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Hey, guys. - Hey, Timmy.{\fs}
+Dialogue: 0,0:30:05.98,0:30:08.08,Default,NTP,0,0,0,,我们都为吉米感到难过\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm sorry aboutJimmy.{\fs}
+Dialogue: 0,0:30:08.08,0:30:10.08,Default,NTP,0,0,0,,嘿 朗格利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, Langly ?{\fs}
+Dialogue: 0,0:30:10.08,0:30:11.29,Default,NTP,0,0,0,,大家都在我的房间\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The guys are all up in my{\fs}
+Dialogue: 0,0:30:11.29,0:30:13.38,Default,NTP,0,0,0,,为纪念吉米\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}room for a round of Dungeons and Dragons...{\fs}
+Dialogue: 0,0:30:13.38,0:30:15.59,Default,NTP,0,0,0,,举行龙与地下城游戏大赛\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}in honor ofJimmy.{\fs}
+Dialogue: 0,0:30:15.59,0:30:19.58,Default,NTP,0,0,0,,曼汉姆爵爷会出席的  注:Lord Manhammer 龙与地下城中的人物\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Lord Manhammer will be in attendance.{\fs}
+Dialogue: 0,0:30:20.49,0:30:23.49,Default,NTP,0,0,0,,我要去玩点游戏纪念一下\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm gonna go play a little D&D in memoriam.{\fs}
+Dialogue: 0,0:30:23.49,0:30:25.50,Default,NTP,0,0,0,,这可真感人 老兄\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's touching, man.{\fs}
+Dialogue: 0,0:30:41.98,0:30:45.97,Default,NTP,0,0,0,,你喜欢顶层公寓吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You like penthouses ?{\fs}
+Dialogue: 0,0:30:54.39,0:30:56.96,Default,NTP,0,0,0,,-史考利  -喔\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Scully ? - Oh !{\fs}
+Dialogue: 0,0:30:56.96,0:31:00.95,Default,NTP,0,0,0,,嘿 希基 好久不见\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, Hickey. Long time no see.{\fs}
+Dialogue: 0,0:31:01.03,0:31:05.02,Default,NTP,0,0,0,,不 那不好 我喜欢希基\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No, that's not nice. I like Hickey.{\fs}
+Dialogue: 0,0:31:12.04,0:31:16.03,Default,NTP,0,0,0,,抽烟吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Cigarette ?{\fs}
+Dialogue: 0,0:31:20.78,0:31:23.99,Default,NTP,0,0,0,,你不吸烟的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You don't smoke.{\fs}
+Dialogue: 0,0:31:23.99,0:31:27.98,Default,NTP,0,0,0,,谁有火柴\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But who's got a match ?{\fs}
+Dialogue: 0,0:31:29.46,0:31:31.76,Default,NTP,0,0,0,,喔\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Well...{\fs}
+Dialogue: 0,0:31:31.76,0:31:35.75,Default,NTP,0,0,0,,我都无法决定让谁点燃我的火好了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I just can't decide who lights my fire.{\fs}
+Dialogue: 0,0:31:38.10,0:31:41.47,Default,NTP,0,0,0,,够了 行了 各位大众情人 滚开\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's it. All right, you dandies, back off.{\fs}
+Dialogue: 0,0:31:41.47,0:31:44.11,Default,NTP,0,0,0,,这是调查局的丹娜·史考利探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This is Special Agent Dana Scully of the F.B.I.{\fs}
+Dialogue: 0,0:31:44.11,0:31:45.15,Default,NTP,0,0,0,,只要敢碰她一根汗毛\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If you so much as touch her,{\fs}
+Dialogue: 0,0:31:45.15,0:31:46.64,Default,NTP,0,0,0,,就可能触犯联邦法律\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}you may be committing a federal offense.{\fs}
+Dialogue: 0,0:31:46.64,0:31:50.45,Default,NTP,0,0,0,,走吧 走吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on. Come on.{\fs}
+Dialogue: 0,0:31:50.45,0:31:52.72,Default,NTP,0,0,0,,我们本来可以罗曼蒂克一番的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We could have been stardust.{\fs}
+Dialogue: 0,0:31:52.72,0:31:56.71,Default,NTP,0,0,0,,下次再说吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Maybe next time.{\fs}
+Dialogue: 0,0:31:58.65,0:32:01.66,Default,NTP,0,0,0,,喔\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ooh.{\fs}
+Dialogue: 0,0:32:01.66,0:32:03.20,Default,NTP,0,0,0,,希望你带了皮夹\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I hope you brought your wallet,{\fs}
+Dialogue: 0,0:32:03.21,0:32:05.65,Default,NTP,0,0,0,,朋友 要不是因为这是追悼大会\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}my friend. Just because this is a memorial game{\fs}
+Dialogue: 0,0:32:05.90,0:32:07.23,Default,NTP,0,0,0,,这算什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What's this ?{\fs}
+Dialogue: 0,0:32:07.23,0:32:09.89,Default,NTP,0,0,0,,喔 我们给你安排了一个游戏\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, we have got a game for you.{\fs}
+Dialogue: 0,0:32:11.97,0:32:15.96,Default,NTP,0,0,0,,相信我 这会成功的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Trust me. This is gonna work.{\fs}
+Dialogue: 0,0:32:16.84,0:32:20.11,Default,NTP,0,0,0,,-这不是你录的  -不是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- You didn't tape this ? - No.{\fs}
+Dialogue: 0,0:32:20.11,0:32:22.85,Default,NTP,0,0,0,,这意味着他们在监视我们\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Which means they surveilled us.{\fs}
+Dialogue: 0,0:32:22.85,0:32:25.01,Default,NTP,0,0,0,,他们知道我们的计划 他们知道所有的事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They know our plans. They know everything.{\fs}
+Dialogue: 0,0:32:25.01,0:32:28.48,Default,NTP,0,0,0,,-你们的计划是什么  -逃走\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- What is your plan ? - To escape.{\fs}
+Dialogue: 0,0:32:28.48,0:32:30.52,Default,NTP,0,0,0,,这个大会是我们的机会\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This conference was our chance{\fs}
+Dialogue: 0,0:32:30.52,0:32:31.82,Default,NTP,0,0,0,,在最后一天溜走\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}to slip out on the last day{\fs}
+Dialogue: 0,0:32:31.82,0:32:33.50,Default,NTP,0,0,0,,公开我们的档案\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}go public with our files,{\fs}
+Dialogue: 0,0:32:33.50,0:32:35.81,Default,NTP,0,0,0,,公开所有的武器研究计划\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}all our weapons research.{\fs}
+Dialogue: 0,0:32:36.76,0:32:40.00,Default,NTP,0,0,0,,我们这次终于能够成功\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We could finally make it happen this time.{\fs}
+Dialogue: 0,0:32:40.00,0:32:42.93,Default,NTP,0,0,0,,我们已经收集了足够的证据\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We'd gathered up enough proof.{\fs}
+Dialogue: 0,0:32:42.93,0:32:46.93,Default,NTP,0,0,0,,公众从没像现在这样接近真相\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The public is ready to believe now more than ever.{\fs}
+Dialogue: 0,0:32:48.57,0:32:51.71,Default,NTP,0,0,0,,他们知道了一切\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They know everything.{\fs}
+Dialogue: 0,0:32:51.71,0:32:55.55,Default,NTP,0,0,0,,他们会杀掉我们 约翰-格兰特和我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They'll kill us,John Grant and me both.{\fs}
+Dialogue: 0,0:32:55.55,0:32:59.52,Default,NTP,0,0,0,,-嗨 -来吧 来吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Hi ! - Come on. Come on.{\fs}
+Dialogue: 0,0:32:59.52,0:33:01.52,Default,NTP,0,0,0,,过来 静下来 静下来\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on. Settle down. Settle down.{\fs}
+Dialogue: 0,0:33:01.53,0:33:02.45,Default,NTP,0,0,0,,好的 好的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Okay, okay, okay.{\fs}
+Dialogue: 0,0:33:02.45,0:33:06.45,Default,NTP,0,0,0,,我在酒吧发现史考利探员正在招蜂引蝶\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I found Agent Scully Go-Lightly holding court in the bar.{\fs}
+Dialogue: 0,0:33:06.52,0:33:10.16,Default,NTP,0,0,0,,我从没见过她喝醉酒\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I've never seen her drunk before.{\fs}
+Dialogue: 0,0:33:10.16,0:33:12.76,Default,NTP,0,0,0,,天啊 这不可能\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}God. This can't be.{\fs}
+Dialogue: 0,0:33:12.76,0:33:16.76,Default,NTP,0,0,0,,-嗨 -劳驾\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Hi. - Please.{\fs}
+Dialogue: 0,0:33:18.63,0:33:22.14,Default,NTP,0,0,0,,她不是喝醉 看看这个\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She's not drunk. Look at this.{\fs}
+Dialogue: 0,0:33:22.14,0:33:24.51,Default,NTP,0,0,0,,这是注射造成的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That was made by an injector gun.{\fs}
+Dialogue: 0,0:33:24.51,0:33:27.88,Default,NTP,0,0,0,,她被注射了什么鬼东西\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What the hell was she injected with ?{\fs}
+Dialogue: 0,0:33:27.88,0:33:30.21,Default,NTP,0,0,0,,一种E-H气体的衍生物\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's a derivative of E-H gas.{\fs}
+Dialogue: 0,0:33:30.21,0:33:33.28,Default,NTP,0,0,0,,A-H 精神组胺 我最新的发明\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}A-H. Anoetic histamine. My latest creation.{\fs}
+Dialogue: 0,0:33:33.28,0:33:35.78,Default,NTP,0,0,0,,我几年前就能够研发出来的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I could have developed it years ago,{\fs}
+Dialogue: 0,0:33:35.78,0:33:37.12,Default,NTP,0,0,0,,只是被我拖延了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}but I held off.{\fs}
+Dialogue: 0,0:33:37.12,0:33:38.48,Default,NTP,0,0,0,,我不想让那些\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I wasn't about to let those{\fs}
+Dialogue: 0,0:33:38.48,0:33:40.59,Default,NTP,0,0,0,,差使我的混蛋们拥有它\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}bastards I work for get their hands on it.{\fs}
+Dialogue: 0,0:33:40.59,0:33:41.71,Default,NTP,0,0,0,,格兰特认为\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Grant thought that{\fs}
+Dialogue: 0,0:33:41.71,0:33:43.96,Default,NTP,0,0,0,,如果我们秘密研发出一小批\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}if we secretly developed a small batch...{\fs}
+Dialogue: 0,0:33:43.96,0:33:45.48,Default,NTP,0,0,0,,然后再销毁记录\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and then destroyed the notes,{\fs}
+Dialogue: 0,0:33:45.48,0:33:47.95,Default,NTP,0,0,0,,我们就有了对大众公开的证据\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}we would have the proof we needed to go public.{\fs}
+Dialogue: 0,0:33:48.60,0:33:50.73,Default,NTP,0,0,0,,我们也就有了可以对付他们的武器\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We'd also have a weapon we could use against them.{\fs}
+Dialogue: 0,0:33:50.73,0:33:53.17,Default,NTP,0,0,0,,还有谁能拿到这些精神组胺\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Who else has access to this anoetic histamine ?{\fs}
+Dialogue: 0,0:33:53.17,0:33:57.16,Default,NTP,0,0,0,,只有格兰特和我两个人\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Grant and I are the only two people that have{\fs}
+Dialogue: 0,0:34:00.84,0:34:04.84,Default,NTP,0,0,0,,才拥有样品\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}that have the samples.{\fs}
+Dialogue: 0,0:34:07.72,0:34:10.69,Default,NTP,0,0,0,,这会抵消药物的作用\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This will counteract the anoetic effect.{\fs}
+Dialogue: 0,0:34:10.69,0:34:12.69,Default,NTP,0,0,0,,嘿 美人儿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hey, cutie.{\fs}
+Dialogue: 0,0:34:12.69,0:34:15.79,Default,NTP,0,0,0,,噢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Ow !{\fs}
+Dialogue: 0,0:34:15.79,0:34:19.78,Default,NTP,0,0,0,,只是小小一枝针\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Just a little prick.{\fs}
+Dialogue: 0,0:34:22.87,0:34:26.00,Default,NTP,0,0,0,,-严重幻觉  -她会没事的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Bad trip ? - She'll be fine.{\fs}
+Dialogue: 0,0:34:26.00,0:34:28.20,Default,NTP,0,0,0,,她睡一会儿就会好了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}She just needs to sleep it off.{\fs}
+Dialogue: 0,0:34:28.21,0:34:28.94,Default,NTP,0,0,0,,我不懂\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I don't understand.{\fs}
+Dialogue: 0,0:34:28.94,0:34:30.10,Default,NTP,0,0,0,,为什么政府要\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why would the government want to{\fs}
+Dialogue: 0,0:34:30.10,0:34:31.84,Default,NTP,0,0,0,,把史考利变成个荡妇\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}turn Scully into a bimbo ?{\fs}
+Dialogue: 0,0:34:31.84,0:34:33.84,Default,NTP,0,0,0,,那只是潜在的副作用\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That's just a potential side effect.{\fs}
+Dialogue: 0,0:34:33.84,0:34:37.18,Default,NTP,0,0,0,,精神组胺会阻碍较高级的大脑功能\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Anoetic histamine impedes higher brain functions.{\fs}
+Dialogue: 0,0:34:37.18,0:34:39.18,Default,NTP,0,0,0,,使人容易受到暗示的影响\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It promotes suggestibility.{\fs}
+Dialogue: 0,0:34:39.18,0:34:41.58,Default,NTP,0,0,0,,控制心智 洗脑\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Mind control. Brainwashing.{\fs}
+Dialogue: 0,0:34:41.58,0:34:44.89,Default,NTP,0,0,0,,这就解释了吉米的事 是他们叫他去自杀的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That explains Jimmy. They told him to commit suicide.{\fs}
+Dialogue: 0,0:34:44.89,0:34:48.88,Default,NTP,0,0,0,,还有史考利 他们使她忘记验尸结果\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}And Scully. They made her forget her autopsy findings.{\fs}
+Dialogue: 0,0:34:49.99,0:34:52.59,Default,NTP,0,0,0,,但是他们更大的目的是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}But what is their larger purpose ?{\fs}
+Dialogue: 0,0:34:52.59,0:34:53.99,Default,NTP,0,0,0,,他们在计划什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What are they planning ?{\fs}
+Dialogue: 0,0:34:56.57,0:35:00.56,Default,NTP,0,0,0,,不论它是什么 我们最好快点找出来\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Well, whatever it is, we better find out fast.{\fs}
+Dialogue: 0,0:35:10.58,0:35:14.57,Default,NTP,0,0,0,,真准时\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Right on time.{\fs}
+Dialogue: 0,0:35:17.82,0:35:19.89,Default,NTP,0,0,0,,这是你的武器\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This is your weapon.{\fs}
+Dialogue: 0,0:35:19.89,0:35:23.88,Default,NTP,0,0,0,,你要做的只是扣动扳机\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}All you do is pull the trigger.{\fs}
+Dialogue: 0,0:35:23.99,0:35:27.40,Default,NTP,0,0,0,,你应该在上午10:05进入会场\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You will enter the Saguaro Room at 1 0:05 a.M.{\fs}
+Dialogue: 0,0:35:27.40,0:35:30.70,Default,NTP,0,0,0,,这个证件让你能够通行\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This badge will give you access.{\fs}
+Dialogue: 0,0:35:30.70,0:35:34.04,Default,NTP,0,0,0,,坐在后排的椅子上等着\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Take a seat toward the back and wait.{\fs}
+Dialogue: 0,0:35:34.04,0:35:36.04,Default,NTP,0,0,0,,在10:15会宣布休息\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}1 5, a break will be called.{\fs}
+Dialogue: 0,0:35:36.04,0:35:38.07,Default,NTP,0,0,0,,起身 接近目标\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Rise, approach the target,{\fs}
+Dialogue: 0,0:35:38.07,0:35:40.81,Default,NTP,0,0,0,,然后连开三枪\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and fire three shots.{\fs}
+Dialogue: 0,0:35:40.81,0:35:43.98,Default,NTP,0,0,0,,这就要谈到可接受风险的问题了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This brings us to the notion of acceptable risk.{\fs}
+Dialogue: 0,0:35:43.98,0:35:47.85,Default,NTP,0,0,0,,当然 风险的定义是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Of course, risk is defined as exposure...{\fs}
+Dialogue: 0,0:35:47.85,0:35:51.84,Default,NTP,0,0,0,,在试用期间与事后评估中暴露于药物\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}during both utilization and post-project evaluation.{\fs}
+Dialogue: 0,0:35:52.19,0:35:54.19,Default,NTP,0,0,0,,现在 在保密的试验场\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Now, in a secure proving ground,{\fs}
+Dialogue: 0,0:35:54.19,0:35:57.06,Default,NTP,0,0,0,,也就是国内试验中\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}i.E., a domestic engagement,{\fs}
+Dialogue: 0,0:35:57.06,0:36:01.05,Default,NTP,0,0,0,,我们获得了很大成功\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}we have had great success.{\fs}
+Dialogue: 0,0:36:01.20,0:36:03.97,Default,NTP,0,0,0,,而在国外的试用\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Now, offshore utilizations...{\fs}
+Dialogue: 0,0:36:03.97,0:36:07.07,Default,NTP,0,0,0,,可以提供一个可接受风险的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}can afford a more comprehensive definition...{\fs}
+Dialogue: 0,0:36:07.07,0:36:09.31,Default,NTP,0,0,0,,更全面的定义\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}of acceptable risk.{\fs}
+Dialogue: 0,0:36:09.31,0:36:11.11,Default,NTP,0,0,0,,适当的目标评估可以提供\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Proper target appraisal can provide...{\fs}
+Dialogue: 0,0:36:11.11,0:36:13.98,Default,NTP,0,0,0,,一个无风险的试用环境\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}a risk-free trial environment.{\fs}
+Dialogue: 0,0:36:13.98,0:36:15.07,Default,NTP,0,0,0,,一个综合了政治动荡\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}A combination of political{\fs}
+Dialogue: 0,0:36:15.07,0:36:17.21,Default,NTP,0,0,0,,和无基建基础的环境\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}instability and lack of efficient infrastructure...{\fs}
+Dialogue: 0,0:36:17.21,0:36:20.95,Default,NTP,0,0,0,,也可以提供一个\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}can offer a target area of nearly...{\fs}
+Dialogue: 0,0:36:20.95,0:36:24.94,Default,NTP,0,0,0,,几乎无潜在风险的目标区\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}zero risk-potential.{\fs}
+Dialogue: 0,0:36:25.29,0:36:28.19,Default,NTP,0,0,0,,-经过授权才可以进入  -我是联邦调查局探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Authorized attendees only. - I'm an F.B.I. Agent.{\fs}
+Dialogue: 0,0:36:28.19,0:36:32.18,Default,NTP,0,0,0,,授权才能进入\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Authorized attendees.{\fs}
+Dialogue: 0,0:36:32.33,0:36:35.83,Default,NTP,0,0,0,,当然 风险管理是与\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Of course, risk management goes hand in hand...{\fs}
+Dialogue: 0,0:36:35.83,0:36:38.47,Default,NTP,0,0,0,,行动准备的妥当度并行的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}with operational preparedness.{\fs}
+Dialogue: 0,0:36:38.47,0:36:39.82,Default,NTP,0,0,0,,我们剩下的时间\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}That happens to be our{\fs}
+Dialogue: 0,0:36:39.82,0:36:42.46,Default,NTP,0,0,0,,-刚好要谈到那个主题  -艾尔\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}-topic for the remainder of this session. - Al ?{\fs}
+Dialogue: 0,0:36:42.77,0:36:43.27,Default,NTP,0,0,0,,呃\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Huh ?{\fs}
+Dialogue: 0,0:36:43.27,0:36:44.77,Default,NTP,0,0,0,,我想现在是休息的好时机\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I think this would be a good time to take a break.{\fs}
+Dialogue: 0,0:36:44.77,0:36:46.71,Default,NTP,0,0,0,,-可以吗  -喔 当然\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Shall we ? - Oh. Yeah.{\fs}
+Dialogue: 0,0:36:46.71,0:36:50.70,Default,NTP,0,0,0,,休息五分钟 各位 有烟就抽吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Let's take five, everybody. Smoke 'em if you got 'em.{\fs}
+Dialogue: 0,0:37:40.06,0:37:42.06,Default,NTP,0,0,0,,喔 我的上帝\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, my God.{\fs}
+Dialogue: 0,0:37:42.06,0:37:46.06,Default,NTP,0,0,0,,快来人救救她\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- - Somebody help her!{\fs}
+Dialogue: 0,0:37:47.94,0:37:51.93,Default,NTP,0,0,0,,-苏珊  -联邦探员\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Susanne. - Federal agent.{\fs}
+Dialogue: 0,0:37:52.34,0:37:54.14,Default,NTP,0,0,0,,打电话呼救\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Call for help.{\fs}
+Dialogue: 0,0:37:54.14,0:37:55.19,Default,NTP,0,0,0,,我们在仙人掌厅\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We're in the Saguaro Room.{\fs}
+Dialogue: 0,0:37:55.19,0:37:56.88,Default,NTP,0,0,0,,我们需要救护车 有位女士中弹了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}We need an ambulance. A woman's been shot.{\fs}
+Dialogue: 0,0:37:56.88,0:38:00.87,Default,NTP,0,0,0,,-她在流血 快点 -我们就来\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- She's bleeding. Hurry. - We're on our way.{\fs}
+Dialogue: 0,0:38:02.55,0:38:04.82,Default,NTP,0,0,0,,是谁干的 是谁干的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Who did this ? Who did this ?{\fs}
+Dialogue: 0,0:38:04.82,0:38:07.02,Default,NTP,0,0,0,,开枪的人逃跑了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The shooter got away.{\fs}
+Dialogue: 0,0:38:07.02,0:38:09.23,Default,NTP,0,0,0,,看着这个人 把他带走\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Detain this man. Get him out of here.{\fs}
+Dialogue: 0,0:38:09.23,0:38:12.50,Default,NTP,0,0,0,,走吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Let's go.{\fs}
+Dialogue: 0,0:38:12.50,0:38:16.49,Default,NTP,0,0,0,,干得好 邦德女郎\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Good work, party girl.{\fs}
+Dialogue: 0,0:38:53.07,0:38:55.91,Default,NTP,0,0,0,,我会带你去的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'll take him from here.{\fs}
+Dialogue: 0,0:38:55.91,0:38:58.91,Default,NTP,0,0,0,,等一下 你要带我去哪里\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Wait a minute. Where are you taking me ?{\fs}
+Dialogue: 0,0:39:21.53,0:39:25.52,Default,NTP,0,0,0,,苏珊\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Susanne ?{\fs}
+Dialogue: 0,0:39:27.40,0:39:31.40,Default,NTP,0,0,0,,我们可以独处一会儿吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Could we have a moment alone, please ?{\fs}
+Dialogue: 0,0:39:31.54,0:39:34.91,Default,NTP,0,0,0,,-我不会有事的  -我们就在外面\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- I'll be fine. - We'll be right down the hall.{\fs}
+Dialogue: 0,0:39:34.91,0:39:38.90,Default,NTP,0,0,0,,好的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Okay.{\fs}
+Dialogue: 0,0:39:39.92,0:39:43.91,Default,NTP,0,0,0,,谢谢你的小费\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Thanks for the tip.{\fs}
+Dialogue: 0,0:39:45.42,0:39:48.02,Default,NTP,0,0,0,,大吃一惊 是不是\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Big surprise, huh ?{\fs}
+Dialogue: 0,0:39:48.02,0:39:50.09,Default,NTP,0,0,0,,因为你设计我的朋友来杀我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Since you programmed my friend to kill me ?{\fs}
+Dialogue: 0,0:39:50.09,0:39:52.43,Default,NTP,0,0,0,,不 苏珊 那不是我的主意\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No, Susanne. It wasn't my idea.{\fs}
+Dialogue: 0,0:39:52.43,0:39:54.43,Default,NTP,0,0,0,,你知道这件事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You knew about it.{\fs}
+Dialogue: 0,0:39:54.43,0:39:58.42,Default,NTP,0,0,0,,你把药物给了他们 A-H\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You gave it to them the A-H.{\fs}
+Dialogue: 0,0:39:59.10,0:40:01.10,Default,NTP,0,0,0,,如果我没想到检查朗格利\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If I hadn't thought to check Langly{\fs}
+Dialogue: 0,0:40:01.10,0:40:05.10,Default,NTP,0,0,0,,如果我没有给他解药\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}If I hadn't given him the antidote{\fs}
+Dialogue: 0,0:40:09.68,0:40:13.25,Default,NTP,0,0,0,,我不明白\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I don't understand.{\fs}
+Dialogue: 0,0:40:13.25,0:40:15.25,Default,NTP,0,0,0,,当初为什么要救我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why save me ?{\fs}
+Dialogue: 0,0:40:15.25,0:40:18.25,Default,NTP,0,0,0,,为什么救我一命只是为了要杀掉我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why save my life just to take it away ?{\fs}
+Dialogue: 0,0:40:18.25,0:40:19.24,Default,NTP,0,0,0,,你知道原因\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You know why.{\fs}
+Dialogue: 0,0:40:19.92,0:40:23.92,Default,NTP,0,0,0,,你已经不需要我了 你得到了你想要的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You were done with me. You had what you wanted.{\fs}
+Dialogue: 0,0:40:24.26,0:40:26.96,Default,NTP,0,0,0,,是他们得到了他们想要的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}They had what they wanted.{\fs}
+Dialogue: 0,0:40:26.96,0:40:29.13,Default,NTP,0,0,0,,研究计划结束了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The project was over.{\fs}
+Dialogue: 0,0:40:29.13,0:40:33.00,Default,NTP,0,0,0,,我对天发誓 这不是我的主意\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Honest to God, it wasn't my idea.{\fs}
+Dialogue: 0,0:40:33.00,0:40:37.01,Default,NTP,0,0,0,,你花那么多年骗取我的信任\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}All those years you spent gaining my trust.{\fs}
+Dialogue: 0,0:40:37.01,0:40:39.01,Default,NTP,0,0,0,,假装你爱我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You pretended that you loved me.{\fs}
+Dialogue: 0,0:40:39.01,0:40:42.98,Default,NTP,0,0,0,,他们能给你什么报酬\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What could they possibly give you for that ?{\fs}
+Dialogue: 0,0:40:42.98,0:40:44.95,Default,NTP,0,0,0,,你这样做值得吗 格兰特\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What was it worth to you, Grant ?{\fs}
+Dialogue: 0,0:40:44.95,0:40:48.94,Default,NTP,0,0,0,,你的价钱是多少 你得到了什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What was your price ? What did you get ?{\fs}
+Dialogue: 0,0:40:50.55,0:40:54.22,Default,NTP,0,0,0,,性命 不然他们会杀掉我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}My life. They'd kill me.{\fs}
+Dialogue: 0,0:40:57.93,0:41:01.92,Default,NTP,0,0,0,,哈啰\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hello.{\fs}
+Dialogue: 0,0:41:02.10,0:41:06.09,Default,NTP,0,0,0,,我很抱歉 苏珊\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm so sorry, Susanne.{\fs}
+Dialogue: 0,0:41:11.37,0:41:13.12,Default,NTP,0,0,0,,先是郡里的死亡记录\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}The county death records first.{\fs}
+Dialogue: 0,0:41:13.12,0:41:15.04,Default,NTP,0,0,0,,然后是州的缴税名单 快点\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Then the state tax rolls. Come on.{\fs}
+Dialogue: 0,0:41:15.04,0:41:17.33,Default,NTP,0,0,0,,再下来是克拉克郡停尸间\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Then the Clark County Morgue.{\fs}
+Dialogue: 0,0:41:17.33,0:41:19.04,Default,NTP,0,0,0,,列出他们搞错的尸体\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}List they misplaced the body.{\fs}
+Dialogue: 0,0:41:19.25,0:41:20.40,Default,NTP,0,0,0,,为什么你不用你那娘娘腔的玩意儿射我\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why don't you just zap me with{\fs}
+Dialogue: 0,0:41:20.40,0:41:22.32,Default,NTP,0,0,0,,然后再洗我的脑呢\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}your girlie's thing there and brainwash me again ?{\fs}
+Dialogue: 0,0:41:22.32,0:41:24.62,Default,NTP,0,0,0,,我说下手吧 然后我们就让他剪头发了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I say do it. Then we can make him cut his hair.{\fs}
+Dialogue: 0,0:41:24.62,0:41:27.52,Default,NTP,0,0,0,,你去开门好吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Will you answer that ?{\fs}
+Dialogue: 0,0:41:27.52,0:41:29.56,Default,NTP,0,0,0,,为什么是我 她是你的小妞\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Why me ? She's your little chickadee.{\fs}
+Dialogue: 0,0:41:29.56,0:41:33.55,Default,NTP,0,0,0,,快点 别闹了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hurry up. Come on.{\fs}
+Dialogue: 0,0:41:35.36,0:41:38.57,Default,NTP,0,0,0,,进来吧 马塔·哈瑞\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come on in, Mata Hari.{\fs}
+Dialogue: 0,0:41:38.57,0:41:42.50,Default,NTP,0,0,0,,中情局 不许动\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}C.I.A. Freeze.{\fs}
+Dialogue: 0,0:41:42.50,0:41:44.47,Default,NTP,0,0,0,,-放她走  -才怪\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- Let her go. - Sure.{\fs}
+Dialogue: 0,0:41:44.47,0:41:48.47,Default,NTP,0,0,0,,不要\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No !{\fs}
+Dialogue: 0,0:41:51.01,0:41:54.32,Default,NTP,0,0,0,,你知道杀掉你们三个最大的好处是什么\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You know the best thing about killing you three ?{\fs}
+Dialogue: 0,0:41:54.32,0:41:58.31,Default,NTP,0,0,0,,我以后不必再穿的跟你们一样了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}- I won't have to dress like you anymore. -{\fs}
+Dialogue: 0,0:42:01.26,0:42:05.25,Default,NTP,0,0,0,,把他拖走\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Get him off me.{\fs}
+Dialogue: 0,0:42:07.33,0:42:10.67,Default,NTP,0,0,0,,嗨 美人儿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hi, cutie.{\fs}
+Dialogue: 0,0:42:10.67,0:42:14.66,Default,NTP,0,0,0,,你要怎么处置他\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What do you want to do with him ?{\fs}
+Dialogue: 0,0:42:15.07,0:42:17.24,Default,NTP,0,0,0,,警方证实已经逮捕一个\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Police confirm an arrest has been made.{\fs}
+Dialogue: 0,0:42:17.24,0:42:20.24,Default,NTP,0,0,0,,这个人 新墨西哥州 阿拉莫戈多的蒂莫西·朗道\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This man Timothy Landau of Alamogordo, New Mexico{\fs}
+Dialogue: 0,0:42:20.24,0:42:22.60,Default,NTP,0,0,0,,已经招供谋杀格兰特·艾利斯\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}has confessed to the murders of Grant Ellis{\fs}
+Dialogue: 0,0:42:22.60,0:42:24.24,Default,NTP,0,0,0,,以及苏珊·莫德斯基\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}and Susanne Modeski.{\fs}
+Dialogue: 0,0:42:25.28,0:42:27.32,Default,NTP,0,0,0,,喂 穆德\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Hello ? Mulder ?{\fs}
+Dialogue: 0,0:42:27.32,0:42:29.79,Default,NTP,0,0,0,,你听得到吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Can you hear me ?{\fs}
+Dialogue: 0,0:42:29.79,0:42:33.62,Default,NTP,0,0,0,,我在酒店 你在哪儿\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm at the hotel. Where are you ?{\fs}
+Dialogue: 0,0:42:33.62,0:42:36.33,Default,NTP,0,0,0,,你说"什么酒店"是什么意思 拉斯维加斯呀\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What do you mean, "What hotel'' ? Las Vegas.{\fs}
+Dialogue: 0,0:42:36.33,0:42:39.09,Default,NTP,0,0,0,,我在拉斯维加斯 你不在吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I'm in Las Vegas. Aren't you ?{\fs}
+Dialogue: 0,0:42:39.09,0:42:41.50,Default,NTP,0,0,0,,你打电话给我的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You called me.{\fs}
+Dialogue: 0,0:42:41.50,0:42:45.49,Default,NTP,0,0,0,,你说没打电话给我是什么意思\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}What do you mean, you didn't call me ?{\fs}
+Dialogue: 0,0:42:46.27,0:42:50.24,Default,NTP,0,0,0,,喔 见鬼 我要踢他们的屁股\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, man. I am gonna kick their asses.{\fs}
+Dialogue: 0,0:42:50.24,0:42:52.57,Default,NTP,0,0,0,,苏珊·莫德斯基死了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Susanne Modeski is dead.{\fs}
+Dialogue: 0,0:42:52.57,0:42:54.48,Default,NTP,0,0,0,,每个郡 州\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Every computer at every county,{\fs}
+Dialogue: 0,0:42:54.48,0:42:56.57,Default,NTP,0,0,0,,联邦机构的每台电脑都知道了\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}state and federal office knows it.{\fs}
+Dialogue: 0,0:42:58.25,0:43:02.24,Default,NTP,0,0,0,,你现在起就是她\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This is who you are now.{\fs}
+Dialogue: 0,0:43:06.42,0:43:10.42,Default,NTP,0,0,0,,跟我一起走\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Come with me.{\fs}
+Dialogue: 0,0:43:17.07,0:43:19.07,Default,NTP,0,0,0,,没有我你会更安全的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You'll be safer without me.{\fs}
+Dialogue: 0,0:43:19.07,0:43:22.54,Default,NTP,0,0,0,,没有差别 我告诉过你 我要公开\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Doesn't make a difference. I told you, I'm going public.{\fs}
+Dialogue: 0,0:43:22.54,0:43:24.77,Default,NTP,0,0,0,,不 你不该公开\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}No, you're not.{\fs}
+Dialogue: 0,0:43:24.77,0:43:28.74,Default,NTP,0,0,0,,你做的已经够多了 剩下的交给我们吧\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You've done more than enough. Leave it to us now.{\fs}
+Dialogue: 0,0:43:28.74,0:43:32.74,Default,NTP,0,0,0,,那是我们该做的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}It's what we do.{\fs}
+Dialogue: 0,0:43:36.55,0:43:39.15,Default,NTP,0,0,0,,本来是要给格兰特的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}This was meant for Grant.{\fs}
+Dialogue: 0,0:43:39.15,0:43:43.15,Default,NTP,0,0,0,,我想要你收下它\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}I want you to have it.{\fs}
+Dialogue: 0,0:43:54.67,0:43:58.66,Default,NTP,0,0,0,,会有那么一天的\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Someday.{\fs}
+Dialogue: 0,0:44:25.33,0:44:29.33,Default,NTP,0,0,0,,要去玩几把吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}So, you want to hit the slots ?{\fs}
+Dialogue: 0,0:44:29.51,0:44:33.51,Default,NTP,0,0,0,,知道吗 拜尔斯 和你一起变老 不算是太坏的事\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}You know, Byers, growing old with us ain't so bad.{\fs}
+Dialogue: 0,0:44:33.51,0:44:37.50,Default,NTP,0,0,0,,喔 闭嘴 朗格利 你真想让他自杀吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Oh, shut up, Langly. Do you really want him to kill himself?{\fs}
+Dialogue: 0,0:44:37.61,0:44:41.61,Default,NTP,0,0,0,,你们有二角五分的硬币吗\N{\fs12\b0\c&Hffffff&\3c&H2F2F2F&\4c&H000000&}Got any quarters ?{\fs}
+

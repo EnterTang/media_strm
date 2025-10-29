@@ -1,0 +1,1363 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.50,0:00:10.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}影片壓制：木子丁  字幕重制：木子丁{\r}\N{\fnTimes New Roman\pos(192,284)\3c&H404000&}====  NORM TEAM  ===={\r}
+Dialogue: 0,0:00:12.10,0:00:20.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}片名：七武士{\r}
+Dialogue: 0,0:02:51.70,0:02:53.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}戰國時代{\r}
+Dialogue: 0,0:02:53.43,0:02:59.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}戰禍連綿，山賊乘亂而起\N（山賊--日本戰國時代的「野武士」之現代意譯）{\r}
+Dialogue: 0,0:03:00.17,0:03:04.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}人民受盡蹂躪，惶惶不可終日{\r}
+Dialogue: 0,0:03:48.52,0:03:51.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幹不幹？這個村？{\r}
+Dialogue: 0,0:03:51.89,0:03:54.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}干了它！干了它！{\r}
+Dialogue: 0,0:03:55.49,0:03:56.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等等！等等！{\r}
+Dialogue: 0,0:03:57.09,0:04:01.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去年秋天才搶掠過稻米 現在再去{\r}
+Dialogue: 0,0:04:02.20,0:04:03.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼都沒有{\r}
+Dialogue: 0,0:04:03.67,0:04:05.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那好{\r}
+Dialogue: 0,0:04:05.33,0:04:08.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等麥子成熟後再來{\r}
+Dialogue: 0,0:04:40.70,0:04:43.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菩薩也不保佑{\r}
+Dialogue: 0,0:04:45.21,0:04:50.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}交年貢，服勞役，戰亂，旱災{\r}
+Dialogue: 0,0:04:51.51,0:04:54.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再加上山賊{\r}
+Dialogue: 0,0:04:58.62,0:05:02.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菩薩等於叫我們農民去死\N（農民--日本戰國時代的「百姓」之現代意譯）{\r}
+Dialogue: 0,0:05:02.52,0:05:05.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是啊！真的不如死掉算了{\r}
+Dialogue: 0,0:05:06.80,0:05:11.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別洩氣，哭也沒有用{\r}
+Dialogue: 0,0:05:11.60,0:05:14.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}官府收年貢{\r}
+Dialogue: 0,0:05:14.67,0:05:16.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}應該保護我們{\r}
+Dialogue: 0,0:05:17.47,0:05:19.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒用，官府所為誰都知{\r}
+Dialogue: 0,0:05:19.68,0:05:22.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊走光，他們就大搖大擺來參觀{\r}
+Dialogue: 0,0:05:23.18,0:05:25.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是啊 一點用處都沒有{\r}
+Dialogue: 0,0:05:25.55,0:05:30.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不如把糧食送給山賊{\r}
+Dialogue: 0,0:05:30.99,0:05:33.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}然後自殺{\r}
+Dialogue: 0,0:05:33.79,0:05:37.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}官府就會大驚趕來{\r}
+Dialogue: 0,0:05:47.80,0:05:49.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們殺山賊{\r}
+Dialogue: 0,0:05:50.71,0:05:52.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}殺光他們{\r}
+Dialogue: 0,0:05:52.71,0:05:54.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就不會來！殺光他們！{\r}
+Dialogue: 0,0:05:55.51,0:05:57.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我…反對{\r}
+Dialogue: 0,0:05:58.55,0:06:00.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這種事辦不到{\r}
+Dialogue: 0,0:06:02.99,0:06:04.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}簡直是瘋話{\r}
+Dialogue: 0,0:06:06.92,0:06:10.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}敢殺落荒武士，不敢殺山賊？{\r}
+Dialogue: 0,0:06:10.83,0:06:14.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要吵！現在不是爭吵的時候{\r}
+Dialogue: 0,0:06:17.27,0:06:21.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟山賊打，不會贏 輸了怎辦？{\r}
+Dialogue: 0,0:06:21.54,0:06:24.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}男女老幼統統會被殺光{\r}
+Dialogue: 0,0:06:25.07,0:06:28.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別再說了{\r}
+Dialogue: 0,0:06:28.71,0:06:31.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與其受折磨，不如背水一戰{\r}
+Dialogue: 0,0:06:31.61,0:06:33.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉！{\r}
+Dialogue: 0,0:06:33.45,0:06:36.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰叫我們是農民，只有逆來順受{\r}
+Dialogue: 0,0:06:36.49,0:06:38.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們不能反抗強權{\r}
+Dialogue: 0,0:06:40.22,0:06:43.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊來時不可抵抗{\r}
+Dialogue: 0,0:06:43.89,0:06:46.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要雙手獻上麥子{\r}
+Dialogue: 0,0:06:46.60,0:06:51.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}然後求他們留點給我們吃的餬口{\r}
+Dialogue: 0,0:06:51.60,0:06:56.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家還要叩頭哀求{\r}
+Dialogue: 0,0:06:58.34,0:07:00.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊會答應嗎？{\r}
+Dialogue: 0,0:07:01.04,0:07:06.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}忘了嗎？現在的米是怎樣來的？{\r}
+Dialogue: 0,0:07:27.64,0:07:29.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去找老爹{\r}
+Dialogue: 0,0:07:29.91,0:07:32.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}讓老爹決定{\r}
+Dialogue: 0,0:08:37.87,0:08:40.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}談判也要看對像{\r}
+Dialogue: 0,0:08:41.71,0:08:45.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們會得寸進尺{\r}
+Dialogue: 0,0:08:45.85,0:08:48.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次嘗完下次又會來{\r}
+Dialogue: 0,0:08:48.88,0:08:52.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 萬一輸了怎辦  - 本來就沒勝算{\r}
+Dialogue: 0,0:08:52.72,0:08:55.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}麥子被搶，也是死路一條{\r}
+Dialogue: 0,0:09:00.83,0:09:02.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}打吧！{\r}
+Dialogue: 0,0:09:03.83,0:09:05.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹，怎可以！{\r}
+Dialogue: 0,0:09:06.20,0:09:08.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們農人不會打仗{\r}
+Dialogue: 0,0:09:08.84,0:09:11.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}僱用武土{\r}
+Dialogue: 0,0:09:11.74,0:09:15.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼？農民怎能僱用武士{\r}
+Dialogue: 0,0:09:17.48,0:09:20.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我親眼見過{\r}
+Dialogue: 0,0:09:21.25,0:09:26.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}當時你們出生的村莊被放火{\r}
+Dialogue: 0,0:09:27.46,0:09:31.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我逃來這裏的途中{\r}
+Dialogue: 0,0:09:32.89,0:09:39.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我看見雇了武士的村，才沒有被放火{\r}
+Dialogue: 0,0:09:40.14,0:09:43.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但，老爹 村莊也有貧富之別{\r}
+Dialogue: 0,0:09:43.97,0:09:46.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}喝粥水怎麼養武士{\r}
+Dialogue: 0,0:09:46.68,0:09:47.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們可吃稗子{\r}
+Dialogue: 0,0:09:48.08,0:09:52.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只供膳，武士會為農民拚命嗎？{\r}
+Dialogue: 0,0:09:52.58,0:09:54.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士都很高傲{\r}
+Dialogue: 0,0:09:54.78,0:09:55.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著{\r}
+Dialogue: 0,0:09:57.02,0:10:00.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}找飢餓的武士{\r}
+Dialogue: 0,0:10:02.06,0:10:07.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}餓起來，熊也會下山{\r}
+Dialogue: 0,0:10:51.31,0:10:54.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}說什麼？{\r}
+Dialogue: 0,0:10:55.58,0:10:58.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士落難還是武士！{\r}
+Dialogue: 0,0:10:59.11,0:11:00.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不會受農民的施捨{\r}
+Dialogue: 0,0:11:04.19,0:11:05.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}傻瓜{\r}
+Dialogue: 0,0:11:12.79,0:11:14.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我早說不行{\r}
+Dialogue: 0,0:11:47.33,0:11:49.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}麥子成熟了{\r}
+Dialogue: 0,0:11:50.40,0:11:52.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}當然，離村已十天了{\r}
+Dialogue: 0,0:11:52.67,0:11:55.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}如何是好？{\r}
+Dialogue: 0,0:11:57.21,0:12:00.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這裏的麥比山上的早熟{\r}
+Dialogue: 0,0:12:03.41,0:12:07.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}渾身濕透了{\r}
+Dialogue: 0,0:12:07.22,0:12:10.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}找到便宜、會打又傻冒的武士了嗎？{\r}
+Dialogue: 0,0:12:49.96,0:12:51.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}賣剩的{\r}
+Dialogue: 0,0:12:52.09,0:12:53.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}便宜賣給你{\r}
+Dialogue: 0,0:12:53.53,0:12:54.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}笑死人了{\r}
+Dialogue: 0,0:12:55.86,0:12:58.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 有什麼好笑  -  他是瞎的{\r}
+Dialogue: 0,0:13:00.10,0:13:02.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 那麼你們買吧  - 我才不會買{\r}
+Dialogue: 0,0:13:02.70,0:13:05.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}吃馬糞也不會買{\r}
+Dialogue: 0,0:13:09.38,0:13:13.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 他身無分文  - 昨晚輸了個精光{\r}
+Dialogue: 0,0:13:13.78,0:13:17.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他輸錢後揮刀亂舞，我們三個合力揍了他一頓{\r}
+Dialogue: 0,0:13:17.82,0:13:20.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他現在是一窮二白{\r}
+Dialogue: 0,0:13:24.49,0:13:27.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}算了，他們只吃稗子{\r}
+Dialogue: 0,0:13:28.10,0:13:30.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是嗎？那可不行{\r}
+Dialogue: 0,0:13:31.00,0:13:33.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}光吃稗會得夜盲癥{\r}
+Dialogue: 0,0:13:34.24,0:13:36.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}剛好四個{\r}
+Dialogue: 0,0:13:36.24,0:13:38.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一合米交換{\r}
+Dialogue: 0,0:13:39.21,0:13:41.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}如何？{\r}
+Dialogue: 0,0:13:43.85,0:13:46.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}個個都是窮光旦{\r}
+Dialogue: 0,0:14:05.03,0:14:07.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}太可惜了{\r}
+Dialogue: 0,0:14:08.34,0:14:12.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有米的話可買四十個{\r}
+Dialogue: 0,0:14:13.04,0:14:13.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要說了{\r}
+Dialogue: 0,0:14:14.88,0:14:16.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你說不是嗎？{\r}
+Dialogue: 0,0:14:19.11,0:14:21.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}傻瓜光火了！{\r}
+Dialogue: 0,0:14:21.75,0:14:24.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有好戲瞧了 上啊{\r}
+Dialogue: 0,0:14:28.92,0:14:33.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}世上竟有這等蠢事{\r}
+Dialogue: 0,0:14:35.13,0:14:40.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}免費供吃供喝{\r}
+Dialogue: 0,0:14:41.84,0:14:45.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還要挨巴掌{\r}
+Dialogue: 0,0:14:46.64,0:14:48.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那浪人有真功夫{\r}
+Dialogue: 0,0:14:49.04,0:14:51.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟裝假睡的混旦不同{\r}
+Dialogue: 0,0:14:52.18,0:14:57.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}算了，回去吧{\r}
+Dialogue: 0,0:14:59.55,0:15:00.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他在哭哩{\r}
+Dialogue: 0,0:15:01.12,0:15:02.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}「娘子我想你」{\r}
+Dialogue: 0,0:15:02.99,0:15:06.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我肯出十貫看他抱著老婆睡{\r}
+Dialogue: 0,0:15:06.26,0:15:10.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不如早日回村算了{\r}
+Dialogue: 0,0:15:11.03,0:15:14.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}饅頭也買不起，怎樣請武士？{\r}
+Dialogue: 0,0:15:15.20,0:15:19.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們只會分種子的好壞{\r}
+Dialogue: 0,0:15:19.77,0:15:22.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不會分辨武士的好壞{\r}
+Dialogue: 0,0:15:24.21,0:15:28.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好的不會理我們{\r}
+Dialogue: 0,0:15:29.58,0:15:35.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}理我們的又武功差{\r}
+Dialogue: 0,0:15:43.20,0:15:48.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我昨晚肚餓才一時大意{\r}
+Dialogue: 0,0:15:49.24,0:15:53.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}放屁，賭錢時又不叫餓{\r}
+Dialogue: 0,0:15:54.01,0:15:55.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋！{\r}
+Dialogue: 0,0:15:55.61,0:15:57.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}想打架嗎？{\r}
+Dialogue: 0,0:15:58.61,0:16:00.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}打架了{\r}
+Dialogue: 0,0:16:03.72,0:16:06.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這邊，還在發夢{\r}
+Dialogue: 0,0:16:16.53,0:16:19.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}和尚…吵死人了{\r}
+Dialogue: 0,0:16:20.17,0:16:23.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}打…我們幫你 不用怕{\r}
+Dialogue: 0,0:16:54.47,0:16:55.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉！{\r}
+Dialogue: 0,0:16:56.81,0:16:58.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造，停手！{\r}
+Dialogue: 0,0:16:58.81,0:17:01.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}又說要回去，混蛋{\r}
+Dialogue: 0,0:17:02.74,0:17:05.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我沒說過要跟山賊談判{\r}
+Dialogue: 0,0:17:06.48,0:17:09.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}請不到武土{\r}
+Dialogue: 0,0:17:09.25,0:17:11.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就只好跟山賊談判{\r}
+Dialogue: 0,0:17:12.79,0:17:15.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好，我同意！{\r}
+Dialogue: 0,0:17:24.17,0:17:25.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不過…{\r}
+Dialogue: 0,0:17:26.47,0:17:28.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}如果談判{\r}
+Dialogue: 0,0:17:29.10,0:17:31.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們有什麼可獻？{\r}
+Dialogue: 0,0:17:32.07,0:17:34.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}獻出你的女兒嗎？{\r}
+Dialogue: 0,0:17:36.24,0:17:38.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃漂亮，用得著{\r}
+Dialogue: 0,0:19:10.34,0:19:11.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}發生什麼事？{\r}
+Dialogue: 0,0:19:12.17,0:19:17.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}穀倉中有小偷，吵起來就逃進去了{\r}
+Dialogue: 0,0:19:39.27,0:19:41.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有幾個小偷？{\r}
+Dialogue: 0,0:19:41.80,0:19:42.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就一個{\r}
+Dialogue: 0,0:19:43.30,0:19:44.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一個？{\r}
+Dialogue: 0,0:19:46.37,0:19:48.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這麼多人捉一個賊？{\r}
+Dialogue: 0,0:19:49.21,0:19:54.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}人多也沒用 他捉了一個小孩{\r}
+Dialogue: 0,0:19:54.25,0:19:56.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}說我們一動就先殺小孩{\r}
+Dialogue: 0,0:19:58.12,0:20:00.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽見嗎？{\r}
+Dialogue: 0,0:20:06.13,0:20:08.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可憐的孩子{\r}
+Dialogue: 0,0:20:08.40,0:20:10.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}午夜出的事{\r}
+Dialogue: 0,0:20:10.77,0:20:15.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可憐的孩子已經哭了大半天了{\r}
+Dialogue: 0,0:20:15.20,0:20:18.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在已哭不出聲來{\r}
+Dialogue: 0,0:20:21.58,0:20:25.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他才7歲 想想他父母該多難受{\r}
+Dialogue: 0,0:20:25.88,0:20:29.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那武士為何剃頭？{\r}
+Dialogue: 0,0:20:29.78,0:20:34.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰知道 我們請他救人 他立刻答應了{\r}
+Dialogue: 0,0:20:34.32,0:20:36.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他要兩個飯團{\r}
+Dialogue: 0,0:20:36.52,0:20:40.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}又叫路過的和尚剃頭，還借他的袈裟{\r}
+Dialogue: 0,0:20:40.93,0:20:42.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真不明白他打什麼主意{\r}
+Dialogue: 0,0:22:15.26,0:22:19.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}退後！再湊近我就殺了這小子{\r}
+Dialogue: 0,0:22:19.43,0:22:21.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我是出家人{\r}
+Dialogue: 0,0:22:21.56,0:22:23.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}退後！{\r}
+Dialogue: 0,0:22:25.53,0:22:29.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我只是個出家人 不是來捉你{\r}
+Dialogue: 0,0:22:34.41,0:22:35.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我不會進來{\r}
+Dialogue: 0,0:22:36.08,0:22:40.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我怕小孩子肚子餓{\r}
+Dialogue: 0,0:22:45.59,0:22:47.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拿飯團來了{\r}
+Dialogue: 0,0:22:48.69,0:22:50.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其中一個給你{\r}
+Dialogue: 0,0:22:53.56,0:22:56.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不要嗎？{\r}
+Dialogue: 0,0:22:57.27,0:22:58.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,0:23:02.40,0:23:04.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拋過來！{\r}
+Dialogue: 0,0:23:04.81,0:23:05.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}給{\r}
+Dialogue: 0,0:23:33.67,0:23:35.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我的孩子！{\r}
+Dialogue: 0,0:24:47.41,0:24:50.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那個武士不錯{\r}
+Dialogue: 0,0:24:50.31,0:24:53.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}趁沒進城，快跟他說{\r}
+Dialogue: 0,0:25:09.33,0:25:11.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有什麼事？{\r}
+Dialogue: 0,0:25:20.14,0:25:23.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我叫岡本勝四郎 請收我為徒{\r}
+Dialogue: 0,0:25:26.65,0:25:27.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}徒弟？{\r}
+Dialogue: 0,0:25:28.15,0:25:31.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我叫島田勘兵衛，是個浪人{\r}
+Dialogue: 0,0:25:32.65,0:25:34.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}也不收徒弟{\r}
+Dialogue: 0,0:25:35.06,0:25:37.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站起來再說{\r}
+Dialogue: 0,0:25:38.96,0:25:41.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}請收我做徒弟吧{\r}
+Dialogue: 0,0:25:41.36,0:25:46.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站起來，有話邊走邊說{\r}
+Dialogue: 0,0:25:58.51,0:26:00.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拿你沒辦法{\r}
+Dialogue: 0,0:26:00.45,0:26:03.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你高估我了{\r}
+Dialogue: 0,0:26:03.68,0:26:04.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，大人…{\r}
+Dialogue: 0,0:26:04.62,0:26:06.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著{\r}
+Dialogue: 0,0:26:06.52,0:26:09.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我這人沒什麼特別{\r}
+Dialogue: 0,0:26:09.86,0:26:13.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只是打過不少仗{\r}
+Dialogue: 0,0:26:13.29,0:26:16.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但都是敗仗{\r}
+Dialogue: 0,0:26:16.46,0:26:19.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我就是這樣的人{\r}
+Dialogue: 0,0:26:19.43,0:26:22.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟我這種倒霉漢，沒好處{\r}
+Dialogue: 0,0:26:22.67,0:26:27.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我已經決定了 你不同意我也要跟{\r}
+Dialogue: 0,0:26:27.84,0:26:29.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我拒絕{\r}
+Dialogue: 0,0:26:30.58,0:26:33.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我沒資格收徒弟{\r}
+Dialogue: 0,0:26:45.86,0:26:47.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼事？{\r}
+Dialogue: 0,0:26:55.67,0:26:57.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你想怎樣？{\r}
+Dialogue: 0,0:27:05.65,0:27:06.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}休得無禮！{\r}
+Dialogue: 0,0:27:08.48,0:27:10.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}小鬼別插嘴{\r}
+Dialogue: 0,0:27:13.75,0:27:15.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是武士嗎？{\r}
+Dialogue: 0,0:27:19.89,0:27:21.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}當然{\r}
+Dialogue: 0,0:27:24.60,0:27:26.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真的？{\r}
+Dialogue: 0,0:27:34.28,0:27:35.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋{\r}
+Dialogue: 0,0:27:51.79,0:27:53.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他是什麼人？{\r}
+Dialogue: 0,0:27:59.73,0:28:01.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不必理他{\r}
+Dialogue: 0,0:28:19.69,0:28:21.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有事相求，大人！{\r}
+Dialogue: 0,0:28:23.92,0:28:27.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}笨蛋 為什麼不收手？{\r}
+Dialogue: 0,0:28:28.83,0:28:32.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}固執的老笨蛋 他們會像上次那人一樣吃了就跑的{\r}
+Dialogue: 0,0:28:37.64,0:28:40.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}辦不到{\r}
+Dialogue: 0,0:28:40.37,0:28:43.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}師父，應以竹為茅，武裝他們{\r}
+Dialogue: 0,0:28:44.05,0:28:46.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我已考慮過了  - 可是…{\r}
+Dialogue: 0,0:28:50.35,0:28:52.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這不是鬧著玩{\r}
+Dialogue: 0,0:28:56.16,0:28:58.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對方山賊有四十騎{\r}
+Dialogue: 0,0:28:58.99,0:29:02.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}兩三個武士抵擋不了{\r}
+Dialogue: 0,0:29:16.34,0:29:19.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}守比攻更難{\r}
+Dialogue: 0,0:29:21.48,0:29:23.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}村後是山嗎？{\r}
+Dialogue: 0,0:29:23.95,0:29:24.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是的{\r}
+Dialogue: 0,0:29:24.95,0:29:26.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}馬匹能過那山嗎？{\r}
+Dialogue: 0,0:29:26.85,0:29:27.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是的{\r}
+Dialogue: 0,0:29:37.03,0:29:39.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}前面是田{\r}
+Dialogue: 0,0:29:39.50,0:29:41.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}未放水入田之前{\r}
+Dialogue: 0,0:29:42.37,0:29:45.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}馬匹能從任何方向來{\r}
+Dialogue: 0,0:29:46.84,0:29:49.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}防守四面要四個人{\r}
+Dialogue: 0,0:29:51.45,0:29:53.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}後備兩人{\r}
+Dialogue: 0,0:29:55.28,0:29:58.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}連我在內{\r}
+Dialogue: 0,0:29:58.92,0:30:01.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}最少也要七人{\r}
+Dialogue: 0,0:30:03.49,0:30:05.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們請得起七個{\r}
+Dialogue: 0,0:30:05.96,0:30:08.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹說四個{\r}
+Dialogue: 0,0:30:08.86,0:30:10.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只是再多三個罷了{\r}
+Dialogue: 0,0:30:11.00,0:30:12.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等等{\r}
+Dialogue: 0,0:30:12.80,0:30:16.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我還沒答應 只是說說罷了{\r}
+Dialogue: 0,0:30:17.54,0:30:22.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要找這麼多武士不容易{\r}
+Dialogue: 0,0:30:22.81,0:30:27.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}況且酬勞只供三餐{\r}
+Dialogue: 0,0:30:29.15,0:30:32.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}除非有好管閒事的武士吧{\r}
+Dialogue: 0,0:30:32.99,0:30:37.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}此外，我也厭倦了打鬥{\r}
+Dialogue: 0,0:30:38.79,0:30:40.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}年紀大了{\r}
+Dialogue: 0,0:31:01.78,0:31:04.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幸好沒有生為農民{\r}
+Dialogue: 0,0:31:06.65,0:31:10.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}做狗更好哩{\r}
+Dialogue: 0,0:31:10.46,0:31:14.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快點去死算了{\r}
+Dialogue: 0,0:31:14.56,0:31:15.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}安靜，笨蛋！{\r}
+Dialogue: 0,0:31:16.16,0:31:18.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？我只是擺事實{\r}
+Dialogue: 0,0:31:18.93,0:31:23.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼事實？你不體諒他們的痛苦嗎？{\r}
+Dialogue: 0,0:31:23.40,0:31:24.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}笑死人了{\r}
+Dialogue: 0,0:31:25.21,0:31:26.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們才不體諒{\r}
+Dialogue: 0,0:31:27.07,0:31:27.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你怎敢？{\r}
+Dialogue: 0,0:31:28.08,0:31:31.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}否則為什麼不幫助他們{\r}
+Dialogue: 0,0:31:37.05,0:31:38.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}想打一架？{\r}
+Dialogue: 0,0:31:41.09,0:31:42.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}住手{\r}
+Dialogue: 0,0:31:48.46,0:31:49.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快住手{\r}
+Dialogue: 0,0:31:57.91,0:32:01.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士，看看這個{\r}
+Dialogue: 0,0:32:01.41,0:32:03.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是給你們吃的{\r}
+Dialogue: 0,0:32:03.41,0:32:06.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你知道這些笨蛋吃什麼？{\r}
+Dialogue: 0,0:32:06.25,0:32:07.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是稗子{\r}
+Dialogue: 0,0:32:07.75,0:32:11.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們吃稗卻讓你們吃白米飯{\r}
+Dialogue: 0,0:32:11.99,0:32:15.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們能給的都給了{\r}
+Dialogue: 0,0:32:17.26,0:32:19.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 好了  - 什麼{\r}
+Dialogue: 0,0:32:19.39,0:32:20.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別吵了{\r}
+Dialogue: 0,0:32:25.77,0:32:28.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我不會白吃這些飯{\r}
+Dialogue: 0,0:32:47.59,0:32:49.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造回來了{\r}
+Dialogue: 0,0:33:04.20,0:33:05.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉和與平呢？{\r}
+Dialogue: 0,0:33:05.94,0:33:08.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還在找武土{\r}
+Dialogue: 0,0:33:08.84,0:33:10.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士會來嗎？{\r}
+Dialogue: 0,0:33:10.31,0:33:12.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}會來七個{\r}
+Dialogue: 0,0:33:12.55,0:33:13.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七個？{\r}
+Dialogue: 0,0:33:17.85,0:33:19.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七個{\r}
+Dialogue: 0,0:33:19.92,0:33:24.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你說過要四個，所以我反對過{\r}
+Dialogue: 0,0:33:25.76,0:33:30.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其實我想請十個{\r}
+Dialogue: 0,0:33:31.16,0:33:36.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但說十個，他們會請十五個{\r}
+Dialogue: 0,0:33:37.17,0:33:39.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}所以說四個就夠了{\r}
+Dialogue: 0,0:33:41.14,0:33:44.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我很擔心{\r}
+Dialogue: 0,0:33:49.05,0:33:52.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們怕武士會調戲女孩子{\r}
+Dialogue: 0,0:33:52.82,0:33:57.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}如果武士們碰了她們，那就是大禍了{\r}
+Dialogue: 0,0:34:00.53,0:34:03.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊要來了，笨蛋{\r}
+Dialogue: 0,0:34:04.70,0:34:07.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你要頭{\r}
+Dialogue: 0,0:34:07.53,0:34:10.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還是要鬍子？{\r}
+Dialogue: 0,0:34:20.41,0:34:21.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士大人{\r}
+Dialogue: 0,0:34:32.42,0:34:36.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 要我幫忙？  - 是的，大人{\r}
+Dialogue: 0,0:34:36.63,0:34:38.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對方是什麼人？{\r}
+Dialogue: 0,0:34:39.47,0:34:41.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎{\r}
+Dialogue: 0,0:34:53.21,0:34:55.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}躲在門後，舉起棒{\r}
+Dialogue: 0,0:34:57.72,0:34:59.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}浪人進來時，用力劈下去{\r}
+Dialogue: 0,0:35:04.76,0:35:06.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他來了{\r}
+Dialogue: 0,0:35:11.23,0:35:14.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不必留情，用力攻{\r}
+Dialogue: 0,0:35:43.33,0:35:44.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好身手{\r}
+Dialogue: 0,0:35:45.86,0:35:49.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}多有冒犯 在下叫島田勘兵衛{\r}
+Dialogue: 0,0:35:50.14,0:35:54.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現正火急招募俠士{\r}
+Dialogue: 0,0:35:54.77,0:35:56.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}請原諒{\r}
+Dialogue: 0,0:35:56.78,0:35:58.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼回事？{\r}
+Dialogue: 0,0:35:58.91,0:36:01.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不解釋清楚，我不會罷休的{\r}
+Dialogue: 0,0:36:01.21,0:36:05.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真對不起 我們只是想試試你的身手{\r}
+Dialogue: 0,0:36:05.88,0:36:09.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們很快要對抗山賊{\r}
+Dialogue: 0,0:36:10.09,0:36:13.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是哪一個藩？{\r}
+Dialogue: 0,0:36:13.23,0:36:18.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}說起來很難為情 是為了農民{\r}
+Dialogue: 0,0:36:18.80,0:36:20.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 農民？  - 是的{\r}
+Dialogue: 0,0:36:20.53,0:36:23.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有貫祿和賞賜{\r}
+Dialogue: 0,0:36:24.67,0:36:28.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只供每天膳食{\r}
+Dialogue: 0,0:36:28.47,0:36:29.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}開玩笑{\r}
+Dialogue: 0,0:36:30.88,0:36:32.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我的報酬豈能這麼少？{\r}
+Dialogue: 0,0:36:34.65,0:36:38.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真可惜 你可考慮一下嗎？{\r}
+Dialogue: 0,0:36:39.85,0:36:41.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不行{\r}
+Dialogue: 0,0:36:47.56,0:36:52.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}太可惜，他身手這麼好{\r}
+Dialogue: 0,0:37:38.84,0:37:40.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,0:37:40.65,0:37:45.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還欠六人，不知身手如何{\r}
+Dialogue: 0,0:37:45.25,0:37:47.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}擔心得太早了{\r}
+Dialogue: 0,0:37:47.55,0:37:52.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}人還未找到，擔心什麼，從那開始嘛{\r}
+Dialogue: 0,0:38:07.37,0:38:09.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}試試他{\r}
+Dialogue: 0,0:38:27.63,0:38:30.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等一等{\r}
+Dialogue: 0,0:38:32.20,0:38:34.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}照上次那樣？{\r}
+Dialogue: 0,0:38:37.40,0:38:40.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你當作是練習{\r}
+Dialogue: 0,0:39:12.54,0:39:14.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真是會開玩笑{\r}
+Dialogue: 0,0:39:15.57,0:39:17.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對不起 對不起{\r}
+Dialogue: 0,0:39:32.42,0:39:33.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好吧{\r}
+Dialogue: 0,0:39:36.50,0:39:38.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不過這…{\r}
+Dialogue: 0,0:39:39.16,0:39:41.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我也明白農民痛苦{\r}
+Dialogue: 0,0:39:42.27,0:39:46.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你幫農民的，心情我瞭解{\r}
+Dialogue: 0,0:39:46.87,0:39:51.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我答應你，是欣賞你的為人{\r}
+Dialogue: 0,0:39:52.78,0:39:57.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}啊，人生難得一知已也{\r}
+Dialogue: 0,0:40:03.39,0:40:05.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 請問貴姓大名  - 片山五郎兵衛{\r}
+Dialogue: 0,0:40:06.19,0:40:08.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但沒有「兵」{\r}
+Dialogue: 0,0:40:19.17,0:40:22.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平，快淘米{\r}
+Dialogue: 0,0:40:27.05,0:40:28.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平{\r}
+Dialogue: 0,0:40:32.45,0:40:33.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,0:40:35.45,0:40:38.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}米給偷了{\r}
+Dialogue: 0,0:40:49.67,0:40:52.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這蠢才！我不是警告過你嗎？{\r}
+Dialogue: 0,0:40:52.97,0:40:55.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我很小心了{\r}
+Dialogue: 0,0:41:00.45,0:41:04.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}已抱著米缸睡，但…{\r}
+Dialogue: 0,0:41:10.09,0:41:12.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒法子了 回村去拿{\r}
+Dialogue: 0,0:41:13.36,0:41:14.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但這頓飯怎辦？{\r}
+Dialogue: 0,0:41:15.06,0:41:17.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等你回來？{\r}
+Dialogue: 0,0:41:17.46,0:41:21.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只得一巴掌米{\r}
+Dialogue: 0,0:42:14.35,0:42:16.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蠢才，快停下來{\r}
+Dialogue: 0,0:42:16.29,0:42:19.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}把錢藏起來 師父回來了{\r}
+Dialogue: 0,0:42:24.50,0:42:27.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}能遇上你，太好了{\r}
+Dialogue: 0,0:42:30.14,0:42:36.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}想不到你還活著 我還以為你早死了{\r}
+Dialogue: 0,0:42:42.75,0:42:45.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你怎樣逃出生天的？{\r}
+Dialogue: 0,0:42:46.12,0:42:49.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我躲在水草下到天黑{\r}
+Dialogue: 0,0:42:51.72,0:42:57.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}當城樓塌下時，以為死定了{\r}
+Dialogue: 0,0:42:58.60,0:43:01.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}當時，心情如何？{\r}
+Dialogue: 0,0:43:01.93,0:43:04.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗯…沒什麼{\r}
+Dialogue: 0,0:43:07.31,0:43:10.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}已經厭倦打仗嗎？{\r}
+Dialogue: 0,0:43:18.88,0:43:25.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其實呢，有個既不能陞官也不能發財而且難打的仗{\r}
+Dialogue: 0,0:43:25.32,0:43:27.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 你參戰嗎？  - 好的{\r}
+Dialogue: 0,0:43:28.49,0:43:30.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次可能會沒命的喲{\r}
+Dialogue: 0,0:43:51.78,0:43:53.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真要找起來可不容易{\r}
+Dialogue: 0,0:43:53.79,0:43:55.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}找什麼？{\r}
+Dialogue: 0,0:43:56.09,0:43:58.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 武士  - 武士？{\r}
+Dialogue: 0,0:44:00.29,0:44:04.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}後院有個二流貨色{\r}
+Dialogue: 0,0:44:04.70,0:44:08.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我看這個武士與眾不同{\r}
+Dialogue: 0,0:44:08.50,0:44:11.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}肚餓了來討飯吃{\r}
+Dialogue: 0,0:44:11.44,0:44:15.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}說身無分文，但幫我砍柴{\r}
+Dialogue: 0,0:44:20.91,0:44:24.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我喜歡他的率直{\r}
+Dialogue: 0,0:45:03.96,0:45:06.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你第一次看到砍柴嗎？{\r}
+Dialogue: 0,0:45:07.09,0:45:09.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不是 你好像很開心{\r}
+Dialogue: 0,0:45:09.76,0:45:13.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗯，我生來就這樣{\r}
+Dialogue: 0,0:45:18.47,0:45:19.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}很熟手啊{\r}
+Dialogue: 0,0:45:19.97,0:45:23.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有殺人那麼痛快{\r}
+Dialogue: 0,0:45:23.51,0:45:27.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}殺過很多人嗎？{\r}
+Dialogue: 0,0:45:27.21,0:45:29.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一旦開殺戒就停不了手啊{\r}
+Dialogue: 0,0:45:33.22,0:45:36.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}所以未殺之前就逃{\r}
+Dialogue: 0,0:45:37.52,0:45:40.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你真聰明{\r}
+Dialogue: 0,0:45:40.36,0:45:42.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}過獎{\r}
+Dialogue: 0,0:45:49.73,0:45:54.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}換句話吧，有興趣殺三十來個山賊嗎？{\r}
+Dialogue: 0,0:46:13.59,0:46:15.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}開始吧{\r}
+Dialogue: 0,0:47:46.18,0:47:47.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可惜{\r}
+Dialogue: 0,0:47:47.62,0:47:48.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}平手{\r}
+Dialogue: 0,0:47:49.09,0:47:50.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不是{\r}
+Dialogue: 0,0:47:50.76,0:47:52.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是我贏{\r}
+Dialogue: 0,0:47:55.73,0:47:56.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別胡說{\r}
+Dialogue: 0,0:47:58.66,0:48:01.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真刀的話你已倒下{\r}
+Dialogue: 0,0:48:06.40,0:48:08.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 用真刀比試吧  - 別輕捨性命{\r}
+Dialogue: 0,0:48:08.77,0:48:09.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼？{\r}
+Dialogue: 0,0:48:09.67,0:48:12.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還不明白？用真刀的話你會死{\r}
+Dialogue: 0,0:48:13.18,0:48:14.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}白白誤了性命{\r}
+Dialogue: 0,0:48:14.78,0:48:17.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等等！想逃啊？{\r}
+Dialogue: 0,0:48:20.85,0:48:23.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拔刀！口論無憑{\r}
+Dialogue: 0,0:49:02.29,0:49:03.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒用{\r}
+Dialogue: 0,0:49:05.20,0:49:07.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝負已分{\r}
+Dialogue: 0,0:49:39.03,0:49:40.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}進展如何？{\r}
+Dialogue: 0,0:49:44.64,0:49:47.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒釣到，他武功很好{\r}
+Dialogue: 0,0:49:49.14,0:49:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}通常不上鉤的魚看起來都很大{\r}
+Dialogue: 0,0:49:51.51,0:49:52.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不{\r}
+Dialogue: 0,0:49:53.78,0:49:57.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我親眼看見他殺一個人{\r}
+Dialogue: 0,0:50:04.32,0:50:05.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好厲害{\r}
+Dialogue: 0,0:50:06.29,0:50:10.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他一心只為修練武功{\r}
+Dialogue: 0,0:50:11.00,0:50:13.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}所以不答應{\r}
+Dialogue: 0,0:50:13.23,0:50:15.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真可惜{\r}
+Dialogue: 0,0:50:17.04,0:50:19.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我把客棧名告訴了他…{\r}
+Dialogue: 0,0:50:20.10,0:50:22.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你呢？{\r}
+Dialogue: 0,0:50:22.61,0:50:24.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}找到一個{\r}
+Dialogue: 0,0:50:24.61,0:50:28.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 武功中下  - 中下？{\r}
+Dialogue: 0,0:50:29.55,0:50:32.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不過為人率直有趣{\r}
+Dialogue: 0,0:50:32.68,0:50:35.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有苦悶時可用來解悶{\r}
+Dialogue: 0,0:50:35.75,0:50:38.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}日子艱苦時，他可是一寶{\r}
+Dialogue: 0,0:50:38.72,0:50:40.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這太好了…{\r}
+Dialogue: 0,0:50:42.19,0:50:47.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 其實我也找到一個  - 是那個小販？{\r}
+Dialogue: 0,0:50:47.23,0:50:48.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是的{\r}
+Dialogue: 0,0:50:48.33,0:50:51.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他呀，是我以前的好夥伴{\r}
+Dialogue: 0,0:50:57.11,0:50:58.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}請洗洗腳{\r}
+Dialogue: 0,0:51:02.71,0:51:04.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}林田平八{\r}
+Dialogue: 0,0:51:04.98,0:51:07.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}懂砍柴派劍法{\r}
+Dialogue: 0,0:51:13.86,0:51:16.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只差三人{\r}
+Dialogue: 0,0:51:17.00,0:51:19.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}三人？不是兩人嗎？{\r}
+Dialogue: 0,0:51:19.56,0:51:21.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不能帶小子去{\r}
+Dialogue: 0,0:51:23.50,0:51:24.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}師傅{\r}
+Dialogue: 0,0:51:24.84,0:51:26.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我知道，我知道{\r}
+Dialogue: 0,0:51:27.04,0:51:29.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你想說什麼我知道啊{\r}
+Dialogue: 0,0:51:29.61,0:51:33.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我像你這麼大時{\r}
+Dialogue: 0,0:51:34.95,0:51:36.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}也想過憑本事{\r}
+Dialogue: 0,0:51:37.15,0:51:40.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}作戰立功{\r}
+Dialogue: 0,0:51:40.79,0:51:44.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}然後當一城之王{\r}
+Dialogue: 0,0:51:45.56,0:51:50.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但是啊，想著想著，不知不覺地{\r}
+Dialogue: 0,0:51:51.06,0:51:53.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看吶，就已如此白髮斑斑{\r}
+Dialogue: 0,0:51:54.93,0:51:58.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}而且啊，那個時候{\r}
+Dialogue: 0,0:51:59.14,0:52:02.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}已失去父母親人，孑然一身{\r}
+Dialogue: 0,0:52:50.69,0:52:52.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你明天回家鄉吧{\r}
+Dialogue: 0,0:52:53.19,0:52:55.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟了我四、五天{\r}
+Dialogue: 0,0:52:55.89,0:52:57.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}已學了不少{\r}
+Dialogue: 0,0:53:13.68,0:53:17.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 請你准他一起去吧  - 可是…{\r}
+Dialogue: 0,0:53:17.62,0:53:20.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我看可以吧，一起去也不礙事{\r}
+Dialogue: 0,0:53:20.79,0:53:22.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}事實上{\r}
+Dialogue: 0,0:53:22.32,0:53:24.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}年輕人會更賣力{\r}
+Dialogue: 0,0:53:25.52,0:53:29.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}應該把他當作成人才對{\r}
+Dialogue: 0,0:53:29.79,0:53:33.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}把勝四郎當成人對待吧{\r}
+Dialogue: 0,0:53:38.90,0:53:41.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那麼，還差二人{\r}
+Dialogue: 0,0:53:41.57,0:53:44.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，好像只差一人{\r}
+Dialogue: 0,0:53:51.22,0:53:53.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你願去嗎？{\r}
+Dialogue: 0,0:53:54.55,0:53:56.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}太好了{\r}
+Dialogue: 0,0:53:56.69,0:53:58.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 何時出發？  - 明天{\r}
+Dialogue: 0,0:54:02.53,0:54:03.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明天？{\r}
+Dialogue: 0,0:54:05.36,0:54:09.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}行了 還差一個，沒時間找了{\r}
+Dialogue: 0,0:54:12.00,0:54:13.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好啊{\r}
+Dialogue: 0,0:54:17.11,0:54:18.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}師傅{\r}
+Dialogue: 0,0:54:19.54,0:54:21.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 師傅  - 好了{\r}
+Dialogue: 0,0:54:22.35,0:54:25.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 師傅  - 好了，不必多說{\r}
+Dialogue: 0,0:54:30.35,0:54:33.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著，我找到一個身手極佳的武士{\r}
+Dialogue: 0,0:54:33.39,0:54:35.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好多人都打不過他{\r}
+Dialogue: 0,0:54:35.96,0:54:38.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我沒見過這麼厲害的人，像條野狗{\r}
+Dialogue: 0,0:54:38.73,0:54:41.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我勸架後跟他喝酒{\r}
+Dialogue: 0,0:54:41.93,0:54:43.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}講起此事{\r}
+Dialogue: 0,0:54:43.77,0:54:45.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在他要來了{\r}
+Dialogue: 0,0:54:47.91,0:54:49.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一如既往 試試他嗎？{\r}
+Dialogue: 0,0:55:03.89,0:55:05.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你想幹什麼？{\r}
+Dialogue: 0,0:55:06.06,0:55:07.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}試試他{\r}
+Dialogue: 0,0:55:09.19,0:55:10.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣很卑鄙{\r}
+Dialogue: 0,0:55:10.96,0:55:13.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你閉嘴 看著吧{\r}
+Dialogue: 0,0:55:13.60,0:55:15.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}高手不會中招的{\r}
+Dialogue: 0,0:55:15.83,0:55:17.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但他喝醉了{\r}
+Dialogue: 0,0:55:17.70,0:55:20.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}高手不會真醉{\r}
+Dialogue: 0,0:55:35.69,0:55:37.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 你看，太過分了  - 畜生！{\r}
+Dialogue: 0,0:55:39.16,0:55:40.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼…{\r}
+Dialogue: 0,0:55:44.76,0:55:47.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}打我的是誰？{\r}
+Dialogue: 0,0:56:03.28,0:56:04.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你小子？{\r}
+Dialogue: 0,0:56:09.99,0:56:13.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰打我？{\r}
+Dialogue: 0,0:56:19.10,0:56:20.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你？{\r}
+Dialogue: 0,0:56:23.10,0:56:25.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋！{\r}
+Dialogue: 0,0:56:53.80,0:56:55.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}又是你{\r}
+Dialogue: 0,0:56:58.30,0:57:01.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我認得你的光頭{\r}
+Dialogue: 0,0:57:04.31,0:57:06.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你{\r}
+Dialogue: 0,0:57:07.14,0:57:10.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你懷疑我不是武士{\r}
+Dialogue: 0,0:57:10.58,0:57:12.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你瘋了！{\r}
+Dialogue: 0,0:57:14.49,0:57:16.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別糊弄我{\r}
+Dialogue: 0,0:57:23.16,0:57:26.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我是如假包換的武士{\r}
+Dialogue: 0,0:57:30.13,0:57:34.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我一直在找你{\r}
+Dialogue: 0,0:57:35.77,0:57:37.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}想你看看這東西{\r}
+Dialogue: 0,0:57:46.32,0:57:47.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看！{\r}
+Dialogue: 0,0:57:48.09,0:57:53.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是我家的族譜 列祖列宗都在{\r}
+Dialogue: 0,0:57:54.99,0:57:59.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}想戲耍我 混蛋{\r}
+Dialogue: 0,0:58:01.17,0:58:02.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看這裏{\r}
+Dialogue: 0,0:58:04.10,0:58:05.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}戲耍我{\r}
+Dialogue: 0,0:58:12.54,0:58:14.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這個就是我{\r}
+Dialogue: 0,0:58:15.78,0:58:18.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代就是你嗎？{\r}
+Dialogue: 0,0:58:18.42,0:58:20.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}正是{\r}
+Dialogue: 0,0:58:20.62,0:58:24.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}天正二年(1574年)二月十七日生{\r}
+Dialogue: 0,0:58:26.82,0:58:28.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有什麼可笑？{\r}
+Dialogue: 0,0:58:30.49,0:58:33.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你看來不像十三歲{\r}
+Dialogue: 0,0:58:34.13,0:58:38.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著，如果你是菊千代{\r}
+Dialogue: 0,0:58:38.27,0:58:41.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你應是十三歲{\r}
+Dialogue: 0,0:58:45.61,0:58:48.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哪裏偷來的族譜{\r}
+Dialogue: 0,0:58:48.98,0:58:52.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}偷？{\r}
+Dialogue: 0,0:58:52.98,0:58:54.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}小鬼別走{\r}
+Dialogue: 0,0:58:55.15,0:58:57.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士去死{\r}
+Dialogue: 0,0:58:58.69,0:59:00.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士去死{\r}
+Dialogue: 0,0:59:03.69,0:59:06.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這雜種！{\r}
+Dialogue: 0,0:59:07.53,0:59:10.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}回來！{\r}
+Dialogue: 0,0:59:10.40,0:59:13.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋，婊子！{\r}
+Dialogue: 0,0:59:23.81,0:59:27.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了，小伙子？給你{\r}
+Dialogue: 0,0:59:29.39,0:59:31.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}該死的！{\r}
+Dialogue: 0,0:59:33.16,0:59:35.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}回到這裏來！{\r}
+Dialogue: 0,1:00:10.13,1:00:12.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？菊千代大人{\r}
+Dialogue: 0,1:00:17.00,1:00:18.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？怎麼了？「十三歲」{\r}
+Dialogue: 0,1:00:28.61,1:00:31.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士去死吧！{\r}
+Dialogue: 0,1:00:47.77,1:00:51.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 這也算是武士？  - 他以為自已是{\r}
+Dialogue: 0,1:01:02.55,1:01:04.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}讓我參加吧{\r}
+Dialogue: 0,1:01:09.29,1:01:11.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗨，菊千代{\r}
+Dialogue: 0,1:01:14.49,1:01:16.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好好保存吧{\r}
+Dialogue: 0,1:01:18.23,1:01:21.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}讓我也去吧{\r}
+Dialogue: 0,1:02:01.77,1:02:03.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？爹{\r}
+Dialogue: 0,1:02:20.49,1:02:22.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,1:02:23.16,1:02:25.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}為何這樣看著我{\r}
+Dialogue: 0,1:02:33.50,1:02:37.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃，把頭髮剪掉{\r}
+Dialogue: 0,1:02:37.27,1:02:39.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}剪短頭髮扮男人{\r}
+Dialogue: 0,1:02:42.05,1:02:44.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 為什麼？  - 叫你剪就剪{\r}
+Dialogue: 0,1:02:45.55,1:02:49.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士會來，不扮男人會很危險{\r}
+Dialogue: 0,1:02:49.69,1:02:50.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不！{\r}
+Dialogue: 0,1:02:50.79,1:02:53.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，我不！{\r}
+Dialogue: 0,1:02:57.53,1:02:59.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,1:03:23.89,1:03:25.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他是傻瓜{\r}
+Dialogue: 0,1:03:25.42,1:03:28.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但萬造對武士更瞭解{\r}
+Dialogue: 0,1:03:29.06,1:03:31.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他剪掉女兒的頭髮肯定是有原因的{\r}
+Dialogue: 0,1:03:31.36,1:03:34.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你沒有女兒當然不怕{\r}
+Dialogue: 0,1:03:34.70,1:03:37.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我明白了{\r}
+Dialogue: 0,1:03:37.43,1:03:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明白的話，你收留我女兒吧 你家離村較遠{\r}
+Dialogue: 0,1:03:41.51,1:03:44.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蠢材，我是指萬造{\r}
+Dialogue: 0,1:03:45.18,1:03:50.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他嘴裏說是為了村子，原來只顧自己的女兒{\r}
+Dialogue: 0,1:03:51.22,1:03:52.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}該死！{\r}
+Dialogue: 0,1:04:11.70,1:04:13.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你怎會做出這種事{\r}
+Dialogue: 0,1:04:14.37,1:04:16.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在整個村都驚動了{\r}
+Dialogue: 0,1:04:16.64,1:04:18.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有女兒的人家都會驚慌{\r}
+Dialogue: 0,1:04:20.68,1:04:22.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼辦呢？{\r}
+Dialogue: 0,1:04:22.98,1:04:25.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士可能今天會到{\r}
+Dialogue: 0,1:04:26.58,1:04:29.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}到老爹那兒去{\r}
+Dialogue: 0,1:04:31.62,1:04:34.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒事，回去{\r}
+Dialogue: 0,1:04:35.93,1:04:37.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}回去{\r}
+Dialogue: 0,1:04:39.13,1:04:42.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士來了，只會丟臉{\r}
+Dialogue: 0,1:04:49.44,1:04:51.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他還跟著我們{\r}
+Dialogue: 0,1:06:36.75,1:06:38.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他不見了{\r}
+Dialogue: 0,1:06:39.72,1:06:41.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可能放棄了{\r}
+Dialogue: 0,1:06:41.69,1:06:43.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真奇怪{\r}
+Dialogue: 0,1:06:43.75,1:06:45.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不見他又覺得{\r}
+Dialogue: 0,1:06:46.26,1:06:47.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}寂寞{\r}
+Dialogue: 0,1:06:53.96,1:06:55.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這邊走{\r}
+Dialogue: 0,1:06:57.97,1:06:59.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}天哪！{\r}
+Dialogue: 0,1:07:12.82,1:07:15.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那就是我們的城堡？{\r}
+Dialogue: 0,1:07:16.45,1:07:19.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我不要死在這種鬼地方{\r}
+Dialogue: 0,1:07:19.39,1:07:21.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒人叫你來的{\r}
+Dialogue: 0,1:07:40.28,1:07:44.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我回來了！武士來了{\r}
+Dialogue: 0,1:07:49.22,1:07:51.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士來了{\r}
+Dialogue: 0,1:07:55.89,1:07:59.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？武士來了{\r}
+Dialogue: 0,1:08:05.70,1:08:07.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士來了{\r}
+Dialogue: 0,1:08:11.78,1:08:13.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,1:08:27.59,1:08:29.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好隆重的歡迎{\r}
+Dialogue: 0,1:08:33.56,1:08:35.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}究竟是什麼回事？{\r}
+Dialogue: 0,1:08:38.54,1:08:42.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？武士來了！{\r}
+Dialogue: 0,1:08:58.59,1:09:00.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 不管怎樣，先到老爹那裏去  - 老爹？{\r}
+Dialogue: 0,1:09:01.12,1:09:04.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗯，老爹掌管村裏的事{\r}
+Dialogue: 0,1:09:04.29,1:09:06.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}即是長老吧？{\r}
+Dialogue: 0,1:09:07.86,1:09:12.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拜見長老嗎？真光榮{\r}
+Dialogue: 0,1:09:16.17,1:09:17.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去吧{\r}
+Dialogue: 0,1:10:29.85,1:10:35.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}說起來真可笑{\r}
+Dialogue: 0,1:10:36.09,1:10:39.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}農民總是擔心{\r}
+Dialogue: 0,1:10:39.69,1:10:44.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們下雨怕雨颳風又怕風{\r}
+Dialogue: 0,1:10:44.86,1:10:46.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}總之{\r}
+Dialogue: 0,1:10:47.56,1:10:51.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們什麼都怕{\r}
+Dialogue: 0,1:10:51.47,1:10:55.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今天的事{\r}
+Dialogue: 0,1:10:56.74,1:11:00.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其實也一樣{\r}
+Dialogue: 0,1:11:03.01,1:11:08.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是…村民害怕我們什麼？{\r}
+Dialogue: 0,1:11:08.99,1:11:12.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣子我們能幫什麼？{\r}
+Dialogue: 0,1:11:41.69,1:11:43.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊來了{\r}
+Dialogue: 0,1:11:50.74,1:11:53.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}武士大人{\r}
+Dialogue: 0,1:12:05.04,1:12:09.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 救命，山賊來了！  - 不要驚慌！{\r}
+Dialogue: 0,1:12:09.39,1:12:12.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不用驚慌 鎮定一點{\r}
+Dialogue: 0,1:12:12.59,1:12:15.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好了吧？站到這個檯子上來說{\r}
+Dialogue: 0,1:12:15.34,1:12:17.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}先告訴我 山賊從什麼方向來？{\r}
+Dialogue: 0,1:12:24.82,1:12:27.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那好，看見山賊的人走出來{\r}
+Dialogue: 0,1:12:28.26,1:12:30.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒人看到山賊嗎？{\r}
+Dialogue: 0,1:12:31.03,1:12:33.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰敲木板報警的？{\r}
+Dialogue: 0,1:12:33.30,1:12:34.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是我{\r}
+Dialogue: 0,1:12:41.07,1:12:43.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}躲開 躲開 躲開{\r}
+Dialogue: 0,1:12:48.01,1:12:50.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哭喪著臉幹什麼？{\r}
+Dialogue: 0,1:12:51.81,1:12:54.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}安心吧 山賊不會來{\r}
+Dialogue: 0,1:13:00.19,1:13:01.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哦咦 混旦{\r}
+Dialogue: 0,1:13:02.12,1:13:05.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們進村時你們在哪裏？{\r}
+Dialogue: 0,1:13:06.13,1:13:08.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一聽到警報就…{\r}
+Dialogue: 0,1:13:09.00,1:13:12.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大叫大嚷，又跪又拜{\r}
+Dialogue: 0,1:13:12.83,1:13:15.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們還真卑躬屈膝呢{\r}
+Dialogue: 0,1:13:19.94,1:13:22.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們活該這樣，泥腿子{\r}
+Dialogue: 0,1:13:40.33,1:13:42.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老伯 你不服氣嗎？{\r}
+Dialogue: 0,1:13:43.06,1:13:44.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有{\r}
+Dialogue: 0,1:13:44.80,1:13:46.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣也好，總算打破了隔膜{\r}
+Dialogue: 0,1:13:52.54,1:13:55.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看來他多少有點用處{\r}
+Dialogue: 0,1:13:55.41,1:13:58.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們集夠七個人了{\r}
+Dialogue: 0,1:14:05.22,1:14:07.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}屋子很髒{\r}
+Dialogue: 0,1:14:07.29,1:14:11.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是，讓我們住這裏，你自己怎辦？{\r}
+Dialogue: 0,1:14:11.43,1:14:14.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我睡馬房  - 跟馬一起睡？{\r}
+Dialogue: 0,1:14:16.36,1:14:19.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}馬去年給山賊搶走了{\r}
+Dialogue: 0,1:14:36.65,1:14:40.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟老婆睡，馬房也不錯{\r}
+Dialogue: 0,1:14:44.46,1:14:46.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我沒有老婆{\r}
+Dialogue: 0,1:14:46.93,1:14:48.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了，傻瓜？{\r}
+Dialogue: 0,1:15:00.24,1:15:01.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋{\r}
+Dialogue: 0,1:15:15.29,1:15:17.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其實你真名怎叫法？{\r}
+Dialogue: 0,1:15:19.86,1:15:21.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}忘記了{\r}
+Dialogue: 0,1:15:22.10,1:15:24.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}給我起個新的吧{\r}
+Dialogue: 0,1:15:24.93,1:15:27.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 菊千代不錯  - 菊千代？{\r}
+Dialogue: 0,1:15:28.34,1:15:30.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}很適合你{\r}
+Dialogue: 0,1:15:51.99,1:15:54.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要是你，會怎樣攻這個村{\r}
+Dialogue: 0,1:15:54.86,1:15:57.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我會從這山上衝下來{\r}
+Dialogue: 0,1:15:59.07,1:16:01.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}從這條路吧？{\r}
+Dialogue: 0,1:16:01.74,1:16:03.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}西邊{\r}
+Dialogue: 0,1:16:18.95,1:16:21.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎樣防守？{\r}
+Dialogue: 0,1:16:22.09,1:16:24.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七郎次會搞{\r}
+Dialogue: 0,1:16:24.86,1:16:28.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看這圓木，他想用來造防馬欄{\r}
+Dialogue: 0,1:16:28.46,1:16:30.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}原來是這樣 你們果然是老拍檔{\r}
+Dialogue: 0,1:16:59.93,1:17:01.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好的！{\r}
+Dialogue: 0,1:17:01.86,1:17:03.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}記住{\r}
+Dialogue: 0,1:17:04.57,1:17:06.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}打仗必須跑{\r}
+Dialogue: 0,1:17:07.07,1:17:09.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不論攻退都要跑{\r}
+Dialogue: 0,1:17:10.14,1:17:12.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跑不動就只有死{\r}
+Dialogue: 0,1:17:30.99,1:17:33.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}南邊{\r}
+Dialogue: 0,1:17:46.84,1:17:50.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}割完麥便馬上放水進去{\r}
+Dialogue: 0,1:17:50.78,1:17:55.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}變成水田馬匹就走不過 但夠時間幹嗎？{\r}
+Dialogue: 0,1:17:55.58,1:17:56.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}的確{\r}
+Dialogue: 0,1:18:04.49,1:18:05.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}刺吧{\r}
+Dialogue: 0,1:18:06.93,1:18:11.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}把我當作山賊刺{\r}
+Dialogue: 0,1:18:14.07,1:18:15.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}刺吧！{\r}
+Dialogue: 0,1:18:18.87,1:18:20.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快點！{\r}
+Dialogue: 0,1:18:29.58,1:18:31.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}下一個{\r}
+Dialogue: 0,1:18:32.75,1:18:34.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}下一個{\r}
+Dialogue: 0,1:18:34.59,1:18:36.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們怎麼回事？{\r}
+Dialogue: 0,1:19:00.75,1:19:03.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}東邊{\r}
+Dialogue: 0,1:19:07.42,1:19:11.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拆了這條橋，敵人就不能從東面攻來{\r}
+Dialogue: 0,1:19:19.00,1:19:22.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但對岸的居民怎辦？{\r}
+Dialogue: 0,1:19:29.48,1:19:32.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只有疏散了{\r}
+Dialogue: 0,1:19:36.45,1:19:38.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那水車屋也不要嗎？{\r}
+Dialogue: 0,1:19:40.49,1:19:43.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但那老爹很頑固{\r}
+Dialogue: 0,1:19:49.90,1:19:52.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}記住 敵人雖可怕{\r}
+Dialogue: 0,1:19:53.33,1:19:54.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家都害怕{\r}
+Dialogue: 0,1:19:55.04,1:19:58.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但他們也怕我們{\r}
+Dialogue: 0,1:20:27.87,1:20:29.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們個個都是…{\r}
+Dialogue: 0,1:20:30.54,1:20:33.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}最好的稻草人{\r}
+Dialogue: 0,1:20:35.64,1:20:39.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是啊 對方可不是麻雀{\r}
+Dialogue: 0,1:20:47.99,1:20:51.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}正在吃東西的人，不准吃{\r}
+Dialogue: 0,1:20:55.80,1:20:57.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這不是牛棚{\r}
+Dialogue: 0,1:21:01.17,1:21:03.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看你們這幫烏合之眾{\r}
+Dialogue: 0,1:21:06.51,1:21:08.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真慫！{\r}
+Dialogue: 0,1:21:08.31,1:21:11.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}帶頭的走前一步{\r}
+Dialogue: 0,1:21:13.38,1:21:15.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}叫你{\r}
+Dialogue: 0,1:21:15.98,1:21:17.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你！{\r}
+Dialogue: 0,1:21:37.44,1:21:40.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要看熱鬧就每人收一文錢{\r}
+Dialogue: 0,1:21:59.63,1:22:01.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是什麼？{\r}
+Dialogue: 0,1:22:02.36,1:22:05.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 是槍  - 蠢貨{\r}
+Dialogue: 0,1:22:05.50,1:22:08.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我問的是 這槍是怎樣得來的！{\r}
+Dialogue: 0,1:22:09.17,1:22:11.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是後山長出來的嗎？{\r}
+Dialogue: 0,1:22:14.04,1:22:15.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我知道{\r}
+Dialogue: 0,1:22:15.71,1:22:18.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一定是從殘兵手中奪來的{\r}
+Dialogue: 0,1:22:18.45,1:22:22.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你有的話其它人也一定有{\r}
+Dialogue: 0,1:22:23.01,1:22:24.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快說{\r}
+Dialogue: 0,1:22:24.78,1:22:26.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還不快說{\r}
+Dialogue: 0,1:22:35.46,1:22:37.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}北邊{\r}
+Dialogue: 0,1:22:47.34,1:22:51.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好幽靜的樹林，但這裏最危險{\r}
+Dialogue: 0,1:23:27.41,1:23:28.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎{\r}
+Dialogue: 0,1:23:29.32,1:23:31.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 回去了  - 就來{\r}
+Dialogue: 0,1:23:39.43,1:23:41.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}到底還是個小鬼啊{\r}
+Dialogue: 0,1:24:42.92,1:24:45.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是村裏的人嗎？{\r}
+Dialogue: 0,1:24:50.26,1:24:51.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是女人？{\r}
+Dialogue: 0,1:24:55.34,1:24:57.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}男人？{\r}
+Dialogue: 0,1:24:58.44,1:25:01.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是男人為何不拿槍？{\r}
+Dialogue: 0,1:25:01.28,1:25:04.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}堂堂男子漢居然摘花玩？{\r}
+Dialogue: 0,1:25:05.88,1:25:08.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來，我來訓練你{\r}
+Dialogue: 0,1:25:08.62,1:25:10.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}過來！{\r}
+Dialogue: 0,1:25:14.75,1:25:16.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這傢伙！{\r}
+Dialogue: 0,1:26:21.42,1:26:24.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這裏不錯，這裏也是{\r}
+Dialogue: 0,1:26:24.52,1:26:26.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但這裏有問題{\r}
+Dialogue: 0,1:26:32.37,1:26:34.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其它人，退後！{\r}
+Dialogue: 0,1:26:35.30,1:26:37.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站直！{\r}
+Dialogue: 0,1:26:43.14,1:26:44.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大收穫{\r}
+Dialogue: 0,1:26:51.42,1:26:52.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是？{\r}
+Dialogue: 0,1:26:52.92,1:26:55.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}從落荒武士奪來的{\r}
+Dialogue: 0,1:26:56.92,1:26:58.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哪裏得來的？{\r}
+Dialogue: 0,1:26:58.99,1:27:01.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 這個村的？  - 從萬造那裏{\r}
+Dialogue: 0,1:27:11.47,1:27:13.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,1:27:15.28,1:27:17.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不喜歡？{\r}
+Dialogue: 0,1:27:19.21,1:27:21.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是上等武器{\r}
+Dialogue: 0,1:27:23.32,1:27:24.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,1:27:25.08,1:27:28.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不是說需要武器嗎？{\r}
+Dialogue: 0,1:27:28.69,1:27:31.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你還算是武士嗎？{\r}
+Dialogue: 0,1:27:32.43,1:27:35.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是農民殺死武士奪來的{\r}
+Dialogue: 0,1:27:35.60,1:27:37.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我早知道  - 你知道還…{\r}
+Dialogue: 0,1:27:37.76,1:27:39.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}夠了！{\r}
+Dialogue: 0,1:27:40.93,1:27:44.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要做過落荒武士才懂箇中滋味{\r}
+Dialogue: 0,1:27:57.42,1:28:00.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒事，走{\r}
+Dialogue: 0,1:28:23.41,1:28:28.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我真想殺掉這個村的人{\r}
+Dialogue: 0,1:28:42.20,1:28:44.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好哇{\r}
+Dialogue: 0,1:28:46.60,1:28:51.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們把農民當作是什麼？{\r}
+Dialogue: 0,1:28:51.27,1:28:53.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}以為是菩薩嗎？{\r}
+Dialogue: 0,1:28:54.34,1:28:55.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}簡直笑話{\r}
+Dialogue: 0,1:28:56.14,1:28:58.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有比農民更狡猾的了{\r}
+Dialogue: 0,1:29:04.45,1:29:07.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要米不給米{\r}
+Dialogue: 0,1:29:07.49,1:29:09.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要麥又說沒有{\r}
+Dialogue: 0,1:29:11.26,1:29:15.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}其實他們都有，什麼都有{\r}
+Dialogue: 0,1:29:16.50,1:29:20.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}掀開地板看看 不在地下就在貯物室{\r}
+Dialogue: 0,1:29:20.70,1:29:26.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一定會發現很多東西 米、鹽、豆、酒…{\r}
+Dialogue: 0,1:29:31.21,1:29:34.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}到山間深谷去看看，有隱蔽的稻田{\r}
+Dialogue: 0,1:29:34.95,1:29:37.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}表面忠厚但最會撒謊{\r}
+Dialogue: 0,1:29:37.78,1:29:40.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不管什麼事他們都會撒謊！{\r}
+Dialogue: 0,1:29:40.39,1:29:43.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一打仗就去殺殘兵搶武器{\r}
+Dialogue: 0,1:29:45.83,1:29:46.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著{\r}
+Dialogue: 0,1:29:47.16,1:29:50.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}所謂農民，最吝嗇，狡猾{\r}
+Dialogue: 0,1:29:50.90,1:29:52.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}懦弱{\r}
+Dialogue: 0,1:29:52.33,1:29:54.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}壞心腸，低能{\r}
+Dialogue: 0,1:29:54.90,1:29:56.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是殺人鬼{\r}
+Dialogue: 0,1:29:56.90,1:29:59.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要笑死我{\r}
+Dialogue: 0,1:30:03.68,1:30:07.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但是…是誰令他們變成這樣的？{\r}
+Dialogue: 0,1:30:07.75,1:30:11.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是你們，是你們武土！{\r}
+Dialogue: 0,1:30:11.58,1:30:13.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們都去死！{\r}
+Dialogue: 0,1:30:20.29,1:30:22.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}為打仗而燒村{\r}
+Dialogue: 0,1:30:22.30,1:30:25.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蹂躪稻田{\r}
+Dialogue: 0,1:30:26.20,1:30:29.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}恣意勞役，凌辱婦女{\r}
+Dialogue: 0,1:30:29.44,1:30:31.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}殺反抗者{\r}
+Dialogue: 0,1:30:31.27,1:30:33.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你叫農民怎辦？{\r}
+Dialogue: 0,1:30:33.34,1:30:35.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們應該怎辦？{\r}
+Dialogue: 0,1:30:35.84,1:30:38.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}該死！{\r}
+Dialogue: 0,1:31:16.08,1:31:19.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是出身農家的吧{\r}
+Dialogue: 0,1:31:57.26,1:32:00.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}又發生了什麼事？{\r}
+Dialogue: 0,1:32:00.76,1:32:04.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒事 算了吧{\r}
+Dialogue: 0,1:33:10.40,1:33:11.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是我{\r}
+Dialogue: 0,1:33:12.20,1:33:14.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今晚開始我睡這裏{\r}
+Dialogue: 0,1:33:14.90,1:33:17.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}跟他們一起太無聊{\r}
+Dialogue: 0,1:33:19.01,1:33:22.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蠢材！怕什麼！{\r}
+Dialogue: 0,1:33:22.74,1:33:24.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這不是你的家嗎？{\r}
+Dialogue: 0,1:33:25.31,1:33:28.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你讓出自己家，睡這種地方{\r}
+Dialogue: 0,1:33:28.31,1:33:30.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還要客氣嗎？{\r}
+Dialogue: 0,1:33:30.32,1:33:31.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去睡覺！{\r}
+Dialogue: 0,1:33:48.47,1:33:50.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這兒令我想起往事{\r}
+Dialogue: 0,1:34:08.79,1:34:10.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}很靜啊{\r}
+Dialogue: 0,1:34:13.66,1:34:18.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣的日子，很難想像山上有山賊{\r}
+Dialogue: 0,1:34:20.90,1:34:23.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真無聊！有女人就好了{\r}
+Dialogue: 0,1:34:32.85,1:34:34.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 去哪裏？  - 上山{\r}
+Dialogue: 0,1:34:34.51,1:34:36.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 上山？  - 去練武功{\r}
+Dialogue: 0,1:34:38.25,1:34:39.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山上不會有女人{\r}
+Dialogue: 0,1:34:41.55,1:34:44.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你有時說話很厲害{\r}
+Dialogue: 0,1:34:45.46,1:34:47.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你在弄什麼？{\r}
+Dialogue: 0,1:34:47.93,1:34:49.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 造旗  - 旗？{\r}
+Dialogue: 0,1:34:50.60,1:34:56.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}戰鬥時，有旗幟飄揚才熱鬧{\r}
+Dialogue: 0,1:35:01.07,1:35:02.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是什麼意思？{\r}
+Dialogue: 0,1:35:02.98,1:35:07.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是「田」字即是指農民，這個村{\r}
+Dialogue: 0,1:35:08.71,1:35:11.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 這些圓圈呢？  - 指我們{\r}
+Dialogue: 0,1:35:12.05,1:35:14.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼只有六個？那我呢？{\r}
+Dialogue: 0,1:35:14.85,1:35:17.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這個三角就是菊千代大人{\r}
+Dialogue: 0,1:35:18.16,1:35:19.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}很好！{\r}
+Dialogue: 0,1:36:41.21,1:36:42.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是白米飯{\r}
+Dialogue: 0,1:36:43.24,1:36:45.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 不要客氣  - 但是…{\r}
+Dialogue: 0,1:36:45.34,1:36:47.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我吃過利吉的稗飯{\r}
+Dialogue: 0,1:36:47.71,1:36:51.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只有稗子的飯 真是很難入口{\r}
+Dialogue: 0,1:36:54.05,1:36:55.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}吃吧{\r}
+Dialogue: 0,1:37:07.13,1:37:08.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快點吃{\r}
+Dialogue: 0,1:37:08.73,1:37:10.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}害羞的話我走開{\r}
+Dialogue: 0,1:37:10.80,1:37:12.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我不吃{\r}
+Dialogue: 0,1:37:12.87,1:37:15.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}為什麼？我一心帶給你{\r}
+Dialogue: 0,1:37:15.27,1:37:17.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，我只是…{\r}
+Dialogue: 0,1:37:18.44,1:37:23.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我給久右衛門的老太婆吃{\r}
+Dialogue: 0,1:37:23.95,1:37:26.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}久右衛門的老太婆？{\r}
+Dialogue: 0,1:37:47.37,1:37:51.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我現在很飽，等一會再吃{\r}
+Dialogue: 0,1:37:52.38,1:37:54.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好了，你吃好了{\r}
+Dialogue: 0,1:37:55.01,1:37:56.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次我的留下來{\r}
+Dialogue: 0,1:37:57.98,1:38:01.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？看樣子好像有什麼說道啊{\r}
+Dialogue: 0,1:38:01.75,1:38:03.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼回事？{\r}
+Dialogue: 0,1:38:11.33,1:38:13.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好可憐{\r}
+Dialogue: 0,1:38:14.60,1:38:18.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 沒有親人嗎？  - 是啊，全給山賊殺了…{\r}
+Dialogue: 0,1:38:25.18,1:38:26.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我…{\r}
+Dialogue: 0,1:38:27.51,1:38:32.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我只求速死{\r}
+Dialogue: 0,1:38:32.48,1:38:36.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我只求速死{\r}
+Dialogue: 0,1:38:36.92,1:38:41.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就不用受這種痛苦{\r}
+Dialogue: 0,1:38:42.76,1:38:45.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是啊…{\r}
+Dialogue: 0,1:38:46.23,1:38:50.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}在冥界{\r}
+Dialogue: 0,1:38:50.30,1:38:54.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}也會有這種痛苦{\r}
+Dialogue: 0,1:38:56.28,1:38:58.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不會有的！{\r}
+Dialogue: 0,1:38:58.24,1:39:02.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}冥界沒有戰爭，沒有山賊{\r}
+Dialogue: 0,1:39:02.95,1:39:05.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有任何痛苦{\r}
+Dialogue: 0,1:39:05.32,1:39:08.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}廢話…你到過冥界嗎？{\r}
+Dialogue: 0,1:39:09.12,1:39:10.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這樣大聲幹什麼？？{\r}
+Dialogue: 0,1:39:11.06,1:39:12.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我最討厭可憐蟲！{\r}
+Dialogue: 0,1:39:12.96,1:39:15.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看到他們就想發作{\r}
+Dialogue: 0,1:39:18.16,1:39:20.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他媽的！{\r}
+Dialogue: 0,1:39:21.73,1:39:24.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我要爆發了{\r}
+Dialogue: 0,1:39:24.97,1:39:28.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}待山賊來時才爆發吧{\r}
+Dialogue: 0,1:39:44.62,1:39:46.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}呃…{\r}
+Dialogue: 0,1:39:48.36,1:39:51.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}呃… 你為什麼…？{\r}
+Dialogue: 0,1:39:51.80,1:39:54.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你看見了吧？…{\r}
+Dialogue: 0,1:39:54.70,1:39:57.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我和{\r}
+Dialogue: 0,1:39:57.37,1:39:59.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 女人？  - 是{\r}
+Dialogue: 0,1:40:00.34,1:40:04.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 為何不將此事…？  - 想我說出來嗎？{\r}
+Dialogue: 0,1:40:19.29,1:40:23.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}給我們白飯！{\r}
+Dialogue: 0,1:40:28.50,1:40:32.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}小混蛋！沒有米飯！{\r}
+Dialogue: 0,1:40:37.84,1:40:39.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別喊了！別吵了！{\r}
+Dialogue: 0,1:40:40.05,1:40:43.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}既然有氣力吵吵嚷嚷{\r}
+Dialogue: 0,1:40:43.72,1:40:46.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就不要哭著臉討飯{\r}
+Dialogue: 0,1:40:48.02,1:40:50.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好了 小鬼聽著！{\r}
+Dialogue: 0,1:40:52.93,1:40:55.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}飯只有這麼一點{\r}
+Dialogue: 0,1:40:55.33,1:40:58.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再給你們，我們就…{\r}
+Dialogue: 0,1:41:02.23,1:41:03.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明白嗎？{\r}
+Dialogue: 0,1:41:03.90,1:41:07.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哎，你們當中誰有漂亮的姐姐？{\r}
+Dialogue: 0,1:41:10.11,1:41:13.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒有嗎？{\r}
+Dialogue: 0,1:41:14.08,1:41:17.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹，何時收割？{\r}
+Dialogue: 0,1:41:20.02,1:41:21.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還有十天{\r}
+Dialogue: 0,1:41:22.02,1:41:24.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要盡量快的話要幾天？{\r}
+Dialogue: 0,1:41:26.33,1:41:29.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}最少三天{\r}
+Dialogue: 0,1:41:30.23,1:41:32.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}收割後立即引水入田{\r}
+Dialogue: 0,1:41:32.50,1:41:36.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣可以形成一條壕溝{\r}
+Dialogue: 0,1:41:36.50,1:41:38.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}阻止馬匹進來{\r}
+Dialogue: 0,1:41:38.84,1:41:42.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不必全部放水，形成壕溝即可{\r}
+Dialogue: 0,1:41:42.37,1:41:43.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那麼{\r}
+Dialogue: 0,1:41:44.38,1:41:48.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拆堤引水要花一天{\r}
+Dialogue: 0,1:41:48.91,1:41:51.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要的 明白了{\r}
+Dialogue: 0,1:41:51.58,1:41:53.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還有一件事{\r}
+Dialogue: 0,1:41:54.35,1:42:00.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對岸的三間屋和這水車屋的人必須於收割前搬走{\r}
+Dialogue: 0,1:42:01.73,1:42:03.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}父親！{\r}
+Dialogue: 0,1:42:03.80,1:42:05.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼？要我們搬？{\r}
+Dialogue: 0,1:42:13.27,1:42:15.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我知道這會很難過{\r}
+Dialogue: 0,1:42:17.21,1:42:19.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但沒得選擇{\r}
+Dialogue: 0,1:42:20.95,1:42:24.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們保護不了太遠的家{\r}
+Dialogue: 0,1:42:46.04,1:42:49.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著！很快就要收割了{\r}
+Dialogue: 0,1:42:49.58,1:42:51.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}收割一完山賊就會來{\r}
+Dialogue: 0,1:42:51.74,1:42:53.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要有心理準備{\r}
+Dialogue: 0,1:42:53.78,1:42:57.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}所以，我們要有作戰準備{\r}
+Dialogue: 0,1:42:57.92,1:43:01.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}收割亦要分組進行{\r}
+Dialogue: 0,1:43:01.95,1:43:06.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明天起各人共同起居{\r}
+Dialogue: 0,1:43:06.46,1:43:11.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}記著！明天起不准私人行動{\r}
+Dialogue: 0,1:43:12.63,1:43:14.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家聽著！{\r}
+Dialogue: 0,1:43:16.13,1:43:20.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今晚好好愛惜娘子吧{\r}
+Dialogue: 0,1:43:41.26,1:43:43.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真是開玩笑{\r}
+Dialogue: 0,1:43:44.00,1:43:46.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}住在對岸的人跟我來！{\r}
+Dialogue: 0,1:43:49.47,1:43:51.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}扔掉槍！{\r}
+Dialogue: 0,1:43:51.77,1:43:55.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們何必要棄家保衛他人！{\r}
+Dialogue: 0,1:43:56.68,1:44:00.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來！我們去保衛自己的家！{\r}
+Dialogue: 0,1:44:02.31,1:44:03.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站住！{\r}
+Dialogue: 0,1:44:07.05,1:44:08.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拿起槍！{\r}
+Dialogue: 0,1:44:09.56,1:44:11.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}排好隊！{\r}
+Dialogue: 0,1:44:36.85,1:44:39.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}進去！{\r}
+Dialogue: 0,1:44:40.02,1:44:42.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}各組排好！{\r}
+Dialogue: 0,1:44:45.29,1:44:47.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平到哪裏去了？{\r}
+Dialogue: 0,1:44:49.13,1:44:50.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平究竟到哪裏去了？{\r}
+Dialogue: 0,1:44:56.37,1:44:59.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這笨蛋！{\r}
+Dialogue: 0,1:45:17.09,1:45:19.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對岸有屋三間{\r}
+Dialogue: 0,1:45:20.13,1:45:22.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這裏有屋二十間{\r}
+Dialogue: 0,1:45:23.03,1:45:26.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不能為三間而犧牲二十間！{\r}
+Dialogue: 0,1:45:28.23,1:45:32.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這裏失陷{\r}
+Dialogue: 0,1:45:33.41,1:45:35.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那三間也只有死路一條{\r}
+Dialogue: 0,1:45:39.68,1:45:43.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著！打仗就是如此！{\r}
+Dialogue: 0,1:45:44.68,1:45:47.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}保衛別人才能保衛自已！{\r}
+Dialogue: 0,1:45:49.49,1:45:51.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只顧自己{\r}
+Dialogue: 0,1:45:52.46,1:45:54.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}必先死！{\r}
+Dialogue: 0,1:45:57.73,1:46:01.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今後…誰再搞事！{\r}
+Dialogue: 0,1:52:33.84,1:52:35.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他媽的！{\r}
+Dialogue: 0,1:52:35.65,1:52:37.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有這麼多女人！{\r}
+Dialogue: 0,1:52:37.75,1:52:39.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗨，與平！{\r}
+Dialogue: 0,1:52:44.26,1:52:47.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們把她們藏在什麼地方？{\r}
+Dialogue: 0,1:52:51.76,1:52:53.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋{\r}
+Dialogue: 0,1:53:01.34,1:53:03.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}給我鐮刀！{\r}
+Dialogue: 0,1:53:04.81,1:53:06.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我幫你多割兩倍{\r}
+Dialogue: 0,1:53:07.01,1:53:10.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不過你要跟我好{\r}
+Dialogue: 0,1:53:34.10,1:53:35.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 利吉！  - 是{\r}
+Dialogue: 0,1:53:36.74,1:53:40.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看來夫妻搭伙是最有產量的{\r}
+Dialogue: 0,1:53:41.11,1:53:43.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你也快結婚吧{\r}
+Dialogue: 0,1:53:46.65,1:53:50.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}喂，你生什麼氣？我只是說老婆…{\r}
+Dialogue: 0,1:53:52.02,1:53:54.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}叫利吉回來！{\r}
+Dialogue: 0,1:53:54.49,1:53:56.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這麼忙還走開？{\r}
+Dialogue: 0,1:53:57.79,1:53:59.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉{\r}
+Dialogue: 0,1:54:00.23,1:54:01.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉{\r}
+Dialogue: 0,1:54:05.87,1:54:08.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃，你發什麼呆！{\r}
+Dialogue: 0,1:54:24.69,1:54:27.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是什麼呀！熊的床鋪嗎？{\r}
+Dialogue: 0,1:54:29.89,1:54:31.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是用利器割的{\r}
+Dialogue: 0,1:54:34.20,1:54:35.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉干的嗎？{\r}
+Dialogue: 0,1:54:36.10,1:54:38.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是，我沒有親眼看見{\r}
+Dialogue: 0,1:54:38.77,1:54:40.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我跟丟他了{\r}
+Dialogue: 0,1:54:41.17,1:54:43.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但我見利吉是從這裏出來的{\r}
+Dialogue: 0,1:54:43.24,1:54:46.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他滿頭大汗，神情可怕{\r}
+Dialogue: 0,1:54:49.98,1:54:51.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你跟他說過什麼？{\r}
+Dialogue: 0,1:54:51.85,1:54:55.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}沒什麼 只叫他快娶老婆{\r}
+Dialogue: 0,1:54:58.62,1:55:02.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那傢伙一定有難言之隱，所以躲躲藏藏{\r}
+Dialogue: 0,1:55:03.29,1:55:05.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 從他的神情可以看出  - 嗯{\r}
+Dialogue: 0,1:55:06.53,1:55:12.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他緊閉著嘴 就像是上了門閂的小屋{\r}
+Dialogue: 0,1:55:12.27,1:55:14.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你試著打開它看看{\r}
+Dialogue: 0,1:55:22.08,1:55:22.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰？{\r}
+Dialogue: 0,1:55:23.15,1:55:24.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是我！{\r}
+Dialogue: 0,1:55:26.78,1:55:29.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 沒異樣吧？  - 是的{\r}
+Dialogue: 0,1:55:36.69,1:55:40.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你也坐下來 我們談談吧{\r}
+Dialogue: 0,1:55:45.90,1:55:49.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}談心{\r}
+Dialogue: 0,1:55:50.11,1:55:51.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可以令人心情愉快{\r}
+Dialogue: 0,1:55:52.51,1:55:56.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}也能減輕內心的痛苦{\r}
+Dialogue: 0,1:55:59.72,1:56:03.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你好像不愛說話{\r}
+Dialogue: 0,1:56:04.09,1:56:08.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但有痛苦應該說出來{\r}
+Dialogue: 0,1:56:11.53,1:56:15.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在慢慢說出來也不壞吧{\r}
+Dialogue: 0,1:56:17.27,1:56:19.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我沒有什麼好說的{\r}
+Dialogue: 0,1:56:37.52,1:56:39.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哎，出去巡視吧{\r}
+Dialogue: 0,1:56:41.93,1:56:42.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們叫醒他嗎？{\r}
+Dialogue: 0,1:56:43.16,1:56:45.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要叫他 他年紀輕，讓他睡{\r}
+Dialogue: 0,1:56:49.30,1:56:50.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃{\r}
+Dialogue: 0,1:56:53.50,1:56:55.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我聽到他叫「志乃」  - 嗯，志乃？{\r}
+Dialogue: 0,1:56:58.61,1:57:00.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好像是女人的名字{\r}
+Dialogue: 0,1:57:00.64,1:57:03.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不像小孩的夢囈{\r}
+Dialogue: 0,1:57:09.85,1:57:12.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}先巡視什麼地方？{\r}
+Dialogue: 0,1:57:12.56,1:57:15.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}先看最易攻的地方{\r}
+Dialogue: 0,1:58:13.12,1:58:14.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰？{\r}
+Dialogue: 0,1:58:21.42,1:58:22.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰？{\r}
+Dialogue: 0,1:58:23.49,1:58:25.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}滾出來！{\r}
+Dialogue: 0,1:58:25.90,1:58:26.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是誰？{\r}
+Dialogue: 0,1:58:27.06,1:58:28.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代？{\r}
+Dialogue: 0,1:58:30.83,1:58:32.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幸好是我們！{\r}
+Dialogue: 0,1:58:33.30,1:58:36.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是山賊的話你已沒命{\r}
+Dialogue: 0,1:59:08.47,1:59:09.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平！與平！{\r}
+Dialogue: 0,1:59:11.37,1:59:13.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是什麼？{\r}
+Dialogue: 0,1:59:13.21,1:59:15.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不是我的馬嗎！{\r}
+Dialogue: 0,1:59:17.81,1:59:20.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我還以為是大老鼠{\r}
+Dialogue: 0,2:00:00.19,2:00:04.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}♪ 麻雀嘰嘰叫 ♪{\r}
+Dialogue: 0,2:00:05.00,2:00:08.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}♪ 烏鴉呱呱叫 ♪{\r}
+Dialogue: 0,2:00:12.90,2:00:16.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼搞的？山賊怎麼還不來？嗯？{\r}
+Dialogue: 0,2:00:18.51,2:00:23.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不來的話就太不值了！雇武士來白吃飯！{\r}
+Dialogue: 0,2:00:24.11,2:00:27.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}傻瓜，山賊不來不更好嗎！{\r}
+Dialogue: 0,2:00:34.46,2:00:37.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你騎與平的瘦馬幹什麼？{\r}
+Dialogue: 0,2:00:37.89,2:00:41.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 好啦，與平的馬太老了  - 你鬆手啊{\r}
+Dialogue: 0,2:00:43.27,2:00:46.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}弄斷了馬腳與平會哭的！{\r}
+Dialogue: 0,2:00:46.57,2:00:50.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}瘦馬給我騎也能變好馬！{\r}
+Dialogue: 0,2:01:02.12,2:01:03.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還不錯嘛{\r}
+Dialogue: 0,2:01:19.10,2:01:21.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有一手！{\r}
+Dialogue: 0,2:01:45.06,2:01:47.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家好像很開心{\r}
+Dialogue: 0,2:01:48.67,2:01:51.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}收割完了山賊還不來{\r}
+Dialogue: 0,2:01:51.97,2:01:55.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家都說可能不會來{\r}
+Dialogue: 0,2:01:56.61,2:01:58.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我也希望是這樣{\r}
+Dialogue: 0,2:01:59.38,2:02:04.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但這樣想其實最危險{\r}
+Dialogue: 0,2:02:05.88,2:02:08.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}叫大家返回崗位！{\r}
+Dialogue: 0,2:02:41.95,2:02:45.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我呀，真想出生於武士家  - 嗯{\r}
+Dialogue: 0,2:02:48.83,2:02:50.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}農民生活太慘了{\r}
+Dialogue: 0,2:02:51.89,2:02:54.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我太幸福，實在慚愧{\r}
+Dialogue: 0,2:02:55.13,2:02:57.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，我的意思是…{\r}
+Dialogue: 0,2:02:57.83,2:03:02.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是武士 而我是農民 所以…{\r}
+Dialogue: 0,2:03:02.51,2:03:03.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼？{\r}
+Dialogue: 0,2:03:04.11,2:03:06.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 我…  - 好啦，我沒關係！{\r}
+Dialogue: 0,2:03:06.94,2:03:09.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}將來怎樣什麼的，我不管了！{\r}
+Dialogue: 0,2:03:43.05,2:03:46.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}懦夫！堂堂武士也…{\r}
+Dialogue: 0,2:04:53.52,2:04:56.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}西邊路上有三個可疑人物{\r}
+Dialogue: 0,2:04:58.72,2:05:01.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 沒有被他們發覺吧  - 是的，現在還沒有{\r}
+Dialogue: 0,2:05:01.66,2:05:03.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要驚動他們{\r}
+Dialogue: 0,2:05:06.13,2:05:09.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}後山有三匹馬！{\r}
+Dialogue: 0,2:05:09.23,2:05:12.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 看來是山賊的！  - 知道了{\r}
+Dialogue: 0,2:05:16.84,2:05:19.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 終於來了吧！  - 你怎知道？{\r}
+Dialogue: 0,2:05:19.24,2:05:22.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰都會知道 他這麼緊張{\r}
+Dialogue: 0,2:05:25.85,2:05:28.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}後山還是西邊？{\r}
+Dialogue: 0,2:05:30.85,2:05:32.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}西邊{\r}
+Dialogue: 0,2:05:41.00,2:05:41.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊來了！{\r}
+Dialogue: 0,2:05:46.40,2:05:49.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}叫大家進屋，只有三個山賊罷了{\r}
+Dialogue: 0,2:05:49.67,2:05:52.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}千萬不可驚動他們{\r}
+Dialogue: 0,2:05:52.61,2:05:56.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們可能是探子 別讓他們見到我們{\r}
+Dialogue: 0,2:06:14.20,2:06:16.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼事？{\r}
+Dialogue: 0,2:06:16.73,2:06:18.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊？{\r}
+Dialogue: 0,2:06:21.17,2:06:24.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊來了？{\r}
+Dialogue: 0,2:06:35.89,2:06:37.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}安靜點！{\r}
+Dialogue: 0,2:06:39.22,2:06:41.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}在哪裏？{\r}
+Dialogue: 0,2:06:41.26,2:06:43.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那杉樹後面！{\r}
+Dialogue: 0,2:06:58.37,2:07:00.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}肯定是探子{\r}
+Dialogue: 0,2:07:01.48,2:07:03.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}見到木欄在吃驚{\r}
+Dialogue: 0,2:07:04.48,2:07:06.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看來還沒發覺我們{\r}
+Dialogue: 0,2:07:07.05,2:07:10.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}希望他們以為只有農民{\r}
+Dialogue: 0,2:07:11.72,2:07:14.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家都在哪兒？{\r}
+Dialogue: 0,2:07:14.49,2:07:16.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那傻瓜！{\r}
+Dialogue: 0,2:07:17.23,2:07:19.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代！{\r}
+Dialogue: 0,2:07:25.37,2:07:27.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊來了？真的嗎？{\r}
+Dialogue: 0,2:07:29.41,2:07:30.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}笨蛋{\r}
+Dialogue: 0,2:07:30.37,2:07:32.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們被發現了！{\r}
+Dialogue: 0,2:07:43.55,2:07:47.04,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}事到如今不能放走他們{\r}
+Dialogue: 0,2:07:47.96,2:07:51.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我去殺他們，後山是我的範圍{\r}
+Dialogue: 0,2:07:51.39,2:07:52.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我不知道你們…{\r}
+Dialogue: 0,2:07:52.63,2:07:56.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快去抓個活口，將功贖罪{\r}
+Dialogue: 0,2:07:56.57,2:07:57.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要抄捷徑{\r}
+Dialogue: 0,2:07:58.13,2:08:00.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}在馬旁埋伏{\r}
+Dialogue: 0,2:08:02.14,2:08:03.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎！{\r}
+Dialogue: 0,2:08:04.57,2:08:07.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 你不用動手，聽見了嗎？  - 是{\r}
+Dialogue: 0,2:08:14.18,2:08:16.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好馬！{\r}
+Dialogue: 0,2:08:21.19,2:08:23.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你留在這兒{\r}
+Dialogue: 0,2:08:31.97,2:08:34.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 你想幹什麼？  - 啊？我嗎？{\r}
+Dialogue: 0,2:10:35.09,2:10:37.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎！沒有事了{\r}
+Dialogue: 0,2:10:38.09,2:10:40.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好了 出來吧{\r}
+Dialogue: 0,2:10:43.63,2:10:44.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}救命！{\r}
+Dialogue: 0,2:10:46.90,2:10:47.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}救命！{\r}
+Dialogue: 0,2:11:04.55,2:11:06.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等等！{\r}
+Dialogue: 0,2:11:07.59,2:11:11.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他是俘虜！又講出了一切來求饒{\r}
+Dialogue: 0,2:11:12.03,2:11:15.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不能殺他{\r}
+Dialogue: 0,2:11:16.83,2:11:18.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}走開！{\r}
+Dialogue: 0,2:11:19.80,2:11:22.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不殺，我們自己殺！{\r}
+Dialogue: 0,2:11:40.06,2:11:41.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好的{\r}
+Dialogue: 0,2:11:42.32,2:11:44.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}讓她為兒子報仇！{\r}
+Dialogue: 0,2:11:47.30,2:11:50.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰幫她！{\r}
+Dialogue: 0,2:11:50.23,2:11:51.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我來幫！{\r}
+Dialogue: 0,2:12:00.71,2:12:04.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 據那俘虜說，他們的城寨…  - 那不算城寨！{\r}
+Dialogue: 0,2:12:04.65,2:12:08.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}像與平的褲子，全是洞！{\r}
+Dialogue: 0,2:12:08.68,2:12:10.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 既然容易滲入的話  - 我會夜襲{\r}
+Dialogue: 0,2:12:11.19,2:12:14.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}對方有四十人，應該先殺他幾個{\r}
+Dialogue: 0,2:12:14.96,2:12:17.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但我們不能損失一人{\r}
+Dialogue: 0,2:12:18.09,2:12:20.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}否則殺他五個也不划算{\r}
+Dialogue: 0,2:12:20.70,2:12:25.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 那就要賭運氣  - 三個人去應可殺十個{\r}
+Dialogue: 0,2:12:26.27,2:12:27.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉{\r}
+Dialogue: 0,2:12:27.97,2:12:30.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}鷲山麓離這裏多遠？{\r}
+Dialogue: 0,2:12:31.11,2:12:32.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要走一日{\r}
+Dialogue: 0,2:12:32.77,2:12:35.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哦，要騎馬了，山賊的馬有三匹！{\r}
+Dialogue: 0,2:12:35.78,2:12:37.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}騎馬只需半天{\r}
+Dialogue: 0,2:12:49.89,2:12:51.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好，去吧！{\r}
+Dialogue: 0,2:12:51.69,2:12:54.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在出發，趕夜路可於黎明前到達{\r}
+Dialogue: 0,2:12:54.83,2:12:56.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但誰去呢？{\r}
+Dialogue: 0,2:12:59.77,2:13:00.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不行！{\r}
+Dialogue: 0,2:13:03.64,2:13:05.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還有我，就這樣決定！{\r}
+Dialogue: 0,2:13:06.84,2:13:08.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我也去，當響導！{\r}
+Dialogue: 0,2:13:08.94,2:13:11.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但馬匹不夠！{\r}
+Dialogue: 0,2:13:11.21,2:13:13.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有與平的馬 你騎{\r}
+Dialogue: 0,2:13:13.75,2:13:15.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}會騎那匹馬的{\r}
+Dialogue: 0,2:13:15.75,2:13:17.68,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只有你菊千代大人！{\r}
+Dialogue: 0,2:13:26.83,2:13:28.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}搞什麼鬼？{\r}
+Dialogue: 0,2:13:29.87,2:13:31.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這邊！往這邊啊！{\r}
+Dialogue: 0,2:13:32.20,2:13:34.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你想往哪裏跑啊，你這混蛋！{\r}
+Dialogue: 0,2:13:35.50,2:13:36.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蠢馬！{\r}
+Dialogue: 0,2:13:37.01,2:13:40.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真畜牲啊！這邊啊，這邊！這個混蛋！{\r}
+Dialogue: 0,2:13:41.71,2:13:44.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你還算是馬嗎！嗯？{\r}
+Dialogue: 0,2:13:44.48,2:13:46.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要臉！{\r}
+Dialogue: 0,2:13:48.52,2:13:50.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}等等！{\r}
+Dialogue: 0,2:13:52.65,2:13:56.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我道歉！{\r}
+Dialogue: 0,2:13:56.66,2:13:58.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我該死！{\r}
+Dialogue: 0,2:15:24.65,2:15:27.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哎，放火燒屋！{\r}
+Dialogue: 0,2:15:27.28,2:15:29.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}殺掉逃出來的人！{\r}
+Dialogue: 0,2:18:03.54,2:18:05.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幹的好！{\r}
+Dialogue: 0,2:18:06.14,2:18:07.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}成了！{\r}
+Dialogue: 0,2:18:10.35,2:18:12.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}吃我一劍，狗娘養的！{\r}
+Dialogue: 0,2:18:55.32,2:18:56.62,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉！小心！利吉！{\r}
+Dialogue: 0,2:19:17.48,2:19:19.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}利吉，你這混蛋，你幹了什麼呀！{\r}
+Dialogue: 0,2:19:36.06,2:19:37.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋！{\r}
+Dialogue: 0,2:19:37.50,2:19:40.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看你做了什麼？她是你什麼人？{\r}
+Dialogue: 0,2:19:42.10,2:19:44.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}她是我娘子！{\r}
+Dialogue: 0,2:19:46.84,2:19:47.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}平八{\r}
+Dialogue: 0,2:19:48.04,2:19:50.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}平八，堅持住！{\r}
+Dialogue: 0,2:19:50.90,2:19:51.70,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}平八{\r}
+Dialogue: 0,2:20:29.98,2:20:31.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你說過…{\r}
+Dialogue: 0,2:20:33.62,2:20:36.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你說過痛苦時他可以解愁{\r}
+Dialogue: 0,2:20:38.43,2:20:40.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但痛苦現在才開始{\r}
+Dialogue: 0,2:20:50.91,2:20:52.10,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要哭！{\r}
+Dialogue: 0,2:20:52.87,2:20:54.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要哭！傻瓜！{\r}
+Dialogue: 0,2:20:56.21,2:20:57.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要哭！{\r}
+Dialogue: 0,2:20:59.10,2:21:01.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不要哭！不要哭啊！{\r}
+Dialogue: 0,2:22:25.73,2:22:27.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們來了！{\r}
+Dialogue: 0,2:22:40.00,2:22:41.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家各就各位！{\r}
+Dialogue: 0,2:23:41.20,2:23:41.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看好！{\r}
+Dialogue: 0,2:23:41.88,2:23:45.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別忘了那三挺火槍！{\r}
+Dialogue: 0,2:24:11.00,2:24:13.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}走了小路，十騎向北，十三騎向南{\r}
+Dialogue: 0,2:24:13.47,2:24:15.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 火槍呢？  - 一共三挺！{\r}
+Dialogue: 0,2:24:16.81,2:24:19.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去看南面，小心火槍{\r}
+Dialogue: 0,2:25:16.10,2:25:18.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}撤退！撤退！撤退！{\r}
+Dialogue: 0,2:25:34.05,2:25:37.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 南面的十二騎轉向東走！  - 應是十三騎！{\r}
+Dialogue: 0,2:25:37.79,2:25:39.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一個中箭！{\r}
+Dialogue: 0,2:25:39.93,2:25:41.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}五郎兵衛這傢伙！{\r}
+Dialogue: 0,2:25:44.26,2:25:47.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎，去看東面的橋斷了沒有，還有，小心…{\r}
+Dialogue: 0,2:25:47.73,2:25:49.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}火槍！{\r}
+Dialogue: 0,2:25:58.31,2:26:02.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 去守北面，後山才是關鍵  - 嗯{\r}
+Dialogue: 0,2:26:02.85,2:26:06.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你為何不預先在後山築欄？{\r}
+Dialogue: 0,2:26:06.49,2:26:08.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好城必留一個缺口{\r}
+Dialogue: 0,2:26:09.09,2:26:13.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誘敵深入然後殲之，死守是不行的{\r}
+Dialogue: 0,2:26:25.11,2:26:27.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看你們的狼狽相！{\r}
+Dialogue: 0,2:26:31.34,2:26:33.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}拿走，該死的！{\r}
+Dialogue: 0,2:26:37.42,2:26:40.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}十二騎快要到了，快破橋！{\r}
+Dialogue: 0,2:26:40.35,2:26:43.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這傢伙，不見我在砍嗎？！{\r}
+Dialogue: 0,2:26:44.99,2:26:47.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還有，小心他們的火槍！{\r}
+Dialogue: 0,2:26:47.56,2:26:49.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}知道了！{\r}
+Dialogue: 0,2:26:56.20,2:26:57.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去哪裏？！{\r}
+Dialogue: 0,2:26:57.74,2:27:00.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我要找父親！我們到處找不到他{\r}
+Dialogue: 0,2:27:00.87,2:27:05.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹要死在小屋！他常說要聽著水車聲死去{\r}
+Dialogue: 0,2:27:11.18,2:27:13.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}簡直是老頑固！{\r}
+Dialogue: 0,2:27:13.85,2:27:16.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快拉他回來！{\r}
+Dialogue: 0,2:27:19.63,2:27:21.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}讓開！讓開！{\r}
+Dialogue: 0,2:27:22.63,2:27:25.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哦咦，你們幹什麼吃的！快點，傻瓜！{\r}
+Dialogue: 0,2:27:47.75,2:27:50.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 這山上有…  - 二十騎{\r}
+Dialogue: 0,2:27:50.49,2:27:53.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}東面有十二騎{\r}
+Dialogue: 0,2:27:53.26,2:27:54.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗯{\r}
+Dialogue: 0,2:28:10.48,2:28:13.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不妙阿，大家都很驚慌{\r}
+Dialogue: 0,2:28:17.45,2:28:19.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好！再來！{\r}
+Dialogue: 0,2:28:20.62,2:28:22.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再來！{\r}
+Dialogue: 0,2:28:25.49,2:28:28.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七郎次幹得好，我們也吶喊！{\r}
+Dialogue: 0,2:28:30.23,2:28:31.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你們都出來！{\r}
+Dialogue: 0,2:28:37.17,2:28:39.64,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}舉槍吶喊助威！{\r}
+Dialogue: 0,2:28:44.31,2:28:45.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再來一次！{\r}
+Dialogue: 0,2:28:49.58,2:28:52.48,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好，我們也不能失威！{\r}
+Dialogue: 0,2:28:56.42,2:28:59.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平，看你的貧相，再來！{\r}
+Dialogue: 0,2:29:04.26,2:29:06.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你來！{\r}
+Dialogue: 0,2:29:10.94,2:29:12.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們來了！來了！{\r}
+Dialogue: 0,2:29:29.42,2:29:30.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他媽的！{\r}
+Dialogue: 0,2:30:07.13,2:30:10.22,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}回崗位！你這傢伙去哪兒？{\r}
+Dialogue: 0,2:30:14.63,2:30:16.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還管那破房子幹什麼！{\r}
+Dialogue: 0,2:30:21.64,2:30:23.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別驚慌！別驚慌！{\r}
+Dialogue: 0,2:30:32.15,2:30:34.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}混蛋！{\r}
+Dialogue: 0,2:30:38.66,2:30:40.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們在燒房子！{\r}
+Dialogue: 0,2:30:40.53,2:30:42.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}狗雜種！{\r}
+Dialogue: 0,2:31:12.23,2:31:15.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家緊守崗位，快！{\r}
+Dialogue: 0,2:31:16.46,2:31:18.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老公！{\r}
+Dialogue: 0,2:31:20.10,2:31:22.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還管那破房子幹什麼！{\r}
+Dialogue: 0,2:31:25.77,2:31:28.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家緊守崗位，快！快呀！{\r}
+Dialogue: 0,2:31:40.25,2:31:41.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}畜牲！{\r}
+Dialogue: 0,2:31:43.49,2:31:45.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}鼠輩！{\r}
+Dialogue: 0,2:31:45.49,2:31:48.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹的房子！{\r}
+Dialogue: 0,2:31:50.63,2:31:53.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹呢？他的兒媳呢？{\r}
+Dialogue: 0,2:31:53.80,2:31:56.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}還有孩子呢？他媽的，他們幹什麼！{\r}
+Dialogue: 0,2:31:59.87,2:32:02.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站住！不准擅離崗位！{\r}
+Dialogue: 0,2:32:04.78,2:32:06.77,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代，回來！回來！{\r}
+Dialogue: 0,2:32:08.95,2:32:10.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代！{\r}
+Dialogue: 0,2:32:25.60,2:32:28.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}老爹呢？你的男人呢？{\r}
+Dialogue: 0,2:32:38.38,2:32:41.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}她中了茅槍！怎麼還能走這麼遠？{\r}
+Dialogue: 0,2:32:47.82,2:32:49.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代，回去！{\r}
+Dialogue: 0,2:32:56.30,2:32:58.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗯？怎麼了？{\r}
+Dialogue: 0,2:33:01.63,2:33:04.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這孩子像我一樣{\r}
+Dialogue: 0,2:33:04.80,2:33:07.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我當年也全家被殺！{\r}
+Dialogue: 0,2:34:16.08,2:34:17.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來啊！{\r}
+Dialogue: 0,2:34:26.72,2:34:28.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼？怎麼了？{\r}
+Dialogue: 0,2:34:43.04,2:34:45.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你在那裏看什麼？{\r}
+Dialogue: 0,2:34:46.71,2:34:48.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}笨蛋！{\r}
+Dialogue: 0,2:35:50.60,2:35:52.63,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}喂，沒人受傷吧？{\r}
+Dialogue: 0,2:35:53.04,2:35:55.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好 幹得好啊！{\r}
+Dialogue: 0,2:35:55.68,2:35:57.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幹得好！{\r}
+Dialogue: 0,2:36:00.68,2:36:02.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是火槍的硝煙味，伏下！{\r}
+Dialogue: 0,2:36:13.43,2:36:15.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造！萬造，振作一下{\r}
+Dialogue: 0,2:36:28.91,2:36:30.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哪兒受傷？讓我看看{\r}
+Dialogue: 0,2:36:31.38,2:36:34.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃，志乃，叫我女兒來！{\r}
+Dialogue: 0,2:36:35.45,2:36:37.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哎，不用去叫了！{\r}
+Dialogue: 0,2:36:37.55,2:36:40.42,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這一點傷死不了{\r}
+Dialogue: 0,2:36:41.69,2:36:44.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}就這點擦傷，你叫女兒來？{\r}
+Dialogue: 0,2:36:44.42,2:36:48.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不怕被人知道她女扮男裝嗎！{\r}
+Dialogue: 0,2:37:17.66,2:37:19.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}窮寇莫追！{\r}
+Dialogue: 0,2:37:23.36,2:37:25.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好！你幹得很好！{\r}
+Dialogue: 0,2:37:26.17,2:37:28.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是誰？{\r}
+Dialogue: 0,2:37:29.97,2:37:31.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我是利吉{\r}
+Dialogue: 0,2:37:46.69,2:37:49.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們打東南面{\r}
+Dialogue: 0,2:37:49.39,2:37:52.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}都夾著尾巴跑掉了{\r}
+Dialogue: 0,2:37:52.53,2:37:54.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只剩下這兒{\r}
+Dialogue: 0,2:37:54.46,2:37:57.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今晚來不來很難說{\r}
+Dialogue: 0,2:37:57.26,2:37:59.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但主力一定會從這裏來{\r}
+Dialogue: 0,2:37:59.53,2:38:01.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是{\r}
+Dialogue: 0,2:38:01.93,2:38:03.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}毫無動靜{\r}
+Dialogue: 0,2:38:17.08,2:38:18.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但{\r}
+Dialogue: 0,2:38:19.55,2:38:21.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}主力一定是這裏來{\r}
+Dialogue: 0,2:38:22.32,2:38:24.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}現在就證明給你看{\r}
+Dialogue: 0,2:39:08.27,2:39:09.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好，做得很好！{\r}
+Dialogue: 0,2:39:09.80,2:39:12.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 把稻草人伸出去看看  - 是！{\r}
+Dialogue: 0,2:39:47.41,2:39:50.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這樣，恐怕他們明天早上{\r}
+Dialogue: 0,2:39:50.81,2:39:53.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一定會力攻這兒{\r}
+Dialogue: 0,2:39:53.48,2:39:56.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好吧，我們誘他們進村{\r}
+Dialogue: 0,2:40:00.32,2:40:03.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不，當然不是全部，先誘一騎{\r}
+Dialogue: 0,2:40:04.56,2:40:06.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}頂多兩騎{\r}
+Dialogue: 0,2:40:07.23,2:40:11.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們一進村，咱就立即封鎖出路{\r}
+Dialogue: 0,2:40:11.93,2:40:14.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們就會成為甕中之鱉！{\r}
+Dialogue: 0,2:40:14.87,2:40:16.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}任由我們宰割{\r}
+Dialogue: 0,2:40:19.31,2:40:23.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}然後逐一殺之，再決勝負{\r}
+Dialogue: 0,2:40:23.88,2:40:26.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但我擔心那些火槍{\r}
+Dialogue: 0,2:40:26.28,2:40:28.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}能消滅一挺就一挺{\r}
+Dialogue: 0,2:40:31.02,2:40:34.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我去搶！一定搶回來！{\r}
+Dialogue: 0,2:40:34.55,2:40:37.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不行，你心裏想死！由我去{\r}
+Dialogue: 0,2:41:30.64,2:41:32.51,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有腳步聲！{\r}
+Dialogue: 0,2:41:32.71,2:41:35.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎，好啦，小休一下{\r}
+Dialogue: 0,2:41:36.15,2:41:39.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我真的聽見！{\r}
+Dialogue: 0,2:41:39.32,2:41:41.34,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我說可以了{\r}
+Dialogue: 0,2:41:42.32,2:41:45.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你太累了，休息一下！{\r}
+Dialogue: 0,2:41:48.19,2:41:49.86,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有聲音{\r}
+Dialogue: 0,2:42:18.06,2:42:19.72,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}殺了兩個{\r}
+Dialogue: 0,2:42:54.79,2:42:55.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,2:42:59.10,2:43:03.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有事快說！我想睡一會{\r}
+Dialogue: 0,2:43:04.67,2:43:08.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你…真了不起{\r}
+Dialogue: 0,2:43:12.55,2:43:16.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我早就想對你說{\r}
+Dialogue: 0,2:43:42.61,2:43:44.27,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來了？{\r}
+Dialogue: 0,2:43:48.45,2:43:50.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}先放一騎進來{\r}
+Dialogue: 0,2:43:53.19,2:43:55.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}先放一騎進來！{\r}
+Dialogue: 0,2:44:02.60,2:44:07.03,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽好了，放過一騎，就用茅包圍他們{\r}
+Dialogue: 0,2:44:25.99,2:44:27.18,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來了！{\r}
+Dialogue: 0,2:45:03.19,2:45:04.88,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}退到旁邊{\r}
+Dialogue: 0,2:45:07.49,2:45:08.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幹得好！{\r}
+Dialogue: 0,2:45:16.74,2:45:19.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？幹得好{\r}
+Dialogue: 0,2:45:20.31,2:45:22.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來了，散開！{\r}
+Dialogue: 0,2:45:39.79,2:45:41.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}散開！散開！{\r}
+Dialogue: 0,2:45:46.89,2:45:47.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}回頭！{\r}
+Dialogue: 0,2:45:47.63,2:45:49.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}哦咦，回頭！{\r}
+Dialogue: 0,2:45:58.04,2:45:59.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再放兩騎進來了{\r}
+Dialogue: 0,2:47:42.01,2:47:43.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們來了！{\r}
+Dialogue: 0,2:48:00.00,2:48:01.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真痛快！{\r}
+Dialogue: 0,2:48:07.74,2:48:10.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你坐著幹什麼？{\r}
+Dialogue: 0,2:48:32.23,2:48:36.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們不再上當了{\r}
+Dialogue: 0,2:48:45.71,2:48:48.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 全是沒膽鬼！  - 山賊也沒什麼了不起{\r}
+Dialogue: 0,2:48:55.79,2:49:01.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}剛才殺掉四個 久藏昨晚殺了兩個{\r}
+Dialogue: 0,2:49:17.64,2:49:19.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他才是真正的武士{\r}
+Dialogue: 0,2:49:20.25,2:49:22.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有膽色，武功高強！{\r}
+Dialogue: 0,2:49:23.08,2:49:24.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}又善良！{\r}
+Dialogue: 0,2:49:24.95,2:49:28.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}奪得火槍也不邀功{\r}
+Dialogue: 0,2:49:29.09,2:49:33.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他入亂軍取敵方首級，如閒庭散步{\r}
+Dialogue: 0,2:49:34.96,2:49:39.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有意思，聽你說話一點也不悶{\r}
+Dialogue: 0,2:49:57.12,2:49:58.98,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平！{\r}
+Dialogue: 0,2:49:59.89,2:50:01.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這兒拜託了！{\r}
+Dialogue: 0,2:50:04.56,2:50:07.55,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}看你的神情{\r}
+Dialogue: 0,2:50:07.76,2:50:09.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這兒不會有事的！{\r}
+Dialogue: 0,2:50:11.53,2:50:13.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}稻草人也抵擋得了！{\r}
+Dialogue: 0,2:51:45.16,2:51:46.39,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}記住！{\r}
+Dialogue: 0,2:51:47.53,2:51:49.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰要是怕死的話，我就…{\r}
+Dialogue: 0,2:51:56.10,2:51:57.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}閃開！{\r}
+Dialogue: 0,2:53:20.95,2:53:22.15,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}嗨！{\r}
+Dialogue: 0,2:53:25.96,2:53:27.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎麼了？{\r}
+Dialogue: 0,2:53:27.29,2:53:29.28,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次真棘手！{\r}
+Dialogue: 0,2:53:29.63,2:53:31.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}再忍耐一下吧{\r}
+Dialogue: 0,2:53:32.16,2:53:35.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但處境實在不妙！{\r}
+Dialogue: 0,2:53:35.60,2:53:39.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次是我們被火燒，要像農民般以水充飢！{\r}
+Dialogue: 0,2:53:40.27,2:53:43.07,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}別洩氣，很快就會打贏！{\r}
+Dialogue: 0,2:53:43.28,2:53:45.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}兄弟，靠你了！{\r}
+Dialogue: 0,2:54:25.32,2:54:27.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是我！{\r}
+Dialogue: 0,2:54:34.76,2:54:36.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}知道我的厲害了吧！{\r}
+Dialogue: 0,2:54:36.66,2:54:37.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}蠢才{\r}
+Dialogue: 0,2:54:38.83,2:54:40.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}為何擅離崗位？{\r}
+Dialogue: 0,2:54:41.03,2:54:42.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你看看這個！{\r}
+Dialogue: 0,2:54:42.57,2:54:46.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你不應該罵我！崗位沒問題{\r}
+Dialogue: 0,2:54:47.04,2:54:50.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著，打仗不是個人表演{\r}
+Dialogue: 0,2:54:50.74,2:54:54.91,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}搶立功的不算功績！{\r}
+Dialogue: 0,2:55:05.32,2:55:08.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}五郎兵衛，久藏，守住這裏{\r}
+Dialogue: 0,2:55:13.77,2:55:15.76,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一騎都不能進來！{\r}
+Dialogue: 0,2:57:23.73,2:57:26.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站住，混蛋！{\r}
+Dialogue: 0,2:57:26.70,2:57:28.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}該死的！{\r}
+Dialogue: 0,2:57:29.03,2:57:31.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}糟糕，走進了兩騎！{\r}
+Dialogue: 0,2:57:46.72,2:57:49.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他媽的！{\r}
+Dialogue: 0,2:57:50.46,2:57:52.01,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平去了哪裏？{\r}
+Dialogue: 0,2:58:32.03,2:58:33.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平！{\r}
+Dialogue: 0,2:58:34.97,2:58:36.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}與平！{\r}
+Dialogue: 0,2:58:36.90,2:58:39.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我緊守崗位了{\r}
+Dialogue: 0,2:58:40.21,2:58:42.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}振作一下，與平！{\r}
+Dialogue: 0,2:58:46.24,2:58:48.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來啊，開槍射我啊！{\r}
+Dialogue: 0,2:59:26.12,2:59:27.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七郎次，守住這裏！{\r}
+Dialogue: 0,2:59:39.10,2:59:40.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}五郎兵衛！{\r}
+Dialogue: 0,2:59:50.64,2:59:52.61,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}五郎兵衛！{\r}
+Dialogue: 0,3:00:44.90,3:00:47.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只剩下十三騎{\r}
+Dialogue: 0,3:00:47.77,3:00:49.73,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但殺他們七個{\r}
+Dialogue: 0,3:00:51.07,3:00:53.09,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}代價很大啊！{\r}
+Dialogue: 0,3:01:14.36,3:01:16.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}怎樣？很累嗎？{\r}
+Dialogue: 0,3:01:18.96,3:01:22.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}真難為你了，瘦了很多啊！阿叔！{\r}
+Dialogue: 0,3:01:27.07,3:01:29.54,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我去洗個臉{\r}
+Dialogue: 0,3:01:40.18,3:01:42.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}下次攻來就分勝負{\r}
+Dialogue: 0,3:01:43.05,3:01:47.25,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}趁我們還有氣力，就要分出勝負{\r}
+Dialogue: 0,3:01:47.56,3:01:51.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}可是他們現在攻來怎辦？{\r}
+Dialogue: 0,3:01:52.53,3:01:55.47,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們也一樣很累，又損兵折將{\r}
+Dialogue: 0,3:01:55.97,3:01:57.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今晚不會來{\r}
+Dialogue: 0,3:01:58.24,3:02:03.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們食糧已盡，看來起了內訌{\r}
+Dialogue: 0,3:02:04.38,3:02:06.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們不會再拖下去{\r}
+Dialogue: 0,3:02:06.71,3:02:12.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明早，一定會狂攻而來{\r}
+Dialogue: 0,3:02:14.25,3:02:15.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎{\r}
+Dialogue: 0,3:02:16.24,3:02:17.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎！{\r}
+Dialogue: 0,3:02:18.20,3:02:19.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是！{\r}
+Dialogue: 0,3:02:35.41,3:02:36.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}上頭有令{\r}
+Dialogue: 0,3:02:37.07,3:02:40.17,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}留兩人站崗，其餘睡覺{\r}
+Dialogue: 0,3:02:40.91,3:02:44.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}要見家人的，可輪流去{\r}
+Dialogue: 0,3:02:46.72,3:02:48.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明天是決戰吧？{\r}
+Dialogue: 0,3:02:50.29,3:02:52.45,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}多多拜託了{\r}
+Dialogue: 0,3:02:59.20,3:03:02.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}聽著 大家聽到剛才的命令吧？{\r}
+Dialogue: 0,3:03:07.00,3:03:09.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}站崗由我負責{\r}
+Dialogue: 0,3:03:10.04,3:03:11.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家睡吧{\r}
+Dialogue: 0,3:03:12.94,3:03:16.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}然後呢，萬造！{\r}
+Dialogue: 0,3:03:16.91,3:03:18.94,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你先回家{\r}
+Dialogue: 0,3:03:19.38,3:03:21.75,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好好看看女兒{\r}
+Dialogue: 0,3:03:22.59,3:03:24.82,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我是說，你兒子{\r}
+Dialogue: 0,3:03:33.86,3:03:35.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}傳過命令了{\r}
+Dialogue: 0,3:03:35.33,3:03:37.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好，你也休息吧{\r}
+Dialogue: 0,3:03:37.66,3:03:38.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是！{\r}
+Dialogue: 0,3:03:41.54,3:03:43.84,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 勝四郎  - 是！{\r}
+Dialogue: 0,3:03:44.81,3:03:46.33,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代呢？{\r}
+Dialogue: 0,3:03:46.54,3:03:49.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他還在墓前{\r}
+Dialogue: 0,3:03:49.88,3:03:51.11,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明白了{\r}
+Dialogue: 0,3:05:04.79,3:05:07.59,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}明天大家都會戰死！{\r}
+Dialogue: 0,3:05:08.59,3:05:10.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不一定…{\r}
+Dialogue: 0,3:05:11.50,3:05:14.02,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}但我們可能會死！{\r}
+Dialogue: 0,3:05:36.29,3:05:37.65,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃{\r}
+Dialogue: 0,3:05:38.32,3:05:39.95,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃在不在？{\r}
+Dialogue: 0,3:05:43.00,3:05:44.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:05:45.66,3:05:47.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃在不在？{\r}
+Dialogue: 0,3:05:48.70,3:05:49.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:05:50.50,3:05:51.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:06:22.00,3:06:24.26,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}是酒啊，什麼地方弄來的？{\r}
+Dialogue: 0,3:06:39.68,3:06:42.58,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我明白了，果然如菊千代所說{\r}
+Dialogue: 0,3:06:42.79,3:06:44.78,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這裏什麼都有{\r}
+Dialogue: 0,3:06:54.40,3:06:56.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}- 那麼，這個我就自便了  - 嗯{\r}
+Dialogue: 0,3:07:00.64,3:07:02.16,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:07:04.26,3:07:05.06,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:07:17.10,3:07:17.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！{\r}
+Dialogue: 0,3:07:28.10,3:07:31.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}有酒，喝杯酒休息吧{\r}
+Dialogue: 0,3:07:36.44,3:07:40.67,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你的豪氣哪裏去了？你這樣，明天怎打仗！{\r}
+Dialogue: 0,3:07:52.29,3:07:54.31,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}志乃！志乃！{\r}
+Dialogue: 0,3:08:59.52,3:09:01.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不知羞恥！{\r}
+Dialogue: 0,3:09:10.87,3:09:13.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這蕩婦！{\r}
+Dialogue: 0,3:09:17.84,3:09:19.97,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}住手，不許亂來！{\r}
+Dialogue: 0,3:09:20.18,3:09:24.41,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}農民女兒與武士怎可結合？{\r}
+Dialogue: 0,3:09:49.94,3:09:51.57,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你這淫娃！{\r}
+Dialogue: 0,3:10:01.75,3:10:03.24,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造{\r}
+Dialogue: 0,3:10:04.19,3:10:06.66,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這是你女兒嗎？{\r}
+Dialogue: 0,3:10:13.16,3:10:14.99,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}告訴我！{\r}
+Dialogue: 0,3:10:15.20,3:10:19.53,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你剛才說「武士」 是哪一個武士？{\r}
+Dialogue: 0,3:10:21.14,3:10:22.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造{\r}
+Dialogue: 0,3:10:32.38,3:10:34.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造，快說！{\r}
+Dialogue: 0,3:10:35.32,3:10:36.81,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}快說！{\r}
+Dialogue: 0,3:11:09.25,3:11:11.38,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你是志乃嗎？{\r}
+Dialogue: 0,3:11:30.67,3:11:33.80,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}萬造，何必光火！{\r}
+Dialogue: 0,3:11:35.35,3:11:38.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}人到了難料生死時{\r}
+Dialogue: 0,3:11:38.35,3:11:41.85,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}略為不守婦道亦很平常{\r}
+Dialogue: 0,3:11:47.76,3:11:50.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}在決戰前夜…{\r}
+Dialogue: 0,3:11:51.86,3:11:54.52,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}城裏也常有這種事！{\r}
+Dialogue: 0,3:11:57.47,3:12:01.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}你應明白年青人的心情！這是難以避免的{\r}
+Dialogue: 0,3:12:02.47,3:12:04.50,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一句難以避免就算了嗎！{\r}
+Dialogue: 0,3:12:04.81,3:12:07.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}女兒失貞，我怎可不作聲！{\r}
+Dialogue: 0,3:12:22.53,3:12:27.12,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他們真心相愛，怕什麼？！又不是與山賊通姦！{\r}
+Dialogue: 0,3:13:59.56,3:14:03.79,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家太緊張了 不輕鬆一下不行！{\r}
+Dialogue: 0,3:14:11.90,3:14:15.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}夥計們，決戰就快來臨了！{\r}
+Dialogue: 0,3:14:18.17,3:14:22.37,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎，你要加油！{\r}
+Dialogue: 0,3:14:24.18,3:14:27.21,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}因為你昨晚已成人！！{\r}
+Dialogue: 0,3:14:49.77,3:14:52.87,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}大家提起精神！{\r}
+Dialogue: 0,3:14:54.68,3:14:58.20,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}那樣垂頭喪氣的 怎能打贏！{\r}
+Dialogue: 0,3:15:11.83,3:15:13.92,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代，你做什麼？{\r}
+Dialogue: 0,3:15:14.13,3:15:16.43,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}一口刀殺不了五個人！{\r}
+Dialogue: 0,3:15:32.15,3:15:34.05,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}只剩下十三騎！{\r}
+Dialogue: 0,3:15:35.25,3:15:39.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}全部放進村來！{\r}
+Dialogue: 0,3:15:40.79,3:15:43.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}經過這裏後{\r}
+Dialogue: 0,3:15:43.73,3:15:47.56,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}從後擊之，在十字路口前後夾攻！{\r}
+Dialogue: 0,3:15:50.50,3:15:54.60,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}今天，可以一舉定勝負！{\r}
+Dialogue: 0,3:16:24.93,3:16:27.13,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來了！{\r}
+Dialogue: 0,3:16:50.49,3:16:52.69,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}來了！{\r}
+Dialogue: 0,3:17:17.19,3:17:19.35,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}七郎次和勝四郎守西面！{\r}
+Dialogue: 0,3:17:19.66,3:17:21.89,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}久藏和菊千代守東！{\r}
+Dialogue: 0,3:19:03.43,3:19:06.36,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎，利吉！勝四郎！{\r}
+Dialogue: 0,3:19:06.56,3:19:09.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}東面，去東面！{\r}
+Dialogue: 0,3:19:09.40,3:19:11.23,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}去東面！{\r}
+Dialogue: 0,3:19:28.32,3:19:30.08,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不准吵！{\r}
+Dialogue: 0,3:19:30.55,3:19:32.71,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}誰吵殺誰！{\r}
+Dialogue: 0,3:20:20.17,3:20:21.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}好！幹得好！{\r}
+Dialogue: 0,3:20:21.54,3:20:22.83,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}幹得好！{\r}
+Dialogue: 0,3:20:23.04,3:20:25.74,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}起來！到東面去！{\r}
+Dialogue: 0,3:20:41.09,3:20:43.49,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}勝四郎…站起來{\r}
+Dialogue: 0,3:20:46.03,3:20:48.19,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}他媽的！混蛋！{\r}
+Dialogue: 0,3:20:50.00,3:20:51.40,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代！菊千代！{\r}
+Dialogue: 0,3:21:27.60,3:21:29.96,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}菊千代！菊千代！菊千代！{\r}
+Dialogue: 0,3:21:40.12,3:21:43.14,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}山賊呢！山賊呢！山賊呢！{\r}
+Dialogue: 0,3:21:43.35,3:21:45.29,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}死光了！{\r}
+Dialogue: 0,3:22:03.64,3:22:06.44,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我們又還活下來了{\r}
+Dialogue: 0,3:25:44.66,3:25:48.32,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}這次也算是打敗仗吧{\r}
+Dialogue: 0,3:25:49.27,3:25:50.46,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}什麼？{\r}
+Dialogue: 0,3:25:51.33,3:25:52.93,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}我是說{\r}
+Dialogue: 0,3:25:53.34,3:25:55.90,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}贏的是那些農民們{\r}
+Dialogue: 0,3:25:57.21,3:25:59.00,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}不是我們{\r}
+Dialogue: 0,3:26:28.57,3:26:43.30,Default,,0000,0000,0000,,{\fnSimSun\bord3\pos(192,284)\3c&H804000&}=== 劇 終 ==={\r}
+
+

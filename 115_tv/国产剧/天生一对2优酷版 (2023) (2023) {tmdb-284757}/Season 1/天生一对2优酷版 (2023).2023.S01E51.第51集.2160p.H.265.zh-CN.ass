@@ -1,0 +1,51 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: AcplayDefault, Microsoft YaHei, 64, &H00FFFFFF, &H00FFFFFF, &H00000000, &H00000000, 0, 0, 0, 0, 100, 100, 0.00, 0.00, 1, 1, 0, 2, 20, 20, 20, 0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 3,0:00:01.36,0:00:10.36,AcplayDefault,,0000,0000,0000,,{\move(2016, 64, -96, 64)}吃饭了
+Dialogue: 3,0:00:11.51,0:00:20.51,AcplayDefault,,0000,0000,0000,,{\move(2016, 128, -96, 128)}刚吃饱
+Dialogue: 3,0:00:16.61,0:00:26.27,AcplayDefault,,0000,0000,0000,,{\move(2048, 192, -128, 192)}看看视频
+Dialogue: 3,0:00:35.94,0:00:48.94,AcplayDefault,,0000,0000,0000,,{\move(2368, 256, -448, 256)}这里用的是sql92的语法啊
+Dialogue: 3,0:00:44.39,0:00:54.89,AcplayDefault,,0000,0000,0000,,{\move(2144, 320, -224, 320)}99的语法咋搞
+Dialogue: 3,0:00:55.50,0:01:08.50,AcplayDefault,,0000,0000,0000,,{\move(2336, 384, -416, 384)}听不懂了去看数据库的东西向
+Dialogue: 3,0:01:22.23,0:01:35.23,AcplayDefault,,0000,0000,0000,,{\move(2784, 448, -864, 448)}zhenbushi jian jiandandeshi
+Dialogue: 3,0:02:16.35,0:02:29.35,AcplayDefault,,0000,0000,0000,,{\move(2464, 512, -544, 512)}应该是domain.account
+Dialogue: 3,0:02:25.16,0:02:38.16,AcplayDefault,,0000,0000,0000,,{\move(2656, 576, -736, 576)}他在主配置文件用了package标签 应该不用
+Dialogue: 3,0:02:25.46,0:02:34.46,AcplayDefault,,0000,0000,0000,,{\move(2016, 640, -96, 640)}666
+Dialogue: 3,0:02:30.88,0:02:43.88,AcplayDefault,,0000,0000,0000,,{\move(2528, 704, -608, 704)}主配置文件中配置的有，无需再使用包限制
+Dialogue: 3,0:02:48.91,0:02:59.41,AcplayDefault,,0000,0000,0000,,{\move(2144, 768, -224, 768)}不区分大小写么
+Dialogue: 3,0:03:40.35,0:03:53.35,AcplayDefault,,0000,0000,0000,,{\move(2848, 832, -928, 832)}这里我空着也能查出来，随便填个name、id都可以《why
+Dialogue: 3,0:03:44.55,0:03:52.88,AcplayDefault,,0000,0000,0000,,{\move(1984, 896, -64, 896)}同问
+Dialogue: 3,0:03:56.83,0:04:06.50,AcplayDefault,,0000,0000,0000,,{\move(2048, 64, -128, 64)}听不懂了
+Dialogue: 3,0:04:12.12,0:04:22.62,AcplayDefault,,0000,0000,0000,,{\move(2144, 128, -224, 128)}不知道在讲什么
+Dialogue: 3,0:04:27.66,0:04:40.66,AcplayDefault,,0000,0000,0000,,{\move(2400, 192, -480, 192)}我的username怎么报错了
+Dialogue: 3,0:04:41.13,0:04:54.13,AcplayDefault,,0000,0000,0000,,{\move(2752, 256, -832, 256)}这里就理解成用外键约束(uid)来进行user的配置
+Dialogue: 3,0:05:07.19,0:05:19.19,AcplayDefault,,0000,0000,0000,,{\move(2240, 320, -320, 320)}为什么我的是null
+Dialogue: 3,0:05:09.53,0:05:22.53,AcplayDefault,,0000,0000,0000,,{\move(2336, 384, -416, 384)}resultType没有改
+Dialogue: 3,0:05:15.83,0:05:28.83,AcplayDefault,,0000,0000,0000,,{\move(3168, 448, -1248, 448)}Error parsing SQL Mapper Configuration.
+Dialogue: 3,0:05:17.34,0:05:26.34,AcplayDefault,,0000,0000,0000,,{\move(2016, 512, -96, 512)}要翻车
+Dialogue: 3,0:05:28.20,0:05:37.87,AcplayDefault,,0000,0000,0000,,{\move(2048, 576, -128, 576)}节目效果
+Dialogue: 3,0:05:45.42,0:05:57.92,AcplayDefault,,0000,0000,0000,,{\move(2272, 640, -352, 640)}我的怎么是空指针异常啊
+Dialogue: 3,0:06:03.05,0:06:12.55,AcplayDefault,,0000,0000,0000,,{\move(2080, 704, -160, 704)}懒加载？？
+Dialogue: 3,0:06:13.41,0:06:23.08,AcplayDefault,,0000,0000,0000,,{\move(2048, 768, -128, 768)}戛然而止
+Dialogue: 3,0:06:15.10,0:06:28.10,AcplayDefault,,0000,0000,0000,,{\move(2304, 832, -384, 832)}没有改resultMap
+Dialogue: 3,0:06:15.85,0:06:25.35,AcplayDefault,,0000,0000,0000,,{\move(2080, 896, -160, 896)}23333
+Dialogue: 3,0:06:19.21,0:06:28.21,AcplayDefault,,0000,0000,0000,,{\move(2016, 64, -96, 64)}哈哈哈
+Dialogue: 3,0:06:23.09,0:06:31.42,AcplayDefault,,0000,0000,0000,,{\move(1984, 128, -64, 128)}哈哈
+Dialogue: 3,0:06:23.42,0:06:33.42,AcplayDefault,,0000,0000,0000,,{\move(2112, 192, -192, 192)}节目效果满分
+Dialogue: 3,0:06:30.54,0:06:43.54,AcplayDefault,,0000,0000,0000,,{\move(3296, 256, -1376, 256)}上个视频还只查user的name和address属性，到这里就变成查询两个表的所有值了
+Dialogue: 3,0:07:04.33,0:07:17.33,AcplayDefault,,0000,0000,0000,,{\move(2784, 320, -864, 320)}可是如果我只要user的name属性，这样封装还是不行
+Dialogue: 3,0:07:11.14,0:07:21.64,AcplayDefault,,0000,0000,0000,,{\move(2144, 384, -224, 384)}起别名在哪起的
+Dialogue: 3,0:07:12.16,0:07:25.16,AcplayDefault,,0000,0000,0000,,{\move(2656, 448, -736, 448)}这里我不加javatype会报空指针。 why
+Dialogue: 3,0:07:24.93,0:07:33.93,AcplayDefault,,0000,0000,0000,,{\move(2016, 512, -96, 512)}我也是
+Dialogue: 3,0:07:25.12,0:07:38.12,AcplayDefault,,0000,0000,0000,,{\move(2336, 576, -416, 576)}它找不到你要封装的类啊。。
+Dialogue: 3,0:07:28.50,0:07:41.50,AcplayDefault,,0000,0000,0000,,{\move(2400, 640, -480, 640)}getUser只有两个属性有值
+Dialogue: 3,0:07:33.32,0:07:46.32,AcplayDefault,,0000,0000,0000,,{\move(3072, 704, -1152, 704)}你不加 javaType, 它怎么知道把数据给你封装到哪个类里面....

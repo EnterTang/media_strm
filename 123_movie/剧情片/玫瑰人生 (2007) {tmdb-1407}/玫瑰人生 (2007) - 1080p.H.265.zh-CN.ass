@@ -1,0 +1,2341 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Eng,Arial,14,&H00FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+Style: 标题,SimHei,34,&H818684,&H0000FFFF,&H00000000,&HB7C2CF,-1,0,0,0,100,100,2,0,1,2,3,2,20,20,80,1
+Style: 片名,STXingkai,30,&H00FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,25,20,90,1
+Style: 地名,SimHei,16,&HBFBF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,240,80,1
+Style: 地名1,SimHei,16,&HBFBF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,250,20,40,1
+Style: 注解,SimHei,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,8,20,20,20,1
+Style: 注解1,Arial,14,&H00FFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,233,1
+Style: 演员,SimHei,16,&H9AACBF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,110,1
+Style: 演员1,SimHei,16,&H9AACBF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,95,1
+Style: Default,SimHei,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+
+Dialogue: 0,0:00:55.28,0:00:59.43,Eng,,0000,0000,0000,,♪ No more smiles, no more tears ♪
+Dialogue: 0,0:00:59.64,0:01:03.75,Eng,,0000,0000,0000,,♪ No more prayers, no more fears ♪
+Dialogue: 0,0:01:04.32,0:01:07.97,Eng,,0000,0000,0000,,♪ Nothing left, why go on ♪
+Dialogue: 0,0:01:08.24,0:01:12.02,Eng,,0000,0000,0000,,♪ When your lover is gone ♪
+Dialogue: 0,0:01:12.30,0:01:14.29,Eng,,0000,0000,0000,,♪ Shout with one ♪
+Dialogue: 0,0:01:14.36,0:01:16.37,注解1,,0000,0000,0000,,♪ Ring the bells ♪
+Dialogue: 0,0:01:16.42,0:01:20.77,Eng,,0000,0000,0000,,♪ Throughout the towns ♪
+Dialogue: 0,0:01:20.84,0:01:24.84,Eng,,0000,0000,0000,,♪ Will the shouts and the bells ♪
+Dialogue: 0,0:01:25.06,0:01:29.05,Eng,,0000,0000,0000,,♪ bring him back to my arms ♪
+Dialogue: 0,0:01:29.30,0:01:33.33,Eng,,0000,0000,0000,,♪ Must each man go to war ♪
+Dialogue: 0,0:01:33.58,0:01:37.33,Eng,,0000,0000,0000,,♪ evermore, evermore ♪
+Dialogue: 0,0:01:37.91,0:01:41.73,Eng,,0000,0000,0000,,♪ While some lone woman stands ♪
+Dialogue: 0,0:01:42.28,0:01:46.19,Eng,,0000,0000,0000,,♪ Empty heart, empty hands ♪
+Dialogue: 0,0:01:46.29,0:01:50.63,Eng,,0000,0000,0000,,♪ When the time came to part ♪
+Dialogue: 0,0:01:50.68,0:01:54.77,注解1,,0000,0000,0000,,♪ And he kissed me goodbye ♪
+Dialogue: 0,0:01:54.85,0:01:59.04,Eng,,0000,0000,0000,,♪ From the depths of my heart ♪
+Dialogue: 0,0:01:59.16,0:02:03.91,Eng,,0000,0000,0000,,♪ Came a great lonely cry ♪
+Dialogue: 0,0:02:04.04,0:02:08.07,Eng,,0000,0000,0000,,♪ Heaven have mercy! ♪
+Dialogue: 0,0:02:08.36,0:02:12.83,Eng,,0000,0000,0000,,♪ Heaven have mercy! ♪
+Dialogue: 0,0:03:00.94,0:03:03.69,Eng,,0000,0000,0000,,♪ Moi, je m'ennuie. ♪
+Dialogue: 0,0:03:03.85,0:03:06.94,Eng,,0000,0000,0000,,♪ C'est dans ma vie ♪
+Dialogue: 0,0:03:07.52,0:03:09.90,Eng,,0000,0000,0000,,♪ Une manie ♪
+Dialogue: 0,0:03:10.06,0:03:12.35,Eng,,0000,0000,0000,,♪ Je n'y peux rien ♪
+Dialogue: 0,0:03:24.77,0:03:27.94,Eng,,0000,0000,0000,,♪ Partout je traîne ♪
+Dialogue: 0,0:03:28.06,0:03:31.19,Eng,,0000,0000,0000,,♪ comme une chaîne ♪
+Dialogue: 0,0:03:31.65,0:03:34.27,Eng,,0000,0000,0000,,♪ ma lourde peine ♪
+Dialogue: 0,0:03:34.44,0:03:37.27,Eng,,0000,0000,0000,,♪ sans autre bien ♪
+Dialogue: 0,0:03:37.44,0:03:40.52,Eng,,0000,0000,0000,,♪ c'est dans ma vie ♪
+Dialogue: 0,0:03:41.40,0:03:43.81,Eng,,0000,0000,0000,,♪ Une manie ♪
+Dialogue: 0,0:03:43.98,0:03:47.65,Eng,,0000,0000,0000,,♪ Moi je m'ennuie ♪
+Dialogue: 0,0:10:09.06,0:10:11.35,Eng,,0000,0000,0000,,♪ Un soir je me faisais une pleine eau ♪
+Dialogue: 0,0:10:11.44,0:10:14.23,Eng,,0000,0000,0000,,♪ Pour tout maillot j'avais la peau ♪
+Dialogue: 0,0:10:14.31,0:10:17.44,Eng,,0000,0000,0000,,♪ Nul ne pouvait me voir ♪
+Dialogue: 0,0:10:17.75,0:10:19.86,Eng,,0000,0000,0000,,♪ que le ciel noir ♪
+Dialogue: 0,0:10:19.96,0:10:22.69,Eng,,0000,0000,0000,,♪ La lune soudain vint s'exhiber ♪
+Dialogue: 0,0:10:22.85,0:10:25.60,Eng,,0000,0000,0000,,♪ J'allais lui dire "ta bouche bébé" ♪
+Dialogue: 0,0:10:25.75,0:10:28.48,Eng,,0000,0000,0000,,♪ Quand j'entendis près de moi ♪
+Dialogue: 0,0:10:28.65,0:10:30.66,Eng,,0000,0000,0000,,♪ un cri d'émoi ♪
+Dialogue: 0,0:10:30.88,0:10:33.76,Eng,,0000,0000,0000,,♪ Yavait un homme sur un rocher ♪
+Dialogue: 0,0:10:33.94,0:10:35.88,Eng,,0000,0000,0000,,♪ Pas assez haut ♪
+Dialogue: 0,0:10:36.28,0:10:38.27,Eng,,0000,0000,0000,,♪ L'homme a fait "Ho !" ♪
+Dialogue: 0,0:10:38.87,0:10:41.02,Eng,,0000,0000,0000,,♪ et moi dans l'eau ♪
+Dialogue: 0,0:10:41.28,0:10:44.06,Eng,,0000,0000,0000,,♪ Moi j'ai fait "Ho !" ♪
+Dialogue: 0,0:10:44.56,0:10:47.19,Eng,,0000,0000,0000,,♪ Il m'a vue nu-e ♪
+Dialogue: 0,0:10:50.52,0:10:54.21,Eng,,0000,0000,0000,,♪ Sans cache-trucmuche, soutien-machin... ♪
+Dialogue: 0,0:10:54.27,0:10:56.81,Eng,,0000,0000,0000,,♪ J'en ai rougi jusqu'au matin ♪
+Dialogue: 0,0:10:57.06,0:11:00.19,Eng,,0000,0000,0000,,♪ Il m'a vue nu-e ♪
+Dialogue: 0,0:11:00.40,0:11:02.31,Eng,,0000,0000,0000,,♪ Toute nu-e ♪
+Dialogue: 0,0:11:02.88,0:11:06.15,Eng,,0000,0000,0000,,♪ Je me suis par respect humain ♪
+Dialogue: 0,0:11:06.21,0:11:09.09,Eng,,0000,0000,0000,,♪ Voilé la face de mes deux mains ♪
+Dialogue: 0,0:11:09.43,0:11:11.55,Eng,,0000,0000,0000,,♪ Mais je crois bien ♪
+Dialogue: 0,0:11:11.71,0:11:15.55,Eng,,0000,0000,0000,,♪ Que par ce geste irréfléchi ♪
+Dialogue: 0,0:11:15.88,0:11:18.25,Eng,,0000,0000,0000,,♪ J'ai négligé de voiler ♪
+Dialogue: 0,0:11:18.42,0:11:22.84,Eng,,0000,0000,0000,,♪ quelques petits chichis ♪
+Dialogue: 0,0:11:23.34,0:11:26.38,Eng,,0000,0000,0000,,♪ Il m'a vue nu-e ♪
+Dialogue: 0,0:11:26.42,0:11:29.17,Eng,,0000,0000,0000,,♪ Toute nu-e ♪
+Dialogue: 0,0:11:29.60,0:11:35.61,Eng,,0000,0000,0000,,♪ Plus que nu-e... ♪
+Dialogue: 0,0:14:36.22,0:14:38.41,Eng,,0000,0000,0000,,♪ Allez venez Milord ♪
+Dialogue: 0,0:14:38.66,0:14:40.61,Eng,,0000,0000,0000,,♪ Vous asseoir à ma table ♪
+Dialogue: 0,0:14:40.86,0:14:43.13,Eng,,0000,0000,0000,,♪ Il fait si froid dehors ♪
+Dialogue: 0,0:14:43.48,0:14:45.80,Eng,,0000,0000,0000,,♪ lci c'est confortable ♪
+Dialogue: 0,0:14:45.86,0:14:47.83,Eng,,0000,0000,0000,,♪ Laissez-vous faire Milord ♪
+Dialogue: 0,0:14:47.91,0:14:50.07,Eng,,0000,0000,0000,,♪ Et prenez bien vos aises ♪
+Dialogue: 0,0:14:50.18,0:14:52.35,Eng,,0000,0000,0000,,♪ Vos peines sur mon cœur ♪
+Dialogue: 0,0:14:52.60,0:14:54.52,Eng,,0000,0000,0000,,♪ Et vos pieds sur une chaise ♪
+Dialogue: 0,0:14:54.55,0:14:56.77,Eng,,0000,0000,0000,,♪ Je vous connais, Milord ♪
+Dialogue: 0,0:14:56.84,0:14:58.92,Eng,,0000,0000,0000,,♪ Vous ne m'avez jamais vue ♪
+Dialogue: 0,0:14:59.00,0:15:01.81,Eng,,0000,0000,0000,,♪ Je ne suis qu'une fille du port ♪
+Dialogue: 0,0:15:02.06,0:15:05.70,Eng,,0000,0000,0000,,♪ Une ombre de la rue ♪
+Dialogue: 0,0:15:07.30,0:15:09.81,Eng,,0000,0000,0000,,♪ Pourtant, je vous ai frôlé ♪
+Dialogue: 0,0:15:10.14,0:15:12.49,Eng,,0000,0000,0000,,♪ Quand vous passiez hier ♪
+Dialogue: 0,0:15:12.98,0:15:15.36,Eng,,0000,0000,0000,,♪ Vous n'étiez pas peu fier, dame ♪
+Dialogue: 0,0:15:15.86,0:15:18.12,Eng,,0000,0000,0000,,♪ Le ciel vous comblait ♪
+Dialogue: 0,0:15:18.44,0:15:20.37,Eng,,0000,0000,0000,,♪ Votre foulard de soie ♪
+Dialogue: 0,0:15:20.70,0:15:23.29,Eng,,0000,0000,0000,,♪ Flottant sur vos épaules ♪
+Dialogue: 0,0:15:24.08,0:15:26.46,Eng,,0000,0000,0000,,♪ Vous aviez le beau rôle ♪
+Dialogue: 0,0:15:26.72,0:15:29.55,Eng,,0000,0000,0000,,♪ On aurait dit le roi ♪
+Dialogue: 0,0:15:30.26,0:15:32.93,Eng,,0000,0000,0000,,♪ Vous marchiez en vainqueur ♪
+Dialogue: 0,0:15:33.14,0:15:36.09,Eng,,0000,0000,0000,,♪ Au bras d`une demoiselle ♪
+Dialogue: 0,0:15:36.34,0:15:39.48,Eng,,0000,0000,0000,,♪ Mon Dieu Qu`elle etait belle ♪
+Dialogue: 0,0:18:49.22,0:18:50.40,Eng,,0000,0000,0000,,♪ Rien de rien ♪
+Dialogue: 0,0:18:50.90,0:18:52.37,Eng,,0000,0000,0000,,♪ Il ne se passe jamais ♪
+Dialogue: 0,0:18:52.48,0:18:53.73,Eng,,0000,0000,0000,,♪ rien pour moi Je me demande pourquoi ♪
+Dialogue: 0,0:18:53.98,0:18:55.41,Eng,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:18:55.66,0:18:57.76,注解1,,0000,0000,0000,,♪ Ça y est, tu es arrivée, Edith. ♪
+Dialogue: 0,0:18:59.14,0:19:00.28,Eng,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:19:00.76,0:19:01.63,Eng,,0000,0000,0000,,♪ Il ne se passe jamais rien pour moi ♪
+Dialogue: 0,0:19:01.88,0:19:03.51,Eng,,0000,0000,0000,,♪ Je me demande pourquoi ♪
+Dialogue: 0,0:19:03.92,0:19:05.51,Eng,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:19:05.58,0:19:07.73,Eng,,0000,0000,0000,,♪ Il ne se passe jamais rien ♪
+Dialogue: 0,0:19:09.11,0:19:11.53,注解1,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:19:11.78,0:19:13.57,Eng,,0000,0000,0000,,♪ C'est pay ébalayé oublié ♪
+Dialogue: 0,0:19:13.82,0:19:16.09,注解1,,0000,0000,0000,,♪ Je me fous du passé ♪
+Dialogue: 0,0:19:16.30,0:19:18.17,Eng,,0000,0000,0000,,♪ Balayées les amours ♪
+Dialogue: 0,0:19:19.04,0:19:20.39,Eng,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:19:20.64,0:19:22.23,Eng,,0000,0000,0000,,♪ Non Je ne regrette rien ♪
+Dialogue: 0,0:19:22.48,0:19:23.70,Eng,,0000,0000,0000,,♪ Ni le bien qu'on m'a fait ♪
+Dialogue: 0,0:19:23.96,0:19:25.35,Eng,,0000,0000,0000,,♪ Rien, rien, rien ♪
+Dialogue: 0,0:19:25.60,0:19:27.35,Eng,,0000,0000,0000,,♪ i le mal tout ça m'est bien égal ♪
+Dialogue: 0,0:33:04.06,0:33:07.43,Eng,,0000,0000,0000,,♪ Allons enfants de la patrie♪
+Dialogue: 0,0:33:07.76,0:33:11.13,Eng,,0000,0000,0000,,♪ Le jour de gloire est arrivé ♪
+Dialogue: 0,0:33:11.76,0:33:15.11,Eng,,0000,0000,0000,,♪ Contre nous de la tyrannie ♪
+Dialogue: 0,0:33:15.50,0:33:18.77,Eng,,0000,0000,0000,,♪ L'étendard sanglant est levé ♪
+Dialogue: 0,0:33:19.02,0:33:22.17,Eng,,0000,0000,0000,,♪ L'étendard sanglant est levé ♪
+Dialogue: 0,0:33:22.62,0:33:25.89,Eng,,0000,0000,0000,,♪ Entendez-vous dans les campagnes ♪
+Dialogue: 0,0:33:26.34,0:33:29.49,Eng,,0000,0000,0000,,♪ Mugir ces féroces soldats ♪
+Dialogue: 0,0:33:29.74,0:33:33.01,Eng,,0000,0000,0000,,♪ Ils viennent jusque dans vos bras ♪
+Dialogue: 0,0:33:33.26,0:33:36.73,Eng,,0000,0000,0000,,♪ Egorger vos fils et vos compagnes! ♪
+Dialogue: 0,0:33:37.48,0:33:40.83,Eng,,0000,0000,0000,,♪ Aux armes, citoyens ♪
+Dialogue: 0,0:33:41.08,0:33:44.03,Eng,,0000,0000,0000,,♪ Formez vos bataillons ♪
+Dialogue: 0,0:33:44.28,0:33:47.82,Eng,,0000,0000,0000,,♪ Marchons, marchons! ♪
+Dialogue: 0,0:33:48.28,0:33:51.27,Eng,,0000,0000,0000,,♪ Qu'un sang impur ♪
+Dialogue: 0,0:33:51.52,0:33:55.91,Eng,,0000,0000,0000,,♪ Abreuve nos sillons ♪
+Dialogue: 0,0:35:39.48,0:35:44.18,Eng,,0000,0000,0000,,♪ C'est pas seulement ma voix qui chante ♪
+Dialogue: 0,0:35:44.30,0:35:48.36,Eng,,0000,0000,0000,,♪ C'est l'autre voix, une foule de voix, ♪
+Dialogue: 0,0:35:48.40,0:35:52.72,Eng,,0000,0000,0000,,♪ Voix souriantes et affolées ♪
+Dialogue: 0,0:35:52.85,0:35:54.84,Eng,,0000,0000,0000,,♪ Des voix marrantes, ensoleillées ♪
+Dialogue: 0,0:35:54.88,0:35:56.84,Eng,,0000,0000,0000,,♪ Désespérées, émerveillées ♪
+Dialogue: 0,0:35:57.12,0:36:00.75,Eng,,0000,0000,0000,,♪ Voix déchirantes et brisées ♪
+Dialogue: 0,0:36:01.46,0:36:05.41,Eng,,0000,0000,0000,,♪ Voix souriantes et affolées ♪
+Dialogue: 0,0:36:05.66,0:36:07.53,Eng,,0000,0000,0000,,♪ Folles de douleur et de gaieté ♪
+Dialogue: 0,0:36:08.04,0:36:09.91,Eng,,0000,0000,0000,,♪ C'est la voix d'un oiseau craintif ♪
+Dialogue: 0,0:36:10.12,0:36:15.47,Eng,,0000,0000,0000,,♪ La voix d'un moineau mort de froid Sur le pavé de la rue de la joie ♪
+Dialogue: 0,0:36:22.34,0:36:26.53,Eng,,0000,0000,0000,,♪ Et toujours, toujours quand je chante ♪
+Dialogue: 0,0:36:26.94,0:36:30.81,Eng,,0000,0000,0000,,♪ Cet oiseau-là chante avec moi ♪
+Dialogue: 0,0:36:31.30,0:36:34.44,注解1,,0000,0000,0000,,♪ Toujours, toujours encore vivante Sa pauvre voix tremble pour moi ♪
+Dialogue: 0,0:36:51.04,0:36:55.56,Eng,,0000,0000,0000,,♪ T'es gentil, t'as l'air d'un bon chien ♪
+Dialogue: 0,0:37:12.32,0:37:13.78,Eng,,0000,0000,0000,,♪ Ce que je te demande, une pipe, un mégot ♪
+Dialogue: 0,0:37:24.07,0:37:27.45,Eng,,0000,0000,0000,,♪ Hé monsieur, une cigarette! ♪
+Dialogue: 0,0:37:27.70,0:37:30.41,Eng,,0000,0000,0000,,♪ Une cibiche, ça n'engage à rien ♪
+Dialogue: 0,0:37:31.03,0:37:33.73,Eng,,0000,0000,0000,,♪ Si je te plais, on fera la causette ♪
+Dialogue: 0,0:37:34.32,0:37:38.07,Eng,,0000,0000,0000,,♪ T'es gentil, t'as l'air d'un bon chien ♪
+Dialogue: 0,0:37:38.28,0:37:41.23,Eng,,0000,0000,0000,,♪ Tu serais moche, ce serait la même chose ♪
+Dialogue: 0,0:37:41.48,0:37:44.85,注解1,,0000,0000,0000,,♪ Je te dirais quand même que t'es beau ♪
+Dialogue: 0,0:37:44.98,0:37:46.57,注解1,,0000,0000,0000,,♪ Pour avoir t'en devines  ♪
+Dialogue: 0,0:37:46.95,0:37:48.45,Eng,,0000,0000,0000,,♪ bien la cause ♪
+Dialogue: 0,0:37:49.10,0:37:52.69,Eng,,0000,0000,0000,,♪ Ce que je te demande, une pipe, un mégot ♪
+Dialogue: 0,0:39:41.10,0:39:43.62,注解1,,0000,0000,0000,,♪ La poussière grise du trottoir ♪
+Dialogue: 0,0:39:43.96,0:39:46.71,Eng,,0000,0000,0000,,♪ Où l'on se vautre ♪
+Dialogue: 0,0:39:46.92,0:39:52.63,注解1,,0000,0000,0000,,♪ Le cœur joyeux Comme des moineaux ♪
+Dialogue: 0,0:39:53.16,0:39:55.31,注解1,,0000,0000,0000,,♪ L'hiver viendra et mon seul bien ♪
+Dialogue: 0,0:39:55.56,0:39:58.15,注解1,,0000,0000,0000,,♪ Ce pauvre corps qui, je le sens bien ♪
+Dialogue: 0,0:39:58.20,0:40:03.04,注解1,,0000,0000,0000,,♪ Déjà se lasse Tombera sur le pavé brutal ♪
+Dialogue: 0,0:40:03.19,0:40:05.09,Eng,,0000,0000,0000,,♪ Je passerai sur un lit d'hôpital ♪
+Dialogue: 0,0:40:05.11,0:40:07.34,Eng,,0000,0000,0000,,♪ Un soir d'angoisse ♪
+Dialogue: 0,0:40:08.10,0:40:10.25,Eng,,0000,0000,0000,,♪ Pas plus mauvaise que beaucoup ♪
+Dialogue: 0,0:40:10.50,0:40:12.37,Eng,,0000,0000,0000,,♪ J'aurais préféré malgré tout ♪
+Dialogue: 0,0:40:12.62,0:40:18.41,注解1,,0000,0000,0000,,♪ Dans ma détresse Un homme qui m'eût aimée d'amour♪
+Dialogue: 0,0:40:18.56,0:40:22.26,Eng,,0000,0000,0000,,♪ Pour avec lui finir mes jours ♪
+Dialogue: 0,0:40:22.56,0:40:24.36,Eng,,0000,0000,0000,,♪ Dans un nid chaud ♪
+Dialogue: 0,0:40:24.65,0:40:28.79,Eng,,0000,0000,0000,,♪ Comme un moineau ♪
+Dialogue: 0,0:41:21.64,0:41:24.20,Eng,,0000,0000,0000,,♪ Je t'aime pourtant ♪
+Dialogue: 0,0:41:24.72,0:41:27.31,Eng,,0000,0000,0000,,♪ D'un amour ardent ♪
+Dialogue: 0,0:43:17.18,0:43:21.35,Eng,,0000,0000,0000,,♪ Dans les bals, j'ai couru Afin de l'oublier, j'ai bu... ♪
+Dialogue: 0,0:43:21.48,0:43:24.87,注解1,,0000,0000,0000,,♪ Tu as vu cette dégaine♪
+Dialogue: 0,0:43:25.38,0:43:28.07,注解1,,0000,0000,0000,,♪ ...Je suis comme un chien ♪
+Dialogue: 0,0:43:38.36,0:43:41.27,Eng,,0000,0000,0000,,♪ Je l'ai tellement dans la peau ♪
+Dialogue: 0,0:43:41.52,0:43:43.47,Eng,,0000,0000,0000,,♪ J'en suis dingo... ♪
+Dialogue: 0,0:43:43.72,0:43:45.59,注解1,,0000,0000,0000,,♪ Qu'j'en deviens marteau, ♪
+Dialogue: 0,0:43:45.70,0:43:47.65,注解1,,0000,0000,0000,,♪ Ds qu'il s'approch' c'est fini ♪
+Dialogue: 0,0:43:48.08,0:43:49.87,注解1,,0000,0000,0000,,♪ Je suis a lui ♪
+Dialogue: 0,0:43:50.60,0:43:55.11,注解1,,0000,0000,0000,,♪ En tout cas, elle a du coffre ♪
+Dialogue: 0,0:43:56.84,0:43:58.69,Eng,,0000,0000,0000,,♪ En avoir un dans la peau... ♪
+Dialogue: 0,0:43:58.80,0:44:00.53,注解1,,0000,0000,0000,,♪ C'est l'pir' des maux Mais ♪
+Dialogue: 0,0:44:00.68,0:44:02.93,注解1,,0000,0000,0000,,♪ Mais c'est conna tre ♪
+Dialogue: 0,0:44:04.00,0:44:06.56,Eng,,0000,0000,0000,,♪ l'amour Sous son vrai jour ♪
+Dialogue: 0,0:44:06.92,0:44:10.21,Eng,,0000,0000,0000,,♪ Et j'dis qu'il faut qu'on pardonne ♪
+Dialogue: 0,0:44:10.46,0:44:16.40,Eng,,0000,0000,0000,,♪ Quand une femme se donne ♪
+Dialogue: 0,0:47:09.16,0:47:11.67,Eng,,0000,0000,0000,,♪ D'un bout à l'autre de la semaine ♪
+Dialogue: 0,0:47:11.88,0:47:13.95,Eng,,0000,0000,0000,,♪ Sur les Boulevards, dans les faubourgs, ♪
+Dialogue: 0,0:47:14.32,0:47:16.65,Eng,,0000,0000,0000,,♪ On les voit traîner par centaines ♪
+Dialogue: 0,0:47:16.86,0:47:19.01,Eng,,0000,0000,0000,,♪ Leurs guêtres sales et leurs amours ♪
+Dialogue: 0,0:47:19.26,0:47:21.53,Eng,,0000,0000,0000,,♪ Dans des chemises de dix jours ♪
+Dialogue: 0,0:47:21.78,0:47:24.08,Eng,,0000,0000,0000,,♪ Sous la lumière des réverbères ♪
+Dialogue: 0,0:47:24.48,0:47:27.09,Eng,,0000,0000,0000,,♪ Prenant des airs de Pompadour ♪
+Dialogue: 0,0:47:27.22,0:47:29.99,Eng,,0000,0000,0000,,♪ Ce sont nos belles ferronnières ♪
+Dialogue: 0,0:47:30.40,0:47:33.60,Eng,,0000,0000,0000,,♪ Ce sont nos poupées, nos guignols, nos pantins ♪
+Dialogue: 0,0:47:33.92,0:47:35.99,Eng,,0000,0000,0000,,♪ Ecoutez dans la nuit
+Dialogue: 0,0:47:36.26,0:47:39.73,Eng,,0000,0000,0000,,♪ elles chantent ce refrain ♪
+Dialogue: 0,0:47:41.02,0:47:44.21,Eng,,0000,0000,0000,,♪ C'est nous les mômes Les mômes de la cloche ♪
+Dialogue: 0,0:47:44.46,0:47:47.24,Eng,,0000,0000,0000,,♪ Clochards qui s'en vont Sans un rond en poche ♪
+Dialogue: 0,0:47:47.33,0:47:50.47,Eng,,0000,0000,0000,,♪ C'est nous les paumées Les purées de paumées ♪
+Dialogue: 0,0:47:50.54,0:47:53.61,Eng,,0000,0000,0000,,♪ Qui sommes aimées Un soir n'importe où ♪
+Dialogue: 0,0:47:53.75,0:47:57.50,Eng,,0000,0000,0000,,♪ Mais comme elles n'ont pas les toilettes ♪
+Dialogue: 0,0:47:57.96,0:48:00.19,Eng,,0000,0000,0000,,♪ Ce n'est pas aux Galeries Lafayette ♪
+Dialogue: 0,0:48:00.44,0:48:03.06,Eng,,0000,0000,0000,,♪ Qu'elles vont faire chaque soir leur turbin ♪
+Dialogue: 0,0:48:03.36,0:48:05.71,Eng,,0000,0000,0000,,♪ Le long du Canal Saint Martin ♪
+Dialogue: 0,0:48:06.36,0:48:08.71,Eng,,0000,0000,0000,,♪ Au Sébasto, à la Chapelle ♪
+Dialogue: 0,0:48:08.75,0:48:11.02,注解1,,0000,0000,0000,,♪ On est toujours assez gandin ♪
+Dialogue: 0,0:48:11.44,0:48:13.39,Eng,,0000,0000,0000,,♪ Pour le monsieur qui vous appelle ♪
+Dialogue: 0,0:48:14.17,0:48:17.08,Eng,,0000,0000,0000,,♪ C'est de l'article populaire, ce n'est pas du beau joujou ♪
+Dialogue: 0,0:48:17.38,0:48:19.18,Eng,,0000,0000,0000,,♪ Ya pas de poupées en soie ♪
+Dialogue: 0,0:48:19.86,0:48:22.21,Eng,,0000,0000,0000,,♪ aux bazars à trente sous ♪
+Dialogue: 0,0:48:22.42,0:48:25.97,Eng,,0000,0000,0000,,♪ C'est nous les paumées Les purées de paumées ♪
+Dialogue: 0,0:48:26.32,0:48:29.60,Eng,,0000,0000,0000,,♪ Qui s'en vont dormir dans l'horrible trou ♪
+Dialogue: 0,0:48:30.21,0:48:31.56,注解1,,0000,0000,0000,,♪ Derrire not' convoi Jamais ♪
+Dialogue: 0,0:48:36.42,0:48:38.61,Eng,,0000,0000,0000,,♪ Pas même une personne ♪
+Dialogue: 0,0:48:38.77,0:48:40.96,Eng,,0000,0000,0000,,♪ Quéqu'ça fout ♪
+Dialogue: 0,0:48:41.59,0:48:44.47,Eng,,0000,0000,0000,,♪ On s'en fout ♪
+Dialogue: 0,0:48:45.21,0:48:47.89,Eng,,0000,0000,0000,,♪ Quand la mort nous fauche ♪
+Dialogue: 0,0:48:48.47,0:48:50.94,Eng,,0000,0000,0000,,♪ C'est notre plus beau jour ♪
+Dialogue: 0,0:48:51.23,0:48:54.91,Eng,,0000,0000,0000,,♪ Cloches, sonnez pour ♪
+Dialogue: 0,0:48:55.71,0:49:01.34,Eng,,0000,0000,0000,,♪ Les mômes de la cloche ♪
+Dialogue: 0,0:50:53.51,0:50:55.50,Eng,,0000,0000,0000,,♪ C'est nous qui sommes les hiboux ♪
+Dialogue: 0,0:50:55.75,0:50:57.95,Eng,,0000,0000,0000,,♪ Les Apaches, les voyous ♪
+Dialogue: 0,0:50:58.19,0:51:00.10,Eng,,0000,0000,0000,,♪ Qui n'en foutent pas un coup ♪
+Dialogue: 0,0:51:00.39,0:51:03.75,Eng,,0000,0000,0000,,♪ Dans le jour nous planquons nos mirettes ♪
+Dialogue: 0,0:51:03.93,0:51:07.01,Eng,,0000,0000,0000,,♪ Mais le soir nous sortons nos casquettes ♪
+Dialogue: 0,0:51:07.37,0:51:10.58,Eng,,0000,0000,0000,,♪ Nos femmes triment sur le Sébasto\Npendant que nous chez le bistrot ♪
+Dialogue: 0,0:51:10.69,0:51:13.99,Eng,,0000,0000,0000,,♪ Dans un coin bien au chaud ♪
+Dialogue: 0,0:51:14.23,0:51:17.67,Eng,,0000,0000,0000,,♪ On fait sa petite belote\Navec des mecs comme nous ♪
+Dialogue: 0,0:51:17.91,0:51:20.83,Eng,,0000,0000,0000,,♪ Des coquins, des Apaches, des hiboux ♪
+Dialogue: 0,0:53:20.54,0:53:23.93,Eng,,0000,0000,0000,,♪ J'espérais qu'un matin ♪
+Dialogue: 0,0:53:24.18,0:53:26.13,Eng,,0000,0000,0000,,♪ Suis-moi, je t'emmène ♪
+Dialogue: 0,0:53:26.82,0:53:29.38,Eng,,0000,0000,0000,,♪ J'aurais dit oui, je le sens ♪
+Dialogue: 0,0:53:29.58,0:53:38.81,Eng,,0000,0000,0000,,♪ Mais il a fui, me laissant ♪
+Dialogue: 0,0:53:39.64,0:53:42.10,注解1,,0000,0000,0000,,♪ Rivée à ma chaîne... ♪
+Dialogue: 0,0:53:42.36,0:53:49.71,注解1,,0000,0000,0000,,♪ Il avait un regard très doux ♪
+Dialogue: 0,0:53:50.82,0:53:52.73,Eng,,0000,0000,0000,,♪ J'ai rêvé de l'étranger ♪
+Dialogue: 0,0:53:53.10,0:53:55.29,Eng,,0000,0000,0000,,♪ Et le cœur tout dérangé ♪
+Dialogue: 0,0:53:55.50,0:53:57.65,Eng,,0000,0000,0000,,♪ Par les cigarettes ♪
+Dialogue: 0,0:53:58.40,0:54:00.15,Eng,,0000,0000,0000,,♪ Par l'alcool et le cafard ♪
+Dialogue: 0,0:54:00.36,0:54:02.74,Eng,,0000,0000,0000,,♪ Son souvenir chaque soir ♪
+Dialogue: 0,0:54:02.96,0:54:06.83,Eng,,0000,0000,0000,,♪ M'a tourné la tête ♪
+Dialogue: 0,0:54:08.00,0:54:10.07,Eng,,0000,0000,0000,,♪ Mais on dit que près du port ♪
+Dialogue: 0,0:54:10.32,0:54:12.19,Eng,,0000,0000,0000,,♪ On a repêché le corps ♪
+Dialogue: 0,0:54:12.56,0:54:14.75,Eng,,0000,0000,0000,,♪ D'un gars de marine ♪
+Dialogue: 0,0:54:15.20,0:54:17.27,Eng,,0000,0000,0000,,♪ Qui, par l'amour délaissé, ♪
+Dialogue: 0,0:54:17.52,0:54:19.82,Eng,,0000,0000,0000,,♪ Ne trouva pour le bercer... ♪
+Dialogue: 0,0:54:20.58,0:54:28.37,注解1,,0000,0000,0000,,♪ ...Que la mer câline ♪
+Dialogue: 0,0:54:30.21,0:54:32.85,Eng,,0000,0000,0000,,♪ Il avait un regard très doux ♪
+Dialogue: 0,0:54:34.55,0:54:36.70,Eng,,0000,0000,0000,,♪ Il est parti ♪
+Dialogue: 0,0:54:36.88,0:54:41.15,Eng,,0000,0000,0000,,♪ Je ne sais où ♪
+Dialogue: 0,0:59:08.50,0:59:12.82,Eng,,0000,0000,0000,,♪ J'ai rêvé de l'étranger ♪
+Dialogue: 0,0:59:13.34,0:59:18.61,注解1,,0000,0000,0000,,♪ Et le cœur tout dérangé Par les cigarettes ♪
+Dialogue: 0,0:59:18.86,0:59:24.65,注解1,,0000,0000,0000,,♪ Son souvenir, chaque soir... ♪
+Dialogue: 0,0:59:25.62,0:59:30.01,Eng,,0000,0000,0000,,♪ Mais on dit que près du port On a repêché le corps ♪
+Dialogue: 0,0:59:30.26,0:59:33.73,Eng,,0000,0000,0000,,♪ D'un gars de marine Qui, par l'amour délaissé, ♪
+Dialogue: 0,0:59:34.62,0:59:42.45,注解1,,0000,0000,0000,,♪ ...Que la mer câline Il avait un regard très doux ♪
+Dialogue: 0,1:03:14.41,1:03:17.26,Eng,,0000,0000,0000,,♪ Il avait de grands yeux très clairs Où parfois passaient des éclairs ♪
+Dialogue: 0,1:03:17.39,1:03:20.14,Eng,,0000,0000,0000,,♪ Comme au ciel passent des orages ♪
+Dialogue: 0,1:03:28.56,1:03:30.47,Eng,,0000,0000,0000,,♪ Il avait des grands yeux très clairs... ♪
+Dialogue: 0,1:04:00.93,1:04:03.68,Eng,,0000,0000,0000,,♪ Il avait de grands yeux très clairs où parfois passaient des éclairs ♪
+Dialogue: 0,1:04:03.78,1:04:05.75,注解1,,0000,0000,0000,,♪ Comme au ciel ♪
+Dialogue: 0,1:05:51.08,1:05:54.19,Eng,,0000,0000,0000,,♪ La femme ayant l'air d'un garçon ♪
+Dialogue: 0,1:05:54.52,1:05:57.59,Eng,,0000,0000,0000,,♪ Ne fut jamais très attrayante ♪
+Dialogue: 0,1:05:58.20,1:06:05.31,Eng,,0000,0000,0000,,♪ C'est le froufrou de son jupon ♪
+Dialogue: 0,1:06:05.97,1:06:09.64,Eng,,0000,0000,0000,,♪ Qui la rend surtout excitante! ♪
+Dialogue: 0,1:06:09.88,1:06:13.44,Eng,,0000,0000,0000,,♪ Lorsque l'homme entend ce froufrou ♪
+Dialogue: 0,1:06:13.59,1:06:17.14,Eng,,0000,0000,0000,,♪ C'est étonnant tout ce qu'il ose ♪
+Dialogue: 0,1:06:17.24,1:06:20.33,Eng,,0000,0000,0000,,♪ Soudain il voit la vie en rose ♪
+Dialogue: 0,1:06:21.08,1:06:24.45,Eng,,0000,0000,0000,,♪ Il s'électrise, il devient fou! ♪
+Dialogue: 0,1:06:24.60,1:06:27.91,Eng,,0000,0000,0000,,♪ Froufrou, froufrou ♪
+Dialogue: 0,1:06:24.88,1:06:28.27,Eng,,0000,0000,0000,,♪ Par son jupon la femme ♪
+Dialogue: 0,1:06:28.60,1:06:30.78,Eng,,0000,0000,0000,,♪ Froufrou, froufrou ♪
+Dialogue: 0,1:06:31.83,1:06:33.78,Eng,,0000,0000,0000,,♪ De l'homme trouble l'âme ♪
+Dialogue: 0,1:06:46.07,1:06:49.08,Eng,,0000,0000,0000,,♪ Froufrou... froufrou... ♪
+Dialogue: 0,1:06:49.45,1:06:53.05,Eng,,0000,0000,0000,,♪ Par son jupon la femme ♪
+Dialogue: 0,1:06:53.35,1:06:55.97,Eng,,0000,0000,0000,,♪ Froufrou... froufrou... ♪
+Dialogue: 0,1:06:56.75,1:06:59.82,Eng,,0000,0000,0000,,♪ Il y avait du soleil sur son front ♪
+Dialogue: 0,1:07:00.22,1:07:06.93,Eng,,0000,0000,0000,,♪ Qui mettait dans ses cheveux blonds de la lumière... ♪
+Dialogue: 0,1:07:31.18,1:07:32.30,Eng,,0000,0000,0000,,♪ Il avait de grands yeux très clairs... ♪
+Dialogue: 0,1:07:33.44,1:07:34.73,Eng,,0000,0000,0000,,♪ Où parfois passaient des éclairs ♪ 
+Dialogue: 0,1:07:34.79,1:07:36.11,Eng,,0000,0000,0000,,♪ Comme au ciel passent des orages ♪
+Dialogue: 0,1:07:36.98,1:07:38.29,注解1,,0000,0000,0000,,♪ Il avait plein de tatouages ♪
+Dialogue: 0,1:07:38.34,1:07:40.26,Eng,,0000,0000,0000,,♪ J'ai jamais très bien compris ♪
+Dialogue: 0,1:07:40.34,1:07:41.51,注解1,,0000,0000,0000,,♪ Son cou portait ♪
+Dialogue: 0,1:07:41.62,1:07:44.05,注解1,,0000,0000,0000,,♪ pas vu pas pris ♪
+Dialogue: 0,1:07:47.30,1:07:50.65,Eng,,0000,0000,0000,,♪ Sur son cœur, on lisait : "personne ♪
+Dialogue: 0,1:07:51.40,1:07:56.84,Eng,,0000,0000,0000,,♪ Sur son bras droit, un mot : "raisonne" ♪
+Dialogue: 0,1:12:28.55,1:12:31.86,Default,,0000,0000,0000,,♪ Je revois la ville en fête et en délire... ♪
+Dialogue: 0,1:12:32.07,1:12:35.56,注解1,,0000,0000,0000,,♪ Suffoquant sous le soleil et sous la joie ♪
+Dialogue: 0,1:12:36.01,1:12:39.09,注解1,,0000,0000,0000,,♪ Et j'entends dans la musique les cris, les rires ♪
+Dialogue: 0,1:12:39.49,1:12:42.57,Default,,0000,0000,0000,,♪ Qui éclatent et rebondissent autour de moi ♪
+Dialogue: 0,1:12:43.05,1:12:46.20,Default,,0000,0000,0000,,♪ Et perdue parmi ces gens qui me bousculent ♪
+
+
+
+
+Dialogue: 0,1:32:50.56,1:32:51.59,Eng,,0000,0000,0000,,Padam
+Dialogue: 0,1:33:01.56,1:33:04.99,Eng,,0000,0000,0000,,♪ Padam Padam Padam ♪
+Dialogue: 0,1:33:05.30,1:33:08.79,Eng,,0000,0000,0000,,♪ Il arrive en courant derrière moi ♪
+Dialogue: 0,1:33:09.27,1:33:12.39,Eng,,0000,0000,0000,,♪ Padam Padam Padam ♪
+Dialogue: 0,1:33:12.71,1:33:16.31,Eng,,0000,0000,0000,,♪ Il me fait le coup du souviens-toi ♪
+Dialogue: 0,1:33:16.97,1:33:20.17,Eng,,0000,0000,0000,,♪ Padam Padam Padam ♪
+Dialogue: 0,1:33:20.60,1:33:23.06,Eng,,0000,0000,0000,,♪ C'est un air qui me montre du... ♪
+Dialogue: 0,1:34:09.29,1:34:18.93,Eng,,0000,0000,0000,,♪ Mon Dieu Mon Dieu Mon Dieu ♪
+Dialogue: 0,1:34:19.43,1:34:22.39,Eng,,0000,0000,0000,,♪ Laissez-le-moi ♪
+Dialogue: 0,1:34:24.87,1:34:27.95,注解1,,0000,0000,0000,,♪ Merci.Je sais que tout vient de toi. ♪
+Dialogue: 0,1:34:40.31,1:34:49.63,注解1,,0000,0000,0000,,♪ Laissez-le-moi Encore un peu A moi ♪
+Dialogue: 0,1:34:50.77,1:34:53.65,Eng,,0000,0000,0000,,♪ Le temps de s'adorer ♪
+Dialogue: 0,1:34:54.39,1:34:57.15,注解1,,0000,0000,0000,,♪ De se le dire ♪
+Dialogue: 0,1:34:57.55,1:35:00.39,注解1,,0000,0000,0000,,♪ De se le dire ♪
+Dialogue: 0,1:35:03.97,1:35:06.81,Eng,,0000,0000,0000,,♪ Le temps de se fabriquer ♪
+Dialogue: 0,1:35:07.41,1:35:14.73,Eng,,0000,0000,0000,,♪ Des souvenirs ♪
+Dialogue: 0,1:35:19.83,1:35:26.59,注解1,,0000,0000,0000,,♪ Mon Dieu Oh oui Mon Dieu ♪
+Dialogue: 0,1:35:26.87,1:35:29.59,注解1,,0000,0000,0000,,♪ Laissez-le-moi ♪
+Dialogue: 0,1:35:31.99,1:35:43.22,注解1,,0000,0000,0000,,♪ remplir un peu ♪
+Dialogue: 0,1:35:45.55,1:35:52.90,Eng,,0000,0000,0000,,♪ Mon Dieu, mon Dieu ♪
+Dialogue: 0,1:35:53.19,1:35:56.98,Eng,,0000,0000,0000,,♪ Laissez-le-moi encore un peu ♪
+Dialogue: 0,1:35:57.27,1:36:00.50,注解1,,0000,0000,0000,,♪ Mon amoureux ♪
+Dialogue: 0,1:37:49.09,1:37:52.64,注解1,,0000,0000,0000,,♪ Laissez-le-moi encore un peu ♪
+Dialogue: 0,1:37:53.33,1:37:56.77,Eng,,0000,0000,0000,,♪ Mon amoureux ♪
+Dialogue: 0,1:37:57.53,1:38:05.25,Eng,,0000,0000,0000,,♪ Six mois Trois mois Deux mois ♪
+Dialogue: 0,1:38:06.93,1:38:10.05,注解1,,0000,0000,0000,,♪ Laissez-le-moi ♪
+Dialogue: 0,1:38:10.45,1:38:14.16,Eng,,0000,0000,0000,,♪ Pour seulement un mois ♪
+Dialogue: 0,1:38:14.71,1:38:22.59,注解1,,0000,0000,0000,,♪ Le temps de commencer Ou de finir ♪
+Dialogue: 0,1:38:23.03,1:38:30.67,Eng,,0000,0000,0000,,♪ Le temps d'illuminer Ou de souffrir ♪
+Dialogue: 0,1:38:32.31,1:38:36.39,注解1,,0000,0000,0000,,♪ Mon Dieu, mon Dieu ♪
+Dialogue: 0,1:50:48.45,1:50:54.98,Eng,,0000,0000,0000,,♪ Nous aurons pour nous l'Eternité ♪
+Dialogue: 0,1:50:55.12,1:50:58.55,Eng,,0000,0000,0000,,♪ Dans le bleu de toute l'immensité ♪
+Dialogue: 0,1:50:58.63,1:51:02.02,Eng,,0000,0000,0000,,♪ Dans le ciel plus de problèmes ♪
+Dialogue: 0,1:51:02.27,1:51:14.55,Eng,,0000,0000,0000,,♪ Mon amour Crois-tu qu'on s'aime ♪
+Dialogue: 0,1:51:33.49,1:51:48.59,Eng,,0000,0000,0000,,♪ Dieu réunit ceux qui s'aiment ♪
+Dialogue: 0,1:58:28.07,1:58:30.66,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,1:58:31.51,1:58:35.51,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien ♪
+Dialogue: 0,1:58:36.61,1:58:41.24,Eng,,0000,0000,0000,,♪ Ni le bien qu'on m'a fait ♪
+Dialogue: 0,1:58:41.95,1:58:45.79,Eng,,0000,0000,0000,,♪ Ni le mal Tout ça m'est bien égal... ♪
+Dialogue: 0,1:58:53.07,1:58:55.76,Eng,,0000,0000,0000,,♪ Avec mes souvenirs ♪
+Dialogue: 0,1:58:55.92,1:58:58.64,Eng,,0000,0000,0000,,♪ J'ai allumé le feu ♪
+Dialogue: 0,1:58:58.79,1:59:01.35,Eng,,0000,0000,0000,,♪ Mes chagrins mes plaisirs ♪
+Dialogue: 0,1:59:01.47,1:59:03.62,Eng,,0000,0000,0000,,♪ Je n'ai plus besoin d'eux ♪
+Dialogue: 0,1:59:03.83,1:59:06.42,Eng,,0000,0000,0000,,♪ Balayés les amours ♪
+Dialogue: 0,1:59:06.52,1:59:09.03,Eng,,0000,0000,0000,,♪ Et tous leurs trémolos ♪
+Dialogue: 0,1:59:09.27,1:59:11.39,Eng,,0000,0000,0000,,♪ Balayés pour toujours ♪
+Dialogue: 0,1:59:11.95,1:59:13.63,Eng,,0000,0000,0000,,♪ Je repars à zéro ♪
+Dialogue: 0,1:59:29.19,1:59:33.58,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,1:59:34.16,1:59:37.91,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien... ♪
+Dialogue: 0,2:03:50.91,2:03:52.74,Eng,,0000,0000,0000,,♪ Que le ciel noir ♪
+Dialogue: 0,2:03:52.99,2:03:56.59,Eng,,0000,0000,0000,,♪ La lune soudain vint s'exhiber ♪
+Dialogue: 0,2:03:56.72,2:03:58.45,Eng,,0000,0000,0000,,♪ J'allais lui dire "ta bouche, bébé" ♪
+Dialogue: 0,2:03:58.69,2:04:01.08,Eng,,0000,0000,0000,,♪ Quand j'entendis près de moi ♪
+Dialogue: 0,2:04:01.33,2:04:03.56,Eng,,0000,0000,0000,,♪ Un cri d'émoi ♪
+Dialogue: 0,2:04:03.77,2:04:05.21,Eng,,0000,0000,0000,,♪ Yavait un homme ♪
+Dialogue: 0,2:04:05.41,2:04:08.41,Eng,,0000,0000,0000,,♪ sur un rocher pas assez haut ♪
+Dialogue: 0,2:04:09.09,2:04:10.85,Eng,,0000,0000,0000,,♪ L'homme a fait "Oh !" ♪
+Dialogue: 0,2:04:11.05,2:04:13.36,Eng,,0000,0000,0000,,♪ Et moi dans l'eau ♪
+Dialogue: 0,2:04:13.73,2:04:16.29,Eng,,0000,0000,0000,,♪ Moi j'ai fait "Oh !" ♪
+Dialogue: 0,2:04:17.13,2:04:20.01,Eng,,0000,0000,0000,,♪ Il m'a vue... ♪
+Dialogue: 0,2:13:03.35,2:13:08.14,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,2:13:08.79,2:13:13.11,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien ♪
+Dialogue: 0,2:13:13.92,2:13:19.22,Eng,,0000,0000,0000,,♪ Ni le bien qu'on m'a fait ♪
+Dialogue: 0,2:13:19.73,2:13:25.23,Eng,,0000,0000,0000,,♪ Ni le mal Tout ça m'est bien égal... ♪
+Dialogue: 0,2:13:25.52,2:13:30.85,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,2:13:30.96,2:13:35.77,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien ♪
+Dialogue: 0,2:13:36.00,2:13:38.61,Eng,,0000,0000,0000,,♪ C'est payé, ♪
+Dialogue: 0,2:13:39.09,2:13:41.29,Eng,,0000,0000,0000,,♪ balayé... ♪
+Dialogue: 0,2:13:41.95,2:13:44.10,Eng,,0000,0000,0000,,♪ oublié ♪
+Dialogue: 0,2:13:44.67,2:13:49.54,Eng,,0000,0000,0000,,♪ Je me fous du passé ♪
+Dialogue: 0,2:13:49.75,2:13:52.83,Eng,,0000,0000,0000,,♪ Avec mes souvenirs ♪
+Dialogue: 0,2:13:53.85,2:13:55.96,Eng,,0000,0000,0000,,♪ J'ai allumé le feu ♪
+Dialogue: 0,2:13:56.10,2:13:59.21,Eng,,0000,0000,0000,,♪ Mes chagrins, mes plaisirs ♪
+Dialogue: 0,2:13:59.45,2:14:02.17,Eng,,0000,0000,0000,,♪ Je n'ai plus besoin d'eux ♪
+Dialogue: 0,2:14:02.41,2:14:04.77,Eng,,0000,0000,0000,,♪ Balayés les amours ♪
+Dialogue: 0,2:14:05.51,2:14:08.19,Eng,,0000,0000,0000,,♪ Avec leurs trémolos ♪
+Dialogue: 0,2:14:08.43,2:14:11.15,Eng,,0000,0000,0000,,♪ Balayés pour toujours ♪
+Dialogue: 0,2:14:11.83,2:14:17.11,Eng,,0000,0000,0000,,♪ Je repars à zéro ♪
+Dialogue: 0,2:14:17.83,2:14:22.38,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,2:14:23.11,2:14:26.87,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien ♪
+Dialogue: 0,2:14:28.61,2:14:33.69,Eng,,0000,0000,0000,,♪ Ni le bien qu'on m'a fait ♪
+Dialogue: 0,2:14:34.23,2:14:38.92,Eng,,0000,0000,0000,,♪ Ni le mal Tout ça m'est bien égal ♪
+Dialogue: 0,2:14:39.64,2:14:44.90,Eng,,0000,0000,0000,,♪ Non, rien de rien ♪
+Dialogue: 0,2:14:45.19,2:14:49.79,Eng,,0000,0000,0000,,♪ Non, je ne regrette rien ♪
+Dialogue: 0,2:14:50.10,2:14:53.01,Eng,,0000,0000,0000,,♪ Car ma vie, ♪
+Dialogue: 0,2:14:53.25,2:14:55.72,Eng,,0000,0000,0000,,♪ car mes joies ♪
+Dialogue: 0,2:14:55.97,2:15:07.65,Eng,,0000,0000,0000,,♪ Aujourd'hui Ça commence avec toi ♪
+Dialogue: 0,0:00:20.10,0:00:27.63,标题,,0000,0000,0000,,传奇影业
+Dialogue: 0,0:00:33.10,0:00:39.13,片名,,0000,0000,0000,,玫瑰人生
+Dialogue: 0,0:01:02.10,0:01:06.85,地名,,0000,0000,0000,,纽约 1959年2月16日
+Dialogue: 0,0:02:33.85,0:02:38.80,地名1,,0000,0000,0000,,巴黎 美丽城 1918年
+Dialogue: 0,0:06:25.90,0:06:31.35,Default,,0000,0000,0000,,{\pos(315,100)\1c&HBFBF00&\fs16}诺曼底 贝尔奈 1918年
+Dialogue: 0,0:13:06.35,0:13:10.05,Default,,0000,0000,0000,,{\pos(302,270)\1c&HBFBF00&\fs16}纽约 1959年5月8日
+Dialogue: 0,0:17:34.90,0:17:39.71,Default,,0000,0000,0000,,{\pos(105,240)\1c&HBFBF00&\fs16}法国诺曼底区 利雪市
+Dialogue: 0,0:21:41.11,0:21:45.70,Default,,0000,0000,0000,,{\pos(90,272)\1c&HBFBF00&\fs16}巴黎 奥利机场\N1959年6月
+Dialogue: 0,0:34:18.32,0:34:21.85,Default,,0000,0000,0000,,{\pos(92,260)\1c&HBFBF00&\fs16}法国 格拉斯 1963年10月
+Dialogue: 0,0:35:51.45,0:35:55.00,Default,,0000,0000,0000,,{\pos(97,245)\1c&HBFBF00&\fs16}巴黎 蒙马特 1935年10月
+Dialogue: 0,0:53:51.08,0:53:56.25,Default,,0000,0000,0000,,{\pos(282,250)\1c&HBFBF00&\fs16}法国 格拉斯 1963年10月
+Dialogue: 0,1:13:53.95,1:13:57.24,Default,,0000,0000,0000,,{\pos(312,230)\1c&HBFBF00&\fs16}巴黎 1940年2月14日
+Dialogue: 0,1:17:22.90,1:17:27.50,Default,,0000,0000,0000,,{\pos(77,255)\1c&HBFBF00&\fs16}纽约 1947年
+Dialogue: 0,1:29:28.43,1:29:32.60,Default,,0000,0000,0000,,{\pos(70,280)\1c&HBFBF00&\fs16}法国 德勒\N1959年12月13日
+Dialogue: 0,1:41:58.07,1:42:01.57,Default,,0000,0000,0000,,{\pos(297,90)\1c&HBFBF00&\fs16}巴黎 1960年2月
+Dialogue: 0,1:52:34.85,1:52:37.20,Default,,0000,0000,0000,,{\pos(90,110)\1c&HBFBF00&\fs16}美国 加州 1955年8月
+Dialogue: 0,1:56:09.23,1:56:13.40,Default,,0000,0000,0000,,{\pos(192,180)\1c&HBFBF00&\fs16}1960年10月 — 5年后
+Dialogue: 0,1:59:51.90,1:59:58.62,Default,,0000,0000,0000,,{\pos(172,140)\1c&H4D98D1&\fs20\frz15\bord4\i1\3c&H1210A2&\blur4\fry350}伊迪丝·皮雅芙在奥林匹亚隆重献唱
+Dialogue: 0,1:59:58.83,2:00:01.80,Default,,0000,0000,0000,,{\fnSimHei\blur0.5\frz-3.5\pos(162,160)}= 好好照顾自己
+Dialogue: 0,1:59:58.83,2:00:01.80,Default,,0000,0000,0000,,{\fnSimHei\blur0.5\frz-3.6\pos(252,200)}= 我最爱的小云雀 =
+Dialogue: 0,1:59:58.83,2:00:01.80,Default,,0000,0000,0000,,{\fnSimHei\blur0.5\frz0\pos(222,250)}= 你的朋友 = 玛格丽特 =
+Dialogue: 0,2:02:32.40,2:02:36.90,Default,,0000,0000,0000,,{\pos(307,260)\1c&HBFBF00&\fs16}法国 格拉斯 1963年10月\N皮雅芙的最后一晚
+Dialogue: 0,2:15:15.05,2:15:20.70,演员,,0000,0000,0000,,导演 奥利维埃·达昂
+Dialogue: 0,2:15:21.40,2:15:25.35,演员,,0000,0000,0000,,制片人 阿兰·古德曼
+Dialogue: 0,2:15:26.17,2:15:30.03,演员,,0000,0000,0000,,玛丽昂·歌迪亚
+Dialogue: 0,2:15:42.78,2:15:46.35,演员,,0000,0000,0000,,特邀嘉宾 热拉尔·德帕迪约
+Dialogue: 0,2:15:50.30,2:15:54.20,演员1,,0000,0000,0000,,编剧 奥利维埃·达昂  伊莎贝尔·索伯曼
+Dialogue: 0,2:15:54.50,2:15:57.68,演员,,0000,0000,0000,,音乐 克里斯托弗·古宁
+Dialogue: 0,0:00:55.28,0:00:59.43,Default,,0000,0000,0000,,不再微笑 不再流泪
+Dialogue: 0,0:00:59.64,0:01:03.75,Default,,0000,0000,0000,,不再祈祷 不再恐惧
+Dialogue: 0,0:01:04.32,0:01:07.97,Default,,0000,0000,0000,,一无所有 为何继续
+Dialogue: 0,0:01:08.24,0:01:12.02,Default,,0000,0000,0000,,卿之所爱 业已远去
+Dialogue: 0,0:01:12.30,0:01:14.29,Default,,0000,0000,0000,,高声呼唤
+Dialogue: 0,0:01:14.32,0:01:16.34,Default,,0000,0000,0000,,快 她10分之前就不舒服了
+Dialogue: 0,0:01:14.36,0:01:16.37,注解,,0000,0000,0000,,铃声四起
+Dialogue: 0,0:01:16.42,0:01:20.77,Default,,0000,0000,0000,,穿过城镇 越过农庄
+Dialogue: 0,0:01:20.84,0:01:24.84,Default,,0000,0000,0000,,呼喊及铃响
+Dialogue: 0,0:01:25.06,0:01:29.05,Default,,0000,0000,0000,,带良人回我怀
+Dialogue: 0,0:01:29.30,0:01:33.33,Default,,0000,0000,0000,,男子汉皆需上战场
+Dialogue: 0,0:01:33.58,0:01:37.33,Default,,0000,0000,0000,,永远 永远
+Dialogue: 0,0:01:37.91,0:01:41.73,Default,,0000,0000,0000,,寂寞少妇独守空房
+Dialogue: 0,0:01:42.28,0:01:46.19,Default,,0000,0000,0000,,空的心 空的手
+Dialogue: 0,0:01:46.29,0:01:50.63,Default,,0000,0000,0000,,时候到了 分离在即
+Dialogue: 0,0:01:50.68,0:01:54.77,注解,,0000,0000,0000,,君吻吾唇 互道永别
+Dialogue: 0,0:01:51.30,0:01:53.56,Default,,0000,0000,0000,,救护车已经在路上了
+Dialogue: 0,0:01:54.85,0:01:59.04,Default,,0000,0000,0000,,发自吾内心深处
+Dialogue: 0,0:01:59.16,0:02:03.91,Default,,0000,0000,0000,,一长声寂寥哭号
+Dialogue: 0,0:02:04.04,0:02:08.07,Default,,0000,0000,0000,,天可怜见
+Dialogue: 0,0:02:08.36,0:02:12.83,Default,,0000,0000,0000,,天可怜见
+Dialogue: 0,0:02:21.34,0:02:24.76,Default,,0000,0000,0000,,圣德蕾莎 小耶稣啊 别抛弃我
+Dialogue: 0,0:02:24.96,0:02:28.04,Default,,0000,0000,0000,,赐我以力量 我想活下去
+Dialogue: 0,0:02:28.71,0:02:30.61,Default,,0000,0000,0000,,请让我重生吧
+Dialogue: 0,0:02:44.81,0:02:45.61,Default,,0000,0000,0000,,快点
+Dialogue: 0,0:02:54.05,0:02:55.30,Default,,0000,0000,0000,,你哭什么哭
+Dialogue: 0,0:02:55.62,0:02:56.98,Default,,0000,0000,0000,,小坏蛋 快滚
+Dialogue: 0,0:02:58.72,0:03:00.08,Default,,0000,0000,0000,,我们早点回家去
+Dialogue: 0,0:03:00.94,0:03:03.69,Default,,0000,0000,0000,,我好无聊
+Dialogue: 0,0:03:03.85,0:03:06.94,Default,,0000,0000,0000,,我的生命 了无生趣
+Dialogue: 0,0:03:07.52,0:03:09.90,Default,,0000,0000,0000,,我又能如何
+Dialogue: 0,0:03:10.06,0:03:12.35,Default,,0000,0000,0000,,我又能如何
+Dialogue: 0,0:03:13.59,0:03:14.95,Default,,0000,0000,0000,,你在这儿干嘛
+Dialogue: 0,0:03:15.24,0:03:15.89,Default,,0000,0000,0000,,我
+Dialogue: 0,0:03:16.37,0:03:17.76,Default,,0000,0000,0000,,噢 怎么哭了
+Dialogue: 0,0:03:18.47,0:03:19.76,Default,,0000,0000,0000,,就你一个人吗
+Dialogue: 0,0:03:21.68,0:03:23.33,Default,,0000,0000,0000,,是不是啊 你妈妈呢
+Dialogue: 0,0:03:24.77,0:03:27.94,Default,,0000,0000,0000,,我四处流浪 形容枯槁
+Dialogue: 0,0:03:28.06,0:03:31.19,Default,,0000,0000,0000,,一无所有
+Dialogue: 0,0:03:31.65,0:03:34.27,Default,,0000,0000,0000,,唯有苦痛
+Dialogue: 0,0:03:34.44,0:03:37.27,Default,,0000,0000,0000,,我的生命
+Dialogue: 0,0:03:37.44,0:03:40.52,Default,,0000,0000,0000,,了无生趣
+Dialogue: 0,0:03:41.40,0:03:43.81,Default,,0000,0000,0000,,我又能如何
+Dialogue: 0,0:03:43.98,0:03:47.65,Default,,0000,0000,0000,,我 我好无聊
+Dialogue: 0,0:03:47.73,0:03:48.84,Default,,0000,0000,0000,,你怎么当妈妈的
+Dialogue: 0,0:03:48.96,0:03:50.60,Default,,0000,0000,0000,,你这种人吊死都不可惜
+Dialogue: 0,0:03:50.94,0:03:53.40,Default,,0000,0000,0000,,我得养家糊口啊 我是歌手
+Dialogue: 0,0:03:53.76,0:03:54.84,Default,,0000,0000,0000,,看看你女儿
+Dialogue: 0,0:03:54.90,0:03:56.77,Default,,0000,0000,0000,,看什么看 我女儿好的很
+Dialogue: 0,0:04:06.98,0:04:09.24,Default,,0000,0000,0000,,路易 我没法再等你了
+Dialogue: 0,0:04:10.12,0:04:11.98,Default,,0000,0000,0000,,我受够了美丽城了
+Dialogue: 0,0:04:13.19,0:04:15.31,Default,,0000,0000,0000,,有个剧团经理说我很有才华
+Dialogue: 0,0:04:15.48,0:04:16.79,Default,,0000,0000,0000,,该学弗雷埃尔那样
+Dialogue: 0,0:04:17.08,0:04:18.99,Default,,0000,0000,0000,,去君士坦丁堡闯闯
+Dialogue: 0,0:04:20.05,0:04:22.23,Default,,0000,0000,0000,,马戏团有好消息了
+Dialogue: 0,0:04:22.74,0:04:23.73,Default,,0000,0000,0000,,这还用说
+Dialogue: 0,0:04:24.34,0:04:26.23,Default,,0000,0000,0000,,连克里蒙梭都发贺信来了
+Dialogue: 0,0:04:33.27,0:04:35.44,Default,,0000,0000,0000,,我把伊迪丝托付给了我妈妈
+Dialogue: 0,0:04:35.81,0:04:37.13,Default,,0000,0000,0000,,在我闯出名堂之前
+Dialogue: 0,0:04:37.41,0:04:39.33,Default,,0000,0000,0000,,她会好好照顾伊迪丝的
+Dialogue: 0,0:04:39.83,0:04:42.79,Default,,0000,0000,0000,,路易 我不等你回来了
+Dialogue: 0,0:04:44.15,0:04:45.46,Default,,0000,0000,0000,,爱妮塔 上
+Dialogue: 0,0:05:09.94,0:05:10.99,Default,,0000,0000,0000,,有人在吗
+Dialogue: 0,0:05:45.60,0:05:46.69,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:05:56.06,0:05:56.90,Default,,0000,0000,0000,,路易
+Dialogue: 0,0:06:01.73,0:06:02.69,Default,,0000,0000,0000,,不用你了
+Dialogue: 0,0:07:05.06,0:07:06.07,Default,,0000,0000,0000,,这是谁
+Dialogue: 0,0:07:08.60,0:07:09.69,Default,,0000,0000,0000,,你孙女
+Dialogue: 0,0:07:10.90,0:07:11.68,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:07:15.16,0:07:16.94,Default,,0000,0000,0000,,名字可真奇怪
+Dialogue: 0,0:07:25.06,0:07:26.94,Default,,0000,0000,0000,,她可不太健康啊
+Dialogue: 0,0:07:30.28,0:07:31.25,Default,,0000,0000,0000,,跟我来吧
+Dialogue: 0,0:07:42.06,0:07:43.73,Default,,0000,0000,0000,,嘿 你怎么会在这儿
+Dialogue: 0,0:07:44.69,0:07:47.16,Default,,0000,0000,0000,,好可爱啊 叫什么名字
+Dialogue: 0,0:07:47.32,0:07:48.94,Default,,0000,0000,0000,,你就这么闲吗 提提妮
+Dialogue: 0,0:07:49.36,0:07:51.48,Default,,0000,0000,0000,,我要去厕所 楼上厕所有人
+Dialogue: 0,0:07:52.40,0:07:54.00,Default,,0000,0000,0000,,你的蓝眼睛真漂亮
+Dialogue: 0,0:08:00.58,0:08:01.60,Default,,0000,0000,0000,,进去吧
+Dialogue: 0,0:08:09.59,0:08:11.02,Default,,0000,0000,0000,,有话就快说
+Dialogue: 0,0:08:13.35,0:08:14.58,Default,,0000,0000,0000,,我得回队上
+Dialogue: 0,0:08:16.69,0:08:18.24,Default,,0000,0000,0000,,过几个月就要退伍了
+Dialogue: 0,0:08:18.52,0:08:20.44,Default,,0000,0000,0000,,退伍之后 我要回马戏团
+Dialogue: 0,0:08:22.20,0:08:23.86,Default,,0000,0000,0000,,我来看看我的小心肝
+Dialogue: 0,0:08:24.29,0:08:25.08,Default,,0000,0000,0000,,出去
+Dialogue: 0,0:08:25.27,0:08:26.82,Default,,0000,0000,0000,,我没客人 路易丝嬷嬷
+Dialogue: 0,0:08:27.16,0:08:28.98,Default,,0000,0000,0000,,那就上门口候着去
+Dialogue: 0,0:08:35.40,0:08:36.73,Default,,0000,0000,0000,,她妈妈呢
+Dialogue: 0,0:08:38.02,0:08:39.19,Default,,0000,0000,0000,,我不知道
+Dialogue: 0,0:08:43.44,0:08:45.51,Default,,0000,0000,0000,,你要把这个小毛头留在这儿
+Dialogue: 0,0:08:48.15,0:08:49.73,Default,,0000,0000,0000,,人们会说闲话的
+Dialogue: 0,0:08:49.94,0:08:52.02,Default,,0000,0000,0000,,反正做什么都会有人说闲话
+Dialogue: 0,0:09:29.73,0:09:31.24,Default,,0000,0000,0000,,不带她去做弥撒吗
+Dialogue: 0,0:09:34.81,0:09:36.06,Default,,0000,0000,0000,,赶不上做日课了
+Dialogue: 0,0:09:36.13,0:09:39.22,Default,,0000,0000,0000,,好 听着 地球又不是围着她转的 走
+Dialogue: 0,0:09:46.45,0:09:48.55,Default,,0000,0000,0000,,唷 听说有个小宝贝
+Dialogue: 0,0:09:48.71,0:09:49.96,Default,,0000,0000,0000,,我可以看看她吗
+Dialogue: 0,0:09:50.20,0:09:52.08,Default,,0000,0000,0000,,不是个小宝贝 是个小女孩
+Dialogue: 0,0:09:52.24,0:09:52.85,Default,,0000,0000,0000,,要面包吗
+Dialogue: 0,0:09:52.92,0:09:54.12,Default,,0000,0000,0000,,好了 滚出去
+Dialogue: 0,0:09:58.21,0:10:00.13,Default,,0000,0000,0000,,快点 唱吧
+Dialogue: 0,0:10:00.23,0:10:04.90,Default,,0000,0000,0000,,要是头发没那么红 你都可以上巴黎舞台上了
+Dialogue: 0,0:10:09.06,0:10:11.35,Default,,0000,0000,0000,,有天晚上 我去游泳
+Dialogue: 0,0:10:11.44,0:10:14.23,Default,,0000,0000,0000,,我光着身子
+Dialogue: 0,0:10:14.31,0:10:17.44,Default,,0000,0000,0000,,夜色正浓
+Dialogue: 0,0:10:17.75,0:10:19.86,Default,,0000,0000,0000,,四下无人
+Dialogue: 0,0:10:19.96,0:10:22.69,Default,,0000,0000,0000,,直到月亮发出光芒
+Dialogue: 0,0:10:22.85,0:10:25.60,Default,,0000,0000,0000,,我正想说 笑一个 宝贝
+Dialogue: 0,0:10:25.75,0:10:28.48,Default,,0000,0000,0000,,突然听到身旁
+Dialogue: 0,0:10:28.65,0:10:30.66,Default,,0000,0000,0000,,有赞叹的声响
+Dialogue: 0,0:10:30.88,0:10:33.76,Default,,0000,0000,0000,,有人站在石头上
+Dialogue: 0,0:10:33.94,0:10:35.88,Default,,0000,0000,0000,,刚好可以看个爽
+Dialogue: 0,0:10:36.28,0:10:38.27,Default,,0000,0000,0000,,男人叫出来 噢
+Dialogue: 0,0:10:38.87,0:10:41.02,Default,,0000,0000,0000,,在水里面的我
+Dialogue: 0,0:10:41.28,0:10:44.06,Default,,0000,0000,0000,,给他叫回去 欧
+Dialogue: 0,0:10:44.56,0:10:47.19,Default,,0000,0000,0000,,他把我看光光
+Dialogue: 0,0:10:50.52,0:10:54.21,Default,,0000,0000,0000,,我没东西可遮藏
+Dialogue: 0,0:10:54.27,0:10:56.81,Default,,0000,0000,0000,,整夜羞红了脸庞
+Dialogue: 0,0:10:57.06,0:11:00.19,Default,,0000,0000,0000,,他把我看光光
+Dialogue: 0,0:11:00.40,0:11:02.31,Default,,0000,0000,0000,,看光光
+Dialogue: 0,0:11:02.88,0:11:06.15,Default,,0000,0000,0000,,只见我羞不可当
+Dialogue: 0,0:11:06.21,0:11:09.09,Default,,0000,0000,0000,,忙用小手遮脸庞
+Dialogue: 0,0:11:09.43,0:11:11.55,Default,,0000,0000,0000,,我想八成上了当
+Dialogue: 0,0:11:11.71,0:11:15.55,Default,,0000,0000,0000,,遮脸动作欠思量
+Dialogue: 0,0:11:15.88,0:11:18.25,Default,,0000,0000,0000,,慌慌张张没躲藏
+Dialogue: 0,0:11:18.42,0:11:22.84,Default,,0000,0000,0000,,扭扭捏捏又惊慌
+Dialogue: 0,0:11:23.34,0:11:26.38,Default,,0000,0000,0000,,他把我看光光
+Dialogue: 0,0:11:26.42,0:11:29.17,Default,,0000,0000,0000,,看光光
+Dialogue: 0,0:11:29.60,0:11:35.61,Default,,0000,0000,0000,,比光光还光
+Dialogue: 0,0:11:47.81,0:11:49.20,Default,,0000,0000,0000,,提提妮
+Dialogue: 0,0:11:49.33,0:11:51.31,Default,,0000,0000,0000,,闹够了没有 给我开门
+Dialogue: 0,0:11:51.48,0:11:52.34,Default,,0000,0000,0000,,她又怎么了
+Dialogue: 0,0:11:52.58,0:11:53.94,Default,,0000,0000,0000,,她跟伊迪丝呆在里面
+Dialogue: 0,0:11:54.28,0:11:55.64,Default,,0000,0000,0000,,马上给我开门
+Dialogue: 0,0:11:56.44,0:11:57.27,Default,,0000,0000,0000,,发生了什么事了
+Dialogue: 0,0:11:57.28,0:11:59.44,Default,,0000,0000,0000,,噢 没什么 赶紧给我打扮
+Dialogue: 0,0:11:59.56,0:12:00.80,Default,,0000,0000,0000,,客人们很快就到了
+Dialogue: 0,0:12:00.80,0:12:01.78,Default,,0000,0000,0000,,-快去 快去 -好
+Dialogue: 0,0:12:02.21,0:12:04.12,Default,,0000,0000,0000,,开门吧 不然你就错过了客人
+Dialogue: 0,0:12:04.31,0:12:05.32,Default,,0000,0000,0000,,我没办法干活
+Dialogue: 0,0:12:05.55,0:12:06.14,Default,,0000,0000,0000,,什么
+Dialogue: 0,0:12:06.90,0:12:08.13,Default,,0000,0000,0000,,我接不了客
+Dialogue: 0,0:12:08.30,0:12:09.33,Default,,0000,0000,0000,,你不想接客
+Dialogue: 0,0:12:09.36,0:12:11.03,Default,,0000,0000,0000,,把我这儿当作旅馆了
+Dialogue: 0,0:12:11.19,0:12:12.79,Default,,0000,0000,0000,,你还想怎么着 嗯
+Dialogue: 0,0:12:12.85,0:12:15.67,Default,,0000,0000,0000,,今天晚上 我来照顾伊迪丝
+Dialogue: 0,0:12:16.06,0:12:17.64,Default,,0000,0000,0000,,你谁都不用照顾
+Dialogue: 0,0:12:19.52,0:12:20.85,Default,,0000,0000,0000,,是我 开门
+Dialogue: 0,0:12:21.35,0:12:23.03,Default,,0000,0000,0000,,你的老兵已经来了
+Dialogue: 0,0:12:23.22,0:12:24.29,Default,,0000,0000,0000,,我不管
+Dialogue: 0,0:12:24.98,0:12:27.86,Default,,0000,0000,0000,,他是个骗子 只会花言巧语
+Dialogue: 0,0:12:28.13,0:12:30.56,Default,,0000,0000,0000,,提提妮 别闹了 快出来
+Dialogue: 0,0:12:31.19,0:12:33.68,Default,,0000,0000,0000,,赶紧出来 不然我把你赶到街上去
+Dialogue: 0,0:12:33.83,0:12:35.45,Default,,0000,0000,0000,,你别再装了
+Dialogue: 0,0:12:36.31,0:12:38.00,Default,,0000,0000,0000,,我开就是了
+Dialogue: 0,0:12:48.40,0:12:49.78,Default,,0000,0000,0000,,但别把我赶出去
+Dialogue: 0,0:13:12.65,0:13:13.59,Default,,0000,0000,0000,,道格
+Dialogue: 0,0:13:19.19,0:13:21.33,Default,,0000,0000,0000,,干嘛 你吃醋了
+Dialogue: 0,0:13:22.56,0:13:25.65,Default,,0000,0000,0000,,我找到您比莉哈乐黛的唱片了 放旅馆了
+Dialogue: 0,0:13:25.70,0:13:26.68,Default,,0000,0000,0000,,谢谢你 路路
+Dialogue: 0,0:13:27.10,0:13:29.86,Default,,0000,0000,0000,,比莉跟我同年生的 很巧吧
+Dialogue: 0,0:13:33.12,0:13:35.02,Default,,0000,0000,0000,,我给您把素描带来了
+Dialogue: 0,0:13:36.48,0:13:38.61,Default,,0000,0000,0000,,您是等下看呢 还是晚上再看
+Dialogue: 0,0:13:39.30,0:13:40.39,Default,,0000,0000,0000,,等一下再看吧
+Dialogue: 0,0:13:40.90,0:13:43.25,Default,,0000,0000,0000,,现在得先去唱大笨蛋的歌
+Dialogue: 0,0:13:44.90,0:13:45.81,Default,,0000,0000,0000,,在你之前
+Dialogue: 0,0:13:46.40,0:13:46.96,Default,,0000,0000,0000,,什么
+Dialogue: 0,0:13:47.94,0:13:48.82,Default,,0000,0000,0000,,没什么
+Dialogue: 0,0:13:49.06,0:13:50.33,Default,,0000,0000,0000,,都好了
+Dialogue: 0,0:13:51.23,0:13:52.27,Default,,0000,0000,0000,,噢 那就走吧
+Dialogue: 0,0:14:17.35,0:14:18.07,Default,,0000,0000,0000,,我好了
+Dialogue: 0,0:14:20.37,0:14:21.70,Default,,0000,0000,0000,,-开始吧 -好的
+Dialogue: 0,0:14:36.22,0:14:38.41,Default,,0000,0000,0000,,快来啊 老爷
+Dialogue: 0,0:14:38.66,0:14:40.61,Default,,0000,0000,0000,,坐到我这桌来
+Dialogue: 0,0:14:40.86,0:14:43.13,Default,,0000,0000,0000,,外头冷得够呛
+Dialogue: 0,0:14:43.48,0:14:45.80,Default,,0000,0000,0000,,这儿可舒服呢
+Dialogue: 0,0:14:45.86,0:14:47.83,Default,,0000,0000,0000,,您请随意 老爷
+Dialogue: 0,0:14:47.91,0:14:50.07,Default,,0000,0000,0000,,爱怎么着都行
+Dialogue: 0,0:14:50.18,0:14:52.35,Default,,0000,0000,0000,,您难受我伤心
+Dialogue: 0,0:14:52.60,0:14:54.52,Default,,0000,0000,0000,,脚丫且跷上椅
+Dialogue: 0,0:14:54.55,0:14:56.77,Default,,0000,0000,0000,,我认得您 老爷
+Dialogue: 0,0:14:56.84,0:14:58.92,Default,,0000,0000,0000,,您从没见过我
+Dialogue: 0,0:14:59.00,0:15:01.81,Default,,0000,0000,0000,,港边的小妞罢了
+Dialogue: 0,0:15:02.06,0:15:05.70,Default,,0000,0000,0000,,街上晃荡的游魂
+Dialogue: 0,0:15:07.30,0:15:09.81,Default,,0000,0000,0000,,却与您擦肩而过
+Dialogue: 0,0:15:10.14,0:15:12.49,Default,,0000,0000,0000,,您昨儿来的时候
+Dialogue: 0,0:15:12.98,0:15:15.36,Default,,0000,0000,0000,,您可骄傲得很呢
+Dialogue: 0,0:15:15.86,0:15:18.12,Default,,0000,0000,0000,,天老爷 好个天之骄子
+Dialogue: 0,0:15:18.44,0:15:20.37,Default,,0000,0000,0000,,您的丝绸大围巾
+Dialogue: 0,0:15:20.70,0:15:23.29,Default,,0000,0000,0000,,在肩上飘来飘去
+Dialogue: 0,0:15:24.08,0:15:26.46,Default,,0000,0000,0000,,您可神气得很哪
+Dialogue: 0,0:15:26.72,0:15:29.55,Default,,0000,0000,0000,,跟国王一个样儿
+Dialogue: 0,0:15:30.26,0:15:32.93,Default,,0000,0000,0000,,迈着胜利的步伐
+Dialogue: 0,0:15:33.14,0:15:36.09,Default,,0000,0000,0000,,膀子搂着个姑娘
+Dialogue: 0,0:15:36.34,0:15:39.48,Default,,0000,0000,0000,,天老爷 瞧她美得呢
+Dialogue: 0,0:15:42.08,0:15:42.90,Default,,0000,0000,0000,,是雅娜
+Dialogue: 0,0:15:43.30,0:15:44.66,Default,,0000,0000,0000,,雅娜 走了
+Dialogue: 0,0:15:46.71,0:15:48.42,Default,,0000,0000,0000,,雅娜 怎么了
+Dialogue: 0,0:15:49.40,0:15:50.10,Default,,0000,0000,0000,,有血
+Dialogue: 0,0:15:50.31,0:15:51.73,Default,,0000,0000,0000,,快说呀 到底怎么了
+Dialogue: 0,0:15:52.05,0:15:55.16,Default,,0000,0000,0000,,他拿着器材想扮医生
+Dialogue: 0,0:15:55.62,0:15:56.80,Default,,0000,0000,0000,,混蛋
+Dialogue: 0,0:15:58.74,0:16:00.50,Default,,0000,0000,0000,,猪狗不如的生活
+Dialogue: 0,0:16:00.77,0:16:01.80,Default,,0000,0000,0000,,应该跟老板娘说
+Dialogue: 0,0:16:02.04,0:16:02.79,Default,,0000,0000,0000,,提提妮
+Dialogue: 0,0:16:02.93,0:16:04.71,Default,,0000,0000,0000,,不行 她会杀了我
+Dialogue: 0,0:16:04.92,0:16:06.50,Default,,0000,0000,0000,,哦 我好痛啊
+Dialogue: 0,0:16:07.17,0:16:09.56,Default,,0000,0000,0000,,提提妮 我看不见了
+Dialogue: 0,0:16:29.22,0:16:30.88,Default,,0000,0000,0000,,大夫 怎么样了
+Dialogue: 0,0:16:31.33,0:16:32.79,Default,,0000,0000,0000,,这孩子体质很弱
+Dialogue: 0,0:16:33.04,0:16:35.71,Default,,0000,0000,0000,,她角膜受损 得了角膜炎
+Dialogue: 0,0:16:36.95,0:16:37.65,Default,,0000,0000,0000,,她瞎了吗
+Dialogue: 0,0:16:38.69,0:16:39.88,Default,,0000,0000,0000,,她受感染了
+Dialogue: 0,0:16:40.04,0:16:41.08,Default,,0000,0000,0000,,要耐心点
+Dialogue: 0,0:16:42.05,0:16:43.46,Default,,0000,0000,0000,,搞不好 要几个月
+Dialogue: 0,0:16:45.94,0:16:47.85,Default,,0000,0000,0000,,拿这方子到药房去吧
+Dialogue: 0,0:16:49.52,0:16:50.49,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:16:51.15,0:16:52.40,Default,,0000,0000,0000,,她是谁的孩子
+Dialogue: 0,0:16:54.81,0:16:55.72,Default,,0000,0000,0000,,没父母的
+Dialogue: 0,0:17:42.31,0:17:44.98,Default,,0000,0000,0000,,圣德蕾莎 我很少求你什么
+Dialogue: 0,0:17:45.32,0:17:47.54,Default,,0000,0000,0000,,请你听听小伊迪丝的祷告吧
+Dialogue: 0,0:17:48.90,0:17:51.61,Default,,0000,0000,0000,,小伊迪丝 快来 快说啊
+Dialogue: 0,0:17:52.27,0:17:53.35,Default,,0000,0000,0000,,圣德蕾莎
+Dialogue: 0,0:17:54.48,0:17:55.74,Default,,0000,0000,0000,,圣德蕾莎
+Dialogue: 0,0:17:56.10,0:17:57.80,Default,,0000,0000,0000,,我不想变成瞎子
+Dialogue: 0,0:17:57.97,0:17:59.13,Default,,0000,0000,0000,,我还想能看见
+Dialogue: 0,0:17:59.37,0:18:00.63,Default,,0000,0000,0000,,她都摔得鼻青脸肿了
+Dialogue: 0,0:18:00.71,0:18:01.51,Default,,0000,0000,0000,,再说
+Dialogue: 0,0:18:01.98,0:18:05.40,Default,,0000,0000,0000,,我想读书写字 像以前一样跑跳
+Dialogue: 0,0:18:05.65,0:18:07.23,Default,,0000,0000,0000,,我不想变成瞎子
+Dialogue: 0,0:18:07.30,0:18:08.23,Default,,0000,0000,0000,,圣德蕾莎
+Dialogue: 0,0:18:08.90,0:18:11.23,Default,,0000,0000,0000,,请你转告耶稣 保佑伊迪丝
+Dialogue: 0,0:18:12.23,0:18:13.05,Default,,0000,0000,0000,,快说呀
+Dialogue: 0,0:18:14.06,0:18:16.65,Default,,0000,0000,0000,,谢谢圣德蕾莎跟小耶稣
+Dialogue: 0,0:18:16.92,0:18:17.75,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:18:49.22,0:18:50.40,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:18:50.90,0:18:52.37,Default,,0000,0000,0000,,我就是啥事也没
+Dialogue: 0,0:18:52.48,0:18:53.73,Default,,0000,0000,0000,,真不知为了什么
+Dialogue: 0,0:18:53.98,0:18:55.41,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:18:55.66,0:18:57.76,注解,,0000,0000,0000,,从来啥事都没发生
+Dialogue: 0,0:18:56.24,0:18:57.56,Default,,0000,0000,0000,,快到了 伊迪丝
+Dialogue: 0,0:18:59.14,0:19:00.28,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:19:00.76,0:19:01.63,Default,,0000,0000,0000,,我就是啥事也没
+Dialogue: 0,0:19:01.88,0:19:03.51,Default,,0000,0000,0000,,真不知为了什么
+Dialogue: 0,0:19:03.92,0:19:05.51,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:19:05.58,0:19:07.73,Default,,0000,0000,0000,,从来啥事都没发生
+Dialogue: 0,0:19:09.11,0:19:11.53,注解,,0000,0000,0000,,从早上到夜晚
+Dialogue: 0,0:19:10.48,0:19:11.53,Default,,0000,0000,0000,,路易丝 快点啦
+Dialogue: 0,0:19:11.78,0:19:13.57,Default,,0000,0000,0000,,全都静悄悄又无趣
+Dialogue: 0,0:19:13.82,0:19:16.09,注解,,0000,0000,0000,,我倒希望发生点事
+Dialogue: 0,0:19:13.97,0:19:15.28,Default,,0000,0000,0000,,小乖乖
+Dialogue: 0,0:19:16.30,0:19:18.17,Default,,0000,0000,0000,,怪事鲜事都行
+Dialogue: 0,0:19:19.04,0:19:20.39,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:19:20.64,0:19:22.23,Default,,0000,0000,0000,,我就是啥事也没
+Dialogue: 0,0:19:22.48,0:19:23.70,Default,,0000,0000,0000,,真不知为了什么
+Dialogue: 0,0:19:23.96,0:19:25.35,Default,,0000,0000,0000,,没就是没
+Dialogue: 0,0:19:25.60,0:19:27.35,Default,,0000,0000,0000,,从来啥事都没发生
+Dialogue: 0,0:20:24.77,0:20:26.10,Default,,0000,0000,0000,,她看得见了
+Dialogue: 0,0:20:27.60,0:20:29.64,Default,,0000,0000,0000,,她看得见了
+Dialogue: 0,0:20:38.29,0:20:39.49,Default,,0000,0000,0000,,提提妮 快起来
+Dialogue: 0,0:20:40.55,0:20:41.27,Default,,0000,0000,0000,,怎么了
+Dialogue: 0,0:20:41.30,0:20:42.61,Default,,0000,0000,0000,,伊迪丝的爸爸回来了
+Dialogue: 0,0:20:42.68,0:20:43.62,Default,,0000,0000,0000,,你要带她走
+Dialogue: 0,0:20:43.99,0:20:45.06,Default,,0000,0000,0000,,赶快穿衣服
+Dialogue: 0,0:20:45.85,0:20:47.90,Default,,0000,0000,0000,,他不能这样 不能这样
+Dialogue: 0,0:20:48.24,0:20:50.63,Default,,0000,0000,0000,,真不敢相信 你还要回马戏班
+Dialogue: 0,0:20:51.17,0:20:52.85,Default,,0000,0000,0000,,小毛头可以长长见识
+Dialogue: 0,0:20:53.08,0:20:53.94,Default,,0000,0000,0000,,那就走吧
+Dialogue: 0,0:20:56.42,0:20:58.50,Default,,0000,0000,0000,,伊迪丝 伊迪丝
+Dialogue: 0,0:20:58.68,0:21:01.38,Default,,0000,0000,0000,,-提提妮 -别带走我的小宝贝 别
+Dialogue: 0,0:21:01.43,0:21:04.68,Default,,0000,0000,0000,,-提提妮 -放开她
+Dialogue: 0,0:21:04.71,0:21:05.33,Default,,0000,0000,0000,,够了
+Dialogue: 0,0:21:05.40,0:21:06.95,Default,,0000,0000,0000,,-求求你 -住手
+Dialogue: 0,0:21:07.11,0:21:08.52,Default,,0000,0000,0000,,你们不能这样对我
+Dialogue: 0,0:21:08.56,0:21:09.65,Default,,0000,0000,0000,,赶紧给我滚蛋
+Dialogue: 0,0:21:09.75,0:21:12.12,Default,,0000,0000,0000,,-不能带走她 -你不能这么做
+Dialogue: 0,0:21:12.16,0:21:13.41,Default,,0000,0000,0000,,伊迪丝 你们不能这样
+Dialogue: 0,0:21:13.61,0:21:15.83,Default,,0000,0000,0000,,你总是把我们看得那么下贱
+Dialogue: 0,0:21:15.92,0:21:17.57,Default,,0000,0000,0000,,跟你走 你这辈子都别想
+Dialogue: 0,0:21:17.72,0:21:19.27,Default,,0000,0000,0000,,我会死给你们看的
+Dialogue: 0,0:21:19.33,0:21:20.98,Default,,0000,0000,0000,,-伊迪丝 -啊
+Dialogue: 0,0:21:21.03,0:21:22.16,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:21:22.52,0:21:23.49,Default,,0000,0000,0000,,给我放开
+Dialogue: 0,0:21:23.52,0:21:25.16,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:21:28.79,0:21:31.72,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:21:32.62,0:21:35.60,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:21:39.65,0:21:41.46,Default,,0000,0000,0000,,记者在法国奥里机场
+Dialogue: 0,0:21:41.49,0:21:42.61,Default,,0000,0000,0000,,乘客们正在下机
+Dialogue: 0,0:21:42.85,0:21:45.14,Default,,0000,0000,0000,,伊迪丝·皮雅芙 我看到她了
+Dialogue: 0,0:21:45.23,0:21:46.60,Default,,0000,0000,0000,,我尝试着靠近她
+Dialogue: 0,0:21:46.72,0:21:49.22,Default,,0000,0000,0000,,伊迪丝小姐 你从美国带什么来了
+Dialogue: 0,0:21:49.41,0:21:50.77,Default,,0000,0000,0000,,一个美国人
+Dialogue: 0,0:21:51.97,0:21:53.33,Default,,0000,0000,0000,,他叫什么名字
+Dialogue: 0,0:21:53.57,0:21:56.20,Default,,0000,0000,0000,,伊迪丝 伊迪丝 能否说一下他的名字
+Dialogue: 0,0:21:56.29,0:21:58.82,Default,,0000,0000,0000,,简直是人如其歌
+Dialogue: 0,0:21:58.82,0:22:00.07,Default,,0000,0000,0000,,在群众的簇拥下
+Dialogue: 0,0:22:00.10,0:22:02.56,Default,,0000,0000,0000,,边接受献花 边坐进高级轿车
+Dialogue: 0,0:22:03.92,0:22:06.26,Default,,0000,0000,0000,,脸上虽然带着倦容 但笑容可掬
+Dialogue: 0,0:22:06.31,0:22:07.14,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:22:13.94,0:22:16.20,Default,,0000,0000,0000,,安静 建议大家干一杯
+Dialogue: 0,0:22:17.81,0:22:18.90,Default,,0000,0000,0000,,大老粗
+Dialogue: 0,0:22:18.98,0:22:20.15,Default,,0000,0000,0000,,你才大老粗呢
+Dialogue: 0,0:22:22.23,0:22:23.88,Default,,0000,0000,0000,,快帮帮我这个废人
+Dialogue: 0,0:22:25.96,0:22:27.20,Default,,0000,0000,0000,,手风琴歌手
+Dialogue: 0,0:22:27.33,0:22:29.70,Default,,0000,0000,0000,,有人会扔个幸运物挂在你嘴上的
+Dialogue: 0,0:22:31.60,0:22:33.01,Default,,0000,0000,0000,,你来得正好
+Dialogue: 0,0:22:33.06,0:22:34.18,Default,,0000,0000,0000,,叫老板来
+Dialogue: 0,0:22:34.29,0:22:36.18,Default,,0000,0000,0000,,我要免费的香槟
+Dialogue: 0,0:22:36.40,0:22:39.14,Default,,0000,0000,0000,,伊迪丝·皮雅芙刚把香槟给洒了
+Dialogue: 0,0:22:40.48,0:22:43.88,Default,,0000,0000,0000,,大家都要相亲相爱 那怕是死对头
+Dialogue: 0,0:22:43.97,0:22:45.56,Default,,0000,0000,0000,,来 亲一个 克劳德
+Dialogue: 0,0:22:46.47,0:22:46.96,Default,,0000,0000,0000,,来
+Dialogue: 0,0:22:48.80,0:22:50.60,Default,,0000,0000,0000,,亲一个吧 道格
+Dialogue: 0,0:22:50.92,0:22:53.67,Default,,0000,0000,0000,,我想亲你 伊迪丝
+Dialogue: 0,0:22:54.24,0:22:55.75,Default,,0000,0000,0000,,那个丑八怪是谁
+Dialogue: 0,0:22:56.47,0:22:57.06,Default,,0000,0000,0000,,不认识
+Dialogue: 0,0:22:57.27,0:22:59.06,Default,,0000,0000,0000,,谁点辣生牛肉排
+Dialogue: 0,0:22:59.23,0:23:01.60,Default,,0000,0000,0000,,噢 那个 你的帅哥同事呢
+Dialogue: 0,0:23:02.08,0:23:03.19,Default,,0000,0000,0000,,别故意闹她了
+Dialogue: 0,0:23:03.22,0:23:05.72,Default,,0000,0000,0000,,关你什么事呀 科夸基 又没玩你
+Dialogue: 0,0:23:06.37,0:23:08.81,Default,,0000,0000,0000,,我说 小姐 小姐
+Dialogue: 0,0:23:08.98,0:23:12.64,Default,,0000,0000,0000,,皮雅芙小姐 幸会 有何可以效劳之处
+Dialogue: 0,0:23:13.46,0:23:16.08,Default,,0000,0000,0000,,多着呢 我要个礼物
+Dialogue: 0,0:23:16.40,0:23:17.45,Default,,0000,0000,0000,,听你吩咐
+Dialogue: 0,0:23:17.81,0:23:18.81,Default,,0000,0000,0000,,那么
+Dialogue: 0,0:23:19.15,0:23:22.63,Default,,0000,0000,0000,,我本来要香槟的 现在改要戒指了
+Dialogue: 0,0:23:22.72,0:23:25.38,Default,,0000,0000,0000,,上面还要有一堆钻石的大戒指
+Dialogue: 0,0:23:25.98,0:23:29.19,Default,,0000,0000,0000,,你别担心 待会儿我们再要香槟 谢谢
+Dialogue: 0,0:23:30.61,0:23:33.72,Default,,0000,0000,0000,,我想敬 所有我爱的人一杯
+Dialogue: 0,0:23:33.86,0:23:35.70,Default,,0000,0000,0000,,我得站起来敬各位
+Dialogue: 0,0:23:35.85,0:23:37.44,Default,,0000,0000,0000,,哦 来帮我一下
+Dialogue: 0,0:23:41.77,0:23:44.65,Default,,0000,0000,0000,,请大家举杯 敬玛格丽特
+Dialogue: 0,0:23:46.98,0:23:48.06,Default,,0000,0000,0000,,她帮我作曲
+Dialogue: 0,0:23:48.58,0:23:51.06,Default,,0000,0000,0000,,是我最忠实的事业伙伴
+Dialogue: 0,0:23:52.40,0:23:53.80,Default,,0000,0000,0000,,别太感动啊
+Dialogue: 0,0:23:53.96,0:23:55.80,Default,,0000,0000,0000,,我们会被逗哭的
+Dialogue: 0,0:24:12.52,0:24:13.73,Default,,0000,0000,0000,,你来要签名照
+Dialogue: 0,0:24:14.56,0:24:15.72,Default,,0000,0000,0000,,我看还是算了
+Dialogue: 0,0:24:17.99,0:24:21.09,Default,,0000,0000,0000,,香槟还有酒 对你身体可真好啊
+Dialogue: 0,0:24:21.14,0:24:22.04,Default,,0000,0000,0000,,又是克劳德
+Dialogue: 0,0:24:22.28,0:24:24.53,Default,,0000,0000,0000,,路路 你故意找麻烦
+Dialogue: 0,0:24:24.66,0:24:28.66,Default,,0000,0000,0000,,时隔一年 再次回到巴黎 让我好好乐乐
+Dialogue: 0,0:24:31.20,0:24:33.60,Default,,0000,0000,0000,,少一副打翻醋坛子的德性
+Dialogue: 0,0:24:37.69,0:24:39.98,Default,,0000,0000,0000,,我在等人 你可以走了
+Dialogue: 0,0:24:40.71,0:24:42.72,Default,,0000,0000,0000,,提醒你一下 你还得演出
+Dialogue: 0,0:24:43.31,0:24:44.56,Default,,0000,0000,0000,,不是光你一个人而已
+Dialogue: 0,0:24:45.04,0:24:48.04,Default,,0000,0000,0000,,还记得在格内的第一晚吗
+Dialogue: 0,0:24:48.16,0:24:50.84,Default,,0000,0000,0000,,我当时啊 流落街头
+Dialogue: 0,0:24:51.28,0:24:53.27,Default,,0000,0000,0000,,她像公主一样看着我
+Dialogue: 0,0:24:53.65,0:24:56.04,Default,,0000,0000,0000,,你才是公主 我的公主
+Dialogue: 0,0:24:57.27,0:24:59.33,Default,,0000,0000,0000,,敬玛格丽特
+Dialogue: 0,0:24:59.85,0:25:02.57,Default,,0000,0000,0000,,敬那些想看我倒下的人
+Dialogue: 0,0:25:02.94,0:25:04.60,Default,,0000,0000,0000,,他们还以为我不知道
+Dialogue: 0,0:25:04.71,0:25:05.70,Default,,0000,0000,0000,,敬他们
+Dialogue: 0,0:25:11.75,0:25:12.90,Default,,0000,0000,0000,,路路 有什么不对吗
+Dialogue: 0,0:25:13.64,0:25:15.98,Default,,0000,0000,0000,,别紧张 他在使性子
+Dialogue: 0,0:25:16.31,0:25:18.50,Default,,0000,0000,0000,,你可以走了 我们还有事
+Dialogue: 0,0:26:50.63,0:26:52.84,Default,,0000,0000,0000,,少趁机偷看 快去干活
+Dialogue: 0,0:26:53.52,0:26:56.56,Default,,0000,0000,0000,,帮我系下 马戏团容不下吃闲饭的
+Dialogue: 0,0:26:57.52,0:27:00.19,Default,,0000,0000,0000,,你得挣钱自己养活自己 好了
+Dialogue: 0,0:27:04.74,0:27:07.14,Default,,0000,0000,0000,,死孩子 害我没赶上出场
+Dialogue: 0,0:27:07.38,0:27:09.40,Default,,0000,0000,0000,,倒霉的脏孩子
+Dialogue: 0,0:27:10.79,0:27:12.12,Default,,0000,0000,0000,,回车上做晚饭去
+Dialogue: 0,0:27:14.07,0:27:17.16,Default,,0000,0000,0000,,女士们 先生们 掌声欢迎路易
+Dialogue: 0,0:27:17.22,0:27:19.40,Default,,0000,0000,0000,,杂技体操表演
+Dialogue: 0,0:28:04.21,0:28:05.48,Default,,0000,0000,0000,,她好可爱呀
+Dialogue: 0,0:28:06.94,0:28:08.23,Default,,0000,0000,0000,,你几岁了
+Dialogue: 0,0:28:08.72,0:28:09.54,Default,,0000,0000,0000,,10岁
+Dialogue: 0,0:28:11.19,0:28:12.52,Default,,0000,0000,0000,,她没有妈妈吗
+Dialogue: 0,0:28:13.44,0:28:14.66,Default,,0000,0000,0000,,要妈妈干嘛
+Dialogue: 0,0:28:15.69,0:28:17.27,Default,,0000,0000,0000,,你八成很寂寞
+Dialogue: 0,0:28:19.32,0:28:21.52,Default,,0000,0000,0000,,那邀我去你那儿喝点小酒
+Dialogue: 0,0:28:23.32,0:28:24.00,Default,,0000,0000,0000,,来吧
+Dialogue: 0,0:29:13.31,0:29:14.65,Default,,0000,0000,0000,,知道我是谁吗
+Dialogue: 0,0:29:18.65,0:29:19.88,Default,,0000,0000,0000,,我是德蕾莎
+Dialogue: 0,0:29:22.10,0:29:25.20,Default,,0000,0000,0000,,你的眼睛还好吧 我的小天使
+Dialogue: 0,0:29:25.57,0:29:26.56,Default,,0000,0000,0000,,很好
+Dialogue: 0,0:29:27.12,0:29:28.60,Default,,0000,0000,0000,,你真可爱 伊迪丝
+Dialogue: 0,0:29:29.38,0:29:31.65,Default,,0000,0000,0000,,今天你想给谁祈祷呢
+Dialogue: 0,0:29:32.90,0:29:34.90,Default,,0000,0000,0000,,我要帮提提妮祷告
+Dialogue: 0,0:29:35.06,0:29:37.75,Default,,0000,0000,0000,,很好 伊迪丝  我会保佑你的
+Dialogue: 0,0:29:39.19,0:29:40.48,Default,,0000,0000,0000,,千万别忘了
+Dialogue: 0,0:29:40.79,0:29:43.73,Default,,0000,0000,0000,,你一个人时 我都会在你身边
+Dialogue: 0,0:30:00.58,0:30:02.90,Default,,0000,0000,0000,,早叫你换轮胎 你偏不换
+Dialogue: 0,0:30:03.14,0:30:06.44,Default,,0000,0000,0000,,少啰嗦 快帮忙 大家一样倒霉
+Dialogue: 0,0:30:10.47,0:30:11.63,Default,,0000,0000,0000,,我管你们去死
+Dialogue: 0,0:30:11.87,0:30:13.03,Default,,0000,0000,0000,,不顺眼就给我滚
+Dialogue: 0,0:30:17.12,0:30:19.56,Default,,0000,0000,0000,,你不能说走就走啊 别那么冲动
+Dialogue: 0,0:30:19.88,0:30:21.54,Default,,0000,0000,0000,,我不是生来就受他欺负的
+Dialogue: 0,0:30:21.70,0:30:23.30,Default,,0000,0000,0000,,我受不了这样的老板了
+Dialogue: 0,0:30:23.56,0:30:24.47,Default,,0000,0000,0000,,你喝多了
+Dialogue: 0,0:30:24.58,0:30:25.99,Default,,0000,0000,0000,,我自己单干好了
+Dialogue: 0,0:30:26.05,0:30:27.02,Default,,0000,0000,0000,,你上哪儿去
+Dialogue: 0,0:30:27.35,0:30:29.02,Default,,0000,0000,0000,,马戏团可不是走街串巷的
+Dialogue: 0,0:30:29.20,0:30:31.52,Default,,0000,0000,0000,,别担心 我向来一个人都能搞定的
+Dialogue: 0,0:30:33.27,0:30:35.27,Default,,0000,0000,0000,,那我呢 我才刚习惯你
+Dialogue: 0,0:30:35.33,0:30:37.38,Default,,0000,0000,0000,,那你就想办法去掉这个习惯
+Dialogue: 0,0:30:42.40,0:30:45.48,Default,,0000,0000,0000,,圣德蕾莎 请让他改变主意
+Dialogue: 0,0:30:45.65,0:30:47.36,Default,,0000,0000,0000,,我想留在马戏班
+Dialogue: 0,0:31:31.80,0:31:34.74,Default,,0000,0000,0000,,伊迪丝 伊迪丝 过来
+Dialogue: 0,0:32:36.48,0:32:38.44,Default,,0000,0000,0000,,弯成那样可真好玩
+Dialogue: 0,0:32:46.95,0:32:49.04,Default,,0000,0000,0000,,那个小妹妹也会表演杂技吗
+Dialogue: 0,0:32:49.35,0:32:50.84,Default,,0000,0000,0000,,等一下 马上
+Dialogue: 0,0:32:50.93,0:32:53.14,Default,,0000,0000,0000,,伊迪丝 随便表演点什么都好
+Dialogue: 0,0:32:53.35,0:32:55.83,Default,,0000,0000,0000,,快点 否则大家要走了 快想办法
+Dialogue: 0,0:32:58.12,0:32:59.91,Default,,0000,0000,0000,,快 表演呐
+Dialogue: 0,0:33:04.06,0:33:07.43,Default,,0000,0000,0000,,祖国的儿郎快觉醒
+Dialogue: 0,0:33:07.76,0:33:15.11,Default,,0000,0000,0000,,光荣的日子已来临
+Dialogue: 0,0:33:15.50,0:33:18.77,Default,,0000,0000,0000,,专制暴政压迫子民
+Dialogue: 0,0:33:19.02,0:33:22.17,Default,,0000,0000,0000,,血腥旗帜高高升起
+Dialogue: 0,0:33:22.62,0:33:25.89,Default,,0000,0000,0000,,你可曾听见战场上
+Dialogue: 0,0:33:26.34,0:33:29.49,Default,,0000,0000,0000,,凶狠敌兵烧杀凌虐
+Dialogue: 0,0:33:29.74,0:33:33.01,Default,,0000,0000,0000,,他们闯进我们怀中
+Dialogue: 0,0:33:33.26,0:33:36.73,Default,,0000,0000,0000,,刺穿你我妻儿咽喉
+Dialogue: 0,0:33:37.48,0:33:40.83,Default,,0000,0000,0000,,公民们 武装起来
+Dialogue: 0,0:33:41.08,0:33:44.03,Default,,0000,0000,0000,,公民们 投入战斗
+Dialogue: 0,0:33:44.28,0:33:47.82,Default,,0000,0000,0000,,前进 前进
+Dialogue: 0,0:33:48.28,0:33:51.27,Default,,0000,0000,0000,,让不纯净的污血
+Dialogue: 0,0:33:51.52,0:33:55.91,Default,,0000,0000,0000,,浸满我们的战沟
+Dialogue: 0,0:33:56.95,0:33:58.32,Default,,0000,0000,0000,,-好 -好
+Dialogue: 0,0:34:03.32,0:34:04.21,Default,,0000,0000,0000,,唱得好
+Dialogue: 0,0:34:08.07,0:34:09.04,Default,,0000,0000,0000,,我女儿
+Dialogue: 0,0:34:24.00,0:34:25.91,Default,,0000,0000,0000,,我受够胡萝卜汁了
+Dialogue: 0,0:34:26.35,0:34:29.56,Default,,0000,0000,0000,,只要我是你的护士 你就得喝胡萝卜汁
+Dialogue: 0,0:34:33.28,0:34:35.51,Default,,0000,0000,0000,,西蒙妮 我喜欢暗一点
+Dialogue: 0,0:34:35.51,0:34:38.31,Default,,0000,0000,0000,,看外面天气多好 晒太阳对你有好处
+Dialogue: 0,0:34:49.92,0:34:50.71,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:34:50.77,0:34:52.05,Default,,0000,0000,0000,,我知道你难受
+Dialogue: 0,0:34:52.85,0:34:55.89,Default,,0000,0000,0000,,但是 你需要 多多地休息
+Dialogue: 0,0:34:56.08,0:34:57.94,Default,,0000,0000,0000,,还要有耐心
+Dialogue: 0,0:34:59.36,0:35:01.32,Default,,0000,0000,0000,,你先生今天打电话来
+Dialogue: 0,0:35:01.36,0:35:02.72,Default,,0000,0000,0000,,-他想 -没用的
+Dialogue: 0,0:35:04.77,0:35:06.74,Default,,0000,0000,0000,,我心里很痛苦
+Dialogue: 0,0:35:07.62,0:35:09.08,Default,,0000,0000,0000,,我太过分了
+Dialogue: 0,0:35:11.64,0:35:14.66,Default,,0000,0000,0000,,这三年来简直就像是噩梦
+Dialogue: 0,0:35:15.44,0:35:17.70,Default,,0000,0000,0000,,伊迪丝 你是个艺术家
+Dialogue: 0,0:35:20.94,0:35:22.66,Default,,0000,0000,0000,,-西蒙妮 -什么事
+Dialogue: 0,0:35:26.71,0:35:29.84,Default,,0000,0000,0000,,我没办法再唱歌了 对吗
+Dialogue: 0,0:35:39.48,0:35:44.18,Default,,0000,0000,0000,,唱的不只是我的声音
+Dialogue: 0,0:35:44.30,0:35:48.36,Default,,0000,0000,0000,,还有别的声音 群众的声音
+Dialogue: 0,0:35:48.40,0:35:52.72,Default,,0000,0000,0000,,今日或往日的声音
+Dialogue: 0,0:35:52.85,0:35:54.84,Default,,0000,0000,0000,,有趣又光明
+Dialogue: 0,0:35:54.88,0:35:56.84,Default,,0000,0000,0000,,绝望又赞叹
+Dialogue: 0,0:35:57.12,0:36:00.75,Default,,0000,0000,0000,,撕裂又破碎的声音
+Dialogue: 0,0:36:01.46,0:36:05.41,Default,,0000,0000,0000,,微笑又诱人的声音
+Dialogue: 0,0:36:05.66,0:36:07.53,Default,,0000,0000,0000,,为苦痛与喜悦疯狂
+Dialogue: 0,0:36:08.04,0:36:09.91,Default,,0000,0000,0000,,那是全新的哀伤的声音
+Dialogue: 0,0:36:10.12,0:36:15.47,Default,,0000,0000,0000,,逝去或活生生的爱的声音
+Dialogue: 0,0:36:22.34,0:36:26.53,Default,,0000,0000,0000,,可怜流浪汉的声音
+Dialogue: 0,0:36:26.94,0:36:30.81,Default,,0000,0000,0000,,濒临溺毙的人的声音
+Dialogue: 0,0:36:31.30,0:36:34.44,注解,,0000,0000,0000,,是吃了巴掌的孩子的声音
+Dialogue: 0,0:36:32.77,0:36:33.71,Default,,0000,0000,0000,,你在看什么
+Dialogue: 0,0:36:33.75,0:36:34.69,Default,,0000,0000,0000,,我肚子饿了
+Dialogue: 0,0:36:34.76,0:36:36.66,Default,,0000,0000,0000,,先唱半小时 然后就去吃
+Dialogue: 0,0:36:36.69,0:36:39.25,Default,,0000,0000,0000,,一个人唱歌像要饭 两个人像表演
+Dialogue: 0,0:36:43.11,0:36:44.52,Default,,0000,0000,0000,,去那边唱
+Dialogue: 0,0:36:51.04,0:36:55.56,Default,,0000,0000,0000,,在不知名的屋檐沟槽处
+Dialogue: 0,0:36:55.60,0:36:56.56,Default,,0000,0000,0000,,喂 你
+Dialogue: 0,0:36:58.15,0:36:59.83,Default,,0000,0000,0000,,不准在这里卖唱
+Dialogue: 0,0:37:00.58,0:37:01.65,Default,,0000,0000,0000,,为什么不行
+Dialogue: 0,0:37:01.91,0:37:03.56,Default,,0000,0000,0000,,-你几岁了 -20
+Dialogue: 0,0:37:04.32,0:37:05.32,Default,,0000,0000,0000,,这是什么
+Dialogue: 0,0:37:06.55,0:37:08.81,Default,,0000,0000,0000,,她 她只喝了一点点而已
+Dialogue: 0,0:37:09.27,0:37:10.04,Default,,0000,0000,0000,,过来
+Dialogue: 0,0:37:10.85,0:37:12.20,Default,,0000,0000,0000,,你会唱《灰色》吗
+Dialogue: 0,0:37:12.32,0:37:13.78,Default,,0000,0000,0000,,大爷 赏根
+Dialogue: 0,0:37:13.83,0:37:14.50,Default,,0000,0000,0000,,闭嘴
+Dialogue: 0,0:37:15.38,0:37:17.65,Default,,0000,0000,0000,,如果你唱给我听 我就放你走
+Dialogue: 0,0:37:17.76,0:37:20.39,Default,,0000,0000,0000,,我去那边听 那不是我的管辖区
+Dialogue: 0,0:37:24.07,0:37:27.45,Default,,0000,0000,0000,,大爷 赏根烟吧
+Dialogue: 0,0:37:27.70,0:37:30.41,Default,,0000,0000,0000,,一根烟 算不了什么
+Dialogue: 0,0:37:31.03,0:37:33.73,Default,,0000,0000,0000,,我讨你欢喜 咱们就聊两句
+Dialogue: 0,0:37:34.32,0:37:38.07,Default,,0000,0000,0000,,你人好 忠心耿耿的狗样
+Dialogue: 0,0:37:38.28,0:37:41.23,Default,,0000,0000,0000,,你人丑 还是会一样
+Dialogue: 0,0:37:41.48,0:37:44.85,注解,,0000,0000,0000,,我还是会说你好模样
+Dialogue: 0,0:37:44.12,0:37:45.46,Default,,0000,0000,0000,,小姐拿去 你真可怜
+Dialogue: 0,0:37:44.98,0:37:46.57,注解,,0000,0000,0000,,你猜得出原因
+Dialogue: 0,0:37:46.95,0:37:48.45,Default,,0000,0000,0000,,因为我有求于你
+Dialogue: 0,0:37:49.10,0:37:52.69,Default,,0000,0000,0000,,一根雪茄 一个烟屁股
+Dialogue: 0,0:37:53.48,0:37:55.22,Default,,0000,0000,0000,,到下星期 咱们
+Dialogue: 0,0:37:55.72,0:37:57.52,Default,,0000,0000,0000,,就流落街头五年了
+Dialogue: 0,0:37:59.51,0:38:02.18,Default,,0000,0000,0000,,你是喜欢跟我流浪街头呢 还是做工呢
+Dialogue: 0,0:38:03.06,0:38:05.77,Default,,0000,0000,0000,,我宁愿去死 也不要去工厂做工
+Dialogue: 0,0:38:06.40,0:38:07.16,Default,,0000,0000,0000,,那你呢
+Dialogue: 0,0:38:07.60,0:38:08.55,Default,,0000,0000,0000,,我什么
+Dialogue: 0,0:38:08.69,0:38:11.94,Default,,0000,0000,0000,,-当初 你在奶酪店拼死拼活地 -拜托 你别说了
+Dialogue: 0,0:38:12.04,0:38:13.48,Default,,0000,0000,0000,,我没心情说这个
+Dialogue: 0,0:38:14.26,0:38:16.10,Default,,0000,0000,0000,,爱妮塔 少来找碴
+Dialogue: 0,0:38:17.48,0:38:19.48,Default,,0000,0000,0000,,你朝思暮想的老妈来了
+Dialogue: 0,0:38:25.41,0:38:26.69,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:38:29.73,0:38:31.02,Default,,0000,0000,0000,,你有零钱吗
+Dialogue: 0,0:38:39.67,0:38:40.81,Default,,0000,0000,0000,,就这么点儿
+Dialogue: 0,0:38:40.98,0:38:43.40,Default,,0000,0000,0000,,只有这些了 我又不是大富婆
+Dialogue: 0,0:38:44.40,0:38:46.78,Default,,0000,0000,0000,,-给我几张大钞吧 -没有
+Dialogue: 0,0:38:49.73,0:38:50.88,Default,,0000,0000,0000,,我是你妈
+Dialogue: 0,0:38:51.06,0:38:51.80,Default,,0000,0000,0000,,出去
+Dialogue: 0,0:38:54.47,0:38:56.34,Default,,0000,0000,0000,,要我唱首歌给你听吗
+Dialogue: 0,0:38:56.94,0:38:58.27,Default,,0000,0000,0000,,把她给我轰出去
+Dialogue: 0,0:39:01.11,0:39:03.96,Default,,0000,0000,0000,,我是一个艺术家 你又是什么东西
+Dialogue: 0,0:39:04.23,0:39:05.46,Default,,0000,0000,0000,,你走着瞧
+Dialogue: 0,0:39:05.62,0:39:07.25,Default,,0000,0000,0000,,-走着瞧 -瞧什么瞧
+Dialogue: 0,0:39:07.38,0:39:09.81,Default,,0000,0000,0000,,你也会有手头紧的时候
+Dialogue: 0,0:39:10.05,0:39:10.64,Default,,0000,0000,0000,,够了
+Dialogue: 0,0:39:10.71,0:39:13.52,Default,,0000,0000,0000,,-再闹给我滚出去 -等看着你猪狗不如
+Dialogue: 0,0:39:13.65,0:39:14.50,Default,,0000,0000,0000,,滚出去
+Dialogue: 0,0:39:17.85,0:39:21.20,Default,,0000,0000,0000,,别指望着什么养女儿防老
+Dialogue: 0,0:39:21.56,0:39:22.40,Default,,0000,0000,0000,,你少烦她
+Dialogue: 0,0:39:22.94,0:39:23.84,Default,,0000,0000,0000,,你不走我走
+Dialogue: 0,0:39:24.15,0:39:25.09,Default,,0000,0000,0000,,吃我的剩饭吧
+Dialogue: 0,0:39:25.11,0:39:26.80,Default,,0000,0000,0000,,你不是歌手 你是个屁
+Dialogue: 0,0:39:26.82,0:39:28.50,Default,,0000,0000,0000,,-你算什么东西 -少烦她
+Dialogue: 0,0:39:28.52,0:39:30.16,Default,,0000,0000,0000,,-什么东西 -当心我揍你
+Dialogue: 0,0:39:30.23,0:39:31.14,Default,,0000,0000,0000,,走啊 走啊
+Dialogue: 0,0:39:31.43,0:39:33.57,Default,,0000,0000,0000,,咱们走 离开这个烂酒馆
+Dialogue: 0,0:39:34.87,0:39:36.20,Default,,0000,0000,0000,,滚 吃屎去吧
+Dialogue: 0,0:39:36.31,0:39:38.87,Default,,0000,0000,0000,,走吧 去拉皮条吧
+Dialogue: 0,0:39:38.93,0:39:39.72,Default,,0000,0000,0000,,去呀
+Dialogue: 0,0:39:40.60,0:39:43.40,Default,,0000,0000,0000,,趁有人还要你的臭屁股
+Dialogue: 0,0:39:41.10,0:39:43.62,注解,,0000,0000,0000,,每晚在巴黎的大街上
+Dialogue: 0,0:39:43.96,0:39:46.71,Default,,0000,0000,0000,,都在红灯户讨生活
+Dialogue: 0,0:39:46.85,0:39:47.52,Default,,0000,0000,0000,,谢谢 夫人
+Dialogue: 0,0:39:46.92,0:39:52.63,注解,,0000,0000,0000,,心中快活似小云雀
+Dialogue: 0,0:39:51.04,0:39:51.94,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:39:53.16,0:39:55.31,注解,,0000,0000,0000,,冬日将近我最欢喜
+Dialogue: 0,0:39:54.96,0:39:55.76,Default,,0000,0000,0000,,谢谢 先生
+Dialogue: 0,0:39:55.56,0:39:58.15,注解,,0000,0000,0000,,我这副可怜的身子
+Dialogue: 0,0:39:58.20,0:40:03.04,注解,,0000,0000,0000,,已经倦了 倏地落地
+Dialogue: 0,0:39:58.29,0:39:58.90,Default,,0000,0000,0000,,给
+Dialogue: 0,0:39:58.90,0:39:59.83,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:40:01.22,0:40:01.99,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:40:03.19,0:40:05.09,Default,,0000,0000,0000,,在病床上度过一宿
+Dialogue: 0,0:40:05.11,0:40:07.34,Default,,0000,0000,0000,,不比别的地方差劲
+Dialogue: 0,0:40:08.10,0:40:10.25,Default,,0000,0000,0000,,再怎么身处困境
+Dialogue: 0,0:40:10.50,0:40:12.37,Default,,0000,0000,0000,,我也衷心盼望
+Dialogue: 0,0:40:12.62,0:40:18.41,注解,,0000,0000,0000,,有个男人真心爱我
+Dialogue: 0,0:40:13.43,0:40:14.07,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:40:14.66,0:40:15.32,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:40:18.56,0:40:22.26,Eng,,0000,0000,0000,,与他共筑温暖小窝
+Dialogue: 0,0:40:22.56,0:40:24.36,Default,,0000,0000,0000,,让我的生活
+Dialogue: 0,0:40:24.65,0:40:28.79,Default,,0000,0000,0000,,跟小云雀一个样
+Dialogue: 0,0:40:35.89,0:40:37.28,Default,,0000,0000,0000,,-拿去 -谢谢
+Dialogue: 0,0:40:37.48,0:40:39.92,Default,,0000,0000,0000,,小姑娘 这样唱歌很伤喉咙的
+Dialogue: 0,0:40:39.96,0:40:41.67,Default,,0000,0000,0000,,我总得赚钱吃饭哪 先生
+Dialogue: 0,0:40:42.52,0:40:43.90,Default,,0000,0000,0000,,当然了
+Dialogue: 0,0:40:44.36,0:40:45.89,Default,,0000,0000,0000,,拿去 这是我的名片
+Dialogue: 0,0:40:46.06,0:40:47.59,Default,,0000,0000,0000,,我叫路易·勒普雷
+Dialogue: 0,0:40:47.68,0:40:49.94,Default,,0000,0000,0000,,明天两点到格内酒吧找我
+Dialogue: 0,0:40:49.96,0:40:52.07,Default,,0000,0000,0000,,看看我能帮点你什么
+Dialogue: 0,0:40:52.86,0:40:53.77,Default,,0000,0000,0000,,你也唱歌吗
+Dialogue: 0,0:40:53.84,0:40:55.94,Default,,0000,0000,0000,,不 但我有别的绝招
+Dialogue: 0,0:40:56.66,0:40:59.44,Default,,0000,0000,0000,,好 就唱你平常唱的那些吧
+Dialogue: 0,0:41:01.69,0:41:02.73,Default,,0000,0000,0000,,要是我不去呢
+Dialogue: 0,0:41:05.10,0:41:06.90,Default,,0000,0000,0000,,随便你 小姑娘
+Dialogue: 0,0:41:21.64,0:41:24.20,Default,,0000,0000,0000,,我温柔以待
+Dialogue: 0,0:41:24.72,0:41:27.31,Default,,0000,0000,0000,,浓情密意
+Dialogue: 0,0:41:29.27,0:41:30.35,Default,,0000,0000,0000,,怎么回事
+Dialogue: 0,0:41:30.60,0:41:32.44,Default,,0000,0000,0000,,出去一整天 就赚了这么点
+Dialogue: 0,0:41:32.53,0:41:34.50,Default,,0000,0000,0000,,亏我还那么信任你 结果呢
+Dialogue: 0,0:41:35.54,0:41:36.60,Default,,0000,0000,0000,,留一点给我爸
+Dialogue: 0,0:41:36.94,0:41:38.50,Default,,0000,0000,0000,,他生病了 又身无分文
+Dialogue: 0,0:41:38.95,0:41:40.44,Default,,0000,0000,0000,,我又不是救世主
+Dialogue: 0,0:41:40.52,0:41:42.18,Default,,0000,0000,0000,,我发誓 他是真的生病了
+Dialogue: 0,0:41:44.98,0:41:47.51,Default,,0000,0000,0000,,把你丢在窑子里 看你还说他病不病
+Dialogue: 0,0:41:48.53,0:41:49.31,Default,,0000,0000,0000,,放手
+Dialogue: 0,0:41:49.48,0:41:51.31,Default,,0000,0000,0000,,我才不要呢 别想了
+Dialogue: 0,0:41:51.48,0:41:54.05,Default,,0000,0000,0000,,饿死也不当妓女 我死了算了
+Dialogue: 0,0:41:54.27,0:41:56.00,Default,,0000,0000,0000,,她要是死了 就是你害的
+Dialogue: 0,0:41:56.10,0:41:57.10,Default,,0000,0000,0000,,你给我闭嘴
+Dialogue: 0,0:41:59.10,0:42:00.98,Default,,0000,0000,0000,,给老子多赚点钱 明白吗
+Dialogue: 0,0:42:01.51,0:42:04.37,Default,,0000,0000,0000,,否则就张开大腿多做点生意
+Dialogue: 0,0:42:04.77,0:42:06.15,Default,,0000,0000,0000,,要张你自己张
+Dialogue: 0,0:42:15.35,0:42:17.64,Default,,0000,0000,0000,,亚伯特 对不起
+Dialogue: 0,0:42:18.92,0:42:20.96,Default,,0000,0000,0000,,留下 求求你留下来
+Dialogue: 0,0:42:21.31,0:42:22.73,Default,,0000,0000,0000,,甩了这个孬种
+Dialogue: 0,0:42:27.80,0:42:29.84,Default,,0000,0000,0000,,艾提安 帮她加满
+Dialogue: 0,0:42:32.12,0:42:33.92,Default,,0000,0000,0000,,你们要跟我们去中国佬那儿吗
+Dialogue: 0,0:42:33.97,0:42:34.64,Default,,0000,0000,0000,,我们是谁
+Dialogue: 0,0:42:34.66,0:42:36.69,Default,,0000,0000,0000,,那两个意大利人 胖子和脓包
+Dialogue: 0,0:42:37.62,0:42:39.94,Default,,0000,0000,0000,,可卡因 白粉 那儿应有尽有
+Dialogue: 0,0:42:39.99,0:42:42.60,Default,,0000,0000,0000,,再给你来点人间温情什么的 嗯
+Dialogue: 0,0:42:42.73,0:42:44.55,Default,,0000,0000,0000,,-走开 -我跟你睡过一次
+Dialogue: 0,0:42:44.58,0:42:47.56,Default,,0000,0000,0000,,但不代表我每晚都会跟你
+Dialogue: 0,0:42:47.89,0:42:48.89,Default,,0000,0000,0000,,你听懂了吗
+Dialogue: 0,0:42:49.09,0:42:49.89,Default,,0000,0000,0000,,别装了
+Dialogue: 0,0:42:50.96,0:42:51.82,Default,,0000,0000,0000,,你知道
+Dialogue: 0,0:42:52.10,0:42:54.04,Default,,0000,0000,0000,,我为什么搭理你吗
+Dialogue: 0,0:42:54.16,0:42:55.36,Default,,0000,0000,0000,,不知道吧
+Dialogue: 0,0:42:55.52,0:42:57.12,Default,,0000,0000,0000,,因为你太笨了
+Dialogue: 0,0:42:57.17,0:42:59.11,Default,,0000,0000,0000,,你就是个大笨蛋
+Dialogue: 0,0:42:59.22,0:43:01.11,Default,,0000,0000,0000,,因为我是一个艺术家
+Dialogue: 0,0:43:01.19,0:43:03.35,Default,,0000,0000,0000,,我一定会出人头地的
+Dialogue: 0,0:43:03.52,0:43:06.19,Default,,0000,0000,0000,,我知道 我一直以来都知道
+Dialogue: 0,0:43:09.38,0:43:10.73,Default,,0000,0000,0000,,那儿有火焰
+Dialogue: 0,0:43:10.94,0:43:14.05,Default,,0000,0000,0000,,圣德蕾莎 我看到我的前途一片光明
+Dialogue: 0,0:43:17.18,0:43:21.35,Default,,0000,0000,0000,,穿梭于舞会 一心想遗忘
+Dialogue: 0,0:43:21.48,0:43:24.87,注解,,0000,0000,0000,,但就是办不到
+Dialogue: 0,0:43:21.92,0:43:25.06,Default,,0000,0000,0000,,看到她的衣服没有 她怎么病殃殃的
+Dialogue: 0,0:43:25.38,0:43:28.07,注解,,0000,0000,0000,,我告诉自己说 来吧
+Dialogue: 0,0:43:25.40,0:43:27.56,Default,,0000,0000,0000,,他是从哪儿把她挖出来的
+Dialogue: 0,0:43:38.36,0:43:41.27,Default,,0000,0000,0000,,我就像只狗
+Dialogue: 0,0:43:41.52,0:43:43.47,Default,,0000,0000,0000,,任他予取予求
+Dialogue: 0,0:43:43.72,0:43:45.59,注解,,0000,0000,0000,,我真的疯了
+Dialogue: 0,0:43:44.74,0:43:46.08,Default,,0000,0000,0000,,她简直太棒了
+Dialogue: 0,0:43:45.70,0:43:47.65,注解,,0000,0000,0000,,那个没尝过
+Dialogue: 0,0:43:48.08,0:43:49.87,注解,,0000,0000,0000,,这滋味的
+Dialogue: 0,0:43:48.23,0:43:49.67,Default,,0000,0000,0000,,给我来杯香槟
+Dialogue: 0,0:43:49.88,0:43:51.14,Default,,0000,0000,0000,,老板爱上她了
+Dialogue: 0,0:43:50.60,0:43:55.11,注解,,0000,0000,0000,,竟敢第一个上前来
+Dialogue: 0,0:43:51.20,0:43:53.14,Default,,0000,0000,0000,,不过 她真的中气十足
+Dialogue: 0,0:43:56.84,0:43:58.69,Default,,0000,0000,0000,,朝我扔石头
+Dialogue: 0,0:43:58.70,0:44:00.82,Default,,0000,0000,0000,,这是个发育不良的小女孩 路易
+Dialogue: 0,0:43:58.80,0:44:00.53,注解,,0000,0000,0000,,我挨了一记
+Dialogue: 0,0:44:00.68,0:44:02.93,注解,,0000,0000,0000,,最悲惨的病痛
+Dialogue: 0,0:44:00.84,0:44:02.61,Default,,0000,0000,0000,,留点口德 约瑟特
+Dialogue: 0,0:44:04.00,0:44:06.56,Default,,0000,0000,0000,,但这的的确确
+Dialogue: 0,0:44:06.92,0:44:10.21,Default,,0000,0000,0000,,就是恋爱 请大家担待着点儿
+Dialogue: 0,0:44:10.46,0:44:16.40,Default,,0000,0000,0000,,恋爱中的女人
+Dialogue: 0,0:44:31.83,0:44:33.36,Default,,0000,0000,0000,,再告诉我一遍你的名字
+Dialogue: 0,0:44:33.44,0:44:35.31,Default,,0000,0000,0000,,伊迪丝·吉奥瓦纳·贾希昂
+Dialogue: 0,0:44:36.65,0:44:37.77,Default,,0000,0000,0000,,听起来不怎么样
+Dialogue: 0,0:44:37.84,0:44:39.12,Default,,0000,0000,0000,,我还有别的艺名
+Dialogue: 0,0:44:40.10,0:44:42.69,Default,,0000,0000,0000,,优姬·艾里亚丝·塔妮亚
+Dialogue: 0,0:44:43.97,0:44:45.17,Default,,0000,0000,0000,,丹妮丝·杰
+Dialogue: 0,0:44:45.41,0:44:46.36,Default,,0000,0000,0000,,杰
+Dialogue: 0,0:44:46.73,0:44:48.27,Default,,0000,0000,0000,,噢 你发音好标准
+Dialogue: 0,0:44:48.76,0:44:50.34,Default,,0000,0000,0000,,那不是重点
+Dialogue: 0,0:44:52.77,0:44:54.71,Default,,0000,0000,0000,,你让我想起了小云雀
+Dialogue: 0,0:44:55.00,0:44:55.91,Default,,0000,0000,0000,,哪是
+Dialogue: 0,0:44:58.10,0:44:59.54,Default,,0000,0000,0000,,有人叫云雀姑娘吗
+Dialogue: 0,0:44:59.57,0:45:00.96,Default,,0000,0000,0000,,已经有人了
+Dialogue: 0,0:45:02.35,0:45:03.56,Default,,0000,0000,0000,,云雀
+Dialogue: 0,0:45:04.31,0:45:07.01,Default,,0000,0000,0000,,皮雅芙也是云雀的意思
+Dialogue: 0,0:45:08.42,0:45:09.86,Default,,0000,0000,0000,,是这么说的吗 皮雅芙
+Dialogue: 0,0:45:10.82,0:45:12.25,Default,,0000,0000,0000,,小云雀皮雅芙
+Dialogue: 0,0:45:12.52,0:45:13.65,Default,,0000,0000,0000,,真的太棒了
+Dialogue: 0,0:45:13.86,0:45:15.70,Default,,0000,0000,0000,,小云雀皮雅芙 听起来好土啊
+Dialogue: 0,0:45:15.78,0:45:16.94,Default,,0000,0000,0000,,你胡说什么
+Dialogue: 0,0:45:17.06,0:45:18.26,Default,,0000,0000,0000,,小云雀皮雅芙
+Dialogue: 0,0:45:18.46,0:45:19.76,Default,,0000,0000,0000,,这个名字真的太棒了
+Dialogue: 0,0:45:19.99,0:45:22.72,Default,,0000,0000,0000,,得唱些经典歌曲 才配得上这个名字
+Dialogue: 0,0:45:22.96,0:45:25.48,Default,,0000,0000,0000,,比如 妮妮 狗皮一张 棕色华尔兹
+Dialogue: 0,0:45:25.56,0:45:26.85,Default,,0000,0000,0000,,噢 这首我会
+Dialogue: 0,0:45:26.95,0:45:29.24,Default,,0000,0000,0000,,我希望你每天晚上都给我好好唱歌
+Dialogue: 0,0:45:30.48,0:45:31.65,Default,,0000,0000,0000,,从周五开始
+Dialogue: 0,0:45:34.52,0:45:36.81,Default,,0000,0000,0000,,晚上好 夫人 节目马上就要开始了
+Dialogue: 0,0:45:36.98,0:45:38.63,Default,,0000,0000,0000,,去看看你的小云雀
+Dialogue: 0,0:45:38.64,0:45:40.35,Default,,0000,0000,0000,,-怎么了 -她的举止不太得体
+Dialogue: 0,0:45:40.39,0:45:41.85,Default,,0000,0000,0000,,我知道了 我这就去
+Dialogue: 0,0:45:44.61,0:45:45.42,Default,,0000,0000,0000,,菲利普
+Dialogue: 0,0:45:45.73,0:45:47.77,Default,,0000,0000,0000,,后台不准再供应酒水
+Dialogue: 0,0:45:54.80,0:45:55.70,Default,,0000,0000,0000,,准备好了吗
+Dialogue: 0,0:45:56.48,0:45:57.39,Default,,0000,0000,0000,,衣服还没弄好
+Dialogue: 0,0:45:57.58,0:45:58.69,Default,,0000,0000,0000,,我在给她装袖子
+Dialogue: 0,0:45:58.90,0:46:00.69,Default,,0000,0000,0000,,-马上就好 -噢 快点
+Dialogue: 0,0:46:00.84,0:46:02.64,Default,,0000,0000,0000,,没时间了 全场都坐满了
+Dialogue: 0,0:46:02.68,0:46:04.16,Default,,0000,0000,0000,,那就更需要装上袖子
+Dialogue: 0,0:46:04.29,0:46:06.28,Default,,0000,0000,0000,,你总不希望她邋里邋遢上台吧
+Dialogue: 0,0:46:06.31,0:46:08.48,Default,,0000,0000,0000,,噢 看哪 咱们的红牌大歌星
+Dialogue: 0,0:46:08.53,0:46:10.10,Default,,0000,0000,0000,,在帮新人穿衣服呢
+Dialogue: 0,0:46:10.15,0:46:10.79,Default,,0000,0000,0000,,是啊
+Dialogue: 0,0:46:11.00,0:46:12.31,Default,,0000,0000,0000,,很乐意这么做
+Dialogue: 0,0:46:12.58,0:46:14.31,Default,,0000,0000,0000,,小姐们 动作请快一点
+Dialogue: 0,0:46:14.71,0:46:16.44,Default,,0000,0000,0000,,路易 我想吐
+Dialogue: 0,0:46:16.53,0:46:18.80,Default,,0000,0000,0000,,现在不是时候 快出场
+Dialogue: 0,0:46:23.78,0:46:25.68,Default,,0000,0000,0000,,前几天 在回家的路上
+Dialogue: 0,0:46:25.76,0:46:27.73,Default,,0000,0000,0000,,拜命运之神所赐
+Dialogue: 0,0:46:27.92,0:46:31.00,Default,,0000,0000,0000,,我巧遇了接下来您将会看到的这位
+Dialogue: 0,0:46:31.06,0:46:33.00,Default,,0000,0000,0000,,她就这么翩翩地到来
+Dialogue: 0,0:46:33.09,0:46:35.50,Default,,0000,0000,0000,,就像一颗未经雕琢的钻石
+Dialogue: 0,0:46:36.52,0:46:40.02,Default,,0000,0000,0000,,从街头来到格内酒吧 小云雀皮雅芙
+Dialogue: 0,0:47:09.16,0:47:11.67,Default,,0000,0000,0000,,周复一周
+Dialogue: 0,0:47:11.88,0:47:13.95,Default,,0000,0000,0000,,在市郊的大道上
+Dialogue: 0,0:47:14.32,0:47:16.65,Default,,0000,0000,0000,,看到他们以百计数
+Dialogue: 0,0:47:16.86,0:47:19.01,Default,,0000,0000,0000,,肮脏的浪人和他们的爱人
+Dialogue: 0,0:47:19.26,0:47:21.53,Default,,0000,0000,0000,,穿了十天的衬衫里
+Dialogue: 0,0:47:21.78,0:47:24.08,Default,,0000,0000,0000,,在黑暗中的灯光下
+Dialogue: 0,0:47:24.48,0:47:27.09,Default,,0000,0000,0000,,摆出一副侯爵气派
+Dialogue: 0,0:47:27.22,0:47:29.99,Default,,0000,0000,0000,,这些美丽的女铁匠
+Dialogue: 0,0:47:30.40,0:47:33.60,Default,,0000,0000,0000,,是咱们的娃娃 木偶和傀儡
+Dialogue: 0,0:47:33.92,0:47:35.99,Default,,0000,0000,0000,,听她们在夜里
+Dialogue: 0,0:47:36.26,0:47:39.73,Default,,0000,0000,0000,,唱的老调[
+Dialogue: 0,0:47:41.02,0:47:44.21,Default,,0000,0000,0000,,咱们这些姑娘 乡下姑娘
+Dialogue: 0,0:47:44.46,0:47:47.24,Default,,0000,0000,0000,,没挣到半毛就离去的流浪女
+Dialogue: 0,0:47:47.33,0:47:50.47,Default,,0000,0000,0000,,夜里随处可亲热卖处
+Dialogue: 0,0:47:50.54,0:47:53.61,Default,,0000,0000,0000,,可她们没像样的衣裳
+Dialogue: 0,0:47:53.75,0:47:57.50,Default,,0000,0000,0000,,没法到富人豪宅区去
+Dialogue: 0,0:47:57.96,0:48:00.19,Default,,0000,0000,0000,,她们每晚挣钱的地方
+Dialogue: 0,0:48:00.44,0:48:03.06,Default,,0000,0000,0000,,总归不是老佛爷百货
+Dialogue: 0,0:48:03.36,0:48:05.71,Default,,0000,0000,0000,,而是沿着圣马丁运河
+Dialogue: 0,0:48:06.36,0:48:08.71,Default,,0000,0000,0000,,就在赛巴多 在小教堂边上
+Dialogue: 0,0:48:08.75,0:48:11.02,注解,,0000,0000,0000,,总是很狡猾
+Dialogue: 0,0:48:09.57,0:48:10.90,Default,,0000,0000,0000,,我的亲妹妹
+Dialogue: 0,0:48:11.44,0:48:13.39,Default,,0000,0000,0000,,在召唤你的大爷眼里
+Dialogue: 0,0:48:14.17,0:48:17.08,Default,,0000,0000,0000,,你的穿着打扮土里土气
+Dialogue: 0,0:48:17.38,0:48:19.18,Default,,0000,0000,0000,,可不会有什么高档货
+Dialogue: 0,0:48:19.86,0:48:22.21,Default,,0000,0000,0000,,专卖便宜货的市集
+Dialogue: 0,0:48:22.42,0:48:25.97,Default,,0000,0000,0000,,哪会有丝做的娃娃 可怜的穷光蛋
+Dialogue: 0,0:48:26.32,0:48:29.60,Default,,0000,0000,0000,,回可怕的洞里睡去吧
+Dialogue: 0,0:48:30.21,0:48:31.56,注解,,0000,0000,0000,,就在那送殡列队后头
+Dialogue: 0,0:48:31.65,0:48:33.26,Default,,0000,0000,0000,,我说的没错吧
+Dialogue: 0,0:48:31.71,0:48:33.40,注解,,0000,0000,0000,,♪ 永远没人会瞧上一眼 ♪
+Dialogue: 0,0:48:33.30,0:48:34.77,Default,,0000,0000,0000,,她令人目眩神迷
+Dialogue: 0,0:48:36.42,0:48:38.61,Default,,0000,0000,0000,,鲜花 花冠 身边连个人都没
+Dialogue: 0,0:48:38.77,0:48:40.96,Default,,0000,0000,0000,,管它的
+Dialogue: 0,0:48:41.59,0:48:44.47,Default,,0000,0000,0000,,谁管它
+Dialogue: 0,0:48:45.21,0:48:47.89,Default,,0000,0000,0000,,就连归西的那天也不好受
+Dialogue: 0,0:48:48.47,0:48:50.94,Default,,0000,0000,0000,,这是我们最美好的一天
+Dialogue: 0,0:48:51.23,0:48:54.91,Default,,0000,0000,0000,,钟声 这钟声
+Dialogue: 0,0:48:55.71,0:49:00.84,Default,,0000,0000,0000,,为乡下姑娘悠悠响起
+Dialogue: 0,0:49:04.10,0:49:05.67,Default,,0000,0000,0000,,好 唱得好
+Dialogue: 0,0:49:05.73,0:49:07.38,Default,,0000,0000,0000,,唱得好 好
+Dialogue: 0,0:49:11.92,0:49:13.96,Default,,0000,0000,0000,,好 唱得好 好
+Dialogue: 0,0:49:17.51,0:49:18.52,Default,,0000,0000,0000,,很好
+Dialogue: 0,0:49:20.02,0:49:21.08,Default,,0000,0000,0000,,好 姑娘
+Dialogue: 0,0:49:21.52,0:49:22.38,Default,,0000,0000,0000,,来
+Dialogue: 0,0:49:25.93,0:49:28.14,Default,,0000,0000,0000,,见一见飞行家麦尔摩兹先生
+Dialogue: 0,0:49:29.41,0:49:31.03,Default,,0000,0000,0000,,你好 献给你的
+Dialogue: 0,0:49:32.60,0:49:33.76,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:49:34.08,0:49:35.17,Default,,0000,0000,0000,,过来 伊迪丝
+Dialogue: 0,0:49:36.60,0:49:38.56,Default,,0000,0000,0000,,今天大家都为你着迷
+Dialogue: 0,0:49:38.76,0:49:41.33,Default,,0000,0000,0000,,明天 将来也会是这样
+Dialogue: 0,0:49:41.53,0:49:44.34,Default,,0000,0000,0000,,我给你介绍一个人 他对你有帮助
+Dialogue: 0,0:49:44.95,0:49:46.34,Default,,0000,0000,0000,,唱得真好
+Dialogue: 0,0:49:47.08,0:49:48.34,Default,,0000,0000,0000,,太好了
+Dialogue: 0,0:49:48.48,0:49:50.32,Default,,0000,0000,0000,,我是钢琴家玛格丽特·莫诺
+Dialogue: 0,0:49:50.82,0:49:52.48,Default,,0000,0000,0000,,如果你将来有需要的话
+Dialogue: 0,0:49:52.53,0:49:54.20,Default,,0000,0000,0000,,我很高兴能为你作曲
+Dialogue: 0,0:49:54.64,0:49:55.60,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:49:55.76,0:49:56.44,Default,,0000,0000,0000,,来
+Dialogue: 0,0:49:57.68,0:49:58.50,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:49:58.79,0:50:00.44,Default,,0000,0000,0000,,这是贾克·坎纳堤先生
+Dialogue: 0,0:50:00.50,0:50:02.02,Default,,0000,0000,0000,,音乐城艺术总监
+Dialogue: 0,0:50:03.38,0:50:06.14,Default,,0000,0000,0000,,小姐 我被你迷得神魂颠倒了
+Dialogue: 0,0:50:07.00,0:50:07.78,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:50:07.84,0:50:10.29,Default,,0000,0000,0000,,请到我们这桌来 好吗
+Dialogue: 0,0:50:10.36,0:50:12.22,Default,,0000,0000,0000,,我不能待太久 我得走了
+Dialogue: 0,0:50:12.39,0:50:13.96,Default,,0000,0000,0000,,你有什么事要做吗
+Dialogue: 0,0:50:16.08,0:50:17.19,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,0:50:17.35,0:50:18.74,Default,,0000,0000,0000,,你搞什么鬼
+Dialogue: 0,0:50:19.01,0:50:20.93,Default,,0000,0000,0000,,太精彩了 太精彩了
+Dialogue: 0,0:50:29.03,0:50:31.35,Default,,0000,0000,0000,,放开我 放开我
+Dialogue: 0,0:50:31.38,0:50:32.72,Default,,0000,0000,0000,,你们撞着我了
+Dialogue: 0,0:50:32.90,0:50:35.62,Default,,0000,0000,0000,,蠢驴 我们等了你一个钟头了
+Dialogue: 0,0:50:35.72,0:50:38.40,Default,,0000,0000,0000,,去你的吧 我讨厌傲负女人
+Dialogue: 0,0:50:38.55,0:50:39.73,Default,,0000,0000,0000,,蠢蛋一个
+Dialogue: 0,0:50:39.80,0:50:40.92,Default,,0000,0000,0000,,你给我闭嘴
+Dialogue: 0,0:50:40.98,0:50:42.92,Default,,0000,0000,0000,,不然人家会来收拾你的
+Dialogue: 0,0:50:43.59,0:50:44.12,Default,,0000,0000,0000,,拿来
+Dialogue: 0,0:50:53.51,0:50:55.50,Default,,0000,0000,0000,,咱们就是混混
+Dialogue: 0,0:50:55.75,0:50:57.95,Default,,0000,0000,0000,,就是坏蛋 就是流氓
+Dialogue: 0,0:50:58.19,0:51:00.10,Default,,0000,0000,0000,,咱们一意孤行
+Dialogue: 0,0:51:00.39,0:51:03.75,Default,,0000,0000,0000,,白天对准目标埋伏
+nous planquons nos mirettes
+Dialogue: 0,0:51:03.93,0:51:07.01,Default,,0000,0000,0000,,夜晚 咱们倾巢而出
+nous sortons nos casquettes
+Dialogue: 0,0:51:07.37,0:51:10.58,Default,,0000,0000,0000,,女人去赛巴多那讨生活
+pendant que nous chez le bistrot
+Dialogue: 0,0:51:10.69,0:51:13.99,Default,,0000,0000,0000,,咱们到温暖的小酒馆一角
+Dialogue: 0,0:51:14.23,0:51:17.67,Default,,0000,0000,0000,,跟同挂的男子汉玩牌取乐
+Dialogue: 0,0:51:17.91,0:51:20.83,Default,,0000,0000,0000,,都是些流氓 坏蛋和混混
+Dialogue: 0,0:51:38.69,0:51:39.62,Default,,0000,0000,0000,,小姐
+Dialogue: 0,0:51:41.16,0:51:42.21,Default,,0000,0000,0000,,你太棒了
+Dialogue: 0,0:51:42.24,0:51:44.26,Default,,0000,0000,0000,,我今天晚上握手可握了个痛快
+Dialogue: 0,0:51:44.39,0:51:45.72,Default,,0000,0000,0000,,再喝点香槟吧
+Dialogue: 0,0:51:46.82,0:51:47.76,Default,,0000,0000,0000,,酒瓶给我
+Dialogue: 0,0:51:48.36,0:51:50.31,Default,,0000,0000,0000,,我就说要不相信我吧
+Dialogue: 0,0:51:50.92,0:51:53.76,Default,,0000,0000,0000,,电台是很有势力的 科夸基
+Dialogue: 0,0:51:53.89,0:51:56.20,Default,,0000,0000,0000,,你也别低估了音乐厅
+Dialogue: 0,0:51:56.76,0:51:57.84,Default,,0000,0000,0000,,-对 -那当然
+Dialogue: 0,0:51:58.20,0:52:00.06,Default,,0000,0000,0000,,伊迪丝 我有东西要给你
+Dialogue: 0,0:52:00.12,0:52:00.90,Default,,0000,0000,0000,,一首歌
+Dialogue: 0,0:52:01.25,0:52:02.16,Default,,0000,0000,0000,,当然
+Dialogue: 0,0:52:02.39,0:52:03.81,Default,,0000,0000,0000,,雷蒙 雷蒙
+Dialogue: 0,0:52:04.24,0:52:06.16,Default,,0000,0000,0000,,米瑞耶 叫雷蒙过来
+Dialogue: 0,0:52:06.80,0:52:07.75,Default,,0000,0000,0000,,雷蒙
+Dialogue: 0,0:52:07.96,0:52:09.93,Default,,0000,0000,0000,,我给你介绍个人 小云雀
+Dialogue: 0,0:52:10.10,0:52:11.78,Default,,0000,0000,0000,,给你介绍个人 小云雀
+Dialogue: 0,0:52:15.32,0:52:17.64,Default,,0000,0000,0000,,有个大块头想跟你说话
+Dialogue: 0,0:52:20.16,0:52:21.72,Default,,0000,0000,0000,,这位是雷蒙·亚索
+Dialogue: 0,0:52:22.14,0:52:24.64,Default,,0000,0000,0000,,作家 作曲家 演员兼诗人
+Dialogue: 0,0:52:24.84,0:52:25.94,Default,,0000,0000,0000,,外边有人找你
+Dialogue: 0,0:52:26.18,0:52:27.89,Default,,0000,0000,0000,,我出去一下
+Dialogue: 0,0:52:28.79,0:52:30.23,Default,,0000,0000,0000,,我很仰慕你
+Dialogue: 0,0:52:30.55,0:52:32.21,Default,,0000,0000,0000,,我不喜欢你的嘴脸
+Dialogue: 0,0:52:38.12,0:52:39.89,Default,,0000,0000,0000,,我常来听你唱
+Dialogue: 0,0:52:41.08,0:52:43.65,Default,,0000,0000,0000,,是吗 那你藏得可真好啊
+Dialogue: 0,0:52:44.51,0:52:47.06,Default,,0000,0000,0000,,快12点了 全部站起来
+Dialogue: 0,0:52:47.42,0:52:52.47,Default,,0000,0000,0000,,站起来 站起来 三 二 一
+Dialogue: 0,0:52:52.68,0:52:55.38,Default,,0000,0000,0000,,新年快乐
+Dialogue: 0,0:53:05.16,0:53:07.67,Default,,0000,0000,0000,,你真是一个令人敬仰的艺术家
+Dialogue: 0,0:53:07.78,0:53:09.59,Default,,0000,0000,0000,,是因为我穿了高跟鞋
+Dialogue: 0,0:53:15.93,0:53:16.93,Default,,0000,0000,0000,,只要你需要
+Dialogue: 0,0:53:17.51,0:53:18.90,Default,,0000,0000,0000,,我随时候教
+Dialogue: 0,0:53:20.54,0:53:23.93,Default,,0000,0000,0000,,到了早上 若他对我说
+Dialogue: 0,0:53:24.18,0:53:26.13,Default,,0000,0000,0000,,跟我来
+Dialogue: 0,0:53:26.82,0:53:29.38,Default,,0000,0000,0000,,我有预感 我会答应
+Dialogue: 0,0:53:29.58,0:53:38.81,Default,,0000,0000,0000,,他却离我而去
+Dialogue: 0,0:53:39.64,0:53:42.10,注解,,0000,0000,0000,,带走了我的心
+Dialogue: 0,0:53:40.96,0:53:42.36,Default,,0000,0000,0000,,亲爱的勒普雷老爹
+Dialogue: 0,0:53:42.36,0:53:49.71,注解,,0000,0000,0000,,他的眼神那般温柔
+Dialogue: 0,0:53:42.66,0:53:44.53,Default,,0000,0000,0000,,敬我亲爱的勒普雷老爹
+Dialogue: 0,0:53:44.77,0:53:46.79,Default,,0000,0000,0000,,我的救星
+Dialogue: 0,0:53:46.82,0:53:48.79,Default,,0000,0000,0000,,勒普雷老爹
+Dialogue: 0,0:53:50.82,0:53:52.73,Default,,0000,0000,0000,,不知他去向何方
+Dialogue: 0,0:53:53.10,0:53:55.29,Default,,0000,0000,0000,,我梦到那个陌生人
+Dialogue: 0,0:53:55.50,0:53:57.65,Default,,0000,0000,0000,,因为香烟
+Dialogue: 0,0:53:58.40,0:54:00.15,Default,,0000,0000,0000,,因为酒精 也因为沮丧
+Dialogue: 0,0:54:00.36,0:54:02.74,Default,,0000,0000,0000,,每晚对他的回忆
+Dialogue: 0,0:54:02.96,0:54:06.83,Default,,0000,0000,0000,,都浮现我脑海
+Dialogue: 0,0:54:08.00,0:54:10.07,Default,,0000,0000,0000,,有人在港边
+Dialogue: 0,0:54:10.32,0:54:12.19,Default,,0000,0000,0000,,钓到一具尸首
+Dialogue: 0,0:54:12.56,0:54:14.75,Default,,0000,0000,0000,,是个水手
+Dialogue: 0,0:54:15.20,0:54:17.27,Default,,0000,0000,0000,,因为失恋
+Dialogue: 0,0:54:17.52,0:54:19.82,Default,,0000,0000,0000,,我找不到他
+Dialogue: 0,0:54:20.58,0:54:28.37,注解,,0000,0000,0000,,悲痛欲绝
+Dialogue: 0,0:54:25.01,0:54:26.00,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:54:30.21,0:54:32.85,Default,,0000,0000,0000,,他的眼神那般温柔
+Dialogue: 0,0:54:34.55,0:54:36.70,Default,,0000,0000,0000,,不知他何去何从
+Dialogue: 0,0:54:36.88,0:54:41.15,Default,,0000,0000,0000,,不知他在何方
+Dialogue: 0,0:54:48.42,0:54:49.33,Default,,0000,0000,0000,,天哪
+Dialogue: 0,0:54:50.29,0:54:51.20,Default,,0000,0000,0000,,前天
+Dialogue: 0,0:54:51.33,0:54:53.99,Default,,0000,0000,0000,,我不会每天都看到他
+Dialogue: 0,0:54:55.03,0:54:57.48,Default,,0000,0000,0000,,他平时行事非常低调
+Dialogue: 0,0:54:57.70,0:55:00.08,Default,,0000,0000,0000,,昨天你不是在酒吧看到他了吗
+Dialogue: 0,0:55:01.75,0:55:03.86,Default,,0000,0000,0000,,我在 但是我没有看到他
+Dialogue: 0,0:55:03.91,0:55:05.92,Default,,0000,0000,0000,,可能他把自己关到家里了
+Dialogue: 0,0:55:06.98,0:55:07.81,Default,,0000,0000,0000,,有可能
+Dialogue: 0,0:55:07.84,0:55:09.08,Default,,0000,0000,0000,,真是可怜哪
+Dialogue: 0,0:55:09.33,0:55:10.92,Default,,0000,0000,0000,,他是个很实在的人
+Dialogue: 0,0:55:11.01,0:55:11.86,Default,,0000,0000,0000,,很实在
+Dialogue: 0,0:55:11.86,0:55:13.64,Default,,0000,0000,0000,,既慷慨又仁慈
+Dialogue: 0,0:55:14.77,0:55:15.88,Default,,0000,0000,0000,,我的天哪
+Dialogue: 0,0:55:46.98,0:55:49.06,Default,,0000,0000,0000,,你就是一只不祥的乌鸦
+Dialogue: 0,0:55:49.40,0:55:51.06,Default,,0000,0000,0000,,一切都是你的错
+Dialogue: 0,0:55:52.84,0:55:54.18,Default,,0000,0000,0000,,都是你害的
+Dialogue: 0,0:55:56.74,0:55:57.98,Default,,0000,0000,0000,,她哈留在这儿
+Dialogue: 0,0:56:01.35,0:56:03.10,Default,,0000,0000,0000,,你是小云雀皮雅芙吗
+Dialogue: 0,0:56:05.56,0:56:06.51,Default,,0000,0000,0000,,请跟我走
+Dialogue: 0,0:56:07.94,0:56:09.24,Default,,0000,0000,0000,,为 为什么
+Dialogue: 0,0:56:09.49,0:56:10.47,Default,,0000,0000,0000,,哦 跟我走
+Dialogue: 0,0:56:11.83,0:56:13.14,Default,,0000,0000,0000,,借过一下 谢谢
+Dialogue: 0,0:56:14.64,0:56:15.36,Default,,0000,0000,0000,,这边请
+Dialogue: 0,0:56:15.91,0:56:16.97,Default,,0000,0000,0000,,我有话要问你
+Dialogue: 0,0:56:17.51,0:56:19.17,Default,,0000,0000,0000,,你常跟那些人混在一起吗
+Dialogue: 0,0:56:19.24,0:56:19.89,Default,,0000,0000,0000,,没有
+Dialogue: 0,0:56:21.76,0:56:22.98,Default,,0000,0000,0000,,别烦我
+Dialogue: 0,0:56:23.35,0:56:24.82,Default,,0000,0000,0000,,那亨利·瓦莱特呢
+Dialogue: 0,0:56:24.98,0:56:26.29,Default,,0000,0000,0000,,有骑兵的乔治
+Dialogue: 0,0:56:26.55,0:56:28.32,Default,,0000,0000,0000,,裁缝强尼 和阿尔贝尔
+Dialogue: 0,0:56:28.34,0:56:29.41,Default,,0000,0000,0000,,你也不认识吗
+Dialogue: 0,0:56:29.97,0:56:31.25,Default,,0000,0000,0000,,他们都不是我的朋友
+Dialogue: 0,0:56:31.47,0:56:32.95,Default,,0000,0000,0000,,跟这件事情没关系
+Dialogue: 0,0:56:33.32,0:56:36.31,Default,,0000,0000,0000,,共谋犯罪时 会被处以重刑的
+Dialogue: 0,0:56:36.43,0:56:38.77,Default,,0000,0000,0000,,我没罪 我什么都没做
+Dialogue: 0,0:56:39.35,0:56:41.00,Default,,0000,0000,0000,,我什么都没有做
+Dialogue: 0,0:56:41.24,0:56:42.29,Default,,0000,0000,0000,,昨天晚上你在哪儿
+Dialogue: 0,0:56:43.01,0:56:45.59,Default,,0000,0000,0000,,我告诉过你了 我出去玩了
+Dialogue: 0,0:56:47.24,0:56:49.60,Default,,0000,0000,0000,,垃圾 一群混蛋
+Dialogue: 0,0:56:49.72,0:56:51.01,Default,,0000,0000,0000,,拍什么拍呀
+Dialogue: 0,0:56:51.38,0:56:53.72,Default,,0000,0000,0000,,别那么激动 这里不是音乐厅
+Dialogue: 0,0:56:53.83,0:56:56.03,Default,,0000,0000,0000,,你好像总是跟一些不光明的家伙来往
+Dialogue: 0,0:56:56.24,0:56:57.85,Default,,0000,0000,0000,,比方说一个叫阿尔贝尔的人
+Dialogue: 0,0:56:58.01,0:57:00.51,Default,,0000,0000,0000,,我谁都不认识 探长
+Dialogue: 0,0:57:00.68,0:57:02.64,Default,,0000,0000,0000,,好吧 你把我当成白痴了
+Dialogue: 0,0:57:05.46,0:57:07.12,Default,,0000,0000,0000,,你有什么要说的 小云雀
+Dialogue: 0,0:57:07.30,0:57:08.60,Default,,0000,0000,0000,,有没有什么话要说
+Dialogue: 0,0:57:08.68,0:57:10.31,Default,,0000,0000,0000,,少理她 她自作自受
+Dialogue: 0,0:57:10.47,0:57:12.31,Default,,0000,0000,0000,,滚回贫民窟去 小贱人
+Dialogue: 0,0:57:12.50,0:57:13.57,Default,,0000,0000,0000,,少烦她
+Dialogue: 0,0:57:13.62,0:57:15.19,Default,,0000,0000,0000,,-不是她干的 -少烦她 不是她干的
+Dialogue: 0,0:57:15.27,0:57:16.88,Default,,0000,0000,0000,,你是不是因为招出同伙
+Dialogue: 0,0:57:17.07,0:57:18.18,Default,,0000,0000,0000,,所以才被释放的
+Dialogue: 0,0:57:18.28,0:57:20.76,Default,,0000,0000,0000,,这是葬礼 嘴巴放干净一点
+Dialogue: 0,0:57:24.82,0:57:25.75,Default,,0000,0000,0000,,再后一个问题
+Dialogue: 0,0:57:25.75,0:57:27.19,Default,,0000,0000,0000,,我跟你说了 放干净点
+Dialogue: 0,0:57:27.22,0:57:28.48,Default,,0000,0000,0000,,一堆大便 滚开
+Dialogue: 0,0:57:29.91,0:57:31.19,Default,,0000,0000,0000,,别挡路 滚开
+Dialogue: 0,0:57:31.43,0:57:32.07,Default,,0000,0000,0000,,滚开
+Dialogue: 0,0:57:32.24,0:57:33.57,Default,,0000,0000,0000,,完了 我死定了
+Dialogue: 0,0:57:34.01,0:57:36.60,Default,,0000,0000,0000,,我从来没有这样身陷泥潭过
+Dialogue: 0,0:57:37.99,0:57:40.45,Default,,0000,0000,0000,,没关系 新闻界都很健忘的
+Dialogue: 0,0:57:40.58,0:57:42.37,Default,,0000,0000,0000,,我什么都没做
+Dialogue: 0,0:57:42.76,0:57:43.60,Default,,0000,0000,0000,,我知道
+Dialogue: 0,0:57:46.53,0:57:47.40,Default,,0000,0000,0000,,开门
+Dialogue: 0,0:57:56.82,0:57:57.72,Default,,0000,0000,0000,,干什么
+Dialogue: 0,0:57:57.89,0:57:59.06,Default,,0000,0000,0000,,西蒙妮·贝尔多吗
+Dialogue: 0,0:58:00.43,0:58:01.06,Default,,0000,0000,0000,,是的
+Dialogue: 0,0:58:01.67,0:58:04.08,Default,,0000,0000,0000,,贝尔多小姐 你得跟我们走一趟
+Dialogue: 0,0:58:05.39,0:58:07.08,Default,,0000,0000,0000,,为什么 我什么都没有做呀
+Dialogue: 0,0:58:07.39,0:58:09.11,Default,,0000,0000,0000,,你母亲向法庭要求
+Dialogue: 0,0:58:09.27,0:58:11.30,Default,,0000,0000,0000,,把你送到少女之家
+Dialogue: 0,0:58:12.32,0:58:13.60,Default,,0000,0000,0000,,法令立刻生效
+Dialogue: 0,0:58:13.78,0:58:15.38,Default,,0000,0000,0000,,请你整理一下行李好吗
+Dialogue: 0,0:58:15.44,0:58:16.63,Default,,0000,0000,0000,,跟我们走吧
+Dialogue: 0,0:58:17.38,0:58:19.86,Default,,0000,0000,0000,,我是不是在做梦 她要留下来
+Dialogue: 0,0:58:20.14,0:58:21.80,Default,,0000,0000,0000,,我不需要跟你解释
+Dialogue: 0,0:58:23.54,0:58:25.22,Default,,0000,0000,0000,,最后说一遍 去拿东西
+Dialogue: 0,0:58:27.27,0:58:29.17,Default,,0000,0000,0000,,你们想要我的命吗
+Dialogue: 0,0:58:29.41,0:58:31.17,Default,,0000,0000,0000,,想要我死 是吗
+Dialogue: 0,0:58:32.37,0:58:33.35,Default,,0000,0000,0000,,放开我
+Dialogue: 0,0:58:33.76,0:58:35.67,Default,,0000,0000,0000,,她不会从这儿离开的
+Dialogue: 0,0:58:35.99,0:58:36.88,Default,,0000,0000,0000,,放开
+Dialogue: 0,0:58:37.00,0:58:37.97,Default,,0000,0000,0000,,放开我
+Dialogue: 0,0:58:38.66,0:58:41.11,Default,,0000,0000,0000,,-伊迪丝 别让他们把我带走 -别离开我
+Dialogue: 0,0:58:41.12,0:58:42.20,Default,,0000,0000,0000,,冷静一点
+Dialogue: 0,0:58:42.87,0:58:44.68,Default,,0000,0000,0000,,-不 -还没带我的行李呢
+Dialogue: 0,0:58:44.74,0:58:46.34,Default,,0000,0000,0000,,-听到没有 混蛋 -别走
+Dialogue: 0,0:58:46.58,0:58:49.08,Default,,0000,0000,0000,,-西蒙妮 别走 -混蛋
+Dialogue: 0,0:58:49.16,0:58:50.63,Default,,0000,0000,0000,,别走
+Dialogue: 0,0:58:50.66,0:58:52.24,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:58:52.42,0:58:53.94,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,0:58:54.10,0:58:56.87,Default,,0000,0000,0000,,西蒙妮
+Dialogue: 0,0:59:00.79,0:59:02.18,Default,,0000,0000,0000,,勒普雷老爹
+Dialogue: 0,0:59:04.15,0:59:08.05,Default,,0000,0000,0000,,我的勒普雷老爹 快来救救我
+Dialogue: 0,0:59:08.50,0:59:12.82,Default,,0000,0000,0000,,梦到陌生人 心头小鹿乱撞
+Dialogue: 0,0:59:12.85,0:59:14.69,Default,,0000,0000,0000,,贱货 婊子
+Dialogue: 0,0:59:13.34,0:59:18.61,注解,,0000,0000,0000,,为香烟 酒精 也因为沮丧
+Dialogue: 0,0:59:15.76,0:59:18.90,Default,,0000,0000,0000,,你杀死了他 你靠什么赚钱的
+Dialogue: 0,0:59:18.86,0:59:24.65,注解,,0000,0000,0000,,每晚对他回忆都浮现我脑海
+Dialogue: 0,0:59:21.57,0:59:24.13,Default,,0000,0000,0000,,本来就是妓女 还能有什么要求
+Dialogue: 0,0:59:25.62,0:59:30.01,Default,,0000,0000,0000,,有人在港边钓到一具尸首
+Dialogue: 0,0:59:30.26,0:59:33.73,Default,,0000,0000,0000,,是个水手 因为失恋
+Dialogue: 0,0:59:34.62,0:59:42.45,注解,,0000,0000,0000,,悲痛欲绝 愿大海抚慰他
+Dialogue: 0,0:59:34.63,0:59:37.08,Default,,0000,0000,0000,,肮脏的贱货 滚回去
+Dialogue: 0,0:59:37.81,0:59:39.24,Default,,0000,0000,0000,,滚蛋
+Dialogue: 0,0:59:41.88,0:59:42.88,Default,,0000,0000,0000,,滚
+Dialogue: 0,0:59:43.48,0:59:44.52,Default,,0000,0000,0000,,下去吧
+Dialogue: 0,0:59:44.61,0:59:46.52,Default,,0000,0000,0000,,下去 下去
+Dialogue: 0,0:59:46.78,0:59:48.45,Default,,0000,0000,0000,,滚
+Dialogue: 0,0:59:48.64,0:59:49.75,Default,,0000,0000,0000,,扫帚星
+Dialogue: 0,1:00:05.83,1:00:07.54,Default,,0000,0000,0000,,我不想见任何人
+Dialogue: 0,1:00:07.68,1:00:09.04,Default,,0000,0000,0000,,让我一个人呆着
+Dialogue: 0,1:00:09.26,1:00:10.76,Default,,0000,0000,0000,,护士 你留下
+Dialogue: 0,1:00:17.62,1:00:20.53,Default,,0000,0000,0000,,帮我来一针吗啡 我很不舒服
+Dialogue: 0,1:00:47.60,1:00:49.51,Default,,0000,0000,0000,,叫那个美国人进来
+Dialogue: 0,1:00:54.48,1:00:55.51,Default,,0000,0000,0000,,可以进去了
+Dialogue: 0,1:00:56.28,1:00:57.01,Default,,0000,0000,0000,,走
+Dialogue: 0,1:01:01.39,1:01:03.51,Default,,0000,0000,0000,,空前的胜利 倾倒众生啊
+Dialogue: 0,1:01:03.81,1:01:04.68,Default,,0000,0000,0000,,道格
+Dialogue: 0,1:01:07.64,1:01:09.57,Default,,0000,0000,0000,,我得呼吸点新鲜空气
+Dialogue: 0,1:01:10.00,1:01:12.45,Default,,0000,0000,0000,,带我回夏隆我家哪儿去吧
+Dialogue: 0,1:01:13.41,1:01:14.72,Default,,0000,0000,0000,,你是说 现在
+Dialogue: 0,1:01:16.37,1:01:18.40,Default,,0000,0000,0000,,伊迪丝 有四百公里远呢
+Dialogue: 0,1:01:19.22,1:01:20.96,Default,,0000,0000,0000,,你们都让我讨厌
+Dialogue: 0,1:01:21.49,1:01:22.95,Default,,0000,0000,0000,,我受够你们了
+Dialogue: 0,1:01:23.57,1:01:26.44,Default,,0000,0000,0000,,大晚上的 没办法赶四百公里路
+Dialogue: 0,1:01:26.58,1:01:29.54,Default,,0000,0000,0000,,总是这不准 那不准的 去你的
+Dialogue: 0,1:01:30.58,1:01:31.48,Default,,0000,0000,0000,,我们走
+Dialogue: 0,1:01:31.80,1:01:32.52,Default,,0000,0000,0000,,不行
+Dialogue: 0,1:01:49.39,1:01:50.02,Default,,0000,0000,0000,,回去
+Dialogue: 0,1:01:51.01,1:01:52.37,Default,,0000,0000,0000,,我要回去 掉头
+Dialogue: 0,1:01:52.47,1:01:53.25,Default,,0000,0000,0000,,什么
+Dialogue: 0,1:01:53.39,1:01:55.94,Default,,0000,0000,0000,,我说掉头 你们扫了我的兴
+Dialogue: 0,1:02:10.87,1:02:13.14,Default,,0000,0000,0000,,验血报告结果非常严重
+Dialogue: 0,1:02:13.31,1:02:14.90,Default,,0000,0000,0000,,她摔断了两根肋骨
+Dialogue: 0,1:02:15.44,1:02:17.04,Default,,0000,0000,0000,,得休养好几个星期
+Dialogue: 0,1:02:17.67,1:02:18.56,Default,,0000,0000,0000,,巴蒂安先生
+Dialogue: 0,1:02:19.06,1:02:20.39,Default,,0000,0000,0000,,要是她还有演出的话
+Dialogue: 0,1:02:20.86,1:02:21.89,Default,,0000,0000,0000,,你可以取消了
+Dialogue: 0,1:02:31.06,1:02:32.64,Default,,0000,0000,0000,,勒得我好紧啊
+Dialogue: 0,1:02:33.72,1:02:36.60,Default,,0000,0000,0000,,大夫 帮我打一针 好让我能唱歌
+Dialogue: 0,1:02:37.12,1:02:39.49,Default,,0000,0000,0000,,抱歉 再仰慕你 也得有个限度
+Dialogue: 0,1:02:40.28,1:02:42.84,Default,,0000,0000,0000,,仰慕是没限度的 我也没有
+Dialogue: 0,1:02:43.72,1:02:45.97,Default,,0000,0000,0000,,取消演唱 你这是在玩命
+Dialogue: 0,1:02:46.68,1:02:49.72,Default,,0000,0000,0000,,那又怎么样 总得玩些什么
+Dialogue: 0,1:02:50.53,1:02:53.06,Default,,0000,0000,0000,,想要有新生活 就得先换个东家
+Dialogue: 0,1:02:53.89,1:02:55.64,Default,,0000,0000,0000,,-换什么 -换东家
+Dialogue: 0,1:02:57.11,1:02:58.77,Default,,0000,0000,0000,,为什么不早点打来
+Dialogue: 0,1:02:59.46,1:03:03.06,Default,,0000,0000,0000,,我在忙 而且我也不知道你要我做什么
+Dialogue: 0,1:03:03.36,1:03:05.08,Default,,0000,0000,0000,,我在勒普雷那儿听过你唱歌
+Dialogue: 0,1:03:05.12,1:03:06.79,Default,,0000,0000,0000,,你要学的还多着呢
+Dialogue: 0,1:03:07.67,1:03:09.08,Default,,0000,0000,0000,,从来没人这么说过
+Dialogue: 0,1:03:09.78,1:03:12.18,Default,,0000,0000,0000,,三个月内没有人会再叫你小云雀
+Dialogue: 0,1:03:12.24,1:03:14.37,Default,,0000,0000,0000,,小酒馆驻唱的日子已经结束了
+Dialogue: 0,1:03:14.41,1:03:17.26,Default,,0000,0000,0000,,他明亮的蓝眼睛像灯光般闪耀
+Dialogue: 0,1:03:17.39,1:03:20.14,Default,,0000,0000,0000,,像夜里的暴风雨
+Dialogue: 0,1:03:20.84,1:03:24.55,Default,,0000,0000,0000,,像黑夜里的暴风雨 吐字要清晰
+Dialogue: 0,1:03:25.60,1:03:26.31,Default,,0000,0000,0000,,重来
+Dialogue: 0,1:03:28.56,1:03:30.47,Default,,0000,0000,0000,,他明亮的蓝眼睛
+Dialogue: 0,1:03:30.47,1:03:33.14,Default,,0000,0000,0000,,他明亮的蓝眼睛 有个的
+Dialogue: 0,1:03:33.91,1:03:35.89,Default,,0000,0000,0000,,你光顾着唱 根本不懂其中的意思
+Dialogue: 0,1:03:36.10,1:03:37.19,Default,,0000,0000,0000,,你想怎么样
+Dialogue: 0,1:03:37.30,1:03:38.89,Default,,0000,0000,0000,,你完美的发音 发音
+Dialogue: 0,1:03:39.10,1:03:40.85,Default,,0000,0000,0000,,我怎么说话 就怎么唱歌
+Dialogue: 0,1:03:40.87,1:03:41.86,Default,,0000,0000,0000,,很差劲
+Dialogue: 0,1:03:42.85,1:03:44.10,Default,,0000,0000,0000,,你含含糊糊
+Dialogue: 0,1:03:44.88,1:03:47.01,Default,,0000,0000,0000,,根本不懂得自己在唱些什么
+Dialogue: 0,1:03:49.16,1:03:50.39,Default,,0000,0000,0000,,慢一点 玛格丽特
+Dialogue: 0,1:03:50.50,1:03:52.85,Default,,0000,0000,0000,,都练了六个小时了 好歹开开窗户
+Dialogue: 0,1:03:52.85,1:03:54.08,Default,,0000,0000,0000,,等等再开
+Dialogue: 0,1:03:55.30,1:03:56.44,Default,,0000,0000,0000,,再唱一遍
+Dialogue: 0,1:04:00.93,1:04:03.68,Default,,0000,0000,0000,,他明亮的蓝眼睛像灯光般闪耀
+Dialogue: 0,1:04:03.78,1:04:05.75,注解,,0000,0000,0000,,像夜里的
+Dialogue: 0,1:04:03.99,1:04:05.72,Default,,0000,0000,0000,,你根本就没听我的话
+Dialogue: 0,1:04:05.78,1:04:07.67,Default,,0000,0000,0000,,你根本没放开感情
+Dialogue: 0,1:04:10.31,1:04:12.50,Default,,0000,0000,0000,,你象个恋爱中的女人
+Dialogue: 0,1:04:13.67,1:04:15.28,Default,,0000,0000,0000,,懂吗 像演员一样
+Dialogue: 0,1:04:18.96,1:04:20.96,Default,,0000,0000,0000,,他简直就是在找我碴
+Dialogue: 0,1:04:21.14,1:04:22.84,Default,,0000,0000,0000,,我们好累 需要休息
+Dialogue: 0,1:04:26.14,1:04:28.48,Default,,0000,0000,0000,,他让我觉得好像不会唱了似的
+Dialogue: 0,1:04:28.81,1:04:30.16,Default,,0000,0000,0000,,你以为你是谁
+Dialogue: 0,1:04:31.06,1:04:32.06,Default,,0000,0000,0000,,在哪儿唱过
+Dialogue: 0,1:04:32.20,1:04:34.06,Default,,0000,0000,0000,,别有一点点就自满
+Dialogue: 0,1:04:35.26,1:04:37.17,Default,,0000,0000,0000,,我九岁就开始卖唱了
+Dialogue: 0,1:04:37.22,1:04:39.17,Default,,0000,0000,0000,,别担心 万事开头难嘛
+Dialogue: 0,1:04:39.51,1:04:41.25,Default,,0000,0000,0000,,学习需要时间的
+Dialogue: 0,1:04:41.60,1:04:44.28,Default,,0000,0000,0000,,你得变成演员 懂我的意思吗
+Dialogue: 0,1:04:44.56,1:04:46.15,Default,,0000,0000,0000,,用心来诠释歌曲
+Dialogue: 0,1:04:47.85,1:04:49.94,Default,,0000,0000,0000,,没人会理我的发音的
+Dialogue: 0,1:04:50.28,1:04:52.68,Default,,0000,0000,0000,,没有谁 比方说
+Dialogue: 0,1:04:53.48,1:04:56.04,Default,,0000,0000,0000,,格内酒吧的那些人 还是街上的路人
+Dialogue: 0,1:05:04.93,1:05:07.92,Default,,0000,0000,0000,,要么照我说的做 要么滚回你老家去
+Dialogue: 0,1:05:14.72,1:05:16.48,Default,,0000,0000,0000,,伊迪丝 伊迪丝
+Dialogue: 0,1:05:23.41,1:05:26.97,Default,,0000,0000,0000,,敬从来没忘了老爸的乖女儿
+Dialogue: 0,1:05:27.09,1:05:29.22,Default,,0000,0000,0000,,敬小云雀
+Dialogue: 0,1:05:29.39,1:05:32.39,Default,,0000,0000,0000,,听说你钓上了个凯子 他有钱吗
+Dialogue: 0,1:05:32.44,1:05:36.00,Default,,0000,0000,0000,,一毛也没有 全都是为了艺术
+Dialogue: 0,1:05:36.56,1:05:38.96,Default,,0000,0000,0000,,就为了你屁股的艺术
+Dialogue: 0,1:05:40.52,1:05:42.61,Default,,0000,0000,0000,,小云雀 唱首歌儿来听听
+Dialogue: 0,1:05:42.72,1:05:45.36,Default,,0000,0000,0000,,对 给我们唱一首
+Dialogue: 0,1:05:51.08,1:05:54.19,Default,,0000,0000,0000,,那女人像个男孩
+Dialogue: 0,1:05:54.52,1:05:57.59,Default,,0000,0000,0000,,向来都魅力缺缺
+Dialogue: 0,1:05:58.20,1:06:05.31,Default,,0000,0000,0000,,唯有她衬裙的呼呼声很撩人
+Dialogue: 0,1:06:05.97,1:06:09.64,Default,,0000,0000,0000,,最令人兴奋的是
+Dialogue: 0,1:06:09.88,1:06:13.44,Default,,0000,0000,0000,,男人一听到声声呼呼
+Dialogue: 0,1:06:13.59,1:06:17.14,Default,,0000,0000,0000,,什么都做得出来
+Dialogue: 0,1:06:17.24,1:06:20.33,Default,,0000,0000,0000,,突然会看到玫瑰人生
+Dialogue: 0,1:06:21.08,1:06:24.45,Default,,0000,0000,0000,,会突然来电变得疯狂
+Dialogue: 0,1:06:24.60,1:06:27.91,Default,,0000,0000,0000,,呼呼 呼呼
+Dialogue: 0,1:06:24.88,1:06:28.27,Default,,0000,0000,0000,,那女人衬裙的声音
+Dialogue: 0,1:06:28.60,1:06:30.78,Default,,0000,0000,0000,,呼呼 呼呼
+Dialogue: 0,1:06:31.83,1:06:33.78,Default,,0000,0000,0000,,男人为之心旌神摇
+Dialogue: 0,1:06:34.85,1:06:36.33,Default,,0000,0000,0000,,该紧抓她不放的
+Dialogue: 0,1:06:37.46,1:06:38.95,Default,,0000,0000,0000,,我却让她给飞了
+Dialogue: 0,1:06:41.64,1:06:43.33,Default,,0000,0000,0000,,我对她太客气了
+Dialogue: 0,1:06:43.73,1:06:46.05,Default,,0000,0000,0000,,对 大伙儿继续唱啊
+Dialogue: 0,1:06:46.07,1:06:49.08,Default,,0000,0000,0000,,呼呼 呼呼
+Dialogue: 0,1:06:49.45,1:06:53.05,Default,,0000,0000,0000,,她的衬裙的很撩人
+Dialogue: 0,1:06:53.35,1:06:55.97,Default,,0000,0000,0000,,呼呼 呼呼
+Dialogue: 0,1:06:56.75,1:06:59.82,Default,,0000,0000,0000,,头上有太阳
+Dialogue: 0,1:07:00.22,1:07:06.93,Default,,0000,0000,0000,,金发闪闪发亮
+Dialogue: 0,1:07:09.42,1:07:10.55,Default,,0000,0000,0000,,太僵硬了
+Dialogue: 0,1:07:10.63,1:07:12.32,Default,,0000,0000,0000,,你像个柱子一样杵在那儿
+Dialogue: 0,1:07:12.76,1:07:14.08,Default,,0000,0000,0000,,你是个出色的拳击手
+Dialogue: 0,1:07:14.12,1:07:16.26,Default,,0000,0000,0000,,却自满于在街上格斗
+Dialogue: 0,1:07:17.70,1:07:19.73,Default,,0000,0000,0000,,表演是个整体 你得抓住观众
+Dialogue: 0,1:07:20.64,1:07:22.10,Default,,0000,0000,0000,,你的手很漂亮
+Dialogue: 0,1:07:22.60,1:07:23.94,Default,,0000,0000,0000,,得派上它的用场
+Dialogue: 0,1:07:24.34,1:07:25.47,Default,,0000,0000,0000,,唱的时候用手势
+Dialogue: 0,1:07:26.04,1:07:27.31,Default,,0000,0000,0000,,再来一遍 玛格丽特
+Dialogue: 0,1:07:31.18,1:07:32.30,Defaul,,0000,0000,0000,,他明亮的眼睛
+Dialogue: 0,1:07:32.34,1:07:33.31,Default,,0000,0000,0000,,投入感情
+Dialogue: 0,1:07:33.44,1:07:34.73,Default,,0000,0000,0000,,有时如电光闪过 
+Dialogue: 0,1:07:34.79,1:07:36.11,Default,,0000,0000,0000,,像空中的暴风雨
+Dialogue: 0,1:07:36.13,1:07:38.26,Default,,0000,0000,0000,,你的手 你的手
+Dialogue: 0,1:07:36.98,1:07:38.29,注解,,0000,0000,0000,,满满都是刺青
+Dialogue: 0,1:07:38.34,1:07:40.26,Default,,0000,0000,0000,,我从没真的了解过
+Dialogue: 0,1:07:40.34,1:07:41.51,注解,,0000,0000,0000,,他的颈子带有
+Dialogue: 0,1:07:41.12,1:07:43.56,Default,,0000,0000,0000,,对了 很好
+Dialogue: 0,1:07:41.62,1:07:44.05,注解,,0000,0000,0000,,没看到 没被带走
+Dialogue: 0,1:07:44.66,1:07:46.48,Default,,0000,0000,0000,,-我就像个傻大姐 -继续
+Dialogue: 0,1:07:47.30,1:07:50.65,Default,,0000,0000,0000,,他没有心上人
+Dialogue: 0,1:07:51.40,1:07:56.84,Default,,0000,0000,0000,,他的右手臂上
+Dialogue: 0,1:07:56.96,1:07:58.12,Default,,0000,0000,0000,,换上这个
+Dialogue: 0,1:08:00.21,1:08:01.38,Default,,0000,0000,0000,,没有人会看的
+Dialogue: 0,1:08:01.81,1:08:03.68,Default,,0000,0000,0000,,他们爱的是我的声音
+Dialogue: 0,1:08:03.86,1:08:06.87,Default,,0000,0000,0000,,你怎么会这么有天份又这么固执呢 换上
+Dialogue: 0,1:08:34.02,1:08:35.21,Default,,0000,0000,0000,,伊迪丝 开门
+Dialogue: 0,1:08:35.27,1:08:37.01,Default,,0000,0000,0000,,不开 我想吐
+Dialogue: 0,1:08:37.22,1:08:37.97,Default,,0000,0000,0000,,她喝醉了
+Dialogue: 0,1:08:38.14,1:08:39.94,Default,,0000,0000,0000,,没有 她只是太紧张了
+Dialogue: 0,1:08:42.00,1:08:43.36,Default,,0000,0000,0000,,观众们都在等
+Dialogue: 0,1:08:47.28,1:08:49.92,Default,,0000,0000,0000,,你求我安排这场演出都快好几个星期了
+Dialogue: 0,1:08:49.97,1:08:51.25,Default,,0000,0000,0000,,趁观众们还没有拆台
+Dialogue: 0,1:08:51.30,1:08:53.06,Default,,0000,0000,0000,,快把她架上台去 快点
+Dialogue: 0,1:08:53.12,1:08:54.19,Default,,0000,0000,0000,,她会去的
+Dialogue: 0,1:08:55.94,1:08:56.79,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:08:57.22,1:08:58.64,Default,,0000,0000,0000,,我再给你三分钟
+Dialogue: 0,1:08:59.68,1:09:02.57,Default,,0000,0000,0000,,雅梭 这不是小酒馆 是音乐厅
+Dialogue: 0,1:09:02.94,1:09:04.55,Default,,0000,0000,0000,,我真是倒了大霉了
+Dialogue: 0,1:09:06.58,1:09:09.49,Default,,0000,0000,0000,,没什么 你只是有点害怕 这是好预兆
+Dialogue: 0,1:09:15.01,1:09:16.21,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:09:17.44,1:09:18.45,Default,,0000,0000,0000,,干什么
+Dialogue: 0,1:09:20.47,1:09:21.91,Default,,0000,0000,0000,,你绝对办得到的
+Dialogue: 0,1:09:22.47,1:09:24.08,Default,,0000,0000,0000,,照我们练的唱就行了
+Dialogue: 0,1:09:24.37,1:09:26.24,Default,,0000,0000,0000,,你不相信你现在会怯场
+Dialogue: 0,1:09:29.19,1:09:30.55,Default,,0000,0000,0000,,快把门打开
+Dialogue: 0,1:09:31.89,1:09:33.55,Default,,0000,0000,0000,,不行 我害怕
+Dialogue: 0,1:09:36.68,1:09:37.87,Default,,0000,0000,0000,,请你开门
+Dialogue: 0,1:09:42.08,1:09:43.39,Default,,0000,0000,0000,,站起来
+Dialogue: 0,1:12:28.55,1:12:31.86,Default,,0000,0000,0000,,我又看到城市在狂欢
+Dialogue: 0,1:12:32.07,1:12:35.56,注解,,0000,0000,0000,,在阳光和喜悦下窒息
+Dialogue: 0,1:12:33.32,1:12:36.60,Default,,0000,0000,0000,,女士们 先生们 伊迪丝·皮雅芙
+Dialogue: 0,1:12:36.01,1:12:39.09,注解,,0000,0000,0000,,我听到音乐 叫声和笑声
+Dialogue: 0,1:12:39.49,1:12:42.57,Default,,0000,0000,0000,,在我身边骤然响起
+Dialogue: 0,1:13:41.38,1:13:43.33,Default,,0000,0000,0000,,知道我为什么我匆匆赶回家吗
+Dialogue: 0,1:12:43.05,1:12:46.20,Default,,0000,0000,0000,,我迷失在摩肩接踵的人群中
+Dialogue: 0,1:13:43.40,1:13:45.72,Default,,0000,0000,0000,,只因我想靠在我爱人身边
+Dialogue: 0,1:13:45.84,1:13:47.49,Default,,0000,0000,0000,,只想找间空房子
+Dialogue: 0,1:12:46.45,1:12:49.53,Default,,0000,0000,0000,,♪ 我在那 头晕目眩 不知所措 ♪
+Dialogue: 0,1:13:47.78,1:13:50.48,Default,,0000,0000,0000,,等啊等啊 望穿秋水
+Dialogue: 0,1:12:50.09,1:12:53.32,Default,,0000,0000,0000,,♪ 突然 我转过头 他往后退 ♪
+Dialogue: 0,1:13:50.76,1:13:53.09,Default,,0000,0000,0000,,要是我知道那间空房间就好了
+Dialogue: 0,1:13:53.27,1:13:54.95,Default,,0000,0000,0000,,你一定会很棒的
+Dialogue: 0,1:12:53.99,1:12:57.59,Default,,0000,0000,0000,,♪ 人群把我往他怀里推 ♪
+Dialogue: 0,1:13:55.04,1:13:57.01,Default,,0000,0000,0000,,我的迫不及待想看你表演了
+Dialogue: 0,1:13:57.57,1:13:59.11,Default,,0000,0000,0000,,小心 坎纳堤来了
+Dialogue: 0,1:12:58.61,1:13:02.13,Default,,0000,0000,0000,,♪ 被人潮带来带去 ♪
+Dialogue: 0,1:13:02.37,1:13:03.81,Default,,0000,0000,0000,,♪ 我俩被人群 ♪
+Dialogue: 0,1:13:04.05,1:13:05.96,Default,,0000,0000,0000,,♪ 挤到一块儿去 ♪
+Dialogue: 0,1:13:06.21,1:13:07.57,Default,,0000,0000,0000,,♪ 成了一个 ♪
+Dialogue: 0,1:13:08.17,1:13:09.49,Default,,0000,0000,0000,,♪ 人潮毫不费力 ♪
+Dialogue: 0,1:13:09.73,1:13:11.80,Default,,0000,0000,0000,,♪ 朝我俩推挤 ♪
+Dialogue: 0,1:13:12.01,1:13:13.49,Default,,0000,0000,0000,,♪ 随他们去吧 ♪
+Dialogue: 0,1:13:13.73,1:13:15.01,Default,,0000,0000,0000,,♪ 开心 微醺与快意 ♪
+Dialogue: 0,1:13:15.71,1:13:18.31,Default,,0000,0000,0000,,♪ 一涌而上的人群 ♪
+Dialogue: 0,1:13:18.55,1:13:20.78,Default,,0000,0000,0000,,♪ 跳起舞来 ♪
+Dialogue: 0,1:13:21.15,1:13:22.55,Default,,0000,0000,0000,,♪ 疯狂的法兰多拉舞 ♪
+Dialogue: 0,1:13:22.79,1:13:24.67,Default,,0000,0000,0000,,♪ 我俩的双手紧紧相连 ♪
+Dialogue: 0,1:13:24.87,1:13:25.83,Default,,0000,0000,0000,,♪ 有时抬起 ♪
+Dialogue: 0,1:13:26.07,1:13:27.43,Default,,0000,0000,0000,,♪ 纠缠的身体被抬起 ♪
+Dialogue: 0,1:13:27.63,1:13:29.15,Default,,0000,0000,0000,,♪ 又双双落下 ♪
+Dialogue: 0,1:13:29.39,1:13:33.15,Default,,0000,0000,0000,,♪ 开心 微醺又快意 ♪
+Dialogue: 0,1:13:59.19,1:14:00.84,Default,,0000,0000,0000,,总指挥都等了三个小时了
+Dialogue: 0,1:14:01.23,1:14:02.08,Default,,0000,0000,0000,,那又怎么样
+Dialogue: 0,1:14:02.23,1:14:04.36,Default,,0000,0000,0000,,波毕诺首演会两天内就要举行了
+Dialogue: 0,1:14:04.58,1:14:05.61,Default,,0000,0000,0000,,你应该很了解
+Dialogue: 0,1:14:05.88,1:14:07.91,Default,,0000,0000,0000,,考克多难得会帮人写剧本的
+Dialogue: 0,1:14:08.26,1:14:08.96,Default,,0000,0000,0000,,听
+Dialogue: 0,1:14:09.24,1:14:09.84,Default,,0000,0000,0000,,小姐
+Dialogue: 0,1:14:09.96,1:14:11.06,Default,,0000,0000,0000,,怎么了 苏珊娜
+Dialogue: 0,1:14:11.17,1:14:12.66,Default,,0000,0000,0000,,保罗莫瑞斯八点会来
+Dialogue: 0,1:14:12.74,1:14:14.98,Default,,0000,0000,0000,,接您去考克多先生家里用餐
+Dialogue: 0,1:14:15.27,1:14:16.08,Default,,0000,0000,0000,,你看吧
+Dialogue: 0,1:14:17.15,1:14:19.27,Default,,0000,0000,0000,,我看你还是叫指挥半夜再来吧
+Dialogue: 0,1:14:19.96,1:14:20.63,Default,,0000,0000,0000,,你确定
+Dialogue: 0,1:14:21.28,1:14:23.70,Default,,0000,0000,0000,,他比雷蒙还严 别说东说西的
+Dialogue: 0,1:14:23.84,1:14:24.80,Default,,0000,0000,0000,,别说了 西蒙妮
+Dialogue: 0,1:14:25.00,1:14:26.42,Default,,0000,0000,0000,,她把那个讨厌鬼给开除了
+Dialogue: 0,1:14:26.55,1:14:27.28,Default,,0000,0000,0000,,别说了
+Dialogue: 0,1:14:27.89,1:14:29.35,Default,,0000,0000,0000,,你想看看晚礼服吗
+Dialogue: 0,1:14:29.68,1:14:30.63,Default,,0000,0000,0000,,是呀 晚礼服
+Dialogue: 0,1:14:30.69,1:14:31.84,Default,,0000,0000,0000,,噢 对 晚礼服
+Dialogue: 0,1:14:39.57,1:14:41.54,Default,,0000,0000,0000,,全都在这儿了 皮雅芙小姐
+Dialogue: 0,1:14:42.32,1:14:43.49,Default,,0000,0000,0000,,小心上面的别针
+Dialogue: 0,1:14:44.26,1:14:46.16,Default,,0000,0000,0000,,最简单的 没领子的
+Dialogue: 0,1:14:50.21,1:14:52.64,Default,,0000,0000,0000,,有个叫皮埃尔的男人从昨天就一直打来
+Dialogue: 0,1:14:52.74,1:14:53.54,Default,,0000,0000,0000,,说有东西要给你
+Dialogue: 0,1:14:53.62,1:14:54.16,Default,,0000,0000,0000,,什么人
+Dialogue: 0,1:14:54.37,1:14:55.16,Default,,0000,0000,0000,,一个军人
+Dialogue: 0,1:14:55.80,1:14:57.60,Default,,0000,0000,0000,,我跟他说了 您没有时间
+Dialogue: 0,1:14:57.78,1:14:59.69,Default,,0000,0000,0000,,但是 他总是待在那儿不走
+Dialogue: 0,1:15:00.43,1:15:01.79,Default,,0000,0000,0000,,那就叫他进来吧
+Dialogue: 0,1:15:01.89,1:15:02.68,Default,,0000,0000,0000,,那好
+Dialogue: 0,1:15:10.90,1:15:11.72,Default,,0000,0000,0000,,这边请
+Dialogue: 0,1:15:14.15,1:15:15.04,Default,,0000,0000,0000,,东西放这儿
+Dialogue: 0,1:15:16.52,1:15:17.09,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:15:19.69,1:15:20.60,Default,,0000,0000,0000,,请您过来
+Dialogue: 0,1:15:21.35,1:15:23.89,Default,,0000,0000,0000,,我就说嘛 没领子的好多了
+Dialogue: 0,1:15:24.53,1:15:25.30,Default,,0000,0000,0000,,好
+Dialogue: 0,1:15:26.74,1:15:28.68,Default,,0000,0000,0000,,敝人是下士米歇尔·埃梅
+Dialogue: 0,1:15:29.76,1:15:31.63,Default,,0000,0000,0000,,这里又不是军队 你来干什么
+Dialogue: 0,1:15:35.81,1:15:37.21,Default,,0000,0000,0000,,我做了首歌给你
+Dialogue: 0,1:15:37.51,1:15:40.09,Default,,0000,0000,0000,,又一首 我都有一大堆歌了
+Dialogue: 0,1:15:40.16,1:15:42.66,Default,,0000,0000,0000,,我后天要在波毕诺首演 下次再来吧
+Dialogue: 0,1:15:42.74,1:15:43.73,Default,,0000,0000,0000,,我就穿这件
+Dialogue: 0,1:15:44.27,1:15:45.83,Default,,0000,0000,0000,,我明天就要上前线了
+Dialogue: 0,1:15:50.36,1:15:52.43,Default,,0000,0000,0000,,钢琴在那儿 给你五分钟
+Dialogue: 0,1:15:57.78,1:15:58.68,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:16:01.88,1:16:03.35,Default,,0000,0000,0000,,哎 又要等了
+Dialogue: 0,1:16:10.21,1:16:14.79,Default,,0000,0000,0000,,♪ 街角那烟花女子十分美丽 ♪
+Dialogue: 0,1:16:15.03,1:16:19.50,Default,,0000,0000,0000,,♪ 一群人拜倒在她的石榴裙下 ♪
+Dialogue: 0,1:16:20.01,1:16:23.85,Default,,0000,0000,0000,,♪ 她干完活后 这下该她走了 ♪
+Dialogue: 0,1:16:24.53,1:16:29.85,Default,,0000,0000,0000,,♪ 徘徊市郊舞会想寻点美梦 ♪
+Dialogue: 0,1:16:30.69,1:16:33.77,Default,,0000,0000,0000,,♪ 她听到爪哇乐曲 但她没跳 ♪
+Dialogue: 0,1:16:34.01,1:16:36.29,Default,,0000,0000,0000,,♪ 她连舞池都没瞄上一眼 ♪
+Dialogue: 0,1:16:36.79,1:16:39.67,Default,,0000,0000,0000,,♪ 随着热舞 她眼中满是爱意 ♪
+Dialogue: 0,1:16:39.87,1:16:41.43,Default,,0000,0000,0000,,♪ 艺术家又干又长的手指 ♪
+Dialogue: 0,1:16:41.67,1:16:42.99,Default,,0000,0000,0000,,好 停下
+Dialogue: 0,1:16:45.35,1:16:46.15,Default,,0000,0000,0000,,歌我要了
+Dialogue: 0,1:16:47.19,1:16:48.07,Default,,0000,0000,0000,,全部人都出去
+Dialogue: 0,1:16:48.15,1:16:49.53,Default,,0000,0000,0000,,-继续弹 -伊迪丝
+Dialogue: 0,1:16:51.06,1:16:53.01,Default,,0000,0000,0000,,这太不好了 已经迟到了
+Dialogue: 0,1:16:53.80,1:16:54.74,Default,,0000,0000,0000,,有什么不太好
+Dialogue: 0,1:16:55.49,1:16:57.62,Default,,0000,0000,0000,,你继续弹吧 我要在波毕诺唱它
+Dialogue: 0,1:16:58.15,1:16:59.28,Default,,0000,0000,0000,,继续 继续弹
+Dialogue: 0,1:17:01.94,1:17:03.48,Default,,0000,0000,0000,,伊迪丝 你不能这样
+Dialogue: 0,1:17:03.57,1:17:05.19,Default,,0000,0000,0000,,我不能 我不能这样做
+Dialogue: 0,1:17:05.35,1:17:07.33,Default,,0000,0000,0000,,你以为伊迪丝·皮雅芙是谁呀
+Dialogue: 0,1:17:14.52,1:17:16.10,Default,,0000,0000,0000,,她非常绝望 非常穷
+Dialogue: 0,1:17:16.16,1:17:17.72,Default,,0000,0000,0000,,拜托 请您说法文
+Dialogue: 0,1:17:17.94,1:17:19.75,Default,,0000,0000,0000,,她非常绝望 非常穷
+Dialogue: 0,1:17:20.44,1:17:22.40,Default,,0000,0000,0000,,别结结巴巴的 查尔斯
+Dialogue: 0,1:17:22.48,1:17:24.02,Default,,0000,0000,0000,,我毕竟不是翻译
+Dialogue: 0,1:17:24.10,1:17:25.65,Default,,0000,0000,0000,,简直糟透了
+Dialogue: 0,1:17:26.00,1:17:29.78,Default,,0000,0000,0000,,它跟康康舞和巴黎妙女郎根本没法比
+Dialogue: 0,1:17:30.79,1:17:32.66,Default,,0000,0000,0000,,这就叫做演出失败
+Dialogue: 0,1:17:33.24,1:17:35.72,Default,,0000,0000,0000,,伊迪丝 你又不是第一次受这种打击
+Dialogue: 0,1:17:36.24,1:17:39.65,Default,,0000,0000,0000,,美国人喜欢美女 不喜欢我
+Dialogue: 0,1:17:39.78,1:17:42.74,Default,,0000,0000,0000,,我又不是他们期待的 风骚巴黎女郎
+Dialogue: 0,1:17:42.89,1:17:45.08,Default,,0000,0000,0000,,我什么时候像个跳脱衣舞的呢
+Dialogue: 0,1:17:45.68,1:17:47.35,Default,,0000,0000,0000,,我屁股里的羽毛呢
+Dialogue: 0,1:17:47.79,1:17:48.59,Default,,0000,0000,0000,,找到了
+Dialogue: 0,1:17:48.59,1:17:51.19,Default,,0000,0000,0000,,在这里 在这里 找到了
+Dialogue: 0,1:17:51.36,1:17:53.30,Default,,0000,0000,0000,,笑吧 你们笑吧
+Dialogue: 0,1:17:54.42,1:17:56.72,Default,,0000,0000,0000,,季诺 这里没有人帮我撑腰
+Dialogue: 0,1:17:56.85,1:17:58.52,Default,,0000,0000,0000,,说我太死相了
+Dialogue: 0,1:17:58.69,1:18:00.16,Default,,0000,0000,0000,,是他们自己太笨了
+Dialogue: 0,1:18:00.39,1:18:01.60,Default,,0000,0000,0000,,就是说嘛
+Dialogue: 0,1:18:01.83,1:18:03.16,Default,,0000,0000,0000,,伊迪丝 了不起
+Dialogue: 0,1:18:03.29,1:18:04.79,Default,,0000,0000,0000,,太精彩了 快看啊
+Dialogue: 0,1:18:06.43,1:18:07.91,Default,,0000,0000,0000,,不不不 这边才对
+Dialogue: 0,1:18:11.68,1:18:12.88,Default,,0000,0000,0000,,你上头版新闻了
+Dialogue: 0,1:18:13.38,1:18:14.84,Default,,0000,0000,0000,,还占了两个专栏
+Dialogue: 0,1:18:14.93,1:18:16.16,Default,,0000,0000,0000,,真是个天大的好消息
+Dialogue: 0,1:18:16.47,1:18:18.02,Default,,0000,0000,0000,,是魏吉尔·汤姆森写的
+Dialogue: 0,1:18:18.23,1:18:20.00,Default,,0000,0000,0000,,他是美国最有影响力的剧评家
+Dialogue: 0,1:18:20.16,1:18:22.29,Default,,0000,0000,0000,,他简直把你的表演捧上了天
+Dialogue: 0,1:18:24.64,1:18:29.49,Default,,0000,0000,0000,,美国 观众 有时候很笨又
+Dialogue: 0,1:18:29.57,1:18:31.41,Default,,0000,0000,0000,,我看不懂 帮我翻译这些狗屁
+Dialogue: 0,1:18:31.46,1:18:33.36,Default,,0000,0000,0000,,他说不能放你走
+Dialogue: 0,1:18:33.92,1:18:36.26,Default,,0000,0000,0000,,那会是个严重的错误
+Dialogue: 0,1:18:37.33,1:18:39.73,Default,,0000,0000,0000,,美国人不懂得欣赏
+Dialogue: 0,1:18:40.03,1:18:41.03,Default,,0000,0000,0000,,对 不懂
+Dialogue: 0,1:18:41.84,1:18:45.08,Default,,0000,0000,0000,,就知道会有好事 我要换衣服
+Dialogue: 0,1:18:45.28,1:18:46.71,Default,,0000,0000,0000,,季诺 帮我找衣服
+Dialogue: 0,1:18:49.49,1:18:52.09,Default,,0000,0000,0000,,今晚我要出去 有人请我
+Dialogue: 0,1:18:59.61,1:19:01.56,Default,,0000,0000,0000,,你的烟燻牛肉来了
+Dialogue: 0,1:19:01.67,1:19:02.45,Default,,0000,0000,0000,,请慢用
+Dialogue: 0,1:19:06.87,1:19:08.39,Default,,0000,0000,0000,,这是什么 马塞尔
+Dialogue: 0,1:19:08.85,1:19:10.23,Default,,0000,0000,0000,,牛肉 快吃吃看
+Dialogue: 0,1:19:12.69,1:19:14.17,Default,,0000,0000,0000,,这闻起来像落汤狗
+Dialogue: 0,1:19:16.29,1:19:17.41,Default,,0000,0000,0000,,肉有问题吗
+Dialogue: 0,1:19:18.71,1:19:19.41,Default,,0000,0000,0000,,什么
+Dialogue: 0,1:19:20.03,1:19:21.10,Default,,0000,0000,0000,,没问题
+Dialogue: 0,1:19:21.59,1:19:22.50,Default,,0000,0000,0000,,她只是
+Dialogue: 0,1:19:23.08,1:19:24.50,Default,,0000,0000,0000,,这个没问题的
+Dialogue: 0,1:19:26.20,1:19:29.40,Default,,0000,0000,0000,,看来您的英文跟这三明治一样好
+Dialogue: 0,1:19:36.05,1:19:37.53,Default,,0000,0000,0000,,你不喜欢这边
+Dialogue: 0,1:19:38.88,1:19:41.62,Default,,0000,0000,0000,,我有点惊讶 没想到会
+Dialogue: 0,1:19:42.76,1:19:45.36,Default,,0000,0000,0000,,您打给我 约我出来时说
+Dialogue: 0,1:19:45.49,1:19:47.86,Default,,0000,0000,0000,,两个法国佬孤零零的在纽约
+Dialogue: 0,1:19:47.92,1:19:49.97,Default,,0000,0000,0000,,为什么不出来吃顿饭呢
+Dialogue: 0,1:19:50.82,1:19:52.58,Default,,0000,0000,0000,,我想成别的了
+Dialogue: 0,1:19:53.46,1:19:55.22,Default,,0000,0000,0000,,我一直都到这里吃饭
+Dialogue: 0,1:19:58.71,1:20:01.49,Default,,0000,0000,0000,,是您请客 但您绝对不会破产的
+Dialogue: 0,1:20:14.50,1:20:15.56,Default,,0000,0000,0000,,两位想用什么
+Dialogue: 0,1:20:16.76,1:20:19.11,Default,,0000,0000,0000,,-两份烟燻牛肉三明治 -不不不
+Dialogue: 0,1:20:19.75,1:20:20.76,Default,,0000,0000,0000,,我来点
+Dialogue: 0,1:20:21.32,1:20:23.44,Default,,0000,0000,0000,,两份菲力鹅肝牛排
+Dialogue: 0,1:20:23.76,1:20:27.33,Default,,0000,0000,0000,,一瓶年份的朗吉吕红酒 麻烦你了
+Dialogue: 0,1:20:32.00,1:20:33.17,Default,,0000,0000,0000,,你肯定很饿了
+Dialogue: 0,1:20:33.78,1:20:35.78,Default,,0000,0000,0000,,但也比吃狗食强啊
+Dialogue: 0,1:20:37.09,1:20:38.21,Default,,0000,0000,0000,,我很抱歉
+Dialogue: 0,1:20:39.40,1:20:41.45,Default,,0000,0000,0000,,就算重头开始吧 好吗
+Dialogue: 0,1:20:42.53,1:20:45.80,Default,,0000,0000,0000,,好的 你到纽约多长时间了
+Dialogue: 0,1:20:46.79,1:20:47.97,Default,,0000,0000,0000,,两个月了
+Dialogue: 0,1:20:48.77,1:20:50.01,Default,,0000,0000,0000,,你喜欢美国吗
+Dialogue: 0,1:20:50.93,1:20:52.76,Default,,0000,0000,0000,,我才不喜欢美国呢
+Dialogue: 0,1:20:53.25,1:20:55.40,Default,,0000,0000,0000,,我搞不懂他们 他们也搞不懂我
+Dialogue: 0,1:20:55.65,1:20:56.84,Default,,0000,0000,0000,,你肯定很想念巴黎吧
+Dialogue: 0,1:20:57.03,1:20:58.21,Default,,0000,0000,0000,,想死我了
+Dialogue: 0,1:20:59.01,1:21:01.09,Default,,0000,0000,0000,,你不唱歌的时候都做些什么
+Dialogue: 0,1:21:02.74,1:21:05.26,Default,,0000,0000,0000,,你八成是警察派来调查我的
+Dialogue: 0,1:21:06.18,1:21:07.43,Default,,0000,0000,0000,,我织毛衣
+Dialogue: 0,1:21:07.95,1:21:09.74,Default,,0000,0000,0000,,如果您告诉我您的尺寸
+Dialogue: 0,1:21:10.05,1:21:11.54,Default,,0000,0000,0000,,我可以给您织一件
+Dialogue: 0,1:21:11.89,1:21:13.38,Default,,0000,0000,0000,,不用了 实在是
+Dialogue: 0,1:21:15.62,1:21:17.36,Default,,0000,0000,0000,,那些人认出你来了
+Dialogue: 0,1:21:17.59,1:21:18.48,Default,,0000,0000,0000,,真的吗
+Dialogue: 0,1:21:21.91,1:21:24.03,Default,,0000,0000,0000,,他们肯定在说我前两场惨败
+Dialogue: 0,1:21:24.31,1:21:25.53,Default,,0000,0000,0000,,说我的事业完了
+Dialogue: 0,1:21:26.67,1:21:28.58,Default,,0000,0000,0000,,我去叫他们闭上乌鸦嘴
+Dialogue: 0,1:21:28.76,1:21:29.40,Default,,0000,0000,0000,,别去
+Dialogue: 0,1:21:30.47,1:21:32.95,Default,,0000,0000,0000,,少紧张 我逗你玩的
+Dialogue: 0,1:21:45.51,1:21:46.66,Default,,0000,0000,0000,,很好
+Dialogue: 0,1:21:57.71,1:21:59.43,Default,,0000,0000,0000,,我们可以互相多了解一下吗
+Dialogue: 0,1:21:59.51,1:22:00.66,Default,,0000,0000,0000,,当然可以
+Dialogue: 0,1:22:01.55,1:22:03.70,Default,,0000,0000,0000,,那你不打拳的时候都做什么呢
+Dialogue: 0,1:22:03.78,1:22:05.32,Default,,0000,0000,0000,,我训练 跑步
+Dialogue: 0,1:22:05.75,1:22:06.88,Default,,0000,0000,0000,,那训练完了呢
+Dialogue: 0,1:22:07.15,1:22:08.51,Default,,0000,0000,0000,,要是在摩洛哥的家里
+Dialogue: 0,1:22:09.15,1:22:10.71,Default,,0000,0000,0000,,我就照看农场
+Dialogue: 0,1:22:11.35,1:22:12.59,Default,,0000,0000,0000,,你有农场吗
+Dialogue: 0,1:22:13.43,1:22:15.19,Default,,0000,0000,0000,,我平时都是养猪的
+Dialogue: 0,1:22:20.61,1:22:22.25,Default,,0000,0000,0000,,怎么了 有什么不可以吗
+Dialogue: 0,1:22:25.68,1:22:27.57,Default,,0000,0000,0000,,也对 为什么不可以呢
+Dialogue: 0,1:22:27.81,1:22:28.88,Default,,0000,0000,0000,,现代化的养殖
+Dialogue: 0,1:22:29.11,1:22:30.98,Default,,0000,0000,0000,,我养的都是些很棒的小肥猪
+Dialogue: 0,1:22:31.35,1:22:33.03,Default,,0000,0000,0000,,那你比赛的时候 谁帮你照料
+Dialogue: 0,1:22:33.14,1:22:33.92,Default,,0000,0000,0000,,我妻子
+Dialogue: 0,1:22:42.74,1:22:43.51,Default,,0000,0000,0000,,你结
+Dialogue: 0,1:22:45.28,1:22:46.69,Default,,0000,0000,0000,,你的手真漂亮
+Dialogue: 0,1:22:49.25,1:22:50.81,Default,,0000,0000,0000,,你听见了吗 西蒙妮
+Dialogue: 0,1:22:51.28,1:22:53.62,Default,,0000,0000,0000,,他说的对 你的手指本来就很漂亮
+Dialogue: 0,1:22:55.33,1:22:56.69,Default,,0000,0000,0000,,你听我说
+Dialogue: 0,1:22:56.97,1:22:58.49,Default,,0000,0000,0000,,你的眼睛是什么颜色的
+Dialogue: 0,1:23:00.04,1:23:01.76,Default,,0000,0000,0000,,他就靠过来想看清楚
+Dialogue: 0,1:23:02.01,1:23:03.24,Default,,0000,0000,0000,,他闻起来像猪
+Dialogue: 0,1:23:03.97,1:23:05.36,Default,,0000,0000,0000,,去你的 乱说话
+Dialogue: 0,1:23:05.59,1:23:07.07,Default,,0000,0000,0000,,他本来就是个养猪户嘛
+Dialogue: 0,1:23:07.31,1:23:08.30,Default,,0000,0000,0000,,他说
+Dialogue: 0,1:23:08.55,1:23:09.87,Default,,0000,0000,0000,,蓝紫色
+Dialogue: 0,1:23:10.85,1:23:12.39,Default,,0000,0000,0000,,蓝紫色就蓝紫色呗
+Dialogue: 0,1:23:12.98,1:23:14.35,Default,,0000,0000,0000,,是他说话的方式
+Dialogue: 0,1:23:15.36,1:23:16.72,Default,,0000,0000,0000,,跟小孩似的
+Dialogue: 0,1:23:18.68,1:23:19.75,Default,,0000,0000,0000,,然后他又说
+Dialogue: 0,1:23:20.35,1:23:21.95,Default,,0000,0000,0000,,你美若天仙
+Dialogue: 0,1:23:23.72,1:23:25.26,Default,,0000,0000,0000,,你过奖了
+Dialogue: 0,1:23:33.12,1:23:33.87,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:23:54.90,1:23:56.13,Default,,0000,0000,0000,,你亲他了吗
+Dialogue: 0,1:23:57.17,1:23:57.97,Default,,0000,0000,0000,,我不敢
+Dialogue: 0,1:23:59.88,1:24:01.41,Default,,0000,0000,0000,,真是个可爱的夜晚
+Dialogue: 0,1:24:01.51,1:24:02.30,Default,,0000,0000,0000,,太短了
+Dialogue: 0,1:24:05.63,1:24:07.15,Default,,0000,0000,0000,,你会来看我比赛吗
+Dialogue: 0,1:24:08.32,1:24:09.23,Default,,0000,0000,0000,,当然去
+Dialogue: 0,1:24:11.63,1:24:13.70,Default,,0000,0000,0000,,那他呢 他有想亲你吗
+Dialogue: 0,1:24:14.35,1:24:16.34,Default,,0000,0000,0000,,谁知道他心里有没有想过
+Dialogue: 0,1:24:17.60,1:24:19.33,Default,,0000,0000,0000,,骗谁啊 不想才怪呢
+Dialogue: 0,1:24:19.62,1:24:21.16,Default,,0000,0000,0000,,我会去听你演唱的
+Dialogue: 0,1:24:24.29,1:24:27.68,Default,,0000,0000,0000,,那好 晚安 再见了
+Dialogue: 0,1:24:29.19,1:24:33.53,注解,,0000,0000,0000,,♪ 当你吻我 天为之叹息 ♪
+Dialogue: 0,1:24:31.92,1:24:33.64,Default,,0000,0000,0000,,他是我这辈子的挚爱
+Dialogue: 0,1:24:34.53,1:24:37.41,Default,,0000,0000,0000,,♪ 我闭上双眼 ♪
+Dialogue: 0,1:24:37.85,1:24:41.85,Default,,0000,0000,0000,,♪ 看到玫瑰人生 ♪
+Dialogue: 0,1:24:44.15,1:24:48.83,Default,,0000,0000,0000,,♪ 当你拥我紧贴你心 ♪
+Dialogue: 0,1:24:49.63,1:24:57.22,Default,,0000,0000,0000,,♪ 我置身于另个玫瑰绽放的国度 ♪
+Dialogue: 0,1:24:58.45,1:25:05.09,Default,,0000,0000,0000,,♪ 当你细诉衷曲 天使也在上高歌 ♪
+Dialogue: 0,1:25:06.21,1:25:12.73,Default,,0000,0000,0000,,♪ 每天情话绵绵成了爱的歌曲 ♪
+Dialogue: 0,1:25:13.81,1:25:21.89,Default,,0000,0000,0000,,♪ 给我你的心与灵 永生不渝 ♪
+Dialogue: 0,1:25:23.11,1:25:27.87,Default,,0000,0000,0000,,♪ 玫瑰人生 ♪
+Dialogue: 0,1:26:07.27,1:26:09.22,Default,,0000,0000,0000,,您真是太出色了
+Dialogue: 0,1:26:09.65,1:26:13.05,Default,,0000,0000,0000,,吕西安·鲁普 马塞尔瑟尔当的经理
+Dialogue: 0,1:26:14.05,1:26:17.12,Default,,0000,0000,0000,,这是CBS电视联播网的詹姆逊先生
+Dialogue: 0,1:26:18.01,1:26:20.60,Default,,0000,0000,0000,,现在或许不是时候 你可是
+Dialogue: 0,1:26:33.08,1:26:34.44,Default,,0000,0000,0000,,我是玛琳·黛德丽
+Dialogue: 0,1:26:37.75,1:26:41.28,Default,,0000,0000,0000,,晚上好 打扰了 来跟你说几句话
+Dialogue: 0,1:26:44.27,1:26:46.34,Default,,0000,0000,0000,,我离开巴黎已经很久了
+Dialogue: 0,1:26:47.56,1:26:50.35,Default,,0000,0000,0000,,但是 伊迪丝 今晚你演唱的时候
+Dialogue: 0,1:26:51.23,1:26:52.87,Default,,0000,0000,0000,,我仿佛身在巴黎
+Dialogue: 0,1:26:53.45,1:26:56.00,Default,,0000,0000,0000,,在巴黎的街上 天空下
+Dialogue: 0,1:26:56.77,1:26:59.56,Default,,0000,0000,0000,,你的嗓音就像是巴黎的灵魂
+Dialogue: 0,1:27:00.19,1:27:02.02,Default,,0000,0000,0000,,带我神游其中
+Dialogue: 0,1:27:02.55,1:27:04.38,Default,,0000,0000,0000,,你让我感动得哭了
+Dialogue: 0,1:27:05.84,1:27:07.17,Default,,0000,0000,0000,,衷心地感谢你 伊迪丝
+Dialogue: 0,1:27:08.98,1:27:10.07,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:27:46.23,1:27:47.40,Default,,0000,0000,0000,,多谢你的谨慎
+Dialogue: 0,1:27:47.67,1:27:48.75,Default,,0000,0000,0000,,谢谢 先生
+Dialogue: 0,1:27:48.99,1:27:50.93,Default,,0000,0000,0000,,快 上来
+Dialogue: 0,1:27:56.74,1:27:58.45,Default,,0000,0000,0000,,我开始喜欢这个城市了
+Dialogue: 0,1:27:59.35,1:28:01.03,Default,,0000,0000,0000,,今天晚上天上有星星
+Dialogue: 0,1:28:03.83,1:28:04.47,Default,,0000,0000,0000,,走吧
+Dialogue: 0,1:28:19.12,1:28:20.10,Default,,0000,0000,0000,,马克
+Dialogue: 0,1:28:20.56,1:28:23.54,Default,,0000,0000,0000,,你知道青蛙可以活多久吗
+Dialogue: 0,1:28:24.25,1:28:27.38,Default,,0000,0000,0000,,在童话世界里还是现实生活中
+Dialogue: 0,1:28:29.38,1:28:32.76,Default,,0000,0000,0000,,我从来没有给任何人讲过童话故事
+Dialogue: 0,1:28:33.43,1:28:35.06,Default,,0000,0000,0000,,你没机会讲
+Dialogue: 0,1:28:37.09,1:28:40.23,Default,,0000,0000,0000,,有 可是我没讲
+Dialogue: 0,1:29:08.72,1:29:10.77,Default,,0000,0000,0000,,♪ 街角那烟花女子 ♪
+Dialogue: 0,1:29:11.57,1:29:13.85,Default,,0000,0000,0000,,♪ 十分美丽 ♪
+Dialogue: 0,1:29:14.85,1:29:16.68,Default,,0000,0000,0000,,♪ 一堆女孩老大不高兴 ♪
+Dialogue: 0,1:29:17.37,1:29:19.20,Default,,0000,0000,0000,,♪ 男人都不要她 ♪
+Dialogue: 0,1:29:20.33,1:29:22.21,Default,,0000,0000,0000,,♪ 她死了活该 ♪
+Dialogue: 0,1:29:24.89,1:29:26.01,Default,,0000,0000,0000,,♪ 她的男人 ♪
+Dialogue: 0,1:29:26.08,1:29:28.97,Default,,0000,0000,0000,,♪ 永别了 美梦全成空 ♪
+Dialogue: 0,1:29:31.17,1:29:32.73,Default,,0000,0000,0000,,♪ 她没命了 她完蛋了 ♪
+Dialogue: 0,1:29:33.78,1:29:35.57,Default,,0000,0000,0000,,♪ 她那双哀伤的腿 ♪
+Dialogue: 0,1:29:36.55,1:29:38.15,Default,,0000,0000,0000,,♪ 还带她去下流场所 ♪
+Dialogue: 0,1:29:40.73,1:29:42.01,Default,,0000,0000,0000,,♪ 那儿还有一位 ♪
+Dialogue: 0,1:29:42.41,1:29:44.01,Default,,0000,0000,0000,,♪ 通宵达旦 ♪
+Dialogue: 0,1:29:45.81,1:29:47.37,Default,,0000,0000,0000,,♪ 她听着爪哇舞曲 ♪
+Dialogue: 0,1:29:48.69,1:29:50.97,Default,,0000,0000,0000,,♪ 她听到爪哇舞曲 ♪
+Dialogue: 0,1:29:51.75,1:29:53.16,Default,,0000,0000,0000,,♪ 她闭上双 ♪
+Dialogue: 0,1:29:55.01,1:29:57.29,Default,,0000,0000,0000,,♪ 她的手指又干又 ♪
+Dialogue: 0,1:29:57.73,1:29:59.01,Default,,0000,0000,0000,,♪ 直钻进她的皮肤里 ♪
+Dialogue: 0,1:29:59.41,1:30:00.32,Default,,0000,0000,0000,,♪ 从下从上 ♪
+Dialogue: 0,1:30:00.53,1:30:02.29,Default,,0000,0000,0000,,♪ 她想破口大骂 ♪
+Dialogue: 0,1:30:02.49,1:30:03.64,Default,,0000,0000,0000,,♪ 这很花力气 ♪
+Dialogue: 0,1:30:03.89,1:30:05.01,Default,,0000,0000,0000,,♪ 为了忘怀一切 ♪
+Dialogue: 0,1:30:05.21,1:30:06.53,Default,,0000,0000,0000,,♪ 她又开始跳舞 转啊转 ♪
+Dialogue: 0,1:30:06.77,1:30:10.32,Default,,0000,0000,0000,,♪ 随着音乐的 ♪
+Dialogue: 0,1:30:13.78,1:30:15.64,Default,,0000,0000,0000,,抱歉 我有点累了
+Dialogue: 0,1:30:16.55,1:30:18.19,Default,,0000,0000,0000,,马上就回来
+Dialogue: 0,1:30:38.77,1:30:39.95,Default,,0000,0000,0000,,让她躺在那儿
+Dialogue: 0,1:30:48.44,1:30:49.72,Default,,0000,0000,0000,,我要回去唱
+Dialogue: 0,1:30:49.88,1:30:50.83,Default,,0000,0000,0000,,你想都别想
+Dialogue: 0,1:30:51.03,1:30:53.30,Default,,0000,0000,0000,,谁都休想管我唱不唱
+Dialogue: 0,1:30:53.83,1:30:54.95,Default,,0000,0000,0000,,我们该怎么办
+Dialogue: 0,1:30:55.11,1:30:57.51,Default,,0000,0000,0000,,抱歉 让观众散场吧
+Dialogue: 0,1:30:57.96,1:30:59.08,Default,,0000,0000,0000,,我要回去唱
+Dialogue: 0,1:30:59.11,1:31:00.16,Default,,0000,0000,0000,,不行 伊迪丝
+Dialogue: 0,1:31:00.24,1:31:01.70,Default,,0000,0000,0000,,我得继续唱
+Dialogue: 0,1:31:01.72,1:31:02.64,Default,,0000,0000,0000,,那是找死
+Dialogue: 0,1:31:03.35,1:31:04.26,Default,,0000,0000,0000,,送她去医院
+Dialogue: 0,1:31:04.47,1:31:06.26,Default,,0000,0000,0000,,不 不
+Dialogue: 0,1:31:06.39,1:31:08.32,Default,,0000,0000,0000,,-不 路易 我不去医院 -伊迪丝
+Dialogue: 0,1:31:08.63,1:31:09.75,Default,,0000,0000,0000,,我求求你
+Dialogue: 0,1:31:09.86,1:31:12.35,Default,,0000,0000,0000,,伊迪丝 你三个星期前才刚出院
+Dialogue: 0,1:31:12.59,1:31:14.24,Default,,0000,0000,0000,,还会有别的演出机会的
+Dialogue: 0,1:31:15.35,1:31:17.17,Default,,0000,0000,0000,,带我回台上去
+Dialogue: 0,1:31:17.52,1:31:21.54,Default,,0000,0000,0000,,带我回去 带我回去 我一定得唱
+Dialogue: 0,1:31:21.76,1:31:25.51,Default,,0000,0000,0000,,我一定得唱 路易 我没有选择
+Dialogue: 0,1:31:25.71,1:31:27.38,Default,,0000,0000,0000,,求你 别这样了
+Dialogue: 0,1:31:27.57,1:31:28.84,Default,,0000,0000,0000,,伊迪丝 别这样
+Dialogue: 0,1:31:28.95,1:31:31.06,Default,,0000,0000,0000,,你听见观众的呼声了吗
+Dialogue: 0,1:31:31.08,1:31:32.74,Default,,0000,0000,0000,,求你
+Dialogue: 0,1:31:33.38,1:31:34.34,Default,,0000,0000,0000,,去把门关上
+Dialogue: 0,1:31:35.62,1:31:37.59,Default,,0000,0000,0000,,带我回台上去 路易
+Dialogue: 0,1:31:37.75,1:31:39.76,Default,,0000,0000,0000,,带我回去吧
+Dialogue: 0,1:31:39.97,1:31:41.71,Default,,0000,0000,0000,,要是我今晚不唱
+Dialogue: 0,1:31:42.00,1:31:44.95,Default,,0000,0000,0000,,我今晚至少得唱一首
+Dialogue: 0,1:31:45.09,1:31:48.79,Default,,0000,0000,0000,,我才不会失去自信 你懂吗
+Dialogue: 0,1:32:04.13,1:32:05.17,Default,,0000,0000,0000,,大夫
+Dialogue: 0,1:32:07.19,1:32:08.33,Default,,0000,0000,0000,,你看着办吧
+Dialogue: 0,1:32:35.17,1:32:38.16,Default,,0000,0000,0000,,这次又没拍到吧 摄影大哥
+Dialogue: 0,1:32:38.53,1:32:41.91,Default,,0000,0000,0000,,想看我昏倒 我好得很
+Dialogue: 0,1:32:42.19,1:32:45.50,Default,,0000,0000,0000,,告诉报社 我这不是巡回自杀
+Dialogue: 0,1:32:50.56,1:32:51.59,Default,,0000,0000,0000,,巴达姆
+Dialogue: 0,1:33:01.56,1:33:04.99,Default,,0000,0000,0000,,巴达姆 巴达姆 巴达姆 
+Dialogue: 0,1:33:05.30,1:33:08.79,Default,,0000,0000,0000,,他跑到我身后
+Dialogue: 0,1:33:09.27,1:33:12.39,Default,,0000,0000,0000,,巴达姆 巴达姆 巴达姆
+Dialogue: 0,1:33:12.71,1:33:16.31,Default,,0000,0000,0000,,唤醒我的回忆
+Dialogue: 0,1:33:16.97,1:33:20.17,Default,,0000,0000,0000,,巴达姆 巴达姆 巴达姆
+Dialogue: 0,1:33:20.60,1:33:23.06,Default,,0000,0000,0000,,那副模样我很
+Dialogue: 0,1:33:27.57,1:33:28.40,Default,,0000,0000,0000,,她昏倒了
+Dialogue: 0,1:33:28.48,1:33:29.75,Default,,0000,0000,0000,,快拉大幕
+Dialogue: 0,1:34:09.29,1:34:18.93,Default,,0000,0000,0000,,上帝 上帝 我的上帝
+Dialogue: 0,1:34:19.43,1:34:22.39,Default,,0000,0000,0000,,赐他给我 再一下下
+Dialogue: 0,1:34:22.80,1:34:24.32,Default,,0000,0000,0000,,圣德蕾莎
+Dialogue: 0,1:34:24.69,1:34:26.04,Default,,0000,0000,0000,,衷心感谢
+Dialogue: 0,1:34:24.87,1:34:27.95,注解,,0000,0000,0000,,我的挚爱
+Dialogue: 0,1:34:27.11,1:34:28.04,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:34:28.60,1:34:30.58,Default,,0000,0000,0000,,我知道是你安排的
+Dialogue: 0,1:34:30.76,1:34:32.53,Default,,0000,0000,0000,,把他送到我身边
+Dialogue: 0,1:34:33.12,1:34:37.17,Default,,0000,0000,0000,,多亏您的恩赐 我找到了真爱
+Dialogue: 0,1:34:37.28,1:34:41.14,Default,,0000,0000,0000,,亲爱的小耶稣 请保佑马塞尔
+Dialogue: 0,1:34:40.31,1:34:49.63,注解,,0000,0000,0000,,赐他给我 再一下下
+Dialogue: 0,1:34:50.77,1:34:53.65,Default,,0000,0000,0000,,就给我
+Dialogue: 0,1:34:54.39,1:34:57.15,注解,,0000,0000,0000,,相爱的时光
+Dialogue: 0,1:34:57.55,1:35:00.39,注解,,0000,0000,0000,,好互诉衷肠
+Dialogue: 0,1:35:03.97,1:35:06.81,Default,,0000,0000,0000,,给我时光
+Dialogue: 0,1:35:07.41,1:35:14.73,Default,,0000,0000,0000,,去营造回忆
+Dialogue: 0,1:35:19.81,1:35:21.19,Default,,0000,0000,0000,,噢 我的上帝
+Dialogue: 0,1:35:19.83,1:35:26.59,注解,,0000,0000,0000,,我的上帝 噢 我的上帝
+Dialogue: 0,1:35:26.87,1:35:29.59,注解,,0000,0000,0000,,赐他给我
+Dialogue: 0,1:35:27.89,1:35:29.41,Default,,0000,0000,0000,,打他 出拳
+Dialogue: 0,1:35:31.99,1:35:43.22,注解,,0000,0000,0000,,充填一点点我的生命
+Dialogue: 0,1:35:35.75,1:35:37.72,Default,,0000,0000,0000,,步法 步法
+Dialogue: 0,1:35:45.55,1:35:52.90,Default,,0000,0000,0000,,上帝 上帝 我的上帝
+Dialogue: 0,1:35:53.19,1:35:56.98,Default,,0000,0000,0000,,赐他给我 再一下下
+Dialogue: 0,1:35:57.27,1:36:00.50,注解,,0000,0000,0000,,我的挚爱
+Dialogue: 0,1:35:57.43,1:35:58.85,Default,,0000,0000,0000,,上啊 马塞尔
+Dialogue: 0,1:36:01.28,1:36:02.32,Default,,0000,0000,0000,,现在去 季诺
+Dialogue: 0,1:36:02.53,1:36:04.15,Default,,0000,0000,0000,,现在会不会太早了 伊迪丝
+Dialogue: 0,1:36:04.21,1:36:06.32,Default,,0000,0000,0000,,不会的 他会赢的 我有预感
+Dialogue: 0,1:36:06.50,1:36:07.96,Default,,0000,0000,0000,,万一有什么问题呢
+Dialogue: 0,1:36:08.05,1:36:08.88,Default,,0000,0000,0000,,什么问题
+Dialogue: 0,1:36:11.20,1:36:13.83,Default,,0000,0000,0000,,一有问题 我会马上打电话给你的 快去吧
+Dialogue: 0,1:36:26.93,1:36:27.92,Default,,0000,0000,0000,,快去啊
+Dialogue: 0,1:36:44.08,1:36:45.56,Default,,0000,0000,0000,,上啊 马塞尔
+Dialogue: 0,1:36:47.54,1:36:49.25,Default,,0000,0000,0000,,加油 马塞尔
+Dialogue: 0,1:37:18.91,1:37:20.95,Default,,0000,0000,0000,,上啊 马塞尔 加油
+Dialogue: 0,1:37:25.94,1:37:27.33,Default,,0000,0000,0000,,加油 宰了他
+Dialogue: 0,1:37:27.99,1:37:29.59,Default,,0000,0000,0000,,用你的勾拳
+Dialogue: 0,1:37:31.46,1:37:33.24,Default,,0000,0000,0000,,快 就这样打
+Dialogue: 0,1:37:36.84,1:37:38.05,Default,,0000,0000,0000,,好极了
+Dialogue: 0,1:37:42.17,1:37:43.97,Default,,0000,0000,0000,,上啊 马塞尔
+Dialogue: 0,1:37:49.09,1:37:52.64,注解,,0000,0000,0000,,赐他给我 再一下下
+Dialogue: 0,1:37:50.76,1:37:52.23,Default,,0000,0000,0000,,停 对方住手
+Dialogue: 0,1:37:53.33,1:37:56.77,Default,,0000,0000,0000,,我的挚爱
+Dialogue: 0,1:37:57.53,1:38:05.25,Default,,0000,0000,0000,,六个月 三个月 两个月
+Dialogue: 0,1:38:05.52,1:38:06.32,Default,,0000,0000,0000,,怎么了
+Dialogue: 0,1:38:06.58,1:38:07.56,Default,,0000,0000,0000,,对方受伤了
+Dialogue: 0,1:38:06.93,1:38:10.05,注解,,0000,0000,0000,,赐他给我 仅仅
+Dialogue: 0,1:38:10.45,1:38:14.16,Default,,0000,0000,0000,,一个月就好
+Dialogue: 0,1:38:14.71,1:38:22.59,注解,,0000,0000,0000,,开始或结束的时光
+Dialogue: 0,1:38:16.02,1:38:17.52,Default,,0000,0000,0000,,形势对马塞尔很有利
+Dialogue: 0,1:38:23.03,1:38:30.67,Default,,0000,0000,0000,,灿烂或受苦的时光
+Dialogue: 0,1:38:32.18,1:38:33.81,Default,,0000,0000,0000,,漂亮 马塞尔赢了
+Dialogue: 0,1:38:32.31,1:38:36.39,注解,,0000,0000,0000,,上帝 上帝 我的上帝
+Dialogue: 0,1:38:34.07,1:38:36.24,Default,,0000,0000,0000,,上帝 马塞尔赢了
+Dialogue: 0,1:38:37.00,1:38:39.59,Default,,0000,0000,0000,,这一下 他是世界冠军了
+Dialogue: 0,1:38:40.49,1:38:42.61,Default,,0000,0000,0000,,♪ 就算我错了 ♪
+Dialogue: 0,1:39:41.41,1:39:42.89,Default,,0000,0000,0000,,你像个小天使
+Dialogue: 0,1:38:42.85,1:38:47.97,Default,,0000,0000,0000,,♪ 赐他给我 一点点 ♪
+Dialogue: 0,1:39:45.68,1:39:47.22,Default,,0000,0000,0000,,这回不像天仙了
+Dialogue: 0,1:38:48.85,1:38:51.69,Default,,0000,0000,0000,,♪ 就算我错了 ♪
+Dialogue: 0,1:38:51.89,1:38:55.01,Default,,0000,0000,0000,,♪ 赐他给我 ♪
+Dialogue: 0,1:39:54.93,1:39:55.97,Default,,0000,0000,0000,,你是我的冠军
+Dialogue: 0,1:38:56.59,1:39:03.86,Default,,0000,0000,0000,,♪ 再一次 ♪
+Dialogue: 0,1:39:56.61,1:39:58.21,Default,,0000,0000,0000,,我要和你长相厮守
+Dialogue: 0,1:39:59.73,1:40:02.88,Default,,0000,0000,0000,,昨日种种皆为尘土 都将逝去
+Dialogue: 0,1:40:07.92,1:40:09.09,Default,,0000,0000,0000,,留下来陪我
+Dialogue: 0,1:40:14.24,1:40:17.28,Default,,0000,0000,0000,,我的爱 昨晚临睡前
+Dialogue: 0,1:40:17.64,1:40:18.84,Default,,0000,0000,0000,,我划掉了一天
+Dialogue: 0,1:40:19.14,1:40:21.43,Default,,0000,0000,0000,,既漫长又短暂的一天
+Dialogue: 0,1:40:21.94,1:40:24.72,Default,,0000,0000,0000,,飞机起飞时 带走了我的心
+Dialogue: 0,1:40:25.36,1:40:27.70,Default,,0000,0000,0000,,我的生命 我的呼吸
+Dialogue: 0,1:40:28.21,1:40:31.81,Default,,0000,0000,0000,,我的小宝贝 我的小乖乖 我的爱
+Dialogue: 0,1:40:31.96,1:40:34.61,Default,,0000,0000,0000,,我的被单上还留有你的味道
+Dialogue: 0,1:40:34.76,1:40:38.61,Default,,0000,0000,0000,,我的心 整日都沉睡在忧伤的怀抱中
+Dialogue: 0,1:40:38.67,1:40:39.63,Default,,0000,0000,0000,,我亲爱的
+Dialogue: 0,1:40:39.87,1:40:41.60,Default,,0000,0000,0000,,我爱你 我想你
+Dialogue: 0,1:40:41.64,1:40:44.42,Default,,0000,0000,0000,,为何我会为你痴狂至此 想你
+Dialogue: 0,1:40:44.60,1:40:47.99,Default,,0000,0000,0000,,我六神无主 无精打采 等待着你
+Dialogue: 0,1:40:48.26,1:40:50.84,Default,,0000,0000,0000,,拥我入怀 紧贴你心
+Dialogue: 0,1:40:51.33,1:40:54.36,Default,,0000,0000,0000,,世上再没有什么比你对我更重要的
+Dialogue: 0,1:40:54.68,1:40:57.38,Default,,0000,0000,0000,,可能的话 比赛一完
+Dialogue: 0,1:40:57.57,1:40:59.56,Default,,0000,0000,0000,,就把我的心还给我
+Dialogue: 0,1:40:59.73,1:41:02.13,Default,,0000,0000,0000,,法国人八成知道我们俩的爱情故事了
+Dialogue: 0,1:41:02.37,1:41:05.08,Default,,0000,0000,0000,,我一进餐厅 就会响起玫瑰人生
+Dialogue: 0,1:41:05.30,1:41:07.65,Default,,0000,0000,0000,,他们希望从我身上看到点什么
+Dialogue: 0,1:41:07.65,1:41:08.68,Default,,0000,0000,0000,,当我发现
+Dialogue: 0,1:41:08.76,1:41:11.41,Default,,0000,0000,0000,,你有多珍惜你的妻子和三个孩子
+Dialogue: 0,1:41:11.62,1:41:13.11,Default,,0000,0000,0000,,我想远走他乡
+Dialogue: 0,1:41:13.38,1:41:14.77,Default,,0000,0000,0000,,并且安慰自己说
+Dialogue: 0,1:41:14.82,1:41:15.73,Default,,0000,0000,0000,,有一天
+Dialogue: 0,1:41:15.88,1:41:17.99,Default,,0000,0000,0000,,你会感激我做的这一切
+Dialogue: 0,1:41:18.13,1:41:20.50,Default,,0000,0000,0000,,我不能占有你 却不能没有你
+Dialogue: 0,1:41:20.58,1:41:22.71,Default,,0000,0000,0000,,上帝为证 我一无所求
+Dialogue: 0,1:41:22.79,1:41:24.72,Default,,0000,0000,0000,,只求付出 不计回报
+Dialogue: 0,1:41:24.85,1:41:27.01,Default,,0000,0000,0000,,倘若有一天你我注定分离
+Dialogue: 0,1:41:27.08,1:41:28.23,Default,,0000,0000,0000,,倘若你死去
+Dialogue: 0,1:41:28.31,1:41:29.94,Default,,0000,0000,0000,,我俩天人相隔
+Dialogue: 0,1:41:30.13,1:41:31.20,Default,,0000,0000,0000,,只要你爱我
+Dialogue: 0,1:41:31.25,1:41:34.53,Default,,0000,0000,0000,,那都不重要 我会随你而去
+Dialogue: 0,1:41:46.40,1:41:48.08,Default,,0000,0000,0000,,我说三个月内
+Dialogue: 0,1:41:48.42,1:41:50.50,Default,,0000,0000,0000,,那就是在四月份的时候
+Dialogue: 0,1:41:50.87,1:41:52.84,Default,,0000,0000,0000,,我会在奥林匹亚演出
+Dialogue: 0,1:41:53.16,1:41:55.72,Default,,0000,0000,0000,,票房满档 就有进帐了
+Dialogue: 0,1:41:56.10,1:41:59.35,Default,,0000,0000,0000,,伊迪丝 你的肝细胞运作不正常
+Dialogue: 0,1:41:59.55,1:42:03.08,Default,,0000,0000,0000,,你病了 你得好好休息 我是说真的
+Dialogue: 0,1:42:03.23,1:42:06.71,Default,,0000,0000,0000,,我才44岁 脚还没跨进坟墓呢
+Dialogue: 0,1:42:06.79,1:42:09.20,Default,,0000,0000,0000,,取消的话 我们就没钱进了
+Dialogue: 0,1:42:09.40,1:42:11.36,Default,,0000,0000,0000,,都是我的错 对吧 路路
+Dialogue: 0,1:42:11.88,1:42:15.27,Default,,0000,0000,0000,,不是你的 是国税局的错 还差
+Dialogue: 0,1:42:15.51,1:42:18.19,Default,,0000,0000,0000,,十二万法朗 才够缴第一期的
+Dialogue: 0,1:42:19.03,1:42:20.48,Default,,0000,0000,0000,,出个黄疸
+Dialogue: 0,1:42:20.66,1:42:22.26,Default,,0000,0000,0000,,不用修养个一百年
+Dialogue: 0,1:42:22.29,1:42:23.31,Default,,0000,0000,0000,,你们少来了
+Dialogue: 0,1:42:25.62,1:42:27.99,Default,,0000,0000,0000,,我就要奥林匹亚复出
+Dialogue: 0,1:42:34.93,1:42:35.82,Default,,0000,0000,0000,,还要干什么吗
+Dialogue: 0,1:42:36.84,1:42:38.85,Default,,0000,0000,0000,,不能再任由她胡来了
+Dialogue: 0,1:42:39.48,1:42:41.10,Default,,0000,0000,0000,,我没办法老是盯着她
+Dialogue: 0,1:42:41.19,1:42:43.67,Default,,0000,0000,0000,,她不该那么早出院的 真的
+Dialogue: 0,1:42:44.29,1:42:47.77,Default,,0000,0000,0000,,三个月以后就宣布复出 真恐怖
+Dialogue: 0,1:42:48.05,1:42:49.53,Default,,0000,0000,0000,,她需要这些挑战
+Dialogue: 0,1:42:50.28,1:42:51.92,Default,,0000,0000,0000,,不能还没作战就先输了
+Dialogue: 0,1:42:52.48,1:42:55.73,Default,,0000,0000,0000,,到时候若取消 我又得跟保险公司周旋了
+Dialogue: 0,1:42:56.48,1:42:58.61,Default,,0000,0000,0000,,我们应该帮她作决定 就这样
+Dialogue: 0,1:42:58.76,1:43:00.04,Default,,0000,0000,0000,,不管她愿意不愿意
+Dialogue: 0,1:43:31.08,1:43:32.16,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:43:54.28,1:43:56.44,Default,,0000,0000,0000,,这时候 我告诉自己
+Dialogue: 0,1:43:56.88,1:43:58.88,Default,,0000,0000,0000,,伊迪丝 全都完了 他有别人了
+Dialogue: 0,1:43:58.96,1:43:59.83,Default,,0000,0000,0000,,你输了
+Dialogue: 0,1:43:59.89,1:44:01.26,Default,,0000,0000,0000,,他真有别的女人了
+Dialogue: 0,1:44:01.83,1:44:04.34,Default,,0000,0000,0000,,他要真的有 我还会有这么轻松吗
+Dialogue: 0,1:44:05.09,1:44:08.08,Default,,0000,0000,0000,,他走出了餐厅 我在旁边躲起来
+Dialogue: 0,1:44:08.42,1:44:11.01,Default,,0000,0000,0000,,我的马塞尔穿过大半个纽约
+Dialogue: 0,1:44:11.17,1:44:14.28,Default,,0000,0000,0000,,只为了跟一个瞎眼的老黑人拳手吃饭
+Dialogue: 0,1:44:14.42,1:44:17.80,Default,,0000,0000,0000,,几年前认识的一个老选手 你想想看
+Dialogue: 0,1:44:18.91,1:44:21.59,Default,,0000,0000,0000,,他这样的好人 现在真是稀有品种
+Dialogue: 0,1:44:21.65,1:44:22.95,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:44:23.52,1:44:26.66,Default,,0000,0000,0000,,我的马塞尔 马塞尔
+Dialogue: 0,1:44:26.90,1:44:28.91,Default,,0000,0000,0000,,开口闭口都是马塞尔
+Dialogue: 0,1:44:32.50,1:44:33.91,Default,,0000,0000,0000,,听我说 季诺
+Dialogue: 0,1:44:34.95,1:44:36.82,Default,,0000,0000,0000,,我永远不会拥有他的
+Dialogue: 0,1:44:37.67,1:44:39.06,Default,,0000,0000,0000,,他永远不会放弃
+Dialogue: 0,1:44:39.16,1:44:40.85,Default,,0000,0000,0000,,他永远不会放弃妻子
+Dialogue: 0,1:44:46.85,1:44:48.76,Default,,0000,0000,0000,,他每天都给她打电话
+Dialogue: 0,1:44:50.65,1:44:52.45,Default,,0000,0000,0000,,我都装作不知道
+Dialogue: 0,1:44:52.48,1:44:53.56,Default,,0000,0000,0000,,我只要他快乐
+Dialogue: 0,1:44:57.54,1:44:58.75,Default,,0000,0000,0000,,失陪一下
+Dialogue: 0,1:45:04.13,1:45:06.77,Default,,0000,0000,0000,,我本来也能成为伊迪丝·皮雅芙
+Dialogue: 0,1:45:06.83,1:45:08.71,Default,,0000,0000,0000,,人生又不是只有唱歌
+Dialogue: 0,1:45:20.20,1:45:22.62,Default,,0000,0000,0000,,太漫长了 马塞尔 我受不了了
+Dialogue: 0,1:45:22.83,1:45:25.22,Default,,0000,0000,0000,,打电话给机场 搭今晚的班机
+Dialogue: 0,1:45:25.43,1:45:27.88,Default,,0000,0000,0000,,如果你搭船来 我会等死的
+Dialogue: 0,1:45:28.34,1:45:29.87,Default,,0000,0000,0000,,我好想你 马塞尔
+Dialogue: 0,1:45:31.12,1:45:32.92,Default,,0000,0000,0000,,我再也没办法离开你
+Dialogue: 0,1:45:34.67,1:45:36.43,Default,,0000,0000,0000,,我干脆回巴黎算了
+Dialogue: 0,1:45:37.32,1:45:38.37,Default,,0000,0000,0000,,别挂电话
+Dialogue: 0,1:45:38.50,1:45:40.56,Default,,0000,0000,0000,,干嘛在这儿当夫人的看门狗啊
+Dialogue: 0,1:45:40.87,1:45:41.99,Default,,0000,0000,0000,,别说了
+Dialogue: 0,1:45:44.35,1:45:47.46,Default,,0000,0000,0000,,兰姆酒 可卡因 威士忌
+Dialogue: 0,1:45:47.81,1:45:49.73,Default,,0000,0000,0000,,没半个人瞧得起我
+Dialogue: 0,1:45:50.00,1:45:52.30,Default,,0000,0000,0000,,还不如在美丽城喝个烂醉
+Dialogue: 0,1:45:55.86,1:45:57.75,Default,,0000,0000,0000,,你冷落我了 伊迪丝
+Dialogue: 0,1:45:58.44,1:45:59.81,Default,,0000,0000,0000,,够了 西蒙妮
+Dialogue: 0,1:46:02.50,1:46:03.81,Default,,0000,0000,0000,,让她搭船回去
+Dialogue: 0,1:46:08.98,1:46:11.00,Default,,0000,0000,0000,,这会儿倒成了我要搭船了
+Dialogue: 0,1:46:11.51,1:46:14.24,Default,,0000,0000,0000,,敬你的演艺生涯 伊迪丝
+Dialogue: 0,1:46:19.27,1:46:20.42,Default,,0000,0000,0000,,求求你了 马塞尔
+Dialogue: 0,1:46:20.67,1:46:22.32,Default,,0000,0000,0000,,今晚就动身 为了我
+Dialogue: 0,1:47:14.75,1:47:16.39,Default,,0000,0000,0000,,我不在的时候 你都赖床吗
+Dialogue: 0,1:47:16.45,1:47:18.05,Default,,0000,0000,0000,,老天哪 马塞尔
+Dialogue: 0,1:47:18.18,1:47:20.20,Default,,0000,0000,0000,,谢谢 谢谢你
+Dialogue: 0,1:47:30.16,1:47:32.79,Default,,0000,0000,0000,,我去给你准备咖啡 呆着别动
+Dialogue: 0,1:47:40.28,1:47:41.65,Default,,0000,0000,0000,,让我来服侍你
+Dialogue: 0,1:47:59.80,1:48:00.75,Default,,0000,0000,0000,,你在这儿干嘛
+Dialogue: 0,1:48:19.54,1:48:20.75,Default,,0000,0000,0000,,我就知道你会来
+Dialogue: 0,1:48:24.13,1:48:25.91,Default,,0000,0000,0000,,好不容易才买到机票的
+Dialogue: 0,1:48:32.23,1:48:33.47,Default,,0000,0000,0000,,我有礼物要给你
+Dialogue: 0,1:48:37.32,1:48:38.37,Default,,0000,0000,0000,,脸色真难看
+Dialogue: 0,1:48:39.22,1:48:41.17,Default,,0000,0000,0000,,很苍白 你得多晒太阳
+Dialogue: 0,1:48:50.72,1:48:51.40,Default,,0000,0000,0000,,季诺
+Dialogue: 0,1:48:53.57,1:48:55.85,Default,,0000,0000,0000,,季诺 我在找手表
+Dialogue: 0,1:48:58.67,1:48:59.65,Default,,0000,0000,0000,,季诺
+Dialogue: 0,1:49:02.45,1:49:03.31,Default,,0000,0000,0000,,怎么回事
+Dialogue: 0,1:49:04.05,1:49:05.01,Default,,0000,0000,0000,,快帮我找手表
+Dialogue: 0,1:49:05.53,1:49:06.65,Default,,0000,0000,0000,,本来在这儿的
+Dialogue: 0,1:49:06.93,1:49:08.85,Default,,0000,0000,0000,,长的 卡地亚 红盒子
+Dialogue: 0,1:49:08.98,1:49:10.68,Default,,0000,0000,0000,,明明在这的 可恶
+Dialogue: 0,1:49:19.64,1:49:20.45,Default,,0000,0000,0000,,都怎么了
+Dialogue: 0,1:49:21.11,1:49:22.73,Default,,0000,0000,0000,,我在找给马塞尔的手表
+Dialogue: 0,1:49:23.31,1:49:24.33,Default,,0000,0000,0000,,手表在哪儿
+Dialogue: 0,1:49:30.10,1:49:31.61,Default,,0000,0000,0000,,给马塞尔的手表
+Dialogue: 0,1:49:32.95,1:49:33.76,Default,,0000,0000,0000,,怎么了
+Dialogue: 0,1:49:36.04,1:49:36.89,Default,,0000,0000,0000,,路易
+Dialogue: 0,1:49:38.02,1:49:39.23,Default,,0000,0000,0000,,发生了什么事
+Dialogue: 0,1:49:42.12,1:49:43.50,Default,,0000,0000,0000,,你得坚强一点
+Dialogue: 0,1:49:45.51,1:49:46.72,Default,,0000,0000,0000,,什么 是马塞尔
+Dialogue: 0,1:49:49.28,1:49:50.05,Default,,0000,0000,0000,,他怎么了
+Dialogue: 0,1:49:53.38,1:49:54.67,Default,,0000,0000,0000,,飞机失事了
+Dialogue: 0,1:50:09.68,1:50:10.44,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:11.89,1:50:12.72,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:14.42,1:50:15.44,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:16.64,1:50:17.78,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:19.20,1:50:20.29,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:22.72,1:50:24.45,Default,,0000,0000,0000,,马塞尔
+Dialogue: 0,1:50:24.15,1:50:26.91,注解,,0000,0000,0000,,♪ 倘若有天你我注定分离 ♪
+Dialogue: 0,1:50:27.11,1:50:32.55,注解,,0000,0000,0000,,♪ 倘若你死去 我俩天人永隔 ♪
+Dialogue: 0,1:50:29.16,1:50:32.23,Default,,0000,0000,0000,,不 马塞尔 马塞尔
+Dialogue: 0,1:50:32.91,1:50:39.59,注解,,0000,0000,0000,,♪ 只要你爱我 那都不重要 ♪
+Dialogue: 0,1:50:36.24,1:50:39.57,Default,,0000,0000,0000,,马塞尔 马塞尔
+Dialogue: 0,1:50:41.07,1:50:47.63,注解,,0000,0000,0000,,♪ 因为我也会随你而去 ♪
+Dialogue: 0,1:50:43.81,1:50:46.82,Default,,0000,0000,0000,,不 马塞尔 马塞尔
+Dialogue: 0,1:50:48.45,1:50:54.98,Default,,0000,0000,0000,,我俩便可长相厮守
+Dialogue: 0,1:50:55.12,1:50:58.55,Default,,0000,0000,0000,,在一望无际的蓝天
+Dialogue: 0,1:50:58.63,1:51:02.02,Default,,0000,0000,0000,,在乌云密布的穹苍
+Dialogue: 0,1:51:02.27,1:51:14.55,Default,,0000,0000,0000,,吾爱 坚信只要相爱
+Dialogue: 0,1:51:33.49,1:51:48.59,Default,,0000,0000,0000,,有情人皆可成眷属
+Dialogue: 0,1:51:56.37,1:51:58.96,Default,,0000,0000,0000,,我还能说些什么呢 皮雅芙小姐
+Dialogue: 0,1:51:59.96,1:52:01.75,Default,,0000,0000,0000,,所有人都说你是最好的灵媒
+Dialogue: 0,1:52:01.78,1:52:03.57,Default,,0000,0000,0000,,问题不在这上面
+Dialogue: 0,1:52:04.00,1:52:06.57,Default,,0000,0000,0000,,你这周来了三次 我全说了
+Dialogue: 0,1:52:07.01,1:52:08.53,Default,,0000,0000,0000,,你还来干什么
+Dialogue: 0,1:52:10.87,1:52:12.64,Default,,0000,0000,0000,,为的是你再给我讲一遍
+Dialogue: 0,1:52:14.75,1:52:17.51,Default,,0000,0000,0000,,我才记得有活下去的理由
+Dialogue: 0,1:52:19.15,1:52:22.10,Default,,0000,0000,0000,,他死于空难 他一定在天上
+Dialogue: 0,1:52:45.81,1:52:46.79,Default,,0000,0000,0000,,杰克·皮尔斯
+Dialogue: 0,1:52:47.62,1:52:49.17,Default,,0000,0000,0000,,你不能开快点吗
+Dialogue: 0,1:52:49.25,1:52:50.98,Default,,0000,0000,0000,,我需要空气
+Dialogue: 0,1:52:51.16,1:52:53.56,Default,,0000,0000,0000,,我就喜欢热 这样才会头晕
+Dialogue: 0,1:52:53.64,1:52:54.52,Default,,0000,0000,0000,,那最好
+Dialogue: 0,1:52:54.57,1:52:56.69,Default,,0000,0000,0000,,加速 杰克 快热死了
+Dialogue: 0,1:52:56.74,1:52:58.29,Default,,0000,0000,0000,,我会喉咙痛的
+Dialogue: 0,1:52:59.43,1:53:02.64,Default,,0000,0000,0000,,这样你就可以像个好老公一样照顾我
+Dialogue: 0,1:53:02.87,1:53:04.88,Default,,0000,0000,0000,,我最好的老公
+Dialogue: 0,1:53:07.35,1:53:09.32,Default,,0000,0000,0000,,因为他是你第一个老公
+Dialogue: 0,1:53:09.39,1:53:12.11,Default,,0000,0000,0000,,你打算整天这样不让我们下车
+Dialogue: 0,1:53:16.56,1:53:17.32,Default,,0000,0000,0000,,我想吐
+Dialogue: 0,1:53:18.44,1:53:21.22,Default,,0000,0000,0000,,小心 我们都快被摔出去了
+Dialogue: 0,1:53:21.80,1:53:23.78,Default,,0000,0000,0000,,让我来开 停下
+Dialogue: 0,1:53:24.47,1:53:25.83,Default,,0000,0000,0000,,好 快停下
+Dialogue: 0,1:53:26.16,1:53:28.69,Default,,0000,0000,0000,,那样季诺才能下车去吐
+Dialogue: 0,1:53:33.76,1:53:35.12,Default,,0000,0000,0000,,来 我来帮你
+Dialogue: 0,1:53:36.76,1:53:37.72,Default,,0000,0000,0000,,我帮你一把
+Dialogue: 0,1:53:40.79,1:53:41.68,Default,,0000,0000,0000,,好了 季诺
+Dialogue: 0,1:53:42.21,1:53:44.39,Default,,0000,0000,0000,,干得好 我的季诺
+Dialogue: 0,1:53:50.16,1:53:51.70,Default,,0000,0000,0000,,-再见 -再见了
+Dialogue: 0,1:53:51.94,1:53:53.72,Default,,0000,0000,0000,,嗨 等等我
+Dialogue: 0,1:53:55.44,1:53:56.96,Default,,0000,0000,0000,,等等我
+Dialogue: 0,1:53:58.44,1:54:00.50,Default,,0000,0000,0000,,哦 你会开车吗
+Dialogue: 0,1:54:02.43,1:54:04.63,Default,,0000,0000,0000,,至少我们没白出来一趟
+Dialogue: 0,1:54:04.74,1:54:07.10,Default,,0000,0000,0000,,我们害死了一棵树
+Dialogue: 0,1:54:15.75,1:54:17.70,Default,,0000,0000,0000,,真是不敢相信 什么烂服务
+Dialogue: 0,1:54:18.19,1:54:20.07,Default,,0000,0000,0000,,有人来服务我们吗
+Dialogue: 0,1:54:22.04,1:54:24.05,Default,,0000,0000,0000,,冷静点 你在这儿不是大明星
+Dialogue: 0,1:54:24.72,1:54:26.30,Default,,0000,0000,0000,,今晚在莫坎柏唱
+Dialogue: 0,1:54:26.85,1:54:27.51,Default,,0000,0000,0000,,是吗
+Dialogue: 0,1:54:28.09,1:54:30.82,Default,,0000,0000,0000,,提醒我一下 明天谁邀请我们
+Dialogue: 0,1:54:31.16,1:54:34.74,Default,,0000,0000,0000,,马龙·白兰度 金吉·罗杰斯 卓别林
+Dialogue: 0,1:54:37.78,1:54:38.40,Default,,0000,0000,0000,,谢谢
+Dialogue: 0,1:54:38.96,1:54:39.92,Default,,0000,0000,0000,,这是什么玩意儿
+Dialogue: 0,1:54:42.28,1:54:43.85,Default,,0000,0000,0000,,我们又没点这个垃圾
+Dialogue: 0,1:54:44.34,1:54:45.97,Default,,0000,0000,0000,,特调午夜阳光鸡尾酒
+Dialogue: 0,1:54:55.37,1:54:56.49,Default,,0000,0000,0000,,别碰我
+Dialogue: 0,1:54:56.95,1:54:57.52,Default,,0000,0000,0000,,我看看
+Dialogue: 0,1:54:57.57,1:54:58.85,Default,,0000,0000,0000,,你别碰我
+Dialogue: 0,1:54:59.54,1:55:00.48,Default,,0000,0000,0000,,拿去 擦干
+Dialogue: 0,1:55:03.89,1:55:05.60,Default,,0000,0000,0000,,我们还是商量一下离婚吧
+Dialogue: 0,1:55:11.38,1:55:13.12,Default,,0000,0000,0000,,夫人 你一天打几针
+Dialogue: 0,1:55:15.19,1:55:16.71,Default,,0000,0000,0000,,十来针吧
+Dialogue: 0,1:55:19.44,1:55:21.19,Default,,0000,0000,0000,,很抱歉 问得这么直接
+Dialogue: 0,1:55:22.13,1:55:23.46,Default,,0000,0000,0000,,你为什么会这么做呢
+Dialogue: 0,1:55:27.48,1:55:29.03,Default,,0000,0000,0000,,这样我才不会痛
+Dialogue: 0,1:55:33.41,1:55:36.50,Default,,0000,0000,0000,,你从什么时候开始这样每天打针的
+Dialogue: 0,1:55:37.70,1:55:40.61,Default,,0000,0000,0000,,五年前 马塞尔飞机失事后
+Dialogue: 0,1:55:41.62,1:55:42.91,Default,,0000,0000,0000,,我得了关节炎
+Dialogue: 0,1:55:43.62,1:55:45.51,Default,,0000,0000,0000,,再也不能织毛衣
+Dialogue: 0,1:55:48.42,1:55:50.13,Default,,0000,0000,0000,,你非常依赖止痛针
+Dialogue: 0,1:55:51.83,1:55:52.97,Default,,0000,0000,0000,,都成瘾了
+Dialogue: 0,1:55:53.51,1:55:54.41,Default,,0000,0000,0000,,大夫
+Dialogue: 0,1:55:55.43,1:55:57.71,Default,,0000,0000,0000,,我想送我妻子去戒毒 可以吗
+Dialogue: 0,1:56:00.95,1:56:02.19,Default,,0000,0000,0000,,我想戒
+Dialogue: 0,1:56:02.81,1:56:04.17,Default,,0000,0000,0000,,我办得到
+Dialogue: 0,1:56:34.31,1:56:37.16,Default,,0000,0000,0000,,丹尼埃尔 椅子
+Dialogue: 0,1:56:46.47,1:56:47.27,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:56:55.20,1:56:56.80,Default,,0000,0000,0000,,这边 伊迪丝
+Dialogue: 0,1:56:57.84,1:56:58.63,Default,,0000,0000,0000,,坐下
+Dialogue: 0,1:57:09.84,1:57:10.93,Default,,0000,0000,0000,,布鲁诺
+Dialogue: 0,1:57:16.69,1:57:19.11,Default,,0000,0000,0000,,我不会在奥林匹亚唱了
+Dialogue: 0,1:57:26.12,1:57:27.75,Default,,0000,0000,0000,,我了解 伊迪丝
+Dialogue: 0,1:57:39.44,1:57:40.28,Default,,0000,0000,0000,,别
+Dialogue: 0,1:57:47.93,1:57:48.90,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,1:57:49.62,1:57:50.86,Default,,0000,0000,0000,,给你介绍作曲家
+Dialogue: 0,1:57:51.19,1:57:52.12,Default,,0000,0000,0000,,查尔斯·杜蒙 
+Dialogue: 0,1:57:52.32,1:57:54.40,Default,,0000,0000,0000,,还有作词家米歇尔·沃凯尔
+Dialogue: 0,1:57:54.55,1:57:57.29,Default,,0000,0000,0000,,他们今天来是为了让你听首歌
+Dialogue: 0,1:58:05.91,1:58:07.89,Default,,0000,0000,0000,,快点 我好累
+Dialogue: 0,1:58:28.07,1:58:30.66,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,1:58:31.51,1:58:35.51,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,1:58:36.61,1:58:41.24,Default,,0000,0000,0000,,好的也行 我欣然接受
+Dialogue: 0,1:58:41.95,1:58:45.79,Default,,0000,0000,0000,,坏的也罢 我全无所谓
+Dialogue: 0,1:58:46.04,1:58:46.84,Default,,0000,0000,0000,,停
+Dialogue: 0,1:58:48.67,1:58:50.31,Default,,0000,0000,0000,,我喜欢
+Dialogue: 0,1:58:51.40,1:58:52.28,Default,,0000,0000,0000,,继续
+Dialogue: 0,1:58:53.07,1:58:55.76,Default,,0000,0000,0000,,我用回忆
+Dialogue: 0,1:58:55.92,1:58:58.64,Default,,0000,0000,0000,,点燃了火
+Dialogue: 0,1:58:58.79,1:59:01.35,Default,,0000,0000,0000,,我的哀伤 我的快乐
+Dialogue: 0,1:59:01.47,1:59:03.62,Default,,0000,0000,0000,,我再也不需要
+Dialogue: 0,1:59:03.83,1:59:06.42,Default,,0000,0000,0000,,以颤抖的声音
+Dialogue: 0,1:59:06.52,1:59:09.03,Default,,0000,0000,0000,,一扫而光我的爱人
+Dialogue: 0,1:59:09.27,1:59:11.39,Default,,0000,0000,0000,,永远一扫而光
+Dialogue: 0,1:59:11.95,1:59:13.63,Default,,0000,0000,0000,,我又从零开始
+Dialogue: 0,1:59:14.21,1:59:15.52,Default,,0000,0000,0000,,真是太感人了
+Dialogue: 0,1:59:16.08,1:59:17.56,Default,,0000,0000,0000,,这就是我想要的
+Dialogue: 0,1:59:18.08,1:59:19.76,Default,,0000,0000,0000,,真是太不可思议了
+Dialogue: 0,1:59:19.89,1:59:20.69,Default,,0000,0000,0000,,是我
+Dialogue: 0,1:59:21.16,1:59:22.92,Default,,0000,0000,0000,,说的就是我的一生
+Dialogue: 0,1:59:23.53,1:59:26.42,Default,,0000,0000,0000,,打给科夸基 我要唱奥林匹亚
+Dialogue: 0,1:59:26.55,1:59:28.55,Default,,0000,0000,0000,,再来一遍 太美了
+Dialogue: 0,1:59:29.19,1:59:33.58,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,1:59:34.16,1:59:37.91,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,2:00:04.00,2:00:06.56,Default,,0000,0000,0000,,尤蒙顿来了 报上写他在法国
+Dialogue: 0,2:00:06.58,2:00:08.32,Default,,0000,0000,0000,,他专程回来看你的吧
+Dialogue: 0,2:00:09.38,2:00:11.51,Default,,0000,0000,0000,,哇 他们可是很有名的呀
+Dialogue: 0,2:00:11.57,2:00:12.88,Default,,0000,0000,0000,,伊迪丝 别再拖了
+Dialogue: 0,2:00:13.17,2:00:14.58,Default,,0000,0000,0000,,他们都等了30分钟了
+Dialogue: 0,2:00:14.71,2:00:16.32,Default,,0000,0000,0000,,高朋满座 真难相信
+Dialogue: 0,2:00:27.97,2:00:29.53,Default,,0000,0000,0000,,会不会太紧了
+Dialogue: 0,2:00:32.66,2:00:33.53,Default,,0000,0000,0000,,那是谁
+Dialogue: 0,2:00:34.16,2:00:35.45,Default,,0000,0000,0000,,一个朋友
+Dialogue: 0,2:00:57.54,2:00:58.82,Default,,0000,0000,0000,,来吧 伊迪丝
+Dialogue: 0,2:00:59.56,2:01:00.50,Default,,0000,0000,0000,,起来吧
+Dialogue: 0,2:01:06.59,2:01:07.99,Default,,0000,0000,0000,,我的十字架呢
+Dialogue: 0,2:01:09.92,2:01:11.17,Default,,0000,0000,0000,,我的十字架
+Dialogue: 0,2:01:13.81,2:01:14.92,Default,,0000,0000,0000,,我的十字架
+Dialogue: 0,2:01:14.98,2:01:16.71,Default,,0000,0000,0000,,忘了 我去拿
+Dialogue: 0,2:01:16.72,2:01:18.68,Default,,0000,0000,0000,,没有十字架我不唱
+Dialogue: 0,2:01:19.14,2:01:21.81,Default,,0000,0000,0000,,出去 全部都给我出去
+Dialogue: 0,2:01:22.86,2:01:23.79,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,2:01:55.06,2:01:56.59,Default,,0000,0000,0000,,你好 伊迪丝小姐
+Dialogue: 0,2:01:57.79,2:01:59.02,Default,,0000,0000,0000,,今天不游泳吗
+Dialogue: 0,2:02:34.16,2:02:35.17,Default,,0000,0000,0000,,明天见
+Dialogue: 0,2:02:37.35,2:02:38.16,Default,,0000,0000,0000,,晚安
+Dialogue: 0,2:02:38.85,2:02:40.47,Default,,0000,0000,0000,,放心吧 有我在呢
+Dialogue: 0,2:02:46.34,2:02:47.81,Default,,0000,0000,0000,,我好怕 西蒙妮
+Dialogue: 0,2:02:48.66,2:02:51.22,Default,,0000,0000,0000,,我忘了好多事情 真可怕
+Dialogue: 0,2:02:51.60,2:02:52.98,Default,,0000,0000,0000,,什么都一团乱
+Dialogue: 0,2:02:53.54,2:02:55.05,Default,,0000,0000,0000,,我想记起来
+Dialogue: 0,2:02:56.44,2:02:59.19,Default,,0000,0000,0000,,但是 就是没办法
+Dialogue: 0,2:02:59.75,2:03:02.05,Default,,0000,0000,0000,,我不想要的回忆
+Dialogue: 0,2:03:03.12,2:03:07.20,Default,,0000,0000,0000,,偏偏总是在我的脑海里浮现
+Dialogue: 0,2:03:08.93,2:03:09.82,Default,,0000,0000,0000,,我
+Dialogue: 0,2:03:10.53,2:03:12.32,Default,,0000,0000,0000,,我想回想起他的手表
+Dialogue: 0,2:03:12.69,2:03:14.66,Default,,0000,0000,0000,,你记得吗 马塞尔的手表
+Dialogue: 0,2:03:14.89,2:03:17.18,Default,,0000,0000,0000,,不知道 伊迪丝 我没见过
+Dialogue: 0,2:03:17.38,2:03:19.81,Default,,0000,0000,0000,,想再看一下他的手表
+Dialogue: 0,2:03:38.57,2:03:40.25,Default,,0000,0000,0000,,瞧瞧你一脸傻像
+Dialogue: 0,2:03:42.56,2:03:44.07,Default,,0000,0000,0000,,眼神也真野
+Dialogue: 0,2:03:47.81,2:03:49.46,Default,,0000,0000,0000,,这小丫头还不算太坏
+Dialogue: 0,2:03:50.91,2:03:52.74,Default,,0000,0000,0000,,夜色正浓 四下无人
+Dialogue: 0,2:03:52.99,2:03:56.59,Default,,0000,0000,0000,,直到月亮发出光芒
+Dialogue: 0,2:03:56.72,2:03:58.45,Default,,0000,0000,0000,,我正想说 笑一个 宝贝
+Dialogue: 0,2:03:58.69,2:04:01.08,Default,,0000,0000,0000,,突然听到身旁
+Dialogue: 0,2:04:01.33,2:04:03.56,Default,,0000,0000,0000,,有赞叹的声响
+Dialogue: 0,2:04:03.77,2:04:05.21,Default,,0000,0000,0000,,有人站在石头上
+Dialogue: 0,2:04:05.41,2:04:08.41,Default,,0000,0000,0000,,刚好可以看个爽
+Dialogue: 0,2:04:09.09,2:04:10.85,Default,,0000,0000,0000,,男人叫出来 噢 
+Dialogue: 0,2:04:11.05,2:04:13.36,Default,,0000,0000,0000,,在水里面的我
+Dialogue: 0,2:04:13.73,2:04:16.29,Default,,0000,0000,0000,,给他叫回去 欧 
+Dialogue: 0,2:04:17.13,2:04:20.01,Default,,0000,0000,0000,,他把我看光光
+Dialogue: 0,2:04:24.34,2:04:25.37,Default,,0000,0000,0000,,西蒙妮
+Dialogue: 0,2:04:25.75,2:04:27.01,Default,,0000,0000,0000,,怎么了 伊迪丝
+Dialogue: 0,2:04:29.92,2:04:31.64,Default,,0000,0000,0000,,我还没祷告
+Dialogue: 0,2:04:35.25,2:04:38.07,Default,,0000,0000,0000,,我想跪下来祷告
+Dialogue: 0,2:04:38.60,2:04:40.38,Default,,0000,0000,0000,,你就在床上祷告一次吧
+Dialogue: 0,2:04:40.60,2:04:41.78,Default,,0000,0000,0000,,没人会怪你的
+Dialogue: 0,2:04:43.14,2:04:45.53,Default,,0000,0000,0000,,我想帮我老爸祈祷
+Dialogue: 0,2:05:49.64,2:05:50.77,Default,,0000,0000,0000,,玛瑟乐
+Dialogue: 0,2:05:52.34,2:05:53.67,Default,,0000,0000,0000,,玛瑟乐
+Dialogue: 0,2:05:54.41,2:05:56.29,Default,,0000,0000,0000,,我短命的女儿
+Dialogue: 0,2:05:58.52,2:06:01.25,Default,,0000,0000,0000,,只有西蒙妮才知道这件事
+Dialogue: 0,2:06:01.33,2:06:03.76,Default,,0000,0000,0000,,我得跟你说说我女儿的事
+Dialogue: 0,2:06:03.80,2:06:06.04,Default,,0000,0000,0000,,-放轻松一点 伊迪丝 -玛瑟乐
+Dialogue: 0,2:06:07.30,2:06:08.77,Default,,0000,0000,0000,,玛瑟乐
+Dialogue: 0,2:06:09.11,2:06:11.92,Default,,0000,0000,0000,,玛瑟乐 玛瑟乐
+Dialogue: 0,2:06:14.02,2:06:15.09,Default,,0000,0000,0000,,玛瑟乐
+Dialogue: 0,2:06:15.62,2:06:19.02,Default,,0000,0000,0000,,玛瑟乐 上床去 我今天受够你了
+Dialogue: 0,2:06:19.27,2:06:21.32,Default,,0000,0000,0000,,带着你的女儿 还得防着警察
+Dialogue: 0,2:06:21.57,2:06:22.62,Default,,0000,0000,0000,,我没法做生意了
+Dialogue: 0,2:06:23.11,2:06:24.12,Default,,0000,0000,0000,,路易在干什么
+Dialogue: 0,2:06:26.80,2:06:28.50,Default,,0000,0000,0000,,是他 他老爸来了
+Dialogue: 0,2:06:33.03,2:06:34.17,Default,,0000,0000,0000,,她吃了没有
+Dialogue: 0,2:06:35.24,2:06:36.69,Default,,0000,0000,0000,,他们说你带着她一起拉客
+Dialogue: 0,2:06:37.76,2:06:38.40,Default,,0000,0000,0000,,谁说的
+Dialogue: 0,2:06:38.88,2:06:41.20,Default,,0000,0000,0000,,你是她妈妈 瞎搞 简直犯贱
+Dialogue: 0,2:06:41.32,2:06:43.51,Default,,0000,0000,0000,,警告过你别带着她在街上拉客
+Dialogue: 0,2:06:53.65,2:06:54.64,Default,,0000,0000,0000,,快点走
+Dialogue: 0,2:06:57.41,2:06:59.47,Default,,0000,0000,0000,,玛瑟乐不行了 快来
+Dialogue: 0,2:07:03.28,2:07:05.02,Default,,0000,0000,0000,,她去医院了
+Dialogue: 0,2:07:27.43,2:07:28.85,Default,,0000,0000,0000,,你是她母亲吗
+Dialogue: 0,2:07:29.96,2:07:32.43,Default,,0000,0000,0000,,脑膜炎 已经不行了
+Dialogue: 0,2:07:33.22,2:07:34.24,Default,,0000,0000,0000,,很抱歉
+Dialogue: 0,2:08:09.67,2:08:10.59,Default,,0000,0000,0000,,伊迪丝
+Dialogue: 0,2:08:12.68,2:08:14.24,Default,,0000,0000,0000,,找到十字架了
+Dialogue: 0,2:08:31.21,2:08:32.02,Default,,0000,0000,0000,,你好
+Dialogue: 0,2:08:33.05,2:08:35.20,Default,,0000,0000,0000,,他们说你在沙滩上 所以
+Dialogue: 0,2:08:36.45,2:08:38.60,Default,,0000,0000,0000,,谢谢你 愿意接受我的访问
+Dialogue: 0,2:08:38.85,2:08:40.13,Default,,0000,0000,0000,,乐意之致
+Dialogue: 0,2:08:41.61,2:08:43.92,Default,,0000,0000,0000,,看到你离巴黎这么远可真奇怪
+Dialogue: 0,2:08:44.36,2:08:46.63,Default,,0000,0000,0000,,我从没离巴黎这么远过
+Dialogue: 0,2:08:48.31,2:08:49.81,Default,,0000,0000,0000,,我准备了一些问题
+Dialogue: 0,2:08:50.05,2:08:52.57,Default,,0000,0000,0000,,你想到什么就回答什么 好吗
+Dialogue: 0,2:08:53.55,2:08:54.57,Default,,0000,0000,0000,,好吗
+Dialogue: 0,2:08:57.57,2:08:58.34,Default,,0000,0000,0000,,那么
+Dialogue: 0,2:08:59.72,2:09:01.28,Default,,0000,0000,0000,,你最喜欢什么颜色
+Dialogue: 0,2:09:01.61,2:09:02.69,Default,,0000,0000,0000,,蓝色
+Dialogue: 0,2:09:03.49,2:09:05.32,Default,,0000,0000,0000,,你最喜欢哪道菜
+Dialogue: 0,2:09:05.56,2:09:06.93,Default,,0000,0000,0000,,烤牛肉
+Dialogue: 0,2:09:09.17,2:09:11.15,Default,,0000,0000,0000,,会愿意过平淡的生活吗
+Dialogue: 0,2:09:12.23,2:09:14.07,Default,,0000,0000,0000,,我就是这样的
+Dialogue: 0,2:09:18.50,2:09:20.22,Default,,0000,0000,0000,,谁是您最忠实的朋友
+Dialogue: 0,2:09:21.00,2:09:23.57,Default,,0000,0000,0000,,我真正的朋友都很忠实
+Dialogue: 0,2:09:25.61,2:09:28.23,Default,,0000,0000,0000,,如果您不能再唱歌了
+Dialogue: 0,2:09:29.38,2:09:31.85,Default,,0000,0000,0000,,那我就活不下去了
+Dialogue: 0,2:09:34.07,2:09:35.51,Default,,0000,0000,0000,,您害怕死亡吗
+Dialogue: 0,2:09:37.11,2:09:38.88,Default,,0000,0000,0000,,我更怕寂寞
+Dialogue: 0,2:09:41.43,2:09:43.24,Default,,0000,0000,0000,,-您会祷告吗 -会
+Dialogue: 0,2:09:43.91,2:09:45.58,Default,,0000,0000,0000,,因为我相信爱
+Dialogue: 0,2:09:47.62,2:09:49.31,Default,,0000,0000,0000,,我不想走 西蒙妮
+Dialogue: 0,2:09:50.44,2:09:51.73,Default,,0000,0000,0000,,缇奥在哪儿
+Dialogue: 0,2:09:52.21,2:09:54.32,Default,,0000,0000,0000,,我想见我先生
+Dialogue: 0,2:09:54.68,2:09:56.38,Default,,0000,0000,0000,,缇奥一小时内就会到
+Dialogue: 0,2:09:58.53,2:10:01.01,Default,,0000,0000,0000,,您职业生涯中最美的回忆是
+Dialogue: 0,2:10:01.96,2:10:04.40,Default,,0000,0000,0000,,每次帷幕升起来的时候
+Dialogue: 0,2:10:19.89,2:10:22.52,Default,,0000,0000,0000,,作为女人最美好的回忆是
+Dialogue: 0,2:10:23.60,2:10:25.01,Default,,0000,0000,0000,,我的初吻
+Dialogue: 0,2:10:27.43,2:10:28.79,Default,,0000,0000,0000,,你喜欢黑夜吗
+Dialogue: 0,2:10:29.54,2:10:33.06,Default,,0000,0000,0000,,喜欢 但必须得灯光灿烂
+Dialogue: 0,2:10:34.00,2:10:34.71,Default,,0000,0000,0000,,黎明呢
+Dialogue: 0,2:10:34.80,2:10:37.67,Default,,0000,0000,0000,,得有钢琴 还得有朋友
+Dialogue: 0,2:10:38.02,2:10:38.95,Default,,0000,0000,0000,,夜晚呢
+Dialogue: 0,2:10:39.24,2:10:42.00,Default,,0000,0000,0000,,对于我们来说 就是黎明
+Dialogue: 0,2:10:47.05,2:10:49.60,Default,,0000,0000,0000,,看 你呼吸得好好的
+Dialogue: 0,2:10:57.40,2:10:59.83,Default,,0000,0000,0000,,我没办法回头了
+Dialogue: 0,2:11:03.56,2:11:05.29,Default,,0000,0000,0000,,我不行了
+Dialogue: 0,2:11:44.23,2:11:46.40,Default,,0000,0000,0000,,你想给女人们什么建议吗
+Dialogue: 0,2:11:49.33,2:11:50.63,Default,,0000,0000,0000,,去爱
+Dialogue: 0,2:11:51.17,2:11:52.40,Default,,0000,0000,0000,,给少女呢
+Dialogue: 0,2:11:52.71,2:11:53.82,Default,,0000,0000,0000,,去爱
+Dialogue: 0,2:11:54.05,2:11:55.33,Default,,0000,0000,0000,,给孩子呢
+Dialogue: 0,2:11:56.56,2:11:57.47,Default,,0000,0000,0000,,去爱
+Dialogue: 0,2:12:00.73,2:12:02.56,Default,,0000,0000,0000,,你都给谁织毛衣呢
+Dialogue: 0,2:12:04.42,2:12:06.88,Default,,0000,0000,0000,,谁会穿 我就织给谁
+Dialogue: 0,2:12:09.60,2:12:12.03,Default,,0000,0000,0000,,好了 希望没有耽搁您太久
+Dialogue: 0,2:12:15.52,2:12:16.65,Default,,0000,0000,0000,,非常感谢您
+Dialogue: 0,2:12:16.95,2:12:18.71,Default,,0000,0000,0000,,谢谢你 小姐
+Dialogue: 0,2:12:20.61,2:12:22.10,Default,,0000,0000,0000,,-再见 -再见
+Dialogue: 0,2:13:03.35,2:13:08.14,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,2:13:08.79,2:13:13.11,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,2:13:13.92,2:13:19.22,Default,,0000,0000,0000,,好的也行 我欣然接受
+Dialogue: 0,2:13:19.73,2:13:25.23,Default,,0000,0000,0000,,坏的也罢 我全无所谓
+Dialogue: 0,2:13:25.52,2:13:30.85,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,2:13:30.96,2:13:35.77,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,2:13:36.00,2:13:38.61,Default,,0000,0000,0000,,付出代价了
+Dialogue: 0,2:13:39.09,2:13:41.29,Default,,0000,0000,0000,,一扫而光了
+Dialogue: 0,2:13:41.95,2:13:44.10,Default,,0000,0000,0000,,全都忘怀了
+Dialogue: 0,2:13:44.67,2:13:49.54,Default,,0000,0000,0000,,我才不在乎过去
+Dialogue: 0,2:13:49.75,2:13:52.83,Default,,0000,0000,0000,,我用回忆
+Dialogue: 0,2:13:53.85,2:13:55.96,Default,,0000,0000,0000,,点燃了火
+Dialogue: 0,2:13:56.10,2:13:59.21,Default,,0000,0000,0000,,我的哀伤 我的快乐
+Dialogue: 0,2:13:59.45,2:14:02.17,Default,,0000,0000,0000,,我再也不需要
+Dialogue: 0,2:14:02.41,2:14:04.77,Default,,0000,0000,0000,,以颤抖的声音
+Dialogue: 0,2:14:05.51,2:14:08.19,Default,,0000,0000,0000,,一扫而光我的爱人
+Dialogue: 0,2:14:08.43,2:14:11.15,Default,,0000,0000,0000,,永远一扫而光
+Dialogue: 0,2:14:11.83,2:14:17.11,Default,,0000,0000,0000,,我又从零开始
+Dialogue: 0,2:14:17.83,2:14:22.38,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,2:14:23.11,2:14:26.87,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,2:14:28.61,2:14:33.69,Default,,0000,0000,0000,,好的也行 我欣然接受
+Dialogue: 0,2:14:34.23,2:14:38.92,Default,,0000,0000,0000,,坏的也罢 我全无所谓
+Dialogue: 0,2:14:39.64,2:14:44.90,Default,,0000,0000,0000,,不 没有就是没有
+Dialogue: 0,2:14:45.19,2:14:49.79,Default,,0000,0000,0000,,不 我无怨无悔
+Dialogue: 0,2:14:50.10,2:14:53.01,Default,,0000,0000,0000,,因为我的生命
+Dialogue: 0,2:14:53.25,2:14:55.72,Default,,0000,0000,0000,,因为我的喜悦
+Dialogue: 0,2:14:55.97,2:15:07.65,Default,,0000,0000,0000,,从今以后 有你才有我
+
+
+

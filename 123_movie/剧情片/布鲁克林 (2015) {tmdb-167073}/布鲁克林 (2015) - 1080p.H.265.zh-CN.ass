@@ -1,0 +1,1259 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 720
+PlayResY: 384
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: piantou,方正黑体_GBK,30,&H00464345,&H000000FF,&H00FFFFFF,&H002D2D33,0,0,0,0,100,100,10,0,1,0,2,2,10,10,10,1
+Style: Chinese,方正黑体_GBK,22,&H00FFFFFF,&H000000FF,&H000B0B0D,&H00000000,1,0,0,0,100,100,0,0,1,1,1,2,0,0,16,1
+Style: explain,方正黑体_GBK,20,&H000AD9FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:51.61,0:01:56.51,Default,,0,0,0,,{\fad(1500,0)\t(\fsp5)\pos(361,247)}布 鲁 克 林
+Dialogue: 0,0:01:56.73,0:01:58.79,piantou,,0,0,0,,{\pos(398,84)}凯莉杂货店
+Dialogue: 0,0:01:58.89,0:02:01.03,Chinese,,0,0,0,,凯莉小姐 待会我可以跟您谈谈吗\N{\c&H00F8FB&\fnArial\fs14}Miss Kelly, might I talk to you later?
+Dialogue: 0,0:02:01.06,0:02:03.30,Chinese,,0,0,0,,要是你说的事情会给我添麻烦什么的\N{\c&H00F8FB&\fnArial\fs14}Not if what you're going to say will cause trouble for me
+Dialogue: 0,0:02:03.40,0:02:04.45,Chinese,,0,0,0,,就别说\N{\c&H00F8FB&\fnArial\fs14}in some way or another.
+Dialogue: 0,0:02:13.20,0:02:15.27,Chinese,,0,0,0,,九点钟的弥撒结束了 姑娘们\N{\c&H00F8FB&\fnArial\fs14}Nine o'clock mass is over, girls.
+Dialogue: 0,0:02:21.46,0:02:24.68,Chinese,,0,0,0,,-给 请等一等  -谢谢\N{\c&H00F8FB&\fnArial\fs14}- Now. One moment, please.  - Thank you.
+Dialogue: 0,0:02:30.31,0:02:32.83,Chinese,,0,0,0,,布雷迪夫人 今天早上您想要什么呢\N{\c&H00F8FB&\fnArial\fs14}Mrs. Brady, what would you like this morning?
+Dialogue: 0,0:02:32.85,0:02:34.25,Chinese,,0,0,0,,请给我半打熏肉片\N{\c&H00F8FB&\fnArial\fs14}Half a dozen rashers, please.
+Dialogue: 0,0:02:34.28,0:02:36.76,Chinese,,0,0,0,,就来 艾莉丝现在就拿给您\N{\c&H00F8FB&\fnArial\fs14}Of course. Eilis will get that for you now.
+Dialogue: 0,0:02:36.78,0:02:39.39,Chinese,,0,0,0,,-轮到我了  -下一个就是你\N{\c&H00F8FB&\fnArial\fs14}-I was next. - And you still are.
+Dialogue: 0,0:02:41.89,0:02:44.36,Chinese,,0,0,0,,-您要什么    -我想要点鞋油\N{\c&H00F8FB&\fnArial\fs14}- Yes?  - I need some shoe polish.
+Dialogue: 0,0:02:44.39,0:02:45.48,Chinese,,0,0,0,,鞋油\N{\c&H00F8FB&\fnArial\fs14}Shoe polish?
+Dialogue: 0,0:02:45.52,0:02:48.46,Chinese,,0,0,0,,那可不是周日供应的 对吧\N{\c&H00F8FB&\fnArial\fs14}That's not really a Sunday item now, is it?
+Dialogue: 0,0:02:48.48,0:02:50.95,Chinese,,0,0,0,,这些顾客可都是来买东西做饭或泡茶的\N{\c&H00F8FB&\fnArial\fs14}These people need things for their dinner or their tea.
+Dialogue: 0,0:02:50.98,0:02:53.48,Chinese,,0,0,0,,你为什么昨天不记着买呢\N{\c&H00F8FB&\fnArial\fs14}Why couldn't you have remembered yesterday?
+Dialogue: 0,0:02:53.50,0:02:56.00,Chinese,,0,0,0,,你看起来昨天就得刷鞋了\N{\c&H00F8FB&\fnArial\fs14}Because it looks like you needed it yesterday.
+Dialogue: 0,0:02:56.13,0:02:57.76,Chinese,,0,0,0,,抱歉\N{\c&H00F8FB&\fnArial\fs14}I'm sorry.
+Dialogue: 0,0:03:11.04,0:03:12.17,Chinese,,0,0,0,,凯莉小姐\N{\c&H00F8FB&\fnArial\fs14}Miss. Kelly....
+Dialogue: 0,0:03:12.20,0:03:14.86,Chinese,,0,0,0,,我没忘 想说什么 有话直说\N{\c&H00F8FB&\fnArial\fs14}I haven't forgotten. Spit it out, whatever it is.
+Dialogue: 0,0:03:16.28,0:03:18.39,Chinese,,0,0,0,,我要动身去美国了\N{\c&H00F8FB&\fnArial\fs14}I'm away to America.
+Dialogue: 0,0:03:21.57,0:03:23.10,Chinese,,0,0,0,,谁的主意\N{\c&H00F8FB&\fnArial\fs14}Whose idea was that?
+Dialogue: 0,0:03:23.12,0:03:25.58,Chinese,,0,0,0,,纽约的弗洛德神父安排的\N{\c&H00F8FB&\fnArial\fs14}Father Flood in New York arranged it.
+Dialogue: 0,0:03:25.71,0:03:29.10,Chinese,,0,0,0,,露丝以前跟他打过高尔夫球 他资助我去的\N{\c&H00F8FB&\fnArial\fs14}Rose used to play golf with him. He sponsored me.
+Dialogue: 0,0:03:29.13,0:03:31.07,Chinese,,0,0,0,,他帮我找了份工作 办好了签证\N{\c&H00F8FB&\fnArial\fs14}He found me a job and got me a visa.
+Dialogue: 0,0:03:31.09,0:03:32.79,Chinese,,0,0,0,,好吧 我们今后也不需要你了\N{\c&H00F8FB&\fnArial\fs14}Well, we won't be needing you back here.
+Dialogue: 0,0:03:32.81,0:03:34.38,Chinese,,0,0,0,,我走之前 每周日都可以来上班\N{\c&H00F8FB&\fnArial\fs14}I could work every Sunday until I go.
+Dialogue: 0,0:03:34.47,0:03:35.47,Chinese,,0,0,0,,不用 谢谢你了\N{\c&H00F8FB&\fnArial\fs14}No, thank you.
+Dialogue: 0,0:03:38.52,0:03:41.32,Chinese,,0,0,0,,-你可怜的姐姐   -我姐姐怎么了\N{\c&H00F8FB&\fnArial\fs14}- Your poor sister. - My sister?
+Dialogue: 0,0:03:41.34,0:03:44.72,Chinese,,0,0,0,,在这个国家母亲总是被丢下\N{\c&H00F8FB&\fnArial\fs14}Oh, mothers are always being left behind in this country.
+Dialogue: 0,0:03:45.14,0:03:49.32,Chinese,,0,0,0,,可是露丝 这就是她的结局了 不是吗\N{\c&H00F8FB&\fnArial\fs14}But Rose ... That's the end for her now, isn't it?
+Dialogue: 0,0:03:49.34,0:03:52.41,Chinese,,0,0,0,,下半辈子 都得由她来照顾你们的母亲了\N{\c&H00F8FB&\fnArial\fs14}She will be looking after your mother, for the rest of her life.
+Dialogue: 0,0:04:07.26,0:04:09.91,Chinese,,0,0,0,,我真后悔没给神父弗洛德写信说说你 露丝\N{\c&H00F8FB&\fnArial\fs14}I wish I had written to Father Flood about you, Rose.
+Dialogue: 0,0:04:09.93,0:04:11.87,Chinese,,0,0,0,,提我干嘛 我已经有工作了\N{\c&H00F8FB&\fnArial\fs14}Me? I have a job.
+Dialogue: 0,0:04:12.29,0:04:15.85,Chinese,,0,0,0,,而你只有每周日去给刺头凯莉干几个钟头活\N{\c&H00F8FB&\fnArial\fs14}You had a couple of hours on a Sunday working for Nettles Kelly.
+Dialogue: 0,0:04:15.88,0:04:16.91,Chinese,,0,0,0,,你不应该这么叫她\N{\c&H00F8FB&\fnArial\fs14}You should not call her that.
+Dialogue: 0,0:04:16.94,0:04:18.75,Chinese,,0,0,0,,这名字已经很友好了\N{\c&H00F8FB&\fnArial\fs14}I think it's quite a kind name,
+Dialogue: 0,0:04:18.78,0:04:21.23,Chinese,,0,0,0,,你不想想她实际上是个可怕的老巫婆\N{\c&H00F8FB&\fnArial\fs14}considering she's actually a terrible old witch.
+Dialogue: 0,0:04:21.56,0:04:24.16,Chinese,,0,0,0,,好了 我不想再提她了\N{\c&H00F8FB&\fnArial\fs14}Well, I don't want to talk about her any more.
+Dialogue: 0,0:04:24.18,0:04:25.35,Chinese,,0,0,0,,好啊\N{\c&H00F8FB&\fnArial\fs14}Good.
+Dialogue: 0,0:04:27.71,0:04:30.69,Chinese,,0,0,0,,他们说那边夏天比这热 冬天比这冷\N{\c&H00F8FB&\fnArial\fs14}They say it's hotter there in the summer, and colder in the winter.
+Dialogue: 0,0:04:33.31,0:04:35.63,Chinese,,0,0,0,,老天 她的衣服怎么办\N{\c&H00F8FB&\fnArial\fs14}What in Heaven's name will she do about clothes?
+Dialogue: 0,0:04:35.66,0:04:36.66,Chinese,,0,0,0,,她会买新的 妈妈\N{\c&H00F8FB&\fnArial\fs14}She'll buy them, mother.
+Dialogue: 0,0:04:36.69,0:04:38.50,Chinese,,0,0,0,,她不想浪费钱添置新衣\N{\c&H00F8FB&\fnArial\fs14}She doesn't want to be wasting her money on clothes.
+Dialogue: 0,0:04:38.53,0:04:40.64,Chinese,,0,0,0,,她也没办法 她得在那儿待…\N{\c&H00F8FB&\fnArial\fs14}She won't have much choice. She'll be there for...
+Dialogue: 0,0:04:56.38,0:04:59.25,Chinese,,0,0,0,,-你看起来美极了 南希  -谢谢\N{\c&H00F8FB&\fnArial\fs14}- You look beautiful, Nancy. - Thank you.
+Dialogue: 0,0:05:00.15,0:05:03.00,Chinese,,0,0,0,,你漂亮到让我对这地方感到绝望\N{\c&H00F8FB&\fnArial\fs14}You look so beautiful it makes me despair of this place.
+Dialogue: 0,0:05:03.23,0:05:04.46,Chinese,,0,0,0,,为什么\N{\c&H00F8FB&\fnArial\fs14}Why?
+Dialogue: 0,0:05:04.49,0:05:06.92,Chinese,,0,0,0,,你是韦克斯福德郡最漂亮的女孩\N{\c&H00F8FB&\fnArial\fs14}Well, you're the prettiest girl in County Wexford.
+Dialogue: 0,0:05:06.95,0:05:08.95,Chinese,,0,0,0,,你应该可以选择你想要的任何一个男人\N{\c&H00F8FB&\fnArial\fs14}You should be able to choose any man you want.
+Dialogue: 0,0:05:08.97,0:05:12.35,Chinese,,0,0,0,,我们却盼着橄榄球俱乐部的乔治·谢里丹 能够多看你几眼\N{\c&H00F8FB&\fnArial\fs14}And we're hoping that George Sheridan from the rugby club looks your way.
+Dialogue: 0,0:05:12.37,0:05:15.20,Chinese,,0,0,0,,-你说他会吗   -他当然会\N{\c&H00F8FB&\fnArial\fs14}- Do you think he might? - Of course he will.
+Dialogue: 0,0:05:15.82,0:05:19.58,Chinese,,0,0,0,,我知道你喜欢他 南希 可他又不是加里·库珀 对吧\N{\c&H00F8FB&\fnArial\fs14}I know you like him, Nancy, but he's not Gary Cooper, is he?
+Dialogue: 0,0:05:15.82,0:05:19.58,explain,,0,0,0,,Gary Cooper  美国演员 代表作 《约克军曹》
+Dialogue: 0,0:05:20.34,0:05:23.59,Chinese,,0,0,0,,那些男孩们 打着发油 穿着休闲外套\N{\c&H00F8FB&\fnArial\fs14}And those boys with their hair-oil and their blazers…
+Dialogue: 0,0:05:23.61,0:05:25.33,Chinese,,0,0,0,,他眼睛好迷人\N{\c&H00F8FB&\fnArial\fs14}{\fnMicrosoft YaHei\fs20}He has beautiful eyes.
+Dialogue: 0,0:05:25.35,0:05:28.99,Chinese,,0,0,0,,嗯 他会走进市集广场里漂亮的商店\N{\c&H00F8FB&\fnArial\fs14}Hmm. And he's going to come into a beautiful shop in the Market Square.
+Dialogue: 0,0:05:31.16,0:05:33.20,Chinese,,0,0,0,,你怎么不穿那条蓝色连衣裙\N{\c&H00F8FB&\fnArial\fs14}Why didn't you wear your blue dress?
+Dialogue: 0,0:05:33.52,0:05:36.15,Chinese,,0,0,0,,你是在问我 怎么不用心打扮吗\N{\c&H00F8FB&\fnArial\fs14}Are you asking why I didn't make more of an effort?
+Dialogue: 0,0:05:37.18,0:05:39.29,Chinese,,0,0,0,,我想是因为我要离开这儿了\N{\c&H00F8FB&\fnArial\fs14}I suppose because I'm going away.
+Dialogue: 0,0:05:42.46,0:05:43.73,Chinese,,0,0,0,,快来\N{\c&H00F8FB&\fnArial\fs14}Come on.
+Dialogue: 0,0:06:13.47,0:06:15.42,Chinese,,0,0,0,,他往咱们这边看了两次了\N{\c&H00F8FB&\fnArial\fs14}He's looked over here twice already.
+Dialogue: 0,0:06:15.44,0:06:16.44,Chinese,,0,0,0,,不会吧\N{\c&H00F8FB&\fnArial\fs14}He hasn't!
+Dialogue: 0,0:06:18.16,0:06:19.66,Chinese,,0,0,0,,他朝我们走过来了\N{\c&H00F8FB&\fnArial\fs14}He's walking over here now.
+Dialogue: 0,0:06:19.68,0:06:20.78,Chinese,,0,0,0,,你骗我\N{\c&H00F8FB&\fnArial\fs14}He's not!
+Dialogue: 0,0:06:21.20,0:06:24.37,Chinese,,0,0,0,,我为什么要骗你乔治·谢里丹在干嘛\N{\c&H00F8FB&\fnArial\fs14}Why would I keep lying to you about what George Sheridan’s doing?
+Dialogue: 0,0:06:28.16,0:06:29.87,Chinese,,0,0,0,,能赏脸跳支舞吗\N{\c&H00F8FB&\fnArial\fs14}Would you like to dance?
+Dialogue: 0,0:07:19.09,0:07:20.93,Chinese,,0,0,0,,这就是你的全部家当吗\N{\c&H00F8FB&\fnArial\fs14}Is that really everything you own?
+Dialogue: 0,0:07:21.25,0:07:25.63,Chinese,,0,0,0,,哦 艾莉丝 我应该把你照顾得更好的\N{\c&H00F8FB&\fnArial\fs14}Oh, Eilis. I should have looked after you better.
+Dialogue: 0,0:07:25.95,0:07:28.51,Chinese,,0,0,0,,箱子里大部分衣服都是你买给我的\N{\c&H00F8FB&\fnArial\fs14}You've bought most of these clothes in this case.
+Dialogue: 0,0:07:29.55,0:07:31.17,Chinese,,0,0,0,,这也是我离开的原因之一啊\N{\c&H00F8FB&\fnArial\fs14}That's one of the reasons I'm going,
+Dialogue: 0,0:07:31.20,0:07:32.77,Chinese,,0,0,0,,我买不起自己的衣服\N{\c&H00F8FB&\fnArial\fs14}because I can't buy my own.
+Dialogue: 0,0:07:32.80,0:07:36.83,Chinese,,0,0,0,,如果只是这样 我会把我所有的钱都开开心心地花在你身上\N{\c&H00F8FB&\fnArial\fs14}If it was just that, I'd spend every penny I had on you, gladly.
+Dialogue: 0,0:07:38.24,0:07:40.88,Chinese,,0,0,0,,但我没法给你买一个未来\N{\c&H00F8FB&\fnArial\fs14}But I can't buy you a future.
+Dialogue: 0,0:07:40.90,0:07:43.30,Chinese,,0,0,0,,你想要的生活 我买不到\N{\c&H00F8FB&\fnArial\fs14}I can't buy you the kind of life you need.
+Dialogue: 0,0:07:43.33,0:07:44.62,Chinese,,0,0,0,,我懂\N{\c&H00F8FB&\fnArial\fs14}I know.
+Dialogue: 0,0:07:47.52,0:07:50.59,Chinese,,0,0,0,,-不过你哪天会来看我的吧   -当然\N{\c&H00F8FB&\fnArial\fs14}- But you'll come see me there one day?   -Yes.
+Dialogue: 0,0:07:52.65,0:07:55.19,Chinese,,0,0,0,,你会好好照顾自己的吧\N{\c&H00F8FB&\fnArial\fs14}And you'll look after yourself?
+Dialogue: 0,0:07:55.21,0:07:56.52,Chinese,,0,0,0,,你不用担心我\N{\c&H00F8FB&\fnArial\fs14}You don't have to worry about me.
+Dialogue: 0,0:07:56.54,0:07:58.59,Chinese,,0,0,0,,那我以后也会回家看看的 对吗\N{\c&H00F8FB&\fnArial\fs14}And I'll come home to visit, won't I?
+Dialogue: 0,0:08:00.84,0:08:03.03,Chinese,,0,0,0,,因为我受不了 要是…\N{\c&H00F8FB&\fnArial\fs14}Because I couldn't bear it if...
+Dialogue: 0,0:08:03.06,0:08:04.81,Chinese,,0,0,0,,你的鞋子还没打包呢\N{\c&H00F8FB&\fnArial\fs14}You haven't packed your shoes yet.
+Dialogue: 0,0:08:05.63,0:08:07.44,Chinese,,0,0,0,,鞋子有点占空间\N{\c&H00F8FB&\fnArial\fs14}They'll take up a bit of room.
+Dialogue: 0,0:08:15.33,0:08:16.56,Chinese,,0,0,0,,好了\N{\c&H00F8FB&\fnArial\fs14}There.
+Dialogue: 0,0:10:03.67,0:10:04.68,Chinese,,0,0,0,,不好意思\N{\c&H00F8FB&\fnArial\fs14}I'm sorry.
+Dialogue: 0,0:10:16.75,0:10:17.75,Chinese,,0,0,0,,起来\N{\c&H00F8FB&\fnArial\fs14}Off!
+Dialogue: 0,0:10:18.25,0:10:19.89,Chinese,,0,0,0,,1号下铺\N{\c&H00F8FB&\fnArial\fs14}Number one. Bottom bunk.
+Dialogue: 0,0:10:19.91,0:10:21.64,Chinese,,0,0,0,,这是我的位子 你在上面\N{\c&H00F8FB&\fnArial\fs14}That's mine. You're on the top.
+Dialogue: 0,0:10:29.54,0:10:32.21,Chinese,,0,0,0,,简直是地狱 再不来了\N{\c&H00F8FB&\fnArial\fs14}This is hell. Never again.
+Dialogue: 0,0:10:32.23,0:10:34.10,Chinese,,0,0,0,,不再去美国吗\N{\c&H00F8FB&\fnArial\fs14}Never again to America?
+Dialogue: 0,0:10:34.12,0:10:36.32,Chinese,,0,0,0,,从美国回家就是个错误\N{\c&H00F8FB&\fnArial\fs14}The mistake was coming home from America in the first place.
+Dialogue: 0,0:10:38.07,0:10:40.45,Chinese,,0,0,0,,我愿意做任何事 只要能不待在这可怕的船舱里\N{\c&H00F8FB&\fnArial\fs14}I'd do anything to get out of this horrible cabin.
+Dialogue: 0,0:10:41.07,0:10:43.69,Chinese,,0,0,0,,-去抽根烟吧  -我不抽烟\N{\c&H00F8FB&\fnArial\fs14}- Let's go for a smoke. - I don't.
+Dialogue: 0,0:10:44.80,0:10:47.18,Chinese,,0,0,0,,随便你吧 回头见\N{\c&H00F8FB&\fnArial\fs14}Suit yourself. I'll see you later.
+Dialogue: 0,0:10:47.21,0:10:49.53,Chinese,,0,0,0,,说不好我能在头等舱遇到个好男人一起抽一根\N{\c&H00F8FB&\fnArial\fs14}Unless I find a nice man in First to smoke with.
+Dialogue: 0,0:11:08.61,0:11:12.18,Chinese,,0,0,0,,很好 看来并不是每个人都因为天气预报而推迟了晚餐\N{\c&H00F8FB&\fnArial\fs14}It's good to see that not everybody's put off their dinner by the weather forecast.
+Dialogue: 0,0:11:12.89,0:11:15.11,Chinese,,0,0,0,,据说今晚天气不好\N{\c&H00F8FB&\fnArial\fs14}It's supposed to be a rough one tonight,
+Dialogue: 0,0:11:15.13,0:11:16.87,Chinese,,0,0,0,,所以其他乘客都没来吃晚餐\N{\c&H00F8FB&\fnArial\fs14}so none of the other passengers are eating.
+Dialogue: 0,0:11:16.90,0:11:20.39,Chinese,,0,0,0,,顶多喝几勺汤 炖羊肉都没人吃\N{\c&H00F8FB&\fnArial\fs14}A few spoonfuls of soup, maybe, but not the mutton stew.
+Dialogue: 0,0:11:32.64,0:11:34.25,Chinese,,0,0,0,,拜托开门\N{\c&H00F8FB&\fnArial\fs14}Please unlock it.
+Dialogue: 0,0:12:03.71,0:12:06.17,Chinese,,0,0,0,,走开 门关着呢\N{\c&H00F8FB&\fnArial\fs14}Go away, it is closed.
+Dialogue: 0,0:12:19.11,0:12:22.50,Chinese,,0,0,0,,对不起 我搞得臭气熏天的 还有这桶脏东西\N{\c&H00F8FB&\fnArial\fs14}I'm sorry about the smell, and the bucket.
+Dialogue: 0,0:12:22.63,0:12:25.15,Chinese,,0,0,0,,别担心了 整艘船都臭死了\N{\c&H00F8FB&\fnArial\fs14}Don't worry. The whole boat stinks.
+Dialogue: 0,0:12:25.18,0:12:26.66,Chinese,,0,0,0,,头等舱也一样\N{\c&H00F8FB&\fnArial\fs14}Even First Class.
+Dialogue: 0,0:12:26.99,0:12:29.14,Chinese,,0,0,0,,我刚从那被赶出来\N{\c&H00F8FB&\fnArial\fs14}I've just been thrown out of there, by the way.
+Dialogue: 0,0:12:29.17,0:12:31.34,Chinese,,0,0,0,,洗手间的门整夜都锁着\N{\c&H00F8FB&\fnArial\fs14}The bathroom door was locked all night.
+Dialogue: 0,0:12:32.40,0:12:34.19,Chinese,,0,0,0,,噢 那些混蛋\N{\c&H00F8FB&\fnArial\fs14}Oh, those bastards.
+Dialogue: 0,0:13:03.75,0:13:06.13,Chinese,,0,0,0,,好了 尽管不算舒适 但起码洗手间是我们的了\N{\c&H00F8FB&\fnArial\fs14}There. It won't be very comfortable. But at least it's ours.
+Dialogue: 0,0:13:07.16,0:13:08.42,Chinese,,0,0,0,,开门\N{\c&H00F8FB&\fnArial\fs14}Open the door.
+Dialogue: 0,0:13:08.44,0:13:11.72,Chinese,,0,0,0,,滚蛋 听到没 滚 蛋\N{\c&H00F8FB&\fnArial\fs14}Fuck off! Do you hear me? Fuck off!
+Dialogue: 0,0:13:11.74,0:13:14.23,Chinese,,0,0,0,,要是昨晚你们友好一点的话 我们会公平行事\N{\c&H00F8FB&\fnArial\fs14}If you had been nice last night, we would have played fair.
+Dialogue: 0,0:13:14.25,0:13:17.11,Chinese,,0,0,0,,你们现在没得用了 混蛋\N{\c&H00F8FB&\fnArial\fs14}Now you've got no toilet, you bastards.
+Dialogue: 0,0:13:18.11,0:13:20.92,Chinese,,0,0,0,,好了 你去用洗手间吧 我去给咱们打些水\N{\c&H00F8FB&\fnArial\fs14}Go on, you can use it. I'm gonna get us some water.
+Dialogue: 0,0:13:20.94,0:13:22.58,Chinese,,0,0,0,,你只许喝水\N{\c&H00F8FB&\fnArial\fs14}That's all you're allowed.
+Dialogue: 0,0:13:29.15,0:13:30.79,Chinese,,0,0,0,,你要去美国生活吗\N{\c&H00F8FB&\fnArial\fs14}You going to live in America?
+Dialogue: 0,0:13:31.76,0:13:32.57,Chinese,,0,0,0,,对啊\N{\c&H00F8FB&\fnArial\fs14}Yes.
+Dialogue: 0,0:13:32.60,0:13:34.23,Chinese,,0,0,0,,证件和其他什么准备好了吗\N{\c&H00F8FB&\fnArial\fs14}You have papers and everything?
+Dialogue: 0,0:13:34.25,0:13:36.83,Chinese,,0,0,0,,嗯 还找了一份工作\N{\c&H00F8FB&\fnArial\fs14}Yes. And a job.
+Dialogue: 0,0:13:37.16,0:13:39.05,Chinese,,0,0,0,,你是怎么安排好这一切的\N{\c&H00F8FB&\fnArial\fs14}How did you manage to arrange all that?
+Dialogue: 0,0:13:39.07,0:13:42.70,Chinese,,0,0,0,,不是我 有人帮我的 是我姐姐认识的一位神父\N{\c&H00F8FB&\fnArial\fs14}I didn't. Someone did it for me. A priest my sister knows.
+Dialogue: 0,0:13:42.82,0:13:44.73,Chinese,,0,0,0,,那你什么感觉\N{\c&H00F8FB&\fnArial\fs14}And how do you feel about it?
+Dialogue: 0,0:13:49.81,0:13:52.42,Chinese,,0,0,0,,爱尔兰的信寄给我要多久\N{\c&H00F8FB&\fnArial\fs14}How long do the letters from Ireland take to arrive?
+Dialogue: 0,0:13:52.45,0:13:54.98,Chinese,,0,0,0,,我姐姐露丝说她会马上写信给我\N{\c&H00F8FB&\fnArial\fs14}My sister Rose said she'd write straightaway.
+Dialogue: 0,0:13:55.00,0:13:58.64,Chinese,,0,0,0,,刚开始会觉得要等很久 时间长了就不觉得了\N{\c&H00F8FB&\fnArial\fs14}They take a long time at first, and then no time at all.
+Dialogue: 0,0:13:59.92,0:14:01.92,Chinese,,0,0,0,,在美国有家人吗 朋友呢\N{\c&H00F8FB&\fnArial\fs14}You have family in America? Friends?
+Dialogue: 0,0:14:02.04,0:14:03.31,Chinese,,0,0,0,,没有\N{\c&H00F8FB&\fnArial\fs14}No.
+Dialogue: 0,0:14:03.34,0:14:04.84,Chinese,,0,0,0,,放心 你很容易能结识人\N{\c&H00F8FB&\fnArial\fs14}You'll meet people easy enough.
+Dialogue: 0,0:14:04.96,0:14:06.26,Chinese,,0,0,0,,你住哪儿\N{\c&H00F8FB&\fnArial\fs14}Where are you gonna live?
+Dialogue: 0,0:14:06.38,0:14:07.66,Chinese,,0,0,0,,布鲁克林吗\N{\c&H00F8FB&\fnArial\fs14}Brooklyn?
+Dialogue: 0,0:14:07.88,0:14:09.39,Chinese,,0,0,0,,你怎么知道\N{\c&H00F8FB&\fnArial\fs14}How do you know that?
+Dialogue: 0,0:14:09.42,0:14:10.43,Chinese,,0,0,0,,乱猜的\N{\c&H00F8FB&\fnArial\fs14}Lucky guess.
+Dialogue: 0,0:14:10.98,0:14:15.07,Chinese,,0,0,0,,记住 有时能跟陌生人聊聊挺好的\N{\c&H00F8FB&\fnArial\fs14}Try to remember that sometimes it's nice to talk to people who don't know your auntie.
+Dialogue: 0,0:14:15.86,0:14:17.20,Chinese,,0,0,0,,和陌生人聊天是这种感觉吗\N{\c&H00F8FB&\fnArial\fs14}That's what it's like?
+Dialogue: 0,0:14:17.23,0:14:18.44,Chinese,,0,0,0,,就是那样\N{\c&H00F8FB&\fnArial\fs14}That's what it's like.
+Dialogue: 0,0:14:25.02,0:14:28.37,Chinese,,0,0,0,,-我已经好几个小时没想吐了  -很棒啊 不是吗\N{\c&H00F8FB&\fnArial\fs14}- I've been sick for hours.  -Nice, isn't it?
+Dialogue: 0,0:14:29.55,0:14:30.78,Chinese,,0,0,0,,我好饿\N{\c&H00F8FB&\fnArial\fs14}I am very hungry.
+Dialogue: 0,0:14:30.81,0:14:32.67,Chinese,,0,0,0,,嗯 所以你才好几个小时都没想吐了\N{\c&H00F8FB&\fnArial\fs14}Hmm, that's why you haven't been sick for hours.
+Dialogue: 0,0:14:33.53,0:14:34.97,Chinese,,0,0,0,,我们明天就能吃了\N{\c&H00F8FB&\fnArial\fs14}We'll eat tomorrow.
+Dialogue: 0,0:14:36.15,0:14:37.81,Chinese,,0,0,0,,或者后天\N{\c&H00F8FB&\fnArial\fs14}Or the day after.
+Dialogue: 0,0:14:43.37,0:14:46.59,Chinese,,0,0,0,,噢 亲爱的 我们得帮你改改造型\N{\c&H00F8FB&\fnArial\fs14}Oh, dear. We'll have to do something with you.
+Dialogue: 0,0:14:46.82,0:14:48.16,Chinese,,0,0,0,,他们会把你隔离的\N{\c&H00F8FB&\fnArial\fs14}They'll put you in quarantine or something
+Dialogue: 0,0:14:48.19,0:14:50.04,Chinese,,0,0,0,,要是你以这副面貌入境的话\N{\c&H00F8FB&\fnArial\fs14}if you try to enter the country looking like that.
+Dialogue: 0,0:14:51.93,0:14:54.29,Chinese,,0,0,0,,别太花俏 你不能看起来像妓女\N{\c&H00F8FB&\fnArial\fs14}Nothing fancy. You mustn't look like a tart.
+Dialogue: 0,0:14:55.05,0:14:58.60,Chinese,,0,0,0,,噢 好吧 看起来像妓女倒并不成问题\N{\c&H00F8FB&\fnArial\fs14}Oh, Well, looking like a tart isn't going to be a problem.
+Dialogue: 0,0:15:00.86,0:15:02.35,Chinese,,0,0,0,,这件看起来不算糟\N{\c&H00F8FB&\fnArial\fs14}This doesn't look too bad.
+Dialogue: 0,0:15:02.37,0:15:03.70,Chinese,,0,0,0,,我姐给我的\N{\c&H00F8FB&\fnArial\fs14}My sister gave me that.
+Dialogue: 0,0:15:06.81,0:15:11.02,Chinese,,0,0,0,,穿这个搭一下\N{\c&H00F8FB&\fnArial\fs14}Wear it with this…
+Dialogue: 0,0:15:13.29,0:15:14.47,Chinese,,0,0,0,,还有这件\N{\c&H00F8FB&\fnArial\fs14}and this.
+Dialogue: 0,0:15:18.68,0:15:20.95,Chinese,,0,0,0,,准备开包检查\N{\c&H00F8FB&\fnArial\fs14}Open your bags ready for inspection.
+Dialogue: 0,0:15:20.98,0:15:22.54,Chinese,,0,0,0,,也别看起来太天真了\N{\c&H00F8FB&\fnArial\fs14}Don't look too innocent, though.
+Dialogue: 0,0:15:24.05,0:15:26.28,Chinese,,0,0,0,,我会给你上点口红和睫毛膏\N{\c&H00F8FB&\fnArial\fs14}I'll put some rouge and mascara on you.
+Dialogue: 0,0:15:28.09,0:15:29.61,Chinese,,0,0,0,,也许再画个眼线\N{\c&H00F8FB&\fnArial\fs14}Perhaps some eye-liner.
+Dialogue: 0,0:15:41.73,0:15:45.41,Chinese,,0,0,0,,你从队列里出来 谢谢 下一个 谢谢\N{\c&H00F8FB&\fnArial\fs14}You step out of the line please. Thank you. Next, please. Thank you.
+Dialogue: 0,0:15:49.29,0:15:50.30,Chinese,,0,0,0,,护照\N{\c&H00F8FB&\fnArial\fs14}Passport please.
+Dialogue: 0,0:15:50.47,0:15:52.05,Chinese,,0,0,0,,站直了\N{\c&H00F8FB&\fnArial\fs14}Stand up straight.
+Dialogue: 0,0:15:52.08,0:15:55.81,Chinese,,0,0,0,,把鞋子擦亮 无论如何别咳嗽\N{\c&H00F8FB&\fnArial\fs14}Polish your shoes, and don't cough whatever you do.
+Dialogue: 0,0:15:59.46,0:16:03.11,Chinese,,0,0,0,,不要粗鲁 别咄咄逼人 也别紧张兮兮\N{\c&H00F8FB&\fnArial\fs14}Don't be rude, or pushy, and don't look too nervous.
+Dialogue: 0,0:16:03.54,0:16:04.70,Chinese,,0,0,0,,这边来\N{\c&H00F8FB&\fnArial\fs14}This way!
+Dialogue: 0,0:16:05.90,0:16:07.58,Chinese,,0,0,0,,像美国人一样思考\N{\c&H00F8FB&\fnArial\fs14}Think like an American.
+Dialogue: 0,0:16:09.26,0:16:11.10,Chinese,,0,0,0,,你得知道自己要去哪儿\N{\c&H00F8FB&\fnArial\fs14}You have to know where you're going.
+Dialogue: 0,0:16:11.13,0:16:14.50,Chinese,,0,0,0,,欢迎来到美国 女士 请从蓝色门进\N{\c&H00F8FB&\fnArial\fs14}Welcome to the United States, Ma'am. Through the blue door, please.
+Dialogue: 0,0:16:15.14,0:16:16.43,Chinese,,0,0,0,,下一个\N{\c&H00F8FB&\fnArial\fs14}Next, please.
+Dialogue: 0,0:16:59.90,0:17:02.99,Chinese,,0,0,0,,上帝保佑我们 感谢我主慷慨赐予\N{\c&H00F8FB&\fnArial\fs14}Bless us, oh Lord, and these thy gifts which we are about to receive
+Dialogue: 0,0:17:03.02,0:17:05.23,Chinese,,0,0,0,,我们即将享用的食物 阿门\N{\c&H00F8FB&\fnArial\fs14}from thy bounty through Christ our Lord, Amen.
+Dialogue: 0,0:17:05.26,0:17:06.26,Chinese,,0,0,0,,阿门\N{\c&H00F8FB&\fnArial\fs14}Amen.
+Dialogue: 0,0:17:10.58,0:17:13.09,Chinese,,0,0,0,,我看你收到一封信 戴安娜 有什么新鲜事吗\N{\c&H00F8FB&\fnArial\fs14}I saw you had a letter today, Diana. Any news?
+Dialogue: 0,0:17:13.11,0:17:16.22,Chinese,,0,0,0,,她说德瓦莱拉先生眼睛又做了一次手术\N{\c&H00F8FB&\fnArial\fs14}Mr. de Valera has had another operation on his eyes, she says.
+Dialogue: 0,0:17:16.24,0:17:16.95,Chinese,,0,0,0,,他已经去荷兰了\N{\c&H00F8FB&\fnArial\fs14}He's been in Holland.
+Dialogue: 0,0:17:16.97,0:17:19.02,Chinese,,0,0,0,,我不想听报纸上就能看的消息\N{\c&H00F8FB&\fnArial\fs14}I don't want news that I can read in a newspaper.
+Dialogue: 0,0:17:19.04,0:17:21.20,Chinese,,0,0,0,,不管怎样 我们认为德瓦莱拉先生是政治人物\N{\c&H00F8FB&\fnArial\fs14}Anyway, we would describe Mr. de Valera as "politics",
+Dialogue: 0,0:17:21.20,0:17:22.50,Chinese,,0,0,0,,不是吗 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}would we not, Mrs. Kehoe?
+Dialogue: 0,0:17:22.72,0:17:24.84,Chinese,,0,0,0,,我们不想吃饭的时候谈政治\N{\c&H00F8FB&\fnArial\fs14}And we do not like politics at the dinner table.
+Dialogue: 0,0:17:24.87,0:17:25.68,Chinese,,0,0,0,,我们不喜欢\N{\c&H00F8FB&\fnArial\fs14}We don't.
+Dialogue: 0,0:17:25.70,0:17:27.65,Chinese,,0,0,0,,眼科手术又不是政治\N{\c&H00F8FB&\fnArial\fs14}It's not politics to talk about eye operations.
+Dialogue: 0,0:17:27.67,0:17:29.76,Chinese,,0,0,0,,但这眼睛是政客的眼睛\N{\c&H00F8FB&\fnArial\fs14}It is if the eyes belong to a politician.
+Dialogue: 0,0:17:29.99,0:17:32.63,Chinese,,0,0,0,,而且我也不怎么喜欢谈医院的事情\N{\c&H00F8FB&\fnArial\fs14}And I do not like to talk about hospitals very much, either.
+Dialogue: 0,0:17:33.51,0:17:35.07,Chinese,,0,0,0,,帕蒂 那面霜有没办法买到\N{\c&H00F8FB&\fnArial\fs14}Patty, did you have any luck with that cold cream?
+Dialogue: 0,0:17:35.10,0:17:35.93,Chinese,,0,0,0,,没有 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}No, Mrs. Kehoe.
+Dialogue: 0,0:17:35.95,0:17:37.31,Chinese,,0,0,0,,我问了卖化妆品的泰勒小姐\N{\c&H00F8FB&\fnArial\fs14}I asked Miss Tyler in Cosmetics.
+Dialogue: 0,0:17:37.40,0:17:38.45,Chinese,,0,0,0,,还给她看了那广告\N{\c&H00F8FB&\fnArial\fs14}And I showed her the advertisement.
+Dialogue: 0,0:17:38.57,0:17:40.26,Chinese,,0,0,0,,我可不想长途跋涉\N{\c&H00F8FB&\fnArial\fs14}I don't want to have to travel all the way
+Dialogue: 0,0:17:40.28,0:17:41.95,Chinese,,0,0,0,,跑去曼哈顿就为了买一罐面霜\N{\c&H00F8FB&\fnArial\fs14}to Manhattan just for a jar of cold cream.
+Dialogue: 0,0:17:41.97,0:17:43.93,Chinese,,0,0,0,,艾莉丝 能帮我看看巴尔托奇百货有没有吗\N{\c&H00F8FB&\fnArial\fs14}Maybe you could have a look at Bartocci's for me, Eilis?
+Dialogue: 0,0:17:44.25,0:17:45.54,Chinese,,0,0,0,,好的 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}Yes, Mrs. Kehoe.
+Dialogue: 0,0:17:45.56,0:17:47.26,Chinese,,0,0,0,,对啊 巴尔托奇百货准有\N{\c&H00F8FB&\fnArial\fs14}Oh, Bartocci's is bound to have it.
+Dialogue: 0,0:17:47.28,0:17:49.10,Chinese,,0,0,0,,凯赫夫人 她根本不能肯定\N{\c&H00F8FB&\fnArial\fs14}She does not know for sure, Mrs. Kehoe.
+Dialogue: 0,0:17:49.12,0:17:51.39,Chinese,,0,0,0,,她说巴尔托奇百货比韦博斯特百货好\N{\c&H00F8FB&\fnArial\fs14}She is only saying that Bartocci's is a better store than Webster's
+Dialogue: 0,0:17:51.39,0:17:52.45,Chinese,,0,0,0,,只是为了气帕蒂\N{\c&H00F8FB&\fnArial\fs14}to get at Patty.
+Dialogue: 0,0:17:52.47,0:17:53.96,Chinese,,0,0,0,,它们都很好\N{\c&H00F8FB&\fnArial\fs14}They are both very good,
+Dialogue: 0,0:17:53.96,0:17:56.81,Chinese,,0,0,0,,你们这些姑娘能在里面工作都很幸运\N{\c&H00F8FB&\fnArial\fs14}and you girls are very lucky to be working there.
+Dialogue: 0,0:17:57.24,0:18:01.62,Chinese,,0,0,0,,艾莉丝 你看起来是油性皮肤 对吗\N{\c&H00F8FB&\fnArial\fs14}Eilis, from the look of you, you have greasy skin, is that right?
+Dialogue: 0,0:18:01.65,0:18:02.89,Chinese,,0,0,0,,你平时怎么护理的\N{\c&H00F8FB&\fnArial\fs14}What do you do about that?
+Dialogue: 0,0:18:05.01,0:18:09.44,Chinese,,0,0,0,,就 呃 就清洗呗 凯赫夫人 用肥皂\N{\c&H00F8FB&\fnArial\fs14}Just... Well, I wash it, Mrs. Kehoe, with soap.
+Dialogue: 0,0:18:09.46,0:18:10.99,Chinese,,0,0,0,,用肥皂没什么不好\N{\c&H00F8FB&\fnArial\fs14}There is nothing wrong with soap.
+Dialogue: 0,0:18:11.02,0:18:13.53,Chinese,,0,0,0,,我猜主觉得肥皂就够好了\N{\c&H00F8FB&\fnArial\fs14}Soap was good enough for our Lord. I expect.
+Dialogue: 0,0:18:13.56,0:18:15.86,Chinese,,0,0,0,,那主用的是哪个牌子呢 麦克亚当小姐\N{\c&H00F8FB&\fnArial\fs14}Well, which brand did he use, Miss McAdam?
+Dialogue: 0,0:18:15.88,0:18:17.45,Chinese,,0,0,0,,圣经会告诉你这个吗\N{\c&H00F8FB&\fnArial\fs14}Does the Bible tell you that?
+Dialogue: 0,0:18:17.47,0:18:19.30,Chinese,,0,0,0,,反正主是个男人\N{\c&H00F8FB&\fnArial\fs14}Our Lord was a man, anyway.
+Dialogue: 0,0:18:19.32,0:18:20.89,Chinese,,0,0,0,,他可不在乎皮肤油\N{\c&H00F8FB&\fnArial\fs14}He didn't care about greasy skin.
+Dialogue: 0,0:18:20.92,0:18:24.90,Chinese,,0,0,0,,姑娘们 就餐时不要再谈主的皮肤了 拜托\N{\c&H00F8FB&\fnArial\fs14}Ladies. No more talk about our Lord's complexion at dinner, please.
+Dialogue: 0,0:18:25.22,0:18:27.80,Chinese,,0,0,0,,姑娘们会帮你找到合适的护肤品的 艾莉丝 是吧 姑娘们\N{\c&H00F8FB&\fnArial\fs14}The girls will help you find something suitable, Eilis, won't you, the girls?
+Dialogue: 0,0:18:47.72,0:18:51.99,Chinese,,0,0,0,,{\pos(345,162)}巴尔托奇百货
+Dialogue: 0,0:19:00.36,0:19:03.12,Chinese,,0,0,0,,-你好  -早上好\N{\c&H00F8FB&\fnArial\fs14}- Hi.  - Good Morning.
+Dialogue: 0,0:19:03.15,0:19:04.73,Chinese,,0,0,0,,昨晚出去玩了吗\N{\c&H00F8FB&\fnArial\fs14}Did you go out last night?
+Dialogue: 0,0:19:06.10,0:19:08.76,Chinese,,0,0,0,,-出去玩 宅在家的反义词  -没有\N{\c&H00F8FB&\fnArial\fs14}- Out. The opposite of in .  - No.
+Dialogue: 0,0:19:09.29,0:19:11.60,Chinese,,0,0,0,,我昨晚和男朋友去看电影了\N{\c&H00F8FB&\fnArial\fs14}Well, I saw a movie with my boyfriend.
+Dialogue: 0,0:19:14.15,0:19:16.13,Chinese,,0,0,0,,你看到什么了 桃乐丝\N{\c&H00F8FB&\fnArial\fs14}"What did you see, Dorothy?"
+Dialogue: 0,0:19:16.15,0:19:19.44,Chinese,,0,0,0,,我看了《蓬门今始为君开》 艾莉丝 他们在爱尔兰拍的\N{\c&H00F8FB&\fnArial\fs14}"I saw The Quiet Man, Eilis. They filmed it in Ireland."
+Dialogue: 0,0:19:19.46,0:19:20.73,Chinese,,0,0,0,,是吗 我家乡是爱尔兰\N{\c&H00F8FB&\fnArial\fs14}"Oh, I'm from Ireland".
+Dialogue: 0,0:19:20.76,0:19:24.39,Chinese,,0,0,0,,我知道 所以我以为你会感兴趣\N{\c&H00F8FB&\fnArial\fs14}"I know you are, that's why I thought you might be interested."
+Dialogue: 0,0:19:26.27,0:19:27.55,Chinese,,0,0,0,,谢谢你\N{\c&H00F8FB&\fnArial\fs14}Thank you.
+Dialogue: 0,0:19:45.02,0:19:46.41,Chinese,,0,0,0,,稍等片刻\N{\c&H00F8FB&\fnArial\fs14}Shouldn't be a moment.
+Dialogue: 0,0:20:00.38,0:20:01.70,Chinese,,0,0,0,,外面还热吗\N{\c&H00F8FB&\fnArial\fs14}Is it still hot out there?
+Dialogue: 0,0:20:01.92,0:20:03.69,Chinese,,0,0,0,,从早上到现在我都没出去过\N{\c&H00F8FB&\fnArial\fs14}I haven't been outside since this morning
+Dialogue: 0,0:20:03.71,0:20:06.05,Chinese,,0,0,0,,不过我猜可能\N{\c&H00F8FB&\fnArial\fs14}but I can tell that it might be.
+Dialogue: 0,0:20:06.08,0:20:10.03,Chinese,,0,0,0,,挺热的... 看上去是这样\N{\c&H00F8FB&\fnArial\fs14}Very. It just..looks it.
+Dialogue: 0,0:20:11.17,0:20:12.52,Chinese,,0,0,0,,的确挺暖和的\N{\c&H00F8FB&\fnArial\fs14}It's warm, yes.
+Dialogue: 0,0:20:22.38,0:20:23.71,Chinese,,0,0,0,,多谢\N{\c&H00F8FB&\fnArial\fs14}Thanks very much.
+Dialogue: 0,0:20:27.39,0:20:30.10,Chinese,,0,0,0,,你记住如果人家觉得这儿好就会再来\N{\c&H00F8FB&\fnArial\fs14}Remember ... If people like it here, they will come back.
+Dialogue: 0,0:20:30.12,0:20:32.84,Chinese,,0,0,0,,所以你要像交新朋友那样对待每位顾客\N{\c&H00F8FB&\fnArial\fs14}So you treat every customer as if she's a new friend.
+Dialogue: 0,0:20:32.86,0:20:33.66,Chinese,,0,0,0,,我会尽力的\N{\c&H00F8FB&\fnArial\fs14}I will try.
+Dialogue: 0,0:20:33.69,0:20:36.20,Chinese,,0,0,0,,尽力是不够的 这是你必须做到的\N{\c&H00F8FB&\fnArial\fs14}It's not a matter of trying. It's what you have to do.
+Dialogue: 0,0:20:36.53,0:20:38.44,Chinese,,0,0,0,,你会每天尽力穿内裤吗\N{\c&H00F8FB&\fnArial\fs14}Do you try to wear panties every day?
+Dialogue: 0,0:20:39.42,0:20:40.74,Chinese,,0,0,0,,不会\N{\c&H00F8FB&\fnArial\fs14}No.
+Dialogue: 0,0:20:40.77,0:20:43.69,Chinese,,0,0,0,,我是说我不是尽力穿上 而是肯定会穿\N{\c&H00F8FB&\fnArial\fs14}I mean, I don't..I don't try. I just put them on.
+Dialogue: 0,0:20:43.71,0:20:45.12,Chinese,,0,0,0,,你明白我的意思了吧\N{\c&H00F8FB&\fnArial\fs14}You see what I'm saying?
+Dialogue: 0,0:20:46.49,0:20:48.47,Chinese,,0,0,0,,- 明白 - 那就好\N{\c&H00F8FB&\fnArial\fs14}- Yes. - Good.
+Dialogue: 0,0:20:53.95,0:20:56.28,Chinese,,0,0,0,,给我一份切片吐司\N{\c&H00F8FB&\fnArial\fs14}Can I get another sliced toast please?
+Dialogue: 0,0:20:56.36,0:20:57.79,Chinese,,0,0,0,,做些热狗\N{\c&H00F8FB&\fnArial\fs14}Slice up some hot dog.
+Dialogue: 0,0:20:57.79,0:20:59.31,Chinese,,0,0,0,,他们要中间切开的\N{\c&H00F8FB&\fnArial\fs14}They want them sliced down the middle!
+Dialogue: 0,0:21:05.19,0:21:07.56,Chinese,,0,0,0,,你好 我要买单\N{\c&H00F8FB&\fnArial\fs14}Sorry. Could I have the bill please?
+Dialogue: 0,0:21:13.53,0:21:15.30,Chinese,,0,0,0,,我希望当我走入天国之门时\N{\c&H00F8FB&\fnArial\fs14}I hope that when I go through the pearly gates,
+Dialogue: 0,0:21:15.30,0:21:16.60,Chinese,,0,0,0,,迎接我的是你\N{\c&H00F8FB&\fnArial\fs14}the first sound I hear is you
+Dialogue: 0,0:21:16.72,0:21:19.56,Chinese,,0,0,0,,用那可爱的爱尔兰口音找我买单\N{\c&H00F8FB&\fnArial\fs14}asking me for the check in that lovely Irish brogue.
+Dialogue: 0,0:22:14.60,0:22:17.01,Chinese,,0,0,0,,他们有没有告诉你什么时候尼龙袜打折啊 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Have they told you a date for the nylon sale yet, Eilis?
+Dialogue: 0,0:22:17.23,0:22:19.56,Chinese,,0,0,0,,这儿还没住过在巴尔托奇百货上班的女孩呢\N{\c&H00F8FB&\fnArial\fs14}We've never had a Bartocci's girl living here.
+Dialogue: 0,0:22:20.00,0:22:22.12,Chinese,,0,0,0,,说不定我们能得到些内部消息\N{\c&H00F8FB&\fnArial\fs14}We might get some inside information.
+Dialogue: 0,0:22:22.14,0:22:23.51,Chinese,,0,0,0,,我还没听到什么消息\N{\c&H00F8FB&\fnArial\fs14}I haven't been told anything.
+Dialogue: 0,0:22:23.63,0:22:25.50,Chinese,,0,0,0,,就算你听说了也不会告诉我们的吧\N{\c&H00F8FB&\fnArial\fs14}I'll bet you wouldn't let on if you had.
+Dialogue: 0,0:22:25.52,0:22:28.02,Chinese,,0,0,0,,她就是这种人 忠于老板多过朋友\N{\c&H00F8FB&\fnArial\fs14}She's that sort. More loyal to her bosses than to her friends.
+Dialogue: 0,0:22:28.04,0:22:29.18,Chinese,,0,0,0,,像个红色特务\N{\c&H00F8FB&\fnArial\fs14}Like a Red spy.
+Dialogue: 0,0:22:29.21,0:22:30.50,Chinese,,0,0,0,,哦上帝啊\N{\c&H00F8FB&\fnArial\fs14}Oh, dear God.
+Dialogue: 0,0:22:31.03,0:22:34.72,Chinese,,0,0,0,,谢谢你把上帝扯进一段关于尼龙袜的谈话\N{\c&H00F8FB&\fnArial\fs14}I'll thank you to keep His name out of a conversation about nylons.
+Dialogue: 0,0:22:35.19,0:22:38.39,Chinese,,0,0,0,,即使上帝无所不在也绝不会出现在巴尔托奇的打折特卖会上\N{\c&H00F8FB&\fnArial\fs14}He might be everywhere, but he's certainly not in Bartocci's on sale day.
+Dialogue: 0,0:22:38.58,0:22:39.65,Chinese,,0,0,0,,对不起 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}Sorry Mrs. Kehoe.
+Dialogue: 0,0:22:39.98,0:22:42.64,Chinese,,0,0,0,,你今天终于收到家书了 艾莉丝 真替你高兴\N{\c&H00F8FB&\fnArial\fs14}I was glad to see you finally got some letters from home today, Eilis.
+Dialogue: 0,0:22:43.01,0:22:44.22,Chinese,,0,0,0,,- 真的吗 -恩\N{\c&H00F8FB&\fnArial\fs14}- Did I? - Em.
+Dialogue: 0,0:22:44.24,0:22:45.07,Chinese,,0,0,0,,我忘了看了\N{\c&H00F8FB&\fnArial\fs14}I forgot to check.
+Dialogue: 0,0:22:45.09,0:22:47.55,Chinese,,0,0,0,,你先吃完再看也不急嘛\N{\c&H00F8FB&\fnArial\fs14}They'll still be there after dinner.
+Dialogue: 0,0:22:47.58,0:22:49.11,Chinese,,0,0,0,,哦 抱歉\N{\c&H00F8FB&\fnArial\fs14}Oh sorry.
+Dialogue: 0,0:23:02.68,0:23:04.19,Chinese,,0,0,0,,亲爱的艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Dear Eilis,
+Dialogue: 0,0:23:04.22,0:23:07.61,Chinese,,0,0,0,,难以置信读这封信时你身在美国\N{\c&H00F8FB&\fnArial\fs14}It's hard for me to believe that you're reading this in America.
+Dialogue: 0,0:23:07.63,0:23:10.01,Chinese,,0,0,0,,远隔重洋\N{\c&H00F8FB&\fnArial\fs14}Thousands of miles across the sea.
+Dialogue: 0,0:23:11.09,0:23:13.85,Chinese,,0,0,0,,这边的大事情就是\N{\c&H00F8FB&\fnArial\fs14}The big news here is that since you left,
+Dialogue: 0,0:23:13.88,0:23:16.46,Chinese,,0,0,0,,你走后妈妈就不再去刺头凯莉的店买东西了\N{\c&H00F8FB&\fnArial\fs14}Mummy has stopped shopping at Nettles Kelly's.
+Dialogue: 0,0:23:16.48,0:23:19.57,Chinese,,0,0,0,,你知道的 她的面包不怎么新鲜\N{\c&H00F8FB&\fnArial\fs14}As you know, her bread wasn't always fresh.
+Dialogue: 0,0:23:19.59,0:23:21.42,Chinese,,0,0,0,,东西都太贵\N{\c&H00F8FB&\fnArial\fs14}And she overcharge for everything.
+Dialogue: 0,0:23:22.29,0:23:23.66,Chinese,,0,0,0,,人品还不好\N{\c&H00F8FB&\fnArial\fs14}And she's awful.
+Dialogue: 0,0:23:23.68,0:23:26.60,Chinese,,0,0,0,,我没当面告诉她 没这个必要\N{\c&H00F8FB&\fnArial\fs14}I haven't told her to her face.There's no need.
+Dialogue: 0,0:23:26.62,0:23:29.38,Chinese,,0,0,0,,她自己知道她的东西贵 又不新鲜\N{\c&H00F8FB&\fnArial\fs14}She knows that she overcharges and her bread's not fresh.
+Dialogue: 0,0:23:31.30,0:23:34.14,Chinese,,0,0,0,,当然我们每天都谈起你\N{\c&H00F8FB&\fnArial\fs14}We talk about you every evening, of course.
+Dialogue: 0,0:23:34.77,0:23:36.93,Chinese,,0,0,0,,我们想知道关于你的一切\N{\c&H00F8FB&\fnArial\fs14}We want to know everything.
+Dialogue: 0,0:23:37.15,0:23:42.56,Chinese,,0,0,0,,你一定很忙 但即使你的信有两百页这么长\N{\c&H00F8FB&\fnArial\fs14}I'm sure you're busy, but even if your letters were two hundred pages,
+Dialogue: 0,0:23:42.56,0:23:44.54,Chinese,,0,0,0,,你的母亲也会觉得不够长\N{\c&H00F8FB&\fnArial\fs14}they wouldn't be long enough for your mother.
+Dialogue: 0,0:23:50.65,0:23:53.55,Chinese,,0,0,0,,照顾好自己 爱你\N{\c&H00F8FB&\fnArial\fs14}Take care of yourself. Love.
+Dialogue: 0,0:24:07.98,0:24:09.46,Chinese,,0,0,0,,你这几天月事来了吗\N{\c&H00F8FB&\fnArial\fs14}Is it your time of the month?
+Dialogue: 0,0:24:10.53,0:24:11.86,Chinese,,0,0,0,,那你是怎么了\N{\c&H00F8FB&\fnArial\fs14}So what is it?
+Dialogue: 0,0:24:16.42,0:24:19.38,Chinese,,0,0,0,,去员工室休息一下吧\N{\c&H00F8FB&\fnArial\fs14}Take some time off now. Go and sit in the staff room.
+Dialogue: 0,0:24:28.02,0:24:31.63,Chinese,,0,0,0,,对不起艾莉丝 都怪我不好\N{\c&H00F8FB&\fnArial\fs14}I'm so sorry, Eilis. This is all my fault.
+Dialogue: 0,0:24:31.66,0:24:34.67,Chinese,,0,0,0,,我以为你不再需要人照看了\N{\c&H00F8FB&\fnArial\fs14}I was led to believe that you didn't need looking after.
+Dialogue: 0,0:24:34.70,0:24:37.32,Chinese,,0,0,0,,弗兰科·巴尔托奇说你工作很棒\N{\c&H00F8FB&\fnArial\fs14}Franco Bartocci says you are doing great here.
+Dialogue: 0,0:24:37.37,0:24:40.10,Chinese,,0,0,0,,玛·凯赫说你是她见过最好的房客\N{\c&H00F8FB&\fnArial\fs14}Ma Kehoe says you are the nicest lodger she's ever had.
+Dialogue: 0,0:24:40.64,0:24:42.67,Chinese,,0,0,0,,- 怎么了 - 你叫她玛·凯赫吗\N{\c&H00F8FB&\fnArial\fs14}- What? - Ma Kehoe?
+Dialogue: 0,0:24:42.70,0:24:44.72,Chinese,,0,0,0,,千万别当面这么叫她\N{\c&H00F8FB&\fnArial\fs14}Don't ever call her that to her face.
+Dialogue: 0,0:24:45.56,0:24:49.02,Chinese,,0,0,0,,我已经忘了背井离乡的滋味有多苦\N{\c&H00F8FB&\fnArial\fs14}I'd forgotten just how bad it feels to be away from home.
+Dialogue: 0,0:24:49.24,0:24:52.32,Chinese,,0,0,0,,我帮你在夜校报了名\N{\c&H00F8FB&\fnArial\fs14}I've enrolled you in a night class.
+Dialogue: 0,0:24:52.55,0:24:55.07,Chinese,,0,0,0,,布鲁克林大学学记帐\N{\c&H00F8FB&\fnArial\fs14}For book-keeping. The Brooklyn College.
+Dialogue: 0,0:24:55.09,0:24:56.36,Chinese,,0,0,0,,每周三次\N{\c&H00F8FB&\fnArial\fs14}It will be three nights a week.
+Dialogue: 0,0:24:56.39,0:24:58.31,Chinese,,0,0,0,,第一学期的学费也帮你付了\N{\c&H00F8FB&\fnArial\fs14}And I've paid your tuition for the first semester.
+Dialogue: 0,0:24:58.93,0:25:01.53,Chinese,,0,0,0,,- 为什么 - 干嘛问为什么\N{\c&H00F8FB&\fnArial\fs14}- Why? - “Why?”
+Dialogue: 0,0:25:01.55,0:25:02.82,Chinese,,0,0,0,,你应该谢谢我啊\N{\c&H00F8FB&\fnArial\fs14}Not "Thank you"?
+Dialogue: 0,0:25:02.85,0:25:06.36,Chinese,,0,0,0,,对不起 谢谢你 但是为什么呢\N{\c&H00F8FB&\fnArial\fs14}Sorry, thank you. But why?
+Dialogue: 0,0:25:06.39,0:25:08.49,Chinese,,0,0,0,,我很吃惊像你这样聪明的人\N{\c&H00F8FB&\fnArial\fs14}I was amazed that someone as clever as you
+Dialogue: 0,0:25:08.50,0:25:10.60,Chinese,,0,0,0,,在家乡居然找不到好工作\N{\c&H00F8FB&\fnArial\fs14}couldn't find proper work at home.
+Dialogue: 0,0:25:11.63,0:25:13.36,Chinese,,0,0,0,,我在这儿呆了太多年了\N{\c&H00F8FB&\fnArial\fs14}I've been here too long.
+Dialogue: 0,0:25:13.38,0:25:15.44,Chinese,,0,0,0,,都忘了爱尔兰啥样了\N{\c&H00F8FB&\fnArial\fs14}I forget what it's like in Ireland.
+Dialogue: 0,0:25:16.66,0:25:18.74,Chinese,,0,0,0,,所以当你姐姐写信告诉我你的事\N{\c&H00F8FB&\fnArial\fs14}So when your sister wrote to me about you
+Dialogue: 0,0:25:18.78,0:25:20.69,Chinese,,0,0,0,,我就说教会会想办法帮忙的\N{\c&H00F8FB&\fnArial\fs14}I said that the Church would try to help.
+Dialogue: 0,0:25:21.98,0:25:25.23,Chinese,,0,0,0,,反正布鲁克林需要多些我们爱尔兰女孩\N{\c&H00F8FB&\fnArial\fs14}Anyway, we need Irish girls in Brooklyn.
+Dialogue: 0,0:25:25.25,0:25:28.90,Chinese,,0,0,0,,真希望我能停止想回家的冲动\N{\c&H00F8FB&\fnArial\fs14}I wish that I could stop feeling that I want to be an Irish girl in Ireland.
+Dialogue: 0,0:25:29.13,0:25:32.03,Chinese,,0,0,0,,我能告诉你的是 这种感觉会过去的\N{\c&H00F8FB&\fnArial\fs14}All I can say is that it will pass.
+Dialogue: 0,0:25:32.83,0:25:34.98,Chinese,,0,0,0,,思乡病和其他毛病一样\N{\c&H00F8FB&\fnArial\fs14}Homesickness is like most sicknesses.
+Dialogue: 0,0:25:35.69,0:25:39.55,Chinese,,0,0,0,,它让人难受 但终究会转移到其他人身上去\N{\c&H00F8FB&\fnArial\fs14}It will make you feel wretched, and then it will move on to somebody else.
+Dialogue: 0,0:25:42.29,0:25:44.60,Chinese,,0,0,0,,泰勒诉标准燃气公司案\N{\c&H00F8FB&\fnArial\fs14}Now, Taylor versus Standard Gas Co
+Dialogue: 0,0:25:44.63,0:25:46.77,Chinese,,0,0,0,,是过去二十年内最高法院审判的\N{\c&H00F8FB&\fnArial\fs14}is one of the most important corporate cases
+Dialogue: 0,0:25:46.77,0:25:49.63,Chinese,,0,0,0,,最重要的商事案件之一\N{\c&H00F8FB&\fnArial\fs14}decided in the Supreme Court in the last twenty years.
+Dialogue: 0,0:25:49.85,0:25:53.27,Chinese,,0,0,0,,它推动了了「深石原则」的确立\N{\c&H00F8FB&\fnArial\fs14}This was the case responsible for the Deep Rock doctrine,
+Dialogue: 0,0:25:53.30,0:25:57.35,Chinese,,0,0,0,,它可以说是子母公司法领域的里程碑\N{\c&H00F8FB&\fnArial\fs14}so it's maybe the biggest milestone in parent-subsidiary law.
+Dialogue: 0,0:25:57.38,0:26:01.85,Chinese,,0,0,0,,仅在公用事业整合的进程中\N{\c&H00F8FB&\fnArial\fs14}In public utility integration proceedings alone
+Dialogue: 0,0:26:01.87,0:26:04.17,Chinese,,0,0,0,,就有成千上万的投资者\N{\c&H00F8FB&\fnArial\fs14}literally thousands of investors
+Dialogue: 0,0:26:04.19,0:26:06.32,Chinese,,0,0,0,,因此受到影响\N{\c&H00F8FB&\fnArial\fs14}may be affected by its application.
+Dialogue: 0,0:26:10.78,0:26:13.38,Chinese,,0,0,0,,你听得懂他说的这些吗\N{\c&H00F8FB&\fnArial\fs14}Did you understand any of that?
+Dialogue: 0,0:26:13.40,0:26:15.51,Chinese,,0,0,0,,随便哪部分\N{\c&H00F8FB&\fnArial\fs14}I mean, a single word?
+Dialogue: 0,0:26:17.35,0:26:19.49,Chinese,,0,0,0,,他都不用照着书念\N{\c&H00F8FB&\fnArial\fs14}He's not even reading from a book.
+Dialogue: 0,0:26:19.51,0:26:20.87,Chinese,,0,0,0,,全在他脑子里\N{\c&H00F8FB&\fnArial\fs14}He just knows all this.
+Dialogue: 0,0:26:21.40,0:26:24.54,Chinese,,0,0,0,,希望接下来的内容会简单点吧\N{\c&H00F8FB&\fnArial\fs14}Well, Let's hope the next hour is easier.
+Dialogue: 0,0:26:36.79,0:26:40.62,Chinese,,0,0,0,,在美国火鸡是毁掉圣诞节的众多事物之一\N{\c&H00F8FB&\fnArial\fs14}One of the things that ruins Christmas in America is the turkey.
+Dialogue: 0,0:26:40.64,0:26:42.49,Chinese,,0,0,0,,像在吃木屑\N{\c&H00F8FB&\fnArial\fs14}It all tastes of sawdust.
+Dialogue: 0,0:26:42.51,0:26:44.51,Chinese,,0,0,0,,那麦克亚当小姐就吃芝士三明治\N{\c&H00F8FB&\fnArial\fs14}So that's one cheese sandwich for Miss McAdam,
+Dialogue: 0,0:26:44.51,0:26:46.44,Chinese,,0,0,0,,她那份火鸡就分给大家了\N{\c&H00F8FB&\fnArial\fs14}and extra turkey for everyone else.
+Dialogue: 0,0:26:47.46,0:26:49.18,Chinese,,0,0,0,,姑娘们 矜持点\N{\c&H00F8FB&\fnArial\fs14}Ladies, please.
+Dialogue: 0,0:26:50.62,0:26:53.36,Chinese,,0,0,0,,艾莉丝 弗洛德神父把你的圣诞安排告诉我了\N{\c&H00F8FB&\fnArial\fs14}Eilis, Father Flood told me about your Christmas plans.
+Dialogue: 0,0:26:53.48,0:26:56.70,Chinese,,0,0,0,,你不会要给无家可归的老年人发放午饭吧\N{\c&H00F8FB&\fnArial\fs14}Oh, you're not serving lunch to the old fellas who've nowhere to go, are you?
+Dialogue: 0,0:26:56.83,0:26:59.31,Chinese,,0,0,0,,神父每年都请我们去 我们从来不去\N{\c&H00F8FB&\fnArial\fs14}He asks us every year. We always say no.
+Dialogue: 0,0:26:59.34,0:27:01.43,Chinese,,0,0,0,,艾莉丝 你真是个圣人 那些人体味很大的\N{\c&H00F8FB&\fnArial\fs14}Ellis, you're a saint. They smell awful.
+Dialogue: 0,0:27:01.46,0:27:04.40,Chinese,,0,0,0,,希拉知道他们有体味因为她要找的老公就在他们中间\N{\c&H00F8FB&\fnArial\fs14}Sheila knows how they smell because that's where she goes husband-hunting.
+Dialogue: 0,0:27:07.18,0:27:10.75,Chinese,,0,0,0,,艾莉丝 你做的很好 很仁慈\N{\c&H00F8FB&\fnArial\fs14}It's a marvelous thing you're doing, Eilis. A Christian thing.
+Dialogue: 0,0:27:10.78,0:27:12.52,Chinese,,0,0,0,,真希望有更多像你这样的人\N{\c&H00F8FB&\fnArial\fs14}I wish there were more like you.
+Dialogue: 0,0:27:16.35,0:27:17.67,Chinese,,0,0,0,,请进\N{\c&H00F8FB&\fnArial\fs14}You can come.
+Dialogue: 0,0:27:18.78,0:27:20.39,Chinese,,0,0,0,,大概会来多少人\N{\c&H00F8FB&\fnArial\fs14}How many are we expecting?
+Dialogue: 0,0:27:20.42,0:27:22.60,Chinese,,0,0,0,,去年来了百来号人 今年可能更多\N{\c&H00F8FB&\fnArial\fs14}There were a hundred last year. There may be more this.
+Dialogue: 0,0:27:22.62,0:27:25.24,Chinese,,0,0,0,,- 都是爱尔兰人吗 - 是的\N{\c&H00F8FB&\fnArial\fs14}- They all Irish? - All Irish.
+Dialogue: 0,0:27:26.40,0:27:28.23,Chinese,,0,0,0,,他们为什么不回爱尔兰呢\N{\c&H00F8FB&\fnArial\fs14}Why don't they go home?
+Dialogue: 0,0:27:29.24,0:27:31.82,Chinese,,0,0,0,,如果你这样年轻有才的女孩都没有发展空间\N{\c&H00F8FB&\fnArial\fs14}If there's nothing there for a clever young girl such as yourself,
+Dialogue: 0,0:27:31.85,0:27:34.00,Chinese,,0,0,0,,他们这样的人就更没有生存可能了\N{\c&H00F8FB&\fnArial\fs14}there's gonna be even less for men like these.
+Dialogue: 0,0:27:34.22,0:27:36.50,Chinese,,0,0,0,,有些人来了快五十年了\N{\c&H00F8FB&\fnArial\fs14}Some of them have been here fifty years,
+Dialogue: 0,0:27:36.61,0:27:38.73,Chinese,,0,0,0,,和老家都联系不上了\N{\c&H00F8FB&\fnArial\fs14}they have lost touch with everyone.
+Dialogue: 0,0:27:38.76,0:27:39.66,Chinese,,0,0,0,,圣诞快乐\N{\c&H00F8FB&\fnArial\fs14}Happy Christmas.
+Dialogue: 0,0:27:39.70,0:27:40.43,Chinese,,0,0,0,,你好\N{\c&H00F8FB&\fnArial\fs14}How are you?
+Dialogue: 0,0:27:40.45,0:27:42.08,Chinese,,0,0,0,,- 圣诞快乐 - 谢谢\N{\c&H00F8FB&\fnArial\fs14}- Merry Christmas. - Thank you.
+Dialogue: 0,0:27:42.31,0:27:44.74,Chinese,,0,0,0,,就是他们这些人\N{\c&H00F8FB&\fnArial\fs14}These are the men who built ...
+Dialogue: 0,0:27:44.77,0:27:47.17,Chinese,,0,0,0,,造了隧道 大桥 公路\N{\c&H00F8FB&\fnArial\fs14}the tunnels, the bridges, the highways.
+Dialogue: 0,0:27:47.90,0:27:50.61,Chinese,,0,0,0,,没人知道他们现在靠什么生存\N{\c&H00F8FB&\fnArial\fs14}God alone knows what they live on now.
+Dialogue: 0,0:28:11.89,0:28:14.14,Chinese,,0,0,0,,不好意思要打扰下大家\N{\c&H00F8FB&\fnArial\fs14}I don't want to interrupt the proceedings,
+Dialogue: 0,0:28:14.17,0:28:17.51,Chinese,,0,0,0,,不过我相信大家都想谢谢\N{\c&H00F8FB&\fnArial\fs14}but I'm sure you'd all like to show your appreciation
+Dialogue: 0,0:28:17.53,0:28:20.04,Chinese,,0,0,0,,辛苦了一整天的女士们\N{\c&H00F8FB&\fnArial\fs14}to all the ladies here for their hard day's work.
+Dialogue: 0,0:28:20.07,0:28:21.66,Chinese,,0,0,0,,为表谢意\N{\c&H00F8FB&\fnArial\fs14}And by way of a thank you,
+Dialogue: 0,0:28:21.68,0:28:24.08,Chinese,,0,0,0,,有位非常棒的歌手要为我们献上一曲\N{\c&H00F8FB&\fnArial\fs14}we have a great singer in the room with us today.
+Dialogue: 0,0:28:24.18,0:28:25.34,Chinese,,0,0,0,,有请弗兰基\N{\c&H00F8FB&\fnArial\fs14}Frankie.
+Dialogue: 0,0:30:31.24,0:30:33.92,Chinese,,0,0,0,,来客厅喝一杯吧\N{\c&H00F8FB&\fnArial\fs14}Would you like to come into the front room for a glass of something?
+Dialogue: 0,0:30:34.25,0:30:35.62,Chinese,,0,0,0,,你应得的\N{\c&H00F8FB&\fnArial\fs14}You've earned it.
+Dialogue: 0,0:30:37.65,0:30:42.45,Chinese,,0,0,0,,- 你挺过来了 - 嗨 也没那么糟啦\N{\c&H00F8FB&\fnArial\fs14}- You survived! - Oh it wasn't so bad.
+Dialogue: 0,0:30:45.34,0:30:47.74,Chinese,,0,0,0,,- 圣诞快乐 - 干杯\N{\c&H00F8FB&\fnArial\fs14}- Happy Christmas! - Cheers.
+Dialogue: 0,0:30:52.63,0:30:55.40,Chinese,,0,0,0,,麦克亚当小姐要搬走了\N{\c&H00F8FB&\fnArial\fs14}Now Miss McAdam is leaving us.
+Dialogue: 0,0:30:55.42,0:30:57.70,Chinese,,0,0,0,,她去曼哈顿和姐姐一起住\N{\c&H00F8FB&\fnArial\fs14}She is going to live with her sister in Manhattan.
+Dialogue: 0,0:30:57.73,0:30:59.70,Chinese,,0,0,0,,她住的是最好的一间房\N{\c&H00F8FB&\fnArial\fs14}She has the best room in the house.
+Dialogue: 0,0:30:59.83,0:31:04.02,Chinese,,0,0,0,,就是地下室 那儿有独立的门\N{\c&H00F8FB&\fnArial\fs14}The basement. And it has its own entrance.
+Dialogue: 0,0:31:04.14,0:31:09.88,Chinese,,0,0,0,,我只让某类女孩住地下室\N{\c&H00F8FB&\fnArial\fs14}Now, I can only let a certain kind of girl stay there.
+Dialogue: 0,0:31:09.91,0:31:11.79,Chinese,,0,0,0,,我指的不是长相\N{\c&H00F8FB&\fnArial\fs14}Oh, and I'm not talking about looks here.
+Dialogue: 0,0:31:11.82,0:31:14.45,Chinese,,0,0,0,,尽管我承认上天给麦克亚当小姐的长相\N{\c&H00F8FB&\fnArial\fs14}Although I will admit that God did give Miss McAdam an advantage,
+Dialogue: 0,0:31:14.45,0:31:16.92,Chinese,,0,0,0,,在我考虑让谁单独住在地下室的时候成了优势\N{\c&H00F8FB&\fnArial\fs14}when I had to think about who I could trust to live down there.
+Dialogue: 0,0:31:16.94,0:31:20.85,Chinese,,0,0,0,,艾莉丝你和她不同 你是漂亮女孩 但你也明事理\N{\c&H00F8FB&\fnArial\fs14}No no, you're a pretty girl Eilis. But you're sensible.
+Dialogue: 0,0:31:21.28,0:31:23.92,Chinese,,0,0,0,,所以地下室给你住 就这么定了\N{\c&H00F8FB&\fnArial\fs14}So, you're having the room and that's that.
+Dialogue: 0,0:31:24.33,0:31:25.92,Chinese,,0,0,0,,其他女孩不会有意见吗\N{\c&H00F8FB&\fnArial\fs14}Would the other girls not mind?
+Dialogue: 0,0:31:25.95,0:31:29.00,Chinese,,0,0,0,,她们肯定有意见 不过她们对什么没意见呢\N{\c&H00F8FB&\fnArial\fs14}Oh, I expect so. What don't they mind?
+Dialogue: 0,0:31:35.04,0:31:37.93,Chinese,,0,0,0,,姑娘们 你们会带桃乐丝去周六晚上的舞会吧\N{\c&H00F8FB&\fnArial\fs14}Girls, you'll take Dolores to dance with you on Saturday night, won't you?
+Dialogue: 0,0:31:37.96,0:31:38.93,Chinese,,0,0,0,,有舞会吗\N{\c&H00F8FB&\fnArial\fs14}There's a dance?
+Dialogue: 0,0:31:38.95,0:31:40.24,Chinese,,0,0,0,,在教区礼堂\N{\c&H00F8FB&\fnArial\fs14}At the parish hall.
+Dialogue: 0,0:31:40.26,0:31:42.80,Chinese,,0,0,0,,不提供酒精饮料 不过你不需要那东西也能玩的挺开心\N{\c&H00F8FB&\fnArial\fs14}There'll be no alcohol, but you can have fun without it.
+Dialogue: 0,0:31:43.64,0:31:46.84,Chinese,,0,0,0,,帕蒂和我这周不去跳舞\N{\c&H00F8FB&\fnArial\fs14}Umm, Patty and I aren't going this week.
+Dialogue: 0,0:31:48.18,0:31:49.88,Chinese,,0,0,0,,我们去看电影\N{\c&H00F8FB&\fnArial\fs14}We're going to see a movie instead.
+Dialogue: 0,0:31:50.12,0:31:52.57,Chinese,,0,0,0,,看电影桃乐丝肯定也乐意吧\N{\c&H00F8FB&\fnArial\fs14}Well, I'm sure Dolores would enjoy a movie just as well.
+Dialogue: 0,0:31:52.59,0:31:54.36,Chinese,,0,0,0,,我很喜欢的\N{\c&H00F8FB&\fnArial\fs14}I would, very much.
+Dialogue: 0,0:31:54.39,0:31:57.27,Chinese,,0,0,0,,纽约的电影比卡文那儿多多了\N{\c&H00F8FB&\fnArial\fs14}There are so many more movies here in New York than in Cavan.
+Dialogue: 0,0:31:57.30,0:32:00.22,Chinese,,0,0,0,,是啊 完全没想到 本以为该是完全相反呢\N{\c&H00F8FB&\fnArial\fs14}Yes, surprising, isn't it? You'd think it would be the other way around.
+Dialogue: 0,0:32:03.74,0:32:06.61,Chinese,,0,0,0,,欢迎你和我们一起去看 桃乐丝\N{\c&H00F8FB&\fnArial\fs14}Of course, you'd be welcome to join us, Dolores.
+Dialogue: 0,0:32:06.84,0:32:08.83,Chinese,,0,0,0,,只要你不介意当电灯泡\N{\c&H00F8FB&\fnArial\fs14}So long as you don't mind being a gooseberry.
+Dialogue: 0,0:32:09.05,0:32:13.02,Chinese,,0,0,0,,这么说你俩都在几天里奇迹般地找到男朋友了对吧\N{\c&H00F8FB&\fnArial\fs14}So you both miraculously found boyfriends over the last couple of days, did you?
+Dialogue: 0,0:32:14.24,0:32:17.22,Chinese,,0,0,0,,我祝福你们这回不要再重蹈覆辙了\N{\c&H00F8FB&\fnArial\fs14}Well, I hope you have more luck with these than you did with the last few.
+Dialogue: 0,0:32:18.04,0:32:20.59,Chinese,,0,0,0,,- 你去舞会吗 艾莉丝 - 我会去的 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}- Will you be going, Eilis? - Yes, Mrs Kehoe.
+Dialogue: 0,0:32:20.62,0:32:22.22,Chinese,,0,0,0,,那你带着桃乐丝吧\N{\c&H00F8FB&\fnArial\fs14}Well, you can take Dolores, then.
+Dialogue: 0,0:32:22.72,0:32:23.84,Chinese,,0,0,0,,没问题\N{\c&H00F8FB&\fnArial\fs14}Of course.
+Dialogue: 0,0:32:45.59,0:32:48.79,Chinese,,0,0,0,,天哪 这儿人好少哦\N{\c&H00F8FB&\fnArial\fs14}God, there's nobody here.
+Dialogue: 0,0:32:49.01,0:32:52.20,Chinese,,0,0,0,,人都没有怎么找对象啊\N{\c&H00F8FB&\fnArial\fs14}How are we supposed to get a fella if there's nobody here?
+Dialogue: 0,0:32:52.43,0:32:54.98,Chinese,,0,0,0,,大部分人九点之后才来吧\N{\c&H00F8FB&\fnArial\fs14}I expect most people will come after nine.
+Dialogue: 0,0:32:55.00,0:32:57.10,Chinese,,0,0,0,,来人还是男人\N{\c&H00F8FB&\fnArial\fs14}People? Or fellas?
+Dialogue: 0,0:32:58.19,0:33:00.44,Chinese,,0,0,0,,总会来些男人啊\N{\c&H00F8FB&\fnArial\fs14}Some of the people will be fellas.
+Dialogue: 0,0:33:01.30,0:33:03.21,Chinese,,0,0,0,,好想认识个男人啊\N{\c&H00F8FB&\fnArial\fs14}I'd love to meet a fella.
+Dialogue: 0,0:33:05.99,0:33:08.63,Chinese,,0,0,0,,她们还是来了 两个骗子\N{\c&H00F8FB&\fnArial\fs14}They came! The liars!
+Dialogue: 0,0:33:08.65,0:33:11.10,Chinese,,0,0,0,,真是一对贱人\N{\c&H00F8FB&\fnArial\fs14}What a pair of bitches.
+Dialogue: 0,0:33:11.83,0:33:16.30,Chinese,,0,0,0,,老太婆就是这么叫她们的 她说她们都是贱人\N{\c&H00F8FB&\fnArial\fs14}That's what the old woman called them. She said they were all bitches,
+Dialogue: 0,0:33:17.59,0:33:18.97,Chinese,,0,0,0,,除了你\N{\c&H00F8FB&\fnArial\fs14}apart from you.
+Dialogue: 0,0:33:29.85,0:33:31.84,Chinese,,0,0,0,,你好啊\N{\c&H00F8FB&\fnArial\fs14}Well hello.
+Dialogue: 0,0:33:31.87,0:33:33.98,Chinese,,0,0,0,,见到你们真好\N{\c&H00F8FB&\fnArial\fs14}Hello. It's good to see you.
+Dialogue: 0,0:33:34.00,0:33:35.00,Chinese,,0,0,0,,我懂你\N{\c&H00F8FB&\fnArial\fs14}I can see why.
+Dialogue: 0,0:33:37.14,0:33:38.18,Chinese,,0,0,0,,跟我们来\N{\c&H00F8FB&\fnArial\fs14}Come with us.
+Dialogue: 0,0:33:52.67,0:33:55.37,Chinese,,0,0,0,,这样好看多了\N{\c&H00F8FB&\fnArial\fs14}There. That's better.
+Dialogue: 0,0:33:55.39,0:33:57.83,Chinese,,0,0,0,,终于不像刚挤完牛奶进屋了\N{\c&H00F8FB&\fnArial\fs14}Now you don't look like you came in from milking the cows.
+Dialogue: 0,0:33:58.20,0:33:59.62,Chinese,,0,0,0,,我以前看上去像吗\N{\c&H00F8FB&\fnArial\fs14}Is that what I looked like?
+Dialogue: 0,0:33:59.64,0:34:03.06,Chinese,,0,0,0,,有点像 挤的是干净的奶牛\N{\c&H00F8FB&\fnArial\fs14}Just a bit. Nice clean cows.
+Dialogue: 0,0:34:03.95,0:34:08.52,Chinese,,0,0,0,,一 二 三\N{\c&H00F8FB&\fnArial\fs14}1, 2, 3 ...
+Dialogue: 0,0:34:10.42,0:34:11.52,Chinese,,0,0,0,,跳的不错\N{\c&H00F8FB&\fnArial\fs14}Not bad.
+Dialogue: 0,0:34:22.41,0:34:23.92,Chinese,,0,0,0,,过一会我们再跳吧\N{\c&H00F8FB&\fnArial\fs14}Maybe we could have a dance later?
+Dialogue: 0,0:34:24.25,0:34:26.20,Chinese,,0,0,0,,- 你说什么 - 过一会再跳\N{\c&H00F8FB&\fnArial\fs14}- Sorry? - A dance later.
+Dialogue: 0,0:34:26.22,0:34:27.81,Chinese,,0,0,0,,好啊\N{\c&H00F8FB&\fnArial\fs14}Oh sure.
+Dialogue: 0,0:34:28.72,0:34:29.91,Chinese,,0,0,0,,想跳舞吗\N{\c&H00F8FB&\fnArial\fs14}Would you like to dance?
+Dialogue: 0,0:34:42.59,0:34:45.94,Chinese,,0,0,0,,你和那个教你跳舞的男的一起的吗\N{\c&H00F8FB&\fnArial\fs14}Are you here with that guy? The one who was teaching you to dance?
+Dialogue: 0,0:34:45.97,0:34:47.47,Chinese,,0,0,0,,不是\N{\c&H00F8FB&\fnArial\fs14}No.
+Dialogue: 0,0:34:47.50,0:34:48.87,Chinese,,0,0,0,,那你能和我跳舞吗\N{\c&H00F8FB&\fnArial\fs14}So would you dance with me?
+Dialogue: 0,0:34:49.49,0:34:51.78,Chinese,,0,0,0,,他没教会我啥\N{\c&H00F8FB&\fnArial\fs14}I'm not sure he taught me anything.
+Dialogue: 0,0:34:51.80,0:34:55.21,Chinese,,0,0,0,,没关系 跳舞的秘诀是要装作很会跳的样子\N{\c&H00F8FB&\fnArial\fs14}Doesn't matter. The secret is to look as though you know what you're doing.
+Dialogue: 0,0:34:55.23,0:34:57.97,Chinese,,0,0,0,,哦 真希望有人早点告诉我\N{\c&H00F8FB&\fnArial\fs14}Ah. I wish someone had told me that years ago.
+Dialogue: 0,0:35:00.12,0:35:01.23,Chinese,,0,0,0,,来吧\N{\c&H00F8FB&\fnArial\fs14}Come on.
+Dialogue: 0,0:35:33.80,0:35:38.37,Chinese,,0,0,0,,- 你住哪儿 - 克林顿大街\N{\c&H00F8FB&\fnArial\fs14}- Where do you live? - Clinton Street.
+Dialogue: 0,0:35:38.69,0:35:41.66,Chinese,,0,0,0,,真的吗 和我同路\N{\c&H00F8FB&\fnArial\fs14}Yeah? That's on my way home.
+Dialogue: 0,0:35:43.45,0:35:44.90,Chinese,,0,0,0,,能陪你走回家吗\N{\c&H00F8FB&\fnArial\fs14}Can I walk you?
+Dialogue: 0,0:35:46.00,0:35:49.17,Chinese,,0,0,0,,我会先答应你 然后告诉你原因\N{\c&H00F8FB&\fnArial\fs14}I'm going to say yes, and then I'm going to tell you why.
+Dialogue: 0,0:35:49.19,0:35:51.23,Chinese,,0,0,0,,为了不让我误解你的意思吗\N{\c&H00F8FB&\fnArial\fs14}So I don't get the wrong idea?
+Dialogue: 0,0:35:51.25,0:35:52.49,Chinese,,0,0,0,,算是吧\N{\c&H00F8FB&\fnArial\fs14}I suppose so.
+Dialogue: 0,0:35:53.29,0:35:56.31,Chinese,,0,0,0,,有没有一个穿白衣的姑娘\N{\c&H00F8FB&\fnArial\fs14}Is there a girl in a white shirt
+Dialogue: 0,0:35:56.33,0:35:57.85,Chinese,,0,0,0,,独自坐在那里\N{\c&H00F8FB&\fnArial\fs14}sitting on her own over there?
+Dialogue: 0,0:36:01.99,0:36:03.54,Chinese,,0,0,0,,你不会认识她吧\N{\c&H00F8FB&\fnArial\fs14}You don't know her?
+Dialogue: 0,0:36:03.56,0:36:05.02,Chinese,,0,0,0,,我认识\N{\c&H00F8FB&\fnArial\fs14}I do.
+Dialogue: 0,0:36:05.54,0:36:08.68,Chinese,,0,0,0,,我们住在同一个寄宿家庭 她很烦人\N{\c&H00F8FB&\fnArial\fs14}She lives in my boarding house, and she's awful.
+Dialogue: 0,0:36:08.80,0:36:11.26,Chinese,,0,0,0,,如果我跟你一起走了 我相信她会理解我的\N{\c&H00F8FB&\fnArial\fs14}If I leave with you, I'm sure she'd understand.
+Dialogue: 0,0:36:11.26,0:36:12.43,Chinese,,0,0,0,,你这是在救我\N{\c&H00F8FB&\fnArial\fs14}You'd be rescuing me.
+Dialogue: 0,0:36:12.76,0:36:14.13,Chinese,,0,0,0,,我知道了\N{\c&H00F8FB&\fnArial\fs14}I get it.
+Dialogue: 0,0:36:35.42,0:36:39.30,Chinese,,0,0,0,,- 我不是爱尔兰人 - 听口音就不是\N{\c&H00F8FB&\fnArial\fs14}- I'm not Irish. - You don't sound Irish.
+Dialogue: 0,0:36:41.13,0:36:45.88,Chinese,,0,0,0,,我得声明一下 我没有半点爱尔兰血统\N{\c&H00F8FB&\fnArial\fs14}I need to make this clear. No part of me is Irish.
+Dialogue: 0,0:36:45.90,0:36:49.01,Chinese,,0,0,0,,我父母不是爱尔兰人 祖父母也不是 也没有爱尔兰亲戚\N{\c&H00F8FB&\fnArial\fs14}I don't have Irish parents or grandparents or anything.
+Dialogue: 0,0:36:49.13,0:36:52.59,Chinese,,0,0,0,,我是意大利后裔 我爸妈都是意大利人\N{\c&H00F8FB&\fnArial\fs14}I'm an Italian. Well, my my parents are, anyway.
+Dialogue: 0,0:36:52.61,0:36:54.51,Chinese,,0,0,0,,那你为什么跑来爱尔兰人的舞会\N{\c&H00F8FB&\fnArial\fs14}So what were you doing at an Irish dance?
+Dialogue: 0,0:36:54.54,0:36:56.46,Chinese,,0,0,0,,意大利人不跳舞吗\N{\c&H00F8FB&\fnArial\fs14}Don't the Italians have dances?
+Dialogue: 0,0:36:56.49,0:36:58.99,Chinese,,0,0,0,,跳啊 可我不想带你去意大利人的舞会\N{\c&H00F8FB&\fnArial\fs14}Yeah. And I wouldn't want to take you to one.
+Dialogue: 0,0:36:59.02,0:37:01.08,Chinese,,0,0,0,,他们表现得太意式风格了\N{\c&H00F8FB&\fnArial\fs14}They behave like Italians all night.
+Dialogue: 0,0:37:01.10,0:37:02.25,Chinese,,0,0,0,,什么意思\N{\c&H00F8FB&\fnArial\fs14}What does that mean?
+Dialogue: 0,0:37:02.37,0:37:04.70,Chinese,,0,0,0,,- 噢 你懂的     -不懂\N{\c&H00F8FB&\fnArial\fs14}- Oh, you know. - No.
+Dialogue: 0,0:37:05.88,0:37:08.69,Chinese,,0,0,0,,-他们的手势 - 太多了吗\N{\c&H00F8FB&\fnArial\fs14}- Hands. - Too many of them?
+Dialogue: 0,0:37:08.69,0:37:11.74,Chinese,,0,0,0,,对于一个女孩子来说 我想是的\N{\c&H00F8FB&\fnArial\fs14}Oh,my. I guess it could seem that way, if it was a girl.
+Dialogue: 0,0:37:12.07,0:37:13.27,Chinese,,0,0,0,,听着\N{\c&H00F8FB&\fnArial\fs14}Listen
+Dialogue: 0,0:37:15.87,0:37:17.83,Chinese,,0,0,0,,我想开诚布公地告诉你\N{\c&H00F8FB&\fnArial\fs14}I want everything out in the open.
+Dialogue: 0,0:37:17.86,0:37:24.93,Chinese,,0,0,0,,我参加爱尔兰人的舞会 是因为我真心喜欢爱尔兰姑娘\N{\c&H00F8FB&\fnArial\fs14}I came to the Irish dance because I really like Irish girls.
+Dialogue: 0,0:37:25.91,0:37:27.97,Chinese,,0,0,0,,而我是当中唯一肯跟你跳舞的吗\N{\c&H00F8FB&\fnArial\fs14}And I was the only one who would dance with you?
+Dialogue: 0,0:37:28.00,0:37:29.51,Chinese,,0,0,0,,噢 不是这样的\N{\c&H00F8FB&\fnArial\fs14}Oh, no, it wasn't...
+Dialogue: 0,0:37:29.53,0:37:31.61,Chinese,,0,0,0,,是吗 那你跟很多姑娘都跳过舞咯\N{\c&H00F8FB&\fnArial\fs14}Oh, so you danced with loads of others?
+Dialogue: 0,0:37:41.38,0:37:42.68,Chinese,,0,0,0,,我到了\N{\c&H00F8FB&\fnArial\fs14}This is me.
+Dialogue: 0,0:37:45.60,0:37:49.41,Chinese,,0,0,0,,下周我能来接你去舞会吗 先去吃点东西好吗\N{\c&H00F8FB&\fnArial\fs14}Can I take you next week? Maybe get something to eat first?
+Dialogue: 0,0:37:51.58,0:37:52.99,Chinese,,0,0,0,,行啊\N{\c&H00F8FB&\fnArial\fs14}That'd be nice.
+Dialogue: 0,0:37:54.93,0:37:56.08,Chinese,,0,0,0,,晚安\N{\c&H00F8FB&\fnArial\fs14}Good night.
+Dialogue: 0,0:38:09.20,0:38:10.22,Chinese,,0,0,0,,您的餐\N{\c&H00F8FB&\fnArial\fs14}There you go.
+Dialogue: 0,0:38:15.63,0:38:21.04,Chinese,,0,0,0,,你不工作的时候做什么\N{\c&H00F8FB&\fnArial\fs14}So...What do you do when you're not working?
+Dialogue: 0,0:38:22.63,0:38:27.94,Chinese,,0,0,0,,嗯 我上课 在布鲁克林大学\N{\c&H00F8FB&\fnArial\fs14}Well. There's school. Just, you know...Brooklyn College.
+Dialogue: 0,0:38:27.96,0:38:29.87,Chinese,,0,0,0,,我在学记账\N{\c&H00F8FB&\fnArial\fs14}I'm studying book-keeping.
+Dialogue: 0,0:38:29.90,0:38:31.41,Chinese,,0,0,0,,你想当簿记员吗\N{\c&H00F8FB&\fnArial\fs14}You want to be a book-keeper?
+Dialogue: 0,0:38:32.04,0:38:36.45,Chinese,,0,0,0,,嗯 有朝一日我想当一个会计 不过 先做好簿记员吧\N{\c&H00F8FB&\fnArial\fs14}Well, I want to be an accountant one day. But, yes, book-keeping first.
+Dialogue: 0,0:38:36.47,0:38:40.03,Chinese,,0,0,0,,哇 难吗\N{\c&H00F8FB&\fnArial\fs14}Wow. Is that difficult?
+Dialogue: 0,0:38:41.08,0:38:44.04,Chinese,,0,0,0,,我说得够多了 跟我说说你修管道的工作吧\N{\c&H00F8FB&\fnArial\fs14}I'm talking too much. Tell me about plumbing.
+Dialogue: 0,0:38:44.06,0:38:46.95,Chinese,,0,0,0,,-修管道的事情你已经知道的够多了 -我什么都不懂\N{\c&H00F8FB&\fnArial\fs14}- You know enough about plumbing already. - I don't know anything.
+Dialogue: 0,0:38:48.50,0:38:52.50,Chinese,,0,0,0,,你只要知道水龙头会渗水 厕所会堵塞\N{\c&H00F8FB&\fnArial\fs14}You know that taps drip and toilets get blocked
+Dialogue: 0,0:38:52.52,0:38:54.33,Chinese,,0,0,0,,这样就够了\N{\c&H00F8FB&\fnArial\fs14}and that's all you need to know.
+Dialogue: 0,0:38:54.35,0:38:56.44,Chinese,,0,0,0,,我对记账一无所知\N{\c&H00F8FB&\fnArial\fs14}I don't know anything about book-keeping.
+Dialogue: 0,0:39:00.61,0:39:02.84,Chinese,,0,0,0,,好吧 说起来挺复杂的\N{\c&H00F8FB&\fnArial\fs14}Well.There's a lot to it.
+Dialogue: 0,0:39:02.86,0:39:03.85,Chinese,,0,0,0,,当然有很多数学\N{\c&H00F8FB&\fnArial\fs14}There's all the maths, of course,
+Dialogue: 0,0:39:03.89,0:39:05.71,Chinese,,0,0,0,,但不太复杂\N{\c&H00F8FB&\fnArial\fs14}but that's not so complicated.
+Dialogue: 0,0:39:05.73,0:39:08.47,Chinese,,0,0,0,,复式记账法要花好些时间去掌握\N{\c&H00F8FB&\fnArial\fs14}The double entry system, that takes a while to get used to.
+Dialogue: 0,0:39:08.50,0:39:11.94,Chinese,,0,0,0,,我们还要学公司法 这门课最让我头疼\N{\c&H00F8FB&\fnArial\fs14}And we study company law, too, and that terrifies me.
+Dialogue: 0,0:39:11.97,0:39:15.89,Chinese,,0,0,0,,我们要阅读一家在三十年代破产的保险公司的相关信息\N{\c&H00F8FB&\fnArial\fs14}So we had to read about an insurance company that went bankrupt in the 1930s,
+Dialogue: 0,0:39:15.89,0:39:18.15,Chinese,,0,0,0,,学习涉及的相关法律问题\N{\c&H00F8FB&\fnArial\fs14}and all the the legal issues that went along with that...
+Dialogue: 0,0:39:18.18,0:39:20.53,Chinese,,0,0,0,,她会打高尔夫 打得非常好\N{\c&H00F8FB&\fnArial\fs14}She plays golf, and she's really good at it.
+Dialogue: 0,0:39:20.55,0:39:23.04,Chinese,,0,0,0,,如果她去了上周六的舞会\N{\c&H00F8FB&\fnArial\fs14}And if she'd been at the dance last Saturday,then...
+Dialogue: 0,0:39:23.05,0:39:26.67,Chinese,,0,0,0,,你不会多看我一眼 因为露丝太美了\N{\c&H00F8FB&\fnArial\fs14}I don't think you'd have looked at me twice, because Rose is beautiful.
+Dialogue: 0,0:39:28.87,0:39:31.03,Chinese,,0,0,0,,我有点担心 你的菜都没有动\N{\c&H00F8FB&\fnArial\fs14}I'm worried you haven't eaten anything.
+Dialogue: 0,0:39:32.85,0:39:34.24,Chinese,,0,0,0,,光顾着说话了\N{\c&H00F8FB&\fnArial\fs14}Too busy talking.
+Dialogue: 0,0:39:42.88,0:39:45.57,Chinese,,0,0,0,,你们两个丫头今天又是哪出\N{\c&H00F8FB&\fnArial\fs14}What is the matter with you girls now?
+Dialogue: 0,0:39:45.59,0:39:47.34,Chinese,,0,0,0,,有问题的不是我俩 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}Nothing is matter with us, Mrs Kehoe.
+Dialogue: 0,0:39:47.36,0:39:50.08,Chinese,,0,0,0,,是不是因为艾莉丝找了个男友\N{\c&H00F8FB&\fnArial\fs14}Is this all because Eilis has found herself a young man?
+Dialogue: 0,0:39:50.11,0:39:51.79,Chinese,,0,0,0,,艾莉丝的男友吗\N{\c&H00F8FB&\fnArial\fs14}Eilis'  young man?
+Dialogue: 0,0:39:51.81,0:39:54.75,Chinese,,0,0,0,,我们不知道 她对此事只字不提\N{\c&H00F8FB&\fnArial\fs14}We didn't know. She won't say anything about it.
+Dialogue: 0,0:39:54.77,0:39:58.20,Chinese,,0,0,0,,她干嘛要对你们这些爱传八卦的家伙提起呢\N{\c&H00F8FB&\fnArial\fs14}And why should she, to you awful gossip-mongers?
+Dialogue: 0,0:39:59.12,0:40:01.07,Chinese,,0,0,0,,反正我在周六晚上遇到了这个小伙子\N{\c&H00F8FB&\fnArial\fs14}Anyway, I met him on Saturday night ...
+Dialogue: 0,0:40:01.10,0:40:03.88,Chinese,,0,0,0,,那会他来找艾莉丝 他是个绅士\N{\c&H00F8FB&\fnArial\fs14}when he called for Eilis, and he is a gentleman.
+Dialogue: 0,0:40:03.91,0:40:06.16,Chinese,,0,0,0,,凯赫夫人 快给我们多讲讲他\N{\c&H00F8FB&\fnArial\fs14}Will you tell us what you know about him, Mrs Kehoe?
+Dialogue: 0,0:40:06.18,0:40:07.71,Chinese,,0,0,0,,我们知道他长得挺帅\N{\c&H00F8FB&\fnArial\fs14}We know he's quite nice-looking.
+Dialogue: 0,0:40:07.71,0:40:09.33,Chinese,,0,0,0,,我不太喜欢他穿的鞋\N{\c&H00F8FB&\fnArial\fs14}I didn't like his shoes much.
+Dialogue: 0,0:40:09.85,0:40:12.23,Chinese,,0,0,0,,他的鞋怎么了\N{\c&H00F8FB&\fnArial\fs14}What on earth is wrong with the shoes?
+Dialogue: 0,0:40:12.26,0:40:13.85,Chinese,,0,0,0,,颜色很滑稽\N{\c&H00F8FB&\fnArial\fs14}They were a funny color.
+Dialogue: 0,0:40:14.97,0:40:16.29,Chinese,,0,0,0,,我跟你们说\N{\c&H00F8FB&\fnArial\fs14}I'll tell you this much:
+Dialogue: 0,0:40:16.31,0:40:20.10,Chinese,,0,0,0,,我要请弗洛德神父举办一场布道训诫你们轻浮的危害\N{\c&H00F8FB&\fnArial\fs14}I am going to ask Father Flood to preach a sermon on the dangers of giddiness.
+Dialogue: 0,0:40:20.47,0:40:23.33,Chinese,,0,0,0,,我现在把轻浮看作是第八宗罪\N{\c&H00F8FB&\fnArial\fs14}I see now that giddiness is the eighth deadly sin.
+Dialogue: 0,0:40:23.36,0:40:28.83,Chinese,,0,0,0,,女人的轻浮和男人的懒惰是一样的罪恶\N{\c&H00F8FB&\fnArial\fs14}A giddy girl is every bit as evil as a slothful man,
+Dialogue: 0,0:40:28.85,0:40:31.84,Chinese,,0,0,0,,轻浮的笑声更不能容忍 立刻 不许再笑了\N{\c&H00F8FB&\fnArial\fs14}and the noise she makes is a lot worse. Now, enough.
+Dialogue: 0,0:40:42.06,0:40:43.06,Chinese,,0,0,0,,好 考虑一下\N{\c&H00F8FB&\fnArial\fs14}Yeah. Think about it. You can...
+Dialogue: 0,0:40:43.87,0:40:44.87,Chinese,,0,0,0,,好好好\N{\c&H00F8FB&\fnArial\fs14}Yeah,yeah.
+Dialogue: 0,0:40:56.11,0:40:58.11,Chinese,,0,0,0,,我只是想陪你回家\N{\c&H00F8FB&\fnArial\fs14}All I want to do is travel home with you.
+Dialogue: 0,0:40:58.11,0:41:00.72,Chinese,,0,0,0,,不去吃饭 也不去喝酒 什么都不干\N{\c&H00F8FB&\fnArial\fs14}No food, no drink, no nothing.
+Dialogue: 0,0:41:00.74,0:41:03.68,Chinese,,0,0,0,,我知道你要学习 然后好好睡一会儿\N{\c&H00F8FB&\fnArial\fs14}I know you got to study and get some sleep.
+Dialogue: 0,0:41:03.71,0:41:05.62,Chinese,,0,0,0,,我只要送你回到家 说句晚安\N{\c&H00F8FB&\fnArial\fs14}I'll take you to your house and say goodnight.
+Dialogue: 0,0:41:06.24,0:41:10.89,Chinese,,0,0,0,,不然我等不了那么久了\N{\c&H00F8FB&\fnArial\fs14}Otherwise, it's too long to wait.
+Dialogue: 0,0:41:17.51,0:41:21.96,Chinese,,0,0,0,,我想问你一件事 你听了会说 噢 太早了\N{\c&H00F8FB&\fnArial\fs14}I want to ask you something. And you're gonna say, "oh, it's too soon."
+Dialogue: 0,0:41:21.99,0:41:25.25,Chinese,,0,0,0,,我还不太了解他 我们只是见了几次\N{\c&H00F8FB&\fnArial\fs14}"I don't really know him well enough, we've only been out a couple times."
+Dialogue: 0,0:41:25.27,0:41:28.04,Chinese,,0,0,0,,我想问的不是什么坏事 只不过大部分男人都会在\N{\c&H00F8FB&\fnArial\fs14}Oh, it's nothing so bad. It is just something that most guys...
+Dialogue: 0,0:41:28.06,0:41:31.21,Chinese,,0,0,0,,请直接问吧 你这样让我紧张\N{\c&H00F8FB&\fnArial\fs14}Please just ask. You're beginning to terrify me.
+Dialogue: 0,0:41:31.23,0:41:37.21,Chinese,,0,0,0,,噢 好 你愿意哪天来我家吃饭 见见我的家人吗\N{\c&H00F8FB&\fnArial\fs14}Oh. Sure. Will you come for dinner and meet my family sometime?
+Dialogue: 0,0:41:38.73,0:41:40.09,Chinese,,0,0,0,,这就是你要问的吗\N{\c&H00F8FB&\fnArial\fs14}That's it?
+Dialogue: 0,0:41:41.29,0:41:42.45,Chinese,,0,0,0,,我愿意\N{\c&H00F8FB&\fnArial\fs14}I'd love to.
+Dialogue: 0,0:41:45.10,0:41:46.68,Chinese,,0,0,0,,你喜欢意大利菜吗\N{\c&H00F8FB&\fnArial\fs14}You like italian food?
+Dialogue: 0,0:41:46.70,0:41:48.70,Chinese,,0,0,0,,不确定 我没吃过\N{\c&H00F8FB&\fnArial\fs14}Don't know. I've never eaten it.
+Dialogue: 0,0:41:48.73,0:41:50.31,Chinese,,0,0,0,,意大利菜是世界上最棒的美食\N{\c&H00F8FB&\fnArial\fs14}It is the best food in the world.
+Dialogue: 0,0:41:50.34,0:41:51.90,Chinese,,0,0,0,,那我有什么理由不喜欢呢\N{\c&H00F8FB&\fnArial\fs14}Well, why would not I like it?
+Dialogue: 0,0:41:53.65,0:41:55.03,Chinese,,0,0,0,,你心情不错哈\N{\c&H00F8FB&\fnArial\fs14}You're in a good mood, huh?
+Dialogue: 0,0:41:56.05,0:41:57.81,Chinese,,0,0,0,,是啊 怎么了\N{\c&H00F8FB&\fnArial\fs14}Yes, why?
+Dialogue: 0,0:41:57.84,0:42:04.37,Chinese,,0,0,0,,只是 我喜欢你这个样子 我不知道怎么形容\N{\c&H00F8FB&\fnArial\fs14}It's just... I like how you're being, I don't know the word.
+Dialogue: 0,0:42:04.39,0:42:06.16,Chinese,,0,0,0,,当你对每件事都配合的时候\N{\c&H00F8FB&\fnArial\fs14}When you go along with everything.
+Dialogue: 0,0:42:07.60,0:42:08.68,Chinese,,0,0,0,,顺从\N{\c&H00F8FB&\fnArial\fs14}Amenable?
+Dialogue: 0,0:42:08.70,0:42:12.09,Chinese,,0,0,0,,是的 顺从\N{\c&H00F8FB&\fnArial\fs14}Yeah. Amenable. OK,
+Dialogue: 0,0:42:12.12,0:42:14.29,Chinese,,0,0,0,,趁着你还顺从的时候\N{\c&H00F8FB&\fnArial\fs14}so while you're being amenable..
+Dialogue: 0,0:42:14.32,0:42:17.83,Chinese,,0,0,0,,我们这周能在你没有课的晚上去看场电影吗\N{\c&H00F8FB&\fnArial\fs14}Can we go see a movie this week when you're not in night classes?
+Dialogue: 0,0:42:20.37,0:42:22.43,Chinese,,0,0,0,,我愿意看两场\N{\c&H00F8FB&\fnArial\fs14}I'll sign up for two movies.
+Dialogue: 0,0:42:22.46,0:42:24.62,Chinese,,0,0,0,,- 真的吗 - 真的\N{\c&H00F8FB&\fnArial\fs14}- Really? - Yes.
+Dialogue: 0,0:42:24.84,0:42:26.85,Chinese,,0,0,0,,就算第一次约会不顺利\N{\c&H00F8FB&\fnArial\fs14}Even if the first date is a disaster,
+Dialogue: 0,0:42:26.89,0:42:28.30,Chinese,,0,0,0,,我会再给你一次机会\N{\c&H00F8FB&\fnArial\fs14}I'll give it another chance.
+Dialogue: 0,0:42:41.40,0:42:43.10,Chinese,,0,0,0,,感觉上是这样的\N{\c&H00F8FB&\fnArial\fs14}It certainly feels like it,
+Dialogue: 0,0:42:43.10,0:42:45.38,Chinese,,0,0,0,,但这是我第一年在这上班 所以我不知道如何判断\N{\c&H00F8FB&\fnArial\fs14}but this is my first year, so I don't know how to judge.
+Dialogue: 0,0:42:45.39,0:42:48.26,Chinese,,0,0,0,,祝贺你 度过了第一个在纽约的冬天\N{\c&H00F8FB&\fnArial\fs14}Well congratulations. You survived your first New York winter.
+Dialogue: 0,0:42:48.28,0:42:49.84,Chinese,,0,0,0,,噢 并不是那么糟糕\N{\c&H00F8FB&\fnArial\fs14}Ah, it wasn't so bad.
+Dialogue: 0,0:42:49.86,0:42:51.47,Chinese,,0,0,0,,是吗 爱尔兰更冷吗\N{\c&H00F8FB&\fnArial\fs14}Really? It's colder in Ireland?
+Dialogue: 0,0:42:51.49,0:42:52.89,Chinese,,0,0,0,,噢不 这儿更冷\N{\c&H00F8FB&\fnArial\fs14}Oh no, it's colder here.
+Dialogue: 0,0:42:53.21,0:42:56.39,Chinese,,0,0,0,,我们评判冬天的标准就是看冬天有多冷\N{\c&H00F8FB&\fnArial\fs14}Over here, that's how we judge the winter. On how cold it is.
+Dialogue: 0,0:42:56.39,0:43:00.53,Chinese,,0,0,0,,可是你们有暖气 到处都是 你们只有在室外冷\N{\c&H00F8FB&\fnArial\fs14}But you have heating. Heating everywhere. You're only cold outside.
+Dialogue: 0,0:43:00.55,0:43:02.33,Chinese,,0,0,0,,倒也是\N{\c&H00F8FB&\fnArial\fs14}I guess that's true.
+Dialogue: 0,0:43:03.26,0:43:05.62,Chinese,,0,0,0,,-谢啦    -祝你一天愉快\N{\c&H00F8FB&\fnArial\fs14}- Thank you for your help. - Have a good day.
+Dialogue: 0,0:43:09.07,0:43:12.74,Chinese,,0,0,0,,艾莉丝 你跟变了个人似的\N{\c&H00F8FB&\fnArial\fs14}Eilis! You're like a different person!
+Dialogue: 0,0:43:12.76,0:43:13.80,Chinese,,0,0,0,,你怎么做到的\N{\c&H00F8FB&\fnArial\fs14}How did you do it?
+Dialogue: 0,0:43:13.80,0:43:17.09,Chinese,,0,0,0,,也许我可以把你的心得传授给下个想家的姑娘\N{\c&H00F8FB&\fnArial\fs14}Maybe I can pass some advice on to the next poor girl who feels that way.
+Dialogue: 0,0:43:17.16,0:43:19.76,Chinese,,0,0,0,,我有男友了 一个意大利人\N{\c&H00F8FB&\fnArial\fs14}I met somebody. An Italian fella.
+Dialogue: 0,0:43:19.78,0:43:22.25,Chinese,,0,0,0,,噢 不 我不会传达这样的建议的\N{\c&H00F8FB&\fnArial\fs14}Oh no. I'm not passing that on.
+Dialogue: 0,0:43:22.27,0:43:24.71,Chinese,,0,0,0,,我宁愿她们想家也不想她们失恋\N{\c&H00F8FB&\fnArial\fs14}I'd rather have them homesick than heartbroken.
+Dialogue: 0,0:43:24.89,0:43:27.69,Chinese,,0,0,0,,他常常谈论棒球吗 还是把他妈妈挂在嘴边\N{\c&H00F8FB&\fnArial\fs14}Does he talk about baseball all the time? Or his mother?
+Dialogue: 0,0:43:27.81,0:43:28.67,Chinese,,0,0,0,,没有\N{\c&H00F8FB&\fnArial\fs14}No.
+Dialogue: 0,0:43:28.67,0:43:32.73,Chinese,,0,0,0,,那得留住他 纽约再没有这样的意大利男人了\N{\c&H00F8FB&\fnArial\fs14}Then keep him. There isn't another Italian man like him in New York.
+Dialogue: 0,0:43:36.48,0:43:41.23,Chinese,,0,0,0,,打住 记着 这是容易的 因为上面还没加酱\N{\c&H00F8FB&\fnArial\fs14}Hold it. Now remember You're getting off easy, because we haven't got sauce.
+Dialogue: 0,0:43:41.23,0:43:45.65,Chinese,,0,0,0,,是的 你要记住酱汁会四处溅 所以要慢慢来\N{\c&H00F8FB&\fnArial\fs14}Yeah. You have to remember that the sauce flies everywhere, so take it slowly.
+Dialogue: 0,0:43:46.37,0:43:49.06,Chinese,,0,0,0,,每次我看到动作有问题的时候 我就说 “溅了”\N{\c&H00F8FB&\fnArial\fs14}I'm gonna say "Splash" anytime I see problems.
+Dialogue: 0,0:43:49.06,0:43:51.61,Chinese,,0,0,0,,-好主意    -我可以开始了吗\N{\c&H00F8FB&\fnArial\fs14}- Good idea. - Can I start now?
+Dialogue: 0,0:43:51.83,0:43:53.09,Chinese,,0,0,0,,-可以 -开始\N{\c&H00F8FB&\fnArial\fs14}- Yeah! - Go!
+Dialogue: 0,0:44:07.67,0:44:08.94,Chinese,,0,0,0,,溅了\N{\c&H00F8FB&\fnArial\fs14}SPLASH!
+Dialogue: 0,0:44:10.19,0:44:13.76,Chinese,,0,0,0,,你刚刚溅到他妈妈 他爸爸 还溅到墙上了\N{\c&H00F8FB&\fnArial\fs14}You just splashed his mother, and his father, and the walls...
+Dialogue: 0,0:44:13.78,0:44:15.22,Chinese,,0,0,0,,再来一次吧\N{\c&H00F8FB&\fnArial\fs14}Let's go again.
+Dialogue: 0,0:44:17.37,0:44:20.39,Chinese,,0,0,0,,亲爱的露丝 我想最重要的消息是\N{\c&H00F8FB&\fnArial\fs14}Dear Rose, I suppose the most important news
+Dialogue: 0,0:44:20.41,0:44:22.50,Chinese,,0,0,0,,我交了个男朋友\N{\c&H00F8FB&\fnArial\fs14}is that I have a boyfriend
+Dialogue: 0,0:44:23.23,0:44:25.43,Chinese,,0,0,0,,我清楚 他不如百货公司的工作重要\N{\c&H00F8FB&\fnArial\fs14}He isn't as important as Bartocci's ...
+Dialogue: 0,0:44:25.46,0:44:27.27,Chinese,,0,0,0,,也不如夜校的学习重要\N{\c&H00F8FB&\fnArial\fs14}and my evening classes, I know that.
+Dialogue: 0,0:44:27.29,0:44:29.46,Chinese,,0,0,0,,但我想告诉你这里发生的一切\N{\c&H00F8FB&\fnArial\fs14}But I wanted to tell you everything that is going on.
+Dialogue: 0,0:44:29.48,0:44:32.35,Chinese,,0,0,0,,请别跟妈妈说 你知道她会有什么反应\N{\c&H00F8FB&\fnArial\fs14}Please don't mention it to Mummy though. You know what's she like.
+Dialogue: 0,0:44:33.58,0:44:38.36,Chinese,,0,0,0,,他为人得体又友善 他有一份工作并且很努力\N{\c&H00F8FB&\fnArial\fs14}He's decent and kind, and he has a job, and he works hard.
+Dialogue: 0,0:44:38.39,0:44:40.17,Chinese,,0,0,0,,我们每周三去看电影\N{\c&H00F8FB&\fnArial\fs14}We go to the cinema on Wednesdays
+Dialogue: 0,0:44:40.17,0:44:42.89,Chinese,,0,0,0,,周六他带我去弗洛德神父的舞会\N{\c&H00F8FB&\fnArial\fs14}and he takes me to Father Flood's dance on Saturdays.
+Dialogue: 0,0:44:45.06,0:44:47.80,Chinese,,0,0,0,,我每天都想着你和妈妈\N{\c&H00F8FB&\fnArial\fs14}I think of you and mother every single day.
+Dialogue: 0,0:44:48.59,0:44:51.85,Chinese,,0,0,0,,但是托尼令我觉得我在美国有了新生活\N{\c&H00F8FB&\fnArial\fs14}But Tony has helped me to feel that I have a life here.
+Dialogue: 0,0:44:51.87,0:44:53.88,Chinese,,0,0,0,,在遇到他之前 我没有\N{\c&H00F8FB&\fnArial\fs14}I didn't have before I met him.
+Dialogue: 0,0:44:54.60,0:44:58.85,Chinese,,0,0,0,,以前 我的身体在这里 而我的生活停留在有你们的爱尔兰\N{\c&H00F8FB&\fnArial\fs14}My body was here, but my life was back in Ireland with you.
+Dialogue: 0,0:44:59.77,0:45:02.08,Chinese,,0,0,0,,现在在远隔重洋的地方开始了新生活\N{\c&H00F8FB&\fnArial\fs14}Now it's halfway across the sea.
+Dialogue: 0,0:45:02.40,0:45:04.30,Chinese,,0,0,0,,这很了不起 不是吗\N{\c&H00F8FB&\fnArial\fs14}So that's something, isn't it?
+Dialogue: 0,0:45:18.17,0:45:20.45,Chinese,,0,0,0,,对了 我得提醒你小心弗兰基\N{\c&H00F8FB&\fnArial\fs14}Oh and I’d better warned you about Frankie.
+Dialogue: 0,0:45:20.47,0:45:21.48,Chinese,,0,0,0,,最小的那个\N{\c&H00F8FB&\fnArial\fs14}He's the little one.
+Dialogue: 0,0:45:21.50,0:45:23.13,Chinese,,0,0,0,,是的 他少年老成\N{\c&H00F8FB&\fnArial\fs14}Yeah. He's eight going on eighteen.
+Dialogue: 0,0:45:23.15,0:45:25.85,Chinese,,0,0,0,,他既友善又机灵 但总是话很多\N{\c&H00F8FB&\fnArial\fs14}He's nice and he's smart, but he's been talking
+Dialogue: 0,0:45:25.87,0:45:28.39,Chinese,,0,0,0,,他有好多话要说给你听\N{\c&H00F8FB&\fnArial\fs14}and he's talking about all the things he's gonna to say to you.
+Dialogue: 0,0:45:28.41,0:45:31.16,Chinese,,0,0,0,,- 说什么呢 -不知道 可能是任何事情\N{\c&H00F8FB&\fnArial\fs14}- What sorts of things? - We don't know. Could be anything.
+Dialogue: 0,0:45:31.19,0:45:33.56,Chinese,,0,0,0,,我试了给他钱\N{\c&H00F8FB&\fnArial\fs14}I mean, I swear I tried to pay him money to
+Dialogue: 0,0:45:33.58,0:45:35.24,Chinese,,0,0,0,,让他出去跟朋友打球\N{\c&H00F8FB&\fnArial\fs14}go out and play ball with his friends.
+Dialogue: 0,0:45:35.27,0:45:36.93,Chinese,,0,0,0,,我爸也威胁他不要乱来\N{\c&H00F8FB&\fnArial\fs14}And my dad, he threatened him,
+Dialogue: 0,0:45:36.95,0:45:39.61,Chinese,,0,0,0,,可是我想他正巴望有机会制造麻烦\N{\c&H00F8FB&\fnArial\fs14}but I think he's looking forward to causing trouble
+Dialogue: 0,0:45:39.64,0:45:41.91,Chinese,,0,0,0,,这样好痛快挨顿揍\N{\c&H00F8FB&\fnArial\fs14}so much so he'll happily take a beating.
+Dialogue: 0,0:45:42.14,0:45:43.57,Chinese,,0,0,0,,这就是我家了\N{\c&H00F8FB&\fnArial\fs14}This is us here.
+Dialogue: 0,0:45:44.49,0:45:45.95,Chinese,,0,0,0,,准备好了吗\N{\c&H00F8FB&\fnArial\fs14}Ready?
+Dialogue: 0,0:46:02.01,0:46:03.83,Chinese,,0,0,0,,你在哪儿学的这么吃意面的\N{\c&H00F8FB&\fnArial\fs14}Hey, how did you learn to eat spaghetti like that?
+Dialogue: 0,0:46:05.73,0:46:07.48,Chinese,,0,0,0,,我有上课\N{\c&H00F8FB&\fnArial\fs14}I've been taking lessons.
+Dialogue: 0,0:46:07.50,0:46:10.67,Chinese,,0,0,0,,上课 在课堂上吗 有这样的课吗\N{\c&H00F8FB&\fnArial\fs14}Lessons? Like, in a class? You can do that?
+Dialogue: 0,0:46:10.89,0:46:12.17,Chinese,,0,0,0,,也许我可以教你\N{\c&H00F8FB&\fnArial\fs14}Maybe I could teach you.
+Dialogue: 0,0:46:12.19,0:46:15.62,Chinese,,0,0,0,,不 不 戴安娜 我的舍友\N{\c&H00F8FB&\fnArial\fs14}No, no. Diana, who lives in the boarding house with me...
+Dialogue: 0,0:46:15.64,0:46:19.01,Chinese,,0,0,0,,她为我做了意面 逼我学着在不弄得一团糟的情况下吃掉它\N{\c&H00F8FB&\fnArial\fs14}cooked me some spaghetti and made me try and eat it without making a mess.
+Dialogue: 0,0:46:19.33,0:46:23.05,Chinese,,0,0,0,,你们在爱尔兰吃什么 爱尔兰炖菜吗\N{\c&H00F8FB&\fnArial\fs14}So, what do you eat in Ireland? Just Irish stew?
+Dialogue: 0,0:46:23.07,0:46:24.76,Chinese,,0,0,0,,不止 我们\N{\c&H00F8FB&\fnArial\fs14}Not just. We...
+Dialogue: 0,0:46:24.79,0:46:27.49,Chinese,,0,0,0,,首先我想说我们不喜欢爱尔兰人\N{\c&H00F8FB&\fnArial\fs14}So first of all I should say that we don't like Irish people.
+Dialogue: 0,0:46:27.52,0:46:28.13,Chinese,,0,0,0,,打住 打住\N{\c&H00F8FB&\fnArial\fs14}Hey, hey ...
+Dialogue: 0,0:46:28.14,0:46:29.66,Chinese,,0,0,0,,-弗兰基 - 怎么了\N{\c&H00F8FB&\fnArial\fs14}- Frankie! - What?
+Dialogue: 0,0:46:29.98,0:46:32.18,Chinese,,0,0,0,,我们不喜欢爱尔兰人 人尽皆知的事实\N{\c&H00F8FB&\fnArial\fs14}We don't! That is a well known fact!
+Dialogue: 0,0:46:32.20,0:46:33.73,Chinese,,0,0,0,,弗兰基 为什么呢\N{\c&H00F8FB&\fnArial\fs14}Why Frankie?
+Dialogue: 0,0:46:33.75,0:46:35.87,Chinese,,0,0,0,,因为一伙爱尔兰人把毛里齐奥揍伤了\N{\c&H00F8FB&\fnArial\fs14}Because a big gang of Irish beat Maurizio up
+Dialogue: 0,0:46:35.87,0:46:37.40,Chinese,,0,0,0,,他缝了好几针\N{\c&H00F8FB&\fnArial\fs14}and he had to get stitches.
+Dialogue: 0,0:46:37.42,0:46:39.25,Chinese,,0,0,0,,但这事根本没人管\N{\c&H00F8FB&\fnArial\fs14}And because all the cops round here are Irish,
+Dialogue: 0,0:46:39.29,0:46:41.14,Chinese,,0,0,0,,因为所有的警察都是爱尔兰人\N{\c&H00F8FB&\fnArial\fs14}nobody did anything about it.
+Dialogue: 0,0:46:41.61,0:46:43.73,Chinese,,0,0,0,,这事也许有另外一面\N{\c&H00F8FB&\fnArial\fs14}There are probably two sides to it.
+Dialogue: 0,0:46:43.73,0:46:47.53,Chinese,,0,0,0,,可能我当时说了一些不该说的话 可是我现在想不起来了\N{\c&H00F8FB&\fnArial\fs14}I might have said something I shouldn't, you know, I can't remember now.
+Dialogue: 0,0:46:47.53,0:46:48.86,Chinese,,0,0,0,,不管 就是因为他们打了你\N{\c&H00F8FB&\fnArial\fs14}No, because they beat you up.
+Dialogue: 0,0:46:48.87,0:46:51.91,Chinese,,0,0,0,,无论如何 他们可能不全是爱尔兰人\N{\c&H00F8FB&\fnArial\fs14}Anyway, they probably weren't all Irish.
+Dialogue: 0,0:46:51.93,0:46:53.84,Chinese,,0,0,0,,对啊 他们只不过全是红头发 大粗腿而已\N{\c&H00F8FB&\fnArial\fs14}No. They just had red hair and big legs.
+Dialogue: 0,0:46:53.86,0:46:57.23,Chinese,,0,0,0,,给我起来 失陪一下\N{\c&H00F8FB&\fnArial\fs14}Raise up! Excuse us.
+Dialogue: 0,0:46:58.66,0:47:02.99,Chinese,,0,0,0,,我唯一能替他讲的好话就是他可能是我们之中唯一可以上大学的人\N{\c&H00F8FB&\fnArial\fs14}All I can say in his defence is that he's the only one of us who'll get a college education.
+Dialogue: 0,0:47:02.99,0:47:05.38,Chinese,,0,0,0,,前提是他能把嘴闭上\N{\c&H00F8FB&\fnArial\fs14}If he can keep his mouth shut.
+Dialogue: 0,0:47:05.71,0:47:08.91,Chinese,,0,0,0,,托尼说你在上大学\N{\c&H00F8FB&\fnArial\fs14}So, Tony tells me go to college.
+Dialogue: 0,0:47:08.94,0:47:11.39,Chinese,,0,0,0,,只是夜校而已 我想当一名簿记员\N{\c&H00F8FB&\fnArial\fs14}Oh, just night classes. I want to be a book-keeper.
+Dialogue: 0,0:47:11.41,0:47:13.12,Chinese,,0,0,0,,我喜欢现在百货商场的工作\N{\c&H00F8FB&\fnArial\fs14}I like working in the shop well enough,
+Dialogue: 0,0:47:13.15,0:47:14.82,Chinese,,0,0,0,,但我不想一辈子待在那里\N{\c&H00F8FB&\fnArial\fs14}but I don't want to be there forever.
+Dialogue: 0,0:47:15.65,0:47:16.70,Chinese,,0,0,0,,很好\N{\c&H00F8FB&\fnArial\fs14}Good.
+Dialogue: 0,0:47:17.72,0:47:22.18,Chinese,,0,0,0,,对不起 艾莉丝 我是个白痴 一个粗鲁的白痴\N{\c&H00F8FB&\fnArial\fs14}I'm sorry, Eilis. I'm an idiot.I'm a rude idiot.
+Dialogue: 0,0:47:28.61,0:47:32.02,Chinese,,0,0,0,,托尼提出过赛季开始后带你去艾比兹球场看比赛吗\N{\c&H00F8FB&\fnArial\fs14}So has Tony offered to take you to Ebbett's Field when the season starts?
+Dialogue: 0,0:47:33.78,0:47:35.04,Chinese,,0,0,0,,你喜欢棒球吗\N{\c&H00F8FB&\fnArial\fs14}You like baseball?
+Dialogue: 0,0:47:36.66,0:47:40.23,Chinese,,0,0,0,,他从没提到布鲁克林道奇队吗 一次都没有吗\N{\c&H00F8FB&\fnArial\fs14}He never mentioned the Dodgers? Not even once?
+Dialogue: 0,0:47:40.23,0:47:41.28,Chinese,,0,0,0,,托尼 你怎么了\N{\c&H00F8FB&\fnArial\fs14}Tony, what is the matter with you?
+Dialogue: 0,0:47:41.28,0:47:43.33,Chinese,,0,0,0,,你们知道为什么吗 光顾着干这个了\N{\c&H00F8FB&\fnArial\fs14}You know why? Too much of this.
+Dialogue: 0,0:47:44.46,0:47:48.50,Chinese,,0,0,0,,不管怎样 到了夏天你只能去艾比兹球场才能看到他了\N{\c&H00F8FB&\fnArial\fs14}Anyway, you'll have to go to Ebbett's Field if you want to see him in the summer.
+Dialogue: 0,0:47:48.52,0:47:50.25,Chinese,,0,0,0,,他们对你来说这么重要吗\N{\c&H00F8FB&\fnArial\fs14}They're that important to you?
+Dialogue: 0,0:47:50.27,0:47:51.42,Chinese,,0,0,0,,这么说吧\N{\c&H00F8FB&\fnArial\fs14}Put it this way.
+Dialogue: 0,0:47:51.42,0:47:55.42,Chinese,,0,0,0,,如果我们的孩子决定要支持扬基队或巨人队的话 我会很失望的\N{\c&H00F8FB&\fnArial\fs14}If our kids end up supporting the Yankees or the Giants, it would break my heart.
+Dialogue: 0,0:47:55.45,0:47:56.45,Chinese,,0,0,0,,我也是\N{\c&H00F8FB&\fnArial\fs14}Mine too.
+Dialogue: 0,0:47:59.94,0:48:02.76,Chinese,,0,0,0,,她可没在笑哦 托尼 我想已经晚了\N{\c&H00F8FB&\fnArial\fs14}She's not laughing, Tony. I think it's too late.
+Dialogue: 0,0:48:02.78,0:48:04.27,Chinese,,0,0,0,,她支持扬基队\N{\c&H00F8FB&\fnArial\fs14}She's a Yanks fan.
+Dialogue: 0,0:48:04.29,0:48:07.99,Chinese,,0,0,0,,你说什么呢 你怎么搞的\N{\c&H00F8FB&\fnArial\fs14}What are you talking about? What's wrong with you?
+Dialogue: 0,0:48:08.51,0:48:10.22,Chinese,,0,0,0,,他是扬基队球迷\N{\c&H00F8FB&\fnArial\fs14}He's a Yanks fan.
+Dialogue: 0,0:48:32.14,0:48:33.31,Chinese,,0,0,0,,我爱你\N{\c&H00F8FB&\fnArial\fs14}I love you.
+Dialogue: 0,0:48:36.83,0:48:43.93,Chinese,,0,0,0,,我... 谢谢你 今晚很开心\N{\c&H00F8FB&\fnArial\fs14}I..Thank you for the evening. It was lovely.
+Dialogue: 0,0:49:06.87,0:49:07.97,Chinese,,0,0,0,,对不起\N{\c&H00F8FB&\fnArial\fs14}Sorry!
+Dialogue: 0,0:49:10.52,0:49:11.87,Chinese,,0,0,0,,我已经用完了\N{\c&H00F8FB&\fnArial\fs14}I'd finished.
+Dialogue: 0,0:49:20.03,0:49:22.11,Chinese,,0,0,0,,希拉 问你点事情可以吗\N{\c&H00F8FB&\fnArial\fs14}Sheila can I ask you something?
+Dialogue: 0,0:49:23.97,0:49:25.61,Chinese,,0,0,0,,你为什么还没结婚\N{\c&H00F8FB&\fnArial\fs14}Why are not you married?
+Dialogue: 0,0:49:29.09,0:49:31.89,Chinese,,0,0,0,,因为我丈夫离开我 跟别人在一起了\N{\c&H00F8FB&\fnArial\fs14}Because my husband met somebody else and left me.
+Dialogue: 0,0:49:32.59,0:49:35.35,Chinese,,0,0,0,,抱歉\N{\c&H00F8FB&\fnArial\fs14}Oh I'm sorry.
+Dialogue: 0,0:49:36.90,0:49:40.26,Chinese,,0,0,0,,额 你会再结婚吗\N{\c&H00F8FB&\fnArial\fs14}And ... Well, would you get married again?
+Dialogue: 0,0:49:40.28,0:49:44.68,Chinese,,0,0,0,,- 是不是有人跟你求婚了 - 不 不算吧\N{\c&H00F8FB&\fnArial\fs14}- Has somebody asked you? - No, not really.
+Dialogue: 0,0:49:45.01,0:49:46.57,Chinese,,0,0,0,,我不会刨根问底的\N{\c&H00F8FB&\fnArial\fs14}I won't ask what that means.
+Dialogue: 0,0:49:46.96,0:49:48.05,Chinese,,0,0,0,,希拉\N{\c&H00F8FB&\fnArial\fs14}Sheila?
+Dialogue: 0,0:49:48.07,0:49:49.83,Chinese,,0,0,0,,我会再结婚吗\N{\c&H00F8FB&\fnArial\fs14}Would I get married again?
+Dialogue: 0,0:49:49.86,0:49:53.61,Chinese,,0,0,0,,不 我打算一辈子住宿舍 跟别人抢厕所\N{\c&H00F8FB&\fnArial\fs14}No. I want to be waiting outside the bathroom of my boarding-house, forever.
+Dialogue: 0,0:49:54.25,0:49:56.40,Chinese,,0,0,0,,我当然会再结婚\N{\c&H00F8FB&\fnArial\fs14}Of course, I do.
+Dialogue: 0,0:49:56.43,0:49:58.54,Chinese,,0,0,0,,为此我每周都去参加那个讨厌的舞会\N{\c&H00F8FB&\fnArial\fs14}That's why I go to that wretched dance every week.
+Dialogue: 0,0:49:58.96,0:50:01.50,Chinese,,0,0,0,,我想有自己的家\N{\c&H00F8FB&\fnArial\fs14}I want to be waiting outside my own bathroom.
+Dialogue: 0,0:50:02.50,0:50:04.74,Chinese,,0,0,0,,会有个脾气不怎么好\N{\c&H00F8FB&\fnArial\fs14}While some bad-tempered fella,
+Dialogue: 0,0:50:04.77,0:50:06.55,Chinese,,0,0,0,,耳毛都露出来的家伙\N{\c&H00F8FB&\fnArial\fs14}with hair growing out of his ears
+Dialogue: 0,0:50:06.58,0:50:08.55,Chinese,,0,0,0,,坐在马桶上看报纸\N{\c&H00F8FB&\fnArial\fs14}reads the newspaper on the toilet.
+Dialogue: 0,0:50:09.65,0:50:12.62,Chinese,,0,0,0,,那时我就会希望我能回到这里 和你聊聊天\N{\c&H00F8FB&\fnArial\fs14}And then I'll wish I was back here, talking to you.
+Dialogue: 0,0:50:31.34,0:50:32.71,Chinese,,0,0,0,,明天见\N{\c&H00F8FB&\fnArial\fs14}I'll catch you tomorrow right?
+Dialogue: 0,0:50:54.26,0:50:58.26,Chinese,,0,0,0,,艾莉丝 抱歉\N{\c&H00F8FB&\fnArial\fs14}Eilis! I'm sorry!
+Dialogue: 0,0:50:58.39,0:51:00.19,Chinese,,0,0,0,,我以为你不来了\N{\c&H00F8FB&\fnArial\fs14}I did not think you were coming.
+Dialogue: 0,0:51:00.21,0:51:02.12,Chinese,,0,0,0,,我猜到你会这么想\N{\c&H00F8FB&\fnArial\fs14}I know. I thought you were gonna think that.
+Dialogue: 0,0:51:02.15,0:51:04.29,Chinese,,0,0,0,,所以我无论如何都想赶过来\N{\c&H00F8FB&\fnArial\fs14}That's why I wanted to be here. No matter what.
+Dialogue: 0,0:51:04.71,0:51:06.20,Chinese,,0,0,0,,我想告诉你\N{\c&H00F8FB&\fnArial\fs14}I need to say something...
+Dialogue: 0,0:51:06.22,0:51:08.04,Chinese,,0,0,0,,你能不能 咱们能不能先谈点儿别的\N{\c&H00F8FB&\fnArial\fs14}Can you... Can we talk about something else ...
+Dialogue: 0,0:51:08.18,0:51:09.85,Chinese,,0,0,0,,到了凯赫夫人那儿再说\N{\c&H00F8FB&\fnArial\fs14}until we get to Ms. Kehoe?
+Dialogue: 0,0:51:09.87,0:51:11.58,Chinese,,0,0,0,,- 这不是 - 拜托\N{\c&H00F8FB&\fnArial\fs14}- It's Not ... - Please?
+Dialogue: 0,0:51:14.39,0:51:19.50,Chinese,,0,0,0,,那么 见到你的十分钟之前\N{\c&H00F8FB&\fnArial\fs14}So. Ten minutes before I'm supposed meet you ...
+Dialogue: 0,0:51:19.52,0:51:23.18,Chinese,,0,0,0,,我还站在从老奶奶的天花板渗出来脚踝深的脏水里\N{\c&H00F8FB&\fnArial\fs14}and I'm standing ankle-deep in sewage that's pouring through this old lady's ceiling.
+Dialogue: 0,0:51:23.37,0:51:27.35,Chinese,,0,0,0,,所以 就算你想请我回家喝咖啡\N{\c&H00F8FB&\fnArial\fs14}Yes. Even if you were thinking of inviting me in for a coffee.
+Dialogue: 0,0:51:27.38,0:51:29.03,Chinese,,0,0,0,,我也得拒绝 为了你好\N{\c&H00F8FB&\fnArial\fs14}I would have to say no, for your sake.
+Dialogue: 0,0:51:29.35,0:51:31.49,Chinese,,0,0,0,,所以你怎么在十分钟里修好它的\N{\c&H00F8FB&\fnArial\fs14}So how did you fix it in ten minutes?
+Dialogue: 0,0:51:31.52,0:51:34.04,Chinese,,0,0,0,,我没有 那十分钟我都在跟老奶奶解释\N{\c&H00F8FB&\fnArial\fs14}I didn't. I spent the whole ten minutes explaining to the old lady
+Dialogue: 0,0:51:34.06,0:51:35.82,Chinese,,0,0,0,,我得去个地方 然后我再回来\N{\c&H00F8FB&\fnArial\fs14}that I had to be somewhere and I'd be back.
+Dialogue: 0,0:51:36.04,0:51:37.86,Chinese,,0,0,0,,她不想放我走\N{\c&H00F8FB&\fnArial\fs14}She didn't want to let me go.
+Dialogue: 0,0:51:37.88,0:51:40.57,Chinese,,0,0,0,,所以天花板还在渗脏水吗\N{\c&H00F8FB&\fnArial\fs14}So the sewage is still pouring through the ceiling?
+Dialogue: 0,0:51:40.74,0:51:45.09,Chinese,,0,0,0,,额 六英寸深和一英尺深的脏水也并没啥差别对吧\N{\c&H00F8FB&\fnArial\fs14}Oh, what's the difference between six inches of sewage and a foot?
+Dialogue: 0,0:51:46.82,0:51:51.54,Chinese,,0,0,0,,你让我说我想说的吧 我觉得你不会介意\N{\c&H00F8FB&\fnArial\fs14}Let me say what I want to say. I don't think you'll mind.
+Dialogue: 0,0:51:52.20,0:51:53.58,Chinese,,0,0,0,,好吧\N{\c&H00F8FB&\fnArial\fs14}Okay.
+Dialogue: 0,0:51:56.65,0:52:01.69,Chinese,,0,0,0,,还记得吗 在你家吃完晚饭 你告诉我你爱我\N{\c&H00F8FB&\fnArial\fs14}You remember that after I had dinner at your house, you told me you loved me.
+Dialogue: 0,0:52:04.41,0:52:06.64,Chinese,,0,0,0,,我当时不知道该说什么\N{\c&H00F8FB&\fnArial\fs14}Well, I didn't really know what to say.
+Dialogue: 0,0:52:08.68,0:52:10.50,Chinese,,0,0,0,,但我现在知道了\N{\c&H00F8FB&\fnArial\fs14}But I know what to say now.
+Dialogue: 0,0:52:12.59,0:52:17.02,Chinese,,0,0,0,,我考虑过了 我喜欢你\N{\c&H00F8FB&\fnArial\fs14}I have thought about you. And I like you,
+Dialogue: 0,0:52:17.85,0:52:22.90,Chinese,,0,0,0,,我喜欢跟你在一起 还有\N{\c&H00F8FB&\fnArial\fs14}and I like being with you and ...
+Dialogue: 0,0:52:24.84,0:52:28.18,Chinese,,0,0,0,,也许 我对你也有同样的感觉\N{\c&H00F8FB&\fnArial\fs14}Maybe, I feel the same way.
+Dialogue: 0,0:52:29.82,0:52:32.43,Chinese,,0,0,0,,所以下次你再说爱我的时候\N{\c&H00F8FB&\fnArial\fs14}So the next time you tell me you love me,
+Dialogue: 0,0:52:32.46,0:52:34.44,Chinese,,0,0,0,,如果还有下次\N{\c&H00F8FB&\fnArial\fs14}if there is a next time ...
+Dialogue: 0,0:52:36.46,0:52:38.55,Chinese,,0,0,0,,我也会说 我爱你\N{\c&H00F8FB&\fnArial\fs14}I'll say I love you too.
+Dialogue: 0,0:52:42.15,0:52:45.58,Chinese,,0,0,0,,-你是认真的吗 -是的\N{\c&H00F8FB&\fnArial\fs14}- Are you serious? - Yes.
+Dialogue: 0,0:52:48.24,0:52:51.83,Chinese,,0,0,0,,卧槽 原谅我爆粗口了 但是\N{\c&H00F8FB&\fnArial\fs14}Holy shit! Excuse my language, but...
+Dialogue: 0,0:52:52.05,0:52:55.21,Chinese,,0,0,0,,我还以为你要谈别的\N{\c&H00F8FB&\fnArial\fs14}I thought we were having a different kind of talk.
+Dialogue: 0,0:52:55.83,0:52:57.68,Chinese,,0,0,0,,我可以回家了吧\N{\c&H00F8FB&\fnArial\fs14}Can I go home now?
+Dialogue: 0,0:52:57.71,0:53:00.00,Chinese,,0,0,0,,-你爱我吗 -是的\N{\c&H00F8FB&\fnArial\fs14}- You love Me? - Yes.
+Dialogue: 0,0:53:00.33,0:53:01.84,Chinese,,0,0,0,,但是别再问我其他问题了\N{\c&H00F8FB&\fnArial\fs14}But don't ask me anything else,
+Dialogue: 0,0:53:01.84,0:53:04.24,Chinese,,0,0,0,,也别提什么咱们的孩子会变成道奇队的粉丝\N{\c&H00F8FB&\fnArial\fs14}and don't talk about our kids being Dodgers fans.
+Dialogue: 0,0:53:04.26,0:53:06.43,Chinese,,0,0,0,,你是想让孩子喜欢洋基队吗\N{\c&H00F8FB&\fnArial\fs14}Oh what? You want kids who like the Yankees?
+Dialogue: 0,0:53:06.45,0:53:08.73,Chinese,,0,0,0,,托尼 拜托 别逼我\N{\c&H00F8FB&\fnArial\fs14}Tony, please don't push me.
+Dialogue: 0,0:53:08.76,0:53:10.21,Chinese,,0,0,0,,好吧 我道歉\N{\c&H00F8FB&\fnArial\fs14}All right. I'm sorry.
+Dialogue: 0,0:53:12.54,0:53:14.24,Chinese,,0,0,0,,亲爱的艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Dear Eilis,
+Dialogue: 0,0:53:14.26,0:53:16.56,Chinese,,0,0,0,,非常谢谢你的尼龙袜\N{\c&H00F8FB&\fnArial\fs14}Thank you so much for the nylons.
+Dialogue: 0,0:53:16.58,0:53:19.99,Chinese,,0,0,0,,巴尔托奇的包装纸让它们看上去格外漂亮\N{\c&H00F8FB&\fnArial\fs14}The Bartocci wrapping paper makes them look so glamorous.
+Dialogue: 0,0:53:21.22,0:53:25.00,Chinese,,0,0,0,,似乎跟这边比起来 任何事物都很新奇 令人兴奋\N{\c&H00F8FB&\fnArial\fs14}It seems everything is so exciting and new compared to here.
+Dialogue: 0,0:53:26.01,0:53:28.95,Chinese,,0,0,0,,我迫切地期待 有一天你能带我见识这一切\N{\c&H00F8FB&\fnArial\fs14}I can't wait for you to show it all to me one day.
+Dialogue: 0,0:53:33.02,0:53:38.27,Chinese,,0,0,0,,艾莉丝 你知道我的心与你同在 即使我不在你身边\N{\c&H00F8FB&\fnArial\fs14}Oh Eilis, you know I'm by your side, even when I'm not.
+Dialogue: 0,0:54:00.50,0:54:07.23,Chinese,,0,0,0,,你真不可思议 我必须这么说\N{\c&H00F8FB&\fnArial\fs14}Well. You're marvelous, that's all I have to say.
+Dialogue: 0,0:54:07.60,0:54:10.60,Chinese,,0,0,0,,而且在我看来你的考试不止是通过了\N{\c&H00F8FB&\fnArial\fs14}And it looks to me as if you didn't just pass those exams.
+Dialogue: 0,0:54:11.77,0:54:14.12,Chinese,,0,0,0,,你是轻松通过\N{\c&H00F8FB&\fnArial\fs14}You, you flew through them.
+Dialogue: 0,0:54:14.14,0:54:17.19,Chinese,,0,0,0,,我已经记不得上次有人来这儿报喜是什么时候了\N{\c&H00F8FB&\fnArial\fs14}I can't remember the last time anyone came here with good news.
+Dialogue: 0,0:54:17.41,0:54:19.24,Chinese,,0,0,0,,我攒了一些钱\N{\c&H00F8FB&\fnArial\fs14}I've saved some money.
+Dialogue: 0,0:54:19.27,0:54:22.31,Chinese,,0,0,0,,交得起下一年的学费 还能还给你上年的\N{\c&H00F8FB&\fnArial\fs14}I'll be able to pay for next year's tuition and pay you back for last year.
+Dialogue: 0,0:54:22.33,0:54:24.11,Chinese,,0,0,0,,我教区的某个人已经替你交了\N{\c&H00F8FB&\fnArial\fs14}One of my parishioners paid.
+Dialogue: 0,0:54:24.14,0:54:27.73,Chinese,,0,0,0,,他需要造福人类 我不会告诉你原因的\N{\c&H00F8FB&\fnArial\fs14}He needed to do something for mankind, and I won't tell you why.
+Dialogue: 0,0:54:27.76,0:54:28.88,Chinese,,0,0,0,,他自己也还没走出迷林\N{\c&H00F8FB&\fnArial\fs14}He is not out of the woods yet, either.
+Dialogue: 0,0:54:28.92,0:54:30.59,Chinese,,0,0,0,,所以他可以为你下一年出学费\N{\c&H00F8FB&\fnArial\fs14}so he can cough up for next year, too.
+Dialogue: 0,0:54:30.62,0:54:32.65,Chinese,,0,0,0,,我想知道他被困在什么样的迷林\N{\c&H00F8FB&\fnArial\fs14}I'd love to know what sort of woods he's in.
+Dialogue: 0,0:54:32.68,0:54:34.71,Chinese,,0,0,0,,我知道你想 但不会从我这里知道\N{\c&H00F8FB&\fnArial\fs14}Yes, I'm sure you would, but you won't hear it from me.
+Dialogue: 0,0:54:36.34,0:54:39.55,Chinese,,0,0,0,,学业有成 还告别了单身 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Qualifications and a boyfriend, Eilis.
+Dialogue: 0,0:54:39.58,0:54:42.47,Chinese,,0,0,0,,你已经不是去年冬天那个想回家的悲催小姑娘\N{\c&H00F8FB&\fnArial\fs14}You're not the miserable young girl who wanted to go home last winter.
+Dialogue: 0,0:54:42.79,0:54:44.91,Chinese,,0,0,0,,那些事听上去真遥远\N{\c&H00F8FB&\fnArial\fs14}Seems like years ago.
+Dialogue: 0,0:54:45.03,0:54:49.64,Chinese,,0,0,0,,我认为这是第一次\N{\c&H00F8FB&\fnArial\fs14}Now, I think this is the first time ...
+Dialogue: 0,0:54:49.66,0:54:51.50,Chinese,,0,0,0,,住在这儿的姑娘们中\N{\c&H00F8FB&\fnArial\fs14}any girl of mine
+Dialogue: 0,0:54:51.54,0:54:54.66,Chinese,,0,0,0,,有人破天荒通过了考试\N{\c&H00F8FB&\fnArial\fs14}has ever passed an exam, while living here.
+Dialogue: 0,0:54:57.63,0:54:59.70,Chinese,,0,0,0,,你告诉托尼了吗 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Have you told Tony yet, Eilis?
+Dialogue: 0,0:54:59.73,0:55:00.53,Chinese,,0,0,0,,当然\N{\c&H00F8FB&\fnArial\fs14}Of course.
+Dialogue: 0,0:55:00.55,0:55:01.85,Chinese,,0,0,0,,他准备带你出去庆祝吗\N{\c&H00F8FB&\fnArial\fs14}And is he taking you out to celebrate?
+Dialogue: 0,0:55:01.87,0:55:03.84,Chinese,,0,0,0,,我们周末会去科尼岛\N{\c&H00F8FB&\fnArial\fs14}We're going to Coney Island at the weekend.
+Dialogue: 0,0:55:04.07,0:55:06.55,Chinese,,0,0,0,,-天哪   -怎么了\N{\c&H00F8FB&\fnArial\fs14}- Oh, boy! - What does that mean?
+Dialogue: 0,0:55:06.58,0:55:08.11,Chinese,,0,0,0,,你有没有泳衣\N{\c&H00F8FB&\fnArial\fs14}Do you have a bathing costume?
+Dialogue: 0,0:55:08.13,0:55:10.38,Chinese,,0,0,0,,- 没有 我准备去买... - 你有太阳镜吗\N{\c&H00F8FB&\fnArial\fs14}- No, I was going to get one... - Do you have sunglasses?
+Dialogue: 0,0:55:10.40,0:55:12.23,Chinese,,0,0,0,,- 没有 - 你需要太阳镜\N{\c&H00F8FB&\fnArial\fs14}- No. - You need sunglasses.
+Dialogue: 0,0:55:12.25,0:55:13.50,Chinese,,0,0,0,,我听说今年 如果你在沙滩上不戴着它\N{\c&H00F8FB&\fnArial\fs14}I read that if you don't have them on the beach this year
+Dialogue: 0,0:55:13.54,0:55:15.26,Chinese,,0,0,0,,人们就会说闲话\N{\c&H00F8FB&\fnArial\fs14}people will talk about you.
+Dialogue: 0,0:55:15.54,0:55:18.61,Chinese,,0,0,0,,他们会说什么啊 希拉\N{\c&H00F8FB&\fnArial\fs14}And what exactly will they say, Sheila?
+Dialogue: 0,0:55:18.63,0:55:20.30,Chinese,,0,0,0,,这才是重点 凯赫夫人\N{\c&H00F8FB&\fnArial\fs14}That's the thing, Mrs. Kehoe.
+Dialogue: 0,0:55:20.33,0:55:23.22,Chinese,,0,0,0,,你永远不会知道 因为他们并不当着你的面说\N{\c&H00F8FB&\fnArial\fs14}You'd never know, because they'd never say it to your face.
+Dialogue: 0,0:55:24.84,0:55:26.63,Chinese,,0,0,0,,哦上帝啊\N{\c&H00F8FB&\fnArial\fs14}Oh, dear God!
+Dialogue: 0,0:55:26.86,0:55:30.53,Chinese,,0,0,0,,戴安娜说得对 艾莉丝 你应该好好斟酌你的装扮\N{\c&H00F8FB&\fnArial\fs14}Diana's right, though, Eilis. You need to think carefully about your costume.
+Dialogue: 0,0:55:30.55,0:55:33.53,Chinese,,0,0,0,,托尼第一见你穿这么少 你不会想让他失望的\N{\c&H00F8FB&\fnArial\fs14}It's the most Tony will ever have seen of you. You don't want to put him off.
+Dialogue: 0,0:55:38.92,0:55:40.24,Chinese,,0,0,0,,你下面得剃干净\N{\c&H00F8FB&\fnArial\fs14}You'll have to shave down there.
+Dialogue: 0,0:55:40.28,0:55:42.06,Chinese,,0,0,0,,我给你一把管用的剃刀\N{\c&H00F8FB&\fnArial\fs14}I'll give you a razor that will do the trick.
+Dialogue: 0,0:55:47.38,0:55:49.11,Chinese,,0,0,0,,你的屁屁暂时没问题\N{\c&H00F8FB&\fnArial\fs14}You're all right there for the moment.
+Dialogue: 0,0:55:49.13,0:55:51.37,Chinese,,0,0,0,,大多数意大利男人都喜欢丰满的体型\N{\c&H00F8FB&\fnArial\fs14}And most Italian men appreciate the fuller figure.
+Dialogue: 0,0:55:52.09,0:55:53.93,Chinese,,0,0,0,,但是 夏天你还是要注意点\N{\c&H00F8FB&\fnArial\fs14}But watch yourself, over the summer.
+Dialogue: 0,0:55:55.60,0:55:57.33,Chinese,,0,0,0,,你肤色白皙 黑色对你来说太暗了\N{\c&H00F8FB&\fnArial\fs14}The black's too dark for your pale skin.
+Dialogue: 0,0:55:57.36,0:55:58.40,Chinese,,0,0,0,,咱们来试试绿色\N{\c&H00F8FB&\fnArial\fs14}Let's see you in the green.
+Dialogue: 0,0:56:24.65,0:56:25.80,Chinese,,0,0,0,,看那边\N{\c&H00F8FB&\fnArial\fs14}Look at that thing.
+Dialogue: 0,0:56:39.02,0:56:42.15,Chinese,,0,0,0,,你怎么不告诉我要把泳衣穿在衣服里面\N{\c&H00F8FB&\fnArial\fs14}Why didn't you tell me to put my costume on underneath my clothes?
+Dialogue: 0,0:56:42.18,0:56:43.78,Chinese,,0,0,0,,我以为你知道\N{\c&H00F8FB&\fnArial\fs14}I thought you'd know.
+Dialogue: 0,0:56:46.21,0:56:47.75,Chinese,,0,0,0,,好了\N{\c&H00F8FB&\fnArial\fs14}Right, I'm ready.
+Dialogue: 0,0:56:56.48,0:56:58.36,Chinese,,0,0,0,,- 托尼 - 咋啦\N{\c&H00F8FB&\fnArial\fs14}- Tony! - What?
+Dialogue: 0,0:56:59.56,0:57:00.86,Chinese,,0,0,0,,过来\N{\c&H00F8FB&\fnArial\fs14}Come on.
+Dialogue: 0,0:57:01.79,0:57:04.88,Chinese,,0,0,0,,亲爱的露丝 感谢你的来信\N{\c&H00F8FB&\fnArial\fs14}Dear Rose, Thanks for your letter.
+Dialogue: 0,0:57:04.91,0:57:07.71,Chinese,,0,0,0,,听到你高尔夫锦标赛的消息我很高兴\N{\c&H00F8FB&\fnArial\fs14}I was happy to hear about your golf tournament.
+Dialogue: 0,0:57:07.73,0:57:09.41,Chinese,,0,0,0,,你肯定高兴坏了\N{\c&H00F8FB&\fnArial\fs14}You must have been really pleased.
+Dialogue: 0,0:57:10.48,0:57:12.30,Chinese,,0,0,0,,我依然思念你和妈妈\N{\c&H00F8FB&\fnArial\fs14}I still miss you and mother,
+Dialogue: 0,0:57:12.33,0:57:14.12,Chinese,,0,0,0,,我每天都在想你\N{\c&H00F8FB&\fnArial\fs14}and I think about you every day.
+Dialogue: 0,0:57:14.14,0:57:17.65,Chinese,,0,0,0,,然而我觉得 这是自我来到美国之后第一次感受到\N{\c&H00F8FB&\fnArial\fs14}But I think I can say that for the first time since I've been in America,
+Dialogue: 0,0:57:17.68,0:57:19.65,Chinese,,0,0,0,,真正的幸福\N{\c&H00F8FB&\fnArial\fs14}I'm really happy.
+Dialogue: 0,0:57:20.28,0:57:22.66,Chinese,,0,0,0,,这大部分要归功于托尼\N{\c&H00F8FB&\fnArial\fs14}This is a lot to do with Tony.
+Dialogue: 0,0:57:22.68,0:57:25.39,Chinese,,0,0,0,,周末他带我去看了布鲁克林道奇队的比赛\N{\c&H00F8FB&\fnArial\fs14}At the weekend he took me to see the Brooklyn Dodgers,
+Dialogue: 0,0:57:25.39,0:57:27.42,Chinese,,0,0,0,,他热爱的棒球队\N{\c&H00F8FB&\fnArial\fs14}the baseball team he loves.
+Dialogue: 0,0:57:27.95,0:57:30.27,Chinese,,0,0,0,,他们输了 这让他很生气\N{\c&H00F8FB&\fnArial\fs14}They lost, so he was annoyed.
+Dialogue: 0,0:57:30.30,0:57:33.30,Chinese,,0,0,0,,我也开始在找文职工作\N{\c&H00F8FB&\fnArial\fs14}But I've also started to look for office work, too.
+Dialogue: 0,0:57:33.32,0:57:34.59,Chinese,,0,0,0,,这周我去面试了\N{\c&H00F8FB&\fnArial\fs14}I had an interview this week ...
+Dialogue: 0,0:57:34.62,0:57:36.69,Chinese,,0,0,0,,在布鲁克林的一家纺织品公司\N{\c&H00F8FB&\fnArial\fs14}at a textile firm here in Brooklyn.
+Dialogue: 0,0:57:37.12,0:57:38.42,Chinese,,0,0,0,,露丝\N{\c&H00F8FB&\fnArial\fs14}Rose?
+Dialogue: 0,0:57:38.44,0:57:41.87,Chinese,,0,0,0,,谁能想到 在一家会出两个簿记员呢\N{\c&H00F8FB&\fnArial\fs14}Who'd have thought that there would be two book-keepers in the family?
+Dialogue: 0,0:57:42.27,0:57:43.56,Chinese,,0,0,0,,露丝\N{\c&H00F8FB&\fnArial\fs14}Rose?
+Dialogue: 0,0:57:46.61,0:57:49.92,Chinese,,0,0,0,,我很快就能攒够钱回家看你和妈妈\N{\c&H00F8FB&\fnArial\fs14}I'll soon be able to afford to come home and see you and mummy.
+Dialogue: 0,0:57:53.43,0:57:54.63,Chinese,,0,0,0,,露丝\N{\c&H00F8FB&\fnArial\fs14}Rose!
+Dialogue: 0,0:57:58.66,0:58:01.18,Chinese,,0,0,0,,露丝 上帝啊\N{\c&H00F8FB&\fnArial\fs14}Rose? Oh my God!
+Dialogue: 0,0:58:01.74,0:58:02.80,Chinese,,0,0,0,,上帝啊\N{\c&H00F8FB&\fnArial\fs14}Oh God!
+Dialogue: 0,0:58:03.29,0:58:04.73,Chinese,,0,0,0,,露丝\N{\c&H00F8FB&\fnArial\fs14}Rose?
+Dialogue: 0,0:58:04.75,0:58:06.41,Chinese,,0,0,0,,不\N{\c&H00F8FB&\fnArial\fs14}Oh no!
+Dialogue: 0,0:58:23.63,0:58:24.94,Chinese,,0,0,0,,稍等\N{\c&H00F8FB&\fnArial\fs14}A moment.
+Dialogue: 0,0:58:46.41,0:58:51.65,Chinese,,0,0,0,,太突然了 我想她可能是生病了\N{\c&H00F8FB&\fnArial\fs14}It was sudden. I think perhaps she was ill,
+Dialogue: 0,0:58:51.68,0:58:55.08,Chinese,,0,0,0,,她自己知道 但她没有告诉任何人\N{\c&H00F8FB&\fnArial\fs14}and she knew she was ill, and she didn't tell anybody.
+Dialogue: 0,0:59:00.25,0:59:01.56,Chinese,,0,0,0,,会发生什么\N{\c&H00F8FB&\fnArial\fs14}What will happen?
+Dialogue: 0,0:59:01.59,0:59:03.22,Chinese,,0,0,0,,能发生什么呢\N{\c&H00F8FB&\fnArial\fs14}What can happen?
+Dialogue: 0,0:59:05.10,0:59:07.92,Chinese,,0,0,0,,-她什么时候下葬 -明天\N{\c&H00F8FB&\fnArial\fs14}- When will they bury her? - Tomorrow.
+Dialogue: 0,0:59:10.09,0:59:12.58,Chinese,,0,0,0,,-不等我吗   -不等\N{\c&H00F8FB&\fnArial\fs14}- Without me. - Without you.
+Dialogue: 0,0:59:13.66,0:59:15.55,Chinese,,0,0,0,,你离得太远了 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}You're too far away, Eilis.
+Dialogue: 0,0:59:20.73,0:59:22.64,Chinese,,0,0,0,,我到底为什么来这里呢\N{\c&H00F8FB&\fnArial\fs14}Why did I ever come here?
+Dialogue: 0,0:59:23.54,0:59:25.97,Chinese,,0,0,0,,露丝希望你能过得更好\N{\c&H00F8FB&\fnArial\fs14}Rose wanted a better life for you.
+Dialogue: 0,0:59:25.99,0:59:27.85,Chinese,,0,0,0,,她很欣慰你做得这么优秀\N{\c&H00F8FB&\fnArial\fs14}She loved how well you were doing.
+Dialogue: 0,0:59:27.87,0:59:29.85,Chinese,,0,0,0,,但我再也见不到她了\N{\c&H00F8FB&\fnArial\fs14}But I will never see her again.
+Dialogue: 0,0:59:33.52,0:59:37.24,Chinese,,0,0,0,,是这样吗 神父 我再也见不到她了\N{\c&H00F8FB&\fnArial\fs14}That's right, isn't it, Father? I will never see her again.
+Dialogue: 0,0:59:38.22,0:59:40.00,Chinese,,0,0,0,,你知道的 我相信你们会再见的\N{\c&H00F8FB&\fnArial\fs14}You know that I think you will.
+Dialogue: 0,0:59:41.15,0:59:44.32,Chinese,,0,0,0,,她会一直守护着你 在你余生的每一天\N{\c&H00F8FB&\fnArial\fs14}And she will be watching over you, every day, for the rest of your life.
+Dialogue: 0,1:00:12.29,1:00:14.39,Chinese,,0,0,0,,喂 妈妈\N{\c&H00F8FB&\fnArial\fs14}Hello? Mommy?
+Dialogue: 0,1:00:14.91,1:00:18.64,Chinese,,0,0,0,,能听见我说话吗 喂\N{\c&H00F8FB&\fnArial\fs14}Can you hear me now? Hello?
+Dialogue: 0,1:00:19.06,1:00:21.00,Chinese,,0,0,0,,听不太清\N{\c&H00F8FB&\fnArial\fs14}I can't really hear you.
+Dialogue: 0,1:00:22.53,1:00:25.07,Chinese,,0,0,0,,无论如何 葬礼上没有下雨\N{\c&H00F8FB&\fnArial\fs14}Well, the rain held off, anyway.
+Dialogue: 0,1:00:26.98,1:00:30.03,Chinese,,0,0,0,,她的高尔夫俱乐部成员都来了 每一个人\N{\c&H00F8FB&\fnArial\fs14}And the whole of her golf club came. Every single one of them.
+Dialogue: 0,1:00:30.96,1:00:33.22,Chinese,,0,0,0,,把屋子都挤满了\N{\c&H00F8FB&\fnArial\fs14}We had a real houseful afterwards.
+Dialogue: 0,1:00:36.49,1:00:38.07,Chinese,,0,0,0,,你还在听吗\N{\c&H00F8FB&\fnArial\fs14}Are you still there?
+Dialogue: 0,1:00:39.20,1:00:40.45,Chinese,,0,0,0,,在\N{\c&H00F8FB&\fnArial\fs14}Yes.
+Dialogue: 0,1:00:43.45,1:00:45.29,Chinese,,0,0,0,,人们都很爱她 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}People really loved her, Eilis.
+Dialogue: 0,1:00:46.67,1:00:48.99,Chinese,,0,0,0,,同事 邻居 每一个人\N{\c&H00F8FB&\fnArial\fs14}Her friends from work, the neighbours, everybody.
+Dialogue: 0,1:00:52.38,1:00:54.00,Chinese,,0,0,0,,没人知道该对我说什么\N{\c&H00F8FB&\fnArial\fs14}Nobody knew what to say to me.
+Dialogue: 0,1:00:57.91,1:01:01.83,Chinese,,0,0,0,,你爸爸去世时 我告诉自己 我不能太过悲痛\N{\c&H00F8FB&\fnArial\fs14}When your daddy died, I said to myself that I shouldn't grieve too much
+Dialogue: 0,1:01:01.83,1:01:03.18,Chinese,,0,0,0,,因为我还有你们两个\N{\c&H00F8FB&\fnArial\fs14}because I had the two of you.
+Dialogue: 0,1:01:04.64,1:01:07.07,Chinese,,0,0,0,,你去美国的时候 我也这么跟自己说\N{\c&H00F8FB&\fnArial\fs14}Then when you went to America, I told myself the same thing
+Dialogue: 0,1:01:07.10,1:01:08.73,Chinese,,0,0,0,,因为她还在这儿陪着我\N{\c&H00F8FB&\fnArial\fs14}because she was here with me.
+Dialogue: 0,1:01:09.47,1:01:12.01,Chinese,,0,0,0,,但你们都走了 艾莉丝 没人在我身边了\N{\c&H00F8FB&\fnArial\fs14}But everyone's gone, Eilis. I have nobody.
+Dialogue: 0,1:01:33.64,1:01:35.67,Chinese,,0,0,0,,我受不了了 托尼\N{\c&H00F8FB&\fnArial\fs14}I can't bear it, Tony.
+Dialogue: 0,1:01:40.41,1:01:45.64,Chinese,,0,0,0,,你是不是想回家了\N{\c&H00F8FB&\fnArial\fs14}You wanna go home, I guess.
+Dialogue: 0,1:01:48.81,1:01:51.50,Chinese,,0,0,0,,如果我回去了 你怎么办\N{\c&H00F8FB&\fnArial\fs14}And how would it be for you, if I did go home?
+Dialogue: 0,1:01:52.10,1:01:55.88,Chinese,,0,0,0,,我会每天担惊受怕\N{\c&H00F8FB&\fnArial\fs14}I'll be afraid, every single day.
+Dialogue: 0,1:01:56.48,1:02:02.90,Chinese,,0,0,0,,- 你担心我不回来吗 - 是的 家毕竟是家\N{\c&H00F8FB&\fnArial\fs14}- Afraid that I wouldn't come back? - Yes. Home is home.
+Dialogue: 0,1:02:08.87,1:02:11.09,Chinese,,0,0,0,,我不确定我还有没有家了\N{\c&H00F8FB&\fnArial\fs14}I'm not sure if I have a home anymore.
+Dialogue: 0,1:02:16.92,1:02:18.86,Chinese,,0,0,0,,你明天不去上班 是吧\N{\c&H00F8FB&\fnArial\fs14}You are not going to work tomorrow, are you?
+Dialogue: 0,1:02:20.57,1:02:23.52,Chinese,,0,0,0,,做完弥撒后 我能带你去个地方吗\N{\c&H00F8FB&\fnArial\fs14}After the Mass, can I take you somewhere?
+Dialogue: 0,1:02:36.21,1:02:37.59,Chinese,,0,0,0,,就是这里了\N{\c&H00F8FB&\fnArial\fs14}This is it.
+Dialogue: 0,1:02:39.13,1:02:42.33,Chinese,,0,0,0,,如果可以的话 我们在这里盖上五间房子\N{\c&H00F8FB&\fnArial\fs14}We're gonna build five houses here, if we can.
+Dialogue: 0,1:02:42.36,1:02:44.82,Chinese,,0,0,0,,爸妈会拥有其中一间\N{\c&H00F8FB&\fnArial\fs14}And mom and dad, they are gonna have one,
+Dialogue: 0,1:02:44.90,1:02:47.28,Chinese,,0,0,0,,因为我妈总是想要一间带后院的房子\N{\c&H00F8FB&\fnArial\fs14}Cos ma always wanted a house with a backyard.
+Dialogue: 0,1:02:47.90,1:02:51.87,Chinese,,0,0,0,,把其中的三个卖掉 剩下那一个\N{\c&H00F8FB&\fnArial\fs14}We'll sell three. And the other one...
+Dialogue: 0,1:02:52.39,1:02:56.95,Chinese,,0,0,0,,我兄弟们问我想不想要 我说是的\N{\c&H00F8FB&\fnArial\fs14}My brothers they asked me if I wanted it and I said that I did.
+Dialogue: 0,1:02:56.98,1:03:00.37,Chinese,,0,0,0,,所以 我觉得我想说的是\N{\c&H00F8FB&\fnArial\fs14}So, I guess what I'm saying is
+Dialogue: 0,1:03:00.39,1:03:02.41,Chinese,,0,0,0,,你想和我一起在长岛这里生活吗\N{\c&H00F8FB&\fnArial\fs14}if you want to live out here on Long Island?
+Dialogue: 0,1:03:03.08,1:03:05.35,Chinese,,0,0,0,,我知道现在这儿看上去并不是太好\N{\c&H00F8FB&\fnArial\fs14}I mean I know it doesn't look like much right now,
+Dialogue: 0,1:03:05.37,1:03:07.13,Chinese,,0,0,0,,但是周边其他的地都已经卖光了\N{\c&H00F8FB&\fnArial\fs14}but all the land around here has been sold,
+Dialogue: 0,1:03:07.22,1:03:09.67,Chinese,,0,0,0,,所以我们不会孤独\N{\c&H00F8FB&\fnArial\fs14}so we wouldn't be on our own.
+Dialogue: 0,1:03:09.70,1:03:13.40,Chinese,,0,0,0,,会架电话线 通电 什么都有\N{\c&H00F8FB&\fnArial\fs14}And there would be telephone cables, electricity and everything.
+Dialogue: 0,1:03:21.01,1:03:23.47,Chinese,,0,0,0,,我们会创办一个公司\N{\c&H00F8FB&\fnArial\fs14}We're gonna set up a company,
+Dialogue: 0,1:03:23.69,1:03:26.29,Chinese,,0,0,0,,一个建筑公司 我们三个\N{\c&H00F8FB&\fnArial\fs14}a building company, the three of us.
+Dialogue: 0,1:03:26.71,1:03:30.95,Chinese,,0,0,0,,我负责管道 劳伦斯做木工\N{\c&H00F8FB&\fnArial\fs14}And I'm gonna do the plumbing and  Lawrence is gonna do the carpentry.
+Dialogue: 0,1:03:37.97,1:03:39.97,Chinese,,0,0,0,,别不说话\N{\c&H00F8FB&\fnArial\fs14}Don't go all quiet on me.
+Dialogue: 0,1:03:41.03,1:03:43.00,Chinese,,0,0,0,,至少告诉我你会考虑考虑\N{\c&H00F8FB&\fnArial\fs14}At least tell me you'll think about it.
+Dialogue: 0,1:03:47.65,1:03:49.79,Chinese,,0,0,0,,我不需要考虑\N{\c&H00F8FB&\fnArial\fs14}I don't need to think about it.
+Dialogue: 0,1:04:41.25,1:04:47.31,Chinese,,0,0,0,,就回去一个多月 这样会让她好过一点\N{\c&H00F8FB&\fnArial\fs14}It's just for a month or so. I know it would make her feel a little better.
+Dialogue: 0,1:04:56.75,1:04:58.87,Chinese,,0,0,0,,你愿意在走之前嫁给我吗\N{\c&H00F8FB&\fnArial\fs14}Will you marry me before you leave?
+Dialogue: 0,1:05:02.65,1:05:04.45,Chinese,,0,0,0,,你不相信我会回来吗\N{\c&H00F8FB&\fnArial\fs14}You don't trust me to come back?
+Dialogue: 0,1:05:07.40,1:05:11.47,Chinese,,0,0,0,,嫁给我 嫁给我吧\N{\c&H00F8FB&\fnArial\fs14}Marry me! Marry me!
+Dialogue: 0,1:05:12.78,1:05:14.79,Chinese,,0,0,0,,我们不需要告诉任何人\N{\c&H00F8FB&\fnArial\fs14}We don't have to tell anyone.
+Dialogue: 0,1:05:14.81,1:05:18.47,Chinese,,0,0,0,,我们赶紧结了 就我俩知道\N{\c&H00F8FB&\fnArial\fs14}We just do it quickly, just keep it between us.
+Dialogue: 0,1:05:21.37,1:05:23.05,Chinese,,0,0,0,,你为什么想要这样做呢\N{\c&H00F8FB&\fnArial\fs14}Why do you want to do it?
+Dialogue: 0,1:05:24.55,1:05:27.56,Chinese,,0,0,0,,因为不这样的话 我会疯掉的\N{\c&H00F8FB&\fnArial\fs14}Because if we don't, I am gonna go crazy.
+Dialogue: 0,1:05:33.28,1:05:35.81,Chinese,,0,0,0,,我现在发誓不也一样吗\N{\c&H00F8FB&\fnArial\fs14}Would a promise not be the same?
+Dialogue: 0,1:05:38.50,1:05:42.24,Chinese,,0,0,0,,如果你可以发誓的话 结婚对你也不难\N{\c&H00F8FB&\fnArial\fs14}If you can promise, you can easily do this.
+Dialogue: 0,1:06:26.15,1:06:30.02,Chinese,,0,0,0,,所以就是这里吗 这就是你住的地方吗\N{\c&H00F8FB&\fnArial\fs14}So this is it? This is where you live?
+Dialogue: 0,1:06:30.04,1:06:34.05,Chinese,,0,0,0,,是的 如果你弄出一点噪音 她会把我赶出去的\N{\c&H00F8FB&\fnArial\fs14}Yes, and if you make one tiny noise she'll evict me.
+Dialogue: 0,1:07:53.27,1:07:55.49,Chinese,,0,0,0,,天哪 天哪\N{\c&H00F8FB&\fnArial\fs14}Oh, man! Oh, man!
+Dialogue: 0,1:08:07.47,1:08:13.17,Chinese,,0,0,0,,现在没必要担心了 待在我身边\N{\c&H00F8FB&\fnArial\fs14}Oh, there's no point in worrying now. Stay with me.
+Dialogue: 0,1:08:44.36,1:08:46.81,Chinese,,0,0,0,,-你想玩吗 -当然\N{\c&H00F8FB&\fnArial\fs14}- Do you want to play? - Yes, sure.
+Dialogue: 0,1:08:46.83,1:08:49.78,Chinese,,0,0,0,,好的 球棒马上就好\N{\c&H00F8FB&\fnArial\fs14}Alright. Here we go, one bat coming up.
+Dialogue: 0,1:08:50.96,1:08:53.31,Chinese,,0,0,0,,球给我 准备好了吗 手抬起来\N{\c&H00F8FB&\fnArial\fs14}I'll take that, alright. You ready? Hands up.
+Dialogue: 0,1:08:55.56,1:08:58.03,Chinese,,0,0,0,,哇 直接打到三垒底线\N{\c&H00F8FB&\fnArial\fs14}Oh, right down to the third-base line.
+Dialogue: 0,1:08:58.06,1:08:59.84,Chinese,,0,0,0,,他是不是打扰到你了 因为连我都觉得他吵\N{\c&H00F8FB&\fnArial\fs14}Is he annoying you? Because he is annoying me.
+Dialogue: 0,1:08:59.87,1:09:04.18,Chinese,,0,0,0,,没有没有 我有个弟弟跟他一样大 你是爱尔兰人吗\N{\c&H00F8FB&\fnArial\fs14}No no no. I got a brother the exact same age? Hey, are you Irish?
+Dialogue: 0,1:09:04.51,1:09:05.47,Chinese,,0,0,0,,有这么明显吗\N{\c&H00F8FB&\fnArial\fs14}Is it so obvious?
+Dialogue: 0,1:09:05.50,1:09:07.58,Chinese,,0,0,0,,我只是马上要跟一个爱尔兰的姑娘结婚了\N{\c&H00F8FB&\fnArial\fs14}I'm just about to marry an Irish girl,
+Dialogue: 0,1:09:07.62,1:09:08.95,Chinese,,0,0,0,,所以我更容易注意到\N{\c&H00F8FB&\fnArial\fs14}so I guess I notice it more.
+Dialogue: 0,1:09:08.98,1:09:10.66,Chinese,,0,0,0,,布鲁克林有好多爱尔兰人啊\N{\c&H00F8FB&\fnArial\fs14}There are a lot of you in Brooklyn.
+Dialogue: 0,1:09:10.69,1:09:13.03,Chinese,,0,0,0,,有时候我觉得好像爱尔兰都没人了\N{\c&H00F8FB&\fnArial\fs14}Sometimes it seems as though there can't be anybody left at home.
+Dialogue: 0,1:09:13.05,1:09:14.22,Chinese,,0,0,0,,你的未婚妻是爱尔兰哪里的\N{\c&H00F8FB&\fnArial\fs14}Where is your girl from?
+Dialogue: 0,1:09:14.25,1:09:16.36,Chinese,,0,0,0,,恩尼斯科西 在威克斯福德郡\N{\c&H00F8FB&\fnArial\fs14}Enniscorthy, in County Wexford.
+Dialogue: 0,1:09:16.38,1:09:17.63,Chinese,,0,0,0,,我妻子好像有亲戚住那\N{\c&H00F8FB&\fnArial\fs14}I think my wife has family there.
+Dialogue: 0,1:09:17.66,1:09:20.06,Chinese,,0,0,0,,嗨 艾莉丝 过来一下\N{\c&H00F8FB&\fnArial\fs14}Hey, Eilis! Come here for a second.
+Dialogue: 0,1:09:20.08,1:09:23.67,Chinese,,0,0,0,,安东尼·菲欧雷洛和艾莉丝·蕾西\N{\c&H00F8FB&\fnArial\fs14}Anthony Fiorello and Eilis Lacey.
+Dialogue: 0,1:09:36.77,1:09:39.17,Chinese,,0,0,0,,将来我们会告诉孩子们我们是秘密结婚的吗\N{\c&H00F8FB&\fnArial\fs14}Will we ever tell our children we did this?
+Dialogue: 0,1:09:40.81,1:09:43.26,Chinese,,0,0,0,,可以留到某个纪念日上说\N{\c&H00F8FB&\fnArial\fs14}Maybe we'll save it for some anniversary.
+Dialogue: 0,1:09:45.42,1:09:46.99,Chinese,,0,0,0,,不知道他们会怎么想\N{\c&H00F8FB&\fnArial\fs14}I wonder what they'll think of it.
+Dialogue: 0,1:10:13.17,1:10:14.37,Chinese,,0,0,0,,南希\N{\c&H00F8FB&\fnArial\fs14}Nancy!
+Dialogue: 0,1:10:14.39,1:10:15.83,Chinese,,0,0,0,,你好迷人\N{\c&H00F8FB&\fnArial\fs14}You look so glamorous!
+Dialogue: 0,1:10:15.86,1:10:17.12,Chinese,,0,0,0,,我就说吧\N{\c&H00F8FB&\fnArial\fs14}I told you so.
+Dialogue: 0,1:10:18.02,1:10:22.47,Chinese,,0,0,0,,-露丝的死我很遗憾 -谢谢你 你怎么样\N{\c&H00F8FB&\fnArial\fs14}- I'm so sorry about Rose. - Thank you. How are you?
+Dialogue: 0,1:10:24.65,1:10:25.74,Chinese,,0,0,0,,不是吧\N{\c&H00F8FB&\fnArial\fs14}No!
+Dialogue: 0,1:10:25.77,1:10:28.22,Chinese,,0,0,0,,我早知道了 但我希望南希能亲口告诉你\N{\c&H00F8FB&\fnArial\fs14}I knew. But I wanted to let Nancy tell you herself.
+Dialogue: 0,1:10:28.25,1:10:31.31,Chinese,,0,0,0,,-我好高兴你能来参加我的婚礼 -我能吗\N{\c&H00F8FB&\fnArial\fs14}- I am so glad you can come to the wedding. - Can l?
+Dialogue: 0,1:10:31.33,1:10:33.80,Chinese,,0,0,0,,你母亲已经代你接受了我的婚礼邀请\N{\c&H00F8FB&\fnArial\fs14}Your mother accepted the invitation on your behalf.
+Dialogue: 0,1:10:34.91,1:10:37.38,Chinese,,0,0,0,,-什么时候   -八月二十七\N{\c&H00F8FB&\fnArial\fs14}- When is it? - The 27th of August.
+Dialogue: 0,1:10:37.38,1:10:39.72,Chinese,,0,0,0,,你明晚能跟我和乔治出来玩吗\N{\c&H00F8FB&\fnArial\fs14}Will you come out with George and me tomorrow night?
+Dialogue: 0,1:10:39.75,1:10:41.43,Chinese,,0,0,0,,安妮特也想见你\N{\c&H00F8FB&\fnArial\fs14}Annette wants to see you, too.
+Dialogue: 0,1:10:41.46,1:10:42.96,Chinese,,0,0,0,,我不介意你出去\N{\c&H00F8FB&\fnArial\fs14}Oh, I don't mind.
+Dialogue: 0,1:10:42.99,1:10:43.91,Chinese,,0,0,0,,我得给你找把钥匙\N{\c&H00F8FB&\fnArial\fs14}I'll have to find you a key.
+Dialogue: 0,1:10:43.95,1:10:45.43,Chinese,,0,0,0,,我可不想起来给你开门\N{\c&H00F8FB&\fnArial\fs14}I don't want you getting me out of bed.
+Dialogue: 0,1:10:45.67,1:10:48.35,Chinese,,0,0,0,,我们都很想听听纽约生活是什么样子\N{\c&H00F8FB&\fnArial\fs14}We all want to hear what life in New York is like.
+Dialogue: 0,1:10:48.68,1:10:50.50,Chinese,,0,0,0,,我会尽量想出点东西来跟你们分享的\N{\c&H00F8FB&\fnArial\fs14}I'll try and think of something to say.
+Dialogue: 0,1:10:58.44,1:11:00.94,Chinese,,0,0,0,,我回纽约的船票是二十一号的\N{\c&H00F8FB&\fnArial\fs14}I'm booked to go back to New York on twenty-first.
+Dialogue: 0,1:11:01.86,1:11:04.62,Chinese,,0,0,0,,你可以多待一周 见证你最好的朋友结婚吧\N{\c&H00F8FB&\fnArial\fs14}Oh, you can wait an extra week to see your best friend married.
+Dialogue: 0,1:11:42.42,1:11:44.97,Chinese,,0,0,0,,我不敢相信 你永远没办法认识我丈夫了\N{\c&H00F8FB&\fnArial\fs14}I can't believe I'm married to someone you'll never know.
+Dialogue: 0,1:11:50.80,1:11:55.04,Chinese,,0,0,0,,你一定会喜欢他的 我相信\N{\c&H00F8FB&\fnArial\fs14}But you'd like him. I know you would.
+Dialogue: 0,1:11:58.44,1:12:02.25,Chinese,,0,0,0,,他很贴心 很幽默\N{\c&H00F8FB&\fnArial\fs14}He's sweet. He's funny.
+Dialogue: 0,1:12:03.53,1:12:06.25,Chinese,,0,0,0,,而且他的眼睛非常美\N{\c&H00F8FB&\fnArial\fs14}And he has got these wonderful eyes that…
+Dialogue: 0,1:12:18.43,1:12:20.74,Chinese,,0,0,0,,我好希望事情不是现在这样\N{\c&H00F8FB&\fnArial\fs14}I wish everything were different…
+Dialogue: 0,1:12:40.40,1:12:43.48,Chinese,,0,0,0,,现在轮到 来自库什的奥图尔太太\N{\c&H00F8FB&\fnArial\fs14}So, now. Mrs. O'Toole from Cush.
+Dialogue: 0,1:12:43.51,1:12:44.87,Chinese,,0,0,0,,我们必须要回信吗\N{\c&H00F8FB&\fnArial\fs14}Do we really have to do this?
+Dialogue: 0,1:12:45.01,1:12:48.42,Chinese,,0,0,0,,收到一封吊唁信跟收到生日礼物不一样吧\N{\c&H00F8FB&\fnArial\fs14}Getting a letter of condolence isn't like getting a birthday present, is it?
+Dialogue: 0,1:12:48.62,1:12:50.69,Chinese,,0,0,0,,如果这位来自库什的奥图尔太太给你回信\N{\c&H00F8FB&\fnArial\fs14}What if Mrs. O'Toole from Cush writes back
+Dialogue: 0,1:12:50.71,1:12:52.25,Chinese,,0,0,0,,来感谢你的感谢信呢\N{\c&H00F8FB&\fnArial\fs14}To thank you for your thank you?
+Dialogue: 0,1:12:52.27,1:12:53.72,Chinese,,0,0,0,,那我就再回一封感谢信\N{\c&H00F8FB&\fnArial\fs14}Then I'll thank her.
+Dialogue: 0,1:12:53.74,1:12:55.99,Chinese,,0,0,0,,你也愿意后半生都这样寄信收信吗\N{\c&H00F8FB&\fnArial\fs14}And you'll be happy to spend the rest of your life like that?
+Dialogue: 0,1:12:56.02,1:12:57.76,Chinese,,0,0,0,,反正我也没别的事情可做\N{\c&H00F8FB&\fnArial\fs14}It's not as if I have anything else to do.
+Dialogue: 0,1:12:57.80,1:12:59.29,Chinese,,0,0,0,,也没有别的人可以说话\N{\c&H00F8FB&\fnArial\fs14}Nor anybody else to talk to.
+Dialogue: 0,1:12:59.32,1:13:01.49,Chinese,,0,0,0,,就和来自库什的奥图尔太太写写信呗\N{\c&H00F8FB&\fnArial\fs14}It might as well be Mrs. O'Toole from Cush.
+Dialogue: 0,1:13:03.45,1:13:04.78,Chinese,,0,0,0,,那你想让我写什么\N{\c&H00F8FB&\fnArial\fs14}What do you want me to say?
+Dialogue: 0,1:13:06.46,1:13:08.34,Chinese,,0,0,0,,应该是南希和安妮特到了\N{\c&H00F8FB&\fnArial\fs14}That would be Nancy and Annette.
+Dialogue: 0,1:13:09.49,1:13:10.63,Chinese,,0,0,0,,去吧\N{\c&H00F8FB&\fnArial\fs14}Off you go.
+Dialogue: 0,1:13:14.02,1:13:15.44,Chinese,,0,0,0,,好好玩\N{\c&H00F8FB&\fnArial\fs14}Enjoy yourself.
+Dialogue: 0,1:13:32.57,1:13:34.27,Chinese,,0,0,0,,艾莉丝 这是吉姆·法瑞尔\N{\c&H00F8FB&\fnArial\fs14}Eilis, this is Jim Farrell.
+Dialogue: 0,1:13:35.42,1:13:37.15,Chinese,,0,0,0,,很高兴认识你\N{\c&H00F8FB&\fnArial\fs14}It's a great pleasure to meet you.
+Dialogue: 0,1:13:41.13,1:13:43.11,Chinese,,0,0,0,,我们可以去康诺特酒店的酒吧\N{\c&H00F8FB&\fnArial\fs14}We could try the Connaught Hotel bar.
+Dialogue: 0,1:13:43.14,1:13:45.50,Chinese,,0,0,0,,可能橄榄球俱乐部的几个伙计会在那\N{\c&H00F8FB&\fnArial\fs14}There may be a few of the fellas from the rugby club there.
+Dialogue: 0,1:13:45.52,1:13:46.57,Chinese,,0,0,0,,好的\N{\c&H00F8FB&\fnArial\fs14}Okay.
+Dialogue: 0,1:13:48.30,1:13:51.38,Chinese,,0,0,0,,你们就天天跟橄榄球俱乐部的那帮人待在一起吗\N{\c&H00F8FB&\fnArial\fs14}Do you have to be with other fellas from the rugby club all the time?
+Dialogue: 0,1:13:52.35,1:13:57.44,Chinese,,0,0,0,,也不是 只是南希不允许我们跟你讲话\N{\c&H00F8FB&\fnArial\fs14}No. But Nancy told us that we wouldn't be allowed to talk to you.
+Dialogue: 0,1:13:57.46,1:13:59.24,Chinese,,0,0,0,,因为你们之间有太多话要说了\N{\c&H00F8FB&\fnArial\fs14}Because you have too much to say to each other.
+Dialogue: 0,1:13:59.27,1:14:01.03,Chinese,,0,0,0,,所以我们只是去找几个伴罢了\N{\c&H00F8FB&\fnArial\fs14}So we're just looking for company.
+Dialogue: 0,1:14:01.97,1:14:03.12,Chinese,,0,0,0,,哦 这样\N{\c&H00F8FB&\fnArial\fs14}Oh, well.
+Dialogue: 0,1:14:03.15,1:14:05.60,Chinese,,0,0,0,,你不喜欢橄榄球俱乐部的那帮人吗 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Do you not like the fellas from the rugby club, Eilis?
+Dialogue: 0,1:14:05.63,1:14:07.15,Chinese,,0,0,0,,我不太喜欢他们 乔治\N{\c&H00F8FB&\fnArial\fs14}I don't particularly, George.
+Dialogue: 0,1:14:07.38,1:14:08.78,Chinese,,0,0,0,,我刚到美国的时候\N{\c&H00F8FB&\fnArial\fs14}When I first went to America,
+Dialogue: 0,1:14:08.81,1:14:12.23,Chinese,,0,0,0,,恩尼斯科西的任何东西我都很想念 除了他们\N{\c&H00F8FB&\fnArial\fs14}I missed everything about Enniscorthy, except one.
+Dialogue: 0,1:14:12.26,1:14:13.97,Chinese,,0,0,0,,我们也不是全都一样的\N{\c&H00F8FB&\fnArial\fs14}We are not all the same.
+Dialogue: 0,1:14:13.99,1:14:17.85,Chinese,,0,0,0,,你们看起来都一样 穿着运动夹克 抹着发油\N{\c&H00F8FB&\fnArial\fs14}You all look the same. It's the blazer and the hair-oil.
+Dialogue: 0,1:14:27.51,1:14:33.30,Chinese,,0,0,0,,南希 安妮特怎么没来 还有他怎么来了\N{\c&H00F8FB&\fnArial\fs14}Nancy, where is Annette? And why has he come?
+Dialogue: 0,1:14:33.42,1:14:36.13,Chinese,,0,0,0,,他人很好的 别对他太刻薄了\N{\c&H00F8FB&\fnArial\fs14}He's very nice, so don't be too hard on him.
+Dialogue: 0,1:14:36.45,1:14:39.42,Chinese,,0,0,0,,这是跟凯特琳·卡西迪订婚的那个吉姆·法瑞尔吗\N{\c&H00F8FB&\fnArial\fs14}Is this the same Jim Farrell that was engaged to Cathleen Cassidy?
+Dialogue: 0,1:14:39.52,1:14:40.72,Chinese,,0,0,0,,发生了什么\N{\c&H00F8FB&\fnArial\fs14}What happened to her?
+Dialogue: 0,1:14:40.74,1:14:43.33,Chinese,,0,0,0,,是他提了分手 吉姆觉得她并不是真正爱他\N{\c&H00F8FB&\fnArial\fs14}He broke it off. He didn’t think she was serious about him.
+Dialogue: 0,1:14:43.35,1:14:46.24,Chinese,,0,0,0,,他难过了好一阵儿 不过现在都过去了\N{\c&H00F8FB&\fnArial\fs14}He was very upset for a while, but he's over her now.
+Dialogue: 0,1:14:47.27,1:14:50.44,Chinese,,0,0,0,,南希 我是要回美国的\N{\c&H00F8FB&\fnArial\fs14}Nancy, I'm going back.
+Dialogue: 0,1:14:50.47,1:14:53.11,Chinese,,0,0,0,,但是你在这儿的时候可以找点乐子嘛 不是吗\N{\c&H00F8FB&\fnArial\fs14}But you can have a bit of fun while you're here, can't you?
+Dialogue: 0,1:14:54.27,1:14:55.67,Chinese,,0,0,0,,走吧乔治\N{\c&H00F8FB&\fnArial\fs14}Come on George.
+Dialogue: 0,1:14:59.14,1:15:00.36,Chinese,,0,0,0,,你母亲还好吗\N{\c&H00F8FB&\fnArial\fs14}How is your mother?
+Dialogue: 0,1:15:01.45,1:15:07.23,Chinese,,0,0,0,,她很伤心 最近老得很快\N{\c&H00F8FB&\fnArial\fs14}Well, she's sad. And she's got much older very quickly.
+Dialogue: 0,1:15:08.62,1:15:09.97,Chinese,,0,0,0,,那件事太糟了\N{\c&H00F8FB&\fnArial\fs14}It was a terrible thing.
+Dialogue: 0,1:15:10.39,1:15:13.53,Chinese,,0,0,0,,我们都去参加葬礼的弥撒了 我父母和我\N{\c&H00F8FB&\fnArial\fs14}We all went to the funeral mass. My mother and my father and myself.
+Dialogue: 0,1:15:14.52,1:15:15.83,Chinese,,0,0,0,,我之前不知道呢\N{\c&H00F8FB&\fnArial\fs14}I did not know that.
+Dialogue: 0,1:15:15.96,1:15:19.32,Chinese,,0,0,0,,我母亲跟你姐姐一起打高尔夫 她很喜欢你姐姐\N{\c&H00F8FB&\fnArial\fs14}My mother played golf with her, you know. she is very fond of her.
+Dialogue: 0,1:15:20.05,1:15:25.12,Chinese,,0,0,0,,你姐姐的死是我记忆中这镇上发生的最悲伤的事情\N{\c&H00F8FB&\fnArial\fs14}It was the saddest thing that happened in the town that I can remember.
+Dialogue: 0,1:15:27.21,1:15:31.53,Chinese,,0,0,0,,-谢谢你 -你们俩快来啊\N{\c&H00F8FB&\fnArial\fs14}- Thank you. - Come on you two.
+Dialogue: 0,1:15:36.68,1:15:40.55,Chinese,,0,0,0,,-那些摩天大楼怎么样 -那是曼哈顿\N{\c&H00F8FB&\fnArial\fs14}- What about the skyscrapers? - But that is Manhattan.
+Dialogue: 0,1:15:40.57,1:15:44.45,Chinese,,0,0,0,,我住在布鲁克林 我的工作在布鲁克林 如果我出去玩 也在布鲁克林\N{\c&H00F8FB&\fnArial\fs14}I live in Brooklyn and I work in Brooklyn. And if I go out, I go out in Brooklyn.
+Dialogue: 0,1:15:44.57,1:15:46.85,Chinese,,0,0,0,,所有的摩天大楼都在河对面\N{\c&H00F8FB&\fnArial\fs14}All the skyscrapers are across the river.
+Dialogue: 0,1:15:46.98,1:15:50.36,Chinese,,0,0,0,,-你在美国的生活听起来并不是很光鲜啊    -因为它的确不是\N{\c&H00F8FB&\fnArial\fs14}- You don't make it sound very glamorous. - It's not, really.
+Dialogue: 0,1:15:50.39,1:15:51.62,Chinese,,0,0,0,,连那个 唉你叫它什么来着\N{\c&H00F8FB&\fnArial\fs14}Not even… What do you call it?
+Dialogue: 0,1:15:51.65,1:15:53.04,Chinese,,0,0,0,,你工作的那个百货\N{\c&H00F8FB&\fnArial\fs14}The department store where you work?
+Dialogue: 0,1:15:53.06,1:15:55.70,Chinese,,0,0,0,,巴尔托奇百货 店里卖的东西都很好\N{\c&H00F8FB&\fnArial\fs14}Oh, Bartocci's? Well, it sells lovely things,
+Dialogue: 0,1:15:55.72,1:15:57.62,Chinese,,0,0,0,,不过大部分我都买不起\N{\c&H00F8FB&\fnArial\fs14}but I can't afford many of them ...
+Dialogue: 0,1:15:57.64,1:15:58.89,Chinese,,0,0,0,,而且我也不是很喜欢那份工作\N{\c&H00F8FB&\fnArial\fs14}and I don't like the works.
+Dialogue: 0,1:15:58.91,1:16:00.26,Chinese,,0,0,0,,那你想做什么\N{\c&H00F8FB&\fnArial\fs14}What would you like to do?
+Dialogue: 0,1:16:01.93,1:16:03.84,Chinese,,0,0,0,,我想做露丝之前的工作\N{\c&H00F8FB&\fnArial\fs14}I want to do what Rose did.
+Dialogue: 0,1:16:03.87,1:16:06.18,Chinese,,0,0,0,,我想在办公室里跟数字打交道\N{\c&H00F8FB&\fnArial\fs14}I want to work in an office and deal with numbers.
+Dialogue: 0,1:16:06.21,1:16:07.89,Chinese,,0,0,0,,你应该去戴维斯那问问\N{\c&H00F8FB&\fnArial\fs14}You should call in at Davis's.
+Dialogue: 0,1:16:08.02,1:16:10.45,Chinese,,0,0,0,,他们还没能找到接露丝班的人\N{\c&H00F8FB&\fnArial\fs14}They haven't managed to replace Rose, you know.
+Dialogue: 0,1:16:10.48,1:16:12.66,Chinese,,0,0,0,,婚礼一结束我就会回纽约了\N{\c&H00F8FB&\fnArial\fs14}I'll be going back to New York straight after the wedding.
+Dialogue: 0,1:16:12.69,1:16:15.39,Chinese,,0,0,0,,但走之前你应该也想要挣点钱吧\N{\c&H00F8FB&\fnArial\fs14}But you might want to earn a little money in the meantime.
+Dialogue: 0,1:16:16.12,1:16:17.80,Chinese,,0,0,0,,我相信你去上班他们一定会很高兴的\N{\c&H00F8FB&\fnArial\fs14}I'm sure they'd be glad to have you.
+Dialogue: 0,1:16:17.82,1:16:19.43,Chinese,,0,0,0,,少来 你只是想让艾莉丝留下来\N{\c&H00F8FB&\fnArial\fs14}Oh, you just want her to stay.
+Dialogue: 0,1:16:22.07,1:16:23.64,Chinese,,0,0,0,,我只是在替艾莉丝着想\N{\c&H00F8FB&\fnArial\fs14}I am only thinking of Eilis.
+Dialogue: 0,1:16:23.66,1:16:26.31,Chinese,,0,0,0,,你听到了吗艾莉丝 他想着你呢\N{\c&H00F8FB&\fnArial\fs14}Did you hear that Eilis? He's only thinking of you.
+Dialogue: 0,1:16:34.66,1:16:35.83,Chinese,,0,0,0,,就是这里\N{\c&H00F8FB&\fnArial\fs14}That's it, that's it...
+Dialogue: 0,1:16:43.53,1:16:44.64,Chinese,,0,0,0,,-晚安    -晚安\N{\c&H00F8FB&\fnArial\fs14}- Good night. - Good night.
+Dialogue: 0,1:16:44.73,1:16:45.85,Chinese,,0,0,0,,-再见 -再见\N{\c&H00F8FB&\fnArial\fs14}- See you. - See you.
+Dialogue: 0,1:16:45.94,1:16:47.05,Chinese,,0,0,0,,再见\N{\c&H00F8FB&\fnArial\fs14}Bye.
+Dialogue: 0,1:17:04.81,1:17:08.73,Chinese,,0,0,0,,-你今晚过得怎么样    -挺不错的 谢谢\N{\c&H00F8FB&\fnArial\fs14}- How's your evening? - It's very nice, thank you.
+Dialogue: 0,1:17:08.96,1:17:11.39,Chinese,,0,0,0,,车里那个跟他们一起的是吉姆·法瑞尔吗\N{\c&H00F8FB&\fnArial\fs14}Was that Jim Farrell I saw on the car with them?
+Dialogue: 0,1:17:12.68,1:17:13.74,Chinese,,0,0,0,,是的\N{\c&H00F8FB&\fnArial\fs14}It was.
+Dialogue: 0,1:17:13.76,1:17:16.05,Chinese,,0,0,0,,你知道吗 他的父母要搬到乡下养老去了\N{\c&H00F8FB&\fnArial\fs14}His parents are moving, you know. They're retiring to the country.
+Dialogue: 0,1:17:16.07,1:17:17.98,Chinese,,0,0,0,,他会一个人住在镇子上的大房子里\N{\c&H00F8FB&\fnArial\fs14}He'll be in that big house on his own.
+Dialogue: 0,1:17:18.00,1:17:19.52,Chinese,,0,0,0,,是吗\N{\c&H00F8FB&\fnArial\fs14}Is that right?
+Dialogue: 0,1:17:21.28,1:17:23.15,Chinese,,0,0,0,,对某些人来说 他条件挺不错的\N{\c&H00F8FB&\fnArial\fs14}It's a catch for "someone".
+Dialogue: 0,1:17:25.44,1:17:27.01,Chinese,,0,0,0,,妈妈 晚安\N{\c&H00F8FB&\fnArial\fs14}Goodnight Mommy.
+Dialogue: 0,1:17:38.98,1:17:40.99,Chinese,,0,0,0,,-嗨 艾莉丝 - 嗨 布伦南太太\N{\c&H00F8FB&\fnArial\fs14}- Hello Eilis. - Hello Ms. Brennan..
+Dialogue: 0,1:17:41.18,1:17:42.93,Chinese,,0,0,0,,我喜欢她的打扮\N{\c&H00F8FB&\fnArial\fs14}I like her style.
+Dialogue: 0,1:17:50.57,1:17:52.72,Chinese,,0,0,0,,-谢天谢地你终于回来了 -发生什么事了\N{\c&H00F8FB&\fnArial\fs14}- Thank Goodness you're back! - What's the matter?
+Dialogue: 0,1:17:52.74,1:17:54.39,Chinese,,0,0,0,,戴维斯那的一个伙计刚刚来了\N{\c&H00F8FB&\fnArial\fs14}A lad from Davis's came round.
+Dialogue: 0,1:17:54.42,1:17:55.74,Chinese,,0,0,0,,他们会计部门有点困难\N{\c&H00F8FB&\fnArial\fs14}They have a problem in their accounts department
+Dialogue: 0,1:17:55.77,1:17:57.75,Chinese,,0,0,0,,-想让你马上过去 -就这样吗\N{\c&H00F8FB&\fnArial\fs14}- And they need you up there straight away. - Is that all?
+Dialogue: 0,1:17:57.77,1:18:00.24,Chinese,,0,0,0,,-那我先把买来的东西放起来 -不不不 我来\N{\c&H00F8FB&\fnArial\fs14}- I'll just put the shopping away. - No, no, leave it.
+Dialogue: 0,1:18:00.27,1:18:01.86,Chinese,,0,0,0,,那小伙子说的是 马上\N{\c&H00F8FB&\fnArial\fs14}“Straight away”, the young fella said.
+Dialogue: 0,1:18:01.88,1:18:04.69,Chinese,,0,0,0,,他说什么不重要 母亲 我又不是那里的职员\N{\c&H00F8FB&\fnArial\fs14}It doesn't matter what he said, Mother. I'm not an employee.
+Dialogue: 0,1:18:04.71,1:18:05.88,Chinese,,0,0,0,,我要去也只是帮个忙\N{\c&H00F8FB&\fnArial\fs14}I'd be doing them a favour.
+Dialogue: 0,1:18:05.91,1:18:07.91,Chinese,,0,0,0,,你就让我来放这些行吗\N{\c&H00F8FB&\fnArial\fs14}Please let me do the shopping.
+Dialogue: 0,1:18:16.81,1:18:19.04,Chinese,,0,0,0,,麻烦的是 现在是我们的忙季\N{\c&H00F8FB&\fnArial\fs14}The problem is that it's our busy season,
+Dialogue: 0,1:18:19.06,1:18:22.35,Chinese,,0,0,0,,所有的中层工人和司机上周都在加班\N{\c&H00F8FB&\fnArial\fs14}so all the middle workers and drivers did overtime last week.
+Dialogue: 0,1:18:22.38,1:18:25.31,Chinese,,0,0,0,,他们已经把加班的单子填好了\N{\c&H00F8FB&\fnArial\fs14}Well, they filled out the overtime slips
+Dialogue: 0,1:18:25.41,1:18:27.15,Chinese,,0,0,0,,但是还没人能算出来加班费\N{\c&H00F8FB&\fnArial\fs14}but there's been nobody to work it all out,
+Dialogue: 0,1:18:27.22,1:18:28.58,Chinese,,0,0,0,,加到他们的工资单\N{\c&H00F8FB&\fnArial\fs14}to add to the wage slips.
+Dialogue: 0,1:18:28.61,1:18:30.44,Chinese,,0,0,0,,有些人已经开始抱怨这事了\N{\c&H00F8FB&\fnArial\fs14}And some of the men have started to complain.
+Dialogue: 0,1:18:30.48,1:18:32.10,Chinese,,0,0,0,,我也不怪他们\N{\c&H00F8FB&\fnArial\fs14}And I can't blame them.
+Dialogue: 0,1:18:32.12,1:18:34.78,Chinese,,0,0,0,,就像你看到的一样 这儿一团糟\N{\c&H00F8FB&\fnArial\fs14}As you can see, it's all a terrible mess.
+Dialogue: 0,1:18:37.99,1:18:41.28,Chinese,,0,0,0,,这样 你给我几个小时 我能整理出一个系统来\N{\c&H00F8FB&\fnArial\fs14}Well. If you leave me for a couple of hours, I can work out a system
+Dialogue: 0,1:18:41.31,1:18:43.87,Chinese,,0,0,0,,这样不管是谁来接我的班都不会有任何问题\N{\c&H00F8FB&\fnArial\fs14}so that whoever comes in after me won't have any trouble.
+Dialogue: 0,1:18:54.22,1:18:55.64,Chinese,,0,0,0,,你好 艾莉丝\N{\c&H00F8FB&\fnArial\fs14}Hello, Eilis.
+Dialogue: 0,1:18:55.66,1:18:58.42,Chinese,,0,0,0,,玛利亚一直在跟我讲你的工作有多么的出色\N{\c&H00F8FB&\fnArial\fs14}Maria has been telling me you have done the most marvellous job here.
+Dialogue: 0,1:18:58.45,1:18:59.70,Chinese,,0,0,0,,谢谢\N{\c&H00F8FB&\fnArial\fs14}Thank you.
+Dialogue: 0,1:18:59.72,1:19:00.94,Chinese,,0,0,0,,我们理应早就知道你的\N{\c&H00F8FB&\fnArial\fs14}We should have known you would, of course.
+Dialogue: 0,1:19:00.96,1:19:02.74,Chinese,,0,0,0,,毕竟你是露丝的妹妹\N{\c&H00F8FB&\fnArial\fs14}You're Rose's sister, after all.
+Dialogue: 0,1:19:02.76,1:19:04.96,Chinese,,0,0,0,,有人告诉我你有会计证书是吗\N{\c&H00F8FB&\fnArial\fs14}I'm told you have a certificate in book-keeping?
+Dialogue: 0,1:19:04.97,1:19:06.51,Chinese,,0,0,0,,是美国的会计证书吗\N{\c&H00F8FB&\fnArial\fs14}Is it in American book-keeping?
+Dialogue: 0,1:19:06.51,1:19:08.15,Chinese,,0,0,0,,我是在美国拿的证书\N{\c&H00F8FB&\fnArial\fs14}I got the certificate in America,
+Dialogue: 0,1:19:08.17,1:19:09.87,Chinese,,0,0,0,,但是这两个体系是非常相似的\N{\c&H00F8FB&\fnArial\fs14}but the two systems are very similar.
+Dialogue: 0,1:19:10.60,1:19:14.93,Chinese,,0,0,0,,我们在忙季确实需要找会计处理工资和其他事务的\N{\c&H00F8FB&\fnArial\fs14}Well, we'll certainly need someone to deal with wages and so on during the busy season.
+Dialogue: 0,1:19:15.03,1:19:18.06,Chinese,,0,0,0,,我希望你能继续在这里兼职\N{\c&H00F8FB&\fnArial\fs14}so I'd like you to continue on a part-time basis.
+Dialogue: 0,1:19:18.06,1:19:20.27,Chinese,,0,0,0,,我们可以看看情况 之后我们再谈\N{\c&H00F8FB&\fnArial\fs14}Let's see how that goes and then we'll speak again.
+Dialogue: 0,1:19:20.50,1:19:22.73,Chinese,,0,0,0,,我不久以后就会回美国了\N{\c&H00F8FB&\fnArial\fs14}I'll be going back to the United States soon.
+Dialogue: 0,1:19:22.73,1:19:25.09,Chinese,,0,0,0,,我说了 在我们彼此都做了最后决定之前\N{\c&H00F8FB&\fnArial\fs14}As I said. Lets you and I speak again before we make
+Dialogue: 0,1:19:25.09,1:19:27.40,Chinese,,0,0,0,,我们可以再谈一次\N{\c&H00F8FB&\fnArial\fs14}any firm decisions one way or the other.
+Dialogue: 0,1:19:29.66,1:19:32.45,Chinese,,0,0,0,,好的 一定 布朗先生 谢谢\N{\c&H00F8FB&\fnArial\fs14}Yes, Mr. Brown. Of course. Thank you.
+Dialogue: 0,1:19:33.07,1:19:35.65,Chinese,,0,0,0,,你现在可以去找玛利亚拿你今天的工资了\N{\c&H00F8FB&\fnArial\fs14}Now, if you go and see Maria, she'll have your money for today.
+Dialogue: 0,1:20:38.85,1:20:41.57,Chinese,,0,0,0,,-我都要忘记了 -忘记什么\N{\c&H00F8FB&\fnArial\fs14}- I'd forgotten. - What?
+Dialogue: 0,1:20:42.85,1:20:44.18,Chinese,,0,0,0,,眼前的景色\N{\c&H00F8FB&\fnArial\fs14}This…
+Dialogue: 0,1:20:46.35,1:20:47.98,Chinese,,0,0,0,,布鲁克林有海滩吗\N{\c&H00F8FB&\fnArial\fs14}You have beaches in Brooklyn?
+Dialogue: 0,1:20:48.96,1:20:51.54,Chinese,,0,0,0,,有 但海滩上有很多人\N{\c&H00F8FB&\fnArial\fs14}Yes, but they are just very crowded.
+Dialogue: 0,1:20:52.07,1:20:54.99,Chinese,,0,0,0,,过一会儿这里也会有挺多散步的人的\N{\c&H00F8FB&\fnArial\fs14}There will probably be quite a few walkers along here later.
+Dialogue: 0,1:20:56.37,1:20:59.58,Chinese,,0,0,0,,是吧 不过还是不一样\N{\c&H00F8FB&\fnArial\fs14}Yes. It's still not the same.
+Dialogue: 0,1:21:01.62,1:21:02.81,Chinese,,0,0,0,,那确实\N{\c&H00F8FB&\fnArial\fs14}I'm sure it's not.
+Dialogue: 0,1:21:05.01,1:21:07.41,Chinese,,0,0,0,,我们不太知道除了这里其他地方都发生了什么事\N{\c&H00F8FB&\fnArial\fs14}We don't really know anything of the rest of the world.
+Dialogue: 0,1:21:09.05,1:21:11.32,Chinese,,0,0,0,,你现在肯定觉得我们很闭塞吧\N{\c&H00F8FB&\fnArial\fs14}We must seem very backward to you now.
+Dialogue: 0,1:21:11.64,1:21:16.48,Chinese,,0,0,0,,当然没有 你是个很冷静很有教养的人 很有魅力\N{\c&H00F8FB&\fnArial\fs14}Of course not. You seem calm, and civilised. And charming.
+Dialogue: 0,1:21:23.05,1:21:24.28,Chinese,,0,0,0,,快来呀\N{\c&H00F8FB&\fnArial\fs14}Come on!
+Dialogue: 0,1:21:32.24,1:21:34.47,Chinese,,0,0,0,,我母亲想让你知道 她们的高尔夫俱乐部\N{\c&H00F8FB&\fnArial\fs14}My mother wanted you to know that the golf club…
+Dialogue: 0,1:21:34.53,1:21:36.70,Chinese,,0,0,0,,以露丝的名义设立了一个奖项\N{\c&H00F8FB&\fnArial\fs14}is inaugurating a prize in Rose's name.
+Dialogue: 0,1:21:39.69,1:21:43.41,Chinese,,0,0,0,,一个给俱乐部的新人设立的最佳得分奖\N{\c&H00F8FB&\fnArial\fs14}A special trophy for the best score by a lady newcomer at the Club.
+Dialogue: 0,1:21:45.06,1:21:47.74,Chinese,,0,0,0,,我母亲说 你姐姐总是对新人很友善\N{\c&H00F8FB&\fnArial\fs14}She was always very nice to the newcomers, my mother says.
+Dialogue: 0,1:21:51.08,1:21:52.33,Chinese,,0,0,0,,我希望这能让你开心\N{\c&H00F8FB&\fnArial\fs14}I hope you're pleased.
+Dialogue: 0,1:21:55.89,1:21:59.19,Chinese,,0,0,0,,当然\N{\c&H00F8FB&\fnArial\fs14}Yes, of course.
+Dialogue: 0,1:22:01.75,1:22:07.35,Chinese,,0,0,0,,所以说 每一年会有人得到一个露丝·蕾西奖\N{\c&H00F8FB&\fnArial\fs14}So, every year, someone will win the Rose Lacey Trophy?
+Dialogue: 0,1:22:08.41,1:22:11.76,Chinese,,0,0,0,,每年都有 只要高尔夫俱乐部还存在\N{\c&H00F8FB&\fnArial\fs14}Every year. As long as there's a golf club.
+Dialogue: 0,1:22:16.93,1:22:22.39,Chinese,,0,0,0,,她希望第一届你能去给获奖者颁奖\N{\c&H00F8FB&\fnArial\fs14}And I think she'd like you to come along and present it to the first winner.
+Dialogue: 0,1:22:26.73,1:22:29.16,Chinese,,0,0,0,,对了 我母亲也想顺便见见你\N{\c&H00F8FB&\fnArial\fs14}Yeah and my mother would like to meet you too, by the way.
+Dialogue: 0,1:22:31.39,1:22:33.61,Chinese,,0,0,0,,我会安排一个时间请你来喝茶\N{\c&H00F8FB&\fnArial\fs14}I'm supposed to arrange a time when you can come around for tea.
+Dialogue: 0,1:22:35.79,1:22:37.75,Chinese,,0,0,0,,谢谢你 我会去的\N{\c&H00F8FB&\fnArial\fs14}Thank you, I'd like that.
+Dialogue: 0,1:22:43.48,1:22:45.75,Chinese,,0,0,0,,要是我走之前就能像现在这样就好了\N{\c&H00F8FB&\fnArial\fs14}I wish it had been like this before I went.
+Dialogue: 0,1:22:46.87,1:22:50.64,Chinese,,0,0,0,,-露丝死之前   -像什么样\N{\c&H00F8FB&\fnArial\fs14}- Before Rose died. - Like what?
+Dialogue: 0,1:22:52.26,1:22:56.25,Chinese,,0,0,0,,之前我什么都没有 而现在 我有了一份工作 还...\N{\c&H00F8FB&\fnArial\fs14}There was nothing here for me here before. And now I have a job, and…
+Dialogue: 0,1:22:57.43,1:22:58.43,Chinese,,0,0,0,,这里行吗\N{\c&H00F8FB&\fnArial\fs14}Here?
+Dialogue: 0,1:23:13.69,1:23:17.01,Chinese,,0,0,0,,-这是美国人的方法吗    -是的 不错呢 是吧\N{\c&H00F8FB&\fnArial\fs14}- Is that an American trick? - Yes. It’s a good one, isn’t it?
+Dialogue: 0,1:23:19.21,1:23:22.12,Chinese,,0,0,0,,这让人挺郁闷的 我们怎么就想不出这样的方法呢\N{\c&H00F8FB&\fnArial\fs14}It's depressing, though, that we don't think of things like that, isn't it?
+Dialogue: 0,1:23:22.63,1:23:25.12,Chinese,,0,0,0,,我是说 他们多久前就想到了\N{\c&H00F8FB&\fnArial\fs14}I mean how long have they known about it?
+Dialogue: 0,1:23:25.44,1:23:27.20,Chinese,,0,0,0,,说不定都一百年了\N{\c&H00F8FB&\fnArial\fs14}A hundred years, probably.
+Dialogue: 0,1:23:27.22,1:23:30.16,Chinese,,0,0,0,,我觉得一百年前他们应该还没有这样的泳衣吧\N{\c&H00F8FB&\fnArial\fs14}I don't think they had bathing suits like that a hundred years ago.
+Dialogue: 0,1:23:31.92,1:23:33.66,Chinese,,0,0,0,,可我们现在都还没有呢\N{\c&H00F8FB&\fnArial\fs14}And we still don't have them now.
+Dialogue: 0,1:23:36.94,1:23:38.28,Chinese,,0,0,0,,唉 来吧\N{\c&H00F8FB&\fnArial\fs14}Well, come on.
+Dialogue: 0,1:23:46.48,1:23:48.60,Chinese,,0,0,0,,你周六想去看道奇队的球赛吗\N{\c&H00F8FB&\fnArial\fs14}You want to go see the Dodgers on Saturday?
+Dialogue: 0,1:23:48.63,1:23:49.72,Chinese,,0,0,0,,当然了\N{\c&H00F8FB&\fnArial\fs14}Sure.
+Dialogue: 0,1:23:49.75,1:23:51.83,Chinese,,0,0,0,,行 那你帮我做件事行吗\N{\c&H00F8FB&\fnArial\fs14}Okay, will you do something for me?
+Dialogue: 0,1:23:52.16,1:23:53.24,Chinese,,0,0,0,,什么事\N{\c&H00F8FB&\fnArial\fs14}What?
+Dialogue: 0,1:23:53.27,1:23:57.20,Chinese,,0,0,0,,如果你嘲笑我 或者跟家里任何一个人说起这件事\N{\c&H00F8FB&\fnArial\fs14}If you laugh, or you say anything about this to anybody in the family,
+Dialogue: 0,1:23:57.23,1:23:59.37,Chinese,,0,0,0,,周六的比赛你就没得看了\N{\c&H00F8FB&\fnArial\fs14}you don't get to see the Dodgers on Saturday.
+Dialogue: 0,1:23:59.39,1:24:01.10,Chinese,,0,0,0,,这赛季任何一场球你都看不了了\N{\c&H00F8FB&\fnArial\fs14}Or any other day of the season.
+Dialogue: 0,1:24:01.12,1:24:02.27,Chinese,,0,0,0,,而且 我还会打你一顿\N{\c&H00F8FB&\fnArial\fs14}Also, you get a beating.
+Dialogue: 0,1:24:02.30,1:24:04.76,Chinese,,0,0,0,,那我还是不掺合比较好\N{\c&H00F8FB&\fnArial\fs14}Maybe it's just better if I don't get involved.
+Dialogue: 0,1:24:04.78,1:24:07.20,Chinese,,0,0,0,,弗兰基 我真的很需要你帮忙\N{\c&H00F8FB&\fnArial\fs14}I really need your help Frankie.
+Dialogue: 0,1:24:07.23,1:24:09.19,Chinese,,0,0,0,,你知道你是这个家里读写能力最好的人\N{\c&H00F8FB&\fnArial\fs14}You know you're the best writer and reader in the family?
+Dialogue: 0,1:24:09.21,1:24:09.99,Chinese,,0,0,0,,我知道\N{\c&H00F8FB&\fnArial\fs14}Yes.
+Dialogue: 0,1:24:10.01,1:24:14.58,Chinese,,0,0,0,,我试着给艾莉丝写信 我也说不清该怎么写\N{\c&H00F8FB&\fnArial\fs14}I'm trying to write to Eilis, and I want it to be, I don't know ...
+Dialogue: 0,1:24:14.60,1:24:17.32,Chinese,,0,0,0,,你之前不是写过了吗 大概五封信\N{\c&H00F8FB&\fnArial\fs14}You wrote before already. About five times.
+Dialogue: 0,1:24:17.35,1:24:20.10,Chinese,,0,0,0,,是的 弗兰基 但是它们都不够好\N{\c&H00F8FB&\fnArial\fs14}Yeah, but they are no good Frankie and ...
+Dialogue: 0,1:24:22.68,1:24:24.78,Chinese,,0,0,0,,而且她只回过一次信\N{\c&H00F8FB&\fnArial\fs14}And she's only written back once.
+Dialogue: 0,1:24:25.20,1:24:29.00,Chinese,,0,0,0,,她之前从未读过我写的东西 我怕她看了会嫌弃我\N{\c&H00F8FB&\fnArial\fs14}She's never read my writing before. I'm worried I'm putting her off me.
+Dialogue: 0,1:24:29.98,1:24:34.13,Chinese,,0,0,0,,听着 我才八岁 我才不懂你们亲亲的事\N{\c&H00F8FB&\fnArial\fs14}Listen, I'm eight years old, I don't know anything about kissing.
+Dialogue: 0,1:24:34.16,1:24:36.32,Chinese,,0,0,0,,你不需要知道这些事情\N{\c&H00F8FB&\fnArial\fs14}You don't need to know anything about kissing.
+Dialogue: 0,1:24:36.44,1:24:40.05,Chinese,,0,0,0,,你只需知道拼写 还有\N{\c&H00F8FB&\fnArial\fs14}You need to know about spelling and...and...
+Dialogue: 0,1:24:40.07,1:24:43.49,Chinese,,0,0,0,,-语法吗 -没错 你帮不帮我看\N{\c&H00F8FB&\fnArial\fs14}- Grammar? - Yeah, Will you look?
+Dialogue: 0,1:24:51.72,1:24:56.44,Chinese,,0,0,0,,亲爱的艾莉丝 我希望你在爱尔兰一切安好\N{\c&H00F8FB&\fnArial\fs14}Dear Eilis, I hope that you're doing well in Ireland.
+Dialogue: 0,1:24:56.47,1:24:59.30,Chinese,,0,0,0,,我希望你的母亲没那么伤心了\N{\c&H00F8FB&\fnArial\fs14}I hope that your mother is feeling less sad.
+Dialogue: 0,1:25:00.83,1:25:05.78,Chinese,,0,0,0,,你的朋友很快就会完婚 你就能回到这里了\N{\c&H00F8FB&\fnArial\fs14}It will not be long before your friend gets married and you can come home.
+Dialogue: 0,1:25:08.76,1:25:12.25,Chinese,,0,0,0,,这一周好像全世界的地下室都发了大水\N{\c&H00F8FB&\fnArial\fs14}This week it is like the whole world's basements are flooding.
+Dialogue: 0,1:25:12.27,1:25:18.57,Chinese,,0,0,0,,我修了三家 我一直在努力工作攒钱\N{\c&H00F8FB&\fnArial\fs14}I fixed three. I've been working hard. I've been saving money.
+Dialogue: 0,1:25:19.28,1:25:21.59,Chinese,,0,0,0,,大家都时常向我问起你\N{\c&H00F8FB&\fnArial\fs14}Everybody asks me about you all the time.
+Dialogue: 0,1:25:22.01,1:25:26.56,Chinese,,0,0,0,,你单词拼错了 少了一个E\N{\c&H00F8FB&\fnArial\fs14}You missed out the "e" I think. It is "everybody."
+Dialogue: 0,1:25:28.07,1:25:31.02,Chinese,,0,0,0,,这大概就是我所有的新鲜事了吧\N{\c&H00F8FB&\fnArial\fs14}Anyway, I think that is all my news.
+Dialogue: 0,1:25:31.05,1:25:34.47,Chinese,,0,0,0,,我的父母还有兄弟们都问你好\N{\c&H00F8FB&\fnArial\fs14}Mom and dad and all my brothers they all say hello.
+Dialogue: 0,1:25:35.54,1:25:38.56,Chinese,,0,0,0,,我每时每刻都在思念着你\N{\c&H00F8FB&\fnArial\fs14}I think about you most minutes of most days.
+Dialogue: 0,1:25:40.14,1:25:42.80,Chinese,,0,0,0,,甚至当我在看道奇队的比赛时\N{\c&H00F8FB&\fnArial\fs14}Even when I go see the Dodgers.
+Dialogue: 0,1:25:42.80,1:25:44.95,Chinese,,0,0,0,,我心思都不在球赛上\N{\c&H00F8FB&\fnArial\fs14}I do not concentrate on the game.
+Dialogue: 0,1:25:46.42,1:25:48.96,Chinese,,0,0,0,,爱你的托尼\N{\c&H00F8FB&\fnArial\fs14}With love, your Tony.
+Dialogue: 0,1:26:47.47,1:26:48.85,Chinese,,0,0,0,,你没有上发油\N{\c&H00F8FB&\fnArial\fs14}No hair oil.
+Dialogue: 0,1:26:49.63,1:26:51.88,Chinese,,0,0,0,,还有这不是休闲外套 这是运动夹克\N{\c&H00F8FB&\fnArial\fs14}And that's not a blazer, it's a sports jacket.
+Dialogue: 0,1:26:51.91,1:26:53.94,Chinese,,0,0,0,,吉姆·法瑞尔 你是不是穿上了伪装\N{\c&H00F8FB&\fnArial\fs14}Have you come out in disguise, Jim Farrell?
+Dialogue: 0,1:26:53.96,1:26:55.12,Chinese,,0,0,0,,你是想诱骗我吗\N{\c&H00F8FB&\fnArial\fs14}Are you trying to trick me?
+Dialogue: 0,1:26:57.22,1:27:01.10,Chinese,,0,0,0,,当你说我们那群人是一路货色的时候 我明白你的意思\N{\c&H00F8FB&\fnArial\fs14}I knew what you meant, when you said we're all the same.
+Dialogue: 0,1:27:02.20,1:27:05.25,Chinese,,0,0,0,,或许在你看来 我生活地非常容易\N{\c&H00F8FB&\fnArial\fs14}It made me think that my life must seem very east to you.
+Dialogue: 0,1:27:05.28,1:27:08.48,Chinese,,0,0,0,,接管父亲的酒吧 住在父母的房子里\N{\c&H00F8FB&\fnArial\fs14}I run my father's bar, going to live in my parents' house.
+Dialogue: 0,1:27:09.71,1:27:11.34,Chinese,,0,0,0,,我能想象到外人是怎么看待这一切的\N{\c&H00F8FB&\fnArial\fs14}I know what that must look like from the outside
+Dialogue: 0,1:27:11.38,1:27:15.35,Chinese,,0,0,0,,但其实并不是那样\N{\c&H00F8FB&\fnArial\fs14}But it doesn't feel like that.
+Dialogue: 0,1:27:17.11,1:27:18.64,Chinese,,0,0,0,,那是什么样的\N{\c&H00F8FB&\fnArial\fs14}What does it feel like?
+Dialogue: 0,1:27:22.71,1:27:24.11,Chinese,,0,0,0,,我从没去过任何地方\N{\c&H00F8FB&\fnArial\fs14}I've never been anywhere.
+Dialogue: 0,1:27:24.14,1:27:26.15,Chinese,,0,0,0,,我甚至都没到过英格兰\N{\c&H00F8FB&\fnArial\fs14}I have never even been to England.
+Dialogue: 0,1:27:26.17,1:27:31.12,Chinese,,0,0,0,,我想去看看 伦敦 巴黎 还有罗马 纽约\N{\c&H00F8FB&\fnArial\fs14}But I'd like to see London, and Paris and Rome. New York.
+Dialogue: 0,1:27:31.78,1:27:35.64,Chinese,,0,0,0,,一想到我这辈子可能都踏不出爱尔兰 就觉得可怕\N{\c&H00F8FB&\fnArial\fs14}It frightens me, the idea of dying without ever leaving Ireland.
+Dialogue: 0,1:27:35.67,1:27:37.32,Chinese,,0,0,0,,当然还有些别的事情\N{\c&H00F8FB&\fnArial\fs14}And there are other things too ...
+Dialogue: 0,1:27:39.40,1:27:43.52,Chinese,,0,0,0,,抱歉 我想问你很多事 但我却一直在说\N{\c&H00F8FB&\fnArial\fs14}I'm so sorry. I wanted to ask you a thousand things and all I've done is talked.
+Dialogue: 0,1:27:43.74,1:27:44.83,Chinese,,0,0,0,,没事 我喜欢听\N{\c&H00F8FB&\fnArial\fs14}I am glad.
+Dialogue: 0,1:27:45.51,1:27:47.64,Chinese,,0,0,0,,-真的吗   -真的\N{\c&H00F8FB&\fnArial\fs14}- Really? - Yes.
+Dialogue: 0,1:27:50.51,1:27:53.00,Chinese,,0,0,0,,你能快点抽完你那破烟 然后过来坐下吗\N{\c&H00F8FB&\fnArial\fs14}Will you finsh that wretched pipe and sit with us?
+Dialogue: 0,1:27:53.02,1:27:54.90,Chinese,,0,0,0,,我在这儿也听得一清二楚\N{\c&H00F8FB&\fnArial\fs14}I can hear perfectly well from where I am.
+Dialogue: 0,1:27:54.92,1:27:56.89,Chinese,,0,0,0,,我们可不是来给你提供娱乐节目的\N{\c&H00F8FB&\fnArial\fs14}We are not here to provide you with entertainment.
+Dialogue: 0,1:27:56.92,1:27:59.37,Chinese,,0,0,0,,别担心 很多年前我就明白这个道理了\N{\c&H00F8FB&\fnArial\fs14}Oh, don't you worry. I found that out many years ago.
+Dialogue: 0,1:27:59.80,1:28:03.69,Chinese,,0,0,0,,艾莉丝 你别理他 反正吉姆像我 不随他\N{\c&H00F8FB&\fnArial\fs14}Just ignore him, Eilis. It's as well Jim takes after me, but him.
+Dialogue: 0,1:28:03.72,1:28:04.77,Chinese,,0,0,0,,你大声点\N{\c&H00F8FB&\fnArial\fs14}Speak up!
+Dialogue: 0,1:28:05.09,1:28:07.31,Chinese,,0,0,0,,你们期待搬家吗\N{\c&H00F8FB&\fnArial\fs14}Are you looking forward to your move?
+Dialogue: 0,1:28:07.33,1:28:09.79,Chinese,,0,0,0,,我会想念恩尼斯科西的 但是格伦布里恩是个美丽安宁的地方\N{\c&H00F8FB&\fnArial\fs14}Ah, I will miss Enniscorthy. But it's lovely and quiet in Glenbrien.
+Dialogue: 0,1:28:10.12,1:28:12.70,Chinese,,0,0,0,,我妈担心我一个人在这\N{\c&H00F8FB&\fnArial\fs14}My mother's worried about leaving me here on me own.
+Dialogue: 0,1:28:12.73,1:28:14.52,Chinese,,0,0,0,,她怕我会毁了这地方\N{\c&H00F8FB&\fnArial\fs14}She thinks I'll destroy the place.
+Dialogue: 0,1:28:14.55,1:28:16.17,Chinese,,0,0,0,,我希望你不要单身一辈子\N{\c&H00F8FB&\fnArial\fs14}I'm hoping you won't be on your own forever.
+Dialogue: 0,1:28:16.29,1:28:17.61,Chinese,,0,0,0,,我相信他不会的\N{\c&H00F8FB&\fnArial\fs14}I'm sure he won't.
+Dialogue: 0,1:28:18.82,1:28:20.13,Chinese,,0,0,0,,我的意思是\N{\c&H00F8FB&\fnArial\fs14}I mean...
+Dialogue: 0,1:28:23.27,1:28:25.89,Chinese,,0,0,0,,-今天天气真好不是吗    -是个好天气\N{\c&H00F8FB&\fnArial\fs14}- God, aren't we blessed with this weather. - It's lovely.
+Dialogue: 0,1:28:42.19,1:28:46.13,Chinese,,0,0,0,,亲爱的托尼 感谢你的来信\N{\c&H00F8FB&\fnArial\fs14}Dear Tony, thank you for your letters.
+Dialogue: 0,1:28:47.30,1:28:48.82,Chinese,,0,0,0,,我想要你知道\N{\c&H00F8FB&\fnArial\fs14}I want you to know that...
+Dialogue: 0,1:28:52.84,1:28:54.35,Chinese,,0,0,0,,我不知道我想跟你说啥\N{\c&H00F8FB&\fnArial\fs14}I don't know what I want you to know.
+Dialogue: 0,1:29:08.31,1:29:09.97,Chinese,,0,0,0,,我不想坐在很后面的位置\N{\c&H00F8FB&\fnArial\fs14}I don't want to be sitting right at the back.
+Dialogue: 0,1:29:09.99,1:29:12.39,Chinese,,0,0,0,,我会确保你们坐在教堂最好的位置\N{\c&H00F8FB&\fnArial\fs14}I'll make sure you get the best seats in the house.
+Dialogue: 0,1:29:12.62,1:29:15.61,Chinese,,0,0,0,,但是坐在南希和乔治边上也很奇怪\N{\c&H00F8FB&\fnArial\fs14}Oh, it wouldn't feel right sitting up there with Nancy and George.
+Dialogue: 0,1:29:16.37,1:29:19.01,Chinese,,0,0,0,,那我们就坐在教堂内第二好的位置上\N{\c&H00F8FB&\fnArial\fs14}We'll find the second best seats in the house then.
+Dialogue: 0,1:29:21.59,1:29:24.91,Chinese,,0,0,0,,我先去为你们留个好位置可以吗 蕾西太太\N{\c&H00F8FB&\fnArial\fs14}Would you like me to run ahead and save you a couple of places, Mrs. Lacey?
+Dialogue: 0,1:29:24.93,1:29:27.06,Chinese,,0,0,0,,不麻烦你吗吉姆 那真是太好了\N{\c&H00F8FB&\fnArial\fs14}Would you mind Jim? That would be grand.
+Dialogue: 0,1:29:31.07,1:29:33.59,Chinese,,0,0,0,,-真是一位绅士 不是嘛  -没错\N{\c&H00F8FB&\fnArial\fs14}- Such a gentleman, isn't he? - He is.
+Dialogue: 0,1:29:34.91,1:29:37.04,Chinese,,0,0,0,,他在最合适的时间出现在我们身边\N{\c&H00F8FB&\fnArial\fs14}He came along at just the right time for us.
+Dialogue: 0,1:29:39.74,1:29:45.24,Chinese,,0,0,0,,南希 我诚邀你在这教堂里宣誓 在上帝的见证下\N{\c&H00F8FB&\fnArial\fs14}I invite you now Nancy, to declare before God and his church ...
+Dialogue: 0,1:29:45.27,1:29:48.87,Chinese,,0,0,0,,成为乔治的妻子\N{\c&H00F8FB&\fnArial\fs14}your consent to become George's wife.
+Dialogue: 0,1:29:50.47,1:29:55.37,Chinese,,0,0,0,,我发誓 无论顺境还是逆境\N{\c&H00F8FB&\fnArial\fs14}I promise to be true to you in good times and in bad,
+Dialogue: 0,1:29:55.40,1:29:59.41,Chinese,,0,0,0,,无论疾病还是健康 我都会爱着你\N{\c&H00F8FB&\fnArial\fs14}in sickness and in health. I will love you
+Dialogue: 0,1:29:59.50,1:30:03.24,Chinese,,0,0,0,,尊重你 在我生命的每一天\N{\c&H00F8FB&\fnArial\fs14}and honour you all the days of my life.
+Dialogue: 0,1:30:04.06,1:30:05.50,Chinese,,0,0,0,,拿戒指来\N{\c&H00F8FB&\fnArial\fs14}The rings.
+Dialogue: 0,1:30:11.31,1:30:16.50,Chinese,,0,0,0,,主啊 请赐福这对戒指 戴上这对戒指的新人\N{\c&H00F8FB&\fnArial\fs14}Lord, bless these rings, grant that those who wear them
+Dialogue: 0,1:30:16.53,1:30:19.82,Chinese,,0,0,0,,能永远对彼此忠诚\N{\c&H00F8FB&\fnArial\fs14}may always be faithful to each other.
+Dialogue: 0,1:30:19.84,1:30:25.03,Chinese,,0,0,0,,愿他们遵从神意 和睦相爱\N{\c&H00F8FB&\fnArial\fs14}May they do your will and live in peace with you, and mutual love.
+Dialogue: 0,1:30:25.35,1:30:29.12,Chinese,,0,0,0,,请遵从主的圣意 阿门\N{\c&H00F8FB&\fnArial\fs14}We ask this through Christ our Lord. Amen.
+Dialogue: 0,1:30:29.74,1:30:31.09,Chinese,,0,0,0,,阿门\N{\c&H00F8FB&\fnArial\fs14}Amen.
+Dialogue: 0,1:30:40.04,1:30:45.19,Chinese,,0,0,0,,艾莉丝 听你妈说 你在这儿过的很好\N{\c&H00F8FB&\fnArial\fs14}Your mother tells me things are working out for you very well in Enniscorthy, Eilis.
+Dialogue: 0,1:30:45.99,1:30:47.90,Chinese,,0,0,0,,婚礼仪式办得很好\N{\c&H00F8FB&\fnArial\fs14}It was a lovely service.
+Dialogue: 0,1:30:47.92,1:30:52.97,Chinese,,0,0,0,,听说法瑞尔夫妇就要搬去格伦布里恩 吉姆就...\N{\c&H00F8FB&\fnArial\fs14}And Mr and Mrs Farrell are moving out to Glenbrien, so Jim will...
+Dialogue: 0,1:30:53.00,1:30:54.81,Chinese,,0,0,0,,是的 我知道\N{\c&H00F8FB&\fnArial\fs14}Yes, I know.
+Dialogue: 0,1:30:54.83,1:30:57.49,Chinese,,0,0,0,,吉姆和我答应要带我妈回车上\N{\c&H00F8FB&\fnArial\fs14}Jim and I promised my mother we'd take her back to the car.
+Dialogue: 0,1:30:57.51,1:31:02.48,Chinese,,0,0,0,,哦 听到了吗 吉姆和我 吉姆和我\N{\c&H00F8FB&\fnArial\fs14}Oh, do you hear that? “Jim and I! Jim and I!”.
+Dialogue: 0,1:31:02.50,1:31:04.21,Chinese,,0,0,0,,听你这么说 感觉好事将近了呢\N{\c&H00F8FB&\fnArial\fs14}It won't be long now, by the sound of it,
+Dialogue: 0,1:31:04.24,1:31:07.27,Chinese,,0,0,0,,你妈妈一定会很开心\N{\c&H00F8FB&\fnArial\fs14}and your mother will have a wonderful day out.
+Dialogue: 0,1:31:08.09,1:31:10.91,Chinese,,0,0,0,,抱歉 我先走一步\N{\c&H00F8FB&\fnArial\fs14}Will you excuse me?
+Dialogue: 0,1:31:20.01,1:31:21.28,Chinese,,0,0,0,,我们能谈一谈吗\N{\c&H00F8FB&\fnArial\fs14}Can we talk?
+Dialogue: 0,1:31:23.20,1:31:27.71,Chinese,,0,0,0,,-关于什么    -关于未来\N{\c&H00F8FB&\fnArial\fs14}- What about? - The future.
+Dialogue: 0,1:31:29.11,1:31:32.62,Chinese,,0,0,0,,我不能一句话不说就让你回美国了\N{\c&H00F8FB&\fnArial\fs14}I can't let you just go back to America without saying anything.
+Dialogue: 0,1:31:34.41,1:31:36.70,Chinese,,0,0,0,,这样的话 我会后悔一辈子的\N{\c&H00F8FB&\fnArial\fs14}I'd regret it for the rest of my life.
+Dialogue: 0,1:31:38.85,1:31:42.59,Chinese,,0,0,0,,所以我想说 我不想让你走\N{\c&H00F8FB&\fnArial\fs14}So, I don't want you to go.
+Dialogue: 0,1:31:43.84,1:31:46.86,Chinese,,0,0,0,,我想你留在这里 和我在一起\N{\c&H00F8FB&\fnArial\fs14}I want you to stay here, with me.
+Dialogue: 0,1:31:49.72,1:31:52.45,Chinese,,0,0,0,,我知道这意味着 我要问你另外一个问题\N{\c&H00F8FB&\fnArial\fs14}And I know that means asking you another question,
+Dialogue: 0,1:31:54.59,1:31:56.32,Chinese,,0,0,0,,我并不想吓到你\N{\c&H00F8FB&\fnArial\fs14}But I don't want to bombard you.
+Dialogue: 0,1:31:58.37,1:32:00.46,Chinese,,0,0,0,,所以我决定迟一些再问你\N{\c&H00F8FB&\fnArial\fs14}So I'll save that one for later.
+Dialogue: 0,1:32:06.16,1:32:07.49,Chinese,,0,0,0,,谢谢你\N{\c&H00F8FB&\fnArial\fs14}Thank you.
+Dialogue: 0,1:32:11.24,1:32:15.45,Chinese,,0,0,0,,我很感激 也很受宠若惊\N{\c&H00F8FB&\fnArial\fs14}I'm grateful. And I'm flattered.
+Dialogue: 0,1:32:18.19,1:32:20.08,Chinese,,0,0,0,,-就这些了吗 -不\N{\c&H00F8FB&\fnArial\fs14}- That's all? - No.
+Dialogue: 0,1:32:21.61,1:32:23.49,Chinese,,0,0,0,,当然不是\N{\c&H00F8FB&\fnArial\fs14}No, of course not.
+Dialogue: 0,1:32:29.35,1:32:30.56,Chinese,,0,0,0,,只是\N{\c&H00F8FB&\fnArial\fs14}It is just...
+Dialogue: 0,1:32:33.42,1:32:35.89,Chinese,,0,0,0,,我想象的是完全不同的另一种生活\N{\c&H00F8FB&\fnArial\fs14}I'd imagined a different life for myself.
+Dialogue: 0,1:32:37.22,1:32:38.39,Chinese,,0,0,0,,我理解你\N{\c&H00F8FB&\fnArial\fs14}I understand.
+Dialogue: 0,1:32:39.90,1:32:41.89,Chinese,,0,0,0,,但是你在这的生活 也可以一样好\N{\c&H00F8FB&\fnArial\fs14}But your life here could be just as good.
+Dialogue: 0,1:32:43.68,1:32:45.47,Chinese,,0,0,0,,甚至是更好\N{\c&H00F8FB&\fnArial\fs14}Better,even, maybe.
+Dialogue: 0,1:33:27.25,1:33:28.51,Chinese,,0,0,0,,玛丽\N{\c&H00F8FB&\fnArial\fs14}Mary!
+Dialogue: 0,1:33:28.84,1:33:30.68,Chinese,,0,0,0,,我是来请你去一趟的\N{\c&H00F8FB&\fnArial\fs14}I was just coming to fetch you.
+Dialogue: 0,1:33:30.71,1:33:33.95,Chinese,,0,0,0,,为什么要叫我去 我已经不在凯莉夫人那里工作很久了 玛丽\N{\c&H00F8FB&\fnArial\fs14}To fetch me? I haven't worked for Miss Kelly for a long time, Mary.
+Dialogue: 0,1:33:33.97,1:33:37.16,Chinese,,0,0,0,,拜托了 艾莉丝 她说让我不接到你就别回去\N{\c&H00F8FB&\fnArial\fs14}Oh, Please come Eilis. She told me not to come back without you.
+Dialogue: 0,1:33:37.19,1:33:38.68,Chinese,,0,0,0,,你知道她是什么样的人\N{\c&H00F8FB&\fnArial\fs14}You know what she's like.
+Dialogue: 0,1:33:50.04,1:33:53.79,Chinese,,0,0,0,,玛丽 我上楼和艾莉丝谈话的时候你替我照看一下店 就五分钟\N{\c&H00F8FB&\fnArial\fs14}You look after things for five minutes while I'm upstairs with Eilis, please, Mary.
+Dialogue: 0,1:33:53.82,1:33:55.44,Chinese,,0,0,0,,这个时候店里没什么顾客\N{\c&H00F8FB&\fnArial\fs14}There are no customers in there at the moment,
+Dialogue: 0,1:33:55.46,1:33:58.04,Chinese,,0,0,0,,我觉得你应该不会搞得太糟\N{\c&H00F8FB&\fnArial\fs14}so I don't think you can make too much of a mess of things.
+Dialogue: 0,1:34:19.85,1:34:22.52,Chinese,,0,0,0,,所以 你近来如何呀\N{\c&H00F8FB&\fnArial\fs14}So. How have you been getting on?
+Dialogue: 0,1:34:23.69,1:34:25.55,Chinese,,0,0,0,,谢谢凯莉夫人 一切都很好\N{\c&H00F8FB&\fnArial\fs14}Very well, thanks, Miss Kelly.
+Dialogue: 0,1:34:25.57,1:34:27.94,Chinese,,0,0,0,,我听说你在戴维斯那工作\N{\c&H00F8FB&\fnArial\fs14}I heard that you're working over at Davis's?
+Dialogue: 0,1:34:27.98,1:34:29.94,Chinese,,0,0,0,,在会计部门\N{\c&H00F8FB&\fnArial\fs14}In the accounts department?
+Dialogue: 0,1:34:30.07,1:34:31.68,Chinese,,0,0,0,,是的\N{\c&H00F8FB&\fnArial\fs14}That's right.
+Dialogue: 0,1:34:31.71,1:34:35.04,Chinese,,0,0,0,,我听到很多关于你和吉姆·法瑞尔的流言蜚语\N{\c&H00F8FB&\fnArial\fs14}And there's lots of talk about you and young Jim Farrell.
+Dialogue: 0,1:34:35.07,1:34:38.77,Chinese,,0,0,0,,你知道人们就热衷于说三道四\N{\c&H00F8FB&\fnArial\fs14}Ah, well. You know what people are like. They love to talk.
+Dialogue: 0,1:34:38.80,1:34:44.43,Chinese,,0,0,0,,这倒是真的 你还记得布雷迪太太吗\N{\c&H00F8FB&\fnArial\fs14}Yes. Do you remember Mrs. Brady?
+Dialogue: 0,1:34:46.21,1:34:49.79,Chinese,,0,0,0,,她以前常在周日早上来店里买些熏肉片\N{\c&H00F8FB&\fnArial\fs14}She usually comes into the shop on Sunday morning for her rashers.
+Dialogue: 0,1:34:51.93,1:34:56.61,Chinese,,0,0,0,,不记得了吗 看来你现在过的很繁忙啊\N{\c&H00F8FB&\fnArial\fs14}No? Well, you have a very busy life now.
+Dialogue: 0,1:34:56.83,1:34:58.50,Chinese,,0,0,0,,一桩接一桩\N{\c&H00F8FB&\fnArial\fs14}What with one thing and another.
+Dialogue: 0,1:34:59.83,1:35:05.15,Chinese,,0,0,0,,布雷迪太太有个侄女住在布鲁克林\N{\c&H00F8FB&\fnArial\fs14}Anyway, Mrs Brady has a niece living in Brooklyn.
+Dialogue: 0,1:35:08.44,1:35:11.07,Chinese,,0,0,0,,这个世界真小 不是嘛\N{\c&H00F8FB&\fnArial\fs14}The world is a small place, isn't it?
+Dialogue: 0,1:35:12.24,1:35:15.16,Chinese,,0,0,0,,她几周前收到她侄女的一封信\N{\c&H00F8FB&\fnArial\fs14}She had a letter from her a couple of weeks back.
+Dialogue: 0,1:35:17.36,1:35:18.83,Chinese,,0,0,0,,那信上怎么说\N{\c&H00F8FB&\fnArial\fs14}And what did it say?
+Dialogue: 0,1:35:19.05,1:35:24.22,Chinese,,0,0,0,,就是说她去市政厅参加别人的婚礼\N{\c&H00F8FB&\fnArial\fs14}Oh, only that she'd been to a wedding at the city hall,
+Dialogue: 0,1:35:24.91,1:35:30.95,Chinese,,0,0,0,,她丈夫无意中撞见一个来自恩尼斯科西的女孩也在那里登记结婚\N{\c&H00F8FB&\fnArial\fs14}and her husband bumped into a girl from Enniscorthy who was getting married there.
+Dialogue: 0,1:35:34.33,1:35:36.34,Chinese,,0,0,0,,凯莉夫人 我不太懂你到底想表达什么\N{\c&H00F8FB&\fnArial\fs14}I'm not sure what you're telling me, Miss Kelly.
+Dialogue: 0,1:35:36.34,1:35:37.90,Chinese,,0,0,0,,他没有撞见我\N{\c&H00F8FB&\fnArial\fs14}He didn't bump into me.
+Dialogue: 0,1:35:37.93,1:35:41.48,Chinese,,0,0,0,,蕾西小姐 你可糊弄不了我\N{\c&H00F8FB&\fnArial\fs14}Oh, you can't fool me, Miss Lacey.
+Dialogue: 0,1:35:42.62,1:35:46.98,Chinese,,0,0,0,,我都不确定这还是你的姓氏吗\N{\c&H00F8FB&\fnArial\fs14}Although I'm not sure that that's your name any longer, is it?
+Dialogue: 0,1:35:47.73,1:35:52.64,Chinese,,0,0,0,,他已经记不太清了 好像姓是意大利的\N{\c&H00F8FB&\fnArial\fs14}He couldn't remember. Something Italian, he thought.
+Dialogue: 0,1:35:59.82,1:36:01.32,Chinese,,0,0,0,,我忘了\N{\c&H00F8FB&\fnArial\fs14}I'd forgotten.
+Dialogue: 0,1:36:01.35,1:36:04.40,Chinese,,0,0,0,,你居然说你忘了 这真是\N{\c&H00F8FB&\fnArial\fs14}You'd forgotten! What a thing for...
+Dialogue: 0,1:36:04.40,1:36:06.61,Chinese,,0,0,0,,我是说 我忘了这个镇是什么样的了\N{\c&H00F8FB&\fnArial\fs14}I'd forgotten what this town is like.
+Dialogue: 0,1:36:11.56,1:36:13.67,Chinese,,0,0,0,,凯莉夫人 你到底在打什么小主意\N{\c&H00F8FB&\fnArial\fs14}What were you planning to do, Miss Kelly?
+Dialogue: 0,1:36:15.40,1:36:16.95,Chinese,,0,0,0,,想让我离吉姆远一点吗\N{\c&H00F8FB&\fnArial\fs14}Keep me away from Jim?
+Dialogue: 0,1:36:18.79,1:36:21.10,Chinese,,0,0,0,,还是想阻止我回美国\N{\c&H00F8FB&\fnArial\fs14}Stop me from going back to America?
+Dialogue: 0,1:36:23.65,1:36:25.55,Chinese,,0,0,0,,或许你自己都不知道\N{\c&H00F8FB&\fnArial\fs14}Perhaps you didn't even know.
+Dialogue: 0,1:36:33.02,1:36:36.76,Chinese,,0,0,0,,我的名字是艾莉丝·菲欧雷洛\N{\c&H00F8FB&\fnArial\fs14}My name is Eilis Fiorello.
+Dialogue: 0,1:37:10.69,1:37:13.84,Chinese,,0,0,0,,-谢谢 -你好 有什么可以帮您的\N{\c&H00F8FB&\fnArial\fs14}- Thank you. - How I can help you?
+Dialogue: 0,1:37:13.85,1:37:18.53,Chinese,,0,0,0,,你好 我想预订一张最近一班从科夫到纽约的船票\N{\c&H00F8FB&\fnArial\fs14}Hello, I'd like to make a reservation for the next available sailing from Cobh to New York.
+Dialogue: 0,1:37:19.15,1:37:22.21,Chinese,,0,0,0,,我觉得婚礼后反而更花钱\N{\c&H00F8FB&\fnArial\fs14}I think people spend even more money after a wedding.
+Dialogue: 0,1:37:22.23,1:37:24.72,Chinese,,0,0,0,,南希的妈妈该是把镇上所有店走了遍吧\N{\c&H00F8FB&\fnArial\fs14}Nancy's mother must have been in every shop in the town.
+Dialogue: 0,1:37:24.75,1:37:26.76,Chinese,,0,0,0,,她连点火器都买好了\N{\c&H00F8FB&\fnArial\fs14}She was buying firelighters in Broom's.
+Dialogue: 0,1:37:26.78,1:37:28.39,Chinese,,0,0,0,,在八月就买点火器\N{\c&H00F8FB&\fnArial\fs14}Firelighters! In August!
+Dialogue: 0,1:37:28.41,1:37:30.30,Chinese,,0,0,0,,但是她见了斯泰普尔顿太太\N{\c&H00F8FB&\fnArial\fs14}But she'd seen Mrs. Stapleton in there,
+Dialogue: 0,1:37:30.30,1:37:33.45,Chinese,,0,0,0,,她还没有机会把婚礼一整天的细节都和她过一遍\N{\c&H00F8FB&\fnArial\fs14}and she hadn't had a chance to go through the whole day in detail with her, so...
+Dialogue: 0,1:37:35.52,1:37:37.06,Chinese,,0,0,0,,艾莉丝 你怎么了\N{\c&H00F8FB&\fnArial\fs14}Eilis, what's the matter?
+Dialogue: 0,1:37:37.09,1:37:38.97,Chinese,,0,0,0,,你和吉姆之间发生什么了吗\N{\c&H00F8FB&\fnArial\fs14}Has something happened with Jim?
+Dialogue: 0,1:37:40.26,1:37:41.90,Chinese,,0,0,0,,妈 我很抱歉\N{\c&H00F8FB&\fnArial\fs14}Mommy, I'm sorry.
+Dialogue: 0,1:37:43.81,1:37:47.98,Chinese,,0,0,0,,我非常抱歉 我已经结婚了\N{\c&H00F8FB&\fnArial\fs14}I'm so sorry. I'm married.
+Dialogue: 0,1:37:49.15,1:37:53.36,Chinese,,0,0,0,,我回家之前就在布鲁克林完婚了 我应该告诉你的\N{\c&H00F8FB&\fnArial\fs14}I got married in Brooklyn before I came home. I should have told you.
+Dialogue: 0,1:37:54.15,1:37:56.41,Chinese,,0,0,0,,我应该回来第一时间告诉你\N{\c&H00F8FB&\fnArial\fs14}I should have told you as soon as I got back.
+Dialogue: 0,1:38:01.69,1:38:07.29,Chinese,,0,0,0,,我想和他 和我的丈夫在一起\N{\c&H00F8FB&\fnArial\fs14}I want to be with him. I want to be with my husband.
+Dialogue: 0,1:38:09.97,1:38:11.50,Chinese,,0,0,0,,那是当然\N{\c&H00F8FB&\fnArial\fs14}Of course.
+Dialogue: 0,1:38:14.48,1:38:15.86,Chinese,,0,0,0,,他人好吗\N{\c&H00F8FB&\fnArial\fs14}Is he nice?
+Dialogue: 0,1:38:17.87,1:38:19.06,Chinese,,0,0,0,,很好\N{\c&H00F8FB&\fnArial\fs14}Yes.
+Dialogue: 0,1:38:19.08,1:38:21.33,Chinese,,0,0,0,,你嫁的人一定是很好的\N{\c&H00F8FB&\fnArial\fs14}He'd have to be nice, if you married him.
+Dialogue: 0,1:38:24.38,1:38:25.96,Chinese,,0,0,0,,所以你要回纽约去吗\N{\c&H00F8FB&\fnArial\fs14}So you are going back?
+Dialogue: 0,1:38:27.59,1:38:30.83,Chinese,,0,0,0,,是的 就是明天\N{\c&H00F8FB&\fnArial\fs14}Yes. Tomorrow.
+Dialogue: 0,1:38:34.45,1:38:36.08,Chinese,,0,0,0,,你是要坐早班的火车吗\N{\c&H00F8FB&\fnArial\fs14}Are you on the early train?
+Dialogue: 0,1:38:41.79,1:38:43.42,Chinese,,0,0,0,,我要去睡觉了\N{\c&H00F8FB&\fnArial\fs14}I'm going to bed.
+Dialogue: 0,1:38:43.65,1:38:47.41,Chinese,,0,0,0,,妈 现在连八点都没到 你不要这样\N{\c&H00F8FB&\fnArial\fs14}Mummy...It's not even eight o'clock. You don't have to..
+Dialogue: 0,1:38:47.41,1:38:48.87,Chinese,,0,0,0,,我很疲倦\N{\c&H00F8FB&\fnArial\fs14}I'm very tired.
+Dialogue: 0,1:38:50.56,1:38:56.55,Chinese,,0,0,0,,我想现在就说再见 只说一次\N{\c&H00F8FB&\fnArial\fs14}And I'd like to say goodbye now, and only once.
+Dialogue: 0,1:39:30.68,1:39:32.65,Chinese,,0,0,0,,或许你能在信里跟我聊聊他\N{\c&H00F8FB&\fnArial\fs14}Perhaps you'll write and tell me about him.
+Dialogue: 0,1:39:33.44,1:39:34.49,Chinese,,0,0,0,,我会的\N{\c&H00F8FB&\fnArial\fs14}I will.
+Dialogue: 0,1:39:35.79,1:39:37.35,Chinese,,0,0,0,,艾莉丝 晚安\N{\c&H00F8FB&\fnArial\fs14}Goodnight Eilis.
+Dialogue: 0,1:41:53.83,1:41:55.80,Chinese,,0,0,0,,你是要搬去美国吗\N{\c&H00F8FB&\fnArial\fs14}So are you away to live in America?
+Dialogue: 0,1:41:57.34,1:42:00.17,Chinese,,0,0,0,,-不是 -去旅游嘛\N{\c&H00F8FB&\fnArial\fs14}- No. - Just visiting?
+Dialogue: 0,1:42:01.29,1:42:02.91,Chinese,,0,0,0,,不是 我已经住在那儿了\N{\c&H00F8FB&\fnArial\fs14}No. I live there already.
+Dialogue: 0,1:42:03.72,1:42:06.17,Chinese,,0,0,0,,真的吗 那是什么感觉\N{\c&H00F8FB&\fnArial\fs14}Really? What's it like?
+Dialogue: 0,1:42:07.57,1:42:09.18,Chinese,,0,0,0,,那是一个很大很大的地方\N{\c&H00F8FB&\fnArial\fs14}It's a big place.
+Dialogue: 0,1:42:11.41,1:42:15.62,Chinese,,0,0,0,,我准备住在纽约的布鲁克林 你知道那吗\N{\c&H00F8FB&\fnArial\fs14}I'm gonna live in Brooklyn, New York. Do you know it?
+Dialogue: 0,1:42:17.68,1:42:19.02,Chinese,,0,0,0,,当然\N{\c&H00F8FB&\fnArial\fs14}Yes.
+Dialogue: 0,1:42:20.28,1:42:23.08,Chinese,,0,0,0,,人们都说 在那里有很多爱尔兰人\N{\c&H00F8FB&\fnArial\fs14}People say that there's so many Irish people there.
+Dialogue: 0,1:42:24.05,1:42:25.40,Chinese,,0,0,0,,就像家一样\N{\c&H00F8FB&\fnArial\fs14}It's like home.
+Dialogue: 0,1:42:28.88,1:42:30.40,Chinese,,0,0,0,,这是真的吗\N{\c&H00F8FB&\fnArial\fs14}Is that right?
+Dialogue: 0,1:42:35.12,1:42:38.76,Chinese,,0,0,0,,是真的 就像家一样\N{\c&H00F8FB&\fnArial\fs14}Yes, it's just like home.
+Dialogue: 0,1:42:51.74,1:42:53.12,Chinese,,0,0,0,,你不准吃东西\N{\c&H00F8FB&\fnArial\fs14}You're not to eat.
+Dialogue: 0,1:42:54.30,1:42:56.15,Chinese,,0,0,0,,但是我得在那儿待好久啊\N{\c&H00F8FB&\fnArial\fs14}But I might be there years.
+Dialogue: 0,1:42:56.48,1:42:58.36,Chinese,,0,0,0,,你到美国后就什么都能吃\N{\c&H00F8FB&\fnArial\fs14}No, you can eat when you get there.
+Dialogue: 0,1:42:58.36,1:42:59.92,Chinese,,0,0,0,,但千万别在船上吃东西\N{\c&H00F8FB&\fnArial\fs14}Don't eat on the boat.
+Dialogue: 0,1:42:59.94,1:43:02.13,Chinese,,0,0,0,,这样就不晕船了 你能答应我吗\N{\c&H00F8FB&\fnArial\fs14}It'll stop you getting so sick. Do you promise me?
+Dialogue: 0,1:43:03.10,1:43:03.84,Chinese,,0,0,0,,我答应\N{\c&H00F8FB&\fnArial\fs14}I promise.
+Dialogue: 0,1:43:03.86,1:43:06.92,Chinese,,0,0,0,,过会儿 你马上到你的房间\N{\c&H00F8FB&\fnArial\fs14}And in a moment, I want you to go straight down to your cabin
+Dialogue: 0,1:43:06.95,1:43:08.63,Chinese,,0,0,0,,然后把你这侧的门锁上\N{\c&H00F8FB&\fnArial\fs14}and lock the bathroom door on your side.
+Dialogue: 0,1:43:08.95,1:43:12.05,Chinese,,0,0,0,,等隔壁房间开始砸门 你就可以开始谈判\N{\c&H00F8FB&\fnArial\fs14}When next door starts hammering, you can negotiate.
+Dialogue: 0,1:43:13.78,1:43:16.68,Chinese,,0,0,0,,等你到了海关那儿 睁大你的眼睛\N{\c&H00F8FB&\fnArial\fs14}When you get to Immigration, keep your eyes wide open,
+Dialogue: 0,1:43:16.68,1:43:18.51,Chinese,,0,0,0,,摆出你知道自己要去哪儿的样子\N{\c&H00F8FB&\fnArial\fs14}Look as if you know where you're going.
+Dialogue: 0,1:43:18.74,1:43:20.84,Chinese,,0,0,0,,你必须像美国人一样思考\N{\c&H00F8FB&\fnArial\fs14}You have to think like an American.
+Dialogue: 0,1:43:20.86,1:43:22.20,Chinese,,0,0,0,,麻烦你上前一步\N{\c&H00F8FB&\fnArial\fs14}Could you please step forward?
+Dialogue: 0,1:43:23.40,1:43:26.59,Chinese,,0,0,0,,你会十分想家 想得要命\N{\c&H00F8FB&\fnArial\fs14}You'll feel so homesick that you'll want to die,
+Dialogue: 0,1:43:26.81,1:43:29.99,Chinese,,0,0,0,,你除了忍受这一切以外毫无办法\N{\c&H00F8FB&\fnArial\fs14}and there's nothing you can do about it apart from endure it.
+Dialogue: 0,1:43:31.80,1:43:34.77,Chinese,,0,0,0,,但是这一切并不会击垮你\N{\c&H00F8FB&\fnArial\fs14}But you will, and it won't kill you.
+Dialogue: 0,1:43:49.06,1:43:52.31,Chinese,,0,0,0,,终有一天 太阳会再次升起\N{\c&H00F8FB&\fnArial\fs14}And one day the sun will come out
+Dialogue: 0,1:43:52.53,1:43:56.29,Chinese,,0,0,0,,你或许都未曾注意到 就这么悄无声息地\N{\c&H00F8FB&\fnArial\fs14}and you might not even note it straight away, it would be that faint.
+Dialogue: 0,1:43:56.82,1:44:00.52,Chinese,,0,0,0,,你会开始思考其它的事情\N{\c&H00F8FB&\fnArial\fs14}And then you will catch yourself thinking about something or
+Dialogue: 0,1:44:00.54,1:44:03.63,Chinese,,0,0,0,,会挂念一个和你过去毫无交集的人\N{\c&H00F8FB&\fnArial\fs14}or someone who has no connection with the past,
+Dialogue: 0,1:44:05.47,1:44:07.43,Chinese,,0,0,0,,一个只属于你的人\N{\c&H00F8FB&\fnArial\fs14}Someone who's only yours.
+Dialogue: 0,1:44:08.95,1:44:10.77,Chinese,,0,0,0,,那时 你就会明白\N{\c&H00F8FB&\fnArial\fs14}And you'll realise
+Dialogue: 0,1:44:13.25,1:44:15.31,Chinese,,0,0,0,,这就是你的安生之地\N{\c&H00F8FB&\fnArial\fs14}that this is where your life is.
+
+

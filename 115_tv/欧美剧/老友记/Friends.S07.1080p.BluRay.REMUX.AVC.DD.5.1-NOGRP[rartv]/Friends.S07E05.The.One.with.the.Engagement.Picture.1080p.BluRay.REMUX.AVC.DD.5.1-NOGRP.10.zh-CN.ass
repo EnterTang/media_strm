@@ -1,0 +1,941 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,arial,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,-1,0,0,0,100,100,0,0,1,2,1,2,5,5,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:17.77,0:03:23.16,Default,说话人,0000,0000,0000,,{\fn方正黑体简体\fs32\b1\bord1\shad1\3c&H2F2F2F&}嘻 哈 帝 国\N{\fs16}第一季  第七集
+Dialogue: 0,0:00:01.47,0:00:02.63,Default,NTP,0000,0000,0000,,《嘻哈帝国》前情提要\N{\fs16\3c&H2F2F2F&\b0}Previously on Empire...{\r}
+Dialogue: 0,0:00:02.63,0:00:04.55,Default,NTP,0000,0000,0000,,帝国娱乐公司已经\N{\fs16\3c&H2F2F2F&\b0}Empire Entertainment has filed{\r}
+Dialogue: 0,0:00:04.56,0:00:07.02,Default,NTP,0000,0000,0000,,正式提交上市申请\N{\fs16\3c&H2F2F2F&\b0}to become a publicly traded company.{\r}
+Dialogue: 0,0:00:07.02,0:00:08.92,Default,NTP,0000,0000,0000,,拜托了  贾马尔  我需要你帮忙\N{\fs16\3c&H2F2F2F&\b0}Come on, Jamal, I need your help.{\r}
+Dialogue: 0,0:00:08.92,0:00:09.58,Default,NTP,0000,0000,0000,,跟我无关\N{\fs16\3c&H2F2F2F&\b0}I don't care.{\r}
+Dialogue: 0,0:00:09.58,0:00:11.86,Default,NTP,0000,0000,0000,,你觉得我还会让你利用我多久\N{\fs16\3c&H2F2F2F&\b0}How long did you think I would just let you use me?{\r}
+Dialogue: 0,0:00:11.86,0:00:14.07,Default,NTP,0000,0000,0000,,你的生命里还没有那个特别的她吗\N{\fs16\3c&H2F2F2F&\b0}There's no special girl in your life?{\r}
+Dialogue: 0,0:00:14.07,0:00:14.81,Default,NTP,0000,0000,0000,,没有特别的人\N{\fs16\3c&H2F2F2F&\b0}No one special.{\r}
+Dialogue: 0,0:00:14.81,0:00:16.19,Default,NTP,0000,0000,0000,,对于患有双极情感障碍的人来说\N{\fs16\3c&H2F2F2F&\b0}For someone who's bipolar,{\r}
+Dialogue: 0,0:00:16.19,0:00:18.38,Default,NTP,0000,0000,0000,,取消和医生的预约可是性命攸关的\N{\fs16\3c&H2F2F2F&\b0}cancelling a doctor's appointment is life-threatening.{\r}
+Dialogue: 0,0:00:18.38,0:00:19.26,Default,NTP,0000,0000,0000,,-不给  -给我\N{\fs16\3c&H2F2F2F&\b0}- No! - Give it back!{\r}
+Dialogue: 0,0:00:19.26,0:00:21.37,Default,NTP,0000,0000,0000,,我也在努力翻盘  艾儿\N{\fs16\3c&H2F2F2F&\b0}I am fighting for a comeback, too, Elle.{\r}
+Dialogue: 0,0:00:21.38,0:00:24.09,Default,NTP,0000,0000,0000,,我也是破釜沉舟  没有退路\N{\fs16\3c&H2F2F2F&\b0}It is do or die for me, too.{\r}
+Dialogue: 0,0:00:24.09,0:00:25.18,Default,NTP,0000,0000,0000,,我是马尔科姆·德沃\N{\fs16\3c&H2F2F2F&\b0}I'm Malcolm DeVeaux,{\r}
+Dialogue: 0,0:00:25.18,0:00:26.45,Default,NTP,0000,0000,0000,,帝国娱乐的新安保主管\N{\fs16\3c&H2F2F2F&\b0}Empire's new head of security.{\r}
+Dialogue: 0,0:00:26.45,0:00:29.02,Default,NTP,0000,0000,0000,,我已经感觉更安全了  德沃先生\N{\fs16\3c&H2F2F2F&\b0}I feel safer already, Mr. DeVeaux.{\r}
+Dialogue: 0,0:00:29.02,0:00:30.99,Default,NTP,0000,0000,0000,,-我还有多长时间  -三年\N{\fs16\3c&H2F2F2F&\b0}- How long I got? - Three years.{\r}
+Dialogue: 0,0:00:30.99,0:00:33.44,Default,NTP,0000,0000,0000,,梅森医生  我们怎么能确定这是安全的\N{\fs16\3c&H2F2F2F&\b0}Dr. Mason, how do we know that this is gonna be safe?{\r}
+Dialogue: 0,0:00:33.44,0:00:34.66,Default,NTP,0000,0000,0000,,这还是试验性药物\N{\fs16\3c&H2F2F2F&\b0}It's an experimental drug.{\r}
+Dialogue: 0,0:00:34.67,0:00:36.66,Default,NTP,0000,0000,0000,,-但是  -没有它我就会死\N{\fs16\3c&H2F2F2F&\b0}- But... - I am dead without it.{\r}
+Dialogue: 0,0:00:36.66,0:00:38.50,Default,NTP,0000,0000,0000,,怎么了  奥利维亚  你来这里干什么\N{\fs16\3c&H2F2F2F&\b0}What's up, Olivia? What are you doing here?{\r}
+Dialogue: 0,0:00:38.50,0:00:40.38,Default,NTP,0000,0000,0000,,她想要见见她的爸爸\N{\fs16\3c&H2F2F2F&\b0}She wanted to meet her daddy.{\r}
+Dialogue: 0,0:00:47.85,0:00:49.25,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}帝国娱乐2015年投资商展示演出
+Dialogue: 0,0:00:49.24,0:00:52.18,Default,NTP,0000,0000,0000,,成败都在这场投资商展示演出  弗农\N{\fs16\3c&H2F2F2F&\b0}This investor showcase is make or break for us, Vernon.{\r}
+Dialogue: 0,0:00:52.18,0:00:54.08,Default,NTP,0000,0000,0000,,千万不能有任何闪失\N{\fs16\3c&H2F2F2F&\b0}I mean, nothing can go wrong.{\r}
+Dialogue: 0,0:00:54.45,0:00:55.70,Default,NTP,0000,0000,0000,,埃里克\N{\fs16\3c&H2F2F2F&\b0}Eric...{\r}
+Dialogue: 0,0:00:56.34,0:00:57.61,Default,NTP,0000,0000,0000,,我们需要更多高科技\N{\fs16\3c&H2F2F2F&\b0}We need more technology.{\r}
+Dialogue: 0,0:00:57.61,0:01:00.37,Default,NTP,0000,0000,0000,,-给我加上全息摄影  -是  老板\N{\fs16\3c&H2F2F2F&\b0}- I mean, serious holograms. - Okay, boss.{\r}
+Dialogue: 0,0:01:02.11,0:01:03.85,Default,NTP,0000,0000,0000,,我还听说\N{\fs16\3c&H2F2F2F&\b0}Also got word that, um,{\r}
+Dialogue: 0,0:01:04.40,0:01:06.21,Default,NTP,0000,0000,0000,,奥利维亚  那个孩子的母亲\N{\fs16\3c&H2F2F2F&\b0}Olivia, the baby mama?{\r}
+Dialogue: 0,0:01:06.21,0:01:07.39,Default,NTP,0000,0000,0000,,不  是他前妻\N{\fs16\3c&H2F2F2F&\b0}No, his ex-wife.{\r}
+Dialogue: 0,0:01:07.39,0:01:08.47,Default,NTP,0000,0000,0000,,随便你怎么称呼她\N{\fs16\3c&H2F2F2F&\b0}Whatever you want to call her-- anyway,{\r}
+Dialogue: 0,0:01:08.47,0:01:11.00,Default,NTP,0000,0000,0000,,她从09年起就住在圣路易斯\N{\fs16\3c&H2F2F2F&\b0}she's been down in St. Louis since '09,{\r}
+Dialogue: 0,0:01:11.00,0:01:13.48,Default,NTP,0000,0000,0000,,找了份美发师的工作  一直没有再婚\N{\fs16\3c&H2F2F2F&\b0}working as a hairdresser, never got remarried...{\r}
+Dialogue: 0,0:01:13.50,0:01:15.72,Default,NTP,0000,0000,0000,,那姑娘是个大问题  卢修斯\N{\fs16\3c&H2F2F2F&\b0}That girl is a problem, Lucious.{\r}
+Dialogue: 0,0:01:15.72,0:01:18.00,Default,NTP,0000,0000,0000,,都是你害的贾马尔  她到底想怎样\N{\fs16\3c&H2F2F2F&\b0}You did this to Jamal. Now, what does she want?{\r}
+Dialogue: 0,0:01:18.00,0:01:20.06,Default,NTP,0000,0000,0000,,她说她想给孩子找个爸\N{\fs16\3c&H2F2F2F&\b0}She wants a father for her kid is what she said.{\r}
+Dialogue: 0,0:01:20.06,0:01:22.52,Default,NTP,0000,0000,0000,,总之  她的职业是美发师\N{\fs16\3c&H2F2F2F&\b0}Anyway, she's working as a hairdresser.{\r}
+Dialogue: 0,0:01:22.58,0:01:24.43,Default,NTP,0000,0000,0000,,跟她同居那男人经常打她\N{\fs16\3c&H2F2F2F&\b0}Living with some dude who put his hands on her,{\r}
+Dialogue: 0,0:01:24.43,0:01:26.45,Default,NTP,0000,0000,0000,,她为此申请了保护令\N{\fs16\3c&H2F2F2F&\b0}so she got an order of protection against him,{\r}
+Dialogue: 0,0:01:26.45,0:01:28.49,Default,NTP,0000,0000,0000,,报警什么的  你明白吧\N{\fs16\3c&H2F2F2F&\b0}the police, all that nonsense, you know?{\r}
+Dialogue: 0,0:01:28.49,0:01:31.31,Default,NTP,0000,0000,0000,,你怎么能逼自己的儿子娶那女孩\N{\fs16\3c&H2F2F2F&\b0}How could you make your son marry that girl?{\r}
+Dialogue: 0,0:01:31.58,0:01:32.85,Default,NTP,0000,0000,0000,,怎么可以那样逼他\N{\fs16\3c&H2F2F2F&\b0}How could you force him to do that?{\r}
+Dialogue: 0,0:01:32.85,0:01:34.42,Default,NTP,0000,0000,0000,,他当时才18  还是个孩子\N{\fs16\3c&H2F2F2F&\b0}He was 18; a baby.{\r}
+Dialogue: 0,0:01:34.43,0:01:36.69,Default,NTP,0000,0000,0000,,现在她说自己有他的孩子\N{\fs16\3c&H2F2F2F&\b0}Now, she's claiming she has his baby.{\r}
+Dialogue: 0,0:01:36.69,0:01:38.29,Default,NTP,0000,0000,0000,,你怎么知道那孩子不是他的\N{\fs16\3c&H2F2F2F&\b0}Well, how do you know it's not his baby?{\r}
+Dialogue: 0,0:01:38.29,0:01:41.35,Default,NTP,0000,0000,0000,,想有孩子得先做爱啊  卢修斯\N{\fs16\3c&H2F2F2F&\b0}You got to have sex to make a baby, Lucious.{\r}
+Dialogue: 0,0:01:41.35,0:01:42.67,Default,NTP,0000,0000,0000,,拜托\N{\fs16\3c&H2F2F2F&\b0}Come on.{\r}
+Dialogue: 0,0:01:43.76,0:01:45.06,Default,NTP,0000,0000,0000,,不管怎么说\N{\fs16\3c&H2F2F2F&\b0}Either way,{\r}
+Dialogue: 0,0:01:45.12,0:01:46.89,Default,NTP,0000,0000,0000,,我们都得解决这件事\N{\fs16\3c&H2F2F2F&\b0}we still gonna have to deal with it.{\r}
+Dialogue: 0,0:01:46.97,0:01:48.36,Default,NTP,0000,0000,0000,,无论用何种手段\N{\fs16\3c&H2F2F2F&\b0}One way or another.{\r}
+Dialogue: 0,0:01:49.00,0:01:51.06,Default,NTP,0000,0000,0000,,-你还好吗  -没事  我没事\N{\fs16\3c&H2F2F2F&\b0}- Are you okay? - Yeah, I'm good.{\r}
+Dialogue: 0,0:01:51.92,0:01:54.18,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}美国新二人音乐组合
+Dialogue: 0,0:01:51.92,0:01:54.18,Default,NTP,0000,0000,0000,,我刚和MKTO的经纪人通完电话\N{\fs16\3c&H2F2F2F&\b0}I just got off with MKTO's managers.{\r}
+Dialogue: 0,0:01:54.18,0:01:55.70,Default,NTP,0000,0000,0000,,他们得缩短南美巡演\N{\fs16\3c&H2F2F2F&\b0}They would have to cut the South American tour short{\r}
+Dialogue: 0,0:01:55.70,0:01:56.97,Default,NTP,0000,0000,0000,,才能来参加展示演出  所以他们想\N{\fs16\3c&H2F2F2F&\b0}in order to make the showcase, so they want{\r}
+Dialogue: 0,0:01:56.97,0:01:58.37,Default,NTP,0000,0000,0000,,给巴西粉丝办一个\N{\fs16\3c&H2F2F2F&\b0}a promo contest to send out{\r}
+Dialogue: 0,0:01:58.37,0:02:00.00,Default,NTP,0000,0000,0000,,竞争一百个演出观众席的宣传活动\N{\fs16\3c&H2F2F2F&\b0}100 of their Brazilian fans.{\r}
+Dialogue: 0,0:02:00.00,0:02:02.62,Default,NTP,0000,0000,0000,,不行  演出仅限潜在投资者入内\N{\fs16\3c&H2F2F2F&\b0}No, this is for prospective investors only.{\r}
+Dialogue: 0,0:02:02.62,0:02:04.56,Default,NTP,0000,0000,0000,,马尔科姆说这次演出的安全风险太大\N{\fs16\3c&H2F2F2F&\b0}Malcolm says it's a huge security risk.{\r}
+Dialogue: 0,0:02:04.56,0:02:06.55,Default,NTP,0000,0000,0000,,不许粉丝和媒体进场\N{\fs16\3c&H2F2F2F&\b0}And no fans, no press.{\r}
+Dialogue: 0,0:02:06.55,0:02:08.74,Default,NTP,0000,0000,0000,,咱还有问题要解决  卢修斯\N{\fs16\3c&H2F2F2F&\b0}We still got a problem, Lucious.{\r}
+Dialogue: 0,0:02:10.77,0:02:12.93,Default,NTP,0000,0000,0000,,马文·蒙切尔正在...\N{\fs16\3c&H2F2F2F&\b0}Hi! Marvin Menchel is...{\r}
+Dialogue: 0,0:02:12.93,0:02:13.81,Default,NTP,0000,0000,0000,,你没事吧\N{\fs16\3c&H2F2F2F&\b0}Are you okay?{\r}
+Dialogue: 0,0:02:13.81,0:02:15.58,Default,NTP,0000,0000,0000,,我们得讨论一下展示演出的预算\N{\fs16\3c&H2F2F2F&\b0}We need to go over the budget for the showcase.{\r}
+Dialogue: 0,0:02:15.58,0:02:16.58,Default,NTP,0000,0000,0000,,银行只能...\N{\fs16\3c&H2F2F2F&\b0}The bank is onlly...{\r}
+Dialogue: 0,0:02:16.87,0:02:17.37,Default,NTP,0000,0000,0000,,你不能一直回避问题\N{\fs16\3c&H2F2F2F&\b0}You can't keep avoiding this!{\r}
+Dialogue: 0,0:02:17.37,0:02:19.99,Default,NTP,0000,0000,0000,,很好  谢谢  好的  再见\N{\fs16\3c&H2F2F2F&\b0}Fantastic. Thank you. Okay, bye.{\r}
+Dialogue: 0,0:02:19.99,0:02:22.17,Default,NTP,0000,0000,0000,,老爸  晚餐预约好了\N{\fs16\3c&H2F2F2F&\b0}Dad, we are on for dinner.{\r}
+Dialogue: 0,0:02:22.37,0:02:23.71,Default,NTP,0000,0000,0000,,什么...跟我说说这个人\N{\fs16\3c&H2F2F2F&\b0}What's... tell me about this guy.{\r}
+Dialogue: 0,0:02:23.71,0:02:25.13,Default,NTP,0000,0000,0000,,他叫特里·席勒  60多岁\N{\fs16\3c&H2F2F2F&\b0}Uh, Terry Schiller, late 60s,{\r}
+Dialogue: 0,0:02:25.14,0:02:26.86,Default,NTP,0000,0000,0000,,掌管着全国最大基金之一\N{\fs16\3c&H2F2F2F&\b0}manages one of the biggest funds in the country.{\r}
+Dialogue: 0,0:02:26.86,0:02:28.10,Default,NTP,0000,0000,0000,,手头有好几十个亿\N{\fs16\3c&H2F2F2F&\b0}Billions at his fingertips.{\r}
+Dialogue: 0,0:02:28.10,0:02:29.82,Default,NTP,0000,0000,0000,,那如果能提前拉他入伙意味着什么\N{\fs16\3c&H2F2F2F&\b0}So, an early commitment from him would mean what?{\r}
+Dialogue: 0,0:02:29.82,0:02:32.20,Default,NTP,0000,0000,0000,,能极大提升公司的估值\N{\fs16\3c&H2F2F2F&\b0}A huge boost in the company's valuation.{\r}
+Dialogue: 0,0:02:32.20,0:02:33.53,Default,NTP,0000,0000,0000,,你没事吧\N{\fs16\3c&H2F2F2F&\b0}You all right?{\r}
+Dialogue: 0,0:02:34.33,0:02:36.80,Default,NTP,0000,0000,0000,,-没事  -好的\N{\fs16\3c&H2F2F2F&\b0}- Yeah. Yeah. - Okay, okay.{\r}
+Dialogue: 0,0:02:36.80,0:02:38.33,Default,NTP,0000,0000,0000,,我们得把他请来看展示演出  爸\N{\fs16\3c&H2F2F2F&\b0}We need to get him to the showcase, Dad.{\r}
+Dialogue: 0,0:02:38.33,0:02:39.27,Default,NTP,0000,0000,0000,,吸引他的最好方式就是\N{\fs16\3c&H2F2F2F&\b0}The way to appeal to him is{\r}
+Dialogue: 0,0:02:39.27,0:02:41.57,Default,NTP,0000,0000,0000,,通过家庭  他很顾家\N{\fs16\3c&H2F2F2F&\b0}through family-- he's a real family guy, right?{\r}
+Dialogue: 0,0:02:41.58,0:02:43.13,Default,NTP,0000,0000,0000,,他今晚和我们共进晚餐就是因为\N{\fs16\3c&H2F2F2F&\b0}The reason he's coming to dinner with us tonight{\r}
+Dialogue: 0,0:02:43.13,0:02:44.83,Default,NTP,0000,0000,0000,,他女儿曾是朗达在沃顿商学院时的舍友\N{\fs16\3c&H2F2F2F&\b0}is because his daughter roomed with Rhonda at Wharton.{\r}
+Dialogue: 0,0:02:44.83,0:02:46.27,Default,NTP,0000,0000,0000,,帝国娱乐就是个大家庭\N{\fs16\3c&H2F2F2F&\b0}Well, Empire is family.{\r}
+Dialogue: 0,0:02:46.27,0:02:47.84,Default,NTP,0000,0000,0000,,这就是我们的卖点\N{\fs16\3c&H2F2F2F&\b0}I mean, that's what we're selling.{\r}
+Dialogue: 0,0:02:47.84,0:02:49.34,Default,NTP,0000,0000,0000,,家庭就是整场展示演出的主题\N{\fs16\3c&H2F2F2F&\b0}Family is the whole showcase.{\r}
+Dialogue: 0,0:02:49.34,0:02:51.95,Default,NTP,0000,0000,0000,,那就像我说的  卢修斯  你有麻烦了\N{\fs16\3c&H2F2F2F&\b0}Then like I said, Lucious, you got a problem.{\r}
+Dialogue: 0,0:02:51.95,0:02:54.10,Default,NTP,0000,0000,0000,,贾马尔和哈基姆  他俩已经不能\N{\fs16\3c&H2F2F2F&\b0}Jamal and Hakeem-- they can't stand to be{\r}
+Dialogue: 0,0:02:54.10,0:02:56.86,Default,NTP,0000,0000,0000,,共处一室了  更别说共同登台了\N{\fs16\3c&H2F2F2F&\b0}in the same room together, let alone on the same stage.{\r}
+Dialogue: 0,0:02:56.86,0:02:59.47,Default,NTP,0000,0000,0000,,听着  他俩之间的矛盾\N{\fs16\3c&H2F2F2F&\b0}Look... this beef they got between each other,{\r}
+Dialogue: 0,0:02:59.47,0:03:00.92,Default,NTP,0000,0000,0000,,不会轻易化解\N{\fs16\3c&H2F2F2F&\b0}it ain't dying.{\r}
+Dialogue: 0,0:03:00.92,0:03:02.58,Default,NTP,0000,0000,0000,,我们黑香蕉餐厅见\N{\fs16\3c&H2F2F2F&\b0}I'll meet you at La Banana Noire.{\r}
+Dialogue: 0,0:03:02.58,0:03:04.23,Default,NTP,0000,0000,0000,,-八点行吗  -好的\N{\fs16\3c&H2F2F2F&\b0}- 8 o'clock? - Yeah.{\r}
+Dialogue: 0,0:03:05.29,0:03:08.58,Default,NTP,0000,0000,0000,,不仅如此  贾马尔已经快疯了\N{\fs16\3c&H2F2F2F&\b0}And on top of that, Jamal is going damn crazy.{\r}
+Dialogue: 0,0:03:08.58,0:03:12.15,Default,NTP,0000,0000,0000,,你为啥逼他娶什么脑残伴唱女\N{\fs16\3c&H2F2F2F&\b0}Why would you make him marry some stupid-ass backup singer?{\r}
+Dialogue: 0,0:03:12.15,0:03:13.88,Default,NTP,0000,0000,0000,,害得现在我们得对付这个孩子她妈\N{\fs16\3c&H2F2F2F&\b0}Now we got to deal with her baby mama...{\r}
+Dialogue: 0,0:03:13.88,0:03:15.75,Default,NTP,0000,0000,0000,,够了  琦琦\N{\fs16\3c&H2F2F2F&\b0}Enough, Cookie!{\r}
+Dialogue: 0,0:03:28.85,0:03:30.51,Default,NTP,0000,0000,0000,,卢修斯  能听到我说话吗\N{\fs16\3c&H2F2F2F&\b0}Lucious, can you hear me?{\r}
+Dialogue: 0,0:03:32.40,0:03:34.68,Default,NTP,0000,0000,0000,,卢修斯  挺住  我们会尽快\N{\fs16\3c&H2F2F2F&\b0}Lucious, come on, we're going to get you{\r}
+Dialogue: 0,0:03:34.68,0:03:35.52,Default,NTP,0000,0000,0000,,把你送到医院\N{\fs16\3c&H2F2F2F&\b0}to the hospital as soon as possible.{\r}
+Dialogue: 0,0:03:35.52,0:03:37.57,Default,NTP,0000,0000,0000,,你还好吗  卢修斯\N{\fs16\3c&H2F2F2F&\b0}Are you okay, Lucious?{\r}
+Dialogue: 0,0:03:37.57,0:03:38.84,Default,NTP,0000,0000,0000,,卢修斯\N{\fs16\3c&H2F2F2F&\b0}Lucious!{\r}
+Dialogue: 0,0:03:38.84,0:03:40.32,Default,NTP,0000,0000,0000,,他昏倒多久了\N{\fs16\3c&H2F2F2F&\b0}How long has he been out?{\r}
+Dialogue: 0,0:03:40.32,0:03:41.85,Default,NTP,0000,0000,0000,,最后一次进食是什么时候\N{\fs16\3c&H2F2F2F&\b0}When did he last eat?{\r}
+Dialogue: 0,0:03:43.45,0:03:45.47,Default,NTP,0000,0000,0000,,他以前这样昏倒过吗\N{\fs16\3c&H2F2F2F&\b0}Has he lost consciousness before?{\r}
+Dialogue: 0,0:03:55.05,0:03:57.33,Default,NTP,0000,0000,0000,,-小心点  -好  扶好了\N{\fs16\3c&H2F2F2F&\b0}- Be careful! - All right, we're good.{\r}
+Dialogue: 0,0:04:00.21,0:04:02.29,Default,NTP,0000,0000,0000,,-你干什么  -我是他老婆\N{\fs16\3c&H2F2F2F&\b0}- What are you doing? - I'm his wife.{\r}
+Dialogue: 0,0:04:02.30,0:04:04.20,Default,NTP,0000,0000,0000,,-前妻  -她马上就要成为前妻了\N{\fs16\3c&H2F2F2F&\b0}- Ex-wife. - She's his soon-to-be ex-wife.{\r}
+Dialogue: 0,0:04:04.20,0:04:06.34,Default,NTP,0000,0000,0000,,到底谁陪同他去医院\N{\fs16\3c&H2F2F2F&\b0}I just need to know who's gonna ride with him.{\r}
+Dialogue: 0,0:04:12.97,0:04:15.43,Default,NTP,0000,0000,0000,,-谢谢  -走  我们去打车\N{\fs16\3c&H2F2F2F&\b0}- Thank you. - Come on. We'll take a cab.{\r}
+Dialogue: 0,0:04:15.44,0:04:17.39,Default,NTP,0000,0000,0000,,好了  走了  伙计们\N{\fs16\3c&H2F2F2F&\b0}Here we go. Let's go, guys.{\r}
+Dialogue: 0,0:04:25.60,0:04:27.51,Default,NTP,0000,0000,0000,,迈克尔  你为什么要这样做\N{\fs16\3c&H2F2F2F&\b0}Michael, why are you doing all of this?{\r}
+Dialogue: 0,0:04:27.51,0:04:29.45,Default,NTP,0000,0000,0000,,因为这就是你想要的  贾马尔\N{\fs16\3c&H2F2F2F&\b0}Because this is what you want, Jamal.{\r}
+Dialogue: 0,0:04:29.79,0:04:31.00,Default,NTP,0000,0000,0000,,甚至不能当着我的面说\N{\fs16\3c&H2F2F2F&\b0}Couldn't even tell it to my face.{\r}
+Dialogue: 0,0:04:31.00,0:04:33.44,Default,NTP,0000,0000,0000,,我得看节目才知道  "没有特别的人"\N{\fs16\3c&H2F2F2F&\b0}I had to hear it on the radio: "Nobody special"?{\r}
+Dialogue: 0,0:04:33.44,0:04:35.03,Default,NTP,0000,0000,0000,,我说没有特别的女孩\N{\fs16\3c&H2F2F2F&\b0}I said no special girl!{\r}
+Dialogue: 0,0:04:35.03,0:04:37.46,Default,NTP,0000,0000,0000,,是啊  你觉得我听到这话会是什么心情\N{\fs16\3c&H2F2F2F&\b0}Yeah, and how do you think that made me feel, huh?{\r}
+Dialogue: 0,0:04:37.76,0:04:41.20,Default,NTP,0000,0000,0000,,听你向全世界这样宣告\N{\fs16\3c&H2F2F2F&\b0}Listening to you say that in front of the whole world!{\r}
+Dialogue: 0,0:04:41.78,0:04:44.36,Default,NTP,0000,0000,0000,,现在你生命中确实有了一个特别的女孩\N{\fs16\3c&H2F2F2F&\b0}You know you do have a special girl in your life.{\r}
+Dialogue: 0,0:04:44.70,0:04:46.18,Default,NTP,0000,0000,0000,,你女儿\N{\fs16\3c&H2F2F2F&\b0}A daughter.{\r}
+Dialogue: 0,0:04:49.08,0:04:51.49,Default,NTP,0000,0000,0000,,现在结束更好  不然等到以后...\N{\fs16\3c&H2F2F2F&\b0}It's better to end this now before I have to...{\r}
+Dialogue: 0,0:04:51.57,0:04:53.23,Default,NTP,0000,0000,0000,,不仅要离开你  还要离开一个孩子\N{\fs16\3c&H2F2F2F&\b0}walk out on you and a kid.{\r}
+Dialogue: 0,0:04:53.23,0:04:54.27,Default,NTP,0000,0000,0000,,那孩子不是我的\N{\fs16\3c&H2F2F2F&\b0}The kid can't be mine.{\r}
+Dialogue: 0,0:04:54.27,0:04:55.53,Default,NTP,0000,0000,0000,,我跟那女人就睡了一次\N{\fs16\3c&H2F2F2F&\b0}I slept with that girl once.{\r}
+Dialogue: 0,0:04:55.54,0:04:57.92,Default,NTP,0000,0000,0000,,一次就够了\N{\fs16\3c&H2F2F2F&\b0}Well, once is all it takes.{\r}
+Dialogue: 0,0:04:58.66,0:05:00.72,Default,NTP,0000,0000,0000,,-我的王子  我爱你  -别这么叫我\N{\fs16\3c&H2F2F2F&\b0}- Oh, príncipe, you know that I love you... - No, don't call me that!{\r}
+Dialogue: 0,0:05:00.72,0:05:02.37,Default,NTP,0000,0000,0000,,你不爱我\N{\fs16\3c&H2F2F2F&\b0}You don't love me.{\r}
+Dialogue: 0,0:05:02.79,0:05:04.45,Default,NTP,0000,0000,0000,,我爱你\N{\fs16\3c&H2F2F2F&\b0}I love you.{\r}
+Dialogue: 0,0:05:07.15,0:05:09.36,Default,NTP,0000,0000,0000,,但你爱的却是你的音乐\N{\fs16\3c&H2F2F2F&\b0}But you're in love with your music.{\r}
+Dialogue: 0,0:05:09.59,0:05:11.80,Default,NTP,0000,0000,0000,,你心里容不下别人了\N{\fs16\3c&H2F2F2F&\b0}You don't have room for anyone else.{\r}
+Dialogue: 0,0:05:24.76,0:05:26.01,Default,NTP,0000,0000,0000,,我一直记得莎拉第一次\N{\fs16\3c&H2F2F2F&\b0}I'll never forget the first time{\r}
+Dialogue: 0,0:05:26.01,0:05:27.83,Default,NTP,0000,0000,0000,,带你来过感恩节的情景\N{\fs16\3c&H2F2F2F&\b0}Sarah brought you for Thanksgiving.{\r}
+Dialogue: 0,0:05:27.84,0:05:29.73,Default,NTP,0000,0000,0000,,我当时紧张得都吃不下东西\N{\fs16\3c&H2F2F2F&\b0}I was so nervous I couldn't even eat.{\r}
+Dialogue: 0,0:05:29.73,0:05:33.02,Default,NTP,0000,0000,0000,,你家太美了  我的天\N{\fs16\3c&H2F2F2F&\b0}I mean, your home is so beautiful. Oh, my God.{\r}
+Dialogue: 0,0:05:33.03,0:05:34.63,Default,NTP,0000,0000,0000,,等等  爸  让我先跟他说说\N{\fs16\3c&H2F2F2F&\b0}Hold on, Dad. Hold on one second while I fill him in, okay?{\r}
+Dialogue: 0,0:05:34.63,0:05:37.28,Default,NTP,0000,0000,0000,,席勒先生  恐怕我有个坏消息\N{\fs16\3c&H2F2F2F&\b0}Mr. Schiller, I'm afraid I have some bad news.{\r}
+Dialogue: 0,0:05:37.38,0:05:39.99,Default,NTP,0000,0000,0000,,我父亲的飞机在巴尔的摩紧急迫降\N{\fs16\3c&H2F2F2F&\b0}My father's jet had to make an emergency landing in Baltimore.{\r}
+Dialogue: 0,0:05:39.99,0:05:41.39,Default,NTP,0000,0000,0000,,其中的一个引擎着火了\N{\fs16\3c&H2F2F2F&\b0}One of the engines caught fire.{\r}
+Dialogue: 0,0:05:41.39,0:05:43.18,Default,NTP,0000,0000,0000,,他没事  就是很抱歉不能赶来\N{\fs16\3c&H2F2F2F&\b0}Now, he's okay, but he just, he feels terrible.{\r}
+Dialogue: 0,0:05:43.18,0:05:44.73,Default,NTP,0000,0000,0000,,他想跟您说话\N{\fs16\3c&H2F2F2F&\b0}He'd like to speak with you.{\r}
+Dialogue: 0,0:05:46.49,0:05:49.14,Default,NTP,0000,0000,0000,,特里  抱歉\N{\fs16\3c&H2F2F2F&\b0}Hey, Terry... sorry.{\r}
+Dialogue: 0,0:05:49.14,0:05:50.50,Default,NTP,0000,0000,0000,,真不好意思和你说\N{\fs16\3c&H2F2F2F&\b0}I can't tell you, man.{\r}
+Dialogue: 0,0:05:50.50,0:05:52.17,Default,NTP,0000,0000,0000,,该死的飞机\N{\fs16\3c&H2F2F2F&\b0}You know, these damn planes.{\r}
+Dialogue: 0,0:05:52.18,0:05:54.06,Default,NTP,0000,0000,0000,,你没出事就好\N{\fs16\3c&H2F2F2F&\b0}Well, I'm glad you're okay.{\r}
+Dialogue: 0,0:05:54.18,0:05:56.40,Default,NTP,0000,0000,0000,,我很乐意与你风度翩翩的儿子\N{\fs16\3c&H2F2F2F&\b0}And I'm delighted to spend the evening with your{\r}
+Dialogue: 0,0:05:56.40,0:05:58.91,Default,NTP,0000,0000,0000,,还有他美丽的妻子度过这个夜晚\N{\fs16\3c&H2F2F2F&\b0}charming son and his beautiful wife.{\r}
+Dialogue: 0,0:05:58.95,0:06:00.54,Default,NTP,0000,0000,0000,,我会好好听他们说  卢修斯\N{\fs16\3c&H2F2F2F&\b0}And I'll hear them out, Lucious.{\r}
+Dialogue: 0,0:06:00.54,0:06:03.49,Default,NTP,0000,0000,0000,,不过我之前跟安德鲁说过\N{\fs16\3c&H2F2F2F&\b0}But frankly, as I told Andre in advance,{\r}
+Dialogue: 0,0:06:03.49,0:06:04.90,Default,NTP,0000,0000,0000,,席勒基金从没有\N{\fs16\3c&H2F2F2F&\b0}the Schiller Fund has never been{\r}
+Dialogue: 0,0:06:04.90,0:06:06.31,Default,NTP,0000,0000,0000,,涉足过娱乐产业\N{\fs16\3c&H2F2F2F&\b0}drawn to entertainment companies.{\r}
+Dialogue: 0,0:06:06.31,0:06:07.12,Default,NTP,0000,0000,0000,,这一行太不稳定了\N{\fs16\3c&H2F2F2F&\b0}They're too volatile.{\r}
+Dialogue: 0,0:06:07.12,0:06:09.75,Default,NTP,0000,0000,0000,,特里  哪怕你不打算投资\N{\fs16\3c&H2F2F2F&\b0}Terry, even if you decide not to invest,{\r}
+Dialogue: 0,0:06:09.75,0:06:11.53,Default,NTP,0000,0000,0000,,也请来看演出  我向你保证\N{\fs16\3c&H2F2F2F&\b0}come and enjoy the concert. I promise you{\r}
+Dialogue: 0,0:06:11.53,0:06:13.80,Default,NTP,0000,0000,0000,,这会是一场空前精彩的演出\N{\fs16\3c&H2F2F2F&\b0}you will not see another one like it for a while.{\r}
+Dialogue: 0,0:06:13.80,0:06:16.03,Default,NTP,0000,0000,0000,,-好吧  -好  回头再聊\N{\fs16\3c&H2F2F2F&\b0}- All right. - All right. Later.{\r}
+Dialogue: 0,0:06:16.21,0:06:16.74,Default,NTP,0000,0000,0000,,天呐\N{\fs16\3c&H2F2F2F&\b0}Oh, my...{\r}
+Dialogue: 0,0:06:16.75,0:06:19.00,Default,NTP,0000,0000,0000,,-你还好吗  护士  -我在这\N{\fs16\3c&H2F2F2F&\b0}- You okay? Nurse! Nurse! - I'm here.{\r}
+Dialogue: 0,0:06:19.00,0:06:20.50,Default,NTP,0000,0000,0000,,谢谢  先生\N{\fs16\3c&H2F2F2F&\b0}Thank you, sir.{\r}
+Dialogue: 0,0:06:20.59,0:06:22.43,Default,NTP,0000,0000,0000,,先生  请翻身\N{\fs16\3c&H2F2F2F&\b0}Sir, just turn over...{\r}
+Dialogue: 0,0:06:22.46,0:06:23.51,Default,NTP,0000,0000,0000,,这一切都是为了你  宝儿\N{\fs16\3c&H2F2F2F&\b0}It's all for you, "Bae."{\r}
+Dialogue: 0,0:06:23.51,0:06:26.06,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}著名美食节目厨师  此处为本人客串
+Dialogue: 0,0:06:23.51,0:06:26.06,Default,NTP,0000,0000,0000,,你的专属罗比大厨\N{\fs16\3c&H2F2F2F&\b0}Your own personal private Chef Roble.{\r}
+Dialogue: 0,0:06:26.30,0:06:27.41,Default,NTP,0000,0000,0000,,好好享受吧\N{\fs16\3c&H2F2F2F&\b0}Enjoy it.{\r}
+Dialogue: 0,0:06:27.41,0:06:29.23,Default,NTP,0000,0000,0000,,宝儿  什么是宝儿\N{\fs16\3c&H2F2F2F&\b0}"Bae"? What is a "Bae"?{\r}
+Dialogue: 0,0:06:29.23,0:06:30.77,Default,NTP,0000,0000,0000,,就是宝贝的意思\N{\fs16\3c&H2F2F2F&\b0}It means "Babe."{\r}
+Dialogue: 0,0:06:33.61,0:06:34.79,Default,NTP,0000,0000,0000,,老兄\N{\fs16\3c&H2F2F2F&\b0}Bro...{\r}
+Dialogue: 0,0:06:34.79,0:06:36.77,Default,NTP,0000,0000,0000,,看起来你这位佳人\N{\fs16\3c&H2F2F2F&\b0}seems like the lady's on a completely{\r}
+Dialogue: 0,0:06:36.77,0:06:39.00,Default,NTP,0000,0000,0000,,完全没有享受到啊  不过\N{\fs16\3c&H2F2F2F&\b0}different date than you are, but,{\r}
+Dialogue: 0,0:06:39.04,0:06:40.69,Default,NTP,0000,0000,0000,,如果那道鸡不能让她回心转意\N{\fs16\3c&H2F2F2F&\b0}if that chicken right there doesn't turn that around,{\r}
+Dialogue: 0,0:06:40.69,0:06:42.24,Default,NTP,0000,0000,0000,,我真不知道还有什么能挽回她的心了\N{\fs16\3c&H2F2F2F&\b0}I don't know what will.{\r}
+Dialogue: 0,0:06:47.52,0:06:48.90,Default,NTP,0000,0000,0000,,这是送你的\N{\fs16\3c&H2F2F2F&\b0}This is for you.{\r}
+Dialogue: 0,0:06:49.43,0:06:50.76,Default,NTP,0000,0000,0000,,这是什么\N{\fs16\3c&H2F2F2F&\b0}What is it?{\r}
+Dialogue: 0,0:06:51.56,0:06:52.92,Default,NTP,0000,0000,0000,,打开看看\N{\fs16\3c&H2F2F2F&\b0}Open it.{\r}
+Dialogue: 0,0:07:02.44,0:07:04.38,Default,NTP,0000,0000,0000,,-怎么了  -你没搞错吧\N{\fs16\3c&H2F2F2F&\b0}- What? - You got to be joking.{\r}
+Dialogue: 0,0:07:04.38,0:07:06.36,Default,NTP,0000,0000,0000,,你想让我带上你的名牌\N{\fs16\3c&H2F2F2F&\b0}You want to brand me with your name?{\r}
+Dialogue: 0,0:07:06.36,0:07:08.61,Default,NTP,0000,0000,0000,,可却不想带我出现在公众场合\N{\fs16\3c&H2F2F2F&\b0}But you don't want to take me out in public?{\r}
+Dialogue: 0,0:07:09.78,0:07:12.69,Default,NTP,0000,0000,0000,,我可不是你养的金丝雀  哈基姆\N{\fs16\3c&H2F2F2F&\b0}I'm not your backstreet slut, Hakeem.{\r}
+Dialogue: 0,0:07:12.93,0:07:14.41,Default,NTP,0000,0000,0000,,你得像对待那个女孩一样对待我\N{\fs16\3c&H2F2F2F&\b0}Treat me like you treat that girl.{\r}
+Dialogue: 0,0:07:14.41,0:07:16.65,Default,NTP,0000,0000,0000,,你为什么总说提安娜\N{\fs16\3c&H2F2F2F&\b0}Why you keep talking about Tiana?{\r}
+Dialogue: 0,0:07:16.74,0:07:18.88,Default,NTP,0000,0000,0000,,你知道她什么也不算\N{\fs16\3c&H2F2F2F&\b0}You know she wasn't nothing to me.{\r}
+Dialogue: 0,0:07:19.33,0:07:20.45,Default,NTP,0000,0000,0000,,那只是为了专辑销量和炒作罢了\N{\fs16\3c&H2F2F2F&\b0}It was for record sales and buzz.{\r}
+Dialogue: 0,0:07:20.45,0:07:22.01,Default,NTP,0000,0000,0000,,换了是你也会这么做的\N{\fs16\3c&H2F2F2F&\b0}That's what you got to do in my position.{\r}
+Dialogue: 0,0:07:22.01,0:07:25.58,Default,NTP,0000,0000,0000,,告诉我你想要什么\N{\fs16\3c&H2F2F2F&\b0}Just tell me what you want...{\r}
+Dialogue: 0,0:07:25.65,0:07:27.44,Default,NTP,0000,0000,0000,,我会照做的\N{\fs16\3c&H2F2F2F&\b0}and I'll do anything.{\r}
+Dialogue: 0,0:07:29.11,0:07:30.73,Default,NTP,0000,0000,0000,,你下次表演是什么时候\N{\fs16\3c&H2F2F2F&\b0}When are you performing next?{\r}
+Dialogue: 0,0:07:30.73,0:07:32.39,Default,NTP,0000,0000,0000,,宝贝  不行\N{\fs16\3c&H2F2F2F&\b0}Baby, I can't.{\r}
+Dialogue: 0,0:07:32.39,0:07:34.43,Default,NTP,0000,0000,0000,,那是用来募资的私人演出\N{\fs16\3c&H2F2F2F&\b0}It's a private thing for money folks.{\r}
+Dialogue: 0,0:07:34.43,0:07:36.64,Default,NTP,0000,0000,0000,,公开上市的投资者们会去现场\N{\fs16\3c&H2F2F2F&\b0}IPO investors gonna be there.{\r}
+Dialogue: 0,0:07:40.86,0:07:43.16,Default,NTP,0000,0000,0000,,我把你放到贵宾席上\N{\fs16\3c&H2F2F2F&\b0}How about I just put you on the VIP list...{\r}
+Dialogue: 0,0:07:43.16,0:07:45.00,Default,NTP,0000,0000,0000,,就当你是投资者  怎么样\N{\fs16\3c&H2F2F2F&\b0}as a private investor?{\r}
+Dialogue: 0,0:07:45.73,0:07:46.32,Default,NTP,0000,0000,0000,,你是说\N{\fs16\3c&H2F2F2F&\b0}So...{\r}
+Dialogue: 0,0:07:46.32,0:07:49.03,Default,NTP,0000,0000,0000,,让我隐藏身份吗\N{\fs16\3c&H2F2F2F&\b0}you mean, like, incognito?{\r}
+Dialogue: 0,0:07:49.05,0:07:51.89,Default,NTP,0000,0000,0000,,这回先保持低调\N{\fs16\3c&H2F2F2F&\b0}Yeah, I mean, we keep it on the DL this time.{\r}
+Dialogue: 0,0:07:52.17,0:07:54.01,Default,NTP,0000,0000,0000,,我保证下次  我和你\N{\fs16\3c&H2F2F2F&\b0}Next time, it's me and you.{\r}
+Dialogue: 0,0:07:54.15,0:07:55.92,Default,NTP,0000,0000,0000,,就会手挽手走在一起\N{\fs16\3c&H2F2F2F&\b0}Arm in arm, promise.{\r}
+Dialogue: 0,0:07:58.01,0:07:59.33,Default,NTP,0000,0000,0000,,来吧\N{\fs16\3c&H2F2F2F&\b0}Come on.{\r}
+Dialogue: 0,0:08:08.46,0:08:09.33,Default,NTP,0000,0000,0000,,医生\N{\fs16\3c&H2F2F2F&\b0}Hi, Doctor.{\r}
+Dialogue: 0,0:08:09.33,0:08:10.86,Default,NTP,0000,0000,0000,,谢谢你能过来\N{\fs16\3c&H2F2F2F&\b0}Thank you for coming.{\r}
+Dialogue: 0,0:08:12.30,0:08:13.45,Default,NTP,0000,0000,0000,,她来这里做什么\N{\fs16\3c&H2F2F2F&\b0}What the hell is she doing here?{\r}
+Dialogue: 0,0:08:13.45,0:08:14.67,Default,NTP,0000,0000,0000,,梅森医生呢\N{\fs16\3c&H2F2F2F&\b0}Where's Dr. Mason?{\r}
+Dialogue: 0,0:08:14.67,0:08:15.79,Default,NTP,0000,0000,0000,,我找了沙哈尼医生\N{\fs16\3c&H2F2F2F&\b0}I called Dr. Shahani.{\r}
+Dialogue: 0,0:08:15.79,0:08:17.42,Default,NTP,0000,0000,0000,,我要的是梅森医生\N{\fs16\3c&H2F2F2F&\b0}I want Dr. Mason here!{\r}
+Dialogue: 0,0:08:17.42,0:08:19.06,Default,NTP,0000,0000,0000,,卢瑟·梅森\N{\fs16\3c&H2F2F2F&\b0}Luther Mason...{\r}
+Dialogue: 0,0:08:19.06,0:08:20.87,Default,NTP,0000,0000,0000,,他连医生都算不上\N{\fs16\3c&H2F2F2F&\b0}I can't even call him "Doctor."{\r}
+Dialogue: 0,0:08:20.87,0:08:22.90,Default,NTP,0000,0000,0000,,他两年前因为拿一个病人做实验\N{\fs16\3c&H2F2F2F&\b0}Had his license revoked two years ago{\r}
+Dialogue: 0,0:08:22.90,0:08:24.49,Default,NTP,0000,0000,0000,,被吊销行医执照\N{\fs16\3c&H2F2F2F&\b0}for doing to another patient{\r}
+Dialogue: 0,0:08:24.49,0:08:25.68,Default,NTP,0000,0000,0000,,如今又在你身上又故技重施\N{\fs16\3c&H2F2F2F&\b0}what he's now doing to you.{\r}
+Dialogue: 0,0:08:25.68,0:08:27.02,Default,NTP,0000,0000,0000,,他在救我的命\N{\fs16\3c&H2F2F2F&\b0}He's saving my life.{\r}
+Dialogue: 0,0:08:27.03,0:08:28.63,Default,NTP,0000,0000,0000,,不幸的是  恰恰相反\N{\fs16\3c&H2F2F2F&\b0}Sadly, the opposite is true.{\r}
+Dialogue: 0,0:08:28.63,0:08:30.83,Default,NTP,0000,0000,0000,,你的谷丙转氨酶和谷草转氨酶都升高了\N{\fs16\3c&H2F2F2F&\b0}Your ALT and your AST levels are elevated,{\r}
+Dialogue: 0,0:08:30.83,0:08:33.43,Default,NTP,0000,0000,0000,,你的肝脏已经出现了初步损伤\N{\fs16\3c&H2F2F2F&\b0}and you're in the early stages of liver damage.{\r}
+Dialogue: 0,0:08:33.43,0:08:35.15,Default,NTP,0000,0000,0000,,这些可不是渐冻症的症状\N{\fs16\3c&H2F2F2F&\b0}These aren't symptoms of ALS.{\r}
+Dialogue: 0,0:08:35.15,0:08:36.58,Default,NTP,0000,0000,0000,,都是那个江湖骗子的药导致的\N{\fs16\3c&H2F2F2F&\b0}That charlatan's drugs are doing this.{\r}
+Dialogue: 0,0:08:36.58,0:08:38.05,Default,NTP,0000,0000,0000,,我正在好转\N{\fs16\3c&H2F2F2F&\b0}I'm getting better.{\r}
+Dialogue: 0,0:08:38.05,0:08:40.17,Default,NTP,0000,0000,0000,,这是他们在俄罗斯研究出的突破性疗法\N{\fs16\3c&H2F2F2F&\b0}It's a breakthrough treatment they've got in Russia.{\r}
+Dialogue: 0,0:08:40.17,0:08:41.34,Default,NTP,0000,0000,0000,,他们的研究结果非常超前\N{\fs16\3c&H2F2F2F&\b0}They're so far ahead.{\r}
+Dialogue: 0,0:08:41.34,0:08:42.72,Default,NTP,0000,0000,0000,,食品和药物管理局相比起来太落后了\N{\fs16\3c&H2F2F2F&\b0}The FDA is behind the curve.{\r}
+Dialogue: 0,0:08:42.72,0:08:45.88,Default,NTP,0000,0000,0000,,这个所谓的俄式突破性疗法\N{\fs16\3c&H2F2F2F&\b0}Okay, well, this Russian so-called breakthrough{\r}
+Dialogue: 0,0:08:45.88,0:08:48.98,Default,NTP,0000,0000,0000,,比你的疾病还要致命  卢修斯\N{\fs16\3c&H2F2F2F&\b0}is killing you faster than your disease is, Lucious.{\r}
+Dialogue: 0,0:08:48.98,0:08:51.40,Default,NTP,0000,0000,0000,,那是毒药  你明白了吗\N{\fs16\3c&H2F2F2F&\b0}It's poison. Do you understand?{\r}
+Dialogue: 0,0:08:51.40,0:08:53.44,Default,NTP,0000,0000,0000,,-渐冻症无药可治  -滚出去\N{\fs16\3c&H2F2F2F&\b0}- There is no cure for ALS. - Get out of here!{\r}
+Dialogue: 0,0:08:53.45,0:08:56.20,Default,NTP,0000,0000,0000,,告诉你此病有药可医\N{\fs16\3c&H2F2F2F&\b0}And anyone who tries to tell you that there is--{\r}
+Dialogue: 0,0:08:56.20,0:08:58.60,Default,NTP,0000,0000,0000,,并以此借口骗你钱的人是在犯罪\N{\fs16\3c&H2F2F2F&\b0}and takes your money while they're at it-- is a criminal.{\r}
+Dialogue: 0,0:08:58.60,0:08:59.48,Default,NTP,0000,0000,0000,,你听明白了吗\N{\fs16\3c&H2F2F2F&\b0}Really, do you understand?{\r}
+Dialogue: 0,0:08:59.48,0:09:01.33,Default,NTP,0000,0000,0000,,给我滚出去\N{\fs16\3c&H2F2F2F&\b0}Get the hell out of here!{\r}
+Dialogue: 0,0:09:01.33,0:09:02.83,Default,NTP,0000,0000,0000,,医生  拜托了\N{\fs16\3c&H2F2F2F&\b0}Doctot, please.{\r}
+Dialogue: 0,0:09:04.61,0:09:05.74,Default,NTP,0000,0000,0000,,里面怎么了\N{\fs16\3c&H2F2F2F&\b0}What's going on in there?{\r}
+Dialogue: 0,0:09:05.74,0:09:06.65,Default,NTP,0000,0000,0000,,你是家属吗\N{\fs16\3c&H2F2F2F&\b0}Are you family?{\r}
+Dialogue: 0,0:09:06.65,0:09:08.09,Default,NTP,0000,0000,0000,,我是他前妻\N{\fs16\3c&H2F2F2F&\b0}I used to be married to the man.{\r}
+Dialogue: 0,0:09:08.09,0:09:09.25,Default,NTP,0000,0000,0000,,给他生了三个孩子\N{\fs16\3c&H2F2F2F&\b0}I gave him three sons.{\r}
+Dialogue: 0,0:09:09.25,0:09:10.77,Default,NTP,0000,0000,0000,,这还不算家属吗\N{\fs16\3c&H2F2F2F&\b0}That should be family enough.{\r}
+Dialogue: 0,0:09:10.77,0:09:12.70,Default,NTP,0000,0000,0000,,抱歉  你不能进去\N{\fs16\3c&H2F2F2F&\b0}I'm sorry I can't let you in.{\r}
+Dialogue: 0,0:09:35.63,0:09:37.55,Default,NTP,0000,0000,0000,,来听听帝国娱乐体育管理部的情况\N{\fs16\3c&H2F2F2F&\b0}Let's hear from Empire Sports Management Division.{\r}
+Dialogue: 0,0:09:37.55,0:09:39.57,Default,NTP,0000,0000,0000,,帝国精英体育成就显著\N{\fs16\3c&H2F2F2F&\b0}Empire Elite Sports rules.{\r}
+Dialogue: 0,0:09:39.57,0:09:42.30,Default,NTP,0000,0000,0000,,我们旗下有NBA首轮选秀的六名球员\N{\fs16\3c&H2F2F2F&\b0}We rep six first-round NBA picks.{\r}
+Dialogue: 0,0:09:42.30,0:09:45.06,Default,NTP,0000,0000,0000,,代言协议已经带来超过三千两百万...\N{\fs16\3c&H2F2F2F&\b0}Endorsement deals have brought in well over $32 million...{\r}
+Dialogue: 0,0:09:45.06,0:09:46.75,Default,NTP,0000,0000,0000,,不错  我们就拿这个开场\N{\fs16\3c&H2F2F2F&\b0}Impressive. We'll lead with that.{\r}
+Dialogue: 0,0:09:47.24,0:09:49.59,Default,NTP,0000,0000,0000,,体育是投资者们的最爱  各位\N{\fs16\3c&H2F2F2F&\b0}Sports is an investor favorite, ladies and gentlemen.{\r}
+Dialogue: 0,0:09:49.98,0:09:52.46,Default,NTP,0000,0000,0000,,能让气氛热烈起来  激发活力\N{\fs16\3c&H2F2F2F&\b0}It gets the crowd revved up and energized.{\r}
+Dialogue: 0,0:09:52.47,0:09:55.39,Default,NTP,0000,0000,0000,,不  我们要用音乐开场\N{\fs16\3c&H2F2F2F&\b0}No, we will lead with music.{\r}
+Dialogue: 0,0:09:55.81,0:09:57.81,Default,NTP,0000,0000,0000,,帝国娱乐至始至终都是主打音乐\N{\fs16\3c&H2F2F2F&\b0}Empire begins and ends with music.{\r}
+Dialogue: 0,0:09:57.81,0:09:59.38,Default,NTP,0000,0000,0000,,永远不要忘了这点\N{\fs16\3c&H2F2F2F&\b0}Never forget that.{\r}
+Dialogue: 0,0:10:00.05,0:10:02.19,Default,NTP,0000,0000,0000,,这场展示演出是关于资金的  爸\N{\fs16\3c&H2F2F2F&\b0}This presentation's about money, Dad.{\r}
+Dialogue: 0,0:10:02.19,0:10:03.39,Default,NTP,0000,0000,0000,,席勒那样的人想听到的是数字\N{\fs16\3c&H2F2F2F&\b0}Men like Schiller want to hear the numbers.{\r}
+Dialogue: 0,0:10:03.39,0:10:05.20,Default,NTP,0000,0000,0000,,音乐才会让他们掏出腰包\N{\fs16\3c&H2F2F2F&\b0}Music is what's gonna get them{\r}
+Dialogue: 0,0:10:05.20,0:10:07.25,Default,NTP,0000,0000,0000,,给公司投资大笔资金\N{\fs16\3c&H2F2F2F&\b0}to invest their millions in this company.{\r}
+Dialogue: 0,0:10:07.25,0:10:08.62,Default,NTP,0000,0000,0000,,音乐能够动情\N{\fs16\3c&H2F2F2F&\b0}Music is emotional.{\r}
+Dialogue: 0,0:10:08.62,0:10:10.73,Default,NTP,0000,0000,0000,,音乐是帝国娱乐的根本\N{\fs16\3c&H2F2F2F&\b0}Music is what Empire's about.{\r}
+Dialogue: 0,0:10:10.73,0:10:13.24,Default,NTP,0000,0000,0000,,我想听听看这次音乐的演出阵容\N{\fs16\3c&H2F2F2F&\b0}I want to hear the music lineup.{\r}
+Dialogue: 0,0:10:14.14,0:10:15.39,Default,NTP,0000,0000,0000,,好的\N{\fs16\3c&H2F2F2F&\b0}Lovely.{\r}
+Dialogue: 0,0:10:16.88,0:10:18.91,Default,NTP,0000,0000,0000,,在开场前的鸡尾酒会上\N{\fs16\3c&H2F2F2F&\b0}We have multiple acts that will be doing{\r}
+Dialogue: 0,0:10:18.91,0:10:21.19,Default,NTP,0000,0000,0000,,我们准备了几场表演\N{\fs16\3c&H2F2F2F&\b0}for the pre-show cocktail party.{\r}
+Dialogue: 0,0:10:21.19,0:10:24.82,Default,NTP,0000,0000,0000,,接着会以哈基姆和贾马尔的合唱正式开场\N{\fs16\3c&H2F2F2F&\b0}And then Hakeem and Jamal are gonna be opening on the main stage.{\r}
+Dialogue: 0,0:10:24.82,0:10:25.65,Default,NTP,0000,0000,0000,,不  不\N{\fs16\3c&H2F2F2F&\b0}No, no, no, no, no!{\r}
+Dialogue: 0,0:10:25.66,0:10:28.90,Default,NTP,0000,0000,0000,,我要艾儿·达拉斯开场\N{\fs16\3c&H2F2F2F&\b0}I want to open with Elle Dallas--{\r}
+Dialogue: 0,0:10:28.90,0:10:30.03,Default,NTP,0000,0000,0000,,她是继我之后\N{\fs16\3c&H2F2F2F&\b0}she was Empire's first{\r}
+Dialogue: 0,0:10:30.03,0:10:32.03,Default,NTP,0000,0000,0000,,帝国娱乐的第一位白金唱片歌手\N{\fs16\3c&H2F2F2F&\b0}platinum-selling artist after me.{\r}
+Dialogue: 0,0:10:32.03,0:10:35.91,Default,NTP,0000,0000,0000,,她能在这帮有钱人面前打好感情牌\N{\fs16\3c&H2F2F2F&\b0}She'll have a sentimental appeal to this money crowd.{\r}
+Dialogue: 0,0:10:35.91,0:10:37.97,Default,NTP,0000,0000,0000,,我也很希望艾儿出场  卢修斯\N{\fs16\3c&H2F2F2F&\b0}I would love to have Elle, Lucious.{\r}
+Dialogue: 0,0:10:37.97,0:10:38.95,Default,NTP,0000,0000,0000,,但她是个瘾君子\N{\fs16\3c&H2F2F2F&\b0}But she's an addict.{\r}
+Dialogue: 0,0:10:38.95,0:10:40.72,Default,NTP,0000,0000,0000,,琦琦说她现在状态不错\N{\fs16\3c&H2F2F2F&\b0}Well, Cookie says she's in good shape.{\r}
+Dialogue: 0,0:10:40.72,0:10:42.16,Default,NTP,0000,0000,0000,,这事我信琦琦\N{\fs16\3c&H2F2F2F&\b0}I trust Cookie on this.{\r}
+Dialogue: 0,0:10:42.16,0:10:43.35,Default,NTP,0000,0000,0000,,好吧\N{\fs16\3c&H2F2F2F&\b0}Fine.{\r}
+Dialogue: 0,0:10:43.59,0:10:49.64,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We got to move these color TVs♪
+Dialogue: 0,0:10:44.17,0:10:45.42,Default,NTP,0000,0000,0000,,好\N{\fs16\3c&H2F2F2F&\b0}Okay.{\r}
+Dialogue: 0,0:10:49.64,0:10:52.19,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We are the people who turn illegal to legal♪
+Dialogue: 0,0:10:52.20,0:10:53.70,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We take the good with the evil♪
+Dialogue: 0,0:10:53.70,0:10:55.43,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Create more sales than the Beatles♪
+Dialogue: 0,0:10:55.43,0:10:58.49,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And the Lion's our logo, we the sharks in the water♪
+Dialogue: 0,0:10:58.50,0:10:59.73,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Multimedia moguls♪
+Dialogue: 0,0:10:59.73,0:11:01.66,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪More offices than the Oval♪♪Let's go♪
+Dialogue: 0,0:11:01.66,0:11:03.91,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We do everything, came up in the game♪
+Dialogue: 0,0:11:05.05,0:11:07.60,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Necessary♪♪Finish it by any means necessary♪
+Dialogue: 0,0:11:07.60,0:11:10.76,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We everywhere-- millionaires, billionaires, visionaires♪
+Dialogue: 0,0:11:10.76,0:11:14.58,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Back to bidness, let's expand think ahead to sell the brand♪
+Dialogue: 0,0:11:14.59,0:11:17.83,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We got to install microwave ovens♪
+Dialogue: 0,0:11:18.09,0:11:19.80,Default,NTP,0000,0000,0000,,-你挡着我了  -把麦克风还给我\N{\fs16\3c&H2F2F2F&\b0}- You stepping in my way, man! - Give me my damn mic!{\r}
+Dialogue: 0,0:11:19.80,0:11:21.86,Default,NTP,0000,0000,0000,,我只想确保我们不像你这么松懈\N{\fs16\3c&H2F2F2F&\b0}I'm just trying to make sure that we ain't lagging like you!{\r}
+Dialogue: 0,0:11:21.86,0:11:23.07,Default,NTP,0000,0000,0000,,你是想抢我的风头\N{\fs16\3c&H2F2F2F&\b0}Nah, you trying to steal my spotlight.{\r}
+Dialogue: 0,0:11:23.07,0:11:23.92,Default,NTP,0000,0000,0000,,那可不难做到\N{\fs16\3c&H2F2F2F&\b0}Well, that ain't hard to do.{\r}
+Dialogue: 0,0:11:23.92,0:11:24.67,Default,NTP,0000,0000,0000,,我这才叫表演\N{\fs16\3c&H2F2F2F&\b0}It's called a performance.{\r}
+Dialogue: 0,0:11:24.67,0:11:25.58,Default,NTP,0000,0000,0000,,-你怎么不学学表演  -哥不干了\N{\fn微软雅黑\fs14}- Why don't you learn to perform? - I’m not doing it.
+Dialogue: 0,0:11:25.58,0:11:27.03,Default,NTP,0000,0000,0000,,-哥不干了  -那就别啊  傻逼\N{\fn微软雅黑\fs14}- I’m not doing it. - Then don't do it, fool.
+Dialogue: 0,0:11:27.03,0:11:29.06,Default,NTP,0000,0000,0000,,你俩给老娘闭嘴\N{\fs16\3c&H2F2F2F&\b0}Shut up, both of y'all!{\r}
+Dialogue: 0,0:11:30.75,0:11:34.04,Default,NTP,0000,0000,0000,,你们两个小自私鬼今晚就消停一会\N{\fs16\3c&H2F2F2F&\b0}One night of your little selfish lives!{\r}
+Dialogue: 0,0:11:34.46,0:11:36.27,Default,NTP,0000,0000,0000,,你们的哥哥安德鲁\N{\fs16\3c&H2F2F2F&\b0}Now, your brother Andre is out there{\r}
+Dialogue: 0,0:11:36.27,0:11:38.09,Default,NTP,0000,0000,0000,,正在那里费尽心思地拉拢金主们\N{\fs16\3c&H2F2F2F&\b0}trying to hustle up big-time investors,{\r}
+Dialogue: 0,0:11:38.09,0:11:41.13,Default,NTP,0000,0000,0000,,努力让你们的父亲美梦成真\N{\fs16\3c&H2F2F2F&\b0}trying to make your father's dream come true!{\r}
+Dialogue: 0,0:11:41.64,0:11:45.09,Default,NTP,0000,0000,0000,,他此时此刻正在拼老命地努力\N{\fs16\3c&H2F2F2F&\b0}And he worked his ass off for this moment right here, right now!{\r}
+Dialogue: 0,0:11:45.09,0:11:47.50,Default,NTP,0000,0000,0000,,为了这次演出和你们两个不识好歹的东西\N{\fs16\3c&H2F2F2F&\b0}Fought his way like a dog out of the projects{\r}
+Dialogue: 0,0:11:47.50,0:11:49.73,Default,NTP,0000,0000,0000,,做牛做马\N{\fs16\3c&H2F2F2F&\b0}for you two ingrates!{\r}
+Dialogue: 0,0:11:51.11,0:11:53.31,Default,NTP,0000,0000,0000,,为了你父亲唯一的夙愿\N{\fs16\3c&H2F2F2F&\b0}Now, can you please come together,{\r}
+Dialogue: 0,0:11:53.31,0:11:55.35,Default,NTP,0000,0000,0000,,拜托你们就团结这一次\N{\fs16\3c&H2F2F2F&\b0}for this one thing your father needs,{\r}
+Dialogue: 0,0:11:55.35,0:11:57.63,Default,NTP,0000,0000,0000,,让他把这件最终还是你们受益的事促成\N{\fs16\3c&H2F2F2F&\b0}so he can bring this thing home for you!{\r}
+Dialogue: 0,0:11:57.63,0:11:59.09,Default,NTP,0000,0000,0000,,听到没\N{\fs16\3c&H2F2F2F&\b0}You hear me?{\r}
+Dialogue: 0,0:11:59.73,0:12:01.80,Default,NTP,0000,0000,0000,,我问你听到没\N{\fs16\3c&H2F2F2F&\b0}I said do you hear me?{\r}
+Dialogue: 0,0:12:01.85,0:12:03.33,Default,NTP,0000,0000,0000,,哈基姆\N{\fs16\3c&H2F2F2F&\b0}Hakeem!{\r}
+Dialogue: 0,0:12:03.36,0:12:05.58,Default,NTP,0000,0000,0000,,听你母亲的\N{\fs16\3c&H2F2F2F&\b0}Listen to your mother!{\r}
+Dialogue: 0,0:12:06.81,0:12:08.67,Default,NTP,0000,0000,0000,,她是个非常智慧的女人\N{\fs16\3c&H2F2F2F&\b0}Very wise woman.{\r}
+Dialogue: 0,0:12:09.25,0:12:11.00,Default,NTP,0000,0000,0000,,你们休息一会\N{\fs16\3c&H2F2F2F&\b0}Y'all take a minute.{\r}
+Dialogue: 0,0:12:13.80,0:12:15.86,Default,NTP,0000,0000,0000,,你不躺床上来这里干什么\N{\fs16\3c&H2F2F2F&\b0}What are you doing out of bed?{\r}
+Dialogue: 0,0:12:15.86,0:12:17.59,Default,NTP,0000,0000,0000,,只是食物中毒\N{\fs16\3c&H2F2F2F&\b0}It was just food poisoning.{\r}
+Dialogue: 0,0:12:17.59,0:12:19.31,Default,NTP,0000,0000,0000,,"食物中毒"吗\N{\fs16\3c&H2F2F2F&\b0}"Food poisoning," Huh?{\r}
+Dialogue: 0,0:12:19.31,0:12:22.05,Default,NTP,0000,0000,0000,,你到底怎么了  卢修斯\N{\fs16\3c&H2F2F2F&\b0}What's really going on with you, Lucious?{\r}
+Dialogue: 0,0:12:22.13,0:12:23.46,Default,NTP,0000,0000,0000,,我没事\N{\fs16\3c&H2F2F2F&\b0}I'm fine.{\r}
+Dialogue: 0,0:12:24.45,0:12:27.55,Default,NTP,0000,0000,0000,,刚刚你说得真好\N{\fs16\3c&H2F2F2F&\b0}They were some really nice words you said there.{\r}
+Dialogue: 0,0:12:27.55,0:12:30.47,Default,NTP,0000,0000,0000,,卢修斯  你那伤心情歌就免了\N{\fs16\3c&H2F2F2F&\b0}Lucious, save your little sad songs.{\r}
+Dialogue: 0,0:12:31.02,0:12:33.19,Default,NTP,0000,0000,0000,,我没时间听\N{\fs16\3c&H2F2F2F&\b0}I don't have time for them.{\r}
+Dialogue: 0,0:12:34.04,0:12:36.78,Default,NTP,0000,0000,0000,,这哥俩碍到我赚钱了\N{\fs16\3c&H2F2F2F&\b0}Those boys was coming between me and my money.{\r}
+Dialogue: 0,0:12:37.76,0:12:40.03,Default,NTP,0000,0000,0000,,我只是做了我该做的\N{\fs16\3c&H2F2F2F&\b0}I just did what I had to do.{\r}
+Dialogue: 0,0:12:41.61,0:12:43.13,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}麦迪逊大道3353号
+Dialogue: 0,0:12:49.32,0:12:50.61,Default,NTP,0000,0000,0000,,是  我们要重点注意\N{\fs16\3c&H2F2F2F&\b0}Yeah, we just keep a eye out{\r}
+Dialogue: 0,0:12:50.61,0:12:53.48,Default,NTP,0000,0000,0000,,-几个新艺人  -马尔科姆先生\N{\fs16\3c&H2F2F2F&\b0}- for just new artists... - Mr. Malcolm!{\r}
+Dialogue: 0,0:12:54.07,0:12:55.86,Default,NTP,0000,0000,0000,,电梯好像卡在17楼\N{\fs16\3c&H2F2F2F&\b0}The elevator seems to be stuck{\r}
+Dialogue: 0,0:12:55.86,0:12:58.47,Default,NTP,0000,0000,0000,,大概有十分钟了\N{\fs16\3c&H2F2F2F&\b0}on 17 for, like, the last ten minutes.{\r}
+Dialogue: 0,0:12:58.47,0:13:00.06,Default,NTP,0000,0000,0000,,能帮我吗\N{\fs16\3c&H2F2F2F&\b0}Can you help me out?{\r}
+Dialogue: 0,0:13:06.37,0:13:07.76,Default,NTP,0000,0000,0000,,最近好吗\N{\fs16\3c&H2F2F2F&\b0}How are you?{\r}
+Dialogue: 0,0:13:07.79,0:13:08.71,Default,NTP,0000,0000,0000,,不错  你呢\N{\fs16\3c&H2F2F2F&\b0}I'm good. How you doing?{\r}
+Dialogue: 0,0:13:08.71,0:13:10.03,Default,NTP,0000,0000,0000,,还行\N{\fs16\3c&H2F2F2F&\b0}I'm good.{\r}
+Dialogue: 0,0:13:12.04,0:13:13.83,Default,NTP,0000,0000,0000,,我试试看\N{\fs16\3c&H2F2F2F&\b0}Let's see what I can do.{\r}
+Dialogue: 0,0:13:17.28,0:13:19.17,Default,NTP,0000,0000,0000,,好了  开始动了\N{\fs16\3c&H2F2F2F&\b0}There it is. It's moving.{\r}
+Dialogue: 0,0:13:30.07,0:13:31.92,Default,NTP,0000,0000,0000,,我找不到妈妈了\N{\fs16\3c&H2F2F2F&\b0}I lost my mommy.{\r}
+Dialogue: 0,0:13:39.50,0:13:41.42,Default,NTP,0000,0000,0000,,她丢下孩子就不见了吗\N{\fs16\3c&H2F2F2F&\b0}So, she just up and left her child?{\r}
+Dialogue: 0,0:13:41.42,0:13:42.63,Default,NTP,0000,0000,0000,,没错  好像是这样的\N{\fs16\3c&H2F2F2F&\b0}Yeah, it appears that way.{\r}
+Dialogue: 0,0:13:42.63,0:13:44.43,Default,NTP,0000,0000,0000,,我们搜了整幢楼\N{\fs16\3c&H2F2F2F&\b0}We searched the entire building.{\r}
+Dialogue: 0,0:13:45.20,0:13:47.15,Default,NTP,0000,0000,0000,,贾马尔要当甜心老爸了吗\N{\fs16\3c&H2F2F2F&\b0}Jamal gonna be a daddy?{\r}
+Dialogue: 0,0:13:47.15,0:13:49.30,Default,NTP,0000,0000,0000,,-谁想得到啊  -别烦我\N{\fs16\3c&H2F2F2F&\b0}- Who'd-a thunk? - Leave me with all that.{\r}
+Dialogue: 0,0:13:49.30,0:13:51.29,Default,NTP,0000,0000,0000,,-贾马尔  -我没事  别管我\N{\fn微软雅黑\fs14}- Jamal! - I’m fine. Leave me alone.
+Dialogue: 0,0:13:51.29,0:13:52.47,Default,NTP,0000,0000,0000,,-怎么了  -给我点时间想想\N{\fs16\3c&H2F2F2F&\b0}- What? - I just need time to think.{\r}
+Dialogue: 0,0:13:52.47,0:13:54.66,Default,NTP,0000,0000,0000,,让他走  他需要发泄一下\N{\fs16\3c&H2F2F2F&\b0}No, let him go. He needs to blow off some steam.{\r}
+Dialogue: 0,0:13:54.66,0:13:55.92,Default,NTP,0000,0000,0000,,现在那小女孩在哪\N{\fs16\3c&H2F2F2F&\b0}Where's the little girl at now?{\r}
+Dialogue: 0,0:13:55.92,0:13:56.96,Default,NTP,0000,0000,0000,,都怪你  卢修斯\N{\fs16\3c&H2F2F2F&\b0}This is your fault, Lucious!{\r}
+Dialogue: 0,0:13:56.96,0:13:58.73,Default,NTP,0000,0000,0000,,怎么怪我\N{\fs16\3c&H2F2F2F&\b0}Why is this my fault?!{\r}
+Dialogue: 0,0:13:59.40,0:14:00.23,Default,NTP,0000,0000,0000,,她人呢\N{\fs16\3c&H2F2F2F&\b0}Where is she?{\r}
+Dialogue: 0,0:14:00.23,0:14:02.30,Default,NTP,0000,0000,0000,,贝基带着她  很安全  先生\N{\fs16\3c&H2F2F2F&\b0}She's safe with Becky, sir.{\r}
+Dialogue: 0,0:14:12.63,0:14:13.98,Default,NTP,0000,0000,0000,,-今晚玩得开心  先生  -谢谢\N{\fs16\3c&H2F2F2F&\b0}- Have a good evening, sir. - Thank you.{\r}
+Dialogue: 0,0:14:13.98,0:14:15.40,Default,NTP,0000,0000,0000,,不用谢\N{\fs16\3c&H2F2F2F&\b0}You're welcome.{\r}
+Dialogue: 0,0:14:27.15,0:14:28.65,Default,NTP,0000,0000,0000,,她不在自己公寓\N{\fs16\3c&H2F2F2F&\b0}She ain't at her apartment.{\r}
+Dialogue: 0,0:14:28.65,0:14:30.14,Default,NTP,0000,0000,0000,,家人也没见过她\N{\fs16\3c&H2F2F2F&\b0}Family hasn't seen her, either.{\r}
+Dialogue: 0,0:14:30.14,0:14:31.32,Default,NTP,0000,0000,0000,,要联系卖她毒品的人吗\N{\fs16\3c&H2F2F2F&\b0}Did you call her dealers?{\r}
+Dialogue: 0,0:14:31.32,0:14:33.27,Default,NTP,0000,0000,0000,,接电话  艾儿  求你了\N{\fs16\3c&H2F2F2F&\b0}Oh, come on, Elle, please!{\r}
+Dialogue: 0,0:14:33.27,0:14:35.60,Default,NTP,0000,0000,0000,,别这样对我  今晚可不行  拜托了\N{\fs16\3c&H2F2F2F&\b0}Don't do this to me. Not tonight, please.{\r}
+Dialogue: 0,0:14:35.60,0:14:37.65,Default,NTP,0000,0000,0000,,事儿逼小姐就希望这样\N{\fs16\3c&H2F2F2F&\b0}You know, Miss Thing gonna love this.{\r}
+Dialogue: 0,0:14:37.67,0:14:39.50,Default,NTP,0000,0000,0000,,艾儿让你在卢修斯面前丢脸\N{\fs16\3c&H2F2F2F&\b0}Elle making you look like a fool to Lucious.{\r}
+Dialogue: 0,0:14:39.51,0:14:41.39,Default,NTP,0000,0000,0000,,我问你的意见了吗\N{\fs16\3c&H2F2F2F&\b0}Did I ask for your opinion?{\r}
+Dialogue: 0,0:14:41.39,0:14:43.11,Default,NTP,0000,0000,0000,,你有点管不住自己的嘴啊\N{\fs16\3c&H2F2F2F&\b0}You know, you getting a little too loose in the lips.{\r}
+Dialogue: 0,0:14:43.11,0:14:45.12,Default,NTP,0000,0000,0000,,-有人在叫我吗  -艾儿  天呐\N{\fs16\3c&H2F2F2F&\b0}- Did I hear my name? - Elle, my God!{\r}
+Dialogue: 0,0:14:45.12,0:14:47.41,Default,NTP,0000,0000,0000,,-完全没吸毒  -你真美\N{\fs16\3c&H2F2F2F&\b0}- And I'm clean. - You look amazing!{\r}
+Dialogue: 0,0:14:47.41,0:14:50.06,Default,NTP,0000,0000,0000,,抱歉吓着你了  但我需要练习\N{\fs16\3c&H2F2F2F&\b0}I'm so sorry to scare you, but I need to rehearse.{\r}
+Dialogue: 0,0:14:50.06,0:14:53.42,Default,NTP,0000,0000,0000,,在帝国娱乐待久了  也过上"CP"时间了\N{\fs16\3c&H2F2F2F&\b0}I've been around Empire so long, I'm on CP time.{\r}
+Dialogue: 0,0:14:56.33,0:14:58.11,Default,NTP,0000,0000,0000,,是说有色人种爱迟到\N{\fs16\3c&H2F2F2F&\b0}Colored People time.{\r}
+Dialogue: 0,0:15:09.71,0:15:12.89,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Don't look at me that Way♪
+Dialogue: 0,0:15:15.03,0:15:19.43,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Like you know how it's going to end♪
+Dialogue: 0,0:15:24.27,0:15:27.95,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪'Cause I'm too tired to be honest♪
+Dialogue: 0,0:15:29.84,0:15:31.24,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And I'm too hurt♪
+Dialogue: 0,0:15:31.71,0:15:34.41,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪To pretend♪
+Dialogue: 0,0:15:36.58,0:15:41.98,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Darling, some wounds will not mend♪
+Dialogue: 0,0:15:46.27,0:15:47.42,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:15:47.82,0:15:49.57,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:15:50.77,0:15:52.85,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'll see you for the last time♪
+Dialogue: 0,0:15:53.53,0:15:56.89,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me, walk out on me♪
+Dialogue: 0,0:15:58.20,0:16:00.34,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'm giving you a life line♪
+Dialogue: 0,0:16:01.29,0:16:03.26,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Say so long♪
+Dialogue: 0,0:16:03.77,0:16:05.31,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And then walk away♪
+Dialogue: 0,0:16:08.53,0:16:11.70,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Say so long♪
+Dialogue: 0,0:16:11.70,0:16:13.10,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And then walk away♪
+Dialogue: 0,0:16:25.70,0:16:28.20,Default,NTP,0000,0000,0000,,这是爸爸  这是妈妈\N{\fs16\3c&H2F2F2F&\b0}This is the daddy, this is the mommy.{\r}
+Dialogue: 0,0:16:28.20,0:16:31.30,Default,NTP,0000,0000,0000,,他们走进了房子\N{\fs16\3c&H2F2F2F&\b0}They do all walk in the house.{\r}
+Dialogue: 0,0:16:31.81,0:16:34.80,Default,NTP,0000,0000,0000,,从此幸福地生活在一起\N{\fs16\3c&H2F2F2F&\b0}Then they live happy ever after.{\r}
+Dialogue: 0,0:16:35.62,0:16:37.00,Default,NTP,0000,0000,0000,,那只能是愿望了\N{\fs16\3c&H2F2F2F&\b0}Good luck with that.{\r}
+Dialogue: 0,0:16:46.51,0:16:48.05,Default,NTP,0000,0000,0000,,你说厨师来不了了是什么意思\N{\fs16\3c&H2F2F2F&\b0}What do you mean the chef bailed?{\r}
+Dialogue: 0,0:16:48.05,0:16:49.34,Default,NTP,0000,0000,0000,,那是我爸爸\N{\fs16\3c&H2F2F2F&\b0}That's my daddy.{\r}
+Dialogue: 0,0:16:49.34,0:16:50.45,Default,NTP,0000,0000,0000,,我知道\N{\fs16\3c&H2F2F2F&\b0}I know.{\r}
+Dialogue: 0,0:16:51.81,0:16:52.89,Default,NTP,0000,0000,0000,,那就找戈登·拉姆齐{\fs14}[顶级厨师]{\fs}\N{\fs16\3c&H2F2F2F&\b0}Then call Gordon Ramsay.{\r\fs0}
+Dialogue: 0,0:16:52.89,0:16:53.74,Default,NTP,0000,0000,0000,,我本来也一直在跟他谈\N{\fs16\3c&H2F2F2F&\b0}I've been talking to him{\r}
+Dialogue: 0,0:16:53.74,0:16:56.15,Default,NTP,0000,0000,0000,,接管拉维提科斯厨房的事\N{\fs16\3c&H2F2F2F&\b0}about taking over the kitchen at Laviticus anyway.{\r}
+Dialogue: 0,0:16:56.33,0:16:57.41,Default,NTP,0000,0000,0000,,行  赶快办好\N{\fs16\3c&H2F2F2F&\b0}Yeah, get it done.{\r}
+Dialogue: 0,0:16:59.50,0:17:01.25,Default,NTP,0000,0000,0000,,贝基一直在照顾你女儿\N{\fs16\3c&H2F2F2F&\b0}You know, Becky's been taking care of your daughter.{\r}
+Dialogue: 0,0:17:01.25,0:17:02.79,Default,NTP,0000,0000,0000,,你应该去谢谢她\N{\fs16\3c&H2F2F2F&\b0}You might want to thank her for that.{\r}
+Dialogue: 0,0:17:02.79,0:17:04.36,Default,NTP,0000,0000,0000,,你怎么这么确定她是我女儿\N{\fs16\3c&H2F2F2F&\b0}What makes you so sure she's my daughter?{\r}
+Dialogue: 0,0:17:04.36,0:17:05.86,Default,NTP,0000,0000,0000,,你和她母亲结婚了\N{\fs16\3c&H2F2F2F&\b0}You were married to her mother.{\r}
+Dialogue: 0,0:17:05.86,0:17:07.51,Default,NTP,0000,0000,0000,,我和她的婚姻只是个幌子  你知道的\N{\fs16\3c&H2F2F2F&\b0}Our marriage was a sham. You know that.{\r}
+Dialogue: 0,0:17:07.51,0:17:09.09,Default,NTP,0000,0000,0000,,别闹了\N{\fs16\3c&H2F2F2F&\b0}Quit being so dramatic.{\r}
+Dialogue: 0,0:17:09.52,0:17:10.82,Default,NTP,0000,0000,0000,,我当时是想保护你\N{\fs16\3c&H2F2F2F&\b0}I did it to try and protect you.{\r}
+Dialogue: 0,0:17:10.83,0:17:12.51,Default,NTP,0000,0000,0000,,你前途无量\N{\fs16\3c&H2F2F2F&\b0}You-you-you had a promising career,{\r}
+Dialogue: 0,0:17:12.51,0:17:13.64,Default,NTP,0000,0000,0000,,你那天上节目\N{\fs16\3c&H2F2F2F&\b0}and it's the same thing you did{\r}
+Dialogue: 0,0:17:13.64,0:17:15.03,Default,NTP,0000,0000,0000,,也是这么做的\N{\fs16\3c&H2F2F2F&\b0}the other day on the radio.{\r}
+Dialogue: 0,0:17:15.56,0:17:17.19,Default,NTP,0000,0000,0000,,这样做很明智  贾马尔\N{\fs16\3c&H2F2F2F&\b0}It's the smart thing to do, Jamal.{\r}
+Dialogue: 0,0:17:17.49,0:17:19.17,Default,NTP,0000,0000,0000,,你有首大热新单曲\N{\fs16\3c&H2F2F2F&\b0}I mean, you got a hot new single.{\r}
+Dialogue: 0,0:17:19.32,0:17:20.45,Default,NTP,0000,0000,0000,,现在是紧要关头\N{\fs16\3c&H2F2F2F&\b0}A lot at stake.{\r}
+Dialogue: 0,0:17:20.60,0:17:22.39,Default,NTP,0000,0000,0000,,你能做那个决定我很欣赏\N{\fs16\3c&H2F2F2F&\b0}I respect you for that decision.{\r}
+Dialogue: 0,0:17:28.37,0:17:29.41,Default,NTP,0000,0000,0000,,迈克尔走了\N{\fs16\3c&H2F2F2F&\b0}Michael left.{\r}
+Dialogue: 0,0:17:30.03,0:17:31.08,Default,NTP,0000,0000,0000,,我听说了\N{\fs16\3c&H2F2F2F&\b0}Yeah, I heard.{\r}
+Dialogue: 0,0:17:32.01,0:17:32.99,Default,NTP,0000,0000,0000,,真遗憾\N{\fs16\3c&H2F2F2F&\b0}I'm sorry.{\r}
+Dialogue: 0,0:17:34.56,0:17:35.62,Default,NTP,0000,0000,0000,,省省吧\N{\fs16\3c&H2F2F2F&\b0}Please.{\r}
+Dialogue: 0,0:17:38.29,0:17:39.26,Default,NTP,0000,0000,0000,,好吧\N{\fs16\3c&H2F2F2F&\b0}Okay...{\r}
+Dialogue: 0,0:17:39.75,0:17:41.45,Default,NTP,0000,0000,0000,,我并不因为他走感到遗憾\N{\fs16\3c&H2F2F2F&\b0}I'm not sorry he's gone.{\r}
+Dialogue: 0,0:17:44.29,0:17:46.90,Default,NTP,0000,0000,0000,,但我遗憾你不开心\N{\fs16\3c&H2F2F2F&\b0}I am sorry that you're not happy.{\r}
+Dialogue: 0,0:17:47.67,0:17:49.18,Default,NTP,0000,0000,0000,,你总有一天会遇到一个\N{\fs16\3c&H2F2F2F&\b0}Eventually, you're gonna meet somebody{\r}
+Dialogue: 0,0:17:49.18,0:17:52.06,Default,NTP,0000,0000,0000,,懂得和艺人在一起\N{\fs16\3c&H2F2F2F&\b0}who really understands what it's like to...{\r}
+Dialogue: 0,0:17:52.06,0:17:53.44,Default,NTP,0000,0000,0000,,是什么感觉的人\N{\fs16\3c&H2F2F2F&\b0}be with an artist.{\r}
+Dialogue: 0,0:17:55.12,0:17:56.14,Default,NTP,0000,0000,0000,,这很难\N{\fs16\3c&H2F2F2F&\b0}It's hard.{\r}
+Dialogue: 0,0:17:59.50,0:18:01.49,Default,NTP,0000,0000,0000,,贾马尔  你觉得有没有一丝可能\N{\fs16\3c&H2F2F2F&\b0}Jamal, you think there's a possibility{\r}
+Dialogue: 0,0:18:02.06,0:18:04.96,Default,NTP,0000,0000,0000,,这个小女孩真是你女儿\N{\fs16\3c&H2F2F2F&\b0}that this little girl might really be your daughter?{\r}
+Dialogue: 0,0:18:08.56,0:18:10.44,Default,NTP,0000,0000,0000,,弗农派人去外面\N{\fs16\3c&H2F2F2F&\b0}Vernon's got people combing the street,{\r}
+Dialogue: 0,0:18:10.44,0:18:12.01,Default,NTP,0000,0000,0000,,想办法找她母亲\N{\fs16\3c&H2F2F2F&\b0}trying to find her mother.{\r}
+Dialogue: 0,0:18:13.01,0:18:15.82,Default,NTP,0000,0000,0000,,我和安妮卡暂时先接她回家\N{\fs16\3c&H2F2F2F&\b0}In the interim, Anika and I can take her home.{\r}
+Dialogue: 0,0:18:16.82,0:18:18.00,Default,NTP,0000,0000,0000,,我们叫来了胡安妮塔\N{\fs16\3c&H2F2F2F&\b0}We got Juanita over there.{\r}
+Dialogue: 0,0:18:18.00,0:18:19.81,Default,NTP,0000,0000,0000,,她肯定很乐意照看她\N{\fs16\3c&H2F2F2F&\b0}She'll get a kick out of looking after her.{\r}
+Dialogue: 0,0:18:21.25,0:18:22.70,Default,NTP,0000,0000,0000,,你不是在孤军奋战\N{\fs16\3c&H2F2F2F&\b0}You're not on your own here.{\r}
+Dialogue: 0,0:18:36.20,0:18:37.34,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Empire state of mind♪
+Dialogue: 0,0:18:38.50,0:18:42.37,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Let's go♪♪Things are looking up♪
+Dialogue: 0,0:18:43.38,0:18:45.10,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'm ready for tonight♪
+Dialogue: 0,0:18:45.86,0:18:47.56,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I feel good, real good♪
+Dialogue: 0,0:18:48.24,0:18:49.59,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Can't nobody hold me down♪
+Dialogue: 0,0:18:50.63,0:18:52.35,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Take advantage of♪
+Dialogue: 0,0:18:53.24,0:18:54.73,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪All these flashin' lights♪
+Dialogue: 0,0:18:55.39,0:18:58.48,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Cause it's the best time, the best time for it♪
+Dialogue: 0,0:18:58.72,0:19:01.49,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We can do it♪♪All right now♪
+Dialogue: 0,0:19:01.49,0:19:02.63,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Can't nobody♪♪Tie me down♪
+Dialogue: 0,0:19:03.88,0:19:05.02,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪If you want it I got it♪
+Dialogue: 0,0:19:05.89,0:19:07.32,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Tomorrow's not promised♪
+Dialogue: 0,0:19:07.80,0:19:12.60,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪So live inside the moment♪
+Dialogue: 0,0:19:12.61,0:19:14.20,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Tell me what we waiting for♪
+Dialogue: 0,0:19:14.93,0:19:16.78,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪What the hell are waiting for♪
+Dialogue: 0,0:19:17.26,0:19:21.29,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I wanna live inside the moment♪
+Dialogue: 0,0:19:22.33,0:19:24.51,Default,NTP,0000,0000,0000,,这是马文·蒙切尔  这是艾儿·达拉斯\N{\fs16\3c&H2F2F2F&\b0}Marvin Menchel, Elle Dallas.{\r}
+Dialogue: 0,0:19:25.73,0:19:27.84,Default,NTP,0000,0000,0000,,你就是马文·蒙切尔\N{\fs16\3c&H2F2F2F&\b0}It's, uh... Marvin Menchel!{\r}
+Dialogue: 0,0:19:27.84,0:19:29.84,Default,NTP,0000,0000,0000,,见到你很荣幸\N{\fs16\3c&H2F2F2F&\b0}It's, uh... It-it's an honor.{\r}
+Dialogue: 0,0:19:29.84,0:19:32.06,Default,NTP,0000,0000,0000,,你这个性感猛男\N{\fs16\3c&H2F2F2F&\b0}Oh, you sexy beast!{\r}
+Dialogue: 0,0:19:35.15,0:19:36.95,Default,NTP,0000,0000,0000,,艾儿  你气色真好\N{\fs16\3c&H2F2F2F&\b0}Elle, you look amazing.{\r}
+Dialogue: 0,0:19:36.95,0:19:39.81,Default,NTP,0000,0000,0000,,安妮卡  你真美\N{\fs16\3c&H2F2F2F&\b0}Anika, you look beautiful.{\r}
+Dialogue: 0,0:19:40.24,0:19:41.80,Default,NTP,0000,0000,0000,,你也很美\N{\fs16\3c&H2F2F2F&\b0}Lovely yourself.{\r}
+Dialogue: 0,0:19:41.80,0:19:43.18,Default,NTP,0000,0000,0000,,请带她上楼\N{\fs16\3c&H2F2F2F&\b0}Take her upstairs, please.{\r}
+Dialogue: 0,0:19:43.87,0:19:44.51,Default,NTP,0000,0000,0000,,她怎么样\N{\fs16\3c&H2F2F2F&\b0}How's she doing?{\r}
+Dialogue: 0,0:19:44.51,0:19:46.05,Default,NTP,0000,0000,0000,,她状态应该不错\N{\fs16\3c&H2F2F2F&\b0}She's doing fine, I guess.{\r}
+Dialogue: 0,0:19:46.26,0:19:48.88,Default,NTP,0000,0000,0000,,说她愿意跟我去任何聚会...\N{\fs16\3c&H2F2F2F&\b0}Says she wants to go any meeting with me, so...{\r}
+Dialogue: 0,0:19:48.88,0:19:50.99,Default,NTP,0000,0000,0000,,很好  走着瞧吧\N{\fs16\3c&H2F2F2F&\b0}Good. We'll see about that.{\r}
+Dialogue: 0,0:19:53.50,0:19:54.63,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}帝国娱乐2015年投资商展示演出
+Dialogue: 0,0:19:52.79,0:19:55.93,Default,NTP,0000,0000,0000,,艾科伙伴公司主要投资科技公司\N{\fs16\3c&H2F2F2F&\b0}Okay, Echo Partners invests in technology companies.{\r}
+Dialogue: 0,0:19:55.94,0:19:58.25,Default,NTP,0000,0000,0000,,他们资助了"好好听"音乐分享手机应用\N{\fs16\3c&H2F2F2F&\b0}They funded the Listen Up Music sharing app.{\r}
+Dialogue: 0,0:19:58.25,0:19:59.41,Default,NTP,0000,0000,0000,,就在那边\N{\fs16\3c&H2F2F2F&\b0}Right over here.{\r}
+Dialogue: 0,0:19:59.95,0:20:01.13,Default,NTP,0000,0000,0000,,-兄弟  -幸会\N{\fs16\3c&H2F2F2F&\b0}- Young brother. - A pleasure.{\r}
+Dialogue: 0,0:20:01.14,0:20:02.89,Default,NTP,0000,0000,0000,,谢谢你抽空前来\N{\fs16\3c&H2F2F2F&\b0}Thank you so much for being here.{\r}
+Dialogue: 0,0:20:03.60,0:20:06.54,Default,NTP,0000,0000,0000,,这位女士是《华尔街日报》的记者\N{\fs16\3c&H2F2F2F&\b0}This woman is a reporter from the Wall Street Journal.{\r}
+Dialogue: 0,0:20:06.54,0:20:07.74,Default,NTP,0000,0000,0000,,你好\N{\fs16\3c&H2F2F2F&\b0}How are you?{\r}
+Dialogue: 0,0:20:07.92,0:20:08.98,Default,NTP,0000,0000,0000,,好的\N{\fs16\3c&H2F2F2F&\b0}Okay...{\r}
+Dialogue: 0,0:20:11.66,0:20:12.71,Default,NTP,0000,0000,0000,,需要休息一下吗\N{\fs16\3c&H2F2F2F&\b0}Hey, do you need a break?{\r}
+Dialogue: 0,0:20:12.72,0:20:13.91,Default,NTP,0000,0000,0000,,不了  我没事\N{\fs16\3c&H2F2F2F&\b0}No, no. I'm fine.{\r}
+Dialogue: 0,0:20:14.07,0:20:14.83,Default,NTP,0000,0000,0000,,你真没事吗\N{\fs16\3c&H2F2F2F&\b0}You okay?{\r}
+Dialogue: 0,0:20:15.14,0:20:15.81,Default,NTP,0000,0000,0000,,还有谁\N{\fs16\3c&H2F2F2F&\b0}Well, who else?{\r}
+Dialogue: 0,0:20:15.81,0:20:18.54,Default,NTP,0000,0000,0000,,好吧  那边是...\N{\fs16\3c&H2F2F2F&\b0}Uh, Well, right over there we have, uh...{\r}
+Dialogue: 0,0:20:18.97,0:20:22.37,Default,NTP,0000,0000,0000,,-贾马尔让我喝这种绿茶  -给你\N{\fs16\3c&H2F2F2F&\b0}- Jamals got me drinking this green tea stuff. - Here you go.{\r}
+Dialogue: 0,0:20:23.86,0:20:24.87,Default,NTP,0000,0000,0000,,感觉怎么样\N{\fs16\3c&H2F2F2F&\b0}How you feeling?{\r}
+Dialogue: 0,0:20:25.39,0:20:26.36,Default,NTP,0000,0000,0000,,你说我什么感觉\N{\fs16\3c&H2F2F2F&\b0}How do you think I'm feeling?{\r}
+Dialogue: 0,0:20:26.36,0:20:27.62,Default,NTP,0000,0000,0000,,我好紧张  亲爱的\N{\fs16\3c&H2F2F2F&\b0}I'm feeling nervous, darling,{\r}
+Dialogue: 0,0:20:27.62,0:20:28.82,Default,NTP,0000,0000,0000,,我好紧张\N{\fs16\3c&H2F2F2F&\b0}I'm feeling nervous.{\r}
+Dialogue: 0,0:20:29.67,0:20:31.32,Default,NTP,0000,0000,0000,,我只是  不想让你失望\N{\fs16\3c&H2F2F2F&\b0}I just... I don't want to let you down.{\r}
+Dialogue: 0,0:20:31.32,0:20:33.12,Default,NTP,0000,0000,0000,,你不会的  你不会的\N{\fs16\3c&H2F2F2F&\b0}You won't. You won't.{\r}
+Dialogue: 0,0:20:33.93,0:20:36.26,Default,NTP,0000,0000,0000,,大家都很高兴你能来  艾儿\N{\fs16\3c&H2F2F2F&\b0}Everybody's so happy you're here, Elle.{\r}
+Dialogue: 0,0:20:36.63,0:20:38.12,Default,NTP,0000,0000,0000,,你的音乐很棒\N{\fs16\3c&H2F2F2F&\b0}The buzz is amazing.{\r}
+Dialogue: 0,0:20:39.89,0:20:41.96,Default,NTP,0000,0000,0000,,我得去看看我儿子们\N{\fs16\3c&H2F2F2F&\b0}You know what? I'm gonna go check on my sons.{\r}
+Dialogue: 0,0:20:42.07,0:20:43.24,Default,NTP,0000,0000,0000,,我马上回来\N{\fs16\3c&H2F2F2F&\b0}Be right back.{\r}
+Dialogue: 0,0:20:46.27,0:20:47.39,Default,NTP,0000,0000,0000,,你好  艾儿\N{\fs16\3c&H2F2F2F&\b0}Hi, Elle.{\r}
+Dialogue: 0,0:20:47.52,0:20:50.21,Default,NTP,0000,0000,0000,,今晚的舞台之星啊\N{\fs16\3c&H2F2F2F&\b0}The star of the show tonight.{\r}
+Dialogue: 0,0:20:51.18,0:20:52.18,Default,NTP,0000,0000,0000,,你好吗\N{\fs16\3c&H2F2F2F&\b0}How you doing?{\r}
+Dialogue: 0,0:20:52.26,0:20:53.37,Default,NTP,0000,0000,0000,,很好  谢谢\N{\fs16\3c&H2F2F2F&\b0}Fine, thanks.{\r}
+Dialogue: 0,0:20:53.38,0:20:55.39,Default,NTP,0000,0000,0000,,我知道我们一直没什么交流的机会\N{\fs16\3c&H2F2F2F&\b0}I-I know we haven't had a chance to talk much,{\r}
+Dialogue: 0,0:20:55.59,0:20:57.37,Default,NTP,0000,0000,0000,,但我还是想来说一声\N{\fs16\3c&H2F2F2F&\b0}but I just wanted to take some time to tell you{\r}
+Dialogue: 0,0:20:57.37,0:20:59.22,Default,NTP,0000,0000,0000,,你能来我真的很高兴\N{\fs16\3c&H2F2F2F&\b0}how happy I am that you're here.{\r}
+Dialogue: 0,0:20:59.69,0:21:00.67,Default,NTP,0000,0000,0000,,谢谢\N{\fs16\3c&H2F2F2F&\b0}Thank you.{\r}
+Dialogue: 0,0:21:00.89,0:21:02.19,Default,NTP,0000,0000,0000,,今晚对你来说很重要\N{\fs16\3c&H2F2F2F&\b0}It's a big night for you.{\r}
+Dialogue: 0,0:21:02.79,0:21:04.37,Default,NTP,0000,0000,0000,,如果一个月前\N{\fs16\3c&H2F2F2F&\b0}Yeah, if you'd have told me a month ago{\r}
+Dialogue: 0,0:21:04.37,0:21:05.87,Default,NTP,0000,0000,0000,,你跟我说我还能登台表演\N{\fs16\3c&H2F2F2F&\b0}I was going to be performing again...{\r}
+Dialogue: 0,0:21:05.88,0:21:07.95,Default,NTP,0000,0000,0000,,我肯定不信\N{\fs16\3c&H2F2F2F&\b0}I wouldn't have believed you.{\r}
+Dialogue: 0,0:21:07.95,0:21:11.05,Default,NTP,0000,0000,0000,,但是琦琦却做到了\N{\fs16\3c&H2F2F2F&\b0}But Cookie pulled this all together.{\r}
+Dialogue: 0,0:21:11.05,0:21:12.45,Default,NTP,0000,0000,0000,,是啊\N{\fs16\3c&H2F2F2F&\b0}She did.{\r}
+Dialogue: 0,0:21:12.45,0:21:14.52,Default,NTP,0000,0000,0000,,艾儿  能跟你合个影吗\N{\fs16\3c&H2F2F2F&\b0}Ooh, Elle, can I get a selfie with you?{\r}
+Dialogue: 0,0:21:14.54,0:21:16.25,Default,NTP,0000,0000,0000,,-当然  -太好了\N{\fs16\3c&H2F2F2F&\b0}- Of course. - All right.{\r}
+Dialogue: 0,0:21:23.90,0:21:25.32,Default,NTP,0000,0000,0000,,-谢谢  -不客气\N{\fs16\3c&H2F2F2F&\b0}- Thank you. - You're welcome.{\r}
+Dialogue: 0,0:21:28.19,0:21:29.67,Default,NTP,0000,0000,0000,,真见鬼\N{\fs16\3c&H2F2F2F&\b0}Aw, shoot.{\r}
+Dialogue: 0,0:21:29.82,0:21:31.52,Default,NTP,0000,0000,0000,,抱歉  我得走了\N{\fs16\3c&H2F2F2F&\b0}I'm sorry. I have to go.{\r}
+Dialogue: 0,0:21:32.42,0:21:35.09,Default,NTP,0000,0000,0000,,但是  亲  你要震撼全场哦\N{\fs16\3c&H2F2F2F&\b0}But, girl, knock 'em dead.{\r}
+Dialogue: 0,0:21:35.09,0:21:36.85,Default,NTP,0000,0000,0000,,谢谢你\N{\fs16\3c&H2F2F2F&\b0}Thank you so much.{\r}
+Dialogue: 0,0:21:47.92,0:21:49.02,Default,NTP,0000,0000,0000,,你不喝酒吗\N{\fs16\3c&H2F2F2F&\b0}You're not drinking?{\r}
+Dialogue: 0,0:21:49.68,0:21:51.21,Default,NTP,0000,0000,0000,,今晚我不喝\N{\fs16\3c&H2F2F2F&\b0}Nah, I ain't drinking tonight.{\r}
+Dialogue: 0,0:22:07.06,0:22:08.65,Default,NTP,0000,0000,0000,,过会儿再找你  哥\N{\fs16\3c&H2F2F2F&\b0}I'm gonna holla at you later, B.{\r}
+Dialogue: 0,0:22:14.46,0:22:16.63,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}《利尼里亚女郎》也是迈克尔·杰克逊一首单曲的名字
+Dialogue: 0,0:22:14.46,0:22:16.63,Default,NTP,0000,0000,0000,,那位利比里亚女郎是谁\N{\fs16\3c&H2F2F2F&\b0}Who is that Liberian girl over there?{\r}
+Dialogue: 0,0:22:16.63,0:22:20.30,Default,NTP,0000,0000,0000,,卡米拉·马克斯  英国布里坦尼卡股份公司\N{\fs16\3c&H2F2F2F&\b0}Uh, Camilla Marks. Brittanica Holdings under the UK.{\r}
+Dialogue: 0,0:22:20.30,0:22:22.16,Default,NTP,0000,0000,0000,,主要投资\N{\fs16\3c&H2F2F2F&\b0}Mainly invests in...{\r}
+Dialogue: 0,0:22:22.27,0:22:24.18,Default,NTP,0000,0000,0000,,广告和营销公司\N{\fs16\3c&H2F2F2F&\b0}advertising and marketing firms.{\r}
+Dialogue: 0,0:22:27.02,0:22:28.73,Default,NTP,0000,0000,0000,,很高兴你能来  马克斯女士\N{\fs16\3c&H2F2F2F&\b0}Pleasure to have you here, Ms. Marks.{\r}
+Dialogue: 0,0:22:28.73,0:22:29.39,Default,NTP,0000,0000,0000,,谢谢\N{\fs16\3c&H2F2F2F&\b0}Thank you.{\r}
+Dialogue: 0,0:22:29.40,0:22:31.31,Default,NTP,0000,0000,0000,,希望你会喜欢今晚的演出\N{\fs16\3c&H2F2F2F&\b0}Hope you're enjoying what you're seeing today.{\r}
+Dialogue: 0,0:22:31.31,0:22:32.66,Default,NTP,0000,0000,0000,,我想我会的\N{\fs16\3c&H2F2F2F&\b0}I expect I will.{\r}
+Dialogue: 0,0:22:32.91,0:22:36.97,Default,NTP,0000,0000,0000,,我对帝国的新兴艺人很有兴趣\N{\fs16\3c&H2F2F2F&\b0}I'm extremely interested in Empire's exciting young talent roster.{\r}
+Dialogue: 0,0:22:37.05,0:22:38.03,Default,NTP,0000,0000,0000,,是吗\N{\fs16\3c&H2F2F2F&\b0}Do tell.{\r}
+Dialogue: 0,0:22:38.08,0:22:42.08,Default,NTP,0000,0000,0000,,我的人说您儿子哈基姆很有天分\N{\fs16\3c&H2F2F2F&\b0}Well, my people tell me your son Hakeem is very talented{\r}
+Dialogue: 0,0:22:42.08,0:22:44.61,Default,NTP,0000,0000,0000,,一定会成为巨星\N{\fs16\3c&H2F2F2F&\b0}and is destined for superstardom.{\r}
+Dialogue: 0,0:22:45.18,0:22:46.34,Default,NTP,0000,0000,0000,,我也希望如此\N{\fs16\3c&H2F2F2F&\b0}I hope so.{\r}
+Dialogue: 0,0:22:47.71,0:22:49.62,Default,NTP,0000,0000,0000,,现在我知道这天分是遗传谁的了\N{\fs16\3c&H2F2F2F&\b0}And I can see why he's so talented.{\r}
+Dialogue: 0,0:22:53.23,0:22:54.67,Default,NTP,0000,0000,0000,,你这么说我可要脸红了\N{\fs16\3c&H2F2F2F&\b0}You're gonna make me blush.{\r}
+Dialogue: 0,0:22:56.86,0:22:59.01,Default,NTP,0000,0000,0000,,我得走了  希望能再见\N{\fs16\3c&H2F2F2F&\b0}I have to go. I hope to see you again.{\r}
+Dialogue: 0,0:22:59.72,0:23:00.82,Default,NTP,0000,0000,0000,,今晚玩得开心\N{\fs16\3c&H2F2F2F&\b0}Have a good night.{\r}
+Dialogue: 0,0:23:03.66,0:23:04.87,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:23:06.08,0:23:08.86,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Alone there and walk away♪
+Dialogue: 0,0:23:09.77,0:23:13.11,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Say... so long♪
+Dialogue: 0,0:23:13.14,0:23:14.90,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk away♪
+Dialogue: 0,0:23:15.54,0:23:17.24,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:23:17.87,0:23:19.20,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:23:20.54,0:23:23.39,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪See you for the last time♪
+Dialogue: 0,0:23:23.46,0:23:24.78,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Walk out on me♪
+Dialogue: 0,0:23:25.68,0:23:27.26,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪On me♪
+Dialogue: 0,0:23:26.53,0:23:27.26,Default,NTP,0000,0000,0000,,艾儿\N{\fs16\3c&H2F2F2F&\b0}Elle.{\r}
+Dialogue: 0,0:23:27.47,0:23:29.15,Default,NTP,0000,0000,0000,,我到处找你\N{\fs16\3c&H2F2F2F&\b0}I've been looking for you everywhere.{\r}
+Dialogue: 0,0:23:29.25,0:23:30.73,Default,NTP,0000,0000,0000,,-我就在这里啊  -你没事吧\N{\fs16\3c&H2F2F2F&\b0}- I'm right here, man. - Are you okay?{\r}
+Dialogue: 0,0:23:30.73,0:23:32.39,Default,NTP,0000,0000,0000,,不行不行  不能抽烟\N{\fs16\3c&H2F2F2F&\b0}Oh, no, no, no. No cigarettes.{\r}
+Dialogue: 0,0:23:32.39,0:23:34.12,Default,NTP,0000,0000,0000,,需要你的声音  你要唱歌\N{\fs16\3c&H2F2F2F&\b0}We need our voice. We need our voice.{\r}
+Dialogue: 0,0:23:34.12,0:23:36.47,Default,NTP,0000,0000,0000,,我会陪着你  走吧  马上要开场了\N{\fs16\3c&H2F2F2F&\b0}I'll be with you... Come on, We're ready, we're ready to start.{\r}
+Dialogue: 0,0:23:40.57,0:23:42.38,Default,NTP,0000,0000,0000,,-怎么了  -你嗑药了吗\N{\fs16\3c&H2F2F2F&\b0}- What? - Are you high?{\r}
+Dialogue: 0,0:23:43.13,0:23:45.95,Default,NTP,0000,0000,0000,,感觉是有点怪  但我什么也没嗑\N{\fs16\3c&H2F2F2F&\b0}I feel weird, but I didn't take anything.{\r}
+Dialogue: 0,0:23:46.46,0:23:47.49,Default,NTP,0000,0000,0000,,琦琦  我没事\N{\fs16\3c&H2F2F2F&\b0}Cookie, I'm fine.{\r}
+Dialogue: 0,0:23:47.49,0:23:49.97,Default,NTP,0000,0000,0000,,-只是有点头晕  -我还为你做了担保\N{\fs16\3c&H2F2F2F&\b0}- I'm just a little woozy. - I vouched for you.{\r}
+Dialogue: 0,0:23:50.35,0:23:52.51,Default,NTP,0000,0000,0000,,-我是头晕  -当着卢修斯的面  可恶\N{\fs16\3c&H2F2F2F&\b0}- I'm a little woozy. - With Lucious, damn it!{\r}
+Dialogue: 0,0:23:55.01,0:23:59.20,Default,NTP,0000,0000,0000,,现在我得去告诉他你这样没法唱了\N{\fs16\3c&H2F2F2F&\b0}I gotta go tell him that you cannot perform like this!{\r}
+Dialogue: 0,0:24:00.11,0:24:01.32,Default,NTP,0000,0000,0000,,真是浪费我的时间\N{\fs16\3c&H2F2F2F&\b0}Wasted my damn time.{\r}
+Dialogue: 0,0:24:01.32,0:24:04.03,Default,NTP,0000,0000,0000,,我可以唱的  琦琦  我可以唱\N{\fs16\3c&H2F2F2F&\b0}I can sing... Cookie, I can sing your damn song!{\r}
+Dialogue: 0,0:24:04.03,0:24:05.02,Default,NTP,0000,0000,0000,,你给我闭嘴\N{\fs16\3c&H2F2F2F&\b0}Shut up talking!{\r}
+Dialogue: 0,0:24:05.02,0:24:06.98,Default,NTP,0000,0000,0000,,不能让你来开场了\N{\fs16\3c&H2F2F2F&\b0}We gotta start the show without you.{\r}
+Dialogue: 0,0:24:13.06,0:24:14.71,Default,NTP,0000,0000,0000,,你要...\N{\fs16\3c&H2F2F2F&\b0}You are going to...{\r}
+Dialogue: 0,0:24:21.32,0:24:23.11,Default,NTP,0000,0000,0000,,-让开  -兄弟\N{\fs16\3c&H2F2F2F&\b0}- Move your ass. - Yo, man...{\r}
+Dialogue: 0,0:24:23.11,0:24:24.43,Default,NTP,0000,0000,0000,,给我坐下\N{\fs16\3c&H2F2F2F&\b0}Sit your ass down.{\r}
+Dialogue: 0,0:24:24.44,0:24:25.44,Default,NTP,0000,0000,0000,,怪人\N{\fs16\3c&H2F2F2F&\b0}Weirdo.{\r}
+Dialogue: 0,0:24:26.19,0:24:27.48,Default,NTP,0000,0000,0000,,借下喷雾  哥们  闪开\N{\fs16\3c&H2F2F2F&\b0}Let me use your spray, dawg. Get out of here.{\r}
+Dialogue: 0,0:24:27.48,0:24:28.57,Default,NTP,0000,0000,0000,,卢修斯\N{\fs16\3c&H2F2F2F&\b0}Lucious...{\r}
+Dialogue: 0,0:24:28.62,0:24:30.21,Default,NTP,0000,0000,0000,,我很抱歉\N{\fs16\3c&H2F2F2F&\b0}Look, I'm sorry, man,{\r}
+Dialogue: 0,0:24:30.21,0:24:32.75,Default,NTP,0000,0000,0000,,我不该相信瘾君子会戒毒\N{\fs16\3c&H2F2F2F&\b0}I-I shouldn't have trusted a junkie to stay clean.{\r}
+Dialogue: 0,0:24:32.75,0:24:35.15,Default,NTP,0000,0000,0000,,-怎么了  -艾儿嗑药了  没法上台\N{\fs16\3c&H2F2F2F&\b0}- What happened? - Elle. She's high-- she can't go on.{\r}
+Dialogue: 0,0:24:35.15,0:24:36.79,Default,NTP,0000,0000,0000,,我就知道会这样\N{\fs16\3c&H2F2F2F&\b0}I knew this was gonna happen.{\r}
+Dialogue: 0,0:24:37.08,0:24:37.67,Default,NTP,0000,0000,0000,,搞什么\N{\fs16\3c&H2F2F2F&\b0}Yo, man!{\r}
+Dialogue: 0,0:24:37.67,0:24:39.83,Default,NTP,0000,0000,0000,,衣服给我  把我的夹克给我\N{\fs16\3c&H2F2F2F&\b0}Give me the jacket. Give me my super jacket.{\r}
+Dialogue: 0,0:24:39.83,0:24:41.58,Default,NTP,0000,0000,0000,,过来  我需要跟你们谈谈\N{\fs16\3c&H2F2F2F&\b0}Hey, come here, I need to talk to y'all now.{\r}
+Dialogue: 0,0:24:41.59,0:24:43.18,Default,NTP,0000,0000,0000,,赶紧准备  你们马上就要登台\N{\fs16\3c&H2F2F2F&\b0}You're gonna need to get ready; Y'all up next.{\r}
+Dialogue: 0,0:24:43.18,0:24:44.57,Default,NTP,0000,0000,0000,,得让你们开场了\N{\fs16\3c&H2F2F2F&\b0}You're in the star spot.{\r}
+Dialogue: 0,0:24:44.57,0:24:45.55,Default,NTP,0000,0000,0000,,等等  那艾儿呢\N{\fs16\3c&H2F2F2F&\b0}Wait, what about Elle?{\r}
+Dialogue: 0,0:24:45.55,0:24:46.88,Default,NTP,0000,0000,0000,,别管艾儿了  她是过去时\N{\fs16\3c&H2F2F2F&\b0}Forget Elle. That's the past.{\r}
+Dialogue: 0,0:24:46.88,0:24:48.02,Default,NTP,0000,0000,0000,,投资商来这里\N{\fs16\3c&H2F2F2F&\b0}These investors are here{\r}
+Dialogue: 0,0:24:48.02,0:24:49.50,Default,NTP,0000,0000,0000,,是为了帝国的未来\N{\fs16\3c&H2F2F2F&\b0}about the future of Empire,{\r}
+Dialogue: 0,0:24:49.50,0:24:51.20,Default,NTP,0000,0000,0000,,那就是我的儿子们\N{\fs16\3c&H2F2F2F&\b0}and that's my sons-- whatever beef{\r}
+Dialogue: 0,0:24:51.20,0:24:53.65,Default,NTP,0000,0000,0000,,不管你们有什么过节  都给我暂停\N{\fs16\3c&H2F2F2F&\b0}y'all got going on between y'all, y'all gonna stop it.{\r}
+Dialogue: 0,0:24:54.63,0:24:57.65,Default,NTP,0000,0000,0000,,给我出去让那些富翁心甘情愿地掏钱投资\N{\fs16\3c&H2F2F2F&\b0}Get out there and make those billionaires open up their checkbooks.{\r}
+Dialogue: 0,0:24:58.52,0:25:00.11,Default,NTP,0000,0000,0000,,你们都听到爸爸的话了  快\N{\fs16\3c&H2F2F2F&\b0}You heard your father. come on.{\r}
+Dialogue: 0,0:25:00.73,0:25:01.86,Default,NTP,0000,0000,0000,,好了  握手言和\N{\fs16\3c&H2F2F2F&\b0}Come on, shake hands.{\r}
+Dialogue: 0,0:25:02.41,0:25:04.29,Default,NTP,0000,0000,0000,,今晚可不是关于你的  哈基姆\N{\fs16\3c&H2F2F2F&\b0}Tonight ain't about you, Hakeem.{\r}
+Dialogue: 0,0:25:11.90,0:25:12.98,Default,NTP,0000,0000,0000,,这才是我儿子们\N{\fs16\3c&H2F2F2F&\b0}My boys.{\r}
+Dialogue: 0,0:25:29.44,0:25:31.28,Default,NTP,0000,0000,0000,,感谢大家能够前来\N{\fs16\3c&H2F2F2F&\b0}Thank you so much for being here.{\r}
+Dialogue: 0,0:25:31.67,0:25:34.89,Default,NTP,0000,0000,0000,,希望你们多少了解了一下我们公司\N{\fs16\3c&H2F2F2F&\b0}I hope you've all had a chance to learn a little bit about our company,{\r}
+Dialogue: 0,0:25:35.27,0:25:36.52,Default,NTP,0000,0000,0000,,希望你们\N{\fs16\3c&H2F2F2F&\b0}and I hope you got a chance{\r}
+Dialogue: 0,0:25:36.52,0:25:39.03,Default,NTP,0000,0000,0000,,跟这里不同部门的各位优秀高管\N{\fs16\3c&H2F2F2F&\b0}to talk to some of the very talented heads{\r}
+Dialogue: 0,0:25:39.03,0:25:40.68,Default,NTP,0000,0000,0000,,都交谈过了\N{\fs16\3c&H2F2F2F&\b0}of our many different divisions.{\r}
+Dialogue: 0,0:25:41.27,0:25:43.72,Default,NTP,0000,0000,0000,,不过此刻  在我向大家\N{\fs16\3c&H2F2F2F&\b0}But right now, before I come out here{\r}
+Dialogue: 0,0:25:43.73,0:25:46.36,Default,NTP,0000,0000,0000,,展示帝国的经济实力前\N{\fs16\3c&H2F2F2F&\b0}and highlight Empire's financial strengths,{\r}
+Dialogue: 0,0:25:46.67,0:25:49.92,Default,NTP,0000,0000,0000,,我要请你们放下手中的帝国杂志\N{\fs16\3c&H2F2F2F&\b0}I'm gonna ask you to put down your Empire magazine,{\r}
+Dialogue: 0,0:25:50.21,0:25:52.20,Default,NTP,0000,0000,0000,,卷起你们的帝国牛仔裤\N{\fs16\3c&H2F2F2F&\b0}you roll up your Empire jeans,{\r}
+Dialogue: 0,0:25:52.68,0:25:55.00,Default,NTP,0000,0000,0000,,踢掉你们的帝国鞋\N{\fs16\3c&H2F2F2F&\b0}kick back in your Empire footwear,{\r}
+Dialogue: 0,0:25:55.07,0:25:58.41,Default,NTP,0000,0000,0000,,再喝一杯帝国最佳香槟\N{\fs16\3c&H2F2F2F&\b0}have another glass of Empire's best champagne,{\r}
+Dialogue: 0,0:25:58.61,0:26:01.42,Default,NTP,0000,0000,0000,,再听几首帝国娱乐最优秀\N{\fs16\3c&H2F2F2F&\b0}and listen to a few of The Empire's{\r}
+Dialogue: 0,0:26:01.42,0:26:05.20,Default,NTP,0000,0000,0000,,最有天赋的音乐家的作品\N{\fs16\3c&H2F2F2F&\b0}beautifully bad-ass, gifted musical artists,{\r}
+Dialogue: 0,0:26:05.20,0:26:07.72,Default,NTP,0000,0000,0000,,让他们带你领略帝国娱乐的风采\N{\fs16\3c&H2F2F2F&\b0}and let them get you where you're supposed to be.{\r}
+Dialogue: 0,0:26:07.96,0:26:09.40,Default,NTP,0000,0000,0000,,女士们  先生们\N{\fs16\3c&H2F2F2F&\b0}Ladies and gentlemen,{\r}
+Dialogue: 0,0:26:09.75,0:26:12.15,Default,NTP,0000,0000,0000,,掌声有请\N{\fs16\3c&H2F2F2F&\b0}I want you to give it up{\r}
+Dialogue: 0,0:26:12.19,0:26:15.82,Default,NTP,0000,0000,0000,,两位极具天赋的青年才俊\N{\fs16\3c&H2F2F2F&\b0}to two talented and wickedly gifted young men,{\r}
+Dialogue: 0,0:26:15.86,0:26:17.90,Default,NTP,0000,0000,0000,,恰巧也是我的儿子们\N{\fs16\3c&H2F2F2F&\b0}who just happen to be my sons,{\r}
+Dialogue: 0,0:26:18.56,0:26:20.78,Default,NTP,0000,0000,0000,,帝国的未来\N{\fs16\3c&H2F2F2F&\b0}the future of The Empire...{\r}
+Dialogue: 0,0:26:21.69,0:26:24.38,Default,NTP,0000,0000,0000,,哈基姆和贾马尔\N{\fs16\3c&H2F2F2F&\b0}Hakeem and Jamal...{\r}
+Dialogue: 0,0:26:24.38,0:26:27.36,Default,NTP,0000,0000,0000,,里昂\N{\fs16\3c&H2F2F2F&\b0}Lyon...!{\r}
+Dialogue: 0,0:26:30.03,0:26:35.16,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I want my MTV♪
+Dialogue: 0,0:26:44.21,0:26:44.83,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Consumers♪
+Dialogue: 0,0:26:46.91,0:26:48.03,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Silver spooners♪
+Dialogue: 0,0:26:50.84,0:26:52.58,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪It's nothin', we get money for it♪
+Dialogue: 0,0:26:53.58,0:26:54.13,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Mal♪
+Dialogue: 0,0:26:54.22,0:26:55.14,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Commas and zeroes♪
+Dialogue: 0,0:26:55.36,0:26:56.41,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪That's the way we do it♪
+Dialogue: 0,0:26:57.16,0:27:00.21,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We make it work in this economy♪♪We Lyons♪
+Dialogue: 0,0:27:00.46,0:27:01.45,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Roll in dinero♪
+Dialogue: 0,0:27:01.67,0:27:02.76,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Pockets stay polluted♪
+Dialogue: 0,0:27:03.44,0:27:06.01,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Money is dirty and we don't play clean♪
+Dialogue: 0,0:27:06.49,0:27:08.94,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We chasin' paper, run, hurry, move it♪
+Dialogue: 0,0:27:09.61,0:27:12.42,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Get out the way if you ain't 'bout that green♪
+Dialogue: 0,0:27:12.69,0:27:15.20,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Intensive labor, taxes are included♪
+Dialogue: 0,0:27:15.55,0:27:18.45,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Money is dirty and we don't play clean♪
+Dialogue: 0,0:27:18.86,0:27:21.45,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We got to install microwave ovens♪
+Dialogue: 0,0:27:21.45,0:27:21.97,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Yeah, we do♪
+Dialogue: 0,0:27:22.30,0:27:24.82,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Custom kitchen deliveries♪
+Dialogue: 0,0:27:25.17,0:27:26.20,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We gotta move these♪
+Dialogue: 0,0:27:26.57,0:27:28.07,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Refrigerators♪♪Yeah, we do♪
+Dialogue: 0,0:27:28.35,0:27:33.78,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We gotta move these color TVs♪
+Dialogue: 0,0:27:34.36,0:27:34.78,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We are the people♪
+Dialogue: 0,0:27:35.11,0:27:36.37,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Who turn illegal to legal♪
+Dialogue: 0,0:27:36.70,0:27:38.10,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We take the good with the evil♪
+Dialogue: 0,0:27:38.34,0:27:39.62,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Create more sales than the Beatles♪
+Dialogue: 0,0:27:40.22,0:27:41.14,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And the Lion's our logo♪
+Dialogue: 0,0:27:41.52,0:27:42.72,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We're the sharks in the water♪
+Dialogue: 0,0:27:43.02,0:27:44.94,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Multimedia moguls, more offices♪
+Dialogue: 0,0:27:45.18,0:27:46.95,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Than the Oval, we do everything♪♪Let's go♪
+Dialogue: 0,0:27:46.95,0:27:47.48,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Do everything♪
+Dialogue: 0,0:27:47.48,0:27:48.48,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Came up in the game to entertain♪
+Dialogue: 0,0:27:48.81,0:27:49.94,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Finish it by any means necessary♪
+Dialogue: 0,0:27:50.23,0:27:51.59,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Finish it by any means necessary♪
+Dialogue: 0,0:27:52.33,0:27:53.51,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We everywhere, millionaires♪
+Dialogue: 0,0:27:53.81,0:27:55.08,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Billionaires, visionaries♪
+Dialogue: 0,0:27:55.40,0:27:56.78,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Back to bidness, let's expand♪
+Dialogue: 0,0:27:57.02,0:27:58.95,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Think ahead to sell the brand♪
+Dialogue: 0,0:27:59.23,0:28:01.57,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We got to install microwave ovens♪
+Dialogue: 0,0:28:01.78,0:28:05.11,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Yeah, we do♪♪Custom kitchen deliveries♪
+Dialogue: 0,0:28:05.47,0:28:08.33,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We gotta move these refrigerators♪♪Yeah, we do♪
+Dialogue: 0,0:28:08.60,0:28:14.09,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪We gotta move these color TVs♪
+Dialogue: 0,0:28:14.54,0:28:15.55,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Move dat work, move dat work♪
+Dialogue: 0,0:28:15.86,0:28:17.07,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Commercialize, commercialize♪
+Dialogue: 0,0:28:17.42,0:28:18.59,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Get that work, get that work♪
+Dialogue: 0,0:28:18.89,0:28:20.21,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪To advertise, to advertise♪
+Dialogue: 0,0:28:20.54,0:28:21.71,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Make it work, make it work♪
+Dialogue: 0,0:28:22.44,0:28:23.50,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Look mom, I'm on TV♪
+Dialogue: 0,0:28:23.75,0:28:24.80,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Make it work, make it work♪
+Dialogue: 0,0:28:25.50,0:28:27.30,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Hi, mom, I'm on TV♪
+Dialogue: 0,0:28:28.31,0:28:29.94,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪My talents worth a fortune♪
+Dialogue: 0,0:28:30.49,0:28:31.00,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Five hunnit♪
+Dialogue: 0,0:28:31.50,0:28:32.39,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪They know that I'm a boss♪
+Dialogue: 0,0:28:32.93,0:28:33.96,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I got the highest portion♪
+Dialogue: 0,0:28:34.25,0:28:35.49,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'm all about my bidness♪
+Dialogue: 0,0:28:36.32,0:28:37.02,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪All about my money♪
+Dialogue: 0,0:28:37.79,0:28:40.10,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'm all about my bidness♪
+Dialogue: 0,0:28:40.74,0:28:42.59,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪My talents worth a fortune♪
+Dialogue: 0,0:28:42.92,0:28:43.39,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Five hunnit♪
+Dialogue: 0,0:28:43.87,0:28:45.31,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Hot damn it, I'm a boss♪
+Dialogue: 0,0:28:45.59,0:28:46.83,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I got the highest portion♪
+Dialogue: 0,0:28:47.08,0:28:49.40,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'm all about my bidess♪
+Dialogue: 0,0:28:49.72,0:28:51.85,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Yeah, I'm all about my bidness♪
+Dialogue: 0,0:28:52.82,0:28:53.70,Default,NTP,0000,0000,0000,,琦琦\N{\fs16\3c&H2F2F2F&\b0}Cookie...{\r}
+Dialogue: 0,0:28:53.70,0:28:55.36,Default,NTP,0000,0000,0000,,-怎么了  -跟我过来\N{\fs16\3c&H2F2F2F&\b0}- What?! - Come here!{\r}
+Dialogue: 0,0:28:57.62,0:28:58.39,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You know what it is♪
+Dialogue: 0,0:29:00.15,0:29:02.87,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Jamal... Hakeem♪
+Dialogue: 0,0:29:02.51,0:29:05.50,Default,NTP,0000,0000,0000,,我说不出...说不出话\N{\fs16\3c&H2F2F2F&\b0}I can't... I can't talk.{\r}
+Dialogue: 0,0:29:07.16,0:29:08.43,Default,NTP,0000,0000,0000,,需要什么吗  老兄  你可以呼吸吗\N{\fs16\3c&H2F2F2F&\b0}What you need, man? Can you breathe?{\r}
+Dialogue: 0,0:29:08.43,0:29:09.94,Default,NTP,0000,0000,0000,,我得出去致辞\N{\fs16\3c&H2F2F2F&\b0}I need to go out and give this speech.{\r}
+Dialogue: 0,0:29:09.94,0:29:11.54,Default,NTP,0000,0000,0000,,我不能让你那么做\N{\fs16\3c&H2F2F2F&\b0}I can't let you do that, okay?{\r}
+Dialogue: 0,0:29:11.64,0:29:12.41,Default,NTP,0000,0000,0000,,绝对不行\N{\fs16\3c&H2F2F2F&\b0}It's not gonna happen.{\r}
+Dialogue: 0,0:29:12.41,0:29:13.38,Default,NTP,0000,0000,0000,,宝贝  我去就行\N{\fs16\3c&H2F2F2F&\b0}Look, baby, I got it.{\r}
+Dialogue: 0,0:29:13.39,0:29:14.59,Default,NTP,0000,0000,0000,,好吗  我知道你的演讲稿\N{\fs16\3c&H2F2F2F&\b0}Okay? I know the speech.{\r}
+Dialogue: 0,0:29:14.59,0:29:16.58,Default,NTP,0000,0000,0000,,那是我写的  我倒背如流\N{\fs16\3c&H2F2F2F&\b0}I wrote it. I know it back to front.{\r}
+Dialogue: 0,0:29:16.75,0:29:18.36,Default,NTP,0000,0000,0000,,我甚至都不用提词机\N{\fs16\3c&H2F2F2F&\b0}I don't even need the teleprompters, okay?{\r}
+Dialogue: 0,0:29:18.36,0:29:20.03,Default,NTP,0000,0000,0000,,这件事根本不需要讨论\N{\fs16\3c&H2F2F2F&\b0}I can't believe we're even having this discussion.{\r}
+Dialogue: 0,0:29:20.03,0:29:22.05,Default,NTP,0000,0000,0000,,-我们不是在讨论  -应该由我代表\N{\fs16\3c&H2F2F2F&\b0}- We're not having a conversation. - That should be me out there.{\r}
+Dialogue: 0,0:29:22.06,0:29:23.78,Default,NTP,0000,0000,0000,,他都不舒服了\N{\fs16\3c&H2F2F2F&\b0}Something is wrong with him.{\r}
+Dialogue: 0,0:29:24.29,0:29:25.71,Default,NTP,0000,0000,0000,,你没事吧  卢修斯\N{\fs16\3c&H2F2F2F&\b0}Are you okay, Lucious?{\r}
+Dialogue: 0,0:29:26.80,0:29:27.76,Default,NTP,0000,0000,0000,,有什么问题吗\N{\fs16\3c&H2F2F2F&\b0}Is there a problem?{\r}
+Dialogue: 0,0:29:27.76,0:29:29.54,Default,NTP,0000,0000,0000,,因为外头有十亿资金等着...\N{\fs16\3c&H2F2F2F&\b0}Because there's a billion dollars in capital waiting out there...{\r}
+Dialogue: 0,0:29:29.54,0:29:31.12,Default,NTP,0000,0000,0000,,蒙切尔  有什么问题吗  听着\N{\fs16\3c&H2F2F2F&\b0}Menchel, what's wrong with you? Okay, look,{\r}
+Dialogue: 0,0:29:31.12,0:29:33.18,Default,NTP,0000,0000,0000,,没有问题  好吗  卢修斯擅长做秀\N{\fs16\3c&H2F2F2F&\b0}there's no problem, okay? Lucious is a showman--{\r}
+Dialogue: 0,0:29:33.18,0:29:34.54,Default,NTP,0000,0000,0000,,他正在培养观众的期待感\N{\fs16\3c&H2F2F2F&\b0}he's building up anticipation.{\r}
+Dialogue: 0,0:29:34.54,0:29:35.43,Default,NTP,0000,0000,0000,,出去\N{\fs16\3c&H2F2F2F&\b0}Look, go out there,{\r}
+Dialogue: 0,0:29:35.43,0:29:37.35,Default,NTP,0000,0000,0000,,-打好领带  准备看秀  -先生  这边请\N{\fs16\3c&H2F2F2F&\b0}- fix your tie, get ready for the show. - Sir, come this way, sir.{\r}
+Dialogue: 0,0:29:37.35,0:29:38.68,Default,NTP,0000,0000,0000,,出去等着\N{\fs16\3c&H2F2F2F&\b0}Just go out and do it.{\r}
+Dialogue: 0,0:29:39.01,0:29:41.44,Default,NTP,0000,0000,0000,,儿子  我知道你想帮我\N{\fs16\3c&H2F2F2F&\b0}Look, I know you want to help me, son.{\r}
+Dialogue: 0,0:29:41.44,0:29:43.50,Default,NTP,0000,0000,0000,,而这篇稿是你写的\N{\fs16\3c&H2F2F2F&\b0}And you wrote this thing,{\r}
+Dialogue: 0,0:29:43.50,0:29:45.35,Default,NTP,0000,0000,0000,,不过我需要能振奋人心的人\N{\fs16\3c&H2F2F2F&\b0}but I need someone that can go and excite...{\r}
+Dialogue: 0,0:29:45.35,0:29:46.79,Default,NTP,0000,0000,0000,,这个人是  琦琦\N{\fs16\3c&H2F2F2F&\b0}this people, Cookie.{\r}
+Dialogue: 0,0:29:46.79,0:29:48.98,Default,NTP,0000,0000,0000,,我要你出去提醒大家\N{\fs16\3c&H2F2F2F&\b0}I need you to go out there and remind them{\r}
+Dialogue: 0,0:29:48.98,0:29:51.60,Default,NTP,0000,0000,0000,,帝国娱乐是为了我们的儿子\N{\fs16\3c&H2F2F2F&\b0}that Empire is a family business{\r}
+Dialogue: 0,0:29:51.60,0:29:53.36,Default,NTP,0000,0000,0000,,而建立的家族企业\N{\fs16\3c&H2F2F2F&\b0}built for our sons.{\r}
+Dialogue: 0,0:29:53.91,0:29:56.78,Default,NTP,0000,0000,0000,,而且会一代接一代地传承下去\N{\fs16\3c&H2F2F2F&\b0}And it is gonna pass from one generation to the next generation.{\r}
+Dialogue: 0,0:29:57.16,0:29:59.21,Default,NTP,0000,0000,0000,,永远掌握在家族手中  拜托了\N{\fs16\3c&H2F2F2F&\b0}It's gonna stay in the family. Please.{\r}
+Dialogue: 0,0:30:05.18,0:30:06.25,Default,NTP,0000,0000,0000,,好\N{\fs16\3c&H2F2F2F&\b0}Okay.{\r}
+Dialogue: 0,0:30:20.83,0:30:22.63,Default,NTP,0000,0000,0000,,我要去起诉那个梅森医生\N{\fs16\3c&H2F2F2F&\b0}I'm gonna sue that Dr. Mason.{\r}
+Dialogue: 0,0:30:22.63,0:30:24.02,Default,NTP,0000,0000,0000,,这不是药物导致的\N{\fs16\3c&H2F2F2F&\b0}It's not the drugs...{\r}
+Dialogue: 0,0:30:24.96,0:30:25.71,Default,NTP,0000,0000,0000,,什么\N{\fs16\3c&H2F2F2F&\b0}What?{\r}
+Dialogue: 0,0:30:26.46,0:30:28.95,Default,NTP,0000,0000,0000,,不是药物导致的  是渐冻症\N{\fs16\3c&H2F2F2F&\b0}It's not the drugs, it's ALS.{\r}
+Dialogue: 0,0:30:28.96,0:30:31.01,Default,NTP,0000,0000,0000,,-是...  -等一下  慢慢说  宝贝\N{\fs16\3c&H2F2F2F&\b0}- It's-it's... - Wait a minute, take your time, baby.{\r}
+Dialogue: 0,0:30:31.02,0:30:32.54,Default,NTP,0000,0000,0000,,不是药物导致的吗\N{\fs16\3c&H2F2F2F&\b0}It's not the drugs that did this to you?{\r}
+Dialogue: 0,0:30:32.55,0:30:35.61,Default,NTP,0000,0000,0000,,这和我手抖一样  会...\N{\fs16\3c&H2F2F2F&\b0}It's like a tremor with my hands; it will...{\r}
+Dialogue: 0,0:30:36.20,0:30:37.05,Default,NTP,0000,0000,0000,,没事的\N{\fs16\3c&H2F2F2F&\b0}pass.{\r}
+Dialogue: 0,0:30:37.05,0:30:39.90,Default,NTP,0000,0000,0000,,会...没事的\N{\fs16\3c&H2F2F2F&\b0}It'll... it'll pass.{\r}
+Dialogue: 0,0:30:42.46,0:30:43.49,Default,NTP,0000,0000,0000,,卢修斯在哪里\N{\fs16\3c&H2F2F2F&\b0}Where's Lucious?{\r}
+Dialogue: 0,0:30:47.11,0:30:48.49,Default,NTP,0000,0000,0000,,女士们  先生们\N{\fs16\3c&H2F2F2F&\b0}Ladies and gentlemen...{\r}
+Dialogue: 0,0:30:53.40,0:30:55.82,Default,NTP,0000,0000,0000,,{\an8}{\fn方正黑体简体\fs18\b1\bord1\shad1\3c&H2F2F2F&}帝国娱乐的现有目标\N是在接下来的财政年度里\N实现30%的收益增长
+Dialogue: 0,0:30:57.50,0:30:58.42,Default,NTP,0000,0000,0000,,孩子  我才不会读这个...\N{\fs16\3c&H2F2F2F&\b0}Child, I ain't readin'...{\r}
+Dialogue: 0,0:30:58.42,0:31:00.40,Default,NTP,0000,0000,0000,,妈妈  好好照提词机念\N{\fs16\3c&H2F2F2F&\b0}Just read the teleprompter, mom.{\r}
+Dialogue: 0,0:31:00.58,0:31:02.58,Default,NTP,0000,0000,0000,,我是琦琦·里昂\N{\fs16\3c&H2F2F2F&\b0}My name is Cookie Lyon.{\r}
+Dialogue: 0,0:31:03.68,0:31:08.00,Default,NTP,0000,0000,0000,,我和我的前夫卢修斯  在费城西部最糟糕的\N{\fs16\3c&H2F2F2F&\b0}My ex-husband, Lucious, and I started this company{\r}
+Dialogue: 0,0:31:08.46,0:31:13.38,Default,NTP,0000,0000,0000,,一处贫民窟的一个小车库里开创了这间公司\N{\fs16\3c&H2F2F2F&\b0}in a little garage in one of the worst ghettos in West Philadelphia.{\r}
+Dialogue: 0,0:31:15.48,0:31:18.41,Default,NTP,0000,0000,0000,,你们中肯定有人也有那么几个前妻\N{\fs16\3c&H2F2F2F&\b0}Some of y'all probably have a few ex-wives, so...{\r}
+Dialogue: 0,0:31:19.63,0:31:20.64,Default,NTP,0000,0000,0000,,所以你们知道我不会\N{\fs16\3c&H2F2F2F&\b0}so you know I'm not gonna be{\r}
+Dialogue: 0,0:31:20.64,0:31:23.59,Default,NTP,0000,0000,0000,,站在这里跟你们说我前夫如何出色\N{\fs16\3c&H2F2F2F&\b0}standing up here telling you all this mushy stuff{\r}
+Dialogue: 0,0:31:23.59,0:31:26.61,Default,NTP,0000,0000,0000,,这种伤感的话\N{\fs16\3c&H2F2F2F&\b0}about what a fine man my ex is.{\r}
+Dialogue: 0,0:31:26.78,0:31:27.86,Default,NTP,0000,0000,0000,,她到底在说什么\N{\fs16\3c&H2F2F2F&\b0}What the hell's she doing?{\r}
+Dialogue: 0,0:31:28.67,0:31:30.19,Default,NTP,0000,0000,0000,,卢修斯·里昂\N{\fs16\3c&H2F2F2F&\b0}Lucious Lyon...{\r}
+Dialogue: 0,0:31:31.22,0:31:33.06,Default,NTP,0000,0000,0000,,是个音乐大神\N{\fs16\3c&H2F2F2F&\b0}is a musical god...{\r}
+Dialogue: 0,0:31:33.89,0:31:37.27,Default,NTP,0000,0000,0000,,也是个心怀梦想的混蛋疯子\N{\fs16\3c&H2F2F2F&\b0}and he's also a crazy son of a bitch that had a dream.{\r}
+Dialogue: 0,0:31:38.94,0:31:40.32,Default,NTP,0000,0000,0000,,他现在仍旧心怀梦想\N{\fs16\3c&H2F2F2F&\b0}Still has a dream--{\r}
+Dialogue: 0,0:31:40.83,0:31:42.60,Default,NTP,0000,0000,0000,,而且谁都最好别阻碍\N{\fs16\3c&H2F2F2F&\b0}and nobody better ever try{\r}
+Dialogue: 0,0:31:42.60,0:31:45.44,Default,NTP,0000,0000,0000,,卢修斯追求他的梦想\N{\fs16\3c&H2F2F2F&\b0}to get in between Lucious and his dreams.{\r}
+Dialogue: 0,0:31:46.73,0:31:48.17,Default,NTP,0000,0000,0000,,我们曾以骗人为生\N{\fs16\3c&H2F2F2F&\b0}We were hustlers.{\r}
+Dialogue: 0,0:31:48.69,0:31:50.83,Default,NTP,0000,0000,0000,,我们别无他选\N{\fs16\3c&H2F2F2F&\b0}Only choice we had.{\r}
+Dialogue: 0,0:31:51.01,0:31:55.00,Default,NTP,0000,0000,0000,,但你们知道骗人的第一守则是什么吗\N{\fs16\3c&H2F2F2F&\b0}But... do you know what the first rule of hustling is?{\r}
+Dialogue: 0,0:31:55.15,0:31:56.69,Default,NTP,0000,0000,0000,,供应与需求\N{\fs16\3c&H2F2F2F&\b0}Supply and demand.{\r}
+Dialogue: 0,0:31:57.00,0:31:58.41,Default,NTP,0000,0000,0000,,这是谁说的\N{\fs16\3c&H2F2F2F&\b0}Hey, who said that?{\r}
+Dialogue: 0,0:31:59.11,0:32:00.57,Default,NTP,0000,0000,0000,,没错  宝贝\N{\fs16\3c&H2F2F2F&\b0}That's right, baby.{\r}
+Dialogue: 0,0:32:00.57,0:32:01.92,Default,NTP,0000,0000,0000,,聪明的男人\N{\fs16\3c&H2F2F2F&\b0}Smart man.{\r}
+Dialogue: 0,0:32:02.63,0:32:05.82,Default,NTP,0000,0000,0000,,没错  建立你自己的客户群\N{\fs16\3c&H2F2F2F&\b0}That's right-- you create your own customer base.{\r}
+Dialogue: 0,0:32:06.67,0:32:08.63,Default,NTP,0000,0000,0000,,让他们尝点甜头\N{\fs16\3c&H2F2F2F&\b0}Give them some of that good stuff.{\r}
+Dialogue: 0,0:32:08.71,0:32:09.97,Default,NTP,0000,0000,0000,,让他们想要得到更多\N{\fs16\3c&H2F2F2F&\b0}Make 'em want more.{\r}
+Dialogue: 0,0:32:11.47,0:32:14.78,Default,NTP,0000,0000,0000,,卢修斯把它用到了音乐上\N{\fs16\3c&H2F2F2F&\b0}You see, Lucious did that with music.{\r}
+Dialogue: 0,0:32:15.10,0:32:17.66,Default,NTP,0000,0000,0000,,他创造了  一种曲风\N{\fs16\3c&H2F2F2F&\b0}He created... a sound.{\r}
+Dialogue: 0,0:32:17.76,0:32:19.55,Default,NTP,0000,0000,0000,,人们管它叫"卢修斯·里昂之声"\N{\fs16\3c&H2F2F2F&\b0}They call it the "Lucious Lyon sound."{\r}
+Dialogue: 0,0:32:19.55,0:32:21.78,Default,NTP,0000,0000,0000,,你们都知道的  否则你们不会出现在这里\N{\fs16\3c&H2F2F2F&\b0}You all know it, or else you wouldn't be here.{\r}
+Dialogue: 0,0:32:23.00,0:32:26.45,Default,NTP,0000,0000,0000,,卢修斯的音乐成为了街头主流\N{\fs16\3c&H2F2F2F&\b0}Lucious's music took the street mainstream,{\r}
+Dialogue: 0,0:32:26.45,0:32:28.42,Default,NTP,0000,0000,0000,,也让主流音乐感受到了街头魅力\N{\fs16\3c&H2F2F2F&\b0}and made the mainstream feel street.{\r}
+Dialogue: 0,0:32:28.42,0:32:30.33,Default,NTP,0000,0000,0000,,卢修斯碰过的所有东西\N{\fs16\3c&H2F2F2F&\b0}Everything Lucious touches{\r}
+Dialogue: 0,0:32:30.33,0:32:33.13,Default,NTP,0000,0000,0000,,都从石头变成了黄金  是不争的事实\N{\fs16\3c&H2F2F2F&\b0}turns to platinum, and that's a fact.{\r}
+Dialogue: 0,0:32:33.45,0:32:35.52,Default,NTP,0000,0000,0000,,他在音乐领域展开事业\N{\fs16\3c&H2F2F2F&\b0}He started out doing it with the music.{\r}
+Dialogue: 0,0:32:35.52,0:32:37.53,Default,NTP,0000,0000,0000,,然后他涉足\N{\fs16\3c&H2F2F2F&\b0}Next he did it with over a dozen{\r}
+Dialogue: 0,0:32:37.53,0:32:42.23,Default,NTP,0000,0000,0000,,十多个赚钱的娱乐领域和销售领域\N{\fs16\3c&H2F2F2F&\b0}profitable entertainment and merchandise divisions.{\r}
+Dialogue: 0,0:32:42.23,0:32:43.13,Default,NTP,0000,0000,0000,,现在...\N{\fs16\3c&H2F2F2F&\b0}And now...{\r}
+Dialogue: 0,0:32:43.98,0:32:45.86,Default,NTP,0000,0000,0000,,他将用你们的钱去生钱...\N{\fs16\3c&H2F2F2F&\b0}he's gonna do it with your money...{\r}
+Dialogue: 0,0:32:46.96,0:32:49.10,Default,NTP,0000,0000,0000,,只要你们够幸运  够聪明\N{\fs16\3c&H2F2F2F&\b0}if you're lucky enough and smart enough{\r}
+Dialogue: 0,0:32:49.10,0:32:50.83,Default,NTP,0000,0000,0000,,把钱交给他\N{\fs16\3c&H2F2F2F&\b0}to put it in his hands.{\r}
+Dialogue: 0,0:32:56.83,0:32:59.15,Default,NTP,0000,0000,0000,,我被卢修斯抛弃前\N{\fs16\3c&H2F2F2F&\b0}Lucious and I had three sons{\r}
+Dialogue: 0,0:32:59.15,0:33:00.59,Default,NTP,0000,0000,0000,,我们生了三个儿子\N{\fs16\3c&H2F2F2F&\b0}before he dumped me.{\r}
+Dialogue: 0,0:33:02.63,0:33:07.39,Default,NTP,0000,0000,0000,,长子安德鲁是这间公司的首席财务官\N{\fs16\3c&H2F2F2F&\b0}Our oldest son Andre is the CFO of this company.{\r}
+Dialogue: 0,0:33:07.68,0:33:09.14,Default,NTP,0000,0000,0000,,他才华横溢\N{\fs16\3c&H2F2F2F&\b0}He's brilliant,{\r}
+Dialogue: 0,0:33:09.50,0:33:12.90,Default,NTP,0000,0000,0000,,他会让你们每个人都赚得瓢满钵溢\N{\fs16\3c&H2F2F2F&\b0}and he's gonna make every last one of you filthy rich.{\r}
+Dialogue: 0,0:33:16.85,0:33:20.32,Default,NTP,0000,0000,0000,,另外两个儿子  贾马尔和哈基姆·里昂\N{\fs16\3c&H2F2F2F&\b0}Our other two sons, Jamal and Hakeem Lyon...{\r}
+Dialogue: 0,0:33:20.89,0:33:23.04,Default,NTP,0000,0000,0000,,他们真正证明了\N{\fs16\3c&H2F2F2F&\b0}they are living proof...{\r}
+Dialogue: 0,0:33:23.42,0:33:27.09,Default,NTP,0000,0000,0000,,帝国娱乐绝非只是一个男人的梦想\N{\fs16\3c&H2F2F2F&\b0}that Empire is more than just one man's dream.{\r}
+Dialogue: 0,0:33:27.71,0:33:30.14,Default,NTP,0000,0000,0000,,而是个能实现的梦想...\N{\fs16\3c&H2F2F2F&\b0}It's a dream come true...{\r}
+Dialogue: 0,0:33:30.40,0:33:33.51,Default,NTP,0000,0000,0000,,准备要传给下一代\N{\fs16\3c&H2F2F2F&\b0}that's ready to be passed down to the next generation...{\r}
+Dialogue: 0,0:33:33.51,0:33:35.99,Default,NTP,0000,0000,0000,,下下一代  再下一代\N{\fs16\3c&H2F2F2F&\b0}and the next and the next,{\r}
+Dialogue: 0,0:33:36.07,0:33:37.26,Default,NTP,0000,0000,0000,,而你们...\N{\fs16\3c&H2F2F2F&\b0}and you all...{\r}
+Dialogue: 0,0:33:38.03,0:33:39.49,Default,NTP,0000,0000,0000,,都能参与其中\N{\fs16\3c&H2F2F2F&\b0}can be a part of it.{\r}
+Dialogue: 0,0:33:51.44,0:33:52.32,Default,NTP,0000,0000,0000,,谢谢\N{\fs16\3c&H2F2F2F&\b0}Thank you.{\r}
+Dialogue: 0,0:33:54.66,0:33:56.01,Default,NTP,0000,0000,0000,,我爱你  琦琦\N{\fs16\3c&H2F2F2F&\b0}I love you, Cookie.{\r}
+Dialogue: 0,0:34:01.35,0:34:03.05,Default,NTP,0000,0000,0000,,让人印象深刻啊  卢修斯\N{\fs16\3c&H2F2F2F&\b0}Very impressive, Lucious.{\r}
+Dialogue: 0,0:34:03.20,0:34:05.55,Default,NTP,0000,0000,0000,,尤其是你前妻说的故事\N{\fs16\3c&H2F2F2F&\b0}Especially that story that your ex-wife told.{\r}
+Dialogue: 0,0:34:05.55,0:34:07.93,Default,NTP,0000,0000,0000,,不过  真正促使我下决定的是\N{\fs16\3c&H2F2F2F&\b0}Oh. What really sold me, though,{\r}
+Dialogue: 0,0:34:07.93,0:34:11.71,Default,NTP,0000,0000,0000,,你的每个家人都为了这间公司的未来\N{\fs16\3c&H2F2F2F&\b0}is your family and how devoted each and every one of them is{\r}
+Dialogue: 0,0:34:11.71,0:34:13.91,Default,NTP,0000,0000,0000,,在努力奉献自己的力量\N{\fs16\3c&H2F2F2F&\b0}to the future of this company.{\r}
+Dialogue: 0,0:34:16.99,0:34:18.66,Default,NTP,0000,0000,0000,,非常感谢  特里\N{\fs16\3c&H2F2F2F&\b0}Thank you so much, Terry.{\r}
+Dialogue: 0,0:34:21.99,0:34:23.87,Default,NTP,0000,0000,0000,,-宝贝  -你确定\N{\fs16\3c&H2F2F2F&\b0}- Oh, baby... - Are you sure{\r}
+Dialogue: 0,0:34:23.87,0:34:25.96,Default,NTP,0000,0000,0000,,我不用取消我的芝加哥之行吗\N{\fs16\3c&H2F2F2F&\b0}you don't want me to cancel my trip to Chicago?{\r}
+Dialogue: 0,0:34:25.96,0:34:27.29,Default,NTP,0000,0000,0000,,拉娜会理解的\N{\fs16\3c&H2F2F2F&\b0}Lana's gonna understand.{\r}
+Dialogue: 0,0:34:27.29,0:34:28.50,Default,NTP,0000,0000,0000,,不用取消\N{\fs16\3c&H2F2F2F&\b0}No, don't cancel. I mean,{\r}
+Dialogue: 0,0:34:28.50,0:34:29.94,Default,NTP,0000,0000,0000,,不管刚才怎么回事  现在都没事了\N{\fs16\3c&H2F2F2F&\b0}whatever that is, it's gone now.{\r}
+Dialogue: 0,0:34:29.94,0:34:31.61,Default,NTP,0000,0000,0000,,我百分百确定\N{\fs16\3c&H2F2F2F&\b0}I'm, like, I'm a hundred percent.{\r}
+Dialogue: 0,0:34:31.73,0:34:33.15,Default,NTP,0000,0000,0000,,你得敲定出\N{\fs16\3c&H2F2F2F&\b0}Look, and you need to hammer out{\r}
+Dialogue: 0,0:34:33.15,0:34:35.46,Default,NTP,0000,0000,0000,,她合同中的一些新细节\N{\fs16\3c&H2F2F2F&\b0}the new details of that contract for her.{\r}
+Dialogue: 0,0:34:35.47,0:34:37.93,Default,NTP,0000,0000,0000,,别忘了她的律师也会在飞机上  好吗\N{\fs16\3c&H2F2F2F&\b0}Don't forget,her lawyer's gonna be on the plane, too, okay?{\r}
+Dialogue: 0,0:34:37.93,0:34:40.89,Default,NTP,0000,0000,0000,,好吧  如果有情况你一定要打电话给我\N{\fs16\3c&H2F2F2F&\b0}All right. Well, you've got to call me if something goes down.{\r}
+Dialogue: 0,0:34:40.89,0:34:42.44,Default,NTP,0000,0000,0000,,你到了给我打电话\N{\fs16\3c&H2F2F2F&\b0}You call me when you get there.{\r}
+Dialogue: 0,0:34:42.44,0:34:43.54,Default,NTP,0000,0000,0000,,不用你来告诉我要做什么\N{\fs16\3c&H2F2F2F&\b0}Don't tell me what to do.{\r}
+Dialogue: 0,0:34:43.54,0:34:45.73,Default,NTP,0000,0000,0000,,-我爱你  -我也爱你\N{\fs16\3c&H2F2F2F&\b0}- I love you. - I love you too.{\r}
+Dialogue: 0,0:34:45.73,0:34:46.54,Default,NTP,0000,0000,0000,,走吧\N{\fs16\3c&H2F2F2F&\b0}Come on.{\r}
+Dialogue: 0,0:34:59.10,0:35:00.12,Default,NTP,0000,0000,0000,,她去哪\N{\fs16\3c&H2F2F2F&\b0}Where's she going?{\r}
+Dialogue: 0,0:35:00.12,0:35:02.36,Default,NTP,0000,0000,0000,,她得连夜去芝加哥\N{\fs16\3c&H2F2F2F&\b0}She has to go up to Chicago overnight,{\r}
+Dialogue: 0,0:35:02.60,0:35:04.40,Default,NTP,0000,0000,0000,,处理拉娜·德雷{\fs14}[打雷姐]{\fs}的事情\N{\fs16\3c&H2F2F2F&\b0}take care of something with Lana Del Rey.{\r\fs0}
+Dialogue: 0,0:35:08.87,0:35:11.17,Default,NTP,0000,0000,0000,,你到底告不告诉我你怎么了\N{\fs16\3c&H2F2F2F&\b0}Are you gonna tell me what's going on with you, or what?{\r}
+Dialogue: 0,0:35:13.88,0:35:14.73,Default,NTP,0000,0000,0000,,我说\N{\fs16\3c&H2F2F2F&\b0}Yeah.{\r}
+Dialogue: 0,0:35:18.80,0:35:22.08,Default,NTP,0000,0000,0000,,洛拉  跟安德鲁伯伯和朗达婶婶说晚安\N{\fs16\3c&H2F2F2F&\b0}Lola, say good night to Uncle Andre and Aunt Rhonda.{\r}
+Dialogue: 0,0:35:22.08,0:35:23.40,Default,NTP,0000,0000,0000,,晚安  宝贝\N{\fs16\3c&H2F2F2F&\b0}Aw, good night, baby.{\r}
+Dialogue: 0,0:35:23.70,0:35:25.18,Default,NTP,0000,0000,0000,,-真好看  -谢谢\N{\fs16\3c&H2F2F2F&\b0}- Pretty. - Thank you.{\r}
+Dialogue: 0,0:35:25.18,0:35:26.95,Default,NTP,0000,0000,0000,,-晚安  -别忘了还有哈基姆叔叔\N{\fs16\3c&H2F2F2F&\b0}- Good night. - Don't forget about your Uncle Hakeem.{\r}
+Dialogue: 0,0:35:28.76,0:35:29.63,Default,NTP,0000,0000,0000,,好看\N{\fs16\3c&H2F2F2F&\b0}Pretty.{\r}
+Dialogue: 0,0:35:30.17,0:35:31.78,Default,NTP,0000,0000,0000,,真有品位\N{\fs16\3c&H2F2F2F&\b0}Well, she got taste.{\r}
+Dialogue: 0,0:35:33.12,0:35:34.16,Default,NTP,0000,0000,0000,,-给我  给我  -别闹了\N{\fs16\3c&H2F2F2F&\b0}- Give me that, give me that. - Stop.{\r}
+Dialogue: 0,0:35:34.16,0:35:35.97,Default,NTP,0000,0000,0000,,你会吓着她的  别闹了\N{\fs16\3c&H2F2F2F&\b0}You're gonna scare her. Stop.{\r}
+Dialogue: 0,0:35:36.10,0:35:37.23,Default,NTP,0000,0000,0000,,好了  稍后给你回电\N{\fs16\3c&H2F2F2F&\b0}All right, I'm gonna call you back.{\r}
+Dialogue: 0,0:35:37.37,0:35:39.54,Default,NTP,0000,0000,0000,,来吧  让她留在这里\N{\fs16\3c&H2F2F2F&\b0}Come here. Let her stay...{\r}
+Dialogue: 0,0:35:39.63,0:35:41.90,Default,NTP,0000,0000,0000,,妈妈  给\N{\fs16\3c&H2F2F2F&\b0}Mom, here. Oh. Okay.{\r}
+Dialogue: 0,0:35:42.19,0:35:43.58,Default,NTP,0000,0000,0000,,我不知道怎么带孩子\N{\fs16\3c&H2F2F2F&\b0}I don't know how to do all this.{\r}
+Dialogue: 0,0:35:44.95,0:35:46.65,Default,NTP,0000,0000,0000,,别担心  亲爱的  他会学会的\N{\fs16\3c&H2F2F2F&\b0}Don't worry, sweetie, he'll get the hang of it.{\r}
+Dialogue: 0,0:35:46.65,0:35:48.23,Default,NTP,0000,0000,0000,,我准备好提案再和你讨论\N{\fs16\3c&H2F2F2F&\b0}So I'll get back to you with a proposal.{\r}
+Dialogue: 0,0:35:48.23,0:35:49.99,Default,NTP,0000,0000,0000,,同时  我会随时待命\N{\fs16\3c&H2F2F2F&\b0}In the meantime, I'll be standing by.{\r}
+Dialogue: 0,0:35:50.19,0:35:51.78,Default,NTP,0000,0000,0000,,你们俩谋划什么呢\N{\fs16\3c&H2F2F2F&\b0}What are you two scheming up?{\r}
+Dialogue: 0,0:35:51.78,0:35:53.68,Default,NTP,0000,0000,0000,,我们在讨论新安装的\N{\fs16\3c&H2F2F2F&\b0}Oh, we're talking about the new security system{\r}
+Dialogue: 0,0:35:53.68,0:35:54.91,Default,NTP,0000,0000,0000,,安保系统\N{\fs16\3c&H2F2F2F&\b0}we're having installed.{\r}
+Dialogue: 0,0:35:55.09,0:35:56.73,Default,NTP,0000,0000,0000,,凯夫拉材质墙壁\N{\fs16\3c&H2F2F2F&\b0}Kevlar-lined walls,{\r}
+Dialogue: 0,0:35:56.73,0:35:58.24,Default,NTP,0000,0000,0000,,红外摄像头\N{\fs16\3c&H2F2F2F&\b0}infrared cameras,{\r}
+Dialogue: 0,0:35:58.24,0:35:59.21,Default,NTP,0000,0000,0000,,地堡\N{\fs16\3c&H2F2F2F&\b0}a bunker...{\r}
+Dialogue: 0,0:35:59.21,0:36:00.86,Default,NTP,0000,0000,0000,,那里将会变成无法攻破的堡垒\N{\fs16\3c&H2F2F2F&\b0}Place is gonna be an impenetrable fortress.{\r}
+Dialogue: 0,0:36:00.86,0:36:02.29,Default,NTP,0000,0000,0000,,德沃先生  我在想\N{\fs16\3c&H2F2F2F&\b0}You know, Mr. Deveaux, I was thinking{\r}
+Dialogue: 0,0:36:02.29,0:36:05.85,Default,NTP,0000,0000,0000,,也许我需要... 加强我那里的安全\N{\fs16\3c&H2F2F2F&\b0}maybe I need to... Oh, beef up the security at my place,{\r}
+Dialogue: 0,0:36:05.85,0:36:07.62,Default,NTP,0000,0000,0000,,因为  你知道  我一个人住\N{\fs16\3c&H2F2F2F&\b0}because, you know, I live alone.{\r}
+Dialogue: 0,0:36:13.71,0:36:15.54,Default,NTP,0000,0000,0000,,先生  数字结果出来  我会来找你\N{\fs16\3c&H2F2F2F&\b0}Sir, I'll get those numbers and get back to you.{\r}
+Dialogue: 0,0:36:15.54,0:36:17.85,Default,NTP,0000,0000,0000,,你应该给我打电话  我们可以安排一下\N{\fs16\3c&H2F2F2F&\b0}You should call me so we can set that up.{\r}
+Dialogue: 0,0:36:18.43,0:36:19.43,Default,NTP,0000,0000,0000,,你知道...\N{\fs16\3c&H2F2F2F&\b0}You realize...{\r}
+Dialogue: 0,0:36:19.44,0:36:20.82,Default,NTP,0000,0000,0000,,闭嘴  卢修斯\N{\fs16\3c&H2F2F2F&\b0}Shut up, Lucious.{\r}
+Dialogue: 0,0:36:22.57,0:36:24.17,Default,NTP,0000,0000,0000,,胡安妮塔  把孩子带上楼\N{\fs16\3c&H2F2F2F&\b0}Juanita, take the baby upstairs.{\r}
+Dialogue: 0,0:36:24.18,0:36:24.98,Default,NTP,0000,0000,0000,,好的  先生\N{\fs16\3c&H2F2F2F&\b0}Yes, sir.{\r}
+Dialogue: 0,0:36:26.35,0:36:27.28,Default,NTP,0000,0000,0000,,给我吧\N{\fs16\3c&H2F2F2F&\b0}Excuse me.{\r}
+Dialogue: 0,0:36:28.20,0:36:29.01,Default,NTP,0000,0000,0000,,哈基姆\N{\fs16\3c&H2F2F2F&\b0}Hakeem...{\r}
+Dialogue: 0,0:36:31.16,0:36:32.05,Default,NTP,0000,0000,0000,,坐下\N{\fs16\3c&H2F2F2F&\b0}Have a seat.{\r}
+Dialogue: 0,0:36:34.75,0:36:35.52,Default,NTP,0000,0000,0000,,等等\N{\fs16\3c&H2F2F2F&\b0}Hold up.{\r}
+Dialogue: 0,0:36:36.28,0:36:38.32,Default,NTP,0000,0000,0000,,我的小家伙\N{\fs16\3c&H2F2F2F&\b0}Mm! My little gangsta!{\r}
+Dialogue: 0,0:36:48.76,0:36:49.95,Default,NTP,0000,0000,0000,,我病了\N{\fs16\3c&H2F2F2F&\b0}I'm sick.{\r}
+Dialogue: 0,0:36:50.93,0:36:52.26,Default,NTP,0000,0000,0000,,等等  什么意思\N{\fs16\3c&H2F2F2F&\b0}Wait, what-what do you mean?{\r}
+Dialogue: 0,0:36:53.37,0:36:54.85,Default,NTP,0000,0000,0000,,我患了渐冻症\N{\fs16\3c&H2F2F2F&\b0}I have ALS.{\r}
+Dialogue: 0,0:36:55.48,0:36:58.05,Default,NTP,0000,0000,0000,,肌萎缩性脊髓侧索硬化症\N{\fs16\3c&H2F2F2F&\b0}Amyotrophic lateral sclerosis.{\r}
+Dialogue: 0,0:36:58.05,0:36:59.01,Default,NTP,0000,0000,0000,,这是一种\N{\fs16\3c&H2F2F2F&\b0}It is a...{\r}
+Dialogue: 0,0:37:01.19,0:37:02.50,Default,NTP,0000,0000,0000,,极具侵略性的\N{\fs16\3c&H2F2F2F&\b0}an aggressive{\r}
+Dialogue: 0,0:37:03.13,0:37:06.36,Default,NTP,0000,0000,0000,,退化性神经肌肉障碍\N{\fs16\3c&H2F2F2F&\b0}and degenerative neuromuscular disorder{\r}
+Dialogue: 0,0:37:06.91,0:37:10.51,Default,NTP,0000,0000,0000,,最终将会夺走我控制身体的\N{\fs16\3c&H2F2F2F&\b0}that will eventually take away my ability to control...{\r}
+Dialogue: 0,0:37:11.31,0:37:12.36,Default,NTP,0000,0000,0000,,能力\N{\fs16\3c&H2F2F2F&\b0}my body.{\r}
+Dialogue: 0,0:37:13.26,0:37:15.35,Default,NTP,0000,0000,0000,,今晚发生的事情\N{\fs16\3c&H2F2F2F&\b0}What happened tonight is, uh...{\r}
+Dialogue: 0,0:37:16.46,0:37:19.01,Default,NTP,0000,0000,0000,,意味着症状变严重了\N{\fs16\3c&H2F2F2F&\b0}it means the symptoms are getting worse.{\r}
+Dialogue: 0,0:37:21.03,0:37:22.65,Default,NTP,0000,0000,0000,,这是绝症  无药可医\N{\fs16\3c&H2F2F2F&\b0}It's fatal. There's no cure.{\r}
+Dialogue: 0,0:37:26.87,0:37:28.41,Default,NTP,0000,0000,0000,,那我们还搞这些干什么\N{\fs16\3c&H2F2F2F&\b0}Then why are we even doing this?{\r}
+Dialogue: 0,0:37:28.49,0:37:31.02,Default,NTP,0000,0000,0000,,-今晚的演出还这么大阵仗  -这是...\N{\fs16\3c&H2F2F2F&\b0}- That monster show we put on today. - That was...{\r}
+Dialogue: 0,0:37:31.02,0:37:32.61,Default,NTP,0000,0000,0000,,我留给你们的遗产\N{\fs16\3c&H2F2F2F&\b0}My legacy for you.{\r}
+Dialogue: 0,0:37:32.79,0:37:35.59,Default,NTP,0000,0000,0000,,所以我一直这么拼命地逼迫你们\N{\fs16\3c&H2F2F2F&\b0}I mean, that's why I've been pushing y'all so hard.{\r}
+Dialogue: 0,0:37:36.48,0:37:38.27,Default,NTP,0000,0000,0000,,我为你们今晚的表现骄傲\N{\fs16\3c&H2F2F2F&\b0}I was so proud of y'all tonight.{\r}
+Dialogue: 0,0:37:39.08,0:37:41.30,Default,NTP,0000,0000,0000,,谁知道这事\N{\fs16\3c&H2F2F2F&\b0}Who knows this? Hm?{\r}
+Dialogue: 0,0:37:41.84,0:37:43.86,Default,NTP,0000,0000,0000,,弗农  贝基\N{\fs16\3c&H2F2F2F&\b0}Vernon, Becky...{\r}
+Dialogue: 0,0:37:44.04,0:37:46.08,Default,NTP,0000,0000,0000,,当然还有安妮卡\N{\fs16\3c&H2F2F2F&\b0}and, uh, Anika, of course.{\r}
+Dialogue: 0,0:37:46.90,0:37:49.64,Default,NTP,0000,0000,0000,,首次公开募股的事  我们得制定个计划\N{\fs16\3c&H2F2F2F&\b0}Well, the IPO-- we... We have to have a plan.{\r}
+Dialogue: 0,0:37:49.72,0:37:52.19,Default,NTP,0000,0000,0000,,他快要死了  你却在操心首次公开募股\N{\fs16\3c&H2F2F2F&\b0}He's dying and you're worrying about a IPO?{\r}
+Dialogue: 0,0:37:52.19,0:37:54.29,Default,NTP,0000,0000,0000,,-我该揍你  -哈基姆  哈基姆\N{\fs16\3c&H2F2F2F&\b0}- Yo, I should knock you... - Hakeem! Hakeem!{\r}
+Dialogue: 0,0:37:55.51,0:37:56.60,Default,NTP,0000,0000,0000,,我揍你这个小混蛋\N{\fs16\3c&H2F2F2F&\b0}Beat your little ass!{\r}
+Dialogue: 0,0:37:57.59,0:37:59.51,Default,NTP,0000,0000,0000,,-得了吧  -住手  坐下\N{\fs16\3c&H2F2F2F&\b0}- Come on! - Stop! Sit down!{\r}
+Dialogue: 0,0:38:00.28,0:38:02.06,Default,NTP,0000,0000,0000,,他有资格难受\N{\fs16\3c&H2F2F2F&\b0}He should be upset.{\r}
+Dialogue: 0,0:38:04.85,0:38:06.84,Default,NTP,0000,0000,0000,,-走  我们回家  -我不知道怎么办\N{\fs16\3c&H2F2F2F&\b0}- Come on, baby, we got to go home. - I don't know what to do.{\r}
+Dialogue: 0,0:38:06.84,0:38:08.59,Default,NTP,0000,0000,0000,,-安德鲁  安德鲁  看着我  -干什么\N{\fs16\3c&H2F2F2F&\b0}- Andre, Andre, look at me. - What?!{\r}
+Dialogue: 0,0:38:09.45,0:38:10.58,Default,NTP,0000,0000,0000,,我不需要你帮忙\N{\fs16\3c&H2F2F2F&\b0}I don't need your help!{\r}
+Dialogue: 0,0:38:16.25,0:38:17.67,Default,NTP,0000,0000,0000,,抱歉  卢修斯\N{\fs16\3c&H2F2F2F&\b0}I'm sorry, Lucious.{\r}
+Dialogue: 0,0:38:23.16,0:38:24.89,Default,NTP,0000,0000,0000,,我并不想这样  儿子\N{\fs16\3c&H2F2F2F&\b0}It's not what I wanted, son.{\r}
+Dialogue: 0,0:38:27.75,0:38:30.52,Default,NTP,0000,0000,0000,,-妈  -孩子们来  我们聊聊\N{\fs16\3c&H2F2F2F&\b0}- Ma... - Boys, come on, let's talk for a minute.{\r}
+Dialogue: 0,0:38:41.96,0:38:43.49,Default,NTP,0000,0000,0000,,你们都经历了许多事情\N{\fs16\3c&H2F2F2F&\b0}Y'all have been through a lot.{\r}
+Dialogue: 0,0:38:45.79,0:38:48.25,Default,NTP,0000,0000,0000,,但不管发生什么  你们都会挺过去\N{\fs16\3c&H2F2F2F&\b0}But y'all gonna get through this, whatever happens.{\r}
+Dialogue: 0,0:38:50.95,0:38:53.20,Default,NTP,0000,0000,0000,,现在我需要你们坚强起来\N{\fs16\3c&H2F2F2F&\b0}Right now I need y'all to be strong.{\r}
+Dialogue: 0,0:38:54.06,0:38:55.22,Default,NTP,0000,0000,0000,,我们会的  老爸\N{\fs16\3c&H2F2F2F&\b0}We will, dad.{\r}
+Dialogue: 0,0:38:56.33,0:38:57.63,Default,NTP,0000,0000,0000,,尽管告诉我们你需要什么\N{\fs16\3c&H2F2F2F&\b0}Just tell us what you need.{\r}
+Dialogue: 0,0:39:03.33,0:39:04.90,Default,NTP,0000,0000,0000,,你们妈妈不太能接受\N{\fs16\3c&H2F2F2F&\b0}Your mama didn't take this well.{\r}
+Dialogue: 0,0:39:05.23,0:39:07.05,Default,NTP,0000,0000,0000,,我需要和她单独待会  好吗\N{\fs16\3c&H2F2F2F&\b0}I need a moment with her, okay?{\r}
+Dialogue: 0,0:39:07.55,0:39:09.09,Default,NTP,0000,0000,0000,,你们都回家吧  好吗\N{\fs16\3c&H2F2F2F&\b0}Y'all go on home, okay?{\r}
+Dialogue: 0,0:39:34.93,0:39:35.87,Default,NTP,0000,0000,0000,,安德鲁\N{\fs16\3c&H2F2F2F&\b0}Andre...{\r}
+Dialogue: 0,0:39:39.87,0:39:41.24,Default,NTP,0000,0000,0000,,宝贝  你在干什么\N{\fs16\3c&H2F2F2F&\b0}Baby, what are you doing?{\r}
+Dialogue: 0,0:39:41.93,0:39:44.80,Default,NTP,0000,0000,0000,,宝贝  安德鲁  怎么了\N{\fs16\3c&H2F2F2F&\b0}Baby...? Andre, what's Wrong?{\r}
+Dialogue: 0,0:39:45.79,0:39:47.47,Default,NTP,0000,0000,0000,,宝贝  别这样  看着我\N{\fs16\3c&H2F2F2F&\b0}Baby, stop it. Look at me.{\r}
+Dialogue: 0,0:39:48.83,0:39:50.98,Default,NTP,0000,0000,0000,,宝贝  别这样  深呼吸\N{\fs16\3c&H2F2F2F&\b0}Baby... Stop... Breathe...{\r}
+Dialogue: 0,0:39:55.40,0:39:56.46,Default,NTP,0000,0000,0000,,看着我  宝贝\N{\fs16\3c&H2F2F2F&\b0}Look at me, baby.{\r}
+Dialogue: 0,0:39:57.25,0:39:58.85,Default,NTP,0000,0000,0000,,你会接管这家公司的\N{\fs16\3c&H2F2F2F&\b0}You're gonna run this company.{\r}
+Dialogue: 0,0:39:59.57,0:40:02.93,Default,NTP,0000,0000,0000,,你会得到你为之奋斗的一切  好吗\N{\fs16\3c&H2F2F2F&\b0}You're gonna have everything you've ever worked for, okay?{\r}
+Dialogue: 0,0:40:06.47,0:40:07.46,Default,NTP,0000,0000,0000,,看着我\N{\fs16\3c&H2F2F2F&\b0}Look at me.{\r}
+Dialogue: 0,0:40:13.79,0:40:14.61,Default,NTP,0000,0000,0000,,记得这首歌吗\N{\fs16\3c&H2F2F2F&\b0}Remember this?{\r}
+Dialogue: 0,0:40:26.19,0:40:29.52,Default,NTP,0000,0000,0000,,你今晚在那里  为我说了不少好话\N{\fs16\3c&H2F2F2F&\b0}You said some really, really nice things about me up there tonight.{\r}
+Dialogue: 0,0:40:31.26,0:40:32.89,Default,NTP,0000,0000,0000,,让我感觉挺好的\N{\fs16\3c&H2F2F2F&\b0}Kind of made me feel good.{\r}
+Dialogue: 0,0:40:33.29,0:40:35.12,Default,NTP,0000,0000,0000,,特别是听到你那么说\N{\fs16\3c&H2F2F2F&\b0}Especially hearing that from you.{\r}
+Dialogue: 0,0:40:35.77,0:40:37.87,Default,NTP,0000,0000,0000,,你为什么表现得很惊讶\N{\fs16\3c&H2F2F2F&\b0}Why are you acting so surprised?{\r}
+Dialogue: 0,0:40:37.87,0:40:39.57,Default,NTP,0000,0000,0000,,因为  我说不清\N{\fs16\3c&H2F2F2F&\b0}Because, I don't know...{\r}
+Dialogue: 0,0:40:40.11,0:40:42.10,Default,NTP,0000,0000,0000,,我只是感觉我欠你\N{\fs16\3c&H2F2F2F&\b0}I just feel like I owe you.{\r}
+Dialogue: 0,0:40:44.54,0:40:47.88,Default,NTP,0000,0000,0000,,你有什么欠我的  卢修斯\N{\fs16\3c&H2F2F2F&\b0}Why do you have to owe me, Lucious?{\r}
+Dialogue: 0,0:40:48.39,0:40:50.42,Default,NTP,0000,0000,0000,,这也是我的梦想  记得吗\N{\fs16\3c&H2F2F2F&\b0}This was my dream, too, remember?{\r}
+Dialogue: 0,0:40:50.65,0:40:53.04,Default,NTP,0000,0000,0000,,是的  但我是说  你...\N{\fs16\3c&H2F2F2F&\b0}Yeah. But I mean, you...{\r}
+Dialogue: 0,0:40:53.24,0:40:56.47,Default,NTP,0000,0000,0000,,在我之前就遇见到这一切了\N{\fs16\3c&H2F2F2F&\b0}saw this... way before I did.{\r}
+Dialogue: 0,0:40:56.96,0:40:59.09,Default,NTP,0000,0000,0000,,甚至在我发行我的第一首单曲前  你说\N{\fs16\3c&H2F2F2F&\b0}Even before I hit my first single, you said{\r}
+Dialogue: 0,0:40:59.09,0:41:01.88,Default,NTP,0000,0000,0000,,从此以后我们会彻底改变音乐行业\N{\fs16\3c&H2F2F2F&\b0}we were about to change the music business forever...{\r}
+Dialogue: 0,0:41:02.35,0:41:03.27,Default,NTP,0000,0000,0000,,宝贝\N{\fs16\3c&H2F2F2F&\b0}Baby.{\r}
+Dialogue: 0,0:41:05.58,0:41:07.11,Default,NTP,0000,0000,0000,,那是因为我了解你\N{\fs16\3c&H2F2F2F&\b0}And that's because I know you.{\r}
+Dialogue: 0,0:41:07.73,0:41:09.72,Default,NTP,0000,0000,0000,,我清楚你的实力\N{\fs16\3c&H2F2F2F&\b0}I know what you're capable of.{\r}
+Dialogue: 0,0:41:12.83,0:41:15.13,Default,NTP,0000,0000,0000,,所以你要战胜病魔  卢修斯\N{\fs16\3c&H2F2F2F&\b0}That's why you're gotta beat this, Lucious.{\r}
+Dialogue: 0,0:41:15.28,0:41:16.98,Default,NTP,0000,0000,0000,,你要打败它\N{\fs16\3c&H2F2F2F&\b0}You're gonna beat this thing.{\r}
+Dialogue: 0,0:41:17.59,0:41:19.37,Default,NTP,0000,0000,0000,,因为我不能再失去你了\N{\fs16\3c&H2F2F2F&\b0}Because I can't lose you again.{\r}
+Dialogue: 0,0:41:23.56,0:41:26.25,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me watching you, a like a camera do♪
+Dialogue: 0,0:41:24.56,0:41:25.67,Default,NTP,0000,0000,0000,,你现在就有我\N{\fs16\3c&H2F2F2F&\b0}You have me now.{\r}
+Dialogue: 0,0:41:26.58,0:41:28.18,Default,NTP,0000,0000,0000,,我们不要浪费这一刻\N{\fs16\3c&H2F2F2F&\b0}Let's not lose this moment.{\r}
+Dialogue: 0,0:41:30.96,0:41:32.84,Default,NTP,0000,0000,0000,,能请你跳一支舞吗  亲爱的\N{\fs16\3c&H2F2F2F&\b0}May I have this dance, my love?{\r}
+Dialogue: 0,0:41:34.10,0:41:37.00,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You wear your glasses, you can't see♪
+Dialogue: 0,0:41:37.21,0:41:40.13,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Girl, I love your crooked smile♪
+Dialogue: 0,0:41:40.13,0:41:42.31,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Your crooked smile♪
+Dialogue: 0,0:41:42.38,0:41:45.02,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Hair ain't done, you're makeup-free♪
+Dialogue: 0,0:41:45.37,0:41:48.21,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You'll never go out of style♪
+Dialogue: 0,0:41:48.21,0:41:49.85,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪'Cause you ain't got time to pack♪
+Dialogue: 0,0:41:48.28,0:41:50.46,Default,NTP,0000,0000,0000,,这一直都是首好歌\N{\fs16\3c&H2F2F2F&\b0}This was always a good song.{\r}
+Dialogue: 0,0:41:51.21,0:41:52.49,Default,NTP,0000,0000,0000,,因为这写的是你\N{\fs16\3c&H2F2F2F&\b0}'Cause it was about you.{\r}
+Dialogue: 0,0:41:52.39,0:41:54.61,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Way too much class, all up inside♪
+Dialogue: 0,0:41:55.02,0:41:56.66,Default,NTP,0000,0000,0000,,你总是为我这么做\N{\fs16\3c&H2F2F2F&\b0}You always did it for me.{\r}
+Dialogue: 0,0:41:56.14,0:41:57.97,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You should be happy with the nappy♪
+Dialogue: 0,0:41:58.72,0:42:00.29,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Hot damn, have you seen them thighs♪
+Dialogue: 0,0:41:59.65,0:42:02.65,Default,NTP,0000,0000,0000,,你从没停止过为我这么做\N{\fs16\3c&H2F2F2F&\b0}You never stopped doing it for me.{\r}
+Dialogue: 0,0:42:02.29,0:42:03.89,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪And collard greens♪
+Dialogue: 0,0:42:04.11,0:42:06.56,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You call me papi, and I like it♪
+Dialogue: 0,0:42:06.56,0:42:11.80,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You're so beautiful♪
+Dialogue: 0,0:42:11.98,0:42:14.27,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me watching you, like a camera do♪
+Dialogue: 0,0:42:14.53,0:42:19.51,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'll still am a wait for you♪
+Dialogue: 0,0:42:20.01,0:42:22.82,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got feeling all kinds of ways♪
+Dialogue: 0,0:42:22.82,0:42:27.97,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You're so beautiful♪
+Dialogue: 0,0:42:28.08,0:42:30.40,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me watching you, like a camera do♪
+Dialogue: 0,0:42:30.62,0:42:35.75,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'll still wait for you♪
+Dialogue: 0,0:42:36.15,0:42:38.84,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got feeling all kinds of ways♪
+Dialogue: 0,0:42:38.84,0:42:40.37,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪This is the kind of song♪
+Dialogue: 0,0:42:40.37,0:42:42.31,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Make a woman love a man♪
+Dialogue: 0,0:42:42.55,0:42:44.54,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Woman love a man♪
+Dialogue: 0,0:42:44.61,0:42:46.83,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Woman love a man and♪
+Dialogue: 0,0:42:46.90,0:42:52.17,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You're so beautiful♪
+Dialogue: 0,0:42:52.30,0:42:53.72,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me watching you♪
+Dialogue: 0,0:42:53.75,0:42:54.63,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪Like a camera do♪
+Dialogue: 0,0:42:54.64,0:42:55.49,Default,NTP,0000,0000,0000,,宝贝\N{\fs16\3c&H2F2F2F&\b0}Babe?{\r}
+Dialogue: 0,0:42:54.95,0:43:00.13,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'll still wait for you♪
+Dialogue: 0,0:43:00.34,0:43:00.93,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me♪
+Dialogue: 0,0:43:03.03,0:43:08.40,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You're so beautiful♪
+Dialogue: 0,0:43:08.51,0:43:10.80,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me watching you, like a camera do♪
+Dialogue: 0,0:43:11.04,0:43:16.52,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪I'll still wait for you♪
+Dialogue: 0,0:43:16.52,0:43:19.35,Default,NTP,0000,0000,0000,,{\an8\fn微软雅黑\fs18\bord1\3c&H2F2F2F&\i1}♪You got me feeling all kind of ways♪
+Dialogue: 0,0:43:20.64,0:43:23.49,Default,NTP,0000,0000,0000,,[下集预告]期待更精彩
+
+

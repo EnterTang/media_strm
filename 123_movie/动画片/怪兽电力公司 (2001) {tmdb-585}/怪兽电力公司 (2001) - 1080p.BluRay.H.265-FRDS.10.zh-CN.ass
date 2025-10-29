@@ -1,0 +1,1198 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Untitled
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,simhei,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,3,2,20,20,2,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.00,Default,Default,0000,0000,0000,,压制：GREENOTEA　特效字幕：GREENOTEA{\r}\N欢迎访问x265编码影视交流论坛：www.greenotea.com{\r}
+Dialogue: 0,0:00:10.00,0:00:10.00,Default,Default,0000,0000,0000,,
+Dialogue: 0,0:01:19.50,0:01:25.62,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽电力公司{\r}
+Dialogue: 0,0:01:35.50,0:01:35.50,Default,Default,0000,0000,0000,,
+Dialogue: 0,0:01:35.50,0:01:37.62,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 晚安 宝贝儿  - 晚安 妈妈{\r}\N- Good night, sweetheart.  - 'Night, Mom.{\r}
+Dialogue: 0,0:01:37.71,0:01:39.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好梦 孩子{\r}\NSleep tight, kiddo.{\r}
+Dialogue: 0,0:03:08.13,0:03:10.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}演习结束{\r}\NSimulation terminated.{\r}
+Dialogue: 0,0:03:10.21,0:03:12.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}演习结束{\r}\NSimulation terminated.{\r}
+Dialogue: 0,0:03:12.43,0:03:15.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}演习结束 演习结束{\r}\NSimulation terminated. Simulation terminated.{\r}
+Dialogue: 0,0:03:16.22,0:03:18.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}演习结束{\r}\NSimulation terminated.{\r}
+Dialogue: 0,0:03:18.56,0:03:21.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 贝尔先生 是吗?{\r}\NAll right. Mr. Bile, is it?{\r}
+Dialogue: 0,0:03:21.56,0:03:23.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我朋友都叫我"软软"{\r}\NMy friends call me Phlegm.{\r}
+Dialogue: 0,0:03:24.23,0:03:26.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}贝尔先生 你能告诉我你哪里做错了吗?{\r}\NMr. Bile, can you tell me what you did wrong?{\r}
+Dialogue: 0,0:03:26.90,0:03:30.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我摔倒了?  - 不 不 在那个之前{\r}\N- I fell down?  - No, no, before that.{\r}
+Dialogue: 0,0:03:30.69,0:03:33.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}谁能告诉我贝尔先生错在哪?{\r}\NCan anyone tell me Mr. Bile's big mistake?{\r}
+Dialogue: 0,0:03:34.74,0:03:35.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有人吗?{\r}\NAnyone?{\r}
+Dialogue: 0,0:03:37.70,0:03:40.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们再看一遍录像带吧 开始了{\r}\NLet's take a look at the tape. Here we go.{\r}
+Dialogue: 0,0:03:41.04,0:03:43.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就是这儿{\r}\NRight there.{\r}
+Dialogue: 0,0:03:43.58,0:03:46.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看到了吗? 那扇门 你没关门{\r}\NSee? The door. You left it wide open.{\r}
+Dialogue: 0,0:03:47.29,0:03:50.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}而员工不关门{\r}\NAnd leaving the door open is the worst mistake{\r}
+Dialogue: 0,0:03:50.25,0:03:53.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是最严重的错误 因为...{\r}\Nany employee can make because...{\r}
+Dialogue: 0,0:03:54.26,0:03:56.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}呃 风会钻进来?{\r}\NEh. It could let in a draft?{\r}
+Dialogue: 0,0:03:56.46,0:03:58.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}因为小孩会跑出来{\r}\NIt could let in a child.{\r}
+Dialogue: 0,0:03:59.18,0:04:00.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}沃特努斯先生{\r}\NOh. Mr. Waternoose.{\r}
+Dialogue: 0,0:04:01.10,0:04:05.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}人类小孩是最有害 最致命的{\r}\NThere's nothing more toxic or deadly than a human child.{\r}
+Dialogue: 0,0:04:06.10,0:04:08.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一触即死{\r}\NA single touch could kill you.{\r}
+Dialogue: 0,0:04:09.11,0:04:13.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不关门的话 小孩子就会走进这家工厂{\r}\NLeave a door open and a child could walk right into this factory,{\r}
+Dialogue: 0,0:04:13.28,0:04:14.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}走进怪兽世界{\r}\Nright into the monster world.{\r}
+Dialogue: 0,0:04:14.95,0:04:17.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不要去小孩的房间 你不能强迫我{\r}\NI won't go in a kid's room. You can't make me.{\r}
+Dialogue: 0,0:04:17.49,0:04:20.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你必须去 因为我们需要这个{\r}\NYou're going in there because we need this.{\r}
+Dialogue: 0,0:04:27.25,0:04:31.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们的城市要靠你们去收集孩子的尖叫{\r}\NOur city is counting on you to collect those children's screams.{\r}
+Dialogue: 0,0:04:31.46,0:04:34.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没有尖叫 就没有能源{\r}\NWithout scream we have no power.{\r}
+Dialogue: 0,0:04:34.72,0:04:36.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是的 这是项危险的工作{\r}\NYes, it's dangerous work.{\r}
+Dialogue: 0,0:04:36.51,0:04:39.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}因此 我需要你们竭尽全力{\r}\NAnd that's why I need you to be at your best.{\r}
+Dialogue: 0,0:04:39.47,0:04:43.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我需要自信的 执着的 凶猛的...{\r}\NI need scarers who are confident, tenacious, tough...{\r}
+Dialogue: 0,0:04:43.64,0:04:45.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还要吓人的怪兽{\r}\Nand intimidating.{\r}
+Dialogue: 0,0:04:45.43,0:04:50.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我需要像... 詹姆斯·P·苏利文那样的怪兽{\r}\NI need scarers like... like James P. Sullivan.{\r}
+Dialogue: 0,0:04:54.40,0:04:57.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 早安怪兽都市 现在是怪兽市{\r}\NHey, good morning, Monstropolis. It's five after the hour of 6:00 a.m.{\r}
+Dialogue: 0,0:04:57.99,0:04:59.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}早晨6:05{\r}\Nin the big Monster City.{\r}
+Dialogue: 0,0:04:59.82,0:05:03.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}温度适宜 华氏65度 适合你们爬行动物{\r}\NThe temperature's a balmy 65 degrees which is good news for you reptiles.{\r}
+Dialogue: 0,0:05:03.62,0:05:07.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看起来今天很适合躺在床上睡个懒觉{\r}\NAnd it looks like it's gonna be a perfect day to maybe, hey, lie in bed, sleep in,{\r}
+Dialogue: 0,0:05:07.87,0:05:12.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}或者解决那一坨赖在床上的肥肉!{\r}\Nor simply work out that flab that's hanging over the bed!{\r}
+Dialogue: 0,0:05:12.38,0:05:13.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}起床了 小苏!{\r}\NGet up, Sulley!{\r}
+Dialogue: 0,0:05:16.13,0:05:18.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我确定我没预约叫醒服务 小迈{\r}\NI don't believe I ordered a wake-up call, Mikey.{\r}
+Dialogue: 0,0:05:18.68,0:05:21.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}少说话 多运动 棉花糖小子!{\r}\NLess talk, more pain, marshmallow boy!{\r}
+Dialogue: 0,0:05:21.85,0:05:24.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}感受脂肪的燃烧 就这表现还敢自称怪兽?{\r}\NFeel the burn. You call yourself a monster?{\r}
+Dialogue: 0,0:05:24.97,0:05:27.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}轻手轻脚 轻手轻脚 轻手轻脚 孩子醒了!{\r}\NScary feet, scary feet, scary feet. The kid's awake!{\r}
+Dialogue: 0,0:05:27.35,0:05:30.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}轻手轻脚 轻手轻脚 轻手轻脚 孩子睡着了!{\r}\NScary feet, scary feet, scary feet. Kid's asleep!{\r}
+Dialogue: 0,0:05:31.56,0:05:33.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}双胞胎! 在双层床上!{\r}\NTwins! In a bunk bed!{\r}
+Dialogue: 0,0:05:35.19,0:05:36.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我以为你会中计 忘记吓唬其中一个{\r}\NI thought I had you there.{\r}
+Dialogue: 0,0:05:36.90,0:05:40.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 小苏 开始了 准备好了吧? 跟着它 在这里{\r}\NOK, Sulley, here we go. You ready? Follow it. It's over here.{\r}
+Dialogue: 0,0:05:40.62,0:05:44.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在那里 别让小孩子碰你 别让他碰到你!{\r}\NOver there. Don't let the kid touch you. Don't let him touch you!{\r}
+Dialogue: 0,0:05:44.29,0:05:47.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不知道为什么大家都这么说 我喜欢吓唬睡梦中的小孩{\r}\NI don't know but it's been said I love scarin' kids in bed.{\r}
+Dialogue: 0,0:05:47.75,0:05:49.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}加油 打败牙菌斑 打败牙菌斑{\r}\NCome on. Fight that plaque, fight that plaque.{\r}
+Dialogue: 0,0:05:49.75,0:05:51.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}吓人的怪兽没有牙菌斑{\r}\NScary monsters don't have plaque.{\r}
+Dialogue: 0,0:05:51.21,0:05:53.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}118下 你能做到119下吗?{\r}\NOne-eighteen. Do you have 119?{\r}
+Dialogue: 0,0:05:53.63,0:05:55.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}第120下在哪里?{\r}\NDo I see 120?{\r}
+Dialogue: 0,0:05:55.42,0:05:58.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 哦 真难以置信  - 我还没流汗呢{\r}\N- Oh. I don't believe it.  - I'm not breaking a sweat.{\r}
+Dialogue: 0,0:05:58.09,0:06:00.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没说你 快看! 新的广告开播了{\r}\NNot you. Look! The new commercial's on.{\r}
+Dialogue: 0,0:06:01.39,0:06:04.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽公司前途一片光明{\r}\NThe future is bright at Monsters, Incorporated.{\r}
+Dialogue: 0,0:06:04.64,0:06:06.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我坐这 我坐这  - 我们是您生活的一部分{\r}\N- I'm in this one, I'm in this one.  - We're part of your life.{\r}
+Dialogue: 0,0:06:06.89,0:06:09.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们为您的汽车加油 为您的家庭供暖{\r}\NWe power your car. We warm your home.{\r}
+Dialogue: 0,0:06:09.77,0:06:11.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为您的城市供电{\r}\NWe light your city.{\r}
+Dialogue: 0,0:06:11.56,0:06:14.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我是怪兽公司的一员  - 嘿 看! 是贝蒂!{\r}\N- I'm Monsters, Incorporated.  - Hey, look! Betty!{\r}
+Dialogue: 0,0:06:14.52,0:06:17.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}精心为每个孩子挑选与之搭配的理想怪兽{\r}\NCarefully matching every child to their ideal monster,{\r}
+Dialogue: 0,0:06:18.07,0:06:20.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}从而获得高质量的尖叫{\r}\Nto produce superior scream.{\r}
+Dialogue: 0,0:06:20.24,0:06:23.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}进而提炼为清洁可靠的能源{\r}\NRefined into clean, dependable energy.{\r}
+Dialogue: 0,0:06:23.28,0:06:27.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}每当您打开任何东西 您都能看到怪兽公司的影子{\r}\NEvery time you turn something on, Monsters, Incorporated is there.{\r}
+Dialogue: 0,0:06:27.91,0:06:31.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我是怪兽公司的一员  - 我们了解我们面临的挑战{\r}\N- I'm Monsters, Incorporated.  - We know the challenge.{\r}
+Dialogue: 0,0:06:31.46,0:06:33.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}纯真之窗正在逐渐紧闭{\r}\NThe window of innocence is shrinking.{\r}
+Dialogue: 0,0:06:33.54,0:06:36.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}人类儿童越来越难以吓到{\r}\NHuman kids are harder to scare.{\r}
+Dialogue: 0,0:06:36.13,0:06:38.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}当然 怪兽公司已准备好应对未来{\r}\NOf course, MI is prepared for the future.{\r}
+Dialogue: 0,0:06:38.76,0:06:40.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们拥有着最顶尖的怪兽{\r}\NWith the top scarers,{\r}
+Dialogue: 0,0:06:40.76,0:06:42.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}最好的提炼厂{\r}\Nthe best refineries,{\r}
+Dialogue: 0,0:06:42.51,0:06:45.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们还研究全新能源技术{\r}\Nand research into new energy techniques.{\r}
+Dialogue: 0,0:06:46.14,0:06:47.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 我要出现了{\r}\NOK, here I come.{\r}
+Dialogue: 0,0:06:47.85,0:06:51.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}今天 我们为了更好的明天而努力{\r}\NWe're working for a better tomorrow, today.{\r}
+Dialogue: 0,0:06:51.43,0:06:54.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们来自怪兽公司{\r}\NWe're Monsters, Incorporated.{\r}
+Dialogue: 0,0:06:54.27,0:06:57.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们是MI 怪兽公司{\r}\NWe're MI, Monsters, Incorporated.{\r}
+Dialogue: 0,0:06:57.11,0:06:59.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们吓人 因为我们关注{\r}\NWe scare because we care.{\r}
+Dialogue: 0,0:07:01.61,0:07:03.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我简直无法相信  - 迈克{\r}\N- I can't believe it.  - Oh Mike.{\r}
+Dialogue: 0,0:07:03.78,0:07:06.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我刚才出现在电视上了!{\r}\NI was on TV!{\r}
+Dialogue: 0,0:07:06.45,0:07:08.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你看到我了吗? 我是个天才{\r}\NDid you see me? I'm a natural.{\r}
+Dialogue: 0,0:07:09.08,0:07:11.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}喂? 我知道! 我是不是很帅?{\r}\NHello? I know! Wasn't I great?{\r}
+Dialogue: 0,0:07:12.00,0:07:14.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你们全家都看了吗? 是你妈妈{\r}\NDid the whole family see it? It's your mom.{\r}
+Dialogue: 0,0:07:14.46,0:07:16.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哈哈... 我还能说什么? 摄像机就是喜欢我{\r}\NHaha... what can I say? The camera loves me.{\r}
+Dialogue: 0,0:07:28.64,0:07:30.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我告诉你 大个子{\r}\NI'm telling you, Big Daddy,{\r}
+Dialogue: 0,0:07:30.14,0:07:32.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你以后会在电视上经常看到我这张脸的{\r}\Nyou're gonna be seeing this face on TV more often.{\r}
+Dialogue: 0,0:07:32.14,0:07:34.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是吗? 在怪兽都市的通缉令上?{\r}\NYeah? On the Monstropolis' Most Wanted?{\r}
+Dialogue: 0,0:07:35.98,0:07:38.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你自从四年级开始就嫉妒我帅气的容貌了{\r}\NYou've been jealous of my good looks since the fourth grade.{\r}
+Dialogue: 0,0:07:38.94,0:07:41.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 祝你一天愉快 亲爱的  - 你也是 亲爱的{\r}\N- Have a good day, sweetie.  - You too, hon.{\r}
+Dialogue: 0,0:07:43.03,0:07:45.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 好了 小苏 上车吧  - 不要{\r}\N- OK, Sulley, hop on in.  - Nope.{\r}
+Dialogue: 0,0:07:45.32,0:07:47.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 嘿 嘿 你去哪 你要去哪?{\r}\NHey, hey, hey, where you going, where you going?{\r}
+Dialogue: 0,0:07:47.32,0:07:48.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小迈 有条超级近路{\r}\NMikey, there's a scream shortage.{\r}
+Dialogue: 0,0:07:48.62,0:07:50.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我们走路过去  - 走路?{\r}\N- We're walking.  - Walking?{\r}
+Dialogue: 0,0:07:50.32,0:07:52.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 是的  - 不 不要  - 来吧{\r}\N- Yep  - No, no.  - Come on.{\r}
+Dialogue: 0,0:07:52.33,0:07:53.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我的宝贝儿 你看 他需要人去驾驶他{\r}\NMy baby, look, he needs to be driven.{\r}
+Dialogue: 0,0:07:53.91,0:07:56.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我的宝贝儿 再联系{\r}\NMy baby. I'll call you.{\r}
+Dialogue: 0,0:07:58.34,0:08:00.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 你想知道我为什么买车吗?  - 不想{\r}\N- Hey, you wanna know why I bought the car?  - Not really.{\r}
+Dialogue: 0,0:08:00.92,0:08:01.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就是为了开它啊{\r}\NTo drive it.{\r}
+Dialogue: 0,0:08:01.92,0:08:04.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在街上 你可以按喇叭 滴滴 哔哔{\r}\NYou know, like on the street with the honk-honk and the vroom-vroom{\r}
+Dialogue: 0,0:08:05.01,0:08:08.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 不用走路  - 让它休息会吧 好吗 小胖子?{\r}\N- no walking involved.  - Give it a rest, will ya, butterball?{\r}
+Dialogue: 0,0:08:08.47,0:08:09.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你可以顺便运动{\r}\NCome on. You could use the exercise.{\r}
+Dialogue: 0,0:08:09.87,0:08:11.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我可以顺便运动? 看看你{\r}\NI could use the exercise? Look at you.{\r}
+Dialogue: 0,0:08:11.60,0:08:13.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你 你情况特殊{\r}\NYou, you have your own climate.{\r}
+Dialogue: 0,0:08:13.39,0:08:15.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有多少只触角跳过了绳子?{\r}\NHow many tentacles jump the rope?{\r}
+Dialogue: 0,0:08:15.98,0:08:17.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}早上好 迈克 早上好 小苏{\r}\NMorning, Mike. Morning, Sulley.{\r}
+Dialogue: 0,0:08:17.86,0:08:19.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}早上好 孩子们 过得好吗?{\r}\NMorning, kids. How you doing?{\r}
+Dialogue: 0,0:08:19.82,0:08:24.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 再见 迈克 再见 小苏  - 嘿!{\r}\N- Bye, Mike. Bye, Sulley.  - Hey!{\r}
+Dialogue: 0,0:08:30.53,0:08:32.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}混蛋{\r}\NNuts.{\r}
+Dialogue: 0,0:08:35.66,0:08:37.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 嘿 嘿 伙计们  - 嘿 托尼{\r}\N- Hey, hey, hey. Fellas.  - Hey, Tony.{\r}
+Dialogue: 0,0:08:37.08,0:08:39.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 托尼 托尼{\r}\NHey. Tony, Tony.{\r}
+Dialogue: 0,0:08:40.42,0:08:43.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我听说有人快要打破尖叫纪录了哦{\r}\NI hear somebody's close to breaking the all-time scare record.{\r}
+Dialogue: 0,0:08:44.22,0:08:47.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我只是想确保我们有足够的尖叫{\r}\NJust trying to make sure there's enough scream to go around.{\r}
+Dialogue: 0,0:08:47.97,0:08:50.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 免费的  - 嘿 谢了{\r}\N- Hey, on the house.  - Hey, thanks.{\r}
+Dialogue: 0,0:08:50.76,0:08:52.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小菜一碟{\r}\NBada-bing.{\r}
+Dialogue: 0,0:08:54.89,0:08:56.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}尼玛{\r}\NOh, great.{\r}
+Dialogue: 0,0:08:57.52,0:08:59.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 泰德 早上好{\r}\NHey, Ted, good morning.{\r}
+Dialogue: 0,0:09:03.53,0:09:05.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看到了吗 小迈? 泰德也走路去上班{\r}\NSee that, Mikey? Ted's walking to work.{\r}
+Dialogue: 0,0:09:05.65,0:09:08.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那不算什么 这家伙走五步就到公司了{\r}\NNo big deal. This guy takes five steps and he's there.{\r}
+Dialogue: 0,0:09:08.22,0:09:11.22,Default,Default,0000,0000,0000,,{\bord1\an8\3c&HFF8000&}怪兽电力公司
+Dialogue: 0,0:09:15.50,0:09:17.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽公司 请稍等{\r}\NMonsters, Inc. Please hold.{\r}
+Dialogue: 0,0:09:17.50,0:09:20.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽公司 请稍等 怪兽公司 请稍等{\r}\NMonsters, Inc. Please hold. Monsters, Inc. Please hold.{\r}
+Dialogue: 0,0:09:20.54,0:09:22.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 早上好 小苏  - 早上好 瑞奇{\r}\N- Mornin', Sulley.  - Mornin', Ricky.{\r}
+Dialogue: 0,0:09:22.09,0:09:24.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 这不是苏利文嘛  - 吓人车间见 伙计{\r}\N- It's the Sullster.  - See you on the scare floor. Buddy.{\r}
+Dialogue: 0,0:09:24.55,0:09:27.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 玛吉 陪审团的工作怎么样?  - 早上好 小苏{\r}\N- Hey Marge. How was jury duty?  - Morning, Sulley.{\r}
+Dialogue: 0,0:09:27.59,0:09:28.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿{\r}\NHey.{\r}
+Dialogue: 0,0:09:29.59,0:09:31.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 它还是在向左歪{\r}\NHey. It's still leaning to the left.{\r}
+Dialogue: 0,0:09:31.60,0:09:34.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 才没有  - 嗨 伙计们 嗨 杰瑞{\r}\N- It is not.  - Hey, fellas. Hey, Jerry.{\r}
+Dialogue: 0,0:09:34.66,0:09:35.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}早上好{\r}\NMorning.{\r}
+Dialogue: 0,0:09:35.86,0:09:38.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 苏利文先生  - 伙计们 我都说了 叫我小苏就好{\r}\N- Hey, Mr. Sullivan.  - Guys, I told you, call me Sulley.{\r}
+Dialogue: 0,0:09:39.52,0:09:42.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 那多不好  - 我们就是想祝您今天好运{\r}\N- I don't think so.  - We just want to wish you good luck today.{\r}
+Dialogue: 0,0:09:42.90,0:09:46.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 嘿 你俩别说了 你们会让他无法专心工作的{\r}\NHey, hey, come on, get lost, you two. You're making him lose his focus.{\r}
+Dialogue: 0,0:09:46.86,0:09:48.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 真抱歉  - 回见 伙计们{\r}\N- Sorry.  - See you later, fellas.{\r}
+Dialogue: 0,0:09:48.74,0:09:50.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}加油 苏利文先生{\r}\NGo get 'em, Mr. Sullivan.{\r}
+Dialogue: 0,0:09:50.45,0:09:52.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}安静 你会让他无法专心工作的{\r}\NQuiet. You're making him lose his focus.{\r}
+Dialogue: 0,0:09:52.95,0:09:55.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 哦 不 对不起!  - 闭嘴!{\r}\N- Oh, no. Sorry!  - Shut up!{\r}
+Dialogue: 0,0:09:55.95,0:09:59.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽公司 请稍等 怪兽公司 我会联系您{\r}\NMonsters, Inc. Please hold. Monsters, Inc. I'll connect you.{\r}
+Dialogue: 0,0:09:59.67,0:10:02.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}费尔蒙戈小姐正在度假 您需要给她留言吗?{\r}\NMiss Fearmonger is on vacation. Would you like her voicemail?{\r}
+Dialogue: 0,0:10:02.84,0:10:06.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小甜甜  - 大眼儿熊{\r}\N- Schmoopsie-pooh.  - Googly bear.{\r}
+Dialogue: 0,0:10:06.71,0:10:10.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 生日快乐  - 大眼小亲亲 你居然记得{\r}\N- Happy birthday.  - Googly-woogly, you remembered.{\r}
+Dialogue: 0,0:10:11.30,0:10:14.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 苏苏小亲亲  - 嘿 希莉娅小亲亲{\r}\N- Hey, Sulley-wulley.  - Hey, Celia-wheelia.{\r}
+Dialogue: 0,0:10:15.64,0:10:17.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 生日快乐  - 谢谢{\r}\N- Happy birthday.  - Thanks.{\r}
+Dialogue: 0,0:10:17.98,0:10:20.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那么 我们今晚有哪些特殊庆祝活动呢?{\r}\NSo are we going anywhere special tonight?{\r}
+Dialogue: 0,0:10:21.19,0:10:25.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我就打算我们在一个小地方庆祝 叫哈利豪森之家{\r}\NI just got us into a little place called Harryhausen's.{\r}
+Dialogue: 0,0:10:26.15,0:10:29.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哈利豪森之家? 没人能预定到那里的{\r}\NHarryhausen's? But it's impossible to get a reservation there.{\r}
+Dialogue: 0,0:10:29.95,0:10:33.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}对大眼儿熊来说可不是难事 下班我来接你{\r}\NNot for googly bear. I will see you at quittin' time.{\r}
+Dialogue: 0,0:10:33.49,0:10:35.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 绝对准时  - 好的 宝贝儿{\r}\N- Not a minute later.  - OK, sweetheart.{\r}
+Dialogue: 0,0:10:35.66,0:10:37.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}想想浪漫的事{\r}\NThink romantical thoughts.{\r}
+Dialogue: 0,0:10:37.58,0:10:40.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 你和我 我和你 #{\r}\N# You and me. Me and you #{\r}
+Dialogue: 0,0:10:41.00,0:10:42.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 两人在一起 #{\r}\N# Both of us together #{\r}
+Dialogue: 0,0:10:44.13,0:10:45.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你知道吗 伙计 她就是我命中注定的爱人{\r}\NYou know, pal, she's the one.{\r}
+Dialogue: 0,0:10:45.50,0:10:48.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 就是这样的 她就是那个人  - 我真为你感到高兴{\r}\N- That's it. She is the one.  - I'm happy for you.{\r}
+Dialogue: 0,0:10:48.38,0:10:50.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}谢谢你帮我预定到座位{\r}\NThanks for hooking me up with those reservations.{\r}
+Dialogue: 0,0:10:50.93,0:10:54.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不用谢 预订人的名字是"大眼儿熊"{\r}\NNo problem. They're under the name "googly bear."{\r}
+Dialogue: 0,0:10:54.09,0:10:57.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好想... 那一点都不好玩{\r}\NGood ide... You know, that wasn't very funny.{\r}
+Dialogue: 0,0:11:00.52,0:11:02.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 什么...  - 华斯基{\r}\N- What the...  - Wazowski.{\r}
+Dialogue: 0,0:11:04.90,0:11:05.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你知道吗?{\r}\NWhat do you know?{\r}
+Dialogue: 0,0:11:05.98,0:11:08.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不仅吓小孩子 也吓小怪兽哦{\r}\NIt scares little kids and little monsters.{\r}
+Dialogue: 0,0:11:09.19,0:11:12.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我才没被吓到 我就是有点过敏{\r}\NI wasn't scared. I have allergies.{\r}
+Dialogue: 0,0:11:13.95,0:11:16.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 那是当然  - 嘿 兰德尔 留着在吓人车间表演吧 好吗?{\r}\N- Sure.  - Hey, Randall, save it for the scare floor, will ya?{\r}
+Dialogue: 0,0:11:16.91,0:11:20.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我今天可是在巅峰状态 苏利文 得做几个极其惊悚的吓人动作{\r}\NI'm in the zone today, Sullivan. Gonna do serious scaring.{\r}
+Dialogue: 0,0:11:20.87,0:11:24.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 得几个高分  - 哇 兰德尔 那真不错{\r}\N- Putting up some big numbers.  - Wow, Randall, that's great.{\r}
+Dialogue: 0,0:11:24.12,0:11:28.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等我们破了纪录就能让你更丢脸了 哈哈{\r}\NThat should make it more humiliating when we break the record first. Ha ha.{\r}
+Dialogue: 0,0:11:29.71,0:11:33.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}听到了吗? 风向变了{\r}\NDo you hear that? It's the winds of change.{\r}
+Dialogue: 0,0:11:36.26,0:11:38.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}"听到了吗? 风向变了..."{\r}\N"You hear that? It's the winds of..."{\r}
+Dialogue: 0,0:11:38.31,0:11:41.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真是个讨厌鬼 以后我一定会{\r}\NWhat a creep. One of these days I am really{\r}
+Dialogue: 0,0:11:41.81,0:11:44.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让你给他点教训{\r}\Ngonna let you teach that guy a lesson.{\r}
+Dialogue: 0,0:11:51.24,0:11:53.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}亲爱哒 宝贝儿{\r}\NChalooby. Baby.{\r}
+Dialogue: 0,0:11:55.07,0:11:58.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}早上好 萝丝 我亲爱的花园肉肉小蜗牛{\r}\NGood morning, Roz, my succulent little garden snail.{\r}
+Dialogue: 0,0:11:58.49,0:12:01.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 今天我们要吓谁?  - 华斯基{\r}\N- Who would we be scaring today?  - Wazowski.{\r}
+Dialogue: 0,0:12:01.79,0:12:04.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你昨天晚上没有上交你的报告{\r}\NYou didn't file your paperwork last night.{\r}
+Dialogue: 0,0:12:04.37,0:12:06.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 那个该死的报告{\r}\NOh, that darn paperwork.{\r}
+Dialogue: 0,0:12:06.29,0:12:09.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让它随风吹走不更好吗?{\r}\NWouldn't it be easier if it all just blew away?{\r}
+Dialogue: 0,0:12:10.67,0:12:13.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不准再犯{\r}\NDon't let it happen again.{\r}
+Dialogue: 0,0:12:13.63,0:12:16.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不会了 嗯 我下次会注意的{\r}\NYes. Well, I'll try to be less careless.{\r}
+Dialogue: 0,0:12:16.76,0:12:19.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我盯着你呢 华斯基{\r}\NI'm watching you, Wazowski.{\r}
+Dialogue: 0,0:12:19.72,0:12:21.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一直都在盯着你{\r}\NAlways watching.{\r}
+Dialogue: 0,0:12:21.89,0:12:23.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 她是个疯子  - 一直{\r}\N- She's nuts.  - Always.{\r}
+Dialogue: 0,0:12:24.94,0:12:27.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}所有吓人车间都已启动{\r}\NAll scare floors are now active.{\r}
+Dialogue: 0,0:12:27.65,0:12:30.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}助理人员 请汇报工作站情况{\r}\NAssistants, please report to your stations.{\r}
+Dialogue: 0,0:13:17.28,0:13:20.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 同志们 即将连线东海岸{\r}\NOK, people, Eastern Seaboard coming online.{\r}
+Dialogue: 0,0:13:20.45,0:13:22.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽准备出场{\r}\NWe got scarers coming out.{\r}
+Dialogue: 0,0:13:37.34,0:13:39.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}唔 他们真是太帅了{\r}\NOooh. They are so awesome.{\r}
+Dialogue: 0,0:14:26.31,0:14:28.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 祝最厉害的怪兽能够获胜{\r}\NHey, may the best monster win.{\r}
+Dialogue: 0,0:14:29.18,0:14:30.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}正有此意{\r}\NI plan to.{\r}
+Dialogue: 0,0:14:31.56,0:14:35.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}倒计时开始 七 六 五{\r}\NWe are on in seven, six, five,{\r}
+Dialogue: 0,0:14:35.61,0:14:38.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}四 三 二...{\r}\Nfour, three, two...{\r}
+Dialogue: 0,0:14:44.58,0:14:47.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你最棒 你最棒 你毛茸茸的最棒了{\r}\NYou're the boss, you're the boss. You're the big hairy boss.{\r}
+Dialogue: 0,0:14:57.09,0:14:59.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我今天感觉一级棒 小迈{\r}\NI'm feeling good today, Mikey.{\r}
+Dialogue: 0,0:15:01.01,0:15:03.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}太好了 下扇门马上来了{\r}\NAttaboy, attaboy. Another door coming right up.{\r}
+Dialogue: 0,0:15:11.27,0:15:12.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你还是差一点 兰德尔{\r}\NYou're still behind, Randall.{\r}
+Dialogue: 0,0:15:12.94,0:15:16.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 或许我该重新排列尖叫...  - 别废话 再给我放一扇门下来{\r}\N- Maybe I should realign the scream...  - Just get me another door.{\r}
+Dialogue: 0,0:15:16.11,0:15:17.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}门 好的 门{\r}\NThe door, yes, door.{\r}
+Dialogue: 0,0:15:43.13,0:15:45.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}杰瑞 目前进度如何?{\r}\NWell, Jerry, what's the damage so far?{\r}
+Dialogue: 0,0:15:45.47,0:15:48.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们马上就要完成今天的计划了 先生{\r}\NWe may actually make our quota today, sir.{\r}
+Dialogue: 0,0:15:48.93,0:15:50.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}本月首次{\r}\NFirst time in a month.{\r}
+Dialogue: 0,0:15:58.15,0:16:00.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 怎么了?  - 那个小孩差点就碰到我了{\r}\N- What happened?  - The kid almost touched me.{\r}
+Dialogue: 0,0:16:00.32,0:16:03.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 就差那么一点  - 她都不怕你?{\r}\N- She got this close to me.  - She wasn't scared of you?{\r}
+Dialogue: 0,0:16:03.57,0:16:05.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 她才6岁  - 我差点就死了{\r}\N- She was only six.  - I could have been dead.{\r}
+Dialogue: 0,0:16:06.07,0:16:09.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我差点就死了  - 冷静点 老兄{\r}\N- I could have died.  - Keep it together, man.{\r}
+Dialogue: 0,0:16:10.70,0:16:13.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 这扇门失败了{\r}\NHey, we got a dead door over here.{\r}
+Dialogue: 0,0:16:13.41,0:16:15.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我来了  - 小心{\r}\N- I'm coming.  - Look out.{\r}
+Dialogue: 0,0:16:16.42,0:16:17.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}借过{\r}\NExcuse us.{\r}
+Dialogue: 0,0:16:20.67,0:16:23.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}本周我们有58扇门失败 先生{\r}\NWe've lost 58 doors this week, sir.{\r}
+Dialogue: 0,0:16:23.76,0:16:25.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在的小孩啊{\r}\NKids these days.{\r}
+Dialogue: 0,0:16:25.43,0:16:27.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不像以前那么容易受惊吓了{\r}\NThey just don't get scared like they used to.{\r}
+Dialogue: 0,0:16:28.18,0:16:29.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}粉碎她{\r}\NLet her rip.{\r}
+Dialogue: 0,0:16:41.57,0:16:43.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 先生?  - 什么?{\r}\N- Sir?  - What?{\r}
+Dialogue: 0,0:16:43.57,0:16:44.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看{\r}\NLook.{\r}
+Dialogue: 0,0:16:46.49,0:16:49.20,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}注意 新任怪兽领袖诞生了{\r}\NAttention. We have a new scare leader.{\r}
+Dialogue: 0,0:16:49.28,0:16:50.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是兰德尔·鲍格斯{\r}\NRandall Boggs.{\r}
+Dialogue: 0,0:16:52.62,0:16:54.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看看那些数字{\r}\NLook at those numbers.{\r}
+Dialogue: 0,0:16:59.71,0:17:01.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}睡衣派对{\r}\NSlumber party.{\r}
+Dialogue: 0,0:17:04.21,0:17:05.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}当我没说{\r}\NNever mind.{\r}
+Dialogue: 0,0:17:06.93,0:17:08.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 注意点{\r}\NHey, watch it.{\r}
+Dialogue: 0,0:17:10.18,0:17:13.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}詹姆斯 那真是令人印象深刻的表现{\r}\NWell, James, that was an impressive display.{\r}
+Dialogue: 0,0:17:13.43,0:17:15.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 我只是在做我的本职工作 沃特努斯先生{\r}\NNo. Just doing my job, Mr. Waternoose.{\r}
+Dialogue: 0,0:17:15.81,0:17:18.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}都是您栽培得好{\r}\N'Course I did learn from the best.{\r}
+Dialogue: 0,0:17:18.90,0:17:21.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}如果我不能在5秒内看到一扇新的门出现在我的工作站{\r}\NIf I don't see a new door in my station in five seconds,{\r}
+Dialogue: 0,0:17:21.90,0:17:24.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我会亲自把你丢进粉碎机里{\r}\NI will personally put you through the shredder.{\r}
+Dialogue: 0,0:17:26.15,0:17:30.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 华斯基 干得不错 那些数字真漂亮{\r}\NHey, Wazowski, nice job. Those numbers are pretty sweet.{\r}
+Dialogue: 0,0:17:30.16,0:17:32.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是吗? 我都没怎么注意{\r}\NAre they? You know, I hadn't even noticed.{\r}
+Dialogue: 0,0:17:32.78,0:17:35.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 那乔治怎么样?  - 他干得很棒{\r}\N- And how's Georgie doing?  - He's doing great.{\r}
+Dialogue: 0,0:17:35.58,0:17:37.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我喜欢和这个大家伙合作{\r}\NI love working with that big guy.{\r}
+Dialogue: 0,0:17:37.66,0:17:40.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}要保持门源源不断 查理 我今天运气超好{\r}\NKeep the doors coming, Charlie. I'm on a roll today.{\r}
+Dialogue: 0,0:17:40.21,0:17:43.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}乔治和我就像兄弟 2319号警报!{\r}\NGeorge and I are like brothers. 2319!{\r}
+Dialogue: 0,0:17:44.05,0:17:46.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}2319号警报!{\r}\NWe have a 2319!{\r}
+Dialogue: 0,0:17:50.59,0:17:51.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}红色警报{\r}\NRed alert.{\r}
+Dialogue: 0,0:17:52.51,0:17:54.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}红色警报 红色警报{\r}\NRed alert, red alert.{\r}
+Dialogue: 0,0:17:54.93,0:17:57.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 红色警报  - 乔治·桑德森{\r}\N- Red alert.  - George Sanderson.{\r}
+Dialogue: 0,0:17:57.14,0:18:01.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}请保持原地不动 准备清除污垢{\r}\NPlease remain motionless. Prepare for decontamination.{\r}
+Dialogue: 0,0:18:01.19,0:18:03.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}保护自己 同志们!{\r}\NDuck and cover, people!{\r}
+Dialogue: 0,0:18:06.36,0:18:08.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}竟然惊动了儿童检测署{\r}\NOh. Not the CDA.{\r}
+Dialogue: 0,0:18:13.90,0:18:14.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}儿童检测署{\r}
+Dialogue: 0,0:18:15.91,0:18:18.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快 快 快  - 行进中 靠边站{\r}\N- Go, go, go.  - Coming through. Stand aside.{\r}
+Dialogue: 0,0:18:19.00,0:18:20.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 撤离污染区域的人员  - 不{\r}\N- Clear the contaminated area.  - No.{\r}
+Dialogue: 0,0:18:21.21,0:18:25.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 确认2319号警报  - 人员已撤离 行进中 小心{\r}\N- A 2319 in progress.  - Area Clear. Coming through. Watch yourself.{\r}
+Dialogue: 0,0:18:29.76,0:18:32.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}退后 小心{\r}\NStand back. Careful.{\r}
+Dialogue: 0,0:18:47.44,0:18:50.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}清理完毕 状态为990 除污就绪{\r}\NAll clear. Situation is niner-niner-zero. Ready for decon.{\r}
+Dialogue: 0,0:18:50.99,0:18:54.20,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 多谢了 伙计们 刚才真是危险  - 好了{\r}\N- Thanks, guys, that was a close one.  - OK.{\r}
+Dialogue: 0,0:19:06.13,0:19:07.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了大家 休息一会{\r}\NOk, people. Take a break.{\r}
+Dialogue: 0,0:19:07.63,0:19:09.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}车间关闭半小时 重启系统{\r}\NWe gotta shut down for half hour and reset the system.{\r}
+Dialogue: 0,0:19:09.67,0:19:12.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}整个吓人车间暂停任务{\r}\NAn entire scare floor out of commission.{\r}
+Dialogue: 0,0:19:12.30,0:19:14.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还能更糟吗?{\r}\NWhat else can go wrong?{\r}
+Dialogue: 0,0:19:16.97,0:19:19.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 今天糟透了  - 困难只是暂时的 先生{\r}\N- What a day.  - We're just going through a rough time, sir.{\r}
+Dialogue: 0,0:19:19.93,0:19:22.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大家都知道您会领导我们渡过难关的{\r}\NEveryone knows you'll get us through it.{\r}
+Dialogue: 0,0:19:22.23,0:19:24.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}去向董事会说吧{\r}\NTell that to the board of directors.{\r}
+Dialogue: 0,0:19:25.86,0:19:30.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}詹姆斯 我的家族掌控这家公司有三代了{\r}\NJames, this company's been in my family for three generations.{\r}
+Dialogue: 0,0:19:30.44,0:19:33.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我会不惜一切保全这个公司{\r}\NI would do anything to keep it from going under.{\r}
+Dialogue: 0,0:19:33.70,0:19:35.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我也会的 先生{\r}\NSo would I, sir.{\r}
+Dialogue: 0,0:19:37.37,0:19:40.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你可以帮我做些事  - 愿意效劳 先生{\r}\N- I could use your help with something.  - Anything, sir.{\r}
+Dialogue: 0,0:19:40.37,0:19:42.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你看 我们招了些新怪兽员工{\r}\NYou see, we've hired some new scare recruits,{\r}
+Dialogue: 0,0:19:42.57,0:19:44.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}坦白说 他们... 呃... 他们{\r}\Nand frankly, they're... eh... they're{\r}
+Dialogue: 0,0:19:45.54,0:19:48.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 经验不足?  - 不 他们水平太臭了{\r}\N- Inexperienced?  - No, they stink.{\r}
+Dialogue: 0,0:19:48.59,0:19:50.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想 你可以明天过来坐坐{\r}\NI thought maybe you might come by tomorrow{\r}
+Dialogue: 0,0:19:50.88,0:19:52.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}向他们展示展示{\r}\Nand give them a demonstration.{\r}
+Dialogue: 0,0:19:53.09,0:19:55.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}告诉他们如何才能成为我们最厉害的怪兽{\r}\NShow them what it takes to be our top scarer.{\r}
+Dialogue: 0,0:19:56.05,0:19:59.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我会用传统的沃特努斯式的跳跃和咆哮开场{\r}\NI'll start out with the old Waternoose jump and growl.{\r}
+Dialogue: 0,0:20:03.02,0:20:04.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好孩子{\r}\NNow that's my boy.{\r}
+Dialogue: 0,0:20:11.23,0:20:14.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}结束了 同志们 所有的门都必须回到原处{\r}\NLet's go, everybody. All doors must be returned.{\r}
+Dialogue: 0,0:20:14.57,0:20:16.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}所有的门{\r}\NNo exceptions.{\r}
+Dialogue: 0,0:20:22.25,0:20:24.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我还没见过你像今天这么厉害呢 你刚才运气真不错 老兄{\r}\NI've never seen anything like you today. You were on a roll, my man.{\r}
+Dialogue: 0,0:20:25.04,0:20:27.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再来一天像这样的状态 尖叫最高纪录就能收入囊中了{\r}\NAnother day like this and that scare record's in the bag.{\r}
+Dialogue: 0,0:20:27.96,0:20:29.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没错 宝贝儿{\r}\NThat's right, baby.{\r}
+Dialogue: 0,0:20:33.92,0:20:34.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这么说吧 我觉得光吃完饭还不够{\r}\NLets's get this. As if dinner wasn't enough,{\r}
+Dialogue: 0,0:20:34.92,0:20:37.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}吃完我要带她去怪兽拉力赛看看{\r}\NI'm taking her to a monster truck rally afterwards.{\r}
+Dialogue: 0,0:20:37.47,0:20:38.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 不错  - 你打算做什么?{\r}\N- Nice.  - What's on your agenda?{\r}
+Dialogue: 0,0:20:39.05,0:20:41.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我会回家 再做些运动  - 还做运动?{\r}\N- I'm going home. Work out some more.  - Again?{\r}
+Dialogue: 0,0:20:41.64,0:20:44.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你懂吗 生活不仅仅只有吓人{\r}\NYou know, there's more to life than scaring.{\r}
+Dialogue: 0,0:20:44.85,0:20:46.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}能借下你的香水吗?{\r}\NCan I borrow your odorant?{\r}
+Dialogue: 0,0:20:46.45,0:20:50.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好啊 我有臭垃圾味的 还有陈年垃圾桶味的{\r}\NYeah, I got smelly garbage or old dumpster.{\r}
+Dialogue: 0,0:20:50.11,0:20:53.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你有低潮味吗? 不然湿狗味的?{\r}\NYou got low tide? How about wet dog?{\r}
+Dialogue: 0,0:20:53.11,0:20:54.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 熏起来{\r}\NYep. Stink it up.{\r}
+Dialogue: 0,0:20:57.82,0:21:00.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我说 我有时太浪漫了 我觉得我真应该和自己结婚{\r}\NYou know, I am so romantic sometimes I think I should just marry myself.{\r}
+Dialogue: 0,0:21:00.58,0:21:03.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 消停一会  - 一个多么浪漫的夜晚在等着我{\r}\N- Give me a break.  - What a night of romance got ahead of me.{\r}
+Dialogue: 0,0:21:03.66,0:21:06.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}今晚是我和希莉娅的夜晚{\r}\NTonight is about me and Celia.{\r}
+Dialogue: 0,0:21:07.46,0:21:10.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}爱情的小船已经准备起航了{\r}\NThe love boat is about to set sail.{\r}
+Dialogue: 0,0:21:11.46,0:21:13.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我要告诉你 兄弟 她那美丽的面容{\r}\N'Cause I gotta tell you, buddy, that face of hers,{\r}
+Dialogue: 0,0:21:13.86,0:21:15.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让我的心...{\r}\Nit just makes my heart go...{\r}
+Dialogue: 0,0:21:15.51,0:21:19.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你好 华斯基 今晚计划了很多娱乐活动?{\r}\NHello, Wazowski. Fun-filled evening planned for tonight?{\r}
+Dialogue: 0,0:21:19.80,0:21:21.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗯 事实上...{\r}\NWell, as a matter of fact...{\r}
+Dialogue: 0,0:21:21.14,0:21:24.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我相信你一定已经准确无误地提交了你的报告{\r}\NAnd I'm sure you filed your paperwork correctly,{\r}
+Dialogue: 0,0:21:24.89,0:21:26.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}难得一回{\r}\Nfor once.{\r}
+Dialogue: 0,0:21:27.44,0:21:31.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你的沉默已经肯定了这一点{\r}\NYour stunned silence is very reassuring.{\r}
+Dialogue: 0,0:21:31.27,0:21:33.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}完了 我的吓人报告 我把它们忘在桌上了{\r}\NOh, no. My scare reports. I left them on my desk.{\r}
+Dialogue: 0,0:21:33.65,0:21:36.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}如果我不能在五分钟内赶到的话 他们就要取消我的预约了 我该怎么办?{\r}\NIf I'm not at the restaurant in five minutes they'll give our table away. What am I gonna do?{\r}
+Dialogue: 0,0:21:37.11,0:21:38.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小甜甜  - 嘿 大眼儿熊{\r}\N- Schmoopsie-pooh.  - Hey, googly bear.{\r}
+Dialogue: 0,0:21:38.74,0:21:41.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 要走了吗?  - 我曾经... 就是有一点...{\r}\N- Want to get going?  - Do I ever... It's just...{\r}
+Dialogue: 0,0:21:41.66,0:21:42.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 什么?  - 好吧 就是...{\r}\N- What?  - OK, it's...{\r}
+Dialogue: 0,0:21:43.08,0:21:45.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 就是一点小...  - 我不明白{\r}\N- It's just a small...  - I don't understand.{\r}
+Dialogue: 0,0:21:45.33,0:21:47.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就是我忘了交一些报告{\r}\NIt's just I forgot about some paperwork I was supposed to file.{\r}
+Dialogue: 0,0:21:47.83,0:21:49.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克提醒了我{\r}\NMike was reminding me.{\r}
+Dialogue: 0,0:21:49.62,0:21:51.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 谢了 伙计  - 是吗?{\r}\N- Thanks, buddy.  - I was?{\r}
+Dialogue: 0,0:21:51.84,0:21:53.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我是说 是的 没错 是的{\r}\NI mean, I was. Yeah. I was.{\r}
+Dialogue: 0,0:21:53.17,0:21:55.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 好 我们走吧  - 马上{\r}\N- OK. Let's go.  - We're going.{\r}
+Dialogue: 0,0:21:56.38,0:21:57.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在我桌上 小苏 粉色的给财务部{\r}\NOn my desk, Sulley. The pink copies to accounting.{\r}
+Dialogue: 0,0:21:57.47,0:22:01.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}紫红色的给采购部 深黄色的给萝丝{\r}\NThe fuchsia ones go to purchasing and the goldenrod ones go to Roz{\r}
+Dialogue: 0,0:22:01.26,0:22:02.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}留下深褐色的{\r}\NLeave the puce.{\r}
+Dialogue: 0,0:22:05.60,0:22:08.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}粉色的给财务部 紫红色的给萝丝{\r}\NPink copies to accounting, fuchsia ones to Roz.{\r}
+Dialogue: 0,0:22:08.35,0:22:10.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 紫红色的给采购部{\r}\NNo. The fuchsia ones go to purchasing.{\r}
+Dialogue: 0,0:22:10.52,0:22:12.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}深黄色的给萝丝{\r}\NThe goldenrod ones go to Roz.{\r}
+Dialogue: 0,0:22:12.69,0:22:15.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}老兄 我不知道深褐色是什么颜色{\r}\NMan, I have no idea what puce is.{\r}
+Dialogue: 0,0:22:18.49,0:22:19.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 那就是深褐色{\r}\NOh, that's puce.{\r}
+Dialogue: 0,0:22:25.24,0:22:26.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}喂?{\r}\NHello?{\r}
+Dialogue: 0,0:22:26.95,0:22:30.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有人吗? 这有一扇门{\r}\NAnyone? There's a door here.{\r}
+Dialogue: 0,0:22:51.19,0:22:52.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗨? 嘿{\r}\NHello? Hey.{\r}
+Dialogue: 0,0:22:54.19,0:22:55.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有怪兽在这吓人吗?{\r}\NAnybody scaring in here?{\r}
+Dialogue: 0,0:22:56.48,0:22:58.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗨{\r}\NHello. Yo.{\r}
+Dialogue: 0,0:24:50.47,0:24:51.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪{\r}\NKitty.{\r}
+Dialogue: 0,0:24:52.68,0:24:54.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不要 不 别过来{\r}\NNo, no, stay back.{\r}
+Dialogue: 0,0:25:57.25,0:25:58.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等等 等等{\r}\NHold it, hold it.{\r}
+Dialogue: 0,0:26:08.47,0:26:12.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 迈克 我过过很多生日... 好吧 也没那么多生日{\r}\NOh, Michael, I've had a lot of birthdays... Well, not a lot of birthdays.{\r}
+Dialogue: 0,0:26:12.43,0:26:14.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但这是有史以来最好的一次生日{\r}\NBut this is the best birthday ever.{\r}
+Dialogue: 0,0:26:16.56,0:26:17.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在看什么?{\r}\NWhat are you looking at?{\r}
+Dialogue: 0,0:26:17.93,0:26:21.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我刚想到我第一次见到你的时候{\r}\NI was just thinking about the first time I laid eye on you,{\r}
+Dialogue: 0,0:26:21.10,0:26:23.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你多美啊  - 得了吧{\r}\N- how pretty you looked.  - Stop it.{\r}
+Dialogue: 0,0:26:23.65,0:26:27.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 那时你的头发更短  - 我正想剪{\r}\N- Your hair was shorter.  - I'm thinking about getting it cut.{\r}
+Dialogue: 0,0:26:27.44,0:26:29.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 不用 我喜欢这个长度{\r}\NNo, no, I like it this length.{\r}
+Dialogue: 0,0:26:29.61,0:26:30.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我喜欢你的一切{\r}\NI like everything about you.{\r}
+Dialogue: 0,0:26:31.49,0:26:35.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}前几天有人问我怪兽都市里最美丽的是谁{\r}\NJust the other day someone asked me who I thought the most beautiful monster was in Monstroplis.{\r}
+Dialogue: 0,0:26:35.95,0:26:38.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你知道我说了什么?  - 你说了什么?{\r}\N- You know what I said?  - What did you say?{\r}
+Dialogue: 0,0:26:38.16,0:26:39.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我说...{\r}\NI said...{\r}
+Dialogue: 0,0:26:40.00,0:26:41.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小苏?  - 小苏?{\r}\N- Sulley?  - Sulley?{\r}
+Dialogue: 0,0:26:41.75,0:26:44.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 不是 我想说的不是这个{\r}\NNo, no, that's not what I was gonna say.{\r}
+Dialogue: 0,0:26:44.34,0:26:45.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你莫名奇妙{\r}\NYou're not making sense.{\r}
+Dialogue: 0,0:26:45.50,0:26:49.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他很帅 他很壮  - 好巧啊 遇到你了{\r}\N- He's handsome. He's rugged.  - What a coincidence, running into you.{\r}
+Dialogue: 0,0:26:49.67,0:26:52.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我正要打包点吃的带走  - 迈克{\r}\N- I'm just gonna order something to go.  - Michael.{\r}
+Dialogue: 0,0:26:52.34,0:26:54.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 这有什么好吃的?  - 离开这 你把一切都毁了{\r}\N- What's good here?  - Get out of here. You're ruining everything.{\r}
+Dialogue: 0,0:26:54.89,0:26:57.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我回去找你的书面报告时 那儿有一扇门{\r}\NI went to get your paperwork and there was a door.{\r}
+Dialogue: 0,0:26:57.81,0:26:58.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}什么?{\r}\NWhat?{\r}
+Dialogue: 0,0:27:01.31,0:27:03.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 一扇门?  - 兰德尔在里面{\r}\N- A door?  - Randall was in it.{\r}
+Dialogue: 0,0:27:03.15,0:27:06.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等等 兰德尔? 他作弊 他想提高他的分数{\r}\NWait a minute. Randall? That cheater. He's trying to boost his numbers.{\r}
+Dialogue: 0,0:27:06.77,0:27:08.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 还有点事  - 什么?{\r}\N- There's something else.  - What?{\r}
+Dialogue: 0,0:27:08.48,0:27:10.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看俺滴包里{\r}\NOoklay in the agbay.{\r}
+Dialogue: 0,0:27:10.86,0:27:12.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 什么?  - 看袋子里{\r}\N- What?  - Look in the bag.{\r}
+Dialogue: 0,0:27:13.82,0:27:14.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}什么袋子?{\r}\NWhat bag?{\r}
+Dialogue: 0,0:27:22.75,0:27:26.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这儿没有我喜欢吃的 但是保重 希莉娅{\r}\NThey don't have anything I like here. But take care, Celia.{\r}
+Dialogue: 0,0:27:26.17,0:27:29.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 发生了什么?  - 希莉娅 请你理解下{\r}\N- What's going on?  - Celia, please try to understand.{\r}
+Dialogue: 0,0:27:29.67,0:27:32.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我有些事需要处理!  - 迈克?{\r}\N- I have to do something!  - Michael?{\r}
+Dialogue: 0,0:27:33.68,0:27:36.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}数到三 一 二...{\r}\NOn three. One, two...{\r}
+Dialogue: 0,0:27:38.64,0:27:41.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小孩!  - 嘣!{\r}\N- A kid!  - Boo!{\r}
+Dialogue: 0,0:27:45.36,0:27:46.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有小孩!{\r}\NA kid!{\r}
+Dialogue: 0,0:27:48.32,0:27:50.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这有小孩 一个人类小孩!{\r}\NThere's a kid here. A human kid!{\r}
+Dialogue: 0,0:27:54.49,0:27:55.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大眼儿熊!{\r}\NGoogly bear!{\r}
+Dialogue: 0,0:28:02.54,0:28:03.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}跟我来{\r}\NCome on.{\r}
+Dialogue: 0,0:28:06.00,0:28:06.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哈利豪森之家{\r}
+Dialogue: 0,0:28:07.92,0:28:09.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}赶紧离开这{\r}\NLet's get out of here.{\r}
+Dialogue: 0,0:28:09.71,0:28:13.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}请保持冷静 这不是演习{\r}\NPlease remain calm. This is not a drill.{\r}
+Dialogue: 0,0:28:15.55,0:28:17.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}7835号警报 请指示{\r}\N7835 in progress, please advise.{\r}
+Dialogue: 0,0:28:18.22,0:28:20.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 迈克? 迈克!  - 希莉娅!{\r}\N- Michael? Michael!  - Celia!{\r}
+Dialogue: 0,0:28:21.06,0:28:22.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 请跟我来  - 别推我{\r}\N- Please come with me.  - Stop pushing.{\r}
+Dialogue: 0,0:28:22.56,0:28:24.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 别碰我的小甜甜{\r}\NHey. Get your hands off my schmoopsie-pooh.{\r}
+Dialogue: 0,0:28:25.56,0:28:27.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}清场完毕 准备清除污垢{\r}\NArea clear. Ready for decontamination.{\r}
+Dialogue: 0,0:28:27.73,0:28:30.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我觉得这约会再糟糕不过了{\r}\NI don't think that date could have gone any worse.{\r}
+Dialogue: 0,0:28:37.12,0:28:40.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}如果目击证人可信的话 现在有一个漏网的小孩{\r}\NIf witnesses are to be believed, there has been a child security breach{\r}
+Dialogue: 0,0:28:40.79,0:28:43.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这在怪物史上前所未有{\r}\Nfor the first time in monster history.{\r}
+Dialogue: 0,0:28:43.16,0:28:46.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们既无法证实也无法否认今晚这儿有小孩{\r}\NWe can neither confirm nor deny the presence of a human child here tonight.{\r}
+Dialogue: 0,0:28:46.75,0:28:50.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 一个小孩从我上方飞过 用激光眼引爆了一辆汽车{\r}\NWell, a kid flew right over me and blasted a car with its laser vision.{\r}
+Dialogue: 0,0:28:51.05,0:28:54.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想跑开 但是它用意念把我拎起来{\r}\NI tried to run from it, but it picked me up with its mind powers{\r}
+Dialogue: 0,0:28:54.34,0:28:55.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}像玩偶一样摇晃{\r}\Nand shook me like a doll.{\r}
+Dialogue: 0,0:28:55.72,0:28:57.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是真的 我都看到了{\r}\NIt's true. I saw the whole thing.{\r}
+Dialogue: 0,0:28:58.01,0:29:03.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我的专业观点是现在是恐慌的时候了{\r}\NIt is my professional opinion that now is the time to panic.{\r}
+Dialogue: 0,0:29:07.94,0:29:09.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}它来了 它来了!{\r}\NIt's coming. It's coming!{\r}
+Dialogue: 0,0:29:10.86,0:29:11.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘣!{\r}\NBoo!{\r}
+Dialogue: 0,0:29:18.61,0:29:20.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不要啊 不要!{\r}\NNo, no, no, no!{\r}
+Dialogue: 0,0:29:20.91,0:29:22.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}孩子 过来{\r}\NCome here, kid.{\r}
+Dialogue: 0,0:29:24.70,0:29:27.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不许碰 你这个小...{\r}\NDon't touch those, you little...{\r}
+Dialogue: 0,0:29:27.12,0:29:29.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那些已经按字母顺序整理过了 没关系 没关系{\r}\NThose were alphabetized. It's OK. It's all right{\r}
+Dialogue: 0,0:29:29.58,0:29:33.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}只要它不靠近我们 我们就没事{\r}\NAs long as it doesn't come near us we're gonna be OK.{\r}
+Dialogue: 0,0:29:42.76,0:29:44.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你喜欢这个? 去捡吧{\r}\NYou like this? Fetch.{\r}
+Dialogue: 0,0:29:47.23,0:29:50.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 嘿 够了 没人可以碰小小迈{\r}\NHey, hey. That's it. No one touches Little Mikey.{\r}
+Dialogue: 0,0:29:52.86,0:29:54.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 把熊给她{\r}\NMike, give her the bear.{\r}
+Dialogue: 0,0:29:56.32,0:29:57.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 不要!{\r}\NOh, no!{\r}
+Dialogue: 0,0:30:12.34,0:30:14.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让它停下来 小苏 让它停下来!{\r}\NMake it stop, Sulley. Make it stop!{\r}
+Dialogue: 0,0:30:14.34,0:30:17.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 看 看到熊吗? 乖乖熊{\r}\NHere, look. See bear? Nice bear.{\r}
+Dialogue: 0,0:30:17.92,0:30:19.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏!{\r}\NSulley!{\r}
+Dialogue: 0,0:30:20.22,0:30:22.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}熊熊 他是一只快乐熊{\r}\NBear, he's a happy bear.{\r}
+Dialogue: 0,0:30:23.05,0:30:25.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他没哭 你也不能哭 否则我们就有麻烦了{\r}\NHe's not crying, neither should you.Or we'll be in trouble{\r}
+Dialogue: 0,0:30:26.02,0:30:29.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}因为他们会发现我们 所以拜托你现在别哭了 拜托{\r}\N'cause they're gonna find us, so please stop crying now. Right now{\r}
+Dialogue: 0,0:30:30.02,0:30:32.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很好 很好 小苏 继续 你做得很好{\r}\NGood. Good, Sulley. Keep it up. You're doing great.{\r}
+Dialogue: 0,0:30:32.61,0:30:34.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他是一只快乐熊 他没有...{\r}\NHe's a happy bear. He has no...{\r}
+Dialogue: 0,0:30:36.11,0:30:38.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 它碰到我了  - 小苏 熊!{\r}\N- It touched me.  - Sulley, the bear!{\r}
+Dialogue: 0,0:30:38.40,0:30:40.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}熊 给她那个...{\r}\NThe bear. Give her the...{\r}
+Dialogue: 0,0:30:51.29,0:30:53.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那是什么?{\r}\NWhat was that?{\r}
+Dialogue: 0,0:30:53.17,0:30:58.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不知道 但是如果它不再这么做那就太好了{\r}\NI have no idea, but it would be really great if it didn't do it again.{\r}
+Dialogue: 0,0:31:19.24,0:31:21.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我怎么会干这事? 我怎么会这么傻?{\r}\NHow could I do this? How could I be so stupid?{\r}
+Dialogue: 0,0:31:21.86,0:31:23.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这会毁了公司的{\r}\NThis could destroy the company.{\r}
+Dialogue: 0,0:31:23.66,0:31:25.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}公司? 谁还管公司啊?{\r}\NThe company? Who cares about the company?{\r}
+Dialogue: 0,0:31:25.37,0:31:28.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们怎么办? 那可是杀怪兽机器{\r}\NWhat about us? That thing is a killing machine.{\r}
+Dialogue: 0,0:31:29.95,0:31:33.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我打赌它只是在等着我们睡着 然后砰!{\r}\NI bet it's just waiting for us to fall asleep and then wham!{\r}
+Dialogue: 0,0:31:33.71,0:31:36.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们是唾手可得的猎物 我的朋友 唾手可得的猎物 活靶子{\r}\NWe're easy prey, my friend. Easy prey. We're sitting targets.{\r}
+Dialogue: 0,0:31:37.46,0:31:39.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 看看 我想我有计划了{\r}\NOK, look, I think I have a plan here.{\r}
+Dialogue: 0,0:31:39.76,0:31:43.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们用汤匙 在城市下方挖一个地道{\r}\NUsing mainly spoons, we dig a tunnel under the city{\r}
+Dialogue: 0,0:31:43.09,0:31:45.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把它放回野外{\r}\Nand release it into the wild.{\r}
+Dialogue: 0,0:31:45.72,0:31:46.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}汤匙{\r}\NSpoons.{\r}
+Dialogue: 0,0:31:48.10,0:31:51.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就这样了 我已经绞尽脑汁了 就差那么一点 气球太贵{\r}\NThat's it. I'm out of ideas. we are closed. Air balloon, too expensive.{\r}
+Dialogue: 0,0:31:51.43,0:31:55.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}巨型弹弓又太明显 特洛伊木马又太希腊化了{\r}\NGiant slingshot, too conspicuous. Enormous wooden horse, too Greek.{\r}
+Dialogue: 0,0:31:58.11,0:32:01.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不行 想不出 想不出了{\r}\NNo. Can't think. Can't think.{\r}
+Dialogue: 0,0:32:02.03,0:32:04.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快死了 要死了  - 迈克?{\r}\N- Flatliner. Flatlining.  - Mike?{\r}
+Dialogue: 0,0:32:04.78,0:32:06.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想她累了{\r}\NI think she's getting tired.{\r}
+Dialogue: 0,0:32:07.20,0:32:10.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那你为什么不找个地方给它睡{\r}\NWell, then why don't you find someplace for it to sleep{\r}
+Dialogue: 0,0:32:11.00,0:32:13.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让我安心想办法!{\r}\Nwhile I think of a plan!{\r}
+Dialogue: 0,0:32:15.12,0:32:17.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你困了吗? 想睡觉了?{\r}\NAre you sleepy? Wanna sleep?{\r}
+Dialogue: 0,0:32:18.13,0:32:20.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你是想睡了吗?{\r}\NIs that what you want?{\r}
+Dialogue: 0,0:32:33.85,0:32:36.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 我来为你准备一个舒服的地儿...{\r}\NOK. I'll make a nice little area for you to...{\r}
+Dialogue: 0,0:32:36.85,0:32:40.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不行 嘿 那是我的床 你会弄得整床都是细菌的{\r}\NNo. Hey, that's my bed. You're gonna get your germs all over it.{\r}
+Dialogue: 0,0:32:43.19,0:32:45.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 反正我的椅子更舒服{\r}\NFine. My chair's more comfortable anyway.{\r}
+Dialogue: 0,0:32:47.49,0:32:48.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}什么?{\r}\NWhat?{\r}
+Dialogue: 0,0:32:51.16,0:32:53.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那只是一个衣柜 你能睡觉了吗?{\r}\NIt's just a closet. Will you go to sleep?{\r}
+Dialogue: 0,0:32:57.25,0:32:59.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 那像是兰德尔{\r}\NHey, that looks like Randall.{\r}
+Dialogue: 0,0:33:00.00,0:33:01.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}兰德尔是你害怕的怪兽{\r}\NRandall's your monster.{\r}
+Dialogue: 0,0:33:02.38,0:33:05.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你认为他会从衣柜进来吓唬你{\r}\NYou think he's gonna come through the closet and scare you.{\r}
+Dialogue: 0,0:33:05.09,0:33:07.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 天哪 我要怎么解释呢?{\r}\NOh, boy, how do I explain this?{\r}
+Dialogue: 0,0:33:07.13,0:33:08.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}它是空的{\r}\NIt's empty.{\r}
+Dialogue: 0,0:33:08.80,0:33:10.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看到没?{\r}\NSee?{\r}
+Dialogue: 0,0:33:10.51,0:33:12.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这儿没有怪兽{\r}\NNo monster in here.{\r}
+Dialogue: 0,0:33:15.73,0:33:17.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 现在有了{\r}\NWell, now there is.{\r}
+Dialogue: 0,0:33:17.14,0:33:19.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但我不会吓唬你{\r}\NBut I'm not gonna scare you.{\r}
+Dialogue: 0,0:33:19.98,0:33:21.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我下班了{\r}\NI'm off duty.{\r}
+Dialogue: 0,0:33:25.28,0:33:26.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧{\r}\NOK.{\r}
+Dialogue: 0,0:33:26.78,0:33:31.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}要不我坐在这等你睡着?{\r}\NHow about I sit here until you fall asleep?{\r}
+Dialogue: 0,0:33:32.83,0:33:34.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}睡吧 睡觉去{\r}\NGo ahead. Go to sleep.{\r}
+Dialogue: 0,0:33:36.00,0:33:38.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在 睡吧{\r}\NNow. Now go.{\r}
+Dialogue: 0,0:33:39.71,0:33:43.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你去睡觉{\r}\NYou go to sleep.{\r}
+Dialogue: 0,0:34:18.08,0:34:21.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 也许这听起来很疯狂 但是我觉得那个小孩并不危险{\r}\NMike, this might sound crazy, but I don't think that kid's dangerous.{\r}
+Dialogue: 0,0:34:21.96,0:34:24.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真的吗? 好吧 那样的话 我们让它留下{\r}\NReally? Well, in that case, let's keep it.{\r}
+Dialogue: 0,0:34:24.59,0:34:26.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我一直都想要一只会杀了我的宠物!{\r}\NI always wanted a pet that could kill me!{\r}
+Dialogue: 0,0:34:26.63,0:34:29.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这样 不如我们把她送回门里?{\r}\NNow, look, what if we just put her back in her door?{\r}
+Dialogue: 0,0:34:29.09,0:34:30.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 什么?  - 迈克 想想吧{\r}\N- What?  - Mike, think about it.{\r}
+Dialogue: 0,0:34:30.89,0:34:34.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们把她送回去后 就像没发生一样 一切都恢复正常了{\r}\NWe send her back just like it never happened,everything goes back to normal.{\r}
+Dialogue: 0,0:34:34.76,0:34:37.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是开玩笑吗? 告诉我你在开玩笑{\r}\NIs that a joke? Tell me you're joking.{\r}
+Dialogue: 0,0:34:37.89,0:34:40.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 我觉得鉴于现在这情况{\r}\NSulley, I think that given the circumstances{\r}
+Dialogue: 0,0:34:40.10,0:34:41.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}到目前为止我已经算是非常宽容了{\r}\NI've been extremely forgiving up to now.{\r}
+Dialogue: 0,0:34:41.98,0:34:43.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但那是一个很可怕的主意{\r}\NBut that is a horrible idea.{\r}
+Dialogue: 0,0:34:43.56,0:34:46.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们怎么做? 带着它大摇大摆地走?{\r}\NWhat are we gonna do? March in public with that thing?{\r}
+Dialogue: 0,0:34:46.57,0:34:49.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}估计那样我们就轻轻松松地进工厂 是吗?{\r}\NThen I guess we just waltz right up to the factory, right?{\r}
+Dialogue: 0,0:34:50.65,0:34:53.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我没法相信我们就要这样进工厂{\r}\NI can't believe we are waltzing right up to the factory.{\r}
+Dialogue: 0,0:34:54.37,0:34:57.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 一个拖把 两灯泡和沙发皮{\r}\NSulley, a mop, a couple of lights and some chair fabric{\r}
+Dialogue: 0,0:34:57.41,0:35:00.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}可骗不了人 想想一些人{\r}\Nare not gonna fool anyone. Just think about a few names.{\r}
+Dialogue: 0,0:35:00.16,0:35:02.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}尼斯湖水怪 大脚 可怕的雪怪{\r}\NLoch Ness. Bigfoot. The Abominable Snowman.{\r}
+Dialogue: 0,0:35:02.54,0:35:05.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他们都有一个共同点 伙计 都被驱逐出境了!{\r}\NThey all got one thing in common, pal. Banishment!{\r}
+Dialogue: 0,0:35:05.34,0:35:08.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 接下来可能就是我们  - 别恐慌 我们能做到{\r}\N- We could be next.  - Don't panic. We can do this.{\r}
+Dialogue: 0,0:35:08.09,0:35:10.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 过得怎样 弗兰克?  - 嘿 伙计{\r}\N- Hey, how you doing, Frank?  - Hey, guys.{\r}
+Dialogue: 0,0:35:10.22,0:35:12.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}肯定没事的{\r}\NEverything's going to be OK.{\r}
+Dialogue: 0,0:35:17.39,0:35:19.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一号要在这里取指纹{\r}\NNumber one wants this place dusted for prints.{\r}
+Dialogue: 0,0:35:19.39,0:35:22.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小心  - 我看得很清楚{\r}\N- Careful with that.  - I got a good view from here.{\r}
+Dialogue: 0,0:35:22.44,0:35:23.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再低一点{\r}\NA little lower.{\r}
+Dialogue: 0,0:35:24.40,0:35:26.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这个是在现场找到的{\r}\NThis was recovered at the scene.{\r}
+Dialogue: 0,0:35:26.32,0:35:28.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 别慌 别慌  - 别和我说{\r}\N- Don't panic. Don't panic.  - Don't tell me not to panic.{\r}
+Dialogue: 0,0:35:28.28,0:35:29.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 保持理智  - 理智个屁{\r}\N- Just keep it together.  - It's not OK.{\r}
+Dialogue: 0,0:35:30.53,0:35:32.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘣  - 可能已被污染{\r}\N- Boo.  - Could be contaminated.{\r}
+Dialogue: 0,0:35:32.36,0:35:34.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}先生们 安全是我们第一要务{\r}\NGentlemen, safety is our number-one concern.{\r}
+Dialogue: 0,0:35:35.03,0:35:37.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}如果有任何... 现在没空 我...{\r}\NIf there's anything that... Not now. I'm...{\r}
+Dialogue: 0,0:35:38.04,0:35:39.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 你好 小可爱{\r}\NOh, hello, little one.{\r}
+Dialogue: 0,0:35:39.91,0:35:42.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你从哪里来啊?  - 沃特努斯先生!{\r}\N- Where did you come from?  - Mr. Waternoose!{\r}
+Dialogue: 0,0:35:42.37,0:35:44.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}啊哈 詹姆斯 这是你的?{\r}\NAha, James, is this one yours?{\r}
+Dialogue: 0,0:35:44.46,0:35:46.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}事实上 这是我堂姐的{\r}\NActually, that's my cousin's sister's{\r}
+Dialogue: 0,0:35:46.71,0:35:48.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 女儿 先生  - 嗯 今天是...{\r}\N- daughter, sir.  - Yeah, it's...{\r}
+Dialogue: 0,0:35:49.00,0:35:52.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}带远亲来厂参观的日子{\r}\NBring an Obscure Relative to Work Day.{\r}
+Dialogue: 0,0:35:52.80,0:35:55.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我肯定忘写备忘了 好吧 听着 詹姆斯{\r}\NMust have missed the memo. Well, listen, James,{\r}
+Dialogue: 0,0:35:55.51,0:35:57.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不如午饭后过来演习车间{\r}\Nwhy don't you stop by the simulator after lunch today{\r}
+Dialogue: 0,0:35:57.93,0:36:00.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}给我们演示下怎么吓唬人? 之前我和你说过了{\r}\Nand give us that scare demonstration we talked about?{\r}
+Dialogue: 0,0:36:00.72,0:36:02.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是 是的 先生...{\r}\NYeah. Oh, sir...{\r}
+Dialogue: 0,0:36:02.56,0:36:04.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 沃特努斯先生?  - 好吧 好吧 我来了{\r}\N- Mr. Waternoose?  - Yes, yes. I'm coming.{\r}
+Dialogue: 0,0:36:05.35,0:36:07.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们下午见 詹姆斯{\r}\NI'll see you this afternoon, James.{\r}
+Dialogue: 0,0:36:07.52,0:36:10.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}前提是这些人没关闭我们的工厂{\r}\NThat is, if these gentlemen haven't shut us down.{\r}
+Dialogue: 0,0:36:10.69,0:36:12.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 天哪  - 吓人演示{\r}\N- Oh, boy.  - A scare demo.{\r}
+Dialogue: 0,0:36:12.53,0:36:14.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很好 为什么我是最后一个知道的?{\r}\NThat is great. Why am I the last to know?{\r}
+Dialogue: 0,0:36:14.45,0:36:17.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们可以带你堂妹的女儿一起去 她会是一大亮点{\r}\NWe could bring your cousin's sister's daughter along. She'll be a big hit.{\r}
+Dialogue: 0,0:36:18.91,0:36:20.20,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}站住{\r}\NHalt.{\r}
+Dialogue: 0,0:36:21.70,0:36:23.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}抓住他{\r}\NHold him down.{\r}
+Dialogue: 0,0:36:27.17,0:36:28.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}来吧 没危险{\r}\NCome on. The coast is clear.{\r}
+Dialogue: 0,0:36:29.09,0:36:31.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 现在我们要做的就是摆脱它{\r}\NOK. All we have to do is get rid of that thing.{\r}
+Dialogue: 0,0:36:31.38,0:36:33.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在这等着 我去拿门卡{\r}\NSo wait here while I get its card key.{\r}
+Dialogue: 0,0:36:33.34,0:36:36.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她不能待在这 这是男更衣室{\r}\NShe can't stay here. This is the men's room.{\r}
+Dialogue: 0,0:36:37.09,0:36:39.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是你说过的最奇怪的话{\r}\NThat is the weirdest thing you've ever said.{\r}
+Dialogue: 0,0:36:39.16,0:36:42.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没事 没关系的 看 它多喜欢这儿 它高兴得跳舞呢{\r}\NIt's fine. It's OK. Look. It loves it here. It's dancing with joy.{\r}
+Dialogue: 0,0:36:43.73,0:36:46.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拿到门卡我就回来{\r}\NI'll be right back with its door key.{\r}
+Dialogue: 0,0:36:47.90,0:36:51.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这个舞蹈好可爱 看上去就像你要...{\r}\NThat's a cute little dance. It almost looks like you've got to...{\r}
+Dialogue: 0,0:37:06.62,0:37:08.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你好了没?{\r}\NAre you done in there?{\r}
+Dialogue: 0,0:37:10.54,0:37:12.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}对不起 对不起{\r}\NSorry, sorry.{\r}
+Dialogue: 0,0:37:25.10,0:37:27.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 你现在好了 是吧?{\r}\NOK. You're finished now, right?{\r}
+Dialogue: 0,0:37:27.77,0:37:29.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗨?{\r}\NHello?{\r}
+Dialogue: 0,0:37:32.90,0:37:34.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘣{\r}\NBoo.{\r}
+Dialogue: 0,0:37:44.62,0:37:46.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她去哪了?{\r}\NWhere did she go?{\r}
+Dialogue: 0,0:37:47.41,0:37:48.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她消失了吗?{\r}\NDid she disappear?{\r}
+Dialogue: 0,0:37:49.29,0:37:51.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还是隐身了?{\r}\NDid she turn invisible?{\r}
+Dialogue: 0,0:37:52.46,0:37:54.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我真想不出啊{\r}\NI just have no idea.{\r}
+Dialogue: 0,0:37:55.80,0:37:57.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}抓到你了{\r}\NGotcha.{\r}
+Dialogue: 0,0:37:58.30,0:37:59.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘣{\r}\NBoo.{\r}
+Dialogue: 0,0:38:02.14,0:38:04.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 你真厉害{\r}\NHey, you're good.{\r}
+Dialogue: 0,0:38:10.06,0:38:12.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}放松 放松 放松{\r}\NBe relaxed. Be relaxed. Be relaxed.{\r}
+Dialogue: 0,0:38:13.15,0:38:16.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}萝丝 我那温柔的花朵 你今天看起来太美了{\r}\NRoz, my tender oozing blossom. You're looking fabulous today.{\r}
+Dialogue: 0,0:38:16.82,0:38:20.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是新发型吗? 说吧 告诉我 这是新发型 对吧?{\r}\NIs that a new haircut? Come on, tell me, it's a new haircut, isn't it?{\r}
+Dialogue: 0,0:38:21.07,0:38:23.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}肯定是新的化妆品 你拉皮了 整形了 你肯定做了什么{\r}\NIt's got to be new makeup. You had a lift. You had a tuck. You had something.{\r}
+Dialogue: 0,0:38:23.87,0:38:28.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你打了什么让你看起来像...{\r}\NSomething has been inserted in your skin that makes you look like...{\r}
+Dialogue: 0,0:38:29.46,0:38:33.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}听着 我需要你帮助 兰德尔昨晚在吓人车间工作{\r}\NListen, I need a favor. Randall was working late last night on the scare floor.{\r}
+Dialogue: 0,0:38:33.54,0:38:36.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我非常需要他用的门卡{\r}\NI really need the key for the door he was using.{\r}
+Dialogue: 0,0:38:36.42,0:38:39.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你真是好贴心呀{\r}\NWell, isn't that nice?{\r}
+Dialogue: 0,0:38:39.34,0:38:43.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猜猜怎么着? 你昨晚没交书面报告{\r}\NBut guess what? You didn't turn in your paperwork last night.{\r}
+Dialogue: 0,0:38:43.35,0:38:45.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他没... 我... 没交书面报告?{\r}\NHe didn't... I... No paperwork?{\r}
+Dialogue: 0,0:38:45.43,0:38:48.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}本窗口暂停服务{\r}\NThis office is now closed.{\r}
+Dialogue: 0,0:38:50.60,0:38:52.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不管你有没准备好 我来了{\r}\NReady or not, here I come.{\r}
+Dialogue: 0,0:38:53.02,0:38:54.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我离你越来越近喽{\r}\NI'm getting warmer.{\r}
+Dialogue: 0,0:38:54.44,0:38:56.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就快了{\r}\NAny second now.{\r}
+Dialogue: 0,0:38:56.19,0:39:00.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 狼 来 了...  - 你在干嘛?{\r}\N- Fee, fi, fo...  - What are you doing?{\r}
+Dialogue: 0,0:39:00.78,0:39:02.20,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我在找那个孩子{\r}\NI'm looking for the kid.{\r}
+Dialogue: 0,0:39:02.28,0:39:04.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你把它弄丢了?  - 没有 没有 她刚才...{\r}\N- You lost it?  - No, no. She was just...{\r}
+Dialogue: 0,0:39:06.54,0:39:07.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她在这呢{\r}\NHere she is.{\r}
+Dialogue: 0,0:39:07.87,0:39:09.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 怎么了?{\r}\NHey. What's the matter?{\r}
+Dialogue: 0,0:39:09.54,0:39:12.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我已经告诉你们...  - 好吧 继续{\r}\N- I already told your buddies...  - All right. Carry on.{\r}
+Dialogue: 0,0:39:25.26,0:39:29.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}兰德尔 谢天谢地 我们要拿小孩怎么办?{\r}\NRandall. Thank goodness. What are we gonna do about the child?{\r}
+Dialogue: 0,0:39:49.91,0:39:53.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}头条啊 已经上头条了 那个孩子 你在找的那个{\r}\NThe front page. It's on the front page. The child. The one you were after.{\r}
+Dialogue: 0,0:39:53.29,0:39:56.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你能不能安静点? 难道你觉得我不了解情况吗?{\r}\NWill you be quiet? Don't you think I'm aware of the situation?{\r}
+Dialogue: 0,0:39:56.75,0:39:58.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我一整晚都在找它{\r}\NI was up all night trying to find it.{\r}
+Dialogue: 0,0:39:58.92,0:40:03.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我对寿司店的面积做了简单的计算分析{\r}\NI did a simple calculation factoring in the size of the sushi restaurant.{\r}
+Dialogue: 0,0:40:03.09,0:40:04.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小孩可能逃了!{\r}\NThe child may have escaped!{\r}
+Dialogue: 0,0:40:04.76,0:40:07.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在我们不确定前先装作什么都没发生 懂吗?{\r}\NUntil we know for sure we're gonna act like nothing happened. Understand?{\r}
+Dialogue: 0,0:40:08.35,0:40:11.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你只需负责机器 我来搞定那个孩子{\r}\NYou will just get the machine up and running. I'll take care of the kid.{\r}
+Dialogue: 0,0:40:11.31,0:40:14.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不管是谁把它放出来的 只要被我找到 他们必死无疑{\r}\NWhen I find whoever let it out, they're dead.{\r}
+Dialogue: 0,0:40:16.73,0:40:19.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你怎么还在这里? 走! 赶紧! 走!{\r}\NWhy are you still here? Come on, go! Move! Now!{\r}
+Dialogue: 0,0:40:20.07,0:40:21.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我走{\r}\NI'm not here.{\r}
+Dialogue: 0,0:40:22.19,0:40:23.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他们走了{\r}\NThey're gone.{\r}
+Dialogue: 0,0:40:28.58,0:40:30.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这不妙 非常糟糕{\r}\NThis is bad, it's so very bad.{\r}
+Dialogue: 0,0:40:30.33,0:40:31.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他们刚才谈的是什么 机器?{\r}\NWhat were they talking about, machine?{\r}
+Dialogue: 0,0:40:31.75,0:40:33.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}谁管呢?{\r}\NWho cares?{\r}
+Dialogue: 0,0:40:34.29,0:40:36.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别担心 我们只需要找到她的门 把她送回家{\r}\NLook, don't panic. All we have to do is call her door and send her home.{\r}
+Dialogue: 0,0:40:36.67,0:40:39.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没错 没错 我们就只是两个去上班的人{\r}\NYou are right. You are right. We're just two regular Joes on our way to work.{\r}
+Dialogue: 0,0:40:39.46,0:40:41.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们会混进去的{\r}\NWe will blend right in.{\r}
+Dialogue: 0,0:40:41.51,0:40:43.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 大家早上好啊  - 什么在抖动 咸猪肉吗?{\r}\N- Top of the morning, fellows.  - What's shakin', bacon?{\r}
+Dialogue: 0,0:40:44.05,0:40:46.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你减肥了没? 还是少了只腿?{\r}\NDid you lose weight? Or a limb?{\r}
+Dialogue: 0,0:40:46.59,0:40:48.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你有她的门卡 是吧?  - 当然有{\r}\N- You have her card key, right?  - Of course.I have her card key{\r}
+Dialogue: 0,0:40:48.93,0:40:51.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我说了我会拿到门卡 我去了而且拿到了{\r}\NI told you I'd get her card key. I went and got her card key.{\r}
+Dialogue: 0,0:40:51.72,0:40:53.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在我有她的门卡{\r}\NNow I have her card key.{\r}
+Dialogue: 0,0:40:54.81,0:40:56.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 开始吧{\r}\NOK. Here we go.{\r}
+Dialogue: 0,0:40:57.15,0:41:00.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}自己保重 不要随便跑进衣柜了{\r}\NTake care of yourself. Try not to run through any more closets.{\r}
+Dialogue: 0,0:41:04.44,0:41:05.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 这不是她的门{\r}\NMike, that's not her door.{\r}
+Dialogue: 0,0:41:05.64,0:41:07.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在说什么? 这当然是她的门 当然是{\r}\NWhat are you talking about? Of course it's her door. It's her door.{\r}
+Dialogue: 0,0:41:07.49,0:41:09.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 她的门是白色的 上面有花{\r}\NNo. Her door was white and it had flowers on it.{\r}
+Dialogue: 0,0:41:10.08,0:41:13.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 肯定是昨晚太黑你没看清 这就是她的门{\r}\NNo. It must have been dark last night because this is its door.{\r}
+Dialogue: 0,0:41:14.33,0:41:17.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 你听到没有? 那里感觉很有趣{\r}\NHey, you hear that? Sounds like fun in there.{\r}
+Dialogue: 0,0:41:17.08,0:41:20.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好啦 给我寄张明信片 孩子 收信人是迈克·华斯基 别忘了{\r}\NOK. Send me a postcard, kid. That's Mike Wazowski, care of{\r}
+Dialogue: 0,0:41:20.25,0:41:23.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}22号 帮你恢复正常生活的迈克·华斯基{\r}\N22 Mike Wazowski, you-got-your-life-back Lane.{\r}
+Dialogue: 0,0:41:24.26,0:41:26.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很好 祝你旅途愉快{\r}\NVery good. Now bon voyage.{\r}
+Dialogue: 0,0:41:26.22,0:41:29.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再见 来吧 看这棍子 看到棍子没? 去捡吧{\r}\NBye-bye. Come on. Look at the stick. See the stick? Go get the stick.{\r}
+Dialogue: 0,0:41:30.18,0:41:33.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 去捡啊  - 迈克 这不是阿布的门{\r}\N- Go fetch.  - Mike, this isn't Boo's door.{\r}
+Dialogue: 0,0:41:33.64,0:41:37.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 阿布? 阿布是什么?  - 我决定这么叫她{\r}\N- Boo? What's Boo?  - That's what I decided to call her.{\r}
+Dialogue: 0,0:41:37.19,0:41:38.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有问题吗?{\r}\NThere a problem?{\r}
+Dialogue: 0,0:41:38.27,0:41:39.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 你不应该给它取名字{\r}\NSulley, you're not supposed to name it.{\r}
+Dialogue: 0,0:41:39.81,0:41:42.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一旦你给它取名 你就会对它产生感情{\r}\NOnce you name it, you start getting attached to it.{\r}
+Dialogue: 0,0:41:42.69,0:41:46.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}它从哪里来 现在就把它放回哪里去 不然我发誓...{\r}\NNow put that thing back where it came from, or so help me...{\r}
+Dialogue: 0,0:41:50.07,0:41:54.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 我们在排练公司即将上映的剧本 剧名叫做...{\r}\NHey. We're rehearsing a scene for the upcoming company play called...{\r}
+Dialogue: 0,0:41:55.04,0:41:58.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把那东西放回原位 否则有你好看{\r}\NPut That Thing Back Where It Came From or So Help Me.{\r}
+Dialogue: 0,0:41:58.67,0:41:59.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是一个音乐剧{\r}\NIt's a musical.{\r}
+Dialogue: 0,0:42:00.04,0:42:02.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 把那东西放回原位否则我发誓 #{\r}\N# Put that thing back where it came from or so help me #{\r}
+Dialogue: 0,0:42:02.71,0:42:03.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我发誓 我发誓 #{\r}\N# So help me, so help me #{\r}
+Dialogue: 0,0:42:04.00,0:42:05.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 停{\r}\NAnd cut.{\r}
+Dialogue: 0,0:42:05.76,0:42:09.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们还在努力 这个剧正在排 但我们需要引座员{\r}\NWe're still working on it. It's in progress, but we need ushers.{\r}
+Dialogue: 0,0:42:09.43,0:42:13.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 我受够了 说再见吧... 它跑哪里去了? 你做了什么?{\r}\NSulley, I've had enough. Say goodbye to... Where did it go? What did you do?{\r}
+Dialogue: 0,0:42:13.51,0:42:15.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 她在哪?  - 真见鬼 你又让她跑了?{\r}\N- Where is she?  - I don't believe it. She got away from you again?{\r}
+Dialogue: 0,0:42:16.06,0:42:20.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}额 那真是... 等等 真是雨过天晴{\r}\NWell, that is just... Wait a minute. The sun is coming up.{\r}
+Dialogue: 0,0:42:20.65,0:42:22.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}太完美了{\r}\NThis is perfect.{\r}
+Dialogue: 0,0:42:22.36,0:42:23.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她不见了!{\r}\NShe's gone!{\r}
+Dialogue: 0,0:42:24.94,0:42:26.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你去哪里? 小苏 拜托了 别费力不讨好了{\r}\NWhere are you going? Sulley, please, don't blow this.{\r}
+Dialogue: 0,0:42:26.78,0:42:28.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们差点就破纪录了{\r}\NWe're so close to breaking the record.{\r}
+Dialogue: 0,0:42:28.65,0:42:31.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}其他人会找到孩子 那就是他们的问题了 跟我们没关系{\r}\NSomebody else will find the kid. It'll be their problem.Not ours.{\r}
+Dialogue: 0,0:42:31.41,0:42:33.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她不会再烦我们了!{\r}\NShe's out of our hair!{\r}
+Dialogue: 0,0:42:34.45,0:42:37.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你们俩在做什么?  - 他们在排练一部剧{\r}\N- What are you two doing?  - They're rehearsing a play.{\r}
+Dialogue: 0,0:42:37.58,0:42:40.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 她不会再烦我们了 #{\r}\N# She's out of our hair #{\r}
+Dialogue: 0,0:42:40.25,0:42:44.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克·华斯基! 那么你对那小孩跑出来的事怎么看的 苏利文?{\r}\NMike Wazowski! So, what do you think of that kid getting out, Sullivan?{\r}
+Dialogue: 0,0:42:44.25,0:42:46.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 很疯狂吧?  - 哦 是的 很疯狂{\r}\N- Pretty crazy?  - Oh, yeah, crazy.{\r}
+Dialogue: 0,0:42:46.55,0:42:49.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}街上的消息是这小孩是从工厂跑出去的{\r}\NWord on the street is the kid's been traced back to this factory.{\r}
+Dialogue: 0,0:42:49.26,0:42:51.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你没见到什么吧?  - 额...{\r}\N- You haven't seen anything?  - Well...{\r}
+Dialogue: 0,0:42:52.09,0:42:53.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没有 不可能{\r}\NNo. No way.{\r}
+Dialogue: 0,0:42:53.93,0:42:58.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但是如果这是自己人干的 我打赌是维克斯福德{\r}\NBut if it was an inside job, I'd put my money on Waxford.{\r}
+Dialogue: 0,0:42:58.23,0:43:00.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 维克斯福德?  - 在第六工作站的{\r}\N- Waxford?  - The one at station six.{\r}
+Dialogue: 0,0:43:00.27,0:43:03.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他贼眉鼠眼的  - 嘿 维克斯福德{\r}\N- He's got them shifty eyes.  - Hey, Waxford.{\r}
+Dialogue: 0,0:43:03.44,0:43:06.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小苏啊!  - 迈克·华斯基!{\r}\N- Sulley!  - Michael Wazowski!{\r}
+Dialogue: 0,0:43:08.69,0:43:13.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}昨晚是有史以来最糟糕的晚上了 糟糕透顶!{\r}\NLast night was one of the worst nights of my entire life, bar none!{\r}
+Dialogue: 0,0:43:15.03,0:43:18.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我以为你在乎我  - 亲爱的 拜托{\r}\N- I thought you cared about me.  - Honey, please.{\r}
+Dialogue: 0,0:43:18.16,0:43:21.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我以为你喜欢寿司  - 寿司! 寿司!{\r}\N- I thought you liked sushi.  - Sushi! Sushi!{\r}
+Dialogue: 0,0:43:21.42,0:43:24.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你认为这只是因为寿司?{\r}\NYou think this is about sushi?{\r}
+Dialogue: 0,0:43:29.80,0:43:30.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}华斯基{\r}\NWazowski.{\r}
+Dialogue: 0,0:43:30.97,0:43:32.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克!{\r}\NMichael!{\r}
+Dialogue: 0,0:43:32.55,0:43:33.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}该死{\r}\NMen.{\r}
+Dialogue: 0,0:43:35.26,0:43:36.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}呼吸 继续呼吸{\r}\NBreathe. Keep breathing.{\r}
+Dialogue: 0,0:43:48.65,0:43:50.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小孩在哪?  - 小孩?{\r}\N- Where's the kid?  - Kid?{\r}
+Dialogue: 0,0:43:50.49,0:43:53.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 什么小孩?  - 它在工厂里 不是吗?{\r}\N- What kid?  - It's here in the factory, isn't it?{\r}
+Dialogue: 0,0:43:53.86,0:43:55.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这可不怪我{\r}\NYou are not putting this on me.{\r}
+Dialogue: 0,0:43:55.46,0:43:57.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}要是昨晚你没作弊 它根本不会跑出来{\r}\NIt never would have gotten out if you hadn't been cheating last night.{\r}
+Dialogue: 0,0:43:57.95,0:43:58.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}作弊? 作弊 对{\r}\NCheating? Cheating. Right.{\r}
+Dialogue: 0,0:44:02.37,0:44:05.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 我知道这事怎么解决了{\r}\NOK. I think I know how to make this all go away.{\r}
+Dialogue: 0,0:44:06.00,0:44:09.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}五分钟后哨声响起会发生什么?{\r}\NWhat happens when the whistle blows in five minutes?{\r}
+Dialogue: 0,0:44:10.76,0:44:14.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我可以休息?  - 大家都去吃午餐{\r}\N- I get a timeout?  - Everyone goes to lunch.{\r}
+Dialogue: 0,0:44:14.93,0:44:18.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}也就意味着吓人车间会...{\r}\NWhich means the scare floor will be...{\r}
+Dialogue: 0,0:44:20.18,0:44:21.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 被粉刷?  - 空无一人{\r}\N- Painted?  - Empty.{\r}
+Dialogue: 0,0:44:22.02,0:44:24.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}会空无一人 你这个蠢货{\r}\NIt'll be empty, you idiot.{\r}
+Dialogue: 0,0:44:24.48,0:44:25.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看到钟了没?{\r}\NYou see that clock?{\r}
+Dialogue: 0,0:44:25.90,0:44:30.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}分针秒针都指向12的时候{\r}\NWhen the big hand is pointing up and the little hand is pointing up,{\r}
+Dialogue: 0,0:44:30.36,0:44:32.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我会把那小孩的门弄到我的工作站{\r}\Nthe kid's door will be in my station.{\r}
+Dialogue: 0,0:44:32.90,0:44:35.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一旦过了十二点半{\r}\NBut when the big hand points down,{\r}
+Dialogue: 0,0:44:36.41,0:44:37.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}门就会消失{\r}\Nthe door will be gone.{\r}
+Dialogue: 0,0:44:38.49,0:44:41.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你必须在那之前把小孩送回去{\r}\NYou have until then to put the kid back.{\r}
+Dialogue: 0,0:44:41.87,0:44:43.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}明白了吗?{\r}\NGet the picture?{\r}
+Dialogue: 0,0:44:54.67,0:44:55.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布!{\r}\NBoo!{\r}
+Dialogue: 0,0:44:56.55,0:44:58.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 不  - 嘿 说你呢 站住{\r}\N- No.  - Hey, you. Halt.{\r}
+Dialogue: 0,0:44:59.22,0:45:00.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就是他{\r}\NHe's the one.{\r}
+Dialogue: 0,0:45:00.47,0:45:02.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 广告里的是他  - 就是他{\r}\N- The one from the commercial.  - That's him.{\r}
+Dialogue: 0,0:45:03.06,0:45:06.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 能给我们签个名吗?  - 噢 好的 没问题{\r}\N- Can we get an autograph?  - Oh, sure. No problem.{\r}
+Dialogue: 0,0:45:06.60,0:45:08.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}送给我女儿 斯蒂芬妮{\r}\NMake that out to Stephanie, my daughter.{\r}
+Dialogue: 0,0:45:09.06,0:45:10.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好的 我看看{\r}\NYes. Let's see.{\r}
+Dialogue: 0,0:45:10.77,0:45:13.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}"致以最好的问候 你的恐怖朋友..."{\r}\N"From your scary friend. Best wishes..."{\r}
+Dialogue: 0,0:45:13.90,0:45:18.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}所以我就说 "要是你再敢这么和我说话 咱俩就完蛋"{\r}\NSo, then I said, "If you talk to me like that again, we're through".{\r}
+Dialogue: 0,0:45:18.57,0:45:20.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 她说什么了?  - 你知道我老妈{\r}\N- What'd she say?  - You know my mom.{\r}
+Dialogue: 0,0:45:21.08,0:45:23.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 她把我关进房间  - 回头见 伙计 放轻松{\r}\N- She sent me to my room.  - See you guys later. Take it easy.{\r}
+Dialogue: 0,0:45:24.00,0:45:25.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}倒光光{\r}\NBottoms up.{\r}
+Dialogue: 0,0:45:42.76,0:45:43.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布!{\r}\NBoo!{\r}
+Dialogue: 0,0:45:48.77,0:45:50.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗨{\r}\NHi.{\r}
+Dialogue: 0,0:45:51.90,0:45:54.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你好啊 你叫什么?{\r}\NWell, hello, there. What's your name?{\r}
+Dialogue: 0,0:45:54.73,0:45:56.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克·华斯基{\r}\NMike Wazowski.{\r}
+Dialogue: 0,0:46:35.19,0:46:36.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏!{\r}\NSulley!{\r}
+Dialogue: 0,0:46:37.19,0:46:38.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}噢 小苏{\r}\NOh, Sulley.{\r}
+Dialogue: 0,0:46:40.20,0:46:41.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好的 小苏 别躲了{\r}\NOK, Sulley, come on.{\r}
+Dialogue: 0,0:46:42.66,0:46:44.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿! 你们看到小苏了吗?{\r}\NHey! You guys seen Sulley anywhere?{\r}
+Dialogue: 0,0:46:44.78,0:46:47.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 抱歉 没有  - 小苏!{\r}\N- Nope, sorry.  - Sulley!{\r}
+Dialogue: 0,0:46:47.12,0:46:49.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}伙计 华斯基好像又有麻烦了{\r}\NBoy, Wazowski looks like he's in trouble.{\r}
+Dialogue: 0,0:46:51.29,0:46:54.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}2319! 2319警报!{\r}\N2319! We have a 2319!{\r}
+Dialogue: 0,0:46:54.17,0:46:56.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}完了{\r}\NOh, dear.{\r}
+Dialogue: 0,0:46:57.17,0:46:58.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏!{\r}\NSulley!{\r}
+Dialogue: 0,0:46:58.55,0:46:59.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏!{\r}\NSulley!{\r}
+Dialogue: 0,0:47:02.97,0:47:05.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 老兄 我有个好消息{\r}\NSulley. Great news, pal.{\r}
+Dialogue: 0,0:47:05.51,0:47:07.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有办法了 不过我们得抓紧时间{\r}\NI got us a way out of this mess, but we gotta hurry.{\r}
+Dialogue: 0,0:47:08.06,0:47:09.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}它人呢?{\r}\NWhere is it?{\r}
+Dialogue: 0,0:47:11.35,0:47:13.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 这是个垃圾块{\r}\NSull, that's a cube of garbage.{\r}
+Dialogue: 0,0:47:16.11,0:47:19.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她稚嫩的声音还在我耳边回响{\r}\NI can still hear her little voice.{\r}
+Dialogue: 0,0:47:19.32,0:47:21.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 迈克·华斯基  - 我也能听见{\r}\N- Mike Wazowski.  - I can hear it too.{\r}
+Dialogue: 0,0:47:21.53,0:47:24.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 迈克·华斯基!  - 这里面究竟藏了几个小孩?{\r}\N- Mike Wazowski!  - How many kids you got in there?{\r}
+Dialogue: 0,0:47:24.37,0:47:25.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克·华斯基!{\r}\NMike Wazowski!{\r}
+Dialogue: 0,0:47:27.49,0:47:29.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 猫咪!  - 阿布!{\r}\N- Kitty!  - Boo!{\r}
+Dialogue: 0,0:47:31.08,0:47:34.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布 你没事 我担心死你了 我...{\r}\NBoo, you're all right. I was so worried. I was...{\r}
+Dialogue: 0,0:47:35.17,0:47:38.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别再从我身边跑开 小姑娘{\r}\NDon't you ever run away from me again, young lady.{\r}
+Dialogue: 0,0:47:39.21,0:47:41.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看到你没事真好{\r}\NBut I'm so glad you're safe.{\r}
+Dialogue: 0,0:47:42.30,0:47:45.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}多么有爱的老爸啊{\r}\NMy, what an affectionate father.{\r}
+Dialogue: 0,0:47:45.22,0:47:48.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}事实上 她是我堂姐的...{\r}\NActually, she's my cousin's sister's...{\r}
+Dialogue: 0,0:47:48.35,0:47:50.64,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 好了 小苏 别聊了 该走了  - 迈克·华斯基\N- Ok，Sulley. That's enough. Let's go.  - Mike Wazowski.{\r}
+Dialogue: 0,0:47:50.73,0:47:53.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是的 孩子 让开 我们...{\r}\NYeah. Step aside, kid. We're in a...{\r}
+Dialogue: 0,0:48:00.28,0:48:03.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 能不能别惹阿布笑?  - 拜托 我才没{\r}\N- Will you stop making Boo laugh?  - I didn't. Come on.{\r}
+Dialogue: 0,0:48:07.24,0:48:09.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我还是没弄明白 你找到阿布的门了?{\r}\NI still don't understand. You got Boo's door?{\r}
+Dialogue: 0,0:48:09.87,0:48:12.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}待会再解释 快过来{\r}\NI'll explain later. Run.{\r}
+Dialogue: 0,0:48:12.12,0:48:15.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快 快跑 快 保佑一定在 一定要在{\r}\NOK. Let's move, let's move let's move. Come on. Please be there. Please be there please be there.{\r}
+Dialogue: 0,0:48:16.13,0:48:19.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 它在 兰德尔没说谎  - 兰德尔?{\r}\N- There it is, just like Randall said.  - Randall?{\r}
+Dialogue: 0,0:48:19.13,0:48:21.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等等 阿布 嘿{\r}\NWait a minute. Boo, hey.{\r}
+Dialogue: 0,0:48:21.59,0:48:24.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}1 2 3 4 把小孩送回去 一切恢复正常{\r}\NOne, two, three, four, get the kid through the door. We are gonna get our lives back.{\r}
+Dialogue: 0,0:48:24.93,0:48:28.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 噩梦就要结束了 怎么了?  - 没关系 阿布{\r}\N- The nightmare is over. What's the matter?  - It's OK, Boo.{\r}
+Dialogue: 0,0:48:28.60,0:48:31.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 是时候了  - 迈克 你怎么想的?{\r}\N- It's time to move.  - Mike, what are you thinking?{\r}
+Dialogue: 0,0:48:31.14,0:48:33.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我们不能相信兰德尔 他想抓阿布  - 管它的? 赶紧啊{\r}\N- We can't trust Randall. Randall's after Boo. - Who cares? Let's go.{\r}
+Dialogue: 0,0:48:33.94,0:48:36.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 只有一次机会  - 不 这不对劲{\r}\N- This is a limited-time offer.  - No. I don't like this.{\r}
+Dialogue: 0,0:48:37.02,0:48:39.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 你想找回她的门 这就是{\r}\NLook, Sulley, you wanted her door and there it is.{\r}
+Dialogue: 0,0:48:39.69,0:48:42.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 赶快行动  - 不 迈克{\r}\N- Now let's move.  - No, Mike.{\r}
+Dialogue: 0,0:48:42.90,0:48:45.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你非要我证明一切都正常吗? 好吧{\r}\NYou want me to prove everything's on the up and up? Fine.{\r}
+Dialogue: 0,0:48:45.11,0:48:47.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他想要门 我找到了  - 等等{\r}\N- He wants a door, I get a door.  - Wait.{\r}
+Dialogue: 0,0:48:47.16,0:48:49.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}疑神疑鬼的大毛球{\r}\NParanoid delusional furball.{\r}
+Dialogue: 0,0:48:51.45,0:48:52.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克!{\r}\NMike!{\r}
+Dialogue: 0,0:49:51.51,0:49:53.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 小苏 一整天都跑哪去了?{\r}\NHey, Sulley, where you been all day?{\r}
+Dialogue: 0,0:49:54.02,0:49:56.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏? 小苏!{\r}\NSulley? Sulley!{\r}
+Dialogue: 0,0:50:12.58,0:50:14.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克? 迈克?{\r}\NMike? Mike?{\r}
+Dialogue: 0,0:50:15.25,0:50:16.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在哪?{\r}\NWhere are you?{\r}
+Dialogue: 0,0:50:16.91,0:50:18.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在里面吗?{\r}\NAre you in there?{\r}
+Dialogue: 0,0:50:18.87,0:50:20.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}老兄 你在哪?{\r}\NWhere are you, buddy?{\r}
+Dialogue: 0,0:50:20.92,0:50:22.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克?{\r}\NMike?{\r}
+Dialogue: 0,0:50:22.71,0:50:24.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在哪?{\r}\NWhere are you?{\r}
+Dialogue: 0,0:50:34.39,0:50:36.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布 干得好{\r}\NBoo, way to go.{\r}
+Dialogue: 0,0:50:43.90,0:50:45.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别害怕{\r}\NIt's OK.{\r}
+Dialogue: 0,0:51:03.46,0:51:06.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}兰德尔 你有没有...{\r}\NRandall, did you have to...{\r}
+Dialogue: 0,0:51:15.10,0:51:18.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 没错! 我抓到了那小孩  - 噢 太好了!{\r}\N- Yes! I got the kid.  - Oh, huzzah!{\r}
+Dialogue: 0,0:51:18.48,0:51:22.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 好消息  不过跟我想的不一样  - 快过来帮我{\r}\N- Great news. Not that I was concerned.  - Get over here and help me.{\r}
+Dialogue: 0,0:51:23.02,0:51:25.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快 趁我们精力旺盛 小霉怪{\r}\NCome on, while we're young here, Fungus.{\r}
+Dialogue: 0,0:51:29.69,0:51:32.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这小孩得减减肥{\r}\NThe kid needs to take off a few pounds.{\r}
+Dialogue: 0,0:51:36.62,0:51:39.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}华斯基! 它在哪 你这个独眼龙白呲?{\r}\NWazowski! Where is it, you little one-eyed cretin?{\r}
+Dialogue: 0,0:51:39.79,0:51:42.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是念白痴 如果你要威胁我 那至少也得发音标准{\r}\NIt's cretin. If you're gonna threaten me, do it properly.{\r}
+Dialogue: 0,0:51:42.87,0:51:45.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}其次 你们这群疯子{\r}\NSecond, you're nuts if you think kidnapping me{\r}
+Dialogue: 0,0:51:45.13,0:51:46.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别以为绑架我就能打破记录!{\r}\Nis gonna help you cheat your way to the top!{\r}
+Dialogue: 0,0:51:49.55,0:51:52.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你还以为这一切都是为了那个愚蠢的纪录?{\r}\NYou still think this is about that stupid scare record?{\r}
+Dialogue: 0,0:51:52.84,0:51:54.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 我确实这么想{\r}\NWell, I did.{\r}
+Dialogue: 0,0:51:54.51,0:51:57.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}直到你冷笑 我觉得有点不对{\r}\NRight up until you chuckled like that.{\r}
+Dialogue: 0,0:51:57.31,0:51:59.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想我该走了{\r}\NNow I think I should get out of here.{\r}
+Dialogue: 0,0:52:00.06,0:52:03.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我要历史性地改革吓人工厂{\r}\NI'm about to revolutionize the scaring industry.{\r}
+Dialogue: 0,0:52:03.27,0:52:06.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等我成功了 就连伟大的詹姆斯·P·苏利文{\r}\NWhen I do, even the great James P. Sullivan{\r}
+Dialogue: 0,0:52:06.31,0:52:08.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}也得给我干活{\r}\Nis gonna be working for me.{\r}
+Dialogue: 0,0:52:08.15,0:52:11.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 有些人天生就是劳碌命{\r}\NWell, somebody's certainly been a busy bee.{\r}
+Dialogue: 0,0:52:11.32,0:52:14.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}首先你得告诉我那小孩在哪{\r}\NFirst I need to know where the kid is and you're gonna tell me.{\r}
+Dialogue: 0,0:52:14.82,0:52:16.62,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我什么都不知道  - 好吧{\r}\N- I don't know anything.  - Sure.{\r}
+Dialogue: 0,0:52:16.70,0:52:18.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不知道 我真不知道{\r}\NI don't. I don't.{\r}
+Dialogue: 0,0:52:21.20,0:52:24.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那是什么? 等等 等等 稍等{\r}\NWhat's that? Wait. Wait, wait, wait, wait.{\r}
+Dialogue: 0,0:52:24.83,0:52:26.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拜托 不 别这样 拜托 嘿 嘿{\r}\NCome on. No, no. Come on. Hey, hey.{\r}
+Dialogue: 0,0:52:26.92,0:52:28.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 嘿 这玩意在动{\r}\NHey, hey. This thing is moving.{\r}
+Dialogue: 0,0:52:30.51,0:52:33.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不喜欢这种会动的大家伙 尤其是朝着我{\r}\NI don't like big moving things that are moving towards me.{\r}
+Dialogue: 0,0:52:34.13,0:52:35.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 别这样 嘿!{\r}\NNo. Come on. Hey!{\r}
+Dialogue: 0,0:52:35.84,0:52:40.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 兰德尔!  - 和尖叫榨汁机打声招呼{\r}\N- Randall!  - Say hello to the scream extractor.{\r}
+Dialogue: 0,0:52:41.22,0:52:42.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你好{\r}\NHello.{\r}
+Dialogue: 0,0:52:42.60,0:52:45.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你去哪? 我们可以谈谈 喝杯咖啡怎么样{\r}\NCome on. Where you going? We'll talk. Come on. We'll have a latte.{\r}
+Dialogue: 0,0:52:45.90,0:52:48.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拜托 还有商量的余地的嘛{\r}\NCome on. We can talk about this.{\r}
+Dialogue: 0,0:52:52.86,0:52:54.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是什么?{\r}\NWhat is that thing?{\r}
+Dialogue: 0,0:52:54.95,0:52:57.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等等 等等 不 别这样 不{\r}\NWait, wait, wait. No, no, no.{\r}
+Dialogue: 0,0:52:57.32,0:52:59.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 快停下来{\r}\NNo. Come on.{\r}
+Dialogue: 0,0:53:00.70,0:53:03.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}救命 来人啊! 救救我!{\r}\NHelp. Help! Help, help!{\r}
+Dialogue: 0,0:53:10.67,0:53:12.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怎么... 这次你又哪出了岔子?{\r}\NOh, for... What did you do wrong this time?{\r}
+Dialogue: 0,0:53:12.92,0:53:16.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我不知道 我校正过了...  - 去检查下机器{\r}\N- I don't know. I calibrated the...  - Go check the machine.{\r}
+Dialogue: 0,0:53:16.30,0:53:19.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一定是尖叫阀门出了点问题{\r}\NThere must be something wrong with the scream intake valve.{\r}
+Dialogue: 0,0:53:39.74,0:53:42.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小霉怪? 小霉怪? 喜欢车吗?{\r}\NFungus? Fungus? You like cars?{\r}
+Dialogue: 0,0:53:43.41,0:53:47.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我有辆超酷的车 要是你放我走 我就{\r}\NCuz I got a really nice car. If you let me go, I'll give you a ride{\r}
+Dialogue: 0,0:53:47.83,0:53:50.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}载你一程 求你了 小霉怪{\r}\Nin the car. Please, Fungus.{\r}
+Dialogue: 0,0:53:50.29,0:53:53.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很抱歉 华斯基 兰德尔不许我和{\r}\NI'm sorry, Wazowski, but Randall said I'm not allowed{\r}
+Dialogue: 0,0:53:53.42,0:53:56.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他邪恶计划的受害者来往{\r}\Nto fraternize with victims of his evil plot.{\r}
+Dialogue: 0,0:54:08.60,0:54:11.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}发生什么事了? 华斯基呢?{\r}\NWhat happened? Where's Wazowski?{\r}
+Dialogue: 0,0:54:14.28,0:54:15.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他在哪?{\r}\NWhere is he?{\r}
+Dialogue: 0,0:54:21.74,0:54:24.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快  - 太疯狂了 他要杀了我们{\r}\N- Come on.  - This is crazy. He's gonna kill us.{\r}
+Dialogue: 0,0:54:24.49,0:54:26.20,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}可能被污染{\r}\NThat could be contaminated.{\r}
+Dialogue: 0,0:54:26.29,0:54:28.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们快离开这里!{\r}\NWe gotta get out of here now!{\r}
+Dialogue: 0,0:54:28.29,0:54:31.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}去一个遥远的地方 开始新的生活 再见 怪兽公司{\r}\NWe could start a whole new life somewhere far away. Goodbye, Monsters, Inc.{\r}
+Dialogue: 0,0:54:31.96,0:54:33.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再见了 沃特努斯先生{\r}\NGoodbye, Mr. Waternoose.{\r}
+Dialogue: 0,0:54:34.05,0:54:36.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 不 迈克 等等  - 嘿 你要干嘛?{\r}\N- No, Mike, wait.  - Hey, what are you doing?{\r}
+Dialogue: 0,0:54:36.63,0:54:40.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 跟我来 我有个主意  - 不 不 不 不要 不{\r}\N- Follow me. I have an idea.  - No, no, no, no, no.{\r}
+Dialogue: 0,0:54:41.30,0:54:44.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 演习结束  - 不 不行 不行不行{\r}\N- Simulation terminated.  - No, no, no, no, no.{\r}
+Dialogue: 0,0:54:44.64,0:54:48.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你在做什么? 是要你去吓唬他 不是哄他睡觉{\r}\NWhat was that? You're trying to scare the kid, not lull it to sleep.{\r}
+Dialogue: 0,0:54:48.69,0:54:51.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想弄成蛇一样的忍者{\r}\NI was going for a snake/ninja approach{\r}
+Dialogue: 0,0:54:51.65,0:54:53.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还发出嘶嘶声{\r}\Nwith a little hissing.{\r}
+Dialogue: 0,0:54:54.57,0:54:58.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我告诉过你多少次了? 你得有架势{\r}\NHow many times do I have to tell you? It's all about presence.{\r}
+Dialogue: 0,0:54:58.44,0:55:01.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 进去时得穷凶极恶的  - 沃特努斯先生!{\r}\N- About how you enter the room.  - Mr. Waternoose!{\r}
+Dialogue: 0,0:55:01.86,0:55:03.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}詹姆斯 你来得正好{\r}\NJames, perfect timing.{\r}
+Dialogue: 0,0:55:03.83,0:55:05.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 不 先生 你不明白{\r}\NNo, no, sir. You don't understand.{\r}
+Dialogue: 0,0:55:05.83,0:55:08.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 给这群菜鸟上堂课  - 不行{\r}\N- Show these monsters how it's done.  - I can't.{\r}
+Dialogue: 0,0:55:08.54,0:55:11.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 先生 你先听我说  - 所有人 注意了{\r}\N- Sir, you have to listen to me.  - Pay attention. Everyone{\r}
+Dialogue: 0,0:55:11.29,0:55:13.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他是最棒的{\r}\NYou're about to see the best in the business.{\r}
+Dialogue: 0,0:55:13.88,0:55:16.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 重启演习车间  - 可是先生!{\r}\N- Reset the simulator.  - But sir!{\r}
+Dialogue: 0,0:55:16.67,0:55:18.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 晚安 宝贝儿!  - 晚安 妈妈{\r}\N- Good night, sweetheart.  - Night, Mom.{\r}
+Dialogue: 0,0:55:18.92,0:55:20.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 猫咪!  - 不 阿布 不!{\r}\N- Kitty!  - No, Boo, no!{\r}
+Dialogue: 0,0:55:20.68,0:55:24.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 怒吼一声  - 没时间讨论这个!{\r}\N- Give us a big loud roar.  - There's no time for this!{\r}
+Dialogue: 0,0:55:24.43,0:55:27.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你还在等什么? 快吼啊  - 可是先生...{\r}\N- Come on. What are you waiting for? Roar.  - But, sir...{\r}
+Dialogue: 0,0:55:27.27,0:55:28.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}吼!{\r}\NRoar!{\r}
+Dialogue: 0,0:55:39.53,0:55:42.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}干得好 干得漂亮 詹姆斯{\r}\NWell done. Well done, James.{\r}
+Dialogue: 0,0:55:42.86,0:55:44.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 阿布?  - 好了 先生们{\r}\N- Boo?  - All right, gentlemen.{\r}
+Dialogue: 0,0:55:44.20,0:55:47.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 这边请  - 我希望你们今天有所收获{\r}\N- Right this way.  - I hope you've learned a lesson today.{\r}
+Dialogue: 0,0:55:52.04,0:55:53.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布{\r}\NBoo.{\r}
+Dialogue: 0,0:55:57.59,0:55:58.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布{\r}\NBoo.{\r}
+Dialogue: 0,0:56:03.72,0:56:05.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布 是我{\r}\NBoo, it's me.{\r}
+Dialogue: 0,0:56:08.56,0:56:10.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 是那个孩子!  -  先生 她无害的{\r}\N- The child!  - Sir, she isn't toxic.{\r}
+Dialogue: 0,0:56:11.06,0:56:13.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 这也许听上去很疯狂 但相信我  - 阿布?{\r}\N- I konw it sounds crazy, but trust me.  - Boo?{\r}
+Dialogue: 0,0:56:14.19,0:56:15.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 不 别害怕 没事{\r}\NNo, no, no, no, it's OK.{\r}
+Dialogue: 0,0:56:15.98,0:56:17.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我只是... 别害怕{\r}\NI was just... No.{\r}
+Dialogue: 0,0:56:17.69,0:56:21.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 别害怕 那不是真的{\r}\NNo, don't be scared. That wasn't real.{\r}
+Dialogue: 0,0:56:21.82,0:56:24.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那只是... 我刚刚只是...{\r}\NIt's just a... I was just...{\r}
+Dialogue: 0,0:56:38.42,0:56:41.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 阿布  - 想用那小女孩做实验{\r}\N- Boo.  - Test it out on that sweet little girl.{\r}
+Dialogue: 0,0:56:42.42,0:56:44.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 阿布  - 拥有她 他还想杀了我们灭口{\r}\N- Boo.  - Have her, he is trying to kill us.{\r}
+Dialogue: 0,0:56:45.01,0:56:47.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 都是兰德尔的错  - 兰德尔?{\r}\N- This whole thing is Randall's fault.  - Randall?{\r}
+Dialogue: 0,0:56:47.14,0:56:50.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们现在就可以带你去他藏在工厂里的秘密工作室{\r}\NYes. And we can take you to his secret lab which is right here in this factory.{\r}
+Dialogue: 0,0:56:50.77,0:56:54.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怎么会有这种事?  怎么会搞成这样?{\r}\NHow could this happen? How could this happen?{\r}
+Dialogue: 0,0:56:55.65,0:56:57.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还有人知道吗?{\r}\NDoes anyone else know about this?{\r}
+Dialogue: 0,0:56:57.86,0:56:59.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 没有 先生  - 很好{\r}\N- No, sir.  - Good.{\r}
+Dialogue: 0,0:56:59.73,0:57:02.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}公司的负面消息已经够多了{\r}\NThis company can't afford any more bad publicity.{\r}
+Dialogue: 0,0:57:03.28,0:57:05.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在 我们最好还是{\r}\NNow, before we do anything else,{\r}
+Dialogue: 0,0:57:05.82,0:57:08.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}先处理下这孩子{\r}\Nlet's take care of the child.{\r}
+Dialogue: 0,0:57:13.29,0:57:15.66,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我从没想过事情会变成这样{\r}\NI never thought things would come to this.{\r}
+Dialogue: 0,0:57:16.08,0:57:17.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}至少不会在我的公司{\r}\NNot in my factory.{\r}
+Dialogue: 0,0:57:19.21,0:57:22.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很抱歉把你们卷进来{\r}\NI'm sorry you boys got mixed up in this.{\r}
+Dialogue: 0,0:57:22.30,0:57:24.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}特别是你 詹姆斯{\r}\NEspecially you, James.{\r}
+Dialogue: 0,0:57:24.26,0:57:27.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在可以将一切重新恢复正常{\r}\NBut now we can set everything straight again.{\r}
+Dialogue: 0,0:57:27.76,0:57:28.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为了公司的利益{\r}\NFor the good of the company.{\r}
+Dialogue: 0,0:57:33.39,0:57:35.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}先生? 这不是她的门{\r}\NSir? That's not her door.{\r}
+Dialogue: 0,0:57:35.31,0:57:37.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我知道 我知道{\r}\NI know, I know.{\r}
+Dialogue: 0,0:57:40.23,0:57:41.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是为你们准备的{\r}\NIt's yours.{\r}
+Dialogue: 0,0:57:46.11,0:57:47.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不!{\r}\NNo!{\r}
+Dialogue: 0,0:57:49.62,0:57:51.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布!{\r}\NBoo!{\r}
+Dialogue: 0,0:57:57.25,0:58:01.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不! 不! 不要啊!{\r}\NNo! No! No, no, no, no!{\r}
+Dialogue: 0,0:58:02.96,0:58:05.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}太晚了 天才 我们被驱逐出境了!{\r}\NIt's too late. We're banished, genius!{\r}
+Dialogue: 0,0:58:05.63,0:58:07.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是人类的世界{\r}\NWe're in the human world.{\r}
+Dialogue: 0,0:58:07.68,0:58:10.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}多么棒的想法啊 回去找你的老伙计沃特努斯{\r}\NWhat a great idea, going to your old pal Waternoose.{\r}
+Dialogue: 0,0:58:11.01,0:58:13.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}可惜他也有份{\r}\NToo bad he was in on the whole thing.{\r}
+Dialogue: 0,0:58:13.35,0:58:15.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}要是你听我的就没事了{\r}\NAll you had to do was listen to me.{\r}
+Dialogue: 0,0:58:15.85,0:58:20.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一次就好! 但你不肯 你根本不听?{\r}\NJust once! But you didn't, did you?{\r}
+Dialogue: 0,0:58:20.15,0:58:22.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你到现在还不听!{\r}\NYou're still not listening!{\r}
+Dialogue: 0,0:58:29.28,0:58:30.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}吃我一拳!{\r}\NTake that!{\r}
+Dialogue: 0,0:58:36.25,0:58:38.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}欢迎来到喜马拉雅山{\r}\NWelcome to the Himalayas.{\r}
+Dialogue: 0,0:58:42.08,0:58:45.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}"可怕的" 真难以置信{\r}\N"Abominable". Can you believe that?{\r}
+Dialogue: 0,0:58:45.13,0:58:46.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我看起来很可怕吗?{\r}\NDo I look abominable to you?{\r}
+Dialogue: 0,0:58:47.13,0:58:49.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为什么不叫我可爱的雪怪{\r}\NWhy can't they call me the Adorable Snowman{\r}
+Dialogue: 0,0:58:49.43,0:58:52.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}或善解人意的雪怪?{\r}\Nor the Agreeable Snowman, for crying out loud?{\r}
+Dialogue: 0,0:58:52.68,0:58:55.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我可是个大好人 来点雪糕?{\r}\NI'm a nice guy. Snow cone?{\r}
+Dialogue: 0,0:58:56.27,0:58:58.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别 别担心 这是柠檬味的{\r}\NNo, don't worry. It's lemon.{\r}
+Dialogue: 0,0:58:59.85,0:59:02.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你呢 大个子? 要雪糕吗?{\r}\NHow about you, big fella? Snow cone?{\r}
+Dialogue: 0,0:59:05.07,0:59:07.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你看到她看我的眼神了吗?{\r}\NDid you see the way she looked at me?{\r}
+Dialogue: 0,0:59:10.86,0:59:14.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}可怜的人 我理解 被驱逐出境是很难接受{\r}\NPoor guy. I understand. It ain't easy being banished.{\r}
+Dialogue: 0,0:59:14.74,0:59:16.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就拿我的好兄弟 大脚来说{\r}\NTake my buddy, Bigfoot.{\r}
+Dialogue: 0,0:59:16.24,0:59:20.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他被驱逐出境的时候 用毒藤弄了个大尿布{\r}\NWhen he was banished, he fashioned an enormous diaper out of poison ivy.{\r}
+Dialogue: 0,0:59:20.75,0:59:22.58,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}弄的像顶皇冠 戴在头上{\r}\NWore it on his head like a tiara.{\r}
+Dialogue: 0,0:59:22.67,0:59:26.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}自称是痒痒帝 你们比他强多了{\r}\NCalled himself King Itchy. It won't be so hard for you guys thougn.{\r}
+Dialogue: 0,0:59:26.67,0:59:28.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看看你们多幸运?{\r}\NHow lucky can you get?{\r}
+Dialogue: 0,0:59:28.13,0:59:31.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 和好朋友一起被驱逐出境  - 他不是我的朋友{\r}\N- Banished with your best friend.  - He is not my friend.{\r}
+Dialogue: 0,0:59:31.76,0:59:35.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我以为你们是好兄弟 看你俩在雪地里搂搂抱抱的...{\r}\NI just assumed you were buddies, you know. When I saw you in the snow hugging...{\r}
+Dialogue: 0,0:59:35.64,0:59:38.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}瞧瞧那个混蛋 他毁了我一生 为了什么?{\r}\NLook at that big jerk. Ruined my life. And for what?{\r}
+Dialogue: 0,0:59:38.77,0:59:40.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一个小破孩!{\r}\NA stupid kid!{\r}
+Dialogue: 0,0:59:40.10,0:59:43.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就是因为你 我才被困在这冰天雪地的荒原{\r}\NBecause of you I am now stuck in this frozen wasteland.{\r}
+Dialogue: 0,0:59:43.44,0:59:46.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}荒原? 你想说乐园吧{\r}\NWasteland? I think you mean wonderland.{\r}
+Dialogue: 0,0:59:46.82,0:59:49.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}瞧瞧这惊艳的大雪?{\r}\NHow about all this fabulous snow?{\r}
+Dialogue: 0,0:59:49.78,0:59:51.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}还有世界上最可爱的东西{\r}\NAnd wait till you see the local village.{\r}
+Dialogue: 0,0:59:52.07,0:59:56.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这里的小村庄 更不必说免费的牦牛奶{\r}\NCutest thing in the world. I haven't mentioned the free yaks' milk.{\r}
+Dialogue: 0,0:59:56.70,0:59:58.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你刚刚说什么?  - 牦牛奶{\r}\N- What did you say?  - Yaks' milk.{\r}
+Dialogue: 0,0:59:58.79,1:00:00.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}给牦牛挤奶可不简单{\r}\NMilking a yak ain't exactly a picnic.{\r}
+Dialogue: 0,1:00:00.96,1:00:03.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不过挑干净牛奶里面的牛毛再喝 可是很有营养哟{\r}\NOnce you pick the hairs out it's nutritious.{\r}
+Dialogue: 0,1:00:03.46,1:00:05.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 关于村子 那里有小孩吗?{\r}\NNo, something about a village. Are there kids in it?{\r}
+Dialogue: 0,1:00:05.96,1:00:09.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小孩? 当然 淘气包 爱哭鬼 爬在石头上的小孩{\r}\NKids? Sure. Tough kids, sissy kids, kids who climb on rocks.{\r}
+Dialogue: 0,1:00:09.30,1:00:11.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 在哪儿?  - 山脚下{\r}\N- Where is it?  - At the bottom of the mountain.{\r}
+Dialogue: 0,1:00:11.84,1:00:14.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 得走3天  - 3天?{\r}\N- Around three-day hike.  - Three days?{\r}
+Dialogue: 0,1:00:14.72,1:00:16.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们现在就得去那{\r}\NWe need to get there now.{\r}
+Dialogue: 0,1:00:27.15,1:00:28.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你想去村子?{\r}\NYou wanna go to the village?{\r}
+Dialogue: 0,1:00:29.03,1:00:33.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}第一条 永远... 不{\r}\NRule number one out here, always... No.{\r}
+Dialogue: 0,1:00:33.74,1:00:35.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}千万别再暴风雪天出门{\r}\NNever go out in a blizzard.{\r}
+Dialogue: 0,1:00:35.87,1:00:38.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们得去救阿布{\r}\NWe need to get to Boo.{\r}
+Dialogue: 0,1:00:40.33,1:00:42.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布? 那我们呢?{\r}\NBoo? What about us?{\r}
+Dialogue: 0,1:00:43.37,1:00:46.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}自从她出现以后 我说什么你都不听{\r}\NEver since the kid came in, you've ignored everything I've said,{\r}
+Dialogue: 0,1:00:46.42,1:00:51.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}瞧瞧我们的下场! 我们本来都快破记录了 小苏{\r}\Nand now look where we are! We were about to break the record, Sulley.{\r}
+Dialogue: 0,1:00:51.67,1:00:55.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 要不是这 我们早就破纪录了  - 这都不重要了{\r}\N- We would have had it made.  - None of that matters now.{\r}
+Dialogue: 0,1:00:55.84,1:00:58.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}都不重要? 等等{\r}\NNone of it matters? Wait a second.{\r}
+Dialogue: 0,1:00:58.43,1:01:00.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这一切都不重要?{\r}\NNone of it matters?{\r}
+Dialogue: 0,1:01:02.81,1:01:05.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 行 你真行{\r}\NOK. No, good. Great.{\r}
+Dialogue: 0,1:01:06.10,1:01:08.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}终于真相大白了 是吗?{\r}\NSo now the truth comes out, doesn't it?{\r}
+Dialogue: 0,1:01:10.19,1:01:13.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}瞧瞧这个? 雪糕没有了{\r}\NWould you look at that? We're out of snow cones.{\r}
+Dialogue: 0,1:01:13.57,1:01:16.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我去外面再做些{\r}\NLet me just go outside and make some more.{\r}
+Dialogue: 0,1:01:17.78,1:01:20.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 那我们努力得来的一切呢?{\r}\NSulley, what about everything we ever worked for?{\r}
+Dialogue: 0,1:01:21.74,1:01:23.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}也不重要吗?{\r}\NDoes that matter?{\r}
+Dialogue: 0,1:01:24.87,1:01:26.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}希莉娅呢?{\r}\NWhat about Celia?{\r}
+Dialogue: 0,1:01:26.50,1:01:29.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我永远... 再也没机会见到她了{\r}\NI am never... never gonna see her again.{\r}
+Dialogue: 0,1:01:30.67,1:01:32.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这不重要吗?{\r}\NDoesn't that matter?{\r}
+Dialogue: 0,1:01:37.59,1:01:39.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那么我呢?{\r}\NAnd what about me?{\r}
+Dialogue: 0,1:01:39.89,1:01:42.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我是你的好搭档 是你最好的朋友{\r}\NI'm your pal. I'm your best friend.{\r}
+Dialogue: 0,1:01:43.56,1:01:45.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我也不重要了吗?{\r}\NDon't I matter?{\r}
+Dialogue: 0,1:01:48.27,1:01:49.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}对不起 迈克{\r}\NI'm sorry, Mike.{\r}
+Dialogue: 0,1:01:50.11,1:01:52.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}害你被困在这儿{\r}\NI'm sorry we're stuck out here.{\r}
+Dialogue: 0,1:01:52.57,1:01:54.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不是故意的{\r}\NI didn't mean for this to happen.{\r}
+Dialogue: 0,1:01:54.99,1:01:56.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但是阿布现在有危险{\r}\NBut Boo's in trouble.{\r}
+Dialogue: 0,1:01:57.03,1:02:00.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我有办法救她 只要我们...{\r}\NI think there might be a way to save her if we can just get...{\r}
+Dialogue: 0,1:02:00.20,1:02:02.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们? 等等 你说我们?{\r}\NWe? Whoa. We?{\r}
+Dialogue: 0,1:02:02.91,1:02:06.33,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 没有"我们"了 我不会在帮你了 老兄{\r}\NNo. There's no "we" this time, pal.{\r}
+Dialogue: 0,1:02:06.71,1:02:10.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}要是你想离开这 在外面冻死{\r}\NIf you want to go out there and freeze to death,{\r}
+Dialogue: 0,1:02:10.67,1:02:12.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我一点意见都没有{\r}\Nyou be my guest.{\r}
+Dialogue: 0,1:02:13.25,1:02:15.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}因为这都是你自找的{\r}\NBecause you're on your own.{\r}
+Dialogue: 0,1:02:52.46,1:02:54.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 我又做了些新的雪糕!{\r}\NHey, I got more snow cones!{\r}
+Dialogue: 0,1:03:41.84,1:03:44.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}来嘛 乔治 我知道你行的{\r}\NCome on, George. I know you can do this.{\r}
+Dialogue: 0,1:03:45.01,1:03:47.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我给你选了个容易的门{\r}\NI picked out an easy door for you.{\r}
+Dialogue: 0,1:03:47.35,1:03:50.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}在尼泊尔 很美 非常安静{\r}\NIn Nepal. Nice, quiet Nepal.{\r}
+Dialogue: 0,1:03:50.52,1:03:53.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你说得对 好啦 拿去{\r}\NYou know, you're right. Here. Take this.{\r}
+Dialogue: 0,1:03:53.69,1:03:55.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大干一场 乔治{\r}\NGo get 'em, Georgie.{\r}
+Dialogue: 0,1:03:55.61,1:03:57.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小心点 我来了{\r}\NLook out. Coming through.{\r}
+Dialogue: 0,1:03:57.15,1:03:59.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 抱歉 乔治  - 嗨 你不能这么...{\r}\N- Sorry, George.  - Hey, you can't just...{\r}
+Dialogue: 0,1:04:00.74,1:04:02.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}警报23...{\r}\NTwenty-three...{\r}
+Dialogue: 0,1:04:07.70,1:04:09.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}都给我让开!{\r}\NOut of the way!{\r}
+Dialogue: 0,1:04:14.71,1:04:17.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一开始我就不该相信你{\r}\NFinally. I never should have trusted you with this.{\r}
+Dialogue: 0,1:04:17.88,1:04:20.88,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}因为你 我将我最顶尖的怪兽驱逐出境了{\r}\NBecause of you, I had to banish my top scarer.{\r}
+Dialogue: 0,1:04:20.97,1:04:23.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}有了这个机器 我们根本不需要怪兽{\r}\NWith this machine, we won't need scarers.{\r}
+Dialogue: 0,1:04:23.22,1:04:25.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那是苏利文他活该{\r}\NSullivan got what he deserved.{\r}
+Dialogue: 0,1:04:25.47,1:04:28.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}苏利文比你厉害多了{\r}\NSullivan was twice the scarer you will ever be.{\r}
+Dialogue: 0,1:04:42.49,1:04:43.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪!{\r}\NKitty!{\r}
+Dialogue: 0,1:04:50.70,1:04:52.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 猫咪!  - 苏利文?{\r}\N- Kitty!  - Sullivan?{\r}
+Dialogue: 0,1:04:58.79,1:05:00.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- - 猫咪!  - 对不起 阿布{\r}\N- Kitty!  - Sorry, Boo.{\r}
+Dialogue: 0,1:05:01.13,1:05:02.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拦住他!{\r}\NStop him!{\r}
+Dialogue: 0,1:05:03.38,1:05:05.09,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我送你回家{\r}\NLet's get you home.{\r}
+Dialogue: 0,1:05:08.72,1:05:10.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把他干掉!{\r}\NFinish him off!{\r}
+Dialogue: 0,1:05:17.69,1:05:21.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}苏利文 我等这一刻已经很久了{\r}\NYou don't know how long I've wanted to do that, Sullivan.{\r}
+Dialogue: 0,1:05:34.08,1:05:35.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克?{\r}\NMike?{\r}
+Dialogue: 0,1:05:35.21,1:05:37.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我不是不关心那小孩  - 迈克 你还不明白{\r}\N- It's not that I don't care.  - Mike, you don't understand.{\r}
+Dialogue: 0,1:05:37.79,1:05:39.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 我知道 我就是很生气 就是这样{\r}\NYes, I do. I was just mad, that's all.{\r}
+Dialogue: 0,1:05:40.00,1:05:44.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我得冷静下 不过你不该丢下我{\r}\NI needed some time to think, but you shouldn't have left me out there.{\r}
+Dialogue: 0,1:05:44.97,1:05:47.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 有人打我  - 我没揍你{\r}\N- I'm being attacked.  - I'm not attacking you.{\r}
+Dialogue: 0,1:05:47.47,1:05:50.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我只是实话实说 听我说完 我们是搭档{\r}\NI'm trying to be honest. Hear me out. You and I are a team.{\r}
+Dialogue: 0,1:05:51.06,1:05:53.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}没有什么比我们的友谊还重要{\r}\NNothing is more important than our friendship.{\r}
+Dialogue: 0,1:05:53.68,1:05:55.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我知道 他太敏感了{\r}\NI know. He's too sensitive.{\r}
+Dialogue: 0,1:05:58.23,1:06:01.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拜托 伙计 你哭了 我也会哭的{\r}\NCome on, pal. If you start crying, I'm gonna cry.{\r}
+Dialogue: 0,1:06:01.19,1:06:03.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这样会没完没了{\r}\NAnd I'll never get through this.{\r}
+Dialogue: 0,1:06:03.44,1:06:06.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很抱歉当时没和你一起 不过我回来了{\r}\NI'm sorry I wasn't there for you, but I am now.{\r}
+Dialogue: 0,1:06:06.57,1:06:10.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 我在对你敞开心扉呢 你就不能专心点{\r}\NSulley, I am baring my soul here. The least you can do is pay attention.{\r}
+Dialogue: 0,1:06:15.16,1:06:17.25,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看 是兰德尔{\r}\NLook at that. It's Randall.{\r}
+Dialogue: 0,1:06:18.83,1:06:20.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快跑{\r}\NCome on.{\r}
+Dialogue: 0,1:06:20.67,1:06:23.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}给我起来 别让其余人看见了{\r}\NGet up. There can't be any witnesses.{\r}
+Dialogue: 0,1:06:23.38,1:06:24.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不会的{\r}\NThere won't be.{\r}
+Dialogue: 0,1:06:25.05,1:06:26.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你回来了我很高兴 迈克{\r}\NI'm glad you came back, Mike.{\r}
+Dialogue: 0,1:06:26.80,1:06:30.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}总得有个人照顾你 大毛球{\r}\NSomebody's gotta take care of you, you big hairball.{\r}
+Dialogue: 0,1:06:33.39,1:06:35.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小甜甜 我现在没时间解释  - 快跟上{\r}\N- Schmoopsie-pooh, I really can't talk.  - Come on.{\r}
+Dialogue: 0,1:06:35.85,1:06:38.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 如果你现在不立马告诉我这是怎么回事{\r}\NMichael, if you don't tell me what's going on right now,{\r}
+Dialogue: 0,1:06:38.85,1:06:40.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们之间就拜拜! 听见了吗? 拜拜!{\r}\Nwe are through! You hear me? Through!{\r}
+Dialogue: 0,1:06:40.85,1:06:41.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我告诉你怎么回事{\r}\NHere's the truth.{\r}
+Dialogue: 0,1:06:41.98,1:06:44.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你知道他们要找的那个小孩吧? 小苏把她带回来了{\r}\NYou know the kid that they're looking for? Sulley let her in.{\r}
+Dialogue: 0,1:06:44.38,1:06:46.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们想把她送回去 但沃特努斯另有阴谋{\r}\NWe tried to send her back, but Waternoose had this secret plot,{\r}
+Dialogue: 0,1:06:46.32,1:06:48.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在兰德尔就在我们身后 想杀了我们!{\r}\Nand now Randall's right behind us and trying to kill us!{\r}
+Dialogue: 0,1:06:48.78,1:06:52.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你觉得我会相信吗 迈克·华斯基?{\r}\NYou expect me to believe that pack of lies, Mike Wazowski?{\r}
+Dialogue: 0,1:06:52.24,1:06:53.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克·华斯基啊{\r}\NMike Wazowski.{\r}
+Dialogue: 0,1:06:54.58,1:06:56.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我爱你 小甜甜!{\r}\NI love you, schmoopsie-pooh!{\r}
+Dialogue: 0,1:06:56.87,1:06:59.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿!  - 笨蛋{\r}\N- Hey!  - Idiots.{\r}
+Dialogue: 0,1:07:00.96,1:07:02.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}当心 让让{\r}\NLook out. Coming through.{\r}
+Dialogue: 0,1:07:02.71,1:07:05.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让一下 让让 快点 快点{\r}\NMake way. Move it. Hurry up, hurry up.{\r}
+Dialogue: 0,1:07:07.05,1:07:09.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他们在那儿  - 员工们 请注意{\r}\N- There they are.  - Attention, employees.{\r}
+Dialogue: 0,1:07:09.59,1:07:13.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}兰德尔 鲍格斯刚刚打破了尖叫纪录{\r}\NRandall Boggs has just broken the all-time scare record.{\r}
+Dialogue: 0,1:07:14.22,1:07:16.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不 我没打破 都给我让开{\r}\NNo, I didn't. Get out of my way.{\r}
+Dialogue: 0,1:07:17.35,1:07:19.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}拿下他 大眼儿熊{\r}\NGo get 'em, googly bear.{\r}
+Dialogue: 0,1:07:20.73,1:07:21.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}它在那儿{\r}\NThere it is.{\r}
+Dialogue: 0,1:07:21.90,1:07:24.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别围着我 让开{\r}\NGet off my tail. Let go.{\r}
+Dialogue: 0,1:07:28.40,1:07:29.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你在干嘛?  - 抓住我 迈克{\r}\N- What are you doing?  - Grab on, Mike.{\r}
+Dialogue: 0,1:07:29.99,1:07:32.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你疯了吗?{\r}\NAre you out of your mind?{\r}
+Dialogue: 0,1:07:42.83,1:07:46.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小苏 你要干嘛?  - 找到阿布的那扇门 然后找个工作站{\r}\N- Sulley, what are we doing?  - Get Boo's door and find a station.{\r}
+Dialogue: 0,1:07:46.09,1:07:48.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真是好主意 简单 又疯狂{\r}\NWhat a plan. Simple, yet insane.{\r}
+Dialogue: 0,1:08:02.44,1:08:03.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 哇  - 天啊{\r}\N- Whoa.  - Oh, boy.{\r}
+Dialogue: 0,1:08:04.44,1:08:06.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}抓紧了!{\r}\NHold on!{\r}
+Dialogue: 0,1:08:14.82,1:08:16.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别往下看!{\r}\NDon't look down!{\r}
+Dialogue: 0,1:08:32.30,1:08:34.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我要吐了{\r}\NI'm gonna be sick.{\r}
+Dialogue: 0,1:08:38.26,1:08:39.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 不{\r}\NOh, no.{\r}
+Dialogue: 0,1:08:43.52,1:08:44.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不!{\r}\NNo!{\r}
+Dialogue: 0,1:08:46.15,1:08:48.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 阿布的那扇门  - 它在那儿{\r}\N- Boo's door.  - There it is.{\r}
+Dialogue: 0,1:08:48.44,1:08:51.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们怎么才能过去?{\r}\NHow are we supposed to get to it now?{\r}
+Dialogue: 0,1:08:54.32,1:08:55.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这是个死胡同 小苏{\r}\NIt's a dead end, Sulley.{\r}
+Dialogue: 0,1:08:57.66,1:08:59.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他来了  - 逗她笑{\r}\N- There he is.  - Make her laugh.{\r}
+Dialogue: 0,1:08:59.24,1:09:00.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小苏!  - 快点!{\r}\N- Sulley!  - Just do it!{\r}
+Dialogue: 0,1:09:10.59,1:09:12.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 把门打开  - 他来了{\r}\N- Get it open.  - Here he comes.{\r}
+Dialogue: 0,1:09:12.84,1:09:14.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把孩子交出来{\r}\NGive me that kid.{\r}
+Dialogue: 0,1:09:19.56,1:09:23.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 怎么不把我们流放到这样的地方?  - 我们得找到另一扇门{\r}\N- Why couldn't we get banished here?  - We gotta find another door.{\r}
+Dialogue: 0,1:09:28.86,1:09:30.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快看! 阿布的门{\r}\NLook! Boo's door.{\r}
+Dialogue: 0,1:09:35.28,1:09:38.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 他追过来了 快点!  - 把手给我{\r}\N- There he is. Hurry up!  - Give me your hand.{\r}
+Dialogue: 0,1:09:45.04,1:09:47.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快点 这是推拉门  - 哦 对{\r}\N- Come on, it slides.  - Right. Right.{\r}
+Dialogue: 0,1:09:51.38,1:09:53.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你先跳 我跟着你{\r}\NJump. I'm right behind you.{\r}
+Dialogue: 0,1:09:58.05,1:09:59.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}跟上{\r}\NCome on.{\r}
+Dialogue: 0,1:10:01.47,1:10:02.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快点 赶紧的!{\r}\NHurry up. Keep moving!{\r}
+Dialogue: 0,1:10:03.02,1:10:04.72,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}进去{\r}\NGet inside.{\r}
+Dialogue: 0,1:10:05.60,1:10:07.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}奇怪了{\r}\NThat was weird.{\r}
+Dialogue: 0,1:10:07.77,1:10:09.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克啊?{\r}\NMike?{\r}
+Dialogue: 0,1:10:09.10,1:10:11.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 抱歉 兄弟  - 没事{\r}\N- Sorry, buddy.  - OK.{\r}
+Dialogue: 0,1:10:19.20,1:10:21.32,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}打疼你了吧 小蜥蜴{\r}\NI hope that hurt, lizard boy.{\r}
+Dialogue: 0,1:10:26.12,1:10:28.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}干得好 兄弟 我们甩掉他了{\r}\NGreat job, buddy. We lost him.{\r}
+Dialogue: 0,1:10:28.25,1:10:29.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布!{\r}\NBoo!{\r}
+Dialogue: 0,1:10:30.92,1:10:32.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不!{\r}\NNo!{\r}
+Dialogue: 0,1:10:34.25,1:10:36.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}和你合作真是太愉快了{\r}\NNice working with you.{\r}
+Dialogue: 0,1:10:36.42,1:10:37.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 把门打开!  - 我正开着呢!{\r}\N- Get it open!  - I'm trying!{\r}
+Dialogue: 0,1:10:37.93,1:10:40.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 把门打开!  - 快点 进来{\r}\N- Open the door!  - Come on, get in here.{\r}
+Dialogue: 0,1:10:50.23,1:10:51.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布!{\r}\NBoo!{\r}
+Dialogue: 0,1:10:54.86,1:10:56.40,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}他们在那儿!{\r}\NThere they are!{\r}
+Dialogue: 0,1:11:00.20,1:11:02.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏 你要干嘛? 小苏!{\r}\NSulley, what are you doing? Sulley!{\r}
+Dialogue: 0,1:11:07.00,1:11:09.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 看来我们赶上列车了  - 看到他们了吗?{\r}\N- Looks like we caught the express.  - Do you see them?{\r}
+Dialogue: 0,1:11:09.96,1:11:11.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就在前面{\r}\NStraight ahead.{\r}
+Dialogue: 0,1:11:35.40,1:11:36.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 猫咪  - 阿布{\r}\N- Kitty.  - Boo.{\r}
+Dialogue: 0,1:11:43.66,1:11:47.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看看这个最受欢迎的怪兽啊{\r}\NLook at everybody's favorite scarer now.{\r}
+Dialogue: 0,1:11:47.16,1:11:50.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你这个蠢货 可怜虫 垃圾{\r}\NYou stupid, pathetic waste.{\r}
+Dialogue: 0,1:11:53.29,1:11:57.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你坐头把交椅的时间够长了 苏利文 风水轮流转啊{\r}\NYou've been number one for too long, Sullivan. Now your time is up.{\r}
+Dialogue: 0,1:11:58.34,1:12:02.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别担心 我会好好关照这孩子的{\r}\NAnd don't worry. I'll take good care of the kid.{\r}
+Dialogue: 0,1:12:03.05,1:12:04.22,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不!{\r}\NNo!{\r}
+Dialogue: 0,1:12:25.87,1:12:28.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}她一点也不怕你了{\r}\NShe's not scared of you anymore.{\r}
+Dialogue: 0,1:12:29.54,1:12:31.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看来你得换份工作了{\r}\NLooks like you're out of a job.{\r}
+Dialogue: 0,1:12:32.87,1:12:35.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 把他飞过来 展示下你的经典大招{\r}\NOK, over the plate. Let's see the old stuff.{\r}
+Dialogue: 0,1:12:35.88,1:12:37.79,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}使劲丢 宝贝儿{\r}\NChuck him, baby.{\r}
+Dialogue: 0,1:12:37.88,1:12:41.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一个投球 他就出局了{\r}\NHere's the pitch and he is out of here.{\r}
+Dialogue: 0,1:12:42.59,1:12:45.97,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 妈妈 房子里又进了一只鳄鱼  - 又有鳄鱼?{\r}\N- Mama, another gator got in the house.  - Another gator?{\r}
+Dialogue: 0,1:12:46.05,1:12:48.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把铁锹给我!{\r}\NGive me that shovel. There!{\r}
+Dialogue: 0,1:12:48.76,1:12:50.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}干掉它 妈妈 干掉鳄鱼{\r}\NGet him, Mama. Get that gator.{\r}
+Dialogue: 0,1:12:52.85,1:12:55.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 愿意帮个忙吗 小迈?  - 乐意之极{\r}\N- Care to do the honors, Mikey? - With pleasure.{\r}
+Dialogue: 0,1:13:05.53,1:13:07.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这就对了 阿布 你做到了{\r}\NThat's right, Boo. You did it.{\r}
+Dialogue: 0,1:13:07.66,1:13:09.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你打败他了{\r}\NYou beat him.{\r}
+Dialogue: 0,1:13:09.49,1:13:10.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}走吧{\r}\NCome on.{\r}
+Dialogue: 0,1:13:13.91,1:13:15.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好了 阿布 该回家了{\r}\NOK, Boo, it's time to go home.{\r}
+Dialogue: 0,1:13:15.46,1:13:18.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好好照顾自己 要乖 知道吗?{\r}\NTake care of yourself and be a good girl, OK?{\r}
+Dialogue: 0,1:13:19.67,1:13:22.42,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 哦 不  - 停电了 逗她笑{\r}\N- Oh, no.  - The power's out. Make her laugh.{\r}
+Dialogue: 0,1:13:22.51,1:13:25.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}接下来我要施展我的成名绝技{\r}\NAll right. I got a move here that'll bring down the house.{\r}
+Dialogue: 0,1:13:29.47,1:13:31.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 抱歉 她没看到  - 什么?{\r}\N- Sorry. She didn't see that.  - What?{\r}
+Dialogue: 0,1:13:31.77,1:13:34.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}什么 你忘了把她的帽子拿下来了 大个子?{\r}\NWhat, did you forget to check if her hood was up, you big dope?{\r}
+Dialogue: 0,1:13:34.98,1:13:37.98,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克叔叔 别在小朋友面前大吼大叫{\r}\NUncle Mike, try not to yell in front of her.{\r}
+Dialogue: 0,1:13:38.11,1:13:40.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我们是需要逗她笑的  - 哦对{\r}\N- You know we need her to laugh.  - Right.{\r}
+Dialogue: 0,1:13:41.11,1:13:43.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘿 阿布 开个玩笑 看{\r}\NHey, Boo. Just kidding. Look.{\r}
+Dialogue: 0,1:13:43.90,1:13:45.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很搞笑 是吧? 看...{\r}\NFunny, right? See, with the...{\r}
+Dialogue: 0,1:13:45.99,1:13:49.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我很卖力的 孩子 怎么了?{\r}\NThese are the jokes, kid. What's happening?{\r}
+Dialogue: 0,1:13:50.33,1:13:51.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}抓住了{\r}\NHold on.{\r}
+Dialogue: 0,1:13:52.33,1:13:55.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等那扇门到了工作站 就切断电源{\r}\NWhen the door lands in the station, cut the power.{\r}
+Dialogue: 0,1:13:55.12,1:13:59.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你们就能抓到那孩子和这一切的罪魁祸首{\r}\NYou'll have the child and the criminals responsible for this whole mess.{\r}
+Dialogue: 0,1:14:00.96,1:14:03.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好极了 欢迎大会 我们该怎么办?{\r}\NGreat. A welcoming committee. What are we gonna do?{\r}
+Dialogue: 0,1:14:16.52,1:14:21.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们是儿童检测署 交出孩子 慢慢走出来{\r}\NThis is the CDA. Come out slowly with the child in plain sight.{\r}
+Dialogue: 0,1:14:21.11,1:14:23.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 好吧 被你们抓住了{\r}\NOK, OK, you got us.{\r}
+Dialogue: 0,1:14:24.03,1:14:25.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们在这 孩子也在这{\r}\NHere we are. Here's the kid.{\r}
+Dialogue: 0,1:14:25.74,1:14:29.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我会合作的 但在把我带走之前 我要说件事{\r}\NI'll cooperate, but before you take us away, I have one thing to say.{\r}
+Dialogue: 0,1:14:31.20,1:14:33.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 去抓吧  - 2319号警报{\r}\N- Catch.  - 2319.{\r}
+Dialogue: 0,1:14:33.83,1:14:35.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们被有毒物体击中{\r}\NWe have a toxic projectile.{\r}
+Dialogue: 0,1:14:36.62,1:14:39.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 抓住嫌疑人  - 拦住他!{\r}\N- After the suspect.  - Stop him!{\r}
+Dialogue: 0,1:14:43.09,1:14:45.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快走  - 别让他跑了{\r}\N- Come on.  - Don't let them get away.{\r}
+Dialogue: 0,1:14:47.92,1:14:50.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}等一下 回来 孩子在他那里{\r}\NWait. Come back. He has the child.{\r}
+Dialogue: 0,1:14:56.10,1:14:58.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}苏利文 苏利文!{\r}\NSullivan. Sullivan!{\r}
+Dialogue: 0,1:14:58.31,1:15:02.02,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把孩子给我 把她给我!{\r}\NGive me the child. Give her to me!{\r}
+Dialogue: 0,1:15:11.03,1:15:13.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把门打开 把门打开!{\r}\NOpen this door. Open this door!{\r}
+Dialogue: 0,1:15:19.71,1:15:20.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快停下{\r}\NStop it.{\r}
+Dialogue: 0,1:15:21.21,1:15:22.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别这样{\r}\NDon't do it.{\r}
+Dialogue: 0,1:15:24.13,1:15:26.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快点  - 别进去{\r}\N- Come on.  - Don't go in that room.{\r}
+Dialogue: 0,1:15:30.38,1:15:33.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我想我甩掉他了 阿布 你安全了{\r}\NI think we stopped him, Boo. You're safe now.{\r}
+Dialogue: 0,1:15:33.39,1:15:35.30,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你要乖乖的 好吗?{\r}\NYou be a good girl, OK?{\r}
+Dialogue: 0,1:15:36.56,1:15:40.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你太过分了 詹姆斯  - 这是她家 别再打扰她了{\r}\N- This has gone far enough, James.  - She's home. Leave her alone.{\r}
+Dialogue: 0,1:15:40.31,1:15:42.90,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不能 她知道的太多了{\r}\NI can't do that. She's seen too much.{\r}
+Dialogue: 0,1:15:43.06,1:15:45.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你也是  - 并不是非得这样{\r}\N- You both have.  - It doesn't have to be this way.{\r}
+Dialogue: 0,1:15:45.77,1:15:48.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我别无选择 时代不同了{\r}\NI have no choice. Times have changed.{\r}
+Dialogue: 0,1:15:48.61,1:15:51.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 恐吓已经满足不了能源的需要了  - 那你就绑架孩子?{\r}\N- Scaring isn't enough anymore.  - But kidnapping?{\r}
+Dialogue: 0,1:15:51.74,1:15:55.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为了不让公司倒闭 就算绑架1000个孩子我也愿意{\r}\NI'll kidnap 1,000 children before I let the company die.{\r}
+Dialogue: 0,1:15:55.16,1:15:58.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}挡路的人都得死!{\r}\NAnd I'll silence anyone who gets in my way!{\r}
+Dialogue: 0,1:15:59.87,1:16:01.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不!{\r}\NNo!{\r}
+Dialogue: 0,1:16:01.37,1:16:02.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 晚安 妈妈  - 晚安 宝贝儿{\r}\N- Night, Mom.  - Night, sweetheart.{\r}
+Dialogue: 0,1:16:02.92,1:16:04.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 晚安 妈妈  - 这是什么?{\r}\N- Night, Mom.  - What is this?{\r}
+Dialogue: 0,1:16:04.54,1:16:08.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}演习结束 演习结束{\r}\NSimulation terminated. Simulation terminated.{\r}
+Dialogue: 0,1:16:08.63,1:16:11.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 不管你们发没发现{\r}\NWell, I don't know about the rest of you guys,{\r}
+Dialogue: 0,1:16:11.42,1:16:13.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}反正我是发现了好几处大错误{\r}\Nbut I spotted several big mistakes.{\r}
+Dialogue: 0,1:16:13.93,1:16:15.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但怎么...{\r}\NBut how did...{\r}
+Dialogue: 0,1:16:15.93,1:16:19.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猜怎么着? 我们再看一遍我最喜欢的那段 怎么样?{\r}\NYou know what? Let's watch my favorite part again. Shall we?{\r}
+Dialogue: 0,1:16:19.43,1:16:22.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为了不让公司倒闭 就算绑架1000个孩子我也愿意{\r}\NI'll kidnap 1,000 children before I let this company die.{\r}
+Dialogue: 0,1:16:23.19,1:16:26.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为了不让公司倒闭 就算绑架1000个孩子我也愿意{\r}\NI'll kidnap 1,000 children before I let this company die.{\r}
+Dialogue: 0,1:16:26.82,1:16:30.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}为了不让公司倒闭 就算绑架1000个孩子我也愿意{\r}\NI'll kidnap 1,000 children before I let this company die.{\r}
+Dialogue: 0,1:16:31.32,1:16:32.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 跟我们走  - 你们在干什么?{\r}\N- Come with us.  - What are you doing?{\r}
+Dialogue: 0,1:16:32.57,1:16:34.86,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}把手拿开 你们不能抓我{\r}\NTake your hands off. You can't arrest me.{\r}
+Dialogue: 0,1:16:34.95,1:16:38.45,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这下你高兴了吧 苏利文 你毁了公司{\r}\NI hope you're happy, Sullivan. You destroyed this company.{\r}
+Dialogue: 0,1:16:38.54,1:16:42.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}怪兽电力公司要关门了! 员工们再去哪收集尖叫?{\r}\NMonsters, Incorporated is dead! Where will everyone get their scream?{\r}
+Dialogue: 0,1:16:43.08,1:16:47.17,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}是你让能源危机更严重了!{\r}\NThe energy crisis will only get worse because of you!{\r}
+Dialogue: 0,1:16:52.05,1:16:54.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}站住别动 老大想要见你们{\r}\NStay where you are. Number one wants to talk to you.{\r}
+Dialogue: 0,1:16:54.80,1:16:56.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}注意了{\r}\NAttention.{\r}
+Dialogue: 0,1:17:03.27,1:17:04.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你们好 小伙子们{\r}\NHello, boys.{\r}
+Dialogue: 0,1:17:05.15,1:17:06.31,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 是萝丝?  - 是萝丝?{\r}\N- Roz?  - Roz?{\r}
+Dialogue: 0,1:17:07.56,1:17:12.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}两年半卧底工作差点功亏一篑{\r}\NTwo and a half years of undercover work were almost wasted{\r}
+Dialogue: 0,1:17:12.32,1:17:15.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}就因为你救了那个孩子 苏利文{\r}\Nwhen you intercepted that child, Mr. Sullivan.{\r}
+Dialogue: 0,1:17:16.11,1:17:17.95,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}当然 如果没有你帮忙{\r}\NOf course, without your help,{\r}
+Dialogue: 0,1:17:18.03,1:17:22.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我发现不了这一切都是沃特努斯在幕后主使{\r}\NI never would have known that this went all the way up to Waternoose.{\r}
+Dialogue: 0,1:17:26.25,1:17:28.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}现在 这个女孩{\r}\NNow, about the girl.{\r}
+Dialogue: 0,1:17:29.34,1:17:31.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我只想把她送回家{\r}\NI just want to send her home.{\r}
+Dialogue: 0,1:17:32.51,1:17:33.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很好{\r}\NVery good.{\r}
+Dialogue: 0,1:17:34.55,1:17:37.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 给我送个粉碎机  - 什么? 你要...{\r}\N- Bring me a door shredder.  - What? You mean...{\r}
+Dialogue: 0,1:17:37.55,1:17:39.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你是说我再也见不到她了?{\r}\NYou mean I can't see her again?{\r}
+Dialogue: 0,1:17:40.26,1:17:42.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}只能这样了{\r}\NThat's the way it has to be.{\r}
+Dialogue: 0,1:17:43.98,1:17:45.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}给你五分钟{\r}\NI'll give you five minutes.{\r}
+Dialogue: 0,1:17:57.53,1:18:00.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 再见了 孩子  - 迈克·华斯基{\r}\N- Well, so long, kid.  - Mike Wazowski.{\r}
+Dialogue: 0,1:18:00.74,1:18:01.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧{\r}\NYeah.{\r}
+Dialogue: 0,1:18:02.37,1:18:03.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 阿布{\r}\NBoo.{\r}
+Dialogue: 0,1:18:03.62,1:18:05.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}和你一起很开心{\r}\NIt's been fun.{\r}
+Dialogue: 0,1:18:07.75,1:18:09.92,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}走吧 好好长大{\r}\NGo ahead. Go grow up.{\r}
+Dialogue: 0,1:18:30.06,1:18:31.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不行 阿布...{\r}\NBut, Boo...{\r}
+Dialogue: 0,1:18:32.57,1:18:33.69,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布{\r}\NBoo.{\r}
+Dialogue: 0,1:18:34.48,1:18:36.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看啊 你知道...{\r}\NLook at that. You know...{\r}
+Dialogue: 0,1:18:37.65,1:18:39.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真可爱 是啊{\r}\NThat's cute. Yeah.{\r}
+Dialogue: 0,1:18:40.78,1:18:41.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布...{\r}\NBoo...{\r}
+Dialogue: 0,1:18:43.54,1:18:45.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧 你真好{\r}\NWell, that's very nice.{\r}
+Dialogue: 0,1:18:46.75,1:18:48.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}来!{\r}\NCome here, you!{\r}
+Dialogue: 0,1:18:56.34,1:18:58.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}哦 他是快乐熊{\r}\NOh, he's a happy bear{\r}
+Dialogue: 0,1:19:04.76,1:19:08.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再也不会有怪物从衣橱里出来吓唬你了 对吧?{\r}\NNothing's coming out of your closet to scare you anymore, right?{\r}
+Dialogue: 0,1:19:08.81,1:19:10.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}对啊{\r}\NYeah.{\r}
+Dialogue: 0,1:19:12.15,1:19:13.65,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再见了 阿布{\r}\NGoodbye, Boo.{\r}
+Dialogue: 0,1:19:14.77,1:19:15.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪{\r}\NKitty.{\r}
+Dialogue: 0,1:19:17.28,1:19:18.94,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪得走了{\r}\NKitty has to go.{\r}
+Dialogue: 0,1:19:59.61,1:20:00.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嘣{\r}\NBoo.{\r}
+Dialogue: 0,1:20:03.82,1:20:05.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪?{\r}\NKitty?{\r}
+Dialogue: 0,1:20:14.29,1:20:17.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}同志们 就当一切都没发生过{\r}\NNone of this ever happened, gentlemen.{\r}
+Dialogue: 0,1:20:18.55,1:20:22.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我不想看到任何关于这件事情的记录{\r}\NAnd I don't want to see any paperwork on this.{\r}
+Dialogue: 0,1:20:44.41,1:20:45.91,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}开车吧{\r}\NTake him away.{\r}
+Dialogue: 0,1:20:48.95,1:20:51.12,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我猜我们今天可以下班了{\r}\NI bet we get the rest of the day off.{\r}
+Dialogue: 0,1:20:51.20,1:20:54.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你个蠢货 工厂要关门了{\r}\NYou idiot. They're gonna shut down the factory.{\r}
+Dialogue: 0,1:20:57.34,1:20:59.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}墙升上去的时候 你真应该看看沃特努斯的那张脸{\r}\NWhen that wall went up, you should have seen Waternoose's face.{\r}
+Dialogue: 0,1:21:00.55,1:21:02.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真想把他照下来{\r}\NI hope we get a copy of that tape.{\r}
+Dialogue: 0,1:21:02.80,1:21:04.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你还好吗?{\r}\NAre you all right?{\r}
+Dialogue: 0,1:21:04.43,1:21:06.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}来吧 兄弟 高兴点 我们成功了!{\r}\NCome on, pal. Cheer up. We did it!{\r}
+Dialogue: 0,1:21:06.34,1:21:07.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们把阿布送回家了{\r}\NWe got Boo home.{\r}
+Dialogue: 0,1:21:07.89,1:21:10.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}虽然 我们让公司面临倒闭{\r}\NSure, we put the factory in the toilet and{\r}
+Dialogue: 0,1:21:10.60,1:21:12.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}成百上千的人要失业了{\r}\Nhundreds of people will be out of work.{\r}
+Dialogue: 0,1:21:12.85,1:21:15.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}更别提能源短缺了 愤怒的人们会追着我们打{\r}\NNot to mention the mob that will come after us when there's no power,{\r}
+Dialogue: 0,1:21:15.81,1:21:18.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但至少我们听到一点笑声了 对吧?{\r}\Nbut at least we had some laughs, right?{\r}
+Dialogue: 0,1:21:22.53,1:21:23.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}笑声{\r}\NLaughs.{\r}
+Dialogue: 0,1:21:44.26,1:21:46.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}开了吗? 喂? 喂? 试试音效{\r}\NIs this thing on? Hello? Hello? Testing.{\r}
+Dialogue: 0,1:21:47.30,1:21:49.68,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}晚上好 很高兴见到你{\r}\NGood evening. Nice to see you.{\r}
+Dialogue: 0,1:21:49.76,1:21:52.26,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你房间真不错{\r}\NIt's great to be here in your room.{\r}
+Dialogue: 0,1:21:52.35,1:21:54.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你从哪里来的?{\r}\NWhere are you from?{\r}
+Dialogue: 0,1:21:55.39,1:21:58.19,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你上幼儿园 对吧? 我喜欢幼儿园{\r}\NYou're in kindergarten, right? I love kindergarten.{\r}
+Dialogue: 0,1:21:58.27,1:22:00.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}那是我最快乐的时光{\r}\NBest three years of my life.{\r}
+Dialogue: 0,1:22:01.11,1:22:04.03,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}这辈子最快乐的 但我喜欢运动{\r}\NOf my life. But I love sports.{\r}
+Dialogue: 0,1:22:04.19,1:22:07.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}躲避球是我的最爱 我总是最敏捷的那个{\r}\NDodgeball was the best. I was the fastest one out there.{\r}
+Dialogue: 0,1:22:07.57,1:22:09.53,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}当然了 我就是那个球{\r}\NOf course, I was the ball.{\r}
+Dialogue: 0,1:22:09.62,1:22:12.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我就是那个球 好吧...{\r}\NI was the ball, see...{\r}
+Dialogue: 0,1:22:12.79,1:22:14.29,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好吧{\r}\NAll right.{\r}
+Dialogue: 0,1:22:28.93,1:22:31.14,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}万分感谢 这周我都会来{\r}\NThanks a lot. I'll be here all week.{\r}
+Dialogue: 0,1:22:31.22,1:22:33.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别忘了给点小费{\r}\NRemember to tip your waitresses.{\r}
+Dialogue: 0,1:22:37.39,1:22:40.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}干得好 小迈 你在第一个孩子那里就完成了今天的任务量{\r}\NGreat job, Mikey. You filled your quota on the first kid of the day.{\r}
+Dialogue: 0,1:22:40.65,1:22:43.73,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}很棒吧 只有有绝佳喜剧天赋的人{\r}\NNot bad. Only somebody with perfect comedic timing{\r}
+Dialogue: 0,1:22:43.82,1:22:46.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}才能一次就收集这么多的能源{\r}\Ncould produce this much energy in one shot.{\r}
+Dialogue: 0,1:22:46.69,1:22:49.57,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}但这和笑声的能量是尖叫的能量的十倍{\r}\NAnd the fact that laughter is ten times more powerful than scream{\r}
+Dialogue: 0,1:22:49.66,1:22:51.24,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一点关系都没有?{\r}\Nhad nothing to do with it?{\r}
+Dialogue: 0,1:22:51.32,1:22:54.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大眼儿熊 你 过来嘛{\r}\NGoogly bear, come here, you.{\r}
+Dialogue: 0,1:22:55.29,1:22:57.62,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 小甜甜!  - 大眼儿熊{\r}\N- Schmoopsie-pooh!  - Googly.{\r}
+Dialogue: 0,1:23:00.29,1:23:03.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}姐妹们 停一下 停 停{\r}\NGirls, stop, stop, stop.{\r}
+Dialogue: 0,1:23:04.30,1:23:06.55,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 你真迷人{\r}\NMichael, you're such a charmer.{\r}
+Dialogue: 0,1:23:06.63,1:23:09.13,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 你把杂志带来了吗?  - 刚送来 一大箱呢{\r}\N- Did you bring the magazine?  - They just delivered a whole box.{\r}
+Dialogue: 0,1:23:09.22,1:23:10.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}让我看看!{\r}\NLet me see it!{\r}
+Dialogue: 0,1:23:11.18,1:23:13.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}小苏和我上封面了 是吧?{\r}\NSulley and I made the cover, right?{\r}
+Dialogue: 0,1:23:14.60,1:23:16.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}真难以置信!{\r}\NI don't believe it!{\r}
+Dialogue: 0,1:23:16.81,1:23:18.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大眼儿熊{\r}\NGoogly bear.{\r}
+Dialogue: 0,1:23:18.60,1:23:22.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我上封面啦!{\r}\NI'm on the cover of a magazine!{\r}
+Dialogue: 0,1:23:28.28,1:23:30.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}太棒了{\r}\NThis is great.{\r}
+Dialogue: 0,1:23:57.81,1:23:59.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 嘿 小苏  - 嘿 迈克{\r}\N- Hey, Sulley.  - Hey, Mike.{\r}
+Dialogue: 0,1:23:59.89,1:24:02.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 我在...  - 我想给你看样东西{\r}\N- I was...  - There's something I want to show you.{\r}
+Dialogue: 0,1:24:02.60,1:24:04.56,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}闭上眼睛 跟我走{\r}\NClose your eyes. Follow me.{\r}
+Dialogue: 0,1:24:04.65,1:24:07.23,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}快点 不准偷看{\r}\NCome on. No peeking.{\r}
+Dialogue: 0,1:24:08.40,1:24:10.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}一直走 别停{\r}\NKeep coming, keep coming.{\r}
+Dialogue: 0,1:24:10.45,1:24:11.49,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}- 快点  - 迈克!{\r}\N- Come on.  - Mike!{\r}
+Dialogue: 0,1:24:11.57,1:24:14.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}跟着我磁性的嗓音走{\r}\NFollow the sultry sound of my voice.{\r}
+Dialogue: 0,1:24:14.24,1:24:15.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}好 停{\r}\NOK, stop.{\r}
+Dialogue: 0,1:24:15.45,1:24:16.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}睁开眼睛{\r}\NOpen 'em.{\r}
+Dialogue: 0,1:24:20.16,1:24:22.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}迈克 这是...{\r}\NMike, is that...{\r}
+Dialogue: 0,1:24:23.17,1:24:25.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}抱歉我用了很长时间才修好 兄弟{\r}\NSorry it took so long, pal.{\r}
+Dialogue: 0,1:24:25.08,1:24:27.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}碎成太多块了{\r}\NThere was a lot of wood to go through.{\r}
+Dialogue: 0,1:24:28.00,1:24:30.71,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}只有一块不少门才好用{\r}\NIt only works if you have every piece.{\r}
+Dialogue: 0,1:24:58.62,1:24:59.78,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}阿布?{\r}\NBoo?{\r}
+Dialogue: 0,1:25:00.75,1:25:02.75,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}猫咪!{\r}\NKitty!{\r}
+Dialogue: 0,1:25:15.11,1:25:18.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果我是个富翁 #{\r}\N# If I were a rich man #{\r}
+Dialogue: 0,1:25:18.92,1:25:22.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 有个一两百万的 #{\r}\N# With a million or two #{\r}
+Dialogue: 0,1:25:22.92,1:25:25.74,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我要住在阁楼上 #{\r}\N# I'd live in a penthouse #{\r}
+Dialogue: 0,1:25:25.96,1:25:30.34,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 周围美景尽收眼底 #{\r}\N# In a room with a view #{\r}
+Dialogue: 0,1:25:30.56,1:25:32.36,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果我是个帅哥 #{\r}\N# And if I were handsome #{\r}
+Dialogue: 0,1:25:32.43,1:25:33.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}不可能{\r}\NNo way.{\r}
+Dialogue: 0,1:25:33.43,1:25:34.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}说不定呢{\r}\NIt could happen.{\r}
+Dialogue: 0,1:25:34.74,1:25:38.77,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 所有的梦想都已实现 #{\r}\N# Those dreams do come true #{\r}
+Dialogue: 0,1:25:39.01,1:25:42.81,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 但如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have you #{\r}
+Dialogue: 0,1:25:43.04,1:25:46.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 没有你我会一无所有 #{\r}\N# Wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:25:46.98,1:25:50.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 没有你我会一无所有 #{\r}\N# Wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:25:50.69,1:25:52.93,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 一无所有 #{\r}\N# Wouldn't have nothing #{\r}
+Dialogue: 0,1:25:53.02,1:25:54.59,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我能来一句吗?{\r}\NCan I tell you something?{\r}
+Dialogue: 0,1:25:54.69,1:25:56.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 这些年我很嫉妒你 #{\r}\N# For years I have envied #{\r}
+Dialogue: 0,1:25:57.03,1:25:58.05,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你嫉妒我{\r}\NYou were green with it.{\r}
+Dialogue: 0,1:25:58.13,1:26:01.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 嫉妒你优雅而迷人 #{\r}\N# Your grace and your charm #{\r}
+Dialogue: 0,1:26:02.06,1:26:06.70,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 要知道 大家都爱你 #{\r}\N# Everyone loves you, you know #{\r}
+Dialogue: 0,1:26:06.90,1:26:10.07,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 是的 我知道 我知道 #{\r}\N# Yes, I know, I know, I know #{\r}
+Dialogue: 0,1:26:10.24,1:26:13.44,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 但我不得不承认 #{\r}\N# But I must admit it #{\r}
+Dialogue: 0,1:26:13.64,1:26:17.87,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 老兄 你总是信守承诺 #{\r}\N# Big guy, you always come through #{\r}
+Dialogue: 0,1:26:18.08,1:26:23.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have you #{\r}
+Dialogue: 0,1:26:25.62,1:26:29.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 兄弟齐心 #{\r}\N# You and me together #{\r}
+Dialogue: 0,1:26:29.36,1:26:33.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 友谊天长地久 #{\r}\N# That's how it always should be #{\r}
+Dialogue: 0,1:26:33.20,1:26:39.06,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 没有你的人生毫无意义 #{\r}\N# One without the other don't mean nothing to me #{\r}
+Dialogue: 0,1:26:39.30,1:26:43.82,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 毫无意义 #{\r}\N# Nothing to me #{\r}
+Dialogue: 0,1:26:44.01,1:26:45.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 是啊 一无所成 #{\r}\N# Yeah, I wouldn't be nothing #{\r}
+Dialogue: 0,1:26:45.75,1:26:47.28,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 一无所成 #{\r}\N# No #{\r}
+Dialogue: 0,1:26:47.35,1:26:50.80,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你 #{\r}\N# If I didn't have you to serve #{\r}
+Dialogue: 0,1:26:50.98,1:26:54.76,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我只是个小眼球 #{\r}\N# I'm just a punky little eyeball #{\r}
+Dialogue: 0,1:26:54.99,1:26:58.54,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 连着个视神经 #{\r}\N# And a funky optic nerve #{\r}
+Dialogue: 0,1:26:58.69,1:27:02.41,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 嘿 我从没跟你说过 #{\r}\N# Hey, I never told you this #{\r}
+Dialogue: 0,1:27:02.66,1:27:05.16,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 有时候我会忧郁 #{\r}\N# Sometimes I get a little blue #{\r}
+Dialogue: 0,1:27:05.27,1:27:06.83,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}忧郁很适合你{\r}\NLooks good on you.{\r}
+Dialogue: 0,1:27:06.90,1:27:09.11,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我就一无所有 #{\r}\N# But I wouldn't have nothing #{\r}
+Dialogue: 0,1:27:09.27,1:27:12.18,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你 #{\r}\N# If I didn't have you... #{\r}
+Dialogue: 0,1:27:12.31,1:27:15.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们来跳舞{\r}\NLet's dance.{\r}
+Dialogue: 0,1:27:15.84,1:27:17.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看 兄弟 我在跳舞!{\r}\NLook, Ma, I'm dancing!{\r}
+Dialogue: 0,1:27:20.48,1:27:22.47,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我能领舞吗?{\r}\NWould you let me lead?{\r}
+Dialogue: 0,1:27:22.58,1:27:24.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}看啊 这是真的{\r}\NLook at that. It's true.{\r}
+Dialogue: 0,1:27:24.29,1:27:26.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大块头跳起舞来这么轻盈{\r}\NBig guys are light on their feet.{\r}
+Dialogue: 0,1:27:26.52,1:27:27.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别让我下腰{\r}\NDon't you dare dip me.{\r}
+Dialogue: 0,1:27:27.69,1:27:29.96,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}别让我下腰 别让我下腰{\r}\NDon't you dare dip me, don't you dare dip me.{\r}
+Dialogue: 0,1:27:30.06,1:27:32.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}嗷 我应该先拉伸一下的{\r}\NOw. I should have stretched.{\r}
+Dialogue: 0,1:27:32.13,1:27:35.43,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 是啊 我会一无所有 #{\r}\N# Yes, I wouldn't be nothing #{\r}
+Dialogue: 0,1:27:35.63,1:27:38.00,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你 #{\r}\N# If I didn't have you #{\r}
+Dialogue: 0,1:27:38.10,1:27:39.48,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我懂你的 小苏{\r}\NI know what you mean, Sulley.{\r}
+Dialogue: 0,1:27:39.60,1:27:40.50,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 因为... #{\r}\N# Because... #{\r}
+Dialogue: 0,1:27:40.60,1:27:42.01,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我会迷失方向 #{\r}\N# I wouldn't know where to go #{\r}
+Dialogue: 0,1:27:42.07,1:27:43.35,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 我也是 因为我... #{\r}\N# Me, too, because I... #{\r}
+Dialogue: 0,1:27:43.41,1:27:45.52,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 也不知如何是好 #{\r}\N# Wouldn't know what to do #{\r}
+Dialogue: 0,1:27:45.61,1:27:47.27,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}你怎么老是抢我的部分?{\r}\NWhy do you keep singing my part?{\r}
+Dialogue: 0,1:27:47.34,1:27:50.10,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 一切尽在不言中 #{\r}\N# I don't have to say it #{\r}
+Dialogue: 0,1:27:50.25,1:27:51.37,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}啊 还是说出来吧{\r}\NAh, say it anyway.{\r}
+Dialogue: 0,1:27:51.42,1:27:52.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 因为我们... #{\r}\N# 'Cause we... #{\r}
+Dialogue: 0,1:27:52.42,1:27:55.04,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 都知道这是实话 #{\r}\N# Both know it's true #{\r}
+Dialogue: 0,1:27:55.15,1:27:59.67,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:27:59.99,1:28:03.51,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:28:03.66,1:28:07.89,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have you #{\r}
+Dialogue: 0,1:28:08.07,1:28:14.15,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# Wouldn't have nothing if I didn't have you. #{\r}
+Dialogue: 0,1:28:15.41,1:28:17.39,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}再来一遍{\r}\NOne more time.{\r}
+Dialogue: 0,1:28:19.35,1:28:20.21,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}唱得好!{\r}\NIt worked!{\r}
+Dialogue: 0,1:28:20.35,1:28:22.08,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 一切尽在不言中 #{\r}\N# I don't have to say it #{\r}
+Dialogue: 0,1:28:22.15,1:28:23.46,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}大家怎么都来了?{\r}\NWhere'd everybody come from?{\r}
+Dialogue: 0,1:28:23.58,1:28:25.60,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 因为我们都知道这是实话 #{\r}\N# 'Cause we both know it's true #{\r}
+Dialogue: 0,1:28:25.75,1:28:27.61,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}我们回家再唱 大块头{\r}\NLet's take it home, big guy.{\r}
+Dialogue: 0,1:28:27.75,1:28:31.63,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:28:31.86,1:28:35.38,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have #{\r}
+Dialogue: 0,1:28:35.53,1:28:40.62,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 如果没有你我会一无所有 #{\r}\N# I wouldn't have nothing if I didn't have you #{\r}
+Dialogue: 0,1:28:40.84,1:28:42.85,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 你 你 #{\r}\N# You, you #{\r}
+Dialogue: 0,1:28:42.94,1:28:44.99,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 不是A E I O... #{\r}\N# A, E, I, O... #{\r}
+Dialogue: 0,1:28:45.11,1:28:46.84,Default,Default,0000,0000,0000,,{\bord1\3c&HFF8000&}# 而是你 耶 #{\r}\N# That means you, yeah. #{\r}

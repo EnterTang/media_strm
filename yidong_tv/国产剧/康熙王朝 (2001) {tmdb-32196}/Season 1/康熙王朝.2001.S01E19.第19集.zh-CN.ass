@@ -1,0 +1,656 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,18,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,0,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.20,0:00:03.00,Default,,0,0,0,,{\blur3\fn隶书\fs40\pos(186,130.363)\c&HB7BCB9&\b0}铜鼎记
+Dialogue: 0,0:00:06.00,0:00:07.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三德子
+Dialogue: 0,0:00:08.36,0:00:12.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你去看看那插柳吟诗的是谁
+Dialogue: 0,0:00:13.68,0:00:15.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}法印 在
+Dialogue: 0,0:00:15.28,0:00:19.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你跟上骡车 看看坐车的是谁
+Dialogue: 0,0:00:19.96,0:00:21.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那您呢
+Dialogue: 0,0:00:23.32,0:00:26.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你倒是有于大人的条子给放了出来
+Dialogue: 0,0:00:26.28,0:00:28.84,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}人家马赛赛还关在顺天府的大牢
+Dialogue: 0,0:00:29.00,0:00:31.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我去看看马赛赛
+Dialogue: 0,0:00:31.60,0:00:34.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您去合适 您去真合适
+Dialogue: 0,0:00:36.64,0:00:38.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}什么意思
+Dialogue: 0,0:00:44.76,0:00:46.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于六爷 咱们走吧
+Dialogue: 0,0:00:47.16,0:00:48.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷请
+Dialogue: 0,0:00:50.40,0:00:53.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}大哥 大哥
+Dialogue: 0,0:00:54.00,0:00:57.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}听人家说你又拿柳枝换了钱了 是吗
+Dialogue: 0,0:00:57.24,0:00:59.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有这事吗 瞧见了吗
+Dialogue: 0,0:00:59.60,0:01:01.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}大哥 几天没喝酒了
+Dialogue: 0,0:01:01.44,0:01:02.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}请小的们喝一顿吧
+Dialogue: 0,0:01:03.00,0:01:04.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是 就是
+Dialogue: 0,0:01:04.60,0:01:05.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我告诉你们说
+Dialogue: 0,0:01:06.00,0:01:09.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今儿这钱一分都不能动
+Dialogue: 0,0:01:09.56,0:01:11.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那是干嘛的
+Dialogue: 0,0:01:11.92,0:01:14.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}难道还怕他不成了 就是
+Dialogue: 0,0:01:14.44,0:01:19.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这钱我待会儿给他送回去
+Dialogue: 0,0:01:19.40,0:01:22.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}大哥 大哥
+Dialogue: 0,0:01:23.16,0:01:24.38,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您看我这壶怎么样
+Dialogue: 0,0:01:24.56,0:01:25.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}兄弟 我麻烦你件事
+Dialogue: 0,0:01:26.12,0:01:26.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}什么事 您说
+Dialogue: 0,0:01:27.12,0:01:29.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}刚才那个咋咋唬唬的这位是谁呀
+Dialogue: 0,0:01:29.48,0:01:32.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他你都不认识 不认识最好
+Dialogue: 0,0:01:32.52,0:01:34.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}认识了心里是病 是吗
+Dialogue: 0,0:01:34.56,0:01:35.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他大号是牟九
+Dialogue: 0,0:01:36.08,0:01:38.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是这条街上的第一大泼皮
+Dialogue: 0,0:01:38.92,0:01:41.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}牟九
+Dialogue: 0,0:01:41.84,0:01:44.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有劳这位仁兄
+Dialogue: 0,0:01:45.20,0:01:46.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这壶您这
+Dialogue: 0,0:02:39.84,0:02:42.30,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}待会儿那人拿片子来
+Dialogue: 0,0:02:42.48,0:02:45.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你让他进去等 是
+Dialogue: 0,0:03:06.60,0:03:07.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}唱什么 别唱了
+Dialogue: 0,0:03:08.12,0:03:09.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你当这是窑子呢
+Dialogue: 0,0:03:11.80,0:03:15.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好呀 你不想听就把我放出去
+Dialogue: 0,0:03:15.44,0:03:17.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你以为我是唱给你听的吗
+Dialogue: 0,0:03:17.68,0:03:20.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}俗话的拳不离手 曲不离口
+Dialogue: 0,0:03:21.08,0:03:24.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我是怕几天下来生分了
+Dialogue: 0,0:03:32.56,0:03:34.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}干什么的
+Dialogue: 0,0:03:36.64,0:03:38.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您请
+Dialogue: 0,0:03:50.16,0:03:51.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}唱得好
+Dialogue: 0,0:03:53.84,0:03:55.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}真有意思
+Dialogue: 0,0:03:55.64,0:03:59.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这个可真是出人意料
+Dialogue: 0,0:03:59.28,0:04:02.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}刚在街上看了出插柳吟诗的戏
+Dialogue: 0,0:04:02.84,0:04:05.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这会呢又看了出铁窗舞袖
+Dialogue: 0,0:04:05.88,0:04:09.42,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷 没想到你还能来看我
+Dialogue: 0,0:04:09.80,0:04:11.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}平日里那么多的孤老
+Dialogue: 0,0:04:11.80,0:04:12.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}陪他们喝了酒了
+Dialogue: 0,0:04:13.00,0:04:14.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}陪他们唱了曲儿了
+Dialogue: 0,0:04:14.44,0:04:17.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可一出事他们谁也不来看我
+Dialogue: 0,0:04:17.88,0:04:21.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱们说来只不过见了一面
+Dialogue: 0,0:04:23.28,0:04:24.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不是这话
+Dialogue: 0,0:04:25.12,0:04:27.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我想来我也来不了呀
+Dialogue: 0,0:04:28.16,0:04:29.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}多亏了我这位朋友
+Dialogue: 0,0:04:29.92,0:04:31.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}在牢里有熟人
+Dialogue: 0,0:04:31.52,0:04:34.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}托人说了情我才进来的
+Dialogue: 0,0:04:35.24,0:04:37.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}多谢这位爷了
+Dialogue: 0,0:04:39.52,0:04:42.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这里比藏春楼如何呀
+Dialogue: 0,0:04:43.48,0:04:45.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这里好着呢
+Dialogue: 0,0:04:45.68,0:04:47.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不用去装腔卖笑
+Dialogue: 0,0:04:47.92,0:04:50.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}想睡就睡 想唱就唱
+Dialogue: 0,0:04:50.52,0:04:53.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}到时候还有人给你送水送饭
+Dialogue: 0,0:04:53.96,0:04:55.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就多住些日子吧
+Dialogue: 0,0:04:56.44,0:04:58.90,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}黄三爷 你可别这么说
+Dialogue: 0,0:04:59.12,0:05:01.68,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可就是一个闷字
+Dialogue: 0,0:05:01.84,0:05:05.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我呀连个说话的人都没有
+Dialogue: 0,0:05:06.72,0:05:09.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那么就唱曲儿吧
+Dialogue: 0,0:05:10.00,0:05:12.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}原以为来看你 你会一哭二闹
+Dialogue: 0,0:05:12.88,0:05:17.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没想到 倒自舞自唱起来了
+Dialogue: 0,0:05:18.04,0:05:19.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}话是那么说
+Dialogue: 0,0:05:19.40,0:05:21.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您大老远的来看我
+Dialogue: 0,0:05:21.20,0:05:22.42,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我跟您哭闹
+Dialogue: 0,0:05:22.60,0:05:24.98,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那可不是我马赛赛做的事呀
+Dialogue: 0,0:05:25.16,0:05:26.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我活一辈子
+Dialogue: 0,0:05:26.72,0:05:28.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}得一辈子让您看着我高兴
+Dialogue: 0,0:05:28.84,0:05:29.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是不是
+Dialogue: 0,0:05:29.96,0:05:31.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今天二位爷能来看我
+Dialogue: 0,0:05:31.76,0:05:35.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是我马赛赛三生有幸
+Dialogue: 0,0:05:38.56,0:05:42.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你看 刚还好好的 别这样
+Dialogue: 0,0:05:43.52,0:05:45.90,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这不是摊上的事了吗
+Dialogue: 0,0:05:46.36,0:05:50.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷 您一定不是个风月场上的人
+Dialogue: 0,0:05:50.20,0:05:52.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我们这行 黑道白道都接触
+Dialogue: 0,0:05:53.08,0:05:55.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可从不做犯法的事
+Dialogue: 0,0:05:55.28,0:05:56.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这事不是我摊的
+Dialogue: 0,0:05:56.72,0:05:58.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是别人给我摊的
+Dialogue: 0,0:06:03.24,0:06:06.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}白道你也认识吗
+Dialogue: 0,0:06:06.88,0:06:09.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当然啦 内务府总管纳大人
+Dialogue: 0,0:06:09.76,0:06:13.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}常来楼子里给人安排传条子
+Dialogue: 0,0:06:13.52,0:06:17.06,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可是传的人是谁 我们都不知道
+Dialogue: 0,0:06:17.20,0:06:18.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可是据姑娘们说
+Dialogue: 0,0:06:18.84,0:06:21.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没有一位是三品以下的官
+Dialogue: 0,0:06:22.12,0:06:25.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就连顺天府于世龙大人也经常来
+Dialogue: 0,0:06:26.08,0:06:28.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}什么 你说谁
+Dialogue: 0,0:06:28.68,0:06:32.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于世龙呀 老百姓都叫他于得水
+Dialogue: 0,0:06:32.88,0:06:36.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}据说还是个大清官呢
+Dialogue: 0,0:06:37.28,0:06:38.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这
+Dialogue: 0,0:06:40.44,0:06:41.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你连于世龙也认识呀
+Dialogue: 0,0:06:42.12,0:06:44.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当然认识了
+Dialogue: 0,0:06:44.56,0:06:48.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}告诉你句话 千万别告诉别人
+Dialogue: 0,0:06:48.48,0:06:51.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我连皇上都认识
+Dialogue: 0,0:06:51.96,0:06:55.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}真的
+Dialogue: 0,0:06:57.32,0:06:59.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这可就新鲜了
+Dialogue: 0,0:07:00.24,0:07:02.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不过 不是真人
+Dialogue: 0,0:07:02.76,0:07:07.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是个洋教士拿的画片给我看的
+Dialogue: 0,0:07:08.64,0:07:10.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是这样呀
+Dialogue: 0,0:07:12.16,0:07:15.78,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那你觉得皇上这个人他怎么样呀
+Dialogue: 0,0:07:16.72,0:07:19.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}其实呢 他只是个一般人
+Dialogue: 0,0:07:19.52,0:07:21.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不过他的眼睛不一样
+Dialogue: 0,0:07:21.72,0:07:25.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}像两颗宝石一样放亮放光
+Dialogue: 0,0:07:25.24,0:07:28.78,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}脸白白的 手长得像女人一样
+Dialogue: 0,0:07:28.96,0:07:33.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还有呢 他和你一样有胡子
+Dialogue: 0,0:07:38.16,0:07:38.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}对了
+Dialogue: 0,0:07:39.12,0:07:40.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是让你见着皇上
+Dialogue: 0,0:07:40.84,0:07:43.22,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你能认识他吗
+Dialogue: 0,0:07:46.04,0:07:48.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我是没有机会见到皇上
+Dialogue: 0,0:07:48.68,0:07:51.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是有机会皇上见了我
+Dialogue: 0,0:07:51.56,0:07:53.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那他一定会传旨
+Dialogue: 0,0:07:54.08,0:07:57.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他还会封马赛赛为贵妃
+Dialogue: 0,0:07:57.36,0:08:00.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那我该去宫里了
+Dialogue: 0,0:08:00.52,0:08:02.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那不一定
+Dialogue: 0,0:08:02.48,0:08:04.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}一定的
+Dialogue: 0,0:08:04.52,0:08:07.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}未准
+Dialogue: 0,0:08:07.32,0:08:08.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}为什么
+Dialogue: 0,0:08:08.92,0:08:11.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}因为你太多嘴多舌了
+Dialogue: 0,0:08:11.48,0:08:14.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哎呀 我的儿啊
+Dialogue: 0,0:08:14.24,0:08:15.22,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}干什么 干什么
+Dialogue: 0,0:08:15.40,0:08:17.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}探监的
+Dialogue: 0,0:08:17.20,0:08:18.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}去吧
+Dialogue: 0,0:08:18.84,0:08:22.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哎呀 我的儿啊 你可受苦了
+Dialogue: 0,0:08:22.40,0:08:25.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你瞧这话是怎么说的
+Dialogue: 0,0:08:31.96,0:08:35.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我们藏春楼的人缘 就是好
+Dialogue: 0,0:08:35.48,0:08:41.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}都到了这地方了还有人来瞧呢
+Dialogue: 0,0:08:51.36,0:08:52.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}拿好了
+Dialogue: 0,0:08:53.96,0:08:58.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这位爷怎么瞧着眼生啊
+Dialogue: 0,0:08:58.96,0:09:00.18,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}妈妈
+Dialogue: 0,0:09:00.44,0:09:03.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这两位可是我的朋友
+Dialogue: 0,0:09:03.32,0:09:04.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}人家是真正的正人君子
+Dialogue: 0,0:09:05.00,0:09:07.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}跟藏春楼没有关系 你别瞎搭个
+Dialogue: 0,0:09:08.88,0:09:11.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这天底下的人都是咱的朋友
+Dialogue: 0,0:09:11.40,0:09:15.18,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是没朋友 妈怎么能进得来
+Dialogue: 0,0:09:15.44,0:09:17.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}光花钱都不行
+Dialogue: 0,0:09:17.72,0:09:22.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于世龙于得水管下面管得严着呢
+Dialogue: 0,0:09:22.84,0:09:26.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再严 你不是也进来了吗
+Dialogue: 0,0:09:27.16,0:09:29.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那总得有缝呀
+Dialogue: 0,0:09:29.60,0:09:32.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他有法子咱有招
+Dialogue: 0,0:09:32.60,0:09:35.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这不就 进来了
+Dialogue: 0,0:09:36.36,0:09:38.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不瞒二位爷说
+Dialogue: 0,0:09:38.40,0:09:41.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}皇上爷的紫禁城我也想进
+Dialogue: 0,0:09:41.68,0:09:44.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我也能进去
+Dialogue: 0,0:09:45.12,0:09:47.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}真是有其母必有其女
+Dialogue: 0,0:09:47.92,0:09:48.98,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您说什么
+Dialogue: 0,0:09:49.16,0:09:50.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他没说什么
+Dialogue: 0,0:09:51.00,0:09:52.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我看这样挺好的
+Dialogue: 0,0:09:52.48,0:09:56.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你来了 我们就可以走了
+Dialogue: 0,0:09:56.56,0:09:57.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}走
+Dialogue: 0,0:09:57.92,0:09:59.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}妈 看你来的时候
+Dialogue: 0,0:09:59.64,0:10:02.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你看妈也不是没合计的人啊
+Dialogue: 0,0:10:03.00,0:10:04.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这不是不在藏春楼吗
+Dialogue: 0,0:10:04.92,0:10:05.98,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这是在大狱呀
+Dialogue: 0,0:10:06.16,0:10:08.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷
+Dialogue: 0,0:10:09.76,0:10:11.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我多谢您了
+Dialogue: 0,0:10:12.00,0:10:15.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}又没帮上什么忙 谢什么
+Dialogue: 0,0:10:17.04,0:10:19.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}对了 我再问你一句
+Dialogue: 0,0:10:20.00,0:10:21.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是那帮人让你碰上了
+Dialogue: 0,0:10:21.72,0:10:23.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你还认识他们吗
+Dialogue: 0,0:10:23.80,0:10:25.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}能
+Dialogue: 0,0:10:27.72,0:10:29.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就好
+Dialogue: 0,0:10:33.08,0:10:34.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}请
+Dialogue: 0,0:10:39.00,0:10:40.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这边
+Dialogue: 0,0:10:48.96,0:10:54.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}皇上他的这串珠链丢了
+Dialogue: 0,0:10:56.44,0:10:59.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}到现在他也没找着
+Dialogue: 0,0:10:59.44,0:11:05.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他怎么想他也想不到是我拿了
+Dialogue: 0,0:11:07.04,0:11:09.42,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我是皇上的亲戚
+Dialogue: 0,0:11:09.68,0:11:12.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我给他管着钱呢
+Dialogue: 0,0:11:12.80,0:11:17.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他没钱就得找我要
+Dialogue: 0,0:11:19.40,0:11:21.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}话又说回来了
+Dialogue: 0,0:11:22.84,0:11:27.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这再硬的铁板它也有缝
+Dialogue: 0,0:11:31.20,0:11:36.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这有缝就能钻进去
+Dialogue: 0,0:11:41.64,0:11:43.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}老爷
+Dialogue: 0,0:11:44.28,0:11:47.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}老爷 牟九求见
+Dialogue: 0,0:12:03.48,0:12:05.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}给大人请安
+Dialogue: 0,0:12:05.20,0:12:06.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}行了
+Dialogue: 0,0:12:08.04,0:12:10.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那天呀 我回来就想
+Dialogue: 0,0:12:11.08,0:12:12.06,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当时
+Dialogue: 0,0:12:12.24,0:12:16.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我这车要是从你身上压过去
+Dialogue: 0,0:12:16.96,0:12:18.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你怎么办呢
+Dialogue: 0,0:12:18.60,0:12:22.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您的车压过去就压过去了
+Dialogue: 0,0:12:23.16,0:12:24.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}坐坐
+Dialogue: 0,0:12:24.64,0:12:25.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}谢大人
+Dialogue: 0,0:12:30.12,0:12:31.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这是为什么
+Dialogue: 0,0:12:32.48,0:12:35.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我着送出去的东西还让我收回来
+Dialogue: 0,0:12:35.28,0:12:37.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}总管大人
+Dialogue: 0,0:12:37.56,0:12:39.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我牟九在街面上混了那么多年
+Dialogue: 0,0:12:40.00,0:12:44.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再不懂事 这点事我还是懂的
+Dialogue: 0,0:12:44.56,0:12:45.78,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我牟九是什么人
+Dialogue: 0,0:12:45.96,0:12:48.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}街面上的小毛贼
+Dialogue: 0,0:12:48.96,0:12:51.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再大也出不了这条街去
+Dialogue: 0,0:12:51.28,0:12:54.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可您呢 您是上通皇上
+Dialogue: 0,0:12:54.84,0:12:58.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}下达天地的内务府总管大人
+Dialogue: 0,0:12:58.20,0:13:00.66,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我跟您比起来
+Dialogue: 0,0:13:00.84,0:13:02.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就好比分头见高山
+Dialogue: 0,0:13:02.80,0:13:07.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这大小尊卑我还理得清
+Dialogue: 0,0:13:07.48,0:13:10.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}难得你这么会办事儿哪
+Dialogue: 0,0:13:10.40,0:13:15.26,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我最佩服凭本事吃饭的爷们
+Dialogue: 0,0:13:15.44,0:13:18.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}甭管他是什么本事
+Dialogue: 0,0:13:19.08,0:13:20.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}承蒙看得起
+Dialogue: 0,0:13:21.04,0:13:23.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}街面上混的人怕的就是官
+Dialogue: 0,0:13:24.12,0:13:26.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今儿个我要知道是您的车
+Dialogue: 0,0:13:26.72,0:13:28.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您就是借给我两胆子
+Dialogue: 0,0:13:28.20,0:13:30.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我也不敢挡横啊
+Dialogue: 0,0:13:31.36,0:13:35.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你不光是会办事 嘴还挺甜
+Dialogue: 0,0:13:36.20,0:13:41.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}来呀 给牟壮士封二百两银子
+Dialogue: 0,0:13:45.64,0:13:47.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}上茶
+Dialogue: 0,0:13:56.00,0:13:58.38,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}总管大人 这银子我可不敢要
+Dialogue: 0,0:13:58.56,0:14:00.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您就是打死我我也不敢
+Dialogue: 0,0:14:01.08,0:14:02.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}坐下 坐下
+Dialogue: 0,0:14:02.80,0:14:07.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我跟您说 我是个混混
+Dialogue: 0,0:14:07.36,0:14:09.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您是当朝一品大员
+Dialogue: 0,0:14:09.48,0:14:14.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}能在贵府喝杯茶我已经心满意足
+Dialogue: 0,0:14:14.60,0:14:20.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您瞧 您这片子我留下了
+Dialogue: 0,0:14:20.44,0:14:23.98,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这可比银子沉多了
+Dialogue: 0,0:14:24.16,0:14:26.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这钱你拿着
+Dialogue: 0,0:14:26.48,0:14:30.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}事成之后还有这么一份银子
+Dialogue: 0,0:14:30.48,0:14:33.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你呢 也不必在街面上混了
+Dialogue: 0,0:14:34.16,0:14:35.38,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}在我府上做吧
+Dialogue: 0,0:14:35.60,0:14:36.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有什么事
+Dialogue: 0,0:14:36.80,0:14:39.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还不是您吩咐一声的事吗
+Dialogue: 0,0:14:39.48,0:14:43.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}前些日子我这府上丢了一套书
+Dialogue: 0,0:14:43.32,0:14:46.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是套医书
+Dialogue: 0,0:14:46.84,0:14:51.96,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我呢 又不愿意报官
+Dialogue: 0,0:14:53.72,0:14:59.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}东西很贵重 我得找回来
+Dialogue: 0,0:14:59.60,0:15:01.98,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今儿咱们也算有缘
+Dialogue: 0,0:15:02.16,0:15:06.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那只有麻烦你了
+Dialogue: 0,0:15:07.56,0:15:16.30,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你看 书的名字我已经写下来了
+Dialogue: 0,0:15:16.52,0:15:18.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我再说一遍事成之后
+Dialogue: 0,0:15:18.92,0:15:20.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再封你这么多银子
+Dialogue: 0,0:15:20.72,0:15:23.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你呢 也不必在街面上混
+Dialogue: 0,0:15:23.64,0:15:25.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就在我的府上长做
+Dialogue: 0,0:15:26.16,0:15:29.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我这个人喜欢人才
+Dialogue: 0,0:15:29.84,0:15:31.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}谢总管大人
+Dialogue: 0,0:15:31.32,0:15:34.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}小事 小事一桩
+Dialogue: 0,0:15:34.40,0:15:37.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这银子我还是不能要
+Dialogue: 0,0:15:38.04,0:15:39.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}等事情办完了
+Dialogue: 0,0:15:39.68,0:15:42.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您赏我个功名就行了
+Dialogue: 0,0:15:42.16,0:15:45.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}但是不知道这书是哪一天丢的
+Dialogue: 0,0:15:46.16,0:15:47.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有没有影儿
+Dialogue: 0,0:15:47.92,0:15:52.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}记不起来了 我这宅子里人杂
+Dialogue: 0,0:15:52.48,0:15:56.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有些是人市上的力巴
+Dialogue: 0,0:15:56.76,0:15:58.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是干什么的
+Dialogue: 0,0:15:58.72,0:16:00.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}盘炕的
+Dialogue: 0,0:16:02.20,0:16:04.66,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}盘炕的
+Dialogue: 0,0:16:18.24,0:16:20.70,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三德子 奴才在
+Dialogue: 0,0:16:20.88,0:16:23.44,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那天让你跟的人你探明了没有
+Dialogue: 0,0:16:23.64,0:16:25.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}回万岁爷 探明了
+Dialogue: 0,0:16:25.28,0:16:26.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他是什么人
+Dialogue: 0,0:16:26.76,0:16:31.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}街面上的混混大泼皮名叫牟九
+Dialogue: 0,0:16:33.24,0:16:35.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这泼皮怎么讲
+Dialogue: 0,0:16:35.96,0:16:40.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}泼 就是流氓无赖
+Dialogue: 0,0:16:40.32,0:16:43.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}水浒里的牛二是也
+Dialogue: 0,0:16:44.72,0:16:47.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当朝怎么还会有这等角色
+Dialogue: 0,0:16:48.12,0:16:50.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哪朝没有啊
+Dialogue: 0,0:16:50.64,0:16:52.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我还以为是书中编造的
+Dialogue: 0,0:16:54.80,0:16:56.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}杀猪的赵屠不死
+Dialogue: 0,0:16:56.64,0:16:59.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}原来牛二之流也不死啊
+Dialogue: 0,0:17:00.32,0:17:01.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}法印 在
+Dialogue: 0,0:17:02.08,0:17:04.64,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你那天跟的又是个什么人
+Dialogue: 0,0:17:04.80,0:17:06.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}跟的是个当官的
+Dialogue: 0,0:17:07.08,0:17:08.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}官
+Dialogue: 0,0:17:08.76,0:17:11.06,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}官 官为什么不坐轿
+Dialogue: 0,0:17:11.24,0:17:13.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}想必是小官
+Dialogue: 0,0:17:13.60,0:17:15.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}大官
+Dialogue: 0,0:17:16.72,0:17:20.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}大官 有多大
+Dialogue: 0,0:17:20.76,0:17:23.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}一品大员
+Dialogue: 0,0:17:28.16,0:17:30.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}胡说
+Dialogue: 0,0:17:30.64,0:17:32.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那有一品大员当街而行
+Dialogue: 0,0:17:32.56,0:17:36.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}会被一个泼皮无赖给诈住
+Dialogue: 0,0:17:36.60,0:17:38.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你肯定是跟错了
+Dialogue: 0,0:17:38.64,0:17:41.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没错 我看见他下车的
+Dialogue: 0,0:17:45.88,0:17:46.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他是谁
+Dialogue: 0,0:17:47.00,0:17:50.54,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是您的亲戚 正黄旗满州
+Dialogue: 0,0:17:51.12,0:17:53.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还是个亲戚
+Dialogue: 0,0:17:54.92,0:17:57.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我会有这么扶不起来的亲戚吗
+Dialogue: 0,0:17:57.44,0:18:00.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}对 是内务府总管
+Dialogue: 0,0:18:01.00,0:18:04.78,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}纳岚万林 纳大人
+Dialogue: 0,0:18:08.20,0:18:11.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这我可真没有想到
+Dialogue: 0,0:18:13.92,0:18:16.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}真是乾坤颠倒了
+Dialogue: 0,0:18:17.08,0:18:22.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}堂堂一品大员会让一个泼皮无赖给诈住
+Dialogue: 0,0:18:26.04,0:18:28.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是朝里都是这样的官
+Dialogue: 0,0:18:28.24,0:18:30.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我这皇上也就不用当了
+Dialogue: 0,0:18:31.00,0:18:33.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于大人你说呢
+Dialogue: 0,0:18:33.28,0:18:38.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}臣未曾亲见 不敢乱说
+Dialogue: 0,0:18:40.60,0:18:43.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}娘 我出去了 中午回来
+Dialogue: 0,0:18:43.48,0:18:44.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}拿着
+Dialogue: 0,0:18:47.68,0:18:49.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}娘 回去吧
+Dialogue: 0,0:18:49.56,0:18:51.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你可早点回来呀
+Dialogue: 0,0:18:51.28,0:18:52.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}放心吧 娘
+Dialogue: 0,0:18:53.12,0:18:54.26,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}早点
+Dialogue: 0,0:18:55.12,0:18:55.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}听见吗
+Dialogue: 0,0:18:56.04,0:18:57.18,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没关系
+Dialogue: 0,0:18:57.36,0:18:59.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没问题
+Dialogue: 0,0:19:03.16,0:19:05.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}九爷 九爷
+Dialogue: 0,0:19:05.32,0:19:08.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您看我这画眉 叫得好着呢
+Dialogue: 0,0:19:10.00,0:19:12.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这个没问题
+Dialogue: 0,0:19:15.48,0:19:17.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}九爷 有活干嘛
+Dialogue: 0,0:19:17.56,0:19:20.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有活干嘛
+Dialogue: 0,0:19:34.44,0:19:37.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}人生无根蒂
+Dialogue: 0,0:19:46.04,0:19:48.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么了 换手了
+Dialogue: 0,0:19:49.20,0:19:54.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}早就不干了 砌墙胜似掏墙
+Dialogue: 0,0:19:55.96,0:19:59.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}前些日子内务府总管家的炕
+Dialogue: 0,0:19:59.36,0:20:00.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是你盘的吧
+Dialogue: 0,0:20:01.20,0:20:03.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}早就忘了 怎么
+Dialogue: 0,0:20:03.60,0:20:05.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不好烧呀
+Dialogue: 0,0:20:05.52,0:20:09.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好烧 就是贵了点
+Dialogue: 0,0:20:09.76,0:20:14.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再说引火也用不了那么多本书呀
+Dialogue: 0,0:20:14.48,0:20:18.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}书 力巴读书不应了俗话
+Dialogue: 0,0:20:18.60,0:20:20.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}此话怎讲
+Dialogue: 0,0:20:20.36,0:20:22.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}假充圣人
+Dialogue: 0,0:20:25.56,0:20:28.02,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我说的不是圣人书
+Dialogue: 0,0:20:28.20,0:20:29.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这世上除了圣人书
+Dialogue: 0,0:20:30.12,0:20:31.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还有什么书呀
+Dialogue: 0,0:20:32.12,0:20:34.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}药书
+Dialogue: 0,0:20:34.72,0:20:37.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}药书 药书你找我干嘛吗
+Dialogue: 0,0:20:37.80,0:20:39.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你上药铺找去呀
+Dialogue: 0,0:20:50.00,0:20:57.58,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你说对了 我去药铺寿之堂
+Dialogue: 0,0:21:12.08,0:21:13.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}九爷
+Dialogue: 0,0:21:14.00,0:21:17.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是算得不准 分文不取
+Dialogue: 0,0:21:18.96,0:21:22.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}几位爷 逛啊
+Dialogue: 0,0:21:24.08,0:21:26.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}爹妈给的腿不逛干什么的
+Dialogue: 0,0:21:26.36,0:21:30.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好 说得好 说得好
+Dialogue: 0,0:21:31.68,0:21:35.46,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么着 算一卦
+Dialogue: 0,0:21:36.52,0:21:40.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是它给我算 还是你给我算
+Dialogue: 0,0:21:41.76,0:21:44.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我要是算准了 那是欺负你
+Dialogue: 0,0:21:44.72,0:21:50.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当然是这鸟给你算了
+Dialogue: 0,0:21:53.28,0:21:57.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}放肆 自已长得贼眉鼠眼的
+Dialogue: 0,0:21:57.68,0:22:00.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还给别人算命 滚一边去
+Dialogue: 0,0:22:01.56,0:22:03.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么说话呀 真是
+Dialogue: 0,0:22:03.60,0:22:05.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么着
+Dialogue: 0,0:22:05.24,0:22:07.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哥儿几个 九爷
+Dialogue: 0,0:22:07.40,0:22:10.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}给这位爷捏捏筋骨
+Dialogue: 0,0:22:10.68,0:22:12.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}慢着
+Dialogue: 0,0:22:15.52,0:22:17.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}人算命 我见过
+Dialogue: 0,0:22:17.76,0:22:22.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}鸟算命我还没见过呢
+Dialogue: 0,0:22:22.96,0:22:24.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是不是
+Dialogue: 0,0:22:24.88,0:22:26.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}让它算吧
+Dialogue: 0,0:22:55.96,0:22:57.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}瞧了吧
+Dialogue: 0,0:22:58.36,0:23:04.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}鸡 乃凤也 正黄旗满州
+Dialogue: 0,0:23:04.24,0:23:06.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您还是个正宗呢
+Dialogue: 0,0:23:07.12,0:23:09.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您看 怎么样
+Dialogue: 0,0:23:10.96,0:23:12.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不怎么样
+Dialogue: 0,0:23:14.52,0:23:16.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}叼错了
+Dialogue: 0,0:23:16.24,0:23:17.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}错倒没错
+Dialogue: 0,0:23:18.24,0:23:20.54,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那您有什么不服气的呀
+Dialogue: 0,0:23:21.92,0:23:24.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}它叼这笺我知道
+Dialogue: 0,0:23:24.44,0:23:25.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这不叫算命
+Dialogue: 0,0:23:26.16,0:23:29.94,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我的命它还是没算出来
+Dialogue: 0,0:23:32.76,0:23:34.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}都说我是混混
+Dialogue: 0,0:23:35.16,0:23:36.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可今儿我是开了眼界了
+Dialogue: 0,0:23:37.16,0:23:40.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还有比我更泼皮的
+Dialogue: 0,0:23:40.72,0:23:41.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我告诉你
+Dialogue: 0,0:23:41.72,0:23:43.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今儿甭管我是否算了你的命
+Dialogue: 0,0:23:44.08,0:23:46.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}也甭跟我在这儿嚼理
+Dialogue: 0,0:23:46.44,0:23:47.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你们身上带着钱呢
+Dialogue: 0,0:23:48.04,0:23:49.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就跟我放下一锭银子
+Dialogue: 0,0:23:50.00,0:23:52.46,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你们三位大摇大摆的走
+Dialogue: 0,0:23:52.60,0:23:53.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是没钱
+Dialogue: 0,0:23:53.96,0:24:01.46,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就尝尝这铁窝头铜蚕豆
+Dialogue: 0,0:24:02.80,0:24:06.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}别打 不用打
+Dialogue: 0,0:24:07.96,0:24:12.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你要钱 我们今儿没带
+Dialogue: 0,0:24:12.28,0:24:13.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你说什么
+Dialogue: 0,0:24:13.68,0:24:15.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不过你要算命呢 我也会
+Dialogue: 0,0:24:16.20,0:24:18.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你算我一命我算你一命
+Dialogue: 0,0:24:19.16,0:24:20.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱们一命抵一命
+Dialogue: 0,0:24:20.64,0:24:23.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}两不欠着 你看怎么样
+Dialogue: 0,0:24:23.52,0:24:25.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有意思
+Dialogue: 0,0:24:25.32,0:24:26.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}在这街面上
+Dialogue: 0,0:24:26.68,0:24:29.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还没碰见过这么有性情的人
+Dialogue: 0,0:24:29.40,0:24:31.96,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好 好
+Dialogue: 0,0:24:33.32,0:24:37.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你要是算准了 咱们交个朋友
+Dialogue: 0,0:24:37.36,0:24:38.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你要是算不准
+Dialogue: 0,0:24:39.04,0:24:41.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就别怪我不够朋友
+Dialogue: 0,0:24:42.00,0:24:43.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好呀
+Dialogue: 0,0:24:43.84,0:24:50.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你是看手相 还是看面相
+Dialogue: 0,0:24:52.12,0:24:54.58,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我是既不看手相也不瞧你面相
+Dialogue: 0,0:24:54.76,0:24:57.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就冲你今天的行径
+Dialogue: 0,0:24:58.20,0:25:00.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我算准了 不出七天
+Dialogue: 0,0:25:00.80,0:25:03.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你必被杀头 身首异处
+Dialogue: 0,0:25:04.76,0:25:06.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你气死我了 你
+Dialogue: 0,0:25:06.36,0:25:08.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}小子 你甭给我斗嘴
+Dialogue: 0,0:25:08.76,0:25:10.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今个我倒要瞧瞧
+Dialogue: 0,0:25:10.20,0:25:11.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}是谁 谁身首异处
+Dialogue: 0,0:25:11.96,0:25:14.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}走 走 跟我走
+Dialogue: 0,0:25:16.36,0:25:19.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}法印 三德子 走
+Dialogue: 0,0:25:20.68,0:25:22.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哥儿几个 来啦
+Dialogue: 0,0:26:26.52,0:26:29.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}官兵来了 官兵来了 快跑
+Dialogue: 0,0:26:37.32,0:26:39.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}哥儿几个 撤
+Dialogue: 0,0:26:39.56,0:26:41.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}快 撤
+Dialogue: 0,0:26:43.56,0:26:45.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷 咱们的人来了
+Dialogue: 0,0:26:46.00,0:26:47.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱们赶紧追
+Dialogue: 0,0:26:48.00,0:26:48.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}算了
+Dialogue: 0,0:26:49.12,0:26:50.10,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}现在还不是收拾他们的时候
+Dialogue: 0,0:26:50.28,0:26:51.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱们也走吧 省他们来了麻烦
+Dialogue: 0,0:26:51.80,0:26:53.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}撤
+Dialogue: 0,0:26:53.40,0:26:59.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}快走 快 那边
+Dialogue: 0,0:27:11.04,0:27:14.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}连锁 你这是要干什么呀
+Dialogue: 0,0:27:14.56,0:27:16.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}娘
+Dialogue: 0,0:27:17.00,0:27:19.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱们京城附近还有什么亲戚吗
+Dialogue: 0,0:27:20.04,0:27:21.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你要是那什么
+Dialogue: 0,0:27:22.08,0:27:24.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}妈就还回到街上去
+Dialogue: 0,0:27:25.16,0:27:29.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}娘 怎么能让您回去呢
+Dialogue: 0,0:27:29.88,0:27:33.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我的意思是让您换个地方住
+Dialogue: 0,0:27:33.44,0:27:35.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我还跟着您
+Dialogue: 0,0:27:35.40,0:27:38.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那就回我原来的院吧
+Dialogue: 0,0:27:38.32,0:27:41.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那院被贼占了 回不去了
+Dialogue: 0,0:27:41.96,0:27:43.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那咱就告官吧
+Dialogue: 0,0:27:43.88,0:27:47.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}听说于得水这个人还挺不错的
+Dialogue: 0,0:27:47.56,0:27:50.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}娘 告官来不及了
+Dialogue: 0,0:27:51.40,0:27:54.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那咱非得挪地方不可吗
+Dialogue: 0,0:27:54.24,0:27:56.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这一句话还说不清
+Dialogue: 0,0:27:57.12,0:27:59.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱先换了这小店吧
+Dialogue: 0,0:28:02.56,0:28:05.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}爷 你们过去先去找找
+Dialogue: 0,0:28:05.36,0:28:06.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}能住下就住下
+Dialogue: 0,0:28:06.44,0:28:08.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}住不下呢你们再回来
+Dialogue: 0,0:28:08.96,0:28:12.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}给你这个 慢走
+Dialogue: 0,0:28:44.24,0:28:47.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好像 好像离这儿不远吧
+Dialogue: 0,0:28:48.32,0:28:51.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不对 我记得旁边是间棺材铺
+Dialogue: 0,0:28:51.48,0:28:52.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你什么都知道
+Dialogue: 0,0:28:52.84,0:28:54.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}净说些不吉利的话
+Dialogue: 0,0:28:54.44,0:28:56.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这有什么吉利不吉利的
+Dialogue: 0,0:28:56.32,0:28:57.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}它就是挨着扛房
+Dialogue: 0,0:28:57.40,0:28:59.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}棺材铺你也没辙呀
+Dialogue: 0,0:28:59.36,0:29:02.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我看你们两个就够开个扛房的
+Dialogue: 0,0:29:02.64,0:29:04.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}一天下来不抬扛
+Dialogue: 0,0:29:04.40,0:29:06.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这日子就没过
+Dialogue: 0,0:29:06.64,0:29:10.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不过也好 省得我闷得慌
+Dialogue: 0,0:29:19.76,0:29:21.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有劳这位 什么
+Dialogue: 0,0:29:21.60,0:29:22.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我打听个事
+Dialogue: 0,0:29:23.12,0:29:25.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}有一个四合院整天冒着烟
+Dialogue: 0,0:29:25.28,0:29:26.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您知道那什么地方吗
+Dialogue: 0,0:29:26.48,0:29:27.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不知道
+Dialogue: 0,0:29:27.36,0:29:29.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}得 谢了
+Dialogue: 0,0:29:29.20,0:29:30.34,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不客气
+Dialogue: 0,0:29:40.04,0:29:42.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷 在这边
+Dialogue: 0,0:29:45.68,0:29:47.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你说这边 就在这儿
+Dialogue: 0,0:29:52.56,0:29:55.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}像是这个方向 走吧
+Dialogue: 0,0:30:13.92,0:30:15.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我看是无疑了
+Dialogue: 0,0:30:16.00,0:30:17.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}法印 上去敲门
+Dialogue: 0,0:30:18.12,0:30:20.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}和尚 万一敲错了
+Dialogue: 0,0:30:20.52,0:30:22.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你就说是化缘的
+Dialogue: 0,0:30:22.44,0:30:24.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}万一敲对了呢
+Dialogue: 0,0:30:24.68,0:30:27.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那 那怎么说呀
+Dialogue: 0,0:30:28.60,0:30:29.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咱什么也不说
+Dialogue: 0,0:30:29.60,0:30:30.82,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}迎头就往里走
+Dialogue: 0,0:30:31.00,0:30:32.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我嘴里念经
+Dialogue: 0,0:30:32.28,0:30:33.42,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你们嘴里说什么都行
+Dialogue: 0,0:30:33.60,0:30:36.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这回让他丈二和尚摸不着头脑
+Dialogue: 0,0:30:37.72,0:30:38.86,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就这么办
+Dialogue: 0,0:30:39.04,0:30:40.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}敲门 好
+Dialogue: 0,0:30:44.32,0:30:47.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}施主开门 施主开门
+Dialogue: 0,0:30:48.96,0:30:50.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}干什么 干什么呀
+Dialogue: 0,0:30:50.96,0:30:52.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这不是庙 出去 出去
+Dialogue: 0,0:30:52.44,0:30:55.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}老大来空子了 放狗
+Dialogue: 0,0:30:56.12,0:30:58.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}狗 快
+Dialogue: 0,0:30:58.64,0:31:01.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}法印 护着三爷快跑呀
+Dialogue: 0,0:31:13.12,0:31:15.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}谁让你好好的金銮殿不坐
+Dialogue: 0,0:31:15.68,0:31:17.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}去外边瞎跑的
+Dialogue: 0,0:31:17.48,0:31:18.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}狗可不认识皇上
+Dialogue: 0,0:31:19.12,0:31:21.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不认识皇上的是狗
+Dialogue: 0,0:31:21.76,0:31:25.38,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您骂谁 谁也听不见
+Dialogue: 0,0:31:25.60,0:31:27.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}又想让人认出来
+Dialogue: 0,0:31:27.48,0:31:29.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}又怕人认出来
+Dialogue: 0,0:31:29.60,0:31:32.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}当你手下的百姓难了
+Dialogue: 0,0:31:32.36,0:31:33.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这么点事
+Dialogue: 0,0:31:33.48,0:31:35.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}让于世龙去办不就得了
+Dialogue: 0,0:31:36.04,0:31:38.34,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于世龙是个清官不假
+Dialogue: 0,0:31:38.52,0:31:40.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可于世龙手下的衙役
+Dialogue: 0,0:31:40.40,0:31:42.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不是个个都是清衙役
+Dialogue: 0,0:31:42.76,0:31:44.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今儿在顺天府大牢
+Dialogue: 0,0:31:45.12,0:31:49.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那老鸨居然买通了牢头她进来探监来了
+Dialogue: 0,0:31:49.88,0:31:53.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你说 这 要不是朕亲眼所见
+Dialogue: 0,0:31:53.40,0:31:55.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还认为天子脚下
+Dialogue: 0,0:31:55.48,0:31:58.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}如铁桶一般的太平盛世
+Dialogue: 0,0:31:59.88,0:32:02.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没曾想到 街上有街霸
+Dialogue: 0,0:32:03.00,0:32:05.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}牢里有牢头
+Dialogue: 0,0:32:06.04,0:32:09.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}好呢 也只好了那么几个于世龙而已
+Dialogue: 0,0:32:10.16,0:32:12.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}皇上 我想问问您
+Dialogue: 0,0:32:13.12,0:32:16.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这牢里怎么进了老鸨了
+Dialogue: 0,0:32:16.24,0:32:18.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}莫不是有青楼女子
+Dialogue: 0,0:32:18.56,0:32:21.02,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}也扯进您丢东西的事了
+Dialogue: 0,0:32:21.20,0:32:23.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怪呀
+Dialogue: 0,0:32:23.72,0:32:26.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怪呀 那有时候
+Dialogue: 0,0:32:26.68,0:32:30.46,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}事情他就这么寸的 让你给赶上了
+Dialogue: 0,0:32:30.64,0:32:33.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}真是比写得都准
+Dialogue: 0,0:32:34.04,0:32:37.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}万岁爷 我不是个拈酸吃醋的人
+Dialogue: 0,0:32:37.40,0:32:39.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可您是一国之君
+Dialogue: 0,0:32:39.72,0:32:42.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您的身体就是国家的身体
+Dialogue: 0,0:32:42.52,0:32:46.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您可千万不能由着性子来
+Dialogue: 0,0:32:49.44,0:32:51.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}宜妃 你去给朕倒杯茶来
+Dialogue: 0,0:32:51.72,0:32:53.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}倒杯茶
+Dialogue: 0,0:32:58.04,0:33:02.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}又招出事了 三十六计走为上
+Dialogue: 0,0:33:08.20,0:33:10.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}宜妃 你先歇歇吧
+Dialogue: 0,0:33:10.40,0:33:12.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}朕到南书房去办点事
+Dialogue: 0,0:33:12.20,0:33:13.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}一会就回来
+Dialogue: 0,0:33:13.88,0:33:16.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}小桃红 留门啊 留门
+Dialogue: 0,0:33:23.68,0:33:27.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}人家把茶端来了 他又走了
+Dialogue: 0,0:34:03.28,0:34:06.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}开了门还不是为了看啊
+Dialogue: 0,0:34:06.64,0:34:07.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}说什么不好
+Dialogue: 0,0:34:07.68,0:34:10.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那怕你说给口水喝也行啊
+Dialogue: 0,0:34:10.28,0:34:12.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}偏不 满嘴的念经
+Dialogue: 0,0:34:13.08,0:34:15.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还说念经管用 管什么用啊
+Dialogue: 0,0:34:15.60,0:34:17.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那狗能听懂经吗
+Dialogue: 0,0:34:17.64,0:34:20.02,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}跑慢了就得咬
+Dialogue: 0,0:34:20.36,0:34:22.82,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}瞧瞧 挺好一条裤子
+Dialogue: 0,0:34:23.00,0:34:25.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还是小桃红给我缝的呢
+Dialogue: 0,0:34:25.44,0:34:28.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这回行了 张嘴了
+Dialogue: 0,0:34:29.32,0:34:30.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}谁让你念经了
+Dialogue: 0,0:34:30.88,0:34:32.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}经是你念的吗
+Dialogue: 0,0:34:32.40,0:34:35.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你不念还好 一念准出事
+Dialogue: 0,0:34:35.32,0:34:38.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}再好的经也让你那歪嘴给念歪了
+Dialogue: 0,0:34:40.72,0:34:41.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我告诉你
+Dialogue: 0,0:34:41.76,0:34:42.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今天要不是为了护驾
+Dialogue: 0,0:34:42.72,0:34:44.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}非让狗咬死你
+Dialogue: 0,0:34:44.60,0:34:46.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}咬谁还说不定呢
+Dialogue: 0,0:34:46.84,0:34:47.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我可没破着裤子
+Dialogue: 0,0:34:47.80,0:34:49.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}露着绽在街上走
+Dialogue: 0,0:34:53.16,0:34:55.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}臭和尚 我告诉你
+Dialogue: 0,0:34:55.36,0:34:57.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你们别吵了行不行
+Dialogue: 0,0:34:57.52,0:34:59.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你们那算什么事呀
+Dialogue: 0,0:34:59.48,0:35:03.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不就是一双鞋一条裤子的事吗
+Dialogue: 0,0:35:04.04,0:35:06.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}今天我这罪已状要写不出来
+Dialogue: 0,0:35:06.40,0:35:08.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我要掉脑袋的
+Dialogue: 0,0:35:09.08,0:35:11.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于大人 有那么严重吗
+Dialogue: 0,0:35:11.20,0:35:12.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不就是跟万岁爷探了次监吗
+Dialogue: 0,0:35:13.04,0:35:16.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是探监探出事儿来了
+Dialogue: 0,0:35:16.56,0:35:18.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么出事了
+Dialogue: 0,0:35:20.64,0:35:22.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}和赛赛姑娘
+Dialogue: 0,0:35:22.84,0:35:24.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不是那种事
+Dialogue: 0,0:35:24.76,0:35:26.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你看他想到哪儿去了
+Dialogue: 0,0:35:26.88,0:35:29.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是 一个和尚净往那儿想
+Dialogue: 0,0:35:29.44,0:35:30.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没见过
+Dialogue: 0,0:35:31.16,0:35:34.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要是那种事 可与我无干
+Dialogue: 0,0:35:35.48,0:35:36.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}偏偏在我们探监时
+Dialogue: 0,0:35:37.12,0:35:40.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那个老鸨居然买通了牢头
+Dialogue: 0,0:35:40.52,0:35:42.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}也进去了
+Dialogue: 0,0:35:42.76,0:35:44.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这是顺天府的大牢呀
+Dialogue: 0,0:35:45.08,0:35:46.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这样进进出出的
+Dialogue: 0,0:35:46.88,0:35:49.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}跟藏春楼有什么区别呀
+Dialogue: 0,0:35:51.44,0:35:54.51,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还是我管教不严呀
+Dialogue: 0,0:35:54.76,0:35:58.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我这官是没脸做了
+Dialogue: 0,0:35:59.48,0:36:02.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}于大人 这事可就怨不着您了
+Dialogue: 0,0:36:03.04,0:36:04.79,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}常言说得好
+Dialogue: 0,0:36:04.96,0:36:07.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这阎王爷好应付 小鬼难缠
+Dialogue: 0,0:36:08.16,0:36:10.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}如果能把小鬼都治住了
+Dialogue: 0,0:36:10.36,0:36:12.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}这世道也就太平了
+Dialogue: 0,0:36:12.64,0:36:14.39,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}还有一句俗话
+Dialogue: 0,0:36:14.56,0:36:18.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}叫车船店脚衙无罪也该杀
+Dialogue: 0,0:36:20.76,0:36:22.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你看看
+Dialogue: 0,0:36:22.20,0:36:25.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他们说的牙就是指牙行
+Dialogue: 0,0:36:25.84,0:36:28.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我觉得他应该是衙役
+Dialogue: 0,0:36:29.08,0:36:30.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}衙役这行知法犯法
+Dialogue: 0,0:36:31.04,0:36:33.50,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}知法吃法的多了
+Dialogue: 0,0:36:33.72,0:36:35.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}要不我们大清例律
+Dialogue: 0,0:36:35.72,0:36:38.18,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么能让干师爷小隶这行的
+Dialogue: 0,0:36:38.36,0:36:39.58,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}必须三辈之后
+Dialogue: 0,0:36:39.84,0:36:42.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}才能考进士取功名呢
+Dialogue: 0,0:36:42.52,0:36:45.03,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是嫌他们不干净
+Dialogue: 0,0:36:45.20,0:36:47.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那你说你是阎王爷还是小鬼
+Dialogue: 0,0:36:47.36,0:36:48.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我是
+Dialogue: 0,0:36:49.12,0:36:51.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}臭和尚 讨厌
+Dialogue: 0,0:36:51.44,0:36:55.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}万岁爷驾临南书房
+Dialogue: 0,0:37:00.28,0:37:03.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}顺天府于尹世龙 臣在
+Dialogue: 0,0:37:04.04,0:37:06.07,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}速派官兵 连夜将樟子胡同
+Dialogue: 0,0:37:06.24,0:37:08.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}七院内的奸人给我捉拿归案
+Dialogue: 0,0:37:08.40,0:37:09.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不得有误
+Dialogue: 0,0:37:09.84,0:37:12.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}臣遵旨
+Dialogue: 0,0:37:28.88,0:37:30.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}干点正经的事
+Dialogue: 0,0:37:32.60,0:37:34.90,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}来一碗
+Dialogue: 0,0:37:36.28,0:37:40.06,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}放下 给我放下
+Dialogue: 0,0:37:42.36,0:37:45.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}干了
+Dialogue: 0,0:37:45.80,0:37:48.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我跟你说了 他们来了要误大事的
+Dialogue: 0,0:37:49.48,0:37:52.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}快点 快点
+Dialogue: 0,0:37:53.92,0:37:58.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}开门 开门 开门
+Dialogue: 0,0:38:02.84,0:38:03.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}别动
+Dialogue: 0,0:38:03.80,0:38:05.27,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}院内人犯不得违抗
+Dialogue: 0,0:38:05.52,0:38:08.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}违抗者格杀勿论
+Dialogue: 0,0:38:19.08,0:38:20.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}快走
+Dialogue: 0,0:38:22.20,0:38:26.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}快
+Dialogue: 0,0:38:58.12,0:39:00.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}升堂
+Dialogue: 0,0:39:01.20,0:39:07.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}威武
+Dialogue: 0,0:39:08.24,0:39:11.19,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}将所有人犯带至大堂
+Dialogue: 0,0:39:20.92,0:39:22.14,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}赛赛姑娘
+Dialogue: 0,0:39:22.36,0:39:24.23,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}您吉祥
+Dialogue: 0,0:39:25.92,0:39:28.43,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}一会在堂上要是有你认识的人
+Dialogue: 0,0:39:28.68,0:39:30.91,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你就给我们指一指
+Dialogue: 0,0:39:31.92,0:39:34.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}放心吧 我一准认出来
+Dialogue: 0,0:39:35.20,0:39:38.82,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}三爷 我什么阵势没见过
+Dialogue: 0,0:39:39.68,0:39:41.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}可那堂上坐的人
+Dialogue: 0,0:39:41.84,0:39:43.15,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}他到底是什么官呀
+Dialogue: 0,0:39:43.40,0:39:46.67,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我怎么觉得面熟呀
+Dialogue: 0,0:39:49.40,0:39:51.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}静声 听审
+Dialogue: 0,0:39:53.68,0:39:55.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}来犯依次出列
+Dialogue: 0,0:39:55.48,0:39:57.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}供出姓名 籍贯
+Dialogue: 0,0:39:57.56,0:40:00.02,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}所行 所为
+Dialogue: 0,0:40:04.44,0:40:08.87,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}小的吴有头 三河人
+Dialogue: 0,0:40:09.04,0:40:12.11,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}向来没有手艺糊口
+Dialogue: 0,0:40:12.28,0:40:17.75,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}原与老婆合作 以仙人跳为生
+Dialogue: 0,0:40:17.96,0:40:19.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}何为仙人跳
+Dialogue: 0,0:40:19.64,0:40:25.74,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是 就是设计让老婆与人通奸
+Dialogue: 0,0:40:25.92,0:40:29.35,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我去捉奸 以此诈钱
+Dialogue: 0,0:40:31.56,0:40:33.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}怎么会有这样的丈夫
+Dialogue: 0,0:40:33.72,0:40:38.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}那娶妻的 嫁人的都是冤家
+Dialogue: 0,0:40:40.52,0:40:44.14,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}赛赛姑娘 这个人你认识不认识
+Dialogue: 0,0:40:44.36,0:40:46.71,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}不认识 认识他晦气死了
+Dialogue: 0,0:40:46.88,0:40:48.59,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}就是
+Dialogue: 0,0:40:49.64,0:40:52.83,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}后来老婆真的与人走了
+Dialogue: 0,0:40:53.04,0:40:54.31,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}留下个孩子
+Dialogue: 0,0:40:54.48,0:40:57.47,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}我呢就以卖假孩子为生
+Dialogue: 0,0:40:57.64,0:40:58.86,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}腊月三号
+Dialogue: 0,0:40:59.04,0:41:01.95,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}你是否去过寿之堂药铺
+Dialogue: 0,0:41:02.12,0:41:05.55,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}没有 小的从来就没去过
+Dialogue: 0,0:41:05.72,0:41:07.99,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}小的有病就是扛着
+Dialogue: 0,0:41:08.16,0:41:10.54,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}从来没买过药
+Dialogue: 0,0:41:10.72,0:41:12.63,Default,,0000,0000,0000,,{\pos(185,280.6)\fn楷体\fs18\b1\bord1\3c&HB7BCB9&\blur3}把人带过
+
+

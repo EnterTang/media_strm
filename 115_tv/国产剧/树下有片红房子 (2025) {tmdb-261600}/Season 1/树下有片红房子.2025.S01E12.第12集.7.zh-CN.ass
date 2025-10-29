@@ -1,0 +1,19 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+PlayResX: 640
+PlayResY: 368
+Timer: 100,0000
+Collisions: Normal
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: DefaultVCD, 宋体, 11, &Hffffff, &Hffffff, &H00000000, &H00000000, 0, 0, 0, 0, 100, 100, 0, 0, 1, 1, 2, 7, 10, 10, 10, 1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0, 0:01:01.00, 0:01:16.00, DefaultVCD, ENV_61_12, 10, 10, 0, , {\move(760,132,-340,132)\blur2}我是今天直播间签到第6名，给我点个赞吧~
+Dialogue: 0, 0:01:04.00, 0:01:19.00, DefaultVCD, ENV_64_8, 10, 10, 0, , {\move(720,88,-91,88)\blur2}.
+Dialogue: 0, 0:03:47.00, 0:04:02.00, DefaultVCD, ENV_227_10, 10, 10, 0, , {\move(740,110,-111,110)\blur2}.
+

@@ -1,0 +1,568 @@
+1
+00:00:00,025 --> 00:00:05,790
+And so, clearly one of the big challenges 
+is that graphs are really big. 
+
+2
+00:00:05,790 --> 00:00:12,296
+Big, massive, really massive. 
+You can add any kind of these fancy 
+
+3
+00:00:12,296 --> 00:00:16,870
+adjectives. 
+And more importantly than just having the 
+
+4
+00:00:16,870 --> 00:00:21,630
+graphs getting larger, the queries that 
+you fire on these graphs are getting more 
+
+5
+00:00:21,630 --> 00:00:27,170
+and more interesting and exciting and 
+harder to evaluate. 
+
+6
+00:00:27,170 --> 00:00:30,509
+So one is, you can have the standard 
+pattern like queries, which you can, all 
+
+7
+00:00:30,509 --> 00:00:35,870
+of you, I think some of you already said, 
+it's similar to SQL with few drawings. 
+
+8
+00:00:35,870 --> 00:00:41,490
+Yeah, SQL has drawings, but really done 
+well for draw inquiries. 
+
+9
+00:00:41,490 --> 00:00:45,420
+But you can actually go into a little 
+more complicated things in these graphs. 
+
+10
+00:00:45,420 --> 00:00:50,130
+And say I wanted to cut some troubles 
+with unbounded recursions. 
+
+11
+00:00:50,130 --> 00:00:53,958
+I just want to keep doing bits of 
+validities than have no good solution 
+
+12
+00:00:53,958 --> 00:00:58,824
+which is really efficient, right? 
+This is a load in sparkle ex regions 
+
+13
+00:00:58,824 --> 00:01:03,146
+people are talking about. 
+And then you have, on these graphs, many 
+
+14
+00:01:03,146 --> 00:01:07,556
+inequality that you can, I mean you are 
+all already familiar with page wrap, 
+
+15
+00:01:07,556 --> 00:01:12,316
+basically these analytic way we translate 
+the entire graph twice to rank based on 
+
+16
+00:01:12,316 --> 00:01:19,531
+the random walk potentials, right? 
+You can also think of our I'll first fire 
+
+17
+00:01:19,531 --> 00:01:25,350
+1 query, get subgraph out, some ad hoc 
+subset of the entire el woody. 
+
+18
+00:01:25,350 --> 00:01:30,129
+And then from this I will extract then 
+subgraphs or some kind of K cord of 
+
+19
+00:01:30,129 --> 00:01:35,585
+decomposition of this compute standard 
+lease right? 
+
+20
+00:01:35,585 --> 00:01:39,617
+If you are familiar with this keyword 
+search and graph this is basically what 
+
+21
+00:01:39,617 --> 00:01:42,925
+they do. 
+They fire some inch inside of queiries 
+
+22
+00:01:42,925 --> 00:01:46,405
+which will figure out certain notes And 
+then try to connect them up using 
+
+23
+00:01:46,405 --> 00:01:51,480
+standard [INAUDIBLE]. 
+Again, these are not so easy to solve 
+
+24
+00:01:51,480 --> 00:01:55,952
+using relational databases. 
+The solution most of the current 
+
+25
+00:01:55,952 --> 00:02:02,080
+approaches use is, let's take this graph 
+and put it in memory and deal with it. 
+
+26
+00:02:02,080 --> 00:02:04,788
+Okay? 
+While it is a valid solution, given that 
+
+27
+00:02:04,788 --> 00:02:08,428
+the memory is getting cheaper 
+ >> It's still no cheap enough to hold 
+
+28
+00:02:08,428 --> 00:02:12,104
+30 billion triplets. 
+Okay, so we need to come up with better 
+
+29
+00:02:12,104 --> 00:02:17,715
+strategies for dealing with it. 
+ >> Is this a concept of uh, [INAUDIBLE] 
+
+30
+00:02:17,715 --> 00:02:19,932
+sets and rules, in the 
+
+31
+00:02:19,932 --> 00:02:22,058
+[INAUDIBLE]. 
+
+32
+00:02:22,058 --> 00:02:24,738
+ >> Yes. 
+So you can always looks at frequent 
+
+33
+00:02:24,738 --> 00:02:30,751
+subgraphs. 
+ >> Like, so in fact, there is another, 
+
+34
+00:02:30,751 --> 00:02:37,120
+as they say, some kind of 
+ >> [INAUDIBLE] 
+
+35
+00:02:37,120 --> 00:02:41,268
+ >> So, you can relax, you can relax the 
+labels on the ages, and say I will, I 
+
+36
+00:02:41,268 --> 00:02:45,756
+don't care about the ages, but Really any 
+kind of structure, we can say I will 
+
+37
+00:02:45,756 --> 00:02:53,750
+include just the labels but I relax on 
+the subjects and objects that are there. 
+
+38
+00:02:53,750 --> 00:02:57,858
+So people have worked on these kind of. 
+ >> Sequence the subgraphs and then also 
+
+39
+00:02:57,858 --> 00:03:02,459
+interesting subgraphs. 
+ >> Interesting subgraphs, okay. 
+
+40
+00:03:02,459 --> 00:03:04,476
+ >> [INAUDIBLE]. 
+ >> Just to reiterate my point, so far 
+
+41
+00:03:04,476 --> 00:03:09,720
+we have never talked about how exactly 
+they're evaluated. 
+
+42
+00:03:09,720 --> 00:03:12,492
+So far I have never even mentioned how 
+they're evaluated. 
+
+43
+00:03:12,492 --> 00:03:16,357
+ >> [INAUDIBLE] 
+ >> So created, you can just create any 
+
+44
+00:03:16,357 --> 00:03:20,389
+graph you, in the good old way that you 
+you take your relational database, 
+
+45
+00:03:20,389 --> 00:03:25,065
+perform all your joints, and store it as 
+a graph. 
+
+46
+00:03:25,065 --> 00:03:28,700
+Right, I mean that's one cheap way of 
+answering it. 
+
+47
+00:03:28,700 --> 00:03:33,500
+But in other words, there are so many 
+efforts coming, both from automated 
+
+48
+00:03:33,500 --> 00:03:38,000
+methods as well as from manually 
+hand-coding stuff, so if you go back and 
+
+49
+00:03:38,000 --> 00:03:43,100
+look at it, DBLP, for example they 
+maintain huge records of which paper 
+
+50
+00:03:43,100 --> 00:03:51,730
+appeared in which conference, which 
+journal, what author, and so on. 
+
+51
+00:03:52,850 --> 00:03:58,755
+And they, again, wrote scripts, from this 
+structured relational table they had. 
+
+52
+00:03:58,755 --> 00:04:04,232
+To turn it into and ideas. 
+And then give it out as part of RDF data 
+
+53
+00:04:04,232 --> 00:04:08,910
+set, which is essentially a graph. 
+Right? 
+
+54
+00:04:08,910 --> 00:04:14,680
+So that's one method of doing it. 
+Iago, free-base kind of efforts, they're 
+
+55
+00:04:14,680 --> 00:04:20,950
+there focusing on, Iago and DDPDS, sorry, 
+are focusing more on, let's take some. 
+
+56
+00:04:20,950 --> 00:04:25,711
+Almost structured data like Wikipedia, 
+and apply whole bunch of machine learning 
+
+57
+00:04:25,711 --> 00:04:30,541
+tools, natural language processing tools, 
+so that you can extract out these facts, 
+
+58
+00:04:30,541 --> 00:04:37,720
+x is related to y, in some way, and then 
+put them into the graph form. 
+
+59
+00:04:37,720 --> 00:04:40,910
+Right? 
+And psych, again, hand colored many of 
+
+60
+00:04:40,910 --> 00:04:44,404
+these knowledge. 
+So, there are many efforts in which the 
+
+61
+00:04:44,404 --> 00:04:48,500
+graphs were created. 
+Again, we are, I'm not going too much 
+
+62
+00:04:48,500 --> 00:04:51,710
+into any of those. 
+I agree that these are challenges, but 
+
+63
+00:04:51,710 --> 00:04:53,870
+I'm looking at a slightly different 
+challenge. 
+
+64
+00:04:53,870 --> 00:05:03,460
+[COUGH] So just to continue with this 
+line and try to finish it quickly. 
+
+65
+00:05:03,460 --> 00:05:10,306
+Queries are bigger, graphs are bigger. 
+And you can see hey why not use some 
+
+66
+00:05:10,306 --> 00:05:17,594
+magic bullet like how to write. 
+Google users account for terabytes so 30 
+
+67
+00:05:17,594 --> 00:05:23,270
+billion should be T right But the problem 
+is that, your graphs are not the same as 
+
+68
+00:05:23,270 --> 00:05:30,520
+text tables, right? 
+Text pieces, which Google uses this one. 
+
+69
+00:05:30,520 --> 00:05:35,418
+So your graphs have complex inter 
+connectivity, this is known as god knows 
+
+70
+00:05:35,418 --> 00:05:38,300
+what are the notes. 
+Right? 
+
+71
+00:05:38,300 --> 00:05:40,985
+What kinds of relationships are there? 
+That's one. 
+
+72
+00:05:40,985 --> 00:05:46,479
+And today some connections may not exist, 
+but tomorrow you can just add one edge, 
+
+73
+00:05:46,479 --> 00:05:51,563
+it seems like a very harmless piece of 
+edge saying Dolph Lundgren and Bruce 
+
+74
+00:05:51,563 --> 00:05:58,512
+Willis acted in The Expendables. 
+They never acted before. 
+
+75
+00:05:58,512 --> 00:06:02,930
+Suddenly, you put these two together and 
+form a connection. 
+
+76
+00:06:02,930 --> 00:06:06,428
+So as you assume the doing the hard loop 
+you're actually partition in the nicely 
+
+77
+00:06:06,428 --> 00:06:09,750
+hard all, the guys who works with Bruce 
+Willis. 
+
+78
+00:06:09,750 --> 00:06:14,098
+I will put these two down separately. 
+And suddenly, expendables comes, all the 
+
+79
+00:06:14,098 --> 00:06:20,118
+partitioning falls apart, right? 
+Which is not the case in the applications 
+
+80
+00:06:20,118 --> 00:06:24,610
+settings where hard loop is used. 
+Your partitioning is fine. 
+
+81
+00:06:24,610 --> 00:06:28,380
+You don't need to worry about it anymore. 
+Your partitioning logically means the 
+
+82
+00:06:28,380 --> 00:06:31,618
+same. 
+But here things can get really messy, 
+
+83
+00:06:31,618 --> 00:06:37,426
+even in a single static snapshot, as well 
+as you when have these dynamism in your 
+
+84
+00:06:37,426 --> 00:06:43,102
+data set. 
+So therefore data partitioning solutions 
+
+85
+00:06:43,102 --> 00:06:48,165
+will also need rethinking. 
+Okay, so given all that, it's not like 
+
+86
+00:06:48,165 --> 00:06:53,300
+I'm the only guy who has thought about it 
+and teaching you. 
+
+87
+00:06:53,300 --> 00:06:56,390
+There's a whole bunch of people who have 
+worked on it. 
+
+88
+00:06:56,390 --> 00:06:58,537
+Okay. 
+There is huge research as well as 
+
+89
+00:06:58,537 --> 00:07:02,939
+industry work that's going on for 
+developing graph data management tools 
+
+90
+00:07:02,939 --> 00:07:10,233
+for very different kind of applications. 
+Both generic as well as in the analytic's 
+
+91
+00:07:10,233 --> 00:07:14,199
+world. 
+So, for example, there is transactional 
+
+92
+00:07:14,199 --> 00:07:20,404
+graph database systems, data management 
+systems, like Neo4J, Jena, HyperGraphDB, 
+
+93
+00:07:20,404 --> 00:07:25,374
+RDF3x. 
+They're, they really focus on this LOD 
+
+94
+00:07:25,374 --> 00:07:29,974
+kind of settings. 
+Right, well, you, until now, you never 
+
+95
+00:07:29,974 --> 00:07:34,793
+had analytic s queries on there. 
+You just had more, just coming in, a 
+
+96
+00:07:34,793 --> 00:07:38,280
+pattern, and you match it. 
+Right. 
+
+97
+00:07:38,280 --> 00:07:42,300
+But we are saying now that SPARQL is 
+getting richer with recursive reasoning 
+
+98
+00:07:42,300 --> 00:07:46,908
+kind of queries. 
+Then transactional GDM has to evolve into 
+
+99
+00:07:46,908 --> 00:07:53,260
+which supports little more than just a 
+transactional pattern maxing place. 
+
+100
+00:07:53,260 --> 00:07:58,820
+And then you have analytic GDM. 
+Analytic, graph database management, like 
+
+101
+00:07:58,820 --> 00:08:05,683
+Pregel and Giraph, which, can be seen as. 
+Hadoop style processing for graphs, which 
+
+102
+00:08:05,683 --> 00:08:11,690
+have [UNKNOWN] of reasoning. 
+You can compute page rank using Pregel. 
+
+103
+00:08:11,690 --> 00:08:16,411
+In fact, this is the clean Pregel. 
+Paper also makes that, they design Pregel 
+
+104
+00:08:16,411 --> 00:08:19,988
+so that they can do [UNKNOWN] on massive 
+graphs. 
+
+105
+00:08:19,988 --> 00:08:22,980
+[INAUDIBLE] 
+ >> Legal is not. 
+
+106
+00:08:22,980 --> 00:08:27,380
+But it's open source implementation which 
+is on to of hall loop, called Giraph. 
+
+107
+00:08:27,380 --> 00:08:30,102
+ >> [INAUDIBLE] 
+ >> Giraph is open. 
+
+108
+00:08:30,102 --> 00:08:31,956
+ >> [INAUDIBLE] 
+ >> Yea, it's actually bad at this 
+
+109
+00:08:31,956 --> 00:08:35,296
+moment. 
+But, it's not as. 
+
+110
+00:08:35,296 --> 00:08:39,350
+ >> [INAUDIBLE] 
+ >> Giraph lab, yes. 
+
+111
+00:08:39,350 --> 00:08:44,420
+Graph lab I haven't put yet because it's 
+not really a GDI GD-ermium. 
+
+112
+00:08:44,420 --> 00:08:49,476
+They are more designed for doing machine 
+loading applications on top of some 
+
+113
+00:08:49,476 --> 00:08:54,330
+graphs, without really worrying about, 
+exactly. 
+
+114
+00:08:54,330 --> 00:08:56,756
+So that's basically the focus. 
+
+

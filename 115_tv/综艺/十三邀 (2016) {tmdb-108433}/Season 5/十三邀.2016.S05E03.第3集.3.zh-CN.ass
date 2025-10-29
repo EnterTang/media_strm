@@ -1,0 +1,720 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,22,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,1,1,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.96,0:00:10.16,Default,,0000,0000,0000,,女士们 先生们 机长刚打开了 系好安全带的指示灯\N{\fs13\bord1}ladies and gentlemen,the captain has turned on the seat belt sign.{\r}
+Dialogue: 0,0:00:12.07,0:00:15.88,Default,,0000,0000,0000,,请回到座位 系好安全带 直到指示灯熄灭...\N{\fs13\bord1}Please return to your seats with your seat belts fastened until the captain turns off the light{\r}
+Dialogue: 0,0:00:15.91,0:00:18.38,Default,,0000,0000,0000,,可以安全的在机舱走动为止\N{\fs13\bord1}and it is safe to move about the cabin.{\r}
+Dialogue: 0,0:00:20.41,0:00:22.52,Default,,0000,0000,0000,,我可不想就这么死了\N{\fs13\bord1}I don't want to die this way.{\r}
+Dialogue: 0,0:00:23.78,0:00:24.75,Default,,0000,0000,0000,,你怎么能那么镇定?\N{\fs13\bord1}How can you be so calm?{\r}
+Dialogue: 0,0:00:24.76,0:00:27.11,Default,,0000,0000,0000,,机翼都快从机身上抖下去了\N{\fs13\bord1}The wings are gonna rip right off this tin can.{\r}
+Dialogue: 0,0:00:29.12,0:00:30.64,Default,,0000,0000,0000,,没事的\N{\fs13\bord1}It's all right.{\r}
+Dialogue: 0,0:00:30.69,0:00:34.57,Default,,0000,0000,0000,,这种气流不会引起飞机结构损坏\N{\fs13\bord1}There's no correlation between air turbulence and structural failure unless,{\r}
+Dialogue: 0,0:00:34.60,0:00:37.79,Default,,0000,0000,0000,,当然了 我们正在雷暴区域中\N{\fs13\bord1}of course,we're flying inside a thunderstorm.{\r}
+Dialogue: 0,0:00:37.82,0:00:40.88,Default,,0000,0000,0000,,我们正冲破两股不同气流阻碍\N{\fs13\bord1}We're just crossing a barrier between different air currents.{\r}
+Dialogue: 0,0:00:40.93,0:00:43.42,Default,,0000,0000,0000,,你是干嘛的 火箭专家吗?\N{\fs13\bord1}What are you,a rocket scientist?{\r}
+Dialogue: 0,0:00:44.12,0:00:46.06,Default,,0000,0000,0000,,犯罪现场调查员\N{\fs13\bord1}Crime scene investigator.{\r}
+Dialogue: 0,0:00:48.20,0:00:50.52,Default,,0000,0000,0000,,你尽量别去想这颠簸就好了\N{\fs13\bord1}Just try not to think about the turbulence.{\r}
+Dialogue: 0,0:00:50.57,0:00:52.65,Default,,0000,0000,0000,,你是做什么的 先生...\N{\fs13\bord1}What do you do for a living,Mr...{\r}
+Dialogue: 0,0:00:52.67,0:00:54.52,Default,,0000,0000,0000,,我叫Riley, Ed Riley\N{\fs13\bord1}Riley-- Ed Riley.{\r}
+Dialogue: 0,0:00:54.55,0:00:55.64,Default,,0000,0000,0000,,我是发明家\N{\fs13\bord1}Inventor.{\r}
+Dialogue: 0,0:00:55.69,0:00:58.59,Default,,0000,0000,0000,,我今天是去华盛顿申请专利的\N{\fs13\bord1}I'm filing a patent in DC today.{\r}
+Dialogue: 0,0:01:03.66,0:01:07.00,Default,,0000,0000,0000,,不管是跑 游泳 睡觉 跳伞 还是空难...\N{\fs13\bord1}Run,swim,sleep,skydive,crash in an airplane...{\r}
+Dialogue: 0,0:01:07.04,0:01:08.92,Default,,0000,0000,0000,,这东西绝不会脱落\N{\fs13\bord1}no way this is coming off.{\r}
+Dialogue: 0,0:01:08.94,0:01:11.26,Default,,0000,0000,0000,,我称其为"假发之锁"\N{\fs13\bord1}I call it the "The Wig Lock."{\r}
+Dialogue: 0,0:01:15.25,0:01:19.44,Default,,0000,0000,0000,,25%的年轻人在二十几岁时都经历过脱发\N{\fs13\bord1}25% percent of all young men in their 20s suffer from it.{\r}
+Dialogue: 0,0:01:19.56,0:01:22.47,Default,,0000,0000,0000,,我28岁开始脱发的\N{\fs13\bord1}Started losing my hair when I was 28.{\r}
+Dialogue: 0,0:01:22.51,0:01:26.63,Default,,0000,0000,0000,,我知道你可能在想 这家伙那么年轻毛囊就出问题了\N{\fs13\bord1}Now,I know what you're thinking: this guy's too young to be follicly challenged.{\r}
+Dialogue: 0,0:01:26.68,0:01:28.79,Default,,0000,0000,0000,,早期男性脱发是我家族遗传\N{\fs13\bord1}Premature male baldness runs in my family.{\r}
+Dialogue: 0,0:01:28.83,0:01:30.45,Default,,0000,0000,0000,,主要是我妈妈那边的基因\N{\fs13\bord1}Actually,it's on my mother's side.{\r}
+Dialogue: 0,0:01:30.49,0:01:32.40,Default,,0000,0000,0000,,她的四个兄弟...\N{\fs13\bord1}All four of her brothers...{\r}
+Dialogue: 0,0:01:32.42,0:01:35.14,Default,,0000,0000,0000,,都在40岁之前秃顶了\N{\fs13\bord1}bald before they reached 40.{\r}
+Dialogue: 0,0:01:35.83,0:01:37.82,Default,,0000,0000,0000,,我还不知道你叫什么呢\N{\fs13\bord1}I didn't catch your name.{\r}
+Dialogue: 0,0:01:38.61,0:01:39.80,Default,,0000,0000,0000,,Mac Taylor\N{\fs13\bord1}Uh,Mac Taylor.{\r}
+Dialogue: 0,0:01:39.83,0:01:42.58,Default,,0000,0000,0000,,呃...我离开一下\N{\fs13\bord1}Uh...excuse me one minute.{\r}
+Dialogue: 0,0:01:50.40,0:01:52.64,Default,,0000,0000,0000,,不好意思 先生 请您回到座位上去\N{\fs13\bord1}I'm sorry,sir,I'll have to ask you to return to your seat.{\r}
+Dialogue: 0,0:01:52.67,0:01:54.71,Default,,0000,0000,0000,,我是纽约犯罪实验室的Taylor警探\N{\fs13\bord1}Detective Taylor,New York Crime Lab.{\r}
+Dialogue: 0,0:01:54.75,0:01:56.37,Default,,0000,0000,0000,,发生什么事了?\N{\fs13\bord1}Is there a problem?{\r}
+Dialogue: 0,0:02:10.91,0:02:11.74,Default,,0000,0000,0000,,谁发现他的?\N{\fs13\bord1}Who found him?{\r}
+Dialogue: 0,0:02:11.78,0:02:12.61,Default,,0000,0000,0000,,我\N{\fs13\bord1}I did.{\r}
+Dialogue: 0,0:02:12.63,0:02:15.96,Default,,0000,0000,0000,,飞机颠簸时 我看到血从门缝里流出来\N{\fs13\bord1}During the turbulence,I saw blood coming from under the door.{\r}
+Dialogue: 0,0:02:25.00,0:02:27.24,Default,,0000,0000,0000,,伤在颈动脉要害\N{\fs13\bord1}Severed carotid artery.{\r}
+Dialogue: 0,0:02:28.77,0:02:29.87,Default,,0000,0000,0000,,他被捅了\N{\fs13\bord1}He was stabbed.{\r}
+Dialogue: 0,0:02:29.91,0:02:32.27,Default,,0000,0000,0000,,你发现什么和此事有关的线索吗?\N{\fs13\bord1}Did you find or see anything that could have caused this?{\r}
+Dialogue: 0,0:02:32.31,0:02:32.93,Default,,0000,0000,0000,,没有\N{\fs13\bord1}Nothing.{\r}
+Dialogue: 0,0:02:32.97,0:02:36.39,Default,,0000,0000,0000,,有什么人在尸体被发现前 或之后进过洗手间?\N{\fs13\bord1}What about anyone leaving or entering the bathroom before the body was discovered?{\r}
+Dialogue: 0,0:02:36.43,0:02:37.98,Default,,0000,0000,0000,,没有\N{\fs13\bord1}No.{\r}
+Dialogue: 0,0:02:43.83,0:02:45.85,Default,,0000,0000,0000,,联邦空中警察\N{\fs13\bord1}Federal Air Marshal.{\r}
+Dialogue: 0,0:02:50.88,0:02:52.83,Default,,0000,0000,0000,,他的枪不见了\N{\fs13\bord1}His gun is gone.{\r}
+Dialogue: 0,0:02:58.77,0:03:00.97,Default,,0000,0000,0000,,你觉得凶手是想劫机吗?\N{\fs13\bord1}You think his killer's gonna take over the plane?{\r}
+Dialogue: 0,0:03:02.03,0:03:04.84,Default,,0000,0000,0000,,他干掉了唯一可能阻止他的人\N{\fs13\bord1}He disarmed the only person who could stop him.{\r}
+Dialogue: 0,0:03:44.22,0:03:48.36,Default,,0000,0000,0000,,CSI:纽约篇 第五季 第3集 Turbulence\N{\fs13\bord1}CSI:NY SEASON 05  EPISODE 03{\r}
+Dialogue: 0,0:03:53.78,0:03:58.97,Default,,0000,0000,0000,,打开系好安全带的指示灯 通知飞行员锁好驾驶舱\N{\fs13\bord1}Keep the seat belt sign on and notify the pilots to stay locked inside the cockpit{\r}
+Dialogue: 0,0:03:59.02,0:04:01.00,Default,,0000,0000,0000,,我们飞回纽约肯尼迪机场\N{\fs13\bord1}and get us turned around back to JFK.{\r}
+Dialogue: 0,0:04:01.02,0:04:03.08,Default,,0000,0000,0000,,你觉得劫机的人可能不止一个吗?\N{\fs13\bord1}Do you think there's more than one hijacker?{\r}
+Dialogue: 0,0:04:03.82,0:04:04.53,Default,,0000,0000,0000,,不清楚\N{\fs13\bord1}I don't know.{\r}
+Dialogue: 0,0:04:04.57,0:04:07.14,Default,,0000,0000,0000,,如果我们飞回去 乘客会问很多问题\N{\fs13\bord1}If we turn around,people are gonna start asking questions.{\r}
+Dialogue: 0,0:04:07.19,0:04:09.41,Default,,0000,0000,0000,,告诉乘客有人生病了\N{\fs13\bord1}Tell the passengers someone is sick.{\r}
+Dialogue: 0,0:04:09.44,0:04:12.71,Default,,0000,0000,0000,,给我拿一个急救箱 还有乘客名单\N{\fs13\bord1}I'm gonna need a first aid kit and the passenger manifest.{\r}
+Dialogue: 0,0:04:12.73,0:04:13.63,Default,,0000,0000,0000,,你们都回去工作\N{\fs13\bord1}The rest of you,back to work.{\r}
+Dialogue: 0,0:04:13.67,0:04:14.69,Default,,0000,0000,0000,,像往常一样\N{\fs13\bord1}Business as usual.{\r}
+Dialogue: 0,0:04:14.72,0:04:17.21,Default,,0000,0000,0000,,如果有人要用洗手间 请他们用前面的\N{\fs13\bord1}If anyone needs to use the bathroom,have them use the one up front.{\r}
+Dialogue: 0,0:04:17.26,0:04:18.73,Default,,0000,0000,0000,,别让任何人过来了\N{\fs13\bord1}I want no one back here.{\r}
+Dialogue: 0,0:04:18.75,0:04:22.28,Default,,0000,0000,0000,,记住 这架飞机上的某个人就是凶手\N{\fs13\bord1}Remember,someone on this plane is a killer.{\r}
+Dialogue: 0,0:04:48.03,0:04:50.14,Default,,0000,0000,0000,,女士们 先生们 我们遇到了紧急情况\N{\fs13\bord1}Ladies and gentlemen,we have an emergency.{\r}
+Dialogue: 0,0:04:50.17,0:04:54.06,Default,,0000,0000,0000,,有一位乘客需要就医 我们按指示返回纽约\N{\fs13\bord1}A passenger is ill,and we have been instructed to return to New York.{\r}
+Dialogue: 0,0:04:54.10,0:04:57.67,Default,,0000,0000,0000,,请大家回到座位上 全程系好安全带\N{\fs13\bord1}Please take your seats and remain seated for the duration of our flight.{\r}
+Dialogue: 0,0:04:57.72,0:05:00.41,Default,,0000,0000,0000,,给您带来的不便 我们深表歉意\N{\fs13\bord1}We apologize for this inconvenience.{\r}
+Dialogue: 0,0:05:22.04,0:05:23.73,Default,,0000,0000,0000,,你听到了吗? 有乘客生病了\N{\fs13\bord1}Did you hear that? A passenger's sick.{\r}
+Dialogue: 0,0:05:23.77,0:05:26.83,Default,,0000,0000,0000,,实际上意思是一个引擎不行了\N{\fs13\bord1}Yeah,right,what they really mean is an engine is about to fail.{\r}
+Dialogue: 0,0:05:26.86,0:05:28.73,Default,,0000,0000,0000,,这事和一个乘客有关\N{\fs13\bord1}This is about a passenger.{\r}
+Dialogue: 0,0:05:28.75,0:05:30.04,Default,,0000,0000,0000,,他死了\N{\fs13\bord1}He's dead.{\r}
+Dialogue: 0,0:05:30.07,0:05:31.42,Default,,0000,0000,0000,,什么?\N{\fs13\bord1}What?{\r}
+Dialogue: 0,0:05:33.05,0:05:34.57,Default,,0000,0000,0000,,我需要你帮忙\N{\fs13\bord1}I'm gonna need your help.{\r}
+Dialogue: 0,0:05:34.59,0:05:36.35,Default,,0000,0000,0000,,你得保持镇定\N{\fs13\bord1}You've got to stay calm.{\r}
+Dialogue: 0,0:05:36.90,0:05:38.18,Default,,0000,0000,0000,,机上发生谋杀了\N{\fs13\bord1}There's been a murder on board.{\r}
+Dialogue: 0,0:05:38.23,0:05:40.41,Default,,0000,0000,0000,,凶手还有枪\N{\fs13\bord1}Whoever did it has a gun.{\r}
+Dialogue: 0,0:05:40.43,0:05:41.46,Default,,0000,0000,0000,,你不是开玩笑吧?\N{\fs13\bord1}You're not joking,are you?{\r}
+Dialogue: 0,0:05:41.50,0:05:44.08,Default,,0000,0000,0000,,你跟我到机舱后面来\N{\fs13\bord1}You're gonna follow me to the back of the plane.{\r}
+Dialogue: 0,0:05:44.11,0:05:48.20,Default,,0000,0000,0000,,我希望你站在厨房里 观察机舱内可疑的动静\N{\fs13\bord1}I want you to stand in the galley,keep your eyes on the cabin and look for anything suspicious.{\r}
+Dialogue: 0,0:05:48.24,0:05:48.99,Default,,0000,0000,0000,,比如什么?\N{\fs13\bord1}Like what?{\r}
+Dialogue: 0,0:05:49.03,0:05:50.18,Default,,0000,0000,0000,,你看到就知道了\N{\fs13\bord1}You'll know it when you see it.{\r}
+Dialogue: 0,0:05:50.23,0:05:50.94,Default,,0000,0000,0000,,为什么找我?\N{\fs13\bord1}Why me?{\r}
+Dialogue: 0,0:05:50.96,0:05:52.87,Default,,0000,0000,0000,,你是唯一一个我确定不是凶手的人\N{\fs13\bord1}You're the only one I'm sure is not the killer.{\r}
+Dialogue: 0,0:05:52.90,0:05:55.31,Default,,0000,0000,0000,,你全程都坐在我旁边\N{\fs13\bord1}You were next to me the entire flight.{\r}
+Dialogue: 0,0:06:01.44,0:06:02.60,Default,,0000,0000,0000,,噢 天哪\N{\fs13\bord1}Oh,boy.{\r}
+Dialogue: 0,0:06:02.83,0:06:04.89,Default,,0000,0000,0000,,这人真是死了\N{\fs13\bord1}That guy's dead,all right.{\r}
+Dialogue: 0,0:06:04.92,0:06:06.58,Default,,0000,0000,0000,,不过头发还蛮漂亮的\N{\fs13\bord1}Nice hair,though.{\r}
+Dialogue: 0,0:06:08.41,0:06:09.26,Default,,0000,0000,0000,,你帮我盯着\N{\fs13\bord1}You're my eyes.{\r}
+Dialogue: 0,0:06:09.29,0:06:12.45,Default,,0000,0000,0000,,保证大家都在座位上 发现可疑的 就告诉我\N{\fs13\bord1}Keep them on the cabin; you see something you don't like,let me know.{\r}
+Dialogue: 0,0:06:17.93,0:06:21.11,Default,,0000,0000,0000,,警探 急救箱和乘客名单\N{\fs13\bord1}First aid kit and passenger manifest,Detective.{\r}
+Dialogue: 0,0:06:47.16,0:06:49.59,Default,,0000,0000,0000,,钱包和身份证都不见了\N{\fs13\bord1}No wallet or ID.{\r}
+Dialogue: 0,0:06:50.09,0:06:51.24,Default,,0000,0000,0000,,没有带照片的证件\N{\fs13\bord1}Nothing with a picture.{\r}
+Dialogue: 0,0:06:51.27,0:06:53.07,Default,,0000,0000,0000,,可能他把钱包留在座位上了\N{\fs13\bord1}Maybe he left his wallet in his seat.{\r}
+Dialogue: 0,0:06:53.10,0:06:54.53,Default,,0000,0000,0000,,他坐哪里?\N{\fs13\bord1}What seat was he in?{\r}
+Dialogue: 0,0:06:54.55,0:06:57.65,Default,,0000,0000,0000,,我记得是...6C\N{\fs13\bord1}I think it was... 6C.{\r}
+Dialogue: 0,0:07:01.95,0:07:04.12,Default,,0000,0000,0000,,但是名单上没人坐那排\N{\fs13\bord1}No one listed on the manifest for that row.{\r}
+Dialogue: 0,0:07:04.16,0:07:06.96,Default,,0000,0000,0000,,空警不一定都订座的\N{\fs13\bord1}Well,air marshals aren't always assigned seats.{\r}
+Dialogue: 0,0:07:06.99,0:07:08.53,Default,,0000,0000,0000,,不过肯定是第6排\N{\fs13\bord1}But it was definitely row six.{\r}
+Dialogue: 0,0:07:08.56,0:07:11.85,Default,,0000,0000,0000,,我记得起飞之后给他拿过杂志\N{\fs13\bord1}I remember giving him a magazine right after we took off.{\r}
+Dialogue: 0,0:07:20.96,0:07:22.23,Default,,0000,0000,0000,,我去看看他的座位\N{\fs13\bord1}I'll check his seat.{\r}
+Dialogue: 0,0:07:22.37,0:07:25.60,Default,,0000,0000,0000,,同时 你去联系一下联邦空中法警局\N{\fs13\bord1}And while I do that,have the captain contact the Federal Air Marshal Service.{\r}
+Dialogue: 0,0:07:25.63,0:07:27.07,Default,,0000,0000,0000,,告诉他们警号\N{\fs13\bord1}Give them that badge number.{\r}
+Dialogue: 0,0:07:27.10,0:07:29.72,Default,,0000,0000,0000,,要一些这个人的资料来\N{\fs13\bord1}Let's see what they can tell us about this guy.{\r}
+Dialogue: 0,0:08:27.60,0:08:32.79,Default,,0000,0000,0000,,根据乘客名单 James Turner应该坐在11D\N{\fs13\bord1}According to the manifest,seat 11D is supposed to be occupied by James Turner.{\r}
+Dialogue: 0,0:08:34.76,0:08:36.35,Default,,0000,0000,0000,,确实有人坐过那里\N{\fs13\bord1}There was a gentleman sitting there.{\r}
+Dialogue: 0,0:08:36.38,0:08:41.01,Default,,0000,0000,0000,,还没开始餐饮服务 我看到他焦躁不安 就给他拿了杯水\N{\fs13\bord1}Beverage service hadn't started,but he seemed very agitated,so I gave him some water.{\r}
+Dialogue: 0,0:08:41.02,0:08:43.13,Default,,0000,0000,0000,,我不知道他去了哪里\N{\fs13\bord1}I don't know where he went.{\r}
+Dialogue: 0,0:08:45.08,0:08:46.68,Default,,0000,0000,0000,,在那呢\N{\fs13\bord1}There he is.{\r}
+Dialogue: 0,0:08:46.71,0:08:48.17,Default,,0000,0000,0000,,12排\N{\fs13\bord1}Row 12.{\r}
+Dialogue: 0,0:09:18.90,0:09:19.87,Default,,0000,0000,0000,,你有什么发现吗?\N{\fs13\bord1}You find anything?{\r}
+Dialogue: 0,0:09:19.91,0:09:20.76,Default,,0000,0000,0000,,没有\N{\fs13\bord1}Nothing.{\r}
+Dialogue: 0,0:09:20.79,0:09:22.96,Default,,0000,0000,0000,,没有钱包 没有随身行李\N{\fs13\bord1}No wallet,no carry-on.{\r}
+Dialogue: 0,0:09:23.15,0:09:24.39,Default,,0000,0000,0000,,有麻烦了\N{\fs13\bord1}We have a problem.{\r}
+Dialogue: 0,0:09:24.42,0:09:26.67,Default,,0000,0000,0000,,据联邦空中法警局的资料\N{\fs13\bord1}According to the Federal Air Marshal Service,{\r}
+Dialogue: 0,0:09:26.70,0:09:29.95,Default,,0000,0000,0000,,这个警号应该是Roger Stockwell的\N{\fs13\bord1}this badge number is registered to a guy named Roger Stockwell.{\r}
+Dialogue: 0,0:09:29.99,0:09:33.31,Default,,0000,0000,0000,,将近50岁 身材不高 头发斑白了\N{\fs13\bord1}Late 40s,short,cropped salt-and-pepper hair,{\r}
+Dialogue: 0,0:09:33.34,0:09:35.80,Default,,0000,0000,0000,,本来今天应该飞去洛杉矶的\N{\fs13\bord1}and scheduled to be on a flight to Los Angeles today.{\r}
+Dialogue: 0,0:09:35.84,0:09:38.08,Default,,0000,0000,0000,,不怎么像这位死者\N{\fs13\bord1}Not the description of our vic.{\r}
+Dialogue: 0,0:09:38.12,0:09:40.04,Default,,0000,0000,0000,,那这人是谁呢?\N{\fs13\bord1}Then,who's this guy?{\r}
+Dialogue: 0,0:09:45.49,0:09:48.54,Default,,0000,0000,0000,,我可以把他的指纹拍照发回实验室\N{\fs13\bord1}I can send a picture of his prints back to my lab,but,uh...{\r}
+Dialogue: 0,0:09:48.57,0:09:50.10,Default,,0000,0000,0000,,但是我得用手机\N{\fs13\bord1}I'm gonna need cell phone service.{\r}
+Dialogue: 0,0:09:50.13,0:09:52.35,Default,,0000,0000,0000,,驾驶舱里机长有卫星电话\N{\fs13\bord1}The captain has a satellite phone in the cockpit.{\r}
+Dialogue: 0,0:09:52.39,0:09:53.63,Default,,0000,0000,0000,,上面也有摄像头的\N{\fs13\bord1}I believe it has a camera.{\r}
+Dialogue: 0,0:09:53.67,0:09:54.17,Default,,0000,0000,0000,,去拿过来\N{\fs13\bord1}Get it.{\r}
+Dialogue: 0,0:09:54.21,0:09:57.96,Default,,0000,0000,0000,,我还需要一个唇膏和三个呕吐袋\N{\fs13\bord1}I also need a tube of lipstick and three air sickness bags.{\r}
+Dialogue: 0,0:09:57.99,0:09:59.99,Default,,0000,0000,0000,,我去拿呕吐袋\N{\fs13\bord1}I'll collect the barf bags.{\r}
+Dialogue: 0,0:10:31.27,0:10:32.48,Default,,0000,0000,0000,,拿来了\N{\fs13\bord1}I got it.{\r}
+Dialogue: 0,0:10:32.76,0:10:34.33,Default,,0000,0000,0000,,这是飞行员的卫星电话\N{\fs13\bord1}Here's the pilot's satellite phone.{\r}
+Dialogue: 0,0:10:34.35,0:10:35.67,Default,,0000,0000,0000,,拿着这个\N{\fs13\bord1}Hold that.{\r}
+Dialogue: 0,0:10:49.83,0:10:51.38,Default,,0000,0000,0000,,打得不错啊\N{\fs13\bord1}Impressive.{\r}
+Dialogue: 0,0:10:51.39,0:10:53.07,Default,,0000,0000,0000,,嘿\N{\fs13\bord1}Hey.{\r}
+Dialogue: 0,0:10:53.18,0:10:54.74,Default,,0000,0000,0000,,只是热身呢 Walsh\N{\fs13\bord1}Just warming up,Walsh.{\r}
+Dialogue: 0,0:10:54.77,0:10:56.54,Default,,0000,0000,0000,,你还挺爱现呢 Bonasera\N{\fs13\bord1}You're a show-off,Bonasera.{\r}
+Dialogue: 0,0:10:56.58,0:10:58.01,Default,,0000,0000,0000,,不是吧\N{\fs13\bord1}Nope.{\r}
+Dialogue: 0,0:10:58.27,0:11:02.90,Default,,0000,0000,0000,,我这叫...出色\N{\fs13\bord1}What I am...is good.{\r}
+Dialogue: 0,0:11:03.01,0:11:07.11,Default,,0000,0000,0000,,你和你的消防员伙计们绝对想不到 在季后赛...\N{\fs13\bord1}And you and the rest of your firemen buddies aren't gonna know what hit you...{\r}
+Dialogue: 0,0:11:07.14,0:11:10.99,Default,,0000,0000,0000,,被谁迎头痛击了 纽约警局将会是今年的冠军\N{\fs13\bord1}at the playoffs 'cause NYPD is gonna take it this year.{\r}
+Dialogue: 0,0:11:11.01,0:11:14.24,Default,,0000,0000,0000,,我告诉过他们男女混合的 棒球联赛不是什么好主意\N{\fs13\bord1}Hey,I told them a coed baseball league was a bad idea.{\r}
+Dialogue: 0,0:11:22.85,0:11:23.47,Default,,0000,0000,0000,,Bonasera\N{\fs13\bord1}Bonasera.{\r}
+Dialogue: 0,0:11:23.49,0:11:24.57,Default,,0000,0000,0000,,Stella\N{\fs13\bord1}Stella.{\r}
+Dialogue: 0,0:11:24.58,0:11:27.11,Default,,0000,0000,0000,,你不是在去华盛顿作证的路上?\N{\fs13\bord1}I thought you were supposed to be on your way to Washington to testify.{\r}
+Dialogue: 0,0:11:27.14,0:11:30.24,Default,,0000,0000,0000,,没错 但飞机上死人了 我的旅行计划变更了\N{\fs13\bord1}I was,but a male DB changed my flight plans.{\r}
+Dialogue: 0,0:11:30.28,0:11:30.97,Default,,0000,0000,0000,,什么?\N{\fs13\bord1}What?{\r}
+Dialogue: 0,0:11:30.99,0:11:33.64,Default,,0000,0000,0000,,死者伪装成一名空警\N{\fs13\bord1}Yeah,the vic appears to have been posing as an air marshal.{\r}
+Dialogue: 0,0:11:33.66,0:11:37.76,Default,,0000,0000,0000,,他戴着真警徽 但没有身份证 枪也被人拿走了\N{\fs13\bord1}He's got a badge that's legit,but no ID and an empty holster.{\r}
+Dialogue: 0,0:11:37.79,0:11:38.98,Default,,0000,0000,0000,,枪去哪里了?\N{\fs13\bord1}Where's the gun?{\r}
+Dialogue: 0,0:11:39.01,0:11:40.39,Default,,0000,0000,0000,,我要知道就好了\N{\fs13\bord1}Wish I could answer that.{\r}
+Dialogue: 0,0:11:40.41,0:11:41.66,Default,,0000,0000,0000,,你有听到其他的...\N{\fs13\bord1}You hearing anything about...{\r}
+Dialogue: 0,0:11:41.68,0:11:43.19,Default,,0000,0000,0000,,劫机事件吗?\N{\fs13\bord1}any other hijackings?{\r}
+Dialogue: 0,0:11:43.22,0:11:45.31,Default,,0000,0000,0000,,不 没有\N{\fs13\bord1}No,no,nothing.{\r}
+Dialogue: 0,0:11:45.33,0:11:47.33,Default,,0000,0000,0000,,Mac 如果这是有组织犯罪 我们肯定已听到风声了\N{\fs13\bord1}Mac,if this was organized,we'd have heard something.{\r}
+Dialogue: 0,0:11:47.35,0:11:48.43,Default,,0000,0000,0000,,除非这是第一起\N{\fs13\bord1}Unless we're the first.{\r}
+Dialogue: 0,0:11:48.46,0:11:50.48,Default,,0000,0000,0000,,我把死者的指纹传回实验室了\N{\fs13\bord1}I sent a set of the vic's prints to the lab.{\r}
+Dialogue: 0,0:11:50.51,0:11:52.06,Default,,0000,0000,0000,,Lindsay正在查他的身份\N{\fs13\bord1}Have Lindsay find out who he is.{\r}
+Dialogue: 0,0:11:52.09,0:11:55.49,Default,,0000,0000,0000,,Stella 追查James Turner的背景\N{\fs13\bord1}And Stella,hunt down everything you can on a James Turner.{\r}
+Dialogue: 0,0:11:55.52,0:11:56.28,Default,,0000,0000,0000,,他是嫌疑人?\N{\fs13\bord1}He a suspect?{\r}
+Dialogue: 0,0:11:56.32,0:11:57.32,Default,,0000,0000,0000,,还不清楚\N{\fs13\bord1}I don't know yet.{\r}
+Dialogue: 0,0:11:57.35,0:11:59.62,Default,,0000,0000,0000,,不过半小时后 我可能会知道\N{\fs13\bord1}But in the next half hour,I just might find out.{\r}
+Dialogue: 0,0:11:59.63,0:12:00.53,Default,,0000,0000,0000,,那时候我们就落地了\N{\fs13\bord1}That's when we land.{\r}
+Dialogue: 0,0:12:00.57,0:12:03.29,Default,,0000,0000,0000,,把所有人都叫到肯尼迪机场来 找一个停机棚\N{\fs13\bord1}So,get everyone over to J,secure a hangar,{\r}
+Dialogue: 0,0:12:03.31,0:12:05.71,Default,,0000,0000,0000,,告诉他们飞机就是犯罪现场\N{\fs13\bord1}and tell them I'm coming in with a crime scene.{\r}
+Dialogue: 0,0:12:26.00,0:12:27.64,Default,,0000,0000,0000,,查到他身份吗 Lindsay?\N{\fs13\bord1}This is a positive ID,Lindsay?{\r}
+Dialogue: 0,0:12:27.68,0:12:29.55,Default,,0000,0000,0000,,死者名叫Anton Greenway\N{\fs13\bord1}Your victim's name is Anton Greenway.{\r}
+Dialogue: 0,0:12:29.60,0:12:31.52,Default,,0000,0000,0000,,他就是假空警\N{\fs13\bord1}He's your fake air marshal.{\r}
+Dialogue: 0,0:12:31.56,0:12:33.76,Default,,0000,0000,0000,,他昨天刚逃脱了法庭监管\N{\fs13\bord1}Get this. He escaped from custody yesterday.{\r}
+Dialogue: 0,0:12:33.79,0:12:36.51,Default,,0000,0000,0000,,他因为三次累犯 将去辛辛监狱 服终身监禁\N{\fs13\bord1}He was a three-striker headed to Sing Sing for a life stretch,{\r}
+Dialogue: 0,0:12:36.54,0:12:39.42,Default,,0000,0000,0000,,从法院的二楼跳窗逃跑了\N{\fs13\bord1}and he jumped out of a second floor courtroom window.{\r}
+Dialogue: 0,0:12:39.46,0:12:40.40,Default,,0000,0000,0000,,他犯了什么罪?\N{\fs13\bord1}Convicted of?{\r}
+Dialogue: 0,0:12:40.42,0:12:43.10,Default,,0000,0000,0000,,走私 贩毒\N{\fs13\bord1}smuggling,dealing.{\r}
+Dialogue: 0,0:12:43.13,0:12:46.32,Default,,0000,0000,0000,,他之前受雇于大西洋美景航空 在肯尼迪机场工作过\N{\fs13\bord1}He used to work at JFK as an employee for Atlantic Vista Airways,{\r}
+Dialogue: 0,0:12:46.36,0:12:48.31,Default,,0000,0000,0000,,所以他对飞机和机场很熟悉\N{\fs13\bord1}so he knew his way around airplanes and airports.{\r}
+Dialogue: 0,0:12:48.35,0:12:49.94,Default,,0000,0000,0000,,警徽的真正主人呢?\N{\fs13\bord1}What about the owner of the badge?{\r}
+Dialogue: 0,0:12:49.98,0:12:52.03,Default,,0000,0000,0000,,找到Roger Stockwell在哪儿了吗?\N{\fs13\bord1}You been able to locate Roger Stockwell yet?{\r}
+Dialogue: 0,0:12:52.06,0:12:56.03,Default,,0000,0000,0000,,空警的指挥官说Stockwell 昨晚住在一家机场旅馆里\N{\fs13\bord1}The director for the air marshals said Stockwell was staying at an airport hotel last night,{\r}
+Dialogue: 0,0:12:56.05,0:12:58.21,Default,,0000,0000,0000,,但他今早并未到地勤处报道\N{\fs13\bord1}but he never checked in with the field office this morning.{\r}
+Dialogue: 0,0:12:58.24,0:13:01.49,Default,,0000,0000,0000,,Danny和Flack正赶往真空警住的旅馆\N{\fs13\bord1}Danny and Flack are on their way to the real air marshal's hotel.{\r}
+Dialogue: 0,0:13:06.33,0:13:08.62,Default,,0000,0000,0000,,Roger Stockwell 纽约警察\N{\fs13\bord1}Roger Stockwell,NYPD.{\r}
+Dialogue: 0,0:13:09.33,0:13:12.15,Default,,0000,0000,0000,,Stockwell先生 我们需要和你谈谈\N{\fs13\bord1}Mr. Stockwell,we need to talk to you,sir.{\r}
+Dialogue: 0,0:13:13.96,0:13:15.25,Default,,0000,0000,0000,,打开\N{\fs13\bord1}Open it.{\r}
+Dialogue: 0,0:13:32.34,0:13:33.87,Default,,0000,0000,0000,,那就是我们的空警\N{\fs13\bord1}There's our air marshal.{\r}
+Dialogue: 0,0:13:33.95,0:13:36.33,Default,,0000,0000,0000,,看来他结账结得有点早了\N{\fs13\bord1}Looks like he checked out early.{\r}
+Dialogue: 0,0:13:44.28,0:13:46.00,Default,,0000,0000,0000,,这个家伙可是被痛扁了一顿\N{\fs13\bord1}This guy's been beat up pretty good.{\r}
+Dialogue: 0,0:13:47.85,0:13:52.16,Default,,0000,0000,0000,,脸上有淤伤 手臂上有防卫伤\N{\fs13\bord1}Bruising on his face,defensive bruises on his arm.{\r}
+Dialogue: 0,0:13:52.18,0:13:56.99,Default,,0000,0000,0000,,无强行进入痕迹 但看来他结结实实干过一架\N{\fs13\bord1}No sign of forced entry,but it does looks like he put up one hell of a fight.{\r}
+Dialogue: 0,0:14:00.48,0:14:04.03,Default,,0000,0000,0000,,从几时起清洁工开始用宽胶带了?\N{\fs13\bord1}Since when do,uh,housekeepers use duct tape?{\r}
+Dialogue: 0,0:14:04.06,0:14:09.92,Default,,0000,0000,0000,,我猜从用它们包裹 点50口径的"沙漠之鹰"开始\N{\fs13\bord1}I'm guessing since they started packing Desert Eagle .50s.{\r}
+Dialogue: 0,0:14:12.56,0:14:14.59,Default,,0000,0000,0000,,这门大炮火力够猛\N{\fs13\bord1}That cannon packs quite a punch.{\r}
+Dialogue: 0,0:14:14.64,0:14:19.79,Default,,0000,0000,0000,,是啊 但旅馆住客和员工都没有 报警说听到枪响\N{\fs13\bord1}Yeah,only there were no reports of gunshots from hotel guests or employees.{\r}
+Dialogue: 0,0:14:19.82,0:14:20.81,Default,,0000,0000,0000,,是的\N{\fs13\bord1}Right.{\r}
+Dialogue: 0,0:14:20.83,0:14:24.26,Default,,0000,0000,0000,,训练有素又有武器的空警 怎会被人一枪正中眉心的?\N{\fs13\bord1}So,how does a highly trained and armed air marshal take one between the eyes,{\r}
+Dialogue: 0,0:14:24.29,0:14:26.37,Default,,0000,0000,0000,,而且还没人听到?\N{\fs13\bord1}and nobody hears anything?{\r}
+Dialogue: 0,0:14:28.47,0:14:30.98,Default,,0000,0000,0000,,他的头部伤口上有东西\N{\fs13\bord1}Got something in his head wound.{\r}
+Dialogue: 0,0:14:32.30,0:14:34.92,Default,,0000,0000,0000,,你是说 除了那颗大口径的子弹?\N{\fs13\bord1}You mean,besides the large caliber bullet?{\r}
+Dialogue: 0,0:14:37.60,0:14:39.82,Default,,0000,0000,0000,,白色纤维\N{\fs13\bord1}White fibers.{\r}
+Dialogue: 0,0:14:41.15,0:14:43.65,Default,,0000,0000,0000,,看起来那边还有更多\N{\fs13\bord1}Looks like there's some more of it over there.{\r}
+Dialogue: 0,0:14:51.00,0:14:52.24,Default,,0000,0000,0000,,哇\N{\fs13\bord1}Boom.{\r}
+Dialogue: 0,0:14:52.27,0:14:54.48,Default,,0000,0000,0000,,这里有什么发现?\N{\fs13\bord1}What have we got here?{\r}
+Dialogue: 0,0:14:56.37,0:14:57.49,Default,,0000,0000,0000,,这能算一个目击证人吗?\N{\fs13\bord1}Can I get a witness?{\r}
+Dialogue: 0,0:14:57.53,0:14:58.84,Default,,0000,0000,0000,,嘿 你好\N{\fs13\bord1}Well,hello there.{\r}
+Dialogue: 0,0:15:01.50,0:15:04.11,Default,,0000,0000,0000,,绒毛上有弹孔还有火药灼烧痕迹\N{\fs13\bord1}Bullet hole and powder burns in the fur.{\r}
+Dialogue: 0,0:15:04.14,0:15:06.19,Default,,0000,0000,0000,,这可能就是没人听到枪响的原因\N{\fs13\bord1}This might be why nobody heard anything.{\r}
+Dialogue: 0,0:15:06.23,0:15:08.15,Default,,0000,0000,0000,,随手抓来的消音器\N{\fs13\bord1}An improvised silencer.{\r}
+Dialogue: 0,0:15:11.19,0:15:13.56,Default,,0000,0000,0000,,这里还有更多\N{\fs13\bord1}There's some more,uh,trace here,too.{\r}
+Dialogue: 0,0:15:13.59,0:15:15.23,Default,,0000,0000,0000,,凶手的?\N{\fs13\bord1}Killer's?{\r}
+Dialogue: 0,0:15:17.53,0:15:22.76,Default,,0000,0000,0000,,这种杂色粗毛不是人类的毛发\N{\fs13\bord1}The variegated color and the coarseness suggest that it's not human.{\r}
+Dialogue: 0,0:15:22.78,0:15:25.29,Default,,0000,0000,0000,,似乎也不是这只熊猫的\N{\fs13\bord1}And it doesn't appear to be from the panda.{\r}
+Dialogue: 0,0:15:25.41,0:15:27.54,Default,,0000,0000,0000,,也许这头熊有个伙伴\N{\fs13\bord1}Maybe the bear has a friend.{\r}
+Dialogue: 0,0:15:27.55,0:15:30.08,Default,,0000,0000,0000,,这也可能是凶手进屋的方法\N{\fs13\bord1}This also could be how the killer got in the room.{\r}
+Dialogue: 0,0:15:31.69,0:15:32.99,Default,,0000,0000,0000,,快递\N{\fs13\bord1}Delivery.{\r}
+Dialogue: 0,0:15:33.00,0:15:34.67,Default,,0000,0000,0000,,你送错房间了\N{\fs13\bord1}You got the wrong room.{\r}
+Dialogue: 0,0:15:34.86,0:15:35.72,Default,,0000,0000,0000,,是说102的啊\N{\fs13\bord1}Says,102.{\r}
+Dialogue: 0,0:15:36.08,0:15:37.03,Default,,0000,0000,0000,,Roger Stockwell?\N{\fs13\bord1}Roger Stockwell?{\r}
+Dialogue: 0,0:15:45.79,0:15:46.61,Default,,0000,0000,0000,,生日快乐\N{\fs13\bord1}Happy birthday.{\r}
+Dialogue: 0,0:15:59.16,0:16:00.87,Default,,0000,0000,0000,,女士们先生们 请保持冷静\N{\fs13\bord1}Ladies and gentlemen,please remain calm.{\r}
+Dialogue: 0,0:16:00.90,0:16:03.24,Default,,0000,0000,0000,,我们马上就可以下飞机了\N{\fs13\bord1}We'll be deplaning momentarily.{\r}
+Dialogue: 0,0:16:30.04,0:16:32.24,Default,,0000,0000,0000,,请坐在位子上 保持冷静\N{\fs13\bord1}Please remain seated and stay calm.{\r}
+Dialogue: 0,0:16:36.45,0:16:39.32,Default,,0000,0000,0000,,女士们先生们 请注意\N{\fs13\bord1}Ladies and gentlemen,can I have your attention,please?{\r}
+Dialogue: 0,0:16:40.25,0:16:40.96,Default,,0000,0000,0000,,我叫Mac Taylor\N{\fs13\bord1}My name is Mac Taylor.{\r}
+Dialogue: 0,0:16:40.99,0:16:43.47,Default,,0000,0000,0000,,我是纽约犯罪实验室的警探\N{\fs13\bord1}I'm a detective with the New York Crime Lab.{\r}
+Dialogue: 0,0:16:44.61,0:16:47.07,Default,,0000,0000,0000,,起飞不久后 机上即发生了谋杀案\N{\fs13\bord1}A murder was committed on this plane shortly after takeoff.{\r}
+Dialogue: 0,0:16:47.09,0:16:49.89,Default,,0000,0000,0000,,我们需要你们的通力合作\N{\fs13\bord1}We'll need your full cooperation with our investigation.{\r}
+Dialogue: 0,0:16:49.91,0:16:54.86,Default,,0000,0000,0000,,在您下飞机后 请听从警官和探员的指挥\N{\fs13\bord1}When you deplane,please follow the instructions of the officers and the agents.{\r}
+Dialogue: 0,0:16:58.20,0:16:59.66,Default,,0000,0000,0000,,我们将从您开始 先生\N{\fs13\bord1}We're going to start with you,sir.{\r}
+Dialogue: 0,0:17:00.23,0:17:00.74,Default,,0000,0000,0000,,出什么事了?\N{\fs13\bord1}What's going on?{\r}
+Dialogue: 0,0:17:00.76,0:17:02.74,Default,,0000,0000,0000,,请慢慢离开您的座位\N{\fs13\bord1}Out of your seat slowly,please.{\r}
+Dialogue: 0,0:17:02.79,0:17:03.61,Default,,0000,0000,0000,,我什么都没做过\N{\fs13\bord1}I didn't do anything.{\r}
+Dialogue: 0,0:17:03.64,0:17:05.12,Default,,0000,0000,0000,,慢慢的 只要跟着我就好了\N{\fs13\bord1}Slowly. Come on. Just follow me.{\r}
+Dialogue: 0,0:17:05.14,0:17:06.66,Default,,0000,0000,0000,,我...我...\N{\fs13\bord1}I... I...{\r}
+Dialogue: 0,0:17:06.83,0:17:09.12,Default,,0000,0000,0000,,跟这位警官走\N{\fs13\bord1}Go with this officer.{\r}
+Dialogue: 0,0:17:15.66,0:17:19.38,Default,,0000,0000,0000,,剩下的人一个跟着一个走 从前排开始\N{\fs13\bord1}Get the rest of them off one by one,starting with the front row.{\r}
+Dialogue: 0,0:17:31.75,0:17:34.98,Default,,0000,0000,0000,,国土安全局和联邦航空局相信 这次谋杀案是起孤立事件\N{\fs13\bord1}Homeland Security and FAA believe that this murder was an isolated incident.{\r}
+Dialogue: 0,0:17:34.99,0:17:37.39,Default,,0000,0000,0000,,只要不撇下他们 他们很乐意让你当指挥\N{\fs13\bord1}They're willing to let you take the lead so long as they're kept in the loop.{\r}
+Dialogue: 0,0:17:37.41,0:17:40.11,Default,,0000,0000,0000,,很好 我希望搜查下每位旅客 收集所有人的DNA和指纹\N{\fs13\bord1}Good. I want each passenger searched. Collect DNA and prints.{\r}
+Dialogue: 0,0:17:40.14,0:17:42.96,Default,,0000,0000,0000,,唯一没干这件事的人 就是坐我旁边的那位\N{\fs13\bord1}The only one I know didn't do it was the guy in the seat next to me.{\r}
+Dialogue: 0,0:17:42.97,0:17:44.78,Default,,0000,0000,0000,,Mac 没有搜查令我们不能那么做\N{\fs13\bord1}Mac,we can't do any of that without a warrant,{\r}
+Dialogue: 0,0:17:44.80,0:17:46.93,Default,,0000,0000,0000,,而要拿到搜查令 我们需要可信的理由\N{\fs13\bord1}and in order to get a warrant, we need probable cause.{\r}
+Dialogue: 0,0:17:46.95,0:17:48.79,Default,,0000,0000,0000,,理由就是谋杀 他们中有一个就是凶手\N{\fs13\bord1}The cause is murder,and one of them is our killer.{\r}
+Dialogue: 0,0:17:48.80,0:17:50.82,Default,,0000,0000,0000,,我知道 我争辩过这一点\N{\fs13\bord1}I know. I argued that point.{\r}
+Dialogue: 0,0:17:50.88,0:17:55.19,Default,,0000,0000,0000,,基本上 我们能做的就是 搜查旅客行李并要求他们合作\N{\fs13\bord1}Basically,all we can do is search the passengers' carry-on luggage and ask for their cooperation.{\r}
+Dialogue: 0,0:17:55.21,0:17:55.96,Default,,0000,0000,0000,,如果他们拒绝...\N{\fs13\bord1}If they refuse...{\r}
+Dialogue: 0,0:17:55.99,0:17:56.85,Default,,0000,0000,0000,,我们就得让他们走\N{\fs13\bord1}We have to let them go.{\r}
+Dialogue: 0,0:17:56.87,0:17:59.36,Default,,0000,0000,0000,,对了 我们还不能拘留他们超过24小时\N{\fs13\bord1}Right,and we can't detain them for more than 24 hours.{\r}
+Dialogue: 0,0:17:59.37,0:18:04.24,Default,,0000,0000,0000,,除非在那之前我们找到证据 锁定一个疑犯 不然他们都能走\N{\fs13\bord1}So unless we find evidence to hold a suspect before then,they all walk.{\r}
+Dialogue: 0,0:18:04.38,0:18:07.07,Default,,0000,0000,0000,,现在 国土安全局的人要询问乘客了\N{\fs13\bord1}Now,Homeland Security's going to question the passengers.{\r}
+Dialogue: 0,0:18:07.10,0:18:09.33,Default,,0000,0000,0000,,我们就去找证据\N{\fs13\bord1}We're gonna check for evidence.{\r}
+Dialogue: 0,0:18:09.34,0:18:10.89,Default,,0000,0000,0000,,不好意思\N{\fs13\bord1}Excuse me.{\r}
+Dialogue: 0,0:18:11.11,0:18:12.65,Default,,0000,0000,0000,,Hawkes 飞机上有具尸体\N{\fs13\bord1}Hawkes,there's a body on the plane.{\r}
+Dialogue: 0,0:18:12.67,0:18:14.25,Default,,0000,0000,0000,,而且时间很紧 我去检查\N{\fs13\bord1}And the clock's ticking. I'm on it.{\r}
+Dialogue: 0,0:18:14.28,0:18:16.41,Default,,0000,0000,0000,,Adam 我希望你搜一下垃圾箱\N{\fs13\bord1}Adam,I want you to search the waste receptacles.{\r}
+Dialogue: 0,0:18:16.43,0:18:18.34,Default,,0000,0000,0000,,送餐车 走道 洗手间\N{\fs13\bord1}Food service,walkways,lavatories.{\r}
+Dialogue: 0,0:18:18.39,0:18:21.79,Default,,0000,0000,0000,,任何凶手可以藏凶器和空警枪的地方\N{\fs13\bord1}Any place the killer could have hidden the murder weapon and the air marshal's gun.{\r}
+Dialogue: 0,0:18:21.83,0:18:23.05,Default,,0000,0000,0000,,了解\N{\fs13\bord1}Done.{\r}
+Dialogue: 0,0:18:25.00,0:18:27.22,Default,,0000,0000,0000,,Flack查了下疑犯 James Turner\N{\fs13\bord1}Flack ran your suspect,James Turner.{\r}
+Dialogue: 0,0:18:27.24,0:18:29.50,Default,,0000,0000,0000,,他用现金买的单程票\N{\fs13\bord1}He paid cash for a one-way ticket.{\r}
+Dialogue: 0,0:18:29.53,0:18:33.96,Default,,0000,0000,0000,,无托运行李 也没预定华盛顿的旅馆 也没有家在那里\N{\fs13\bord1}Didn't check luggage,and didn't book a hotel room in Washington,DC,and doesn't live there.{\r}
+Dialogue: 0,0:18:33.99,0:18:35.78,Default,,0000,0000,0000,,那么他干嘛乘飞机呢?\N{\fs13\bord1}So,why was he on the plane?{\r}
+Dialogue: 0,0:18:35.81,0:18:37.26,Default,,0000,0000,0000,,我怎么旅行根本与你无关\N{\fs13\bord1}It's none of your business how I travel.{\r}
+Dialogue: 0,0:18:37.28,0:18:38.61,Default,,0000,0000,0000,,事实上 和我有关\N{\fs13\bord1}Actually,it is.{\r}
+Dialogue: 0,0:18:38.68,0:18:43.78,Default,,0000,0000,0000,,你乘坐的飞机上发生了谋杀案 而你的衬衫上有血迹 Turner先生\N{\fs13\bord1}You were on a flight where a murder was committed,and there's blood on your shirt,Mr. Turner.{\r}
+Dialogue: 0,0:18:43.84,0:18:45.40,Default,,0000,0000,0000,,看来你今天也没刮胡子\N{\fs13\bord1}Doesn't look like you shaved today.{\r}
+Dialogue: 0,0:18:45.43,0:18:47.93,Default,,0000,0000,0000,,我不知道那是怎么弄上去的\N{\fs13\bord1}I don't know how that got there.{\r}
+Dialogue: 0,0:18:48.82,0:18:50.19,Default,,0000,0000,0000,,等下 我是疑犯?\N{\fs13\bord1}Wait. Am I a suspect?{\r}
+Dialogue: 0,0:18:50.20,0:18:53.16,Default,,0000,0000,0000,,你是否介意移步去那边的帐篷 然后脱掉自己的衣服?\N{\fs13\bord1}Would you mind stepping over that tent and removing your clothes,please?{\r}
+Dialogue: 0,0:18:53.18,0:18:54.89,Default,,0000,0000,0000,,是的 是的 我介意\N{\fs13\bord1}Yeah. Yeah,I do mind.{\r}
+Dialogue: 0,0:18:54.92,0:18:56.30,Default,,0000,0000,0000,,好吧\N{\fs13\bord1}Okay.{\r}
+Dialogue: 0,0:18:56.33,0:18:58.08,Default,,0000,0000,0000,,我们就要来硬的了\N{\fs13\bord1}We'll do this the hard way.{\r}
+Dialogue: 0,0:18:58.13,0:19:00.07,Default,,0000,0000,0000,,我们会给很多人打很多电话\N{\fs13\bord1}We're gonna make a lot of phone calls to a lot of people,{\r}
+Dialogue: 0,0:19:00.08,0:19:03.51,Default,,0000,0000,0000,,会有人告诉我一些 你不想让我听到的事\N{\fs13\bord1}and somebody's gonna tell me something you don't want me to hear.{\r}
+Dialogue: 0,0:19:08.47,0:19:13.32,Default,,0000,0000,0000,,听着 我在华盛顿有家庭\N{\fs13\bord1}Look,I got a family in DC.{\r}
+Dialogue: 0,0:19:14.67,0:19:16.39,Default,,0000,0000,0000,,第二个家\N{\fs13\bord1}A second family.{\r}
+Dialogue: 0,0:19:17.42,0:19:19.64,Default,,0000,0000,0000,,大老婆不知道\N{\fs13\bord1}First wife doesn't know.{\r}
+Dialogue: 0,0:19:20.35,0:19:21.92,Default,,0000,0000,0000,,那是 唔...\N{\fs13\bord1}It's,uh...{\r}
+Dialogue: 0,0:19:21.93,0:19:25.38,Default,,0000,0000,0000,,那很复杂 但我不是坏人 我发誓\N{\fs13\bord1}It's complicated,but I'm not a bad guy,I swear.{\r}
+Dialogue: 0,0:19:25.41,0:19:26.82,Default,,0000,0000,0000,,回答错误 Turner先生\N{\fs13\bord1}Wrong answer,Mr. Turner.{\r}
+Dialogue: 0,0:19:26.84,0:19:30.42,Default,,0000,0000,0000,,你应该解释一下 血迹是怎么弄到衬衫上的\N{\fs13\bord1}What you should be explaining is how that blood got on your shirt,{\r}
+Dialogue: 0,0:19:30.45,0:19:33.59,Default,,0000,0000,0000,,发誓你没杀了机上的那个人\N{\fs13\bord1}and swearing you didn't kill the guy on that plane.{\r}
+Dialogue: 0,0:19:33.61,0:19:35.05,Default,,0000,0000,0000,,我再要求你一次\N{\fs13\bord1}I'm going to ask you one more time.{\r}
+Dialogue: 0,0:19:35.08,0:19:36.46,Default,,0000,0000,0000,,脱了你的衣服\N{\fs13\bord1}Remove your clothing.{\r}
+Dialogue: 0,0:19:36.49,0:19:38.43,Default,,0000,0000,0000,,警官 陪他过去\N{\fs13\bord1}Officer,escort him.{\r}
+Dialogue: 0,0:19:38.61,0:19:40.34,Default,,0000,0000,0000,,那么 你怎么想?\N{\fs13\bord1}So,what do you think?{\r}
+Dialogue: 0,0:19:40.35,0:19:42.26,Default,,0000,0000,0000,,我们很快就能知道了\N{\fs13\bord1}We'll know soon enough.{\r}
+Dialogue: 0,0:19:50.83,0:19:51.94,Default,,0000,0000,0000,,受害者流血过多而死\N{\fs13\bord1}Vic bled out.{\r}
+Dialogue: 0,0:19:51.97,0:19:54.20,Default,,0000,0000,0000,,在颈部 是单独的刺入伤\N{\fs13\bord1}A single stab wound to the neck.{\r}
+Dialogue: 0,0:19:54.23,0:19:57.79,Default,,0000,0000,0000,,血迹喷射情况说明 当时他很可能背靠墙站着\N{\fs13\bord1}Spatter indicates he was most likely standing with his back to the wall.{\r}
+Dialogue: 0,0:19:57.82,0:20:02.33,Default,,0000,0000,0000,,然后转了个身 在倒下前动脉血喷散\N{\fs13\bord1}He then spun around,leaving arterial spray before he collapsed.{\r}
+Dialogue: 0,0:20:02.35,0:20:04.52,Default,,0000,0000,0000,,我在水龙头上找到了血迹\N{\fs13\bord1}I've got blood on the faucet.{\r}
+Dialogue: 0,0:20:06.04,0:20:07.93,Default,,0000,0000,0000,,看起来凶手进来清洗过\N{\fs13\bord1}Looks like our killer came in here to clean up.{\r}
+Dialogue: 0,0:20:07.96,0:20:10.62,Default,,0000,0000,0000,,他回过道时可能留下一点点血迹\N{\fs13\bord1}He could've left a latent blood trail on his way down the aisle.{\r}
+Dialogue: 0,0:20:10.65,0:20:12.02,Default,,0000,0000,0000,,也许会告诉我们他坐在哪里\N{\fs13\bord1}Might tell us where he sat.{\r}
+Dialogue: 0,0:20:12.06,0:20:13.58,Default,,0000,0000,0000,,我去拿灯\N{\fs13\bord1}I'll get the lights.{\r}
+Dialogue: 0,0:20:14.32,0:20:15.68,Default,,0000,0000,0000,,很多痕迹\N{\fs13\bord1}Lot of trace.{\r}
+Dialogue: 0,0:20:15.70,0:20:22.11,Default,,0000,0000,0000,,定了旅馆房间 和上百号人粘乎一天 却忘了要客房服务\N{\fs13\bord1}Take a hotel room,stick a couple of hundred people in there a day,forget about maid service.{\r}
+Dialogue: 0,0:20:22.12,0:20:25.31,Default,,0000,0000,0000,,这里能找到所有能想到的污点类型\N{\fs13\bord1}We got every type of stain imaginable.{\r}
+Dialogue: 0,0:20:26.09,0:20:27.63,Default,,0000,0000,0000,,却没有血迹\N{\fs13\bord1}No blood.{\r}
+Dialogue: 0,0:20:28.74,0:20:32.84,Default,,0000,0000,0000,,血迹只停留在第二个洗手间\N{\fs13\bord1}Blood trail goes cold in the second bathroom.{\r}
+Dialogue: 0,0:20:40.48,0:20:41.76,Default,,0000,0000,0000,,你知道他们是怎么说吗\N{\fs13\bord1}You know what they say.{\r}
+Dialogue: 0,0:20:41.78,0:20:44.18,Default,,0000,0000,0000,,甲之垃圾 乙之物证\N{\fs13\bord1}One man's trash is another man's evidence pile.{\r}
+Dialogue: 0,0:20:44.21,0:20:45.72,Default,,0000,0000,0000,,你发现了什么?\N{\fs13\bord1}What did you find?{\r}
+Dialogue: 0,0:20:46.24,0:20:48.33,Default,,0000,0000,0000,,空警的Sig枪 (瑞士SIG公司研制的枪 多为警用)\N{\fs13\bord1}Air marshal's Sig.{\r}
+Dialogue: 0,0:20:49.53,0:20:52.46,Default,,0000,0000,0000,,从犯罪现场洗手间的垃圾堆底部收集来的\N{\fs13\bord1}Bottom of the lav trash across from the crime scene.{\r}
+Dialogue: 0,0:20:52.50,0:20:55.72,Default,,0000,0000,0000,,为什么从枪套里拿出枪但却没用?\N{\fs13\bord1}Why remove the gun from the holster and not use it?{\r}
+Dialogue: 0,0:20:56.30,0:20:57.89,Default,,0000,0000,0000,,也许凶手没有机会\N{\fs13\bord1}Maybe our killer didn't get the chance.{\r}
+Dialogue: 0,0:20:57.93,0:21:01.43,Default,,0000,0000,0000,,他发现飞机掉头开了 受了惊吓就把枪扔了\N{\fs13\bord1}You know,he found out the airplane was turning around,he got spooked and ditched the gun.{\r}
+Dialogue: 0,0:21:01.47,0:21:05.29,Default,,0000,0000,0000,,发现尸体后 没人进过洗手间\N{\fs13\bord1}No one went into the bathroom after the body was discovered.{\r}
+Dialogue: 0,0:21:05.33,0:21:08.85,Default,,0000,0000,0000,,枪一定是谋杀发生前 或刚发生就被丢弃的\N{\fs13\bord1}The gun had to have been dumped before or right after the murder.{\r}
+Dialogue: 0,0:21:09.70,0:21:12.48,Default,,0000,0000,0000,,有什么可以用作凶器的?\N{\fs13\bord1}Anything that could have been used for a murder weapon?{\r}
+Dialogue: 0,0:21:12.52,0:21:16.06,Default,,0000,0000,0000,,还没有 除非你知道如何用这个来杀人\N{\fs13\bord1}Nothing yet,unless you know how to kill a man with this.{\r}
+Dialogue: 0,0:21:17.69,0:21:18.60,Default,,0000,0000,0000,,那污水箱呢?\N{\fs13\bord1}What about the waste tank?{\r}
+Dialogue: 0,0:21:18.63,0:21:20.82,Default,,0000,0000,0000,,凶器可能淹在水里\N{\fs13\bord1}Weapon could have been flushed.{\r}
+Dialogue: 0,0:21:21.68,0:21:25.38,Default,,0000,0000,0000,,唔 你...你想我处理马桶?\N{\fs13\bord1}Uh,you...uh,you want me to process the toilets?{\r}
+Dialogue: 0,0:21:25.40,0:21:27.79,Default,,0000,0000,0000,,你向我要求多参加外勤的 Adam\N{\fs13\bord1}You asked for more field work,Adam.{\r}
+Dialogue: 0,0:21:28.40,0:21:29.93,Default,,0000,0000,0000,,去吧\N{\fs13\bord1}Get to it.{\r}
+Dialogue: 0,0:21:33.08,0:21:34.99,Default,,0000,0000,0000,,我恨大粪\N{\fs13\bord1}I hate poop.{\r}
+Dialogue: 0,0:21:35.96,0:21:39.47,Default,,0000,0000,0000,,逃亡者 Greenway需要离开这座城市\N{\fs13\bord1}Okay,our fugitive,Greenway,needs to get out of the city,{\r}
+Dialogue: 0,0:21:39.49,0:21:47.19,Default,,0000,0000,0000,,所以他扮作一个空警 用Stockwell的枪和警徽登机\N{\fs13\bord1}so he poses as an air marshal,boards a plane using Stockwell's gun and badge.{\r}
+Dialogue: 0,0:21:47.22,0:21:51.54,Default,,0000,0000,0000,,另一名乘客杀了他 没用枪 还把枪扔进垃圾桶了\N{\fs13\bord1}Another passenger kills him,doesn't take the gun,and instead tosses it in the trash.{\r}
+Dialogue: 0,0:21:51.57,0:21:52.75,Default,,0000,0000,0000,,那说不通啊\N{\fs13\bord1}Which doesn't make any sense.{\r}
+Dialogue: 0,0:21:52.78,0:21:56.90,Default,,0000,0000,0000,,杀空警夺他枪的唯一理由 就是要劫机\N{\fs13\bord1}I mean,the only reason to kill an air marshal and take his gun is to hijack the plane.{\r}
+Dialogue: 0,0:21:56.93,0:21:58.18,Default,,0000,0000,0000,,但那种事却没发生\N{\fs13\bord1}And that didn't happen.{\r}
+Dialogue: 0,0:21:58.20,0:22:01.67,Default,,0000,0000,0000,,也许凶手知道空警是个冒牌货\N{\fs13\bord1}Maybe our killer knew the air marshal wasn't the air marshal.{\r}
+Dialogue: 0,0:22:02.81,0:22:05.72,Default,,0000,0000,0000,,那就是说 是出于其它原因\N{\fs13\bord1}Well,that would mean that it's about something else.{\r}
+Dialogue: 0,0:22:06.57,0:22:10.36,Default,,0000,0000,0000,,或者...也许这个能回答这个问题\N{\fs13\bord1}Or... maybe this can help us answer that.{\r}
+Dialogue: 0,0:22:10.39,0:22:12.87,Default,,0000,0000,0000,,告诉我你找到了凶器\N{\fs13\bord1}Oh,tell me you found the murder weapon.{\r}
+Dialogue: 0,0:22:14.33,0:22:15.56,Default,,0000,0000,0000,,救生衣?\N{\fs13\bord1}Life vest?{\r}
+Dialogue: 0,0:22:15.60,0:22:18.16,Default,,0000,0000,0000,,想像一下大约25万加元\N{\fs13\bord1}Try about 250 thou Canadian.{\r}
+Dialogue: 0,0:22:18.19,0:22:19.80,Default,,0000,0000,0000,,分成5捆\N{\fs13\bord1}Five bundles.{\r}
+Dialogue: 0,0:22:19.82,0:22:22.76,Default,,0000,0000,0000,,还有之前没找到的 空警的身份证和工作证\N{\fs13\bord1}And the air marshal's missing ID and credential.{\r}
+Dialogue: 0,0:22:25.86,0:22:27.37,Default,,0000,0000,0000,,还有血迹\N{\fs13\bord1}Blood.{\r}
+Dialogue: 0,0:22:27.57,0:22:31.58,Default,,0000,0000,0000,,如果这袋上的血是受害人的 那就是凶手在行凶后碰过这袋子\N{\fs13\bord1}The blood on this pouch matches our vic,it means the killer touched it after committing murder.{\r}
+Dialogue: 0,0:22:31.60,0:22:34.56,Default,,0000,0000,0000,,他拿了钱和证件 然后把它们藏了起来\N{\fs13\bord1}He takes the money and ID and hides them.{\r}
+Dialogue: 0,0:22:34.59,0:22:36.71,Default,,0000,0000,0000,,藏钱我理解 但为什么要藏证件?\N{\fs13\bord1}I get the money,but why hide the ID?{\r}
+Dialogue: 0,0:22:36.75,0:22:40.03,Default,,0000,0000,0000,,混淆视线 拖延确认死者身份的时间\N{\fs13\bord1}To throw us off and delay ID'ing the vic.{\r}
+Dialogue: 0,0:22:40.27,0:22:45.36,Default,,0000,0000,0000,,如果只有警徽和失踪的枪 我们会以为是劫机\N{\fs13\bord1}If all we had was the badge and missing gun,then we'd be thinking it was a hijacking,{\r}
+Dialogue: 0,0:22:45.39,0:22:47.10,Default,,0000,0000,0000,,而不会猜到真相\N{\fs13\bord1}instead of what it really might be.{\r}
+Dialogue: 0,0:22:47.12,0:22:50.45,Default,,0000,0000,0000,,三万尺高空中一场搞砸了的抢劫\N{\fs13\bord1}A robbery gone bad at 30,000 feet.{\r}
+Dialogue: 0,0:22:57.07,0:23:02.05,Default,,0000,0000,0000,,真正的空警 Roger Stockwell 在倒地前就停止了呼吸\N{\fs13\bord1}Your real air marshal,Roger Stockwell,was dead before he hit the hotel room floor.{\r}
+Dialogue: 0,0:23:02.08,0:23:06.25,Default,,0000,0000,0000,,被凶案现场找到的点50口径手枪 击中头部\N{\fs13\bord1}Shot in the head with the .50 caliber recovered at the crime scene.{\r}
+Dialogue: 0,0:23:06.53,0:23:07.76,Default,,0000,0000,0000,,自卫造成的瘀痕?\N{\fs13\bord1}Defensive bruising?{\r}
+Dialogue: 0,0:23:07.79,0:23:11.53,Default,,0000,0000,0000,,是Greenway 机上死者的杰作\N{\fs13\bord1}Mr. Greenway,your airplane vic,can take credit for that.{\r}
+Dialogue: 0,0:23:11.55,0:23:16.09,Default,,0000,0000,0000,,正是他的拳头造成了 Stockwell下巴上的瘀痕\N{\fs13\bord1}I was able to match his fist to the subdermal bruising on Stockwell's jaw.{\r}
+Dialogue: 0,0:23:16.12,0:23:19.42,Default,,0000,0000,0000,,这就确定了Stockwell和Greenway 曾干过一架\N{\fs13\bord1}So that confirms that Stockwell and Greenway got in a fight.{\r}
+Dialogue: 0,0:23:19.45,0:23:24.34,Default,,0000,0000,0000,,Greenway身上的瘀伤是在饭店 而不是飞机厕所里的纠缠造成的\N{\fs13\bord1}So,Greenway's bruising came from the hotel and not from the struggle in the airplane laboratory with his killer.{\r}
+Dialogue: 0,0:23:24.37,0:23:25.24,Default,,0000,0000,0000,,完全正确\N{\fs13\bord1}Exactly.{\r}
+Dialogue: 0,0:23:25.28,0:23:29.89,Default,,0000,0000,0000,,还有一个疑点\N{\fs13\bord1}And one mystery still remains.{\r}
+Dialogue: 0,0:23:33.47,0:23:36.96,Default,,0000,0000,0000,,猜猜正选凶器吗?\N{\fs13\bord1}Care to take a stab at our murder weapon of choice?{\r}
+Dialogue: 0,0:23:36.99,0:23:39.28,Default,,0000,0000,0000,,可以确定凶器没有锋利的边刃\N{\fs13\bord1}Well,definitely wasn't a fine-edged instrument.{\r}
+Dialogue: 0,0:23:39.31,0:23:41.83,Default,,0000,0000,0000,,这些组织看上去像是被撕裂 而不是被割破的\N{\fs13\bord1}The tissue looks torn and not cut.{\r}
+Dialogue: 0,0:23:41.87,0:23:43.66,Default,,0000,0000,0000,,不错\N{\fs13\bord1}Very good.{\r}
+Dialogue: 0,0:23:43.84,0:23:45.43,Default,,0000,0000,0000,,这里有些提示\N{\fs13\bord1}Well,here's a clue.{\r}
+Dialogue: 0,0:23:45.45,0:23:48.88,Default,,0000,0000,0000,,下颚骨这里有两个特殊印迹\N{\fs13\bord1}There are two unique marks on the mandible here.{\r}
+Dialogue: 0,0:23:48.91,0:23:50.97,Default,,0000,0000,0000,,棘手的难题\N{\fs13\bord1}That's a tough one.{\r}
+Dialogue: 0,0:23:51.00,0:23:53.18,Default,,0000,0000,0000,,凶器是什么?\N{\fs13\bord1}What's the murder weapon?{\r}
+Dialogue: 0,0:23:53.44,0:23:55.37,Default,,0000,0000,0000,,我不知道\N{\fs13\bord1}I don't know.{\r}
+Dialogue: 0,0:23:55.60,0:23:57.85,Default,,0000,0000,0000,,从来没见过这样的\N{\fs13\bord1}Never seen anything like this.{\r}
+Dialogue: 0,0:23:57.91,0:23:59.65,Default,,0000,0000,0000,,我把这难题留给你了\N{\fs13\bord1}I'm leaving this one for you.{\r}
+Dialogue: 0,0:23:59.72,0:24:01.64,Default,,0000,0000,0000,,我要拿他下颚骨 浇铸一个模型\N{\fs13\bord1}So,I'm gonna need his jawbone to make a mold.{\r}
+Dialogue: 0,0:24:01.67,0:24:04.39,Default,,0000,0000,0000,,看是否能找出和这些印记匹配的凶器\N{\fs13\bord1}See if I can match a possible murder weapon out of those marks.{\r}
+Dialogue: 0,0:24:04.41,0:24:08.84,Default,,0000,0000,0000,,我还在他手上发现了保险套润滑剂 还有杀精剂的痕迹\N{\fs13\bord1}I also found traces of condom lubricant and spermicide on his hand.{\r}
+Dialogue: 0,0:24:08.87,0:24:15.04,Default,,0000,0000,0000,,在进我的"非高级俱乐部"前 死者加入了"高空爽"俱乐部\N(指在几千英尺高的飞机上做爱的行为)\N{\fs13\bord1}Your vic may have joined the Mile-High Club before ending up in my not-so-exclusive one.{\r}
+Dialogue: 0,0:24:15.07,0:24:18.42,Default,,0000,0000,0000,,当然 他也可能是在上飞机前做的\N{\fs13\bord1}Of course he could have had sex just prior to boarding.{\r}
+Dialogue: 0,0:24:18.46,0:24:20.33,Default,,0000,0000,0000,,但这样就不够刺激了\N{\fs13\bord1}But that's not very exciting.{\r}
+Dialogue: 0,0:24:20.36,0:24:21.68,Default,,0000,0000,0000,,DNA呢 Sid?\N{\fs13\bord1}Any DNA,Sid?{\r}
+Dialogue: 0,0:24:21.71,0:24:25.95,Default,,0000,0000,0000,,没 没有那个保险套 我无法告诉你更多的信息\N{\fs13\bord1}No,and without that condom,I can't tell you much more than that.{\r}
+Dialogue: 0,0:24:25.98,0:24:28.94,Default,,0000,0000,0000,,除了他左手上的那个\N{\fs13\bord1}Well,except for what's on his left hand there.{\r}
+Dialogue: 0,0:24:29.38,0:24:30.84,Default,,0000,0000,0000,,是什么? 字迹?\N{\fs13\bord1}What's this? Writing?{\r}
+Dialogue: 0,0:24:30.88,0:24:35.68,Default,,0000,0000,0000,,呃 我在洗尸体时发现的\N{\fs13\bord1}Yes,uh,I found it when I washed the body.{\r}
+Dialogue: 0,0:24:36.77,0:24:39.89,Default,,0000,0000,0000,,I-K-E-L-I-M-M\N{\fs13\bord1}I-K-E-L-I-M-M.{\r}
+Dialogue: 0,0:24:39.92,0:24:41.22,Default,,0000,0000,0000,,好吧 我去语言文字数据库查一下\N{\fs13\bord1}All right,I'll run it through a language database.{\r}
+Dialogue: 0,0:24:41.24,0:24:42.94,Default,,0000,0000,0000,,看看能否找到它的意思\N{\fs13\bord1}See if I get any hits.{\r}
+Dialogue: 0,0:24:42.98,0:24:45.88,Default,,0000,0000,0000,,一定是用某种消不去的墨水写的\N{\fs13\bord1}Must be some kind of indelible ink.{\r}
+Dialogue: 0,0:24:45.91,0:24:48.40,Default,,0000,0000,0000,,不论是什么 他一定不想忘了它\N{\fs13\bord1}Whatever it is,he didn't want to forget it.{\r}
+Dialogue: 0,0:25:16.40,0:25:18.06,Default,,0000,0000,0000,,航空公司正送机组成员的衣服来\N{\fs13\bord1}Airline's sending in the suits.{\r}
+Dialogue: 0,0:25:18.09,0:25:22.41,Default,,0000,0000,0000,,没和律师谈之前 他们不让我们 提取任何机组人员的样本\N{\fs13\bord1}They won't let any of the crew members give us a reference sample until they each talk to a lawyer.{\r}
+Dialogue: 0,0:25:22.70,0:25:24.47,Default,,0000,0000,0000,,已经排除了Ed\N{\fs13\bord1}Already eliminated Ed.{\r}
+Dialogue: 0,0:25:24.50,0:25:28.31,Default,,0000,0000,0000,,我可以排除机长和副驾驶员\N{\fs13\bord1}I can eliminate the captain and the copilot.{\r}
+Dialogue: 0,0:25:28.34,0:25:30.46,Default,,0000,0000,0000,,谋杀发生前他们没离开过驾驶舱\N{\fs13\bord1}They never left the cockpit before the murder.{\r}
+Dialogue: 0,0:25:30.47,0:25:33.22,Default,,0000,0000,0000,,国土安全局正再次和所有女乘客谈话\N{\fs13\bord1}Homeland Security's talking to all the women passengers again.{\r}
+Dialogue: 0,0:25:33.25,0:25:34.40,Default,,0000,0000,0000,,但我有个问题\N{\fs13\bord1}But let me ask you this.{\r}
+Dialogue: 0,0:25:34.41,0:25:37.12,Default,,0000,0000,0000,,如果有人和受害者做爱了 为什么完事后要杀了他?\N{\fs13\bord1}If one of them had sex with our vic,why kill him afterwards?{\r}
+Dialogue: 0,0:25:37.16,0:25:40.85,Default,,0000,0000,0000,,众所周知 南方黒寡妇蜘蛛 在交配后会杀了雄蜘蛛\N{\fs13\bord1}Southern black widow spider is known for eating the male after mating.{\r}
+Dialogue: 0,0:25:40.86,0:25:43.30,Default,,0000,0000,0000,,起码 它们面带微笑地死去\N{\fs13\bord1}Well,at least they go out with a smile on their face.{\r}
+Dialogue: 0,0:25:43.33,0:25:45.53,Default,,0000,0000,0000,,"高空爽"俱乐部推测的唯一不足是\N{\fs13\bord1}The only problem with the Mile-High Club theory is that{\r}
+Dialogue: 0,0:25:45.56,0:25:47.89,Default,,0000,0000,0000,,受害者可能在登机前做的爱\N{\fs13\bord1}the vic could have had sex before he got on the plane.{\r}
+Dialogue: 0,0:25:47.92,0:25:51.11,Default,,0000,0000,0000,,没有证据证明那发生在飞机厕所里\N{\fs13\bord1}There's no evidence that proves it happened in the lavatory.{\r}
+Dialogue: 0,0:25:51.12,0:25:52.91,Default,,0000,0000,0000,,我打赌是Turner干的\N{\fs13\bord1}My money's on Turner.{\r}
+Dialogue: 0,0:25:52.94,0:25:55.22,Default,,0000,0000,0000,,别信重婚的家伙\N{\fs13\bord1}Don't trust a guy who's got two families.{\r}
+Dialogue: 0,0:25:55.25,0:25:56.94,Default,,0000,0000,0000,,别下这个注\N{\fs13\bord1}Don't make that bet.{\r}
+Dialogue: 0,0:25:57.41,0:25:59.40,Default,,0000,0000,0000,,DNA测试结果\N{\fs13\bord1}DNA results.{\r}
+Dialogue: 0,0:25:59.43,0:26:01.08,Default,,0000,0000,0000,,他衬衫上的血迹不是受害者的\N{\fs13\bord1}Blood on his shirt didn't match the vic.{\r}
+Dialogue: 0,0:26:01.11,0:26:03.24,Default,,0000,0000,0000,,是他自己的\N{\fs13\bord1}Turned out to be his own.{\r}
+Dialogue: 0,0:26:03.39,0:26:05.05,Default,,0000,0000,0000,,好吧\N{\fs13\bord1}Okay.{\r}
+Dialogue: 0,0:26:05.07,0:26:07.44,Default,,0000,0000,0000,,那还有谁值得怀疑呢?\N{\fs13\bord1}So who else do we like for this?{\r}
+Dialogue: 0,0:26:07.47,0:26:09.21,Default,,0000,0000,0000,,没有证据的话?\N{\fs13\bord1}Without evidence?{\r}
+Dialogue: 0,0:26:09.22,0:26:10.87,Default,,0000,0000,0000,,所有人\N{\fs13\bord1}All of them.{\r}
+Dialogue: 0,0:26:15.99,0:26:18.43,Default,,0000,0000,0000,,空警房间里宽胶布上的指纹\N{\fs13\bord1}Prints on the duct tape from the air marshal's hotel room{\r}
+Dialogue: 0,0:26:18.45,0:26:23.62,Default,,0000,0000,0000,,属于枪手/假空警Anton Greenway\N{\fs13\bord1}were a match to our shooter-slash-fake air marshal-- Anton Greenway.{\r}
+Dialogue: 0,0:26:23.66,0:26:28.21,Default,,0000,0000,0000,,目前 我认为他最初计划是 绑起空警 偷他的证件\N{\fs13\bord1}Now,I think his plan was to just tie up Stockwell and steal his credentials.{\r}
+Dialogue: 0,0:26:28.24,0:26:29.27,Default,,0000,0000,0000,,但他带了把枪\N{\fs13\bord1}But he brought a gun.{\r}
+Dialogue: 0,0:26:29.30,0:26:30.53,Default,,0000,0000,0000,,拿来吓唬人的\N{\fs13\bord1}Show of force.{\r}
+Dialogue: 0,0:26:30.57,0:26:34.22,Default,,0000,0000,0000,,看看这些证据 胶布 扭打的迹象\N{\fs13\bord1}I mean,look at the evidence: there's the tape; the fact that there was a struggle;{\r}
+Dialogue: 0,0:26:34.25,0:26:36.16,Default,,0000,0000,0000,,尸体的位置远离门边\N{\fs13\bord1}position of the body away from the door.{\r}
+Dialogue: 0,0:26:36.20,0:26:37.70,Default,,0000,0000,0000,,因为Stockwell反抗了\N{\fs13\bord1}So Stockwell fought back.{\r}
+Dialogue: 0,0:26:37.74,0:26:40.65,Default,,0000,0000,0000,,Greenway觉得没了选择 只得开枪\N{\fs13\bord1}Greenway felt had no choice but to use the gun.{\r}
+Dialogue: 0,0:26:40.67,0:26:41.44,Default,,0000,0000,0000,,对的\N{\fs13\bord1}Right.{\r}
+Dialogue: 0,0:26:41.48,0:26:42.88,Default,,0000,0000,0000,,你查得怎样?\N{\fs13\bord1}How about you?{\r}
+Dialogue: 0,0:26:42.97,0:26:46.33,Default,,0000,0000,0000,,我查遍了每一种语言文字数据库\N{\fs13\bord1}I have run these letters through every language database.{\r}
+Dialogue: 0,0:26:46.36,0:26:47.41,Default,,0000,0000,0000,,这些字母在一起不是一个词\N{\fs13\bord1}It's not a word.{\r}
+Dialogue: 0,0:26:47.44,0:26:49.17,Default,,0000,0000,0000,,不是电话号码\N{\fs13\bord1}It's not a phone number.{\r}
+Dialogue: 0,0:26:49.19,0:26:53.51,Default,,0000,0000,0000,,看 如果我放大的话 你可以看出 "I"实际上不是字母"I"\N{\fs13\bord1}See,if I zoom in,you can see that the "I"s-- they're not actually "I"s.{\r}
+Dialogue: 0,0:26:53.56,0:26:55.22,Default,,0000,0000,0000,,它们都是数字"1"\N{\fs13\bord1}They're each the number 1.{\r}
+Dialogue: 0,0:26:55.83,0:26:57.62,Default,,0000,0000,0000,,是个代码\N{\fs13\bord1}It's a code.{\r}
+Dialogue: 0,0:26:59.10,0:27:01.01,Default,,0000,0000,0000,,你猜怎么着\N{\fs13\bord1}You know what?{\r}
+Dialogue: 0,0:27:01.37,0:27:03.00,Default,,0000,0000,0000,,或许它们是全球定位系统的座标\N{\fs13\bord1}Maybe they're GPS coordinates.{\r}
+Dialogue: 0,0:27:03.03,0:27:05.57,Default,,0000,0000,0000,,没错 刚好7位字符\N{\fs13\bord1}Exactly. Seven digits.{\r}
+Dialogue: 0,0:27:05.61,0:27:07.87,Default,,0000,0000,0000,,度数和十进制马表\N{\fs13\bord1}Degrees and decimal minutes.{\r}
+Dialogue: 0,0:27:10.48,0:27:12.26,Default,,0000,0000,0000,,好嘞 来了\N{\fs13\bord1}Okay,here we go.{\r}
+Dialogue: 0,0:27:20.31,0:27:22.47,Default,,0000,0000,0000,,蒙特利尔的圣安德鲁斯机场\N{\fs13\bord1}St. Andrews Air Field. Montreal.{\r}
+Dialogue: 0,0:27:22.49,0:27:23.58,Default,,0000,0000,0000,,好像废弃了的\N{\fs13\bord1}Looks abandoned.{\r}
+Dialogue: 0,0:27:23.61,0:27:26.99,Default,,0000,0000,0000,,假证件 枪 加元\N{\fs13\bord1}Fake ID. Gun. Canadian money.{\r}
+Dialogue: 0,0:27:27.02,0:27:28.82,Default,,0000,0000,0000,,受害者不是想走私\N{\fs13\bord1}Our vic wasn't smuggling.{\r}
+Dialogue: 0,0:27:28.85,0:27:31.35,Default,,0000,0000,0000,,他是想劫机后逃往加拿大\N{\fs13\bord1}He was gonna hijack that plane and escape to Canada.{\r}
+Dialogue: 0,0:27:31.37,0:27:34.01,Default,,0000,0000,0000,,但如果他想去加拿大 为什么不乘直飞航班呢?\N{\fs13\bord1}But if he wanted to get to Canada,why not just take a direct flight?{\r}
+Dialogue: 0,0:27:34.06,0:27:39.07,Default,,0000,0000,0000,,因为 即便是美国空警 也得接受加拿大海关检查\N{\fs13\bord1}Well,being a US air marshal doesn't mean you're excluded from having to pass through Canadian customs.{\r}
+Dialogue: 0,0:27:39.09,0:27:41.10,Default,,0000,0000,0000,,他除了劫机没有别的选择\N{\fs13\bord1}He had no choice but to hijack a plane.{\r}
+Dialogue: 0,0:27:41.14,0:27:43.39,Default,,0000,0000,0000,,但有人在他这么干前杀了他\N{\fs13\bord1}But somebody killed him before he could do it.{\r}
+Dialogue: 0,0:27:44.38,0:27:49.18,Default,,0000,0000,0000,,是谁杀了劫机犯 又回到座位上 安心看机上播放的电影呢?\N{\fs13\bord1}Who kills a hijacker and then returns back to their seat to watch the in-flight movie?{\r}
+Dialogue: 0,0:28:00.71,0:28:04.31,Default,,0000,0000,0000,,这就是Anton Greenway在机上穿的外套\N{\fs13\bord1}This was the suit jacket our victim Anton Greenway was wearing on the airplane.{\r}
+Dialogue: 0,0:28:04.34,0:28:06.73,Default,,0000,0000,0000,,就像普通的成衣一样 是吧?\N{\fs13\bord1}Yeah. And it looks like a regular jacket just off the rack,right?{\r}
+Dialogue: 0,0:28:06.76,0:28:07.43,Default,,0000,0000,0000,,对\N{\fs13\bord1}Right.{\r}
+Dialogue: 0,0:28:07.46,0:28:08.15,Default,,0000,0000,0000,,错了\N{\fs13\bord1}Wrong.{\r}
+Dialogue: 0,0:28:08.19,0:28:09.01,Default,,0000,0000,0000,,是度身定制的\N{\fs13\bord1}Custom job.{\r}
+Dialogue: 0,0:28:09.05,0:28:10.70,Default,,0000,0000,0000,,看看\N{\fs13\bord1}Take a look.{\r}
+Dialogue: 0,0:28:10.73,0:28:12.70,Default,,0000,0000,0000,,在衣服里找到这些\N{\fs13\bord1}Found these in Layout.{\r}
+Dialogue: 0,0:28:12.73,0:28:15.51,Default,,0000,0000,0000,,隐藏的口袋 手工缝制在衬垫里\N{\fs13\bord1}Hidden pockets hand-stitched into the liner.{\r}
+Dialogue: 0,0:28:15.54,0:28:17.58,Default,,0000,0000,0000,,Greenway曾是个毒品走私犯\N{\fs13\bord1}Greenway was a drug smuggler.{\r}
+Dialogue: 0,0:28:17.60,0:28:20.65,Default,,0000,0000,0000,,是的 但这次 我想他走私了别的\N{\fs13\bord1}Yeah,but I think this time he was carrying something else.{\r}
+Dialogue: 0,0:28:20.69,0:28:25.07,Default,,0000,0000,0000,,25万 装进这些口袋 刚好\N{\fs13\bord1}The 250K fits perfectly into the pockets.{\r}
+Dialogue: 0,0:28:25.10,0:28:27.08,Default,,0000,0000,0000,,这就是他如何把现金带上飞机的\N{\fs13\bord1}That's got to be how he got the cash on the plane.{\r}
+Dialogue: 0,0:28:27.11,0:28:31.61,Default,,0000,0000,0000,,偷来的空警警徽就是他过安检时 不被发现的法宝\N{\fs13\bord1}And the stolen air marshal badge was his guaranteed ticket through security without it being discovered.{\r}
+Dialogue: 0,0:28:31.64,0:28:33.77,Default,,0000,0000,0000,,但凶手行凶后拿走了钱\N{\fs13\bord1}But the killer moved the cash after the murder.{\r}
+Dialogue: 0,0:28:33.80,0:28:37.90,Default,,0000,0000,0000,,所以 要么他知道Greenway身上有钱 要么就是无意中发现的\N{\fs13\bord1}So either he knew Greenway had the money on him or he found it by accident.{\r}
+Dialogue: 0,0:28:37.92,0:28:40.72,Default,,0000,0000,0000,,对 他知道飞机降落后 他不能把钱带下飞机\N{\fs13\bord1}Yeah,and he knew he couldn't take it off the plane when it landed{\r}
+Dialogue: 0,0:28:40.74,0:28:42.98,Default,,0000,0000,0000,,我们或许会发觉他身上有钱 把他和谋杀案联系起来\N{\fs13\bord1}because we might find it on him and connect him to the murder.{\r}
+Dialogue: 0,0:28:43.01,0:28:44.84,Default,,0000,0000,0000,,说得通 只是 是谁干的呢?\N{\fs13\bord1}Well,it works. Only who are we talking about here?{\r}
+Dialogue: 0,0:28:44.87,0:28:47.23,Default,,0000,0000,0000,,我还有40个嫌疑人要排除 却只有这些推测\N{\fs13\bord1}I've got 40 suspects left and only theories.{\r}
+Dialogue: 0,0:28:47.27,0:28:52.10,Default,,0000,0000,0000,,我还在外套上发现了可卡因 还有不属于人类的毛发\N{\fs13\bord1}Well,I did discover traces of cocaine and nonhuman hair on the jacket.{\r}
+Dialogue: 0,0:28:52.12,0:28:55.16,Default,,0000,0000,0000,,这毛和Danny在饭店房间发现的吻合\N{\fs13\bord1}Now,the hair's a match to the one Danny found in the hotel room.{\r}
+Dialogue: 0,0:28:55.17,0:28:58.30,Default,,0000,0000,0000,,我无法告诉你 它是哪里来的 但可以告诉你 这是根美洲豹的毛\N{\fs13\bord1}Can't tell you where it came from, but I can tell you that it's leopard.{\r}
+Dialogue: 0,0:28:58.35,0:29:02.33,Default,,0000,0000,0000,,美洲豹? Greenway昨天前都在被拘押中\N{\fs13\bord1}Leopard? Greenway was in controlled custody up until yesterday.{\r}
+Dialogue: 0,0:29:02.37,0:29:05.95,Default,,0000,0000,0000,,我不信他在逃跑和杀人间 还顺道去了趟动物园\N{\fs13\bord1}I doubt he made a stop at the zoo between his escape and committing murder.{\r}
+Dialogue: 0,0:29:05.97,0:29:07.63,Default,,0000,0000,0000,,我认为Greenway有个同伙\N{\fs13\bord1}I think Greenway had a partner.{\r}
+Dialogue: 0,0:29:07.67,0:29:08.71,Default,,0000,0000,0000,,这是场双簧?\N{\fs13\bord1}This was a two-man show?{\r}
+Dialogue: 0,0:29:08.75,0:29:09.64,Default,,0000,0000,0000,,看上去像是\N{\fs13\bord1}It's looking that way.{\r}
+Dialogue: 0,0:29:09.69,0:29:13.20,Default,,0000,0000,0000,,我刚检查完在旅馆用来杀空警的 "沙漠之鹰"手枪\N{\fs13\bord1}I just finished processing the Desert Eagle that was used to kill the air marshal at the hotel.{\r}
+Dialogue: 0,0:29:13.24,0:29:14.38,Default,,0000,0000,0000,,序列号一早没了\N{\fs13\bord1}Serial number is long gone.{\r}
+Dialogue: 0,0:29:14.40,0:29:15.28,Default,,0000,0000,0000,,用酸洗掉的\N{\fs13\bord1}Acid-washed.{\r}
+Dialogue: 0,0:29:15.32,0:29:16.74,Default,,0000,0000,0000,,枪的其他部分也擦干净了\N{\fs13\bord1}Rest of the gun wiped clean.{\r}
+Dialogue: 0,0:29:16.79,0:29:17.71,Default,,0000,0000,0000,,百密一疏\N{\fs13\bord1}Almost.{\r}
+Dialogue: 0,0:29:17.76,0:29:20.41,Default,,0000,0000,0000,,枪手忘了擦弹夹\N{\fs13\bord1}Shooter forgot to wipe down the magazine.{\r}
+Dialogue: 0,0:29:24.36,0:29:26.26,Default,,0000,0000,0000,,在AFIS数据库找到了这枚掌纹的所有者\N{\fs13\bord1}Ran the palm print through AFIS and I got a hit.{\r}
+Dialogue: 0,0:29:26.30,0:29:28.11,Default,,0000,0000,0000,,他叫Terrence Davis\N{\fs13\bord1}His name is Terrence Davis.{\r}
+Dialogue: 0,0:29:28.17,0:29:30.07,Default,,0000,0000,0000,,在市中心开了家俱乐部\N{\fs13\bord1}Manages a club downtown. Okay?{\r}
+Dialogue: 0,0:29:30.10,0:29:34.30,Default,,0000,0000,0000,,但在做正经生意前 他在禁药进出口业小有名气\N{\fs13\bord1}But before he went legit,he made a name for himself in the import-export business{\r}
+Dialogue: 0,0:29:34.33,0:29:37.30,Default,,0000,0000,0000,,直到缉毒署迫使他关张\N{\fs13\bord1}until the DEA forced him to retire. Okay?{\r}
+Dialogue: 0,0:29:37.33,0:29:39.02,Default,,0000,0000,0000,,他在Rikers监狱待了5年\N{\fs13\bord1}He did five years in Rikers.{\r}
+Dialogue: 0,0:29:39.03,0:29:43.82,Default,,0000,0000,0000,,被捕前 他在大西洋美景航空公司 负责搬运装卸行李\N{\fs13\bord1}Prior to the arrest,he worked baggage at Atlantic Vista Airways.{\r}
+Dialogue: 0,0:29:44.16,0:29:45.27,Default,,0000,0000,0000,,Greenway也做过这个活\N{\fs13\bord1}Same job Greenway had.{\r}
+Dialogue: 0,0:29:45.32,0:29:47.33,Default,,0000,0000,0000,,而且两人是同时同地工作\N{\fs13\bord1}Yeah,and they worked there at the same time.{\r}
+Dialogue: 0,0:29:48.46,0:29:50.58,Default,,0000,0000,0000,,Terrence Davis 他的名字不在旅客名单上\N{\fs13\bord1}Terrence Davis-- his name's not on the flight manifest.{\r}
+Dialogue: 0,0:29:50.61,0:29:53.84,Default,,0000,0000,0000,,如果他们是同伙 为什么他们不在同一架飞机上?\N{\fs13\bord1}If they're partners,how come they weren't on the same plane?{\r}
+Dialogue: 0,0:29:54.07,0:29:55.86,Default,,0000,0000,0000,,我想 我们应该去问问他\N{\fs13\bord1}I think we should ask him.{\r}
+Dialogue: 0,0:30:17.04,0:30:21.35,Default,,0000,0000,0000,,要么我是对半裸女郎过敏 要么这里有只貓\N{\fs13\bord1}Either allergic to half-naked women or there's a cat in here.{\r}
+Dialogue: 0,0:30:21.61,0:30:23.21,Default,,0000,0000,0000,,这儿是有只猫\N{\fs13\bord1}There's a cat in here.{\r}
+Dialogue: 0,0:30:37.72,0:30:39.90,Default,,0000,0000,0000,,那是我们要找的Terrence Davis\N{\fs13\bord1}There's our boy Terrence Davis.{\r}
+Dialogue: 0,0:30:43.03,0:30:44.72,Default,,0000,0000,0000,,养了好大只猫\N{\fs13\bord1}Big housecat.{\r}
+Dialogue: 0,0:30:44.97,0:30:47.63,Default,,0000,0000,0000,,就是这只大猫让我的酒吧火了\N{\fs13\bord1}You could say she put this club on the map.{\r}
+Dialogue: 0,0:30:47.81,0:30:49.34,Default,,0000,0000,0000,,我对猫不大感冒\N{\fs13\bord1}Not really into cats myself.{\r}
+Dialogue: 0,0:30:49.70,0:30:52.77,Default,,0000,0000,0000,,我猜猜 你们是警察?\N{\fs13\bord1}Let me guess: you're more K-9?{\r}
+Dialogue: 0,0:30:54.94,0:30:56.46,Default,,0000,0000,0000,,你倒没看上去那么笨\N{\fs13\bord1}Smarter than you look.{\r}
+Dialogue: 0,0:30:57.10,0:30:58.62,Default,,0000,0000,0000,,有何贵干 McGruff(警犬名)?\N{\fs13\bord1}What can I do for you,McGruff?{\r}
+Dialogue: 0,0:30:58.66,0:31:00.26,Default,,0000,0000,0000,,因为我没什么心情\N{\fs13\bord1}'Cause I'm seriously not in the mood.{\r}
+Dialogue: 0,0:31:00.29,0:31:02.49,Default,,0000,0000,0000,,也许到你办公室心情会好点\N{\fs13\bord1}Maybe the mood's better in your office.{\r}
+Dialogue: 0,0:31:04.71,0:31:05.87,Default,,0000,0000,0000,,我可没在征询你意见\N{\fs13\bord1}I'm not asking.{\r}
+Dialogue: 0,0:31:07.13,0:31:08.84,Default,,0000,0000,0000,,好吧 伙计 怎么回事?\N{\fs13\bord1}Okay,guys,what's this about?{\r}
+Dialogue: 0,0:31:08.88,0:31:10.76,Default,,0000,0000,0000,,怎么回事? 是关于你搭档的事\N{\fs13\bord1}What's this about? It's about your partner.{\r}
+Dialogue: 0,0:31:10.81,0:31:12.25,Default,,0000,0000,0000,,Anton Greenway\N{\fs13\bord1}Anton Greenway.{\r}
+Dialogue: 0,0:31:12.27,0:31:15.47,Default,,0000,0000,0000,,当你为大西洋美景航空工作时\N{\fs13\bord1}We know that you two moved into and blow out of baggage claim at JFK{\r}
+Dialogue: 0,0:31:15.50,0:31:17.32,Default,,0000,0000,0000,,你俩曾在肯尼迪机场行李领取处干过\N{\fs13\bord1}while you worked for Atlantic Vista Airways.{\r}
+Dialogue: 0,0:31:17.36,0:31:18.61,Default,,0000,0000,0000,,陈年旧事了 老兄\N{\fs13\bord1}Long time ago,man.{\r}
+Dialogue: 0,0:31:18.64,0:31:20.42,Default,,0000,0000,0000,,你们干嘛不提点新鲜的?\N{\fs13\bord1}Aren't you up on current events?{\r}
+Dialogue: 0,0:31:20.46,0:31:21.77,Default,,0000,0000,0000,,说得没错\N{\fs13\bord1}You know what? You're right.{\r}
+Dialogue: 0,0:31:21.80,0:31:22.84,Default,,0000,0000,0000,,我们有点落伍了\N{\fs13\bord1}We're a little behind.{\r}
+Dialogue: 0,0:31:23.01,0:31:24.64,Default,,0000,0000,0000,,所以我们来找你谈谈\N{\fs13\bord1}That's why we came to talk to you.{\r}
+Dialogue: 0,0:31:24.78,0:31:27.12,Default,,0000,0000,0000,,干嘛不告诉我们是谁杀的 Anton Greenway\N{\fs13\bord1}Why don't you tell us who killed Anton Greenway.{\r}
+Dialogue: 0,0:31:27.29,0:31:27.79,Default,,0000,0000,0000,,Anton死了?\N{\fs13\bord1}Anton's dead?{\r}
+Dialogue: 0,0:31:27.82,0:31:29.68,Default,,0000,0000,0000,,别装得好像刚知道似的\N{\fs13\bord1}Don't play like this is new news.{\r}
+Dialogue: 0,0:31:29.70,0:31:31.54,Default,,0000,0000,0000,,我早就不玩这一招了 伙计\N{\fs13\bord1}I don't have game like that no more,man.{\r}
+Dialogue: 0,0:31:31.78,0:31:34.45,Default,,0000,0000,0000,,那个瘾君子死了 跟我可没关系\N{\fs13\bord1}That dope fiend is dead,it's nothing to do with me.{\r}
+Dialogue: 0,0:31:34.59,0:31:36.82,Default,,0000,0000,0000,,而且 他比瞎子开枪还疯狂\N{\fs13\bord1}Besides,he was crazier than a blind gunfighter.{\r}
+Dialogue: 0,0:31:36.96,0:31:38.17,Default,,0000,0000,0000,,难怪他会去见阎王\N{\fs13\bord1}Not surprise he met his demise.{\r}
+Dialogue: 0,0:31:38.20,0:31:41.61,Default,,0000,0000,0000,,也许你之所以不觉得惊讶 是因为你与此事有关\N{\fs13\bord1}Maybe you're not so surprised because you had something to do with it.{\r}
+Dialogue: 0,0:31:41.66,0:31:45.94,Default,,0000,0000,0000,,Anton偷了空警的证件登机 然后在机上被杀\N{\fs13\bord1}Anton was killed on a plane that he boarded using stolen air marshal credentials.{\r}
+Dialogue: 0,0:31:46.14,0:31:50.50,Default,,0000,0000,0000,,空警被人用"沙漠之鹰"杀了 上面都是你的指纹\N{\fs13\bord1}An air marshal who was murdered with a Desert Eagle that had your prints all over it.{\r}
+Dialogue: 0,0:31:50.63,0:31:52.39,Default,,0000,0000,0000,,明白我什么意思了吧 T?\N{\fs13\bord1}You see where I'm going with this,T?{\r}
+Dialogue: 0,0:31:53.17,0:31:55.35,Default,,0000,0000,0000,,你最后一次见到你哥们Anton 是什么时候?\N{\fs13\bord1}When was the last time you saw your buddy Anton?{\r}
+Dialogue: 0,0:31:55.47,0:31:56.31,Default,,0000,0000,0000,,昨天\N{\fs13\bord1}Yesterday.{\r}
+Dialogue: 0,0:31:56.43,0:31:57.78,Default,,0000,0000,0000,,几年来头回见到他\N{\fs13\bord1}First time I seen him in years.{\r}
+Dialogue: 0,0:31:57.91,0:31:59.11,Default,,0000,0000,0000,,跟我们讲讲你们的大团聚\N{\fs13\bord1}Tell us about the reunion.{\r}
+Dialogue: 0,0:31:59.15,0:32:03.49,Default,,0000,0000,0000,,听着 他找我是为了我给他点钱 好去买点大麻吸 就这样\N{\fs13\bord1}Look,man,the game through 'cause I was holding some lettuce for him till he got out the joint. That's it.{\r}
+Dialogue: 0,0:32:03.52,0:32:04.88,Default,,0000,0000,0000,,他穿的外套呢?\N{\fs13\bord1}What about the jacket he was wearing?{\r}
+Dialogue: 0,0:32:04.91,0:32:08.40,Default,,0000,0000,0000,,内衬缝上能偷运毒品口袋的那件\N{\fs13\bord1}The one with the all the pockets sewn into it for smuggling dope.{\r}
+Dialogue: 0,0:32:08.43,0:32:09.46,Default,,0000,0000,0000,,金盆洗手好多年了\N{\fs13\bord1}Retired years ago.{\r}
+Dialogue: 0,0:32:09.48,0:32:11.06,Default,,0000,0000,0000,,Anton来过 想要那件外套\N{\fs13\bord1}Anton came by. He wanted it.{\r}
+Dialogue: 0,0:32:11.09,0:32:13.88,Default,,0000,0000,0000,,我说行 只要我不知情就成\N{\fs13\bord1}I said cool,as long as I don't know nothing to do with nothing.{\r}
+Dialogue: 0,0:32:13.90,0:32:14.74,Default,,0000,0000,0000,,知道我意思吧?\N{\fs13\bord1}You know what I mean?{\r}
+Dialogue: 0,0:32:14.78,0:32:17.10,Default,,0000,0000,0000,,回到有你指纹的点50口径枪上\N{\fs13\bord1}Let's get back to the .50 then with your prints on it.{\r}
+Dialogue: 0,0:32:17.13,0:32:18.69,Default,,0000,0000,0000,,我不知道你在说什么\N{\fs13\bord1}I don't know what you're talking about.{\r}
+Dialogue: 0,0:32:18.72,0:32:19.95,Default,,0000,0000,0000,,听我说\N{\fs13\bord1}Listen to me,T.{\r}
+Dialogue: 0,0:32:19.99,0:32:22.78,Default,,0000,0000,0000,,我可以控告你谋杀 证据确凿\N{\fs13\bord1}I got a solid murder charge that I can hang around your neck.{\r}
+Dialogue: 0,0:32:22.82,0:32:23.58,Default,,0000,0000,0000,,找错人了\N{\fs13\bord1}Wrong guy.{\r}
+Dialogue: 0,0:32:23.62,0:32:24.71,Default,,0000,0000,0000,,人不是我杀的\N{\fs13\bord1}I didn't pull no trigger.{\r}
+Dialogue: 0,0:32:24.74,0:32:26.55,Default,,0000,0000,0000,,凶器上只有你的指纹\N{\fs13\bord1}Your prints are the only ones on the weapon.{\r}
+Dialogue: 0,0:32:26.57,0:32:27.78,Default,,0000,0000,0000,,我不在乎你们有什么\N{\fs13\bord1}I don't care what you got.{\r}
+Dialogue: 0,0:32:27.80,0:32:29.08,Default,,0000,0000,0000,,我没杀人\N{\fs13\bord1}I didn't kill no one.{\r}
+Dialogue: 0,0:32:29.11,0:32:29.81,Default,,0000,0000,0000,,真的\N{\fs13\bord1}Truth.{\r}
+Dialogue: 0,0:32:29.84,0:32:31.03,Default,,0000,0000,0000,,说得不错\N{\fs13\bord1}Not bad.{\r}
+Dialogue: 0,0:32:31.05,0:32:35.18,Default,,0000,0000,0000,,但你的表现不会在陪审团前加分 因为它不会让你免于牢狱之灾\N{\fs13\bord1}But I'd pull out some tears for the jury because that performance won't keep you out of jail.{\r}
+Dialogue: 0,0:32:35.23,0:32:36.52,Default,,0000,0000,0000,,走吧\N{\fs13\bord1}Let's go.{\r}
+Dialogue: 0,0:32:36.53,0:32:38.03,Default,,0000,0000,0000,,我会带你走出前门\N{\fs13\bord1}I'm taking you out the front door.{\r}
+Dialogue: 0,0:32:38.07,0:32:38.86,Default,,0000,0000,0000,,好了 伙计\N{\fs13\bord1}All right,cool,man.{\r}
+Dialogue: 0,0:32:38.90,0:32:41.54,Default,,0000,0000,0000,,你们想因非法持枪罪逮捕我 没问题\N{\fs13\bord1}Look,you want to arrest me for gun possession,cool.{\r}
+Dialogue: 0,0:32:41.58,0:32:42.25,Default,,0000,0000,0000,,但知道吗\N{\fs13\bord1}But you know what?{\r}
+Dialogue: 0,0:32:42.28,0:32:43.61,Default,,0000,0000,0000,,事实是 我要把枪交给你们\N{\fs13\bord1}Matter of fact,I'll give you the gun.{\r}
+Dialogue: 0,0:32:43.65,0:32:44.95,Default,,0000,0000,0000,,把手举起来 举起来!\N{\fs13\bord1}Let me see those hands Now! Hands!{\r}
+Dialogue: 0,0:32:44.99,0:32:46.29,Default,,0000,0000,0000,,马上举起来!\N{\fs13\bord1}Do it,now!{\r}
+Dialogue: 0,0:32:47.56,0:32:48.75,Default,,0000,0000,0000,,人渣\N{\fs13\bord1}Scum.{\r}
+Dialogue: 0,0:32:48.79,0:32:50.84,Default,,0000,0000,0000,,我想帮那个蠢货 他却这样对我\N{\fs13\bord1}I'd tried to help this fool and this is what he does.{\r}
+Dialogue: 0,0:32:50.88,0:32:52.61,Default,,0000,0000,0000,,不会枉惩好人的\N{\fs13\bord1}No good deed goes unpunished.{\r}
+Dialogue: 0,0:32:52.64,0:32:56.07,Default,,0000,0000,0000,,你还是会因违反假释条例 非法持有那把枪而受罚\N{\fs13\bord1}You're also going to take a hit for a parole violation for owning that gun.{\r}
+Dialogue: 0,0:32:56.11,0:32:57.55,Default,,0000,0000,0000,,设想一下你的处境\N{\fs13\bord1}Assume the position.{\r}
+Dialogue: 0,0:33:23.52,0:33:25.52,Default,,0000,0000,0000,,Terrence Davis仍坚持他的说法\N{\fs13\bord1}Terrence Davis is sticking to his story.{\r}
+Dialogue: 0,0:33:25.85,0:33:27.44,Default,,0000,0000,0000,,我们只能因非法持枪罪扣着他\N{\fs13\bord1}We're still holding him on a gun charge,{\r}
+Dialogue: 0,0:33:27.61,0:33:32.28,Default,,0000,0000,0000,,但Roger Stockwell 那个空警被杀时 他有完美的不在场证明\N{\fs13\bord1}but he's got a solid alibi for the time that Roger Stockwell,the air marshal,was killed.{\r}
+Dialogue: 0,0:33:32.42,0:33:33.12,Default,,0000,0000,0000,,你有什么发现?\N{\fs13\bord1}What have you got?{\r}
+Dialogue: 0,0:33:33.29,0:33:37.25,Default,,0000,0000,0000,,这些是飞机上有可能被用作 谋杀凶器的所有东西\N{\fs13\bord1}Well,this is everything from the airplane that could've conceivably been used as a murder weapon.{\r}
+Dialogue: 0,0:33:37.27,0:33:39.36,Default,,0000,0000,0000,,我都拿来做了血液检测 查DNA\N{\fs13\bord1}I ran it all for blood and DNA.{\r}
+Dialogue: 0,0:33:39.37,0:33:40.72,Default,,0000,0000,0000,,没找到吻合的\N{\fs13\bord1}No hits.{\r}
+Dialogue: 0,0:33:40.76,0:33:41.88,Default,,0000,0000,0000,,不奇怪\N{\fs13\bord1}Doesn't surprise me.{\r}
+Dialogue: 0,0:33:41.92,0:33:43.01,Default,,0000,0000,0000,,我们知道凶手洗手了\N{\fs13\bord1}We know that our killer washed up.{\r}
+Dialogue: 0,0:33:43.05,0:33:44.32,Default,,0000,0000,0000,,他大概把凶器也洗了\N{\fs13\bord1}He probably cleaned the weapon too.{\r}
+Dialogue: 0,0:33:44.35,0:33:47.39,Default,,0000,0000,0000,,没错 所以唯一能确定凶器的方法 就是找出...\N{\fs13\bord1}Right. So the only way for us to ID the weapon is to figure out{\r}
+Dialogue: 0,0:33:47.41,0:33:50.36,Default,,0000,0000,0000,,是什么物体造成了死者下颌骨上的 特殊印记\N{\fs13\bord1}what made these distinctive marks in the vic's jaw.{\r}
+Dialogue: 0,0:33:50.39,0:33:52.79,Default,,0000,0000,0000,,好吧 我们要找一个两叉的武器\N{\fs13\bord1}Okay. So we're looking for a two-pronged weapon.{\r}
+Dialogue: 0,0:33:52.83,0:33:54.89,Default,,0000,0000,0000,,看看这些东西能造成怎样的损伤\N{\fs13\bord1}Let's see what kind of damage these guys can do.{\r}
+Dialogue: 0,0:33:55.05,0:33:57.15,Default,,0000,0000,0000,,他们带着这些怎么登上飞机?\N{\fs13\bord1}How do people get on board with this stuff?{\r}
+Dialogue: 0,0:33:57.27,0:33:59.53,Default,,0000,0000,0000,,我的牙膏都给没收了\N{\fs13\bord1}I had my toothpaste confiscated.{\r}
+Dialogue: 0,0:34:09.25,0:34:10.31,Default,,0000,0000,0000,,不是我们要找的凶器\N{\fs13\bord1}It's not our weapon.{\r}
+Dialogue: 0,0:34:12.10,0:34:15.61,Default,,0000,0000,0000,,我们要找个能刺得更深的东西\N{\fs13\bord1}All right. We need to find something that would penetrate deeper.{\r}
+Dialogue: 0,0:34:29.16,0:34:31.52,Default,,0000,0000,0000,,所有的都试过了\N{\fs13\bord1}We're running out of possibilities.{\r}
+Dialogue: 0,0:34:31.56,0:34:33.63,Default,,0000,0000,0000,,正好 我正找你们呢\N{\fs13\bord1}Oh,good. I was looking for you guys.{\r}
+Dialogue: 0,0:34:33.67,0:34:34.80,Default,,0000,0000,0000,,老天哪 Adam\N{\fs13\bord1}Oh,my God,Adam.{\r}
+Dialogue: 0,0:34:34.83,0:34:35.60,Default,,0000,0000,0000,,什么味儿?\N{\fs13\bord1}What is that smell?{\r}
+Dialogue: 0,0:34:35.64,0:34:39.98,Default,,0000,0000,0000,,是...垃圾加上一点...厕所味儿\N{\fs13\bord1}Oh,it's garbage and a little,uh...eau de toilet.{\r}
+Dialogue: 0,0:34:40.03,0:34:40.91,Default,,0000,0000,0000,,我说真的\N{\fs13\bord1}Literally.{\r}
+Dialogue: 0,0:34:40.95,0:34:42.28,Default,,0000,0000,0000,,希望值得你这么拼命\N{\fs13\bord1}I hope it was worth it.{\r}
+Dialogue: 0,0:34:42.30,0:34:43.15,Default,,0000,0000,0000,,好消息\N{\fs13\bord1}Big time.{\r}
+Dialogue: 0,0:34:43.27,0:34:45.22,Default,,0000,0000,0000,,我想我找到了什么\N{\fs13\bord1}I think I got something.{\r}
+Dialogue: 0,0:34:45.49,0:34:48.04,Default,,0000,0000,0000,,我在洗手间垃圾里找到了 这个避孕套...\N{\fs13\bord1}The condom that I found,in the lavatory waste...{\r}
+Dialogue: 0,0:34:48.18,0:34:48.88,Default,,0000,0000,0000,,你找到了DNA\N{\fs13\bord1}You got DNA.{\r}
+Dialogue: 0,0:34:48.92,0:34:52.99,Default,,0000,0000,0000,,没有 死者的套套浮在有毒废物 垃圾处理箱里\N{\fs13\bord1}No way. The vic's love glove was found floating in a toxic waste dump.{\r}
+Dialogue: 0,0:34:53.02,0:34:56.61,Default,,0000,0000,0000,,但包装没被烧坏 包装上的口红印也好好的\N{\fs13\bord1}But the wrapper survived the stew,and so did the the lipstick on the wrapper.{\r}
+Dialogue: 0,0:34:56.67,0:35:00.54,Default,,0000,0000,0000,,花了点时间 但我会找出颜色型号 以及生产厂家的\N{\fs13\bord1}It took a little time,but I was able to narrow it down the shade and the manufacturer.{\r}
+Dialogue: 0,0:35:00.58,0:35:02.31,Default,,0000,0000,0000,,太棒了 做得好 Adam\N{\fs13\bord1}Fantastic. Great work,Adam.{\r}
+Dialogue: 0,0:35:02.35,0:35:05.51,Default,,0000,0000,0000,,呃...我得去冲个澡\N{\fs13\bord1}Yeah,uh,I...I should shower.{\r}
+Dialogue: 0,0:35:05.56,0:35:07.23,Default,,0000,0000,0000,,没错 是该洗个澡了\N{\fs13\bord1}Yeah,yeah. You do that.{\r}
+Dialogue: 0,0:35:10.91,0:35:14.56,Default,,0000,0000,0000,,Terrence 我们现在没法交流\N{\fs13\bord1}Well,I think what we have here is a failure to communicate,Terrence.{\r}
+Dialogue: 0,0:35:14.87,0:35:17.15,Default,,0000,0000,0000,,我在说 可你没在听\N{\fs13\bord1}I'm talking,but you ain't listening.{\r}
+Dialogue: 0,0:35:20.19,0:35:22.08,Default,,0000,0000,0000,,我只是没感觉 Flack\N{\fs13\bord1}I'm just not feeling,Flack.{\r}
+Dialogue: 0,0:35:23.10,0:35:24.66,Default,,0000,0000,0000,,也许你对这个有感觉\N{\fs13\bord1}Well,maybe you'll feel this.{\r}
+Dialogue: 0,0:35:24.87,0:35:28.03,Default,,0000,0000,0000,,记得那把上面满是你指纹的枪吗?\N{\fs13\bord1}Remember that defaced firearm with your prints all over the magazine,{\r}
+Dialogue: 0,0:35:28.24,0:35:30.16,Default,,0000,0000,0000,,Anton从你酒吧拿走的那把\N{\fs13\bord1}the one Anton swiped from the club?{\r}
+Dialogue: 0,0:35:30.68,0:35:32.35,Default,,0000,0000,0000,,那把枪被用来杀了一名联邦探员\N{\fs13\bord1}It was used to kill a federal agent.{\r}
+Dialogue: 0,0:35:33.07,0:35:36.38,Default,,0000,0000,0000,,我要是把消息通知联邦法警局 你就至少蹲十年牢\N{\fs13\bord1}Now if I let this go federal,you're gonna do at least ten years up there.{\r}
+Dialogue: 0,0:35:36.55,0:35:41.81,Default,,0000,0000,0000,,但是 如果我不报上去 你大概就用不着受牢狱之灾\N{\fs13\bord1}However,if I keep it local,you probably won't do any real jail time.{\r}
+Dialogue: 0,0:35:41.83,0:35:42.74,Default,,0000,0000,0000,,不上报...\N{\fs13\bord1}Local...{\r}
+Dialogue: 0,0:35:42.90,0:35:45.17,Default,,0000,0000,0000,,意味着有附加条件 对吧?\N{\fs13\bord1}that means strings attached,right?{\r}
+Dialogue: 0,0:35:45.19,0:35:48.01,Default,,0000,0000,0000,,你开着城里最热门的夜店\N{\fs13\bord1}You manage the hottest club in the city.{\r}
+Dialogue: 0,0:35:48.16,0:35:51.58,Default,,0000,0000,0000,,你说你金盆洗手了 但我相信你对道上的事还是了若指掌\N{\fs13\bord1}You say you're out of the life,but I'm sure you keep your ear to the rail.{\r}
+Dialogue: 0,0:35:52.45,0:35:53.95,Default,,0000,0000,0000,,我听到些消息\N{\fs13\bord1}I hear things.{\r}
+Dialogue: 0,0:35:54.18,0:35:55.59,Default,,0000,0000,0000,,我希望听到你了解的消息\N{\fs13\bord1}I want to hear what you hear.{\r}
+Dialogue: 0,0:35:57.54,0:35:59.21,Default,,0000,0000,0000,,怎么让我脱罪?\N{\fs13\bord1}How does it work?{\r}
+Dialogue: 0,0:35:59.43,0:36:03.82,Default,,0000,0000,0000,,你会被判重罪 和检察官达成辩诉交易...\N{\fs13\bord1}You'll be charged with a felony,take a plea...{\r}
+Dialogue: 0,0:36:03.96,0:36:06.36,Default,,0000,0000,0000,,然后转为秘密线人将功赎罪\N{\fs13\bord1}and work off your time as a confidential informant.{\r}
+Dialogue: 0,0:36:08.76,0:36:11.31,Default,,0000,0000,0000,,Terrence 过了这村可没那店了\N{\fs13\bord1}Now,this is a very limited-time offer,Terrence.{\r}
+Dialogue: 0,0:36:11.35,0:36:13.62,Default,,0000,0000,0000,,说的就是现在\N{\fs13\bord1}Limited,in like right now.{\r}
+Dialogue: 0,0:36:14.01,0:36:15.33,Default,,0000,0000,0000,,地方检察官正等我消息呢\N{\fs13\bord1}I got a DA waiting to hear from me.{\r}
+Dialogue: 0,0:36:15.36,0:36:17.56,Default,,0000,0000,0000,,要你一句话\N{\fs13\bord1}I need a decision.{\r}
+Dialogue: 0,0:36:22.06,0:36:24.90,Default,,0000,0000,0000,,自打见你第一面起 就知道我们会成为朋友\N{\fs13\bord1}The minute I met you,I knew we'd be friends.{\r}
+Dialogue: 0,0:36:26.07,0:36:27.50,Default,,0000,0000,0000,,很好\N{\fs13\bord1}Excellent.{\r}
+Dialogue: 0,0:36:46.21,0:36:47.90,Default,,0000,0000,0000,,没时间了\N{\fs13\bord1}Clock ran out.{\r}
+Dialogue: 0,0:36:50.21,0:36:51.42,Default,,0000,0000,0000,,我还需要点时间\N{\fs13\bord1}I need more time.{\r}
+Dialogue: 0,0:36:51.57,0:36:52.53,Default,,0000,0000,0000,,我没法再扣着他们了\N{\fs13\bord1}I got nothing to hold them on.{\r}
+Dialogue: 0,0:36:52.57,0:36:53.52,Default,,0000,0000,0000,,我们没办法了\N{\fs13\bord1}It's out of our hands.{\r}
+Dialogue: 0,0:36:53.54,0:36:55.99,Default,,0000,0000,0000,,其中一人昨天杀了人 现在我们把他们放了\N{\fs13\bord1}One of these people committed murder yesterday and we're letting them go.{\r}
+Dialogue: 0,0:36:56.02,0:37:00.02,Default,,0000,0000,0000,,国安局也不想放人 不过我们都没得选\N{\fs13\bord1}Homeland Security doesn't like it anymore than we do,but none of us have a choice here.{\r}
+Dialogue: 0,0:37:00.26,0:37:01.85,Default,,0000,0000,0000,,把衣服还我\N{\fs13\bord1}I want my clothes back.{\r}
+Dialogue: 0,0:37:02.02,0:37:04.73,Default,,0000,0000,0000,,调查结束后 犯罪实验室会返还的\N{\fs13\bord1}They'll be released from the crime lab when the investigation's over.{\r}
+Dialogue: 0,0:37:05.63,0:37:06.46,Default,,0000,0000,0000,,等着我律师联系你吧\N{\fs13\bord1}You're going to hear from my attorney.{\r}
+Dialogue: 0,0:37:06.62,0:37:07.65,Default,,0000,0000,0000,,上车去\N{\fs13\bord1}Get on the bus.{\r}
+Dialogue: 0,0:37:22.88,0:37:24.24,Default,,0000,0000,0000,,你去哪儿?\N{\fs13\bord1}Where you going?{\r}
+Dialogue: 0,0:37:25.93,0:37:28.21,Default,,0000,0000,0000,,我不会就这么让凶手跑了的\N{\fs13\bord1}I'm not in the business of letting killers go.{\r}
+Dialogue: 0,0:37:38.28,0:37:39.09,Default,,0000,0000,0000,,Taylor警探\N{\fs13\bord1}Detective Taylor.{\r}
+Dialogue: 0,0:37:39.26,0:37:42.34,Default,,0000,0000,0000,,Bonasera警探在线上等你\N{\fs13\bord1}I've got Detective Bonasera on the line for you.{\r}
+Dialogue: 0,0:37:46.77,0:37:47.82,Default,,0000,0000,0000,,有什么发现 Stella?\N{\fs13\bord1}What have you got,Stella?{\r}
+Dialogue: 0,0:37:47.85,0:37:51.11,Default,,0000,0000,0000,,一枚唇印 可能跟其中一名女性嫌犯相吻合\N{\fs13\bord1}A lipstick stain. We might be able to match it to one of our female suspects.{\r}
+Dialogue: 0,0:37:51.16,0:37:54.55,Default,,0000,0000,0000,,我把空姐Nina的口红比较后发现\N{\fs13\bord1}Now,I ran it by the lipstick that you took off of Nina the flight attendant.{\r}
+Dialogue: 0,0:37:54.58,0:37:55.29,Default,,0000,0000,0000,,不相符\N{\fs13\bord1}No match.{\r}
+Dialogue: 0,0:37:55.33,0:37:57.52,Default,,0000,0000,0000,,他们都有嫌疑 搜查令马上就下来\N{\fs13\bord1}Everyone else is in play,and warrants are on their way.{\r}
+Dialogue: 0,0:37:57.69,0:37:58.82,Default,,0000,0000,0000,,他们都被放了\N{\fs13\bord1}They're gone.{\r}
+Dialogue: 0,0:38:00.09,0:38:01.09,Default,,0000,0000,0000,,人都走了\N{\fs13\bord1}They're all gone.{\r}
+Dialogue: 0,0:38:01.40,0:38:02.71,Default,,0000,0000,0000,,我们只能把他们放了\N{\fs13\bord1}We had to cut them loose.{\r}
+Dialogue: 0,0:38:11.21,0:38:12.34,Default,,0000,0000,0000,,好的 谢谢\N{\fs13\bord1}Good,thanks.{\r}
+Dialogue: 0,0:38:12.49,0:38:13.86,Default,,0000,0000,0000,,大巴上的人都下光了\N{\fs13\bord1}The bus just dropped everybody off.{\r}
+Dialogue: 0,0:38:13.89,0:38:17.97,Default,,0000,0000,0000,,我现在派人去把女乘客和机组成员 给找回来\N{\fs13\bord1}Now I got guys out there ready to round up all the female passengers and crew members and bring them back,{\r}
+Dialogue: 0,0:38:18.01,0:38:20.00,Default,,0000,0000,0000,,不过要花几小时\N{\fs13\bord1}but it's going to taka couple hours.{\r}
+Dialogue: 0,0:38:20.02,0:38:22.24,Default,,0000,0000,0000,,到时她肯定早就跑了\N{\fs13\bord1}She could be long gone by then.{\r}
+Dialogue: 0,0:38:29.13,0:38:30.68,Default,,0000,0000,0000,,有什么发现 医生?\N{\fs13\bord1}What do you got,Doc?{\r}
+Dialogue: 0,0:38:30.69,0:38:33.19,Default,,0000,0000,0000,,好消息 我用X荧光射线检测了 Greenway的下颌骨\N{\fs13\bord1}Good news. I put the XRF to Greenway's jawbone,{\r}
+Dialogue: 0,0:38:33.22,0:38:37.84,Default,,0000,0000,0000,,在印记里发现了些镀铜和镍的痕迹 是从凶器上带过去的\N{\fs13\bord1}and I found traces of brass and nickel plating in the marks made by our murder weapon.{\r}
+Dialogue: 0,0:38:37.88,0:38:43.18,Default,,0000,0000,0000,,我查了下 发现镀镍工艺常被用在 奖杯 徽章和首饰里\N{\fs13\bord1}I did a little research,and found that nickel plating is commonly used in trophies,badges,jewelry.{\r}
+Dialogue: 0,0:38:43.21,0:38:47.34,Default,,0000,0000,0000,,但从机上没收的那些东西里 没有与之吻合的\N{\fs13\bord1}But there was nothing confiscated from the plane that matches our murder weapon.{\r}
+Dialogue: 0,0:38:52.20,0:38:54.02,Default,,0000,0000,0000,,你在想什么 Mac?\N{\fs13\bord1}What are you thinking,Mac?{\r}
+Dialogue: 0,0:39:06.05,0:39:07.45,Default,,0000,0000,0000,,还有翼型章\N{\fs13\bord1}And wings.{\r}
+Dialogue: 0,0:39:09.53,0:39:10.97,Default,,0000,0000,0000,,空乘的翼型章\N{\fs13\bord1}Flight attendant's wings.{\r}
+Dialogue: 0,0:39:11.01,0:39:15.09,Default,,0000,0000,0000,,是金属做的 边缘也够锋利...\N{\fs13\bord1}They are made from metal,and the edges would be more than sharp enough...{\r}
+Dialogue: 0,0:39:15.12,0:39:16.52,Default,,0000,0000,0000,,可以刺透皮肤\N{\fs13\bord1}to puncture the skin.{\r}
+Dialogue: 0,0:39:16.55,0:39:18.38,Default,,0000,0000,0000,,Hawkes 给我发一张下颌骨的照片\N{\fs13\bord1}Hawkes,send me a picture of that jawbone.{\r}
+Dialogue: 0,0:39:18.41,0:39:19.76,Default,,0000,0000,0000,,马上\N{\fs13\bord1}It's on its way.{\r}
+Dialogue: 0,0:39:36.69,0:39:39.84,Default,,0000,0000,0000,,徽章的尖端与死者下颌的印记吻合\N{\fs13\bord1}The points of the wing are a match to the marks in the vic's jaw.{\r}
+Dialogue: 0,0:39:39.88,0:39:42.02,Default,,0000,0000,0000,,看来找到凶器了\N{\fs13\bord1}Looks like you found the murder weapon.{\r}
+Dialogue: 0,0:39:45.29,0:39:47.21,Default,,0000,0000,0000,,还有凶手\N{\fs13\bord1}And our murderer.{\r}
+Dialogue: 0,0:39:52.44,0:39:54.50,Default,,0000,0000,0000,,看看这些空乘\N{\fs13\bord1}Look at the flight attendants.{\r}
+Dialogue: 0,0:39:55.02,0:39:58.87,Default,,0000,0000,0000,,他们下飞机时 我们拍了照 而Susan...\N{\fs13\bord1}We took their photos as they came off the plane,and Susan...{\r}
+Dialogue: 0,0:39:59.37,0:40:01.99,Default,,0000,0000,0000,,是唯一没有佩戴翼型章的\N{\fs13\bord1}is the only one not wearing her wings.{\r}
+Dialogue: 0,0:40:02.04,0:40:03.21,Default,,0000,0000,0000,,太好了\N{\fs13\bord1}Oops.{\r}
+Dialogue: 0,0:40:03.24,0:40:05.49,Default,,0000,0000,0000,,我刚跟航空公司通过电话 Mac\N{\fs13\bord1}I just got off the phone with the airline,Mac.{\r}
+Dialogue: 0,0:40:05.52,0:40:08.42,Default,,0000,0000,0000,,对方说她刚用自己的特权 搭上了去巴黎的班机\N{\fs13\bord1}The airline rep said she used her privileges to hop a flight to Paris,{\r}
+Dialogue: 0,0:40:08.45,0:40:10.14,Default,,0000,0000,0000,,三分钟内从50号门起飞\N{\fs13\bord1}that leaves out of Gate 50 in three minutes.{\r}
+Dialogue: 0,0:40:10.17,0:40:11.47,Default,,0000,0000,0000,,她要跑了\N{\fs13\bord1}She's running.{\r}
+Dialogue: 0,0:40:15.34,0:40:19.87,Default,,0000,0000,0000,,最后一遍广播 飞往巴黎的大西洋 美景航空公司的1256航班即将起飞\N{\fs13\bord1}Last call for Atlantic Vista Airways Flight 1256 departing for Paris.{\r}
+Dialogue: 0,0:40:19.92,0:40:22.05,Default,,0000,0000,0000,,所有乘客应当立刻登机\N{\fs13\bord1}All passengers should be on board at this time.{\r}
+Dialogue: 0,0:40:22.08,0:40:22.62,Default,,0000,0000,0000,,你们不能下去\N{\fs13\bord1}You can't go down there.{\r}
+Dialogue: 0,0:40:22.66,0:40:24.53,Default,,0000,0000,0000,,这违反联邦航空局规定...\N{\fs13\bord1}It's against FAA...{\r}
+Dialogue: 0,0:40:48.83,0:40:51.25,Default,,0000,0000,0000,,走吧\N{\fs13\bord1}Let's go.{\r}
+Dialogue: 0,0:40:56.03,0:41:00.03,Default,,0000,0000,0000,,我实验室的人在缝里找到了 Anton Greenway的血\N{\fs13\bord1}My lab found Anton Greenway's blood in the crevices.{\r}
+Dialogue: 0,0:41:00.31,0:41:01.71,Default,,0000,0000,0000,,他想劫机\N{\fs13\bord1}He was going to hijack the plane.{\r}
+Dialogue: 0,0:41:01.77,0:41:05.04,Default,,0000,0000,0000,,我应当保护乘客\N{\fs13\bord1}I should be commended for protecting the passengers.{\r}
+Dialogue: 0,0:41:05.08,0:41:07.29,Default,,0000,0000,0000,,只是你没来领功\N{\fs13\bord1}Only you didn't come forward to take credit.{\r}
+Dialogue: 0,0:41:07.32,0:41:09.79,Default,,0000,0000,0000,,我吓坏了 机上可能还有一名劫机犯\N{\fs13\bord1}I was scared. There could've been another hijacker on the plane.{\r}
+Dialogue: 0,0:41:09.82,0:41:11.72,Default,,0000,0000,0000,,没有别人了 你知道的\N{\fs13\bord1}There wasn't,and you knew that.{\r}
+Dialogue: 0,0:41:11.76,0:41:13.42,Default,,0000,0000,0000,,因为你认识Anton\N{\fs13\bord1}because you knew Anton.{\r}
+Dialogue: 0,0:41:13.47,0:41:20.28,Default,,0000,0000,0000,,他走私毒品那阵 你们都在大西洋美景航空工作\N{\fs13\bord1}You both worked at Atlantic Vista Airways at the same time,while he was smuggling drugs.{\r}
+Dialogue: 0,0:41:20.32,0:41:23.47,Default,,0000,0000,0000,,如果他也在那家航空公司工作 那只是巧合\N{\fs13\bord1}If he worked at that airline,it was a coincidence.{\r}
+Dialogue: 0,0:41:26.36,0:41:32.73,Default,,0000,0000,0000,,昨天你把25万美元兑换成加拿大元\N{\fs13\bord1}Yesterday,you converted a quarter-million US dollars into Canadian money.{\r}
+Dialogue: 0,0:41:32.90,0:41:36.87,Default,,0000,0000,0000,,跟Anton藏在身上外套里 偷运上机的数目一样\N{\fs13\bord1}The exact amount Anton smuggled on board inside the jacket he was wearing.{\r}
+Dialogue: 0,0:41:41.81,0:41:43.75,Default,,0000,0000,0000,,搜查令马上就到\N{\fs13\bord1}I have a warrant on the way.{\r}
+Dialogue: 0,0:41:43.79,0:41:47.95,Default,,0000,0000,0000,,我会把你的口红跟找到的 避孕套上的唇印进行比对\N{\fs13\bord1}I'm going to match your lipstick to the condom wrapper we found.{\r}
+Dialogue: 0,0:41:48.53,0:41:54.25,Default,,0000,0000,0000,,我们可以继续在这兜圈子 Susan 但前方已经没路了\N{\fs13\bord1}We can continue to dance here,Susan,but the song's over.{\r}
+Dialogue: 0,0:41:55.23,0:41:57.38,Default,,0000,0000,0000,,我爱他 你知道吗?\N{\fs13\bord1}I loved him,you know?{\r}
+Dialogue: 0,0:41:57.41,0:42:00.02,Default,,0000,0000,0000,,你在帮他逃跑...\N{\fs13\bord1}And you were helping him escape...{\r}
+Dialogue: 0,0:42:01.26,0:42:02.91,Default,,0000,0000,0000,,只是出了岔子\N{\fs13\bord1}only something went wrong.{\r}
+Dialogue: 0,0:42:02.95,0:42:04.93,Default,,0000,0000,0000,,前一秒 是他情人...\N{\fs13\bord1}One minute you're his lover...{\r}
+Dialogue: 0,0:42:05.91,0:42:07.33,Default,,0000,0000,0000,,后一秒 杀了他\N{\fs13\bord1}the next,his killer.{\r}
+Dialogue: 0,0:42:07.37,0:42:09.26,Default,,0000,0000,0000,,他做了什么?\N{\fs13\bord1}What did he do?{\r}
+Dialogue: 0,0:42:09.29,0:42:11.88,Default,,0000,0000,0000,,他杀了那个空警\N{\fs13\bord1}He murdered that air marshal.{\r}
+Dialogue: 0,0:42:11.91,0:42:14.53,Default,,0000,0000,0000,,他本来只该把他绑起来 抢了警徽 证件就好\N{\fs13\bord1}He was only supposed to tie him up and rob him.{\r}
+Dialogue: 0,0:42:14.57,0:42:16.14,Default,,0000,0000,0000,,我们是那么说好的\N{\fs13\bord1}That's what we agreed to.{\r}
+Dialogue: 0,0:42:16.18,0:42:17.79,Default,,0000,0000,0000,,他还改变了其他什么计划?\N{\fs13\bord1}What other plans did he change?{\r}
+Dialogue: 0,0:42:17.82,0:42:19.19,Default,,0000,0000,0000,,一切都变了\N{\fs13\bord1}Everything.{\r}
+Dialogue: 0,0:42:19.23,0:42:22.65,Default,,0000,0000,0000,,他拿枪抵着我的脖子 说他不想去华盛顿\N{\fs13\bord1}He put a gun up to my neck and told me he didn't want to go to DC.{\r}
+Dialogue: 0,0:42:22.69,0:42:25.38,Default,,0000,0000,0000,,他想让飞机飞到加拿大\N{\fs13\bord1}He wanted the plane to fly to Canada.{\r}
+Dialogue: 0,0:42:26.79,0:42:30.02,Default,,0000,0000,0000,,我同意帮他逃出纽约\N{\fs13\bord1}I agreed to help him get out of New York.{\r}
+Dialogue: 0,0:42:30.38,0:42:34.16,Default,,0000,0000,0000,,我不同意劫持一架满载无辜者的飞机\N{\fs13\bord1}I didn't agree to take over an airplane filled with innocent people.{\r}
+Dialogue: 0,0:42:34.20,0:42:34.86,Default,,0000,0000,0000,,听我说\N{\fs13\bord1}Listen to me.{\r}
+Dialogue: 0,0:42:34.89,0:42:36.17,Default,,0000,0000,0000,,我要逃出美国\N{\fs13\bord1}I've got to get out of the country.{\r}
+Dialogue: 0,0:42:36.19,0:42:38.33,Default,,0000,0000,0000,,不 我告诉过你我们可以在着陆后 再搭别的飞机\N{\fs13\bord1}No. I told you we can take another plane when we land.{\r}
+Dialogue: 0,0:42:38.36,0:42:39.50,Default,,0000,0000,0000,,别说了!\N{\fs13\bord1}Forget it!{\r}
+Dialogue: 0,0:42:39.53,0:42:41.72,Default,,0000,0000,0000,,带我去驾驶室 其他的我来做\N{\fs13\bord1}Just get me to the cockpit and I'll do the rest.{\r}
+Dialogue: 0,0:42:41.76,0:42:42.69,Default,,0000,0000,0000,,你疯了吗? 别说了\N{\fs13\bord1}Are you crazy? Forget it.{\r}
+Dialogue: 0,0:42:42.72,0:42:43.55,Default,,0000,0000,0000,,我们不是这样说的\N{\fs13\bord1}This isn't what we talked about.{\r}
+Dialogue: 0,0:42:43.58,0:42:46.68,Default,,0000,0000,0000,,Susan 没有你 我去不了驾驶室\N{\fs13\bord1}Susan,I can't get into the cockpit without your help.{\r}
+Dialogue: 0,0:42:46.72,0:42:49.08,Default,,0000,0000,0000,,照做 不然就去死\N{\fs13\bord1}Do it or you die.{\r}
+Dialogue: 0,0:42:50.94,0:42:56.99,Default,,0000,0000,0000,,那时 你只有两条路可走: 站出来 阻止劫机\N{\fs13\bord1}At that point,you had two choices: come forward,having prevented a hijacking,{\r}
+Dialogue: 0,0:42:57.03,0:42:59.47,Default,,0000,0000,0000,,或者 去拿钱\N{\fs13\bord1}or go for the cash.{\r}
+Dialogue: 0,0:43:00.31,0:43:03.30,Default,,0000,0000,0000,,你选错了 Susan...\N{\fs13\bord1}You made the wrong choice,Susan...{\r}
+Dialogue: 0,0:43:04.92,0:43:07.42,Default,,0000,0000,0000,,现在你作茧自缚了\N{\fs13\bord1}and now you're grounded.{\r}
+
+

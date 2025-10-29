@@ -1,0 +1,742 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: YYeTs
+Original Script: YYeTs
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 1
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体_GBK,20,&H00FFFFFF,&HF0000000,&H00000000,&H32000000,0,0,0,0,100,100,0,0,1,2,1,2,5,5,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.89,0:00:02.74,Default,NTP,0,0,0,,{\fs14}《曼哈頓計劃》前情提要...\NPreviously on "Manhattan"...
+Dialogue: 0,0:00:05.27,0:00:06.88,Default,NTP,0,0,0,,{\fs14}不管我們在這做什麼\NWhatever we're doing here,
+Dialogue: 0,0:00:07.55,0:00:09.14,Default,NTP,0,0,0,,{\fs14}告訴我這一切都是值得的\Nplease tell me it's worth it.
+Dialogue: 0,0:00:09.87,0:00:11.41,Default,NTP,0,0,0,,{\fs14}我的表妹一家在歐洲...\NMy cousins in Europe...
+Dialogue: 0,0:00:11.58,0:00:14.08,Default,NTP,0,0,0,,{\fs14}我對那兒所發生的一切都無能為力\NI can't do anything about what's happening over there.
+Dialogue: 0,0:00:14.18,0:00:15.35,Default,NTP,0,0,0,,{\fs14}但你可以\NBut you can.
+Dialogue: 0,0:00:16.41,0:00:18.55,Default,NTP,0,0,0,,{\fs14}在海森堡項目裏的那個內應\NThe man inside Heisenberg's project,
+Dialogue: 0,0:00:18.55,0:00:20.15,Default,NTP,0,0,0,,{\fs14}被處決了\Nthey executed him.
+Dialogue: 0,0:00:21.02,0:00:22.13,Default,NTP,0,0,0,,{\fs14}麥格派\NMagpie?
+Dialogue: 0,0:00:22.13,0:00:25.25,Default,NTP,0,0,0,,{\fs14}你沒跟任何人提起他吧\NYou didn't tell anyone else about him, did you?
+Dialogue: 0,0:00:26.00,0:00:27.53,Default,NTP,0,0,0,,{\fs14}法蘭克一直在給你寄錢嗎\NFrank's been sending money?
+Dialogue: 0,0:00:27.60,0:00:29.79,Default,NTP,0,0,0,,{\fs14}告訴他他沒什麼好內疚的\NTell him he has nothing to feel guilty about.
+Dialogue: 0,0:00:29.79,0:00:31.96,Default,NTP,0,0,0,,{\fs14}法蘭克為什麼會內疚呢\NWhy would Frank feel guilty?
+Dialogue: 0,0:00:32.40,0:00:34.64,Default,NTP,0,0,0,,{\fs14}看來是真的  你現在聽命於奧克利\NIt's true, you've been listening to Akley.
+Dialogue: 0,0:00:34.64,0:00:38.03,Default,NTP,0,0,0,,{\fs14}我不會為了成全法蘭克·溫特的野心\NI am not gonna be the last casualty
+Dialogue: 0,0:00:38.03,0:00:39.59,Default,NTP,0,0,0,,{\fs14}而成為最後一個犧牲品\Nof Frank Winter's ego.
+Dialogue: 0,0:00:39.59,0:00:41.34,Default,NTP,0,0,0,,{\fs14}我要回家了  查理\NI'm going home, Charlie.
+Dialogue: 0,0:00:41.34,0:00:42.38,Default,NTP,0,0,0,,{\fs14}軍方不會放你回去\NThe army won't allow it.
+Dialogue: 0,0:00:42.38,0:00:45.26,Default,NTP,0,0,0,,{\fs14}只要我們離婚了他們就會放我走\NThey will if we're divorced.
+Dialogue: 0,0:00:52.05,0:00:53.42,Default,NTP,0,0,0,,{\fs14}瘦子計劃沒希望了\NThin Man is dead.
+Dialogue: 0,0:00:54.90,0:00:57.75,Default,NTP,0,0,0,,{\fs14}這項計劃沒有我們不可能完成\NThis project won't survive without us.
+Dialogue: 0,0:01:00.60,0:01:01.97,Default,NTP,0,0,0,,{\fs14}你願意和我合作\NYou'd work with me?
+Dialogue: 0,0:01:01.97,0:01:03.89,Default,NTP,0,0,0,,{\fs14}你已經盡力了  裏德\NYou did the best you could, Reed.
+Dialogue: 0,0:01:04.86,0:01:05.92,Default,NTP,0,0,0,,{\fs14}裏德\NReed!
+Dialogue: 0,0:01:16.74,0:01:19.47,Default,NTP,0,0,0,,{\fs14}他們跟我們說只要一天\NThey told us one day.
+Dialogue: 0,0:01:19.47,0:01:21.92,Default,NTP,0,0,0,,{\fs14}已經過了五天了\NThat was five days ago.
+Dialogue: 0,0:01:21.92,0:01:23.22,Default,NTP,0,0,0,,{\fs14}看見上面那個紅章了嗎\NSee that red stamp?
+Dialogue: 0,0:01:23.81,0:01:25.98,Default,NTP,0,0,0,,{\fs14}說明你們的情況比較特殊\NThat means there are contingencies.
+Dialogue: 0,0:01:26.10,0:01:29.08,Default,NTP,0,0,0,,{\fs14}有政府官員在審查你們的申請\NSome men from the government have taken an interest in your case.
+Dialogue: 0,0:01:29.08,0:01:31.09,Default,NTP,0,0,0,,{\fs14}什麼員  我不明白\NWhat men? I don't understand.
+Dialogue: 0,0:01:31.09,0:01:32.90,Default,NTP,0,0,0,,{\fs14}這事我也無能為力\NI'm afraid it's out of my hands.
+Dialogue: 0,0:01:32.90,0:01:33.97,Default,NTP,0,0,0,,{\fs14}你只能耐心等待\NYou'll just have to wait.
+Dialogue: 0,0:01:33.97,0:01:36.98,Default,NTP,0,0,0,,{\fs14}我填了所有的表格  付了入境費\NI filled out the forms. I paid the entry fee.
+Dialogue: 0,0:01:36.98,0:01:41.58,Default,NTP,0,0,0,,{\fs14}你們跟我說要付五十美金才能入境\NYou tell me we need to pay $50 to enter the country.
+Dialogue: 0,0:01:41.58,0:01:43.39,Default,NTP,0,0,0,,{\fs14}我們有五萬美金\NWe have $50,000.
+Dialogue: 0,0:02:57.82,0:02:58.73,Default,NTP,0,0,0,,{\fs14}女士\NMa'am.
+Dialogue: 0,0:03:05.32,0:03:06.58,Default,NTP,0,0,0,,{\fs14}是叫普爾曼嗎\N...Perlman.
+Dialogue: 0,0:03:08.07,0:03:11.13,Default,NTP,0,0,0,,{\fs14}據我所知他們有美國人做擔保\NI understand that these nice people have an American sponsor.
+Dialogue: 0,0:03:11.13,0:03:12.63,Default,NTP,0,0,0,,{\fs14}是的  是這個人\NYes, this is the one.
+Dialogue: 0,0:03:13.09,0:03:15.82,Default,NTP,0,0,0,,{\fs14}她說他的名字叫查爾斯·艾薩克\NShe says his name is Charles Isaacs.
+Dialogue: 0,0:03:17.01,0:03:19.59,Default,NTP,0,0,0,,{\fs14}他是位重要人物\NHe is a very important man.
+Dialogue: 0,0:03:20.04,0:03:21.79,Default,NTP,0,0,0,,{\fs14}跟我說說關於艾薩克先生的事\NTell me about Mr. Isaacs.
+Dialogue: 0,0:03:35.90,0:03:42.66,Default,NTP,0,0,0,,{\fs14}曼哈頓計劃\N\N\N第一季 第十三集\NPerestroika 變革\N本季終
+Dialogue: 0,0:03:43.72,0:03:45.57,Default,NTP,0,0,0,,{\fs14}我想自殺的原因總是...\NI guess it's always a mystery...
+Dialogue: 0,0:03:46.33,0:03:47.64,Default,NTP,0,0,0,,{\fs14}一個謎\Nsuicide.
+Dialogue: 0,0:03:47.89,0:03:49.30,Default,NTP,0,0,0,,{\fs14}但裏德·奧克利\NBut Reed Akley?
+Dialogue: 0,0:03:50.13,0:03:52.68,Default,NTP,0,0,0,,{\fs14}你最後一次見他時他看上去如何\NHow did he seem when you saw him last?
+Dialogue: 0,0:03:53.49,0:03:54.60,Default,NTP,0,0,0,,{\fs14}我不知道\NI don't know.
+Dialogue: 0,0:03:55.50,0:03:56.66,Default,NTP,0,0,0,,{\fs14}跟往常一樣\NThe same.
+Dialogue: 0,0:03:57.25,0:03:59.01,Default,NTP,0,0,0,,{\fs14}我從未想過\NI guess I never realized.
+Dialogue: 0,0:04:00.00,0:04:03.14,Default,NTP,0,0,0,,{\fs14}被瞞在鼓裏就很難\NHard as it is having secrets kept from you...
+Dialogue: 0,0:04:05.28,0:04:07.12,Default,NTP,0,0,0,,{\fs14}一直保守著這些秘密肯定更難\NKeeping them must be harder.
+Dialogue: 0,0:04:38.95,0:04:39.97,Default,NTP,0,0,0,,{\fs14}凱莉\NCallie!
+Dialogue: 0,0:04:42.92,0:04:44.73,Default,NTP,0,0,0,,{\fs14}有人能去開下門嗎\NIs anyone planning on getting that?
+Dialogue: 0,0:04:45.92,0:04:46.87,Default,NTP,0,0,0,,{\fs14}好吧  我去開\NAll right, already.
+Dialogue: 0,0:04:46.87,0:04:48.44,Default,NTP,0,0,0,,{\fs14}別喊了\NHold your fire.
+Dialogue: 0,0:04:52.70,0:04:54.87,Default,NTP,0,0,0,,{\fs14}爸爸\NUm, dad?
+Dialogue: 0,0:05:00.83,0:05:01.89,Default,NTP,0,0,0,,{\fs14}爸爸\NDad!
+Dialogue: 0,0:05:04.30,0:05:07.61,Default,NTP,0,0,0,,{\fs14}-他的妻子還好嗎  -重要嗎\N- How's his wife holding up? - Does it matter?
+Dialogue: 0,0:05:08.49,0:05:10.05,Default,NTP,0,0,0,,{\fs14}至少他沒孩子\NAt least he didn't have children.
+Dialogue: 0,0:05:12.18,0:05:15.78,Default,NTP,0,0,0,,{\fs14}事成人人居功  失敗無人關懷\NSuccess has many fathers, but failure is an orphan.
+Dialogue: 0,0:05:16.58,0:05:17.62,Default,NTP,0,0,0,,{\fs14}裏德·奧克利要為戰爭史上\NReed Akley was the father
+Dialogue: 0,0:05:17.62,0:05:21.00,Default,NTP,0,0,0,,{\fs14}最昂貴的失敗負責\Nof the most expensive failure in the history of war.
+Dialogue: 0,0:05:21.81,0:05:23.13,Default,NTP,0,0,0,,{\fs14}而我要對他負責\NI was his father.
+Dialogue: 0,0:05:25.37,0:05:28.48,Default,NTP,0,0,0,,{\fs14}瘦子計劃...有什麼問題嗎\NThere's a-- there's a problem with Thin Man?
+Dialogue: 0,0:05:30.38,0:05:31.70,Default,NTP,0,0,0,,{\fs14}裏德·奧克利死了\NReed Akley is dead.
+Dialogue: 0,0:05:32.12,0:05:34.35,Default,NTP,0,0,0,,{\fs14}正如你所知道的  瘦子計劃也完了\NSo is Thin Man, as you well know.
+Dialogue: 0,0:05:37.59,0:05:40.45,Default,NTP,0,0,0,,{\fs14}這並不意味著整個計劃都泡湯了\NThat doesn't mean the project is dead.
+Dialogue: 0,0:05:40.90,0:05:43.50,Default,NTP,0,0,0,,{\fs14}-內爆炸彈可以實現  -巴比特跟我說了\N- The implosion bomb works. - Babbit told me.
+Dialogue: 0,0:05:43.64,0:05:46.23,Default,NTP,0,0,0,,{\fs14}-日落之前給我提交一份書面匯報  -沒問題\N- I'll need a written briefing by day's end. - I can do that.
+Dialogue: 0,0:05:46.23,0:05:48.52,Default,NTP,0,0,0,,{\fs14}是交給陸軍部的  寫得淺顯一點\NIt's for the War Department. Use small words.
+Dialogue: 0,0:05:48.52,0:05:51.33,Default,NTP,0,0,0,,{\fs14}我們得讓他們放心領導位子會順利交接\NWe have to reassure them there's continuity of leadership.
+Dialogue: 0,0:05:51.99,0:05:53.53,Default,NTP,0,0,0,,{\fs14}我得知道你是否準備好了\NI need to know that you're ready.
+Dialogue: 0,0:05:53.68,0:05:54.97,Default,NTP,0,0,0,,{\fs14}準備  準備什麼...\NReady? Ready for--
+Dialogue: 0,0:05:54.98,0:05:58.22,Default,NTP,0,0,0,,{\fs14}24小時後  戰爭部長要親自接見你\N24 hours, you'll be sitting in a room with the Secretary of War.
+Dialogue: 0,0:05:58.22,0:06:00.05,Default,NTP,0,0,0,,{\fs14}選你也是無奈之舉\NIf I could choose anyone else, I would,
+Dialogue: 0,0:06:00.06,0:06:00.63,Default,NTP,0,0,0,,{\fs14}但你是唯一一個\Nbut you're the only man
+Dialogue: 0,0:06:00.63,0:06:02.99,Default,NTP,0,0,0,,{\fs14}足夠瞭解內爆  可以管理整個項目的人\Nwho knows implosion well enough to run the program.
+Dialogue: 0,0:06:02.99,0:06:04.94,Default,NTP,0,0,0,,{\fs14}不管你惹出過什麼麻煩  趕緊擺平\NWhatever messes you've made, clean them up.
+Dialogue: 0,0:06:04.94,0:06:07.83,Default,NTP,0,0,0,,{\fs14}不能讓白宮知道你搞的爛攤子\NCan't have you tracking mud onto the carpet of the Oval Office.
+Dialogue: 0,0:06:08.68,0:06:09.81,Default,NTP,0,0,0,,{\fs14}格蘭得回來做我的副手\NI'll need Glen back as my number two.
+Dialogue: 0,0:06:09.81,0:06:12.17,Default,NTP,0,0,0,,{\fs14}巴比特博士將從項目中隱退\NDr. Babbit will be retiring from the project.
+Dialogue: 0,0:06:12.17,0:06:13.96,Default,NTP,0,0,0,,{\fs14}-羅伯特  -他擅用職權\N- Robert... - He abused the power of my office.
+Dialogue: 0,0:06:13.96,0:06:16.40,Default,NTP,0,0,0,,{\fs14}辜負了我的信任  是他自作自受\NBetrayed my trust. That was his choice.
+Dialogue: 0,0:06:24.86,0:06:25.71,Default,NTP,0,0,0,,{\fs14}法蘭克·溫特的朋友\NFriends of Frank Winter
+Dialogue: 0,0:06:25.71,0:06:28.12,Default,NTP,0,0,0,,{\fs14}在這鎮上都待不久  不是嗎\Ndon't have a long shelf life on this Hill, do they?
+Dialogue: 0,0:06:29.61,0:06:31.21,Default,NTP,0,0,0,,{\fs14}我並不希望事態如此發展\NIt's not the way I wanted it.
+Dialogue: 0,0:06:32.94,0:06:34.29,Default,NTP,0,0,0,,{\fs14}我也不希望\NThat makes two of us.
+Dialogue: 0,0:06:39.92,0:06:41.01,Default,NTP,0,0,0,,{\fs14}對了  法蘭克\NOh, Frank,
+Dialogue: 0,0:06:42.11,0:06:43.27,Default,NTP,0,0,0,,{\fs14}買個梳子好好梳梳頭\Nbuy a comb.
+Dialogue: 0,0:07:08.77,0:07:10.24,Default,NTP,0,0,0,,{\fs14}你還願意回來啊\NNice of you to drop in.
+Dialogue: 0,0:07:10.76,0:07:11.76,Default,NTP,0,0,0,,{\fs14}我該把你兒子叫醒嗎\NShould I wake your son
+Dialogue: 0,0:07:11.77,0:07:13.28,Default,NTP,0,0,0,,{\fs14}還是你只是回來換個衣服\Nor are you just here to change your clothes?
+Dialogue: 0,0:07:13.28,0:07:14.55,Default,NTP,0,0,0,,{\fs14}艾比  別這樣\NAbby, please.
+Dialogue: 0,0:07:14.56,0:07:17.35,Default,NTP,0,0,0,,{\fs14}前兩晚你肯定不止是在辦公室\NYou can't just hibernate in your office
+Dialogue: 0,0:07:17.35,0:07:20.20,Default,NTP,0,0,0,,{\fs14}或是別的地方睡覺這麼簡單吧\Nor wherever you've spent the last two nights.
+Dialogue: 0,0:07:20.83,0:07:22.79,Default,NTP,0,0,0,,{\fs14}-奧克利不在了  -去哪兒了\N- Akley's gone. - Where?
+Dialogue: 0,0:07:24.36,0:07:25.45,Default,NTP,0,0,0,,{\fs14}他...\NHe, um...
+Dialogue: 0,0:07:26.56,0:07:28.83,Default,NTP,0,0,0,,{\fs14}吞槍自殺了...\Nput a gun in his mouth and, um...
+Dialogue: 0,0:07:35.91,0:07:37.52,Default,NTP,0,0,0,,{\fs14}裏德·奧克利  天哪\NReed Akley? My God.
+Dialogue: 0,0:07:37.93,0:07:40.06,Default,NTP,0,0,0,,{\fs14}都是我的錯  艾比\NIt's my fault, Abby.
+Dialogue: 0,0:07:40.73,0:07:43.12,Default,NTP,0,0,0,,{\fs14}-什麼  -是我害他走上絕路的\N- What? - I let him paint himself into a corner.
+Dialogue: 0,0:07:43.12,0:07:46.28,Default,NTP,0,0,0,,{\fs14}兩個月前我就該去找他  而不是\NI should have walked into his office two months ago, instead...
+Dialogue: 0,0:07:48.21,0:07:50.00,Default,NTP,0,0,0,,{\fs14}夫人  你丈夫得跟我們走\NMa'am, we're gonna have to borrow your husband.
+Dialogue: 0,0:07:51.89,0:07:53.39,Default,NTP,0,0,0,,{\fs14}查理  等等  別抓他\NCharlie. Excuse me. No.
+Dialogue: 0,0:07:53.39,0:07:55.79,Default,NTP,0,0,0,,{\fs14}-查理  查理  -不會有事的  艾比\N- Charlie. Charlie! - It's gonna be fine, Abby.
+Dialogue: 0,0:07:55.79,0:07:57.63,Default,NTP,0,0,0,,{\fs14}我要跟我丈夫說話  長官\NI need to speak to my husband, Sir.
+Dialogue: 0,0:07:57.63,0:07:59.47,Default,NTP,0,0,0,,{\fs14}這只是誤會  艾比\NIt's just a misunderstanding, Abby.
+Dialogue: 0,0:07:59.47,0:08:02.00,Default,NTP,0,0,0,,{\fs14}喬伊  你別進去\NJoey, you stay out of there.
+Dialogue: 0,0:08:02.22,0:08:03.71,Default,NTP,0,0,0,,{\fs14}不許進去\NDo not go in there!
+Dialogue: 0,0:08:18.25,0:08:19.80,Default,NTP,0,0,0,,{\fs14}我還得買套新西服\NI'll have to get a new suit.
+Dialogue: 0,0:08:19.80,0:08:21.59,Default,NTP,0,0,0,,{\fs14}真的要我們接手嗎\NWe're really taking over?
+Dialogue: 0,0:08:21.60,0:08:25.45,Default,NTP,0,0,0,,{\fs14}海倫  你來負責模型設計小組\NHelen, you will run the model and design group.
+Dialogue: 0,0:08:25.45,0:08:27.66,Default,NTP,0,0,0,,{\fs14}米克斯負責電子部門  福瑞茨負責冶金部\NMeeks, the electric division. Fritz, metallurgy.
+Dialogue: 0,0:08:27.66,0:08:29.26,Default,NTP,0,0,0,,{\fs14}我有件西裝上衣  但配套的褲子丟了\NI had a jacket, but I lost the pants
+Dialogue: 0,0:08:29.26,0:08:31.21,Default,NTP,0,0,0,,{\fs14}別的褲子還都配不上\Nand it doesn't match my other trousers.
+Dialogue: 0,0:08:31.93,0:08:33.42,Default,NTP,0,0,0,,{\fs14}戰爭是否終結\NThe end of the war
+Dialogue: 0,0:08:33.94,0:08:36.82,Default,NTP,0,0,0,,{\fs14}可能就掌握在這組裏的五個人的手中了\Ncould be decided by the five people in this group.
+Dialogue: 0,0:08:42.28,0:08:43.91,Default,NTP,0,0,0,,{\fs14}我知道自己該怎麼做\NI know what my decision is.
+Dialogue: 0,0:08:47.97,0:08:51.09,Default,NTP,0,0,0,,{\fs14}海倫  克羅斯利去哪了\NHelen, where the hell is Crosley?
+Dialogue: 0,0:08:52.44,0:08:53.57,Default,NTP,0,0,0,,{\fs14}我不知道\NI don't know.
+Dialogue: 0,0:08:56.77,0:08:58.30,Default,NTP,0,0,0,,{\fs14}查理·艾薩克呢\NWhat about Charlie Isaacs?
+Dialogue: 0,0:09:00.80,0:09:01.81,Default,NTP,0,0,0,,{\fs14}瘦子那邊\NThere have been violations
+Dialogue: 0,0:09:01.82,0:09:04.29,Default,NTP,0,0,0,,{\fs14}發現了違反任務劃分的行為\Nof compartmentalization over at Thin Man.
+Dialogue: 0,0:09:05.06,0:09:07.59,Default,NTP,0,0,0,,{\fs14}軍方正在清查領導人員\NThe army is wiping its leadership slate clean.
+Dialogue: 0,0:09:21.27,0:09:22.54,Default,NTP,0,0,0,,{\fs14}艾薩克博士\NDr. Isaacs.
+Dialogue: 0,0:09:25.08,0:09:26.18,Default,NTP,0,0,0,,{\fs14}請坐\NHave a seat.
+Dialogue: 0,0:09:26.40,0:09:28.67,Default,NTP,0,0,0,,{\fs14}我之前八個月已經坐得夠久了\NI've been sitting for the last eight months.
+Dialogue: 0,0:09:30.45,0:09:32.69,Default,NTP,0,0,0,,{\fs14}你這個新人的表現很亮眼啊\NQuite a rookie season you've had.
+Dialogue: 0,0:09:32.70,0:09:34.89,Default,NTP,0,0,0,,{\fs14}兩個月前你還只是個小研究員\NTwo months ago you were a towel boy.
+Dialogue: 0,0:09:34.89,0:09:37.58,Default,NTP,0,0,0,,{\fs14}如今你卻是裏德·奧克利的秘密武器\NNow you're Reed Akley's secret weapon.
+Dialogue: 0,0:09:37.58,0:09:39.17,Default,NTP,0,0,0,,{\fs14}準確說是你和那把步槍\NWell, you and the rifle.
+Dialogue: 0,0:09:42.68,0:09:44.18,Default,NTP,0,0,0,,{\fs14}我很遺憾發生了那種事\NI'm sorry to hear the news.
+Dialogue: 0,0:09:45.63,0:09:46.68,Default,NTP,0,0,0,,{\fs14}我也是\NSo was I.
+Dialogue: 0,0:09:46.73,0:09:49.64,Default,NTP,0,0,0,,{\fs14}-他為什麼會自殺  -我不知道\N- Why did he do it? - I have no clue.
+Dialogue: 0,0:09:49.64,0:09:50.69,Default,NTP,0,0,0,,{\fs14}真的嗎\NDon't you?
+Dialogue: 0,0:09:55.99,0:09:59.21,Default,NTP,0,0,0,,{\fs14}我知道瘦子出了一個技術問題\NI understand there was a technical problem with Thin Man.
+Dialogue: 0,0:10:02.17,0:10:03.42,Default,NTP,0,0,0,,{\fs14}什麼問題\NWhat kind of problem?
+Dialogue: 0,0:10:04.45,0:10:06.20,Default,NTP,0,0,0,,{\fs14}導致戰爭失敗的問題\NThe kind that loses a war.
+Dialogue: 0,0:10:10.15,0:10:11.31,Default,NTP,0,0,0,,{\fs14}奧克利知道嗎\NAkley knew?
+Dialogue: 0,0:10:12.18,0:10:14.82,Default,NTP,0,0,0,,{\fs14}我們正審核瘦子的相關文件來查明此事\NWe're auditing Thin Man's files to find out.
+Dialogue: 0,0:10:14.82,0:10:17.20,Default,NTP,0,0,0,,{\fs14}發現了一些不能理解的內容\NThere are some irregularities.
+Dialogue: 0,0:10:17.48,0:10:20.36,Default,NTP,0,0,0,,{\fs14}-在奧克利的文件裏嗎  -是你的文件\N- In Akley's files? - In yours, actually.
+Dialogue: 0,0:10:23.77,0:10:25.97,Default,NTP,0,0,0,,{\fs14}你分配給手下員工的計算任務\NThe calculations you've been assigning your staff,
+Dialogue: 0,0:10:25.97,0:10:30.25,Default,NTP,0,0,0,,{\fs14}似乎基本都和瘦子無關\Nit's almost as if they have no bearing on Thin Man whatsoever.
+Dialogue: 0,0:10:31.42,0:10:34.24,Default,NTP,0,0,0,,{\fs14}在外行人看來可能不能理解\NThey may look irregular to an untrained eye.
+Dialogue: 0,0:10:34.24,0:10:36.47,Default,NTP,0,0,0,,{\fs14}但你的前同事  蘭斯菲爾德博士\NBut your former colleague, Dr. Lancefield,
+Dialogue: 0,0:10:36.47,0:10:38.70,Default,NTP,0,0,0,,{\fs14}算內行了  對吧\Nhe's trained, isn't he?
+Dialogue: 0,0:10:39.10,0:10:40.17,Default,NTP,0,0,0,,{\fs14}湯姆·蘭斯菲爾德\NTom Lancefield?
+Dialogue: 0,0:10:40.18,0:10:41.96,Default,NTP,0,0,0,,{\fs14}他告訴了我一個離奇的故事\NHe told me a fascinating story.
+Dialogue: 0,0:10:41.96,0:10:45.58,Default,NTP,0,0,0,,{\fs14}他說你蓄謀做到領導位置  旨在毀了整個計劃\NSaid you'd hotwired the project and were driving it over a cliff.
+Dialogue: 0,0:10:45.59,0:10:48.03,Default,NTP,0,0,0,,{\fs14}軍方在他家地板下面找到了遺失的文件\NThey found stolen files under his floorboards.
+Dialogue: 0,0:10:48.03,0:10:48.80,Default,NTP,0,0,0,,{\fs14}他現在可能\NHe's probably fingered
+Dialogue: 0,0:10:48.80,0:10:50.75,Default,NTP,0,0,0,,{\fs14}[美國第34任總統]
+Dialogue: 0,0:10:48.80,0:10:50.75,Default,NTP,0,0,0,,{\fs14}連德懷特·艾森豪威爾都拉下水了\NDwight Eisenhower by now.
+Dialogue: 0,0:10:50.76,0:10:53.22,Default,NTP,0,0,0,,{\fs14}但時機也太巧了  不是嗎\NThe timing is curious, though, isn't it?
+Dialogue: 0,0:10:53.22,0:10:55.12,Default,NTP,0,0,0,,{\fs14}裏德·奧克利對你委以重任\NReed Akley knights you.
+Dialogue: 0,0:10:55.44,0:10:56.10,Default,NTP,0,0,0,,{\fs14}兩個月後\NTwo months later,
+Dialogue: 0,0:10:56.10,0:10:59.79,Default,NTP,0,0,0,,{\fs14}他就躺上瞭解剖台  他的炸彈也玩完了\Nhe's lying on an autopsy table and so is his bomb,
+Dialogue: 0,0:10:59.79,0:11:01.90,Default,NTP,0,0,0,,{\fs14}而且所有人\Nand no one can make heads or tails
+Dialogue: 0,0:11:01.90,0:11:04.93,Default,NTP,0,0,0,,{\fs14}都對你簽發過的文件一頭霧水\Nout of the paper trail coming out of your office.
+Dialogue: 0,0:11:04.93,0:11:08.91,Default,NTP,0,0,0,,{\fs14}我是出於謹慎  試圖尋找備用方案\NI was exploring alternate theories out of an excess of caution.
+Dialogue: 0,0:11:08.91,0:11:11.27,Default,NTP,0,0,0,,{\fs14}有意思的是在一個外行人眼裏\NFunny how to an untrained eye
+Dialogue: 0,0:11:11.27,0:11:13.69,Default,NTP,0,0,0,,{\fs14}你的謹慎更像是妨害\Ncaution looks like sabotage.
+Dialogue: 0,0:11:17.19,0:11:19.38,Default,NTP,0,0,0,,{\fs14}我在努力挽救這個項目\NI-- I was trying to save the project.
+Dialogue: 0,0:11:19.59,0:11:22.32,Default,NTP,0,0,0,,{\fs14}所以你早就知道瘦子出了問題\NSo you were aware of a problem in Thin Man.
+Dialogue: 0,0:11:27.94,0:11:30.41,Default,NTP,0,0,0,,{\fs14}我們來談談史林默博士\NLet's talk about Herr Doktor Schlimmer.
+Dialogue: 0,0:11:30.62,0:11:35.09,Default,NTP,0,0,0,,{\fs14}就是麥格派  我們在維爾納·海森堡實驗室的內應\NMagpie. Our man inside Werner Heisenberg's lab.
+Dialogue: 0,0:11:35.27,0:11:37.46,Default,NTP,0,0,0,,{\fs14}有人走漏消息  害他丟了腦袋\NTill somebody talked and he lost his head.
+Dialogue: 0,0:11:43.67,0:11:46.23,Default,NTP,0,0,0,,{\fs14}抱歉  你是什麼機構派來的人\NI'm sorry, what agency do you represent?
+Dialogue: 0,0:11:47.35,0:11:51.25,Default,NTP,0,0,0,,{\fs14}司法部  財政部  陸軍部  移民局\NJustice, Treasury, War, Immigration.
+Dialogue: 0,0:11:52.75,0:11:54.52,Default,NTP,0,0,0,,{\fs14}你從什麼時候開始\NWhen did you become aware of the existence
+Dialogue: 0,0:11:54.52,0:11:57.13,Default,NTP,0,0,0,,{\fs14}知道我們在納粹的炸彈計劃中有內應\Nof an allied spy in the Nazi's bomb project?
+Dialogue: 0,0:12:17.41,0:12:18.42,Default,NTP,0,0,0,,{\fs14}有人嗎\NHello?
+Dialogue: 0,0:12:21.57,0:12:22.61,Default,NTP,0,0,0,,{\fs14}羅斯\NRose?
+Dialogue: 0,0:12:28.06,0:12:29.08,Default,NTP,0,0,0,,{\fs14}羅斯\NRose?
+Dialogue: 0,0:12:32.60,0:12:33.61,Default,NTP,0,0,0,,{\fs14}萊莎\NLiza.
+Dialogue: 0,0:12:36.05,0:12:37.73,Default,NTP,0,0,0,,{\fs14}我以為是司機來了\NI thought you were the driver.
+Dialogue: 0,0:12:39.49,0:12:41.90,Default,NTP,0,0,0,,{\fs14}我再也忍受不了在這獨自過夜了\NI couldn't spend another night here alone.
+Dialogue: 0,0:12:43.73,0:12:45.87,Default,NTP,0,0,0,,{\fs14}我要帶裏德回芝加哥\NI'm taking Reed back to Chicago.
+Dialogue: 0,0:12:49.27,0:12:50.89,Default,NTP,0,0,0,,{\fs14}羅斯  我很抱歉\NRose, I'm so sorry.
+Dialogue: 0,0:12:57.26,0:12:59.51,Default,NTP,0,0,0,,{\fs14}有需要我幫忙的嗎\NIs there anything I can do?
+Dialogue: 0,0:12:59.52,0:13:02.72,Default,NTP,0,0,0,,{\fs14}你贏了  那次的鎮議會\NYou won. The town council.
+Dialogue: 0,0:13:02.93,0:13:04.82,Default,NTP,0,0,0,,{\fs14}壓倒性的勝利\NIt was a landslide.
+Dialogue: 0,0:13:09.19,0:13:10.95,Default,NTP,0,0,0,,{\fs14}那些都不重要\NNone of that really matters.
+Dialogue: 0,0:13:42.59,0:13:44.40,Default,NTP,0,0,0,,{\fs14}他們都錯了\NThey're wrong, you know?
+Dialogue: 0,0:13:44.91,0:13:46.25,Default,NTP,0,0,0,,{\fs14}裏德不會...\NReed didn't--
+Dialogue: 0,0:13:50.52,0:13:52.16,Default,NTP,0,0,0,,{\fs14}一定是個意外\NMust have been an accident.
+Dialogue: 0,0:13:53.07,0:13:56.79,Default,NTP,0,0,0,,{\fs14}一切早就在他掌控之中\NHe had the world on a string.
+Dialogue: 0,0:13:57.64,0:14:00.60,Default,NTP,0,0,0,,{\fs14}他馬上就能結束戰爭帶來和平\NHe was almost ready to deliver the peace.
+Dialogue: 0,0:14:06.11,0:14:07.17,Default,NTP,0,0,0,,{\fs14}萊莎\NLiza...
+Dialogue: 0,0:14:09.92,0:14:12.71,Default,NTP,0,0,0,,{\fs14}法蘭克對你說過什麼嗎\Ndid Frank say anything to you?
+Dialogue: 0,0:14:14.95,0:14:16.19,Default,NTP,0,0,0,,{\fs14}有關裏德的\NAbout Reed?
+Dialogue: 0,0:14:20.27,0:14:22.31,Default,NTP,0,0,0,,{\fs14}他說裏德是他見過的\NHe said that Reed was the most...
+Dialogue: 0,0:14:24.46,0:14:26.35,Default,NTP,0,0,0,,{\fs14}最出色的人\Nbrilliant man he'd ever met.
+Dialogue: 0,0:14:33.68,0:14:35.72,Default,NTP,0,0,0,,{\fs14}夫人  車就在門口\NMa'am, the car's out front.
+Dialogue: 0,0:14:59.53,0:15:02.45,Default,NTP,0,0,0,,{\fs14}照顧好法蘭克\NTake care of Frank.
+Dialogue: 0,0:15:04.05,0:15:05.84,Default,NTP,0,0,0,,{\fs14}他現在是一把手了\NHe's on the throne now.
+Dialogue: 0,0:15:07.17,0:15:09.40,Default,NTP,0,0,0,,{\fs14}這才是真正害死裏德的東西\NThat's what really killed Reed, you know?
+Dialogue: 0,0:15:10.68,0:15:11.87,Default,NTP,0,0,0,,{\fs14}掌控小玩意的權力\NThe Gadget.
+Dialogue: 0,0:15:30.83,0:15:33.90,Default,NTP,0,0,0,,{\fs14}我不知道要用多少種方式來解釋\NI don't know how many different ways I can say this.
+Dialogue: 0,0:15:34.70,0:15:38.41,Default,NTP,0,0,0,,{\fs14}即便我以前就知道\NEven if I had known about an inside man
+Dialogue: 0,0:15:38.42,0:15:40.03,Default,NTP,0,0,0,,{\fs14}在維爾納·海森堡的員工中裏有內應\Nin Werner Heisenberg's staff--
+Dialogue: 0,0:15:40.03,0:15:41.69,Default,NTP,0,0,0,,{\fs14}-其實你不知道  -我確實不知道\N- Which you didn't. - Which I didn't.
+Dialogue: 0,0:15:41.73,0:15:44.98,Default,NTP,0,0,0,,{\fs14}我絕不可能告訴別人  尤其不會告訴那些納粹\NI wouldn't have told a soul, least of all the Nazis.
+Dialogue: 0,0:15:44.98,0:15:47.57,Default,NTP,0,0,0,,{\fs14}-我有親戚在歐洲  -在明斯克\N- I have family in Europe. - In Minsk.
+Dialogue: 0,0:15:47.87,0:15:52.01,Default,NTP,0,0,0,,{\fs14}並不是一個對猶太人特別友善的地方\NNot a particularly hospitable corner of the map for Jews.
+Dialogue: 0,0:15:53.03,0:15:54.31,Default,NTP,0,0,0,,{\fs14}所謂秘密\NThe thing about secrets,
+Dialogue: 0,0:15:54.31,0:15:57.92,Default,NTP,0,0,0,,{\fs14}就是一旦洩露  就會一發不可收拾\Nonce the genie's loose, you can never put it back in the bottle.
+Dialogue: 0,0:15:58.35,0:16:00.81,Default,NTP,0,0,0,,{\fs14}先兩人知道  然後四人  八人  十六人\NFirst two people know, then four, then eight, then 16.
+Dialogue: 0,0:16:00.81,0:16:03.93,Default,NTP,0,0,0,,{\fs14}就像連鎖反應  你告訴了某位俄羅斯共產黨員\NIt's a chain reaction. You tell some Russian apparatchik,
+Dialogue: 0,0:16:03.93,0:16:05.82,Default,NTP,0,0,0,,{\fs14}就導致了柏林的某位物理學家\Nsomewhere in Berlin a physicist winds up
+Dialogue: 0,0:16:05.82,0:16:07.59,Default,NTP,0,0,0,,{\fs14}只落得頸上空空\Nin a coffin with extra headroom.
+Dialogue: 0,0:16:07.59,0:16:10.04,Default,NTP,0,0,0,,{\fs14}可我怎麼會和俄國人聯繫呢\NBut why would I talk to the Russians?
+Dialogue: 0,0:16:10.05,0:16:11.89,Default,NTP,0,0,0,,{\fs14}因為家人重於一切\N'Cause family is everything.
+Dialogue: 0,0:16:12.02,0:16:14.44,Default,NTP,0,0,0,,{\fs14}而你有家人在明斯克\NAnd you had family in Minsk.
+Dialogue: 0,0:16:14.91,0:16:16.88,Default,NTP,0,0,0,,{\fs14}尤里  一家之主\NYuri, the husband,
+Dialogue: 0,0:16:16.88,0:16:19.00,Default,NTP,0,0,0,,{\fs14}他還在那兒  可能已經死了\Nhe's still there and probably dead.
+Dialogue: 0,0:16:19.97,0:16:23.38,Default,NTP,0,0,0,,{\fs14}但馬爾嘉和他們的小女兒\NBut Malka and the little girl,
+Dialogue: 0,0:16:23.95,0:16:25.50,Default,NTP,0,0,0,,{\fs14}來到了紐約\Nthey're in New York City.
+Dialogue: 0,0:16:26.99,0:16:29.03,Default,NTP,0,0,0,,{\fs14}她們很想見你\NAnd they're very eager to meet you...
+Dialogue: 0,0:16:29.04,0:16:30.87,Default,NTP,0,0,0,,{\fs14}她們在美國擔保人\Ntheir American benefactor.
+Dialogue: 0,0:16:34.35,0:16:35.69,Default,NTP,0,0,0,,{\fs14}她們逃出來了\NThey made it out?
+Dialogue: 0,0:16:35.91,0:16:37.69,Default,NTP,0,0,0,,{\fs14}蘇聯人真是有趣\NThe Soviets are a funny bunch.
+Dialogue: 0,0:16:38.16,0:16:39.57,Default,NTP,0,0,0,,{\fs14}他們可以一槍打死你\NThey'll put a bullet through your head
+Dialogue: 0,0:16:39.58,0:16:41.97,Default,NTP,0,0,0,,{\fs14}然後讓你的妻子來為那顆子彈買單\Nand send your wife the bill for the ammunition.
+Dialogue: 0,0:16:42.52,0:16:44.90,Default,NTP,0,0,0,,{\fs14}但他們還要遵守自己的承諾\NAnd yet they tend to keep their promises
+Dialogue: 0,0:16:44.90,0:16:46.24,Default,NTP,0,0,0,,{\fs14}一報還一報\Ntit for tat.
+Dialogue: 0,0:16:46.69,0:16:49.74,Default,NTP,0,0,0,,{\fs14}他們得到了曼哈頓計劃的內線情報\NThey got an inside line to the Manhattan Project
+Dialogue: 0,0:16:49.74,0:16:54.21,Default,NTP,0,0,0,,{\fs14}而你也將家人救出了歐洲\Nand you -- you got your wife's family out of Europe.
+Dialogue: 0,0:17:03.93,0:17:06.32,Default,NTP,0,0,0,,{\fs14}是裏德·奧克利救她們出來的\NReed Akley got them out.
+Dialogue: 0,0:17:10.36,0:17:11.86,Default,NTP,0,0,0,,{\fs14}我  我\NI, um -- I --
+Dialogue: 0,0:17:13.77,0:17:16.73,Default,NTP,0,0,0,,{\fs14}我問過他能不能幫上忙\NI asked him if there was anything he could do.
+Dialogue: 0,0:17:17.23,0:17:20.66,Default,NTP,0,0,0,,{\fs14}那不如我們叫他來跟你對質一下吧\NWell, let's bring him down here so he can confirm your story.
+Dialogue: 0,0:17:25.10,0:17:28.74,Default,NTP,0,0,0,,{\fs14}我絕不會洩露軍事機密的\NI would never disclose military secrets.
+Dialogue: 0,0:17:28.84,0:17:29.87,Default,NTP,0,0,0,,{\fs14}請證明\NProve it.
+Dialogue: 0,0:17:30.81,0:17:31.78,Default,NTP,0,0,0,,{\fs14}不\NNo.
+Dialogue: 0,0:17:34.86,0:17:36.46,Default,NTP,0,0,0,,{\fs14}我做不到  我沒法證明\NNo, I can't. I can't prove it.
+Dialogue: 0,0:17:36.46,0:17:41.57,Default,NTP,0,0,0,,{\fs14}就像我沒法證明我不是牙僊一樣\NI can't prove that I'm not the tooth fairy either.
+Dialogue: 0,0:17:41.57,0:17:43.39,Default,NTP,0,0,0,,{\fs14}證偽是不可能的\NYou can't prove a negative.
+Dialogue: 0,0:17:44.26,0:17:46.53,Default,NTP,0,0,0,,{\fs14}你們科學家不是經常做這種事嗎\NYou scientists do it all the time.
+Dialogue: 0,0:17:47.20,0:17:50.25,Default,NTP,0,0,0,,{\fs14}你們管那叫什麼來著   虛假設\NWhat do you call it? A null hypothesis?
+Dialogue: 0,0:17:51.24,0:17:53.55,Default,NTP,0,0,0,,{\fs14}如果你沒法證實你的理論\NIf you can't prove your theory is valid,
+Dialogue: 0,0:17:53.55,0:17:56.51,Default,NTP,0,0,0,,{\fs14}就會設法檢驗相反的理論無法成立\Nyou examine the opposite theory and try to refute it.
+Dialogue: 0,0:17:56.52,0:17:58.65,Default,NTP,0,0,0,,{\fs14}讓我們來梳理一下事實吧\NLet's look at all the data, you and I.
+Dialogue: 0,0:17:58.65,0:18:02.34,Default,NTP,0,0,0,,{\fs14}查爾斯·艾薩克不是間諜  這是虛假設\NCharles Isaacs is not a spy. That's our null hypothesis.
+Dialogue: 0,0:18:02.34,0:18:06.29,Default,NTP,0,0,0,,{\fs14}如果假設為真  那麼他應該忠於他的祖國\NIf it were true, we'd expect him to be loyal to his country.
+Dialogue: 0,0:18:06.29,0:18:07.43,Default,NTP,0,0,0,,{\fs14}我來這兒正是出於對國家的忠誠\NThat's why I'm here.
+Dialogue: 0,0:18:07.43,0:18:09.21,Default,NTP,0,0,0,,{\fs14}但從你到達的第一天開始\NAnd yet since the day you arrived,
+Dialogue: 0,0:18:09.21,0:18:11.34,Default,NTP,0,0,0,,{\fs14}你就一直在質疑這個\Nyou've questioned the ethics of a project
+Dialogue: 0,0:18:11.34,0:18:14.63,Default,NTP,0,0,0,,{\fs14}關係到國家存亡的計劃是否道德\Nundertaken to protect your country from annihilation.
+Dialogue: 0,0:18:14.63,0:18:16.47,Default,NTP,0,0,0,,{\fs14}如果查爾斯·艾薩克不是間諜\NIf Charles Isaacs were not a spy...
+Dialogue: 0,0:18:16.47,0:18:17.26,Default,NTP,0,0,0,,{\fs14}聽我說\NListen to me...
+Dialogue: 0,0:18:17.26,0:18:20.70,Default,NTP,0,0,0,,{\fs14}那麼他身邊的人應該都是守法公民\NI would expect him to associate with law-abiding citizens.
+Dialogue: 0,0:18:20.70,0:18:22.16,Default,NTP,0,0,0,,{\fs14}你父親是奧斯卡·艾薩克\NYour father is Oscar Isaacs,
+Dialogue: 0,0:18:22.16,0:18:24.06,Default,NTP,0,0,0,,{\fs14}前美國社會黨成員\Nformer member of the Socialist Party of America,
+Dialogue: 0,0:18:24.06,0:18:26.53,Default,NTP,0,0,0,,{\fs14}現被關押在密蘇里州監獄\Ncurrent resident of the Missouri State Penitentiary.
+Dialogue: 0,0:18:26.53,0:18:28.33,Default,NTP,0,0,0,,{\fs14}我和父親已經多年沒聯繫了\NMy father and I haven't spoken in years.
+Dialogue: 0,0:18:28.34,0:18:31.60,Default,NTP,0,0,0,,{\fs14}而且你和理查德·拉夫羅夫教授熟識\NYou also are acquainted with a Professor Richard Lavro
+Dialogue: 0,0:18:31.61,0:18:33.62,Default,NTP,0,0,0,,{\fs14}正是那個放棄哈佛教授席位\Nwho traded his office at Harvard
+Dialogue: 0,0:18:33.62,0:18:36.25,Default,NTP,0,0,0,,{\fs14}加入了斯大林原子彈研究部的人\Nfor one in Stalin's Atomic Research Division,
+Dialogue: 0,0:18:36.25,0:18:39.64,Default,NTP,0,0,0,,{\fs14}上次你卻對我隱瞞了此事\Nan association you misrepresented the last time we met.
+Dialogue: 0,0:18:39.64,0:18:41.78,Default,NTP,0,0,0,,{\fs14}如果查爾斯·艾薩克不是間諜\NIf Charles Isaacs is not a spy,
+Dialogue: 0,0:18:41.78,0:18:44.83,Default,NTP,0,0,0,,{\fs14}那麼他應該主動合作  坦白所有\Nwe'd expect him to be forthcoming and cooperative,
+Dialogue: 0,0:18:44.83,0:18:46.05,Default,NTP,0,0,0,,{\fs14}但你卻從踏進\Nand yet you have lied
+Dialogue: 0,0:18:46.05,0:18:48.61,Default,NTP,0,0,0,,{\fs14}這扇門起就一直在說謊\Nsince the moment you set foot into this room.
+Dialogue: 0,0:18:48.61,0:18:51.47,Default,NTP,0,0,0,,{\fs14}所以我就是你的統一場論嗎  天才\NSo I'm your unified theory, is that right, genius?
+Dialogue: 0,0:18:51.47,0:18:54.64,Default,NTP,0,0,0,,{\fs14}所有的科學失誤  所有洩密事件\NThat every scientific failure, every intelligence slip up,
+Dialogue: 0,0:18:54.64,0:18:57.07,Default,NTP,0,0,0,,{\fs14}都是我一手造成的\NI'm singlehandedly responsible?
+Dialogue: 0,0:18:57.07,0:18:58.94,Default,NTP,0,0,0,,{\fs14}我可不確定你沒同謀\NI'm not so sure it was singlehanded.
+Dialogue: 0,0:18:59.45,0:19:01.80,Default,NTP,0,0,0,,{\fs14}普爾曼一家是你妻子的表親吧\NThe Perlmans are your wife's cousins?
+Dialogue: 0,0:19:02.56,0:19:05.28,Default,NTP,0,0,0,,{\fs14}艾比是否也參與其中了呢\NWhat role did Abby play in all of this?
+Dialogue: 0,0:19:15.68,0:19:16.62,Default,NTP,0,0,0,,{\fs14}保羅\NPaul.
+Dialogue: 0,0:19:17.51,0:19:19.57,Default,NTP,0,0,0,,{\fs14}我沒想到你居然知道我住哪\NDidn't think you had the first idea where I lived.
+Dialogue: 0,0:19:19.57,0:19:21.01,Default,NTP,0,0,0,,{\fs14}我不知道  是海倫告訴我的\NI didn't. Helen told me.
+Dialogue: 0,0:19:21.99,0:19:25.25,Default,NTP,0,0,0,,{\fs14}是你告訴奧克利我們在利用瘦子的資源嗎\NSo you told Akley we were siphoning resources from Thin Man?
+Dialogue: 0,0:19:26.04,0:19:27.12,Default,NTP,0,0,0,,{\fs14}我沒有\NNo, I didn't.
+Dialogue: 0,0:19:27.12,0:19:29.11,Default,NTP,0,0,0,,{\fs14}所以是他自己猜出來的\NHe just pieced it together on his own?
+Dialogue: 0,0:19:29.11,0:19:30.55,Default,NTP,0,0,0,,{\fs14}不是我們在利用瘦子的資源  法蘭克\NWe weren't siphoning anything, Frank.
+Dialogue: 0,0:19:30.56,0:19:32.39,Default,NTP,0,0,0,,{\fs14}是你和艾薩克  還有海倫\NYou and Isaacs were. And Helen.
+Dialogue: 0,0:19:32.72,0:19:34.56,Default,NTP,0,0,0,,{\fs14}我只是給了奧克利你沒能給我的東西\NI just gave Akley what you declined to give me,
+Dialogue: 0,0:19:34.56,0:19:35.91,Default,NTP,0,0,0,,{\fs14}真相\Nthe benefit of the truth.
+Dialogue: 0,0:19:36.42,0:19:38.32,Default,NTP,0,0,0,,{\fs14}但對他可沒什麼好處  不是嗎\NIt wasn't too much of a benefit, was it?
+Dialogue: 0,0:19:39.50,0:19:42.24,Default,NTP,0,0,0,,{\fs14}你竟敢把他的死怪到我頭上\NDon't you dare lay his death at my feet.
+Dialogue: 0,0:19:42.79,0:19:44.15,Default,NTP,0,0,0,,{\fs14}孰是孰非都不重要\NIt doesn't matter now.
+Dialogue: 0,0:19:44.82,0:19:47.97,Default,NTP,0,0,0,,{\fs14}從今天開始  這裏的所有人\NAs of today, all the eyes within these fences
+Dialogue: 0,0:19:47.98,0:19:49.14,Default,NTP,0,0,0,,{\fs14}都會為我們小組工作\Nwill be trained on our group.
+Dialogue: 0,0:19:49.14,0:19:50.91,Default,NTP,0,0,0,,{\fs14}你是害怕我會說出去  法蘭克\NYou're afraid I'll talk, Frank.
+Dialogue: 0,0:19:50.91,0:19:52.33,Default,NTP,0,0,0,,{\fs14}你來這就是為了這個\NThat's what you're doing here.
+Dialogue: 0,0:19:52.34,0:19:54.28,Default,NTP,0,0,0,,{\fs14}來確保我不會在操場上\NTo make sure I don't tell any inconvenient tales
+Dialogue: 0,0:19:54.28,0:19:55.44,Default,NTP,0,0,0,,{\fs14}說些不合時宜的事\Nin the schoolyard.
+Dialogue: 0,0:19:55.44,0:19:56.98,Default,NTP,0,0,0,,{\fs14}我們要團結一致\NWe need to stand together.
+Dialogue: 0,0:19:59.61,0:20:01.93,Default,NTP,0,0,0,,{\fs14}我父親是名鐵匠  法蘭克\NMy father was a blacksmith, Frank.
+Dialogue: 0,0:20:02.12,0:20:03.96,Default,NTP,0,0,0,,{\fs14}他窮其一生都在打鐵\NHe spent his whole life hammering iron.
+Dialogue: 0,0:20:03.96,0:20:05.61,Default,NTP,0,0,0,,{\fs14}我的人生也本應跟他的一樣\NThat was supposed to be my life, too.
+Dialogue: 0,0:20:05.62,0:20:06.86,Default,NTP,0,0,0,,{\fs14}但是有一天\NAnd then one day,
+Dialogue: 0,0:20:07.02,0:20:08.27,Default,NTP,0,0,0,,{\fs14}我讀到一篇關於盧瑟福男爵[原子核物理之父]\NI read about Lord Rutherford
+Dialogue: 0,0:20:08.27,0:20:10.41,Default,NTP,0,0,0,,{\fs14}把氮原子轉化為氧原子的文章\Nchanging nitrogen into oxygen.
+Dialogue: 0,0:20:10.42,0:20:12.27,Default,NTP,0,0,0,,{\fs14}我就下定決心  那才是我的人生\NAnd I thought, that's the life for me.
+Dialogue: 0,0:20:12.29,0:20:14.78,Default,NTP,0,0,0,,{\fs14}我要把點石成金變成現實\NI can turn my stock into a nobler metal.
+Dialogue: 0,0:20:14.82,0:20:16.29,Default,NTP,0,0,0,,{\fs14}但在牛津大學讀書那些年\NBut all those years at Oxford
+Dialogue: 0,0:20:16.29,0:20:17.54,Default,NTP,0,0,0,,{\fs14}周圍都是權貴後裔\Nsurrounded by boy kings--
+Dialogue: 0,0:20:17.56,0:20:19.09,Default,NTP,0,0,0,,{\fs14}我絲毫沒有歸屬感\NI never belonged.
+Dialogue: 0,0:20:19.42,0:20:20.62,Default,NTP,0,0,0,,{\fs14}我怎麼可能融入他們\NOf course I didn't.
+Dialogue: 0,0:20:21.73,0:20:23.77,Default,NTP,0,0,0,,{\fs14}但是在你的團隊裏  法蘭克\NBut in your group, Frank,
+Dialogue: 0,0:20:24.91,0:20:27.22,Default,NTP,0,0,0,,{\fs14}跟兄弟們和海倫在一起\Nwith the lads, with Helen...
+Dialogue: 0,0:20:28.93,0:20:31.47,Default,NTP,0,0,0,,{\fs14}你是內爆小組的一員  保羅\NYou belong in the implosion group, Paul.
+Dialogue: 0,0:20:32.84,0:20:34.08,Default,NTP,0,0,0,,{\fs14}我們是一體的\NWith us.
+Dialogue: 0,0:20:38.44,0:20:41.33,Default,NTP,0,0,0,,{\fs14}不  我曾經以為我是其中一員\NNo. I thought I did.
+Dialogue: 0,0:20:42.53,0:20:43.76,Default,NTP,0,0,0,,{\fs14}但我錯了\NI was mistaken.
+Dialogue: 0,0:20:45.37,0:20:46.94,Default,NTP,0,0,0,,{\fs14}我答應你保持沉默\NYou get my silence.
+Dialogue: 0,0:20:48.79,0:20:49.91,Default,NTP,0,0,0,,{\fs14}但我要離開\NBut not me.
+Dialogue: 0,0:21:08.14,0:21:09.19,Default,NTP,0,0,0,,{\fs14}艾比\NAbby.
+Dialogue: 0,0:21:10.20,0:21:13.01,Default,NTP,0,0,0,,{\fs14}你到這來幹什麼  你不應該到這來\NWhat the hell are you... You shouldn't be here.
+Dialogue: 0,0:21:13.01,0:21:14.46,Default,NTP,0,0,0,,{\fs14}他們說你要見我\NThey said you needed to see me.
+Dialogue: 0,0:21:15.01,0:21:16.63,Default,NTP,0,0,0,,{\fs14}甚至都不讓我收拾下\NThey wouldn't even let me clean myself up.
+Dialogue: 0,0:21:16.63,0:21:17.92,Default,NTP,0,0,0,,{\fs14}發生什麼事了\NWhat is going on?
+Dialogue: 0,0:21:20.05,0:21:21.80,Default,NTP,0,0,0,,{\fs14}他把你帶過來  是為了嚇唬我\NHe brought you in here to spook me.
+Dialogue: 0,0:21:22.47,0:21:23.75,Default,NTP,0,0,0,,{\fs14}他認為我\NHe thinks I'll, um...
+Dialogue: 0,0:21:24.34,0:21:26.39,Default,NTP,0,0,0,,{\fs14}-迫於壓力就會鬆口  -誰\N- crack under the pressure. - Who?
+Dialogue: 0,0:21:27.64,0:21:28.47,Default,NTP,0,0,0,,{\fs14}你是不是應付不來了\NAre you in over your head?
+Dialogue: 0,0:21:28.47,0:21:30.13,Default,NTP,0,0,0,,{\fs14}我應不應該告訴我父親  因為\NShould I call my father, because--
+Dialogue: 0,0:21:30.13,0:21:31.33,Default,NTP,0,0,0,,{\fs14}艾比  相信我\NAbby, trust me,
+Dialogue: 0,0:21:31.34,0:21:33.75,Default,NTP,0,0,0,,{\fs14}帽子王殿下管不了這件事\Nthis is outside of the Hat King's jurisdiction.
+Dialogue: 0,0:21:33.75,0:21:35.53,Default,NTP,0,0,0,,{\fs14}儘管我父親在麻省\NYes, well, my father may be in Massachusetts,
+Dialogue: 0,0:21:35.53,0:21:37.72,Default,NTP,0,0,0,,{\fs14}但他跟很多華盛頓身居要職的人關係都很好\Nbut he's on a first-name basis with half of Washington.
+Dialogue: 0,0:21:37.72,0:21:39.16,Default,NTP,0,0,0,,{\fs14}查理  維克斯參議員出席了我們的婚禮\NCharlie, Senator Weeks was at our wedding.
+Dialogue: 0,0:21:39.16,0:21:39.97,Default,NTP,0,0,0,,{\fs14}你回家吧\NYou need to go home.
+Dialogue: 0,0:21:39.97,0:21:41.59,Default,NTP,0,0,0,,{\fs14}憲兵正把家裏翻了個底朝天\NMPs are tearing the place apart.
+Dialogue: 0,0:21:41.59,0:21:43.23,Default,NTP,0,0,0,,{\fs14}-那些牆還沒倒真是個奇跡  -不\N- It's a miracle the walls are still standing. - No.
+Dialogue: 0,0:21:43.24,0:21:45.89,Default,NTP,0,0,0,,{\fs14}我是說真正的家  麻省\NI mean home. Massachusetts.
+Dialogue: 0,0:21:48.91,0:21:51.12,Default,NTP,0,0,0,,{\fs14}是因為蘭斯菲爾德家的事嗎\NIs this about the Lancefields?
+Dialogue: 0,0:21:57.41,0:21:58.87,Default,NTP,0,0,0,,{\fs14}你的家人安全了\NYour family is safe.
+Dialogue: 0,0:22:00.01,0:22:01.05,Default,NTP,0,0,0,,{\fs14}什麼\NWhat?
+Dialogue: 0,0:22:02.81,0:22:04.33,Default,NTP,0,0,0,,{\fs14}你在歐洲的表親\NYour cousins in Europe.
+Dialogue: 0,0:22:04.89,0:22:06.20,Default,NTP,0,0,0,,{\fs14}普爾曼一家\NThe Perlmans.
+Dialogue: 0,0:22:08.78,0:22:12.69,Default,NTP,0,0,0,,{\fs14}-他們都死了  查理  -不  沒有\N- They're dead, Charlie. - No, no.
+Dialogue: 0,0:22:14.61,0:22:15.96,Default,NTP,0,0,0,,{\fs14}她們人在紐約\NThey're in New York.
+Dialogue: 0,0:22:19.25,0:22:24.01,Default,NTP,0,0,0,,{\fs14}也許睡在某個廉價旅店裏\NProbably bunked up in some fleabag hotel,
+Dialogue: 0,0:22:24.02,0:22:25.23,Default,NTP,0,0,0,,{\fs14}但是她們沒事\Nbut they're fine.
+Dialogue: 0,0:22:27.45,0:22:28.87,Default,NTP,0,0,0,,{\fs14}比我們安全\NSafer than we are.
+Dialogue: 0,0:22:32.06,0:22:35.09,Default,NTP,0,0,0,,{\fs14}現在  某些政府官員心有疑慮\NNow, some men from the government are asking questions.
+Dialogue: 0,0:22:35.09,0:22:36.99,Default,NTP,0,0,0,,{\fs14}-他們  -他們認為你是間諜\N- They... - They think that you're a spy.
+Dialogue: 0,0:22:37.35,0:22:40.51,Default,NTP,0,0,0,,{\fs14}認為我出賣了軍事機密\NWell, that I traded military secrets.
+Dialogue: 0,0:22:40.51,0:22:41.68,Default,NTP,0,0,0,,{\fs14}但你沒有\NBut you didn't.
+Dialogue: 0,0:22:43.85,0:22:46.20,Default,NTP,0,0,0,,{\fs14}對  我沒有  當然沒有\NNo, I didn't. Of course not.
+Dialogue: 0,0:22:56.60,0:22:57.65,Default,NTP,0,0,0,,{\fs14}不管他們認為你做了什麼\NWhatever they think you did,
+Dialogue: 0,0:22:57.65,0:22:58.99,Default,NTP,0,0,0,,{\fs14}都是法蘭克·溫特讓你做的\NFrank Winter made you do it.
+Dialogue: 0,0:22:58.99,0:23:00.13,Default,NTP,0,0,0,,{\fs14}你跟他們這麼說\NYou tell them that.
+Dialogue: 0,0:23:00.13,0:23:02.56,Default,NTP,0,0,0,,{\fs14}艾比  那樣你也會被牽連進來\NAbby, you'd be implicated, too.
+Dialogue: 0,0:23:03.30,0:23:04.71,Default,NTP,0,0,0,,{\fs14}法蘭克知道了\NFrank knows.
+Dialogue: 0,0:23:06.06,0:23:09.72,Default,NTP,0,0,0,,{\fs14}他知道是你幫我給X工廠打了無人監聽的電話\NHe knows that you helped me make an unmonitored call to Site X.
+Dialogue: 0,0:23:10.03,0:23:12.36,Default,NTP,0,0,0,,{\fs14}他知道是你在蘭斯菲爾德家放了文件\NHe knows that you put the papers in Lancefield's apartment.
+Dialogue: 0,0:23:12.36,0:23:13.45,Default,NTP,0,0,0,,{\fs14}他都知道\NHe knows.
+Dialogue: 0,0:23:19.77,0:23:21.23,Default,NTP,0,0,0,,{\fs14}你可以提出離婚\NYou can have the divorce.
+Dialogue: 0,0:23:22.55,0:23:23.83,Default,NTP,0,0,0,,{\fs14}我不會反對\NI won't fight it.
+Dialogue: 0,0:23:24.46,0:23:26.82,Default,NTP,0,0,0,,{\fs14}你和喬伊盡可能地遠離這個地方\NYou and Joey need to get as far away from this place...
+Dialogue: 0,0:23:26.82,0:23:29.00,Default,NTP,0,0,0,,{\fs14}-查理  我  -越遠越好\N- Charlie, I... - As you can.
+Dialogue: 0,0:23:32.26,0:23:35.07,Default,NTP,0,0,0,,{\fs14}-艾比  -好吧\N- Abby... - Yes.
+Dialogue: 0,0:23:37.57,0:23:39.41,Default,NTP,0,0,0,,{\fs14}-我真的很抱歉  -沒事的\N- I am so sorry. - It's all right.
+Dialogue: 0,0:23:39.51,0:23:41.62,Default,NTP,0,0,0,,{\fs14}你知道嗎  要是我們當初沒來這\NYou know, maybe if we never came here...
+Dialogue: 0,0:23:41.83,0:23:44.41,Default,NTP,0,0,0,,{\fs14}要是我們待在布魯克萊恩  事情就不會變成這樣\Nmaybe if we stayed in Brookline, things would be different.
+Dialogue: 0,0:23:44.75,0:23:46.19,Default,NTP,0,0,0,,{\fs14}-艾比  艾比  -查理  查理\N- Abby. Abby. - Charlie. Charlie.
+Dialogue: 0,0:23:46.19,0:23:47.24,Default,NTP,0,0,0,,{\fs14}-快走  -查理\N- Come on. - Charlie.
+Dialogue: 0,0:23:47.24,0:23:48.20,Default,NTP,0,0,0,,{\fs14}-求你們不要帶走他  -會沒事的\N- Please don't take him. - Things will be fine.
+Dialogue: 0,0:23:48.20,0:23:49.50,Default,NTP,0,0,0,,{\fs14}不要傷害他\NPlease don't hurt him!
+Dialogue: 0,0:23:49.50,0:23:51.39,Default,NTP,0,0,0,,{\fs14}-會沒事的  -不要\N- It's gonna be fine. - No.
+Dialogue: 0,0:23:51.55,0:23:52.84,Default,NTP,0,0,0,,{\fs14}不要傷害他\NPlease don't hurt him.
+Dialogue: 0,0:23:52.94,0:23:54.01,Default,NTP,0,0,0,,{\fs14}不\NNo...
+Dialogue: 0,0:24:02.42,0:24:03.11,Default,NTP,0,0,0,,{\fs14}格蘭\NGlen.
+Dialogue: 0,0:24:05.58,0:24:08.22,Default,NTP,0,0,0,,{\fs14}我還以為你會給那些\NFigured you'd be trying to teach basic calculus
+Dialogue: 0,0:24:08.22,0:24:10.69,Default,NTP,0,0,0,,{\fs14}以前瘦子小組的成員教基礎微積分呢\Nto the group formerly known as Thin Man.
+Dialogue: 0,0:24:11.58,0:24:13.51,Default,NTP,0,0,0,,{\fs14}天知道沒有你我一個人怎麼做得到\NGod knows how I'll do that without you.
+Dialogue: 0,0:24:13.51,0:24:15.14,Default,NTP,0,0,0,,{\fs14}你總有辦法的\NOh, you'll manage.
+Dialogue: 0,0:24:16.63,0:24:18.88,Default,NTP,0,0,0,,{\fs14}我估計走之前沒法回趟家了\NI doubt I'm gonna make it up to the house before I go.
+Dialogue: 0,0:24:18.88,0:24:20.23,Default,NTP,0,0,0,,{\fs14}他們要我馬上搬出基地\NThey want me off the Hill.
+Dialogue: 0,0:24:20.27,0:24:23.65,Default,NTP,0,0,0,,{\fs14}但是  告訴我的教女\NBut, uh, tell my goddaughter
+Dialogue: 0,0:24:23.65,0:24:24.93,Default,NTP,0,0,0,,{\fs14}她的下半輩子\Nshe'll have the rest of her life
+Dialogue: 0,0:24:24.93,0:24:26.81,Default,NTP,0,0,0,,{\fs14}可以隨意抽煙喝酒了\Nfor drinking and smoking cigarettes.
+Dialogue: 0,0:24:32.79,0:24:36.32,Default,NTP,0,0,0,,{\fs14}我猜哥倫比亞知道系主任要回去了一定很高興\NI imagine the Lions will be happy to have their chairman back.
+Dialogue: 0,0:24:36.89,0:24:38.22,Default,NTP,0,0,0,,{\fs14}已經退休了\NEmeritus.
+Dialogue: 0,0:24:38.65,0:24:40.58,Default,NTP,0,0,0,,{\fs14}這段日子早就成了榮譽職稱\NOf practically everything these days.
+Dialogue: 0,0:24:40.69,0:24:43.15,Default,NTP,0,0,0,,{\fs14}當我們被困在這個沙箱裏時\NAnyway, while we've been playing in the sandbox,
+Dialogue: 0,0:24:43.58,0:24:46.72,Default,NTP,0,0,0,,{\fs14}哥倫比亞大學已經開始青睞實驗物理了\NColumbia has fallen in love with experimental physics.
+Dialogue: 0,0:24:47.28,0:24:49.62,Default,NTP,0,0,0,,{\fs14}接下來去哪  芝加哥大學  耶魯大學\NThen where? Chicago? Yale?
+Dialogue: 0,0:24:49.62,0:24:50.77,Default,NTP,0,0,0,,{\fs14}莫斯科怎麼樣\NMoscow?
+Dialogue: 0,0:24:53.95,0:24:55.03,Default,NTP,0,0,0,,{\fs14}我不知道\NI don't know.
+Dialogue: 0,0:24:55.64,0:24:58.43,Default,NTP,0,0,0,,{\fs14}我聽說好多老光棍都在往西走\NI hear a lot of old bachelors are heading west.
+Dialogue: 0,0:25:02.86,0:25:04.84,Default,NTP,0,0,0,,{\fs14}你應該過得快快樂樂的\NYou deserve to be happy.
+Dialogue: 0,0:25:08.52,0:25:09.52,Default,NTP,0,0,0,,{\fs14}是啊\NYeah.
+Dialogue: 0,0:25:13.17,0:25:14.71,Default,NTP,0,0,0,,{\fs14}格蘭  如果有什麼我可以幫忙的\NGlen, if there's anything I could do--
+Dialogue: 0,0:25:14.71,0:25:17.06,Default,NTP,0,0,0,,{\fs14}二十年前  我以為我是位很棒的物理學家\N20 years ago, I thought I was a pretty good physicist,
+Dialogue: 0,0:25:17.06,0:25:19.00,Default,NTP,0,0,0,,{\fs14}然後你走進了我的辦公室\Nthen you walked into my office.
+Dialogue: 0,0:25:20.07,0:25:22.30,Default,NTP,0,0,0,,{\fs14}該死的大二小毛頭\NGoddamn college sophomore.
+Dialogue: 0,0:25:23.33,0:25:24.81,Default,NTP,0,0,0,,{\fs14}直到我看了你的研究成果\NI didn't know what was missing from my work
+Dialogue: 0,0:25:24.81,0:25:26.37,Default,NTP,0,0,0,,{\fs14}才意識到自己研究的問題在哪兒\Nuntil I saw it in yours.
+Dialogue: 0,0:25:28.34,0:25:31.44,Default,NTP,0,0,0,,{\fs14}相比起來這個項目更需要你  而不是我\NThis project needs you a lot more than it needs me.
+Dialogue: 0,0:25:31.98,0:25:33.13,Default,NTP,0,0,0,,{\fs14}我需要你\NI need you.
+Dialogue: 0,0:25:36.10,0:25:39.50,Default,NTP,0,0,0,,{\fs14}老實說  我如釋重負啊\NHonestly, I'm relieved.
+Dialogue: 0,0:25:39.50,0:25:40.94,Default,NTP,0,0,0,,{\fs14}我想總得有人把它造出來\NI suppose somebody has to build it,
+Dialogue: 0,0:25:40.95,0:25:44.77,Default,NTP,0,0,0,,{\fs14}但我很慶幸世人因此記住的不會是我\Nbut I'm glad it's not gonna be on my tombstone.
+Dialogue: 0,0:25:46.37,0:25:49.22,Default,NTP,0,0,0,,{\fs14}-一旦結束了我就打電話給你  -不用了\N- I'll call you as soon as it's over. - Don't.
+Dialogue: 0,0:25:49.42,0:25:51.14,Default,NTP,0,0,0,,{\fs14}格蘭  真希望我能幫上點什麼忙\NGlen, I wish there was something that I could do--
+Dialogue: 0,0:25:51.14,0:25:53.07,Default,NTP,0,0,0,,{\fs14}別想魚與熊掌兼得了  法蘭克\NStop trying to have it both ways, Frank.
+Dialogue: 0,0:25:53.92,0:25:55.85,Default,NTP,0,0,0,,{\fs14}你是不是好人這無關緊要\NIt doesn't matter if you're a good man.
+Dialogue: 0,0:25:56.57,0:25:59.83,Default,NTP,0,0,0,,{\fs14}說不定好人根本沒法實現內爆模型\NMaybe a good man couldn't have made implosion work.
+Dialogue: 0,0:26:00.68,0:26:04.77,Default,NTP,0,0,0,,{\fs14}重要的是你將是終結這場戰爭的人\NAll that matters is that you are the man to end this war.
+Dialogue: 0,0:26:08.17,0:26:10.46,Default,NTP,0,0,0,,{\fs14}孰是孰非等一切塵埃落定後由上帝來裁決\NLet God do the accounting when it's over.
+Dialogue: 0,0:26:14.07,0:26:14.91,Default,NTP,0,0,0,,{\fs14}是啊\NYeah.
+Dialogue: 0,0:26:40.90,0:26:43.75,Default,NTP,0,0,0,,{\fs14}昨天這的所有人都還不知道我們是誰\NYesterday nobody on this hill even knew who we were.
+Dialogue: 0,0:26:44.80,0:26:47.25,Default,NTP,0,0,0,,{\fs14}不管怎麼樣  我支持金妮的工作\NAnyway, I do support Jeannie's work,
+Dialogue: 0,0:26:47.25,0:26:48.07,Default,NTP,0,0,0,,{\fs14}我只是覺得作為\NI just don't think it's right
+Dialogue: 0,0:26:48.07,0:26:50.87,Default,NTP,0,0,0,,{\fs14}管理鈽的頭兒仍然單身不太好\Nfor the new head of the plutonium division to be unmarried.
+Dialogue: 0,0:26:50.87,0:26:52.92,Default,NTP,0,0,0,,{\fs14}咱們的工資都會有小幅度的增長\NWe're all gonna get tiny, little pay bumps
+Dialogue: 0,0:26:52.95,0:26:54.96,Default,NTP,0,0,0,,{\fs14}我敢保證一個多月後我就有錢買戒指了\Nand I'm sure I'll have enough for a ring in a month or so.
+Dialogue: 0,0:26:54.96,0:26:57.37,Default,NTP,0,0,0,,{\fs14}-恭喜你啊  -小心點\N- Hey, mazel tov. - Watch out.
+Dialogue: 0,0:26:57.38,0:26:59.95,Default,NTP,0,0,0,,{\fs14}過不了多久你的門檻就會被求親的姑娘們踩爛了\NThe ladies are gonna be beating a path to your door in no time.
+Dialogue: 0,0:26:59.96,0:27:00.88,Default,NTP,0,0,0,,{\fs14}米克斯先生嗎\NMr. Meeks?
+Dialogue: 0,0:27:02.31,0:27:04.38,Default,NTP,0,0,0,,{\fs14}你是說米克斯主任嗎\NYou mean Division Head Meeks?
+Dialogue: 0,0:27:04.46,0:27:07.12,Default,NTP,0,0,0,,{\fs14}這傢伙晉陞的速度比鐵路股還快  親愛的\NThis guy's rising faster than railroad stock, darling.
+Dialogue: 0,0:27:07.75,0:27:09.69,Default,NTP,0,0,0,,{\fs14}總機有電話找你\NThere was a call at the switchboard.
+Dialogue: 0,0:27:09.92,0:27:10.79,Default,NTP,0,0,0,,{\fs14}請節哀順變\NI'm sorry.
+Dialogue: 0,0:27:24.46,0:27:26.76,Default,NTP,0,0,0,,{\fs14}這可是一大飛躍啊\NWow, this is a step up.
+Dialogue: 0,0:27:27.18,0:27:29.50,Default,NTP,0,0,0,,{\fs14}我一直在努力\NYou know, I've learned not to grow too attached
+Dialogue: 0,0:27:29.50,0:27:31.49,Default,NTP,0,0,0,,{\fs14}不對辦公室產生感情\Nto offices one way or the other.
+Dialogue: 0,0:27:31.65,0:27:34.27,Default,NTP,0,0,0,,{\fs14}我只要有扇門就很滿足了\NWell, I'm just looking forward to having a door.
+Dialogue: 0,0:27:34.80,0:27:36.85,Default,NTP,0,0,0,,{\fs14}等有人天天來找你就不這麼想了\NWait till people start knocking on it.
+Dialogue: 0,0:27:41.11,0:27:42.80,Default,NTP,0,0,0,,{\fs14}我母親昨天去世了\NMy mother died yesterday.
+Dialogue: 0,0:27:45.95,0:27:49.50,Default,NTP,0,0,0,,{\fs14}不過是半夜以後的事  所以有可能是今天\NWell, it was after midnight, so maybe it was today.
+Dialogue: 0,0:27:49.77,0:27:52.05,Default,NTP,0,0,0,,{\fs14}班戈市總醫院的護士也不清楚具體時間\NThe nurses at Bangor General didn't know which.
+Dialogue: 0,0:27:52.06,0:27:53.53,Default,NTP,0,0,0,,{\fs14}老天  吉姆  我很遺憾\NJesus, Jim, I'm sorry.
+Dialogue: 0,0:27:54.18,0:27:55.81,Default,NTP,0,0,0,,{\fs14}是因為意外嗎\NWas it unexpected?
+Dialogue: 0,0:27:55.89,0:27:58.47,Default,NTP,0,0,0,,{\fs14}身為小兒麻痹癥患者卻活過了半百\NWell, she made it into her 50s with polio,
+Dialogue: 0,0:27:58.47,0:28:00.77,Default,NTP,0,0,0,,{\fs14}已經很了不起了  對吧\Nso that's something, right?
+Dialogue: 0,0:28:03.50,0:28:05.97,Default,NTP,0,0,0,,{\fs14}等你回來就能看到你的新辦公室了\NWell, your new office will be waiting for you when you get back.
+Dialogue: 0,0:28:06.21,0:28:08.20,Default,NTP,0,0,0,,{\fs14}我現在不能走\NOh, well, I can't leave now.
+Dialogue: 0,0:28:08.57,0:28:10.19,Default,NTP,0,0,0,,{\fs14}特別是現在這種狀況\NNot with everything that's going on.
+Dialogue: 0,0:28:11.10,0:28:13.31,Default,NTP,0,0,0,,{\fs14}不管怎麼說  陸軍絕不會\NAnyway, the army would never
+Dialogue: 0,0:28:13.31,0:28:15.12,Default,NTP,0,0,0,,{\fs14}這麼快就同意給我通行證的\Ngrant me a pass on such short notice.
+Dialogue: 0,0:28:15.12,0:28:16.79,Default,NTP,0,0,0,,{\fs14}日落前你就能拿到\NYou'll have one by sunset.
+Dialogue: 0,0:28:16.98,0:28:19.86,Default,NTP,0,0,0,,{\fs14}坐進這個辦公室就可以享有一些特權\NTurns out this office comes with a few privileges.
+Dialogue: 0,0:28:20.80,0:28:21.99,Default,NTP,0,0,0,,{\fs14}謝謝你  法蘭克\NThanks, Frank.
+Dialogue: 0,0:28:22.70,0:28:24.59,Default,NTP,0,0,0,,{\fs14}我會快去快回的  我發誓\NI won't be gone long. I swear.
+Dialogue: 0,0:28:32.17,0:28:34.11,Default,NTP,0,0,0,,{\fs14}你母親還在世嗎  法蘭克\NIs your mother still alive, Frank?
+Dialogue: 0,0:28:37.48,0:28:38.51,Default,NTP,0,0,0,,{\fs14}我不知道\NI don't know.
+Dialogue: 0,0:28:54.93,0:28:56.32,Default,NTP,0,0,0,,{\fs14}她把一切都坦白了\NShe told me everything.
+Dialogue: 0,0:28:56.45,0:28:57.18,Default,NTP,0,0,0,,{\fs14}艾比在哪兒\NWhere's Abby?
+Dialogue: 0,0:28:57.18,0:28:59.71,Default,NTP,0,0,0,,{\fs14}女人總是把孩子的安危放在第一位\NWomen are always quick to protect their children.
+Dialogue: 0,0:28:59.71,0:29:02.32,Default,NTP,0,0,0,,{\fs14}丈夫在她們心中就沒有這種地位\NHusbands tend not to get the same treatment.
+Dialogue: 0,0:29:02.32,0:29:04.25,Default,NTP,0,0,0,,{\fs14}你妻子就在隔壁\NYour wife is sitting in the next room.
+Dialogue: 0,0:29:04.25,0:29:06.89,Default,NTP,0,0,0,,{\fs14}她把你的所作所為和動機都告訴我了\NShe told me everything you've done and why.
+Dialogue: 0,0:29:07.46,0:29:08.46,Default,NTP,0,0,0,,{\fs14}你胡說\NThat's bullshit.
+Dialogue: 0,0:29:10.77,0:29:12.62,Default,NTP,0,0,0,,{\fs14}沒人會去責怪一個\NNo one can blame a man
+Dialogue: 0,0:29:12.62,0:29:15.45,Default,NTP,0,0,0,,{\fs14}即想將妻子的家人救出納粹的魔掌\Nfor trying to save his wife's family from the Nazis
+Dialogue: 0,0:29:15.45,0:29:17.69,Default,NTP,0,0,0,,{\fs14}又想挽救自己婚姻的男人\Nand his marriage all in one fell swoop.
+Dialogue: 0,0:29:17.69,0:29:19.43,Default,NTP,0,0,0,,{\fs14}艾比什麼都不會告訴你\NAbby would not have told you anything.
+Dialogue: 0,0:29:20.95,0:29:24.01,Default,NTP,0,0,0,,{\fs14}一旦有了背叛  就會越走越遠\NBetrayal gets easier and easier and easier.
+Dialogue: 0,0:29:24.50,0:29:27.41,Default,NTP,0,0,0,,{\fs14}畢竟  她這幾個月來都在背著你\NAfter all, she has been betraying you for months
+Dialogue: 0,0:29:27.41,0:29:28.83,Default,NTP,0,0,0,,{\fs14}和鄰居交往\Nwith your neighbor.
+Dialogue: 0,0:29:29.64,0:29:32.24,Default,NTP,0,0,0,,{\fs14}在蘭斯菲爾德的床上做愛\NMaking love in Lancefield's bed.
+Dialogue: 0,0:29:32.24,0:29:33.56,Default,NTP,0,0,0,,{\fs14}還有你的床上\NIn your bed.
+Dialogue: 0,0:29:35.52,0:29:37.12,Default,NTP,0,0,0,,{\fs14}現在我可以肯定你是在撒謊\NWell, now I know that you're lying.
+Dialogue: 0,0:29:38.53,0:29:39.55,Default,NTP,0,0,0,,{\fs14}她討厭蘭斯菲爾德\NShe hated Lancefield.
+Dialogue: 0,0:29:39.55,0:29:40.83,Default,NTP,0,0,0,,{\fs14}她是不會靠近他的\NShe wouldn't go anywhere near him.
+Dialogue: 0,0:29:40.84,0:29:42.61,Default,NTP,0,0,0,,{\fs14}當然  你說得對\NYes, well, of course you're right.
+Dialogue: 0,0:29:43.25,0:29:46.80,Default,NTP,0,0,0,,{\fs14}但事實是  他的外籍妻子\NBut you see, that foreign wife of his,
+Dialogue: 0,0:29:46.80,0:29:49.09,Default,NTP,0,0,0,,{\fs14}也是一個有故事的人\Nshe had an interesting story, too.
+Dialogue: 0,0:29:50.13,0:29:53.41,Default,NTP,0,0,0,,{\fs14}其中就包括在你工作時\NOne about romancing your wife
+Dialogue: 0,0:29:53.41,0:29:55.06,Default,NTP,0,0,0,,{\fs14}和你妻子談情說愛\Nwhile you were at work.
+Dialogue: 0,0:30:02.12,0:30:05.81,Default,NTP,0,0,0,,{\fs14}你妻子是個難捉摸的女人  艾薩克博士\NYour wife is a complicated woman, Dr. Isaacs.
+Dialogue: 0,0:30:06.44,0:30:07.54,Default,NTP,0,0,0,,{\fs14}但一旦當她意識到\NBut as soon as she realized
+Dialogue: 0,0:30:07.54,0:30:10.31,Default,NTP,0,0,0,,{\fs14}她有可能失去她的兒子\Nthat she might very well lose her son,
+Dialogue: 0,0:30:11.93,0:30:14.19,Default,NTP,0,0,0,,{\fs14}讓她坦白你的所作所為就很簡單了\Ngetting her to admit what you've done was simple.
+Dialogue: 0,0:30:17.70,0:30:18.89,Default,NTP,0,0,0,,{\fs14}我不相信\NI don't believe you.
+Dialogue: 0,0:30:21.76,0:30:22.87,Default,NTP,0,0,0,,{\fs14}但你已開始相信\NBut you do.
+Dialogue: 0,0:30:24.40,0:30:28.08,Default,NTP,0,0,0,,{\fs14}你正在回想你每次去打橋牌\NYou're thinking back to every bridge game,
+Dialogue: 0,0:30:28.86,0:30:30.25,Default,NTP,0,0,0,,{\fs14}出去喝酒\Nevery martini.
+Dialogue: 0,0:30:31.24,0:30:32.90,Default,NTP,0,0,0,,{\fs14}每次你妻子...\NEvery time your wife...
+Dialogue: 0,0:30:34.41,0:30:37.19,Default,NTP,0,0,0,,{\fs14}每次你妻子告訴你  她要去\Nevery time your wife told you she was going over there
+Dialogue: 0,0:30:37.19,0:30:40.09,Default,NTP,0,0,0,,{\fs14}向那個女人再借點麵粉\Nto borrow another cup of flour from that woman.
+Dialogue: 0,0:30:40.10,0:30:42.44,Default,NTP,0,0,0,,{\fs14}你應該就能一件接一件地接受\NSo you might as well start admitting
+Dialogue: 0,0:30:42.49,0:30:45.40,Default,NTP,0,0,0,,{\fs14}我告訴你的那些事實\Nwhat I already know fact by fact!
+Dialogue: 0,0:30:45.40,0:30:47.13,Default,NTP,0,0,0,,{\fs14}我跟你無話可說  混蛋\NWe're done here, asshole.
+Dialogue: 0,0:30:55.46,0:30:57.56,Default,NTP,0,0,0,,{\fs14}其實我們倆的工作沒多大差別\NYou know, our businesses are not so different.
+Dialogue: 0,0:30:58.56,0:30:59.80,Default,NTP,0,0,0,,{\fs14}人心中壓抑著的秘密\NA secret trapped inside a man
+Dialogue: 0,0:30:59.80,0:31:02.26,Default,NTP,0,0,0,,{\fs14}就像原子核中蘊含的能量\Nis just like the energy trapped in an atom.
+Dialogue: 0,0:31:02.27,0:31:03.89,Default,NTP,0,0,0,,{\fs14}都渴望被釋放  當然了\NIt wants to be released. Of course,
+Dialogue: 0,0:31:03.90,0:31:06.03,Default,NTP,0,0,0,,{\fs14}我擁有的資源可跟你沒法比\NI don't nearly have the resources you do.
+Dialogue: 0,0:31:06.03,0:31:08.77,Default,NTP,0,0,0,,{\fs14}我手下只有幾名一片赤子之心的人\NMyself, I've only had a few dedicated patriots,
+Dialogue: 0,0:31:09.47,0:31:12.57,Default,NTP,0,0,0,,{\fs14}但是他們  他們發明了一些\Nbut they... they have developed
+Dialogue: 0,0:31:12.57,0:31:15.58,Default,NTP,0,0,0,,{\fs14}非常行之有效的技術\Nsome very advanced techniques
+Dialogue: 0,0:31:16.28,0:31:18.11,Default,NTP,0,0,0,,{\fs14}來讓別人開口招供\Nto convince a man to talk.
+Dialogue: 0,0:31:19.64,0:31:21.67,Default,NTP,0,0,0,,{\fs14}什麼  你打算對我嚴刑拷打嗎\NWhat, you're gonna torture me?
+Dialogue: 0,0:31:28.21,0:31:30.32,Default,NTP,0,0,0,,{\fs14}1929年的《日內瓦公約》...\NThe Geneva Convention of 1929--
+Dialogue: 0,0:31:28.21,0:31:30.32,Default,NTP,0,0,0,,{\fs14}[《日內瓦公約》的一部分  主要內容為保護戰俘]
+Dialogue: 0,0:31:30.32,0:31:31.04,Default,NTP,0,0,0,,{\fs14}你要去的地方\NWhere you're going,
+Dialogue: 0,0:31:31.04,0:31:34.87,Default,NTP,0,0,0,,{\fs14}根本不受公約約束\Npeople don't concern themselves with convention.
+Dialogue: 0,0:31:49.66,0:31:52.24,Default,NTP,0,0,0,,{\fs14}其他的所有船員\NIt is feared that the other members of the crew
+Dialogue: 0,0:31:52.24,0:31:53.50,Default,NTP,0,0,0,,{\fs14}可能早已葬身海底\Nhave been drowned.
+Dialogue: 0,0:31:53.70,0:31:55.49,Default,NTP,0,0,0,,{\fs14}不斷有人報告  目擊到德國潛艇\NWith the view of the established presence
+Dialogue: 0,0:31:55.49,0:31:58.09,Default,NTP,0,0,0,,{\fs14}在周圍地區出現\Nof German submarines in this vicinity,
+Dialogue: 0,0:31:58.09,0:32:00.72,Default,NTP,0,0,0,,{\fs14}毫無疑問\Nthere can be no reasonable doubt
+Dialogue: 0,0:32:00.83,0:32:04.17,Default,NTP,0,0,0,,{\fs14}艦上所塗的旗幟是\Nas to the identity of the flag...
+Dialogue: 0,0:32:23.11,0:32:25.92,Default,NTP,0,0,0,,{\fs14}-你一定是艾比吧  -是的\N- Hi. You must be Abby. - Yes.
+Dialogue: 0,0:32:26.43,0:32:27.80,Default,NTP,0,0,0,,{\fs14}你丈夫在嗎\NIs your husband here?
+Dialogue: 0,0:32:28.18,0:32:31.25,Default,NTP,0,0,0,,{\fs14}-我叫海倫·普林斯  是他的同事  -我知道\N- I'm Helen Prins. I work with him. - I know who you are.
+Dialogue: 0,0:32:31.25,0:32:32.91,Default,NTP,0,0,0,,{\fs14}艾薩克博士今天在家休假嗎\NDid Dr. Isaacs stay home today?
+Dialogue: 0,0:32:33.62,0:32:35.23,Default,NTP,0,0,0,,{\fs14}我們一直在技術區找他\NWe've been looking for him in the tech area.
+Dialogue: 0,0:32:35.24,0:32:38.10,Default,NTP,0,0,0,,{\fs14}-我們  -是緊急情況\N- We? - It's urgent.
+Dialogue: 0,0:32:41.13,0:32:42.54,Default,NTP,0,0,0,,{\fs14}公事還是私事\NBusiness or pleasure?
+Dialogue: 0,0:32:54.47,0:32:57.14,Default,NTP,0,0,0,,{\fs14}抱歉親愛的  門都鎖了  我來了\NI'm sorry, sweetie, all the doors are locked. I'm coming.
+Dialogue: 0,0:33:05.19,0:33:09.17,Default,NTP,0,0,0,,{\fs14}我的小寶貝  來媽媽抱\NHello, my life! Come here. Oh!
+Dialogue: 0,0:33:10.13,0:33:11.73,Default,NTP,0,0,0,,{\fs14}今天蕩鞦韆蕩到了多高呀\NHow high did you get on the swings this time?
+Dialogue: 0,0:33:11.73,0:33:13.65,Default,NTP,0,0,0,,{\fs14}可高了\NI get so high.
+Dialogue: 0,0:33:13.65,0:33:16.55,Default,NTP,0,0,0,,{\fs14}-你先帶他進房間吧  -我蕩得特別高\N- Could you excuse us just for a minute? - I get super high.
+Dialogue: 0,0:33:16.55,0:33:19.02,Default,NTP,0,0,0,,{\fs14}這麼高啊  快去你房間  我收拾過了\NSo high! You run on in there. I cleaned your room up.
+Dialogue: 0,0:33:19.02,0:33:22.68,Default,NTP,0,0,0,,{\fs14}我蕩鞦韆蕩得特別高\NI get super high on the swings.
+Dialogue: 0,0:33:27.16,0:33:30.15,Default,NTP,0,0,0,,{\fs14}-你該走了  -我真的得見他\N- I think you should leave. - I really need to see him.
+Dialogue: 0,0:33:31.38,0:33:32.63,Default,NTP,0,0,0,,{\fs14}那你來晚了一步\NWell, you're a little late.
+Dialogue: 0,0:33:32.91,0:33:34.87,Default,NTP,0,0,0,,{\fs14}憲兵今天早上把查理帶走了\NMPs came for Charlie this morning.
+Dialogue: 0,0:33:35.60,0:33:36.51,Default,NTP,0,0,0,,{\fs14}為什麼\NWhy?
+Dialogue: 0,0:33:37.36,0:33:39.61,Default,NTP,0,0,0,,{\fs14}因為他們認為這位來自東聖路易斯的猶太人\NBecause they think that a Jew from East St. Louis
+Dialogue: 0,0:33:39.61,0:33:42.23,Default,NTP,0,0,0,,{\fs14}把軍事情報洩露給了想要消滅我們的敵人\Nis passing military secrets to people who want to exterminate us.
+Dialogue: 0,0:33:42.24,0:33:44.03,Default,NTP,0,0,0,,{\fs14}這鎮上可不只你一個人\NAnd you are not the only person on this Hill
+Dialogue: 0,0:33:44.03,0:33:46.39,Default,NTP,0,0,0,,{\fs14}想要把我丈夫從他家人身邊奪走\Nwho's trying to take my husband away from his family.
+Dialogue: 0,0:33:49.48,0:33:50.83,Default,NTP,0,0,0,,{\fs14}你想要哪本書\NWhich book did you pick?
+Dialogue: 0,0:33:52.23,0:33:54.35,Default,NTP,0,0,0,,{\fs14}那本看起來不錯\NThat looks like a good one.
+Dialogue: 0,0:34:02.30,0:34:03.16,Default,NTP,0,0,0,,{\fs14}法蘭克\NFrank!
+Dialogue: 0,0:34:03.81,0:34:06.44,Default,NTP,0,0,0,,{\fs14}你知道奧克利還在讀本科時\NYou know, Akley derived a new space-time geometry
+Dialogue: 0,0:34:06.44,0:34:07.79,Default,NTP,0,0,0,,{\fs14}就推導出了新的時空幾何嗎\Nwhen he was still in college?
+Dialogue: 0,0:34:07.79,0:34:09.25,Default,NTP,0,0,0,,{\fs14}是查理的事\NUm, it's Charlie.
+Dialogue: 0,0:34:12.18,0:34:13.51,Default,NTP,0,0,0,,{\fs14}我早跟你說過了\NYou heard me earlier.
+Dialogue: 0,0:34:14.37,0:34:16.02,Default,NTP,0,0,0,,{\fs14}這裏沒有他的位置\NThere is no place for him here.
+Dialogue: 0,0:34:16.02,0:34:18.03,Default,NTP,0,0,0,,{\fs14}他們會把他送出基地\NThey're shipping him off the Hill.
+Dialogue: 0,0:34:22.50,0:34:24.06,Default,NTP,0,0,0,,{\fs14}他早就知道後果\NHe knew the risks.
+Dialogue: 0,0:34:24.78,0:34:26.44,Default,NTP,0,0,0,,{\fs14}一開始他來找我的時候心裏就清楚\NHe came to me with eyes wide open.
+Dialogue: 0,0:34:26.44,0:34:27.64,Default,NTP,0,0,0,,{\fs14}你到底想要怎麼樣  海倫\NWhat do you want, Helen?
+Dialogue: 0,0:34:28.02,0:34:28.99,Default,NTP,0,0,0,,{\fs14}你想要我們三個人\NDo you want all three of us
+Dialogue: 0,0:34:28.99,0:34:30.63,Default,NTP,0,0,0,,{\fs14}都因為違反任務劃分規定而被罰嗎\Nto go down for breaking compartmentalization?
+Dialogue: 0,0:34:30.63,0:34:34.00,Default,NTP,0,0,0,,{\fs14}你不明白  他們認為他是叛徒\NYou don't understand. They think he's a traitor.
+Dialogue: 0,0:35:53.15,0:35:53.99,Default,NTP,0,0,0,,{\fs14}從沒想過自己會說這種話\NNever thought I'd say it,
+Dialogue: 0,0:35:53.99,0:35:55.67,Default,NTP,0,0,0,,{\fs14}但我會想念這個破屋子的\Nbut I'm gonna miss this shithole.
+Dialogue: 0,0:35:56.85,0:35:58.73,Default,NTP,0,0,0,,{\fs14}你也會想的  等著吧\NYou're gonna miss it, too. Just watch.
+Dialogue: 0,0:35:59.72,0:36:02.95,Default,NTP,0,0,0,,{\fs14}你將擁有一支博士大軍供你支配\NYou'll have an army of PhDs at your beck and call,
+Dialogue: 0,0:36:02.96,0:36:05.01,Default,NTP,0,0,0,,{\fs14}辦公桌像斯圖貝克裝甲車那麼大\Na desk the size of a Studebaker.
+Dialogue: 0,0:36:05.95,0:36:08.13,Default,NTP,0,0,0,,{\fs14}到時你會希望你依然在這間小屋裏\NYou'll wish you were back in this closet with six guys
+Dialogue: 0,0:36:08.13,0:36:10.38,Default,NTP,0,0,0,,{\fs14}只有六個人  還要在信封背面打草稿\Nand a theory written on the back of an envelope.
+Dialogue: 0,0:36:11.33,0:36:13.22,Default,NTP,0,0,0,,{\fs14}你不欠我的  法蘭克\NYou don't owe me anything, Frank.
+Dialogue: 0,0:36:14.72,0:36:16.73,Default,NTP,0,0,0,,{\fs14}不是你命令我去盜取論文\NYou didn't force me to take those papers.
+Dialogue: 0,0:36:17.78,0:36:18.77,Default,NTP,0,0,0,,{\fs14}如果你沒把我供出去\NIf you hadn't turned me over,
+Dialogue: 0,0:36:18.77,0:36:20.70,Default,NTP,0,0,0,,{\fs14}內爆計劃就會泡湯\Nthe project would be dead in the water.
+Dialogue: 0,0:36:21.03,0:36:23.06,Default,NTP,0,0,0,,{\fs14}而且最終軍方還是會找上我\NChances are the army would have caught up with me anyway
+Dialogue: 0,0:36:23.06,0:36:25.38,Default,NTP,0,0,0,,{\fs14}我還是一樣的結局\Nand I'd be sitting in the same place.
+Dialogue: 0,0:36:26.69,0:36:28.71,Default,NTP,0,0,0,,{\fs14}你也不虧欠艾薩克\NYou don't owe Isaacs anything either.
+Dialogue: 0,0:36:31.64,0:36:32.64,Default,NTP,0,0,0,,{\fs14}你知道這個月的行動中\NYou know how many American soldiers
+Dialogue: 0,0:36:32.64,0:36:34.87,Default,NTP,0,0,0,,{\fs14}死了多少美國士兵嗎\Nwere killed in action this month?
+Dialogue: 0,0:36:39.96,0:36:42.19,Default,NTP,0,0,0,,{\fs14}4343人\N4,343.
+Dialogue: 0,0:36:43.15,0:36:46.30,Default,NTP,0,0,0,,{\fs14}將近是去年同期的四倍\NNearly four times as many as the same month last year.
+Dialogue: 0,0:36:46.54,0:36:48.68,Default,NTP,0,0,0,,{\fs14}再算上在戰場上重傷\NAdd another 503 who died later
+Dialogue: 0,0:36:48.68,0:36:50.49,Default,NTP,0,0,0,,{\fs14}之後不治身亡的503人\Nfrom injuries sustained on the battlefield,
+Dialogue: 0,0:36:50.49,0:36:53.55,Default,NTP,0,0,0,,{\fs14}還有61人失蹤  再加上因\Nplus 61 missing and reported dead--
+Dialogue: 0,0:36:53.55,0:36:56.25,Default,NTP,0,0,0,,{\fs14}友方誤傷  意外  疾病而死亡的\Nfriendly fire, accidents, disease--
+Dialogue: 0,0:36:56.25,0:36:58.77,Default,NTP,0,0,0,,{\fs14}這些人一共是1817人\Nthat's another 1,817.
+Dialogue: 0,0:36:58.97,0:37:00.38,Default,NTP,0,0,0,,{\fs14}總共是多少人呢\NAll together, that's, what?
+Dialogue: 0,0:37:00.39,0:37:03.41,Default,NTP,0,0,0,,{\fs14}6724人\N6,724 lives.
+Dialogue: 0,0:37:03.65,0:37:05.51,Default,NTP,0,0,0,,{\fs14}再算上英國人的話  數字還要翻倍\NAdd the Brits, the number doubles.
+Dialogue: 0,0:37:05.64,0:37:08.31,Default,NTP,0,0,0,,{\fs14}再算上蘇聯  他們可是相當拚命\NThrow in the Soviets-- they're overachievers--
+Dialogue: 0,0:37:08.40,0:37:11.66,Default,NTP,0,0,0,,{\fs14}190254人\N190,254.
+Dialogue: 0,0:37:11.66,0:37:14.29,Default,NTP,0,0,0,,{\fs14}德軍死亡人數為41200\NGermans, 41,200.
+Dialogue: 0,0:37:14.30,0:37:17.86,Default,NTP,0,0,0,,{\fs14}日本  澳大利亞  波蘭  法國\NJapan, Australia, Poland, France.
+Dialogue: 0,0:37:18.24,0:37:22.12,Default,NTP,0,0,0,,{\fs14}保守估計  一年有一千萬人喪生\NConservatively, let's say 10 million deaths in a year.
+Dialogue: 0,0:37:24.05,0:37:26.17,Default,NTP,0,0,0,,{\fs14}那就是每月833000人\N833,000 a month.
+Dialogue: 0,0:37:26.17,0:37:28.63,Default,NTP,0,0,0,,{\fs14}每天27700人\N27,700 a day.
+Dialogue: 0,0:37:29.23,0:37:31.82,Default,NTP,0,0,0,,{\fs14}每小時11057人\N11,057 an hour.
+Dialogue: 0,0:37:35.06,0:37:36.54,Default,NTP,0,0,0,,{\fs14}你想要我怎麼做\NWhat do you want me to do?
+Dialogue: 0,0:37:39.10,0:37:40.20,Default,NTP,0,0,0,,{\fs14}沒錯\NExactly.
+Dialogue: 0,0:37:41.16,0:37:42.33,Default,NTP,0,0,0,,{\fs14}多一個又何妨\NWhat's one more?
+Dialogue: 0,0:38:37.46,0:38:38.50,Default,NTP,0,0,0,,{\fs14}我愛你\NI love you.
+Dialogue: 0,0:38:47.02,0:38:48.26,Default,NTP,0,0,0,,{\fs14}我也愛你\NI love you, too.
+Dialogue: 0,0:39:00.36,0:39:01.42,Default,NTP,0,0,0,,{\fs14}怎麼了\NWhat's wrong?
+Dialogue: 0,0:39:03.94,0:39:05.80,Default,NTP,0,0,0,,{\fs14}我們在造原子彈\NWe're building an atomic bomb.
+Dialogue: 0,0:39:09.95,0:39:10.85,Default,NTP,0,0,0,,{\fs14}通過引發鏈式反應\NIt'll set off a chain reaction
+Dialogue: 0,0:39:10.85,0:39:12.77,Default,NTP,0,0,0,,{\fs14}爆炸時產生的威力\Nthat will explode with the power
+Dialogue: 0,0:39:12.77,0:39:16.28,Default,NTP,0,0,0,,{\fs14}相當於兩萬噸TNT炸藥\Nof 20,000 tons of TNT.
+Dialogue: 0,0:39:19.54,0:39:21.58,Default,NTP,0,0,0,,{\fs14}兩萬噸\N20,000 tons?
+Dialogue: 0,0:39:22.57,0:39:25.26,Default,NTP,0,0,0,,{\fs14}足夠將數座城市從地圖上抹去\NPowerful enough to wipe cities off the map.
+Dialogue: 0,0:39:29.01,0:39:30.61,Default,NTP,0,0,0,,{\fs14}還有城市中的所有居民\NCities full of people.
+Dialogue: 0,0:39:34.55,0:39:35.66,Default,NTP,0,0,0,,{\fs14}孩子\NChildren.
+Dialogue: 0,0:39:37.11,0:39:38.67,Default,NTP,0,0,0,,{\fs14}不  軍方會把它\NNo, the army will detonate
+Dialogue: 0,0:39:38.67,0:39:40.91,Default,NTP,0,0,0,,{\fs14}投到不會引起傷亡的地方\Nit someplace where it can't hurt anyone.
+Dialogue: 0,0:39:44.29,0:39:46.45,Default,NTP,0,0,0,,{\fs14}等軸心國看到炸彈的威力\NAnd when the Axis sees what we're capable of,
+Dialogue: 0,0:39:46.45,0:39:47.88,Default,NTP,0,0,0,,{\fs14}他們將別無選擇\Nthey'll have no choice.
+Dialogue: 0,0:39:48.66,0:39:50.24,Default,NTP,0,0,0,,{\fs14}不得不投降\NThey will have to surrender.
+Dialogue: 0,0:39:51.35,0:39:54.72,Default,NTP,0,0,0,,{\fs14}以後也再也不會有戰爭\NAnd then there will never be another war.
+Dialogue: 0,0:40:00.14,0:40:02.30,Default,NTP,0,0,0,,{\fs14}這就是我們在圍牆後面的秘密\NThat's what we're doing behind those fences.
+Dialogue: 0,0:40:08.53,0:40:10.93,Default,NTP,0,0,0,,{\fs14}我們在書寫時代的新篇章\NWe're writing the prologue to a new era.
+Dialogue: 0,0:40:12.12,0:40:13.78,Default,NTP,0,0,0,,{\fs14}書寫和平之史\NThe history of peace.
+Dialogue: 0,0:40:26.61,0:40:32.20,Default,NTP,0,0,0,,{\fs14}誰的孩子會死在戰爭的最後一刻\N分秒必爭
+Dialogue: 0,0:40:32.81,0:40:35.81,Default,NTP,0,0,0,,{\fs14}-你看見了嗎  -不確定\N- You see that? - Not sure.
+Dialogue: 0,0:40:37.93,0:40:38.98,Default,NTP,0,0,0,,{\fs14}帶過來\NBring it around.
+Dialogue: 0,0:40:42.10,0:40:43.26,Default,NTP,0,0,0,,{\fs14}檢查一下\NRun a check-up.
+Dialogue: 0,0:40:46.67,0:40:47.69,Default,NTP,0,0,0,,{\fs14}托爾文\NTolvin.
+Dialogue: 0,0:40:47.69,0:40:49.26,Default,NTP,0,0,0,,{\fs14}每位乘客都必須出示身份證件\NWe need ID from every passenger.
+Dialogue: 0,0:40:49.74,0:40:52.48,Default,NTP,0,0,0,,{\fs14}你們還需要驗明亨利·斯汀森的身份嗎\NYou need ID from Henry Stimson?
+Dialogue: 0,0:40:52.76,0:40:55.87,Default,NTP,0,0,0,,{\fs14}-又一個書獃子嗎  -是戰爭部長\N- Another egghead? - The Secretary of War.
+Dialogue: 0,0:40:58.44,0:40:59.51,Default,NTP,0,0,0,,{\fs14}走吧\NOkay, let's go.
+Dialogue: 0,0:41:00.32,0:41:02.08,Default,NTP,0,0,0,,{\fs14}放行  走吧\NLet 'em through. Let's go.
+Dialogue: 0,0:41:02.72,0:41:03.66,Default,NTP,0,0,0,,{\fs14}安全\NClear!
+Dialogue: 0,0:41:14.51,0:41:15.79,Default,NTP,0,0,0,,{\fs14}奧本海默博士\NDr. Oppenheimer.
+Dialogue: 0,0:41:16.97,0:41:18.08,Default,NTP,0,0,0,,{\fs14}菲捨先生\NMr. Fisher.
+Dialogue: 0,0:41:18.26,0:41:19.67,Default,NTP,0,0,0,,{\fs14}我本想說你破壞了我的胃口\NI'd say you spoiled my appetite,
+Dialogue: 0,0:41:19.67,0:41:21.04,Default,NTP,0,0,0,,{\fs14}不過裏德·奧克利比你更先一步\Nbut Reed Akley beat you to it.
+Dialogue: 0,0:41:21.04,0:41:24.20,Default,NTP,0,0,0,,{\fs14}有個人事問題我們需要討論一下\NThere's a personnel issue we need to discuss.
+Dialogue: 0,0:41:26.04,0:41:27.09,Default,NTP,0,0,0,,{\fs14}就現在\NRight now.
+Dialogue: 0,0:42:02.65,0:42:03.60,Default,NTP,0,0,0,,{\fs14}起來\NGet up.
+Dialogue: 0,0:42:39.71,0:42:41.70,Default,NTP,0,0,0,,{\fs14}等軸心國看到炸彈的威力\NWhen the Axis sees what we're capable of,
+Dialogue: 0,0:42:41.70,0:42:43.17,Default,NTP,0,0,0,,{\fs14}他們將別無選擇\Nthey'll have no choice.
+Dialogue: 0,0:42:44.01,0:42:45.61,Default,NTP,0,0,0,,{\fs14}不得不投降\NThey will have to surrender.
+Dialogue: 0,0:42:47.16,0:42:50.50,Default,NTP,0,0,0,,{\fs14}以後也再也不會有戰爭\NAnd then there will never be another war.
+Dialogue: 0,0:42:52.32,0:42:54.49,Default,NTP,0,0,0,,{\fs14}這就是我們在圍牆後面的秘密\NThat's what we're doing behind those fences.
+Dialogue: 0,0:42:55.79,0:42:58.21,Default,NTP,0,0,0,,{\fs14}我們在書寫時代的新篇章\NWe're writing the prologue to a new era.
+Dialogue: 0,0:42:59.30,0:43:01.03,Default,NTP,0,0,0,,{\fs14}書寫和平之史\NThe history of peace.
+Dialogue: 0,0:43:12.54,0:43:15.85,Default,NTP,0,0,0,,{\fs14}-部長先生  -奧本海默博士\N- Mr. Secretary. - Dr. Oppenheimer.
+Dialogue: 0,0:43:16.93,0:43:19.47,Default,NTP,0,0,0,,{\fs14}上次讓我等這麼久\NThe last time anybody kept me waiting this long,
+Dialogue: 0,0:43:19.48,0:43:21.15,Default,NTP,0,0,0,,{\fs14}可是發生政變的時候\Nthere was a coup d'etat.
+Dialogue: 0,0:43:21.44,0:43:23.15,Default,NTP,0,0,0,,{\fs14}還不是滴血未流的政變\NAnd not a bloodless one.
+Dialogue: 0,0:43:23.51,0:43:24.90,Default,NTP,0,0,0,,{\fs14}對不起\NMy apologies.
+Dialogue: 0,0:43:25.90,0:43:29.89,Default,NTP,0,0,0,,{\fs14}有些重要的事情不得不處理\NWe had to dot a few Ts and cross a few Is.
+Dialogue: 0,0:43:30.91,0:43:32.73,Default,NTP,0,0,0,,{\fs14}-您這一路飛過來還順利嗎  -沒有墜毀\N- How was your flight? - It didn't crash.
+Dialogue: 0,0:43:32.74,0:43:35.73,Default,NTP,0,0,0,,{\fs14}應該知足了\NWell, to small mercies.
+Dialogue: 0,0:43:35.73,0:43:37.22,Default,NTP,0,0,0,,{\fs14}我倒是希望墜毀了\NI wish it had.
+Dialogue: 0,0:43:37.39,0:43:39.09,Default,NTP,0,0,0,,{\fs14}這樣我就不用告訴羅斯福\NI wouldn't have to tell Roosevelt
+Dialogue: 0,0:43:39.09,0:43:42.99,Default,NTP,0,0,0,,{\fs14}他賭上了整個白宮的前途就換得了幾顆魔豆\Nthat he mortgaged the White House for a handful of magic beans.
+Dialogue: 0,0:43:43.00,0:43:44.53,Default,NTP,0,0,0,,{\fs14}我同意這事很令人失望\NI grant you this is a disappointment.
+Dialogue: 0,0:43:44.53,0:43:48.68,Default,NTP,0,0,0,,{\fs14}你讓美國總統聽取了你那\NYou sold the President of the United States
+Dialogue: 0,0:43:48.77,0:43:50.96,Default,NTP,0,0,0,,{\fs14}《巴克·羅傑斯》般的幻想\Na "Buck Rogers" Fantasy.
+Dialogue: 0,0:43:48.77,0:43:50.96,Default,NTP,0,0,0,,{\fs14}[美國科幻電影]
+Dialogue: 0,0:43:50.96,0:43:53.39,Default,NTP,0,0,0,,{\fs14}你同他握了手  告訴他\NYou shook his hand and told him
+Dialogue: 0,0:43:53.39,0:43:54.85,Default,NTP,0,0,0,,{\fs14}項目的設計被托付給了\Nthe design was entrusted
+Dialogue: 0,0:43:54.85,0:43:57.37,Default,NTP,0,0,0,,{\fs14}擁有全國最頂尖頭腦的人\Nto one of the best minds in the country.
+Dialogue: 0,0:43:58.03,0:43:59.98,Default,NTP,0,0,0,,{\fs14}結果現在他的頭腦\NAnd now that mind
+Dialogue: 0,0:44:00.19,0:44:03.35,Default,NTP,0,0,0,,{\fs14}全塗在克萊斯勒汽車的儀表盤上\Nis getting sponged off the dashboard of a Chrysler.
+Dialogue: 0,0:44:03.35,0:44:05.92,Default,NTP,0,0,0,,{\fs14}斯汀森部長  請容我解釋...\NSecretary Stimson, if I may...
+Dialogue: 0,0:44:08.17,0:44:10.54,Default,NTP,0,0,0,,{\fs14}我們有備用計劃\NThere is a backup plan.
+Dialogue: 0,0:44:11.12,0:44:13.06,Default,NTP,0,0,0,,{\fs14}我們保留了第二組的設計\NWe kept a second design team alive
+Dialogue: 0,0:44:13.06,0:44:15.56,Default,NTP,0,0,0,,{\fs14}-以防發生這樣的情況  -內爆那組嗎\N- for circumstances just like these! - The implosion group?
+Dialogue: 0,0:44:15.56,0:44:17.31,Default,NTP,0,0,0,,{\fs14}那就是你他媽的靈丹妙藥嗎\NThat's your goddamn panacea?
+Dialogue: 0,0:44:17.31,0:44:19.36,Default,NTP,0,0,0,,{\fs14}你自己告訴過我那是天方夜譚\NYou told me yourself it's science fiction.
+Dialogue: 0,0:44:19.36,0:44:20.61,Default,NTP,0,0,0,,{\fs14}現在不是了\NNot anymore.
+Dialogue: 0,0:44:22.38,0:44:23.88,Default,NTP,0,0,0,,{\fs14}內爆組的負責人\NThe director of the implosion group
+Dialogue: 0,0:44:23.88,0:44:25.90,Default,NTP,0,0,0,,{\fs14}是這鎮上最有智慧的人\Nis one of the brightest lights on this Hill.
+Dialogue: 0,0:44:25.90,0:44:28.83,Default,NTP,0,0,0,,{\fs14}他幾乎獨立地把物理問題解決了\NHe solved the physics almost singlehandedly.
+Dialogue: 0,0:44:29.81,0:44:33.14,Default,NTP,0,0,0,,{\fs14}我會讓他親自給你介紹相關細節\NI'll let him walk you through the details himself.
+Dialogue: 0,0:44:58.48,0:45:00.53,Default,NTP,0,0,0,,{\fs14}這位是查爾斯·艾薩克博士\NThis is Dr. Charles Isaacs.
+Dialogue: 0,0:45:01.35,0:45:02.97,Default,NTP,0,0,0,,{\fs14}法蘭克·溫特發生什麼事了\NWhat happened to Frank Winter?
+Dialogue: 0,0:45:22.24,0:45:24.36,Default,NTP,0,0,0,,{\fs14}等軸心國看到炸彈的威力\NWhen the Axis sees what we're capable of,
+Dialogue: 0,0:45:24.36,0:45:25.87,Default,NTP,0,0,0,,{\fs14}他們將別無選擇\Nthey'll have no choice.
+Dialogue: 0,0:45:26.56,0:45:28.19,Default,NTP,0,0,0,,{\fs14}不得不投降\NThey will have to surrender.
+Dialogue: 0,0:45:29.47,0:45:32.86,Default,NTP,0,0,0,,{\fs14}以後也再也不會有戰爭\NAnd then there will never be another war.
+Dialogue: 0,0:45:34.92,0:45:37.19,Default,NTP,0,0,0,,{\fs14}這就是我們在圍牆後面的秘密\NThat's what we're doing behind those fences.
+Dialogue: 0,0:45:37.83,0:45:40.27,Default,NTP,0,0,0,,{\fs14}我們在書寫時代的新篇章\NWe're writing the prologue to a new era.
+Dialogue: 0,0:45:41.06,0:45:42.88,Default,NTP,0,0,0,,{\fs14}書寫和平之史\NThe history of peace.
+Dialogue: 0,0:46:00.07,0:46:01.48,Default,NTP,0,0,0,,{\fs14}我走過歪路\NI've made mistakes.
+Dialogue: 0,0:46:03.57,0:46:05.10,Default,NTP,0,0,0,,{\fs14}做了很多我羞於啟齒的事\NI've done things I'm not proud of,
+Dialogue: 0,0:46:05.11,0:46:08.52,Default,NTP,0,0,0,,{\fs14}但我發誓  我做這些事時都是為了你和凱莉\Nbut I swear, I did all of it with you and Callie in mind.
+Dialogue: 0,0:46:11.50,0:46:12.78,Default,NTP,0,0,0,,{\fs14}幾個月前\NA few months ago,
+Dialogue: 0,0:46:13.11,0:46:16.63,Default,NTP,0,0,0,,{\fs14}另一個設計組的物理學家來找我\Na physicist from another design group came to me
+Dialogue: 0,0:46:16.63,0:46:19.45,Default,NTP,0,0,0,,{\fs14}告訴我他的模型不會成功\Nand he told me that his model wasn't going to work.
+Dialogue: 0,0:46:22.11,0:46:25.57,Default,NTP,0,0,0,,{\fs14}我向他透露了我曾誓要保密的信息\NI revealed information that I'd been sworn to keep secret,
+Dialogue: 0,0:46:26.03,0:46:29.01,Default,NTP,0,0,0,,{\fs14}告訴他在德國的原子彈計劃中有我們的內應\Nthat we had spy inside the German atomic project
+Dialogue: 0,0:46:29.65,0:46:32.36,Default,NTP,0,0,0,,{\fs14}而且維爾納·海森堡領先了我們好幾個月\Nand that Werner Heisenberg was months ahead of us.
+Dialogue: 0,0:46:33.00,0:46:34.20,Default,NTP,0,0,0,,{\fs14}我知道靠陸軍和白宮\NI knew the army and the White House
+Dialogue: 0,0:46:34.20,0:46:36.36,Default,NTP,0,0,0,,{\fs14}絕不可能讓計劃步入正軌  所以\Nwould never right the ship on their own, so
+Dialogue: 0,0:46:37.78,0:46:41.36,Default,NTP,0,0,0,,{\fs14}我和裏德·奧克利開始秘密謀劃\NReed Akley and I engaged in a secret conspiracy
+Dialogue: 0,0:46:41.36,0:46:45.92,Default,NTP,0,0,0,,{\fs14}利用他組內的資源來做內爆\Nto co-op the resources of his group for implosion.
+Dialogue: 0,0:47:41.66,0:47:45.09,Default,NTP,0,0,0,,{\fs14}奧克利給查理·艾薩克升職是想掩蓋我們的蹤跡\NAkley promoted Charlie Isaacs to cover our tracks.
+Dialogue: 0,0:47:45.57,0:47:47.85,Default,NTP,0,0,0,,{\fs14}如果事情東窗事發就由他頂罪\NSet him up in case we ever got caught.
+Dialogue: 0,0:47:48.51,0:47:49.87,Default,NTP,0,0,0,,{\fs14}諷刺的是...\NThe irony is...
+Dialogue: 0,0:47:50.34,0:47:52.46,Default,NTP,0,0,0,,{\fs14}想要實現內爆的唯一方法\Nthe only way we were able to crack implosion
+Dialogue: 0,0:47:52.46,0:47:55.46,Default,NTP,0,0,0,,{\fs14}就是偷用他論文裏的理論\Nis by stealing the theory from a paper he wrote.
+Dialogue: 0,0:47:56.32,0:47:57.52,Default,NTP,0,0,0,,{\fs14}現在奧克利死了\NNow that Akley's dead,
+Dialogue: 0,0:47:57.52,0:47:59.50,Default,NTP,0,0,0,,{\fs14}那可憐的孩子被情報部門抓了起來\NG-2s got that poor kid locked up.
+Dialogue: 0,0:47:59.74,0:48:01.58,Default,NTP,0,0,0,,{\fs14}他們以為他是間諜\NThey think he is a spy,
+Dialogue: 0,0:48:02.54,0:48:04.98,Default,NTP,0,0,0,,{\fs14}其實他毫不知情\Nbut he had no idea.
+Dialogue: 0,0:48:06.53,0:48:08.34,Default,NTP,0,0,0,,{\fs14}我幫不了他  但為了實現這個項目\NThere's nothing I can do but stay the course
+Dialogue: 0,0:48:08.34,0:48:11.74,Default,NTP,0,0,0,,{\fs14}為了人類的未來  我只能堅持到底\Nfor the good of the project, for the sake of the future.
+Dialogue: 0,0:48:14.48,0:48:17.23,Default,NTP,0,0,0,,{\fs14}犧牲小我  保全大我\NWe sacrifice the few to save the many.
+Dialogue: 0,0:48:52.07,0:48:54.18,Default,NTP,0,0,0,,{\fs14}你應該把他告訴你的都記下來\NNo, you gotta write down what he tells you.
+Dialogue: 0,0:48:54.19,0:48:55.42,Default,NTP,0,0,0,,{\fs14}他是醫生\NHe's the doctor.
+Dialogue: 0,0:48:55.67,0:48:57.60,Default,NTP,0,0,0,,{\fs14}好吧  那...\NWell, that's, uh--
+Dialogue: 0,0:48:57.71,0:48:59.96,Default,NTP,0,0,0,,{\fs14}如果你不謹遵醫囑  確實就會那樣\Nthat's what happens if you don't keep it elevated.
+Dialogue: 0,0:49:00.27,0:49:02.27,Default,NTP,0,0,0,,{\fs14}好吧  你聽我說\NYeah. Oh, listen, listen.
+Dialogue: 0,0:49:02.27,0:49:03.94,Default,NTP,0,0,0,,{\fs14}我得...我得掛了\NI gotta-- I have to go,
+Dialogue: 0,0:49:03.94,0:49:07.11,Default,NTP,0,0,0,,{\fs14}但我...我很快會再打給你  好嗎\Nbut I-- I will call you again soon, okay?
+Dialogue: 0,0:49:08.84,0:49:11.17,Default,NTP,0,0,0,,{\fs14}好  我也愛你  媽媽\NYeah. I love you, too, Mom.
+Dialogue: 0,0:49:22.30,0:49:23.42,Default,NTP,0,0,0,,{\fs14}借過\NExcuse me.
+Dialogue: 0,0:49:26.19,0:49:29.17,Default,NTP,0,0,0,,{\fs14}意見分歧...\NDifferences of opinion...
+Dialogue: 0,0:49:29.17,0:49:32.98,Default,NTP,0,0,0,,{\fs14}意見分歧...\NDifferences of opinion...
+Dialogue: 0,0:49:33.36,0:49:35.70,Default,NTP,0,0,0,,{\fs14}正如查爾斯·達爾文的真知灼見\NAs Charles Darwin so ably said...
+Dialogue: 0,0:49:35.70,0:49:37.68,Default,NTP,0,0,0,,{\fs14}謹記歷史\NGone but not forgotten.
+Dialogue: 0,0:49:42.13,0:49:44.15,Default,NTP,0,0,0,,{\fs14}他們說過我不需要親自來會面\NThey said I wouldn't have to meet in person.
+Dialogue: 0,0:49:44.78,0:49:47.30,Default,NTP,0,0,0,,{\fs14}除非有突發情況\NOnly under extraordinary conditions.
+Dialogue: 0,0:49:48.90,0:49:51.62,Default,NTP,0,0,0,,{\fs14}-事態已改變  -變化無處不在\N- Things have changed. - They're changing everywhere.
+Dialogue: 0,0:49:53.95,0:49:56.34,Default,NTP,0,0,0,,{\fs14}現在的研發重點是內爆\NImplosion is taking center stage.
+Dialogue: 0,0:03:45.41,0:04:06.41,Default,NTP,0,0,0,,{\fs14}m 20 0 l 209 0 b 218 0 229 11 229 20 l 229 209 b 229 218 218 228 209 228 l 20 228 b 11 228 0 218 0 209 l 0 20 b 0 11 11 0 20 0
+Dialogue: 0,0:03:45.41,0:04:06.41,Default,NTP,0,0,0,,{\fs14}m 115 64 l 115 35 l 171 0 l 177 0 l 133 46 l 143 52 l 179 0 l 184 0 l 159 63 l 229 107 l 229 182 l 145 96 l 135 122 l 207 227 l 137 227 l 115 172 l 115 93 l 126 76 l 115 64 l 104 76 l 115 93 l 115 172 l 93 227 l 23 227 l 95 122 l 84 96 l 0 182 l 0 107 l 70 63 l 45 0 l 50 0 l 87 52 l 97 46 l 52 0 l 59 0 l 115 35
+Dialogue: 0,0:03:45.41,0:04:06.41,Default,NTP,0,0,0,,{\fs14}m 71 60 b 71 0 161 0 161 60 b 161 120 71 120 71 60
+Dialogue: 0,0:03:45.41,0:03:48.41,Default,NTP,0,0,0,,{\fs14}m 325 0 l 355 0 l 332 47 l 354 47 l 399 136 l 369 136 l 328 53 l 288 136 l 257 136 l 325 0 m 467 0 l 497 0 l 474 47 l 496 47 l 541 136 l 511 136 l 470 53 l 430 136 l 399 136 l 467 0 m 545 1 l 583 1 l 583 14 l 568 14 l 568 19 l 583 19 l 583 30 l 568 30 l 568 34 l 599 34 l 599 30 l 583 30 l 583 19 l 599 19 l 599 14 l 583 14 l 583 1 l 611 1 b 616 1 622 6 622 10 l 622 36 l 652 0 l 678 0 l 644 41 l 622 41 l 622 47 l 596 47 l 597 54 l 625 54 l 625 68 l 541 68 l 541 54 l 572 54 l 571 47 l 545 47 l 545 1 m 583 72 l 583 85 l 569 85 l 569 90 l 598 90 l 598 85 l 583 85 l 583 72 l 611 72 b 615 72 621 78 621 82 l 653 44 l 678 44 l 644 86 l 621 86 l 621 103 l 597 103 l 597 136 l 570 136 l 564 126 l 562 136 l 542 136 l 548 107 l 568 107 l 565 121 l 571 121 l 571 103 l 547 103 l 547 72 l 583 72 m 600 107 l 620 107 l 624 124 l 653 89 l 679 89 l 642 136 l 615 136 l 618 132 l 606 132 l 600 107 m 689 0 l 716 0 l 721 15 l 732 15 l 732 30 l 718 56 l 731 56 l 735 100 l 721 100 l 717 59 l 714 64 l 714 136 l 693 136 l 693 79 l 676 79 l 707 30 l 679 30 l 679 15 l 694 15 l 689 0 m 738 0 l 804 0 b 807 0 813 6 813 9 l 813 87 l 794 87 l 794 14 l 756 14 l 756 87 l 763 77 l 763 21 l 787 21 l 787 91 l 798 91 l 798 120 l 820 120 l 812 136 l 778 136 l 778 90 l 748 136 l 723 136 l 756 87 l 738 87 l 738 0 m 257 151 l 275 151 l 297 182 l 319 151 l 337 151 l 304 197 l 304 227 l 290 227 l 290 197 l 257 151 m 337 151 l 355 151 l 377 182 l 399 151 l 417 151 l 384 197 l 384 227 l 370 227 l 370 197 l 337 151 m 425 192 l 447 192 b 445 181 427 181 425 192 l 410 192 b 414 162 458 162 462 192 l 462 206 l 425 206 b 425 210 429 212 433 213 l 462 213 l 462 227 l 433 227 b 412 227 408 203 410 192 m 462 151 l 532 151 l 532 165 l 504 165 l 504 227 l 489 227 l 489 165 l 462 165 l 462 151 m 580 172 l 580 186 l 549 186 b 543 186 543 192 549 192 l 565 192 b 589 192 589 227 565 227 l 532 227 l 532 213 l 565 213 b 570 213 570 206 565 206 l 549 206 b 524 206 524 172 549 172 l 580 172 m 592 213 l 606 213 l 606 227 l 592 227 l 592 213 m 639 172 l 665 172 l 665 186 l 639 186 b 623 186 623 213 639 213 l 665 213 l 665 227 l 639 227 b 603 227 603 172 639 172 m 700 184 b 722 184 722 215 700 215 l 700 229 b 740 229 740 170 700 170 b 660 170 660 229 700 229 l 700 215 b 680 215 680 184 700 184 m 737 172 l 782 172 b 803 172 813 177 813 198 l 813 228 l 799 228 l 799 198 b 799 186 793 187 782 187 l 782 228 l 768 228 l 768 187 l 752 187 l 752 228 l 737 228 l 737 172
+Dialogue: 0,0:03:48.41,0:03:51.41,Default,NTP,0,0,0,,{\fs14}本字幕由人人影視字幕組翻譯\N禁止用於任何商業盈利行為
+Dialogue: 0,0:03:51.41,0:03:54.41,Default,NTP,0,0,0,,{\fs14}翻譯  阿包  菲力  王二川  木淺薰  蔡茸茸
+Dialogue: 0,0:03:54.41,0:03:57.41,Default,NTP,0,0,0,,{\fs14}翻譯  小酸奶  抹茶咖啡  小肚腩  持久  迷失綻放
+Dialogue: 0,0:03:57.41,0:04:00.41,Default,NTP,0,0,0,,{\fs14}校對  賣竹子換核彈
+Dialogue: 0,0:04:00.41,0:04:03.41,Default,NTP,0,0,0,,{\fs14}時間軸  濃子  阿包  言
+Dialogue: 0,0:04:03.41,0:04:06.41,Default,NTP,0,0,0,,{\fs14}後期  Sung   精校&總監  麵條打包子
+
+

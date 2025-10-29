@@ -1,0 +1,1298 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 下注释,Microsoft YaHei,20,&H00808080,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,0,1,1,2,5,5,10,1
+Style: Default,Microsoft YaHei,18,&H00808080,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,5,5,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:07.52,0:01:11.15,下注释,NTP,0000,0000,0000,,明斯克  白俄罗斯
+Dialogue: 0,0:02:46.00,0:02:47.20,下注释,NTP,0000,0000,0000,,{\an8}关闭 燃料泵
+Dialogue: 0,0:02:47.40,0:02:48.00,下注释,NTP,0000,0000,0000,,{\an8}拒绝访问
+Dialogue: 0,0:04:35.10,0:04:36.00,下注释,NTP,0000,0000,0000,,{\an8}警报
+Dialogue: 0,0:04:37.00,0:04:38.30,下注释,NTP,0000,0000,0000,,货舱门&侧舱门
+Dialogue: 0,0:05:59.90,0:06:02.20,下注释,NTP,0000,0000,0000,,不可能的 任务:失控国度
+Dialogue: 0,0:06:02.80,0:06:05.11,下注释,NTP,0000,0000,0000,,伦敦  英国
+Dialogue: 0,0:09:53.84,0:09:57.51,下注释,NTP,0000,0000,0000,,{\an8}华盛顿特区
+Dialogue: 0,0:18:08.30,0:18:08.70,下注释,NTP,0000,0000,0000,,加密通话
+Dialogue: 0,0:20:46.28,0:20:49.00,下注释,NTP,0000,0000,0000,,六个月之后
+Dialogue: 0,0:20:48.83,0:20:51.66,下注释,NTP,0000,0000,0000,,{\an8}哈瓦那  古巴
+Dialogue: 0,0:20:58.21,0:21:00.38,下注释,NTP,0000,0000,0000,,中情局 - 兰利  弗吉尼亚州
+Dialogue: 0,0:22:29.34,0:22:30.90,下注释,NTP,0000,0000,0000,,再次失事 606航班在哪
+Dialogue: 0,0:22:31.00,0:22:32.99,下注释,NTP,0000,0000,0000,,兵工厂
+Dialogue: 0,0:22:33.54,0:22:36.03,下注释,NTP,0000,0000,0000,,世界银行宣布危机
+Dialogue: 0,0:23:16.65,0:23:18.05,下注释,NTP,0000,0000,0000,,维也纳剧院
+Dialogue: 0,0:23:18.55,0:23:20.35,下注释,NTP,0000,0000,0000,,你赢了
+Dialogue: 0,0:25:32.50,0:25:36.28,下注释,NTP,0000,0000,0000,,维也纳  奥地利
+Dialogue: 0,0:25:54.20,0:25:55.00,下注释,NTP,0000,0000,0000,,图兰朵
+Dialogue: 0,0:26:06.40,0:26:07.40,下注释,NTP,0000,0000,0000,,确认身份
+Dialogue: 0,0:26:07.40,0:26:08.50,下注释,NTP,0000,0000,0000,,{\an8}邓恩·本杰明
+Dialogue: 0,0:29:23.50,0:29:23.90,下注释,NTP,0000,0000,0000,,电器设备控制室
+Dialogue: 0,0:34:44.80,0:34:45.30,下注释,NTP,0000,0000,0000,,图兰朵
+Dialogue: 0,0:44:19.50,0:44:22.80,下注释,NTP,0000,0000,0000,,{\an8}奥地利总理遇刺身亡 车队毁于炸弹爆炸
+Dialogue: 0,0:47:00.90,0:47:04.60,下注释,NTP,0000,0000,0000,,{\an8}伊斯坦布尔
+Dialogue: 0,0:47:08.70,0:47:12.60,下注释,NTP,0000,0000,0000,,{\an8}雅加达
+Dialogue: 0,0:47:19.00,0:47:21.50,下注释,NTP,0000,0000,0000,,{\an8}马尼拉
+Dialogue: 0,0:47:29.50,0:47:32.00,下注释,NTP,0000,0000,0000,,{\an8}再次失事 606航班在哪
+Dialogue: 0,0:47:34.30,0:47:36.80,下注释,NTP,0000,0000,0000,,{\an8}军火公司倒闭 化学灾害后死亡人数攀升
+Dialogue: 0,0:47:39.05,0:47:40.60,下注释,NTP,0000,0000,0000,,{\an8}总统车祸身亡 总理呼吁保持冷静
+Dialogue: 0,0:52:01.45,0:52:04.57,下注释,NTP,0000,0000,0000,,卡萨布兰卡  摩洛哥
+Dialogue: 0,0:57:48.00,0:57:48.60,下注释,NTP,0000,0000,0000,,拒绝进入
+Dialogue: 0,0:58:45.40,0:58:46.00,下注释,NTP,0000,0000,0000,,授权进入
+Dialogue: 0,0:58:48.30,0:58:49.10,下注释,NTP,0000,0000,0000,,{\an8}数据加密传输
+Dialogue: 0,1:00:50.40,1:00:52.30,下注释,NTP,0000,0000,0000,,{\an8}扫描中...
+Dialogue: 0,1:00:52.30,1:00:53.00,下注释,NTP,0000,0000,0000,,匹配
+Dialogue: 0,1:00:53.60,1:00:56.10,下注释,NTP,0000,0000,0000,,{\an8}拒绝访问
+Dialogue: 0,1:01:32.40,1:01:33.30,下注释,NTP,0000,0000,0000,,干扰
+Dialogue: 0,1:02:03.00,1:02:03.60,下注释,NTP,0000,0000,0000,,释放
+Dialogue: 0,1:02:41.80,1:02:42.60,下注释,NTP,0000,0000,0000,,开启
+Dialogue: 0,1:03:04.60,1:03:07.40,下注释,NTP,0000,0000,0000,,氧气
+Dialogue: 0,1:03:08.50,1:03:10.60,下注释,NTP,0000,0000,0000,,氧气含量
+Dialogue: 0,1:03:21.00,1:03:22.10,下注释,NTP,0000,0000,0000,,停止
+Dialogue: 0,1:03:50.80,1:03:52.70,下注释,NTP,0000,0000,0000,,氧气含量
+Dialogue: 0,1:04:42.50,1:04:43.60,下注释,NTP,0000,0000,0000,,系统重启
+Dialogue: 0,1:05:00.10,1:05:01.20,下注释,NTP,0000,0000,0000,,{\an8}系统重新启动中
+Dialogue: 0,1:06:28.30,1:06:30.40,下注释,NTP,0000,0000,0000,,{\an8}冷却系统启动
+Dialogue: 0,1:06:34.80,1:06:37.10,下注释,NTP,0000,0000,0000,,{\an8}检修舱盖关闭
+Dialogue: 0,1:06:39.10,1:06:39.70,下注释,NTP,0000,0000,0000,,{\an8}改写 运行程序
+Dialogue: 0,1:06:40.60,1:06:42.40,下注释,NTP,0000,0000,0000,,改写失败
+Dialogue: 0,1:07:24.10,1:07:25.60,下注释,NTP,0000,0000,0000,,氧气含量
+Dialogue: 0,1:07:26.00,1:07:27.70,下注释,NTP,0000,0000,0000,,检修舱盖关闭
+Dialogue: 0,1:08:10.40,1:08:11.40,下注释,NTP,0000,0000,0000,,授权进入
+Dialogue: 0,1:11:40.50,1:11:42.50,下注释,NTP,0000,0000,0000,,{\an8}搜索中
+Dialogue: 0,1:15:50.40,1:15:51.20,下注释,NTP,0000,0000,0000,,{\an8}后方碰撞预警
+Dialogue: 0,1:15:51.20,1:15:52.20,下注释,NTP,0000,0000,0000,,{\an8}接近警报
+Dialogue: 0,1:24:47.27,1:24:49.06,下注释,NTP,0000,0000,0000,,{\an8}英国大臣专用的文件箱
+Dialogue: 0,1:26:52.00,1:26:54.10,下注释,NTP,0000,0000,0000,,搜索中
+Dialogue: 0,1:31:03.50,1:31:04.30,下注释,NTP,0000,0000,0000,,文件删除中
+Dialogue: 0,1:31:04.80,1:31:05.80,下注释,NTP,0000,0000,0000,,文件已删除
+Dialogue: 0,1:35:15.50,1:35:19.30,下注释,NTP,0000,0000,0000,,{\an8}首相论经济复苏 大规模增加学徒
+Dialogue: 0,1:45:20.00,1:45:20.70,下注释,NTP,0000,0000,0000,,{\an8}获得许可
+Dialogue: 0,1:52:08.10,1:52:08.80,下注释,NTP,0000,0000,0000,,转账中...
+Dialogue: 0,1:52:08.90,1:52:10.40,下注释,NTP,0000,0000,0000,,转账完成
+Dialogue: 0,1:54:00.30,1:54:01.20,下注释,NTP,0000,0000,0000,,炸弹已解除
+Dialogue: 0,2:05:25.00,2:05:27.30,下注释,NTP,0000,0000,0000,,不可能的 任务:失控国度
+Dialogue: 0,0:01:15.04,0:01:15.04,下注释,NTP,0000,0000,0000,,
+Dialogue: 0,0:01:15.04,0:01:16.50,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,0:01:16.75,0:01:18.70,Default,NTP,0000,0000,0000,,班吉 你听到了吗?\N{\fs16}Benji, do you copy?{\r}
+Dialogue: 0,0:01:19.20,0:01:20.81,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,0:01:21.22,0:01:23.25,Default,NTP,0000,0000,0000,,该死\N{\fs16}Oh. Shit.{\r}
+Dialogue: 0,0:01:23.27,0:01:24.72,Default,NTP,0000,0000,0000,,伊森在哪?\N{\fs16}Where's Ethan?{\r}
+Dialogue: 0,0:01:24.74,0:01:26.40,Default,NTP,0000,0000,0000,,呃 我现在没法说话\N{\fs16}Uh. I can't talk right now.{\r}
+Dialogue: 0,0:01:26.42,0:01:28.83,Default,NTP,0000,0000,0000,,包裹在飞机上\N{\fs16}The package is on the plane.{\r}
+Dialogue: 0,0:01:28.86,0:01:30.43,Default,NTP,0000,0000,0000,,我知道\N{\fs16}Yeah, I know.{\r}
+Dialogue: 0,0:01:30.45,0:01:34.36,Default,NTP,0000,0000,0000,,我们正在制定B计划 准确来说 是C计划\N{\fs16}We're currently formulate a plan B. Although technically, it's a plan C.{\r}
+Dialogue: 0,0:01:34.38,0:01:35.76,Default,NTP,0000,0000,0000,,事情进展不大顺利\N{\fs16}This isn't going very well.{\r}
+Dialogue: 0,0:01:35.80,0:01:38.09,Default,NTP,0000,0000,0000,,我知道 布兰特 说这话没什么帮助\N{\fs16}I am aware of that, Brandt. You're not helping.{\r}
+Dialogue: 0,0:01:38.11,0:01:39.22,Default,NTP,0000,0000,0000,,伊森在哪?\N{\fs16}Where's Ethan?{\r}
+Dialogue: 0,0:01:39.25,0:01:40.70,Default,NTP,0000,0000,0000,,我不知道 我们关了通讯器\N{\fs16}I don't know. We're on radio silence.{\r}
+Dialogue: 0,0:01:40.73,0:01:43.47,Default,NTP,0000,0000,0000,,不能让那架飞机起飞 包裹还在上面\N{\fs16}That plane cannot takeoff, with the package on it.{\r}
+Dialogue: 0,0:01:43.50,0:01:45.60,Default,NTP,0000,0000,0000,,- 听懂了吗?  - 我们正在努力阻止\N{\fs16}- You understand?  - We're working on it.{\r}
+Dialogue: 0,0:01:45.63,0:01:47.71,Default,NTP,0000,0000,0000,,卢瑟? 你在那里干什么?\N{\fs16}Luther? What the hell are you doing there?{\r}
+Dialogue: 0,0:01:47.73,0:01:49.50,Default,NTP,0000,0000,0000,,你应该在马来西亚执行任务的\N{\fs16}You are supposed to be on an assignment in Malaysia.{\r}
+Dialogue: 0,0:01:49.53,0:01:52.56,Default,NTP,0000,0000,0000,,我在马来西亚 已经到这两天了 班吉要我帮忙\N{\fs16}I'm in Malaysia, I've been here 2 days. Benji needed my help.{\r}
+Dialogue: 0,0:01:52.61,0:01:56.10,Default,NTP,0000,0000,0000,,我没有求助 我只是... 需要他的协助 这是两码事\N{\fs16}I didn't need help. I just... I needed assistance, it's a different thing.{\r}
+Dialogue: 0,0:01:56.12,0:01:58.45,Default,NTP,0000,0000,0000,,包裹还在飞机上\N{\fs16}The package is still on that plane.{\r}
+Dialogue: 0,0:01:59.82,0:02:01.61,Default,NTP,0000,0000,0000,,我们知道包裹还在飞机上\N{\fs16}We understand the package is on the plane.{\r}
+Dialogue: 0,0:02:01.63,0:02:04.09,Default,NTP,0000,0000,0000,,- 我们准备远程让它瘫痪  - 你们可以做到的\N{\fs16}- We're trying to cripple it remotely.  - You can do that.{\r}
+Dialogue: 0,0:02:04.11,0:02:06.88,Default,NTP,0000,0000,0000,,如果飞行员不关掉卫星上传链接就能做到\N{\fs16}We can if the pilot left the satellite uplink switch on.{\r}
+Dialogue: 0,0:02:06.91,0:02:09.26,Default,NTP,0000,0000,0000,,- 他没关掉  - 那你怎么连接进上传链接?\N{\fs16}- Which he has.  - And how do you access the uplink?{\r}
+Dialogue: 0,0:02:09.28,0:02:12.81,Default,NTP,0000,0000,0000,,- 需要侵入俄国的卫星  - 我不能授权侵入\N{\fs16}- It involves hacking a Russian satellite.  - I can't authorise that.{\r}
+Dialogue: 0,0:02:12.83,0:02:14.65,Default,NTP,0000,0000,0000,,所以我没打算要你批准\N{\fs16}Which is why I didn't ask permission.{\r}
+Dialogue: 0,0:02:14.68,0:02:17.14,Default,NTP,0000,0000,0000,,我们正在接受行为不当的调查\N{\fs16}We are under investigation for misconduct.{\r}
+Dialogue: 0,0:02:17.16,0:02:20.56,Default,NTP,0000,0000,0000,,包裹已经在飞机上了 你要我怎么办?\N{\fs16}The package is on-board. What do you want me to do?{\r}
+Dialogue: 0,0:02:28.52,0:02:30.41,Default,NTP,0000,0000,0000,,呃 卢瑟\N{\fs16}Uh. Luther.{\r}
+Dialogue: 0,0:02:30.43,0:02:33.09,Default,NTP,0000,0000,0000,,我看到热释放了 班吉 引擎正在启动\N{\fs16}I'm reading a heat bloom, Benji. The engines are starting.{\r}
+Dialogue: 0,0:02:33.11,0:02:34.67,Default,NTP,0000,0000,0000,,嗯 我知道\N{\fs16}Yeah. I'm aware of that.{\r}
+Dialogue: 0,0:02:34.70,0:02:38.21,Default,NTP,0000,0000,0000,,但是不连接到卫星我什么都做不了\N{\fs16}But I can't do anything until I'm connected to the satellite.{\r}
+Dialogue: 0,0:02:38.50,0:02:41.39,Default,NTP,0000,0000,0000,,- 班吉 连接好了  - 好的 太棒了\N{\fs16}- Benji, you are connected.  - Okay, Great.{\r}
+Dialogue: 0,0:02:42.04,0:02:44.79,Default,NTP,0000,0000,0000,,包裹还在飞机上\N{\fs16}The package is still on that plane.{\r}
+Dialogue: 0,0:02:44.82,0:02:46.70,Default,NTP,0000,0000,0000,,切断燃油泵\N{\fs16}Shut down the fuel pump.{\r}
+Dialogue: 0,0:02:46.73,0:02:48.55,Default,NTP,0000,0000,0000,,机械已经锁定了\N{\fs16}Uh. Mechanical are lockdown.{\r}
+Dialogue: 0,0:02:48.62,0:02:51.74,Default,NTP,0000,0000,0000,,- 电力系统呢?  - 哦 可能有用\N{\fs16}- What about the electrical system?  - Oh, that might work.{\r}
+Dialogue: 0,0:02:51.77,0:02:52.55,Default,NTP,0000,0000,0000,,不 不行\N{\fs16}No. No.{\r}
+Dialogue: 0,0:02:52.58,0:02:54.44,Default,NTP,0000,0000,0000,,- 液压系统  - 好的 等等\N{\fs16}- Hydraulics.  - Okay, standby.{\r}
+Dialogue: 0,0:02:54.46,0:02:56.45,Default,NTP,0000,0000,0000,,不行 加密了\N{\fs16}No, they're encrypted.{\r}
+Dialogue: 0,0:02:57.93,0:02:59.00,Default,NTP,0000,0000,0000,,班吉 飞机起飞了\N{\fs16}Benji, the plane.{\r}
+Dialogue: 0,0:02:59.03,0:03:00.74,Default,NTP,0000,0000,0000,,是的 包裹还在飞机上\N{\fs16}Yes! The package is on the plane!{\r}
+Dialogue: 0,0:03:00.77,0:03:02.63,Default,NTP,0000,0000,0000,,我们知道\N{\fs16}We get it!{\r}
+Dialogue: 0,0:03:04.17,0:03:06.18,Default,NTP,0000,0000,0000,,你能打开舱门吗?\N{\fs16}Can you open the door?{\r}
+Dialogue: 0,0:03:06.20,0:03:08.55,Default,NTP,0000,0000,0000,,- 伊森? 你在哪?  - 我在飞机旁边\N{\fs16}- Ethan? Where are you?  - I'm by the plane.{\r}
+Dialogue: 0,0:03:08.57,0:03:10.49,Default,NTP,0000,0000,0000,,班吉 你能打开舱门吗?\N{\fs16}Benji, can you open the door?{\r}
+Dialogue: 0,0:03:10.51,0:03:13.24,Default,NTP,0000,0000,0000,,呃 打开舱门是吗? 也许可以\N{\fs16}Uh. Can I open the door? Uh. Maybe.{\r}
+Dialogue: 0,0:03:13.27,0:03:15.78,Default,NTP,0000,0000,0000,,我叫你打开的时候 你就打开舱门\N{\fs16}Open the door when I tell you.{\r}
+Dialogue: 0,0:03:29.79,0:03:31.61,Default,NTP,0000,0000,0000,,我在飞机上 打开舱门\N{\fs16}I'm on the plane. Open the door.{\r}
+Dialogue: 0,0:03:31.63,0:03:32.77,Default,NTP,0000,0000,0000,,你怎么进飞机里的?\N{\fs16}How did you get in the plane?{\r}
+Dialogue: 0,0:03:32.80,0:03:35.55,Default,NTP,0000,0000,0000,,我不在飞机里 我在飞机上面\N{\fs16}Not in the plane, I'm on the plane!{\r}
+Dialogue: 0,0:03:35.57,0:03:37.84,Default,NTP,0000,0000,0000,,打开舱门\N{\fs16}Open the door!{\r}
+Dialogue: 0,0:03:41.94,0:03:44.41,Default,NTP,0000,0000,0000,,班吉 打开舱门\N{\fs16}Benji. Open the door!{\r}
+Dialogue: 0,0:03:44.43,0:03:46.97,Default,NTP,0000,0000,0000,,好好好... 好的 好的\N{\fs16}Yeah-yeah-yeah... Okay, okay.{\r}
+Dialogue: 0,0:03:51.24,0:03:54.75,Default,NTP,0000,0000,0000,,- 班吉 立刻把舱门打开  - 我正在开\N{\fs16}- Benji, open that door right now!  - Yeah, I am trying.{\r}
+Dialogue: 0,0:04:08.53,0:04:11.34,Default,NTP,0000,0000,0000,,- 快点 班吉  - 班吉 快打开舱门\N{\fs16}- Come on, Benji.  - Benji, open that door!{\r}
+Dialogue: 0,0:04:11.36,0:04:13.75,Default,NTP,0000,0000,0000,,快点 快点 快点\N{\fs16}Come on. Come on. Come on.{\r}
+Dialogue: 0,0:04:19.26,0:04:22.37,Default,NTP,0000,0000,0000,,快点 好的 打开了\N{\fs16}Come on. Yes, got it.{\r}
+Dialogue: 0,0:04:26.75,0:04:28.60,Default,NTP,0000,0000,0000,,开错门了\N{\fs16}That's the wrong door!{\r}
+Dialogue: 0,0:04:28.63,0:04:30.89,Default,NTP,0000,0000,0000,,班吉 不是这扇门 是另外一扇\N{\fs16}Benji, not that door. The other door.{\r}
+Dialogue: 0,0:04:30.92,0:04:32.72,Default,NTP,0000,0000,0000,,另外一扇 好的 另外一扇\N{\fs16}The other door. Right. Yes, the other door.{\r}
+Dialogue: 0,0:04:32.74,0:04:35.95,Default,NTP,0000,0000,0000,,好的 好的 对不起 对不起 是我的错\N{\fs16}Okay, yes, yes. Sorry, sorry. My bad, my bad.{\r}
+Dialogue: 0,0:04:40.99,0:04:42.65,Default,NTP,0000,0000,0000,,去看看\N{\fs16}Check it out.{\r}
+Dialogue: 0,0:04:42.85,0:04:44.88,Default,NTP,0000,0000,0000,,好的 听着 我要打开那扇门了\N{\fs16}Alright. Look, I'm gonna open the para-door.{\r}
+Dialogue: 0,0:04:44.90,0:04:46.73,Default,NTP,0000,0000,0000,,是这扇门吗?\N{\fs16}How's that?{\r}
+Dialogue: 0,0:05:15.35,0:05:17.36,Default,NTP,0000,0000,0000,,嘿 嘿\N{\fs16}Hey. Hey.{\r}
+Dialogue: 0,0:06:32.46,0:06:34.28,Default,NTP,0000,0000,0000,,我们要关门了\N{\fs16}We're about to close.{\r}
+Dialogue: 0,0:06:34.31,0:06:36.15,Default,NTP,0000,0000,0000,,我不会待太久的\N{\fs16}I won't be long.{\r}
+Dialogue: 0,0:06:36.18,0:06:38.84,Default,NTP,0000,0000,0000,,有什么想买的吗?\N{\fs16}You looking for anything in particular.{\r}
+Dialogue: 0,0:06:39.47,0:06:42.00,Default,NTP,0000,0000,0000,,一些稀有的东西\N{\fs16}Something rare.{\r}
+Dialogue: 0,0:06:45.33,0:06:47.30,Default,NTP,0000,0000,0000,,我来猜一猜\N{\fs16}Let me guess.{\r}
+Dialogue: 0,0:06:48.54,0:06:50.26,Default,NTP,0000,0000,0000,,古典音乐\N{\fs16}Classical.{\r}
+Dialogue: 0,0:06:50.29,0:06:51.29,Default,NTP,0000,0000,0000,,爵士乐\N{\fs16}Jazz.{\r}
+Dialogue: 0,0:06:51.31,0:06:53.43,Default,NTP,0000,0000,0000,,- 赛克斯风  - 科尔成\N{\fs16}- Sax.  - Coltrain.{\r}
+Dialogue: 0,0:06:53.46,0:06:55.63,Default,NTP,0000,0000,0000,,- 钢琴  - 和尚\N{\fs16}- Piano.  - Monk.{\r}
+Dialogue: 0,0:06:55.66,0:06:58.21,Default,NTP,0000,0000,0000,,影子威尔逊弹贝斯\N{\fs16}Shadow Wilson on the bass.{\r}
+Dialogue: 0,0:06:58.23,0:07:00.99,Default,NTP,0000,0000,0000,,影子威尔逊打鼓\N{\fs16}Shadow Wilson played drums.{\r}
+Dialogue: 0,0:07:01.44,0:07:04.09,Default,NTP,0000,0000,0000,,为什么叫他"影子"?\N{\fs16}Know why they called him Shadow?{\r}
+Dialogue: 0,0:07:04.11,0:07:06.80,Default,NTP,0000,0000,0000,,因为他的指法轻快\N{\fs16}Because he had a light touch.{\r}
+Dialogue: 0,0:07:07.45,0:07:09.29,Default,NTP,0000,0000,0000,,你走运了\N{\fs16}You're in luck.{\r}
+Dialogue: 0,0:07:10.73,0:07:13.06,Default,NTP,0000,0000,0000,,这是第一版唱片\N{\fs16}I've a first pressing.{\r}
+Dialogue: 0,0:07:21.14,0:07:23.43,Default,NTP,0000,0000,0000,,真的是你\N{\fs16}It really is you.{\r}
+Dialogue: 0,0:07:25.99,0:07:28.13,Default,NTP,0000,0000,0000,,我听说过你的故事\N{\fs16}I've heard stories.{\r}
+Dialogue: 0,0:07:28.36,0:07:30.60,Default,NTP,0000,0000,0000,,不可能都是真的\N{\fs16}They can't all be true.{\r}
+Dialogue: 0,0:07:52.27,0:07:54.05,Default,NTP,0000,0000,0000,,晚上好 亨特先生\N{\fs16}Good even, Mr. Hunt.{\r}
+Dialogue: 0,0:07:54.08,0:07:57.81,Default,NTP,0000,0000,0000,,经确认 你在白俄罗斯找回的武器是VX神经毒气\N{\fs16}The weapons you recovered in Belarus were confirmed to be VX nerve gas.{\r}
+Dialogue: 0,0:07:57.83,0:08:00.56,Default,NTP,0000,0000,0000,,具有摧毁大城市的杀伤力\N{\fs16}Capable of devastating a major city.{\r}
+Dialogue: 0,0:08:00.58,0:08:02.43,Default,NTP,0000,0000,0000,,飞机降落后24小时内\N{\fs16}The bodies of the air crew were found less than{\r}
+Dialogue: 0,0:08:02.45,0:08:05.35,Default,NTP,0000,0000,0000,,在大马士革发现飞行员遗体\N{\fs16}24 hours after they landed in Damascus.{\r}
+Dialogue: 0,0:08:05.37,0:08:08.39,Default,NTP,0000,0000,0000,,经确认 他们是车臣独立派低级成员\N{\fs16}They were identified as low level Chechen separatist.{\r}
+Dialogue: 0,0:08:08.42,0:08:10.29,Default,NTP,0000,0000,0000,,他们没有途径和能力\N{\fs16}With neither the access nor the ability{\r}
+Dialogue: 0,0:08:10.32,0:08:13.43,Default,NTP,0000,0000,0000,,可以获取他们载运的武器\N{\fs16}to acquire the weapons they were transporting.{\r}
+Dialogue: 0,0:08:13.46,0:08:15.18,Default,NTP,0000,0000,0000,,这一点证明了你的怀疑\N{\fs16}This would support your suspicion{\r}
+Dialogue: 0,0:08:15.21,0:08:18.43,Default,NTP,0000,0000,0000,,有一个对西方利益友好国家采取恐怖行动的\N{\fs16}that a shadow organization is committed to inciting revolution.{\r}
+Dialogue: 0,0:08:18.46,0:08:22.65,Default,NTP,0000,0000,0000,,致力于煽动革命的秘密组织\N{\fs16}By enabling acts of terror in nations friendly to Western interests.{\r}
+Dialogue: 0,0:08:22.67,0:08:25.65,Default,NTP,0000,0000,0000,,IMF怀疑这个秘密组织就是\N{\fs16}IMF suspects this to be the same shadow organization{\r}
+Dialogue: 0,0:08:25.68,0:08:27.94,Default,NTP,0000,0000,0000,,你过去一年追查的那个\N{\fs16}you have been tracking for the last year.{\r}
+Dialogue: 0,0:08:27.96,0:08:30.33,Default,NTP,0000,0000,0000,,被称为"辛迪加"的组织\N{\fs16}Also known as the Syndicate.{\r}
+Dialogue: 0,0:08:30.35,0:08:32.74,Default,NTP,0000,0000,0000,,IMF的猜测是对的\N{\fs16}IMF would be right.{\r}
+Dialogue: 0,0:08:32.76,0:08:35.01,Default,NTP,0000,0000,0000,,通常情况下 你和你的团队会接到任务\N{\fs16}Normally, you and your team would be tasked{\r}
+Dialogue: 0,0:08:35.04,0:08:38.01,Default,NTP,0000,0000,0000,,潜入并破坏这个恐怖组织\N{\fs16}with infiltrating and disrupting this terrorist network,{\r}
+Dialogue: 0,0:08:38.03,0:08:41.69,Default,NTP,0000,0000,0000,,但是我们已经采取行动 确保此事不会发生\N{\fs16}but we have taken steps to ensure that this will not happen.{\r}
+Dialogue: 0,0:08:41.71,0:08:44.37,Default,NTP,0000,0000,0000,,因为 我们就是"辛迪加" 亨特先生\N{\fs16}Because, we, are the Syndicate, Mr. Hunt.{\r}
+Dialogue: 0,0:08:44.40,0:08:47.09,Default,NTP,0000,0000,0000,,现在我们知道你是谁了\N{\fs16}And now we know who you are.{\r}
+Dialogue: 0,0:08:47.11,0:08:49.41,Default,NTP,0000,0000,0000,,你的任务 就是被迫接受\N{\fs16}Your mission, should you choose to accept it,{\r}
+Dialogue: 0,0:08:49.44,0:08:51.07,Default,NTP,0000,0000,0000,,面对你的命运\N{\fs16}is to face your fate.{\r}
+Dialogue: 0,0:08:51.09,0:08:55.25,Default,NTP,0000,0000,0000,,追查我们 你会被抓 反抗我们 你会被杀\N{\fs16}Pursue us, you'll be caught. Resist us, you'll be killed.{\r}
+Dialogue: 0,0:08:55.28,0:08:59.43,Default,NTP,0000,0000,0000,,而你尊敬的部长 也会否认你所有的行动\N{\fs16}And you precious Secretary will disavow any knowledge of your actions.{\r}
+Dialogue: 0,0:08:59.46,0:09:00.78,Default,NTP,0000,0000,0000,,祝你好运 亨特先生\N{\fs16}Good luck, Mr. Hunt.{\r}
+Dialogue: 0,0:09:00.80,0:09:05.00,Default,NTP,0000,0000,0000,,这条讯息5秒钟后会自动销毁\N{\fs16}This message will self destruct in 5 seconds.{\r}
+Dialogue: 0,0:09:54.67,0:09:59.57,Default,NTP,0000,0000,0000,,主席先生 IMF的厄运要追溯到我早年在中情局的经历\N{\fs16}Mr. Chairman, the IMF's misadventures date back to my earliest days in the CIA{\r}
+Dialogue: 0,0:09:59.61,0:10:04.26,Default,NTP,0000,0000,0000,,当时IMF侵入中情局偷走了一份秘密特工的名单\N{\fs16}when the IMF broke into the CIA to steal a list of covert operatives.{\r}
+Dialogue: 0,0:10:04.29,0:10:07.27,Default,NTP,0000,0000,0000,,- 最近 是一枚俄罗斯导弹  - 被解除的俄罗斯导弹\N{\fs16}- And now, more recently a Russian warhead.  - Disarmed Russian warhead.{\r}
+Dialogue: 0,0:10:07.30,0:10:10.09,Default,NTP,0000,0000,0000,,- 一枚俄罗斯核弹  - 由IMF确保了安全\N{\fs16}- A Russian nuclear warhead.  - Branded safe by The IMF.{\r}
+Dialogue: 0,0:10:10.12,0:10:13.51,Default,NTP,0000,0000,0000,,在坠入旧金山湾之前击中了泛美金字塔\N{\fs16}Clipped the Transamerica Pyramid before plunging into the San Francisco bay.{\r}
+Dialogue: 0,0:10:13.54,0:10:15.05,Default,NTP,0000,0000,0000,,救了上百万群众\N{\fs16}Saving the western atmosphere.{\r}
+Dialogue: 0,0:10:15.08,0:10:17.61,Default,NTP,0000,0000,0000,,这就是因为一个IMF的特工\N{\fs16}This made possible by IMF agents who did willing{\r}
+Dialogue: 0,0:10:17.64,0:10:20.75,Default,NTP,0000,0000,0000,,向恐怖分子提供发射码所导致的结果\N{\fs16}provide the launch codes to a known terrorist.{\r}
+Dialogue: 0,0:10:20.78,0:10:23.63,Default,NTP,0000,0000,0000,,我说得对吗 布兰特特工?\N{\fs16}Do I have that right, Agent Brandt?{\r}
+Dialogue: 0,0:10:24.16,0:10:26.26,Default,NTP,0000,0000,0000,,未经部长同意 我不能承认\N{\fs16}I can neither confirm nor deny details of any{\r}
+Dialogue: 0,0:10:26.27,0:10:28.35,Default,NTP,0000,0000,0000,,也不能否认任何任务细节\N{\fs16}such operation without Secretary's approval.{\r}
+Dialogue: 0,0:10:28.38,0:10:31.29,Default,NTP,0000,0000,0000,,这是IMF潜入了克里姆林宫的那周\N{\fs16}This was the same week after IMF infiltrated the Kremlin.{\r}
+Dialogue: 0,0:10:31.32,0:10:33.79,Default,NTP,0000,0000,0000,,这是被潜入之前的克里姆林宫\N{\fs16}Here's the Kremlin before.{\r}
+Dialogue: 0,0:10:34.65,0:10:37.29,Default,NTP,0000,0000,0000,,这是之后的克里姆林宫\N{\fs16}And the Kremlin after.{\r}
+Dialogue: 0,0:10:39.16,0:10:41.95,Default,NTP,0000,0000,0000,,未经部长同意 我不能承认也不能否认...\N{\fs16}I can neither confirm nor deny details of any operation...{\r}
+Dialogue: 0,0:10:41.97,0:10:43.73,Default,NTP,0000,0000,0000,,任何任务细节 我们知道\N{\fs16}Without the Secretary's approval. Yes, we know.{\r}
+Dialogue: 0,0:10:43.75,0:10:46.25,Default,NTP,0000,0000,0000,,事实上 在这个陪审团选出新的部长之前\N{\fs16}In fact, until this panel appoints a new Secretary,{\r}
+Dialogue: 0,0:10:46.28,0:10:48.70,Default,NTP,0000,0000,0000,,你是不是只会说这一句话了 布兰特特工?\N{\fs16}you really can't say much of anything, can you, Agent Brandt?{\r}
+Dialogue: 0,0:10:48.72,0:10:50.26,Default,NTP,0000,0000,0000,,规矩不是我定的 亨利先生\N{\fs16}Well. I didn't write the rules, Mr. Hunley.{\r}
+Dialogue: 0,0:10:50.29,0:10:53.01,Default,NTP,0000,0000,0000,,主席先生 这个"不可能行动小组"\N{\fs16}Mr. Chairman, the so call Impossible Missions Force{\r}
+Dialogue: 0,0:10:53.05,0:10:56.49,Default,NTP,0000,0000,0000,,不仅是个失控的组织 还过时了\N{\fs16}is not just a rogue organization, it is an outdated one.{\r}
+Dialogue: 0,0:10:56.52,0:11:00.39,Default,NTP,0000,0000,0000,,让我们倒退回了没有透明度和监督度的时代\N{\fs16}A throwback to an era without transparency and without oversight.{\r}
+Dialogue: 0,0:11:00.42,0:11:02.83,Default,NTP,0000,0000,0000,,- 主席先生  - 是时候解散IMF了\N{\fs16}- Mr. Chairman.  - The time has come to dissolve the IMF.{\r}
+Dialogue: 0,0:11:02.85,0:11:03.88,Default,NTP,0000,0000,0000,,主席先生\N{\fs16}Mr. Chairman.{\r}
+Dialogue: 0,0:11:03.89,0:11:07.00,Default,NTP,0000,0000,0000,,请把资产回收到中情局\N{\fs16}And transfer the salvageable assets to the CIA.{\r}
+Dialogue: 0,0:11:07.02,0:11:10.32,Default,NTP,0000,0000,0000,,主席先生 没有监督 IMF也已经运作了40年\N{\fs16}Mr. Chairman, the IMF has operated without oversight for 40 years.{\r}
+Dialogue: 0,0:11:10.35,0:11:12.77,Default,NTP,0000,0000,0000,,- 我们行事的确不合传统  - 主席先生\N{\fs16}- Now, are its methods unorthodox? Yes.  - Mr. Chairman.{\r}
+Dialogue: 0,0:11:12.79,0:11:15.95,Default,NTP,0000,0000,0000,,我们的工作也确实不够完美\N{\fs16}Are it's results less than perfect? Absolutely.{\r}
+Dialogue: 0,0:11:15.99,0:11:18.57,Default,NTP,0000,0000,0000,,- 但是没有IMF...  - 就会有秩序和稳定\N{\fs16}- But without the IMF, to be force...  - There'll be order and stability.{\r}
+Dialogue: 0,0:11:18.59,0:11:20.75,Default,NTP,0000,0000,0000,,没有IMF...\N{\fs16}Without the IMF...{\r}
+Dialogue: 0,0:11:21.91,0:11:27.06,Default,NTP,0000,0000,0000,,陪审团承认IMF对世界安全作出的贡献\N{\fs16}This panel recognizes the IMF's contribution to global security.{\r}
+Dialogue: 0,0:11:27.09,0:11:30.39,Default,NTP,0000,0000,0000,,但是中情局亨利局长陈述的事件\N{\fs16}But the events laid out by CIA Director Hunley{\r}
+Dialogue: 0,0:11:30.42,0:11:33.45,Default,NTP,0000,0000,0000,,同样彰显了你们做事太过冒险\N{\fs16}also show a pattern of once and brinkmanship{\r}
+Dialogue: 0,0:11:33.48,0:11:36.38,Default,NTP,0000,0000,0000,,完全无视了规定\N{\fs16}and a total disregard for protocol.{\r}
+Dialogue: 0,0:11:36.41,0:11:37.63,Default,NTP,0000,0000,0000,,从我的角度来看\N{\fs16}From where I sit,{\r}
+Dialogue: 0,0:11:37.66,0:11:41.63,Default,NTP,0000,0000,0000,,你们不合传统的行动方针 与机会主义毫无差别\N{\fs16}you unorthodox methods are indistinguishable from chance.{\r}
+Dialogue: 0,0:11:41.65,0:11:44.74,Default,NTP,0000,0000,0000,,而你们的结果 无论是否完美\N{\fs16}And your results, perfect or not,{\r}
+Dialogue: 0,0:11:44.76,0:11:47.48,Default,NTP,0000,0000,0000,,都有走运的嫌疑\N{\fs16}looked suspiciously like luck.{\r}
+Dialogue: 0,0:11:48.16,0:11:53.29,Default,NTP,0000,0000,0000,,我想IMF的好运气到此为止了\N{\fs16}I'm afraid today is the day when the IMF's luck runs out.{\r}
+Dialogue: 0,0:13:32.32,0:13:34.20,Default,NTP,0000,0000,0000,,你来干什么?\N{\fs16}What are you doing here?{\r}
+Dialogue: 0,0:13:34.92,0:13:36.26,Default,NTP,0000,0000,0000,,嗯?\N{\fs16}Huh?{\r}
+Dialogue: 0,0:13:39.00,0:13:41.95,Default,NTP,0000,0000,0000,,我问你 "你来干什么?"\N{\fs16}I said: "What are you doing here?"{\r}
+Dialogue: 0,0:13:49.21,0:13:52.35,Default,NTP,0000,0000,0000,,我很好奇 他到底看上了你什么\N{\fs16}What does he see in you, I wonder.{\r}
+Dialogue: 0,0:13:52.68,0:13:54.32,Default,NTP,0000,0000,0000,,他是谁?\N{\fs16}Who is he?{\r}
+Dialogue: 0,0:13:57.99,0:14:00.71,Default,NTP,0000,0000,0000,,我想看看他有什么本事\N{\fs16}I want to see what is done.{\r}
+Dialogue: 0,0:14:01.86,0:14:04.18,Default,NTP,0000,0000,0000,,为什么不把手铐解了\N{\fs16}Why don't you take off the cuffs.{\r}
+Dialogue: 0,0:14:04.21,0:14:06.36,Default,NTP,0000,0000,0000,,我好展示给你看\N{\fs16}And I'll show you.{\r}
+Dialogue: 0,0:14:06.38,0:14:08.16,Default,NTP,0000,0000,0000,,文特\N{\fs16}Vinter.{\r}
+Dialogue: 0,0:14:11.54,0:14:13.51,Default,NTP,0000,0000,0000,,你知道我是谁?\N{\fs16}You know who I am?{\r}
+Dialogue: 0,0:14:13.54,0:14:15.61,Default,NTP,0000,0000,0000,,耶尼克·文特\N{\fs16}Janik Vinter.{\r}
+Dialogue: 0,0:14:16.23,0:14:19.63,Default,NTP,0000,0000,0000,,大家叫你骨科医生\N{\fs16}They call you, the bone doctor.{\r}
+Dialogue: 0,0:14:20.76,0:14:22.83,Default,NTP,0000,0000,0000,,有意思的是\N{\fs16}The funny thing is.{\r}
+Dialogue: 0,0:14:22.86,0:14:26.97,Default,NTP,0000,0000,0000,,三年前 你已经被官方宣布死亡了\N{\fs16}You're officially declared dead, 3 years ago.{\r}
+Dialogue: 0,0:14:26.99,0:14:29.15,Default,NTP,0000,0000,0000,,顺便说一句 鞋子很好看\N{\fs16}Nice shoes by the way.{\r}
+Dialogue: 0,0:14:30.64,0:14:32.50,Default,NTP,0000,0000,0000,,不是他的\N{\fs16}Not his.{\r}
+Dialogue: 0,0:14:32.71,0:14:34.42,Default,NTP,0000,0000,0000,,你的\N{\fs16}Yours.{\r}
+Dialogue: 0,0:14:40.87,0:14:43.43,Default,NTP,0000,0000,0000,,我们的任务是来审问他\N{\fs16}We have instructions to talk,{\r}
+Dialogue: 0,0:14:43.46,0:14:44.91,Default,NTP,0000,0000,0000,,不是杀了他\N{\fs16}not to kill him.{\r}
+Dialogue: 0,0:14:44.93,0:14:48.06,Default,NTP,0000,0000,0000,,摧毁一个人有许多种方法\N{\fs16}There are men who are broken in different ways.{\r}
+Dialogue: 0,0:14:49.56,0:14:51.58,Default,NTP,0000,0000,0000,,这个人意志很顽强\N{\fs16}This one's a fighter.{\r}
+Dialogue: 0,0:14:51.61,0:14:54.21,Default,NTP,0000,0000,0000,,你策反他之前 他就会死了\N{\fs16}He'll die, before you turn him.{\r}
+Dialogue: 0,0:14:54.23,0:14:57.01,Default,NTP,0000,0000,0000,,你担心他会顶替了你的位置?\N{\fs16}Are you worry he's gonna take your place?{\r}
+Dialogue: 0,0:15:07.54,0:15:12.03,Default,NTP,0000,0000,0000,,你走吧 待会场面会很难看的\N{\fs16}You should go, before it gets ugly.{\r}
+Dialogue: 0,0:15:14.24,0:15:16.67,Default,NTP,0000,0000,0000,,他说得对\N{\fs16}Yeah, he's right.{\r}
+Dialogue: 0,0:15:16.70,0:15:18.72,Default,NTP,0000,0000,0000,,你走吧\N{\fs16}You should go.{\r}
+Dialogue: 0,0:15:32.35,0:15:35.61,Default,NTP,0000,0000,0000,,让我们看看你有多坚强\N{\fs16}Now, let's see how tough you are.{\r}
+Dialogue: 0,0:15:36.78,0:15:38.75,Default,NTP,0000,0000,0000,,喂 耶尼克\N{\fs16}You, Janik.{\r}
+Dialogue: 0,0:17:01.33,0:17:04.03,Default,NTP,0000,0000,0000,,我们之前没见过面吧?\N{\fs16}We've never met before, right?{\r}
+Dialogue: 0,0:17:05.77,0:17:07.56,Default,NTP,0000,0000,0000,,跟我来\N{\fs16}Follow me.{\r}
+Dialogue: 0,0:17:15.54,0:17:17.30,Default,NTP,0000,0000,0000,,把枪给我\N{\fs16}Give me the gun.{\r}
+Dialogue: 0,0:17:20.57,0:17:23.44,Default,NTP,0000,0000,0000,,- 你在干什么?  - 我不能走\N{\fs16}- What're you doing?  - I can't leave.{\r}
+Dialogue: 0,0:17:23.47,0:17:25.54,Default,NTP,0000,0000,0000,,听着 你不能留下 我们刚刚杀了那些人\N{\fs16}Look. You can't stay. We just killed those men.{\r}
+Dialogue: 0,0:17:25.56,0:17:27.75,Default,NTP,0000,0000,0000,,不是我们杀了 是你杀了\N{\fs16}We didn't kill them. You did.{\r}
+Dialogue: 0,0:17:27.77,0:17:31.36,Default,NTP,0000,0000,0000,,我本来要阻止你 但是你逃跑了\N{\fs16}I tried to stop you. You got away.{\r}
+Dialogue: 0,0:17:32.58,0:17:34.50,Default,NTP,0000,0000,0000,,你是谁?\N{\fs16}Who are you?{\r}
+Dialogue: 0,0:17:34.52,0:17:37.64,Default,NTP,0000,0000,0000,,你最好快点跑 祝你好运\N{\fs16}You better hurry now. Good luck.{\r}
+Dialogue: 0,0:17:37.66,0:17:39.33,Default,NTP,0000,0000,0000,,不 等等 等等\N{\fs16}No, wait. Wait!{\r}
+Dialogue: 0,0:17:39.35,0:17:40.49,Default,NTP,0000,0000,0000,,他在哪?\N{\fs16}Where is he?{\r}
+Dialogue: 0,0:17:40.51,0:17:43.00,Default,NTP,0000,0000,0000,,他往北边的走廊去了 他把门关上了\N{\fs16}He's heading to the north corridor. He has closed the gate.{\r}
+Dialogue: 0,0:17:43.03,0:17:46.20,Default,NTP,0000,0000,0000,,快点 别让他跑了 快点\N{\fs16}Hurry, don't let him escape. Quick!{\r}
+Dialogue: 0,0:17:58.12,0:18:00.76,Default,NTP,0000,0000,0000,,- 7号接线室  - 西欧非安全线路\N{\fs16}- Stack-com 7.  - Western Europe unsecured.{\r}
+Dialogue: 0,0:18:00.79,0:18:03.26,Default,NTP,0000,0000,0000,,- 接通对象  - BE11\N{\fs16}- Designator.  - Bravo Echo One One.{\r}
+Dialogue: 0,0:18:03.28,0:18:05.04,Default,NTP,0000,0000,0000,,连接中\N{\fs16}Connecting.{\r}
+Dialogue: 0,0:18:05.06,0:18:07.39,Default,NTP,0000,0000,0000,,- 我是布兰特  - 把通话加密\N{\fs16}- This is Brandt.  - Go secure.{\r}
+Dialogue: 0,0:18:08.81,0:18:09.67,Default,NTP,0000,0000,0000,,说吧\N{\fs16}Go.{\r}
+Dialogue: 0,0:18:09.69,0:18:13.08,Default,NTP,0000,0000,0000,,伦敦基地已经沦陷 重复 伦敦区已经沦陷\N{\fs16}London terminal is compromised. Repeat, London is compromised.{\r}
+Dialogue: 0,0:18:13.11,0:18:16.09,Default,NTP,0000,0000,0000,,派遣特工已死 请求快速撤离\N{\fs16}Agent placed is down. Request immediate extraction.{\r}
+Dialogue: 0,0:18:16.12,0:18:18.13,Default,NTP,0000,0000,0000,,出什么事了? 谁攻击了伦敦基地?\N{\fs16}What happened? Who breached London?{\r}
+Dialogue: 0,0:18:18.15,0:18:19.80,Default,NTP,0000,0000,0000,,你有没有任何情报?\N{\fs16}Do you've anything to go on?{\r}
+Dialogue: 0,0:18:19.84,0:18:23.65,Default,NTP,0000,0000,0000,,一张脸 他想要某样东西 不是情报\N{\fs16}A face. He wanted something. Not information.{\r}
+Dialogue: 0,0:18:23.67,0:18:26.76,Default,NTP,0000,0000,0000,,他本来可以杀掉我 但却没有\N{\fs16}He could've kill me, but he didn't.{\r}
+Dialogue: 0,0:18:26.80,0:18:30.44,Default,NTP,0000,0000,0000,,- 那你觉得这代表了什么?  - "辛迪加"真的存在\N{\fs16}- Okay, what do you think it means?  - The Syndicate is real.{\r}
+Dialogue: 0,0:18:30.53,0:18:33.23,Default,NTP,0000,0000,0000,,他们知道我们是什么人 如何运作\N{\fs16}They know who we're, how we operate.{\r}
+Dialogue: 0,0:18:33.26,0:18:35.97,Default,NTP,0000,0000,0000,,我知道他们为什么这么难找到了\N{\fs16}I think I know why they've been so hard to find.{\r}
+Dialogue: 0,0:18:36.00,0:18:38.75,Default,NTP,0000,0000,0000,,集中所有人力收集\N{\fs16}Just focus operations on gathering any available{\r}
+Dialogue: 0,0:18:38.77,0:18:41.14,Default,NTP,0000,0000,0000,,所有前秘密特工的情报\N{\fs16}intel regarding formal covert operatives.{\r}
+Dialogue: 0,0:18:41.16,0:18:43.20,Default,NTP,0000,0000,0000,,无论隶属什么国家或组织\N{\fs16}It doesn't matter what country or agency.{\r}
+Dialogue: 0,0:18:43.23,0:18:45.67,Default,NTP,0000,0000,0000,,只要是已经死亡或者被宣布死亡的特工\N{\fs16}Just as long as they are dead or presumed dead.{\r}
+Dialogue: 0,0:18:45.69,0:18:50.46,Default,NTP,0000,0000,0000,,先从骨科医生耶尼克·文特开始\N{\fs16}Start with Janik Vinter. He's also known as the bone doctor.{\r}
+Dialogue: 0,0:18:50.48,0:18:52.77,Default,NTP,0000,0000,0000,,- 我做不到  - 什么?\N{\fs16}- I can't do that.  - What?{\r}
+Dialogue: 0,0:18:52.80,0:18:54.81,Default,NTP,0000,0000,0000,,你在说什么?\N{\fs16}What're you talking about?{\r}
+Dialogue: 0,0:18:55.10,0:18:57.05,Default,NTP,0000,0000,0000,,委员会已经把我们解散了\N{\fs16}The Committee has shut us down.{\r}
+Dialogue: 0,0:18:57.08,0:19:00.25,Default,NTP,0000,0000,0000,,所有行动都被转交给中情局了\N{\fs16}Operations are to be handled over to the CIA.{\r}
+Dialogue: 0,0:19:00.28,0:19:02.01,Default,NTP,0000,0000,0000,,已经没有IMF了\N{\fs16}There is no more IMF.{\r}
+Dialogue: 0,0:19:02.04,0:19:04.81,Default,NTP,0000,0000,0000,,我要奉命召回所有人\N{\fs16}I've been ordered to bring everyone in.{\r}
+Dialogue: 0,0:19:05.83,0:19:07.60,Default,NTP,0000,0000,0000,,- 伊森  - 我能理解\N{\fs16}- Ethan.  - I understand.{\r}
+Dialogue: 0,0:19:07.62,0:19:09.99,Default,NTP,0000,0000,0000,,- 伊森  - 我能理解 布兰特\N{\fs16}- Ethan.  - I understand, Brandt.{\r}
+Dialogue: 0,0:19:10.01,0:19:11.98,Default,NTP,0000,0000,0000,,我们从没有过这段对话\N{\fs16}We didn't have this conversation.{\r}
+Dialogue: 0,0:19:12.00,0:19:15.14,Default,NTP,0000,0000,0000,,我在伦敦消失了 你不知道我在哪里\N{\fs16}I disappeared in London. You don't know where I am.{\r}
+Dialogue: 0,0:19:15.17,0:19:16.73,Default,NTP,0000,0000,0000,,不知我的死活\N{\fs16}If I'm dead or alive.{\r}
+Dialogue: 0,0:19:16.76,0:19:19.28,Default,NTP,0000,0000,0000,,你看到的那个男人 你能找到他吗?\N{\fs16}This man you saw. Can you find him?{\r}
+Dialogue: 0,0:19:20.48,0:19:23.39,Default,NTP,0000,0000,0000,,我会追查到底的\N{\fs16}I won't stop until I do.{\r}
+Dialogue: 0,0:19:23.76,0:19:26.78,Default,NTP,0000,0000,0000,,这很有可能是我们最后一次任务了 伊森\N{\fs16}This may very well be our last mission, Ethan.{\r}
+Dialogue: 0,0:19:26.81,0:19:28.45,Default,NTP,0000,0000,0000,,把握机会\N{\fs16}Make it count.{\r}
+Dialogue: 0,0:19:28.47,0:19:30.17,Default,NTP,0000,0000,0000,,布兰特\N{\fs16}Brandt.{\r}
+Dialogue: 0,0:19:49.33,0:19:50.71,Default,NTP,0000,0000,0000,,既然我们要开始合作了\N{\fs16}Since we are going to be work together,{\r}
+Dialogue: 0,0:19:50.73,0:19:53.39,Default,NTP,0000,0000,0000,,我希望你能谨慎决定接下来的回答\N{\fs16}I want you to choose your next words very carefully.{\r}
+Dialogue: 0,0:19:53.42,0:19:54.54,Default,NTP,0000,0000,0000,,亨特在哪?\N{\fs16}Where is Hunt?{\r}
+Dialogue: 0,0:19:54.56,0:19:56.49,Default,NTP,0000,0000,0000,,- 我不知道  - 别对我说谎 布兰特\N{\fs16}- I don't know.  - Don't lie to me, Brandt.{\r}
+Dialogue: 0,0:19:56.51,0:19:58.27,Default,NTP,0000,0000,0000,,我联系不上他\N{\fs16}I have no way of contacting him.{\r}
+Dialogue: 0,0:19:58.30,0:20:01.11,Default,NTP,0000,0000,0000,,他藏得很深 我最后一次联系他 他还在追查"辛迪加"\N{\fs16}He's deep cover. Last I heard, he's tracking the Syndicate.{\r}
+Dialogue: 0,0:20:01.13,0:20:02.44,Default,NTP,0000,0000,0000,,废话少说\N{\fs16}Let's cut the bull.{\r}
+Dialogue: 0,0:20:02.46,0:20:05.49,Default,NTP,0000,0000,0000,,你知道我们是什么人 知道我们有什么本事\N{\fs16}You know who we are. You know what we are capable of.{\r}
+Dialogue: 0,0:20:05.51,0:20:10.33,Default,NTP,0000,0000,0000,,为什么中情局从没有发现任何"辛迪加"的特工?\N{\fs16}How come the CIA has never discovered any actual intel regarding this Syndicate?.{\r}
+Dialogue: 0,0:20:10.36,0:20:13.01,Default,NTP,0000,0000,0000,,- 你在暗示什么?  - 没有暗示 我在陈述\N{\fs16}- What are you implying?  - Not implying, stating.{\r}
+Dialogue: 0,0:20:13.04,0:20:15.31,Default,NTP,0000,0000,0000,,准确来说是指控\N{\fs16}Leveling an accusation actually.{\r}
+Dialogue: 0,0:20:15.33,0:20:18.92,Default,NTP,0000,0000,0000,,亨特同时扮演了纵火犯和消防员的角色\N{\fs16}Hunt is both arsonist and fireman at the same time.{\r}
+Dialogue: 0,0:20:18.94,0:20:21.55,Default,NTP,0000,0000,0000,,我相信"辛迪加"不过是他想象出来的假象\N{\fs16}I believe that the Syndicate is a figment of his imagination.{\r}
+Dialogue: 0,0:20:21.58,0:20:24.87,Default,NTP,0000,0000,0000,,为了证明IMF存在的合理性\N{\fs16}Created to justify the IMF's existence.{\r}
+Dialogue: 0,0:20:24.89,0:20:27.24,Default,NTP,0000,0000,0000,,我会找到他的 布兰特 一旦找到了\N{\fs16}I'm going to find him, Brandt. And when I do,{\r}
+Dialogue: 0,0:20:27.27,0:20:33.66,Default,NTP,0000,0000,0000,,他要对每一件他肆意妄为做出的破坏负责\N{\fs16}he will be called upon to answer for every wanton active mayhem he's responsible for.{\r}
+Dialogue: 0,0:20:35.29,0:20:37.71,Default,NTP,0000,0000,0000,,欢迎来到中情局\N{\fs16}Welcome to the CIA.{\r}
+Dialogue: 0,0:20:39.28,0:20:40.68,Default,NTP,0000,0000,0000,,你永远都不会找到他的\N{\fs16}You'll never find him.{\r}
+Dialogue: 0,0:20:40.71,0:20:42.55,Default,NTP,0000,0000,0000,,布兰特 你可以开始倒计时了\N{\fs16}Set your watch, Brandt.{\r}
+Dialogue: 0,0:20:42.58,0:20:46.08,Default,NTP,0000,0000,0000,,伊森·亨特只剩最后24小时的自由了\N{\fs16}Ethan Hunt is living his last day as a free man.{\r}
+Dialogue: 0,0:20:59.97,0:21:02.11,Default,NTP,0000,0000,0000,,好了 所有人注意\N{\fs16}All right, everybody. Heads up.{\r}
+Dialogue: 0,0:21:02.13,0:21:03.81,Default,NTP,0000,0000,0000,,就是这里\N{\fs16}This is it.{\r}
+Dialogue: 0,0:21:04.57,0:21:06.24,Default,NTP,0000,0000,0000,,A队准备就绪 待命\N{\fs16}Alpha team prep. Standing by.{\r}
+Dialogue: 0,0:21:06.26,0:21:08.28,Default,NTP,0000,0000,0000,,- 开始行动  - 中情局硫磺石小组 行动开始\N{\fs16}- Execute.  - Langley brimstone, go.{\r}
+Dialogue: 0,0:21:08.31,0:21:10.52,Default,NTP,0000,0000,0000,,再说一遍 开始行动\N{\fs16}I say again. We are a go.{\r}
+Dialogue: 0,0:22:06.65,0:22:09.20,Default,NTP,0000,0000,0000,,总部 这里没人\N{\fs16}Langley, there's nobody here.{\r}
+Dialogue: 0,0:22:15.46,0:22:19.15,Default,NTP,0000,0000,0000,,中情局硫磺石小组 面朝北面的墙\N{\fs16}Langley brimstone. Face the north wall.{\r}
+Dialogue: 0,0:23:26.07,0:23:27.60,Default,NTP,0000,0000,0000,,我是邓恩\N{\fs16}Dunn.{\r}
+Dialogue: 0,0:23:28.69,0:23:31.75,Default,NTP,0000,0000,0000,,已经到时候了吗? 好吧\N{\fs16}Is it that time already? Okay.{\r}
+Dialogue: 0,0:23:32.95,0:23:35.44,Default,NTP,0000,0000,0000,,我要问你一些基准问题\N{\fs16}I'm going to ask you a series of control questions.{\r}
+Dialogue: 0,0:23:35.47,0:23:37.14,Default,NTP,0000,0000,0000,,我知道 并且我得如实回答\N{\fs16}I know and I'm gonna answer truthfully.{\r}
+Dialogue: 0,0:23:37.17,0:23:39.71,Default,NTP,0000,0000,0000,,然后你会让我故意说谎\N{\fs16}And then you gonna ask me to lie intentionally.{\r}
+Dialogue: 0,0:23:39.73,0:23:42.70,Default,NTP,0000,0000,0000,,- 说出你的名字  - 挪威之王\N{\fs16}- State your name.  - The King of Norway.{\r}
+Dialogue: 0,0:23:43.33,0:23:44.69,Default,NTP,0000,0000,0000,,看 我刚才是在撒谎\N{\fs16}See, that's a lie.{\r}
+Dialogue: 0,0:23:44.71,0:23:46.48,Default,NTP,0000,0000,0000,,事实上我是第三顺序王位继承人\N{\fs16}I'm actually third in line to the throne.{\r}
+Dialogue: 0,0:23:46.51,0:23:48.15,Default,NTP,0000,0000,0000,,我的哥哥是...\N{\fs16}My brother was...{\r}
+Dialogue: 0,0:23:48.17,0:23:50.65,Default,NTP,0000,0000,0000,,- 伊森·亨特联系过你吗?  - 他为什么要联系我?\N{\fs16}- Has Ethan Hunt contacted you?  - Why would he contact me?{\r}
+Dialogue: 0,0:23:50.68,0:23:53.51,Default,NTP,0000,0000,0000,,亨特又露面了 这次是在古巴\N{\fs16}Hunt has resurfaced. This time in Cuba.{\r}
+Dialogue: 0,0:23:53.54,0:23:57.50,Default,NTP,0000,0000,0000,,他... 留下了这些东西\N{\fs16}He... left these behind.{\r}
+Dialogue: 0,0:23:57.77,0:23:59.91,Default,NTP,0000,0000,0000,,告诉我 你怎么看\N{\fs16}Tell me what you make of them.{\r}
+Dialogue: 0,0:24:00.21,0:24:01.91,Default,NTP,0000,0000,0000,,我不知道 他是在做剪报吗?\N{\fs16}I don't know. He's taken up scrap booking?{\r}
+Dialogue: 0,0:24:01.94,0:24:03.82,Default,NTP,0000,0000,0000,,看看这些照片 邓恩\N{\fs16}Look at the photographs, Dunn.{\r}
+Dialogue: 0,0:24:03.84,0:24:06.71,Default,NTP,0000,0000,0000,,所有这些人不是死了就是失踪了\N{\fs16}All of them are either missing or dead, everyone.{\r}
+Dialogue: 0,0:24:06.74,0:24:08.34,Default,NTP,0000,0000,0000,,他们原本全都是政府特工\N{\fs16}All of them were government agents.{\r}
+Dialogue: 0,0:24:08.36,0:24:11.38,Default,NTP,0000,0000,0000,,俄罗斯 法国 英国 以色列 你想到的国家都有\N{\fs16}Russian, French, British, Israelis, you name it.{\r}
+Dialogue: 0,0:24:11.40,0:24:14.67,Default,NTP,0000,0000,0000,,这些都是高级机密 但是亨特却毫不费力地搜集到了这些\N{\fs16}These are highly classified files and yet Hunt had no problem collecting them.{\r}
+Dialogue: 0,0:24:14.70,0:24:17.75,Default,NTP,0000,0000,0000,,他似乎总是领先我们一步\N{\fs16}And he always seems to be a step ahead of us.{\r}
+Dialogue: 0,0:24:17.77,0:24:20.14,Default,NTP,0000,0000,0000,,- 我想知道他是怎么做到的?  - 你是想说我在暗中帮助他吗?\N{\fs16}- I wonder how?  - Are you suggesting I'm helping him?{\r}
+Dialogue: 0,0:24:20.16,0:24:22.36,Default,NTP,0000,0000,0000,,我确实有过这个想法\N{\fs16}That thought had cross my mind.{\r}
+Dialogue: 0,0:24:22.39,0:24:24.09,Default,NTP,0000,0000,0000,,我待在这里整整6个月了\N{\fs16}6 months, I have been here.{\r}
+Dialogue: 0,0:24:24.12,0:24:28.15,Default,NTP,0000,0000,0000,,筛选堆积如山的元数据和长得屎一样的百兆位编码\N{\fs16}Sifting through mountains of metadata and exabytes of encoded excrement.{\r}
+Dialogue: 0,0:24:28.17,0:24:32.23,Default,NTP,0000,0000,0000,,我比我们部门任何人破解 处理和转移的数据都多\N{\fs16}I had decrypted, processed, passed more data than anyone in my section.{\r}
+Dialogue: 0,0:24:32.25,0:24:34.20,Default,NTP,0000,0000,0000,,可是每一周 你都把我关在这里\N{\fs16}And yet every week, you hold me in here.{\r}
+Dialogue: 0,0:24:34.22,0:24:37.18,Default,NTP,0000,0000,0000,,然后每次都变相地问我同样的问题\N{\fs16}And you ask me the same question, just in a different way.{\r}
+Dialogue: 0,0:24:37.20,0:24:40.73,Default,NTP,0000,0000,0000,,然而今天 你并没有回答我\N{\fs16}And today, you haven't answered it.{\r}
+Dialogue: 0,0:24:42.46,0:24:46.34,Default,NTP,0000,0000,0000,,你可能觉得 某种程度上我欠他人情什么的\N{\fs16}You seem to thinks I have some kind of obligation to him.{\r}
+Dialogue: 0,0:24:46.36,0:24:48.96,Default,NTP,0000,0000,0000,,但是事实并非如此\N{\fs16}Okay, nothing could be further from the truth.{\r}
+Dialogue: 0,0:24:48.99,0:24:55.70,Default,NTP,0000,0000,0000,,伊森·亨特仍然在逃 而我却被困在这里 为他的行为作解释\N{\fs16}Ethan Hunt is still out there in the field, and I'm stuck here answering for it.{\r}
+Dialogue: 0,0:24:55.81,0:24:58.20,Default,NTP,0000,0000,0000,,我们不是朋友\N{\fs16}We're not friends.{\r}
+Dialogue: 0,0:24:59.88,0:25:02.18,Default,NTP,0000,0000,0000,,我什么都不欠他\N{\fs16}I owe him nothing.{\r}
+Dialogue: 0,0:25:06.74,0:25:09.26,Default,NTP,0000,0000,0000,,邓恩 我们的谈话到此为止\N{\fs16}That'll be all, Dunn.{\r}
+Dialogue: 0,0:26:07.39,0:26:09.90,Default,NTP,0000,0000,0000,,欢迎来到维也纳 班吉 想我了吗?\N{\fs16}Welcome to Vienna, Benji. Missed me?{\r}
+Dialogue: 0,0:26:09.92,0:26:11.99,Default,NTP,0000,0000,0000,,伊森 你在哪? 你特么躲哪儿去了?\N{\fs16}Ethan, where are you? Where the hell have you been?{\r}
+Dialogue: 0,0:26:12.02,0:26:14.19,Default,NTP,0000,0000,0000,,不 事实上 你知道吗? 拜托 不要告诉我\N{\fs16}No, act.. you know what? Please, don't tell me that,{\r}
+Dialogue: 0,0:26:14.21,0:26:17.18,Default,NTP,0000,0000,0000,,不然在每周测谎的时候 我又得再多撒一个谎\N{\fs16}because it's just another thing I would have to lie about in my weekly polygraph.{\r}
+Dialogue: 0,0:26:17.20,0:26:19.40,Default,NTP,0000,0000,0000,,不会有问题的 只管往前走\N{\fs16}Everything is going to be fine. Just keep walking.{\r}
+Dialogue: 0,0:26:19.43,0:26:21.77,Default,NTP,0000,0000,0000,,但是 确保你自己没有被跟踪\N{\fs16}But, make sure you're not being followed.{\r}
+Dialogue: 0,0:26:21.79,0:26:24.01,Default,NTP,0000,0000,0000,,歌剧票不是我赢来的吧?\N{\fs16}Oh. I didn't win those opera tickets, did I?{\r}
+Dialogue: 0,0:26:24.02,0:26:25.01,Default,NTP,0000,0000,0000,,恐怕是的\N{\fs16}No, I'm afraid not.{\r}
+Dialogue: 0,0:26:25.04,0:26:26.71,Default,NTP,0000,0000,0000,,- 那我们在哪里碰头?  - 我们不见面\N{\fs16}- So, where do we meet?  - We don't.{\r}
+Dialogue: 0,0:26:26.74,0:26:29.59,Default,NTP,0000,0000,0000,,为了你的安全 我们不能见面\N{\fs16}For your sake, we shouldn't be seen together.{\r}
+Dialogue: 0,0:26:29.62,0:26:31.21,Default,NTP,0000,0000,0000,,你有短信了\N{\fs16}You have mail.{\r}
+Dialogue: 0,0:26:32.26,0:26:34.17,Default,NTP,0000,0000,0000,,- 他是谁?  - 这就是我们现在要查清楚的\N{\fs16}- Who is he?  - That's what we're here to find out.{\r}
+Dialogue: 0,0:26:34.23,0:26:37.35,Default,NTP,0000,0000,0000,,据我所知 他是我们手头"辛迪加"的唯一线索\N{\fs16}What I do know, is he's our only possible link to the Syndicate{\r}
+Dialogue: 0,0:26:37.95,0:26:40.35,Default,NTP,0000,0000,0000,,并且据可靠消息 他今晚会来这里\N{\fs16}and I have reason to believe that he's going to be here tonight.{\r}
+Dialogue: 0,0:26:40.37,0:26:43.57,Default,NTP,0000,0000,0000,,但是光靠我自己是找不到他的 你能帮我吗?\N{\fs16}But I can't find him alone. Are you in?{\r}
+Dialogue: 0,0:26:43.59,0:26:46.93,Default,NTP,0000,0000,0000,,- 你干不干?  - 当然 当然干\N{\fs16}- Are you in?  - Yes, of course. Of course.{\r}
+Dialogue: 0,0:26:46.95,0:26:50.42,Default,NTP,0000,0000,0000,,- 那打算怎么行动?  - 很简单 你只要找到他 我们装上跟踪器\N{\fs16}- So, what's the play?  - Simple. You find him, we tag him.{\r}
+Dialogue: 0,0:26:50.45,0:26:53.35,Default,NTP,0000,0000,0000,,- 然后我就会跟着他  - 那然后呢?\N{\fs16}- I follow him wherever he goes.  - And after that?{\r}
+Dialogue: 0,0:26:53.37,0:26:56.43,Default,NTP,0000,0000,0000,,然后你就飞回去 周一早上正常上班\N{\fs16}After that you're on a plane, back at work Monday morning.{\r}
+Dialogue: 0,0:26:56.46,0:26:59.77,Default,NTP,0000,0000,0000,,- 没人会知道  - 什么? 这就完事儿了?\N{\fs16}- No one is the wiser.  - What? That's it?{\r}
+Dialogue: 0,0:26:59.80,0:27:01.37,Default,NTP,0000,0000,0000,,你已经冒了很大的风险\N{\fs16}You're in enough danger as it is.{\r}
+Dialogue: 0,0:27:01.40,0:27:03.99,Default,NTP,0000,0000,0000,,我本不想让你受到牵连 但是我没有选择了\N{\fs16}I didn't want to involve you this much but I had no choice.{\r}
+Dialogue: 0,0:27:04.02,0:27:05.81,Default,NTP,0000,0000,0000,,哇哦 既然我已经踏上这条不归路\N{\fs16}Whoa. If you're gonna bring me all this way,{\r}
+Dialogue: 0,0:27:05.84,0:27:09.41,Default,NTP,0000,0000,0000,,你能不能给我点 那什么... 你懂的 刺激点的活儿\N{\fs16}you could at least give me something a little be more... you know, dramatic.{\r}
+Dialogue: 0,0:27:09.44,0:27:12.42,Default,NTP,0000,0000,0000,,班吉 我们要保持低调\N{\fs16}Benji, we are trying to keep a low profile.{\r}
+Dialogue: 0,0:27:12.45,0:27:16.11,Default,NTP,0000,0000,0000,,你想要戏剧性 就去剧院\N{\fs16}You want drama, go to the opera.{\r}
+Dialogue: 0,0:27:43.79,0:27:47.79,Default,NTP,0000,0000,0000,,- 我看到的东西你也能看到吗?  - 是的\N{\fs16}- Are you seeing what I'm seeing?  - Yes, I am.{\r}
+Dialogue: 0,0:27:53.85,0:27:57.15,Default,NTP,0000,0000,0000,,要是我没猜错的话 那是奥地利总理吧?\N{\fs16}Am I correct in assuming that is the Chancellor of Austria?{\r}
+Dialogue: 0,0:27:57.17,0:28:00.68,Default,NTP,0000,0000,0000,,- 是的 你没猜错  - 你知道他会来吗?\N{\fs16}- Yes, you are.  - Did you know he's going to be here?{\r}
+Dialogue: 0,0:28:00.70,0:28:02.36,Default,NTP,0000,0000,0000,,- 不知道  - 好吧\N{\fs16}- No.  - Right.{\r}
+Dialogue: 0,0:28:02.39,0:28:04.71,Default,NTP,0000,0000,0000,,好吧 这里有一个欧洲国家元首\N{\fs16}Well. We have a European Heads of State here,{\r}
+Dialogue: 0,0:28:04.74,0:28:08.25,Default,NTP,0000,0000,0000,,与此同时 我们正在寻找一个罪大恶极的恐怖分子\N{\fs16}at the same time as we're looking for a nefarious terrorist.{\r}
+Dialogue: 0,0:28:08.28,0:28:10.92,Default,NTP,0000,0000,0000,,并且我很确定这两件事完全无关\N{\fs16}And I'm sure the two things are completely unrelated.{\r}
+Dialogue: 0,0:28:10.93,0:28:11.82,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,0:28:11.85,0:28:13.58,Default,NTP,0000,0000,0000,,期间 我会尽量忽略一个事实\N{\fs16}Mean while I'll try and overlook the fact that{\r}
+Dialogue: 0,0:28:13.59,0:28:15.53,Default,NTP,0000,0000,0000,,你是一个被中情局通缉的国际逃犯\N{\fs16}you're an international fugitive wanted by the CIA.{\r}
+Dialogue: 0,0:28:15.54,0:28:16.78,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,0:28:16.80,0:28:19.46,Default,NTP,0000,0000,0000,,而且这次未经批准的小行动可是叛国罪\N{\fs16}And this little unsanctioned operation is tenement-ed treasonous.{\r}
+Dialogue: 0,0:28:19.47,0:28:20.36,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,0:28:20.39,0:28:21.71,Default,NTP,0000,0000,0000,,因为正如你之前所说\N{\fs16}Because as you stated earlier,{\r}
+Dialogue: 0,0:28:21.73,0:28:23.55,Default,NTP,0000,0000,0000,,周一早晨我会回到我的办公室\N{\fs16}I will be back in my desk on Monday morning,{\r}
+Dialogue: 0,0:28:23.57,0:28:26.47,Default,NTP,0000,0000,0000,,随意玩游戏 然后没人知情\N{\fs16}playing video games and no one will be any be the wiser.{\r}
+Dialogue: 0,0:28:26.50,0:28:28.22,Default,NTP,0000,0000,0000,,班吉 演出马上就要开始了\N{\fs16}The show's about to start, Benji. Right.{\r}
+Dialogue: 0,0:28:28.25,0:28:30.37,Default,NTP,0000,0000,0000,,赶紧就位 把你看到的都告诉我\N{\fs16}Just take your position, tell me what you see.{\r}
+Dialogue: 0,0:28:30.38,0:28:31.09,Default,NTP,0000,0000,0000,,好的\N{\fs16}Okay.{\r}
+Dialogue: 0,0:28:31.12,0:28:33.43,Default,NTP,0000,0000,0000,,顺便说一句 燕尾服不错\N{\fs16}Nice tux, by the way.{\r}
+Dialogue: 0,0:28:51.98,0:28:54.35,Default,NTP,0000,0000,0000,,舞台准备完毕 灯光准备\N{\fs16}Stage is set. Ready lights.{\r}
+Dialogue: 0,0:28:54.37,0:28:56.56,Default,NTP,0000,0000,0000,,灯光准备完毕\N{\fs16}Ready lights.{\r}
+Dialogue: 0,0:29:03.04,0:29:05.80,Default,NTP,0000,0000,0000,,最终准备就绪\N{\fs16}The final preparations ready.{\r}
+Dialogue: 0,0:29:05.82,0:29:08.07,Default,NTP,0000,0000,0000,,所有人员请注意\N{\fs16}Stay alert, please.{\r}
+Dialogue: 0,0:29:41.87,0:29:46.35,Default,NTP,0000,0000,0000,,加入IMF 透过监控看世界\N{\fs16}Join the IMF. See the world, on a monitor{\r}
+Dialogue: 0,0:29:46.37,0:29:48.17,Default,NTP,0000,0000,0000,,在一间橱子里\N{\fs16}in a closet.{\r}
+Dialogue: 0,0:30:29.81,0:30:32.22,Default,NTP,0000,0000,0000,,好了 有画面了\N{\fs16}Okay, I have eyes.{\r}
+Dialogue: 0,0:30:32.24,0:30:34.00,Default,NTP,0000,0000,0000,,正在搜索\N{\fs16}Searching.{\r}
+Dialogue: 0,0:31:35.55,0:31:39.13,Default,NTP,0000,0000,0000,,- 班吉 说话  - 毫无进展 稍等\N{\fs16}- Talk to me, Benji.  - Nothing yet. Standby.{\r}
+Dialogue: 0,0:31:40.28,0:31:45.19,Default,NTP,0000,0000,0000,,我知道你在这 你到底在哪?\N{\fs16}I know you're here. Where're you?{\r}
+Dialogue: 0,0:31:50.25,0:31:52.91,Default,NTP,0000,0000,0000,,呃 伊森 我或许找到一些情况了 还不能确定\N{\fs16}Uh Ethan, I might have something for you. Can't confirm.{\r}
+Dialogue: 0,0:31:52.93,0:31:55.77,Default,NTP,0000,0000,0000,,- 在哪儿?  - 后台 我会给你指路\N{\fs16}- Where?  - Backstage, I will direct you.{\r}
+Dialogue: 0,0:32:02.74,0:32:07.10,Default,NTP,0000,0000,0000,,走你左边的那扇门 他应该会出现在你正前方\N{\fs16}Take the door on your left. He should be right in front of you.{\r}
+Dialogue: 0,0:32:47.89,0:32:50.88,Default,NTP,0000,0000,0000,,- 班吉 你看见了吗?  - 看见什么?\N{\fs16}- Benji, did you see that?  - See what?{\r}
+Dialogue: 0,0:32:51.50,0:32:52.59,Default,NTP,0000,0000,0000,,一个女人\N{\fs16}A woman.{\r}
+Dialogue: 0,0:32:52.62,0:32:54.37,Default,NTP,0000,0000,0000,,什么女人? 你在哪里?\N{\fs16}What woman? Where're you?{\r}
+Dialogue: 0,0:32:54.39,0:32:56.28,Default,NTP,0000,0000,0000,,我看不见你\N{\fs16}I can't see you.{\r}
+Dialogue: 0,0:35:13.86,0:35:17.28,Default,NTP,0000,0000,0000,,- 出什么事了?  - 我不知道\N{\fs16}- What happened?  - I don't know{\r}
+Dialogue: 0,0:35:30.26,0:35:33.16,Default,NTP,0000,0000,0000,,伊森 听见吗? 伊森 说话\N{\fs16}Ethan, do you copy? Ethan, come in.{\r}
+Dialogue: 0,0:37:54.49,0:37:57.84,Default,NTP,0000,0000,0000,,伊森 灯控室 伊森 收到请回答\N{\fs16}Ethan, the lighting booth. Ethan, do you copy?{\r}
+Dialogue: 0,0:37:57.86,0:37:59.36,Default,NTP,0000,0000,0000,,天啊\N{\fs16}Oh god.{\r}
+Dialogue: 0,0:39:25.18,0:39:27.40,Default,NTP,0000,0000,0000,,只是皮外伤\N{\fs16}It's a flash wound.{\r}
+Dialogue: 0,0:40:02.04,0:40:04.48,Default,NTP,0000,0000,0000,,对不起 女士们先生们\N{\fs16}Sorry, ladies and gentlemen.{\r}
+Dialogue: 0,0:40:09.13,0:40:12.77,Default,NTP,0000,0000,0000,,包围整个建筑 封锁出口\N{\fs16}Surround the building. Secure the exits.{\r}
+Dialogue: 0,0:40:14.46,0:40:18.35,Default,NTP,0000,0000,0000,,我有办法逃出去 有兴趣吗?\N{\fs16}I've a way out. Interested?{\r}
+Dialogue: 0,0:40:19.39,0:40:21.19,Default,NTP,0000,0000,0000,,带路吧\N{\fs16}Lead the way.{\r}
+Dialogue: 0,0:40:29.10,0:40:32.49,Default,NTP,0000,0000,0000,,- 你有没有什么想告诉我的?  - 目前还没有\N{\fs16}- Anything you want to tell me?  - No, not right now.{\r}
+Dialogue: 0,0:40:32.51,0:40:35.70,Default,NTP,0000,0000,0000,,- 能跟上我吗?  - 不用等我\N{\fs16}- How's the pace?  - Don't wait for me.{\r}
+Dialogue: 0,0:40:43.52,0:40:45.45,Default,NTP,0000,0000,0000,,然后呢?\N{\fs16}What's next?{\r}
+Dialogue: 0,0:40:46.78,0:40:48.32,Default,NTP,0000,0000,0000,,好吧\N{\fs16}Alright.{\r}
+Dialogue: 0,0:40:48.81,0:40:50.21,Default,NTP,0000,0000,0000,,那边\N{\fs16}There.{\r}
+Dialogue: 0,0:40:57.92,0:40:59.64,Default,NTP,0000,0000,0000,,鞋子\N{\fs16}Shoes.{\r}
+Dialogue: 0,0:40:59.77,0:41:01.91,Default,NTP,0000,0000,0000,,请帮我把鞋脱了\N{\fs16}Shoes, please.{\r}
+Dialogue: 0,0:41:57.83,0:41:59.15,Default,NTP,0000,0000,0000,,你要是发生了什么事...\N{\fs16}If anything happens to you...{\r}
+Dialogue: 0,0:41:59.18,0:42:02.01,Default,NTP,0000,0000,0000,,我不会有事的\N{\fs16}Nothing is going to happen to me.{\r}
+Dialogue: 0,0:42:02.40,0:42:04.32,Default,NTP,0000,0000,0000,,停车\N{\fs16}Stop the car!{\r}
+Dialogue: 0,0:42:12.22,0:42:13.90,Default,NTP,0000,0000,0000,,上车\N{\fs16}Get in.{\r}
+Dialogue: 0,0:42:15.51,0:42:17.32,Default,NTP,0000,0000,0000,,快走 快\N{\fs16}Go go go.{\r}
+Dialogue: 0,0:42:24.92,0:42:27.60,Default,NTP,0000,0000,0000,,我勒个擦 她刚刚差点开枪杀了我\N{\fs16}What the...! She tried to shoot me.{\r}
+Dialogue: 0,0:42:27.62,0:42:30.30,Default,NTP,0000,0000,0000,,这不代表她就是坏人\N{\fs16}It doesn't make her a bad person.{\r}
+Dialogue: 0,0:42:30.42,0:42:33.05,Default,NTP,0000,0000,0000,,- 我必须要对你搜身  - 你必须放我走\N{\fs16}- I'm gonna have to search you.  - You have to let me go.{\r}
+Dialogue: 0,0:42:33.07,0:42:34.59,Default,NTP,0000,0000,0000,,哦 想都别想\N{\fs16}Oh oh. Not a chance.{\r}
+Dialogue: 0,0:42:34.62,0:42:36.44,Default,NTP,0000,0000,0000,,我以为你在伦敦当卧底\N{\fs16}I assume you're deep cover back in London but{\r}
+Dialogue: 0,0:42:36.46,0:42:38.26,Default,NTP,0000,0000,0000,,但你是不是有点太入戏了\N{\fs16}isn't this taking the role a little too far.{\r}
+Dialogue: 0,0:42:38.28,0:42:39.46,Default,NTP,0000,0000,0000,,等会儿 你认识她?\N{\fs16}Hang on a minute, you know her?{\r}
+Dialogue: 0,0:42:39.48,0:42:41.59,Default,NTP,0000,0000,0000,,哦 我们还没正式自我介绍过\N{\fs16}Oh. We haven't formerly introduced.{\r}
+Dialogue: 0,0:42:41.61,0:42:44.01,Default,NTP,0000,0000,0000,,但是我确信 她是英国特工\N{\fs16}But I am pretty sure she's British intelligence.{\r}
+Dialogue: 0,0:42:44.03,0:42:46.97,Default,NTP,0000,0000,0000,,我是伊莎·法斯特 你是伊森·亨特\N{\fs16}Ilsa Faust. You're Ethan Hunt.{\r}
+Dialogue: 0,0:42:47.00,0:42:50.97,Default,NTP,0000,0000,0000,,呃... 这个唇膏很难买的\N{\fs16}And... that shade is very hard to find.{\r}
+Dialogue: 0,0:42:51.01,0:42:54.16,Default,NTP,0000,0000,0000,,- 你今晚来剧院干什么?  - 除了刺杀总理还能干什么?\N{\fs16}- What were you doing at the opera tonight?  - What? Aside from killing the Chancellor.{\r}
+Dialogue: 0,0:42:54.18,0:42:58.34,Default,NTP,0000,0000,0000,,在伦敦那次救回你的命 让我陷入非常不利的处境\N{\fs16}Saving your life in London put me in a tight spot with some very dangerous people.{\r}
+Dialogue: 0,0:42:58.37,0:43:00.84,Default,NTP,0000,0000,0000,,我被派来刺杀总理 重新赢取他们对我的信任\N{\fs16}I was sent to kill the Chancellor to regain their trust.{\r}
+Dialogue: 0,0:43:00.86,0:43:02.56,Default,NTP,0000,0000,0000,,哈 所以你承认你要杀他了?\N{\fs16}Ha. So, you admit that you killed him?{\r}
+Dialogue: 0,0:43:02.58,0:43:05.73,Default,NTP,0000,0000,0000,,我只是装装样子 完全不是一回事\N{\fs16}I went through the motion, that's not the same thing.{\r}
+Dialogue: 0,0:43:05.75,0:43:08.80,Default,NTP,0000,0000,0000,,我觉得你是想把他送进医院 让他远离危险\N{\fs16}You thought you put him in the hospital, take him out of harm's way.{\r}
+Dialogue: 0,0:43:08.82,0:43:10.51,Default,NTP,0000,0000,0000,,你也就是这么干的\N{\fs16}The same thing you tried to do.{\r}
+Dialogue: 0,0:43:10.54,0:43:12.96,Default,NTP,0000,0000,0000,,你应该不会相信的 对吧? 她的同伙呢?\N{\fs16}You're not gonna believe that, are you? What about the rest of her team?{\r}
+Dialogue: 0,0:43:12.99,0:43:16.85,Default,NTP,0000,0000,0000,,你是说那两个白痴吗? 我只能说他们是累赘\N{\fs16}You means those other 2 idiots? I can only assumed they were redundancies.{\r}
+Dialogue: 0,0:43:16.87,0:43:20.91,Default,NTP,0000,0000,0000,,如果你没有按计划行事 其中一个会杀掉总理\N{\fs16}In case you didn't follow through. One man to kill the Chancellor,{\r}
+Dialogue: 0,0:43:20.98,0:43:23.56,Default,NTP,0000,0000,0000,,另一个会杀掉你 这是一个测试\N{\fs16}the other one to kill you. A test.{\r}
+Dialogue: 0,0:43:23.58,0:43:25.54,Default,NTP,0000,0000,0000,,这是我搞砸的第二个测试 多亏了你\N{\fs16}Second one I failed, thanks to you.{\r}
+Dialogue: 0,0:43:25.59,0:43:28.98,Default,NTP,0000,0000,0000,,汽车炸弹只是为了确保刺杀成功\N{\fs16}And the car bomb was insurance.{\r}
+Dialogue: 0,0:43:32.82,0:43:34.93,Default,NTP,0000,0000,0000,,我们被跟踪了\N{\fs16}We have a tail.{\r}
+Dialogue: 0,0:43:36.24,0:43:38.08,Default,NTP,0000,0000,0000,,他是谁?\N{\fs16}Who is he?{\r}
+Dialogue: 0,0:43:38.10,0:43:40.26,Default,NTP,0000,0000,0000,,我们在调查同一件事 我可以帮助你\N{\fs16}We're after the same thing, and I can help you.{\r}
+Dialogue: 0,0:43:40.29,0:43:43.18,Default,NTP,0000,0000,0000,,但是如果你想打倒"辛迪加" 你必须让我下车\N{\fs16}If you want to bring down the Syndicate, you've to let me out.{\r}
+Dialogue: 0,0:43:43.21,0:43:45.22,Default,NTP,0000,0000,0000,,他们跟上来了\N{\fs16}They're closing.{\r}
+Dialogue: 0,0:43:46.10,0:43:48.73,Default,NTP,0000,0000,0000,,这必须看起来像是 你们为了逃跑 然后把我扔在这里\N{\fs16}This has to look like an escape. So, you just throw me out anywhere.{\r}
+Dialogue: 0,0:43:48.75,0:43:51.21,Default,NTP,0000,0000,0000,,告诉我他是谁\N{\fs16}Tell me who he is.{\r}
+Dialogue: 0,0:43:51.24,0:43:52.55,Default,NTP,0000,0000,0000,,天啊\N{\fs16}Oh!{\r}
+Dialogue: 0,0:43:53.33,0:43:56.18,Default,NTP,0000,0000,0000,,哦 计划有变 把她扔出去\N{\fs16}Oh. Change of plan. Throw her out!{\r}
+Dialogue: 0,0:43:57.87,0:44:00.47,Default,NTP,0000,0000,0000,,你有足够的信息能找到我\N{\fs16}You have everything you need to find me.{\r}
+Dialogue: 0,0:44:15.96,0:44:19.95,Default,NTP,0000,0000,0000,,在我们讯问班吉·邓恩有关伊森·亨特的事不到二十四个小时\N{\fs16}Less than 24 hours after we interviewed Benji Dunn about Ethan Hunt,{\r}
+Dialogue: 0,0:44:19.98,0:44:22.51,Default,NTP,0000,0000,0000,,他就拿着歌剧院的票 乘坐飞机去了维也纳\N{\fs16}he was on a plane to Vienna with tickets to the opera.{\r}
+Dialogue: 0,0:44:22.54,0:44:25.81,Default,NTP,0000,0000,0000,,他到达之后不到6个小时 总理就被刺杀了\N{\fs16}And within 6 hours of his arrival, the Chancellor was dead.{\r}
+Dialogue: 0,0:44:25.84,0:44:28.28,Default,NTP,0000,0000,0000,,对于公投律师来说可能只是巧合\N{\fs16}Now, that might be circumstance to some public defendant.{\r}
+Dialogue: 0,0:44:28.31,0:44:31.44,Default,NTP,0000,0000,0000,,但是对于中情局来说 这是确凿的证据\N{\fs16}But to the CIA, that is actionable intelligence.{\r}
+Dialogue: 0,0:44:31.44,0:44:33.60,Default,NTP,0000,0000,0000,,考虑到现状 情况可能是\N{\fs16}Consider the moment, the possibility that.{\r}
+Dialogue: 0,0:44:33.61,0:44:35.95,Default,NTP,0000,0000,0000,,伊森的调查引导他去了歌剧院\N{\fs16}Ethan's investigation lead him to the opera.{\r}
+Dialogue: 0,0:44:35.98,0:44:37.65,Default,NTP,0000,0000,0000,,他才是有确凿证据的人\N{\fs16}And he's the one with the actionable intelligence.{\r}
+Dialogue: 0,0:44:37.65,0:44:41.80,Default,NTP,0000,0000,0000,,无论如何 找到亨特已经不再是附加任务了\N{\fs16}In any case. Finding Hunt is no longer our pet project.{\r}
+Dialogue: 0,0:44:41.84,0:44:46.10,Default,NTP,0000,0000,0000,,特别行动小组现在有权进行处决\N{\fs16}The Special Activity Division will now have full discretion.{\r}
+Dialogue: 0,0:44:46.73,0:44:48.13,Default,NTP,0000,0000,0000,,你是说 格杀勿论?\N{\fs16}You mean shoot to kill?{\r}
+Dialogue: 0,0:44:48.16,0:44:52.82,Default,NTP,0000,0000,0000,,亨特是死是活 完全取决于他自己\N{\fs16}Whether Hunt lives or dies. It's entirely up to him.{\r}
+Dialogue: 0,0:45:52.38,0:45:55.79,Default,NTP,0000,0000,0000,,新的身份 护照 现金 地图\N{\fs16}New identity, passport, cash, road map.{\r}
+Dialogue: 0,0:45:55.83,0:45:57.40,Default,NTP,0000,0000,0000,,备用衣物在那个包里 就在那\N{\fs16}There's a change of clothes in that bag, right there.{\r}
+Dialogue: 0,0:45:57.42,0:46:00.28,Default,NTP,0000,0000,0000,,一切能让你偷偷回到华盛顿的东西都在这里\N{\fs16}Everything you need to make it to DC undetected.{\r}
+Dialogue: 0,0:46:00.30,0:46:03.07,Default,NTP,0000,0000,0000,,你到那了以后 马上揭发我\N{\fs16}Once you're there, you'll have to inform on me.{\r}
+Dialogue: 0,0:46:03.09,0:46:04.93,Default,NTP,0000,0000,0000,,- 我... 什么? 抱歉 你说什么?  - 说实话\N{\fs16}- I'm suppose... what? Sorry, what?  - Tell the truth.{\r}
+Dialogue: 0,0:46:04.93,0:46:07.89,Default,NTP,0000,0000,0000,,你以为自己赢了两张歌剧的票 所以你来到了维也纳\N{\fs16}You came to Vienna believing you won 2 tickets to the opera.{\r}
+Dialogue: 0,0:46:07.91,0:46:11.27,Default,NTP,0000,0000,0000,,然后我试图说服你参与刺杀总统 然后你拒绝了\N{\fs16}And I attempted to recruit you into assassinating the Chancellor, you refused.{\r}
+Dialogue: 0,0:46:11.30,0:46:12.26,Default,NTP,0000,0000,0000,,这不是事实啊\N{\fs16}That is not the true.{\r}
+Dialogue: 0,0:46:12.27,0:46:14.44,Default,NTP,0000,0000,0000,,班吉 你的命取决于他们信不信你的话\N{\fs16}Your life depends on them believing you, Benji.{\r}
+Dialogue: 0,0:46:14.47,0:46:16.88,Default,NTP,0000,0000,0000,,顺着他们的意思说 你就能保住性命\N{\fs16}It'll go easier if you tell them what they want to hear.{\r}
+Dialogue: 0,0:46:16.91,0:46:20.55,Default,NTP,0000,0000,0000,,伊森 至少告诉我这都是怎么一回事\N{\fs16}Ethan, at least tell me what this is all about.{\r}
+Dialogue: 0,0:46:28.69,0:46:31.02,Default,NTP,0000,0000,0000,,你有认出谁吗?\N{\fs16}You recognized anyone?{\r}
+Dialogue: 0,0:46:43.23,0:46:46.59,Default,NTP,0000,0000,0000,,- 他  - 他以前是沙特阿拉伯人 德国特工\N{\fs16}- Him.  - He's former KSA, German intelligence.{\r}
+Dialogue: 0,0:46:46.62,0:46:48.78,Default,NTP,0000,0000,0000,,失踪 推测死亡\N{\fs16}Missing, presumed dead.{\r}
+Dialogue: 0,0:46:49.13,0:46:51.08,Default,NTP,0000,0000,0000,,今晚他也在剧院\N{\fs16}He was at the opera tonight.{\r}
+Dialogue: 0,0:46:51.10,0:46:52.65,Default,NTP,0000,0000,0000,,这人也是\N{\fs16}This one too.{\r}
+Dialogue: 0,0:46:52.68,0:46:56.12,Default,NTP,0000,0000,0000,,- 前以色列特工  - 让我猜猜 推测死亡\N{\fs16}- Former Mossad.  - Let me guess. Presumed dead.{\r}
+Dialogue: 0,0:46:56.23,0:46:58.69,Default,NTP,0000,0000,0000,,今晚 我让他真的死了\N{\fs16}Tonight, I made it official.{\r}
+Dialogue: 0,0:46:59.60,0:47:01.98,Default,NTP,0000,0000,0000,,我曾在波斯普鲁海峡找他\N{\fs16}I was looking for him in Bosporus.{\r}
+Dialogue: 0,0:47:02.01,0:47:06.05,Default,NTP,0000,0000,0000,,同一天 马拉维总统死于一场车祸\N{\fs16}The same day a car accident killed the visiting President of Malawi.{\r}
+Dialogue: 0,0:47:06.72,0:47:09.50,Default,NTP,0000,0000,0000,,在雅加达 就在一架飞机\N{\fs16}He slipped away again in Jakarta.{\r}
+Dialogue: 0,0:47:09.61,0:47:12.65,Default,NTP,0000,0000,0000,,在太平洋上失踪前几个小时 他又溜走了\N{\fs16}Hours before a passenger plane vanished over the Pacific{\r}
+Dialogue: 0,0:47:12.67,0:47:15.46,Default,NTP,0000,0000,0000,,飞机上有236名乘客\N{\fs16}with 236 passengers.{\r}
+Dialogue: 0,0:47:16.10,0:47:18.04,Default,NTP,0000,0000,0000,,我还在菲律宾错过了他\N{\fs16}I just missed him in the Philippines.{\r}
+Dialogue: 0,0:47:18.07,0:47:23.17,Default,NTP,0000,0000,0000,,接着一座起火的化工厂毒死了一个村子的人 足足两千人\N{\fs16}Right before a fired petrochemical plant gassed a village of 2,000 people.{\r}
+Dialogue: 0,0:47:24.95,0:47:28.10,Default,NTP,0000,0000,0000,,你是说这些事故之间存在某种联系\N{\fs16}You're saying these accidents are somehow connected.{\r}
+Dialogue: 0,0:47:28.99,0:47:33.12,Default,NTP,0000,0000,0000,,那架失踪的飞机上坐着世界银行的行长\N{\fs16}That missing plane was carrying the Secretary of the World Bank.{\r}
+Dialogue: 0,0:47:34.04,0:47:37.65,Default,NTP,0000,0000,0000,,那场大火让一家世界性的兵工企业倒闭\N{\fs16}That fire bank corrupted a global arms cooperation.{\r}
+Dialogue: 0,0:47:38.25,0:47:41.16,Default,NTP,0000,0000,0000,,这次失事引发了内战\N{\fs16}That wreck triggered a civil war.{\r}
+Dialogue: 0,0:47:42.50,0:47:44.73,Default,NTP,0000,0000,0000,,这些绝非偶然\N{\fs16}These are no accidents.{\r}
+Dialogue: 0,0:47:44.84,0:47:50.17,Default,NTP,0000,0000,0000,,它们环环相扣 都是由一个叫"辛迪加"的组织一手策划的\N{\fs16}They're links in a chain. The work of a single organization, the Syndicate.{\r}
+Dialogue: 0,0:47:50.31,0:47:51.58,Default,NTP,0000,0000,0000,,一个失控的组织\N{\fs16}A rogue nation.{\r}
+Dialogue: 0,0:47:51.61,0:47:54.71,Default,NTP,0000,0000,0000,,和我们一样训练有素 建立了一个新的目标\N{\fs16}Trained to do what we do. Inbuilt with a new sense of purpose.{\r}
+Dialogue: 0,0:47:54.74,0:47:57.07,Default,NTP,0000,0000,0000,,就是毁灭最初创造他们的制度\N{\fs16}Destroy the system that created them.{\r}
+Dialogue: 0,0:47:57.09,0:47:59.65,Default,NTP,0000,0000,0000,,神挡杀神 佛挡杀佛\N{\fs16}Regardless if who's in the way.{\r}
+Dialogue: 0,0:48:00.15,0:48:02.48,Default,NTP,0000,0000,0000,,一个反派的IMF\N{\fs16}An anti-IMF.{\r}
+Dialogue: 0,0:48:02.51,0:48:06.18,Default,NTP,0000,0000,0000,,自从亨利叫停了我们之后 他们就更加嚣张了\N{\fs16}And since Hunley shut us down, they've been escalating unchecked.{\r}
+Dialogue: 0,0:48:06.21,0:48:08.91,Default,NTP,0000,0000,0000,,今晚的总统刺杀行动只是个声明\N{\fs16}Killing the Chancellor tonight was a statement.{\r}
+Dialogue: 0,0:48:08.93,0:48:11.06,Default,NTP,0000,0000,0000,,一个新阶段的开始\N{\fs16}The start of a new phase.{\r}
+Dialogue: 0,0:48:11.09,0:48:15.47,Default,NTP,0000,0000,0000,,或者 它们也可能是一系列随机的灾难\N{\fs16}Or they could just be a series of random disasters.{\r}
+Dialogue: 0,0:48:16.37,0:48:18.67,Default,NTP,0000,0000,0000,,他在场\N{\fs16}He was there.{\r}
+Dialogue: 0,0:48:18.88,0:48:20.03,Default,NTP,0000,0000,0000,,每次都是\N{\fs16}Every time.{\r}
+Dialogue: 0,0:48:20.05,0:48:23.17,Default,NTP,0000,0000,0000,,就像今晚他也在场 我非常确定\N{\fs16}Just like he was there tonight. I'm sure of it.{\r}
+Dialogue: 0,0:48:23.47,0:48:26.85,Default,NTP,0000,0000,0000,,我不知道他是谁 来自哪里\N{\fs16}I don't know who he is, where he's from.{\r}
+Dialogue: 0,0:48:27.03,0:48:28.99,Default,NTP,0000,0000,0000,,怎样得到资金援助的\N{\fs16}How he's funded.{\r}
+Dialogue: 0,0:48:29.01,0:48:31.13,Default,NTP,0000,0000,0000,,但我知道他是整件事情的关键\N{\fs16}But I know he's the key.{\r}
+Dialogue: 0,0:48:31.15,0:48:33.67,Default,NTP,0000,0000,0000,,伊森 这正是我要帮你的目的啊\N{\fs16}Ethan, this is what I sign up for.{\r}
+Dialogue: 0,0:48:33.70,0:48:36.02,Default,NTP,0000,0000,0000,,- 让我帮你找到他  - 这也是我把你带到这里的原因\N{\fs16}- Let me help you find him.  - That's why I brought you here.{\r}
+Dialogue: 0,0:48:36.05,0:48:38.47,Default,NTP,0000,0000,0000,,一开始就是这样 看看现在的糟糕情况\N{\fs16}In the first place. And look what happened.{\r}
+Dialogue: 0,0:48:38.49,0:48:40.27,Default,NTP,0000,0000,0000,,我没法保护你\N{\fs16}I can't protect you.{\r}
+Dialogue: 0,0:48:40.30,0:48:42.25,Default,NTP,0000,0000,0000,,所以我要你离开\N{\fs16}That's why I need you to leave.{\r}
+Dialogue: 0,0:48:42.28,0:48:45.51,Default,NTP,0000,0000,0000,,这不是你能决定的事 伊森\N{\fs16}It's not your decision to make, Ethan.{\r}
+Dialogue: 0,0:48:45.54,0:48:47.13,Default,NTP,0000,0000,0000,,我是一个外勤特工\N{\fs16}I'm a field agent.{\r}
+Dialogue: 0,0:48:47.15,0:48:50.00,Default,NTP,0000,0000,0000,,我知道我要承担什么样的风险 不光如此 我还是你的朋友\N{\fs16}I know the risks. More than that, I'm your friend.{\r}
+Dialogue: 0,0:48:50.03,0:48:51.94,Default,NTP,0000,0000,0000,,即使每周面对测谎仪 我都骗他们说我们不是\N{\fs16}No matter what I... con a polygraph every week.{\r}
+Dialogue: 0,0:48:51.97,0:48:55.03,Default,NTP,0000,0000,0000,,你叫我来 是因为你需要我的帮助\N{\fs16}Now you called me because you needed my help.{\r}
+Dialogue: 0,0:48:55.05,0:48:58.26,Default,NTP,0000,0000,0000,,现在仍然需要 所以我不走\N{\fs16}And you still do. So, I'm staying.{\r}
+Dialogue: 0,0:48:58.29,0:49:01.01,Default,NTP,0000,0000,0000,,这件事情就这么决定了\N{\fs16}And that's all we're gonna say about that.{\r}
+Dialogue: 0,0:49:04.96,0:49:08.43,Default,NTP,0000,0000,0000,,- 好的  - 很好\N{\fs16}- Okay.  - Good.{\r}
+Dialogue: 0,0:49:09.95,0:49:11.93,Default,NTP,0000,0000,0000,,那我们从哪里开始?\N{\fs16}Where do we start?{\r}
+Dialogue: 0,0:49:13.29,0:49:14.94,Default,NTP,0000,0000,0000,,伊莎\N{\fs16}Ilsa.{\r}
+Dialogue: 0,0:49:16.99,0:49:19.64,Default,NTP,0000,0000,0000,,好的 那我们怎么才能找到她?\N{\fs16}Right. And how do we find her?{\r}
+Dialogue: 0,0:49:19.67,0:49:22.10,Default,NTP,0000,0000,0000,,她说我们有足够的信息找到她\N{\fs16}She said we have everything we need.{\r}
+Dialogue: 0,0:50:01.62,0:50:03.76,Default,NTP,0000,0000,0000,,我们说好了的\N{\fs16}We had an agreement.{\r}
+Dialogue: 0,0:50:03.78,0:50:05.63,Default,NTP,0000,0000,0000,,你让我去干活 我就去干\N{\fs16}You send me to do a job, I'd do it.{\r}
+Dialogue: 0,0:50:05.66,0:50:08.61,Default,NTP,0000,0000,0000,,- 但要用我的方式 你不插手  - 我什么时候不遵守约定了?\N{\fs16}- But my way, not yours.  - When did I deviate?{\r}
+Dialogue: 0,0:50:08.64,0:50:10.80,Default,NTP,0000,0000,0000,,你今晚在歌剧院多安插了两个枪手\N{\fs16}You put 2 more gunman at the opera tonight.{\r}
+Dialogue: 0,0:50:10.83,0:50:12.45,Default,NTP,0000,0000,0000,,其中一个人还想来杀我\N{\fs16}One of them try to kill me.{\r}
+Dialogue: 0,0:50:12.48,0:50:13.60,Default,NTP,0000,0000,0000,,你失手了\N{\fs16}You missed.{\r}
+Dialogue: 0,0:50:13.62,0:50:16.22,Default,NTP,0000,0000,0000,,那是因为伊森·亨特在那里找你\N{\fs16}I missed because Ethan Hunt was there looking for you.{\r}
+Dialogue: 0,0:50:16.25,0:50:19.73,Default,NTP,0000,0000,0000,,伊森·亨特会在维也纳 是因为你在伦敦的时候让他逃跑了\N{\fs16}Ethan Hunt is in Vienna because you allow him escape in London.{\r}
+Dialogue: 0,0:50:19.75,0:50:23.89,Default,NTP,0000,0000,0000,,文特在伦敦本想杀了他的 但那不是你的指示\N{\fs16}Vinter would've kill him in London and that's not what you asked for.{\r}
+Dialogue: 0,0:50:23.91,0:50:26.74,Default,NTP,0000,0000,0000,,你让他逃跑了两次\N{\fs16}Twice now you've let him slipped away.{\r}
+Dialogue: 0,0:50:28.06,0:50:29.44,Default,NTP,0000,0000,0000,,真有趣\N{\fs16}Curious.{\r}
+Dialogue: 0,0:50:29.47,0:50:32.95,Default,NTP,0000,0000,0000,,你是在质疑我的忠诚还是我的能力\N{\fs16}Are you questioning my loyalty or my ability.{\r}
+Dialogue: 0,0:50:33.88,0:50:36.09,Default,NTP,0000,0000,0000,,- 我也不知道  - 我和你说过\N{\fs16}- Can't decide.  - I've told you before.{\r}
+Dialogue: 0,0:50:36.11,0:50:38.31,Default,NTP,0000,0000,0000,,要是不相信我就把我杀了\N{\fs16}Trust me or kill me.{\r}
+Dialogue: 0,0:50:38.33,0:50:41.32,Default,NTP,0000,0000,0000,,但如果你想杀我的话 像个男人\N{\fs16}But If you're going to kill me, be the man.{\r}
+Dialogue: 0,0:50:42.37,0:50:44.62,Default,NTP,0000,0000,0000,,自己动手\N{\fs16}Do it yourself.{\r}
+Dialogue: 0,0:51:12.21,0:51:14.55,Default,NTP,0000,0000,0000,,他说什么了吗?\N{\fs16}Did he say anything?{\r}
+Dialogue: 0,0:51:15.46,0:51:20.31,Default,NTP,0000,0000,0000,,- 他知道摩洛哥的事了  - 他知道摩洛哥的什么事了?\N{\fs16}- He knows about Morocco.  - What did he know about Morocco?{\r}
+Dialogue: 0,0:51:20.34,0:51:24.71,Default,NTP,0000,0000,0000,,他知道那个电厂 但是他不知道那里面有什么\N{\fs16}He knows about the power plant. He doesn't know what's in it.{\r}
+Dialogue: 0,0:51:26.02,0:51:28.20,Default,NTP,0000,0000,0000,,请你找到他\N{\fs16}Find him, please.{\r}
+Dialogue: 0,0:51:28.94,0:51:30.83,Default,NTP,0000,0000,0000,,他会找到我的\N{\fs16}He'll find me.{\r}
+Dialogue: 0,0:51:31.56,0:51:33.85,Default,NTP,0000,0000,0000,,这件事我已经搞定了\N{\fs16}I've seen to that.{\r}
+Dialogue: 0,0:51:38.50,0:51:40.61,Default,NTP,0000,0000,0000,,- 真有趣  - 这是什么?\N{\fs16}- Well, that's interesting.  - What is it?{\r}
+Dialogue: 0,0:51:40.63,0:51:44.35,Default,NTP,0000,0000,0000,,这叫SCIF 安全计算机设施 不与外网相连 保护得非常好\N{\fs16}It's a SCIF. Secure Computer Facility, offline, ultra-contained.{\r}
+Dialogue: 0,0:51:44.37,0:51:46.49,Default,NTP,0000,0000,0000,,从外部完全不可能黑进去\N{\fs16}It's impossible to hack in from the outside.{\r}
+Dialogue: 0,0:51:46.49,0:51:49.04,Default,NTP,0000,0000,0000,,这个就是个数字保险箱\N{\fs16}It's essentially a digital safety deposit box.{\r}
+Dialogue: 0,0:51:49.06,0:51:52.73,Default,NTP,0000,0000,0000,,这种东西在一位女士的随身物品里可不多见\N{\fs16}Very strange thing for a young lady to be carrying in her sundries.{\r}
+Dialogue: 0,0:51:52.76,0:51:57.13,Default,NTP,0000,0000,0000,,- 它在什么地方  - 摩洛哥\N{\fs16}- Where's it located?  - Morocco.{\r}
+Dialogue: 0,0:51:58.35,0:52:00.20,Default,NTP,0000,0000,0000,,摩洛哥\N{\fs16}Morocco.{\r}
+Dialogue: 0,0:53:15.52,0:53:19.29,Default,NTP,0000,0000,0000,,你们怎么到卡萨布兰卡来了?\N{\fs16}Now, what brings you gentlemen to Casablanca?{\r}
+Dialogue: 0,0:53:48.85,0:53:53.04,Default,NTP,0000,0000,0000,,- 见到你真高兴  - 有什么是电话里不能说的?\N{\fs16}- Good to see you.  - What couldn't you tell me over the telephone?{\r}
+Dialogue: 0,0:53:54.21,0:53:57.13,Default,NTP,0000,0000,0000,,奥地利总理被暗杀了\N{\fs16}The Chancellor of Austria was assassinated.{\r}
+Dialogue: 0,0:53:57.16,0:54:00.05,Default,NTP,0000,0000,0000,,我们相信伊森和班吉在那里\N{\fs16}We believe that Ethan and Benji were there.{\r}
+Dialogue: 0,0:54:00.07,0:54:03.69,Default,NTP,0000,0000,0000,,亨利把这个交给了特别行动小组\N{\fs16}Huntley's handed this over to Special Activity Division.{\r}
+Dialogue: 0,0:54:04.10,0:54:07.23,Default,NTP,0000,0000,0000,,我们需要在他们之前找到伊森\N{\fs16}We need to find Ethan before they do.{\r}
+Dialogue: 0,0:54:07.70,0:54:10.01,Default,NTP,0000,0000,0000,,这个时候你就派上用场了\N{\fs16}That's where you come in.{\r}
+Dialogue: 0,0:54:11.46,0:54:14.46,Default,NTP,0000,0000,0000,,- 没兴趣  - 听着 卢瑟\N{\fs16}- Not interested.  - Okay. Look, Luther.{\r}
+Dialogue: 0,0:54:14.49,0:54:18.74,Default,NTP,0000,0000,0000,,听着 我了解伊森 但我不了解你\N{\fs16}Look, man. I know Ethan. I don't know you.{\r}
+Dialogue: 0,0:54:19.06,0:54:22.04,Default,NTP,0000,0000,0000,,我只知道你选择为亨利干活\N{\fs16}All I know about you is that you chose to work for Hunley.{\r}
+Dialogue: 0,0:54:22.07,0:54:25.70,Default,NTP,0000,0000,0000,,是吗 我还知道你选择辞职呢\N{\fs16}Yeah, all I know about you is you chose to resign.{\r}
+Dialogue: 0,0:54:25.73,0:54:28.45,Default,NTP,0000,0000,0000,,你不用担心伊森的\N{\fs16}You don't have to worry about Ethan.{\r}
+Dialogue: 0,0:54:28.48,0:54:31.53,Default,NTP,0000,0000,0000,,- 他们抓不到他的  - 他们的确抓不到他\N{\fs16}- They'll never catch him.  - No, they're not going to catch him. No.{\r}
+Dialogue: 0,0:54:31.56,0:54:33.93,Default,NTP,0000,0000,0000,,但这是中央情报局 亨利的性格我们都知道\N{\fs16}This is the CIA, this is Hunley we're talking about.{\r}
+Dialogue: 0,0:54:33.96,0:54:37.44,Default,NTP,0000,0000,0000,,事情失控了 他们就会把他杀了\N{\fs16}Thing are out of control and they're going to kill him.{\r}
+Dialogue: 0,0:54:37.94,0:54:41.30,Default,NTP,0000,0000,0000,,他们会杀了伊森 他们会杀了班吉\N{\fs16}They're going to kill Ethan. They're going to kill Benji.{\r}
+Dialogue: 0,0:54:41.36,0:54:45.15,Default,NTP,0000,0000,0000,,我们一定要先找到他们 你能帮我吗?\N{\fs16}We have to get to them first. Are you going to help me?{\r}
+Dialogue: 0,0:54:51.60,0:54:54.30,Default,NTP,0000,0000,0000,,你得搞清楚一件事情\N{\fs16}You need to understand something.{\r}
+Dialogue: 0,0:54:55.08,0:54:57.63,Default,NTP,0000,0000,0000,,伊森是我的朋友\N{\fs16}Ethan is my friend.{\r}
+Dialogue: 0,0:54:57.96,0:55:02.03,Default,NTP,0000,0000,0000,,要是你让我怀疑你是为谁干活的了\N{\fs16}And if I have 1 second of doubt whose side you're on.{\r}
+Dialogue: 0,0:55:04.77,0:55:06.90,Default,NTP,0000,0000,0000,,我相信你\N{\fs16}I believe you.{\r}
+Dialogue: 0,0:55:07.84,0:55:09.87,Default,NTP,0000,0000,0000,,- 好的  - 好的\N{\fs16}- Alright.  - Alright.{\r}
+Dialogue: 0,0:55:09.89,0:55:13.32,Default,NTP,0000,0000,0000,,- 你能给我什么信息?  - 没多少\N{\fs16}- What do I have to go on?  - Not much.{\r}
+Dialogue: 0,0:55:13.35,0:55:15.53,Default,NTP,0000,0000,0000,,而且你时间不多了\N{\fs16}And not a lot of time.{\r}
+Dialogue: 0,0:55:17.00,0:55:21.77,Default,NTP,0000,0000,0000,,他叫所罗门·雷恩 他创造了"辛迪加"\N{\fs16}His name is Solomon Lane. He created the Syndicate.{\r}
+Dialogue: 0,0:55:21.79,0:55:23.78,Default,NTP,0000,0000,0000,,他是从哪里来的?\N{\fs16}Where does he come from?{\r}
+Dialogue: 0,0:55:24.26,0:55:27.05,Default,NTP,0000,0000,0000,,他以前是英国情报部的\N{\fs16}He's former British intelligence.{\r}
+Dialogue: 0,0:55:27.34,0:55:29.86,Default,NTP,0000,0000,0000,,如果英国情报部知道有"辛迪加"存在\N{\fs16}Well. If British intelligence knows the Syndicate exist,{\r}
+Dialogue: 0,0:55:29.88,0:55:32.07,Default,NTP,0000,0000,0000,,他们为什么不告诉中央情报局?\N{\fs16}why don't they just tell the CIA?{\r}
+Dialogue: 0,0:55:32.10,0:55:33.66,Default,NTP,0000,0000,0000,,因为他们不想让别人知道\N{\fs16}Because they don't want anyone knowing{\r}
+Dialogue: 0,0:55:33.76,0:55:36.73,Default,NTP,0000,0000,0000,,"辛迪加"是他们自己人创造的\N{\fs16}the Syndicate was created by one of their own.{\r}
+Dialogue: 0,0:55:37.66,0:55:40.49,Default,NTP,0000,0000,0000,,我被派遣来做卧底 获取雷恩的信任\N{\fs16}I was sent undercover to earn Lane's trust.{\r}
+Dialogue: 0,0:55:40.52,0:55:43.78,Default,NTP,0000,0000,0000,,确认他组织里成员的身份\N{\fs16}And eventually identifying the members of his organization.{\r}
+Dialogue: 0,0:55:43.80,0:55:46.31,Default,NTP,0000,0000,0000,,两年来这是我第一次\N{\fs16}For the first time in 2 years,{\r}
+Dialogue: 0,0:55:46.34,0:55:48.80,Default,NTP,0000,0000,0000,,接近这个目标了\N{\fs16}I'm close to knowing who they are.{\r}
+Dialogue: 0,0:55:48.83,0:55:53.38,Default,NTP,0000,0000,0000,,雷恩有一个账本 上面有他手下特工的身份\N{\fs16}Lane had a ledger. It contain the identities of his operatives,{\r}
+Dialogue: 0,0:55:53.40,0:55:57.36,Default,NTP,0000,0000,0000,,恐怖分子联系人 还有整个辛迪加内部运作模式的信息\N{\fs16}his terrorist associates, the entire inner workings of the Syndicate.{\r}
+Dialogue: 0,0:55:57.39,0:56:00.57,Default,NTP,0000,0000,0000,,他的一个手下把账本偷了 想敲诈他一把\N{\fs16}One of his agents stole it hoping to blackmail him.{\r}
+Dialogue: 0,0:56:00.60,0:56:04.71,Default,NTP,0000,0000,0000,,他把它保存在一个非常安全的计算机设施里\N{\fs16}He kept it in a secure computer facility for safe keeping.{\r}
+Dialogue: 0,0:56:04.74,0:56:07.52,Default,NTP,0000,0000,0000,,他们为了得到密码 把他折磨致死\N{\fs16}He died being interrogated for the access code.{\r}
+Dialogue: 0,0:56:07.54,0:56:10.48,Default,NTP,0000,0000,0000,,这给雷恩留下了一个大麻烦\N{\fs16}Leaving Lane with a serious problem.{\r}
+Dialogue: 0,0:56:11.54,0:56:14.77,Default,NTP,0000,0000,0000,,也就是说可以用来打败雷恩的关键信息\N{\fs16}So the key to crushing Lane is sitting in a{\r}
+Dialogue: 0,0:56:14.78,0:56:18.18,Default,NTP,0000,0000,0000,,就藏在一个电脑里?\N{\fs16}computer just waiting for someone to take it?{\r}
+Dialogue: 0,0:56:18.42,0:56:22.17,Default,NTP,0000,0000,0000,,为什么雷恩没有派人把它偷出来?\N{\fs16}So why hasn't Lane just send someone to steal it?{\r}
+Dialogue: 0,0:56:22.28,0:56:26.73,Default,NTP,0000,0000,0000,,他派了人了 我就是他派的人\N{\fs16}Oh, he has. He sent me.{\r}
+Dialogue: 0,0:56:26.86,0:56:28.75,Default,NTP,0000,0000,0000,,我能告诉你\N{\fs16}And I can tell you.{\r}
+Dialogue: 0,0:56:29.64,0:56:31.76,Default,NTP,0000,0000,0000,,这是不可能完成的\N{\fs16}It's impossible.{\r}
+Dialogue: 0,0:56:35.07,0:56:38.71,Default,NTP,0000,0000,0000,,这个设施藏在一个本地的发电厂下面 有重兵把守\N{\fs16}The facility is hidden beneath the local power plant under military guard.{\r}
+Dialogue: 0,0:56:38.74,0:56:41.60,Default,NTP,0000,0000,0000,,获得账本唯一的方法就是\N{\fs16}And the only way to download the ledger is through{\r}
+Dialogue: 0,0:56:41.61,0:56:44.15,Default,NTP,0000,0000,0000,,到那里面的中央计算机上下载\N{\fs16}the central computer terminal located there.{\r}
+Dialogue: 0,0:56:44.88,0:56:48.42,Default,NTP,0000,0000,0000,,要接触到那个终端 你需要穿过大门\N{\fs16}To reach the terminal, you'll need to pass the main gates.{\r}
+Dialogue: 0,0:56:48.91,0:56:52.40,Default,NTP,0000,0000,0000,,进入一个需要用指纹解锁的电梯里\N{\fs16}Access the elevator with fingerprint recognition.{\r}
+Dialogue: 0,0:56:52.92,0:56:56.31,Default,NTP,0000,0000,0000,,打开三个独立的密码锁\N{\fs16}And open 3 separate combination locks.{\r}
+Dialogue: 0,0:57:01.36,0:57:02.84,Default,NTP,0000,0000,0000,,这简单啊 我们只需要假扮\N{\fs16}Well, that's easy. We just impersonate the{\r}
+Dialogue: 0,0:57:02.85,0:57:04.49,Default,NTP,0000,0000,0000,,那个偷走账本的特工就行了\N{\fs16}agent who stole the ledger in the first place.{\r}
+Dialogue: 0,0:57:04.52,0:57:07.34,Default,NTP,0000,0000,0000,,这样我又可以戴面具了\N{\fs16}And I get to wear a mask.{\r}
+Dialogue: 0,0:57:29.41,0:57:33.59,Default,NTP,0000,0000,0000,,可是 就算你能通过前面每一道防护措施\N{\fs16}Unfortunately, even if you can make it through every other security measure{\r}
+Dialogue: 0,0:57:33.61,0:57:37.43,Default,NTP,0000,0000,0000,,你也搞定不了最后一道 因为它用了步态分析\N{\fs16}you won't beat the last one. That's because it's protected by gait analysis.{\r}
+Dialogue: 0,0:57:37.46,0:57:39.68,Default,NTP,0000,0000,0000,,这比面部识别还要厉害\N{\fs16}A step beyond facial recognition.{\r}
+Dialogue: 0,0:57:39.70,0:57:42.48,Default,NTP,0000,0000,0000,,这些相机能识别特工的步态\N{\fs16}These cameras actually know how the agent walks,{\r}
+Dialogue: 0,0:57:42.50,0:57:46.93,Default,NTP,0000,0000,0000,,说话 行动的方式 甚至能识别他的表情\N{\fs16}how he talks, how he moves, right down to his facial takes.{\r}
+Dialogue: 0,0:57:54.10,0:57:56.10,Default,NTP,0000,0000,0000,,也就是说 面具也没有用\N{\fs16}So, what you're saying is, no mask can beat it.{\r}
+Dialogue: 0,0:57:56.13,0:57:57.57,Default,NTP,0000,0000,0000,,我们在进入保险库之前就会被抓到\N{\fs16}We're busted before we could even get into the vault.{\r}
+Dialogue: 0,0:57:57.60,0:57:59.82,Default,NTP,0000,0000,0000,,最后我就会被关进摩洛哥的监狱里\N{\fs16}And I wind up in a Morocco jail playing mommies{\r}
+Dialogue: 0,0:57:59.83,0:58:01.70,Default,NTP,0000,0000,0000,,和一个勒死自己母亲的杀人犯玩过家家\N{\fs16}and daddies without a mother strangler.{\r}
+Dialogue: 0,0:58:01.72,0:58:03.80,Default,NTP,0000,0000,0000,,好吧 那我就不戴面具了\N{\fs16}Okay, I don't get to wear a mask.{\r}
+Dialogue: 0,0:58:03.83,0:58:05.95,Default,NTP,0000,0000,0000,,没有别的办法可以让我们进入电脑房吗?\N{\fs16}And there's no other way into the computer lab?{\r}
+Dialogue: 0,0:58:05.96,0:58:06.78,Default,NTP,0000,0000,0000,,没有别的办法了\N{\fs16}No other way in.{\r}
+Dialogue: 0,0:58:06.80,0:58:09.15,Default,NTP,0000,0000,0000,,- 通风管道?  - 直径只有6英寸\N{\fs16}- Air Shaft?  - 6 inch diameter pipe.{\r}
+Dialogue: 0,0:58:09.18,0:58:12.81,Default,NTP,0000,0000,0000,,- 从地底进?  - 从上到下有12英尺的水泥\N{\fs16}- Foundation?  - 12 feet of concrete, top and bottom.{\r}
+Dialogue: 0,0:58:12.83,0:58:14.51,Default,NTP,0000,0000,0000,,- 电缆?  - 总而言之\N{\fs16}- Electrical conduit?  - Bottom line is,{\r}
+Dialogue: 0,0:58:14.54,0:58:16.20,Default,NTP,0000,0000,0000,,除非安全系统里有你的档案\N{\fs16}there's no way into that terminal unless{\r}
+Dialogue: 0,0:58:16.23,0:58:20.42,Default,NTP,0000,0000,0000,,你是没有办法接触那个终端的\N{\fs16}your profile is pre-installed in the security system.{\r}
+Dialogue: 0,0:58:20.98,0:58:22.62,Default,NTP,0000,0000,0000,,档案?\N{\fs16}Profile?{\r}
+Dialogue: 0,0:58:23.19,0:58:24.71,Default,NTP,0000,0000,0000,,档案储存在哪里?\N{\fs16}Where're the profile stored?{\r}
+Dialogue: 0,0:58:24.73,0:58:28.84,Default,NTP,0000,0000,0000,,所有的安全信息都离线储存在这个液态冷却液里\N{\fs16}All security data is stored offline in the liquid cooler aid.{\r}
+Dialogue: 0,0:58:28.88,0:58:31.94,Default,NTP,0000,0000,0000,,- 就在这个圆环里  - 用液体冷却\N{\fs16}- Here, inside the torus.  - liquid cooled.{\r}
+Dialogue: 0,0:58:31.97,0:58:33.87,Default,NTP,0000,0000,0000,,也就是说这个东西在水底?\N{\fs16}You mean that thing is under water?{\r}
+Dialogue: 0,0:58:33.89,0:58:36.05,Default,NTP,0000,0000,0000,,- 是的  - 是的\N{\fs16}- Yes.  - Yes.{\r}
+Dialogue: 0,0:58:36.07,0:58:37.15,Default,NTP,0000,0000,0000,,好的\N{\fs16}Okay.{\r}
+Dialogue: 0,0:58:37.18,0:58:41.52,Default,NTP,0000,0000,0000,,也就是说 想要得到账本 我们中的一个人一定要进入这个圆环\N{\fs16}So, to get the ledger, one of us needs to enter the torus{\r}
+Dialogue: 0,0:58:41.79,0:58:44.68,Default,NTP,0000,0000,0000,,把安全档案掉包\N{\fs16}and change the security profile,{\r}
+Dialogue: 0,0:58:45.79,0:58:49.78,Default,NTP,0000,0000,0000,,这样另外一个人才能顺利进入电脑房\N{\fs16}so that the other one can access the computer without being caught.{\r}
+Dialogue: 0,0:58:51.06,0:58:55.08,Default,NTP,0000,0000,0000,,- 这是唯一的方法  - 这是唯一的方法\N{\fs16}- That's the only way.  - That's the only way.{\r}
+Dialogue: 0,0:58:55.97,0:58:57.20,Default,NTP,0000,0000,0000,,我能不能从这里潜入\N{\fs16}Can I get in through there.{\r}
+Dialogue: 0,0:58:57.23,0:58:59.45,Default,NTP,0000,0000,0000,,- 那是什么?  - 那是维修孔\N{\fs16}- What's that?  - That's the service hatch.{\r}
+Dialogue: 0,0:58:59.48,0:59:02.97,Default,NTP,0000,0000,0000,,它只能从里面打开 如果你想从外面打开这个门的话\N{\fs16}It can only be opened from the inside. If you try and open it from the outside,{\r}
+Dialogue: 0,0:59:03.01,0:59:06.42,Default,NTP,0000,0000,0000,,你就会被7万加仑的高压水柱击中\N{\fs16}you'll be hit with 70 thousand gallons of pressurized water.{\r}
+Dialogue: 0,0:59:06.45,0:59:07.78,Default,NTP,0000,0000,0000,,水是从哪里来的?\N{\fs16}Where does the water come from?{\r}
+Dialogue: 0,0:59:07.80,0:59:09.74,Default,NTP,0000,0000,0000,,淡化的海水从进水管进入这个房间\N{\fs16}Desalinized seawater flows through the intake{\r}
+Dialogue: 0,0:59:09.77,0:59:12.10,Default,NTP,0000,0000,0000,,你不用问了\N{\fs16}in the pipeline. And before you ask.{\r}
+Dialogue: 0,0:59:12.12,0:59:14.46,Default,NTP,0000,0000,0000,,这个系统的设计是\N{\fs16}The system is designed to shut down{\r}
+Dialogue: 0,0:59:14.47,0:59:17.47,Default,NTP,0000,0000,0000,,一旦检测到金属 管道就自动关闭\N{\fs16}automatically if any metal enters the intake.{\r}
+Dialogue: 0,0:59:17.49,0:59:20.02,Default,NTP,0000,0000,0000,,就是说不能带氧气罐\N{\fs16}No oxygen tanks.{\r}
+Dialogue: 0,0:59:21.32,0:59:23.59,Default,NTP,0000,0000,0000,,好吧 从进水口游到维修孔\N{\fs16}Alright. Well, how long will it take to free{\r}
+Dialogue: 0,0:59:23.60,0:59:25.77,Default,NTP,0000,0000,0000,,要多少时间?\N{\fs16}swim from the intake to the service hatch.{\r}
+Dialogue: 0,0:59:25.81,0:59:28.20,Default,NTP,0000,0000,0000,,考虑到水流的话 两分钟\N{\fs16}2 minutes. With the current at full power.{\r}
+Dialogue: 0,0:59:28.22,0:59:30.71,Default,NTP,0000,0000,0000,,好吧 那你只需要憋气两分钟就行了\N{\fs16}Well. Then, you just have to hold your breath for 2 minutes.{\r}
+Dialogue: 0,0:59:30.74,0:59:32.71,Default,NTP,0000,0000,0000,,还有安装安全档案呢?\N{\fs16}What about installing the security profile?{\r}
+Dialogue: 0,0:59:32.72,0:59:34.61,Default,NTP,0000,0000,0000,,这最多只需要一分钟吧\N{\fs16}Well. That's gonna be like a minute tops.{\r}
+Dialogue: 0,0:59:34.64,0:59:36.61,Default,NTP,0000,0000,0000,,也就是说我得憋气三分钟?\N{\fs16}So, I have to hold my breath for 3 minutes?{\r}
+Dialogue: 0,0:59:36.64,0:59:37.80,Default,NTP,0000,0000,0000,,你能行的\N{\fs16}You can do that.{\r}
+Dialogue: 0,0:59:37.82,0:59:40.05,Default,NTP,0000,0000,0000,,但是你没有考虑到体力消耗啊\N{\fs16}But I think you're overlooking, is the physical exertion.{\r}
+Dialogue: 0,0:59:40.08,0:59:43.19,Default,NTP,0000,0000,0000,,你用力越多 你消耗氧气就越快\N{\fs16}The more you exert yourself, the faster you consume oxygen.{\r}
+Dialogue: 0,0:59:43.22,0:59:44.74,Default,NTP,0000,0000,0000,,你别担心他\N{\fs16}Don't worry about him. Alright.{\r}
+Dialogue: 0,0:59:44.74,0:59:48.44,Default,NTP,0000,0000,0000,,他只需要在我到达步态分析之前 安装假的安全档案就行了\N{\fs16}All he has to do is install the fake profile before I get to the gait analysis.{\r}
+Dialogue: 0,0:59:48.46,0:59:50.85,Default,NTP,0000,0000,0000,,你也说了 这是唯一的办法\N{\fs16}You said it yourself, it's the only way.{\r}
+Dialogue: 0,0:59:50.88,0:59:53.49,Default,NTP,0000,0000,0000,,听上去也没有那么难啊\N{\fs16}That doesn't sound impossible.{\r}
+Dialogue: 0,0:59:56.57,0:59:59.34,Default,NTP,0000,0000,0000,,卫星监控所有七个大陆\N{\fs16}Satellite over-watch covering all 7 continents,{\r}
+Dialogue: 0,0:59:59.36,1:00:03.59,Default,NTP,0000,0000,0000,,基因分析 面部识别 无人机监控 无人机打击\N{\fs16}DNA profiling, facial recognition, drone surveillance, drone strikes.{\r}
+Dialogue: 0,1:00:03.61,1:00:06.43,Default,NTP,0000,0000,0000,,我们怎么在他们之前找到伊森和班吉?\N{\fs16}So, how are we suppose to find Ethan and Benji before they do?{\r}
+Dialogue: 0,1:00:06.46,1:00:10.25,Default,NTP,0000,0000,0000,,我都没有在找他们 我再找她\N{\fs16}I'm not even looking for them. I'm looking for her.{\r}
+Dialogue: 0,1:00:10.34,1:00:12.12,Default,NTP,0000,0000,0000,,什么意思?\N{\fs16}What do you mean?{\r}
+Dialogue: 0,1:00:12.63,1:00:16.25,Default,NTP,0000,0000,0000,,看看这些画 你看到什么了?\N{\fs16}These sketches, what do you see?{\r}
+Dialogue: 0,1:00:17.43,1:00:21.02,Default,NTP,0000,0000,0000,,伊森不确定这个人是谁\N{\fs16}Ethan's not exactly sure who this guys is.{\r}
+Dialogue: 0,1:00:22.08,1:00:25.65,Default,NTP,0000,0000,0000,,但是他认识这个女人\N{\fs16}But this woman, he knows her.{\r}
+Dialogue: 0,1:00:25.68,1:00:27.51,Default,NTP,0000,0000,0000,,他信任她\N{\fs16}He trust her.{\r}
+Dialogue: 0,1:00:27.53,1:00:30.19,Default,NTP,0000,0000,0000,,我打赌就算他和她不在一起 他也会去找她\N{\fs16}I'm betting that if he's not already with her, he's on his way.{\r}
+Dialogue: 0,1:00:30.19,1:00:31.71,Default,NTP,0000,0000,0000,,找到她就找到伊森了\N{\fs16}Find her, find Ethan.{\r}
+Dialogue: 0,1:00:31.74,1:00:34.18,Default,NTP,0000,0000,0000,,用一张画应该可以进行面部识别的吧\N{\fs16}Tell me it's possible to pull facial recognition of a sketch.{\r}
+Dialogue: 0,1:00:34.21,1:00:38.30,Default,NTP,0000,0000,0000,,一般人做不到 但是这种事我在家里就能搞定了\N{\fs16}For mere mortals, no. For me, I could've done this at home.{\r}
+Dialogue: 0,1:00:38.32,1:00:40.08,Default,NTP,0000,0000,0000,,好的\N{\fs16}Alright.{\r}
+Dialogue: 0,1:00:44.03,1:00:46.75,Default,NTP,0000,0000,0000,,- 需要多少时间?  - 找到了\N{\fs16}- How long is this going to take?  - Found her.{\r}
+Dialogue: 0,1:00:49.15,1:00:53.58,Default,NTP,0000,0000,0000,,有监控录像在卡萨布兰卡的机场里拍到她了\N{\fs16}CCTV picked her up at the airport in Casablanca.{\r}
+Dialogue: 0,1:00:54.27,1:00:56.51,Default,NTP,0000,0000,0000,,什么情况?\N{\fs16}What the hell?{\r}
+Dialogue: 0,1:00:57.18,1:00:59.64,Default,NTP,0000,0000,0000,,她可坏了\N{\fs16}She's bad news.{\r}
+Dialogue: 0,1:01:20.19,1:01:23.57,Default,NTP,0000,0000,0000,,- 证件  - 你好\N{\fs16}- Card.  - Hello.{\r}
+Dialogue: 0,1:01:28.07,1:01:29.70,Default,NTP,0000,0000,0000,,对不起\N{\fs16}Sorry.{\r}
+Dialogue: 0,1:01:59.51,1:02:02.94,Default,NTP,0000,0000,0000,,- 你的证件不能用  - 班吉 我们进去了\N{\fs16}- Your card is not working.  - Benji, we're in.{\r}
+Dialogue: 0,1:02:06.91,1:02:08.73,Default,NTP,0000,0000,0000,,谢谢\N{\fs16}Thank you.{\r}
+Dialogue: 0,1:02:46.03,1:02:49.21,Default,NTP,0000,0000,0000,,我再说一遍 你只有三分钟\N{\fs16}One more time. You have 3 minutes.{\r}
+Dialogue: 0,1:02:49.23,1:02:52.37,Default,NTP,0000,0000,0000,,掉包安全档案需要两分半\N{\fs16}2.5 minutes to switch the security profile.{\r}
+Dialogue: 0,1:02:52.39,1:02:55.51,Default,NTP,0000,0000,0000,,从维修孔逃跑需要30秒\N{\fs16}30 seconds to escape through the service hatch.{\r}
+Dialogue: 0,1:02:55.53,1:03:00.38,Default,NTP,0000,0000,0000,,记住 保存氧气 尽可能不要动太多\N{\fs16}Remember, conserve oxygen. Don't move a muscle if you don't have to.{\r}
+Dialogue: 0,1:03:17.69,1:03:19.93,Default,NTP,0000,0000,0000,,我在电梯里了\N{\fs16}I'm in the elevator.{\r}
+Dialogue: 0,1:03:30.48,1:03:33.25,Default,NTP,0000,0000,0000,,水流会把你带到圆环里\N{\fs16}That current will carry you to a torus.{\r}
+Dialogue: 0,1:03:33.28,1:03:35.73,Default,NTP,0000,0000,0000,,你进去了之后 我就把它关掉\N{\fs16}Once you're there, I'll shut it down.{\r}
+Dialogue: 0,1:03:35.76,1:03:39.58,Default,NTP,0000,0000,0000,,记住 安全档案在108号孔里\N{\fs16}Important note. The profile is in slot 108.{\r}
+Dialogue: 0,1:03:39.60,1:03:41.64,Default,NTP,0000,0000,0000,,还有更重要的一点\N{\fs16}And a slightly more important note,{\r}
+Dialogue: 0,1:03:41.66,1:03:44.59,Default,NTP,0000,0000,0000,,如果我到达步态分析的时候 你还没有掉包安全档案的话\N{\fs16}if you haven't switched that profile before I reach the gait analysis,{\r}
+Dialogue: 0,1:03:44.61,1:03:45.96,Default,NTP,0000,0000,0000,,我就死定了\N{\fs16}I'm dead.{\r}
+Dialogue: 0,1:03:45.98,1:03:48.05,Default,NTP,0000,0000,0000,,谢谢 班吉\N{\fs16}Thank you, Benji.{\r}
+Dialogue: 0,1:04:56.90,1:05:00.52,Default,NTP,0000,0000,0000,,- 怎么了?  - 冷却系统在...\N{\fs16}- What's the problem?  - The cooling system is rebooting...{\r}
+Dialogue: 0,1:05:00.54,1:05:02.78,Default,NTP,0000,0000,0000,,自动重启\N{\fs16}by itself.{\r}
+Dialogue: 0,1:06:26.97,1:06:28.66,Default,NTP,0000,0000,0000,,所有系统正常\N{\fs16}All systems' normal.{\r}
+Dialogue: 0,1:06:28.68,1:06:31.48,Default,NTP,0000,0000,0000,,所有系统满负荷运转\N{\fs16}All systems at full power.{\r}
+Dialogue: 0,1:06:36.62,1:06:39.67,Default,NTP,0000,0000,0000,,不 不 不...\N{\fs16}No no no...{\r}
+Dialogue: 0,1:10:05.99,1:10:09.66,Default,NTP,0000,0000,0000,,你没事的 你没事的\N{\fs16}You're alright. You're okay.{\r}
+Dialogue: 0,1:10:09.69,1:10:11.45,Default,NTP,0000,0000,0000,,看到了吧 我怎么和你说的\N{\fs16}See. What did I told you.{\r}
+Dialogue: 0,1:10:11.45,1:10:15.05,Default,NTP,0000,0000,0000,,困难那是肯定的 但绝对不是不可能的...\N{\fs16}Difficult, absolutely, but certainly not impossible...{\r}
+Dialogue: 0,1:10:15.97,1:10:19.71,Default,NTP,0000,0000,0000,,天啊 他还好吗? 怎么了? 怎么了?\N{\fs16}Jesus, is he alright? What happened? What happened?{\r}
+Dialogue: 0,1:10:31.33,1:10:33.39,Default,NTP,0000,0000,0000,,好的 好的\N{\fs16}Okay. Okay.{\r}
+Dialogue: 0,1:10:34.12,1:10:35.60,Default,NTP,0000,0000,0000,,给你\N{\fs16}Here.{\r}
+Dialogue: 0,1:10:36.94,1:10:38.42,Default,NTP,0000,0000,0000,,嘿\N{\fs16}Hey.{\r}
+Dialogue: 0,1:10:38.45,1:10:40.65,Default,NTP,0000,0000,0000,,我错看你了\N{\fs16}I misjudged you.{\r}
+Dialogue: 0,1:10:45.78,1:10:48.30,Default,NTP,0000,0000,0000,,嘿 兄弟 嘿 你还好吗? 感觉怎么样?\N{\fs16}Hey, man. Hey. You okay? How're you doing?{\r}
+Dialogue: 0,1:10:48.32,1:10:49.88,Default,NTP,0000,0000,0000,,嘿 兄弟\N{\fs16}Hey, buddy.{\r}
+Dialogue: 0,1:10:50.66,1:10:52.86,Default,NTP,0000,0000,0000,,- 班吉  - 是啊 我是班吉\N{\fs16}- Benji.  - Yes, it's Benji.{\r}
+Dialogue: 0,1:10:52.88,1:10:54.45,Default,NTP,0000,0000,0000,,干得好\N{\fs16}You did good.{\r}
+Dialogue: 0,1:10:54.45,1:10:56.46,Default,NTP,0000,0000,0000,,你休息一下 好吗 稍... 稍微休息一下\N{\fs16}You take a moment, alright. Just... just take a moment.{\r}
+Dialogue: 0,1:10:56.48,1:10:58.91,Default,NTP,0000,0000,0000,,晒晒太阳 呼吸呼吸新鲜空气就好了\N{\fs16}There's nothing a little sunshine and fresh air won't fix you.{\r}
+Dialogue: 0,1:10:58.93,1:11:01.84,Default,NTP,0000,0000,0000,,- 你马上就会好了  - 你在这里干什么?\N{\fs16}- You'll be as right as rain.  - What are you doing here?{\r}
+Dialogue: 0,1:11:02.06,1:11:03.93,Default,NTP,0000,0000,0000,,听着 听着...\N{\fs16}Look... look... look...{\r}
+Dialogue: 0,1:11:03.93,1:11:05.47,Default,NTP,0000,0000,0000,,我们成功了\N{\fs16}We got it.{\r}
+Dialogue: 0,1:11:05.47,1:11:07.47,Default,NTP,0000,0000,0000,,我就知道我们会成功的\N{\fs16}I knew we'll get it.{\r}
+Dialogue: 0,1:11:09.07,1:11:10.73,Default,NTP,0000,0000,0000,,听着 我不是不感激你\N{\fs16}Listen. I don't want to sound ungrateful, okay.{\r}
+Dialogue: 0,1:11:10.75,1:11:12.69,Default,NTP,0000,0000,0000,,我很感谢你为我做的事 但是...\N{\fs16}I appreciate everything you do for me, but...{\r}
+Dialogue: 0,1:11:12.72,1:11:15.69,Default,NTP,0000,0000,0000,,总有一天你会玩过火的\N{\fs16}one of these days, you're gonna take it too far.{\r}
+Dialogue: 0,1:11:16.96,1:11:18.89,Default,NTP,0000,0000,0000,,我们成功了\N{\fs16}We got it.{\r}
+Dialogue: 0,1:11:18.91,1:11:21.26,Default,NTP,0000,0000,0000,,我们能把那...\N{\fs16}We're gonna nail that...{\r}
+Dialogue: 0,1:11:29.93,1:11:32.65,Default,NTP,0000,0000,0000,,等等 等等\N{\fs16}Wait. Wait.{\r}
+Dialogue: 0,1:11:35.00,1:11:36.45,Default,NTP,0000,0000,0000,,你不是说你找得到他的吗?\N{\fs16}I thought you said you can find him?{\r}
+Dialogue: 0,1:11:36.47,1:11:39.48,Default,NTP,0000,0000,0000,,我说我能确认他的位置 找他是你的工作\N{\fs16}I said I could locate him. You've to find him.{\r}
+Dialogue: 0,1:11:39.50,1:11:41.00,Default,NTP,0000,0000,0000,,好吧\N{\fs16}Right.{\r}
+Dialogue: 0,1:11:59.23,1:12:01.23,Default,NTP,0000,0000,0000,,亨特在哪里?\N{\fs16}Where's Hunt?{\r}
+Dialogue: 0,1:12:07.18,1:12:08.60,Default,NTP,0000,0000,0000,,他死了\N{\fs16}He's dead.{\r}
+Dialogue: 0,1:12:08.63,1:12:09.95,Default,NTP,0000,0000,0000,,哦 好痛啦\N{\fs16}Oh. That really hurts!{\r}
+Dialogue: 0,1:12:09.98,1:12:11.40,Default,NTP,0000,0000,0000,,- 你能走路吗?  - 能走\N{\fs16}- Can you walk?  - Yes, I can.{\r}
+Dialogue: 0,1:12:11.43,1:12:15.01,Default,NTP,0000,0000,0000,,我们一定要抢在雷恩之前找到她\N{\fs16}We have to get to her before Lane does.{\r}
+Dialogue: 0,1:13:03.69,1:13:06.29,Default,NTP,0000,0000,0000,,喔哦 喔哦... 你能开车吗?\N{\fs16}Whoa-whoa-whoa... Are you okay to drive?{\r}
+Dialogue: 0,1:13:06.31,1:13:08.60,Default,NTP,0000,0000,0000,,刚刚你都快死了\N{\fs16}I mean. A minute ago you were dead.{\r}
+Dialogue: 0,1:13:08.62,1:13:10.79,Default,NTP,0000,0000,0000,,你在说什么啊?\N{\fs16}What are you talking about?{\r}
+Dialogue: 0,1:13:10.82,1:13:13.28,Default,NTP,0000,0000,0000,,这肯定没什么好结果\N{\fs16}This is not gonna end well.{\r}
+Dialogue: 0,1:13:23.16,1:13:25.00,Default,NTP,0000,0000,0000,,她在那里\N{\fs16}There she is.{\r}
+Dialogue: 0,1:13:35.11,1:13:37.61,Default,NTP,0000,0000,0000,,楼梯 楼梯 楼梯\N{\fs16}Stairs, stairs, stairs!{\r}
+Dialogue: 0,1:13:37.79,1:13:40.12,Default,NTP,0000,0000,0000,,楼梯 楼梯 楼梯\N{\fs16}Stairs, stairs, stairs!{\r}
+Dialogue: 0,1:13:41.27,1:13:44.01,Default,NTP,0000,0000,0000,,啊 操他妈的\N{\fs16}Ah! God damn it.{\r}
+Dialogue: 0,1:14:14.08,1:14:15.78,Default,NTP,0000,0000,0000,,喔哦\N{\fs16}Whoa.{\r}
+Dialogue: 0,1:14:24.24,1:14:25.70,Default,NTP,0000,0000,0000,,嘿?\N{\fs16}Hey?{\r}
+Dialogue: 0,1:14:27.51,1:14:29.20,Default,NTP,0000,0000,0000,,找到他们了\N{\fs16}I found them.{\r}
+Dialogue: 0,1:14:30.13,1:14:32.33,Default,NTP,0000,0000,0000,,拜托 兄弟\N{\fs16}Come on, man.{\r}
+Dialogue: 0,1:14:34.50,1:14:36.54,Default,NTP,0000,0000,0000,,靠\N{\fs16}Shit.{\r}
+Dialogue: 0,1:14:36.94,1:14:38.58,Default,NTP,0000,0000,0000,,要追车了\N{\fs16}It's a high-speed chase.{\r}
+Dialogue: 0,1:14:38.61,1:14:40.89,Default,NTP,0000,0000,0000,,你就是非要挑这辆大车 对吧?\N{\fs16}You just had to get the 4 by 4, didn't you?{\r}
+Dialogue: 0,1:14:40.92,1:14:42.60,Default,NTP,0000,0000,0000,,嘿 听着 别怪我啊 这辆车是你挑的\N{\fs16}Hey, look. Don't blame me. You chose the car.{\r}
+Dialogue: 0,1:14:42.63,1:14:44.51,Default,NTP,0000,0000,0000,,- 你就是非要挑这辆  - 你要我来开车吗?\N{\fs16}- You just had to have it!  - Do you want me to drive?{\r}
+Dialogue: 0,1:14:44.54,1:14:45.91,Default,NTP,0000,0000,0000,,- 你要我来开车吗?  - 你看 这简直慢死了\N{\fs16}- Do you want me to drive?  - Look, it's a stick.{\r}
+Dialogue: 0,1:14:45.93,1:14:48.96,Default,NTP,0000,0000,0000,,你看看 看看这辆车多慢 开快点啊\N{\fs16}Look at this. Look how slow you're going. Speed it up.{\r}
+Dialogue: 0,1:14:53.31,1:14:55.31,Default,NTP,0000,0000,0000,,这家伙是谁啊?\N{\fs16}Who's this guy?{\r}
+Dialogue: 0,1:14:56.78,1:14:58.78,Default,NTP,0000,0000,0000,,操\N{\fs16}Shit!{\r}
+Dialogue: 0,1:15:17.19,1:15:19.45,Default,NTP,0000,0000,0000,,啊\N{\fs16}Aww!{\r}
+Dialogue: 0,1:15:24.85,1:15:27.31,Default,NTP,0000,0000,0000,,快 快 快\N{\fs16}Go-go-go-Go!{\r}
+Dialogue: 0,1:15:29.77,1:15:32.58,Default,NTP,0000,0000,0000,,我没事 我没事 我没事\N{\fs16}I'm okay. I'm okay. I'm okay.{\r}
+Dialogue: 0,1:15:36.87,1:15:38.23,Default,NTP,0000,0000,0000,,嘿\N{\fs16}Ho!{\r}
+Dialogue: 0,1:15:38.85,1:15:41.24,Default,NTP,0000,0000,0000,,喔哦 喔哦 喔哦...\N{\fs16}Whoa-whoa-whoa...{\r}
+Dialogue: 0,1:15:48.45,1:15:50.45,Default,NTP,0000,0000,0000,,他们来啦\N{\fs16}Here they come!{\r}
+Dialogue: 0,1:15:50.48,1:15:52.48,Default,NTP,0000,0000,0000,,我们怎么办?\N{\fs16}What're we gonna do?{\r}
+Dialogue: 0,1:16:05.02,1:16:06.85,Default,NTP,0000,0000,0000,,小心枪\N{\fs16}Gun!{\r}
+Dialogue: 0,1:16:09.47,1:16:11.02,Default,NTP,0000,0000,0000,,你系好安全带了吗?\N{\fs16}Do you have your seat belts on?{\r}
+Dialogue: 0,1:16:11.05,1:16:13.22,Default,NTP,0000,0000,0000,,啥? 你现在才问我这个?\N{\fs16}What? You're asking me that now?{\r}
+Dialogue: 0,1:16:20.78,1:16:22.97,Default,NTP,0000,0000,0000,,- 抓紧了  - 啊\N{\fs16}- Hang on!  - Ah!{\r}
+Dialogue: 0,1:16:23.54,1:16:25.14,Default,NTP,0000,0000,0000,,啊\N{\fs16}Aww!{\r}
+Dialogue: 0,1:17:01.81,1:17:03.60,Default,NTP,0000,0000,0000,,你没事吧?\N{\fs16}Are you good?{\r}
+Dialogue: 0,1:17:03.63,1:17:06.03,Default,NTP,0000,0000,0000,,局面... 有点失控\N{\fs16}Things... got a little out of hand.{\r}
+Dialogue: 0,1:17:06.05,1:17:08.45,Default,NTP,0000,0000,0000,,啊 当心\N{\fs16}Aw! Look out!{\r}
+Dialogue: 0,1:17:12.79,1:17:15.77,Default,NTP,0000,0000,0000,,好了 没事了吧?\N{\fs16}Okay. We're good?{\r}
+Dialogue: 0,1:17:23.99,1:17:26.39,Default,NTP,0000,0000,0000,,哦 大家好啊 我错过什么好戏了吗?\N{\fs16}Oh, hi boys. What did I miss?{\r}
+Dialogue: 0,1:17:31.31,1:17:34.30,Default,NTP,0000,0000,0000,,哇哦 这刀够利啊 当心 当心\N{\fs16}Woo. That look sharp. Careful, careful.{\r}
+Dialogue: 0,1:21:16.30,1:21:18.66,Default,NTP,0000,0000,0000,,那么 我们现在怎么办?\N{\fs16}So, what do we do now?{\r}
+Dialogue: 0,1:21:20.58,1:21:24.38,Default,NTP,0000,0000,0000,,请告诉我 你拷贝了一份U盘里的东西\N{\fs16}Please tell me, you made a copy of that disk.{\r}
+Dialogue: 0,1:21:26.07,1:21:28.72,Default,NTP,0000,0000,0000,,我当然拷贝了一份\N{\fs16}Of course I made a copy.{\r}
+Dialogue: 0,1:21:36.11,1:21:38.11,Default,NTP,0000,0000,0000,,那么 我们要去哪里?\N{\fs16}So where are we going?{\r}
+Dialogue: 0,1:22:02.07,1:22:03.27,Default,NTP,0000,0000,0000,,里面是账本\N{\fs16}It's a ledger.{\r}
+Dialogue: 0,1:22:03.30,1:22:05.49,Default,NTP,0000,0000,0000,,辛迪加整个组织架构\N{\fs16}The Syndicate's entire infrastructure.{\r}
+Dialogue: 0,1:22:05.51,1:22:08.83,Default,NTP,0000,0000,0000,,他们是谁 手中控制的政客 资金的来源\N{\fs16}Who they are, the politicians they control, and where the money comes from.{\r}
+Dialogue: 0,1:22:09.34,1:22:11.49,Default,NTP,0000,0000,0000,,你想知道的一切都在里面\N{\fs16}It's everything you want to know.{\r}
+Dialogue: 0,1:22:11.53,1:22:15.67,Default,NTP,0000,0000,0000,,你为什么觉得这个所谓的"账本"是真的?\N{\fs16}What makes you think this so-called ledger is authentic?{\r}
+Dialogue: 0,1:22:15.69,1:22:18.31,Default,NTP,0000,0000,0000,,如果这不是真的 那雷恩为什么如此费尽心机?\N{\fs16}Why would Lane want it so badly if it wasn't authentic?{\r}
+Dialogue: 0,1:22:18.34,1:22:20.86,Default,NTP,0000,0000,0000,,如果是真的 他为什么让你沾手?\N{\fs16}Why would he ever let you have it if it was?{\r}
+Dialogue: 0,1:22:20.89,1:22:24.19,Default,NTP,0000,0000,0000,,你从来没想过他是故意把东西送上门的吗?\N{\fs16}Did you never stop to consider he may want me to have it?{\r}
+Dialogue: 0,1:22:24.22,1:22:25.76,Default,NTP,0000,0000,0000,,信息误导 全局操控\N{\fs16}Misinformation, manipulation.{\r}
+Dialogue: 0,1:22:25.79,1:22:28.41,Default,NTP,0000,0000,0000,,这是他常做的事 他接受的训练也是如此\N{\fs16}What he does exercise, what he's trained to do.{\r}
+Dialogue: 0,1:22:28.44,1:22:31.72,Default,NTP,0000,0000,0000,,雷恩骗了你 你用谎言骗了亨特\N{\fs16}Lane lies to you, you sell his lies to Hunt.{\r}
+Dialogue: 0,1:22:31.74,1:22:33.41,Default,NTP,0000,0000,0000,,一举两得 你们都中计了\N{\fs16}Together, you both are compromised.{\r}
+Dialogue: 0,1:22:33.44,1:22:35.83,Default,NTP,0000,0000,0000,,这才是他最终的目的\N{\fs16}That's his ultimate objective.{\r}
+Dialogue: 0,1:22:35.85,1:22:37.73,Default,NTP,0000,0000,0000,,这也许是真的\N{\fs16}This may be authentic.{\r}
+Dialogue: 0,1:22:37.76,1:22:43.02,Default,NTP,0000,0000,0000,,但我相信只有一个人能确保这个消息是真实的 那就是你\N{\fs16}But there's only one person I trust to verify that information. You.{\r}
+Dialogue: 0,1:22:44.49,1:22:45.96,Default,NTP,0000,0000,0000,,不行\N{\fs16}No.{\r}
+Dialogue: 0,1:22:47.27,1:22:50.03,Default,NTP,0000,0000,0000,,我的命令是把辛迪加的消息带给你\N{\fs16}My orders were to deliver you information regarding the Syndicate.{\r}
+Dialogue: 0,1:22:50.06,1:22:52.65,Default,NTP,0000,0000,0000,,给你的命令是潜入辛迪加\N{\fs16}Your orders were to infiltrate the Syndicate{\r}
+Dialogue: 0,1:22:52.66,1:22:55.32,Default,NTP,0000,0000,0000,,让我们得到它的第一手资料\N{\fs16}that we may learn more about them first hand.{\r}
+Dialogue: 0,1:22:55.34,1:22:57.62,Default,NTP,0000,0000,0000,,这没被验证 这只是个测试 和其它事一样\N{\fs16}This isn't prove, it's a test, like everything else.{\r}
+Dialogue: 0,1:22:57.64,1:23:00.17,Default,NTP,0000,0000,0000,,唯一通过的办法 就是回去\N{\fs16}The only way to pass, is to go back.{\r}
+Dialogue: 0,1:23:00.20,1:23:01.65,Default,NTP,0000,0000,0000,,我做不到\N{\fs16}I can't do that.{\r}
+Dialogue: 0,1:23:01.68,1:23:04.39,Default,NTP,0000,0000,0000,,我已经背叛雷恩的信任好几次了\N{\fs16}I betrayed Lane's trust too many times.{\r}
+Dialogue: 0,1:23:04.41,1:23:06.72,Default,NTP,0000,0000,0000,,因为你每次都由着你自己的性子来\N{\fs16}And in every instance, you did so on you own volition.{\r}
+Dialogue: 0,1:23:06.75,1:23:09.49,Default,NTP,0000,0000,0000,,不然他就要折磨那个美国特工 然后杀掉他\N{\fs16}He was going to tortured and killed an American agent.{\r}
+Dialogue: 0,1:23:09.51,1:23:13.01,Default,NTP,0000,0000,0000,,你应该让他这么做 这样雷恩还是相信你的\N{\fs16}And you should've let him, and you would still have Lane's trust.{\r}
+Dialogue: 0,1:23:13.03,1:23:15.13,Default,NTP,0000,0000,0000,,这叫权衡 亨特会懂的\N{\fs16}This is the trade, Hunt understands that.{\r}
+Dialogue: 0,1:23:15.16,1:23:17.70,Default,NTP,0000,0000,0000,,我可不打算让他死掉 他可是我们的同盟\N{\fs16}I wasn't going to let him die. He is our ally.{\r}
+Dialogue: 0,1:23:17.73,1:23:22.28,Default,NTP,0000,0000,0000,,国与国之间没有同盟 伊莎 只有共同的利益\N{\fs16}There are no allies in statecraft, Ilsa. Only common interest.{\r}
+Dialogue: 0,1:23:22.31,1:23:26.01,Default,NTP,0000,0000,0000,,而且就目前而言 伊森·亨特是无国籍人士\N{\fs16}As it stands, Ethan Hunt is a man without a country.{\r}
+Dialogue: 0,1:23:26.03,1:23:30.74,Default,NTP,0000,0000,0000,,这就让除掉他的命令更加的简单\N{\fs16}This makes killing him decidedly less complicated.{\r}
+Dialogue: 0,1:23:31.91,1:23:33.77,Default,NTP,0000,0000,0000,,你是命令我干掉亨特吗?\N{\fs16}Are you ordering me to kill Hunt?{\r}
+Dialogue: 0,1:23:33.79,1:23:36.80,Default,NTP,0000,0000,0000,,天啊 当然不是 谁会这么没良心啊\N{\fs16}Good god, no. Nothing so crude as that, no.{\r}
+Dialogue: 0,1:23:37.51,1:23:39.69,Default,NTP,0000,0000,0000,,雷恩会下命令的\N{\fs16}Lane will order you.{\r}
+Dialogue: 0,1:23:39.71,1:23:44.89,Default,NTP,0000,0000,0000,,为了再次获得他的信任 你会下手的\N{\fs16}And to regain his trust, you will do it.{\r}
+Dialogue: 0,1:23:45.38,1:23:48.56,Default,NTP,0000,0000,0000,,你派我去做的事情\N{\fs16}You sent me to do a job.{\r}
+Dialogue: 0,1:23:48.59,1:23:50.48,Default,NTP,0000,0000,0000,,我已经做到了\N{\fs16}I did it.{\r}
+Dialogue: 0,1:23:50.64,1:23:52.67,Default,NTP,0000,0000,0000,,现在 把我招回去\N{\fs16}Now, you bring me in.{\r}
+Dialogue: 0,1:23:52.70,1:23:56.91,Default,NTP,0000,0000,0000,,我提醒你一下 你自己也是无国籍人士\N{\fs16}Might I remind you, you're without a country of your own.{\r}
+Dialogue: 0,1:23:57.22,1:24:00.21,Default,NTP,0000,0000,0000,,中情局局长亲自电话我 询问你的情况\N{\fs16}The director of the CIA called me inquiring about you personally.{\r}
+Dialogue: 0,1:24:00.23,1:24:02.79,Default,NTP,0000,0000,0000,,为了保护你卧底身份 我自然撒了谎\N{\fs16}Of course to protect your cover, I had to lie.{\r}
+Dialogue: 0,1:24:02.81,1:24:04.29,Default,NTP,0000,0000,0000,,所以 目前在美国人眼里\N{\fs16}So, as far as the Americans are concern,{\r}
+Dialogue: 0,1:24:04.32,1:24:08.17,Default,NTP,0000,0000,0000,,你就是个不受控制的杀手 有机会就要除掉的目标\N{\fs16}you're a rogue assassin, a target of opportunity.{\r}
+Dialogue: 0,1:24:08.35,1:24:11.65,Default,NTP,0000,0000,0000,,只有一小部分人知道你真实的身份\N{\fs16}A precious few people know about your true identity.{\r}
+Dialogue: 0,1:24:11.67,1:24:17.03,Default,NTP,0000,0000,0000,,如果我们都选择性忘记了 那就可惜了\N{\fs16}It would be unfortunate if we forgot.{\r}
+Dialogue: 0,1:24:17.36,1:24:20.39,Default,NTP,0000,0000,0000,,听着 这实在是无奈之举 伊莎\N{\fs16}You see, there really is no choice, Ilsa.{\r}
+Dialogue: 0,1:24:20.41,1:24:22.71,Default,NTP,0000,0000,0000,,你必须回去\N{\fs16}You're going back.{\r}
+Dialogue: 0,1:24:29.77,1:24:33.19,Default,NTP,0000,0000,0000,,很高兴知道你还跟我们一队\N{\fs16}Glad to know you're still with us.{\r}
+Dialogue: 0,1:24:41.01,1:24:42.29,Default,NTP,0000,0000,0000,,什么? 出了什么事?\N{\fs16}What? What's happening?{\r}
+Dialogue: 0,1:24:42.30,1:24:43.75,Default,NTP,0000,0000,0000,,我打不开\N{\fs16}I can't open it.{\r}
+Dialogue: 0,1:24:43.75,1:24:44.97,Default,NTP,0000,0000,0000,,什么叫你打不开?\N{\fs16}What do you mean you can't open it?{\r}
+Dialogue: 0,1:24:45.00,1:24:47.25,Default,NTP,0000,0000,0000,,就是说 我没办法打开\N{\fs16}I mean I can't open it, ever.{\r}
+Dialogue: 0,1:24:47.27,1:24:49.06,Default,NTP,0000,0000,0000,,这是个红箱子\N{\fs16}That's a red box.{\r}
+Dialogue: 0,1:24:49.08,1:24:50.95,Default,NTP,0000,0000,0000,,- 一个什么?  - 是个红箱子\N{\fs16}- A what?  - It's a red box.{\r}
+Dialogue: 0,1:24:50.98,1:24:53.90,Default,NTP,0000,0000,0000,,英国政府用它来转移国家机密\N{\fs16}The British government uses it to transport national secrets.{\r}
+Dialogue: 0,1:24:53.93,1:24:54.98,Default,NTP,0000,0000,0000,,听起来不妙啊\N{\fs16}Doesn't sound good.{\r}
+Dialogue: 0,1:24:55.00,1:24:57.50,Default,NTP,0000,0000,0000,,意思就是 这里有三层密码 除非有\N{\fs16}Meaning it's triple encrypted. You don't get into that thing{\r}
+Dialogue: 0,1:24:57.53,1:25:00.24,Default,NTP,0000,0000,0000,,正确的指纹 视网膜扫描 特定个人的\N{\fs16}unless you have fingerprints, retinal scan, and{\r}
+Dialogue: 0,1:25:00.26,1:25:02.99,Default,NTP,0000,0000,0000,,特定语音的话 不然你是打不开的\N{\fs16}a voice phrase spoken by a specific individual.{\r}
+Dialogue: 0,1:25:03.01,1:25:05.42,Default,NTP,0000,0000,0000,,英国首相本人\N{\fs16}The Prime Minister of Great Britain himself.{\r}
+Dialogue: 0,1:25:05.44,1:25:06.63,Default,NTP,0000,0000,0000,,没错 就是他\N{\fs16}Yes, him.{\r}
+Dialogue: 0,1:25:06.65,1:25:08.71,Default,NTP,0000,0000,0000,,所以你的意思就是 里面根本没账本\N{\fs16}So, what you're saying is, there is no ledger.{\r}
+Dialogue: 0,1:25:08.72,1:25:11.23,Default,NTP,0000,0000,0000,,也就是说无法证明辛迪加的存在\N{\fs16}Which means we have no proof that the Syndicate even exist.{\r}
+Dialogue: 0,1:25:11.25,1:25:12.71,Default,NTP,0000,0000,0000,,除了把自己搞上了中情局通缉名单\N{\fs16}So, we're back to square one,{\r}
+Dialogue: 0,1:25:12.74,1:25:15.30,Default,NTP,0000,0000,0000,,我们是空忙活一场\N{\fs16}only now, we're all wanted by the CIA.{\r}
+Dialogue: 0,1:25:15.33,1:25:17.25,Default,NTP,0000,0000,0000,,我太佩服自己了\N{\fs16}I'm so proud of us.{\r}
+Dialogue: 0,1:25:17.27,1:25:20.08,Default,NTP,0000,0000,0000,,我想不通的是 为什么在摩洛哥的\N{\fs16}What I don't understand is why is there a red{\r}
+Dialogue: 0,1:25:20.09,1:25:22.78,Default,NTP,0000,0000,0000,,私人数据库中会有红箱子\N{\fs16}box sat in a private data vault in Morocco.{\r}
+Dialogue: 0,1:25:22.81,1:25:25.14,Default,NTP,0000,0000,0000,,而且如果雷恩打不开的话 他为什么想要这东西?\N{\fs16}And why would Lane want it if he can't open it?{\r}
+Dialogue: 0,1:25:25.16,1:25:28.49,Default,NTP,0000,0000,0000,,如果雷恩想要 那他肯定有打开它的计划\N{\fs16}If Lane wants it, you can bet that he has a plan to open it.{\r}
+Dialogue: 0,1:25:29.68,1:25:32.33,Default,NTP,0000,0000,0000,,而我们还帮他偷了出来\N{\fs16}And we just help him steal it.{\r}
+Dialogue: 0,1:25:35.49,1:25:37.55,Default,NTP,0000,0000,0000,,他要对首相下手\N{\fs16}He's going to take the Prime Minister.{\r}
+Dialogue: 0,1:25:37.57,1:25:39.36,Default,NTP,0000,0000,0000,,没错 他肯定会的\N{\fs16}Yes, he is.{\r}
+Dialogue: 0,1:25:39.55,1:25:40.74,Default,NTP,0000,0000,0000,,问题是他的手法\N{\fs16}The question is how?{\r}
+Dialogue: 0,1:25:40.76,1:25:42.34,Default,NTP,0000,0000,0000,,那我们必须提醒英国政府\N{\fs16}Well, we have to warn the British government.{\r}
+Dialogue: 0,1:25:42.37,1:25:44.37,Default,NTP,0000,0000,0000,,- 好的 打给军情6处  - 不 不 布兰特\N{\fs16}- Yeah, MI6.  - No, no, Brandt.{\r}
+Dialogue: 0,1:25:44.40,1:25:46.10,Default,NTP,0000,0000,0000,,手机先放一边 我们先考虑清楚\N{\fs16}Put down the phone. Let's think about this.{\r}
+Dialogue: 0,1:25:46.12,1:25:48.60,Default,NTP,0000,0000,0000,,我们有义务警告英国政府\N{\fs16}We have a responsibility to warn the British government,{\r}
+Dialogue: 0,1:25:48.63,1:25:51.11,Default,NTP,0000,0000,0000,,而且不能赌上首相的性命\N{\fs16}and not gamble with the Prime Minister's life.{\r}
+Dialogue: 0,1:25:51.14,1:25:53.92,Default,NTP,0000,0000,0000,,让伊森你能在你老对手面前\N{\fs16}Ethan, just so you can beat the guy{\r}
+Dialogue: 0,1:25:53.94,1:25:57.19,Default,NTP,0000,0000,0000,,一雪前耻\N{\fs16}that's beaten you at every turn.{\r}
+Dialogue: 0,1:25:58.66,1:26:00.91,Default,NTP,0000,0000,0000,,你是这么看这件事情的?\N{\fs16}Is that what you think this is?{\r}
+Dialogue: 0,1:26:00.97,1:26:02.55,Default,NTP,0000,0000,0000,,布兰特?\N{\fs16}Brandt?{\r}
+Dialogue: 0,1:26:04.82,1:26:07.35,Default,NTP,0000,0000,0000,,你们是这么看这件事情的?\N{\fs16}Is that what you think this is?{\r}
+Dialogue: 0,1:26:07.77,1:26:09.07,Default,NTP,0000,0000,0000,,我是觉得\N{\fs16}I think right now,{\r}
+Dialogue: 0,1:26:09.09,1:26:11.20,Default,NTP,0000,0000,0000,,现在你无法理解 其实有另外一种办法\N{\fs16}you're incapable of seeing that there's another way.{\r}
+Dialogue: 0,1:26:11.23,1:26:14.73,Default,NTP,0000,0000,0000,,但有时候伊森是唯一可以发现唯一出路的人\N{\fs16}And sometimes Ethan is the only one capable of seeing the only way.{\r}
+Dialogue: 0,1:26:14.76,1:26:17.40,Default,NTP,0000,0000,0000,,但如果他是错的 那维也纳事件\N{\fs16}And if he's wrong, then we have Vienna{\r}
+Dialogue: 0,1:26:17.42,1:26:18.52,Default,NTP,0000,0000,0000,,就又要历史重演了\N{\fs16}all over again.{\r}
+Dialogue: 0,1:26:18.54,1:26:21.28,Default,NTP,0000,0000,0000,,错了 你不了解他 如果他想要什么东西\N{\fs16}No, you don't know him. If he wants something to happen,{\r}
+Dialogue: 0,1:26:21.30,1:26:22.68,Default,NTP,0000,0000,0000,,没办法阻止的\N{\fs16}there's no preventing it.{\r}
+Dialogue: 0,1:26:22.70,1:26:24.72,Default,NTP,0000,0000,0000,,所以我们要提醒英国政府\N{\fs16}That's why we have to warn the British.{\r}
+Dialogue: 0,1:26:24.74,1:26:27.12,Default,NTP,0000,0000,0000,,也许他想要我们这么做\N{\fs16}Maybe that's exactly what he wants us to do.{\r}
+Dialogue: 0,1:26:27.15,1:26:29.36,Default,NTP,0000,0000,0000,,你知道自己在说什么吗? 我们要警告英国政府\N{\fs16}Are you listening to yourself? We're going to warn the British.{\r}
+Dialogue: 0,1:26:29.38,1:26:31.97,Default,NTP,0000,0000,0000,,错 我们要在雷恩对首相下手之前\N{\fs16}No. We're going to find Lane, we're going to get him.{\r}
+Dialogue: 0,1:26:31.99,1:26:34.59,Default,NTP,0000,0000,0000,,找到他 抓住他\N{\fs16}Before he takes the Prime Minister.{\r}
+Dialogue: 0,1:26:39.27,1:26:40.68,Default,NTP,0000,0000,0000,,好吧\N{\fs16}Okay.{\r}
+Dialogue: 0,1:26:40.70,1:26:43.62,Default,NTP,0000,0000,0000,,好的 伊森 我们去找雷恩\N{\fs16}Alright, Ethan. We're going to find Lane.{\r}
+Dialogue: 0,1:26:43.64,1:26:45.55,Default,NTP,0000,0000,0000,,但请你告诉我\N{\fs16}But please tell me.{\r}
+Dialogue: 0,1:26:45.55,1:26:47.89,Default,NTP,0000,0000,0000,,我们要怎么做?\N{\fs16}How're we going to do that?{\r}
+Dialogue: 0,1:27:26.63,1:27:28.30,Default,NTP,0000,0000,0000,,往事一笔勾销\N{\fs16}All is forgiven.{\r}
+Dialogue: 0,1:27:28.33,1:27:30.43,Default,NTP,0000,0000,0000,,那不是什么账本 对吧?\N{\fs16}That isn't a ledger, is it?{\r}
+Dialogue: 0,1:27:30.46,1:27:32.75,Default,NTP,0000,0000,0000,,你没自己打开看一下吗?\N{\fs16}You didn't take a look for yourself?{\r}
+Dialogue: 0,1:27:32.77,1:27:34.20,Default,NTP,0000,0000,0000,,我当然看了\N{\fs16}Of course I did.{\r}
+Dialogue: 0,1:27:34.20,1:27:35.96,Default,NTP,0000,0000,0000,,但文件被加密了\N{\fs16}But the file was encrypted.{\r}
+Dialogue: 0,1:27:35.96,1:27:37.49,Default,NTP,0000,0000,0000,,那我为什么要骗你呢?\N{\fs16}And why would I lie to you?{\r}
+Dialogue: 0,1:27:37.51,1:27:39.81,Default,NTP,0000,0000,0000,,这样我就能骗亨特\N{\fs16}So that I would lie to Hunt.{\r}
+Dialogue: 0,1:27:41.07,1:27:44.56,Default,NTP,0000,0000,0000,,如果他知道是什么的话 他就不会去偷了\N{\fs16}But he wouldn't have stolen it if he knew what it was.{\r}
+Dialogue: 0,1:27:45.20,1:27:47.50,Default,NTP,0000,0000,0000,,而你也不会跑去帮他\N{\fs16}And you wouldn't have helped him.{\r}
+Dialogue: 0,1:27:48.88,1:27:50.96,Default,NTP,0000,0000,0000,,所以那U盘里到底是什么?\N{\fs16}What is actually on that disk?{\r}
+Dialogue: 0,1:27:50.98,1:27:54.70,Default,NTP,0000,0000,0000,,等你对我坦诚相见 我也对你开诚布公\N{\fs16}I'll be honest with you when you start being honest with me.{\r}
+Dialogue: 0,1:27:55.46,1:27:58.11,Default,NTP,0000,0000,0000,,而且你和我 对你回来的原因都心知肚明\N{\fs16}And you and I, we both know why you come back.{\r}
+Dialogue: 0,1:27:58.13,1:27:59.98,Default,NTP,0000,0000,0000,,难道不是吗?\N{\fs16}Don't we?{\r}
+Dialogue: 0,1:28:02.12,1:28:05.15,Default,NTP,0000,0000,0000,,你还活着 是因为我还相信你的潜力\N{\fs16}You're still alive because I believe in your potential.{\r}
+Dialogue: 0,1:28:05.18,1:28:07.69,Default,NTP,0000,0000,0000,,但我的耐心快用完了\N{\fs16}But I'm growing impatient.{\r}
+Dialogue: 0,1:28:08.49,1:28:11.63,Default,NTP,0000,0000,0000,,为什么你还在抗拒?\N{\fs16}Why do you continue to resist?{\r}
+Dialogue: 0,1:28:15.00,1:28:17.03,Default,NTP,0000,0000,0000,,如果老实的说\N{\fs16}Well, if we're being honest,{\r}
+Dialogue: 0,1:28:17.66,1:28:19.12,Default,NTP,0000,0000,0000,,你是个恐怖分子\N{\fs16}you're a terrorist.{\r}
+Dialogue: 0,1:28:19.14,1:28:23.00,Default,NTP,0000,0000,0000,,如果这话是真的 那我的目标是散播恐惧 但我的...\N{\fs16}If that were true then my goal would be to spread fear, but my...{\r}
+Dialogue: 0,1:28:23.03,1:28:27.03,Default,NTP,0000,0000,0000,,方式... 是目的明确的\N{\fs16}method is... far more surgical.{\r}
+Dialogue: 0,1:28:28.21,1:28:30.18,Default,NTP,0000,0000,0000,,可你滥杀无辜\N{\fs16}You kill innocent people.{\r}
+Dialogue: 0,1:28:30.21,1:28:35.24,Default,NTP,0000,0000,0000,,我帮助我的政府杀了很多无辜的人 根本无以计数\N{\fs16}I helped my government killed many innocent people and more, so much more.{\r}
+Dialogue: 0,1:28:35.85,1:28:38.85,Default,NTP,0000,0000,0000,,杀人让事情保持在正轨\N{\fs16}Killing to keep things as they were.{\r}
+Dialogue: 0,1:28:38.87,1:28:42.74,Default,NTP,0000,0000,0000,,而我现在杀人是为了带来转机\N{\fs16}And now I'm killing to bring about change.{\r}
+Dialogue: 0,1:28:42.95,1:28:45.65,Default,NTP,0000,0000,0000,,我觉得伊森·亨特不会同意的\N{\fs16}I think Ethan Hunt would disagree.{\r}
+Dialogue: 0,1:28:45.67,1:28:47.86,Default,NTP,0000,0000,0000,,伊森·亨特是个赌徒\N{\fs16}Ethan Hunt is a gambler.{\r}
+Dialogue: 0,1:28:47.88,1:28:50.12,Default,NTP,0000,0000,0000,,总有一天 他的运气会用完的\N{\fs16}And one day his luck will run out,{\r}
+Dialogue: 0,1:28:50.15,1:28:53.85,Default,NTP,0000,0000,0000,,到时候成千上万无辜的人会因此丧命\N{\fs16}And thousands of innocent people will pay the price.{\r}
+Dialogue: 0,1:28:53.87,1:28:56.99,Default,NTP,0000,0000,0000,,那时候 我们到底谁是坏人?\N{\fs16}Which one of us will be the villain then?{\r}
+Dialogue: 0,1:28:59.94,1:29:02.89,Default,NTP,0000,0000,0000,,里面没东西 是空的\N{\fs16}Nothing here. It's empty.{\r}
+Dialogue: 0,1:29:18.88,1:29:20.30,Default,NTP,0000,0000,0000,,我很感兴趣\N{\fs16}I'm interested{\r}
+Dialogue: 0,1:29:20.33,1:29:22.89,Default,NTP,0000,0000,0000,,之后发生的一切\N{\fs16}to see who you blame{\r}
+Dialogue: 0,1:29:23.87,1:29:26.47,Default,NTP,0000,0000,0000,,你会怪罪谁\N{\fs16}for what happens next.{\r}
+Dialogue: 0,1:30:13.19,1:30:14.66,Default,NTP,0000,0000,0000,,这就是那女的?\N{\fs16}So, that's her?{\r}
+Dialogue: 0,1:30:14.66,1:30:16.77,Default,NTP,0000,0000,0000,,就是她\N{\fs16}That's her.{\r}
+Dialogue: 0,1:30:19.49,1:30:21.49,Default,NTP,0000,0000,0000,,我不得不承认\N{\fs16}I have to say{\r}
+Dialogue: 0,1:30:22.41,1:30:24.61,Default,NTP,0000,0000,0000,,你骑摩托有一手啊\N{\fs16}you sure can ride.{\r}
+Dialogue: 0,1:30:26.85,1:30:29.59,Default,NTP,0000,0000,0000,,- 伊森  - 你只是尽忠职守而已\N{\fs16}- Ethan.  - You're just doing your job.{\r}
+Dialogue: 0,1:30:30.48,1:30:32.96,Default,NTP,0000,0000,0000,,我要说的就是这么多\N{\fs16}That's all I'm going to say about it.{\r}
+Dialogue: 0,1:30:34.20,1:30:36.02,Default,NTP,0000,0000,0000,,阿特里说你会懂的\N{\fs16}Atlee said you'd understand.{\r}
+Dialogue: 0,1:30:36.04,1:30:39.83,Default,NTP,0000,0000,0000,,阿特里是你在英国情报部的接头人\N{\fs16}Atlee, your handler in British Intelligence.{\r}
+Dialogue: 0,1:30:42.59,1:30:44.91,Default,NTP,0000,0000,0000,,但他没有招你回去?\N{\fs16}And he didn't bring you in?{\r}
+Dialogue: 0,1:30:46.35,1:30:48.97,Default,NTP,0000,0000,0000,,就算你给了他那U盘\N{\fs16}Even after you gave him the disk?{\r}
+Dialogue: 0,1:30:49.00,1:30:52.11,Default,NTP,0000,0000,0000,,你明知道那里面什么都没有\N{\fs16}You knew perfectly well it was blank.{\r}
+Dialogue: 0,1:30:52.14,1:30:55.87,Default,NTP,0000,0000,0000,,明显是说谎 她抢去的U盘 我是照样拷的 我确定\N{\fs16}That's a lie. The disk she took from me was an exact copy. I'm sure of it.{\r}
+Dialogue: 0,1:30:55.89,1:30:58.98,Default,NTP,0000,0000,0000,,那东西从没离过你的手?\N{\fs16}Was it in your possession the entire time?{\r}
+Dialogue: 0,1:31:08.95,1:31:10.57,Default,NTP,0000,0000,0000,,哦\N{\fs16}Oh.{\r}
+Dialogue: 0,1:31:10.62,1:31:13.94,Default,NTP,0000,0000,0000,,他们根本不关心你的死活\N{\fs16}They don't care if you live or die.{\r}
+Dialogue: 0,1:31:20.66,1:31:23.74,Default,NTP,0000,0000,0000,,但你知道我会把东西带去给他的\N{\fs16}But you knew I was going to take it to him.{\r}
+Dialogue: 0,1:31:23.76,1:31:25.30,Default,NTP,0000,0000,0000,,我指望你会这么做\N{\fs16}I hope you would.{\r}
+Dialogue: 0,1:31:25.32,1:31:28.04,Default,NTP,0000,0000,0000,,我本希望 这样能帮你脱离那地方\N{\fs16}I hope it would be enough to get you out.{\r}
+Dialogue: 0,1:31:28.32,1:31:31.40,Default,NTP,0000,0000,0000,,等等 这就意味着U盘不在雷恩手上 只有我们有\N{\fs16}Whoa-whoa-whoa. That means Lane doesn't have the disk, only we do.{\r}
+Dialogue: 0,1:31:31.43,1:31:34.51,Default,NTP,0000,0000,0000,,我有个问题 如果那U盘是空的\N{\fs16}I have a question. If the disk was blank,{\r}
+Dialogue: 0,1:31:34.54,1:31:36.70,Default,NTP,0000,0000,0000,,为什么她还活着?\N{\fs16}why is she still alive?{\r}
+Dialogue: 0,1:31:36.72,1:31:38.61,Default,NTP,0000,0000,0000,,当然 除非...\N{\fs16}Unless, of course...{\r}
+Dialogue: 0,1:31:38.61,1:31:41.02,Default,NTP,0000,0000,0000,,雷恩想让我们找到她\N{\fs16}Lane wanted us to find her.{\r}
+Dialogue: 0,1:31:42.20,1:31:44.70,Default,NTP,0000,0000,0000,,所以你现在替谁工作?\N{\fs16}So, who're you working for now?{\r}
+Dialogue: 0,1:31:44.99,1:31:49.07,Default,NTP,0000,0000,0000,,雷恩 阿特里 你的政府 我的政府 其实都一样\N{\fs16}Lane, Atlee, your government, my government, they're all the same.{\r}
+Dialogue: 0,1:31:49.35,1:31:51.47,Default,NTP,0000,0000,0000,,因为我们选择相信 所以我们才会觉得\N{\fs16}We only think we're fighting for the right{\r}
+Dialogue: 0,1:31:51.48,1:31:53.82,Default,NTP,0000,0000,0000,,自己是在为正义一方卖命\N{\fs16}side because that's what we choose to believe.{\r}
+Dialogue: 0,1:31:54.73,1:31:56.72,Default,NTP,0000,0000,0000,,所以我们要怎么办呢?\N{\fs16}So what does that leave us?{\r}
+Dialogue: 0,1:31:56.72,1:31:59.50,Default,NTP,0000,0000,0000,,我觉得 你只有3种选择\N{\fs16}The way I see it, you have 3 choices.{\r}
+Dialogue: 0,1:31:59.53,1:32:03.26,Default,NTP,0000,0000,0000,,第一种 你把我和那U盘交给中情局\N{\fs16}One, you hand me and the disk over to the CIA.{\r}
+Dialogue: 0,1:32:03.29,1:32:05.11,Default,NTP,0000,0000,0000,,我证明辛迪加确实存在\N{\fs16}I'm proof that Syndicate exist.{\r}
+Dialogue: 0,1:32:05.13,1:32:08.63,Default,NTP,0000,0000,0000,,雷恩的摊子推给他们 然后... 就没你的事了\N{\fs16}Lane becomes their problem, and... your work is done.{\r}
+Dialogue: 0,1:32:08.66,1:32:11.17,Default,NTP,0000,0000,0000,,- 我也是这么想的  - 我没问题\N{\fs16}- My thoughts exactly.  - Works for me.{\r}
+Dialogue: 0,1:32:11.20,1:32:13.27,Default,NTP,0000,0000,0000,,但你知道他们不会相信你\N{\fs16}But you know they're not going to believe you.{\r}
+Dialogue: 0,1:32:13.30,1:32:16.11,Default,NTP,0000,0000,0000,,而你们都会被指控叛国\N{\fs16}And you all will be trialed for treason.{\r}
+Dialogue: 0,1:32:16.14,1:32:17.61,Default,NTP,0000,0000,0000,,雷恩无罪释放\N{\fs16}Lane goes free.{\r}
+Dialogue: 0,1:32:17.64,1:32:19.55,Default,NTP,0000,0000,0000,,恐怕她说得没错\N{\fs16}I'm afraid she's has a point.{\r}
+Dialogue: 0,1:32:19.55,1:32:23.63,Default,NTP,0000,0000,0000,,第二种 你不用管我 让我自身自灭\N{\fs16}Two, you let me walk away to an uncertain fate.{\r}
+Dialogue: 0,1:32:23.66,1:32:27.32,Default,NTP,0000,0000,0000,,你用U盘做诱饵 设陷阱抓雷恩\N{\fs16}You use the disk as bait to trap Lane.{\r}
+Dialogue: 0,1:32:27.62,1:32:30.40,Default,NTP,0000,0000,0000,,但你隐约明白 这次对手旗鼓相当\N{\fs16}But some part of you suspect you've met your match.{\r}
+Dialogue: 0,1:32:30.43,1:32:33.13,Default,NTP,0000,0000,0000,,作为赌徒 不论你是否愿意 你可能亲手\N{\fs16}And being a gambler, you'll probably end up handing Lane that disk{\r}
+Dialogue: 0,1:32:33.15,1:32:35.44,Default,NTP,0000,0000,0000,,将U盘送给雷恩了\N{\fs16}whether you want to or not.{\r}
+Dialogue: 0,1:32:35.46,1:32:37.71,Default,NTP,0000,0000,0000,,这很有可能\N{\fs16}That is entirely possible.{\r}
+Dialogue: 0,1:32:37.74,1:32:39.74,Default,NTP,0000,0000,0000,,那第三种呢?\N{\fs16}And option three?{\r}
+Dialogue: 0,1:32:39.80,1:32:42.07,Default,NTP,0000,0000,0000,,跟我远走高飞\N{\fs16}Come away with me.{\r}
+Dialogue: 0,1:32:42.99,1:32:45.08,Default,NTP,0000,0000,0000,,立刻马上\N{\fs16}Right now.{\r}
+Dialogue: 0,1:32:47.48,1:32:49.98,Default,NTP,0000,0000,0000,,天啊\N{\fs16}Oh boy.{\r}
+Dialogue: 0,1:32:52.96,1:32:54.74,Default,NTP,0000,0000,0000,,那雷恩怎么办?\N{\fs16}And what about Lane?{\r}
+Dialogue: 0,1:32:54.74,1:32:56.89,Default,NTP,0000,0000,0000,,管它什么雷恩\N{\fs16}Forget about Lane.{\r}
+Dialogue: 0,1:32:56.91,1:32:59.38,Default,NTP,0000,0000,0000,,坏人永远源源不断\N{\fs16}There will always be another Lane.{\r}
+Dialogue: 0,1:32:59.40,1:33:02.75,Default,NTP,0000,0000,0000,,总有我们这样的人去面对他\N{\fs16}There will always be people like us to face him.{\r}
+Dialogue: 0,1:33:03.13,1:33:06.64,Default,NTP,0000,0000,0000,,我们已经做了该做的 而且也被排除在外\N{\fs16}We've done our part and we've been cast aside.{\r}
+Dialogue: 0,1:33:07.16,1:33:09.77,Default,NTP,0000,0000,0000,,我们能成为任何人\N{\fs16}We can be anyone.{\r}
+Dialogue: 0,1:33:09.79,1:33:12.37,Default,NTP,0000,0000,0000,,我们能做任何事情\N{\fs16}We can do anything.{\r}
+Dialogue: 0,1:33:13.72,1:33:16.21,Default,NTP,0000,0000,0000,,这只是走不走的决定\N{\fs16}It's only a matter of going.{\r}
+Dialogue: 0,1:33:29.10,1:33:32.40,Default,NTP,0000,0000,0000,,雷恩派你来传话的 不是吗?\N{\fs16}Lane sent you to deliver a message, didn't he?{\r}
+Dialogue: 0,1:33:32.73,1:33:35.68,Default,NTP,0000,0000,0000,,我救了你两次命了 估计没有下一次了\N{\fs16}I saved you life twice. I won't be able to do it again.{\r}
+Dialogue: 0,1:33:35.70,1:33:37.86,Default,NTP,0000,0000,0000,,什么消息?\N{\fs16}What's the message?{\r}
+Dialogue: 0,1:33:50.31,1:33:52.04,Default,NTP,0000,0000,0000,,班吉\N{\fs16}Benji.{\r}
+Dialogue: 0,1:34:04.09,1:34:05.57,Default,NTP,0000,0000,0000,,停车场\N{\fs16}Parking garage{\r}
+Dialogue: 0,1:34:05.60,1:34:07.79,Default,NTP,0000,0000,0000,,卢瑟 看着她\N{\fs16}Luther, stay with her.{\r}
+Dialogue: 0,1:34:31.42,1:34:32.66,Default,NTP,0000,0000,0000,,她逃走了\N{\fs16}She's gone.{\r}
+Dialogue: 0,1:34:32.69,1:34:34.69,Default,NTP,0000,0000,0000,,我没跟住她\N{\fs16}I lost her.{\r}
+Dialogue: 0,1:34:37.21,1:34:39.59,Default,NTP,0000,0000,0000,,她耍了我们 伊森\N{\fs16}She set us up, Ethan.{\r}
+Dialogue: 0,1:34:39.62,1:34:41.48,Default,NTP,0000,0000,0000,,不是 她只是传消息的人\N{\fs16}No, she delivered a message.{\r}
+Dialogue: 0,1:34:41.51,1:34:43.11,Default,NTP,0000,0000,0000,,她耍了我们\N{\fs16}She set us up!{\r}
+Dialogue: 0,1:34:43.14,1:34:44.39,Default,NTP,0000,0000,0000,,她知道这一切会发生\N{\fs16}She knew this would happen.{\r}
+Dialogue: 0,1:34:44.41,1:34:48.27,Default,NTP,0000,0000,0000,,只有雷恩知道要发生的事情\N{\fs16}Only Lane knows what's going to happen.{\r}
+Dialogue: 0,1:34:53.26,1:34:55.09,Default,NTP,0000,0000,0000,,我有个任务给你 伊森\N{\fs16}I have a job for you, Ethan.{\r}
+Dialogue: 0,1:34:55.12,1:34:57.88,Default,NTP,0000,0000,0000,,为了你的朋友 你会去做的\N{\fs16}And for the sake of your friend, you will do it.{\r}
+Dialogue: 0,1:34:57.90,1:34:59.04,Default,NTP,0000,0000,0000,,你说吧 我听着\N{\fs16}I'm listening.{\r}
+Dialogue: 0,1:34:59.06,1:35:01.99,Default,NTP,0000,0000,0000,,如果你接受的话 你的任务是\N{\fs16}Your mission, should you choose to accept it,{\r}
+Dialogue: 0,1:35:02.02,1:35:05.63,Default,NTP,0000,0000,0000,,在今晚前把解密的U盘交给我\N{\fs16}is to bring me the unlocked disk by midnight today.{\r}
+Dialogue: 0,1:35:05.65,1:35:08.28,Default,NTP,0000,0000,0000,,请你做选择吧\N{\fs16}Now say the words, please.{\r}
+Dialogue: 0,1:35:08.66,1:35:10.66,Default,NTP,0000,0000,0000,,我接受\N{\fs16}I accept.{\r}
+Dialogue: 0,1:35:11.05,1:35:12.83,Default,NTP,0000,0000,0000,,好的\N{\fs16}Yes.{\r}
+Dialogue: 0,1:35:15.32,1:35:17.32,Default,NTP,0000,0000,0000,,我知道 你会的\N{\fs16}I knew you would.{\r}
+Dialogue: 0,1:35:23.96,1:35:29.02,Default,NTP,0000,0000,0000,,午夜之前 他想要解密的U盘\N{\fs16}He wants the disk, unlocked, by midnight tonight{\r}
+Dialogue: 0,1:35:29.05,1:35:34.57,Default,NTP,0000,0000,0000,,伊森 这世上只有一个人能解开这个U盘\N{\fs16}Ethan, there's only one person on earth who can unlock that disk.{\r}
+Dialogue: 0,1:35:34.83,1:35:37.62,Default,NTP,0000,0000,0000,,我们要拿下首相大人\N{\fs16}We have to take the Prime Minister.{\r}
+Dialogue: 0,1:35:38.11,1:35:41.04,Default,NTP,0000,0000,0000,,我们好好考虑一下\N{\fs16}Let's just think about that for a minute.{\r}
+Dialogue: 0,1:35:42.09,1:35:44.36,Default,NTP,0000,0000,0000,,只有这样才能救班吉\N{\fs16}That's the only way to get Benji back.{\r}
+Dialogue: 0,1:35:44.39,1:35:47.91,Default,NTP,0000,0000,0000,,伊森 雷恩就是想要你这么做\N{\fs16}Ethan, that's exactly what Lane wants you to do.{\r}
+Dialogue: 0,1:35:47.94,1:35:51.58,Default,NTP,0000,0000,0000,,所以这一切必须发生\N{\fs16}Which is why it has to happen.{\r}
+Dialogue: 0,1:35:55.46,1:35:57.97,Default,NTP,0000,0000,0000,,这也是我们打败雷恩的办法\N{\fs16}This is how we beat Lane.{\r}
+Dialogue: 0,1:35:58.24,1:36:00.52,Default,NTP,0000,0000,0000,,这也是我们拨乱反正的办法\N{\fs16}This is how we make everything right.{\r}
+Dialogue: 0,1:36:00.55,1:36:04.82,Default,NTP,0000,0000,0000,,你懂了吗? 你不明白吗?\N{\fs16}Can you see? Can't you see it?{\r}
+Dialogue: 0,1:36:18.12,1:36:22.53,Default,NTP,0000,0000,0000,,是威廉·布兰特 长官 他说事情紧急\N{\fs16}William Brandt, sir. He says it's urgent.{\r}
+Dialogue: 0,1:36:26.53,1:36:28.61,Default,NTP,0000,0000,0000,,我知道你会回心转意的 布兰特\N{\fs16}I had a feeling you'd come to your senses, Brandt.{\r}
+Dialogue: 0,1:36:28.64,1:36:31.15,Default,NTP,0000,0000,0000,,只是因为我别无他法 才会打电话给你\N{\fs16}I'm only calling you because I've no other choice.{\r}
+Dialogue: 0,1:36:31.17,1:36:33.03,Default,NTP,0000,0000,0000,,我要阻止一场灾难的发生\N{\fs16}I'm trying to prevent a catastrophe.{\r}
+Dialogue: 0,1:36:33.06,1:36:36.00,Default,NTP,0000,0000,0000,,我能理解 你现在在哪里?\N{\fs16}I can understand that. Where are you?{\r}
+Dialogue: 0,1:36:37.12,1:36:40.61,Default,NTP,0000,0000,0000,,- 伦敦  - 我们马上绕道去伦敦\N{\fs16}- London.  - Reroute us to London, now.{\r}
+Dialogue: 0,1:36:40.64,1:36:43.38,Default,NTP,0000,0000,0000,,- 具体是伦敦哪里?  - 等你着落了再告诉你 现在不行\N{\fs16}- Where in London?  - I'll tell you when you land, not before.{\r}
+Dialogue: 0,1:36:43.40,1:36:45.37,Default,NTP,0000,0000,0000,,我对捉迷藏不感兴趣 布兰特\N{\fs16}I'm not interested in playing games, Brandt.{\r}
+Dialogue: 0,1:36:45.39,1:36:48.50,Default,NTP,0000,0000,0000,,我对亲眼看着朋友被杀也不感兴趣\N{\fs16}And I'm not interested in seeing my friends get killed either.{\r}
+Dialogue: 0,1:36:48.53,1:36:51.05,Default,NTP,0000,0000,0000,,所以如果我要背叛他们 就必须按我的方式做\N{\fs16}So if I'm going to betray them, we're going to do this in my terms{\r}
+Dialogue: 0,1:36:51.08,1:36:53.02,Default,NTP,0000,0000,0000,,只能按我的方式 明白吗?\N{\fs16}and my terms only. Do you understand?{\r}
+Dialogue: 0,1:36:53.05,1:36:56.02,Default,NTP,0000,0000,0000,,手机保持开机 我会给你指示\N{\fs16}Keep your phone on, instruction will follow.{\r}
+Dialogue: 0,1:37:01.54,1:37:05.29,Default,NTP,0000,0000,0000,,- 现在应该已经走了  - 是\N{\fs16}- Should have been gone by now.  - Yeah.{\r}
+Dialogue: 0,1:37:07.68,1:37:10.35,Default,NTP,0000,0000,0000,,- 你没事吧?  - 嗯\N{\fs16}- You okay?  - Yeah.{\r}
+Dialogue: 0,1:37:12.41,1:37:16.72,Default,NTP,0000,0000,0000,,我们今晚要拿下英国首相\N{\fs16}We're supposed to take down the Prime Minister of Great Britain tonight.{\r}
+Dialogue: 0,1:37:17.07,1:37:18.90,Default,NTP,0000,0000,0000,,所以呢...\N{\fs16}So...{\r}
+Dialogue: 0,1:37:19.98,1:37:21.69,Default,NTP,0000,0000,0000,,布兰特\N{\fs16}Brandt.{\r}
+Dialogue: 0,1:37:24.45,1:37:27.47,Default,NTP,0000,0000,0000,,我想不出别的办法\N{\fs16}I can't see another way.{\r}
+Dialogue: 0,1:37:29.37,1:37:31.52,Default,NTP,0000,0000,0000,,我也一样\N{\fs16}Neither can I.{\r}
+Dialogue: 0,1:37:33.48,1:37:36.80,Default,NTP,0000,0000,0000,,我们要做的事 是为了我们朋友 是吧?\N{\fs16}What we do, we have to do for our friends, right?{\r}
+Dialogue: 0,1:38:21.35,1:38:23.62,Default,NTP,0000,0000,0000,,请让他准备好\N{\fs16}Get him ready, please.{\r}
+Dialogue: 0,1:38:48.22,1:38:50.26,Default,NTP,0000,0000,0000,,布兰特 你打电话给我是正确的 亨特在哪里?\N{\fs16}You're right to call me, Brandt. Where is Hunt?{\r}
+Dialogue: 0,1:38:50.29,1:38:52.24,Default,NTP,0000,0000,0000,,他在路上 我们时间不多了\N{\fs16}He's on his way. We don't have much time.{\r}
+Dialogue: 0,1:38:52.26,1:38:55.01,Default,NTP,0000,0000,0000,,- 他想做什么?  - 重要的是他还活着\N{\fs16}- What does he intend to do?  - What matter is he's alive.{\r}
+Dialogue: 0,1:38:55.04,1:38:59.36,Default,NTP,0000,0000,0000,,我要你保证他继续活着\N{\fs16}And I need your reassurance that it's going to stay that way.{\r}
+Dialogue: 0,1:39:14.22,1:39:17.58,Default,NTP,0000,0000,0000,,你有没有通知英国政府亨特的目标是首相?\N{\fs16}Have you informed the British Government that Hunt has targeted the Prime Minister?{\r}
+Dialogue: 0,1:39:17.60,1:39:22.79,Default,NTP,0000,0000,0000,,我会帮你... 活捉他 就这样\N{\fs16}I will help you capture him... alive. That is the deal.{\r}
+Dialogue: 0,1:39:28.37,1:39:31.00,Default,NTP,0000,0000,0000,,你从朋友那里沾染上了些坏习惯 布兰特\N{\fs16}You picked up some terrible habits from your friend, Brandt.{\r}
+Dialogue: 0,1:39:31.02,1:39:35.36,Default,NTP,0000,0000,0000,,最糟糕的就是 你仍然相信自己可以控制一切后果\N{\fs16}The worst of them being that you still believe you can control any outcome.{\r}
+Dialogue: 0,1:39:35.38,1:39:37.33,Default,NTP,0000,0000,0000,,看着他\N{\fs16}Stay with him.{\r}
+Dialogue: 0,1:39:40.90,1:39:43.21,Default,NTP,0000,0000,0000,,阿特里长官 阿特里长官\N{\fs16}Chief Atlee. Chief Atlee.{\r}
+Dialogue: 0,1:39:43.23,1:39:45.59,Default,NTP,0000,0000,0000,,亨利局长 在这见到你真高兴\N{\fs16}Director Hunley, how delightful to see you here.{\r}
+Dialogue: 0,1:39:45.62,1:39:49.56,Default,NTP,0000,0000,0000,,最后一次通话时 你还在摩洛哥追捕叛逃的特工\N{\fs16}Last time we spoke, you were hunting rogue agents in Morocco.{\r}
+Dialogue: 0,1:39:49.58,1:39:54.20,Default,NTP,0000,0000,0000,,阿特里长官 我有理由相信首相有生命危险\N{\fs16}Chief Atlee, I have reason to believe that the Prime Minister's life is in danger.{\r}
+Dialogue: 0,1:39:56.67,1:39:58.77,Default,NTP,0000,0000,0000,,接着说\N{\fs16}I'm listening.{\r}
+Dialogue: 0,1:40:01.27,1:40:05.14,Default,NTP,0000,0000,0000,,有没比2万2更高的价格? 有吗?\N{\fs16}Any advance on 22,000? Anyone?{\r}
+Dialogue: 0,1:40:05.16,1:40:07.87,Default,NTP,0000,0000,0000,,2万2一次 2万2两次\N{\fs16}Going once. Going twice.{\r}
+Dialogue: 0,1:40:07.89,1:40:10.77,Default,NTP,0000,0000,0000,,成交 由慷慨的女议长拍得\N{\fs16}Sold! To our generous Chairwoman.{\r}
+Dialogue: 0,1:40:10.80,1:40:13.74,Default,NTP,0000,0000,0000,,先生 军情六处的阿特里长官要见你\N{\fs16}Sir. Chief Atlee from MI6 needs to see you.{\r}
+Dialogue: 0,1:40:13.77,1:40:16.06,Default,NTP,0000,0000,0000,,他说事出紧急\N{\fs16}He says it's urgent.{\r}
+Dialogue: 0,1:40:16.67,1:40:18.63,Default,NTP,0000,0000,0000,,失陪一下\N{\fs16}Excuse me.{\r}
+Dialogue: 0,1:40:28.72,1:40:33.38,Default,NTP,0000,0000,0000,,- 怎么了?  - 这事关国家安全 大人\N{\fs16}- What's this all about?  - It's a matter of national security, Sir.{\r}
+Dialogue: 0,1:40:39.92,1:40:43.47,Default,NTP,0000,0000,0000,,任何情况都不许人进来\N{\fs16}Under no circumstances is anyone to enter.{\r}
+Dialogue: 0,1:40:43.48,1:40:44.66,Default,NTP,0000,0000,0000,,是的 长官\N{\fs16}Yes, sir.{\r}
+Dialogue: 0,1:40:45.75,1:40:48.09,Default,NTP,0000,0000,0000,,告诉我一下\N{\fs16}Help me to understand.{\r}
+Dialogue: 0,1:40:48.11,1:40:50.88,Default,NTP,0000,0000,0000,,这个人是谁? 他为什么要对付我?\N{\fs16}Who is this man? Why is he after me?{\r}
+Dialogue: 0,1:40:50.90,1:40:56.00,Default,NTP,0000,0000,0000,,首相大人 恐怕这事亨利局长和我都有责任\N{\fs16}I'm afraid, Prime Minister, Director Hunley and I share responsibility for this.{\r}
+Dialogue: 0,1:40:56.02,1:40:58.46,Default,NTP,0000,0000,0000,,伊森·亨特是一个无耻情报机构的一员\N{\fs16}Ethan Hunt was part of a disgrace intelligence{\r}
+Dialogue: 0,1:40:58.48,1:41:00.46,Default,NTP,0000,0000,0000,,而这个机构已经被解散了\N{\fs16}agency which is since been dissolved.{\r}
+Dialogue: 0,1:41:00.52,1:41:01.82,Default,NTP,0000,0000,0000,,他现在叛逃\N{\fs16}And he's gone rogue,{\r}
+Dialogue: 0,1:41:01.92,1:41:05.52,Default,NTP,0000,0000,0000,,不幸的是 他一直执迷于打垮一个虚构的恐怖网络\N{\fs16}unfortunately intent on dismantling an imaginary terror network.{\r}
+Dialogue: 0,1:41:05.83,1:41:07.90,Default,NTP,0000,0000,0000,,我们的新情报表明\N{\fs16}Our new intelligence suggest that he's been{\r}
+Dialogue: 0,1:41:07.91,1:41:10.03,Default,NTP,0000,0000,0000,,他被你方的前任特工操纵\N{\fs16}manipulated by one of your own former agent.{\r}
+Dialogue: 0,1:41:10.06,1:41:13.15,Default,NTP,0000,0000,0000,,首相大人 是伊莎·法斯特 她两年前失踪的\N{\fs16}Ilsa Faust, Prime Minister. She disappeared 2 years ago.{\r}
+Dialogue: 0,1:41:13.17,1:41:14.84,Default,NTP,0000,0000,0000,,如果不介意的话 我能不能问下\N{\fs16}And if you don't mind I asking,{\r}
+Dialogue: 0,1:41:14.87,1:41:17.17,Default,NTP,0000,0000,0000,,这个幽灵网络和我有什么关系?\N{\fs16}what do I have to do with this phantom network?{\r}
+Dialogue: 0,1:41:17.20,1:41:20.13,Default,NTP,0000,0000,0000,,大人 这是威廉·布兰特 他之前是亨特的同事\N{\fs16}Sir, this is William Brandt, a former colleague of Hunt's.{\r}
+Dialogue: 0,1:41:20.16,1:41:23.44,Default,NTP,0000,0000,0000,,他告诉了我们对您不利的第一手情报\N{\fs16}He came forward with first hand knowledge of the plot against you.{\r}
+Dialogue: 0,1:41:23.47,1:41:28.06,Default,NTP,0000,0000,0000,,大人 亨特手上有一个虚拟的红箱子 只有您能打开\N{\fs16}Sir. Hunt is in possession of a virtual red box that can only be open by you.{\r}
+Dialogue: 0,1:41:28.08,1:41:32.16,Default,NTP,0000,0000,0000,,他坚信这是打败辛迪加的关键\N{\fs16}He believes it is the key to bring down the Syndicate.{\r}
+Dialogue: 0,1:41:33.28,1:41:38.54,Default,NTP,0000,0000,0000,,- 你是说辛迪加?  - 是的 大人 他是这么称那个网络的\N{\fs16}- The Syndicate, you say?  - Yes, Sir. That's what he calls it.{\r}
+Dialogue: 0,1:41:39.06,1:41:40.79,Default,NTP,0000,0000,0000,,阿特里\N{\fs16}Atlee.{\r}
+Dialogue: 0,1:41:40.82,1:41:46.03,Default,NTP,0000,0000,0000,,他说的不会是那个"辛迪加"吧?\N{\fs16}He couldn't possibly be talking about that "Syndicate"?{\r}
+Dialogue: 0,1:41:47.56,1:41:51.63,Default,NTP,0000,0000,0000,,因为你向我保证过 那个"辛迪加"只是一个演练?\N{\fs16}'Cause you assured me that, that "Syndicate" was merely an exercise?{\r}
+Dialogue: 0,1:41:51.66,1:41:55.04,Default,NTP,0000,0000,0000,,是的 首相大人 我可以向您保证\N{\fs16}And it was, Prime Minister. I can assure you.{\r}
+Dialogue: 0,1:41:55.07,1:41:58.25,Default,NTP,0000,0000,0000,,但是中情局这里的说法却不是这样\N{\fs16}And yet, here we have the Central Intelligence Agency indicating otherwise.{\r}
+Dialogue: 0,1:41:58.27,1:42:01.90,Default,NTP,0000,0000,0000,,- 我不明白  - 首相大人 您有生命危险\N{\fs16}- I don't understand.  - Prime Minister, your life is in danger.{\r}
+Dialogue: 0,1:42:01.93,1:42:04.47,Default,NTP,0000,0000,0000,,我认为我们的第一要务是把您带到一个安全的地方\N{\fs16}I think our first priority is to move you to a secure location.{\r}
+Dialogue: 0,1:42:04.49,1:42:05.34,Default,NTP,0000,0000,0000,,大人\N{\fs16}Sir.{\r}
+Dialogue: 0,1:42:05.37,1:42:09.67,Default,NTP,0000,0000,0000,,您记得"所罗门·雷恩"这个名字吗?\N{\fs16}Does the name Solomon Lane, ring a bell?{\r}
+Dialogue: 0,1:42:10.49,1:42:17.12,Default,NTP,0000,0000,0000,,是的 很不幸 我记得\N{\fs16}Yes. Unfortunately, it does.{\r}
+Dialogue: 0,1:42:18.41,1:42:21.37,Default,NTP,0000,0000,0000,,所以 辛迪加真的存在?\N{\fs16}So, there actually is a Syndicate?{\r}
+Dialogue: 0,1:42:21.40,1:42:25.56,Default,NTP,0000,0000,0000,,它是阿特里长官假想出的一个点子\N{\fs16}It was a hypothetical brainchild of Chief Atlee.{\r}
+Dialogue: 0,1:42:25.59,1:42:29.91,Default,NTP,0000,0000,0000,,招募其它国家的前任特工 给他们新身份\N{\fs16}Recruit former agents from other nations. Supply them with a new identity{\r}
+Dialogue: 0,1:42:29.93,1:42:34.46,Default,NTP,0000,0000,0000,,用他们来清除我们国内外的敌人\N{\fs16}and use them to surgically remove our enemies, both at home and abroad.{\r}
+Dialogue: 0,1:42:34.49,1:42:37.40,Default,NTP,0000,0000,0000,,它运行的预算拨款藏于境外\N{\fs16}Its operating budget was to be hidden offshore{\r}
+Dialogue: 0,1:42:37.41,1:42:40.40,Default,NTP,0000,0000,0000,,装在一个只有我能控制的虚拟红箱子\N{\fs16}in a virtual red box which I alone would control.{\r}
+Dialogue: 0,1:42:40.43,1:42:44.48,Default,NTP,0000,0000,0000,,可以让我集法官 陪审团和行刑者于一身 不负任何责任\N{\fs16}It would've made me judge, jury and executioner with zero accountability.{\r}
+Dialogue: 0,1:42:44.50,1:42:47.15,Default,NTP,0000,0000,0000,,我明确地回绝了这个建议\N{\fs16}I rejected the proposal unequivocally.{\r}
+Dialogue: 0,1:42:47.17,1:42:51.77,Default,NTP,0000,0000,0000,,而且 还有人保证说 它在计划阶段就被扼杀了\N{\fs16}Furthermore, I was given every assurance it never pass the planning stage.{\r}
+Dialogue: 0,1:42:51.79,1:42:54.66,Default,NTP,0000,0000,0000,,首相大人 辛迪加不存在\N{\fs16}Prime Minister, there is no any Syndicate.{\r}
+Dialogue: 0,1:42:54.68,1:42:57.18,Default,NTP,0000,0000,0000,,这些人都被法斯特特工给骗了\N{\fs16}These people have been duped by agent Faust.{\r}
+Dialogue: 0,1:42:57.21,1:43:00.78,Default,NTP,0000,0000,0000,,阿特里 等公开调查时你再解释吧\N{\fs16}Atlee. Save it for the public inquiry.{\r}
+Dialogue: 0,1:43:00.81,1:43:02.28,Default,NTP,0000,0000,0000,,大人 我恳请您别离开房间\N{\fs16}Sir, I urge you not to leave this room.{\r}
+Dialogue: 0,1:43:02.30,1:43:04.17,Default,NTP,0000,0000,0000,,- 让一下  - 拜托了\N{\fs16}- Excuse me.  - Please.{\r}
+Dialogue: 0,1:43:04.20,1:43:06.68,Default,NTP,0000,0000,0000,,亨特受过专业训练 动机十足\N{\fs16}Hunt is uniquely trained and highly motivated.{\r}
+Dialogue: 0,1:43:06.70,1:43:09.95,Default,NTP,0000,0000,0000,,他无人能敌 任何对抗措施都没用\N{\fs16}A specialist without equal, immune to any counter measures.{\r}
+Dialogue: 0,1:43:09.97,1:43:14.14,Default,NTP,0000,0000,0000,,没有他不能获取的秘密 没有他不能攻破的安保系统\N{\fs16}There is no secret he cannot extract. No security he cannot breach.{\r}
+Dialogue: 0,1:43:14.16,1:43:16.70,Default,NTP,0000,0000,0000,,他可以伪装成任何人\N{\fs16}No person he cannot become.{\r}
+Dialogue: 0,1:43:16.73,1:43:20.04,Default,NTP,0000,0000,0000,,他很可能预料到了这场对话\N{\fs16}He has mostly likely anticipated this very conversation{\r}
+Dialogue: 0,1:43:20.07,1:43:23.25,Default,NTP,0000,0000,0000,,并且在预计我们转移的方向 等着突袭我们\N{\fs16}and is waiting to strike in whatever direction we move.{\r}
+Dialogue: 0,1:43:23.27,1:43:27.32,Default,NTP,0000,0000,0000,,大人 亨特是命运活生生的表现\N{\fs16}Sir. Hunt is the living manifestation of destiny.{\r}
+Dialogue: 0,1:43:27.35,1:43:31.38,Default,NTP,0000,0000,0000,,而他已经把你认定为他的任务\N{\fs16}And he has made you his mission.{\r}
+Dialogue: 0,1:43:31.66,1:43:33.66,Default,NTP,0000,0000,0000,,首相大人\N{\fs16}Prime Minister.{\r}
+Dialogue: 0,1:43:49.46,1:43:50.92,Default,NTP,0000,0000,0000,,亨特\N{\fs16}Hunt.{\r}
+Dialogue: 0,1:43:50.95,1:43:54.14,Default,NTP,0000,0000,0000,,长官 请离开首相大人\N{\fs16}Sir, please step away from the Prime Minister.{\r}
+Dialogue: 0,1:43:57.22,1:43:59.46,Default,NTP,0000,0000,0000,,放松点 大人 一切都会没事的\N{\fs16}Just relax, Sir. Everything is going to be alright.{\r}
+Dialogue: 0,1:43:59.49,1:44:03.21,Default,NTP,0000,0000,0000,,- 阿特里开枪打我  - 是的 大人\N{\fs16}- Atlee shot me.  - Yes, he did, Sir.{\r}
+Dialogue: 0,1:44:05.84,1:44:08.30,Default,NTP,0000,0000,0000,,亨特 我希望你意识到\N{\fs16}Hunt, I hope you realize you've set back{\r}
+Dialogue: 0,1:44:08.40,1:44:11.16,Default,NTP,0000,0000,0000,,你让英美关系回到了美国独立战争年代\N{\fs16}US-UK relations to the American Revolution?{\r}
+Dialogue: 0,1:44:11.54,1:44:15.44,Default,NTP,0000,0000,0000,,特殊时期 特殊手段 长官\N{\fs16}Desperate times, desperate measures, sir.{\r}
+Dialogue: 0,1:44:17.34,1:44:19.16,Default,NTP,0000,0000,0000,,- 我在这  - 准备接收\N{\fs16}- I'm here.  - Standby to receive.{\r}
+Dialogue: 0,1:44:19.19,1:44:20.82,Default,NTP,0000,0000,0000,,已就绪\N{\fs16}Ready.{\r}
+Dialogue: 0,1:44:26.43,1:44:29.02,Default,NTP,0000,0000,0000,,首相办公室让我来这里见他\N{\fs16}The Prime Minister's office ask me to meet him here.{\r}
+Dialogue: 0,1:44:29.05,1:44:30.60,Default,NTP,0000,0000,0000,,这边请 先生\N{\fs16}This way, sir.{\r}
+Dialogue: 0,1:44:30.63,1:44:32.40,Default,NTP,0000,0000,0000,,扫描中\N{\fs16}Scanning.{\r}
+Dialogue: 0,1:44:35.59,1:44:38.04,Default,NTP,0000,0000,0000,,视网膜扫描 已确认\N{\fs16}Retinal scan, confirm.{\r}
+Dialogue: 0,1:44:40.63,1:44:43.06,Default,NTP,0000,0000,0000,,帮个忙 大人\N{\fs16}Some convenience, Sir.{\r}
+Dialogue: 0,1:44:43.65,1:44:46.74,Default,NTP,0000,0000,0000,,你的手很温暖\N{\fs16}You got a very warm hand.{\r}
+Dialogue: 0,1:44:55.26,1:44:57.70,Default,NTP,0000,0000,0000,,指纹扫描 已确认\N{\fs16}Biometric, confirm.{\r}
+Dialogue: 0,1:44:57.73,1:45:01.60,Default,NTP,0000,0000,0000,,- 提示词是"凯普林"  - 提示词是"凯普林"\N{\fs16}- The prompt is "KIPLING".  - The prompt is "KIPLING".{\r}
+Dialogue: 0,1:45:01.77,1:45:05.88,Default,NTP,0000,0000,0000,,大人 我需要一个通关密语 提示词是"凯普林"\N{\fs16}Sir, I'm gonna need a pass phrase, the prompt is "KIPLING".{\r}
+Dialogue: 0,1:45:05.90,1:45:07.56,Default,NTP,0000,0000,0000,,当然了\N{\fs16}Yes, of course.{\r}
+Dialogue: 0,1:45:07.58,1:45:12.42,Default,NTP,0000,0000,0000,,"如果周围的人毫无理性 你仍能镇定自若"\N{\fs16}"If you can keep your head when all about you are losing theirs..."{\r}
+Dialogue: 0,1:45:16.19,1:45:20.56,Default,NTP,0000,0000,0000,,"如果众人对你心存猜忌 你仍能自信如常"\N{\fs16}"If you can trust yourself when all men doubt you."{\r}
+Dialogue: 0,1:45:24.28,1:45:26.18,Default,NTP,0000,0000,0000,,- 拿到了?  - 拿到了\N{\fs16}- You got it?  - I got it.{\r}
+Dialogue: 0,1:45:26.21,1:45:27.78,Default,NTP,0000,0000,0000,,天啊 我的确拿到了\N{\fs16}Oh man, do I got it.{\r}
+Dialogue: 0,1:45:27.81,1:45:32.01,Default,NTP,0000,0000,0000,,- 我来见首相大人  - 有人命令我们不能让任何人进入\N{\fs16}- I'm here to see the Prime Minister.  - We were told not to let anybody in.{\r}
+Dialogue: 0,1:45:32.03,1:45:35.41,Default,NTP,0000,0000,0000,,- 谁下的命令?  - 您啊 长官\N{\fs16}- By whom?  - By you, sir.{\r}
+Dialogue: 0,1:45:38.52,1:45:42.76,Default,NTP,0000,0000,0000,,亨利 这是怎么回事? 保安\N{\fs16}Hunley, what is this? Security!{\r}
+Dialogue: 0,1:45:48.93,1:45:52.96,Default,NTP,0000,0000,0000,,阿特里长官 谢谢您接受我们的邀请\N{\fs16}Chief Atlee. Kind of you to accepted our invitation.{\r}
+Dialogue: 0,1:45:52.99,1:45:54.29,Default,NTP,0000,0000,0000,,啊\N{\fs16}Ah.{\r}
+Dialogue: 0,1:46:01.90,1:46:04.92,Default,NTP,0000,0000,0000,,你知道我是谁吗?\N{\fs16}Do you know who I am?{\r}
+Dialogue: 0,1:46:06.25,1:46:08.35,Default,NTP,0000,0000,0000,,我们知道是你创造了辛迪加\N{\fs16}We know you created the Syndicate.{\r}
+Dialogue: 0,1:46:08.38,1:46:11.21,Default,NTP,0000,0000,0000,,但是雷恩叛变了 并且利用它对付你 是吧?\N{\fs16}But Lane went rogue and turn it against you, didn't he?{\r}
+Dialogue: 0,1:46:11.23,1:46:13.70,Default,NTP,0000,0000,0000,,你急于掩盖事实\N{\fs16}And you've been desperately trying to cover it up.{\r}
+Dialogue: 0,1:46:13.72,1:46:16.57,Default,NTP,0000,0000,0000,,所以你把她给你的硬盘内容都清除了\N{\fs16}That's why you erased the disk which she brought it to you.{\r}
+Dialogue: 0,1:46:16.60,1:46:19.26,Default,NTP,0000,0000,0000,,没错\N{\fs16}That's true.{\r}
+Dialogue: 0,1:46:20.92,1:46:25.60,Default,NTP,0000,0000,0000,,现在 亨利局长有些关于伊莎·法斯特的问题要问你\N{\fs16}Now, Director Hunley has some questions for you regarding Ilsa Faust.{\r}
+Dialogue: 0,1:46:25.63,1:46:28.10,Default,NTP,0000,0000,0000,,特别是 你是如何嫁祸她的\N{\fs16}Namely, how you frame her.{\r}
+Dialogue: 0,1:46:28.12,1:46:32.13,Default,NTP,0000,0000,0000,,也没错\N{\fs16}That's also true.{\r}
+Dialogue: 0,1:46:35.37,1:46:36.82,Default,NTP,0000,0000,0000,,这是解药\N{\fs16}It's the antidote.{\r}
+Dialogue: 0,1:46:36.85,1:46:39.51,Default,NTP,0000,0000,0000,,当首相发现辛迪加的事时\N{\fs16}When the Prime Minister found out about the Syndicate,{\r}
+Dialogue: 0,1:46:39.53,1:46:42.48,Default,NTP,0000,0000,0000,,- 阿特里袭击了他  - 对 没错\N{\fs16}- Atlee had attacked him.  - Yes, that's true.{\r}
+Dialogue: 0,1:46:42.51,1:46:45.85,Default,NTP,0000,0000,0000,,然后你救了首相 长官\N{\fs16}And then you saved the Prime Minister, sir.{\r}
+Dialogue: 0,1:46:45.86,1:46:46.98,Default,NTP,0000,0000,0000,,是吗?\N{\fs16}Did he?{\r}
+Dialogue: 0,1:46:47.12,1:46:49.59,Default,NTP,0000,0000,0000,,我深表感激\N{\fs16}I'm very grateful.{\r}
+Dialogue: 0,1:46:59.77,1:47:01.23,Default,NTP,0000,0000,0000,,长官\N{\fs16}Sir.{\r}
+Dialogue: 0,1:47:03.52,1:47:07.11,Default,NTP,0000,0000,0000,,你时间所剩不多了 伊森\N{\fs16}You're cutting it very close, Ethan{\r}
+Dialogue: 0,1:47:07.69,1:47:11.14,Default,NTP,0000,0000,0000,,我有你要的东西 现在去哪?\N{\fs16}I have what you want. Where do I go?{\r}
+Dialogue: 0,1:47:27.58,1:47:29.58,Default,NTP,0000,0000,0000,,伊森 等等\N{\fs16}Ethan, wait.{\r}
+Dialogue: 0,1:47:29.61,1:47:31.85,Default,NTP,0000,0000,0000,,如果我15分钟内没到那里 他会杀了班吉\N{\fs16}If I'm not there in 15 minutes, he'll kill Benji.{\r}
+Dialogue: 0,1:47:31.87,1:47:33.72,Default,NTP,0000,0000,0000,,你的任务是干掉辛迪加\N{\fs16}Your mission is to bring down the Syndicate.{\r}
+Dialogue: 0,1:47:33.75,1:47:38.02,Default,NTP,0000,0000,0000,,如果雷恩拿到了那笔钱 我们就是在释放超级恐怖势力\N{\fs16}If Lane gets his hands on that money, we're unleashing a terrorist superpower.{\r}
+Dialogue: 0,1:47:38.05,1:47:40.90,Default,NTP,0000,0000,0000,,他没法活捉我 我保证\N{\fs16}He'll never take me alive. I'll make sure of it.{\r}
+Dialogue: 0,1:47:40.92,1:47:44.38,Default,NTP,0000,0000,0000,,伊森 如果你回不来 怎么办?\N{\fs16}What happens, Ethan, if you can't make it back?{\r}
+Dialogue: 0,1:47:44.53,1:47:46.81,Default,NTP,0000,0000,0000,,我会回来的\N{\fs16}I'll make it back.{\r}
+Dialogue: 0,1:47:47.56,1:47:49.48,Default,NTP,0000,0000,0000,,只要准备好就行\N{\fs16}Just be ready.{\r}
+Dialogue: 0,1:47:53.82,1:47:56.80,Default,NTP,0000,0000,0000,,您好 首相大人 如果您在看这个信息的话\N{\fs16}Greetings, Prime Minister. If you are viewing this message,{\r}
+Dialogue: 0,1:47:56.83,1:47:59.72,Default,NTP,0000,0000,0000,,那就意味着您决定要启动"辛迪加"\N{\fs16}it means that you have chosen to activate the Syndicate.{\r}
+Dialogue: 0,1:47:59.74,1:48:05.11,Default,NTP,0000,0000,0000,,这个驱动使您有权限使用无迹可寻的24亿英镑\N{\fs16}This drive gives you access to 2.4 billion pound sterling in untraceable currency.{\r}
+Dialogue: 0,1:48:05.13,1:48:09.99,Default,NTP,0000,0000,0000,,能让"辛迪加"不为人知地运行几十年\N{\fs16}That will allow the Syndicate to operate undetected for decades.{\r}
+Dialogue: 0,1:48:10.01,1:48:15.47,Default,NTP,0000,0000,0000,,使用这些资金的说明如下\N{\fs16}Instructions to access these funds are as follows.{\r}
+Dialogue: 0,1:49:21.12,1:49:24.06,Default,NTP,0000,0000,0000,,这是结局 亨特先生\N{\fs16}This is the end, Mr. Hunt.{\r}
+Dialogue: 0,1:49:32.76,1:49:34.43,Default,NTP,0000,0000,0000,,小心点\N{\fs16}Carefully.{\r}
+Dialogue: 0,1:49:37.14,1:49:42.97,Default,NTP,0000,0000,0000,,2磅塞姆汀塑胶炸药 500个.30口径的滚珠\N{\fs16}2 pounds Semtex, 500, 30 caliber ball bearings.{\r}
+Dialogue: 0,1:49:42.99,1:49:46.72,Default,NTP,0000,0000,0000,,你朋友身上是一个高敏感触发器\N{\fs16}Your friend is sitting on a highly sensitive-pressure trigger.{\r}
+Dialogue: 0,1:49:46.75,1:49:49.54,Default,NTP,0000,0000,0000,,所以别轻举妄动\N{\fs16}So, no sudden moves.{\r}
+Dialogue: 0,1:49:57.11,1:49:58.44,Default,NTP,0000,0000,0000,,你的终极测试\N{\fs16}Your final test.{\r}
+Dialogue: 0,1:49:58.46,1:50:03.00,Default,NTP,0000,0000,0000,,等雷恩拿到他想要的 我要杀了你和班吉\N{\fs16}When Lane has what he wants, I kill you and Benji.{\r}
+Dialogue: 0,1:50:03.22,1:50:07.55,Default,NTP,0000,0000,0000,,如果不这样的话 大家都死\N{\fs16}If not, everyone dies.{\r}
+Dialogue: 0,1:50:09.76,1:50:14.00,Default,NTP,0000,0000,0000,,没时间思考了 伊森 请坐\N{\fs16}No time to think, Ethan. Have a seat, please.{\r}
+Dialogue: 0,1:50:28.34,1:50:32.11,Default,NTP,0000,0000,0000,,人性 是我的首选武器\N{\fs16}Human nature, my weapon of choice.{\r}
+Dialogue: 0,1:50:32.14,1:50:35.82,Default,NTP,0000,0000,0000,,在唱片店 我杀死那个年轻女人的那一刻\N{\fs16}From the moment I killed the young lady in the record shop,{\r}
+Dialogue: 0,1:50:35.84,1:50:39.25,Default,NTP,0000,0000,0000,,我就知道你会不惜一切代价来抓我\N{\fs16}I knew you would stop at nothing to catch me.{\r}
+Dialogue: 0,1:50:39.36,1:50:42.04,Default,NTP,0000,0000,0000,,我也知道伊莎别无选择\N{\fs16}I also knew Ilsa wouldn't have a choice.{\r}
+Dialogue: 0,1:50:42.07,1:50:45.80,Default,NTP,0000,0000,0000,,不管你们相见那晚 她是让你屈服还是让你走\N{\fs16}Whether she broke you that night you met or let you go.{\r}
+Dialogue: 0,1:50:45.82,1:50:51.19,Default,NTP,0000,0000,0000,,不管你在摩纳哥是否让她走 不管她有没去找阿特里\N{\fs16}Whether you let her run in Morocco. Whether she went to Atlee or not.{\r}
+Dialogue: 0,1:50:51.22,1:50:56.02,Default,NTP,0000,0000,0000,,你都确定我们最终此刻会在这里...\N{\fs16}You were certain we would end up where we are... right now.{\r}
+Dialogue: 0,1:50:59.20,1:51:01.10,Default,NTP,0000,0000,0000,,可是\N{\fs16}Then again.{\r}
+Dialogue: 0,1:51:02.01,1:51:04.15,Default,NTP,0000,0000,0000,,我也知道\N{\fs16}So was I.{\r}
+Dialogue: 0,1:51:04.57,1:51:05.80,Default,NTP,0000,0000,0000,,我了解你 雷恩\N{\fs16}I know you, Lane.{\r}
+Dialogue: 0,1:51:05.82,1:51:08.83,Default,NTP,0000,0000,0000,,在你人生的某个地方 你的信仰出现了危机\N{\fs16}Somewhere along the line you had a crisis of faith.{\r}
+Dialogue: 0,1:51:08.86,1:51:12.73,Default,NTP,0000,0000,0000,,人命不再重要了 或者也许从来都不重要\N{\fs16}Human life didn't matter anymore, or maybe it never really did.{\r}
+Dialogue: 0,1:51:12.76,1:51:15.89,Default,NTP,0000,0000,0000,,不管怎样 你杀了太多的无辜人\N{\fs16}Either way, you killed too many innocent people{\r}
+Dialogue: 0,1:51:15.90,1:51:18.91,Default,NTP,0000,0000,0000,,也从没问过到底是谁下的命令\N{\fs16}without ever asking who is giving the orders.{\r}
+Dialogue: 0,1:51:18.94,1:51:20.31,Default,NTP,0000,0000,0000,,或是为什么下命令\N{\fs16}Or why.{\r}
+Dialogue: 0,1:51:20.34,1:51:22.53,Default,NTP,0000,0000,0000,,你认为你的今天是这个体系造成的\N{\fs16}You blame the system for what you are.{\r}
+Dialogue: 0,1:51:22.55,1:51:24.90,Default,NTP,0000,0000,0000,,而不是你自己造成的\N{\fs16}Instead of yourself.{\r}
+Dialogue: 0,1:51:24.93,1:51:26.93,Default,NTP,0000,0000,0000,,你想要报仇\N{\fs16}You wanted revenge.{\r}
+Dialogue: 0,1:51:26.96,1:51:28.92,Default,NTP,0000,0000,0000,,但是罗马并非一日被摧毁\N{\fs16}But Rome wasn't destroyed in a day.{\r}
+Dialogue: 0,1:51:28.94,1:51:32.78,Default,NTP,0000,0000,0000,,你需要帮助 你需要钱 大量的钱\N{\fs16}You needed help, you needed the money. A lot of it.{\r}
+Dialogue: 0,1:51:32.81,1:51:36.03,Default,NTP,0000,0000,0000,,你会不遗余力地拿到钱\N{\fs16}And you'll stop at nothing to get it.{\r}
+Dialogue: 0,1:51:36.05,1:51:40.00,Default,NTP,0000,0000,0000,,所以我知道怎么把你困住\N{\fs16}That's how I know I'm going to put you in a box.{\r}
+Dialogue: 0,1:51:41.18,1:51:45.53,Default,NTP,0000,0000,0000,,- U盘在哪?  - U盘在哪?\N{\fs16}- Where is the disk?  - Where is the disk?{\r}
+Dialogue: 0,1:51:45.56,1:51:49.44,Default,NTP,0000,0000,0000,,你喜欢玩游戏 我这有一个游戏\N{\fs16}You like to play games. I've a game for you.{\r}
+Dialogue: 0,1:51:49.57,1:51:54.24,Default,NTP,0000,0000,0000,,我给你五千万\N{\fs16}I'll give you 50 million dollars{\r}
+Dialogue: 0,1:51:54.86,1:51:57.49,Default,NTP,0000,0000,0000,,你放班吉走\N{\fs16}to let Benji go.{\r}
+Dialogue: 0,1:52:13.01,1:52:17.99,Default,NTP,0000,0000,0000,,- U盘在哪?  - U盘在哪?\N{\fs16}- Where is the disk?  - Where is the disk?{\r}
+Dialogue: 0,1:52:18.01,1:52:20.84,Default,NTP,0000,0000,0000,,近在眼前 我就是U盘\N{\fs16}You're looking at it. I am the disk.{\r}
+Dialogue: 0,1:52:20.86,1:52:24.49,Default,NTP,0000,0000,0000,,我把24亿所有的账户号码都记下来了\N{\fs16}I memorized it all 2.4 billion in number accounts.{\r}
+Dialogue: 0,1:52:24.80,1:52:26.86,Default,NTP,0000,0000,0000,,如果那个背心炸了 你什么都得不到\N{\fs16}If that vest goes off, you get nothing.{\r}
+Dialogue: 0,1:52:26.96,1:52:31.48,Default,NTP,0000,0000,0000,,没了这笔钱 你什么都不是 没了我 你什么都不是\N{\fs16}Without this money, you're nothing. Without me, you're nothing.{\r}
+Dialogue: 0,1:52:36.06,1:52:39.95,Default,NTP,0000,0000,0000,,现在 你以为我在虚张声势 我绝不会让我朋友死\N{\fs16}Right now, you're thinking it's bluff. I'd never let my friends die.{\r}
+Dialogue: 0,1:52:39.97,1:52:43.25,Default,NTP,0000,0000,0000,,我不可能记下整个U盘\N{\fs16}I couldn't possibly memorize the entire disk.{\r}
+Dialogue: 0,1:52:43.28,1:52:45.86,Default,NTP,0000,0000,0000,,只有一个方法来验证\N{\fs16}There's only one way to be sure.{\r}
+Dialogue: 0,1:52:46.70,1:52:48.85,Default,NTP,0000,0000,0000,,放班吉走\N{\fs16}Let Benji go.{\r}
+Dialogue: 0,1:53:06.04,1:53:07.95,Default,NTP,0000,0000,0000,,抓住他\N{\fs16}Take him.{\r}
+Dialogue: 0,1:53:11.15,1:53:14.13,Default,NTP,0000,0000,0000,,他们靠近一步 你就开枪\N{\fs16}They come 1 step closer, shoot me.{\r}
+Dialogue: 0,1:53:15.43,1:53:17.10,Default,NTP,0000,0000,0000,,停\N{\fs16}Stop.{\r}
+Dialogue: 0,1:53:19.96,1:53:22.91,Default,NTP,0000,0000,0000,,你记得我告诉过你 总有一天你会玩过火吗?\N{\fs16}You remember I told you, one day you were going to take things too far?{\r}
+Dialogue: 0,1:53:22.94,1:53:24.77,Default,NTP,0000,0000,0000,,顺便说下 这是我说的 不是他说的\N{\fs16}This is me speaking, by the way. It's not him.{\r}
+Dialogue: 0,1:53:24.79,1:53:29.74,Default,NTP,0000,0000,0000,,让这结束的唯一方法就是我和你 雷恩 面对面解决\N{\fs16}The only way this ends is you and me, Lane, face to face.{\r}
+Dialogue: 0,1:53:29.76,1:53:32.77,Default,NTP,0000,0000,0000,,只是这一次 我不会被锁在一个玻璃柜里\N{\fs16}Only this time I won't be locked in a glass box.{\r}
+Dialogue: 0,1:53:32.80,1:53:34.11,Default,NTP,0000,0000,0000,,你想要你的钱\N{\fs16}You want your money.{\r}
+Dialogue: 0,1:53:34.14,1:53:37.56,Default,NTP,0000,0000,0000,,骨科医生得逼我说\N{\fs16}The Bone Doctor gonna beat it out of me.{\r}
+Dialogue: 0,1:53:37.58,1:53:41.12,Default,NTP,0000,0000,0000,,现在放班吉走\N{\fs16}Now let Benji go{\r}
+Dialogue: 0,1:53:45.16,1:53:48.21,Default,NTP,0000,0000,0000,,一... 三... 九\N{\fs16}1... 3... 9{\r}
+Dialogue: 0,1:54:08.36,1:54:09.66,Default,NTP,0000,0000,0000,,走\N{\fs16}Go.{\r}
+Dialogue: 0,1:54:09.69,1:54:12.72,Default,NTP,0000,0000,0000,,- 伊森  - 布兰特在等你 走\N{\fs16}- Ethan.  - Brandt has you waiting, go.{\r}
+Dialogue: 0,1:54:20.67,1:54:23.83,Default,NTP,0000,0000,0000,,- 我要怎么做?  - 杀了女的\N{\fs16}- What do I do?  - Kill the woman.{\r}
+Dialogue: 0,1:54:24.92,1:54:27.20,Default,NTP,0000,0000,0000,,我要亨特活着\N{\fs16}I need Hunt alive.{\r}
+Dialogue: 0,1:55:14.34,1:55:16.18,Default,NTP,0000,0000,0000,,- 说  - 我是班吉 我要去哪?\N{\fs16}- Go!  - It's Benji, where am I going?{\r}
+Dialogue: 0,1:55:16.20,1:55:17.93,Default,NTP,0000,0000,0000,,- 他们要来了  - 我们还没准备好\N{\fs16}- They're coming.  - We're not ready.{\r}
+Dialogue: 0,1:55:17.95,1:55:19.93,Default,NTP,0000,0000,0000,,那就准备好\N{\fs16}Then get ready.{\r}
+Dialogue: 0,1:55:45.70,1:55:47.34,Default,NTP,0000,0000,0000,,哪一边?\N{\fs16}Which way?{\r}
+Dialogue: 0,1:58:09.00,1:58:10.92,Default,NTP,0000,0000,0000,,来看看你身手究竟如何\N{\fs16}Now let's see what you're made of.{\r}
+Dialogue: 0,2:00:07.04,2:00:11.80,Default,NTP,0000,0000,0000,,面对面 就如你所愿 伊森\N{\fs16}Face to face. Just as you wish, Ethan.{\r}
+Dialogue: 0,2:00:34.04,2:00:36.34,Default,NTP,0000,0000,0000,,很难受 我明白\N{\fs16}It hurts, I know.{\r}
+Dialogue: 0,2:00:37.82,2:00:41.35,Default,NTP,0000,0000,0000,,先生们 这是所罗门·雷恩\N{\fs16}Gentlemen, this is Solomon Lane.{\r}
+Dialogue: 0,2:00:41.77,2:00:43.87,Default,NTP,0000,0000,0000,,雷恩先生\N{\fs16}Mr. Lane.{\r}
+Dialogue: 0,2:00:44.77,2:00:47.63,Default,NTP,0000,0000,0000,,这是IMF\N{\fs16}Meet the IMF.{\r}
+Dialogue: 0,2:02:06.28,2:02:08.38,Default,NTP,0000,0000,0000,,你现在自由了\N{\fs16}You're free now.{\r}
+Dialogue: 0,2:02:10.62,2:02:12.74,Default,NTP,0000,0000,0000,,你会去哪里?\N{\fs16}Where will you go?{\r}
+Dialogue: 0,2:02:13.57,2:02:15.60,Default,NTP,0000,0000,0000,,我不知道\N{\fs16}I don't know.{\r}
+Dialogue: 0,2:02:17.56,2:02:19.90,Default,NTP,0000,0000,0000,,我已经完成任务了\N{\fs16}I've done my part.{\r}
+Dialogue: 0,2:02:19.92,2:02:21.57,Default,NTP,0000,0000,0000,,没错\N{\fs16}Yeah.{\r}
+Dialogue: 0,2:02:26.65,2:02:28.92,Default,NTP,0000,0000,0000,,伊森 我们要走了\N{\fs16}Ethan, we got to go.{\r}
+Dialogue: 0,2:02:37.80,2:02:40.14,Default,NTP,0000,0000,0000,,你最好快点走\N{\fs16}You better hurry now.{\r}
+Dialogue: 0,2:02:41.74,2:02:43.77,Default,NTP,0000,0000,0000,,祝你好运\N{\fs16}Good luck.{\r}
+Dialogue: 0,2:02:58.10,2:03:00.60,Default,NTP,0000,0000,0000,,你知道怎么找我\N{\fs16}You know how to find me.{\r}
+Dialogue: 0,2:03:17.66,2:03:19.57,Default,NTP,0000,0000,0000,,亨利局长\N{\fs16}Director Hunley.{\r}
+Dialogue: 0,2:03:21.14,2:03:24.22,Default,NTP,0000,0000,0000,,- 亨利局长  - 啊... 主席先生\N{\fs16}- Director Hunley.  - Ah... Mr. Chairman.{\r}
+Dialogue: 0,2:03:24.25,2:03:29.15,Default,NTP,0000,0000,0000,,6个月前 你在陪审团面前 要求解散IMF\N{\fs16}6 months ago, you stood before this panel and demanded that the IMF be dissolved.{\r}
+Dialogue: 0,2:03:29.17,2:03:30.81,Default,NTP,0000,0000,0000,,没错 先生\N{\fs16}That is correct, sir.{\r}
+Dialogue: 0,2:03:30.84,2:03:32.86,Default,NTP,0000,0000,0000,,你如何解释今天的证词?\N{\fs16}And how do you explain your testimony today?{\r}
+Dialogue: 0,2:03:32.89,2:03:35.12,Default,NTP,0000,0000,0000,,这很简单 我们有理由相信\N{\fs16}It's quite simple really. We had reason to believe{\r}
+Dialogue: 0,2:03:35.14,2:03:38.68,Default,NTP,0000,0000,0000,,"辛迪加"已经高度渗透到我们政府内部\N{\fs16}that the Syndicate have infiltrated our government at the highest level.{\r}
+Dialogue: 0,2:03:38.70,2:03:44.13,Default,NTP,0000,0000,0000,,为了让我们的人渗透到那个组织 必须让他有完全的掩护\N{\fs16}In order for our man to infiltrate that organization, his cover had to be absolute.{\r}
+Dialogue: 0,2:03:44.16,2:03:48.57,Default,NTP,0000,0000,0000,,整个行动只有我自己和一些IMF特工知道\N{\fs16}The whole operation was known only to myself and a handful of IMF agents.{\r}
+Dialogue: 0,2:03:48.60,2:03:53.74,Default,NTP,0000,0000,0000,,那么 解散IMF只是这个精心布局的一部分\N{\fs16}So, the shuttering of the IMF was all part of an elaborate scheme.{\r}
+Dialogue: 0,2:03:53.77,2:03:57.12,Default,NTP,0000,0000,0000,,- 来暴露这个所谓的"辛迪加"?  - 对 长官\N{\fs16}- To expose this so called Syndicate?  - That is correct, sir.{\r}
+Dialogue: 0,2:03:57.15,2:04:02.63,Default,NTP,0000,0000,0000,,这也就是你今天来这里的原因 要求恢复IMF\N{\fs16}Which is why you're here today, asking for the IMF to be reinstated.{\r}
+Dialogue: 0,2:04:02.65,2:04:04.94,Default,NTP,0000,0000,0000,,没错 长官\N{\fs16}That is correct, sir.{\r}
+Dialogue: 0,2:04:06.82,2:04:10.39,Default,NTP,0000,0000,0000,,我不确定委员会同意你的方法 亨利局长\N{\fs16}I'm not sure the Committee approves of your methods, Director Hunley.{\r}
+Dialogue: 0,2:04:10.42,2:04:14.99,Default,NTP,0000,0000,0000,,特殊时期 特殊手段 主席先生\N{\fs16}Desperate times, desperate measures, Mr. Chairman.{\r}
+Dialogue: 0,2:04:15.63,2:04:17.47,Default,NTP,0000,0000,0000,,还有你 布兰特先生\N{\fs16}And you, Mr. Brandt.{\r}
+Dialogue: 0,2:04:17.49,2:04:20.94,Default,NTP,0000,0000,0000,,你如何为这种欺骗行为作出解释呢?\N{\fs16}How can you justify this deception?{\r}
+Dialogue: 0,2:04:21.81,2:04:25.21,Default,NTP,0000,0000,0000,,未经部长同意 我不能承认\N{\fs16}I can neither confirm nor deny details of any operation{\r}
+Dialogue: 0,2:04:25.23,2:04:27.91,Default,NTP,0000,0000,0000,,也不能否认任何任务细节\N{\fs16}without the Secretary's approval.{\r}
+Dialogue: 0,2:04:35.31,2:04:37.49,Default,NTP,0000,0000,0000,,欢迎加入IMF\N{\fs16}Welcome to the IMF.{\r}
+Dialogue: 0,2:04:37.76,2:04:40.08,Default,NTP,0000,0000,0000,,部长先生\N{\fs16}Mr. Secretary.{\r}
+
+

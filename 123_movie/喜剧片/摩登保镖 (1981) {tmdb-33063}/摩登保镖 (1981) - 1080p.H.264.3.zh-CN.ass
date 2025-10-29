@@ -1,0 +1,887 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,26,&H00FFFFFF,&H00000000,&H000D0500,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:48.35,0:00:49.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂 过来呀
+Dialogue: 0,0:00:51.08,0:00:52.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么啦?
+Dialogue: 0,0:01:14.81,0:01:15.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你肩膀上有没有这个?
+Dialogue: 0,0:01:15.88,0:01:16.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有
+Dialogue: 0,0:01:16.78,0:01:18.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有 你想用这个厕所呀
+Dialogue: 0,0:02:04.93,0:02:06.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对不起 队长
+Dialogue: 0,0:02:07.36,0:02:08.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}晚上看戏好不好?
+Dialogue: 0,0:02:10.40,0:02:11.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你妈也去呀?好呀
+Dialogue: 0,0:02:12.30,0:02:13.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}她爸爸一块去行不行呀?
+Dialogue: 0,0:02:13.63,0:02:14.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行
+Dialogue: 0,0:02:27.05,0:02:31.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老板 怎么样? 这只眼睛是不是很痛呀?
+Dialogue: 0,0:02:31.69,0:02:34.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}眼睛比教有痛 有发炎啦
+Dialogue: 0,0:02:34.69,0:02:38.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这家联合船厂时常有被偷东西的
+Dialogue: 0,0:02:38.56,0:02:40.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}依我看是伙计自己人偷的
+Dialogue: 0,0:02:41.06,0:02:42.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}等一会你去查查看啦
+Dialogue: 0,0:02:42.53,0:02:44.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我去 我即刻就去
+Dialogue: 0,0:03:17.26,0:03:18.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}请你称一称
+Dialogue: 0,0:03:19.93,0:03:20.92,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}麻烦你
+Dialogue: 0,0:03:21.17,0:03:22.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}请上来
+Dialogue: 0,0:03:26.24,0:03:28.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}哗 一百一十公斤呀 看不出你倒挺重的嘛
+Dialogue: 0,0:03:28.81,0:03:30.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}昨晚喝了很多啤酒酒呀?
+Dialogue: 0,0:03:30.34,0:03:31.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 队长
+Dialogue: 0,0:03:32.81,0:03:34.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我倒要看看你肚子有多大?
+Dialogue: 0,0:03:36.22,0:03:38.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}今天我可抓住你啦 赶快给我把他抓起来送到警察局去
+Dialogue: 0,0:03:39.19,0:03:41.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别走...
+Dialogue: 0,0:03:45.49,0:03:47.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让开...
+Dialogue: 0,0:03:48.86,0:03:51.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么事啊?锁门
+Dialogue: 0,0:03:58.64,0:04:00.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}队长 里面还有很多人呢
+Dialogue: 0,0:04:00.94,0:04:02.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别开玩笑啦
+Dialogue: 0,0:04:19.46,0:04:22.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家都是混饭吃的 何必呢? 不要打了
+Dialogue: 0,0:05:02.50,0:05:03.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}十三
+Dialogue: 0,0:05:10.54,0:05:11.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}十二
+Dialogue: 0,0:05:15.32,0:05:18.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你有色盲症?你分不清红黄的?
+Dialogue: 0,0:05:18.42,0:05:19.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}警官
+Dialogue: 0,0:05:20.62,0:05:22.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有没有搞错呀?色盲
+Dialogue: 0,0:05:24.82,0:05:25.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这是什么颜色色呀?
+Dialogue: 0,0:05:36.37,0:05:37.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}红色
+Dialogue: 0,0:05:38.47,0:05:39.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个呢?
+Dialogue: 0,0:05:52.15,0:05:53.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么颜色色?
+Dialogue: 0,0:05:53.22,0:05:54.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}黄色
+Dialogue: 0,0:06:01.03,0:06:06.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们警察局呢很需要你这种人材
+Dialogue: 0,0:06:08.70,0:06:09.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}可惜你呢矮了四寸
+Dialogue: 0,0:07:16.30,0:07:18.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这里这么多摄影机 你也敢顺手牵羊呀?
+Dialogue: 0,0:07:20.17,0:07:21.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 我只是好玩嘛
+Dialogue: 0,0:07:21.64,0:07:22.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}玩?你当我是瞎子
+Dialogue: 0,0:07:23.21,0:07:24.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个钱包是我的 你的胆子倒真不小
+Dialogue: 0,0:07:24.91,0:07:28.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那正好 行 到我房间我陪你玩
+Dialogue: 0,0:07:28.51,0:07:29.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是应该把他给抓起来
+Dialogue: 0,0:07:29.88,0:07:34.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}陪你玩 好玩嘛 来 进来 陪你玩
+Dialogue: 0,0:07:34.69,0:07:35.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 给个机会
+Dialogue: 0,0:07:37.52,0:07:40.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这里的护卫员真棒 天天都抓到贼的
+Dialogue: 0,0:07:40.26,0:07:41.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀
+Dialogue: 0,0:07:43.70,0:07:44.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快换衣服去
+Dialogue: 0,0:07:45.40,0:07:46.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}放手
+Dialogue: 0,0:07:47.63,0:07:50.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家都明白啦 贼是永远抓不完的
+Dialogue: 0,0:07:50.90,0:07:52.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不过只要一天吓个一两次
+Dialogue: 0,0:07:53.11,0:07:56.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他们就是想偷只好到隔壁去偷了 是不是?
+Dialogue: 0,0:07:57.64,0:07:58.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}告诉你不要打我肚子这儿嘛
+Dialogue: 0,0:07:59.15,0:08:00.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不打肚子怎么像真的呢?
+Dialogue: 0,0:08:00.71,0:08:02.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有的时候是他 大家轮着来
+Dialogue: 0,0:08:03.88,0:08:04.87,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}擦跌打酒酒
+Dialogue: 0,0:08:08.22,0:08:11.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你也是小队长呀? 你不示范给新人看
+Dialogue: 0,0:08:11.56,0:08:12.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谁示范给新人看呀?
+Dialogue: 0,0:08:14.33,0:08:15.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那你为什么不做贼呢?
+Dialogue: 0,0:08:17.46,0:08:22.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}队长以前也受过很多的伤
+Dialogue: 0,0:08:23.64,0:08:26.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 队长也受了多年罪啦
+Dialogue: 0,0:08:32.78,0:08:36.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下午四点童装部 你去扮贼
+Dialogue: 0,0:08:40.12,0:08:45.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你不用办啦 还是他去 那你不用换衣服啦
+Dialogue: 0,0:08:47.36,0:08:48.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我来帮你拿
+Dialogue: 0,0:08:48.70,0:08:49.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我自己拿
+Dialogue: 0,0:08:51.60,0:08:53.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样呀爸爸 妈妈 这套衣服照不照得住?
+Dialogue: 0,0:08:53.90,0:08:54.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}像那么回事 不错
+Dialogue: 0,0:08:55.17,0:08:57.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}四年学费换回来这套制服太贵啦
+Dialogue: 0,0:08:57.90,0:08:59.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}回来帮你老头子就好啦
+Dialogue: 0,0:08:59.74,0:09:01.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么呀爸爸 什么时候到瑞士去
+Dialogue: 0,0:09:02.11,0:09:05.87,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我的眼睛据医生说要治得越快越好
+Dialogue: 0,0:09:06.05,0:09:08.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我看下个礼拜也该去了
+Dialogue: 0,0:09:08.38,0:09:09.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我说你的眼睛早就应该动手术
+Dialogue: 0,0:09:09.98,0:09:10.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀
+Dialogue: 0,0:09:11.42,0:09:12.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别说了 我们先回写字间吧
+Dialogue: 0,0:09:13.32,0:09:17.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你别着急 爸爸 我的意思我不想暴露身份
+Dialogue: 0,0:09:17.26,0:09:20.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先看一两个礼拜情形 看看你那班宝贝偷不偷懒
+Dialogue: 0,0:09:20.63,0:09:21.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你千万别介绍我是谁
+Dialogue: 0,0:09:22.70,0:09:24.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}去了四年就学会了这么多怪招呀
+Dialogue: 0,0:09:29.20,0:09:31.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}到现在还不开 怎么这么不准时
+Dialogue: 0,0:09:31.97,0:09:36.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}放心好了 没那么准时的
+Dialogue: 0,0:09:38.31,0:09:39.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 早 - 早
+Dialogue: 0,0:09:40.08,0:09:42.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}今天好漂亮
+Dialogue: 0,0:09:43.62,0:09:44.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}记着晚上七点半
+Dialogue: 0,0:10:15.31,0:10:16.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}过去量高度
+Dialogue: 0,0:10:19.02,0:10:20.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不行 回去多跳点绳 不够高
+Dialogue: 0,0:10:29.76,0:10:31.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}OK 明天九点上课
+Dialogue: 0,0:10:31.73,0:10:32.72,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢
+Dialogue: 0,0:10:33.93,0:10:34.92,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下一个
+Dialogue: 0,0:10:34.97,0:10:35.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有
+Dialogue: 0,0:10:46.75,0:10:48.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行啦 过去量高度
+Dialogue: 0,0:10:53.65,0:10:54.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下一个
+Dialogue: 0,0:10:56.09,0:10:57.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}邓小龙 你是不是邓小龙?
+Dialogue: 0,0:10:57.99,0:10:58.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 是呀 - 还不快过来
+Dialogue: 0,0:11:17.44,0:11:22.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不行 你这么多鬼花样不如做贼 干嘛做护卫员?
+Dialogue: 0,0:11:23.08,0:11:26.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}话不是这么说 做这一行 最能表达一个男子汉气概嘛
+Dialogue: 0,0:11:27.35,0:11:28.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有什么男子汉气概?
+Dialogue: 0,0:11:28.75,0:11:30.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}就拿队长你来说吧
+Dialogue: 0,0:11:30.69,0:11:34.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}光是这个伤疤 光是这个伤疤就知道你身经百战了
+Dialogue: 0,0:11:34.79,0:11:36.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再加上您这儿还有三条杠
+Dialogue: 0,0:11:36.66,0:11:39.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走起路来 简直就像查理士布朗逊一样
+Dialogue: 0,0:11:41.80,0:11:44.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他的肚子好像没有我这么大吧
+Dialogue: 0,0:11:44.74,0:11:46.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你走路的样子像他嘛
+Dialogue: 0,0:11:46.81,0:11:50.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是嘛?明天九点上课
+Dialogue: 0,0:11:51.04,0:11:52.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢 谢谢
+Dialogue: 0,0:11:55.65,0:11:57.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我不记得查理士布朗逊 走路是什么样子的?
+Dialogue: 0,0:11:58.62,0:11:59.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}像一只大螃蟹那样嘛
+Dialogue: 0,0:12:23.94,0:12:24.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}扩音器呢?
+Dialogue: 0,0:12:25.98,0:12:26.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么呀?
+Dialogue: 0,0:12:31.52,0:12:34.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我的扩音器呢?喇叭?
+Dialogue: 0,0:12:34.69,0:12:35.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有喇叭
+Dialogue: 0,0:12:36.09,0:12:39.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有喇叭你们坐得那么远 不是把我当喇叭了吗
+Dialogue: 0,0:12:45.46,0:12:46.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}今天教大夏的防守
+Dialogue: 0,0:12:47.73,0:12:52.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这一块是电子地毯 后面是有感应器的
+Dialogue: 0,0:12:53.11,0:12:55.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们把它放在写字楼的门口
+Dialogue: 0,0:12:55.74,0:12:59.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}第一件事我们要做的接上电源
+Dialogue: 0,0:13:00.35,0:13:06.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}然后把它慢慢的后地毯穿过来 插在电钟后面
+Dialogue: 0,0:13:06.69,0:13:12.56,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}将它插在两极这里 一条是正极 一条是负极
+Dialogue: 0,0:13:13.13,0:13:16.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果没有人踩在地毯上 当然没问题
+Dialogue: 0,0:13:17.00,0:13:22.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果有人偷偷的踩在地毯上 那就...
+Dialogue: 0,0:13:36.55,0:13:37.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谁叫你踩在地毯上呀?
+Dialogue: 0,0:13:39.22,0:13:40.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我不踩地毯踩那儿呀?
+Dialogue: 0,0:13:43.09,0:13:44.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}坐下
+Dialogue: 0,0:13:55.90,0:13:56.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在继续教防火
+Dialogue: 0,0:13:57.67,0:14:00.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}火警最要命的不是火 而是烟
+Dialogue: 0,0:14:01.14,0:14:04.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}到现场以前大家一定要带防火衣 防火罩
+Dialogue: 0,0:14:05.58,0:14:09.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}氧气铜 斧头 绳子等等 全部都要带齐
+Dialogue: 0,0:14:10.42,0:14:13.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}逃命的时候大家一定要记住 能往下走当然往下走
+Dialogue: 0,0:14:14.35,0:14:17.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果不能往下走就应该到天台上去
+Dialogue: 0,0:14:17.56,0:14:19.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}因为天台上新鲜空气多
+Dialogue: 0,0:14:20.06,0:14:21.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}上天台怎么逃呀?
+Dialogue: 0,0:14:24.20,0:14:26.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}用降落伞
+Dialogue: 0,0:14:36.01,0:14:39.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}在一七八三年第一个 法国物理学家成功的运用
+Dialogue: 0,0:14:40.18,0:14:41.58,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}降落伞后塔顶往地下跳
+Dialogue: 0,0:14:42.55,0:14:45.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}两百年之后 第一个运用降落伞为防火理论的
+Dialogue: 0,0:14:46.15,0:14:50.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是一个中国人 他曾经做过伞兵
+Dialogue: 0,0:14:53.19,0:14:56.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他的名字叫周世昌 就是大队长我
+Dialogue: 0,0:15:01.90,0:15:06.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大队长做人好难呀 因为我的天份太高
+Dialogue: 0,0:15:08.04,0:15:10.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一个天份高的人所说的话
+Dialogue: 0,0:15:10.94,0:15:14.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}会使到天份低的人笑到地上打滚
+Dialogue: 0,0:15:18.88,0:15:19.87,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小队长 示范
+Dialogue: 0,0:15:20.82,0:15:24.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}在天台上面首先看清楚下面 有没有任何障碍物
+Dialogue: 0,0:15:25.29,0:15:27.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}然后拿出手绢 再试试一下方向
+Dialogue: 0,0:15:28.06,0:15:31.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再试风向走几补 然后再试试风向 然后一 二
+Dialogue: 0,0:15:31.63,0:15:32.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果刮台风怎么办?
+Dialogue: 0,0:15:33.73,0:15:35.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你有没有看过环游世界八十天呀?
+Dialogue: 0,0:15:37.34,0:15:44.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}准备一 二跳 三拉开 开 这样就安全下地了
+Dialogue: 0,0:15:49.15,0:15:52.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你这么笑是觉得这个方法可笑呢 还是觉得它伟大
+Dialogue: 0,0:15:53.09,0:15:54.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}伟大 伟大
+Dialogue: 0,0:15:55.25,0:15:56.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}伟大那你就出来试试
+Dialogue: 0,0:15:56.99,0:15:58.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好
+Dialogue: 0,0:15:59.43,0:16:00.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}明天
+Dialogue: 0,0:16:08.00,0:16:10.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不用害怕 万一有什么事下面有个救生网
+Dialogue: 0,0:16:10.67,0:16:12.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}可以跟着你跳的方向接住你的
+Dialogue: 0,0:16:13.31,0:16:14.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行不行呀?
+Dialogue: 0,0:16:15.41,0:16:16.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}理论上是应该行的
+Dialogue: 0,0:16:18.01,0:16:19.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你试过没有?
+Dialogue: 0,0:16:21.01,0:16:22.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不过队长说他以前试过的
+Dialogue: 0,0:16:23.35,0:16:26.01,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在拿出一条手绢出来试试方向
+Dialogue: 0,0:16:31.06,0:16:32.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我忘了带啦
+Dialogue: 0,0:16:32.93,0:16:34.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}拔条头发也一样
+Dialogue: 0,0:16:39.03,0:16:40.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么啦?怎么啦?
+Dialogue: 0,0:16:40.83,0:16:42.03,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}吹掉了
+Dialogue: 0,0:16:42.50,0:16:43.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}吹到那一变?
+Dialogue: 0,0:16:43.87,0:16:45.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}左变啦
+Dialogue: 0,0:16:45.34,0:16:49.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那就是吹右变风了 现在反方向走几补
+Dialogue: 0,0:16:53.11,0:16:54.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没地方走啦
+Dialogue: 0,0:16:56.62,0:16:59.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那我们向左变走几补 将就你好了
+Dialogue: 0,0:17:02.62,0:17:04.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好啦 现在扔个假人下来试一试
+Dialogue: 0,0:17:04.92,0:17:05.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好
+Dialogue: 0,0:17:32.85,0:17:37.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}位置也差不多啦 现在准备 一 二跳
+Dialogue: 0,0:17:37.69,0:17:39.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三拉开关 跳 跳 跳
+Dialogue: 0,0:17:40.13,0:17:41.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别跳 别跳
+Dialogue: 0,0:17:53.77,0:17:54.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样?你没事吧?
+Dialogue: 0,0:17:56.01,0:17:59.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那么高跳下来呀 有火警发生不烧死也会摔死的
+Dialogue: 0,0:18:00.71,0:18:03.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}很少有大夏着火的 十年也碰不上
+Dialogue: 0,0:18:04.48,0:18:07.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这很难说呀 我叔叔后来都不坐飞机
+Dialogue: 0,0:18:07.39,0:18:09.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}第一次坐飞机就撞死啦
+Dialogue: 0,0:18:10.69,0:18:12.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对啦 如果着火我们怎么知道?
+Dialogue: 0,0:18:13.19,0:18:16.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这里有一排灯 那盏灯亮呢就那一层楼着火了
+Dialogue: 0,0:18:19.37,0:18:20.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不是这样呀?
+Dialogue: 0,0:18:20.47,0:18:21.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 这样就是五十楼着火了
+Dialogue: 0,0:18:23.67,0:18:24.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}五十楼着火了
+Dialogue: 0,0:18:31.98,0:18:34.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}糟了 灯全灭了 走楼梯上去
+Dialogue: 0,0:18:34.98,0:18:36.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂喂 穿上防火救生衣再走呀
+Dialogue: 0,0:18:37.15,0:18:38.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先上去看看再说
+Dialogue: 0,0:18:38.25,0:18:39.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不穿就芹菜炒鱿鱼了
+Dialogue: 0,0:19:05.44,0:19:07.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样?怎么啦?你没事吧?
+Dialogue: 0,0:19:08.98,0:19:10.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不行啦 我的哮喘又发作啦
+Dialogue: 0,0:19:10.88,0:19:11.87,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别怕 有氧气
+Dialogue: 0,0:19:14.95,0:19:16.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这铜氧气是那年的?
+Dialogue: 0,0:19:18.72,0:19:19.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一九七零年
+Dialogue: 0,0:19:20.99,0:19:22.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这下我可惨啦
+Dialogue: 0,0:19:22.63,0:19:24.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我来 我扶你上去
+Dialogue: 0,0:19:30.20,0:19:33.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}四十八秒 下次的演习还要快三秒
+Dialogue: 0,0:19:35.67,0:19:36.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}演习?
+Dialogue: 0,0:19:38.54,0:19:41.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先生 我们这儿的侦察器 是非常敏感的
+Dialogue: 0,0:19:42.15,0:19:45.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}只要拿你的雪茄轻轻的一动 立刻就有反应
+Dialogue: 0,0:19:45.62,0:19:48.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}将来的展览会一定安全的 试试看
+Dialogue: 0,0:19:48.42,0:19:49.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好的
+Dialogue: 0,0:19:49.49,0:19:53.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}开门就要用 我们这儿的二零零三IBM感应器
+Dialogue: 0,0:19:53.73,0:19:57.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}除了按号码之外 还要加上我的声音 试一试
+Dialogue: 0,0:20:14.68,0:20:15.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我扮马叫的声音很像呀
+Dialogue: 0,0:20:20.99,0:20:23.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}将来金玉衣放在这儿 银玉衣放在那儿
+Dialogue: 0,0:20:24.02,0:20:25.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对着这两件衣服有两个摄影机
+Dialogue: 0,0:20:26.03,0:20:29.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}上面的情形会传到下面的控制室 什么都看清楚了
+Dialogue: 0,0:20:31.10,0:20:34.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先生 请走过去试一试
+Dialogue: 0,0:20:37.47,0:20:38.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再走一次试试 很好玩的
+Dialogue: 0,0:20:38.74,0:20:39.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好
+Dialogue: 0,0:20:40.27,0:20:41.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不是呀?
+Dialogue: 0,0:20:41.87,0:20:43.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那么有苍蝇飞过也知道了
+Dialogue: 0,0:20:43.31,0:20:46.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}公的母的都看得出来 再到那变看看
+Dialogue: 0,0:20:51.45,0:20:52.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}已经开跑了
+Dialogue: 0,0:20:52.69,0:20:53.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我试一枪给你看看
+Dialogue: 0,0:20:55.02,0:20:56.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}会不会打死那匹马的?
+Dialogue: 0,0:20:56.39,0:21:00.59,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不会 这么小的子弹打在马身上 好像黄蜂刺一下差不多
+Dialogue: 0,0:21:00.86,0:21:02.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那么我们买的连赢一定够了
+Dialogue: 0,0:21:06.47,0:21:07.76,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么没有反应呀?
+Dialogue: 0,0:21:08.10,0:21:11.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 可能是子弹小不够力 下次用大一点
+Dialogue: 0,0:21:11.97,0:21:14.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这么说我们是赢定啦 当然了
+Dialogue: 0,0:21:15.41,0:21:18.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}考车牌的同学 由公司训练四十个钟
+Dialogue: 0,0:21:19.41,0:21:24.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三十五个钟是室内训练 最后五个钟是外面请师父教你们
+Dialogue: 0,0:21:25.25,0:21:27.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好了 小队长 告诉大家
+Dialogue: 0,0:21:28.22,0:21:31.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家再看清楚秩序 倒后镜 打火
+Dialogue: 0,0:21:31.32,0:21:33.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}离合器 入排档 手刹车
+Dialogue: 0,0:21:34.46,0:21:43.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}坐好位 倒后镜 打火 离合器 吸把 手刹车
+Dialogue: 0,0:21:43.97,0:21:48.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}摆右手 油门 离合器
+Dialogue: 0,0:21:49.37,0:21:56.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}往右转 离合器 吸把 往后转 紧急刹车
+Dialogue: 0,0:22:00.09,0:22:01.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你干什么?
+Dialogue: 0,0:22:01.35,0:22:02.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}看看有没有撞到人嘛
+Dialogue: 0,0:22:04.59,0:22:19.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好 再试一次 倒后镜 打火 离合器 吸把 手刹车...
+Dialogue: 0,0:22:19.54,0:22:29.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}继续 摆右手 离合器 吸把 往右转 紧急刹车
+Dialogue: 0,0:22:35.69,0:22:36.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}早
+Dialogue: 0,0:22:45.53,0:22:47.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}看着 一会就轮到你们啦
+Dialogue: 0,0:22:47.77,0:22:48.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好
+Dialogue: 0,0:22:54.04,0:23:00.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}倒后镜 打火 离合器 手刹车 入排档
+Dialogue: 0,0:23:01.55,0:23:02.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你莫我大腿干什么?
+Dialogue: 0,0:23:03.22,0:23:05.05,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}真是对不起 我以为是排档棍
+Dialogue: 0,0:23:08.59,0:23:09.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没打着火
+Dialogue: 0,0:23:15.79,0:23:17.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}糟啦 断了
+Dialogue: 0,0:23:18.53,0:23:19.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}考完了
+Dialogue: 0,0:23:20.33,0:23:24.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你等等 我出去接上就行啦 很快的很快
+Dialogue: 0,0:23:59.57,0:24:02.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你猜他会不会公报私仇呀?
+Dialogue: 0,0:24:04.84,0:24:05.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我想不会吧
+Dialogue: 0,0:24:25.50,0:24:26.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 快点
+Dialogue: 0,0:24:26.53,0:24:27.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别急嘛 催什么?
+Dialogue: 0,0:24:29.43,0:24:30.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点
+Dialogue: 0,0:24:31.34,0:24:32.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 等你好耐了
+Dialogue: 0,0:24:33.47,0:24:34.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}天亮了 老兄
+Dialogue: 0,0:24:35.47,0:24:39.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 打啊...
+Dialogue: 0,0:24:44.68,0:24:48.05,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}等你半天了 老兄 十三么呀
+Dialogue: 0,0:24:48.39,0:24:49.45,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}又是你吃糊
+Dialogue: 0,0:24:50.69,0:24:51.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}给钱给钱
+Dialogue: 0,0:24:53.49,0:24:54.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我看九成完蛋了
+Dialogue: 0,0:24:55.49,0:24:56.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再加一成啦
+Dialogue: 0,0:25:05.07,0:25:07.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}拿着钱箱的时候 手铐一定要套在自己手上
+Dialogue: 0,0:25:07.87,0:25:09.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}因为这是保险条例
+Dialogue: 0,0:25:09.68,0:25:13.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果出了什么毛病的话 芹菜炒鱿鱼
+Dialogue: 0,0:25:13.98,0:25:16.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}贼抢钱要是有刀连手都砍掉啦
+Dialogue: 0,0:25:17.28,0:25:18.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你喜欢套在脖子上也行呀
+Dialogue: 0,0:25:22.99,0:25:26.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这根是雷明登鸟枪 一枪可以打三百五十粒散弹
+Dialogue: 0,0:25:27.39,0:25:28.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}闭着眼睛都可以打得中的
+Dialogue: 0,0:25:29.70,0:25:32.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}以前队长我一枪 可以打倒二十只水鸭
+Dialogue: 0,0:25:33.00,0:25:33.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}儿童乐园呀?
+Dialogue: 0,0:25:47.45,0:25:49.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们不是警察 我们不想打死他
+Dialogue: 0,0:25:49.88,0:25:52.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}只是想抓住他 最好是打他的脚趾头
+Dialogue: 0,0:25:54.59,0:26:01.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}每人打一枪 你先来 顶备 一 二 开枪
+Dialogue: 0,0:26:02.13,0:26:03.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下一个
+Dialogue: 0,0:26:03.16,0:26:04.15,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有子弹的?
+Dialogue: 0,0:26:04.30,0:26:06.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这么大的人打不中呀 下一个
+Dialogue: 0,0:26:07.10,0:26:11.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}您 预备 一 二 顶备
+Dialogue: 0,0:26:11.57,0:26:12.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}继续教自卫术
+Dialogue: 0,0:26:13.51,0:26:17.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大队长我以前跟成龙 李小龙在一起跑的时候
+Dialogue: 0,0:26:17.81,0:26:18.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}跑腿呀?
+Dialogue: 0,0:26:23.45,0:26:26.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有贼抢东西的时候 一定先抢你的枪
+Dialogue: 0,0:26:26.75,0:26:28.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}然后在后面用力的一指指着你 你怎办?
+Dialogue: 0,0:26:29.65,0:26:30.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}趴在地下
+Dialogue: 0,0:26:30.69,0:26:31.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不对
+Dialogue: 0,0:26:31.32,0:26:32.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}用后脚踢他
+Dialogue: 0,0:26:32.46,0:26:36.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}也不对 你应该马上转身 把手指头插在枪管里头
+Dialogue: 0,0:26:38.96,0:26:43.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}因为压力的关系 子弹就会向后弹
+Dialogue: 0,0:26:43.67,0:26:45.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把那个贼反弹在地上
+Dialogue: 0,0:26:48.74,0:26:50.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你出来试试看
+Dialogue: 0,0:26:50.91,0:26:52.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我相信 我相信
+Dialogue: 0,0:26:52.68,0:26:54.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你...
+Dialogue: 0,0:27:08.73,0:27:11.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}预备 一 二
+Dialogue: 0,0:27:11.73,0:27:12.72,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}闭嘴
+Dialogue: 0,0:27:13.50,0:27:14.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你准备好了没有?
+Dialogue: 0,0:27:14.77,0:27:16.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行啦 行啦
+Dialogue: 0,0:27:16.47,0:27:18.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你出来试试看 快快
+Dialogue: 0,0:27:18.44,0:27:21.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我试得多了 快 快试 要不然炒你的鱿鱼了
+Dialogue: 0,0:27:22.41,0:27:29.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 手伸进去 预备 一 二 开枪
+Dialogue: 0,0:27:31.98,0:27:33.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}完了 完了
+Dialogue: 0,0:27:33.95,0:27:34.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没事呀
+Dialogue: 0,0:27:35.89,0:27:37.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没事
+Dialogue: 0,0:27:38.29,0:27:40.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}了不起呀 不得了
+Dialogue: 0,0:27:57.58,0:27:59.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小心让大螃蟹看见炒你的鱿鱼
+Dialogue: 0,0:28:04.65,0:28:06.05,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不知道贼会不会真的砍手呀?
+Dialogue: 0,0:28:06.69,0:28:07.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}要砍先砍拿枪的
+Dialogue: 0,0:28:08.45,0:28:09.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那我就放心了
+Dialogue: 0,0:28:59.17,0:29:00.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}晚上请你看邓丽君
+Dialogue: 0,0:29:00.41,0:29:01.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有空呀
+Dialogue: 0,0:29:14.69,0:29:15.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}干什么?
+Dialogue: 0,0:29:15.72,0:29:18.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不知道是谁碰了警灯的开关了
+Dialogue: 0,0:29:20.29,0:29:21.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}几号窗口?
+Dialogue: 0,0:29:22.06,0:29:23.05,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}七号
+Dialogue: 0,0:29:24.43,0:29:26.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我替你去看看 今儿晚上陪我
+Dialogue: 0,0:29:28.13,0:29:29.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那我呢?
+Dialogue: 0,0:29:29.17,0:29:30.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小心点砍手
+Dialogue: 0,0:29:46.02,0:29:47.01,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 香蕉呀? - 是
+Dialogue: 0,0:29:47.05,0:29:48.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}打劫呀
+Dialogue: 0,0:29:48.39,0:29:49.38,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别走
+Dialogue: 0,0:29:55.79,0:29:56.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快过来 过来帮忙
+Dialogue: 0,0:29:57.80,0:30:00.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}过来 把箱子砸他 打 打呀
+Dialogue: 0,0:30:06.10,0:30:07.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快走开 别让枪对着你的肚子
+Dialogue: 0,0:30:09.71,0:30:12.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 别追着我
+Dialogue: 0,0:30:16.21,0:30:24.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 别追着我
+Dialogue: 0,0:30:33.50,0:30:35.33,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点去追呀 快去追 快点
+Dialogue: 0,0:30:35.43,0:30:36.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}追什么?你又不追?
+Dialogue: 0,0:30:36.47,0:30:37.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}总部 总部 总部
+Dialogue: 0,0:30:38.10,0:30:40.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}总 总 总 开关都没开 总什么总?
+Dialogue: 0,0:30:41.07,0:30:43.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}总部总部 听见没有? 我叫总部 总...
+Dialogue: 0,0:30:45.08,0:30:50.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再不站住我要开枪啦 站住
+Dialogue: 0,0:31:08.13,0:31:09.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}站住
+Dialogue: 0,0:31:29.65,0:31:31.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}糟啦 怎么会弄成这个样子?
+Dialogue: 0,0:31:46.30,0:31:47.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有没有看见一个大个子进来?
+Dialogue: 0,0:32:29.21,0:32:31.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}嘻嘻 打中你啦
+Dialogue: 0,0:32:33.18,0:32:34.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你的脸怎么啦?
+Dialogue: 0,0:32:39.26,0:32:41.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}就是为了捉这个色狼嘛
+Dialogue: 0,0:32:41.33,0:32:45.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对了 那女孩子就好像她这么大 才十岁就被人家强奸了
+Dialogue: 0,0:32:45.26,0:32:47.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们说多可怕 真是连禽兽都不如
+Dialogue: 0,0:32:47.50,0:32:49.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们看我多惨 混身都是血
+Dialogue: 0,0:32:49.90,0:32:53.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现场更恐怖 满地都是血
+Dialogue: 0,0:32:54.41,0:32:57.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在那个女孩已经进了医院 还不知道死活
+Dialogue: 0,0:32:57.68,0:32:59.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}以前我妹妹也是这样的
+Dialogue: 0,0:32:59.48,0:33:04.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们看看这就是我的妹妹 才十岁 你们看多可爱
+Dialogue: 0,0:33:04.78,0:33:08.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}也是遇到色狼 结果跳楼自杀了 真是惨
+Dialogue: 0,0:33:08.82,0:33:10.98,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}像他这种人呀 将来一定不得好死的
+Dialogue: 0,0:33:11.32,0:33:13.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 连我的裤子都给脱了
+Dialogue: 0,0:33:13.89,0:33:16.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 各位 现在我到隔壁去看看
+Dialogue: 0,0:33:17.03,0:33:21.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果那位看见他 马上把他交给我们 谢谢 走
+Dialogue: 0,0:33:26.37,0:33:27.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个是老太婆嘛
+Dialogue: 0,0:33:27.81,0:33:30.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这就是我外婆 就是她伤心的跳楼自杀了
+Dialogue: 0,0:33:43.29,0:33:44.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}等一等
+Dialogue: 0,0:33:53.43,0:33:54.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不是他呀?
+Dialogue: 0,0:33:55.17,0:33:57.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}就是这个臭小子
+Dialogue: 0,0:34:02.11,0:34:06.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}各位同事 我现在想利用这个机会 跟各位宣布一件事情
+Dialogue: 0,0:34:08.01,0:34:13.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}因为我的眼睛得了白内障 我明天就要到瑞士动手术
+Dialogue: 0,0:34:14.45,0:34:18.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}以后公司的一切业务 就交给我儿子来处理
+Dialogue: 0,0:34:18.76,0:34:22.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大概你们都已经认识他了 不过还没正式介绍
+Dialogue: 0,0:34:23.29,0:34:26.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我就利用这个机会 跟大家正式介绍一下
+Dialogue: 0,0:34:26.46,0:34:27.59,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}阿凡
+Dialogue: 0,0:34:34.04,0:34:37.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}阿凡他是刚刚后英国 读了护卫学回来的
+Dialogue: 0,0:34:39.68,0:34:40.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你好！
+Dialogue: 0,0:34:44.62,0:34:46.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}等一会你到写字楼见我
+Dialogue: 0,0:34:54.36,0:34:58.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我观察了你一个礼拜 你的方法落后了起码十五年
+Dialogue: 0,0:34:59.13,0:35:02.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}由现在开始你算是新人 上课我自己来教
+Dialogue: 0,0:35:03.13,0:35:06.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不行呀 我一向是大队长 怎么可以做新人呢?
+Dialogue: 0,0:35:09.64,0:35:12.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在不是了 想通了你就做下去
+Dialogue: 0,0:35:13.11,0:35:16.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}想不通呢我也不勉强你 自己炒自己鱿鱼
+Dialogue: 0,0:35:24.42,0:35:26.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}上次用的子弹太大了 不灵呀
+Dialogue: 0,0:35:26.96,0:35:30.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下次我们用这种冰弹 一打在马身上就会溶化掉
+Dialogue: 0,0:35:31.06,0:35:32.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那不是没证据了吗?
+Dialogue: 0,0:35:33.90,0:35:34.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么会这样?
+Dialogue: 0,0:35:34.93,0:35:37.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是冰箱不够冻 化了点 下次就不会的啦
+Dialogue: 0,0:35:38.37,0:35:40.03,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个礼拜六就有机会啦
+Dialogue: 0,0:35:40.24,0:35:43.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这次可发财了
+Dialogue: 0,0:35:43.91,0:35:46.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这次发了财 我什么都买了
+Dialogue: 0,0:35:46.88,0:35:49.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}买飞机还买游艇呀
+Dialogue: 0,0:35:49.75,0:35:51.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}要什么就有什么
+Dialogue: 0,0:35:55.89,0:35:58.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我在这儿做了十五年 也试过出生入死呀老兄
+Dialogue: 0,0:35:59.26,0:36:02.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一九七0年恒生银行的案子 是我把性命拼回来的
+Dialogue: 0,0:36:04.56,0:36:07.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一九七四年宝生银行的案子 是我拿性命拼回来的
+Dialogue: 0,0:36:07.30,0:36:09.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}脖子上还有个大伤疤 这都是我...
+Dialogue: 0,0:36:13.17,0:36:16.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个家伙胡说八道
+Dialogue: 0,0:36:16.98,0:36:18.03,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}回来啦 回来啦
+Dialogue: 0,0:36:25.92,0:36:27.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老板 我在公司里十几...
+Dialogue: 0,0:36:31.36,0:36:33.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我查过你所有的记录 如果你做满下个月
+Dialogue: 0,0:36:34.23,0:36:36.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}刚好十五年 有五万块退休金
+Dialogue: 0,0:36:37.26,0:36:39.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果你现在就走 一分钱也没有
+Dialogue: 0,0:36:39.60,0:36:42.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老板 我做了十五年了 我出生入死的...
+Dialogue: 0,0:36:43.30,0:36:47.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你出生入死?你记不记得 一九七0年恒生银行那件案子
+Dialogue: 0,0:36:48.04,0:36:50.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}每个伙计都拼了老命 就你一个人不敢动
+Dialogue: 0,0:36:50.84,0:36:54.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一九七四年宝生银行那件案子 贼还没开枪你就趴下
+Dialogue: 0,0:36:54.88,0:36:57.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}自己撞在垃圾桶上 弄伤了自己的脖子
+Dialogue: 0,0:36:58.85,0:36:59.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我说得对不对?以后向他学习
+Dialogue: 0,0:37:01.15,0:37:02.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}跟谁学习呀?
+Dialogue: 0,0:37:02.35,0:37:03.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他
+Dialogue: 0,0:37:03.66,0:37:04.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他?
+Dialogue: 0,0:37:04.76,0:37:05.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我?
+Dialogue: 0,0:37:14.70,0:37:17.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们老实讲给我听 我是不是真的落后十五年?
+Dialogue: 0,0:37:17.74,0:37:21.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们凭良心讲 我的方法是不是落后
+Dialogue: 0,0:37:21.74,0:37:25.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们同事一场 凭良心 你说老实话
+Dialogue: 0,0:37:26.34,0:37:28.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你说老实话 你打心里讲出来 我是不是真的落后
+Dialogue: 0,0:37:29.65,0:37:32.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你凭良心讲 你不要害怕 你老实讲 你凭良心讲
+Dialogue: 0,0:37:33.38,0:37:35.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你还不止是落后 简直就令人讨厌
+Dialogue: 0,0:37:36.32,0:37:39.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 简直令人讨厌
+Dialogue: 0,0:37:39.72,0:37:41.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你是坦白得太过份吧
+Dialogue: 0,0:37:45.30,0:37:46.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}明天到那儿开工呀?
+Dialogue: 0,0:37:46.83,0:37:48.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}到瑞兴公司去扮贼呀
+Dialogue: 0,0:38:23.27,0:38:24.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把粗的给我
+Dialogue: 0,0:38:24.67,0:38:26.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}给我 给我
+Dialogue: 0,0:38:27.11,0:38:28.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让我过过瘾嘛
+Dialogue: 0,0:38:29.74,0:38:31.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂 你看
+Dialogue: 0,0:38:34.28,0:38:35.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}出去看看
+Dialogue: 0,0:38:35.38,0:38:36.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}敢偷我的钱包?
+Dialogue: 0,0:38:36.41,0:38:37.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}苏丝 让我来
+Dialogue: 0,0:38:37.68,0:38:38.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我开玩笑嘛
+Dialogue: 0,0:38:39.05,0:38:40.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你知不知道我是什么人?
+Dialogue: 0,0:38:40.69,0:38:42.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不知道 你知道我是什么人呀?
+Dialogue: 0,0:38:43.32,0:38:44.45,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我也不知道
+Dialogue: 0,0:38:44.66,0:38:45.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那最好啦
+Dialogue: 0,0:38:57.27,0:38:58.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么啦
+Dialogue: 0,0:38:58.54,0:39:02.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不用你枝棍子啦 一只手就行啦
+Dialogue: 0,0:39:02.34,0:39:04.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢 谢谢
+Dialogue: 0,0:39:55.03,0:39:56.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你知道厕所在那儿啦?
+Dialogue: 0,0:39:57.03,0:39:58.72,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们山水有相逢
+Dialogue: 0,0:39:59.60,0:40:00.76,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在不就是嘛
+Dialogue: 0,0:40:04.67,0:40:05.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}碰
+Dialogue: 0,0:40:13.91,0:40:15.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}杠
+Dialogue: 0,0:40:26.99,0:40:30.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}明天晚上夜班守游艇会呀 小龙 大螃蟹
+Dialogue: 0,0:40:30.66,0:40:32.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我这个手怎么能够守呀?
+Dialogue: 0,0:40:32.83,0:40:34.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你麻将怎么能够打?
+Dialogue: 0,0:40:49.25,0:40:50.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快把牌捡起来 捡起来 捡好
+Dialogue: 0,0:40:51.15,0:40:52.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}全乱了怎么捡呀?
+Dialogue: 0,0:40:52.38,0:40:54.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄呀 我自莫小三元呀
+Dialogue: 0,0:40:54.75,0:40:55.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我还大四喜呢
+Dialogue: 0,0:40:55.79,0:40:57.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}真的 不相信问他
+Dialogue: 0,0:40:58.06,0:40:59.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我没看见
+Dialogue: 0,0:40:59.96,0:41:01.15,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样?
+Dialogue: 0,0:41:01.33,0:41:02.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你自己不小心嘛
+Dialogue: 0,0:41:04.50,0:41:05.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你看看
+Dialogue: 0,0:41:08.70,0:41:09.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}刘老板
+Dialogue: 0,0:41:11.24,0:41:13.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}哗 简直像大军阀一样
+Dialogue: 0,0:41:13.67,0:41:15.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你马褂也不是挺帅的嘛
+Dialogue: 0,0:41:17.07,0:41:20.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好漂亮 上船上船
+Dialogue: 0,0:41:20.68,0:41:21.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家上船
+Dialogue: 0,0:41:27.42,0:41:29.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}残废还能做护卫员?
+Dialogue: 0,0:41:32.19,0:41:33.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我也是化妆的嘛
+Dialogue: 0,0:41:37.73,0:41:39.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}真没有礼貌
+Dialogue: 0,0:42:09.16,0:42:12.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 顺风顺水上岸给钱 快走 快走
+Dialogue: 0,0:42:13.13,0:42:14.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}阿珍 快走呀
+Dialogue: 0,0:42:14.40,0:42:15.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我好害怕 有没有鲨鱼的?
+Dialogue: 0,0:42:15.93,0:42:18.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不用怕 到了这儿不会有鲨鱼了
+Dialogue: 0,0:42:20.84,0:42:26.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这首歌送给刘先生刘夫人的 祝他们旧梦重温 白首皆老
+Dialogue: 0,0:42:34.29,0:42:35.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好冷呀
+Dialogue: 0,0:42:43.46,0:42:44.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老风骚呀
+Dialogue: 0,0:42:55.17,0:42:57.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你干什么?你躲着干什么? 我看见你啦
+Dialogue: 0,0:42:57.91,0:43:01.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 我们是游水过来的 放过我们吧
+Dialogue: 0,0:43:01.21,0:43:02.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 放了你我们就背黑锅子
+Dialogue: 0,0:43:15.33,0:43:16.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们别动手 我自己走
+Dialogue: 0,0:43:16.56,0:43:17.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那你走呀 走呀 快点走呀
+Dialogue: 0,0:43:21.93,0:43:22.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}其实这些人很惨的
+Dialogue: 0,0:43:23.90,0:43:28.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}香港就像一条小船负担太重了 多几个人就沉啦
+Dialogue: 0,0:43:28.91,0:43:30.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}到那变去看看
+Dialogue: 0,0:43:41.65,0:43:43.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我好怕
+Dialogue: 0,0:44:10.08,0:44:12.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们肚子好饿呀
+Dialogue: 0,0:44:16.85,0:44:19.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我可以带你到任何自由世界
+Dialogue: 0,0:44:20.32,0:44:22.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我肚子还是好饿
+Dialogue: 0,0:44:24.20,0:44:25.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先吃个鸡腿吧
+Dialogue: 0,0:44:26.03,0:44:27.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}真的有鸡腿吃呀?
+Dialogue: 0,0:44:27.67,0:44:34.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}当然啦 你坐的是头等的 你等一等呀
+Dialogue: 0,0:45:04.34,0:45:05.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你以为你才会享受呀?
+Dialogue: 0,0:45:23.15,0:45:24.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让弟弟先吃嘛
+Dialogue: 0,0:46:36.93,0:46:38.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}去拿个勺羮下来
+Dialogue: 0,0:47:12.23,0:47:13.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}拿来了
+Dialogue: 0,0:47:47.26,0:47:48.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你什么人?你进来干什么?
+Dialogue: 0,0:47:58.58,0:47:59.56,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这是什么人?
+Dialogue: 0,0:47:59.61,0:48:00.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们在搞什么鬼呀?
+Dialogue: 0,0:48:00.54,0:48:02.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这是什么人?这是怎么一回事?
+Dialogue: 0,0:48:02.85,0:48:06.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么事情?搞什么?
+Dialogue: 0,0:48:07.79,0:48:09.38,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们干什么搞我的麦克风呀?
+Dialogue: 0,0:48:11.06,0:48:12.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么事呀?
+Dialogue: 0,0:48:14.39,0:48:15.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}刘老板 是这样的...
+Dialogue: 0,0:48:19.13,0:48:20.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个麦克风掉在地上了
+Dialogue: 0,0:48:20.60,0:48:23.03,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 是呀
+Dialogue: 0,0:48:23.27,0:48:24.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不是?
+Dialogue: 0,0:48:24.67,0:48:29.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不是?
+Dialogue: 0,0:48:29.91,0:48:33.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大概是
+Dialogue: 0,0:48:35.21,0:48:36.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有没有搞错呀?
+Dialogue: 0,0:48:45.89,0:48:46.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你约了那小妹妹呀?
+Dialogue: 0,0:48:56.93,0:48:58.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有这个人呀?你打错电话啦
+Dialogue: 0,0:49:00.14,0:49:01.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}找谁的?
+Dialogue: 0,0:49:01.37,0:49:03.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你又不是等人电话 干嘛那么紧张呀
+Dialogue: 0,0:49:04.38,0:49:05.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我没有紧张呀
+Dialogue: 0,0:49:05.88,0:49:07.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你没有紧张 裤子烧焦了也不知道
+Dialogue: 0,0:49:09.95,0:49:14.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}糟了 一千零一条呀
+Dialogue: 0,0:49:14.92,0:49:17.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂 有什么好处可别忘了兄弟我呀
+Dialogue: 0,0:49:18.09,0:49:20.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有福同享有难同当 不要重色轻友
+Dialogue: 0,0:49:20.89,0:49:22.38,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你一个人独吞可不行呀
+Dialogue: 0,0:49:32.94,0:49:37.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}阿珍呀 打麻将呀? 好哇 好哇 明天见
+Dialogue: 0,0:49:38.21,0:49:42.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}各位听众 今天我要介绍冬瓜盅的做法
+Dialogue: 0,0:49:43.25,0:49:46.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}冬瓜盅有很多种 主要的材料当然是火腿
+Dialogue: 0,0:49:46.92,0:49:48.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}八宝冬瓜盅...
+Dialogue: 0,0:49:49.82,0:49:52.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥 你脸上怎么会这样的?
+Dialogue: 0,0:49:55.03,0:49:58.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你小龙哥是多才多艺 有时候经常客串大师传
+Dialogue: 0,0:49:59.20,0:50:01.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一不小心 让油给烧了
+Dialogue: 0,0:50:01.27,0:50:02.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是 是
+Dialogue: 0,0:50:03.00,0:50:05.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}原来你这么本事的
+Dialogue: 0,0:50:05.40,0:50:07.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我跟着菜专家李曾超群比也差不多
+Dialogue: 0,0:50:07.97,0:50:09.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你真了不起呀
+Dialogue: 0,0:50:09.51,0:50:10.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}马马虎虎
+Dialogue: 0,0:50:20.15,0:50:21.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥 小龙哥...
+Dialogue: 0,0:50:21.19,0:50:21.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么啦?
+Dialogue: 0,0:50:21.79,0:50:22.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥...
+Dialogue: 0,0:50:23.09,0:50:25.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有条壁虎在那柜里面
+Dialogue: 0,0:50:26.66,0:50:29.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}壁虎有什么可怕的 我看看去
+Dialogue: 0,0:50:29.96,0:50:34.76,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}壁虎是吗? 我以前在乡下抓了壁虎就炒蛋吃
+Dialogue: 0,0:50:35.03,0:50:36.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}加点葱加点蒜头 不知道多好吃
+Dialogue: 0,0:50:46.04,0:50:47.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对了 你家里有多少鸡蛋呀?
+Dialogue: 0,0:50:48.08,0:50:49.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有十几个
+Dialogue: 0,0:50:49.68,0:50:51.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那恐怕不够炒吧
+Dialogue: 0,0:50:52.02,0:50:53.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不够?
+Dialogue: 0,0:50:53.05,0:50:55.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么搞的?几十岁人了 一点胆子都没有让我去看看
+Dialogue: 0,0:51:05.96,0:51:08.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你刚才说家里只有十几个鸡蛋
+Dialogue: 0,0:51:08.47,0:51:09.45,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀
+Dialogue: 0,0:51:09.50,0:51:11.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}恐怕真的不够
+Dialogue: 0,0:51:11.87,0:51:12.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}当然不够啦
+Dialogue: 0,0:51:13.47,0:51:18.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有没有搞错呀 你们俩胆子这么小 壁虎也害怕 让我去
+Dialogue: 0,0:51:19.08,0:51:20.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那最好了
+Dialogue: 0,0:51:26.72,0:51:29.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}在左面那个柜啦 足整尺长
+Dialogue: 0,0:51:31.52,0:51:32.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}打死它了 拿给你看好不好?
+Dialogue: 0,0:51:33.22,0:51:34.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我不要看
+Dialogue: 0,0:51:44.10,0:51:45.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是不够炒鸡蛋
+Dialogue: 0,0:51:50.41,0:51:53.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不是这一条 你开错了隔壁那一个柜啦
+Dialogue: 0,0:51:56.35,0:51:58.01,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把那条抓了就够炒蛋了
+Dialogue: 0,0:51:58.48,0:52:00.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}差不多 差不多
+Dialogue: 0,0:52:11.03,0:52:12.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样?
+Dialogue: 0,0:52:12.06,0:52:13.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让它跑掉了 算了算了
+Dialogue: 0,0:52:14.10,0:52:17.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不行呀 那我怎么敢回去煮菜呀?
+Dialogue: 0,0:52:18.14,0:52:20.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你帮阿珍去煮菜 让她替你打牌
+Dialogue: 0,0:52:20.50,0:52:21.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那我...
+Dialogue: 0,0:52:21.27,0:52:23.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你又说跟电台的李曾超群差不多
+Dialogue: 0,0:52:23.74,0:52:24.73,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不是呀 我...
+Dialogue: 0,0:52:24.78,0:52:27.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 刚才不是说 你客串过大师傅的吗?
+Dialogue: 0,0:52:27.91,0:52:30.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀是呀 行啦行啦 你就将就将就
+Dialogue: 0,0:52:30.68,0:52:34.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}记得等会儿把蛋给炒了 别忘了多放姜 葱 蒜
+Dialogue: 0,0:52:36.69,0:52:38.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}听着照做就行啦
+Dialogue: 0,0:52:39.46,0:52:40.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}记着 煎香肠 再炒蛋
+Dialogue: 0,0:52:41.36,0:52:42.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}落多点盐都不怕
+Dialogue: 0,0:52:43.66,0:52:44.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}该阿珍打了
+Dialogue: 0,0:52:45.86,0:52:51.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}首先我们先把冬瓜切开一半 大小随便你
+Dialogue: 0,0:52:51.70,0:52:53.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}看看你家里有多少人吃而定
+Dialogue: 0,0:52:54.00,0:52:59.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}冬瓜的口应该切一点花变 因为这样既可以增加美观
+Dialogue: 0,0:52:59.38,0:53:01.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}更可以增加食欲
+Dialogue: 0,0:53:02.61,0:53:05.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们把两个三头鲍鱼放在水里
+Dialogue: 0,0:53:05.32,0:53:10.15,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}泡开了之后拿出来 切成丝 放在冬瓜盅里
+Dialogue: 0,0:53:10.59,0:53:13.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这样冬瓜盅就完成了
+Dialogue: 0,0:53:13.99,0:53:18.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把冬瓜炖五个小时 直到瓜肉透明为止
+Dialogue: 0,0:53:19.03,0:53:22.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}各位听众 冬瓜盅已经介绍完毕
+Dialogue: 0,0:53:22.93,0:53:26.56,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}下个星期我会介绍佛跳墙 请大家到时候留意收听
+Dialogue: 0,0:53:30.04,0:53:31.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这个冬瓜盅做得真不错
+Dialogue: 0,0:53:32.68,0:53:33.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我帮你
+Dialogue: 0,0:53:34.14,0:53:35.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三位请过来 别客气
+Dialogue: 0,0:53:38.15,0:53:40.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么啦?怎么啦?...
+Dialogue: 0,0:53:42.39,0:53:44.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你不是说拿来炒蛋吗?
+Dialogue: 0,0:53:44.62,0:53:46.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}开什么玩笑?
+Dialogue: 0,0:53:48.19,0:53:49.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}进来
+Dialogue: 0,0:53:49.73,0:53:50.72,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有什么吩咐呀老板?
+Dialogue: 0,0:53:51.93,0:53:53.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}今天晚上找两个人去守万寿殡仪馆
+Dialogue: 0,0:53:54.33,0:53:55.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}什么人死了?
+Dialogue: 0,0:53:55.60,0:53:56.59,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}李文详
+Dialogue: 0,0:53:57.10,0:54:00.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}就是报上登的每天吃 几千块钱高丽参的那个大阔佬
+Dialogue: 0,0:54:00.50,0:54:01.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对 就是他
+Dialogue: 0,0:54:01.64,0:54:02.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}干嘛要人守夜?
+Dialogue: 0,0:54:03.61,0:54:08.01,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他两年前得了肾病 在美国开刀得了两个白金肾
+Dialogue: 0,0:54:08.28,0:54:09.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}价值两百万美金
+Dialogue: 0,0:54:09.91,0:54:12.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他老婆拿来陪葬 怕有人偷掉
+Dialogue: 0,0:54:19.12,0:54:20.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走吧
+Dialogue: 0,0:54:31.37,0:54:32.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们俩守在这儿 我守外面
+Dialogue: 0,0:54:33.60,0:54:38.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 这儿的冷气会冷死人的 不如到外面守吧
+Dialogue: 0,0:54:39.48,0:54:40.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有什么事你负责?
+Dialogue: 0,0:54:40.98,0:54:43.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那是你自找苦吃 随便你们啦
+Dialogue: 0,0:54:45.42,0:54:46.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们到外面去先歇一会儿
+Dialogue: 0,0:55:04.77,0:55:05.76,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他都冻硬了
+Dialogue: 0,0:55:05.80,0:55:07.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你还怕他会起来掏你呀?
+Dialogue: 0,0:55:08.07,0:55:09.06,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我没害怕
+Dialogue: 0,0:55:10.47,0:55:11.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我去小便
+Dialogue: 0,0:55:12.68,0:55:13.67,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我要大便
+Dialogue: 0,0:55:14.95,0:55:16.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}懒人多屎尿
+Dialogue: 0,0:55:17.01,0:55:18.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家都一样
+Dialogue: 0,0:55:33.93,0:55:35.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么你用这些家伙?
+Dialogue: 0,0:55:35.53,0:55:38.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大哥 你知道我是杀猪出身的 不用这些用什么?
+Dialogue: 0,0:55:40.64,0:55:41.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行了没有?
+Dialogue: 0,0:55:41.94,0:55:42.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行了
+Dialogue: 0,0:56:34.56,0:56:35.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你吃不完这么多的
+Dialogue: 0,0:57:34.89,0:57:36.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}吓我一跳
+Dialogue: 0,0:57:37.55,0:57:38.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么你的脸发青呀?
+Dialogue: 0,0:57:39.16,0:57:41.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我忍了这么久 就快蹩死我啦 该我去啦
+Dialogue: 0,0:57:43.03,0:57:44.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}吃一粒葡萄吧 上去
+Dialogue: 0,0:57:45.10,0:57:47.09,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你说过干活不准吃东西的
+Dialogue: 0,0:57:47.63,0:57:49.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}以前你肩膀上没有阶级
+Dialogue: 0,0:57:49.80,0:57:51.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在你吃什么都没有管啦
+Dialogue: 0,0:58:03.38,0:58:05.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}在这儿 这里呀
+Dialogue: 0,0:59:00.40,0:59:02.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么样?行了吗?他们好像发现啦
+Dialogue: 0,0:59:02.64,0:59:03.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}行...行了还在这儿
+Dialogue: 0,0:59:04.01,0:59:05.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大哥 还没解冻怎么砸得开呀?
+Dialogue: 0,0:59:05.08,0:59:06.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点去档着 别让他们上来
+Dialogue: 0,0:59:06.24,0:59:07.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我...
+Dialogue: 0,0:59:07.21,0:59:08.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我什么?去呀你...
+Dialogue: 0,0:59:12.42,0:59:13.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}死尸呢?
+Dialogue: 0,0:59:26.56,0:59:27.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}想跑?
+Dialogue: 0,0:59:31.43,0:59:32.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}看着他
+Dialogue: 0,0:59:33.40,0:59:34.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你看着他
+Dialogue: 0,1:00:02.30,1:00:03.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢你
+Dialogue: 0,1:00:06.30,1:00:07.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我拿去锁进保险箱
+Dialogue: 0,1:00:07.64,1:00:08.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好啦
+Dialogue: 0,1:01:44.07,1:01:46.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}镇定点 镇定点
+Dialogue: 0,1:01:46.44,1:01:47.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}最紧要你镇定点
+Dialogue: 0,1:01:48.07,1:01:50.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大家出来混饭吃 别玩命呀
+Dialogue: 0,1:01:51.14,1:01:52.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你不也是出来混饭吃的?
+Dialogue: 0,1:01:52.54,1:01:54.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我有老婆儿女的 老兄
+Dialogue: 0,1:01:54.81,1:01:55.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我有老婆儿女呀
+Dialogue: 0,1:01:56.38,1:01:58.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我有一个老婆三个孩子呀 老兄
+Dialogue: 0,1:01:58.31,1:02:00.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我有三个老婆一个孩子
+Dialogue: 0,1:02:00.58,1:02:02.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不如大家都放下来
+Dialogue: 0,1:02:03.09,1:02:07.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好好 一齐放下来 一 二 起
+Dialogue: 0,1:02:08.26,1:02:09.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你不要乱来呀
+Dialogue: 0,1:02:09.29,1:02:10.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}当心点
+Dialogue: 0,1:02:10.46,1:02:13.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 你也当心点 - 别冲动
+Dialogue: 0,1:02:14.40,1:02:16.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好了 我们再放下来 一齐放
+Dialogue: 0,1:02:16.97,1:02:21.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一 二 三 起
+Dialogue: 0,1:02:21.54,1:02:23.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我现在出去啦 你要留心点
+Dialogue: 0,1:02:23.71,1:02:25.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你不要乱来呀
+Dialogue: 0,1:02:26.11,1:02:27.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你走 你走
+Dialogue: 0,1:02:40.62,1:02:45.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有什么理由一点钟还没回来? 喂... 世伯...
+Dialogue: 0,1:02:48.00,1:02:50.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}人家那么辛苦大老远游水过来
+Dialogue: 0,1:02:50.73,1:02:52.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么会看中你这种穷护卫员呢?
+Dialogue: 0,1:02:52.60,1:02:56.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}死了这条心吧 想开点 喝一杯
+Dialogue: 0,1:02:56.47,1:02:57.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不喝 不喝
+Dialogue: 0,1:03:06.75,1:03:08.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我看你还是多喝一杯吧
+Dialogue: 0,1:03:24.37,1:03:27.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}开门 开门...
+Dialogue: 0,1:03:43.32,1:03:44.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走开
+Dialogue: 0,1:03:50.29,1:03:55.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你很有钱吗?我没钱吗? 我没钱吗?
+Dialogue: 0,1:03:56.20,1:04:00.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我就是没钱 我就是没钱
+Dialogue: 0,1:04:12.35,1:04:16.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥 小龙哥 你怎么样啦? 小龙哥
+Dialogue: 0,1:04:22.46,1:04:26.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥 你不要这样
+Dialogue: 0,1:04:26.50,1:04:28.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}先生 你冷静点
+Dialogue: 0,1:04:29.23,1:04:31.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老兄 你的伙计是不是有神经病?
+Dialogue: 0,1:04:32.97,1:04:36.77,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是这样的 过了十二点钟以后 不准带客人到房间里来
+Dialogue: 0,1:04:37.77,1:04:43.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有没有搞错呀? 这样一来什么情绪都没有了
+Dialogue: 0,1:04:43.55,1:04:44.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好了 算啦
+Dialogue: 0,1:04:45.52,1:04:46.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 他是公事公办 - 走开
+Dialogue: 0,1:04:48.38,1:04:49.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}叫她走吧
+Dialogue: 0,1:04:49.75,1:04:50.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对不起 对不起
+Dialogue: 0,1:04:50.95,1:04:51.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他是混饭吃公事公办
+Dialogue: 0,1:04:51.99,1:04:54.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没办法没办法 对不起 走 走
+Dialogue: 0,1:04:55.12,1:04:56.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快走呀 你来干什么?
+Dialogue: 0,1:04:57.13,1:04:59.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}妈要五万块钱 给带我们来香港的人
+Dialogue: 0,1:05:05.70,1:05:07.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别以为救了她就属于你的
+Dialogue: 0,1:05:08.84,1:05:11.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀 做人还是实际点好
+Dialogue: 0,1:05:12.08,1:05:14.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}实际?娶老婆呀你以为买洗衣机?
+Dialogue: 0,1:05:15.78,1:05:17.75,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}其实娶老婆跟买洗衣机也差不多
+Dialogue: 0,1:05:18.61,1:05:20.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老婆好点 省电嘛
+Dialogue: 0,1:06:19.94,1:06:20.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我帮你好吗?
+Dialogue: 0,1:06:20.98,1:06:23.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢
+Dialogue: 0,1:06:24.01,1:06:26.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我觉得你...
+Dialogue: 0,1:06:33.86,1:06:34.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再见
+Dialogue: 0,1:06:49.41,1:06:52.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别动呀 不然就要你的命
+Dialogue: 0,1:07:26.98,1:07:30.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}开门呀 色迷 开门呀 色迷
+Dialogue: 0,1:07:50.23,1:07:53.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别动 把枪拿过来 把枪拿过来
+Dialogue: 0,1:07:56.77,1:07:59.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把枪拿过来 听见没有?
+Dialogue: 0,1:07:59.78,1:08:01.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 快点...
+Dialogue: 0,1:08:03.05,1:08:09.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别动 把钱箱拿过来 快点 快点
+Dialogue: 0,1:08:11.72,1:08:16.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我数三声 一 二 两声半
+Dialogue: 0,1:08:19.06,1:08:24.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 快 听见没有 快拿过来 听见没有?
+Dialogue: 0,1:08:24.50,1:08:25.49,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三
+Dialogue: 0,1:08:39.05,1:08:40.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别跑
+Dialogue: 0,1:09:18.29,1:09:21.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}贼呢没抓到 钱就少了五万块
+Dialogue: 0,1:09:22.59,1:09:25.93,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我告诉你们 如果让我查到是谁干的
+Dialogue: 0,1:09:26.10,1:09:27.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我一定亲手掏死他
+Dialogue: 0,1:09:35.00,1:09:36.27,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你妈今天晚上好像很高兴的样子
+Dialogue: 0,1:09:36.54,1:09:38.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}当然啦 你给她这么多钱
+Dialogue: 0,1:09:38.94,1:09:40.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}对了 你的钱后那儿来的?
+Dialogue: 0,1:09:40.91,1:09:43.44,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是我奶奶替我存下做老婆本的
+Dialogue: 0,1:09:48.85,1:09:51.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老婆本?拿我们的钱去做老婆本?
+Dialogue: 0,1:09:53.09,1:09:55.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别动 跟我们回去
+Dialogue: 0,1:09:56.23,1:09:59.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你奶奶夸你啦 你好孙子
+Dialogue: 0,1:10:04.60,1:10:06.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老婆本我可送给你啦
+Dialogue: 0,1:10:07.70,1:10:11.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你帮我们的忙拿了一件金镂玉衣
+Dialogue: 0,1:10:11.77,1:10:13.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这样交换也算公平吧
+Dialogue: 0,1:10:13.48,1:10:14.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}办不到
+Dialogue: 0,1:10:18.11,1:10:21.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}明天你守展览会 等到你们兄弟看不见的时候
+Dialogue: 0,1:10:22.05,1:10:26.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把电视感应器推开五分钟 这样做都不行?
+Dialogue: 0,1:10:26.92,1:10:27.91,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}办不到
+Dialogue: 0,1:10:36.60,1:10:38.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这样等于连累我的弟兄
+Dialogue: 0,1:10:39.37,1:10:43.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}反正你也连累他们一次了 也不在乎多一次
+Dialogue: 0,1:10:43.61,1:10:44.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}办不到
+Dialogue: 0,1:10:45.24,1:10:46.30,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}办不到?
+Dialogue: 0,1:11:07.86,1:11:08.85,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}痔疮犯啦?
+Dialogue: 0,1:11:09.00,1:11:09.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是啊
+Dialogue: 0,1:11:33.72,1:11:35.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}为什么只拿五万钱呢?
+Dialogue: 0,1:11:35.32,1:11:37.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我一直追着他 他什么时候拿的呢?
+Dialogue: 0,1:11:37.53,1:11:39.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他打我的时候那箱子还没掉下地呐
+Dialogue: 0,1:11:39.56,1:11:40.55,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是呀
+Dialogue: 0,1:11:40.80,1:11:44.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}又好像掉了 又没见全掉出来呀
+Dialogue: 0,1:12:04.12,1:12:05.92,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 一 四连赢 - 五十楼呀
+Dialogue: 0,1:12:06.09,1:12:07.15,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}再买一条五 十连赢位 买多少?
+Dialogue: 0,1:12:07.32,1:12:09.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}五十楼灯亮了 快上去看看去
+Dialogue: 0,1:12:09.99,1:12:11.48,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你在这儿看着 走
+Dialogue: 0,1:12:55.97,1:12:57.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}四个人 四个人都有家伙
+Dialogue: 0,1:13:05.11,1:13:07.74,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一会你打右变那个 我砍在左变那三个
+Dialogue: 0,1:13:11.15,1:13:13.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂... 帮帮忙
+Dialogue: 0,1:13:19.43,1:13:20.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}动手啦
+Dialogue: 0,1:13:21.73,1:13:24.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你打左变那个 我砍右变那三个
+Dialogue: 0,1:13:25.63,1:13:27.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你有没有搞错呀 我是队长 把刀还给我
+Dialogue: 0,1:13:27.97,1:13:28.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}队长不队长无所谓
+Dialogue: 0,1:13:29.17,1:13:30.70,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 还给我 - 不用没关系呀
+Dialogue: 0,1:13:42.85,1:13:44.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们不要乱来呀 我们有枪的
+Dialogue: 0,1:13:47.99,1:13:50.08,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们这儿十几个弟兄 大家都有枪的
+Dialogue: 0,1:13:50.33,1:13:54.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在大家枪都上好镗 没我的命令不能随便开枪
+Dialogue: 0,1:13:59.10,1:14:01.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一三五 二四六 你们到那变去
+Dialogue: 0,1:14:01.60,1:14:03.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}YesSir
+Dialogue: 0,1:14:08.48,1:14:10.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在把警犬的口罩统统解开
+Dialogue: 0,1:14:11.28,1:14:13.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}YesSir
+Dialogue: 0,1:14:24.03,1:14:27.43,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}骑兵的马这么快拉上来干什么? 先给我拉下去 快点
+Dialogue: 0,1:14:31.20,1:14:34.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三四六 一齐到这变来 快点
+Dialogue: 0,1:14:41.54,1:14:45.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在开始报名 一 二 三 四 五 六
+Dialogue: 0,1:14:45.92,1:14:48.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}七 八 九 十 十一 十二
+Dialogue: 0,1:14:48.68,1:14:50.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在把所有的警犬拉到门口
+Dialogue: 0,1:14:51.09,1:14:52.45,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}越多越好 全给我放出来
+Dialogue: 0,1:14:52.62,1:14:54.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}YesSir
+Dialogue: 0,1:14:59.06,1:15:00.65,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你们乖乖的放下武器准备投降吧
+Dialogue: 0,1:15:00.90,1:15:04.16,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在我们要进来了 你们不要鬼鬼祟祟的躲起来
+Dialogue: 0,1:15:04.37,1:15:05.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们会找到你们的
+Dialogue: 0,1:15:05.47,1:15:10.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们还有千军万马在下变 我们现在要冲进来了
+Dialogue: 0,1:15:11.04,1:15:12.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}拿斧头的两个守那变
+Dialogue: 0,1:15:12.61,1:15:14.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}拿刀的两个守这变
+Dialogue: 0,1:16:00.92,1:16:02.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}快点 快点
+Dialogue: 0,1:16:15.37,1:16:17.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}到底用的是什么歌呢?
+Dialogue: 0,1:16:17.31,1:16:18.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大哥 我知道
+Dialogue: 0,1:16:27.08,1:16:28.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不对
+Dialogue: 0,1:16:28.72,1:16:30.05,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大哥 我知道
+Dialogue: 0,1:16:34.69,1:16:36.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}歌都不会唱 学人做贼?
+Dialogue: 0,1:16:36.66,1:16:39.68,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}大哥我知道了 是生日快乐歌
+Dialogue: 0,1:16:40.70,1:16:41.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}试试看
+Dialogue: 0,1:16:57.65,1:16:58.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}后冷气槽进去
+Dialogue: 0,1:17:01.62,1:17:02.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他怎么没反应的 按钟 按钟
+Dialogue: 0,1:17:02.99,1:17:05.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙按钟呀 快按钟
+Dialogue: 0,1:17:12.93,1:17:14.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这小子说不定跟这些贼是同路的
+Dialogue: 0,1:17:14.96,1:17:16.79,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那五万块钱也许就是他偷了
+Dialogue: 0,1:17:17.00,1:17:18.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小子快按钟
+Dialogue: 0,1:17:32.35,1:17:33.34,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}怎么办?
+Dialogue: 0,1:17:35.12,1:17:36.11,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}来
+Dialogue: 0,1:18:01.84,1:18:05.87,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}如果这些冰弹不灵的话 我们的十万块钱就泡汤了
+Dialogue: 0,1:18:15.19,1:18:16.56,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一定藏在上面 去
+Dialogue: 0,1:18:59.23,1:19:02.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}三千年前的袜子香港制造的吗?
+Dialogue: 0,1:19:02.60,1:19:06.20,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}可能是有钱人三千年前 到香港玩的时候买下来的
+Dialogue: 0,1:19:07.34,1:19:09.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不念历史还学人做贼?
+Dialogue: 0,1:19:28.53,1:19:30.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别动手呀 别动手呀 你没事吧?
+Dialogue: 0,1:19:31.30,1:19:33.03,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我的脖子受伤了 脖子硬了
+Dialogue: 0,1:19:36.61,1:19:39.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你只是个伙计 何必这么拼命呢?
+Dialogue: 0,1:19:40.34,1:19:46.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把这件金玉衣脱下来 走出去 假装看不到
+Dialogue: 0,1:19:46.52,1:19:48.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们大家都没事 是不是?
+Dialogue: 0,1:19:53.56,1:19:57.39,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这些玉几十万一块 不许乱打 只能打脸
+Dialogue: 0,1:20:10.47,1:20:12.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我的声音哑了
+Dialogue: 0,1:20:13.64,1:20:14.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你说什么?
+Dialogue: 0,1:20:14.68,1:20:16.51,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我的声音哑了
+Dialogue: 0,1:20:16.81,1:20:18.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}过来 过来
+Dialogue: 0,1:20:31.79,1:20:32.95,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这次想不用你的招都不行了
+Dialogue: 0,1:20:33.26,1:20:34.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那招呀?
+Dialogue: 0,1:20:34.30,1:20:35.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}降落伞
+Dialogue: 0,1:20:35.23,1:20:36.46,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}真的假的?
+Dialogue: 0,1:20:45.14,1:20:46.13,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把你手绢拿出来
+Dialogue: 0,1:20:47.04,1:20:48.24,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}要手绢干什么?
+Dialogue: 0,1:20:48.44,1:20:50.60,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}把手绢拿出来试方向呀 你怎么忘记了
+Dialogue: 0,1:20:51.95,1:20:52.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有带
+Dialogue: 0,1:21:01.06,1:21:03.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这么大的风 吹下去就摔死了
+Dialogue: 0,1:21:04.36,1:21:05.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我想不会吧
+Dialogue: 0,1:21:06.26,1:21:07.59,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你想不会?你以前没有试过呀?
+Dialogue: 0,1:21:09.56,1:21:11.33,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有...
+Dialogue: 0,1:21:11.67,1:21:12.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有试过这么大的风跳
+Dialogue: 0,1:21:13.80,1:21:17.26,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有跳过降落伞
+Dialogue: 0,1:21:18.64,1:21:20.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那你又说你以前当过伞兵的?
+Dialogue: 0,1:21:20.94,1:21:23.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我跟伞兵洗碗的
+Dialogue: 0,1:21:34.59,1:21:36.15,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}爬上去碰碰运气比摔死好
+Dialogue: 0,1:22:08.29,1:22:09.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 小龙哥 - 你没事吧?
+Dialogue: 0,1:22:09.66,1:22:10.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没事
+Dialogue: 0,1:22:10.33,1:22:11.31,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你在这儿等警察
+Dialogue: 0,1:22:15.63,1:22:16.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你干什么?你干什么?
+Dialogue: 0,1:22:26.94,1:22:28.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}他们掉下来啦
+Dialogue: 0,1:22:34.28,1:22:36.94,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一号八号在领先 这条连赢位我们赢定了
+Dialogue: 0,1:22:39.02,1:22:40.04,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}七号追上来了
+Dialogue: 0,1:22:40.39,1:22:41.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让我给它一粒冰弹
+Dialogue: 0,1:22:48.63,1:22:50.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我们就要飘到九龙新界
+Dialogue: 0,1:22:50.93,1:22:52.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}是啊 你有没有带身份证
+Dialogue: 0,1:22:52.43,1:22:53.99,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没有 车牌就有带
+Dialogue: 0,1:22:54.57,1:22:56.37,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂 二号追上来啦
+Dialogue: 0,1:22:56.61,1:22:57.59,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}那匹上来打那匹
+Dialogue: 0,1:23:04.88,1:23:06.97,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好像是安东尼呀 是不是安东尼呀?
+Dialogue: 0,1:23:08.62,1:23:09.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}好像是
+Dialogue: 0,1:23:10.52,1:23:11.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这家伙摔惯的
+Dialogue: 0,1:23:12.75,1:23:14.69,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}让开点 不然我们一块死呀
+Dialogue: 0,1:23:15.02,1:23:16.25,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}要死先死下面的一个
+Dialogue: 0,1:23:22.13,1:23:25.36,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}一号八号带头赢那么多 我们想不发财都不行啦
+Dialogue: 0,1:23:27.34,1:23:28.32,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别踩我的肩膀呀
+Dialogue: 0,1:23:28.47,1:23:29.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}有风呀
+Dialogue: 0,1:23:30.81,1:23:35.80,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在已经到了最后直路了 一号八号就快到终于点了
+Dialogue: 0,1:23:36.48,1:23:38.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我看没得跑了 赢定啦
+Dialogue: 0,1:23:38.48,1:23:40.41,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}买了一 八连赢位的朋友们 可以收钱啦
+Dialogue: 0,1:23:41.52,1:23:43.28,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}喂 下面不是沙田马场吗?
+Dialogue: 0,1:23:44.19,1:23:45.38,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不摔死也给马踩死啦
+Dialogue: 0,1:23:55.00,1:23:56.02,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不是呀
+Dialogue: 0,1:24:22.36,1:24:25.62,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不用怕 抗议的银幕爆炸就会赔钱啦
+Dialogue: 0,1:24:25.86,1:24:27.76,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}赔你的头 十几万没有啦
+Dialogue: 0,1:24:28.83,1:24:29.82,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你没事吧?
+Dialogue: 0,1:24:30.43,1:24:31.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}没事
+Dialogue: 0,1:24:35.24,1:24:36.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走啦 还打什么招呼?
+Dialogue: 0,1:24:37.07,1:24:38.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你没看见十几万喝彩吗?
+Dialogue: 0,1:24:38.77,1:24:40.47,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 走啦 - 谢谢！
+Dialogue: 0,1:24:47.68,1:24:50.88,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}小龙哥 小龙哥 你怎么样? 你没受伤吧?
+Dialogue: 0,1:24:51.05,1:24:52.42,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我没事 回去再说
+Dialogue: 0,1:24:58.19,1:25:01.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}各位同事 今天除了谢谢两位英雄之外
+Dialogue: 0,1:25:01.90,1:25:04.96,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}顺便我想在这儿颁发 周队长十五年的公积金
+Dialogue: 0,1:25:05.40,1:25:09.00,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}五万块支票一张 恭喜
+Dialogue: 0,1:25:10.31,1:25:12.57,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}周队长将会继续在本公司任教官
+Dialogue: 0,1:25:13.31,1:25:15.14,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}希望以后大家多多向他学习
+Dialogue: 0,1:25:15.41,1:25:18.38,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}因为无论是自卫跟降落伞的理论
+Dialogue: 0,1:25:18.61,1:25:19.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}周队长都是对的
+Dialogue: 0,1:25:20.12,1:25:21.10,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走
+Dialogue: 0,1:25:26.19,1:25:27.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}走呀
+Dialogue: 0,1:25:41.30,1:25:44.64,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我知道 不控告他也行 不过那五万块钱谁给呀?
+Dialogue: 0,1:25:46.21,1:25:47.40,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}可以扣他的薪水呀
+Dialogue: 0,1:25:48.61,1:25:50.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}扣薪水?五万块钱要扣多久呀?
+Dialogue: 0,1:25:52.15,1:25:53.84,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}十五年差不多了
+Dialogue: 0,1:25:55.72,1:25:58.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}以前五万块钱还可以养老
+Dialogue: 0,1:25:58.85,1:26:01.45,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}现在五万块钱什么都买不到了
+Dialogue: 0,1:26:05.76,1:26:07.23,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}救他一次算了
+Dialogue: 0,1:26:08.93,1:26:10.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}这样就十五年了
+Dialogue: 0,1:26:13.67,1:26:16.90,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}看什么?你们看什么? 你们肩膀有阶级吗?有阶级吗?
+Dialogue: 0,1:26:17.64,1:26:18.63,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}周队长
+Dialogue: 0,1:26:26.98,1:26:30.21,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 恭喜 恭喜... - 谢谢
+Dialogue: 0,1:26:33.59,1:26:34.58,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}谢谢
+Dialogue: 0,1:26:37.19,1:26:38.18,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}上车
+Dialogue: 0,1:26:38.23,1:26:39.35,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}别再拼命呀
+Dialogue: 0,1:26:40.73,1:26:42.89,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}新郎保重
+Dialogue: 0,1:26:44.97,1:26:46.83,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 保重 - 小心点呀新郎
+Dialogue: 0,1:26:52.77,1:26:54.71,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我欠你的债 都不知道什么时候才能还
+Dialogue: 0,1:26:56.01,1:26:57.54,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你里面那笔债呀欠一辈子
+Dialogue: 0,1:26:57.95,1:27:00.81,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我这笔呢十五年行啦
+Dialogue: 0,1:27:03.32,1:27:06.22,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}新郎 开慢点 你可没车牌 给你玩一次这么多
+Dialogue: 0,1:27:07.79,1:27:08.78,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}知道啦
+Dialogue: 0,1:27:14.20,1:27:20.50,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}坐好位 倒后镜 打火 离合器
+Dialogue: 0,1:27:20.77,1:27:25.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}吸把 手杀车 再见
+Dialogue: 0,1:27:25.31,1:27:29.17,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}- 再见... - 拜拜
+Dialogue: 0,1:27:29.54,1:27:30.53,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老板
+Dialogue: 0,1:27:30.58,1:27:37.07,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}老板 关于我那套自卫队 防火 降落伞学车理论
+Dialogue: 0,1:27:37.32,1:27:39.12,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}最近我想出一本书
+Dialogue: 0,1:27:40.96,1:27:44.29,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}不知道是用自己的名字好呢 还是用公司的名字好呢?
+Dialogue: 0,1:27:51.20,1:27:52.19,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}惨了
+Dialogue: 0,1:27:52.53,1:27:53.52,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}糟了
+Dialogue: 0,1:27:55.77,1:27:57.86,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你有没有搞错?你有没有车牌?
+Dialogue: 0,1:27:58.11,1:27:59.66,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}你会不会开车呀?瞎啦
+Dialogue: 0,1:28:03.41,1:28:05.61,Default,,0000,0000,0013,,{\fnSTKaiti\fs20\bord2\1c&HF0F0F0&\b1}我看还是用你自己的名字好
+
+

@@ -1,0 +1,1899 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+; For Sub Station Alpha info and downloads,
+; go to http://www.eswat.demon.co.uk/
+; or email kotus@eswat.demon.co.uk
+; 
+; Advanced Sub Station Alpha script format developed by #Anime-Fansubs@EfNET
+; http://www.anime-fansubs.org
+; 
+; For additional info and downloads go to http://vobsub.edensrising.com/
+; or email gabest@freemail.hu
+; 
+; Note: This file was saved by Subresync.
+; 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00ffffff,&H0000ffff,&H00000000,&H80000000,-1,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.70,0:00:41.04,Default,,0000,0000,0000,,[SIGHS]
+Dialogue: 0,0:00:51.00,0:00:52.05,Default,,0000,0000,0000,,[KNOCKlNG]
+Dialogue: 0,0:00:52.21,0:00:53.42,Default,,0000,0000,0000,,[SIGHS]
+Dialogue: 0,0:00:55.43,0:00:57.34,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:59.30,0:01:00.35,Default,,0000,0000,0000,,-Ehh.\N-Hi.
+Dialogue: 0,0:01:00.51,0:01:01.56,Default,,0000,0000,0000,,-Holly.\N-Eric.
+Dialogue: 0,0:01:01.72,0:01:03.27,Default,,0000,0000,0000,,-Messer.\N-Messer.
+Dialogue: 0,0:01:03.43,0:01:07.94,Default,,0000,0000,0000,,-Messer. Yeah, everybody calls me Messer.\N-Well, it's nice to finally meet you, Messer.
+Dialogue: 0,0:01:08.10,0:01:10.23,Default,,0000,0000,0000,,-Am I late?\N-Um, just an hour.
+Dialogue: 0,0:01:10.40,0:01:13.90,Default,,0000,0000,0000,,But l just finished getting ready,\Nand Alison said it was your m.o., so....
+Dialogue: 0,0:01:14.07,0:01:17.28,Default,,0000,0000,0000,,-Peter said you'd probably say something.\N-Ha, ha. Oh, did he? Oh, okay.
+Dialogue: 0,0:01:17.45,0:01:19.11,Default,,0000,0000,0000,,[BOTH CHUCKLE]
+Dialogue: 0,0:01:19.82,0:01:21.91,Default,,0000,0000,0000,,-Neat. Should we go?\N-Yeah, yeah, let's go.
+Dialogue: 0,0:01:22.08,0:01:26.37,Default,,0000,0000,0000,,Yeah, let's get some dinner.\NI'm super hungry. lt's been like an hour.
+Dialogue: 0,0:01:26.54,0:01:28.58,Default,,0000,0000,0000,,HOLLY:\NSo l hear you just moved to Atlanta.
+Dialogue: 0,0:01:28.75,0:01:29.92,Default,,0000,0000,0000,,MESSER: Yep.\N-Oh.
+Dialogue: 0,0:01:30.09,0:01:32.75,Default,,0000,0000,0000,,-How long have you known Pete for?\N-High school.
+Dialogue: 0,0:01:32.92,0:01:34.13,Default,,0000,0000,0000,,Oh, wow.
+Dialogue: 0,0:01:34.84,0:01:35.96,Default,,0000,0000,0000,,Oh, thank you.
+Dialogue: 0,0:01:36.13,0:01:39.26,Default,,0000,0000,0000,,I've known Alison since college.\NWe were in a sorority together.
+Dialogue: 0,0:01:39.43,0:01:42.39,Default,,0000,0000,0000,,-Where's your car?\N-Right here.
+Dialogue: 0,0:01:43.60,0:01:45.56,Default,,0000,0000,0000,,-Here you go.\N-Oh.
+Dialogue: 0,0:01:46.10,0:01:47.35,Default,,0000,0000,0000,,Come on.
+Dialogue: 0,0:01:47.52,0:01:49.94,Default,,0000,0000,0000,,Hold on tight.\NI promise l won't read into it.
+Dialogue: 0,0:01:50.11,0:01:51.48,Default,,0000,0000,0000,,[REWING ENGlNE]
+Dialogue: 0,0:01:51.65,0:01:54.32,Default,,0000,0000,0000,,-l'm not really dressed for 40-mile-an-hour--\N-What?
+Dialogue: 0,0:01:54.48,0:01:56.36,Default,,0000,0000,0000,,I'm not really dressed\Nfor 40-mile-an-hour winds.
+Dialogue: 0,0:01:56.53,0:01:58.11,Default,,0000,0000,0000,,[ENGINE STOPS]\N[HOLLY CHUCKLES]
+Dialogue: 0,0:01:58.28,0:01:59.49,Default,,0000,0000,0000,,Sorry. l just--
+Dialogue: 0,0:01:59.66,0:02:03.03,Default,,0000,0000,0000,,You know, I don't even think\NI could really get my leg up over it, so....
+Dialogue: 0,0:02:03.20,0:02:04.20,Default,,0000,0000,0000,,But l'll drive.
+Dialogue: 0,0:02:05.08,0:02:08.33,Default,,0000,0000,0000,,My car's right here.\NAnd it's new, so l love driving it.
+Dialogue: 0,0:02:08.75,0:02:11.25,Default,,0000,0000,0000,,-lt's a sweet ride.\N-Thanks.
+Dialogue: 0,0:02:11.42,0:02:12.88,Default,,0000,0000,0000,,Hop in.
+Dialogue: 0,0:02:17.72,0:02:19.22,Default,,0000,0000,0000,,[MESSER GRUNTS]
+Dialogue: 0,0:02:20.68,0:02:21.72,Default,,0000,0000,0000,,All right.
+Dialogue: 0,0:02:21.89,0:02:23.30,Default,,0000,0000,0000,,HOLLY: Hm.\N-Huh.
+Dialogue: 0,0:02:23.47,0:02:25.68,Default,,0000,0000,0000,,So where shall we go?
+Dialogue: 0,0:02:26.22,0:02:29.27,Default,,0000,0000,0000,,Uh, where did you make the reservations?
+Dialogue: 0,0:02:29.44,0:02:32.02,Default,,0000,0000,0000,,That you said you were gonna make.\NYou didn't make them?
+Dialogue: 0,0:02:32.19,0:02:34.06,Default,,0000,0000,0000,,-l said that?\N-lt's cool. Whatever.
+Dialogue: 0,0:02:34.23,0:02:36.53,Default,,0000,0000,0000,,Yeah, it's cool.\NWe can go anywhere, l don't care.
+Dialogue: 0,0:02:36.69,0:02:38.19,Default,,0000,0000,0000,,We can-- You pick it.
+Dialogue: 0,0:02:38.36,0:02:40.86,Default,,0000,0000,0000,,We'll grab a table\Nand we'll just slide right in.
+Dialogue: 0,0:02:41.03,0:02:44.87,Default,,0000,0000,0000,,Okay. Well, how about Café Five?\NYou ever been there?
+Dialogue: 0,0:02:45.03,0:02:47.16,Default,,0000,0000,0000,,-Sounds good.\N-My friend from culinary school is the--
+Dialogue: 0,0:02:47.33,0:02:49.87,Default,,0000,0000,0000,,TRlCK DADDY [SlNGING ON RINGTONE]:\NPull over, that ass is too fat
+Dialogue: 0,0:02:50.04,0:02:51.46,Default,,0000,0000,0000,,-lt's just my cell phone.\N-l figured.
+Dialogue: 0,0:02:51.62,0:02:53.92,Default,,0000,0000,0000,,-You can answer it if you--\N-No, no, it'll go to voicemail.
+Dialogue: 0,0:02:54.09,0:02:55.13,Default,,0000,0000,0000,,[RlNGTONE CONTINUES]
+Dialogue: 0,0:02:55.30,0:02:56.34,Default,,0000,0000,0000,,-Okay.\N-Just....
+Dialogue: 0,0:02:56.50,0:03:01.43,Default,,0000,0000,0000,,Yeah, well, l was just saying my friend\Nfrom culinary school is actually the--
+Dialogue: 0,0:03:02.05,0:03:04.39,Default,,0000,0000,0000,,You know what?\NGo ahead, just answer it, it's fine.
+Dialogue: 0,0:03:04.55,0:03:08.10,Default,,0000,0000,0000,,-l'm-- l can wait.\N-All right. Yeah. lt's a little too loud.
+Dialogue: 0,0:03:09.85,0:03:12.10,Default,,0000,0000,0000,,Hey, you.
+Dialogue: 0,0:03:13.94,0:03:17.23,Default,,0000,0000,0000,,Well, you know me,\Nalways in the middle of something.
+Dialogue: 0,0:03:17.82,0:03:19.86,Default,,0000,0000,0000,,Yeah, okay, yeah. Eleven?
+Dialogue: 0,0:03:20.03,0:03:23.78,Default,,0000,0000,0000,,Yeah. You know what?\NWhy don't we make it 1 0:30?
+Dialogue: 0,0:03:24.53,0:03:26.45,Default,,0000,0000,0000,,All right. All right, later.
+Dialogue: 0,0:03:26.62,0:03:28.08,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:03:29.62,0:03:33.67,Default,,0000,0000,0000,,I'm sorry, it's a.... lt's a sick friend.
+Dialogue: 0,0:03:34.25,0:03:37.46,Default,,0000,0000,0000,,You know, we don't have to do this.
+Dialogue: 0,0:03:37.84,0:03:39.42,Default,,0000,0000,0000,,Really?
+Dialogue: 0,0:03:40.38,0:03:43.47,Default,,0000,0000,0000,,-Okay.\N-Oh, my God, are you serious?
+Dialogue: 0,0:03:43.64,0:03:44.80,Default,,0000,0000,0000,,Okay, let's be honest.
+Dialogue: 0,0:03:44.97,0:03:47.39,Default,,0000,0000,0000,,You knew the moment you saw me\Nyou didn't like me.
+Dialogue: 0,0:03:47.56,0:03:50.85,Default,,0000,0000,0000,,But our mutual friends set this up,\Nso l think we owe it to them to--
+Dialogue: 0,0:03:51.02,0:03:53.89,Default,,0000,0000,0000,,To what,\Nspend a few hours faking small talk?
+Dialogue: 0,0:03:54.06,0:03:57.27,Default,,0000,0000,0000,,Look, best case,\Nwe get drunk and we hook up.
+Dialogue: 0,0:03:57.82,0:03:59.57,Default,,0000,0000,0000,,What kind of an asshole are you?
+Dialogue: 0,0:03:59.73,0:04:02.32,Default,,0000,0000,0000,,Look, it's a Saturday night.\NI just wanna have some fun.
+Dialogue: 0,0:04:02.49,0:04:06.99,Default,,0000,0000,0000,,I can go see my sick friend,\Nand you can go do...
+Dialogue: 0,0:04:07.33,0:04:09.74,Default,,0000,0000,0000,,...whatever it is you like to do\Non a Saturday night.
+Dialogue: 0,0:04:09.91,0:04:12.87,Default,,0000,0000,0000,,You look like you read.\NYou can go read a book.
+Dialogue: 0,0:04:13.04,0:04:16.46,Default,,0000,0000,0000,,-Do you blog?\N-Do l blog? Okay. You know what?
+Dialogue: 0,0:04:16.63,0:04:20.21,Default,,0000,0000,0000,,If you wanted to ensure that this\Nwasn't gonna be a lousy night, here's a tip:
+Dialogue: 0,0:04:20.38,0:04:22.97,Default,,0000,0000,0000,,Don't show up an hour late,\Nand don't make a booty call.
+Dialogue: 0,0:04:23.13,0:04:24.80,Default,,0000,0000,0000,,-She's sick.\N-Oh, right.
+Dialogue: 0,0:04:24.97,0:04:27.72,Default,,0000,0000,0000,,Were you going to heal her\Nwith your magic penis?
+Dialogue: 0,0:04:28.85,0:04:30.39,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:30.93,0:04:34.31,Default,,0000,0000,0000,,-Fine. lf you wanna go out, we'll go out--\N-Oh, my God, no.
+Dialogue: 0,0:04:34.48,0:04:37.52,Default,,0000,0000,0000,,I'm not going out with you now.\NWhat are you, crazy?
+Dialogue: 0,0:04:37.69,0:04:40.69,Default,,0000,0000,0000,,Get out of my car.\NGet out of my Smart car.
+Dialogue: 0,0:04:42.86,0:04:45.61,Default,,0000,0000,0000,,-l don't know what they were thinking.\N-Me neither.
+Dialogue: 0,0:04:47.12,0:04:50.03,Default,,0000,0000,0000,,Alison, oh, my God.\NThe only way you can make this up to me...
+Dialogue: 0,0:04:50.20,0:04:52.24,Default,,0000,0000,0000,,...is if you promise\NI never have to see him again.
+Dialogue: 0,0:04:52.41,0:04:53.70,Default,,0000,0000,0000,,[MOTORCYCLE STARTS]
+Dialogue: 0,0:04:57.42,0:05:00.96,Default,,0000,0000,0000,,HOLLY: Really, you are like\Nthe most important woman in my life...
+Dialogue: 0,0:05:01.13,0:05:05.34,Default,,0000,0000,0000,,...and Alison is the sister I never had.
+Dialogue: 0,0:05:05.84,0:05:10.72,Default,,0000,0000,0000,,And l love you so much,\Nand l'm so grateful for you and Peter.
+Dialogue: 0,0:05:10.89,0:05:12.47,Default,,0000,0000,0000,,[LAUGHS]
+Dialogue: 0,0:05:12.64,0:05:15.93,Default,,0000,0000,0000,,Look at Mess. ln back.
+Dialogue: 0,0:05:18.73,0:05:20.56,Default,,0000,0000,0000,,MAN: Nice.\NWOMAN: Whoo.
+Dialogue: 0,0:05:23.36,0:05:24.99,Default,,0000,0000,0000,,[APPLAUSE]
+Dialogue: 0,0:05:26.20,0:05:28.11,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:29.12,0:05:31.87,Default,,0000,0000,0000,,Anyway, I was just trying to say\Nhow excited I am for you--
+Dialogue: 0,0:05:32.04,0:05:33.45,Default,,0000,0000,0000,,I love you. Alison.
+Dialogue: 0,0:05:33.62,0:05:38.12,Default,,0000,0000,0000,,Messer, it's my turn. lt's my turn.\NYou already gave your speech.
+Dialogue: 0,0:05:38.29,0:05:39.92,Default,,0000,0000,0000,,PHOTOGRAPHER: Are you maid of honor?\N-Yes.
+Dialogue: 0,0:05:40.08,0:05:42.71,Default,,0000,0000,0000,,Can we switch you guys out?\NI need you next to the bride.
+Dialogue: 0,0:05:48.13,0:05:50.43,Default,,0000,0000,0000,,Get right in here with you guys.
+Dialogue: 0,0:05:50.60,0:05:52.72,Default,,0000,0000,0000,,Don't touch me.\NI knew you were gonna do that.
+Dialogue: 0,0:05:52.89,0:05:55.18,Default,,0000,0000,0000,,-Don't touch me. Don't encourage him.\NALlSON: Ha-ha-ha!
+Dialogue: 0,0:05:55.35,0:05:59.44,Default,,0000,0000,0000,,HOLLY:\NStop it. l swear to God. Stop.
+Dialogue: 0,0:05:59.94,0:06:02.15,Default,,0000,0000,0000,,I'm sorry, I can't stand next to him.
+Dialogue: 0,0:06:03.19,0:06:07.44,Default,,0000,0000,0000,,PETER: Hey, guys.\NHere we are at the holiday party. Holly, Ben.
+Dialogue: 0,0:06:07.61,0:06:08.90,Default,,0000,0000,0000,,Here you go.
+Dialogue: 0,0:06:09.07,0:06:10.99,Default,,0000,0000,0000,,PETER:\NHow's that first date going, guys?
+Dialogue: 0,0:06:11.62,0:06:13.49,Default,,0000,0000,0000,,WAITRESS:\NI mean, what really happened? Tell me.
+Dialogue: 0,0:06:13.66,0:06:14.70,Default,,0000,0000,0000,,[MESSER CHUCKLING]
+Dialogue: 0,0:06:14.87,0:06:16.87,Default,,0000,0000,0000,,PETER:\NYo, Mess. Mess.
+Dialogue: 0,0:06:17.04,0:06:18.50,Default,,0000,0000,0000,,-She has work to do.\N-Dude. Dude.
+Dialogue: 0,0:06:18.66,0:06:21.00,Default,,0000,0000,0000,,-Help me. Take the camera.\N-Give me the camera.
+Dialogue: 0,0:06:22.21,0:06:23.25,Default,,0000,0000,0000,,PETER:\NWhoa, check it out.
+Dialogue: 0,0:06:23.42,0:06:25.42,Default,,0000,0000,0000,,Come here.\NLook at Alison's bun in the oven.
+Dialogue: 0,0:06:25.59,0:06:28.88,Default,,0000,0000,0000,,Bun in the oven.\NExcuse me, guys. All right? Honey?
+Dialogue: 0,0:06:29.05,0:06:31.68,Default,,0000,0000,0000,,MESSER:\NWell, well, look at that.
+Dialogue: 0,0:06:31.84,0:06:35.06,Default,,0000,0000,0000,,-She's my daughter.\NMESSER: Won't be long now.
+Dialogue: 0,0:06:35.22,0:06:37.22,Default,,0000,0000,0000,,ALlSON:\NDon't squeeze the belly.
+Dialogue: 0,0:06:37.64,0:06:40.19,Default,,0000,0000,0000,,MESSER:\NHey, Holly. What's this?
+Dialogue: 0,0:06:40.35,0:06:41.56,Default,,0000,0000,0000,,[MESSER MAKES KlSSlNG SOUNDS]
+Dialogue: 0,0:06:41.73,0:06:45.27,Default,,0000,0000,0000,,Come on, just a little Christmas kiss.\NJust give him a--
+Dialogue: 0,0:06:45.44,0:06:47.57,Default,,0000,0000,0000,,Great. Yay, happy holidays.
+Dialogue: 0,0:06:47.74,0:06:49.11,Default,,0000,0000,0000,,[MOUTHS]\NYou are an asshole.
+Dialogue: 0,0:06:49.28,0:06:51.45,Default,,0000,0000,0000,,Hi, baby girl.
+Dialogue: 0,0:06:51.61,0:06:53.16,Default,,0000,0000,0000,,Hi. Oh, my gosh.
+Dialogue: 0,0:06:53.32,0:06:54.37,Default,,0000,0000,0000,,[SOPHlE COOS]
+Dialogue: 0,0:06:54.53,0:06:55.74,Default,,0000,0000,0000,,-Baby.\N-Hi.
+Dialogue: 0,0:06:55.91,0:06:57.37,Default,,0000,0000,0000,,Hold on, Messer, I just got her.
+Dialogue: 0,0:06:57.54,0:06:59.25,Default,,0000,0000,0000,,PETER: She's with Aunt Holly now.\N-Dude.
+Dialogue: 0,0:06:59.41,0:07:03.00,Default,,0000,0000,0000,,-Careful, Messer. Gently.\N-l got her. l got her.
+Dialogue: 0,0:07:03.17,0:07:04.88,Default,,0000,0000,0000,,-Whoa!\N-Oh!
+Dialogue: 0,0:07:05.04,0:07:06.21,Default,,0000,0000,0000,,-Honey.\N-l'm just playing.
+Dialogue: 0,0:07:06.38,0:07:07.71,Default,,0000,0000,0000,,PETER: lt's not funny.\N-She's fine.
+Dialogue: 0,0:07:07.88,0:07:11.51,Default,,0000,0000,0000,,-She's like a little football.\N-Would you stop it? Messer. Messer.
+Dialogue: 0,0:07:11.68,0:07:13.09,Default,,0000,0000,0000,,-Okay.\N-Stop it, seriously.
+Dialogue: 0,0:07:17.60,0:07:18.85,Default,,0000,0000,0000,,["KlDS" PLAYlNG ON STEREO]
+Dialogue: 0,0:07:19.02,0:07:22.39,Default,,0000,0000,0000,,PETER & ALlSON [SlNGlNG]:\NCats have kittens
+Dialogue: 0,0:07:22.85,0:07:25.65,Default,,0000,0000,0000,,Doggies have pups
+Dialogue: 0,0:07:27.02,0:07:30.61,Default,,0000,0000,0000,,Horses have pretty foals
+Dialogue: 0,0:07:30.86,0:07:34.61,Default,,0000,0000,0000,,And sheep have lambs
+Dialogue: 0,0:07:35.03,0:07:38.62,Default,,0000,0000,0000,,Cows have calves\NAnd I bet you didn't know
+Dialogue: 0,0:07:38.79,0:07:42.16,Default,,0000,0000,0000,,That elephants have calves too
+Dialogue: 0,0:07:42.87,0:07:45.33,Default,,0000,0000,0000,,Lions and leopards have cubs
+Dialogue: 0,0:07:45.92,0:07:51.13,Default,,0000,0000,0000,,Which is the proper thing for them to do
+Dialogue: 0,0:07:55.55,0:07:56.68,Default,,0000,0000,0000,,[COOlNG]
+Dialogue: 0,0:07:56.85,0:07:59.68,Default,,0000,0000,0000,,PETER: She's gonna blow if you keep\Ndoing that. She's in a puking phase.
+Dialogue: 0,0:07:59.85,0:08:02.06,Default,,0000,0000,0000,,MESSER:\NNo, she loves it.
+Dialogue: 0,0:08:02.23,0:08:03.64,Default,,0000,0000,0000,,She loves it, don't you, Soph?
+Dialogue: 0,0:08:03.81,0:08:06.40,Default,,0000,0000,0000,,You're the only girl l'll ever shave for.\NYou know that?
+Dialogue: 0,0:08:06.56,0:08:09.73,Default,,0000,0000,0000,,Speaking of, why didn't Liz come?\NI thought you were getting serious.
+Dialogue: 0,0:08:09.90,0:08:12.86,Default,,0000,0000,0000,,No, we ended that a few weeks ago.\NIt wasn't working out.
+Dialogue: 0,0:08:13.03,0:08:14.57,Default,,0000,0000,0000,,PETER: What happened?\N-l don't know.
+Dialogue: 0,0:08:14.74,0:08:17.74,Default,,0000,0000,0000,,I just didn't see us\Non that long march towards death together.
+Dialogue: 0,0:08:17.91,0:08:21.95,Default,,0000,0000,0000,,-Oh, my bad. l thought you liked this girl.\N-That was you. I just thought she was hot.
+Dialogue: 0,0:08:22.12,0:08:24.66,Default,,0000,0000,0000,,Honey, don't forget\Nto tip the castle guys.
+Dialogue: 0,0:08:25.04,0:08:26.88,Default,,0000,0000,0000,,[TEENAGERS SPEAKlNG lNDlSTlNCTLY]
+Dialogue: 0,0:08:27.08,0:08:29.00,Default,,0000,0000,0000,,They show up late\Nand made me do the work.
+Dialogue: 0,0:08:29.17,0:08:32.38,Default,,0000,0000,0000,,-But, sure, let's tip the castle guys.\NTEENAGER: Grasshopper.
+Dialogue: 0,0:08:32.55,0:08:35.26,Default,,0000,0000,0000,,So l started taking Sophie\Nto this new family practice.
+Dialogue: 0,0:08:35.43,0:08:36.47,Default,,0000,0000,0000,,HOLLY:\NMm-hm.
+Dialogue: 0,0:08:36.64,0:08:39.93,Default,,0000,0000,0000,,There's this doctor there. He's so cute.
+Dialogue: 0,0:08:40.10,0:08:43.77,Default,,0000,0000,0000,,I may have finally replaced\Nmy Anderson Cooper crush.
+Dialogue: 0,0:08:44.19,0:08:47.48,Default,,0000,0000,0000,,-Anyway, l noticed no ring...\N-Scoot.
+Dialogue: 0,0:08:47.65,0:08:49.94,Default,,0000,0000,0000,,...so l started a conversation\Nwith his nurse.
+Dialogue: 0,0:08:50.11,0:08:51.78,Default,,0000,0000,0000,,-No.\N-l pretended to like her nails.
+Dialogue: 0,0:08:51.94,0:08:55.57,Default,,0000,0000,0000,,-No. We agreed to a moratorium on setups.\N-How do you know you won't like him?
+Dialogue: 0,0:08:55.74,0:08:57.78,Default,,0000,0000,0000,,You have the worst\Nsetup track record ever.
+Dialogue: 0,0:08:57.95,0:09:00.70,Default,,0000,0000,0000,,-Like who?\N-The shoplifter. Adult-braces guy.
+Dialogue: 0,0:09:00.87,0:09:03.87,Default,,0000,0000,0000,,Unbelievable.\NYou're still holding that over me.
+Dialogue: 0,0:09:04.04,0:09:06.87,Default,,0000,0000,0000,,I'm not even gonna\Nget into the Messer Debacle of '07.
+Dialogue: 0,0:09:07.04,0:09:09.42,Default,,0000,0000,0000,,Well, that was Peter.\NI hardly even knew him then.
+Dialogue: 0,0:09:09.59,0:09:12.42,Default,,0000,0000,0000,,You knew he called himself Messer.\NAnd you're my best friend.
+Dialogue: 0,0:09:12.59,0:09:15.72,Default,,0000,0000,0000,,You can't be like those women\Nwho judge me because l don't wear a ring.
+Dialogue: 0,0:09:15.88,0:09:16.93,Default,,0000,0000,0000,,I'm not.
+Dialogue: 0,0:09:17.09,0:09:19.43,Default,,0000,0000,0000,,In the meantime,\Nyou keep having gorgeous babies...
+Dialogue: 0,0:09:19.60,0:09:22.22,Default,,0000,0000,0000,,...and l will keep spoiling them with this.
+Dialogue: 0,0:09:22.39,0:09:24.89,Default,,0000,0000,0000,,Seriously,\Nthat's better than my wedding cake.
+Dialogue: 0,0:09:25.06,0:09:27.48,Default,,0000,0000,0000,,-l made your wedding cake.\N-lt was a little dry.
+Dialogue: 0,0:09:27.65,0:09:28.65,Default,,0000,0000,0000,,[HOLLY SCOFFS]
+Dialogue: 0,0:09:28.81,0:09:31.40,Default,,0000,0000,0000,,Don't let any fat grown-ups in\Nwhile the kids are inside.
+Dialogue: 0,0:09:31.57,0:09:32.90,Default,,0000,0000,0000,,[CHUCKLlNG]
+Dialogue: 0,0:09:33.07,0:09:34.82,Default,,0000,0000,0000,,Have you guys been smoking marijuana?
+Dialogue: 0,0:09:34.99,0:09:37.20,Default,,0000,0000,0000,,-That's illegal.\N-You're stoned.
+Dialogue: 0,0:09:37.36,0:09:41.12,Default,,0000,0000,0000,,What are you holding? Let me see it.\NCome on, you want me to call the cops?
+Dialogue: 0,0:09:41.28,0:09:43.62,Default,,0000,0000,0000,,Please don't. My dad's a pastor.
+Dialogue: 0,0:09:44.37,0:09:45.66,Default,,0000,0000,0000,,[MESSER CHUCKLES]
+Dialogue: 0,0:09:45.91,0:09:48.83,Default,,0000,0000,0000,,All right, l'm taking this.\NNext time, you are gonna be trouble.
+Dialogue: 0,0:09:49.00,0:09:50.58,Default,,0000,0000,0000,,-Now get out of here.\N-That's--
+Dialogue: 0,0:09:50.75,0:09:52.42,Default,,0000,0000,0000,,-Get out of here.\N-Get out of here!
+Dialogue: 0,0:09:52.59,0:09:55.13,Default,,0000,0000,0000,,TEENAGER: l bought that stuff.\N-Totally unacceptable.
+Dialogue: 0,0:09:55.92,0:09:58.13,Default,,0000,0000,0000,,Delivery kids show up\Nstoned out of their minds.
+Dialogue: 0,0:09:58.30,0:10:00.84,Default,,0000,0000,0000,,-Who needs a dealer?\N-Aren't you respectable now?
+Dialogue: 0,0:10:01.01,0:10:03.60,Default,,0000,0000,0000,,Relax. Once a year,\Nunder the right circumstances...
+Dialogue: 0,0:10:03.76,0:10:05.68,Default,,0000,0000,0000,,...Alison and I like to relive our youth.
+Dialogue: 0,0:10:05.85,0:10:06.89,Default,,0000,0000,0000,,-Once a year?\N-Yeah--
+Dialogue: 0,0:10:07.06,0:10:09.73,Default,,0000,0000,0000,,-Yeah, right. Once a year.\N-All right, maybe twice a year.
+Dialogue: 0,0:10:09.90,0:10:11.81,Default,,0000,0000,0000,,Wanna go? Come on, come on.
+Dialogue: 0,0:10:12.36,0:10:15.86,Default,,0000,0000,0000,,-Messer, do not bounce her too much.\N-She's fine. She loves it, look at her.
+Dialogue: 0,0:10:16.03,0:10:18.70,Default,,0000,0000,0000,,-Mess, l'm warning you.\N-Come on, she's fine. Ohh!
+Dialogue: 0,0:10:19.36,0:10:21.78,Default,,0000,0000,0000,,Oh, my God. She--
+Dialogue: 0,0:10:22.70,0:10:24.03,Default,,0000,0000,0000,,Oh, my God.
+Dialogue: 0,0:10:25.75,0:10:29.37,Default,,0000,0000,0000,,Don't worry, Sophie, you're not the first girl\Nto throw up on Uncle Messer.
+Dialogue: 0,0:10:29.54,0:10:32.08,Default,,0000,0000,0000,,Hey, Sophie, look.\NLook, that's what bitter looks like.
+Dialogue: 0,0:10:32.25,0:10:35.88,Default,,0000,0000,0000,,Messer, go up to Peter's closet and\Ngrab something before everyone gets here.
+Dialogue: 0,0:10:36.05,0:10:37.76,Default,,0000,0000,0000,,-Why, what time is it?\N-lt's 1 1 .
+Dialogue: 0,0:10:37.92,0:10:41.43,Default,,0000,0000,0000,,Though it's only 1 0 in Messer time.\NYou know, I'm surprised you're even up.
+Dialogue: 0,0:10:41.93,0:10:45.51,Default,,0000,0000,0000,,-You keep your watch on during sex.\N-At least I don't wear my cap everywhere.
+Dialogue: 0,0:10:45.68,0:10:48.85,Default,,0000,0000,0000,,You can take it off now.\NWe all know about the receding hairline.
+Dialogue: 0,0:10:49.02,0:10:51.60,Default,,0000,0000,0000,,It's a widow's peak.\NI don't have a receding hairline.
+Dialogue: 0,0:10:51.77,0:10:54.44,Default,,0000,0000,0000,,Hey, baby's birthday. Neutral corners.\NTake a glass.
+Dialogue: 0,0:10:54.86,0:10:57.40,Default,,0000,0000,0000,,First birthday,\Nyou can take your hat off for pictures.
+Dialogue: 0,0:10:57.57,0:10:59.57,Default,,0000,0000,0000,,-There it is.\N-Before everyone gets here...
+Dialogue: 0,0:10:59.74,0:11:01.86,Default,,0000,0000,0000,,...we wanted to toast\NSophie's favorite people.
+Dialogue: 0,0:11:02.03,0:11:03.07,Default,,0000,0000,0000,,PETER:\NAnd our best friends.
+Dialogue: 0,0:11:03.24,0:11:06.83,Default,,0000,0000,0000,,We made it through her first year\Nwith most of our sanity thanks to you guys.
+Dialogue: 0,0:11:06.99,0:11:09.20,Default,,0000,0000,0000,,-We love you guys.\N-Are you crying?
+Dialogue: 0,0:11:09.37,0:11:10.46,Default,,0000,0000,0000,,Mothers cry.
+Dialogue: 0,0:11:11.00,0:11:12.04,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,0:11:12.21,0:11:14.88,Default,,0000,0000,0000,,-The babysitter's here.\N-Why do you need a babysitter?
+Dialogue: 0,0:11:15.04,0:11:16.25,Default,,0000,0000,0000,,Because she's a genius.
+Dialogue: 0,0:11:16.42,0:11:18.76,Default,,0000,0000,0000,,When Sophie goes nuclear,\Nshe can calm her down.
+Dialogue: 0,0:11:18.92,0:11:22.13,Default,,0000,0000,0000,,-We call her the baby whisperer.\N-Oh, the baby whisperer, huh?
+Dialogue: 0,0:11:22.30,0:11:24.97,Default,,0000,0000,0000,,-Hey, is she hot?\N-Totally hot.
+Dialogue: 0,0:11:25.14,0:11:29.52,Default,,0000,0000,0000,,HOLLY: What's wrong with you?\N-Hey, everybody, this is Amy.
+Dialogue: 0,0:11:30.14,0:11:33.14,Default,,0000,0000,0000,,-Hello, Amy.\N-Look who's here.
+Dialogue: 0,0:11:33.31,0:11:35.02,Default,,0000,0000,0000,,AMY:\NSophie.
+Dialogue: 0,0:11:35.40,0:11:38.27,Default,,0000,0000,0000,,Let's go get you changed, hm?
+Dialogue: 0,0:11:38.44,0:11:40.28,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:40.44,0:11:43.28,Default,,0000,0000,0000,,Are you serious?\NThat's the baby whisperer?
+Dialogue: 0,0:11:43.45,0:11:46.74,Default,,0000,0000,0000,,Really, if she was old enough\Nto have sex with Peter, I'd be obsolete.
+Dialogue: 0,0:11:46.91,0:11:49.99,Default,,0000,0000,0000,,-You'll never be obsolete, babe. Come here.\N-Mm-hm.
+Dialogue: 0,0:11:50.54,0:11:53.08,Default,,0000,0000,0000,,Oh, my God. Could you step away?\NYou reek of baby puke.
+Dialogue: 0,0:11:53.25,0:11:55.00,Default,,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:11:55.54,0:11:57.34,Default,,0000,0000,0000,,-You do. Get away from me.\N-Excuse me.
+Dialogue: 0,0:11:57.50,0:11:59.21,Default,,0000,0000,0000,,You've all met before.
+Dialogue: 0,0:11:59.38,0:12:03.09,Default,,0000,0000,0000,,-You met before. Remember Sophie?\N-l can't believe you guys have four now.
+Dialogue: 0,0:12:03.26,0:12:06.89,Default,,0000,0000,0000,,WOMAN: Did she have any tearing?\NDEEDEE: Oh, yeah, stem to stern.
+Dialogue: 0,0:12:07.05,0:12:09.47,Default,,0000,0000,0000,,They had to crack that woman open\Nlike a lobster.
+Dialogue: 0,0:12:09.64,0:12:12.48,Default,,0000,0000,0000,,Excuse me.\NExcuse me, miss, are you the caterer?
+Dialogue: 0,0:12:12.64,0:12:14.77,Default,,0000,0000,0000,,Yes, and Alison's friend.
+Dialogue: 0,0:12:14.94,0:12:17.06,Default,,0000,0000,0000,,Okay, because you need\Nto come and sit here.
+Dialogue: 0,0:12:17.23,0:12:20.57,Default,,0000,0000,0000,,Okay? You need to come over here\Nright now and sit down.
+Dialogue: 0,0:12:20.74,0:12:22.49,Default,,0000,0000,0000,,Someone is in trouble...
+Dialogue: 0,0:12:22.65,0:12:25.16,Default,,0000,0000,0000,,-...because you make food to die for.\N-Oh. Ha, ha.
+Dialogue: 0,0:12:25.32,0:12:26.36,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:26.53,0:12:28.28,Default,,0000,0000,0000,,-l was a real jock back in college.\N-Yeah?
+Dialogue: 0,0:12:28.45,0:12:30.58,Default,,0000,0000,0000,,Mm-hm. A sprinter.
+Dialogue: 0,0:12:30.75,0:12:32.54,Default,,0000,0000,0000,,-Really?\N-Yeah, ran a 4.2 40.
+Dialogue: 0,0:12:33.00,0:12:34.83,Default,,0000,0000,0000,,-Wow, that's fast.\N-Yeah, it's fast.
+Dialogue: 0,0:12:35.00,0:12:37.17,Default,,0000,0000,0000,,How else do you think l snagged\NMiss Pennsylvania here?
+Dialogue: 0,0:12:37.33,0:12:40.75,Default,,0000,0000,0000,,-Uh-oh. Who's talking about me? Okay.\N-Oh, here she is.
+Dialogue: 0,0:12:40.92,0:12:44.63,Default,,0000,0000,0000,,Okay, that's good for now.\NSo who is this? Hi, l'm Beth.
+Dialogue: 0,0:12:44.80,0:12:46.01,Default,,0000,0000,0000,,-Messer.\N-Nice to meet you.
+Dialogue: 0,0:12:46.18,0:12:48.14,Default,,0000,0000,0000,,-Nice to meet you.\N-We have not met before.
+Dialogue: 0,0:12:48.30,0:12:50.05,Default,,0000,0000,0000,,I would remember this face of his.
+Dialogue: 0,0:12:50.22,0:12:53.60,Default,,0000,0000,0000,,If you've got a loving partner,\Nyou can get through anything. Hey, Scott!
+Dialogue: 0,0:12:53.77,0:12:54.93,Default,,0000,0000,0000,,-Yeah, I'm--\N-Scott!
+Dialogue: 0,0:12:55.10,0:12:56.56,Default,,0000,0000,0000,,-Hold that. Hold on.\N-Hey, Scott.
+Dialogue: 0,0:12:56.73,0:12:58.61,Default,,0000,0000,0000,,-l was trying to get the boys fed.\N-Okay.
+Dialogue: 0,0:12:58.77,0:13:02.82,Default,,0000,0000,0000,,I think Conner may have gotten himself\Ninto a little trouble, you know what l mean?
+Dialogue: 0,0:13:02.99,0:13:05.24,Default,,0000,0000,0000,,-Okay, okay.\N-This is my husband, Scott.
+Dialogue: 0,0:13:05.40,0:13:07.61,Default,,0000,0000,0000,,-Hi, how are you?\N-lt's nice to meet you. Holly.
+Dialogue: 0,0:13:07.78,0:13:10.20,Default,,0000,0000,0000,,Okay. l left those diapers in the car.
+Dialogue: 0,0:13:10.58,0:13:11.62,Default,,0000,0000,0000,,We used to have sex.
+Dialogue: 0,0:13:11.79,0:13:14.45,Default,,0000,0000,0000,,We used to have sex all the time,\Nyou know, everywhere.
+Dialogue: 0,0:13:14.62,0:13:15.66,Default,,0000,0000,0000,,Everywhere.
+Dialogue: 0,0:13:15.83,0:13:18.63,Default,,0000,0000,0000,,Then the baby needs to be fed,\Nthe kids need to be asleep...
+Dialogue: 0,0:13:18.79,0:13:22.38,Default,,0000,0000,0000,,...and they have to have slept\Nthe night before or else you're exhausted.
+Dialogue: 0,0:13:22.55,0:13:25.84,Default,,0000,0000,0000,,-Hi, I'm Ted's partner, Gary.\N-Busted.
+Dialogue: 0,0:13:26.01,0:13:28.55,Default,,0000,0000,0000,,No, I'm actually single, l'm....
+Dialogue: 0,0:13:28.72,0:13:32.51,Default,,0000,0000,0000,,-lt's just me.\N-Okay, okay.
+Dialogue: 0,0:13:32.68,0:13:36.06,Default,,0000,0000,0000,,Well, you serve good meats and cheeses.
+Dialogue: 0,0:13:36.23,0:13:38.85,Default,,0000,0000,0000,,-l think we were all talking about that.\N-Thank you.
+Dialogue: 0,0:13:39.02,0:13:44.32,Default,,0000,0000,0000,,That's something.\NI think that's good to have as a skill.
+Dialogue: 0,0:13:44.86,0:13:47.28,Default,,0000,0000,0000,,-Did you wrap those?\N-Yes, I did.
+Dialogue: 0,0:13:47.45,0:13:51.24,Default,,0000,0000,0000,,Look at that. She wraps.\NI don't touch meat.
+Dialogue: 0,0:13:51.41,0:13:53.16,Default,,0000,0000,0000,,Only with my lips.
+Dialogue: 0,0:13:53.41,0:13:58.79,Default,,0000,0000,0000,,ALL [SlNGlNG]:\NHappy birthday, dear Sophie
+Dialogue: 0,0:13:59.29,0:14:04.05,Default,,0000,0000,0000,,Happy birthday to you
+Dialogue: 0,0:14:04.21,0:14:05.92,Default,,0000,0000,0000,,[ALL CHEERING]
+Dialogue: 0,0:14:13.64,0:14:16.10,Default,,0000,0000,0000,,Guys, l want a picture of Sophie\Nwith her godparents.
+Dialogue: 0,0:14:16.27,0:14:17.81,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:14:17.98,0:14:19.31,Default,,0000,0000,0000,,-Amazing.\N-She looks excited.
+Dialogue: 0,0:14:19.48,0:14:20.52,Default,,0000,0000,0000,,Picture.
+Dialogue: 0,0:14:20.69,0:14:23.11,Default,,0000,0000,0000,,All right, on three say,\N"Messer has a widow's peak."
+Dialogue: 0,0:14:23.27,0:14:24.73,Default,,0000,0000,0000,,One, two....
+Dialogue: 0,0:14:24.90,0:14:26.94,Default,,0000,0000,0000,,-Cheese.\NALlSON: Sophie.
+Dialogue: 0,0:14:28.74,0:14:30.07,Default,,0000,0000,0000,,DEEDEE:\NYay.
+Dialogue: 0,0:14:33.78,0:14:37.00,Default,,0000,0000,0000,,HOLLY:\NIs it a good party? You want some cake?
+Dialogue: 0,0:14:52.76,0:14:54.64,Default,,0000,0000,0000,,MESSER:\NCome on, here we go.
+Dialogue: 0,0:14:55.14,0:14:57.35,Default,,0000,0000,0000,,Oh. Ohh!
+Dialogue: 0,0:15:13.37,0:15:15.07,Default,,0000,0000,0000,,-Hi.\N-Hey.
+Dialogue: 0,0:15:15.49,0:15:17.58,Default,,0000,0000,0000,,You wanna get a late breakfast?
+Dialogue: 0,0:15:17.75,0:15:21.58,Default,,0000,0000,0000,,No, I can't. I got a game in an hour.\NI gotta go shower.
+Dialogue: 0,0:15:24.75,0:15:28.17,Default,,0000,0000,0000,,-Mm. Are you sure about that?\N-Yeah, I'm sure. There's coffee.
+Dialogue: 0,0:15:28.34,0:15:31.34,Default,,0000,0000,0000,,Oh, and mugs are in the cabinet.
+Dialogue: 0,0:15:47.52,0:15:50.03,Default,,0000,0000,0000,,HOLLY: Ooh. This looks delicious.\N-lt's not ready.
+Dialogue: 0,0:15:50.19,0:15:52.40,Default,,0000,0000,0000,,-l'm just taking a bite.\N-The crumb is too fine.
+Dialogue: 0,0:15:52.57,0:15:54.99,Default,,0000,0000,0000,,-l should've gone with Ceylon cinnamon.\N-Oh, my God.
+Dialogue: 0,0:15:55.16,0:15:57.41,Default,,0000,0000,0000,,-Cassia's just wrong.\N-You're a genius. You are.
+Dialogue: 0,0:15:57.58,0:16:01.50,Default,,0000,0000,0000,,You may be bipolar, but you're a genius.\NI swear, l would eat them out of the trash.
+Dialogue: 0,0:16:01.66,0:16:03.79,Default,,0000,0000,0000,,-l would, they're so good.\N-That's nasty.
+Dialogue: 0,0:16:03.96,0:16:06.54,Default,,0000,0000,0000,,Hey, Free-Range Turkey's here.
+Dialogue: 0,0:16:06.71,0:16:09.88,Default,,0000,0000,0000,,Where you going? See, l knew it.\NYou do this every time he comes in.
+Dialogue: 0,0:16:10.05,0:16:12.92,Default,,0000,0000,0000,,-l know you get excited.\N-l'm just trying to be responsible.
+Dialogue: 0,0:16:13.09,0:16:14.88,Default,,0000,0000,0000,,I'm gonna take over here. Thank you.
+Dialogue: 0,0:16:15.05,0:16:17.60,Default,,0000,0000,0000,,LONNIE: You don't act like this\Nwhen Old Man Johnson comes in.
+Dialogue: 0,0:16:17.76,0:16:20.31,Default,,0000,0000,0000,,-Don't be a smart-ass. Go fix your cookies.\N-Okay.
+Dialogue: 0,0:16:21.31,0:16:23.02,Default,,0000,0000,0000,,-Hey.\N-Let me guess.
+Dialogue: 0,0:16:23.19,0:16:26.48,Default,,0000,0000,0000,,-Free-range turkey on baguette?\N-l'm getting predictable, huh?
+Dialogue: 0,0:16:26.65,0:16:30.40,Default,,0000,0000,0000,,Well, l like to think of it as dependable.\NIt's been 35 of the same sandwich.
+Dialogue: 0,0:16:30.90,0:16:34.07,Default,,0000,0000,0000,,-Hm. You're counting?\N-lsh. Thirty-five-ish.
+Dialogue: 0,0:16:34.24,0:16:38.62,Default,,0000,0000,0000,,You know, there are other things on\Nthe menu if you'd like to try something else.
+Dialogue: 0,0:16:38.78,0:16:40.74,Default,,0000,0000,0000,,-Surprise me.\N-Okay. All right, great.
+Dialogue: 0,0:16:40.91,0:16:42.75,Default,,0000,0000,0000,,-Do you like croissants?\N-l do, yeah.
+Dialogue: 0,0:16:42.91,0:16:45.25,Default,,0000,0000,0000,,Good, then I've got just the thing.
+Dialogue: 0,0:16:49.13,0:16:52.96,Default,,0000,0000,0000,,How come you don't wear one of those\Nwhite coats with your name on it?
+Dialogue: 0,0:16:53.13,0:16:54.22,Default,,0000,0000,0000,,So l'd know what it is.
+Dialogue: 0,0:16:54.38,0:16:56.55,Default,,0000,0000,0000,,-lt's Holly.\N-Holly. Sam.
+Dialogue: 0,0:16:57.09,0:17:00.14,Default,,0000,0000,0000,,-Nice to meet you.\N-We met 35 sandwiches ago.
+Dialogue: 0,0:17:00.31,0:17:02.18,Default,,0000,0000,0000,,Thirty-six now.
+Dialogue: 0,0:17:05.48,0:17:09.11,Default,,0000,0000,0000,,-Thanks. Keep the change.\N-Oh, thanks.
+Dialogue: 0,0:17:09.27,0:17:11.57,Default,,0000,0000,0000,,Sure you don't wanna throw your card\Nin the bowl?
+Dialogue: 0,0:17:11.73,0:17:13.44,Default,,0000,0000,0000,,Winner gets a free lunch.
+Dialogue: 0,0:17:14.65,0:17:16.15,Default,,0000,0000,0000,,How about a free dinner on me?
+Dialogue: 0,0:17:21.12,0:17:22.29,Default,,0000,0000,0000,,Eh-eh-eh.
+Dialogue: 0,0:17:22.45,0:17:25.33,Default,,0000,0000,0000,,Be cool, be cool.\NLet him get out the door. Damn.
+Dialogue: 0,0:17:26.46,0:17:28.75,Default,,0000,0000,0000,,-Go.\N-Okay. Oh, no.
+Dialogue: 0,0:17:28.92,0:17:31.75,Default,,0000,0000,0000,,Which one was it?\NOkay, that's a Benjamin. Oh, there's a Sam.
+Dialogue: 0,0:17:31.92,0:17:35.30,Default,,0000,0000,0000,,-l could pick one for you--\N-How many Sams are there in this city?
+Dialogue: 0,0:17:35.47,0:17:39.09,Default,,0000,0000,0000,,ANNOUNCER: And the Atlanta Hawks\Ntrying to work it out over the other side.
+Dialogue: 0,0:17:39.26,0:17:41.26,Default,,0000,0000,0000,,ALAN:\NCome on, people, let's bump up the energy.
+Dialogue: 0,0:17:41.43,0:17:43.18,Default,,0000,0000,0000,,It's an exciting game here. Come on.
+Dialogue: 0,0:17:43.35,0:17:45.18,Default,,0000,0000,0000,,ANNOUNCER: And he scores.\N-Go 7.
+Dialogue: 0,0:17:45.35,0:17:49.10,Default,,0000,0000,0000,,Simon, I need shooting percentages.\NReady 8. Let's zoom in on 8.
+Dialogue: 0,0:17:49.27,0:17:51.31,Default,,0000,0000,0000,,More, more, more. Yep, right there. Go 8.
+Dialogue: 0,0:17:51.48,0:17:55.65,Default,,0000,0000,0000,,Ready 2. And go 2.\NReady 6. Where's my 6?
+Dialogue: 0,0:17:55.82,0:17:58.65,Default,,0000,0000,0000,,The Hawks are about to press.\NWe should stay in the backcourt.
+Dialogue: 0,0:17:58.82,0:18:01.28,Default,,0000,0000,0000,,ANNOUNCER: --pass inbound.\NStolen by Bibby to Smith underneath.
+Dialogue: 0,0:18:01.45,0:18:04.12,Default,,0000,0000,0000,,Good call, Mess.\NSimon, I asked for shooting percentages.
+Dialogue: 0,0:18:04.29,0:18:07.33,Default,,0000,0000,0000,,Let's go. You're too ugly not to be smarter.\NCome on, let's go.
+Dialogue: 0,0:18:07.50,0:18:10.42,Default,,0000,0000,0000,,-l hate him so much.\NALAN: Ready 4.
+Dialogue: 0,0:18:10.58,0:18:13.00,Default,,0000,0000,0000,,I wanna frame somebody's murder on him,\Nyou know?
+Dialogue: 0,0:18:13.17,0:18:15.84,Default,,0000,0000,0000,,-Fingerprints, scene of the crime.\N-What's that, Simon?
+Dialogue: 0,0:18:16.01,0:18:17.67,Default,,0000,0000,0000,,Shooting percentages coming up, sir.
+Dialogue: 0,0:18:20.51,0:18:23.85,Default,,0000,0000,0000,,Hi, Sam, this is Holly Berenson\Nfrom Fraiche.
+Dialogue: 0,0:18:24.01,0:18:28.35,Default,,0000,0000,0000,,I think you left your card in my bowl today\Nfor the free lunch.
+Dialogue: 0,0:18:28.52,0:18:31.90,Default,,0000,0000,0000,,I hope you did, because you're one\Nof four Sams who did this week.
+Dialogue: 0,0:18:32.06,0:18:35.69,Default,,0000,0000,0000,,And if it is you and you asked me out,\NI accept.
+Dialogue: 0,0:18:35.86,0:18:36.86,Default,,0000,0000,0000,,-lf it's--\NWOMAN 1 : Hello?
+Dialogue: 0,0:18:37.03,0:18:38.86,Default,,0000,0000,0000,,-Hello?\N-Why are you calling my husband?
+Dialogue: 0,0:18:39.03,0:18:42.16,Default,,0000,0000,0000,,-Right, you're his wife. Of course.\N-We're very happily married.
+Dialogue: 0,0:18:42.32,0:18:44.53,Default,,0000,0000,0000,,I understand that you're happily married.
+Dialogue: 0,0:18:44.70,0:18:47.37,Default,,0000,0000,0000,,Really, l didn't mean anything by it.\NI'm so sorry. Okay.
+Dialogue: 0,0:18:47.54,0:18:49.29,Default,,0000,0000,0000,,You take care. I'm sorry.
+Dialogue: 0,0:18:49.46,0:18:51.50,Default,,0000,0000,0000,,-Hi, Sam?\NWOMAN 2: Yes, Samantha.
+Dialogue: 0,0:18:51.67,0:18:55.13,Default,,0000,0000,0000,,Oh, Samantha. Oh, it's a Samantha.\NI'm sorry, I have the wrong--
+Dialogue: 0,0:18:55.30,0:18:58.01,Default,,0000,0000,0000,,Maybe not. You single?
+Dialogue: 0,0:18:58.17,0:19:00.72,Default,,0000,0000,0000,,I am single, yes.
+Dialogue: 0,0:19:00.88,0:19:04.39,Default,,0000,0000,0000,,Hi, Sam Nelson. Dr. Sam Nelson.
+Dialogue: 0,0:19:04.56,0:19:07.10,Default,,0000,0000,0000,,This is Holly Berenson from Fraiche...
+Dialogue: 0,0:19:07.27,0:19:11.73,Default,,0000,0000,0000,,...and l am really hoping\Nthat you're the Sam l talked to today.
+Dialogue: 0,0:19:11.90,0:19:14.15,Default,,0000,0000,0000,,If not, l'm screwed\Nbecause you're the last Sam...
+Dialogue: 0,0:19:14.31,0:19:16.23,Default,,0000,0000,0000,,...who put his card in the bowl\Nfor a free lunch.
+Dialogue: 0,0:19:16.40,0:19:17.40,Default,,0000,0000,0000,,[CHUCKLES]\N[PHONE BEEPS]
+Dialogue: 0,0:19:17.57,0:19:18.90,Default,,0000,0000,0000,,Oh, l'm sorry.
+Dialogue: 0,0:19:19.07,0:19:20.65,Default,,0000,0000,0000,,Call waiting.
+Dialogue: 0,0:19:21.53,0:19:23.07,Default,,0000,0000,0000,,Hello?
+Dialogue: 0,0:19:23.24,0:19:24.49,Default,,0000,0000,0000,,[MAN SPEAKlNG INDlSTlNCTLY]
+Dialogue: 0,0:19:24.66,0:19:26.58,Default,,0000,0000,0000,,Yes, this is she.
+Dialogue: 0,0:19:41.76,0:19:44.59,Default,,0000,0000,0000,,Excuse me.\NI'm looking for an Officer Young.
+Dialogue: 0,0:19:44.76,0:19:47.26,Default,,0000,0000,0000,,YOUNG: The officer at the scene\Nfound your name and number...
+Dialogue: 0,0:19:47.43,0:19:50.93,Default,,0000,0000,0000,,...on an insurance contact card\Nin her wallet.
+Dialogue: 0,0:19:51.10,0:19:54.60,Default,,0000,0000,0000,,Now, we need numbers\Nfor the nearest next of kin.
+Dialogue: 0,0:19:54.77,0:19:55.94,Default,,0000,0000,0000,,Can you supply those?
+Dialogue: 0,0:19:56.11,0:19:58.94,Default,,0000,0000,0000,,HOLLY:\NYeah. Pete's dad, um....
+Dialogue: 0,0:19:59.94,0:20:03.07,Default,,0000,0000,0000,,How did you say the car flipped?\NIt flipped when it hit the...?
+Dialogue: 0,0:20:03.24,0:20:07.24,Default,,0000,0000,0000,,-Are you sure you wouldn't like to sit down?\N-They have a baby girl.
+Dialogue: 0,0:20:07.41,0:20:10.12,Default,,0000,0000,0000,,Sophie. Was she in the car?\NWas she in the car with them?
+Dialogue: 0,0:20:10.29,0:20:15.12,Default,,0000,0000,0000,,No. She was in the care of a minor,\Na babysitter, at the time of the accident.
+Dialogue: 0,0:20:15.29,0:20:17.96,Default,,0000,0000,0000,,So the officers placed her with CPS\Nfor the night.
+Dialogue: 0,0:20:18.13,0:20:20.21,Default,,0000,0000,0000,,-She's perfectly fine.\N-CPS?
+Dialogue: 0,0:20:20.38,0:20:22.51,Default,,0000,0000,0000,,Child Protective Services.
+Dialogue: 0,0:20:22.67,0:20:25.05,Default,,0000,0000,0000,,Where they take cases like this.
+Dialogue: 0,0:20:25.97,0:20:27.35,Default,,0000,0000,0000,,Cases like this?
+Dialogue: 0,0:20:29.77,0:20:31.10,Default,,0000,0000,0000,,Orphaned children.
+Dialogue: 0,0:20:58.34,0:20:59.84,Default,,0000,0000,0000,,Messer.
+Dialogue: 0,0:21:59.15,0:22:02.15,Default,,0000,0000,0000,,No, no, no. I just don't understand\Nwhy we can't see her tonight.
+Dialogue: 0,0:22:02.32,0:22:04.78,Default,,0000,0000,0000,,No, ma'am,\NI don't care about your protocol. This is--
+Dialogue: 0,0:22:06.49,0:22:10.28,Default,,0000,0000,0000,,Yes, l will be here at this number. Yes.
+Dialogue: 0,0:22:11.70,0:22:13.95,Default,,0000,0000,0000,,They won't do anything,\Nnot till 8 a.m. tomorrow.
+Dialogue: 0,0:22:14.12,0:22:16.83,Default,,0000,0000,0000,,Okay, okay. I'm sure that she's fine.
+Dialogue: 0,0:22:17.33,0:22:19.25,Default,,0000,0000,0000,,You know,\Nwhy don't we sleep here tonight?
+Dialogue: 0,0:22:19.42,0:22:21.67,Default,,0000,0000,0000,,That way we're here if they call early.\NAll right?
+Dialogue: 0,0:22:21.84,0:22:24.09,Default,,0000,0000,0000,,-Okay.\N-Why don't you take the guest bedroom?
+Dialogue: 0,0:22:24.25,0:22:28.84,Default,,0000,0000,0000,,-Okay, you can take their room if you want.\N-No, thank you. I'll sleep over here.
+Dialogue: 0,0:22:29.84,0:22:31.68,Default,,0000,0000,0000,,-See you in the morning.\N-Okay.
+Dialogue: 0,0:22:32.47,0:22:35.22,Default,,0000,0000,0000,,-Thanks, Messer.\N-Okay.
+Dialogue: 0,0:23:14.05,0:23:15.81,Default,,0000,0000,0000,,[DlSHES CLATTERING]
+Dialogue: 0,0:23:30.32,0:23:31.40,Default,,0000,0000,0000,,Anyone call?
+Dialogue: 0,0:23:32.86,0:23:34.78,Default,,0000,0000,0000,,Just their lawyer.
+Dialogue: 0,0:23:35.24,0:23:38.99,Default,,0000,0000,0000,,He's coming over now.\NHe wants to talk to us.
+Dialogue: 0,0:23:40.62,0:23:43.29,Default,,0000,0000,0000,,DUNN: l'm sure this is a very difficult\Ntime for you, obviously.
+Dialogue: 0,0:23:43.46,0:23:46.67,Default,,0000,0000,0000,,Everyone at the firm,\Nwe will miss Peter very much.
+Dialogue: 0,0:23:47.42,0:23:50.17,Default,,0000,0000,0000,,Now, you must have many questions.
+Dialogue: 0,0:23:50.34,0:23:52.93,Default,,0000,0000,0000,,Well, Sophie.\NI think that's who we're both thinking of.
+Dialogue: 0,0:23:53.09,0:23:54.68,Default,,0000,0000,0000,,-Yes.\N-What will happen to her now?
+Dialogue: 0,0:23:54.85,0:23:57.30,Default,,0000,0000,0000,,Okay, well,\NI have already arranged for her transfer.
+Dialogue: 0,0:23:57.47,0:24:00.10,Default,,0000,0000,0000,,The foster family she was with\Nwill bring her to CPS.
+Dialogue: 0,0:24:00.27,0:24:02.89,Default,,0000,0000,0000,,They feel she'll adjust best\Nin her own environment...
+Dialogue: 0,0:24:03.06,0:24:06.48,Default,,0000,0000,0000,,...so first she needs to be picked up\Nand brought here.
+Dialogue: 0,0:24:06.86,0:24:09.86,Default,,0000,0000,0000,,Okay, and who does that?
+Dialogue: 0,0:24:11.99,0:24:16.24,Default,,0000,0000,0000,,I'm sorry, did Alison and Peter talk to you\Nabout their guardianship arrangements?
+Dialogue: 0,0:24:16.41,0:24:17.70,Default,,0000,0000,0000,,-No.\N-No.
+Dialogue: 0,0:24:19.04,0:24:23.41,Default,,0000,0000,0000,,Well, in preparing their will, we talked\Nabout who would take care of Sophie...
+Dialogue: 0,0:24:23.58,0:24:26.04,Default,,0000,0000,0000,,...in the unlikely event\Nthat they should both die...
+Dialogue: 0,0:24:26.21,0:24:29.50,Default,,0000,0000,0000,,...and they named you.
+Dialogue: 0,0:24:29.67,0:24:30.71,Default,,0000,0000,0000,,Both of you.
+Dialogue: 0,0:24:32.38,0:24:33.38,Default,,0000,0000,0000,,-l'm sorry.\N-l'm sorry.
+Dialogue: 0,0:24:33.55,0:24:36.84,Default,,0000,0000,0000,,-They picked us together?\N-This isn't how you wanted to start a family.
+Dialogue: 0,0:24:37.01,0:24:39.39,Default,,0000,0000,0000,,There's been a misunderstanding.\NWe are not married.
+Dialogue: 0,0:24:39.56,0:24:43.39,Default,,0000,0000,0000,,They tried to set us up on a blind date,\Nand we never made it to the restaurant.
+Dialogue: 0,0:24:43.56,0:24:46.77,Default,,0000,0000,0000,,I don't even know if you'd call it a date.\NHe was such a dick.
+Dialogue: 0,0:24:46.94,0:24:48.23,Default,,0000,0000,0000,,I know this is overwhelming.
+Dialogue: 0,0:24:48.40,0:24:50.52,Default,,0000,0000,0000,,Believe me,\NI tried to advise them against it.
+Dialogue: 0,0:24:50.69,0:24:52.94,Default,,0000,0000,0000,,But there are options. You can say no.
+Dialogue: 0,0:24:53.11,0:24:57.91,Default,,0000,0000,0000,,Because this is a big deal. This is a child.
+Dialogue: 0,0:24:58.99,0:25:01.08,Default,,0000,0000,0000,,Big commitment.
+Dialogue: 0,0:25:03.62,0:25:05.66,Default,,0000,0000,0000,,Oh, my God.
+Dialogue: 0,0:25:10.88,0:25:12.51,Default,,0000,0000,0000,,Oh, my God. Oh, my God.
+Dialogue: 0,0:25:22.56,0:25:23.97,Default,,0000,0000,0000,,[HOLLY CLEARS THROAT]
+Dialogue: 0,0:25:26.10,0:25:28.60,Default,,0000,0000,0000,,-Sorry.\N-Options.
+Dialogue: 0,0:25:28.77,0:25:31.98,Default,,0000,0000,0000,,You mentioned\Nthat there were some other options?
+Dialogue: 0,0:25:32.15,0:25:34.32,Default,,0000,0000,0000,,Yes. We have Peter's father.
+Dialogue: 0,0:25:34.49,0:25:37.28,Default,,0000,0000,0000,,-Oh. Perfect. He'd be perfect, I think.\N-There you go.
+Dialogue: 0,0:25:37.45,0:25:39.87,Default,,0000,0000,0000,,-There's cousins.\N-l'm sorry, can l stop you there?
+Dialogue: 0,0:25:40.03,0:25:41.53,Default,,0000,0000,0000,,MESSER: Cousins are always....\N-Yeah.
+Dialogue: 0,0:25:41.70,0:25:45.62,Default,,0000,0000,0000,,What if one of us, on our own,\Nby ourselves...
+Dialogue: 0,0:25:45.79,0:25:48.29,Default,,0000,0000,0000,,...chose to honor Alison and Peter's wishes\Non our own?
+Dialogue: 0,0:25:48.46,0:25:50.92,Default,,0000,0000,0000,,Or both of us, hypothetically.
+Dialogue: 0,0:25:51.09,0:25:53.42,Default,,0000,0000,0000,,They named you,\Nso l just set up a court hearing...
+Dialogue: 0,0:25:53.59,0:25:55.84,Default,,0000,0000,0000,,...to grant you temporary custody,\Nand that's it.
+Dialogue: 0,0:25:56.01,0:25:57.17,Default,,0000,0000,0000,,Now, the finances...
+Dialogue: 0,0:25:57.34,0:26:00.05,Default,,0000,0000,0000,,...the estate will cover the mortgage,\Nbut that's about it.
+Dialogue: 0,0:26:00.22,0:26:04.68,Default,,0000,0000,0000,,They didn't have much in savings.\NThey bought this house as an investment.
+Dialogue: 0,0:26:04.85,0:26:07.31,Default,,0000,0000,0000,,But, you know,\Nlet's not get ahead of ourselves, okay?
+Dialogue: 0,0:26:07.48,0:26:08.73,Default,,0000,0000,0000,,Let's just focus on Sophie.
+Dialogue: 0,0:26:08.90,0:26:09.94,Default,,0000,0000,0000,,-Yes.\N-Right.
+Dialogue: 0,0:26:10.11,0:26:15.90,Default,,0000,0000,0000,,So l suggest the two of you move in here\Nin the interim, for Sophie.
+Dialogue: 0,0:26:17.15,0:26:19.61,Default,,0000,0000,0000,,-You want us to live together?\N-For Sophie, for now.
+Dialogue: 0,0:26:19.78,0:26:23.62,Default,,0000,0000,0000,,Until you decide what you wanna do.\NBut it's best.
+Dialogue: 0,0:26:35.96,0:26:39.76,Default,,0000,0000,0000,,Okay. Sign here, Ms. Berenson.
+Dialogue: 0,0:26:45.64,0:26:47.64,Default,,0000,0000,0000,,And here, Mr. Messer.
+Dialogue: 0,0:26:49.85,0:26:52.48,Default,,0000,0000,0000,,-Thank you.\N-Oh, there she is.
+Dialogue: 0,0:26:53.48,0:26:54.94,Default,,0000,0000,0000,,Hi.
+Dialogue: 0,0:26:56.28,0:26:57.82,Default,,0000,0000,0000,,Hi, sweet girl.
+Dialogue: 0,0:26:57.99,0:27:00.32,Default,,0000,0000,0000,,Oh, honey, it's so good to see you.
+Dialogue: 0,0:27:00.49,0:27:01.91,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,0:27:03.37,0:27:05.91,Default,,0000,0000,0000,,I know, I know.
+Dialogue: 0,0:27:08.37,0:27:12.50,Default,,0000,0000,0000,,I know. Hey, look. Hey, look.
+Dialogue: 0,0:27:12.67,0:27:16.88,Default,,0000,0000,0000,,You want Uncle Messer? Here.\NThere's Uncle Messer.
+Dialogue: 0,0:27:17.55,0:27:20.42,Default,,0000,0000,0000,,Oh, God. Okay. We should get her home.
+Dialogue: 0,0:27:38.65,0:27:42.95,Default,,0000,0000,0000,,-They definitely didn't think this through.\N-We need to establish a sleep schedule.
+Dialogue: 0,0:27:43.11,0:27:45.20,Default,,0000,0000,0000,,-lt's very important.\N-What?
+Dialogue: 0,0:27:45.37,0:27:46.45,Default,,0000,0000,0000,,I guess.
+Dialogue: 0,0:27:46.91,0:27:49.75,Default,,0000,0000,0000,,-What did you say?\N-l said they didn't think this through.
+Dialogue: 0,0:27:50.25,0:27:52.12,Default,,0000,0000,0000,,Did Pete say anything to you? Or Alison?
+Dialogue: 0,0:27:52.29,0:27:54.29,Default,,0000,0000,0000,,-They didn't tell me anything.\N-Nope.
+Dialogue: 0,0:27:54.46,0:27:56.63,Default,,0000,0000,0000,,This is not the kind of thing\Nyou forget to mention.
+Dialogue: 0,0:27:56.80,0:27:59.71,Default,,0000,0000,0000,,"Hey, you see that game\Nwhere Kobe put the juke on that dude...
+Dialogue: 0,0:27:59.88,0:28:01.34,Default,,0000,0000,0000,,...then hit the fadeaway jumper?
+Dialogue: 0,0:28:01.51,0:28:04.47,Default,,0000,0000,0000,,Oh, and by the way, if I die,\NI'm gonna leave you with my kid."
+Dialogue: 0,0:28:04.64,0:28:06.76,Default,,0000,0000,0000,,-lt's messed up.\N-Alison was a planner.
+Dialogue: 0,0:28:06.93,0:28:09.97,Default,,0000,0000,0000,,-We are part of a plan.\N-You wanna walk me through this plan?
+Dialogue: 0,0:28:10.14,0:28:12.43,Default,,0000,0000,0000,,Are we supposed to live\Nin this house together?
+Dialogue: 0,0:28:12.77,0:28:16.44,Default,,0000,0000,0000,,Share the place, both sleep-deprived?\NSounds like a compelling psych experiment.
+Dialogue: 0,0:28:16.61,0:28:19.27,Default,,0000,0000,0000,,Assuming you and I can even afford\Nto pay for this place.
+Dialogue: 0,0:28:19.44,0:28:21.11,Default,,0000,0000,0000,,Dunn said the mortgage is covered.
+Dialogue: 0,0:28:21.28,0:28:24.15,Default,,0000,0000,0000,,Well, what about the upkeep?\NOr the utilities or the taxes?
+Dialogue: 0,0:28:24.32,0:28:26.32,Default,,0000,0000,0000,,You have any idea\Nwhat the nut on this is?
+Dialogue: 0,0:28:26.78,0:28:30.12,Default,,0000,0000,0000,,Pete was a junior partner at a law firm.\NI don't make this kind of cash.
+Dialogue: 0,0:28:30.29,0:28:32.71,Default,,0000,0000,0000,,And what do you do?\NYou bake scones for a living?
+Dialogue: 0,0:28:32.87,0:28:35.25,Default,,0000,0000,0000,,I run a successful business.\NI do pretty well.
+Dialogue: 0,0:28:35.42,0:28:38.00,Default,,0000,0000,0000,,Yeah? Well, running a baby\Nis not like running a bakery.
+Dialogue: 0,0:28:38.17,0:28:40.84,Default,,0000,0000,0000,,-l didn't say it was.\N-They're a mess. They pee on things.
+Dialogue: 0,0:28:41.01,0:28:43.13,Default,,0000,0000,0000,,They bite. They're basically dogs.
+Dialogue: 0,0:28:43.30,0:28:45.84,Default,,0000,0000,0000,,Except at least a dog knows\Nnot to lick the electrical sockets.
+Dialogue: 0,0:28:46.01,0:28:47.09,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,0:28:47.26,0:28:49.30,Default,,0000,0000,0000,,She's up. She's up.
+Dialogue: 0,0:28:49.47,0:28:53.93,Default,,0000,0000,0000,,-Okay, honey. Hey. Hi.\N-Hey. Hey, look at the sleepyhead.
+Dialogue: 0,0:28:54.10,0:28:55.27,Default,,0000,0000,0000,,HOLLY: Hi, honey.\N-Here we go.
+Dialogue: 0,0:28:55.44,0:28:56.48,Default,,0000,0000,0000,,Hey, come here.
+Dialogue: 0,0:28:56.65,0:28:58.11,Default,,0000,0000,0000,,-No, no, don't pick her up.\N-Why?
+Dialogue: 0,0:28:58.27,0:29:00.36,Default,,0000,0000,0000,,Because she needs to learn\Nhow to self-soothe.
+Dialogue: 0,0:29:00.53,0:29:03.36,Default,,0000,0000,0000,,-She needs to what?\N-Self-soothe. Soothe herself.
+Dialogue: 0,0:29:03.53,0:29:06.66,Default,,0000,0000,0000,,I just read it, Messer. lt's important.\NLet's just give it a minute.
+Dialogue: 0,0:29:06.82,0:29:10.08,Default,,0000,0000,0000,,Everything's okay. Happy, happy girl.
+Dialogue: 0,0:29:10.24,0:29:13.66,Default,,0000,0000,0000,,You know what? Let's just sing a song.\NWe'll sing a song.
+Dialogue: 0,0:29:13.83,0:29:16.50,Default,,0000,0000,0000,,[SINGlNG]\NThe wheels on the bus go round and round
+Dialogue: 0,0:29:16.67,0:29:18.83,Default,,0000,0000,0000,,Round and round\NRound and round
+Dialogue: 0,0:29:19.00,0:29:21.63,Default,,0000,0000,0000,,The wheels on the bus go round and round
+Dialogue: 0,0:29:21.80,0:29:23.84,Default,,0000,0000,0000,,All through the town
+Dialogue: 0,0:29:24.84,0:29:25.97,Default,,0000,0000,0000,,The-- l don't know.
+Dialogue: 0,0:29:26.13,0:29:28.47,Default,,0000,0000,0000,,-And then Keanu Reeves saves the bus\N-Nice.
+Dialogue: 0,0:29:28.64,0:29:30.60,Default,,0000,0000,0000,,Saves the bus\NSaves the bus
+Dialogue: 0,0:29:30.76,0:29:32.93,Default,,0000,0000,0000,,And then Keanu Reeves saves the bus
+Dialogue: 0,0:29:33.39,0:29:35.18,Default,,0000,0000,0000,,-And then he dies\N-That's all I got.
+Dialogue: 0,0:29:35.35,0:29:36.56,Default,,0000,0000,0000,,Does he die? I don't know.
+Dialogue: 0,0:29:36.73,0:29:39.81,Default,,0000,0000,0000,,Okay. Maybe she's hungry.\NI think she's hungry. l'm gonna feed her.
+Dialogue: 0,0:29:39.98,0:29:43.15,Default,,0000,0000,0000,,-Come on, let's go eat. Come on.\N-l thought we weren't picking her up.
+Dialogue: 0,0:29:47.78,0:29:51.78,Default,,0000,0000,0000,,-Okay, Sophie, l'm almost done, hold on.\N-She's not a food critic. She's a 1-year-old.
+Dialogue: 0,0:29:51.95,0:29:55.20,Default,,0000,0000,0000,,-l'm not gonna feed her just anything.\N-But we're gonna feed you today.
+Dialogue: 0,0:29:55.37,0:29:57.29,Default,,0000,0000,0000,,Hopefully before you're 2.
+Dialogue: 0,0:29:57.92,0:30:01.46,Default,,0000,0000,0000,,So tell me, what does Sophie do\Nto your dreams of ever meeting a guy...
+Dialogue: 0,0:30:01.63,0:30:03.84,Default,,0000,0000,0000,,...and having your own baby?\NThought about that?
+Dialogue: 0,0:30:04.01,0:30:06.51,Default,,0000,0000,0000,,A woman your age\Nalready has a hard time competing...
+Dialogue: 0,0:30:06.67,0:30:08.38,Default,,0000,0000,0000,,...for the few guys who don't suck.
+Dialogue: 0,0:30:08.55,0:30:10.76,Default,,0000,0000,0000,,I'm sorry,\Ndid you just say a woman my age?
+Dialogue: 0,0:30:10.93,0:30:13.56,Default,,0000,0000,0000,,In the dating world,\Nyou wouldn't be considered single.
+Dialogue: 0,0:30:13.72,0:30:16.60,Default,,0000,0000,0000,,You know what you'd be? Complicated.\NBeyond complicated.
+Dialogue: 0,0:30:16.77,0:30:18.44,Default,,0000,0000,0000,,You don't know anything about me.
+Dialogue: 0,0:30:18.60,0:30:21.44,Default,,0000,0000,0000,,Well, l know that you can't open\Na childproof drawer.
+Dialogue: 0,0:30:22.07,0:30:24.65,Default,,0000,0000,0000,,Oh. There it is.
+Dialogue: 0,0:30:25.40,0:30:28.74,Default,,0000,0000,0000,,Why are you trying so hard\Nto convince me not to help her?
+Dialogue: 0,0:30:28.91,0:30:31.70,Default,,0000,0000,0000,,I'm not trying to.\NI'm just trying to do what's best for her.
+Dialogue: 0,0:30:31.87,0:30:35.58,Default,,0000,0000,0000,,-You're trying to do what's best for you.\N-l'm trying to do what's best for her.
+Dialogue: 0,0:30:35.75,0:30:37.08,Default,,0000,0000,0000,,We're not it.
+Dialogue: 0,0:30:37.25,0:30:39.92,Default,,0000,0000,0000,,They loved Sophie more than anything\Nin the entire world...
+Dialogue: 0,0:30:40.08,0:30:42.42,Default,,0000,0000,0000,,...and out of everyone, Messer,\Nthey picked us.
+Dialogue: 0,0:30:42.59,0:30:44.25,Default,,0000,0000,0000,,They picked us.
+Dialogue: 0,0:30:46.46,0:30:47.80,Default,,0000,0000,0000,,I'm coming.
+Dialogue: 0,0:30:47.97,0:30:50.93,Default,,0000,0000,0000,,Check this out.\NI think you're gonna love it.
+Dialogue: 0,0:30:51.09,0:30:54.22,Default,,0000,0000,0000,,Taste sensation. Ready?
+Dialogue: 0,0:30:54.39,0:30:55.76,Default,,0000,0000,0000,,Mmm.
+Dialogue: 0,0:30:56.10,0:31:00.27,Default,,0000,0000,0000,,No? Come on. Just try it, Soph.\NJust try it. l think you're gonna love it.
+Dialogue: 0,0:31:00.77,0:31:02.69,Default,,0000,0000,0000,,Just try it.
+Dialogue: 0,0:31:03.36,0:31:05.44,Default,,0000,0000,0000,,Come on, Soph, give it a try.
+Dialogue: 0,0:31:05.61,0:31:07.99,Default,,0000,0000,0000,,Oh, please?\NI've seen you eat things like this.
+Dialogue: 0,0:31:08.61,0:31:10.70,Default,,0000,0000,0000,,I think you're gonna love it. Come on.
+Dialogue: 0,0:31:10.95,0:31:13.49,Default,,0000,0000,0000,,Mmm. Mmm. Yum, yum, yum.
+Dialogue: 0,0:31:13.66,0:31:16.29,Default,,0000,0000,0000,,There you go. Good girl, Soph--
+Dialogue: 0,0:31:16.45,0:31:17.74,Default,,0000,0000,0000,,[SOPHlE COUGHS]
+Dialogue: 0,0:31:28.09,0:31:30.42,Default,,0000,0000,0000,,So you honestly think\Nwe're the best thing for her?
+Dialogue: 0,0:31:55.07,0:31:56.12,Default,,0000,0000,0000,,[JOSH SlGHS]
+Dialogue: 0,0:31:56.28,0:31:58.16,Default,,0000,0000,0000,,-Well, it was a beautiful service.\N-Yeah.
+Dialogue: 0,0:31:58.33,0:32:01.33,Default,,0000,0000,0000,,-l did not know that's how they met.\N-Oh, that story about Paris?
+Dialogue: 0,0:32:01.50,0:32:02.75,Default,,0000,0000,0000,,-Are you kidding me?\NJOSH: Yeah.
+Dialogue: 0,0:32:02.92,0:32:05.04,Default,,0000,0000,0000,,What is gonna happen with the baby?\NDo we know?
+Dialogue: 0,0:32:05.21,0:32:06.79,Default,,0000,0000,0000,,-Oh, yeah, you didn't hear?\N-No.
+Dialogue: 0,0:32:06.96,0:32:11.42,Default,,0000,0000,0000,,They named one of their friends, yeah.\NThe single girl who bakes.
+Dialogue: 0,0:32:11.59,0:32:14.68,Default,,0000,0000,0000,,And the super-hot one that always smells,\Nlike, so good and sweaty.
+Dialogue: 0,0:32:14.84,0:32:17.18,Default,,0000,0000,0000,,-That guy.\N-That's interesting. So he'll be around.
+Dialogue: 0,0:32:17.35,0:32:19.72,Default,,0000,0000,0000,,-"Good"?\N-What do you mean, "good and sweaty"?
+Dialogue: 0,0:32:22.19,0:32:25.23,Default,,0000,0000,0000,,Mom, thank you for being here.\NI couldn't have done it without you.
+Dialogue: 0,0:32:25.40,0:32:27.94,Default,,0000,0000,0000,,-You're welcome.\N-Mind watching her for another minute?
+Dialogue: 0,0:32:28.11,0:32:30.78,Default,,0000,0000,0000,,-l gotta talk to Messer.\N-Okay.
+Dialogue: 0,0:32:30.94,0:32:32.40,Default,,0000,0000,0000,,Mess.
+Dialogue: 0,0:32:34.24,0:32:37.74,Default,,0000,0000,0000,,-There's a lot of them.\N-Well, we just need to find one.
+Dialogue: 0,0:32:37.91,0:32:41.70,Default,,0000,0000,0000,,-So I understand you're Peter's cousins?\N-Hey, don't climb on that. Hey, hey.
+Dialogue: 0,0:32:41.87,0:32:43.46,Default,,0000,0000,0000,,-Who is that, Tyler?\N-Mason.
+Dialogue: 0,0:32:43.62,0:32:45.75,Default,,0000,0000,0000,,Mason, take a seat right now. Let's go.
+Dialogue: 0,0:32:45.92,0:32:48.46,Default,,0000,0000,0000,,-Eight kids.\N-Eight kids? You guys have eight kids?
+Dialogue: 0,0:32:48.63,0:32:52.88,Default,,0000,0000,0000,,-Nine, dear.\N-Nine, right. Baseball team.
+Dialogue: 0,0:32:54.38,0:32:58.22,Default,,0000,0000,0000,,-l had to come for Alison.\N-Yeah, thank you.
+Dialogue: 0,0:32:58.39,0:33:01.10,Default,,0000,0000,0000,,-And I was on tour through Atlanta, so....\N-Oh, on tour.
+Dialogue: 0,0:33:01.72,0:33:03.81,Default,,0000,0000,0000,,Are you performing anywhere\Nthat I would know?
+Dialogue: 0,0:33:03.98,0:33:05.56,Default,,0000,0000,0000,,I'm dancing at Juggles tonight...
+Dialogue: 0,0:33:05.73,0:33:08.48,Default,,0000,0000,0000,,...and then Bush League\NThursday through Monday.
+Dialogue: 0,0:33:08.65,0:33:12.40,Default,,0000,0000,0000,,Oh, how exciting.\NThat's really exciting. Yeah.
+Dialogue: 0,0:33:12.57,0:33:15.74,Default,,0000,0000,0000,,It's really good for Sophie\Nto get to see her grandfather.
+Dialogue: 0,0:33:17.07,0:33:19.53,Default,,0000,0000,0000,,She looks just like Peter.
+Dialogue: 0,0:33:20.03,0:33:22.29,Default,,0000,0000,0000,,I think she looks just like you.
+Dialogue: 0,0:33:22.45,0:33:25.96,Default,,0000,0000,0000,,HOLLY:\NSo you have a house in Miami now?
+Dialogue: 0,0:33:26.12,0:33:28.04,Default,,0000,0000,0000,,Yeah, because we, you know,\Nwere hoping...
+Dialogue: 0,0:33:28.21,0:33:31.21,Default,,0000,0000,0000,,...given that Sophie\Nis your only grandchild, that....
+Dialogue: 0,0:33:31.38,0:33:33.92,Default,,0000,0000,0000,,Well, it seems to make the most sense\Nthat you'd be--
+Dialogue: 0,0:33:34.09,0:33:36.38,Default,,0000,0000,0000,,HOLLY: Oh!\NMESSER: Okay, okay, okay.
+Dialogue: 0,0:33:36.55,0:33:39.14,Default,,0000,0000,0000,,HOLLY:\NSophie, no, no, no. Over here.
+Dialogue: 0,0:33:39.30,0:33:41.64,Default,,0000,0000,0000,,Oh, l am so sorry. Okay.
+Dialogue: 0,0:33:41.81,0:33:43.52,Default,,0000,0000,0000,,You okay? Okay.
+Dialogue: 0,0:33:43.89,0:33:45.39,Default,,0000,0000,0000,,-Good as new.\N-Still breathing.
+Dialogue: 0,0:33:45.60,0:33:47.19,Default,,0000,0000,0000,,Yay.
+Dialogue: 0,0:33:49.61,0:33:51.61,Default,,0000,0000,0000,,[SOPHlE COOING OVER MONITOR]
+Dialogue: 0,0:33:57.95,0:34:01.28,Default,,0000,0000,0000,,Well, we could go\Nwith the nine-kids family.
+Dialogue: 0,0:34:01.70,0:34:04.95,Default,,0000,0000,0000,,I mean, they clearly know\Nhow to keep a child alive.
+Dialogue: 0,0:34:07.42,0:34:09.46,Default,,0000,0000,0000,,Stripper seemed nice.
+Dialogue: 0,0:34:10.96,0:34:12.50,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:34:14.17,0:34:17.30,Default,,0000,0000,0000,,And the grandpa's a definite no?
+Dialogue: 0,0:34:19.68,0:34:21.68,Default,,0000,0000,0000,,We're screwed.
+Dialogue: 0,0:34:22.60,0:34:28.85,Default,,0000,0000,0000,,CLERK: Next case, the matter of\NSophie Novak, Index Number 05893-01 .
+Dialogue: 0,0:34:29.02,0:34:30.06,Default,,0000,0000,0000,,All right.
+Dialogue: 0,0:34:30.23,0:34:32.65,Default,,0000,0000,0000,,I've read your submissions,\Nalong with the will.
+Dialogue: 0,0:34:32.82,0:34:35.78,Default,,0000,0000,0000,,Given that you folks were named\Nas guardians...
+Dialogue: 0,0:34:35.94,0:34:38.49,Default,,0000,0000,0000,,...l see no reason\Nto countermand the parents' wishes.
+Dialogue: 0,0:34:38.65,0:34:40.28,Default,,0000,0000,0000,,However, permit--
+Dialogue: 0,0:34:44.29,0:34:46.08,Default,,0000,0000,0000,,MESSER: Just leave it.\NHOLLY: No, no.
+Dialogue: 0,0:34:46.25,0:34:49.29,Default,,0000,0000,0000,,-They're gonna get ground into the carpet.\N-Guys, guys, okay.
+Dialogue: 0,0:34:49.46,0:34:52.00,Default,,0000,0000,0000,,Let's leave the Goldfish.\NWhat do you say we stand up?
+Dialogue: 0,0:34:52.17,0:34:54.84,Default,,0000,0000,0000,,-Okay. Okay.\N-Stand up. Leave them.
+Dialogue: 0,0:34:55.30,0:34:56.88,Default,,0000,0000,0000,,HOLLY:\NSorry.
+Dialogue: 0,0:34:57.67,0:34:59.13,Default,,0000,0000,0000,,-l'll pick these up.\N-Just....
+Dialogue: 0,0:34:59.30,0:35:03.35,Default,,0000,0000,0000,,Until that time, l hereby grant\Njoint legal and physical custody...
+Dialogue: 0,0:35:03.51,0:35:07.35,Default,,0000,0000,0000,,...of Sophie Christina Novak\Nto Holly Berenson and Eric Messer.
+Dialogue: 0,0:35:07.52,0:35:08.68,Default,,0000,0000,0000,,[POUNDS GAVEL]
+Dialogue: 0,0:35:08.85,0:35:11.39,Default,,0000,0000,0000,,That's it?\NYou're not gonna ask us anything?
+Dialogue: 0,0:35:11.56,0:35:13.36,Default,,0000,0000,0000,,How do you know we're not dealers\Nor pimps?
+Dialogue: 0,0:35:13.52,0:35:14.52,Default,,0000,0000,0000,,HOLLY:\NHa!
+Dialogue: 0,0:35:14.69,0:35:18.03,Default,,0000,0000,0000,,-Are you drug dealers or pimps?\N-No, ma'am. No.
+Dialogue: 0,0:35:18.19,0:35:19.61,Default,,0000,0000,0000,,Let's go.
+Dialogue: 0,0:35:20.24,0:35:21.70,Default,,0000,0000,0000,,Boom. "Done, next case.
+Dialogue: 0,0:35:21.86,0:35:24.03,Default,,0000,0000,0000,,Here, take a kid.\NNo, take two, we got extra."
+Dialogue: 0,0:35:24.20,0:35:27.16,Default,,0000,0000,0000,,Where is that stupid duck that she loves\Nthat drives me crazy?
+Dialogue: 0,0:35:27.33,0:35:28.37,Default,,0000,0000,0000,,[DUCK TOY QUACKlNG]
+Dialogue: 0,0:35:28.54,0:35:30.58,Default,,0000,0000,0000,,I don't get it, man. I've been good.\NSome chick says:
+Dialogue: 0,0:35:30.75,0:35:34.33,Default,,0000,0000,0000,,"Messer, you can forget the condom,"\NI say no, and l still end up with a kid.
+Dialogue: 0,0:35:34.50,0:35:37.17,Default,,0000,0000,0000,,We need to figure out a schedule.\NI need to work tomorrow.
+Dialogue: 0,0:35:37.34,0:35:38.55,Default,,0000,0000,0000,,-Do you smell that?\N-What?
+Dialogue: 0,0:35:38.71,0:35:42.38,Default,,0000,0000,0000,,-Oh, maybe she finally pooped. Did she?\N-Oh, yeah, yeah, yeah. I think she--
+Dialogue: 0,0:35:42.55,0:35:44.68,Default,,0000,0000,0000,,What? lt's not that bad.
+Dialogue: 0,0:35:44.85,0:35:46.64,Default,,0000,0000,0000,,Oh, Soph.
+Dialogue: 0,0:35:46.81,0:35:49.27,Default,,0000,0000,0000,,HOLLY: lt's a weird smell, right?\NMESSER: Okay.
+Dialogue: 0,0:35:50.23,0:35:53.77,Default,,0000,0000,0000,,-Go ahead.\N-What? Why me? Because l'm the girl?
+Dialogue: 0,0:35:53.94,0:35:55.23,Default,,0000,0000,0000,,-Yeah.\N-No. Uh-uh.
+Dialogue: 0,0:35:55.40,0:35:57.94,Default,,0000,0000,0000,,I am not changing diapers\Nfor the next two years.
+Dialogue: 0,0:35:58.11,0:36:01.03,Default,,0000,0000,0000,,-Get in there.\N-Okay, fine. Easy. lt's not that....
+Dialogue: 0,0:36:01.20,0:36:04.28,Default,,0000,0000,0000,,Something you can take off the checklist.\NCheck.
+Dialogue: 0,0:36:06.87,0:36:08.45,Default,,0000,0000,0000,,-What are you doing?\N-l don't know.
+Dialogue: 0,0:36:08.62,0:36:11.25,Default,,0000,0000,0000,,It's not a bra that l'm taking off a chick,\Nit's a diaper.
+Dialogue: 0,0:36:11.41,0:36:14.25,Default,,0000,0000,0000,,-lt's not rocket science. Take the tabs off.\N-ls there a box l can read?
+Dialogue: 0,0:36:14.42,0:36:16.63,Default,,0000,0000,0000,,See those little tabs? Undo them.
+Dialogue: 0,0:36:19.59,0:36:21.01,Default,,0000,0000,0000,,[HOLLY GASPS]\N[MESSER GAGGlNG]
+Dialogue: 0,0:36:21.17,0:36:24.13,Default,,0000,0000,0000,,Oh, God. Don't do that.\NYou're gonna make me throw up.
+Dialogue: 0,0:36:24.30,0:36:27.68,Default,,0000,0000,0000,,-It's like Slumdog Millionaire in there.\N-You're gonna make me throw up.
+Dialogue: 0,0:36:27.85,0:36:29.60,Default,,0000,0000,0000,,She didn't eat enough to produce that.
+Dialogue: 0,0:36:29.77,0:36:32.60,Default,,0000,0000,0000,,-She's getting it in her toes.\N-Okay, give me the wipes.
+Dialogue: 0,0:36:32.77,0:36:35.31,Default,,0000,0000,0000,,-Give me another one.\N-Hurry. Get it out of her toes.
+Dialogue: 0,0:36:35.48,0:36:36.61,Default,,0000,0000,0000,,What, it's like a poop suit.
+Dialogue: 0,0:36:36.77,0:36:38.02,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,0:36:38.19,0:36:41.61,Default,,0000,0000,0000,,-Oh, I got it.\N-Messer. Don't leave me in here.
+Dialogue: 0,0:36:42.07,0:36:43.32,Default,,0000,0000,0000,,Oh, God.
+Dialogue: 0,0:36:45.07,0:36:46.49,Default,,0000,0000,0000,,[SOPHlE COOING]
+Dialogue: 0,0:36:46.95,0:36:48.62,Default,,0000,0000,0000,,Oh, it's burning my eyes.
+Dialogue: 0,0:36:48.78,0:36:51.45,Default,,0000,0000,0000,,I'm getting the feeling\Nthis is a reconnaissance mission.
+Dialogue: 0,0:36:51.62,0:36:53.08,Default,,0000,0000,0000,,DEEDEE:\NNo one else is thinking that.
+Dialogue: 0,0:36:53.25,0:36:54.66,Default,,0000,0000,0000,,-Oh, hi.\NBETH: Hi.
+Dialogue: 0,0:36:54.83,0:36:56.25,Default,,0000,0000,0000,,-Hi.\N-Hello.
+Dialogue: 0,0:36:56.42,0:36:58.54,Default,,0000,0000,0000,,-Surprise.\N-The athlete.
+Dialogue: 0,0:36:58.71,0:37:00.38,Default,,0000,0000,0000,,-Yeah, how's it going?\NMESSER: My Two Dads.
+Dialogue: 0,0:37:00.55,0:37:02.67,Default,,0000,0000,0000,,-What's up, buddy?\N-Here comes the block.
+Dialogue: 0,0:37:02.84,0:37:03.97,Default,,0000,0000,0000,,What's going on?
+Dialogue: 0,0:37:04.13,0:37:07.64,Default,,0000,0000,0000,,Just, you know, bringing you\Nsome covered dishes and whatnot.
+Dialogue: 0,0:37:07.80,0:37:10.39,Default,,0000,0000,0000,,New parents, gotta stock the fridge.\NOne, two, three.
+Dialogue: 0,0:37:10.56,0:37:11.89,Default,,0000,0000,0000,,Just because. Ha, ha!
+Dialogue: 0,0:37:14.31,0:37:17.10,Default,,0000,0000,0000,,-Come on in.\N-Oh, how unexpected.
+Dialogue: 0,0:37:17.27,0:37:18.56,Default,,0000,0000,0000,,Hope it's not a bad time.
+Dialogue: 0,0:37:18.73,0:37:22.28,Default,,0000,0000,0000,,Okay. Look at that, all clean.
+Dialogue: 0,0:37:22.44,0:37:25.90,Default,,0000,0000,0000,,Hey, the neighborhood watch is here.\NThey brought us some--
+Dialogue: 0,0:37:26.57,0:37:29.16,Default,,0000,0000,0000,,What? She's perfect, no thanks to you.
+Dialogue: 0,0:37:29.33,0:37:33.75,Default,,0000,0000,0000,,-Holly, you have a--\N-Save it, Messer. You big coward.
+Dialogue: 0,0:37:34.41,0:37:36.62,Default,,0000,0000,0000,,Okay. Come on.
+Dialogue: 0,0:37:37.00,0:37:38.67,Default,,0000,0000,0000,,[PEOPLE CHATTERlNG]
+Dialogue: 0,0:37:38.92,0:37:40.75,Default,,0000,0000,0000,,JOSH: Hey.\NBETH: What a surprise.
+Dialogue: 0,0:37:40.92,0:37:43.38,Default,,0000,0000,0000,,Hey, guys, we weren't expecting you.\NWhat a surprise.
+Dialogue: 0,0:37:44.09,0:37:45.59,Default,,0000,0000,0000,,DEEDEE:\NOh.
+Dialogue: 0,0:37:45.76,0:37:46.93,Default,,0000,0000,0000,,What?
+Dialogue: 0,0:37:47.09,0:37:49.34,Default,,0000,0000,0000,,Sweetie, you have shit on your face.
+Dialogue: 0,0:37:51.18,0:37:52.56,Default,,0000,0000,0000,,-So....\N-Yeah.
+Dialogue: 0,0:37:57.98,0:37:59.94,Default,,0000,0000,0000,,-Who's hungry?\N-l am.
+Dialogue: 0,0:38:00.11,0:38:01.44,Default,,0000,0000,0000,,-This one.\N-Should we dive in?
+Dialogue: 0,0:38:01.61,0:38:04.03,Default,,0000,0000,0000,,-You got a little more, on the right.\N-Just shut up.
+Dialogue: 0,0:38:04.19,0:38:05.19,Default,,0000,0000,0000,,-Okay.\N-l swear.
+Dialogue: 0,0:38:05.36,0:38:07.40,Default,,0000,0000,0000,,I'm just trying to help.
+Dialogue: 0,0:38:07.86,0:38:09.11,Default,,0000,0000,0000,,[LAUGHlNG]
+Dialogue: 0,0:38:11.37,0:38:15.16,Default,,0000,0000,0000,,-You doing okay? You look a little tired.\N-That would be the not sleeping.
+Dialogue: 0,0:38:15.33,0:38:17.08,Default,,0000,0000,0000,,-Doesn't show.\N-You don't look tired.
+Dialogue: 0,0:38:17.25,0:38:20.17,Default,,0000,0000,0000,,Don't worry, because you're not\Ngonna sleep for 1 0 years.
+Dialogue: 0,0:38:20.33,0:38:21.38,Default,,0000,0000,0000,,Surprise.
+Dialogue: 0,0:38:21.54,0:38:24.09,Default,,0000,0000,0000,,And you're never gonna\Nget used to children's music.
+Dialogue: 0,0:38:24.26,0:38:25.30,Default,,0000,0000,0000,,TED: Oh, God.\NJOSH: No.
+Dialogue: 0,0:38:25.46,0:38:29.09,Default,,0000,0000,0000,,If l knew where the Wiggles lived,\Nand l'm working on it...
+Dialogue: 0,0:38:29.26,0:38:31.14,Default,,0000,0000,0000,,...l would murder them with an AK-47.
+Dialogue: 0,0:38:31.30,0:38:32.93,Default,,0000,0000,0000,,-l'm very serious.\N-No new parents--
+Dialogue: 0,0:38:33.10,0:38:35.31,Default,,0000,0000,0000,,I don't think any of us knew\Nwhat we were doing.
+Dialogue: 0,0:38:35.47,0:38:36.77,Default,,0000,0000,0000,,-Not a clue.\NBETH: Not a clue.
+Dialogue: 0,0:38:36.93,0:38:41.23,Default,,0000,0000,0000,,I mean, we had nine months to get ready\Nand we still screw up about half the time.
+Dialogue: 0,0:38:41.40,0:38:44.36,Default,,0000,0000,0000,,-He sure does.\N-No, I said "we," actually.
+Dialogue: 0,0:38:44.90,0:38:47.03,Default,,0000,0000,0000,,DEEDEE: Do you know what?\NI'm gonna get real serious.
+Dialogue: 0,0:38:47.19,0:38:49.90,Default,,0000,0000,0000,,You gotta get two things straight.\NOne, get a sitter.
+Dialogue: 0,0:38:50.07,0:38:51.41,Default,,0000,0000,0000,,-And a backup.\N-Absolutely.
+Dialogue: 0,0:38:51.57,0:38:52.95,Default,,0000,0000,0000,,TED: Yeah.\NDEEDEE: Next, important:
+Dialogue: 0,0:38:53.12,0:38:56.45,Default,,0000,0000,0000,,-You can never have enough paper towels.\NGARY: And don't shop at Shop Now.
+Dialogue: 0,0:38:56.62,0:38:59.37,Default,,0000,0000,0000,,They're always out of milk\Nand don't carry unscented wipes.
+Dialogue: 0,0:38:59.54,0:39:01.50,Default,,0000,0000,0000,,When you order Motrin, get the dye-free.
+Dialogue: 0,0:39:01.67,0:39:05.00,Default,,0000,0000,0000,,Oh, no BPAs. Sippy cups, any plastics.\NYou don't want those chemicals.
+Dialogue: 0,0:39:05.17,0:39:07.59,Default,,0000,0000,0000,,Alison wanted Sophie to go\Nto Big Wagon Preschool...
+Dialogue: 0,0:39:07.76,0:39:10.22,Default,,0000,0000,0000,,...so you may wanna think\Nabout making donations.
+Dialogue: 0,0:39:10.38,0:39:11.43,Default,,0000,0000,0000,,Like, yesterday.
+Dialogue: 0,0:39:11.59,0:39:15.18,Default,,0000,0000,0000,,Okay, maybe we should start\Nto write this down.
+Dialogue: 0,0:39:19.89,0:39:21.69,Default,,0000,0000,0000,,[SPEAKING INDISTINCTLY]
+Dialogue: 0,0:39:22.61,0:39:25.27,Default,,0000,0000,0000,,One bite, one bite, one bite.
+Dialogue: 0,0:39:26.86,0:39:28.28,Default,,0000,0000,0000,,[SOPHlE LAUGHlNG]
+Dialogue: 0,0:39:32.99,0:39:34.41,Default,,0000,0000,0000,,HOLLY: The week.\N-Can't do that.
+Dialogue: 0,0:39:34.58,0:39:36.62,Default,,0000,0000,0000,,HOLLY: You're writing my name.\N-l already did--
+Dialogue: 0,0:39:36.79,0:39:40.29,Default,,0000,0000,0000,,There we go. Okay, Sophie girl.
+Dialogue: 0,0:39:40.46,0:39:43.12,Default,,0000,0000,0000,,-Your bath time, your bath time.\N-Oh! Okay, get the baby.
+Dialogue: 0,0:39:43.29,0:39:45.92,Default,,0000,0000,0000,,-Your bath time, your bath time.\N-All right.
+Dialogue: 0,0:39:46.50,0:39:48.67,Default,,0000,0000,0000,,All right, how about that?
+Dialogue: 0,0:39:48.84,0:39:50.34,Default,,0000,0000,0000,,No?
+Dialogue: 0,0:39:51.84,0:39:53.55,Default,,0000,0000,0000,,How about this one?
+Dialogue: 0,0:39:54.64,0:39:56.14,Default,,0000,0000,0000,,No?
+Dialogue: 0,0:40:08.57,0:40:10.15,Default,,0000,0000,0000,,[TOYS SQUEAKlNG]
+Dialogue: 0,0:40:14.03,0:40:15.32,Default,,0000,0000,0000,,[TOY SQUEAKS]
+Dialogue: 0,0:40:17.37,0:40:19.62,Default,,0000,0000,0000,,ANNOUNCER 1 [ON TV]:\NPatterson with the turnaround.
+Dialogue: 0,0:40:19.79,0:40:21.16,Default,,0000,0000,0000,,Yeah!
+Dialogue: 0,0:40:21.37,0:40:22.54,Default,,0000,0000,0000,,[CRYING]
+Dialogue: 0,0:40:22.87,0:40:25.38,Default,,0000,0000,0000,,What? You wanna watch something else?
+Dialogue: 0,0:40:25.54,0:40:26.71,Default,,0000,0000,0000,,ANNOUNCER 2:\NHe shoots--
+Dialogue: 0,0:40:27.46,0:40:29.80,Default,,0000,0000,0000,,No, come on, missed the....
+Dialogue: 0,0:40:31.05,0:40:33.63,Default,,0000,0000,0000,,NARRATOR:\NIt's time to wiggle.
+Dialogue: 0,0:40:38.47,0:40:40.01,Default,,0000,0000,0000,,[SOPHlE GlGGLING]
+Dialogue: 0,0:40:56.12,0:40:58.07,Default,,0000,0000,0000,,There we go.
+Dialogue: 0,0:41:00.41,0:41:01.83,Default,,0000,0000,0000,,[GASPS]
+Dialogue: 0,0:41:02.00,0:41:03.04,Default,,0000,0000,0000,,[SOPHlE GlGGLES]
+Dialogue: 0,0:41:03.21,0:41:06.12,Default,,0000,0000,0000,,You okay? You okay? Good.\NOkay. l'm sorry.
+Dialogue: 0,0:41:09.50,0:41:11.09,Default,,0000,0000,0000,,Please?
+Dialogue: 0,0:41:16.30,0:41:18.43,Default,,0000,0000,0000,,-She's making the poop face.\N-What do you mean?
+Dialogue: 0,0:41:18.60,0:41:20.81,Default,,0000,0000,0000,,Poop face.\NOh, God, she's gonna poop in the tub.
+Dialogue: 0,0:41:20.97,0:41:23.02,Default,,0000,0000,0000,,Hurry up, hurry up.\NShe's gonna poop on me.
+Dialogue: 0,0:41:23.18,0:41:25.64,Default,,0000,0000,0000,,-l don't know how to do this.\N-She's gonna poop on me.
+Dialogue: 0,0:41:25.81,0:41:29.27,Default,,0000,0000,0000,,You know what? Move, move. Let me do it.\NHere. Just take her. I got it.
+Dialogue: 0,0:41:29.73,0:41:32.61,Default,,0000,0000,0000,,-Come on. I hate this thing.\N-There's a latch. Pull the lever--
+Dialogue: 0,0:41:32.78,0:41:36.20,Default,,0000,0000,0000,,-Okay. Don't start. Sorry.\N-No, no, no, not the hat.
+Dialogue: 0,0:41:36.36,0:41:38.28,Default,,0000,0000,0000,,Oh, my God, that's my hat.
+Dialogue: 0,0:41:38.45,0:41:40.87,Default,,0000,0000,0000,,That's my--\NI've had that hat since high school.
+Dialogue: 0,0:41:41.04,0:41:43.50,Default,,0000,0000,0000,,-l'll wash it.\N-Oh, yeah. Oh, it's funny.
+Dialogue: 0,0:41:43.66,0:41:48.92,Default,,0000,0000,0000,,Yeah, laugh it off. Laugh it off.\NOkay, that's real funny.
+Dialogue: 0,0:41:49.08,0:41:51.04,Default,,0000,0000,0000,,Oh, God.
+Dialogue: 0,0:41:51.21,0:41:54.09,Default,,0000,0000,0000,,Um, I think we should just....
+Dialogue: 0,0:42:00.47,0:42:02.10,Default,,0000,0000,0000,,-Hey, what is that?\N-What?
+Dialogue: 0,0:42:02.26,0:42:04.77,Default,,0000,0000,0000,,That lump. What's that?
+Dialogue: 0,0:42:04.93,0:42:06.89,Default,,0000,0000,0000,,-That's her bellybutton.\N-No, it's not.
+Dialogue: 0,0:42:07.06,0:42:09.48,Default,,0000,0000,0000,,That wasn't there.\NThat was not there a few days ago.
+Dialogue: 0,0:42:09.65,0:42:12.40,Default,,0000,0000,0000,,-lt's just an outie, isn't it?\N-No, it's not an outie.
+Dialogue: 0,0:42:13.61,0:42:14.94,Default,,0000,0000,0000,,I don't think.
+Dialogue: 0,0:42:16.95,0:42:17.99,Default,,0000,0000,0000,,HOLLY:\NHow does this...?
+Dialogue: 0,0:42:18.16,0:42:21.12,Default,,0000,0000,0000,,What are these numbers on here?\NWhat does that mean?
+Dialogue: 0,0:42:21.28,0:42:22.37,Default,,0000,0000,0000,,Why is this...?
+Dialogue: 0,0:42:24.20,0:42:26.87,Default,,0000,0000,0000,,No one's gonna steal a stroller.
+Dialogue: 0,0:42:27.04,0:42:29.50,Default,,0000,0000,0000,,We can't afford to be snobby.\NIt's our biggest event.
+Dialogue: 0,0:42:29.67,0:42:31.38,Default,,0000,0000,0000,,Bring out all the crowd pleasers.
+Dialogue: 0,0:42:31.54,0:42:34.30,Default,,0000,0000,0000,,Anything wrapped in bacon,\Nand the mushroom vol-au-vent.
+Dialogue: 0,0:42:34.46,0:42:36.63,Default,,0000,0000,0000,,Sorry to keep you waiting.
+Dialogue: 0,0:42:37.13,0:42:39.26,Default,,0000,0000,0000,,-l gotta call you back.\N-Holly.
+Dialogue: 0,0:42:39.64,0:42:40.68,Default,,0000,0000,0000,,Free-Range Turkey.
+Dialogue: 0,0:42:41.64,0:42:45.01,Default,,0000,0000,0000,,-Dr. Free-Range Turkey.\N-Yes, Sam. l remember.
+Dialogue: 0,0:42:45.18,0:42:47.39,Default,,0000,0000,0000,,I heard about the accident.
+Dialogue: 0,0:42:47.56,0:42:49.98,Default,,0000,0000,0000,,I am so sorry about your friends.
+Dialogue: 0,0:42:50.15,0:42:51.40,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:42:51.98,0:42:55.44,Default,,0000,0000,0000,,Hey, you left me a half-message,\Nonly it was the half without your number.
+Dialogue: 0,0:42:55.61,0:42:58.32,Default,,0000,0000,0000,,Yeah, something-- Someone came up.
+Dialogue: 0,0:42:58.49,0:42:59.82,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,0:42:59.99,0:43:02.49,Default,,0000,0000,0000,,-How we doing?\N-lt's all right, sweetheart.
+Dialogue: 0,0:43:03.74,0:43:07.41,Default,,0000,0000,0000,,Is she sleeping okay?\NRegular bowel movements?
+Dialogue: 0,0:43:07.58,0:43:10.79,Default,,0000,0000,0000,,Not at first, but now very regular.
+Dialogue: 0,0:43:10.96,0:43:13.29,Default,,0000,0000,0000,,But she does have this protrusion\Non her stomach.
+Dialogue: 0,0:43:13.46,0:43:17.38,Default,,0000,0000,0000,,I don't know, you know, what it is.\NI'm not sure what l'm supposed to look for.
+Dialogue: 0,0:43:17.55,0:43:20.22,Default,,0000,0000,0000,,I don't really know anything about kids.
+Dialogue: 0,0:43:20.38,0:43:22.80,Default,,0000,0000,0000,,Alison was the first of my friends\Nto have a baby...
+Dialogue: 0,0:43:22.97,0:43:24.72,Default,,0000,0000,0000,,...and she was amazing with Sophie.
+Dialogue: 0,0:43:24.89,0:43:28.02,Default,,0000,0000,0000,,And she would be the first person\NI would call about this, you know?
+Dialogue: 0,0:43:28.18,0:43:31.27,Default,,0000,0000,0000,,I mean, she was the first person l called\Nabout everything and....
+Dialogue: 0,0:43:31.44,0:43:34.56,Default,,0000,0000,0000,,God. It is killing me.
+Dialogue: 0,0:43:34.73,0:43:37.65,Default,,0000,0000,0000,,It is killing me right now\Nthat I can't call my friend.
+Dialogue: 0,0:43:37.82,0:43:39.86,Default,,0000,0000,0000,,She just....
+Dialogue: 0,0:43:40.03,0:43:43.28,Default,,0000,0000,0000,,And l'd really like to say,\N"What the hell were you thinking?
+Dialogue: 0,0:43:43.45,0:43:45.62,Default,,0000,0000,0000,,You could've left me your pearls\Nor YSL clutch.
+Dialogue: 0,0:43:45.78,0:43:47.20,Default,,0000,0000,0000,,I mean, this is a little much.
+Dialogue: 0,0:43:47.37,0:43:50.87,Default,,0000,0000,0000,,It's really, really hard,\Nand l don't know what I'm doing."
+Dialogue: 0,0:43:51.04,0:43:53.21,Default,,0000,0000,0000,,I don't know what l'm doing.
+Dialogue: 0,0:44:00.97,0:44:02.05,Default,,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:44:02.47,0:44:04.72,Default,,0000,0000,0000,,No, I think you're doing pretty well,\Nconsidering.
+Dialogue: 0,0:44:05.93,0:44:09.18,Default,,0000,0000,0000,,Sophie's got an umbilical hernia.
+Dialogue: 0,0:44:10.06,0:44:13.35,Default,,0000,0000,0000,,It's nothing to worry about.\NMost go away on their own. We'll watch it.
+Dialogue: 0,0:44:13.52,0:44:15.69,Default,,0000,0000,0000,,-Then l didn't do it?\N-No, you did not do it.
+Dialogue: 0,0:44:15.86,0:44:17.52,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:44:20.03,0:44:22.32,Default,,0000,0000,0000,,I thought you said it goes away\Non its own.
+Dialogue: 0,0:44:23.57,0:44:24.66,Default,,0000,0000,0000,,That's for you.
+Dialogue: 0,0:44:27.58,0:44:30.33,Default,,0000,0000,0000,,"One bottle of Pinot Noir,\None to two glasses as needed."
+Dialogue: 0,0:44:30.50,0:44:32.54,Default,,0000,0000,0000,,Or white. Same dosage, though.
+Dialogue: 0,0:44:33.42,0:44:37.75,Default,,0000,0000,0000,,Look, what you're doing is pretty incredible.\NGive yourself a break every now and again.
+Dialogue: 0,0:44:37.92,0:44:40.96,Default,,0000,0000,0000,,-Thank you.\N-l'll have my nurse set you up in a week?
+Dialogue: 0,0:44:41.13,0:44:42.30,Default,,0000,0000,0000,,-Okay.\N-All right.
+Dialogue: 0,0:44:42.47,0:44:45.13,Default,,0000,0000,0000,,Bye, Sophie. You're gonna be okay.
+Dialogue: 0,0:44:45.68,0:44:48.26,Default,,0000,0000,0000,,-Nice to see you.\N-You too, really.
+Dialogue: 0,0:44:48.43,0:44:49.60,Default,,0000,0000,0000,,[DOOR OPENS]
+Dialogue: 0,0:44:49.77,0:44:51.85,Default,,0000,0000,0000,,MESSER:\NSo l'm at the drugstore...
+Dialogue: 0,0:44:52.02,0:44:55.19,Default,,0000,0000,0000,,...and it dawns on me\Nthat women stare at men carrying a baby...
+Dialogue: 0,0:44:55.35,0:44:58.36,Default,,0000,0000,0000,,...like a guy will stare at a woman\Nwith a great rack.
+Dialogue: 0,0:44:59.98,0:45:02.11,Default,,0000,0000,0000,,You know what l just realized today?
+Dialogue: 0,0:45:02.28,0:45:04.53,Default,,0000,0000,0000,,I am never gonna take a great bath\Nin this house.
+Dialogue: 0,0:45:04.70,0:45:07.74,Default,,0000,0000,0000,,This is a shower house.\NYou never brush your hair, do you?
+Dialogue: 0,0:45:07.91,0:45:11.12,Default,,0000,0000,0000,,It must save so much time.\NThat's so handy.
+Dialogue: 0,0:45:11.29,0:45:13.04,Default,,0000,0000,0000,,-How's that wine treating you?\N-Mmm-hmm.
+Dialogue: 0,0:45:13.21,0:45:14.29,Default,,0000,0000,0000,,MESSER:\NMm-hm.
+Dialogue: 0,0:45:14.46,0:45:15.96,Default,,0000,0000,0000,,-Did you want some?\N-No, no, no.
+Dialogue: 0,0:45:16.13,0:45:18.50,Default,,0000,0000,0000,,Because I can share. I'm a good sharer.
+Dialogue: 0,0:45:18.96,0:45:22.05,Default,,0000,0000,0000,,No, you don't need any,\Nbecause you never worry.
+Dialogue: 0,0:45:22.67,0:45:25.55,Default,,0000,0000,0000,,That's what Alison told me, you know,\Nwhen she set us up.
+Dialogue: 0,0:45:25.72,0:45:29.60,Default,,0000,0000,0000,,She said, "Honey, you just got your ass\Ndumped by your boyfriend of three years.
+Dialogue: 0,0:45:29.76,0:45:34.31,Default,,0000,0000,0000,,You need to go have a good time."\NAnd then, ta-da, you show up.
+Dialogue: 0,0:45:34.48,0:45:36.06,Default,,0000,0000,0000,,Your charming self shows up...
+Dialogue: 0,0:45:36.23,0:45:38.48,Default,,0000,0000,0000,,...and you don't even wanna go\Nto the restaurant.
+Dialogue: 0,0:45:38.65,0:45:42.82,Default,,0000,0000,0000,,My first date in three years,\Nand it's a total asshole at the door.
+Dialogue: 0,0:45:42.99,0:45:44.15,Default,,0000,0000,0000,,[HOLLY LAUGHS]
+Dialogue: 0,0:45:44.32,0:45:46.36,Default,,0000,0000,0000,,And now I'm raising a kid\Nwith that asshole.
+Dialogue: 0,0:45:46.53,0:45:49.49,Default,,0000,0000,0000,,-God, the irony.\N-Come on, off to bed. Up, up, up.
+Dialogue: 0,0:45:49.66,0:45:53.49,Default,,0000,0000,0000,,You are, you know that, right? An asshole?\NIt feels good to say that to your face.
+Dialogue: 0,0:45:53.66,0:45:56.91,Default,,0000,0000,0000,,-Been saying it behind your back for years.\N-A belligerent drunk. Great.
+Dialogue: 0,0:45:57.08,0:45:58.33,Default,,0000,0000,0000,,That'll be a fun next 1 8 years.
+Dialogue: 0,0:45:58.50,0:45:59.50,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,0:45:59.67,0:46:03.09,Default,,0000,0000,0000,,Everybody thinks l'm a fun drunk.\NSomeone's at the door. Who is it?
+Dialogue: 0,0:46:03.51,0:46:04.80,Default,,0000,0000,0000,,It's probably a neighbor.
+Dialogue: 0,0:46:06.13,0:46:08.09,Default,,0000,0000,0000,,-Yes?\N-Hi, I'm Janine Groff.
+Dialogue: 0,0:46:09.09,0:46:10.97,Default,,0000,0000,0000,,Your caseworker from Social Services.
+Dialogue: 0,0:46:12.14,0:46:13.18,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:46:13.35,0:46:15.81,Default,,0000,0000,0000,,You were told\Nwe'd be making a few unannounced visits.
+Dialogue: 0,0:46:16.35,0:46:17.52,Default,,0000,0000,0000,,HOLLY:\NOw.
+Dialogue: 0,0:46:18.02,0:46:20.44,Default,,0000,0000,0000,,Yeah, well,\Nthis is definitely unannounced.
+Dialogue: 0,0:46:21.15,0:46:23.44,Default,,0000,0000,0000,,-Just give me one minute.\N-May I come in? No?
+Dialogue: 0,0:46:23.61,0:46:25.36,Default,,0000,0000,0000,,-Who is that?\N-Social Services.
+Dialogue: 0,0:46:25.53,0:46:27.03,Default,,0000,0000,0000,,You got five minutes to shower...
+Dialogue: 0,0:46:27.20,0:46:30.70,Default,,0000,0000,0000,,...and start acting like the responsible pain\Nyou've been since we moved in.
+Dialogue: 0,0:46:30.87,0:46:32.99,Default,,0000,0000,0000,,-Okay.\N-Go, go, go.
+Dialogue: 0,0:46:34.41,0:46:36.41,Default,,0000,0000,0000,,Upstair-- Upstairs.\NYour room is up here, remember?
+Dialogue: 0,0:46:36.58,0:46:37.62,Default,,0000,0000,0000,,[HOLLY GIGGLlNG]
+Dialogue: 0,0:46:37.79,0:46:38.92,Default,,0000,0000,0000,,-l'm sorry.\N-Go, go, go.
+Dialogue: 0,0:46:39.08,0:46:42.38,Default,,0000,0000,0000,,-l'm going. Stop pushing me. Don't push.\N-Just-- l didn't....
+Dialogue: 0,0:46:42.54,0:46:44.67,Default,,0000,0000,0000,,You sure you don't wanna see\Nthe garage again?
+Dialogue: 0,0:46:44.84,0:46:45.92,Default,,0000,0000,0000,,Nope, twice is my limit.
+Dialogue: 0,0:46:46.09,0:46:49.09,Default,,0000,0000,0000,,I have a whole area of tools\Nyou didn't even get a chance to see.
+Dialogue: 0,0:46:49.26,0:46:51.39,Default,,0000,0000,0000,,I'm good.\NI'm usually wrapping up by now and--
+Dialogue: 0,0:46:51.55,0:46:55.26,Default,,0000,0000,0000,,Hello. I'm so sorry.\NI had to get the little one down.
+Dialogue: 0,0:46:57.60,0:46:58.77,Default,,0000,0000,0000,,Oh.
+Dialogue: 0,0:46:58.94,0:47:02.61,Default,,0000,0000,0000,,And you can see why. Take your eyes\Noff her for one minute and, zoom!
+Dialogue: 0,0:47:02.77,0:47:05.69,Default,,0000,0000,0000,,You know? Just "tee-tee-tee-tee-tee"\Non her little legs.
+Dialogue: 0,0:47:06.53,0:47:09.70,Default,,0000,0000,0000,,Okay, well, let's get started, then.
+Dialogue: 0,0:47:10.07,0:47:11.95,Default,,0000,0000,0000,,Okay, so let's just talk.
+Dialogue: 0,0:47:12.12,0:47:15.37,Default,,0000,0000,0000,,You know, I just wanna get a sense\Nof the both of you, your plans.
+Dialogue: 0,0:47:15.54,0:47:17.41,Default,,0000,0000,0000,,Where do you see yourselves\Nin five years?
+Dialogue: 0,0:47:17.58,0:47:18.62,Default,,0000,0000,0000,,Ooh, ooh! Ooh!
+Dialogue: 0,0:47:18.79,0:47:20.71,Default,,0000,0000,0000,,-Ask me. l know. Great answer.\N-You don't--
+Dialogue: 0,0:47:20.87,0:47:21.92,Default,,0000,0000,0000,,No, I'm good, l'm good.
+Dialogue: 0,0:47:22.08,0:47:26.17,Default,,0000,0000,0000,,I own a small gourmet-food store,\Nsoon to be a small gourmet restaurant.
+Dialogue: 0,0:47:26.34,0:47:29.05,Default,,0000,0000,0000,,We're expanding.\NNew flooring, l'm thinking hexagonal tile.
+Dialogue: 0,0:47:29.22,0:47:31.93,Default,,0000,0000,0000,,New flooring.\NThat's part of everyone's five-year plans.
+Dialogue: 0,0:47:32.09,0:47:33.09,Default,,0000,0000,0000,,Flooring, right?
+Dialogue: 0,0:47:33.26,0:47:36.22,Default,,0000,0000,0000,,Anyway, I'm also hoping someday\Nto have my own frozen-food line.
+Dialogue: 0,0:47:36.39,0:47:39.52,Default,,0000,0000,0000,,Organic. But that's the 1 0-year plan.\NYou asked about the five-year.
+Dialogue: 0,0:47:39.69,0:47:41.35,Default,,0000,0000,0000,,Oh, God, l didn't include Sophie.
+Dialogue: 0,0:47:41.52,0:47:43.31,Default,,0000,0000,0000,,MESSER: You didn't.\N-Let me just take it back.
+Dialogue: 0,0:47:43.48,0:47:46.44,Default,,0000,0000,0000,,-She is a big part of my plan.\N-That's fine. Thank you.
+Dialogue: 0,0:47:47.07,0:47:49.24,Default,,0000,0000,0000,,-Okay.\N-Eric.
+Dialogue: 0,0:47:51.03,0:47:53.28,Default,,0000,0000,0000,,-Yep, Eric's good. Eric will be fine.\N-Okay, Eric.
+Dialogue: 0,0:47:53.78,0:47:57.83,Default,,0000,0000,0000,,Well, l'm the technical director\Non all Hawks broadcasts.
+Dialogue: 0,0:47:58.41,0:47:59.79,Default,,0000,0000,0000,,-Okay.\NMESSER: Yeah.
+Dialogue: 0,0:47:59.96,0:48:01.79,Default,,0000,0000,0000,,So, what does the technical director do?
+Dialogue: 0,0:48:01.96,0:48:06.38,Default,,0000,0000,0000,,Well, when the director says,\N"Ready, go Camera 1 ," l'm the guy that--
+Dialogue: 0,0:48:06.55,0:48:10.51,Default,,0000,0000,0000,,-l push the button that goes Camera 1 .\N-He pushes the button.
+Dialogue: 0,0:48:10.97,0:48:12.47,Default,,0000,0000,0000,,And l guess in a couple years...
+Dialogue: 0,0:48:12.63,0:48:16.18,Default,,0000,0000,0000,,...when the boss gets kicked upstairs\Nor gets pinched with a tranny hooker...
+Dialogue: 0,0:48:16.35,0:48:18.56,Default,,0000,0000,0000,,...l'll get my shot in the director's chair.
+Dialogue: 0,0:48:18.72,0:48:19.97,Default,,0000,0000,0000,,[MESSER CHUCKLING]
+Dialogue: 0,0:48:20.14,0:48:23.52,Default,,0000,0000,0000,,Okay. So Mr. Dunn tells me\Nthat you're both single...
+Dialogue: 0,0:48:23.69,0:48:28.11,Default,,0000,0000,0000,,...and presently not engaged\Nin a relationship.
+Dialogue: 0,0:48:28.28,0:48:29.86,Default,,0000,0000,0000,,-Not sleeping together?\N-God, no.
+Dialogue: 0,0:48:30.03,0:48:31.36,Default,,0000,0000,0000,,-Okay, good.\NHOLLY: Oh, my God, no.
+Dialogue: 0,0:48:31.53,0:48:33.36,Default,,0000,0000,0000,,-No, no, no.\N-Not a chance.
+Dialogue: 0,0:48:33.53,0:48:35.62,Default,,0000,0000,0000,,Okay, that's great,\Nbecause this situation...
+Dialogue: 0,0:48:35.78,0:48:38.66,Default,,0000,0000,0000,,...two single people\Nliving under the same roof...
+Dialogue: 0,0:48:38.83,0:48:42.66,Default,,0000,0000,0000,,...raising a recently orphaned child,\Nwell, it's complicated enough...
+Dialogue: 0,0:48:42.83,0:48:46.25,Default,,0000,0000,0000,,...without the added complication of,\Nyou know, that.
+Dialogue: 0,0:48:46.42,0:48:49.84,Default,,0000,0000,0000,,Oh, trust me, Janine, we will not\Nbe complicating anything with that.
+Dialogue: 0,0:48:50.01,0:48:51.71,Default,,0000,0000,0000,,Yeah, l get plenty of that elsewhere.
+Dialogue: 0,0:48:51.88,0:48:54.84,Default,,0000,0000,0000,,-l'd get plenty of that in my day as well.\N-Way back in the day.
+Dialogue: 0,0:48:55.01,0:48:56.47,Default,,0000,0000,0000,,Listen.
+Dialogue: 0,0:48:56.64,0:48:59.47,Default,,0000,0000,0000,,You two both seem like two sweet,\Ndoe-eyed people...
+Dialogue: 0,0:48:59.68,0:49:01.81,Default,,0000,0000,0000,,...about to have the worst year\Nof your lives.
+Dialogue: 0,0:49:01.98,0:49:04.94,Default,,0000,0000,0000,,I'll be honest with you.\NWanna make jokes about tranny hookers?
+Dialogue: 0,0:49:05.10,0:49:06.27,Default,,0000,0000,0000,,Go for it, l don't care.
+Dialogue: 0,0:49:06.44,0:49:09.07,Default,,0000,0000,0000,,You have no idea the types of families\Nthat I deal with.
+Dialogue: 0,0:49:09.23,0:49:12.07,Default,,0000,0000,0000,,Tranny hookers? They're my good cases.
+Dialogue: 0,0:49:12.24,0:49:13.90,Default,,0000,0000,0000,,The only obstacle here is you two...
+Dialogue: 0,0:49:14.45,0:49:17.07,Default,,0000,0000,0000,,...and whether or not you're both cut out\Nto be parents.
+Dialogue: 0,0:49:17.24,0:49:21.41,Default,,0000,0000,0000,,What we want to avoid is Sophie\Nlosing more people that she's close to.
+Dialogue: 0,0:49:22.83,0:49:27.67,Default,,0000,0000,0000,,You know, your friends thought\Nyou could do this, but l'll be honest...
+Dialogue: 0,0:49:27.83,0:49:29.88,Default,,0000,0000,0000,,...l'm not so sure.
+Dialogue: 0,0:49:31.13,0:49:32.13,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,0:49:32.92,0:49:36.13,Default,,0000,0000,0000,,HOLLY: How can l be hung-over\Nif l haven't even gone to sleep yet?
+Dialogue: 0,0:49:36.30,0:49:39.39,Default,,0000,0000,0000,,Look, all we have to do is put her down.\NWe just gotta put her--
+Dialogue: 0,0:49:39.55,0:49:44.02,Default,,0000,0000,0000,,She's not warm. She doesn't have a fever.\NShe's just overtired.
+Dialogue: 0,0:49:44.18,0:49:47.06,Default,,0000,0000,0000,,-What time is it?\N-lt's okay, Soph. Come on, honey.
+Dialogue: 0,0:49:47.23,0:49:50.98,Default,,0000,0000,0000,,-l don't know. Start wearing a watch.\N-There's gotta be somebody we can call.
+Dialogue: 0,0:49:51.15,0:49:53.99,Default,,0000,0000,0000,,MESSER: Hey, thank you for coming over.\NAMY: lt's okay.
+Dialogue: 0,0:49:54.15,0:49:57.45,Default,,0000,0000,0000,,Sorry about your dad.\NHe's a pretty scary dude, huh?
+Dialogue: 0,0:49:57.74,0:49:59.57,Default,,0000,0000,0000,,-Come here, Sophie.\N-The baby whisperer.
+Dialogue: 0,0:49:59.74,0:50:00.78,Default,,0000,0000,0000,,AMY: lt's okay.\N-Yeah.
+Dialogue: 0,0:50:00.95,0:50:01.99,Default,,0000,0000,0000,,Thank you, Amy.
+Dialogue: 0,0:50:02.16,0:50:03.91,Default,,0000,0000,0000,,[FAN WHlRRlNG]
+Dialogue: 0,0:50:06.92,0:50:09.58,Default,,0000,0000,0000,,I don't know why,\Nbut this fan always helps.
+Dialogue: 0,0:50:09.75,0:50:12.71,Default,,0000,0000,0000,,-Beats having to take her for a drive.\NBOTH: Yeah.
+Dialogue: 0,0:50:12.88,0:50:15.88,Default,,0000,0000,0000,,Anyway, big math test tomorrow, so....
+Dialogue: 0,0:50:17.93,0:50:19.14,Default,,0000,0000,0000,,[WHlSPERS]\NGive her some money.
+Dialogue: 0,0:50:19.30,0:50:20.85,Default,,0000,0000,0000,,Oh, Amy, Amy.
+Dialogue: 0,0:50:22.43,0:50:25.14,Default,,0000,0000,0000,,It's okay.\NDoesn't feel right to take it anymore.
+Dialogue: 0,0:50:25.31,0:50:26.43,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,0:50:26.60,0:50:28.44,Default,,0000,0000,0000,,-Give her the money.\N-No, I insist.
+Dialogue: 0,0:50:30.23,0:50:32.94,Default,,0000,0000,0000,,-Thank you so much.\NMESSER: Thank you.
+Dialogue: 0,0:50:33.11,0:50:35.65,Default,,0000,0000,0000,,-Good luck on your math test.\N-Okay, bye-bye.
+Dialogue: 0,0:50:35.82,0:50:38.78,Default,,0000,0000,0000,,-Oh, thank God. Whew.\N-l know.
+Dialogue: 0,0:50:38.95,0:50:40.20,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,0:50:40.37,0:50:43.74,Default,,0000,0000,0000,,-Oh, no.\N-No, no, no.
+Dialogue: 0,0:50:44.29,0:50:47.66,Default,,0000,0000,0000,,HOLLY: Too close. You're holding her too--\NLook, you're gonna chop her head off.
+Dialogue: 0,0:50:47.83,0:50:50.17,Default,,0000,0000,0000,,-That's what the babysitter was doing.\N-She wasn't.
+Dialogue: 0,0:50:50.33,0:50:52.75,Default,,0000,0000,0000,,No, she was soothing her down here.
+Dialogue: 0,0:50:52.92,0:50:55.80,Default,,0000,0000,0000,,We're gonna go for a drive.\NWe're gonna drive around the block.
+Dialogue: 0,0:50:55.96,0:50:58.55,Default,,0000,0000,0000,,-Just go. Just go.\N-Nice and quick. Nice and quick.
+Dialogue: 0,0:50:58.72,0:51:01.43,Default,,0000,0000,0000,,HOLLY: All right, we're just gonna go\Nfor a ride around the block.
+Dialogue: 0,0:51:01.60,0:51:03.64,Default,,0000,0000,0000,,MESSER:\NWe'll get back in time for the game, huh?
+Dialogue: 0,0:51:03.81,0:51:05.47,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:51:26.50,0:51:27.66,Default,,0000,0000,0000,,[GASPS]
+Dialogue: 0,0:51:30.00,0:51:31.04,Default,,0000,0000,0000,,Hi.
+Dialogue: 0,0:51:31.37,0:51:35.00,Default,,0000,0000,0000,,Mm-hm. Absolutely.\NYeah, l'm on my way now. Okay.
+Dialogue: 0,0:51:35.17,0:51:37.84,Default,,0000,0000,0000,,Yeah, really, thank you so much.\NAll right, bye-bye.
+Dialogue: 0,0:51:38.01,0:51:39.51,Default,,0000,0000,0000,,Yes!
+Dialogue: 0,0:51:39.67,0:51:42.93,Default,,0000,0000,0000,,Yes. Burke's out, and I finally got the call\Nto direct today's game.
+Dialogue: 0,0:51:43.10,0:51:46.43,Default,,0000,0000,0000,,-Today is my Riverside event. l told you.\N-You never told me that.
+Dialogue: 0,0:51:46.60,0:51:49.18,Default,,0000,0000,0000,,You just don't listen to women\Nwho won't sleep with you.
+Dialogue: 0,0:51:49.35,0:51:51.81,Default,,0000,0000,0000,,See it there on the board?\NI'll be home at 7:30.
+Dialogue: 0,0:51:51.98,0:51:54.44,Default,,0000,0000,0000,,Come on, l can't.\NThere are no kids in the booth.
+Dialogue: 0,0:51:54.61,0:51:56.86,Default,,0000,0000,0000,,-Come on, work with me here.\N-lt's on the board.
+Dialogue: 0,0:51:57.03,0:51:58.86,Default,,0000,0000,0000,,You have any idea\Nhow big a game this is?
+Dialogue: 0,0:51:59.03,0:52:01.74,Default,,0000,0000,0000,,The Hawks are a game out\Nof the eighth seed in the East.
+Dialogue: 0,0:52:01.91,0:52:04.37,Default,,0000,0000,0000,,-Don't walk out that door.\N-You're speaking Mandarin.
+Dialogue: 0,0:52:04.53,0:52:06.24,Default,,0000,0000,0000,,I've been planning this for months.
+Dialogue: 0,0:52:06.41,0:52:09.33,Default,,0000,0000,0000,,There are plenty of mommy and daddies\Nwho are in love with you.
+Dialogue: 0,0:52:09.50,0:52:13.54,Default,,0000,0000,0000,,-Call them.\N-Hey, Beth. lt's Messer, from a-- Yeah.
+Dialogue: 0,0:52:13.71,0:52:17.21,Default,,0000,0000,0000,,Hey, I was wondering if maybe you guys\Ncould watch Sophie for a bit today.
+Dialogue: 0,0:52:17.38,0:52:20.34,Default,,0000,0000,0000,,I got a huge break.\NI get to direct the Hawks game today.
+Dialogue: 0,0:52:20.51,0:52:22.47,Default,,0000,0000,0000,,Nope, Amy can't.\NShe's got a big math test.
+Dialogue: 0,0:52:22.63,0:52:26.01,Default,,0000,0000,0000,,Yeah, l tried Josh and Beth too.\NThey're all busy. Bye-bye.
+Dialogue: 0,0:52:26.18,0:52:28.22,Default,,0000,0000,0000,,Son of a....
+Dialogue: 0,0:52:30.98,0:52:33.98,Default,,0000,0000,0000,,MAN: lt's a healthier meal\Nif you don't fry the shell.
+Dialogue: 0,0:52:34.15,0:52:36.61,Default,,0000,0000,0000,,You know what l'm saying?\NI like my taco shells baked.
+Dialogue: 0,0:52:36.77,0:52:38.48,Default,,0000,0000,0000,,MESSER: Yeah, I like them soft.\N-Yeah.
+Dialogue: 0,0:52:39.11,0:52:41.15,Default,,0000,0000,0000,,All right, thank you for the ride, Walter.
+Dialogue: 0,0:52:41.32,0:52:44.70,Default,,0000,0000,0000,,Well, you called, l came.\NThat's how a man makes his money, baby.
+Dialogue: 0,0:52:44.87,0:52:46.41,Default,,0000,0000,0000,,What's up with my floor seats?
+Dialogue: 0,0:52:46.58,0:52:48.83,Default,,0000,0000,0000,,I'm gonna give you two floor seats.
+Dialogue: 0,0:52:48.99,0:52:51.33,Default,,0000,0000,0000,,All you gotta do\Nis keep that meter running for me.
+Dialogue: 0,0:52:51.50,0:52:52.54,Default,,0000,0000,0000,,-Okay.\N-My man.
+Dialogue: 0,0:52:52.71,0:52:54.67,Default,,0000,0000,0000,,-We making another stop, baby?\N-Yep.
+Dialogue: 0,0:52:54.83,0:52:57.08,Default,,0000,0000,0000,,-Okay. All right.\N-Just not yet.
+Dialogue: 0,0:52:57.25,0:53:00.92,Default,,0000,0000,0000,,Not yet, not yet. The baby's in here.\NYou left the bab-- You left the baby!
+Dialogue: 0,0:53:01.09,0:53:04.26,Default,,0000,0000,0000,,You left the baby! You left the bab--\NYou left the baby.
+Dialogue: 0,0:53:04.43,0:53:07.72,Default,,0000,0000,0000,,You left your baby.
+Dialogue: 0,0:53:07.89,0:53:11.77,Default,,0000,0000,0000,,Look, Walter, please, I got no choice.\NI need your help, as a friend.
+Dialogue: 0,0:53:11.93,0:53:14.14,Default,,0000,0000,0000,,No, no, no.\NYou can't leave me with your baby.
+Dialogue: 0,0:53:14.31,0:53:17.10,Default,,0000,0000,0000,,Are you on crack?\NI could be the baby cab killer.
+Dialogue: 0,0:53:17.27,0:53:18.48,Default,,0000,0000,0000,,I know all about you, man.
+Dialogue: 0,0:53:18.65,0:53:21.28,Default,,0000,0000,0000,,I know you keep a clean cab,\Nyou drive the speed limit...
+Dialogue: 0,0:53:21.44,0:53:23.44,Default,,0000,0000,0000,,...and you got three kids\Nyou love to death.
+Dialogue: 0,0:53:23.61,0:53:25.40,Default,,0000,0000,0000,,You know why? Because they're my kids.
+Dialogue: 0,0:53:25.57,0:53:28.66,Default,,0000,0000,0000,,I hate other people's kids.\NThat's your baby in there.
+Dialogue: 0,0:53:28.83,0:53:30.37,Default,,0000,0000,0000,,Whatever the meter is, triple it.
+Dialogue: 0,0:53:30.54,0:53:32.75,Default,,0000,0000,0000,,You'll be the best-paid babysitter\Nin the state.
+Dialogue: 0,0:53:32.91,0:53:34.46,Default,,0000,0000,0000,,Please.
+Dialogue: 0,0:53:36.17,0:53:38.83,Default,,0000,0000,0000,,-What if she wakes up?\N-She's not gonna wake up, I pro-- Oh!
+Dialogue: 0,0:53:39.00,0:53:40.38,Default,,0000,0000,0000,,Look. lt's her ducky.
+Dialogue: 0,0:53:41.55,0:53:44.13,Default,,0000,0000,0000,,-ln case of an emergency.\N-Better not be no emergencies.
+Dialogue: 0,0:53:44.30,0:53:45.67,Default,,0000,0000,0000,,-There won't be.\N-Better not!
+Dialogue: 0,0:53:47.18,0:53:49.43,Default,,0000,0000,0000,,ANNOUNCER:\NThe final seconds of this first half....
+Dialogue: 0,0:53:49.60,0:53:52.51,Default,,0000,0000,0000,,Ready Camera 3. And go 3.
+Dialogue: 0,0:53:52.68,0:53:54.35,Default,,0000,0000,0000,,--feeding it off, and the basket....
+Dialogue: 0,0:53:54.52,0:53:59.31,Default,,0000,0000,0000,,-Simon, give me the scoring leaders, please.\N-No one's ever said "please" to me before.
+Dialogue: 0,0:53:59.48,0:54:00.81,Default,,0000,0000,0000,,[CELL PHONE RlNGS]
+Dialogue: 0,0:54:00.98,0:54:03.61,Default,,0000,0000,0000,,-Who's calling?\N-lt's the new sitter.
+Dialogue: 0,0:54:03.78,0:54:08.16,Default,,0000,0000,0000,,-Yeah?\N-The baby woke up! The baby woke up.
+Dialogue: 0,0:54:08.32,0:54:11.24,Default,,0000,0000,0000,,Hey, there's this great game going on.\NYou should check it out.
+Dialogue: 0,0:54:11.41,0:54:14.16,Default,,0000,0000,0000,,Cameras 4 and 6,\N4 ready by the ball, 2 by the basket.
+Dialogue: 0,0:54:14.33,0:54:17.41,Default,,0000,0000,0000,,Okay, sniff her butt.\NSee if she needs to be changed.
+Dialogue: 0,0:54:17.58,0:54:20.96,Default,,0000,0000,0000,,I'm not sniffing this baby's booty.\NMan, what are you feeding this girl?
+Dialogue: 0,0:54:21.13,0:54:25.05,Default,,0000,0000,0000,,It's like a dirty bomb.\NIt's like eggs and peanut butter.
+Dialogue: 0,0:54:25.47,0:54:28.13,Default,,0000,0000,0000,,-l'll be down at halftime.\N-Halftime? Are you crazy?
+Dialogue: 0,0:54:28.84,0:54:29.84,Default,,0000,0000,0000,,Halftime!
+Dialogue: 0,0:54:30.01,0:54:32.93,Default,,0000,0000,0000,,Okay, okay, okay, here we go, man.\NOkay, okay. Oh, my God!
+Dialogue: 0,0:54:33.10,0:54:36.43,Default,,0000,0000,0000,,Okay. Okay. All right.\NAll right, we're halfway there, Walter.
+Dialogue: 0,0:54:36.60,0:54:38.56,Default,,0000,0000,0000,,-All right, here we go.\N-No, no, no.
+Dialogue: 0,0:54:38.73,0:54:40.35,Default,,0000,0000,0000,,No, please, listen. Walter, please.
+Dialogue: 0,0:54:40.52,0:54:43.73,Default,,0000,0000,0000,,-Know what? Here. Take the whole wallet.\N-l don't want your wallet.
+Dialogue: 0,0:54:43.90,0:54:47.65,Default,,0000,0000,0000,,You know what l want?\NI want a nice, comfy seat inside...
+Dialogue: 0,0:54:47.82,0:54:49.32,Default,,0000,0000,0000,,...next to some big-screen TVs--
+Dialogue: 0,0:54:49.49,0:54:52.20,Default,,0000,0000,0000,,No kids in the booth. I'm sorry.\NYou gotta sit out here.
+Dialogue: 0,0:54:52.37,0:54:54.29,Default,,0000,0000,0000,,-Baby wanna see game?\N-Baby doesn't wanna.
+Dialogue: 0,0:54:54.45,0:54:55.66,Default,,0000,0000,0000,,[IN BABY VOICE]\NWanna see game?
+Dialogue: 0,0:54:55.83,0:54:57.37,Default,,0000,0000,0000,,Baby wanna see game.
+Dialogue: 0,0:54:57.96,0:54:59.37,Default,,0000,0000,0000,,[TOY SQUEAKS]
+Dialogue: 0,0:55:05.67,0:55:07.38,Default,,0000,0000,0000,,MESSER:\NHey, everybody.
+Dialogue: 0,0:55:07.55,0:55:11.14,Default,,0000,0000,0000,,This is Sophie and her nanny, Walter.
+Dialogue: 0,0:55:12.89,0:55:14.89,Default,,0000,0000,0000,,Say hi.
+Dialogue: 0,0:55:15.56,0:55:16.77,Default,,0000,0000,0000,,All right, here you go.
+Dialogue: 0,0:55:16.93,0:55:19.56,Default,,0000,0000,0000,,Big cushy chair, new monitors.\NDrinks are in the fridge.
+Dialogue: 0,0:55:19.73,0:55:21.31,Default,,0000,0000,0000,,No beer till after the game, okay?
+Dialogue: 0,0:55:21.48,0:55:24.69,Default,,0000,0000,0000,,Nice. l never seen a game like this before.\NNow we're talking.
+Dialogue: 0,0:55:24.86,0:55:26.07,Default,,0000,0000,0000,,-So you're good?\N-l'm good.
+Dialogue: 0,0:55:26.23,0:55:27.74,Default,,0000,0000,0000,,All right.
+Dialogue: 0,0:55:28.24,0:55:31.41,Default,,0000,0000,0000,,All right, people, second half.\NLet's do this.
+Dialogue: 0,0:55:31.57,0:55:35.03,Default,,0000,0000,0000,,-Did you get him through a service?\N-Uh, yep.
+Dialogue: 0,0:55:35.20,0:55:37.04,Default,,0000,0000,0000,,-Yeah?\N-Yep.
+Dialogue: 0,0:55:37.20,0:55:39.41,Default,,0000,0000,0000,,-He's your cab driver, isn't he?\N-Yep.
+Dialogue: 0,0:55:39.58,0:55:40.58,Default,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:55:40.75,0:55:42.92,Default,,0000,0000,0000,,ANNOUNCER:\NTwenty seconds to go, Hawks down by 1 .
+Dialogue: 0,0:55:43.08,0:55:44.13,Default,,0000,0000,0000,,[CRYING]
+Dialogue: 0,0:55:44.29,0:55:48.01,Default,,0000,0000,0000,,-No doubt they'll play for the last shot.\N-All right, Camera 4, stay with Johnson.
+Dialogue: 0,0:55:48.55,0:55:50.80,Default,,0000,0000,0000,,Liz, tell Camera 4 to stay with Johnson.\NCome on.
+Dialogue: 0,0:55:50.97,0:55:53.59,Default,,0000,0000,0000,,-l can barely hear you, Messer.\N-A foul? Come on, man!
+Dialogue: 0,0:55:54.10,0:55:55.22,Default,,0000,0000,0000,,MESSER:\NOkay, ready Camera 6.
+Dialogue: 0,0:55:55.39,0:55:58.31,Default,,0000,0000,0000,,-Walter, she's crying.\N-l know, l'm trying to watch the game.
+Dialogue: 0,0:55:58.48,0:56:01.85,Default,,0000,0000,0000,,-You are the worst babysitter of all time.\N-Because I'm not a babysitter.
+Dialogue: 0,0:56:02.02,0:56:04.10,Default,,0000,0000,0000,,Do something.\NPlease, I'm dying over here.
+Dialogue: 0,0:56:04.27,0:56:07.32,Default,,0000,0000,0000,,All right, Camera 2, stay with Bibby--\NJohnson.
+Dialogue: 0,0:56:07.78,0:56:09.90,Default,,0000,0000,0000,,All right, stay with the shooter\Non Camera 2--
+Dialogue: 0,0:56:10.07,0:56:11.36,Default,,0000,0000,0000,,No, I mean, Camera 1 .
+Dialogue: 0,0:56:11.53,0:56:12.65,Default,,0000,0000,0000,,Stay on 1 , 1 , 1 .
+Dialogue: 0,0:56:12.82,0:56:14.66,Default,,0000,0000,0000,,Camera 2, stay with the-- Camera 1 --
+Dialogue: 0,0:56:14.82,0:56:17.08,Default,,0000,0000,0000,,ANNOUNCER:\NAlley-oop, and the Hawks win.
+Dialogue: 0,0:56:17.24,0:56:21.71,Default,,0000,0000,0000,,Unbelievable play by Atlanta.\NHawks win by 1 .
+Dialogue: 0,0:56:21.87,0:56:26.17,Default,,0000,0000,0000,,Hands down, the best game of the year.\NToo bad you all couldn't see it.
+Dialogue: 0,0:56:32.55,0:56:34.43,Default,,0000,0000,0000,,[SINGlNG]\NBut I'm a creep
+Dialogue: 0,0:56:36.97,0:56:40.22,Default,,0000,0000,0000,,I'm a weirdo
+Dialogue: 0,0:56:41.60,0:56:43.77,Default,,0000,0000,0000,,-What the hell--?\N-What are you singing to her?
+Dialogue: 0,0:56:44.94,0:56:46.52,Default,,0000,0000,0000,,Everybody likes Radiohead.
+Dialogue: 0,0:56:48.02,0:56:49.32,Default,,0000,0000,0000,,Do you mind?
+Dialogue: 0,0:56:52.11,0:56:54.45,Default,,0000,0000,0000,,What the hell am I doing here?
+Dialogue: 0,0:56:56.24,0:56:58.16,Default,,0000,0000,0000,,I don't belong here
+Dialogue: 0,0:56:59.99,0:57:02.33,Default,,0000,0000,0000,,Mmm, mmm
+Dialogue: 0,0:57:02.54,0:57:03.96,Default,,0000,0000,0000,,[WHlSPERlNG]\NSee?
+Dialogue: 0,0:57:04.12,0:57:06.08,Default,,0000,0000,0000,,Told you it works.
+Dialogue: 0,0:57:14.88,0:57:16.47,Default,,0000,0000,0000,,[WHlSPERlNG]\NWould it kill you to--?
+Dialogue: 0,0:57:16.64,0:57:18.47,Default,,0000,0000,0000,,-Shh.\N-You shh!
+Dialogue: 0,0:57:18.64,0:57:20.97,Default,,0000,0000,0000,,Would it kill you\Nto brighten the mood around here?
+Dialogue: 0,0:57:21.14,0:57:22.31,Default,,0000,0000,0000,,-Yeah, it might.\N-Come on.
+Dialogue: 0,0:57:22.48,0:57:25.94,Default,,0000,0000,0000,,Why should I pretend to be happy?\NI'm miserable. Let me be miserable.
+Dialogue: 0,0:57:26.10,0:57:27.56,Default,,0000,0000,0000,,-lt's depressing.\N-l don't care.
+Dialogue: 0,0:57:27.73,0:57:30.86,Default,,0000,0000,0000,,Know what? I am so sick\Nof all your dark little comments.
+Dialogue: 0,0:57:31.03,0:57:32.19,Default,,0000,0000,0000,,I ruined my life for her.
+Dialogue: 0,0:57:32.36,0:57:35.45,Default,,0000,0000,0000,,I'm so sorry parenting isn't as fun\Nas you thought it was gonna be.
+Dialogue: 0,0:57:35.61,0:57:38.07,Default,,0000,0000,0000,,Yeah, you're happy\Nbecause your old life sucked.
+Dialogue: 0,0:57:38.24,0:57:39.87,Default,,0000,0000,0000,,-My old life didn't suck.\N-lt did.
+Dialogue: 0,0:57:40.03,0:57:42.70,Default,,0000,0000,0000,,My life was great.\NI was my own boss, l made my own hours.
+Dialogue: 0,0:57:42.87,0:57:44.91,Default,,0000,0000,0000,,-l had free time.\N-To do what? Bake more?
+Dialogue: 0,0:57:45.08,0:57:47.17,Default,,0000,0000,0000,,-God.\N-You have no idea what a great life is.
+Dialogue: 0,0:57:47.33,0:57:49.88,Default,,0000,0000,0000,,I had a great life.\NI went to games for a living.
+Dialogue: 0,0:57:50.04,0:57:52.80,Default,,0000,0000,0000,,Okay? Girls would buy me drinks\Nand throw themselves at me.
+Dialogue: 0,0:57:52.96,0:57:55.97,Default,,0000,0000,0000,,You see this shirt?\NI slept with the girl who sold me this shirt.
+Dialogue: 0,0:57:56.13,0:57:57.18,Default,,0000,0000,0000,,You're disgusting.
+Dialogue: 0,0:57:57.34,0:58:00.22,Default,,0000,0000,0000,,People say you can't have it all.\NI had it all. lt was awesome.
+Dialogue: 0,0:58:00.39,0:58:04.10,Default,,0000,0000,0000,,Of course you think that's awesome,\Nbecause all you care about is getting laid.
+Dialogue: 0,0:58:04.27,0:58:05.89,Default,,0000,0000,0000,,Even Peter was embarrassed by you.
+Dialogue: 0,0:58:06.06,0:58:10.11,Default,,0000,0000,0000,,He just never said anything to your face\Nbecause he was twice the man you are.
+Dialogue: 0,0:58:10.86,0:58:12.40,Default,,0000,0000,0000,,You should get laid yourself.
+Dialogue: 0,0:58:12.57,0:58:13.82,Default,,0000,0000,0000,,Except to have sex...
+Dialogue: 0,0:58:13.99,0:58:16.32,Default,,0000,0000,0000,,...you gotta find somebody\Nwho can stand you first.
+Dialogue: 0,0:58:18.62,0:58:20.91,Default,,0000,0000,0000,,[WHlSPERS]\NFuck you.
+Dialogue: 0,0:58:30.08,0:58:33.17,Default,,0000,0000,0000,,[IN NORMAL VOICE] You shouldn't ride\Na motorcycle. Your kid's parents died--
+Dialogue: 0,0:58:33.34,0:58:35.30,Default,,0000,0000,0000,,[IN NORMAL VOICE]\NShe is not my kid.
+Dialogue: 0,0:58:38.09,0:58:39.34,Default,,0000,0000,0000,,She's not my kid.
+Dialogue: 0,0:58:40.60,0:58:42.22,Default,,0000,0000,0000,,Then whose kid is she?
+Dialogue: 0,0:59:32.69,0:59:34.06,Default,,0000,0000,0000,,[SIGHS]
+Dialogue: 0,0:59:56.55,0:59:57.96,Default,,0000,0000,0000,,[DOOR OPENS]
+Dialogue: 0,1:00:00.47,1:00:01.68,Default,,0000,0000,0000,,[DOOR CLOSES]
+Dialogue: 0,1:00:02.01,1:00:04.85,Default,,0000,0000,0000,,PETER [ON TV]:\NWe'll do this again. One, two--
+Dialogue: 0,1:00:11.39,1:00:13.73,Default,,0000,0000,0000,,I'm sorry, Messer.
+Dialogue: 0,1:00:14.90,1:00:17.90,Default,,0000,0000,0000,,-l didn't mean it.\N-lt's all right.
+Dialogue: 0,1:00:24.70,1:00:29.29,Default,,0000,0000,0000,,You know, I broke my back when I was 1 7.\NI was almost paralyzed.
+Dialogue: 0,1:00:29.87,1:00:34.00,Default,,0000,0000,0000,,And Pete spent that whole summer\Nwith me in my room...
+Dialogue: 0,1:00:34.17,1:00:36.63,Default,,0000,0000,0000,,...watching movies every day.
+Dialogue: 0,1:00:37.38,1:00:41.42,Default,,0000,0000,0000,,All my friends went out to the beach\Nor went off to chase girls...
+Dialogue: 0,1:00:41.88,1:00:44.64,Default,,0000,0000,0000,,...but he just sat there with me\Nthe whole time.
+Dialogue: 0,1:00:44.80,1:00:47.85,Default,,0000,0000,0000,,I can't leave him alone\Nwhen he needs me.
+Dialogue: 0,1:00:48.56,1:00:49.97,Default,,0000,0000,0000,,Even if he's gone.
+Dialogue: 0,1:00:52.52,1:00:55.98,Default,,0000,0000,0000,,I dug up some of their old home movies\Nbecause, you know, l was just....
+Dialogue: 0,1:00:56.15,1:01:00.73,Default,,0000,0000,0000,,I just wanted to hear their voices,\Nsee them a minute, you know?
+Dialogue: 0,1:01:01.24,1:01:04.66,Default,,0000,0000,0000,,And l found this one,\Nand you've gotta see this.
+Dialogue: 0,1:01:05.20,1:01:08.16,Default,,0000,0000,0000,,PETER:\NTa-da. Ha-ha-ha.
+Dialogue: 0,1:01:09.24,1:01:13.50,Default,,0000,0000,0000,,Pretty great, huh? I went with the lavender\Nand then the blue sky, like we talked about.
+Dialogue: 0,1:01:13.67,1:01:17.04,Default,,0000,0000,0000,,-When did you paint this room?\N-I did it when you were at the hospital.
+Dialogue: 0,1:01:17.21,1:01:19.34,Default,,0000,0000,0000,,ALlSON:\NYou were supposed to do it three days ago.
+Dialogue: 0,1:01:19.50,1:01:20.92,Default,,0000,0000,0000,,It smells like paint fumes in here.
+Dialogue: 0,1:01:21.09,1:01:24.09,Default,,0000,0000,0000,,PETER: It's been drying for 1 2 hours.\N-It has not been drying long enough.
+Dialogue: 0,1:01:24.26,1:01:27.47,Default,,0000,0000,0000,,-You're getting so critical.\N-She can't sleep in the bedroom tonight.
+Dialogue: 0,1:01:27.64,1:01:30.60,Default,,0000,0000,0000,,It's not even wet.\NI wouldn't bring a baby into a wet room.
+Dialogue: 0,1:01:30.77,1:01:34.31,Default,,0000,0000,0000,,ALISON: Of course it's not wet, but you\Nthink it doesn't smell for days afterwards?
+Dialogue: 0,1:01:34.48,1:01:37.94,Default,,0000,0000,0000,,It doesn't. It's totally aired out.\NYou know how much work I put into this?
+Dialogue: 0,1:01:38.11,1:01:42.44,Default,,0000,0000,0000,,You didn't do any of this.\NWhen have you painted a cloud in your life?
+Dialogue: 0,1:01:42.61,1:01:45.24,Default,,0000,0000,0000,,-l oversaw the work that was being done.\N-You oversaw it?
+Dialogue: 0,1:01:45.41,1:01:47.66,Default,,0000,0000,0000,,The one thing you said you would do,\Nyou oversaw?
+Dialogue: 0,1:01:47.82,1:01:50.91,Default,,0000,0000,0000,,I got creative. The guy came in,\Nand I said, "Let's do the clouds."
+Dialogue: 0,1:01:51.08,1:01:53.95,Default,,0000,0000,0000,,-This is ridiculous. She can't sleep here.\N-Of course she can.
+Dialogue: 0,1:01:54.12,1:01:56.37,Default,,0000,0000,0000,,-Move the crib.\N-This is her room. Where else--?
+Dialogue: 0,1:01:56.54,1:01:59.17,Default,,0000,0000,0000,,So you're saying it's okay\Nthat we're horrible parents...
+Dialogue: 0,1:01:59.34,1:02:01.34,Default,,0000,0000,0000,,...and wanna kill each other half the time.
+Dialogue: 0,1:02:01.50,1:02:04.01,Default,,0000,0000,0000,,-Two-thirds, actually.\N-Yep.
+Dialogue: 0,1:02:04.59,1:02:08.47,Default,,0000,0000,0000,,I think we have to just stop trying\Nto fit ourselves into their lives.
+Dialogue: 0,1:02:09.01,1:02:13.14,Default,,0000,0000,0000,,You know, I hate this place.\NIt's like a mausoleum in here.
+Dialogue: 0,1:02:13.31,1:02:16.10,Default,,0000,0000,0000,,You know,\Nthere's pictures of them everywhere.
+Dialogue: 0,1:02:18.56,1:02:20.61,Default,,0000,0000,0000,,And l really hate that cowboy painting.
+Dialogue: 0,1:02:20.77,1:02:23.98,Default,,0000,0000,0000,,-He's really creepy, right?\N-Yeah. I want it out.
+Dialogue: 0,1:02:24.74,1:02:27.53,Default,,0000,0000,0000,,If we're gonna live here,\Nwe have to stop tiptoeing around...
+Dialogue: 0,1:02:27.70,1:02:31.24,Default,,0000,0000,0000,,...like they're coming back soon.\NThey're not coming back.
+Dialogue: 0,1:03:04.23,1:03:05.53,Default,,0000,0000,0000,,HOLLY:\NThis side has to-- No.
+Dialogue: 0,1:03:05.69,1:03:07.11,Default,,0000,0000,0000,,MESSER: That good right there?\N-No.
+Dialogue: 0,1:03:07.28,1:03:09.49,Default,,0000,0000,0000,,-Looks good right there.\N-Okay, like that.
+Dialogue: 0,1:03:36.89,1:03:37.97,Default,,0000,0000,0000,,Morning, Messer.
+Dialogue: 0,1:03:39.56,1:03:41.39,Default,,0000,0000,0000,,Morning...
+Dialogue: 0,1:03:41.56,1:03:42.56,Default,,0000,0000,0000,,...Jill.
+Dialogue: 0,1:03:48.90,1:03:51.70,Default,,0000,0000,0000,,-Oh, and thank you for dinner.\N-Yeah.
+Dialogue: 0,1:03:51.86,1:03:55.95,Default,,0000,0000,0000,,-And next time it's my treat.\N-Oh, God.
+Dialogue: 0,1:03:56.12,1:03:59.16,Default,,0000,0000,0000,,Right foot, left foot. Right foot, left foot.
+Dialogue: 0,1:03:59.33,1:04:01.41,Default,,0000,0000,0000,,-Let's see some walking.\N-Would you stop that?
+Dialogue: 0,1:04:01.58,1:04:04.08,Default,,0000,0000,0000,,She'll walk when she's got\Nsomewhere to go, all right?
+Dialogue: 0,1:04:04.25,1:04:07.09,Default,,0000,0000,0000,,All the books say she should be walking\Nor talking by now...
+Dialogue: 0,1:04:07.26,1:04:08.67,Default,,0000,0000,0000,,...and she's not doing either.
+Dialogue: 0,1:04:08.84,1:04:11.93,Default,,0000,0000,0000,,All the books also say\Nthat you should be married with 2.2 kids...
+Dialogue: 0,1:04:12.09,1:04:13.26,Default,,0000,0000,0000,,...and look at your life.
+Dialogue: 0,1:04:13.43,1:04:16.39,Default,,0000,0000,0000,,That poor girl thinks\Nthat she's going to dinner with you.
+Dialogue: 0,1:04:16.56,1:04:19.14,Default,,0000,0000,0000,,What's the alternative?\N"Bye, l'll never see you again"?
+Dialogue: 0,1:04:19.31,1:04:21.73,Default,,0000,0000,0000,,-That would be mean.\N-Where do you meet these women?
+Dialogue: 0,1:04:21.89,1:04:24.52,Default,,0000,0000,0000,,I mean, if you're not with me and Sophie,\Nyou're at work.
+Dialogue: 0,1:04:24.69,1:04:27.57,Default,,0000,0000,0000,,-l have my methods.\N-Huh. lnteresting.
+Dialogue: 0,1:04:35.95,1:04:37.12,Default,,0000,0000,0000,,[DEEDEE SlGHS]
+Dialogue: 0,1:04:37.29,1:04:41.04,Default,,0000,0000,0000,,DEEDEE:\NSwitch it up. There we go. Oh, there it is.
+Dialogue: 0,1:04:41.21,1:04:44.54,Default,,0000,0000,0000,,Okay. Oh, like a rubber band.
+Dialogue: 0,1:04:46.79,1:04:50.09,Default,,0000,0000,0000,,-Limbering up?\N-How you doing, good-looking?
+Dialogue: 0,1:04:50.26,1:04:52.01,Default,,0000,0000,0000,,Oh, right back at you.
+Dialogue: 0,1:04:52.88,1:04:54.22,Default,,0000,0000,0000,,TED: Hey, big man.\N-Hey, Ted.
+Dialogue: 0,1:04:54.39,1:04:56.97,Default,,0000,0000,0000,,-Hey, you see that game last night?\N-Which game?
+Dialogue: 0,1:04:57.14,1:04:58.31,Default,,0000,0000,0000,,[CHUCKLES]
+Dialogue: 0,1:05:00.22,1:05:01.81,Default,,0000,0000,0000,,-Boo!\N-Oh, my God.
+Dialogue: 0,1:05:01.98,1:05:03.35,Default,,0000,0000,0000,,I didn't mean to scare you.
+Dialogue: 0,1:05:03.52,1:05:05.98,Default,,0000,0000,0000,,-l didn't know you were a runner.\N-Yep.
+Dialogue: 0,1:05:06.15,1:05:08.48,Default,,0000,0000,0000,,We should train together. Yeah.
+Dialogue: 0,1:05:08.65,1:05:12.32,Default,,0000,0000,0000,,-Well, l like to use this time to think.\N-Oh, yeah, me too. I like to think.
+Dialogue: 0,1:05:12.99,1:05:16.03,Default,,0000,0000,0000,,Is this the pace we're gonna keep up?\NIt's a little brisk.
+Dialogue: 0,1:05:16.95,1:05:19.08,Default,,0000,0000,0000,,HOLLY: l still don't understand\Nall these extra costs.
+Dialogue: 0,1:05:19.24,1:05:21.66,Default,,0000,0000,0000,,The job's been more complicated\Nthan we anticipated.
+Dialogue: 0,1:05:21.83,1:05:23.96,Default,,0000,0000,0000,,Oh, more complicated\Nthan anticipated, yeah.
+Dialogue: 0,1:05:24.12,1:05:26.79,Default,,0000,0000,0000,,My life has been more complicated\Nthan anticipated.
+Dialogue: 0,1:05:26.96,1:05:29.17,Default,,0000,0000,0000,,I didn't anticipate somebody\Nhanding me a baby--
+Dialogue: 0,1:05:29.34,1:05:30.71,Default,,0000,0000,0000,,-Ms. Berenson?\N-Yes?
+Dialogue: 0,1:05:31.13,1:05:35.43,Default,,0000,0000,0000,,Ah. Sorry. Hello, lady. What you doing?\NCan you just give me one minute?
+Dialogue: 0,1:05:36.26,1:05:39.60,Default,,0000,0000,0000,,Hey, Lonnie? Keep a better eye on her.\NShe's crawling around back there.
+Dialogue: 0,1:05:39.76,1:05:42.06,Default,,0000,0000,0000,,-lt's a construction site.\N-A baby that crawls?
+Dialogue: 0,1:05:42.22,1:05:44.14,Default,,0000,0000,0000,,-Just take her.\N-l can't. Doing something.
+Dialogue: 0,1:05:44.31,1:05:46.31,Default,,0000,0000,0000,,-Please.\N-Can't. Big basket.
+Dialogue: 0,1:05:46.48,1:05:49.48,Default,,0000,0000,0000,,-Can you help me out?\N-You look beautiful with the baby, though.
+Dialogue: 0,1:05:49.65,1:05:53.07,Default,,0000,0000,0000,,Doesn't she look good with--?\NThat's a beautiful baby. Like an accessory.
+Dialogue: 0,1:05:53.24,1:05:54.28,Default,,0000,0000,0000,,Smooth.
+Dialogue: 0,1:05:54.45,1:05:57.11,Default,,0000,0000,0000,,Go, Wonder Pets. Yay!
+Dialogue: 0,1:05:58.37,1:06:00.41,Default,,0000,0000,0000,,Wow, that was a really good episode.
+Dialogue: 0,1:06:01.20,1:06:04.54,Default,,0000,0000,0000,,What l like about Ming-Ming\Nis that even though they lost the game...
+Dialogue: 0,1:06:04.71,1:06:09.33,Default,,0000,0000,0000,,...she really learned something valuable\Nabout teamwork, you know?
+Dialogue: 0,1:06:09.50,1:06:11.67,Default,,0000,0000,0000,,I didn't see that one coming.\NHow about--?
+Dialogue: 0,1:06:12.38,1:06:14.71,Default,,0000,0000,0000,,Holly. Stay right-- You stay right--
+Dialogue: 0,1:06:14.88,1:06:18.55,Default,,0000,0000,0000,,Holly, Holly, Holly! She's standing!\NShe's about to walk! Get down here!
+Dialogue: 0,1:06:18.72,1:06:21.01,Default,,0000,0000,0000,,-What? Now?\N-Hurry up!
+Dialogue: 0,1:06:21.18,1:06:24.72,Default,,0000,0000,0000,,-She can't walk now! She can't walk now!\N-She's about to. Get down here.
+Dialogue: 0,1:06:24.89,1:06:26.27,Default,,0000,0000,0000,,Okay, wait. Stay right there.
+Dialogue: 0,1:06:26.44,1:06:27.98,Default,,0000,0000,0000,,-Wait, l'm coming.\N-Hurry up!
+Dialogue: 0,1:06:28.15,1:06:30.40,Default,,0000,0000,0000,,-She's walking! Hurry up!\N-Stall her. I'm coming.
+Dialogue: 0,1:06:30.56,1:06:34.65,Default,,0000,0000,0000,,-l'm coming! Just stall her. Stall her!\N-l can't-- How do you want me to stall her?
+Dialogue: 0,1:06:34.82,1:06:37.11,Default,,0000,0000,0000,,-How do l stall her?\N-Just stall her!
+Dialogue: 0,1:06:37.28,1:06:39.45,Default,,0000,0000,0000,,Don't you take that step.\NPlease, don't take--
+Dialogue: 0,1:06:39.62,1:06:42.87,Default,,0000,0000,0000,,-What do you want me to--?\N-Ow! Oh, God, oh, God, I'm coming.
+Dialogue: 0,1:06:43.04,1:06:46.79,Default,,0000,0000,0000,,-Oh, I'm sorry. Oh, l'm sorry. l'm so sorry.\N-Okay. What did you do?
+Dialogue: 0,1:06:47.25,1:06:50.33,Default,,0000,0000,0000,,You told me to stall her, so l just--\NI gave her a little shove.
+Dialogue: 0,1:06:50.50,1:06:53.71,Default,,0000,0000,0000,,I asked you to stall her, Messer,\Nnot traumatize her.
+Dialogue: 0,1:06:53.88,1:06:57.05,Default,,0000,0000,0000,,-Now she'll never walk.\N-Okay, this is not my fault.
+Dialogue: 0,1:06:57.22,1:07:00.68,Default,,0000,0000,0000,,-What did the bad man do, huh?\N-Pretty sure it was your fault.
+Dialogue: 0,1:07:02.43,1:07:03.93,Default,,0000,0000,0000,,[SOPHlE GlGGLING]
+Dialogue: 0,1:07:24.83,1:07:28.04,Default,,0000,0000,0000,,Hold on. Okay, go ahead.
+Dialogue: 0,1:07:34.96,1:07:36.96,Default,,0000,0000,0000,,-Are those homemade noodles?\N-Yes.
+Dialogue: 0,1:07:37.13,1:07:39.42,Default,,0000,0000,0000,,She's the only person\Nwho doesn't like my cooking.
+Dialogue: 0,1:07:39.59,1:07:41.09,Default,,0000,0000,0000,,Now it's personal.
+Dialogue: 0,1:07:41.47,1:07:42.59,Default,,0000,0000,0000,,Come on.
+Dialogue: 0,1:07:44.31,1:07:46.22,Default,,0000,0000,0000,,One bite.
+Dialogue: 0,1:07:47.73,1:07:51.52,Default,,0000,0000,0000,,Oh, my God. Oh, my God, I did it!\NShe ate it!
+Dialogue: 0,1:07:51.69,1:07:55.23,Default,,0000,0000,0000,,She ate my cooking, she ate my cooking,\Nshe ate my cooking!
+Dialogue: 0,1:07:55.40,1:07:56.44,Default,,0000,0000,0000,,I'm that good.
+Dialogue: 0,1:08:21.72,1:08:23.93,Default,,0000,0000,0000,,-Oh, my God.\N-What?
+Dialogue: 0,1:08:24.10,1:08:26.85,Default,,0000,0000,0000,,This is why you are always so happy\Nto run to the store.
+Dialogue: 0,1:08:27.01,1:08:30.85,Default,,0000,0000,0000,,This is where you pick up women.\NYou use Sophie to get laid.
+Dialogue: 0,1:08:31.02,1:08:33.14,Default,,0000,0000,0000,,She's gotta pay back somehow.\NIsn't that right?
+Dialogue: 0,1:08:33.31,1:08:36.61,Default,,0000,0000,0000,,-No free lunch, right, Soph?\N-l wanna see it.
+Dialogue: 0,1:08:36.77,1:08:39.15,Default,,0000,0000,0000,,-See what?\N-l wanna see you work your Messer magic.
+Dialogue: 0,1:08:39.32,1:08:41.03,Default,,0000,0000,0000,,You want me to pick you up? Here?
+Dialogue: 0,1:08:41.20,1:08:44.53,Default,,0000,0000,0000,,Yes. l want you to loop around\Nand pretend l'm one of those gym girls.
+Dialogue: 0,1:08:44.70,1:08:46.66,Default,,0000,0000,0000,,I'm not gonna pretend to pick you up.
+Dialogue: 0,1:08:46.83,1:08:49.83,Default,,0000,0000,0000,,-l wanna get home.\N-Uch. You're such a killjoy.
+Dialogue: 0,1:08:50.45,1:08:51.91,Default,,0000,0000,0000,,Hey.
+Dialogue: 0,1:08:52.92,1:08:56.88,Default,,0000,0000,0000,,You know what? l read about these.\NThey're really good for kids, but l can't--
+Dialogue: 0,1:08:57.04,1:08:59.09,Default,,0000,0000,0000,,-How do you pronounce it? "Açaí"?\N-"Açaí."
+Dialogue: 0,1:08:59.26,1:09:00.55,Default,,0000,0000,0000,,-"Açaí"?\N-Mm-hm.
+Dialogue: 0,1:09:00.71,1:09:01.76,Default,,0000,0000,0000,,Oh.
+Dialogue: 0,1:09:01.92,1:09:04.76,Default,,0000,0000,0000,,You must really have an ear\Nfor languages, huh?
+Dialogue: 0,1:09:04.93,1:09:05.97,Default,,0000,0000,0000,,No, not really.
+Dialogue: 0,1:09:06.14,1:09:10.10,Default,,0000,0000,0000,,I took Spanish all through high school.\NI did pretty well. Got good grades.
+Dialogue: 0,1:09:13.39,1:09:15.35,Default,,0000,0000,0000,,Oh, you're good. You're very good.
+Dialogue: 0,1:09:15.52,1:09:17.56,Default,,0000,0000,0000,,-You see that?\N-l see how this works for you.
+Dialogue: 0,1:09:17.73,1:09:19.32,Default,,0000,0000,0000,,Holly?
+Dialogue: 0,1:09:19.48,1:09:22.53,Default,,0000,0000,0000,,Oh! lt's Sam. lt's Sophie's doctor, Sam.
+Dialogue: 0,1:09:22.70,1:09:25.11,Default,,0000,0000,0000,,-Sam? You call him Sam?\N-Hey, Sophie.
+Dialogue: 0,1:09:25.28,1:09:26.74,Default,,0000,0000,0000,,-Dr. Nelson.\N-Hi. Sam.
+Dialogue: 0,1:09:26.91,1:09:29.99,Default,,0000,0000,0000,,-Hey, l'm Messer. Nice to meet you.\N-Messer, nice to meet you too.
+Dialogue: 0,1:09:30.16,1:09:31.74,Default,,0000,0000,0000,,-ls this your...?\N-No, no, no.
+Dialogue: 0,1:09:31.91,1:09:35.29,Default,,0000,0000,0000,,-No.\N-We're not.... We just....
+Dialogue: 0,1:09:35.46,1:09:36.96,Default,,0000,0000,0000,,Sounds complicated.
+Dialogue: 0,1:09:37.13,1:09:38.79,Default,,0000,0000,0000,,-We raise Sophie together.\N-Yes.
+Dialogue: 0,1:09:38.96,1:09:42.30,Default,,0000,0000,0000,,You know, Holly's mentioned how much\Nshe really likes Sophie's doctor...
+Dialogue: 0,1:09:42.46,1:09:43.80,Default,,0000,0000,0000,,...a few times, actually.
+Dialogue: 0,1:09:43.97,1:09:46.59,Default,,0000,0000,0000,,So l thought she meant\Nyou were good with kids, but now--
+Dialogue: 0,1:09:46.76,1:09:49.30,Default,,0000,0000,0000,,Can you just walk away?\NCan you just give me a minute?
+Dialogue: 0,1:09:49.47,1:09:53.22,Default,,0000,0000,0000,,-l'm all right here.\N-Give me a minute. Thank you.
+Dialogue: 0,1:09:53.39,1:09:56.52,Default,,0000,0000,0000,,Sometimes Sophie is more of a grown-up.
+Dialogue: 0,1:09:57.31,1:09:59.52,Default,,0000,0000,0000,,So how's this work between you two?
+Dialogue: 0,1:10:00.27,1:10:03.74,Default,,0000,0000,0000,,-You split up most of the work?\N-Yes. We have charts. A very big chart.
+Dialogue: 0,1:10:03.90,1:10:05.03,Default,,0000,0000,0000,,-Chart?\N-Yeah.
+Dialogue: 0,1:10:05.20,1:10:06.91,Default,,0000,0000,0000,,That chart give you any time off?
+Dialogue: 0,1:10:07.07,1:10:09.66,Default,,0000,0000,0000,,Yes, Monday, Wednesday\Nand every other Friday.
+Dialogue: 0,1:10:09.83,1:10:11.08,Default,,0000,0000,0000,,-Oh, yeah?\N-Yeah.
+Dialogue: 0,1:10:11.24,1:10:14.00,Default,,0000,0000,0000,,-Will you have Sophie this Friday?\N-No.
+Dialogue: 0,1:10:14.16,1:10:15.83,Default,,0000,0000,0000,,SAM: Eight o'clock Friday?\N-Great.
+Dialogue: 0,1:10:16.00,1:10:18.12,Default,,0000,0000,0000,,-My office has your information?\N-They sure do.
+Dialogue: 0,1:10:18.29,1:10:20.04,Default,,0000,0000,0000,,-l'll call you up.\N-Perfect. Okay.
+Dialogue: 0,1:10:20.21,1:10:21.29,Default,,0000,0000,0000,,[HOLLY CHUCKLES]
+Dialogue: 0,1:10:21.46,1:10:25.13,Default,,0000,0000,0000,,You are so right,\Nthis is such a great place to meet people.
+Dialogue: 0,1:10:27.72,1:10:30.97,Default,,0000,0000,0000,,MESSER: What time does Dr. Love get here?\N-Any minute. Stop calling him that.
+Dialogue: 0,1:10:31.14,1:10:34.72,Default,,0000,0000,0000,,I can't believe he asked you out.\NDoesn't that defy some doctor-patient thing?
+Dialogue: 0,1:10:34.89,1:10:37.89,Default,,0000,0000,0000,,He's a pediatrician, so if he's dating\Na patient, there'd be a problem.
+Dialogue: 0,1:10:38.06,1:10:40.61,Default,,0000,0000,0000,,If you have sex, is he gonna tell you\Nwhat percentile you're at?
+Dialogue: 0,1:10:40.77,1:10:41.81,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,1:10:43.82,1:10:46.32,Default,,0000,0000,0000,,-Hi.\N-Hey. Wow, you look....
+Dialogue: 0,1:10:48.41,1:10:52.03,Default,,0000,0000,0000,,Oh, l'd better not say anything.\NBest to keep a couple cards off the table.
+Dialogue: 0,1:10:52.99,1:10:54.79,Default,,0000,0000,0000,,-Hey, Messer.\N-Hey. How you doing, doc?
+Dialogue: 0,1:10:54.95,1:10:57.29,Default,,0000,0000,0000,,-Thanks for giving her the night off.\N-All right.
+Dialogue: 0,1:10:57.46,1:10:59.75,Default,,0000,0000,0000,,You know,\Nshe tried on everything in her closet.
+Dialogue: 0,1:10:59.92,1:11:03.67,Default,,0000,0000,0000,,-Pretty much impossible to blow this one.\N-Okay, Messer. We'll just go.
+Dialogue: 0,1:11:03.84,1:11:06.34,Default,,0000,0000,0000,,-She hasn't had any for a while--\N-Oh, my God, stop it.
+Dialogue: 0,1:11:06.51,1:11:08.22,Default,,0000,0000,0000,,Call me if you need me.
+Dialogue: 0,1:11:11.60,1:11:13.35,Default,,0000,0000,0000,,HOLLY:\NYou know, if you wanted to kill me...
+Dialogue: 0,1:11:13.51,1:11:16.68,Default,,0000,0000,0000,,...there were dumpsters on my side of town\Nthat were a lot closer.
+Dialogue: 0,1:11:16.85,1:11:18.69,Default,,0000,0000,0000,,You don't like to be surprised, do you?
+Dialogue: 0,1:11:18.85,1:11:22.19,Default,,0000,0000,0000,,Well, l'm a little bit\Nof a control freak, so....
+Dialogue: 0,1:11:22.36,1:11:25.98,Default,,0000,0000,0000,,SAM: There we are.\N-Okay. Backstage at a concert.
+Dialogue: 0,1:11:26.15,1:11:28.28,Default,,0000,0000,0000,,-l'm just not that cool.\N-No?
+Dialogue: 0,1:11:28.45,1:11:31.82,Default,,0000,0000,0000,,We're not going to Aerosmith\Nor Justin Bieber?
+Dialogue: 0,1:11:31.99,1:11:33.87,Default,,0000,0000,0000,,This is....
+Dialogue: 0,1:11:36.00,1:11:37.62,Default,,0000,0000,0000,,SAM:\NLe Mare.
+Dialogue: 0,1:11:37.79,1:11:41.21,Default,,0000,0000,0000,,The owner and executive chef\Nhas three girls, so....
+Dialogue: 0,1:11:41.38,1:11:43.79,Default,,0000,0000,0000,,-You treat Phillipe Le Mare's kids?\N-l do.
+Dialogue: 0,1:11:43.96,1:11:45.55,Default,,0000,0000,0000,,-Oh, my God.\NMAN: Dr. Nelson.
+Dialogue: 0,1:11:45.71,1:11:47.92,Default,,0000,0000,0000,,-Phillipe.\N-Sam, hey. Phillipe Le Mare.
+Dialogue: 0,1:11:48.09,1:11:50.05,Default,,0000,0000,0000,,-Such a pleasure.\N-No, no, pleasure's mine.
+Dialogue: 0,1:11:50.22,1:11:53.26,Default,,0000,0000,0000,,-Special setup right here. Come on.\NSAM: So how are the beautiful girls?
+Dialogue: 0,1:11:53.43,1:11:55.64,Default,,0000,0000,0000,,PHlLLlPE: They're very healthy.\NThey have a good doctor.
+Dialogue: 0,1:11:55.81,1:11:59.73,Default,,0000,0000,0000,,You know,\NI don't do a lot of dinner dates, really.
+Dialogue: 0,1:11:59.89,1:12:00.98,Default,,0000,0000,0000,,What about you?
+Dialogue: 0,1:12:02.98,1:12:04.02,Default,,0000,0000,0000,,No? You know what?
+Dialogue: 0,1:12:04.19,1:12:07.36,Default,,0000,0000,0000,,Why don't we just relax and get\Nto know each other? What do you say?
+Dialogue: 0,1:12:07.53,1:12:11.70,Default,,0000,0000,0000,,So you live around here?
+Dialogue: 0,1:12:11.86,1:12:13.11,Default,,0000,0000,0000,,Upstairs?
+Dialogue: 0,1:12:13.28,1:12:15.62,Default,,0000,0000,0000,,I just live right around the corner\Nin the TV room.
+Dialogue: 0,1:12:15.78,1:12:18.58,Default,,0000,0000,0000,,You know, I knew l'd seen you\Nsomewhere around here.
+Dialogue: 0,1:12:19.41,1:12:22.54,Default,,0000,0000,0000,,Excellent choice in the crushed watermelon,\Nby the way.
+Dialogue: 0,1:12:23.33,1:12:24.92,Default,,0000,0000,0000,,I'm sorry if l'm a little nervous.
+Dialogue: 0,1:12:25.09,1:12:27.50,Default,,0000,0000,0000,,It's just that l don't usually\Nmeet babies like you.
+Dialogue: 0,1:12:27.67,1:12:29.59,Default,,0000,0000,0000,,To be honest, l....
+Dialogue: 0,1:12:30.22,1:12:32.26,Default,,0000,0000,0000,,Well, l like older women.
+Dialogue: 0,1:12:34.35,1:12:36.60,Default,,0000,0000,0000,,Well, not that much older.
+Dialogue: 0,1:12:42.35,1:12:44.94,Default,,0000,0000,0000,,You are getting warmer, kiddo.
+Dialogue: 0,1:12:48.48,1:12:51.94,Default,,0000,0000,0000,,-l can't believe you've never come here.\N-l never used to eat out much.
+Dialogue: 0,1:12:52.11,1:12:55.95,Default,,0000,0000,0000,,My ex-wife, she would cook,\Nso we stayed home a lot.
+Dialogue: 0,1:12:56.12,1:12:58.33,Default,,0000,0000,0000,,-You were married?\N-You like how l snuck that in there?
+Dialogue: 0,1:12:58.49,1:13:00.08,Default,,0000,0000,0000,,Mm. Clever.
+Dialogue: 0,1:13:00.25,1:13:01.29,Default,,0000,0000,0000,,[CELL PHONE RlNGlNG]
+Dialogue: 0,1:13:01.46,1:13:03.96,Default,,0000,0000,0000,,-l'm so sorry. l thought l turned it off.\N-That's okay.
+Dialogue: 0,1:13:06.13,1:13:07.79,Default,,0000,0000,0000,,Messer, l get one night off.
+Dialogue: 0,1:13:07.96,1:13:10.63,Default,,0000,0000,0000,,Look, l'm not calling for you,\NI'm calling for Dr. Love.
+Dialogue: 0,1:13:10.80,1:13:12.88,Default,,0000,0000,0000,,Okay. All right, hold on.
+Dialogue: 0,1:13:13.05,1:13:16.55,Default,,0000,0000,0000,,I'm sorry, he wants to talk to you.\NIt must be a Sophie question.
+Dialogue: 0,1:13:16.72,1:13:18.14,Default,,0000,0000,0000,,Hey.
+Dialogue: 0,1:13:19.14,1:13:20.52,Default,,0000,0000,0000,,It could be a couple things.
+Dialogue: 0,1:13:21.10,1:13:25.69,Default,,0000,0000,0000,,Take her down to the ER at St. Augustus.\NIt's Friday, so Dr. Mooney's on call.
+Dialogue: 0,1:13:25.85,1:13:28.48,Default,,0000,0000,0000,,I'll tell him you're on your way.\NYou won't have to wait.
+Dialogue: 0,1:13:28.65,1:13:32.57,Default,,0000,0000,0000,,We'll see you there in about an hour. Okay.\NSophie's temperature spiked.
+Dialogue: 0,1:13:32.95,1:13:34.99,Default,,0000,0000,0000,,They're gonna need an hour,\Nso l was hoping--
+Dialogue: 0,1:13:35.16,1:13:36.78,Default,,0000,0000,0000,,We gotta go.
+Dialogue: 0,1:13:38.03,1:13:40.03,Default,,0000,0000,0000,,Or we could go.
+Dialogue: 0,1:13:40.70,1:13:42.83,Default,,0000,0000,0000,,Great. Thank you.
+Dialogue: 0,1:13:43.00,1:13:44.50,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,1:13:50.67,1:13:54.63,Default,,0000,0000,0000,,So Sophie's got a urinary-tract infection.\NWe're gonna put her on an antibiotic drip.
+Dialogue: 0,1:13:54.80,1:13:57.30,Default,,0000,0000,0000,,That gets the medication\Ninto her system a bit faster.
+Dialogue: 0,1:13:57.47,1:14:00.68,Default,,0000,0000,0000,,I'll stop back by first thing in the morning\Nand check up on her.
+Dialogue: 0,1:14:01.64,1:14:04.39,Default,,0000,0000,0000,,-Thanks.\N-Thank you so much.
+Dialogue: 0,1:14:04.56,1:14:08.10,Default,,0000,0000,0000,,Yeah, l was kind of looking forward\Nto dropping you home.
+Dialogue: 0,1:14:08.69,1:14:12.02,Default,,0000,0000,0000,,I had rehearsed this whole thing\Nin my mind.
+Dialogue: 0,1:14:21.20,1:14:23.91,Default,,0000,0000,0000,,That was even better than l rehearsed it.
+Dialogue: 0,1:14:24.71,1:14:26.29,Default,,0000,0000,0000,,-l'll call you later.\N-Okay.
+Dialogue: 0,1:14:26.83,1:14:29.29,Default,,0000,0000,0000,,Thank you again.
+Dialogue: 0,1:14:35.01,1:14:36.55,Default,,0000,0000,0000,,Hey, her temp's coming down.
+Dialogue: 0,1:14:36.72,1:14:38.80,Default,,0000,0000,0000,,Clothes, daycare, monthly food bill...
+Dialogue: 0,1:14:38.97,1:14:41.55,Default,,0000,0000,0000,,...and now a $1 200 bill\Nfrom the emergency room.
+Dialogue: 0,1:14:41.72,1:14:44.85,Default,,0000,0000,0000,,If something happens to the car,\None of us is gonna sell a kidney.
+Dialogue: 0,1:14:45.02,1:14:47.23,Default,,0000,0000,0000,,Having a kid is expensive.\NWe talked about that.
+Dialogue: 0,1:14:47.39,1:14:50.61,Default,,0000,0000,0000,,Having kids and an expanding shop,\Nit's a bit much.
+Dialogue: 0,1:14:51.57,1:14:52.90,Default,,0000,0000,0000,,Where'd you get the flowers?
+Dialogue: 0,1:14:53.07,1:14:56.32,Default,,0000,0000,0000,,Oh. Sam sent them today.\NI haven't even called him back yet.
+Dialogue: 0,1:14:56.49,1:15:00.07,Default,,0000,0000,0000,,I mean, how can I? I'm a disaster.\NI can't be this girl on the second date.
+Dialogue: 0,1:15:00.24,1:15:02.83,Default,,0000,0000,0000,,This is what you save for marriage.\NLike 1 0 years in.
+Dialogue: 0,1:15:02.99,1:15:04.99,Default,,0000,0000,0000,,Don't stress about the money.\NWe'll be fine.
+Dialogue: 0,1:15:05.16,1:15:07.79,Default,,0000,0000,0000,,I'll just call Lonnie\Nand we'll patch up the wall...
+Dialogue: 0,1:15:07.96,1:15:10.92,Default,,0000,0000,0000,,...and maybe in a few years,\Nwe can revisit it or something.
+Dialogue: 0,1:15:11.08,1:15:13.59,Default,,0000,0000,0000,,Wait, so you're gonna pull the plug\Non the remodel?
+Dialogue: 0,1:15:13.75,1:15:16.55,Default,,0000,0000,0000,,I can't increase the construction loan.\NIt's okay, you know?
+Dialogue: 0,1:15:16.72,1:15:19.76,Default,,0000,0000,0000,,I'll just have a shop and not a restaurant.\NIt's fine.
+Dialogue: 0,1:15:19.93,1:15:21.76,Default,,0000,0000,0000,,It'll be okay.
+Dialogue: 0,1:15:26.23,1:15:28.64,Default,,0000,0000,0000,,You know, I can give you the money.
+Dialogue: 0,1:15:29.90,1:15:33.61,Default,,0000,0000,0000,,-l have savings.\N-No. No, I can't let you do that.
+Dialogue: 0,1:15:33.77,1:15:35.82,Default,,0000,0000,0000,,-l would never take your savings.\N-l want to.
+Dialogue: 0,1:15:35.98,1:15:38.65,Default,,0000,0000,0000,,We're raising a kid together.\NWe have this house together.
+Dialogue: 0,1:15:38.82,1:15:40.15,Default,,0000,0000,0000,,This is just part of it.
+Dialogue: 0,1:15:40.32,1:15:43.66,Default,,0000,0000,0000,,Look, having somebody help you\Ndoesn't mean that you failed.
+Dialogue: 0,1:15:43.83,1:15:46.54,Default,,0000,0000,0000,,It just means that you're not in it alone.
+Dialogue: 0,1:15:47.66,1:15:49.12,Default,,0000,0000,0000,,Um....
+Dialogue: 0,1:15:50.17,1:15:53.54,Default,,0000,0000,0000,,Okay, but it can't be a gift.\NI won't take it unless it's an investment.
+Dialogue: 0,1:15:53.71,1:15:55.71,Default,,0000,0000,0000,,Fine. l'm an investor in Fraiche.
+Dialogue: 0,1:15:55.88,1:15:56.96,Default,,0000,0000,0000,,You're....
+Dialogue: 0,1:15:57.13,1:15:58.92,Default,,0000,0000,0000,,You're an investor in "Fraiche."
+Dialogue: 0,1:15:59.09,1:16:00.63,Default,,0000,0000,0000,,-"Fraiche." Sorry.\N-"Fraiche."
+Dialogue: 0,1:16:00.80,1:16:02.84,Default,,0000,0000,0000,,That entitles you to 2 percent of profits.
+Dialogue: 0,1:16:03.01,1:16:04.18,Default,,0000,0000,0000,,-Three percent.\N-Two.
+Dialogue: 0,1:16:04.35,1:16:06.93,Default,,0000,0000,0000,,And, hey, a discount on food and wine.
+Dialogue: 0,1:16:07.10,1:16:08.43,Default,,0000,0000,0000,,-Discount?\N-Ten percent.
+Dialogue: 0,1:16:08.60,1:16:10.85,Default,,0000,0000,0000,,-Fifteen percent.\N-Ten percent.
+Dialogue: 0,1:16:11.02,1:16:12.44,Default,,0000,0000,0000,,It's a great discount.
+Dialogue: 0,1:16:14.15,1:16:16.15,Default,,0000,0000,0000,,-Then you throw in dinner.\N-Oh, deal.
+Dialogue: 0,1:16:16.32,1:16:17.73,Default,,0000,0000,0000,,-All right.\N-Awesome. Okay.
+Dialogue: 0,1:16:17.90,1:16:20.86,Default,,0000,0000,0000,,Oh, my God. Thank you so much.\NThat's huge.
+Dialogue: 0,1:16:21.03,1:16:24.32,Default,,0000,0000,0000,,Okay, dinner, tonight, on me.\NYou and me.
+Dialogue: 0,1:16:29.96,1:16:31.71,Default,,0000,0000,0000,,AMY:\NHello.
+Dialogue: 0,1:16:32.25,1:16:34.50,Default,,0000,0000,0000,,-You look so pretty.\N-Oh, thank you.
+Dialogue: 0,1:16:37.42,1:16:39.30,Default,,0000,0000,0000,,Oh, my God.
+Dialogue: 0,1:16:40.17,1:16:41.55,Default,,0000,0000,0000,,-Hey.\N-Hey.
+Dialogue: 0,1:16:41.72,1:16:44.43,Default,,0000,0000,0000,,So here are all the numbers.
+Dialogue: 0,1:16:44.60,1:16:47.97,Default,,0000,0000,0000,,My cell phone, his cell phone,\Nthe restaurant and the pediatrician.
+Dialogue: 0,1:16:48.14,1:16:49.56,Default,,0000,0000,0000,,Yep.
+Dialogue: 0,1:16:50.14,1:16:53.77,Default,,0000,0000,0000,,You know you actually have to\Nleave the house for me to do my job?
+Dialogue: 0,1:16:53.94,1:16:54.98,Default,,0000,0000,0000,,-Yeah.\N-Yes.
+Dialogue: 0,1:16:55.15,1:16:57.27,Default,,0000,0000,0000,,-Okay. All right.\N-Okay. All right.
+Dialogue: 0,1:16:57.44,1:17:00.44,Default,,0000,0000,0000,,-Okay, have fun.\NMESSER: Bye-bye. Bye-bye.
+Dialogue: 0,1:17:21.72,1:17:25.89,Default,,0000,0000,0000,,This place is amazing, Holly.\NI can't believe l haven't been here before.
+Dialogue: 0,1:17:26.39,1:17:29.60,Default,,0000,0000,0000,,Look at you. You're a kitchen ninja.
+Dialogue: 0,1:17:30.35,1:17:33.39,Default,,0000,0000,0000,,-You don't follow any kind of a recipe?\N-No.
+Dialogue: 0,1:17:33.56,1:17:37.56,Default,,0000,0000,0000,,This is the only place in life\Nwhere l do not follow a plan.
+Dialogue: 0,1:17:40.65,1:17:43.78,Default,,0000,0000,0000,,HOLLY:\NYou got under five minutes. No.
+Dialogue: 0,1:17:44.49,1:17:46.61,Default,,0000,0000,0000,,MESSER:\NI was technically awake.
+Dialogue: 0,1:17:48.53,1:17:50.41,Default,,0000,0000,0000,,[SPEAKING INDISTINCTLY]
+Dialogue: 0,1:17:52.70,1:17:55.62,Default,,0000,0000,0000,,-Are you sure you wanna do this?\N-A bet's a bet. l can do this.
+Dialogue: 0,1:17:55.79,1:17:58.42,Default,,0000,0000,0000,,-You don't have to.\N-You know what l'm not sure about?
+Dialogue: 0,1:17:58.59,1:18:01.75,Default,,0000,0000,0000,,The helmet. lt's lame.\NI want something with thunderbolts on it.
+Dialogue: 0,1:18:01.92,1:18:03.51,Default,,0000,0000,0000,,We're gonna pull out the choke.
+Dialogue: 0,1:18:03.67,1:18:04.72,Default,,0000,0000,0000,,-The what?\N-The choke.
+Dialogue: 0,1:18:04.88,1:18:05.93,Default,,0000,0000,0000,,-Okay.\N-All right?
+Dialogue: 0,1:18:06.09,1:18:09.72,Default,,0000,0000,0000,,Turn on the ignition, pull in the clutch.\NHere. Hold that in. Hold that in.
+Dialogue: 0,1:18:09.89,1:18:12.22,Default,,0000,0000,0000,,-Okay.\N-Push the starter button.
+Dialogue: 0,1:18:12.39,1:18:13.43,Default,,0000,0000,0000,,All right, there we go.
+Dialogue: 0,1:18:13.60,1:18:16.52,Default,,0000,0000,0000,,All right, left hand is the clutch,\Nright hand is the throttle.
+Dialogue: 0,1:18:16.69,1:18:19.06,Default,,0000,0000,0000,,-Okay.\N-All right, let's get your kickstand up.
+Dialogue: 0,1:18:19.23,1:18:20.77,Default,,0000,0000,0000,,Oh, l'm on a freaking motorcycle!
+Dialogue: 0,1:18:20.94,1:18:24.11,Default,,0000,0000,0000,,Easy there, Rain Man. We're not done?\NNow we're in first gear.
+Dialogue: 0,1:18:24.28,1:18:25.36,Default,,0000,0000,0000,,-Okay.\N-Hold that.
+Dialogue: 0,1:18:25.53,1:18:28.36,Default,,0000,0000,0000,,-Don't let go of that clutch till I get on--\N-Let go?
+Dialogue: 0,1:18:28.53,1:18:29.70,Default,,0000,0000,0000,,[HOLLY YELPS]\N[MESSER GASPS]
+Dialogue: 0,1:18:29.87,1:18:31.45,Default,,0000,0000,0000,,-Oh, my God.\N-No.
+Dialogue: 0,1:18:34.20,1:18:37.87,Default,,0000,0000,0000,,Oh, my God. Oh, Messer.\NOh, Messer, I'm so sorry.
+Dialogue: 0,1:18:38.04,1:18:40.46,Default,,0000,0000,0000,,-No, it's okay. Are you all right?\N-Yeah, yeah.
+Dialogue: 0,1:18:42.13,1:18:43.50,Default,,0000,0000,0000,,Oh!
+Dialogue: 0,1:18:46.17,1:18:47.93,Default,,0000,0000,0000,,Oh, no.
+Dialogue: 0,1:18:48.80,1:18:51.26,Default,,0000,0000,0000,,Oh, no. Are you mad?
+Dialogue: 0,1:18:51.43,1:18:53.68,Default,,0000,0000,0000,,No, I'm just-- I'm gonna sit down.
+Dialogue: 0,1:18:54.47,1:18:56.27,Default,,0000,0000,0000,,HOLLY:\NI thought you said, "Let go."
+Dialogue: 0,1:18:56.44,1:19:00.65,Default,,0000,0000,0000,,Do you want me to go talk\Nto the bus driver maybe?
+Dialogue: 0,1:19:06.49,1:19:08.82,Default,,0000,0000,0000,,-God, l am so sorry, Messer.\N-Don't worry about it.
+Dialogue: 0,1:19:08.99,1:19:11.53,Default,,0000,0000,0000,,-l'm gonna pay for it, I promise.\N-l'm actually in awe.
+Dialogue: 0,1:19:11.70,1:19:14.49,Default,,0000,0000,0000,,You didn't even drive it a foot\Nbefore you destroyed it.
+Dialogue: 0,1:19:14.66,1:19:18.83,Default,,0000,0000,0000,,-l feel so bad. l'm really sorry.\N-lt's fine. Okay?
+Dialogue: 0,1:19:19.00,1:19:20.79,Default,,0000,0000,0000,,It's just a bike.
+Dialogue: 0,1:19:20.96,1:19:23.17,Default,,0000,0000,0000,,Do you mean that,\Nor are you just saying that...
+Dialogue: 0,1:19:23.34,1:19:26.01,Default,,0000,0000,0000,,...because you think if l keep talking,\Nyou're gonna cry?
+Dialogue: 0,1:19:26.17,1:19:27.84,Default,,0000,0000,0000,,Get inside.
+Dialogue: 0,1:19:28.01,1:19:29.51,Default,,0000,0000,0000,,[HOLLY GIGGLES]
+Dialogue: 0,1:19:29.80,1:19:31.34,Default,,0000,0000,0000,,-Hi.\NHOLLY: Hi.
+Dialogue: 0,1:19:34.56,1:19:35.97,Default,,0000,0000,0000,,I didn't wanna move her.
+Dialogue: 0,1:19:36.35,1:19:37.93,Default,,0000,0000,0000,,HOLLY [WHISPERING]:\NThat's okay.
+Dialogue: 0,1:19:39.85,1:19:42.10,Default,,0000,0000,0000,,[WHlSPERlNG]\NAmy, wait a second.
+Dialogue: 0,1:19:42.27,1:19:45.19,Default,,0000,0000,0000,,Here you go. Now, come on, no backsies.
+Dialogue: 0,1:19:45.78,1:19:48.61,Default,,0000,0000,0000,,-Thanks, Amy.\N-Thank you. Bye-bye. Have a good night.
+Dialogue: 0,1:19:50.16,1:19:53.24,Default,,0000,0000,0000,,I think you guys\Nmake a really cute couple.
+Dialogue: 0,1:19:54.74,1:19:57.08,Default,,0000,0000,0000,,[DOOR OPENS AND CLOSES]
+Dialogue: 0,1:19:57.50,1:20:01.42,Default,,0000,0000,0000,,She said the same thing about Taylor Swift\Nand that Twilight kid.
+Dialogue: 0,1:20:45.96,1:20:47.46,Default,,0000,0000,0000,,[HOLLY GIGGLES]
+Dialogue: 0,1:20:54.34,1:20:55.97,Default,,0000,0000,0000,,Oh, my God, we're in their room.
+Dialogue: 0,1:20:56.89,1:20:57.93,Default,,0000,0000,0000,,It's not so scary.
+Dialogue: 0,1:20:58.10,1:20:59.77,Default,,0000,0000,0000,,-This room is beautiful.\N-Yeah.
+Dialogue: 0,1:20:59.93,1:21:02.23,Default,,0000,0000,0000,,-How come we haven't used it at all?\N-l have no idea.
+Dialogue: 0,1:21:02.39,1:21:04.02,Default,,0000,0000,0000,,What thread count are these sheets? Ooh!
+Dialogue: 0,1:21:05.94,1:21:08.48,Default,,0000,0000,0000,,HOLLY:\NYou think they planned this?
+Dialogue: 0,1:21:08.65,1:21:10.32,Default,,0000,0000,0000,,MESSER:\NWhat?
+Dialogue: 0,1:21:10.49,1:21:13.65,Default,,0000,0000,0000,,Us? No. No.
+Dialogue: 0,1:21:13.82,1:21:17.28,Default,,0000,0000,0000,,They tried that once before.\NWe know how that worked out.
+Dialogue: 0,1:21:18.62,1:21:21.20,Default,,0000,0000,0000,,HOLLY:\NWell, l kind of get it now.
+Dialogue: 0,1:21:21.37,1:21:23.54,Default,,0000,0000,0000,,What, why they set us up?
+Dialogue: 0,1:21:23.71,1:21:27.08,Default,,0000,0000,0000,,Yeah, l never understood it before,\Nbut now that I know you better...
+Dialogue: 0,1:21:27.25,1:21:29.80,Default,,0000,0000,0000,,...l can see what Alison was thinking.
+Dialogue: 0,1:21:30.38,1:21:31.96,Default,,0000,0000,0000,,You have a lot in common with her.
+Dialogue: 0,1:21:32.13,1:21:34.13,Default,,0000,0000,0000,,-With Alison?\N-Yeah.
+Dialogue: 0,1:21:34.30,1:21:38.47,Default,,0000,0000,0000,,You'd think it would be Peter,\Nbut it's her you remind me more of.
+Dialogue: 0,1:21:43.94,1:21:46.65,Default,,0000,0000,0000,,She was just so fun and easygoing,\Nyou know?
+Dialogue: 0,1:21:53.15,1:21:55.32,Default,,0000,0000,0000,,-l have a surprise.\N-What?
+Dialogue: 0,1:21:56.20,1:21:59.74,Default,,0000,0000,0000,,-Something I found earlier.\N-What?
+Dialogue: 0,1:22:02.50,1:22:04.71,Default,,0000,0000,0000,,-A little contraband.\N-Oh, my God, no.
+Dialogue: 0,1:22:04.87,1:22:06.50,Default,,0000,0000,0000,,-What do you mean, no?\N-We can't.
+Dialogue: 0,1:22:06.67,1:22:08.96,Default,,0000,0000,0000,,-Sophie is asleep in the next room.\N-She's asleep.
+Dialogue: 0,1:22:09.13,1:22:10.75,Default,,0000,0000,0000,,Come on,\Nit'll help us stave off glaucoma.
+Dialogue: 0,1:22:10.92,1:22:12.09,Default,,0000,0000,0000,,[HOLLY LAUGHlNG]
+Dialogue: 0,1:22:13.97,1:22:15.17,Default,,0000,0000,0000,,-No.\N-Come on.
+Dialogue: 0,1:22:15.34,1:22:18.05,Default,,0000,0000,0000,,No. Absolutely not.
+Dialogue: 0,1:22:18.22,1:22:21.18,Default,,0000,0000,0000,,We cannot smoke that.
+Dialogue: 0,1:22:29.98,1:22:31.44,Default,,0000,0000,0000,,Don't.
+Dialogue: 0,1:22:31.69,1:22:33.03,Default,,0000,0000,0000,,[MESSER LAUGHING]
+Dialogue: 0,1:22:42.91,1:22:45.20,Default,,0000,0000,0000,,-Why are you leaving them?\N-l'm just taking a few.
+Dialogue: 0,1:22:45.37,1:22:46.96,Default,,0000,0000,0000,,We're not gonna eat all these.
+Dialogue: 0,1:22:47.12,1:22:50.17,Default,,0000,0000,0000,,All right. Come on, let's go.\NWhat are we watching?
+Dialogue: 0,1:22:52.84,1:22:54.21,Default,,0000,0000,0000,,[SINGlNG]\NJump in the car
+Dialogue: 0,1:22:54.67,1:22:56.42,Default,,0000,0000,0000,,And buckle up
+Dialogue: 0,1:22:56.97,1:22:59.55,Default,,0000,0000,0000,,You know there was five Wiggles\Noriginally?
+Dialogue: 0,1:22:59.72,1:23:00.89,Default,,0000,0000,0000,,I was the fifth Wiggle.
+Dialogue: 0,1:23:01.05,1:23:02.18,Default,,0000,0000,0000,,Jump in the car
+Dialogue: 0,1:23:02.60,1:23:04.47,Default,,0000,0000,0000,,Put on my seat belt
+Dialogue: 0,1:23:04.64,1:23:07.23,Default,,0000,0000,0000,,And we can ride the whole day long
+Dialogue: 0,1:23:07.39,1:23:10.60,Default,,0000,0000,0000,,-Oh! That's neat. How do you do that?\N-Like a wiggle.
+Dialogue: 0,1:23:10.77,1:23:13.48,Default,,0000,0000,0000,,-Am I doing it? Am l doing it?\N-That's good.
+Dialogue: 0,1:23:15.65,1:23:17.24,Default,,0000,0000,0000,,[GASPS]
+Dialogue: 0,1:23:19.16,1:23:22.99,Default,,0000,0000,0000,,This is inappropriate for children.
+Dialogue: 0,1:23:23.16,1:23:26.79,Default,,0000,0000,0000,,MEN [SINGlNG]:\NThe shining moon sees no sunlight
+Dialogue: 0,1:23:27.12,1:23:30.25,Default,,0000,0000,0000,,The sun sees no moonbeams
+Dialogue: 0,1:23:30.67,1:23:34.71,Default,,0000,0000,0000,,-So the moon and the sun are friends?\N-They're best friends.
+Dialogue: 0,1:23:34.88,1:23:38.42,Default,,0000,0000,0000,,They're in each other's dreams
+Dialogue: 0,1:23:45.81,1:23:47.89,Default,,0000,0000,0000,,[JANlNE HUMMlNG]
+Dialogue: 0,1:23:56.19,1:23:57.23,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,1:23:57.40,1:23:59.28,Default,,0000,0000,0000,,What? Who?
+Dialogue: 0,1:23:59.53,1:24:00.86,Default,,0000,0000,0000,,[MESSER GROANlNG]
+Dialogue: 0,1:24:01.78,1:24:03.32,Default,,0000,0000,0000,,-Hello?\N-That's the baby monitor.
+Dialogue: 0,1:24:03.49,1:24:04.99,Default,,0000,0000,0000,,Oh, where's the phone?
+Dialogue: 0,1:24:05.16,1:24:07.33,Default,,0000,0000,0000,,-l think it's the door.\N-l'll get the door.
+Dialogue: 0,1:24:09.37,1:24:12.71,Default,,0000,0000,0000,,Oh, good morning, Mr. Messer.\NI hope this isn't too inconvenient a time.
+Dialogue: 0,1:24:12.88,1:24:16.46,Default,,0000,0000,0000,,No, no, no, this is perfect.\NJust give us one minute.
+Dialogue: 0,1:24:16.63,1:24:19.05,Default,,0000,0000,0000,,Actually, it's rather warm outside.\NI'd love to--
+Dialogue: 0,1:24:19.22,1:24:20.63,Default,,0000,0000,0000,,Yay, yay, yay!
+Dialogue: 0,1:24:20.80,1:24:22.84,Default,,0000,0000,0000,,-Hey, Janine is here.\N-What? Now?
+Dialogue: 0,1:24:23.01,1:24:25.47,Default,,0000,0000,0000,,-God, that lady has the worst timing.\N-Come on.
+Dialogue: 0,1:24:25.64,1:24:28.35,Default,,0000,0000,0000,,You take Sophie.\NI'll clean upstairs, you clean downstairs.
+Dialogue: 0,1:24:28.52,1:24:30.73,Default,,0000,0000,0000,,-And get the illicit drugs.\N-Okay.
+Dialogue: 0,1:24:56.46,1:24:59.34,Default,,0000,0000,0000,,Okay, okay, okay. We didn't smoke it.
+Dialogue: 0,1:24:59.51,1:25:01.67,Default,,0000,0000,0000,,-l got a little carried away.\N-You ready? Okay.
+Dialogue: 0,1:25:01.84,1:25:03.34,Default,,0000,0000,0000,,-Where's Sophie?\N-Where's Sophie?
+Dialogue: 0,1:25:03.51,1:25:04.51,Default,,0000,0000,0000,,So--?
+Dialogue: 0,1:25:07.26,1:25:10.64,Default,,0000,0000,0000,,There we go. All right, there we go.
+Dialogue: 0,1:25:10.98,1:25:13.06,Default,,0000,0000,0000,,JANINE:\NWell, you seem more settled in your roles.
+Dialogue: 0,1:25:13.23,1:25:14.94,Default,,0000,0000,0000,,Yeah, yeah. We have learned a lot.
+Dialogue: 0,1:25:15.11,1:25:17.86,Default,,0000,0000,0000,,And so has Miss Sophie.\NShe's walking now.
+Dialogue: 0,1:25:18.48,1:25:21.11,Default,,0000,0000,0000,,So how are you two getting along?\NIs there any tension?
+Dialogue: 0,1:25:21.28,1:25:22.90,Default,,0000,0000,0000,,-Us?\N-Why would there be tension?
+Dialogue: 0,1:25:23.07,1:25:26.20,Default,,0000,0000,0000,,-Everything's fantastic.\N-Everything's all good, good, good.
+Dialogue: 0,1:25:26.37,1:25:29.03,Default,,0000,0000,0000,,Have you thought\Nabout how you're gonna make this work...
+Dialogue: 0,1:25:29.20,1:25:31.04,Default,,0000,0000,0000,,...or what your plans might be together?
+Dialogue: 0,1:25:31.20,1:25:34.04,Default,,0000,0000,0000,,We hadn't really gotten that far.\NIt's still pretty new.
+Dialogue: 0,1:25:34.21,1:25:38.46,Default,,0000,0000,0000,,And some things just happened\Nwith no plan at all.
+Dialogue: 0,1:25:38.63,1:25:41.34,Default,,0000,0000,0000,,Really?\NBecause I kind of had a plan in mind.
+Dialogue: 0,1:25:41.51,1:25:45.34,Default,,0000,0000,0000,,Really? lt just never occurred to me\Nthat you had any interest in my plans.
+Dialogue: 0,1:25:45.51,1:25:47.76,Default,,0000,0000,0000,,How could you not know\NI wanted to plan with you?
+Dialogue: 0,1:25:47.93,1:25:50.06,Default,,0000,0000,0000,,Maybe I'm not as experienced a planner\Nas you.
+Dialogue: 0,1:25:50.22,1:25:53.68,Default,,0000,0000,0000,,-l think you're a good planner.\N-Oh, come on, people, you had sex.
+Dialogue: 0,1:25:56.02,1:25:57.06,Default,,0000,0000,0000,,Huh?
+Dialogue: 0,1:25:57.23,1:26:01.65,Default,,0000,0000,0000,,We have no intention of letting our personal\Nlives affect our parenting, l promise.
+Dialogue: 0,1:26:01.82,1:26:03.82,Default,,0000,0000,0000,,-You gonna get married?\NMESSER: Ha, ha.
+Dialogue: 0,1:26:03.99,1:26:08.07,Default,,0000,0000,0000,,-This happened, what, six hours ago?\N-That's a little specific. l don't know if she--
+Dialogue: 0,1:26:08.24,1:26:11.24,Default,,0000,0000,0000,,What if it doesn't work out?\NAre you gonna sleep in the garage?
+Dialogue: 0,1:26:11.41,1:26:15.62,Default,,0000,0000,0000,,Sex in this situation, it's like termites.\NIt makes for a very unstable household.
+Dialogue: 0,1:26:16.42,1:26:19.92,Default,,0000,0000,0000,,You were supposed to be my easy case.\NI got a nice coffee on the way here.
+Dialogue: 0,1:26:20.09,1:26:24.01,Default,,0000,0000,0000,,I thought, "Gonna deal with my easy case,\Ngonna make it like a little vacation. Yay!"
+Dialogue: 0,1:26:24.17,1:26:25.92,Default,,0000,0000,0000,,-Look, Janine, it--\NJANINE: Now, oh, my God.
+Dialogue: 0,1:26:26.09,1:26:29.68,Default,,0000,0000,0000,,We have one more meeting scheduled.\NBefore then, work out your personal issues.
+Dialogue: 0,1:26:29.85,1:26:32.97,Default,,0000,0000,0000,,Whether you decide to get engaged\Nor pretend it never happened...
+Dialogue: 0,1:26:33.14,1:26:34.43,Default,,0000,0000,0000,,...l don't care.
+Dialogue: 0,1:26:34.60,1:26:37.52,Default,,0000,0000,0000,,Just work your shit out, okay?
+Dialogue: 0,1:26:37.69,1:26:39.06,Default,,0000,0000,0000,,-Okay, okay.\N-Okay, okay.
+Dialogue: 0,1:26:41.73,1:26:45.49,Default,,0000,0000,0000,,-Do you mind if l snag a brownie?\N-Oh, God, no. No, no, no.
+Dialogue: 0,1:26:45.65,1:26:46.86,Default,,0000,0000,0000,,[JANlNE GASPS]\N[GLASS SHATTERS]
+Dialogue: 0,1:26:47.03,1:26:48.16,Default,,0000,0000,0000,,Oh, really, l'm so sorry.
+Dialogue: 0,1:26:48.32,1:26:50.66,Default,,0000,0000,0000,,It's a bad batch,\Nand l'm a professional baker.
+Dialogue: 0,1:26:50.83,1:26:54.41,Default,,0000,0000,0000,,No, it's okay. Your house, your food.\NAnyway, so l'm sorry. l'm out of here.
+Dialogue: 0,1:26:54.58,1:26:55.79,Default,,0000,0000,0000,,-Thank you.\NHOLLY: l'm sorry.
+Dialogue: 0,1:26:55.96,1:26:57.75,Default,,0000,0000,0000,,-Are you--?\N-lt's okay. Thank you.
+Dialogue: 0,1:27:01.88,1:27:04.13,Default,,0000,0000,0000,,You're my last single friend.
+Dialogue: 0,1:27:04.30,1:27:06.30,Default,,0000,0000,0000,,Without you,\NI have no link to the outside.
+Dialogue: 0,1:27:06.47,1:27:10.34,Default,,0000,0000,0000,,Look, l don't know why we did it.\NWe just.... We just did.
+Dialogue: 0,1:27:10.51,1:27:14.51,Default,,0000,0000,0000,,Do you know what marriage is like?\NImagine a prison.
+Dialogue: 0,1:27:14.68,1:27:17.10,Default,,0000,0000,0000,,-And then don't change anything.\N-We're not married.
+Dialogue: 0,1:27:17.27,1:27:21.19,Default,,0000,0000,0000,,You guys are raising a kid together.\NThat's the most married you can get.
+Dialogue: 0,1:27:21.36,1:27:22.86,Default,,0000,0000,0000,,Messer.
+Dialogue: 0,1:27:23.02,1:27:25.23,Default,,0000,0000,0000,,-Minute?\N-Oh, yeah.
+Dialogue: 0,1:27:27.57,1:27:30.32,Default,,0000,0000,0000,,So l gave you a nice big fat break.
+Dialogue: 0,1:27:30.49,1:27:32.24,Default,,0000,0000,0000,,That didn't go so well.
+Dialogue: 0,1:27:32.41,1:27:35.62,Default,,0000,0000,0000,,Should I learn my lesson with you,\Nor should l give you another shot?
+Dialogue: 0,1:27:35.79,1:27:38.91,Default,,0000,0000,0000,,Given a choice,\NI'd go with that one, the shot.
+Dialogue: 0,1:27:39.08,1:27:41.21,Default,,0000,0000,0000,,You get it better\Nthan just about anybody here.
+Dialogue: 0,1:27:41.38,1:27:43.71,Default,,0000,0000,0000,,Sports isn't just about stats\Nand memorizing plays.
+Dialogue: 0,1:27:43.88,1:27:46.00,Default,,0000,0000,0000,,It's about insight, it's about feeling.
+Dialogue: 0,1:27:46.17,1:27:48.59,Default,,0000,0000,0000,,You got the talent,\Nbut you are all over the place.
+Dialogue: 0,1:27:48.76,1:27:50.05,Default,,0000,0000,0000,,I can be in one place, Alan.
+Dialogue: 0,1:27:50.22,1:27:51.72,Default,,0000,0000,0000,,-Can you?\N-Yeah.
+Dialogue: 0,1:27:51.89,1:27:53.10,Default,,0000,0000,0000,,Can you be in Phoenix?
+Dialogue: 0,1:27:54.01,1:27:55.85,Default,,0000,0000,0000,,A spot opened up directing for the Suns.
+Dialogue: 0,1:27:56.02,1:27:58.68,Default,,0000,0000,0000,,They called,\Nasked who l thought was right for the job.
+Dialogue: 0,1:27:58.85,1:28:00.44,Default,,0000,0000,0000,,I'd like to tell them you.
+Dialogue: 0,1:28:03.02,1:28:04.61,Default,,0000,0000,0000,,Let me know.
+Dialogue: 0,1:28:10.11,1:28:12.11,Default,,0000,0000,0000,,[BAND PLAYlNG "MlSSlNG YOU"]
+Dialogue: 0,1:28:13.20,1:28:15.28,Default,,0000,0000,0000,,JOSH [SlNGING]:\NEvery time l think of you
+Dialogue: 0,1:28:17.45,1:28:20.04,Default,,0000,0000,0000,,I always catch my breath
+Dialogue: 0,1:28:21.58,1:28:25.79,Default,,0000,0000,0000,,And l'm still standing here\NAnd you're miles away
+Dialogue: 0,1:28:25.96,1:28:28.21,Default,,0000,0000,0000,,DEEDEE:\NSomebody's getting along pretty good.
+Dialogue: 0,1:28:28.38,1:28:30.88,Default,,0000,0000,0000,,Mmm. Two cats in heat.
+Dialogue: 0,1:28:31.05,1:28:33.34,Default,,0000,0000,0000,,DEEDEE:\NOoh. Look at her. Frisky kitty.
+Dialogue: 0,1:28:33.51,1:28:36.97,Default,,0000,0000,0000,,That's too casual.\NI'll tell you this, they totally did it.
+Dialogue: 0,1:28:37.14,1:28:39.31,Default,,0000,0000,0000,,TED:\NI don't think so. l honestly don't think so.
+Dialogue: 0,1:28:39.48,1:28:42.48,Default,,0000,0000,0000,,She bet me $400 that they were gonna\Nsleep together by Labor Day.
+Dialogue: 0,1:28:42.65,1:28:46.15,Default,,0000,0000,0000,,-That's why you're saying that.\N-l feel like l'm watching CSI: Relationship.
+Dialogue: 0,1:28:46.32,1:28:50.57,Default,,0000,0000,0000,,If me at any age of my life could see me,\Nhe would kick my cat ass, you know that?
+Dialogue: 0,1:28:50.74,1:28:54.16,Default,,0000,0000,0000,,Uh-oh. Messer owes you a quarter, he does.\NHe said a bad word.
+Dialogue: 0,1:28:54.32,1:28:57.41,Default,,0000,0000,0000,,Messer. l heard you lived around here.
+Dialogue: 0,1:28:57.58,1:28:58.79,Default,,0000,0000,0000,,Ben, hey.
+Dialogue: 0,1:28:58.95,1:29:02.04,Default,,0000,0000,0000,,Sweet move, landing Phoenix.\NWe're gonna miss you around the arena.
+Dialogue: 0,1:29:02.21,1:29:05.71,Default,,0000,0000,0000,,-We're still talking about that.\N-Alan said it seemed like a done deal.
+Dialogue: 0,1:29:05.88,1:29:08.42,Default,,0000,0000,0000,,We're gonna be over at the band in a bit.\NMeet you there.
+Dialogue: 0,1:29:08.59,1:29:09.84,Default,,0000,0000,0000,,BEN:\NNice whiskers.
+Dialogue: 0,1:29:10.84,1:29:12.09,Default,,0000,0000,0000,,[HOLLY CHUCKLES]
+Dialogue: 0,1:29:12.88,1:29:14.01,Default,,0000,0000,0000,,What was that about?
+Dialogue: 0,1:29:14.80,1:29:17.10,Default,,0000,0000,0000,,Nothing. Come on, let's go, let's go.
+Dialogue: 0,1:29:17.26,1:29:19.77,Default,,0000,0000,0000,,-Come on. Okay.\N-Thank you.
+Dialogue: 0,1:29:20.89,1:29:22.23,Default,,0000,0000,0000,,Come on, Messer, out with it.
+Dialogue: 0,1:29:22.39,1:29:25.06,Default,,0000,0000,0000,,It's just something Alan and I talked about\Nthe other day.
+Dialogue: 0,1:29:25.23,1:29:28.15,Default,,0000,0000,0000,,He put me up for a directing job. It's....
+Dialogue: 0,1:29:28.32,1:29:29.73,Default,,0000,0000,0000,,-ln Phoenix.\N-For the Suns.
+Dialogue: 0,1:29:29.90,1:29:33.70,Default,,0000,0000,0000,,-Running their whole crew for the season.\N-You said no, though, right?
+Dialogue: 0,1:29:33.86,1:29:37.28,Default,,0000,0000,0000,,Well, l didn't wanna be rude\Nand just turn it down right on the spot.
+Dialogue: 0,1:29:37.45,1:29:40.04,Default,,0000,0000,0000,,-So why didn't you tell me about it?\N-Because I didn't--
+Dialogue: 0,1:29:40.20,1:29:43.62,Default,,0000,0000,0000,,I don't know, l didn't want it to be a thing.\NIt's not like l can take it.
+Dialogue: 0,1:29:43.79,1:29:46.12,Default,,0000,0000,0000,,-But you want to.\N-Well, of course I want to.
+Dialogue: 0,1:29:46.29,1:29:49.34,Default,,0000,0000,0000,,-lt's a huge opportunity.\N-So you're thinking about it.
+Dialogue: 0,1:29:50.34,1:29:52.01,Default,,0000,0000,0000,,-No.\N-No?
+Dialogue: 0,1:29:52.17,1:29:53.80,Default,,0000,0000,0000,,No, I'm not thinking about it.
+Dialogue: 0,1:29:54.38,1:29:57.72,Default,,0000,0000,0000,,I don't understand\Nwhy you didn't just mention it to me.
+Dialogue: 0,1:29:57.89,1:30:01.31,Default,,0000,0000,0000,,Because I didn't want you to get upset,\Nwhich you obviously are.
+Dialogue: 0,1:30:01.47,1:30:03.98,Default,,0000,0000,0000,,Why would l be upset\Nif it's not even a possibility?
+Dialogue: 0,1:30:04.14,1:30:07.40,Default,,0000,0000,0000,,Know what, Mess? Can you just stop\Nwith the food for one minute?
+Dialogue: 0,1:30:07.56,1:30:10.98,Default,,0000,0000,0000,,Can you just tell me honestly,\Nare you thinking about taking this job?
+Dialogue: 0,1:30:13.32,1:30:15.82,Default,,0000,0000,0000,,Yeah. l'm thinking about it.
+Dialogue: 0,1:30:15.99,1:30:18.32,Default,,0000,0000,0000,,This is something\Nthat I've been working for, okay?
+Dialogue: 0,1:30:18.49,1:30:21.33,Default,,0000,0000,0000,,I would've jumped\Nat this opportunity before.
+Dialogue: 0,1:30:21.49,1:30:22.79,Default,,0000,0000,0000,,Before Sophie and before me?
+Dialogue: 0,1:30:24.75,1:30:26.67,Default,,0000,0000,0000,,I get it. Come on. Come here, bugaboo.
+Dialogue: 0,1:30:26.83,1:30:29.00,Default,,0000,0000,0000,,-Holly. Holl--\N-Hey, bugaboos. Hello, bugaboos.
+Dialogue: 0,1:30:29.17,1:30:30.63,Default,,0000,0000,0000,,How was this gonna work exactly?
+Dialogue: 0,1:30:30.80,1:30:33.13,Default,,0000,0000,0000,,Were we gonna go with you,\Nor were you gonna leave?
+Dialogue: 0,1:30:33.30,1:30:35.67,Default,,0000,0000,0000,,I don't know.\NI never had to think for three people.
+Dialogue: 0,1:30:35.84,1:30:38.55,Default,,0000,0000,0000,,I barely had to think for one.\NIt's just a job offer, okay?
+Dialogue: 0,1:30:38.72,1:30:42.01,Default,,0000,0000,0000,,No, it's not, it's exactly what\Nyou've been waiting for, a clean out.
+Dialogue: 0,1:30:42.18,1:30:44.60,Default,,0000,0000,0000,,-That's not true.\N-You have never wanted to be here.
+Dialogue: 0,1:30:44.77,1:30:47.73,Default,,0000,0000,0000,,And after everything,\Nyou still think of us as temporary.
+Dialogue: 0,1:30:47.90,1:30:49.35,Default,,0000,0000,0000,,You think that I'm not in this?
+Dialogue: 0,1:30:49.52,1:30:52.73,Default,,0000,0000,0000,,I gave up my place,\NI gave up my motorcycle, I gave you money.
+Dialogue: 0,1:30:52.90,1:30:55.69,Default,,0000,0000,0000,,-l never asked you for money.\N-l did it to make you happy.
+Dialogue: 0,1:30:55.86,1:30:58.28,Default,,0000,0000,0000,,I gave up everything\Nto play this frigging part.
+Dialogue: 0,1:30:58.91,1:31:01.07,Default,,0000,0000,0000,,"Play this part"?
+Dialogue: 0,1:31:01.66,1:31:02.91,Default,,0000,0000,0000,,That's what this is to you.
+Dialogue: 0,1:31:03.08,1:31:05.79,Default,,0000,0000,0000,,Well, we're living in their house,\Nwe're raising their kid.
+Dialogue: 0,1:31:05.96,1:31:08.50,Default,,0000,0000,0000,,We're acting like we're married,\Nbut we're not.
+Dialogue: 0,1:31:08.67,1:31:12.25,Default,,0000,0000,0000,,-Have you been pretending with Sophie?\N-No, I love Sophie.
+Dialogue: 0,1:31:12.92,1:31:13.96,Default,,0000,0000,0000,,So just me, then.
+Dialogue: 0,1:31:16.76,1:31:19.05,Default,,0000,0000,0000,,You should take the job, Messer.
+Dialogue: 0,1:31:27.06,1:31:28.10,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,1:31:28.27,1:31:31.56,Default,,0000,0000,0000,,I know. I'm sorry.
+Dialogue: 0,1:31:35.99,1:31:37.94,Default,,0000,0000,0000,,I'm sorry.
+Dialogue: 0,1:32:20.61,1:32:21.66,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,1:32:21.82,1:32:24.49,Default,,0000,0000,0000,,I'm coming, Soph.\NI'm coming, honey, hold on.
+Dialogue: 0,1:32:25.33,1:32:26.79,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:32:28.62,1:32:29.62,Default,,0000,0000,0000,,Oh.
+Dialogue: 0,1:32:29.79,1:32:33.17,Default,,0000,0000,0000,,I knew you'd be up to your eyeballs\Nin egg whites, so I just grabbed her.
+Dialogue: 0,1:32:33.33,1:32:34.38,Default,,0000,0000,0000,,-Thanks.\N-There you go.
+Dialogue: 0,1:32:35.25,1:32:39.13,Default,,0000,0000,0000,,Good morning, Miss Soph. I missed you.
+Dialogue: 0,1:32:39.30,1:32:42.13,Default,,0000,0000,0000,,You slept so good last night.\NCan you say "apple"?
+Dialogue: 0,1:32:42.30,1:32:43.47,Default,,0000,0000,0000,,Apple.
+Dialogue: 0,1:32:43.64,1:32:45.01,Default,,0000,0000,0000,,[IN SLOW VOlCE]\NBanana.
+Dialogue: 0,1:32:45.18,1:32:47.85,Default,,0000,0000,0000,,I always sound like Antonio Banderas\Nwhen l do that.
+Dialogue: 0,1:32:48.02,1:32:50.60,Default,,0000,0000,0000,,[IN SLOW VOlCE]\NBanana.
+Dialogue: 0,1:32:50.77,1:32:52.27,Default,,0000,0000,0000,,SAM:\NAll right.
+Dialogue: 0,1:32:52.44,1:32:55.69,Default,,0000,0000,0000,,I'd love to sit and eat,\Nbut I got the Finister twins coming in...
+Dialogue: 0,1:32:55.86,1:33:00.32,Default,,0000,0000,0000,,...and if l'm even a minute late, they will\Nredecorate my waiting room, again.
+Dialogue: 0,1:33:01.15,1:33:03.20,Default,,0000,0000,0000,,-l'll see you later?\N-Mm-hm.
+Dialogue: 0,1:33:03.36,1:33:05.41,Default,,0000,0000,0000,,Wait, take a muffin.
+Dialogue: 0,1:33:05.58,1:33:07.99,Default,,0000,0000,0000,,Thanks. Bye, Sophie.
+Dialogue: 0,1:33:08.83,1:33:10.20,Default,,0000,0000,0000,,-Bye.\N-Bye.
+Dialogue: 0,1:33:17.38,1:33:19.30,Default,,0000,0000,0000,,[INAUDIBLE DlALOGUE]
+Dialogue: 0,1:33:23.18,1:33:25.89,Default,,0000,0000,0000,,ANNOUNCER:\NAnd the Phoenix Suns' Steve Nash to a....
+Dialogue: 0,1:33:26.05,1:33:29.35,Default,,0000,0000,0000,,Greg, ready that cutaway. Roll it.
+Dialogue: 0,1:33:29.52,1:33:30.52,Default,,0000,0000,0000,,Take it.
+Dialogue: 0,1:33:30.81,1:33:32.02,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,1:33:35.35,1:33:36.52,Default,,0000,0000,0000,,[SINGlNG]\NWeirdo
+Dialogue: 0,1:33:38.32,1:33:40.53,Default,,0000,0000,0000,,What the hell am I doing here?
+Dialogue: 0,1:34:05.22,1:34:06.84,Default,,0000,0000,0000,,HOLLY:\NThank you.
+Dialogue: 0,1:34:14.35,1:34:16.77,Default,,0000,0000,0000,,-Thanks.\NLONNIE: Oh, look.
+Dialogue: 0,1:34:17.65,1:34:18.86,Default,,0000,0000,0000,,Wow.
+Dialogue: 0,1:34:19.07,1:34:23.03,Default,,0000,0000,0000,,Oh, look at you.\NMy goodness, you're getting so big.
+Dialogue: 0,1:34:23.19,1:34:26.40,Default,,0000,0000,0000,,-She's huge, right?\N-That iChat doesn't do her justice.
+Dialogue: 0,1:34:26.57,1:34:29.45,Default,,0000,0000,0000,,-"Messer." Can you say "Messer"?\N-Oh, good luck with that.
+Dialogue: 0,1:34:29.62,1:34:31.49,Default,,0000,0000,0000,,-Still no "Holly," huh?\N-Nope.
+Dialogue: 0,1:34:31.66,1:34:35.62,Default,,0000,0000,0000,,You know what it's like to be outranked\Nby "cup," "pool," and "giraffe"?
+Dialogue: 0,1:34:35.79,1:34:39.42,Default,,0000,0000,0000,,Okay, so we are all set for Monday.
+Dialogue: 0,1:34:39.59,1:34:42.17,Default,,0000,0000,0000,,Janine actually broke tradition\Nand scheduled something.
+Dialogue: 0,1:34:42.55,1:34:46.09,Default,,0000,0000,0000,,So you really did kill the expansion, huh?\NThat's too bad.
+Dialogue: 0,1:34:46.26,1:34:49.97,Default,,0000,0000,0000,,Yeah, we were like this before\Nand we were fine, so....
+Dialogue: 0,1:34:50.76,1:34:52.72,Default,,0000,0000,0000,,All right, you ready?
+Dialogue: 0,1:34:53.68,1:34:54.72,Default,,0000,0000,0000,,See you.
+Dialogue: 0,1:34:54.89,1:34:56.60,Default,,0000,0000,0000,,-Have fun.\N-Okay.
+Dialogue: 0,1:34:58.40,1:35:00.40,Default,,0000,0000,0000,,-Hey, Mess?\N-Yeah?
+Dialogue: 0,1:35:00.56,1:35:02.82,Default,,0000,0000,0000,,I don't know\Nif you have any plans or not...
+Dialogue: 0,1:35:02.98,1:35:05.78,Default,,0000,0000,0000,,...but, well, Sam and I\Nare hosting a Thanksgiving dinner...
+Dialogue: 0,1:35:05.95,1:35:07.82,Default,,0000,0000,0000,,...and the neighbors are gonna be there.
+Dialogue: 0,1:35:07.99,1:35:11.28,Default,,0000,0000,0000,,They keep asking about you,\Nso l don't know, maybe you wanna join us.
+Dialogue: 0,1:35:11.45,1:35:12.53,Default,,0000,0000,0000,,-Yeah.\N-Yeah?
+Dialogue: 0,1:35:12.70,1:35:13.99,Default,,0000,0000,0000,,-Yeah, what the hell.\N-Okay.
+Dialogue: 0,1:35:14.16,1:35:15.62,Default,,0000,0000,0000,,-All right. You're cooking?\N-Yes.
+Dialogue: 0,1:35:15.79,1:35:17.79,Default,,0000,0000,0000,,-All right. I'll see you there.\N-Great.
+Dialogue: 0,1:35:17.96,1:35:19.25,Default,,0000,0000,0000,,Say goodbye. There we go.
+Dialogue: 0,1:35:19.54,1:35:21.00,Default,,0000,0000,0000,,[CHUCKLES]
+Dialogue: 0,1:35:28.13,1:35:29.80,Default,,0000,0000,0000,,-Mmm.\N-You think?
+Dialogue: 0,1:35:29.97,1:35:32.30,Default,,0000,0000,0000,,You don't think it needs more nutmeg?
+Dialogue: 0,1:35:34.81,1:35:35.89,Default,,0000,0000,0000,,You are no help.
+Dialogue: 0,1:35:36.06,1:35:37.10,Default,,0000,0000,0000,,[DOORBELL RlNGS]
+Dialogue: 0,1:35:37.27,1:35:38.48,Default,,0000,0000,0000,,I'll get it.
+Dialogue: 0,1:35:42.65,1:35:44.73,Default,,0000,0000,0000,,GARY:\NWhoa, settle down.
+Dialogue: 0,1:35:45.65,1:35:46.69,Default,,0000,0000,0000,,-Hey.\N-Hi.
+Dialogue: 0,1:35:46.86,1:35:48.99,Default,,0000,0000,0000,,-Happy Thanksgiving.\N-Yeah, you too.
+Dialogue: 0,1:35:49.16,1:35:50.74,Default,,0000,0000,0000,,-l got you a little wine.\N-Thanks.
+Dialogue: 0,1:35:50.91,1:35:52.49,Default,,0000,0000,0000,,-Nine bucks.\N-Wow.
+Dialogue: 0,1:35:54.62,1:35:56.41,Default,,0000,0000,0000,,-Where's Soph?\N-She's back there.
+Dialogue: 0,1:35:56.58,1:35:58.46,Default,,0000,0000,0000,,-Okay.\N-Come on in.
+Dialogue: 0,1:35:59.58,1:36:00.92,Default,,0000,0000,0000,,-Oh, hey.\N-Hi. Hello.
+Dialogue: 0,1:36:01.08,1:36:02.83,Default,,0000,0000,0000,,-Hi.\NTED: Hey, sport.
+Dialogue: 0,1:36:03.00,1:36:04.79,Default,,0000,0000,0000,,-That was a wave to me.\N-Okay.
+Dialogue: 0,1:36:04.96,1:36:06.92,Default,,0000,0000,0000,,So, what else you maniacs been up to?
+Dialogue: 0,1:36:07.09,1:36:09.17,Default,,0000,0000,0000,,Gary and I are taking\Na couples' karate class.
+Dialogue: 0,1:36:09.51,1:36:10.80,Default,,0000,0000,0000,,-Wow.\NSCOTT: Fun.
+Dialogue: 0,1:36:10.97,1:36:13.34,Default,,0000,0000,0000,,I'm not gonna be around to defend him\Nall the time.
+Dialogue: 0,1:36:13.51,1:36:15.01,Default,,0000,0000,0000,,-Toughen him up.\N-Yeah.
+Dialogue: 0,1:36:15.18,1:36:19.64,Default,,0000,0000,0000,,What a great opportunity to get to kick\Nyour spouse in the face once in a while...
+Dialogue: 0,1:36:19.81,1:36:23.27,Default,,0000,0000,0000,,...in a controlled setting\Nwhere it's okay and it's expected.
+Dialogue: 0,1:36:23.44,1:36:24.98,Default,,0000,0000,0000,,Messer.
+Dialogue: 0,1:36:25.15,1:36:28.44,Default,,0000,0000,0000,,-Hey. How you doing, doc?\N-Good, good.
+Dialogue: 0,1:36:29.03,1:36:31.03,Default,,0000,0000,0000,,-Glad you could make it.\N-Appreciate that.
+Dialogue: 0,1:36:31.20,1:36:35.62,Default,,0000,0000,0000,,Although, technically, this is my house,\Nso l'm glad you could make it.
+Dialogue: 0,1:36:35.79,1:36:39.04,Default,,0000,0000,0000,,You know, I know this is a little weird.
+Dialogue: 0,1:36:39.21,1:36:42.33,Default,,0000,0000,0000,,-No, it's not weird.\N-lt's a little weird.
+Dialogue: 0,1:36:42.50,1:36:44.92,Default,,0000,0000,0000,,The house, we're all a part of it,\Nespecially you.
+Dialogue: 0,1:36:45.80,1:36:47.92,Default,,0000,0000,0000,,Yeah, we're all fans of the house.
+Dialogue: 0,1:36:48.09,1:36:51.09,Default,,0000,0000,0000,,Hey, dinner today is a great way\Nfor us to say goodbye, right?
+Dialogue: 0,1:36:51.59,1:36:52.68,Default,,0000,0000,0000,,TED:\NAbsolutely.
+Dialogue: 0,1:36:54.68,1:36:57.31,Default,,0000,0000,0000,,I'm sorry, am l missing something?
+Dialogue: 0,1:37:00.52,1:37:02.60,Default,,0000,0000,0000,,You're selling the house?
+Dialogue: 0,1:37:03.40,1:37:06.61,Default,,0000,0000,0000,,-When were you gonna tell me about this?\N-After our meeting with CPS.
+Dialogue: 0,1:37:06.77,1:37:09.78,Default,,0000,0000,0000,,It's just too big, Messer.\NThe upkeep's a fortune. You know that.
+Dialogue: 0,1:37:09.94,1:37:13.36,Default,,0000,0000,0000,,-l'm paying my half.\N-l appreciate that, but it's still not enough.
+Dialogue: 0,1:37:13.53,1:37:14.91,Default,,0000,0000,0000,,You should've asked me, Holly.
+Dialogue: 0,1:37:15.07,1:37:17.53,Default,,0000,0000,0000,,Oh, like you asked me\Nabout moving to Phoenix?
+Dialogue: 0,1:37:17.70,1:37:20.58,Default,,0000,0000,0000,,You're not selling the house.\NThey wanted her to grow up here.
+Dialogue: 0,1:37:20.75,1:37:24.75,Default,,0000,0000,0000,,They wanted you and I to raise her,\Nbut you walked away from that obligation.
+Dialogue: 0,1:37:24.92,1:37:27.38,Default,,0000,0000,0000,,You sure didn't waste any time\Nfinding somebody else.
+Dialogue: 0,1:37:27.55,1:37:30.67,Default,,0000,0000,0000,,Are you gonna try to make me feel bad\Nbecause you walked away?
+Dialogue: 0,1:37:30.84,1:37:33.93,Default,,0000,0000,0000,,You wanted to do it on your own,\Nbut you never could've without me.
+Dialogue: 0,1:37:34.09,1:37:37.14,Default,,0000,0000,0000,,That's why seconds after I was gone,\Nyou found Replacement Messer.
+Dialogue: 0,1:37:37.30,1:37:38.72,Default,,0000,0000,0000,,HOLLY:\NHe is not Replacement Messer.
+Dialogue: 0,1:37:38.89,1:37:41.77,Default,,0000,0000,0000,,Sound really travels in here,\Ndon't you think?
+Dialogue: 0,1:37:41.93,1:37:46.52,Default,,0000,0000,0000,,You know what? He is nothing like you.\NSam is nothing like you.
+Dialogue: 0,1:37:46.69,1:37:50.69,Default,,0000,0000,0000,,He is warm and kind, and he doesn't\Nrun away at the first sign of something real.
+Dialogue: 0,1:37:50.86,1:37:52.11,Default,,0000,0000,0000,,Yeah, l ran.
+Dialogue: 0,1:37:52.28,1:37:55.07,Default,,0000,0000,0000,,My best friend died,\Nand overnight l had a house and a baby.
+Dialogue: 0,1:37:55.24,1:37:57.07,Default,,0000,0000,0000,,-l'm sorry if--\N-lf what?
+Dialogue: 0,1:37:57.24,1:37:59.28,Default,,0000,0000,0000,,-l was scared.\N-You don't think I was scared?
+Dialogue: 0,1:37:59.45,1:38:03.00,Default,,0000,0000,0000,,It was easier for you. You wanted this.\NYou wanted the life that they had.
+Dialogue: 0,1:38:03.16,1:38:06.17,Default,,0000,0000,0000,,But not the way l got it.\NJesus, not the way l got it.
+Dialogue: 0,1:38:06.33,1:38:08.63,Default,,0000,0000,0000,,And not with somebody\Nwho didn't love me back.
+Dialogue: 0,1:38:08.79,1:38:10.46,Default,,0000,0000,0000,,But l did.
+Dialogue: 0,1:38:12.63,1:38:14.34,Default,,0000,0000,0000,,Holly, I still do.
+Dialogue: 0,1:38:19.47,1:38:21.39,Default,,0000,0000,0000,,No, you're right.
+Dialogue: 0,1:38:21.56,1:38:22.93,Default,,0000,0000,0000,,We were just....
+Dialogue: 0,1:38:23.10,1:38:26.27,Default,,0000,0000,0000,,We were just pretending to be them.
+Dialogue: 0,1:38:27.48,1:38:29.61,Default,,0000,0000,0000,,We needed each other\Nto get through everything.
+Dialogue: 0,1:38:29.77,1:38:34.28,Default,,0000,0000,0000,,And now that's done, and we don't need\Nto pretend anymore, Messer, okay?
+Dialogue: 0,1:38:34.45,1:38:36.53,Default,,0000,0000,0000,,I don't wanna fight with you, please.
+Dialogue: 0,1:38:42.95,1:38:44.70,Default,,0000,0000,0000,,I'm gonna go back to Phoenix.
+Dialogue: 0,1:38:45.37,1:38:47.29,Default,,0000,0000,0000,,You can handle Janine on your own.
+Dialogue: 0,1:38:47.46,1:38:50.50,Default,,0000,0000,0000,,Looks like you got things covered here\Nwithout me.
+Dialogue: 0,1:38:56.51,1:38:58.09,Default,,0000,0000,0000,,Oh, damn it.
+Dialogue: 0,1:39:02.18,1:39:04.68,Default,,0000,0000,0000,,Happy Thanksgiving, everyone.
+Dialogue: 0,1:39:04.85,1:39:06.43,Default,,0000,0000,0000,,It was great to see you all.
+Dialogue: 0,1:39:06.60,1:39:09.81,Default,,0000,0000,0000,,If you're ever in Phoenix,\Ndon't be afraid to look me up.
+Dialogue: 0,1:39:12.90,1:39:14.19,Default,,0000,0000,0000,,[SOPHlE CRYING]
+Dialogue: 0,1:39:16.99,1:39:18.57,Default,,0000,0000,0000,,Shh, shh, shh.
+Dialogue: 0,1:39:33.30,1:39:37.34,Default,,0000,0000,0000,,Okay, dinner is served.
+Dialogue: 0,1:39:37.80,1:39:40.55,Default,,0000,0000,0000,,You guys all should try the stuffing.\NReally, it's amazing.
+Dialogue: 0,1:39:40.72,1:39:44.35,Default,,0000,0000,0000,,There's an andouille-sausage thing\Ngoing on, so you'll love it.
+Dialogue: 0,1:39:44.52,1:39:47.60,Default,,0000,0000,0000,,Go ahead and dig in.\NCome on, everybody, just....
+Dialogue: 0,1:39:48.14,1:39:50.19,Default,,0000,0000,0000,,Eat, now.
+Dialogue: 0,1:39:59.15,1:40:02.41,Default,,0000,0000,0000,,HOLLY: All right, thanks for coming.\NHELEN: Good night, sweetie.
+Dialogue: 0,1:40:10.58,1:40:12.08,Default,,0000,0000,0000,,Yeah, okay, that was bad.
+Dialogue: 0,1:40:15.30,1:40:17.96,Default,,0000,0000,0000,,Yeah, maybe we did go too fast.
+Dialogue: 0,1:40:18.13,1:40:20.09,Default,,0000,0000,0000,,You have unresolved feelings for him.
+Dialogue: 0,1:40:20.26,1:40:23.05,Default,,0000,0000,0000,,Messer and l barely got along\Nunder the best circumstances...
+Dialogue: 0,1:40:23.22,1:40:25.72,Default,,0000,0000,0000,,...and there weren't very many\Nof those either.
+Dialogue: 0,1:40:26.43,1:40:29.02,Default,,0000,0000,0000,,If my wife and I fought like that...
+Dialogue: 0,1:40:31.10,1:40:33.15,Default,,0000,0000,0000,,...well, we'd still be married.
+Dialogue: 0,1:40:39.82,1:40:43.11,Default,,0000,0000,0000,,You know, before anything happened\Nto Peter and Alison...
+Dialogue: 0,1:40:43.28,1:40:46.66,Default,,0000,0000,0000,,...you were exactly the guy\NI wanted to be with.
+Dialogue: 0,1:40:47.41,1:40:51.37,Default,,0000,0000,0000,,I would lose time thinking about you,\Nand l didn't even know your name yet.
+Dialogue: 0,1:40:58.30,1:40:59.34,Default,,0000,0000,0000,,I'll miss you guys.
+Dialogue: 0,1:41:09.85,1:41:13.98,Default,,0000,0000,0000,,HOLLY:\N"Leonardo was a terrible monster.
+Dialogue: 0,1:41:15.77,1:41:18.27,Default,,0000,0000,0000,,He couldn't scare anyone.
+Dialogue: 0,1:41:20.65,1:41:23.03,Default,,0000,0000,0000,,He didn't have 1 642--"
+Dialogue: 0,1:41:23.20,1:41:24.99,Default,,0000,0000,0000,,Mama.
+Dialogue: 0,1:41:26.33,1:41:28.79,Default,,0000,0000,0000,,No, Holly.
+Dialogue: 0,1:41:28.95,1:41:32.04,Default,,0000,0000,0000,,-No, I'm Holly.\N-Mama.
+Dialogue: 0,1:41:49.60,1:41:50.72,Default,,0000,0000,0000,,Yeah, baby girl.
+Dialogue: 0,1:41:51.68,1:41:53.39,Default,,0000,0000,0000,,I'm your mama.
+Dialogue: 0,1:42:03.20,1:42:07.12,Default,,0000,0000,0000,,HOLLY: The truth is, you know,\Nsometimes it works better...
+Dialogue: 0,1:42:07.28,1:42:09.58,Default,,0000,0000,0000,,...with one person doing everything,\Nyou know?
+Dialogue: 0,1:42:09.74,1:42:12.45,Default,,0000,0000,0000,,No charts, no arguments.
+Dialogue: 0,1:42:14.04,1:42:15.54,Default,,0000,0000,0000,,I know it's not ideal.
+Dialogue: 0,1:42:15.71,1:42:18.71,Default,,0000,0000,0000,,But since when do parents\Nget the ideal, right?
+Dialogue: 0,1:42:20.17,1:42:24.92,Default,,0000,0000,0000,,Right? Right, pretty girl? Huh?\NI know, I know.
+Dialogue: 0,1:42:30.51,1:42:32.39,Default,,0000,0000,0000,,I'm sorry.
+Dialogue: 0,1:42:32.56,1:42:34.81,Default,,0000,0000,0000,,I can't do this. This isn't right.
+Dialogue: 0,1:42:35.48,1:42:37.65,Default,,0000,0000,0000,,-ls there a problem?\N-Yeah, I'm an idiot.
+Dialogue: 0,1:42:37.81,1:42:40.57,Default,,0000,0000,0000,,I gotta reschedule.\NI'm sorry. I need to get to the airport.
+Dialogue: 0,1:42:40.73,1:42:42.57,Default,,0000,0000,0000,,-Come on.\N-What?
+Dialogue: 0,1:42:58.50,1:42:59.79,Default,,0000,0000,0000,,[PHONE RlNGING]
+Dialogue: 0,1:42:59.96,1:43:03.17,Default,,0000,0000,0000,,All right, come on.\NPick up, pick up, pick up.
+Dialogue: 0,1:43:03.34,1:43:05.17,Default,,0000,0000,0000,,MESSER [ON RECORDlNG]:\NHey, this is Messer.
+Dialogue: 0,1:43:05.34,1:43:07.26,Default,,0000,0000,0000,,-Ugh!\N-Leave me something dirty.
+Dialogue: 0,1:43:09.34,1:43:11.26,Default,,0000,0000,0000,,You know,\NI could have come back for you.
+Dialogue: 0,1:43:11.76,1:43:15.06,Default,,0000,0000,0000,,Well, this is our last meeting,\Nand l'm booked up for the next month.
+Dialogue: 0,1:43:15.23,1:43:18.44,Default,,0000,0000,0000,,-One way or another, we're finishing it.\N-Okay.
+Dialogue: 0,1:43:18.94,1:43:22.48,Default,,0000,0000,0000,,If you wanna get there quickly, you might\Nwanna drive faster than other cars.
+Dialogue: 0,1:43:22.65,1:43:24.36,Default,,0000,0000,0000,,But you're observing me, so....
+Dialogue: 0,1:43:24.78,1:43:27.99,Default,,0000,0000,0000,,-l'm observing you miss the flight. Move it.\N-Okay.
+Dialogue: 0,1:43:48.51,1:43:50.18,Default,,0000,0000,0000,,[HOLLY CHUCKLlNG ON VIDEO]
+Dialogue: 0,1:43:50.64,1:43:52.18,Default,,0000,0000,0000,,HOLLY:\NCome here.
+Dialogue: 0,1:43:54.64,1:43:59.52,Default,,0000,0000,0000,,July 22nd, 201 0. First steps.
+Dialogue: 0,1:44:01.90,1:44:04.07,Default,,0000,0000,0000,,Where you going? Come back.
+Dialogue: 0,1:44:06.19,1:44:07.49,Default,,0000,0000,0000,,Yay!
+Dialogue: 0,1:44:12.03,1:44:14.78,Default,,0000,0000,0000,,You have a beautiful family.
+Dialogue: 0,1:44:16.66,1:44:17.75,Default,,0000,0000,0000,,Thank you.
+Dialogue: 0,1:44:18.71,1:44:20.29,Default,,0000,0000,0000,,WOMAN [OVER PA]:\NLadies and gentlemen...
+Dialogue: 0,1:44:20.46,1:44:22.88,Default,,0000,0000,0000,,...Flight 722 to Phoenix\Nwill now begin boarding.
+Dialogue: 0,1:44:31.51,1:44:35.10,Default,,0000,0000,0000,,Hi. Hi. l need two tickets that will get me\Nanywhere near Terminal T...
+Dialogue: 0,1:44:35.26,1:44:39.60,Default,,0000,0000,0000,,-...as fast as possible, please.\N-Three. I'm not waiting in the car.
+Dialogue: 0,1:44:41.14,1:44:43.15,Default,,0000,0000,0000,,The baby's shoes too, ma'am.
+Dialogue: 0,1:44:44.19,1:44:46.52,Default,,0000,0000,0000,,Are you kidding me? They're baby shoes.
+Dialogue: 0,1:44:47.07,1:44:50.61,Default,,0000,0000,0000,,-Just give her to me. Give her to me. Go.\N-Here. Okay, thanks.
+Dialogue: 0,1:45:18.60,1:45:19.81,Default,,0000,0000,0000,,[SIGHS]
+Dialogue: 0,1:45:39.91,1:45:41.58,Default,,0000,0000,0000,,[CRYING]
+Dialogue: 0,1:45:44.96,1:45:48.25,Default,,0000,0000,0000,,It's just, you ran all the way there...
+Dialogue: 0,1:45:48.42,1:45:51.96,Default,,0000,0000,0000,,...and l thought when I took Sophie,\Nit would be, you know, okay.
+Dialogue: 0,1:45:52.13,1:45:54.93,Default,,0000,0000,0000,,I know.\NYou know, you did great, you did.
+Dialogue: 0,1:45:55.09,1:45:57.55,Default,,0000,0000,0000,,Don't worry about me. l'll be fine, l will.
+Dialogue: 0,1:45:58.14,1:46:00.06,Default,,0000,0000,0000,,-l've got Sophie.\N-Yeah.
+Dialogue: 0,1:46:00.22,1:46:02.98,Default,,0000,0000,0000,,And maybe this is the way\Nthings were meant to be, so--
+Dialogue: 0,1:46:03.14,1:46:05.52,Default,,0000,0000,0000,,You're just gonna be so unhappy.
+Dialogue: 0,1:46:06.52,1:46:09.44,Default,,0000,0000,0000,,-l'm not gonna start crying again.\N-l should get Sophie inside.
+Dialogue: 0,1:46:09.61,1:46:12.03,Default,,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,1:46:16.20,1:46:19.28,Default,,0000,0000,0000,,-You're gonna be a great mom.\N-Thanks.
+Dialogue: 0,1:46:21.12,1:46:23.95,Default,,0000,0000,0000,,-l'll let CPS know you passed.\N-Thank you. Thanks.
+Dialogue: 0,1:46:24.66,1:46:26.62,Default,,0000,0000,0000,,-Chin up.\N-Okay.
+Dialogue: 0,1:46:26.79,1:46:28.25,Default,,0000,0000,0000,,I'm really sorry that l cried.
+Dialogue: 0,1:46:28.42,1:46:30.75,Default,,0000,0000,0000,,-No problem. Used to crying.\N-Okay.
+Dialogue: 0,1:46:39.89,1:46:41.31,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:46:42.14,1:46:43.47,Default,,0000,0000,0000,,Here.
+Dialogue: 0,1:46:43.64,1:46:47.60,Default,,0000,0000,0000,,Wanna play with the keys?\NJust don't lose them like last time.
+Dialogue: 0,1:46:56.57,1:47:01.12,Default,,0000,0000,0000,,-Oh, my God. Messer. Oh, my God.\N-l didn't mean to scare you, all right?
+Dialogue: 0,1:47:01.28,1:47:04.29,Default,,0000,0000,0000,,I had my key, and l thought\Nthat you'd be home for Janine.
+Dialogue: 0,1:47:05.33,1:47:06.37,Default,,0000,0000,0000,,Messer--
+Dialogue: 0,1:47:06.54,1:47:09.13,Default,,0000,0000,0000,,Look, please don't say anything.\NJust listen.
+Dialogue: 0,1:47:10.38,1:47:12.84,Default,,0000,0000,0000,,I finally figured out\Nwhy Peter and Alison picked us.
+Dialogue: 0,1:47:13.00,1:47:14.84,Default,,0000,0000,0000,,And it's not because we knew them best.
+Dialogue: 0,1:47:15.01,1:47:17.55,Default,,0000,0000,0000,,It's because you and me together,\Nwith Sophie...
+Dialogue: 0,1:47:17.72,1:47:20.59,Default,,0000,0000,0000,,...somehow, we're a family.
+Dialogue: 0,1:47:22.18,1:47:24.68,Default,,0000,0000,0000,,Like they were.\NAnd that's why they picked us.
+Dialogue: 0,1:47:24.85,1:47:27.94,Default,,0000,0000,0000,,And when I'm gone,\NI don't just miss her or you, l miss us.
+Dialogue: 0,1:47:28.10,1:47:29.98,Default,,0000,0000,0000,,I miss our family.
+Dialogue: 0,1:47:30.15,1:47:31.40,Default,,0000,0000,0000,,I know we got it backwards.
+Dialogue: 0,1:47:31.57,1:47:35.03,Default,,0000,0000,0000,,You're supposed to meet, fall in love,\Nthen have a baby, but l don't care.
+Dialogue: 0,1:47:35.19,1:47:38.07,Default,,0000,0000,0000,,I don't care how it happened,\Nbecause l fell in love with you.
+Dialogue: 0,1:47:38.53,1:47:40.36,Default,,0000,0000,0000,,-l fell in love with our family.\N-Messer.
+Dialogue: 0,1:47:43.37,1:47:45.29,Default,,0000,0000,0000,,I was at the airport.
+Dialogue: 0,1:47:48.37,1:47:51.63,Default,,0000,0000,0000,,Did you plan some kind of a trip\Nthat I'm not aware of?
+Dialogue: 0,1:47:52.21,1:47:53.59,Default,,0000,0000,0000,,No.
+Dialogue: 0,1:47:56.38,1:48:00.30,Default,,0000,0000,0000,,Well, did you hear me say l loved you?\NBecause I can say it again.
+Dialogue: 0,1:48:00.47,1:48:02.05,Default,,0000,0000,0000,,Okay.
+Dialogue: 0,1:48:03.64,1:48:05.56,Default,,0000,0000,0000,,I love you.
+Dialogue: 0,1:48:27.41,1:48:31.62,Default,,0000,0000,0000,,When I found out that l was pregnant again,\NI just cried and l cried and I cried.
+Dialogue: 0,1:48:31.79,1:48:34.21,Default,,0000,0000,0000,,And l said, "Scott, can we be this blessed?\NCan we?"
+Dialogue: 0,1:48:34.38,1:48:36.50,Default,,0000,0000,0000,,We can't repeat what I said.\NIt was not polite.
+Dialogue: 0,1:48:36.67,1:48:40.42,Default,,0000,0000,0000,,We cannot. We were-- You know what?\NI think Campbell needs a new diaper.
+Dialogue: 0,1:48:40.59,1:48:41.84,Default,,0000,0000,0000,,-Okay.\N-Thank you.
+Dialogue: 0,1:48:42.01,1:48:43.05,Default,,0000,0000,0000,,-Me, huh?\N-Yeah.
+Dialogue: 0,1:48:43.22,1:48:45.39,Default,,0000,0000,0000,,-All right.\N-Look at him go.
+Dialogue: 0,1:48:45.56,1:48:49.06,Default,,0000,0000,0000,,Oh, Scott, could you get me maybe\Na little glass of ice water or something?
+Dialogue: 0,1:48:49.23,1:48:52.06,Default,,0000,0000,0000,,-Of course. Why haven't l done that?\NDEEDEE: Oh, I don't know.
+Dialogue: 0,1:48:52.23,1:48:54.02,Default,,0000,0000,0000,,Coming through.
+Dialogue: 0,1:48:54.19,1:48:56.73,Default,,0000,0000,0000,,-Hey. Cookie?\N-Uh-oh. I don't know what's more delicious.
+Dialogue: 0,1:48:56.90,1:48:59.69,Default,,0000,0000,0000,,-Oh, no, thanks. Trying to cut back.\N-Okay.
+Dialogue: 0,1:48:59.86,1:49:02.53,Default,,0000,0000,0000,,Give me that back.\NI'll take one of these. Mostly raisins.
+Dialogue: 0,1:49:02.70,1:49:04.78,Default,,0000,0000,0000,,-lt's like a salad.\NBETH: Yeah. lt's a great salad.
+Dialogue: 0,1:49:04.95,1:49:08.70,Default,,0000,0000,0000,,It's all about the sleep schedule, man.\NYou've gotta put those babies to sleep.
+Dialogue: 0,1:49:08.87,1:49:11.46,Default,,0000,0000,0000,,MESSER:\NHey, Sophie has a request for the caterer.
+Dialogue: 0,1:49:11.62,1:49:13.00,Default,,0000,0000,0000,,-Cake.\N-Yeah.
+Dialogue: 0,1:49:13.17,1:49:14.58,Default,,0000,0000,0000,,Cake? Do you like cake?
+Dialogue: 0,1:49:16.21,1:49:18.55,Default,,0000,0000,0000,,It's simple, it's understated, it's....
+Dialogue: 0,1:49:18.71,1:49:21.17,Default,,0000,0000,0000,,Yeah, you know me. That's how I roll.\NSimple, understated.
+Dialogue: 0,1:49:21.34,1:49:22.80,Default,,0000,0000,0000,,[MESSER LAUGHING]
+Dialogue: 0,1:49:25.01,1:49:27.56,Default,,0000,0000,0000,,-Ah. Okay, okay.\N-Ah. Yes.
+Dialogue: 0,1:49:27.72,1:49:31.64,Default,,0000,0000,0000,,-You're never gonna get any easier, are you?\N-Nope. And l have another one.
+Dialogue: 0,1:49:32.77,1:49:35.69,Default,,0000,0000,0000,,MESSER: What? She's 2.\N-lt's for us, because we made it a year.
+Dialogue: 0,1:49:39.99,1:49:40.99,Default,,0000,0000,0000,,Okay, babe.
+Dialogue: 0,1:49:41.49,1:49:42.49,Default,,0000,0000,0000,,-All right.\N-Ready?
+Dialogue: 0,1:49:42.65,1:49:45.70,Default,,0000,0000,0000,,-Here we go, Soph. Alrighty.\N-Here we go.
+Dialogue: 0,1:49:45.87,1:49:48.74,Default,,0000,0000,0000,,Here we go.\NWe're going to the birthday party.
+Dialogue: 0,1:49:48.95,1:49:52.00,Default,,0000,0000,0000,,BOTH [SINGlNG]:\NHappy birthday to you
+Dialogue: 0,1:49:52.58,1:49:55.75,Default,,0000,0000,0000,,ALL:\NHappy birthday to you
+Dialogue: 0,1:49:56.33,1:50:00.34,Default,,0000,0000,0000,,Happy birthday, dear Sophie
+Dialogue: 0,1:50:00.80,1:50:04.47,Default,,0000,0000,0000,,Happy birthday to you
+Dialogue: 0,1:50:04.97,1:50:06.59,Default,,0000,0000,0000,,[ALL CHEERING]
+

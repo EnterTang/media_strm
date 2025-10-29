@@ -1,0 +1,1481 @@
+﻿[Script Info]
+;SrtEdit 6.2.2012.322
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,STKaiti,20,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,1,1,8,1
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.59,0:00:48.29,Default,Default,0000,0000,0000,,{\blur3}一九七七年 中国北京{\r}
+Dialogue: 0,0:00:55.06,0:00:56.65,Default,Default,0000,0000,0000,,{\blur3}干什么的？{\r}
+Dialogue: 0,0:01:00.73,0:01:03.49,Default,Default,0000,0000,0000,,{\blur3}噢 京剧院来走台的{\r}
+Dialogue: 0,0:01:03.73,0:01:06.02,Default,Default,0000,0000,0000,,{\blur3}哎哟 是您二位啊？{\r}
+Dialogue: 0,0:01:10.90,0:01:13.99,Default,Default,0000,0000,0000,,{\blur3}我是您二位的戏迷{\r}
+Dialogue: 0,0:01:14.23,0:01:16.28,Default,Default,0000,0000,0000,,{\blur3}是啊？哎哟{\r}
+Dialogue: 0,0:01:18.26,0:01:23.28,Default,Default,0000,0000,0000,,{\blur3}您二位有二十多年没在一块唱了吧？{\r}
+Dialogue: 0,0:01:26.43,0:01:28.98,Default,Default,0000,0000,0000,,{\blur3}- 二十一年了 - 二十二年{\r}
+Dialogue: 0,0:01:30.10,0:01:32.56,Default,Default,0000,0000,0000,,{\blur3}对 二十二年了{\r}
+Dialogue: 0,0:01:33.93,0:01:36.95,Default,Default,0000,0000,0000,,{\blur3}我们哥俩也有十年没见面了{\r}
+Dialogue: 0,0:01:37.20,0:01:38.29,Default,Default,0000,0000,0000,,{\blur3}十一年{\r}
+Dialogue: 0,0:01:40.86,0:01:43.52,Default,Default,0000,0000,0000,,{\blur3}是 十一年 是{\r}
+Dialogue: 0,0:01:43.79,0:01:47.28,Default,Default,0000,0000,0000,,{\blur3}都是"四人帮"闹的 明白{\r}
+Dialogue: 0,0:01:50.00,0:01:53.93,Default,Default,0000,0000,0000,,{\blur3}可不？都是"四人帮"闹的{\r}
+Dialogue: 0,0:01:54.96,0:01:57.15,Default,Default,0000,0000,0000,,{\blur3}现在好了{\r}
+Dialogue: 0,0:02:00.83,0:02:02.45,Default,Default,0000,0000,0000,,{\blur3}可不？{\r}
+Dialogue: 0,0:02:03.29,0:02:06.02,Default,Default,0000,0000,0000,,{\blur3}现在好了 是…是{\r}
+Dialogue: 0,0:02:09.10,0:02:11.09,Default,Default,0000,0000,0000,,{\blur3}您二位在这儿等会儿{\r}
+Dialogue: 0,0:02:11.09,0:02:12.69,Default,Default,0000,0000,0000,,{\blur3}我去给您开灯去啊{\r}
+Dialogue: 0,0:02:13.79,0:02:15.88,Default,Default,0000,0000,0000,,{\blur3}您受累了{\r}
+Dialogue: 0,0:03:26.49,0:03:31.39,Default,Default,0000,0000,0000,,{\blur3}一九二四年 北平 北洋政府时代{\r}
+Dialogue: 0,0:03:36.03,0:03:38.55,Default,Default,0000,0000,0000,,{\blur3}哟 这不是艳红吗？{\r}
+Dialogue: 0,0:03:38.86,0:03:42.26,Default,Default,0000,0000,0000,,{\blur3}老没见 你可想死我了{\r}
+Dialogue: 0,0:03:47.26,0:03:48.23,Default,Default,0000,0000,0000,,{\blur3}臭婊子 你{\r}
+Dialogue: 0,0:04:01.26,0:04:05.28,Default,Default,0000,0000,0000,,{\blur3}各位爷 多捧场了啊{\r}
+Dialogue: 0,0:04:44.93,0:04:46.39,Default,Default,0000,0000,0000,,{\blur3}小癞子又跑了{\r}
+Dialogue: 0,0:04:46.73,0:04:49.29,Default,Default,0000,0000,0000,,{\blur3}好小子 我看你往哪儿跑{\r}
+Dialogue: 0,0:04:49.59,0:04:50.99,Default,Default,0000,0000,0000,,{\blur3}去给我追回来{\r}
+Dialogue: 0,0:04:53.33,0:04:55.92,Default,Default,0000,0000,0000,,{\blur3}各位各位 包涵着点啊{\r}
+Dialogue: 0,0:04:56.96,0:04:59.43,Default,Default,0000,0000,0000,,{\blur3}爷儿们 爷儿们 您高抬贵手{\r}
+Dialogue: 0,0:04:59.86,0:05:01.22,Default,Default,0000,0000,0000,,{\blur3}什么下三滥的玩意儿{\r}
+Dialogue: 0,0:05:01.22,0:05:02.55,Default,Default,0000,0000,0000,,{\blur3}也他妈敢在这儿露面？{\r}
+Dialogue: 0,0:05:19.73,0:05:22.09,Default,Default,0000,0000,0000,,{\blur3}我操你们大爷{\r}
+Dialogue: 0,0:05:22.90,0:05:25.29,Default,Default,0000,0000,0000,,{\blur3}各位爷都站好甭动 真钱买真货{\r}
+Dialogue: 0,0:05:25.66,0:05:30.18,Default,Default,0000,0000,0000,,{\blur3}我小石头今儿个玩真的 让爷们开开眼{\r}
+Dialogue: 0,0:06:09.03,0:06:13.19,Default,Default,0000,0000,0000,,{\blur3}嚷嚷什么？我还没招呼呢{\r}
+Dialogue: 0,0:06:14.33,0:06:16.37,Default,Default,0000,0000,0000,,{\blur3}你个狗屁大师兄{\r}
+Dialogue: 0,0:06:16.37,0:06:18.99,Default,Default,0000,0000,0000,,{\blur3}你他妈连个猴儿都演不了{\r}
+Dialogue: 0,0:06:19.23,0:06:21.56,Default,Default,0000,0000,0000,,{\blur3}日后怎么做人？{\r}
+Dialogue: 0,0:06:21.79,0:06:24.67,Default,Default,0000,0000,0000,,{\blur3}别当你今天玩了个邪 拍了个砖{\r}
+Dialogue: 0,0:06:24.67,0:06:26.89,Default,Default,0000,0000,0000,,{\blur3}你以为我就能饶了你啊？{\r}
+Dialogue: 0,0:06:27.76,0:06:29.89,Default,Default,0000,0000,0000,,{\blur3}那是下三滥的玩艺儿{\r}
+Dialogue: 0,0:06:34.26,0:06:36.28,Default,Default,0000,0000,0000,,{\blur3}我叫你们跑 跑{\r}
+Dialogue: 0,0:06:52.06,0:06:54.99,Default,Default,0000,0000,0000,,{\blur3}磨剪子来 镪菜刀{\r}
+Dialogue: 0,0:07:16.63,0:07:19.96,Default,Default,0000,0000,0000,,{\blur3}您这孩子 没吃戏饭的命 您带回去吧{\r}
+Dialogue: 0,0:07:22.06,0:07:23.79,Default,Default,0000,0000,0000,,{\blur3}您想呀…{\r}
+Dialogue: 0,0:07:24.16,0:07:25.74,Default,Default,0000,0000,0000,,{\blur3}他这一亮相{\r}
+Dialogue: 0,0:07:25.74,0:07:28.92,Default,Default,0000,0000,0000,,{\blur3}那台底下听戏的人不都吓跑啦？{\r}
+Dialogue: 0,0:07:30.39,0:07:34.35,Default,Default,0000,0000,0000,,{\blur3}磨剪子来 镪菜刀{\r}
+Dialogue: 0,0:07:34.49,0:07:36.26,Default,Default,0000,0000,0000,,{\blur3}不是养活不起…{\r}
+Dialogue: 0,0:07:36.49,0:07:39.06,Default,Default,0000,0000,0000,,{\blur3}实在是 男孩大了留不住{\r}
+Dialogue: 0,0:07:39.06,0:07:41.48,Default,Default,0000,0000,0000,,{\blur3}这才来投奔您来了{\r}
+Dialogue: 0,0:07:41.79,0:07:43.62,Default,Default,0000,0000,0000,,{\blur3}您老好歹得收下他{\r}
+Dialogue: 0,0:07:47.73,0:07:52.89,Default,Default,0000,0000,0000,,{\blur3}您只要收下他 怎么着都成{\r}
+Dialogue: 0,0:07:53.86,0:07:55.45,Default,Default,0000,0000,0000,,{\blur3}您别嫌弃我们{\r}
+Dialogue: 0,0:07:56.93,0:08:01.86,Default,Default,0000,0000,0000,,{\blur3}别介 都是下九流 谁嫌弃谁呀？{\r}
+Dialogue: 0,0:08:02.26,0:08:06.69,Default,Default,0000,0000,0000,,{\blur3}他祖师爷不肯赏饭吃 谁也没辙{\r}
+Dialogue: 0,0:08:35.00,0:08:40.00,Default,Default,0000,0000,0000,,{\blur3}娘 手冷 水都冻冰了{\r}
+Dialogue: 0,0:10:12.93,0:10:14.15,Default,Default,0000,0000,0000,,{\blur3}娘{\r}
+Dialogue: 0,0:10:33.28,0:10:34.74,Default,Default,0000,0000,0000,,{\blur3}哪儿来的窑子里的 一边去{\r}
+Dialogue: 0,0:10:48.18,0:10:50.84,Default,Default,0000,0000,0000,,{\blur3}窑子里的东西 掉地上啦{\r}
+Dialogue: 0,0:11:19.41,0:11:20.47,Default,Default,0000,0000,0000,,{\blur3}哎哟 我冷死啦{\r}
+Dialogue: 0,0:11:25.24,0:11:26.33,Default,Default,0000,0000,0000,,{\blur3}你们是不是欺负他来着？{\r}
+Dialogue: 0,0:11:28.64,0:11:30.70,Default,Default,0000,0000,0000,,{\blur3}过来 跟我睡吧{\r}
+Dialogue: 0,0:11:41.58,0:11:44.01,Default,Default,0000,0000,0000,,{\blur3}呵 够横的你{\r}
+Dialogue: 0,0:11:44.51,0:11:47.67,Default,Default,0000,0000,0000,,{\blur3}小癞子 睡和尚被窝里去{\r}
+Dialogue: 0,0:11:51.88,0:11:53.00,Default,Default,0000,0000,0000,,{\blur3}嘿 接着{\r}
+Dialogue: 0,0:11:59.14,0:12:00.20,Default,Default,0000,0000,0000,,{\blur3}外面冷极啦{\r}
+Dialogue: 0,0:12:01.21,0:12:03.84,Default,Default,0000,0000,0000,,{\blur3}小爷我撒的尿在牛牛眼上{\r}
+Dialogue: 0,0:12:03.84,0:12:05.64,Default,Default,0000,0000,0000,,{\blur3}可就结成冰溜子了{\r}
+Dialogue: 0,0:12:05.98,0:12:08.57,Default,Default,0000,0000,0000,,{\blur3}差点没顶我一跟头{\r}
+Dialogue: 0,0:12:26.34,0:12:29.97,Default,Default,0000,0000,0000,,{\blur3}他是人的 就得听戏{\r}
+Dialogue: 0,0:12:30.21,0:12:32.97,Default,Default,0000,0000,0000,,{\blur3}不听戏的 他就不是人{\r}
+Dialogue: 0,0:12:33.34,0:12:37.83,Default,Default,0000,0000,0000,,{\blur3}什么猪啊 狗啊 它就不听戏{\r}
+Dialogue: 0,0:12:38.21,0:12:40.90,Default,Default,0000,0000,0000,,{\blur3}是人吗？畜牲{\r}
+Dialogue: 0,0:12:41.64,0:12:46.47,Default,Default,0000,0000,0000,,{\blur3}所以呀 有戏就有咱梨园行{\r}
+Dialogue: 0,0:12:50.01,0:12:52.94,Default,Default,0000,0000,0000,,{\blur3}唉 别嚷嚷 别嚷嚷 我不爱听{\r}
+Dialogue: 0,0:12:57.24,0:12:59.27,Default,Default,0000,0000,0000,,{\blur3}我不{\r}
+Dialogue: 0,0:12:59.98,0:13:01.57,Default,Default,0000,0000,0000,,{\blur3}立腰 立腰{\r}
+Dialogue: 0,0:13:02.81,0:13:07.64,Default,Default,0000,0000,0000,,{\blur3}要想人前显贵 您必定人后受罪{\r}
+Dialogue: 0,0:13:07.84,0:13:11.87,Default,Default,0000,0000,0000,,{\blur3}今儿个是破题 文章还在后头哪{\r}
+Dialogue: 0,0:13:16.18,0:13:20.54,Default,Default,0000,0000,0000,,{\blur3}小豆子 没事 朕都耗了一柱香了{\r}
+Dialogue: 0,0:13:24.04,0:13:25.74,Default,Default,0000,0000,0000,,{\blur3}小豆子 忍着点{\r}
+Dialogue: 0,0:13:28.18,0:13:29.87,Default,Default,0000,0000,0000,,{\blur3}小石头 在替谁偷工减料哪？{\r}
+Dialogue: 0,0:13:30.28,0:13:34.54,Default,Default,0000,0000,0000,,{\blur3}师傅 我练腿眼朝天 没留神底下呀{\r}
+Dialogue: 0,0:13:34.81,0:13:36.71,Default,Default,0000,0000,0000,,{\blur3}废话 取活去{\r}
+Dialogue: 0,0:13:37.48,0:13:38.91,Default,Default,0000,0000,0000,,{\blur3}快去 快点{\r}
+Dialogue: 0,0:13:42.88,0:13:43.93,Default,Default,0000,0000,0000,,{\blur3}师傅{\r}
+Dialogue: 0,0:14:00.18,0:14:01.73,Default,Default,0000,0000,0000,,{\blur3}起来{\r}
+Dialogue: 0,0:14:07.68,0:14:10.61,Default,Default,0000,0000,0000,,{\blur3}怎么 你当是完啦？还有一说呐{\r}
+Dialogue: 0,0:14:11.08,0:14:14.47,Default,Default,0000,0000,0000,,{\blur3}是 "在班结党者 罚"{\r}
+Dialogue: 0,0:14:21.58,0:14:24.01,Default,Default,0000,0000,0000,,{\blur3}我他妈小癞子 什么都不怕{\r}
+Dialogue: 0,0:14:24.51,0:14:27.20,Default,Default,0000,0000,0000,,{\blur3}打自有唱戏的行当起…{\r}
+Dialogue: 0,0:14:27.54,0:14:31.84,Default,Default,0000,0000,0000,,{\blur3}哪朝哪代也没有咱们京戏这么红过{\r}
+Dialogue: 0,0:14:32.08,0:14:34.24,Default,Default,0000,0000,0000,,{\blur3}你们算是赶上了{\r}
+Dialogue: 0,0:14:34.48,0:14:35.87,Default,Default,0000,0000,0000,,{\blur3}没错{\r}
+Dialogue: 0,0:14:58.44,0:15:03.31,Default,Default,0000,0000,0000,,{\blur3}"此乃天亡我楚"{\r}
+Dialogue: 0,0:15:03.54,0:15:06.60,Default,Default,0000,0000,0000,,{\blur3}"非战之罪 "{\r}
+Dialogue: 0,0:15:09.34,0:15:14.90,Default,Default,0000,0000,0000,,{\blur3}小爷我今儿 练的是九转金炉的火丹功{\r}
+Dialogue: 0,0:15:15.14,0:15:19.01,Default,Default,0000,0000,0000,,{\blur3}我到外头凉快 凉快{\r}
+Dialogue: 0,0:15:24.54,0:15:26.13,Default,Default,0000,0000,0000,,{\blur3}我成火人了{\r}
+Dialogue: 0,0:15:27.08,0:15:28.60,Default,Default,0000,0000,0000,,{\blur3}离我远点{\r}
+Dialogue: 0,0:15:49.18,0:15:56.84,Default,Default,0000,0000,0000,,{\blur3}"力拔山兮…"{\r}
+Dialogue: 0,0:15:58.81,0:16:03.74,Default,Default,0000,0000,0000,,{\blur3}"气盖世"{\r}
+Dialogue: 0,0:16:04.96,0:16:10.32,Default,Default,0000,0000,0000,,{\blur3}"时不利兮…"{\r}
+Dialogue: 0,0:16:12.19,0:16:16.35,Default,Default,0000,0000,0000,,{\blur3}"骓不逝"{\r}
+Dialogue: 0,0:16:17.66,0:16:22.46,Default,Default,0000,0000,0000,,{\blur3}传于我辈门人 诸生须当敬听{\r}
+Dialogue: 0,0:16:22.69,0:16:26.75,Default,Default,0000,0000,0000,,{\blur3}自古人生于世 需有一技之能{\r}
+Dialogue: 0,0:16:26.99,0:16:31.45,Default,Default,0000,0000,0000,,{\blur3}我辈既务斯业 便当专心用功{\r}
+Dialogue: 0,0:16:31.73,0:16:35.35,Default,Default,0000,0000,0000,,{\blur3}以后名扬四海 根据即在年轻{\r}
+Dialogue: 0,0:16:38.79,0:16:40.19,Default,Default,0000,0000,0000,,{\blur3}一边练去{\r}
+Dialogue: 0,0:16:43.03,0:16:44.55,Default,Default,0000,0000,0000,,{\blur3}你的"夜奔"？{\r}
+Dialogue: 0,0:16:44.99,0:16:49.48,Default,Default,0000,0000,0000,,{\blur3}"回首望天朝 急走忙逃"{\r}
+Dialogue: 0,0:16:49.86,0:16:52.62,Default,Default,0000,0000,0000,,{\blur3}"顾不得…"{\r}
+Dialogue: 0,0:16:52.86,0:16:54.69,Default,Default,0000,0000,0000,,{\blur3}顾不得什么？{\r}
+Dialogue: 0,0:16:55.76,0:16:58.88,Default,Default,0000,0000,0000,,{\blur3}"顾不得忠和孝"{\r}
+Dialogue: 0,0:16:59.46,0:17:04.39,Default,Default,0000,0000,0000,,{\blur3}"想俺项羽乎 力拔山兮气盖世"{\r}
+Dialogue: 0,0:17:04.49,0:17:06.96,Default,Default,0000,0000,0000,,{\blur3}"时不利兮骓不逝"{\r}
+Dialogue: 0,0:17:07.19,0:17:09.18,Default,Default,0000,0000,0000,,{\blur3}"骓不逝兮可奈何"{\r}
+Dialogue: 0,0:17:09.43,0:17:12.15,Default,Default,0000,0000,0000,,{\blur3}"虞姬虞姬奈若何"{\r}
+Dialogue: 0,0:17:12.39,0:17:14.33,Default,Default,0000,0000,0000,,{\blur3}成 一字不差{\r}
+Dialogue: 0,0:17:14.56,0:17:16.22,Default,Default,0000,0000,0000,,{\blur3}伸手{\r}
+Dialogue: 0,0:17:18.79,0:17:23.52,Default,Default,0000,0000,0000,,{\blur3}打你 是让你记着 下回还得这么背{\r}
+Dialogue: 0,0:17:27.13,0:17:33.06,Default,Default,0000,0000,0000,,{\blur3}"小尼姑年方二八 正青春被师傅削去了头发"{\r}
+Dialogue: 0,0:17:34.53,0:17:36.05,Default,Default,0000,0000,0000,,{\blur3}下文呢？{\r}
+Dialogue: 0,0:17:36.69,0:17:38.92,Default,Default,0000,0000,0000,,{\blur3}"我 我本是男儿郎…"{\r}
+Dialogue: 0,0:17:39.49,0:17:41.96,Default,Default,0000,0000,0000,,{\blur3}"我 我本是男儿郎"{\r}
+Dialogue: 0,0:17:44.39,0:17:46.02,Default,Default,0000,0000,0000,,{\blur3}你本是女娇娥{\r}
+Dialogue: 0,0:17:46.49,0:17:48.86,Default,Default,0000,0000,0000,,{\blur3}我叫你错 …你错{\r}
+Dialogue: 0,0:17:49.56,0:17:54.75,Default,Default,0000,0000,0000,,{\blur3}我打你小癞子 你还错？你还错？{\r}
+Dialogue: 0,0:17:57.06,0:17:58.53,Default,Default,0000,0000,0000,,{\blur3}小癞子再也不敢了{\r}
+Dialogue: 0,0:18:02.99,0:18:05.46,Default,Default,0000,0000,0000,,{\blur3}你的"思凡"{\r}
+Dialogue: 0,0:18:07.26,0:18:10.82,Default,Default,0000,0000,0000,,{\blur3}"我…本是…我本是…"{\r}
+Dialogue: 0,0:18:11.09,0:18:13.06,Default,Default,0000,0000,0000,,{\blur3}你本是什么呀？{\r}
+Dialogue: 0,0:18:15.09,0:18:16.89,Default,Default,0000,0000,0000,,{\blur3}"我本是男儿郎"{\r}
+Dialogue: 0,0:18:17.36,0:18:20.52,Default,Default,0000,0000,0000,,{\blur3}尼姑是男的还是女的？{\r}
+Dialogue: 0,0:18:22.29,0:18:23.26,Default,Default,0000,0000,0000,,{\blur3}是…是男儿郎{\r}
+Dialogue: 0,0:18:24.63,0:18:27.12,Default,Default,0000,0000,0000,,{\blur3}您倒是真入了化境{\r}
+Dialogue: 0,0:18:27.46,0:18:29.79,Default,Default,0000,0000,0000,,{\blur3}连雌雄都不分了{\r}
+Dialogue: 0,0:18:44.26,0:18:46.92,Default,Default,0000,0000,0000,,{\blur3}"我…我…我本是男儿郎"{\r}
+Dialogue: 0,0:18:48.43,0:18:50.36,Default,Default,0000,0000,0000,,{\blur3}师傅说的戏 你全忘了{\r}
+Dialogue: 0,0:18:50.66,0:18:54.22,Default,Default,0000,0000,0000,,{\blur3}下次再忘就往死里打你{\r}
+Dialogue: 0,0:18:54.43,0:18:56.55,Default,Default,0000,0000,0000,,{\blur3}叫你错 叫你错{\r}
+Dialogue: 0,0:18:56.83,0:18:59.88,Default,Default,0000,0000,0000,,{\blur3}叫你错…小子长点记性{\r}
+Dialogue: 0,0:19:26.63,0:19:30.75,Default,Default,0000,0000,0000,,{\blur3}师哥 赶明我要是给打死了{\r}
+Dialogue: 0,0:19:32.13,0:19:36.29,Default,Default,0000,0000,0000,,{\blur3}枕席底下有三大子儿 就给你了{\r}
+Dialogue: 0,0:19:40.33,0:19:41.55,Default,Default,0000,0000,0000,,{\blur3}留神{\r}
+Dialogue: 0,0:19:42.79,0:19:46.45,Default,Default,0000,0000,0000,,{\blur3}别进水 手毁了就唱不了戏了{\r}
+Dialogue: 0,0:19:55.79,0:19:59.56,Default,Default,0000,0000,0000,,{\blur3}豆子 过两天就要给祖师爷上香了{\r}
+Dialogue: 0,0:19:59.89,0:20:02.26,Default,Default,0000,0000,0000,,{\blur3}你就想你自己是个女的{\r}
+Dialogue: 0,0:20:02.49,0:20:04.43,Default,Default,0000,0000,0000,,{\blur3}可别再背错了{\r}
+Dialogue: 0,0:20:19.11,0:20:21.20,Default,Default,0000,0000,0000,,{\blur3}癞子 吃过豌豆黄吗？{\r}
+Dialogue: 0,0:20:21.51,0:20:24.84,Default,Default,0000,0000,0000,,{\blur3}豌豆黄？豌豆黄算个屁呀？{\r}
+Dialogue: 0,0:20:25.01,0:20:27.20,Default,Default,0000,0000,0000,,{\blur3}吃过驴打滚吗？盆儿糕呢？{\r}
+Dialogue: 0,0:20:27.51,0:20:29.50,Default,Default,0000,0000,0000,,{\blur3}都是他妈狗屁 不好吃{\r}
+Dialogue: 0,0:20:29.68,0:20:32.07,Default,Default,0000,0000,0000,,{\blur3}那你说什么好吃？{\r}
+Dialogue: 0,0:20:34.64,0:20:38.94,Default,Default,0000,0000,0000,,{\blur3}天下最好吃的 冰糖葫芦数第一{\r}
+Dialogue: 0,0:20:39.64,0:20:40.76,Default,Default,0000,0000,0000,,{\blur3}我要是成了角儿{\r}
+Dialogue: 0,0:20:40.76,0:20:44.01,Default,Default,0000,0000,0000,,{\blur3}天天得拿冰糖葫芦当饭吃{\r}
+Dialogue: 0,0:20:47.38,0:20:52.67,Default,Default,0000,0000,0000,,{\blur3}冰糖葫芦 冰糖葫芦{\r}
+Dialogue: 0,0:20:57.34,0:20:59.17,Default,Default,0000,0000,0000,,{\blur3}甭这么瞧着朕{\r}
+Dialogue: 0,0:20:59.41,0:21:02.43,Default,Default,0000,0000,0000,,{\blur3}朕又不是冰糖葫芦{\r}
+Dialogue: 0,0:21:02.71,0:21:05.70,Default,Default,0000,0000,0000,,{\blur3}癞子 哈拉子都流出来哩{\r}
+Dialogue: 0,0:21:15.08,0:21:16.37,Default,Default,0000,0000,0000,,{\blur3}你干嘛呢你？回来 回来{\r}
+Dialogue: 0,0:21:16.58,0:21:19.67,Default,Default,0000,0000,0000,,{\blur3}- 这么大个儿的风筝 一堆呢 - 回去{\r}
+Dialogue: 0,0:21:40.01,0:21:41.03,Default,Default,0000,0000,0000,,{\blur3}小豆子{\r}
+Dialogue: 0,0:21:41.31,0:21:43.04,Default,Default,0000,0000,0000,,{\blur3}快跑{\r}
+Dialogue: 0,0:21:45.14,0:21:46.44,Default,Default,0000,0000,0000,,{\blur3}站住 站住{\r}
+Dialogue: 0,0:21:51.64,0:21:52.61,Default,Default,0000,0000,0000,,{\blur3}小豆子{\r}
+Dialogue: 0,0:21:54.98,0:21:59.14,Default,Default,0000,0000,0000,,{\blur3}师哥 枕席底下那三个大子儿 你别忘了{\r}
+Dialogue: 0,0:22:07.31,0:22:10.47,Default,Default,0000,0000,0000,,{\blur3}反正你废了 滚吧{\r}
+Dialogue: 0,0:22:22.58,0:22:25.07,Default,Default,0000,0000,0000,,{\blur3}- 哪儿来的？- 你那三大子儿买的{\r}
+Dialogue: 0,0:22:25.21,0:22:28.37,Default,Default,0000,0000,0000,,{\blur3}小石头甭想花了 让朕受用了吧{\r}
+Dialogue: 0,0:22:28.81,0:22:31.57,Default,Default,0000,0000,0000,,{\blur3}一串十个 我给你俩怎么样？{\r}
+Dialogue: 0,0:22:31.98,0:22:34.24,Default,Default,0000,0000,0000,,{\blur3}- 你怎么了？- 我憋了泡尿{\r}
+Dialogue: 0,0:22:34.58,0:22:37.77,Default,Default,0000,0000,0000,,{\blur3}大街上可不许撒尿 靠边来{\r}
+Dialogue: 0,0:22:39.38,0:22:40.93,Default,Default,0000,0000,0000,,{\blur3}角儿来了 角儿来了{\r}
+Dialogue: 0,0:22:40.93,0:22:42.31,Default,Default,0000,0000,0000,,{\blur3}这里有近道 走近道{\r}
+Dialogue: 0,0:22:51.84,0:22:53.32,Default,Default,0000,0000,0000,,{\blur3}哎哟 我的角儿{\r}
+Dialogue: 0,0:22:53.32,0:22:55.87,Default,Default,0000,0000,0000,,{\blur3}您这可真是星宿下凡了{\r}
+Dialogue: 0,0:22:59.34,0:23:01.60,Default,Default,0000,0000,0000,,{\blur3}您今儿就一声喷涕{\r}
+Dialogue: 0,0:23:01.60,0:23:03.09,Default,Default,0000,0000,0000,,{\blur3}也得是满堂彩儿{\r}
+Dialogue: 0,0:23:03.09,0:23:04.30,Default,Default,0000,0000,0000,,{\blur3}您受累了{\r}
+Dialogue: 0,0:23:09.08,0:23:10.25,Default,Default,0000,0000,0000,,{\blur3}今天不挤出几条人命{\r}
+Dialogue: 0,0:23:10.25,0:23:11.80,Default,Default,0000,0000,0000,,{\blur3}就上上大吉了{\r}
+Dialogue: 0,0:23:42.04,0:23:45.60,Default,Default,0000,0000,0000,,{\blur3}你先驮着我 待会儿我驮你{\r}
+Dialogue: 0,0:23:53.11,0:23:53.87,Default,Default,0000,0000,0000,,{\blur3}霸王 霸王{\r}
+Dialogue: 0,0:24:24.58,0:24:27.54,Default,Default,0000,0000,0000,,{\blur3}他们怎么成的角儿啊？{\r}
+Dialogue: 0,0:24:29.04,0:24:31.13,Default,Default,0000,0000,0000,,{\blur3}得挨多少打呀？{\r}
+Dialogue: 0,0:24:36.54,0:24:39.30,Default,Default,0000,0000,0000,,{\blur3}我什么时候才能成角儿啊？{\r}
+Dialogue: 0,0:25:14.91,0:25:16.49,Default,Default,0000,0000,0000,,{\blur3}唉 怎么个意思？{\r}
+Dialogue: 0,0:25:16.49,0:25:18.14,Default,Default,0000,0000,0000,,{\blur3}你怎么尿我一脸呀？{\r}
+Dialogue: 0,0:25:33.36,0:25:35.12,Default,Default,0000,0000,0000,,{\blur3}我就知道你要回来{\r}
+Dialogue: 0,0:25:35.12,0:25:37.69,Default,Default,0000,0000,0000,,{\blur3}离了小石头 你就活不了{\r}
+Dialogue: 0,0:25:37.93,0:25:40.52,Default,Default,0000,0000,0000,,{\blur3}回去你又要挨刀胚子{\r}
+Dialogue: 0,0:25:40.52,0:25:42.15,Default,Default,0000,0000,0000,,{\blur3}我反正是不怕{\r}
+Dialogue: 0,0:25:42.59,0:25:44.37,Default,Default,0000,0000,0000,,{\blur3}早就打皮实了{\r}
+Dialogue: 0,0:25:44.37,0:25:46.92,Default,Default,0000,0000,0000,,{\blur3}师傅打我就跟挠痒痒似的{\r}
+Dialogue: 0,0:25:47.16,0:25:50.13,Default,Default,0000,0000,0000,,{\blur3}吃了糖葫芦 我就是他妈角儿了{\r}
+Dialogue: 0,0:25:50.36,0:25:51.42,Default,Default,0000,0000,0000,,{\blur3}我他妈怕谁呀？{\r}
+Dialogue: 0,0:25:55.33,0:25:59.31,Default,Default,0000,0000,0000,,{\blur3}好小子 你们还回来呀？你跑{\r}
+Dialogue: 0,0:25:59.76,0:26:02.02,Default,Default,0000,0000,0000,,{\blur3}打得好 打得好{\r}
+Dialogue: 0,0:26:02.49,0:26:05.93,Default,Default,0000,0000,0000,,{\blur3}反了你了 你开门放人{\r}
+Dialogue: 0,0:26:09.99,0:26:11.05,Default,Default,0000,0000,0000,,{\blur3}我打死你{\r}
+Dialogue: 0,0:26:16.96,0:26:20.65,Default,Default,0000,0000,0000,,{\blur3}背班逃走者 罚{\r}
+Dialogue: 0,0:26:21.09,0:26:24.49,Default,Default,0000,0000,0000,,{\blur3}师傅 再也不敢了 饶了我吧{\r}
+Dialogue: 0,0:26:24.83,0:26:27.99,Default,Default,0000,0000,0000,,{\blur3}师傅 再也不敢了 我错了{\r}
+Dialogue: 0,0:26:28.36,0:26:32.72,Default,Default,0000,0000,0000,,{\blur3}叫你放人？我打死你{\r}
+Dialogue: 0,0:26:50.33,0:26:53.92,Default,Default,0000,0000,0000,,{\blur3}师傅 是我自个儿跑的{\r}
+Dialogue: 0,0:26:54.86,0:26:57.62,Default,Default,0000,0000,0000,,{\blur3}不关师哥的事{\r}
+Dialogue: 0,0:26:57.89,0:26:58.86,Default,Default,0000,0000,0000,,{\blur3}您打我{\r}
+Dialogue: 0,0:28:00.63,0:28:03.52,Default,Default,0000,0000,0000,,{\blur3}你当我不打你 我打死你{\r}
+Dialogue: 0,0:28:05.46,0:28:08.79,Default,Default,0000,0000,0000,,{\blur3}豆子 说呀 开口说呀{\r}
+Dialogue: 0,0:28:09.03,0:28:11.55,Default,Default,0000,0000,0000,,{\blur3}讨个饶呀 说打得好呀 说呀{\r}
+Dialogue: 0,0:28:12.76,0:28:14.62,Default,Default,0000,0000,0000,,{\blur3}你跑 我打死你{\r}
+Dialogue: 0,0:28:14.93,0:28:16.79,Default,Default,0000,0000,0000,,{\blur3}说呀{\r}
+Dialogue: 0,0:28:18.49,0:28:21.86,Default,Default,0000,0000,0000,,{\blur3}打你 打死你 咱们散伙儿{\r}
+Dialogue: 0,0:28:27.56,0:28:30.18,Default,Default,0000,0000,0000,,{\blur3}你把小豆子打死了{\r}
+Dialogue: 0,0:28:35.03,0:28:37.05,Default,Default,0000,0000,0000,,{\blur3}我跟你拼了{\r}
+Dialogue: 0,0:28:43.99,0:28:46.32,Default,Default,0000,0000,0000,,{\blur3}关爷 关爷 了不得了{\r}
+Dialogue: 0,0:28:46.56,0:28:48.55,Default,Default,0000,0000,0000,,{\blur3}小癞子 他…{\r}
+Dialogue: 0,0:29:44.74,0:29:47.51,Default,Default,0000,0000,0000,,{\blur3}"霸王别姬"讲的是{\r}
+Dialogue: 0,0:29:47.51,0:29:50.47,Default,Default,0000,0000,0000,,{\blur3}楚汉相争的故事{\r}
+Dialogue: 0,0:29:50.71,0:29:54.51,Default,Default,0000,0000,0000,,{\blur3}楚霸王 何许人也？{\r}
+Dialogue: 0,0:29:54.84,0:29:58.14,Default,Default,0000,0000,0000,,{\blur3}那是天下无敌的盖世英雄{\r}
+Dialogue: 0,0:29:59.01,0:30:03.20,Default,Default,0000,0000,0000,,{\blur3}横扫千军的勇将猛帅{\r}
+Dialogue: 0,0:30:04.71,0:30:08.44,Default,Default,0000,0000,0000,,{\blur3}可老天却偏偏不成全他{\r}
+Dialogue: 0,0:30:09.84,0:30:14.19,Default,Default,0000,0000,0000,,{\blur3}在垓下中了汉军的十面埋伏{\r}
+Dialogue: 0,0:30:14.19,0:30:16.67,Default,Default,0000,0000,0000,,{\blur3}让刘邦给困死了{\r}
+Dialogue: 0,0:30:17.74,0:30:20.87,Default,Default,0000,0000,0000,,{\blur3}那天晚上 刮着大风{\r}
+Dialogue: 0,0:30:21.14,0:30:25.04,Default,Default,0000,0000,0000,,{\blur3}刘邦的兵唱了一宵的楚歌{\r}
+Dialogue: 0,0:30:25.28,0:30:27.14,Default,Default,0000,0000,0000,,{\blur3}楚国的人马一听{\r}
+Dialogue: 0,0:30:27.14,0:30:28.94,Default,Default,0000,0000,0000,,{\blur3}以为刘邦得了楚地{\r}
+Dialogue: 0,0:30:29.18,0:30:32.30,Default,Default,0000,0000,0000,,{\blur3}全都慌了神了 跑光了{\r}
+Dialogue: 0,0:30:32.54,0:30:35.41,Default,Default,0000,0000,0000,,{\blur3}听得霸王也掉下泪来{\r}
+Dialogue: 0,0:30:37.78,0:30:41.13,Default,Default,0000,0000,0000,,{\blur3}人纵有万般能耐{\r}
+Dialogue: 0,0:30:41.13,0:30:44.73,Default,Default,0000,0000,0000,,{\blur3}可终也敌不过天命啊{\r}
+Dialogue: 0,0:30:46.08,0:30:49.74,Default,Default,0000,0000,0000,,{\blur3}那霸王风云一世 临到头…{\r}
+Dialogue: 0,0:30:49.94,0:30:54.10,Default,Default,0000,0000,0000,,{\blur3}就剩下一匹马和一个女人还跟着他{\r}
+Dialogue: 0,0:30:54.34,0:30:58.83,Default,Default,0000,0000,0000,,{\blur3}霸王让乌骓马逃命 乌骓马不去{\r}
+Dialogue: 0,0:30:59.24,0:31:02.68,Default,Default,0000,0000,0000,,{\blur3}让虞姬走人 虞姬不肯{\r}
+Dialogue: 0,0:31:02.94,0:31:06.93,Default,Default,0000,0000,0000,,{\blur3}那虞姬最后一次为霸王斟酒{\r}
+Dialogue: 0,0:31:07.21,0:31:09.87,Default,Default,0000,0000,0000,,{\blur3}最后一回为霸王舞剑{\r}
+Dialogue: 0,0:31:10.11,0:31:16.06,Default,Default,0000,0000,0000,,{\blur3}尔后拔剑自刎 从一而终啊{\r}
+Dialogue: 0,0:31:20.21,0:31:22.09,Default,Default,0000,0000,0000,,{\blur3}讲这出戏{\r}
+Dialogue: 0,0:31:22.09,0:31:26.44,Default,Default,0000,0000,0000,,{\blur3}是这里边有个唱戏和做人的道理{\r}
+Dialogue: 0,0:31:27.48,0:31:31.00,Default,Default,0000,0000,0000,,{\blur3}人得自个儿成全自个儿{\r}
+Dialogue: 0,0:31:39.94,0:31:46.50,Default,Default,0000,0000,0000,,{\blur3}"力拔山兮…"{\r}
+Dialogue: 0,0:31:48.41,0:31:52.57,Default,Default,0000,0000,0000,,{\blur3}"气盖世"{\r}
+Dialogue: 0,0:31:54.41,0:31:59.50,Default,Default,0000,0000,0000,,{\blur3}"时不利兮…"{\r}
+Dialogue: 0,0:32:02.41,0:32:06.64,Default,Default,0000,0000,0000,,{\blur3}"骓不逝"{\r}
+Dialogue: 0,0:32:16.23,0:32:19.02,Default,Default,0000,0000,0000,,{\blur3}张宅上把订戏的差委了您{\r}
+Dialogue: 0,0:32:19.43,0:32:22.05,Default,Default,0000,0000,0000,,{\blur3}那您就是我们喜福成的衣食父母{\r}
+Dialogue: 0,0:32:22.56,0:32:24.40,Default,Default,0000,0000,0000,,{\blur3}您抬举抬举呢{\r}
+Dialogue: 0,0:32:24.40,0:32:27.25,Default,Default,0000,0000,0000,,{\blur3}孩子们年下就穿上新衣裳了{\r}
+Dialogue: 0,0:32:29.13,0:32:33.89,Default,Default,0000,0000,0000,,{\blur3}衣裳好穿 戏活难做{\r}
+Dialogue: 0,0:32:34.13,0:32:38.65,Default,Default,0000,0000,0000,,{\blur3}张公公那是 当年陪太后老佛爷听过戏的主儿{\r}
+Dialogue: 0,0:32:39.09,0:32:42.39,Default,Default,0000,0000,0000,,{\blur3}糊弄得了吗？敢吗？{\r}
+Dialogue: 0,0:32:43.43,0:32:46.55,Default,Default,0000,0000,0000,,{\blur3}玩艺儿要是不灵 新衣裳…{\r}
+Dialogue: 0,0:32:46.79,0:32:48.33,Default,Default,0000,0000,0000,,{\blur3}砸了我的脸面没什么{\r}
+Dialogue: 0,0:32:48.33,0:32:51.23,Default,Default,0000,0000,0000,,{\blur3}像您这样的 能把您给囚起来{\r}
+Dialogue: 0,0:32:51.66,0:32:52.82,Default,Default,0000,0000,0000,,{\blur3}喳{\r}
+Dialogue: 0,0:32:54.83,0:32:58.42,Default,Default,0000,0000,0000,,{\blur3}这孩子有点意思 学几年戏啦？{\r}
+Dialogue: 0,0:32:58.66,0:33:03.22,Default,Default,0000,0000,0000,,{\blur3}小豆子 快 快过来 给经理请安{\r}
+Dialogue: 0,0:33:19.73,0:33:21.12,Default,Default,0000,0000,0000,,{\blur3}嗯 身段也还不错{\r}
+Dialogue: 0,0:33:22.33,0:33:24.92,Default,Default,0000,0000,0000,,{\blur3}有点昆腔的底儿没有啊？{\r}
+Dialogue: 0,0:33:25.16,0:33:26.71,Default,Default,0000,0000,0000,,{\blur3}学了两出{\r}
+Dialogue: 0,0:33:28.46,0:33:31.69,Default,Default,0000,0000,0000,,{\blur3}男怕"夜奔" 女怕"思凡"{\r}
+Dialogue: 0,0:33:31.93,0:33:32.95,Default,Default,0000,0000,0000,,{\blur3}那就来段"思凡"吧{\r}
+Dialogue: 0,0:33:35.53,0:33:44.69,Default,Default,0000,0000,0000,,{\blur3}"小尼姑年方二八 正青春被师傅削去了头发"{\r}
+Dialogue: 0,0:33:45.13,0:33:47.61,Default,Default,0000,0000,0000,,{\blur3}"我本是男儿郎"{\r}
+Dialogue: 0,0:33:48.43,0:33:52.02,Default,Default,0000,0000,0000,,{\blur3}"又不是女娇娥"{\r}
+Dialogue: 0,0:33:52.36,0:33:54.45,Default,Default,0000,0000,0000,,{\blur3}"为何…"{\r}
+Dialogue: 0,0:33:58.39,0:34:01.15,Default,Default,0000,0000,0000,,{\blur3}那爷 那爷 实在是对不住您啊{\r}
+Dialogue: 0,0:34:02.13,0:34:04.25,Default,Default,0000,0000,0000,,{\blur3}这孩子平常不是这样{\r}
+Dialogue: 0,0:34:04.66,0:34:07.35,Default,Default,0000,0000,0000,,{\blur3}关爷 改日再见{\r}
+Dialogue: 0,0:34:07.76,0:34:11.02,Default,Default,0000,0000,0000,,{\blur3}谁叫你回来啦？我叫你错 我叫你错{\r}
+Dialogue: 0,0:34:17.06,0:34:18.55,Default,Default,0000,0000,0000,,{\blur3}张嘴 张嘴 张嘴 我叫你错{\r}
+Dialogue: 0,0:34:23.73,0:34:25.92,Default,Default,0000,0000,0000,,{\blur3}错 错呀你 我叫你错{\r}
+Dialogue: 0,0:34:35.09,0:34:36.58,Default,Default,0000,0000,0000,,{\blur3}来{\r}
+Dialogue: 0,0:35:06.39,0:35:10.35,Default,Default,0000,0000,0000,,{\blur3}"我本是…我本是女娇娥"{\r}
+Dialogue: 0,0:35:11.43,0:35:12.58,Default,Default,0000,0000,0000,,{\blur3}"又不是…"{\r}
+Dialogue: 0,0:35:31.03,0:35:33.49,Default,Default,0000,0000,0000,,{\blur3}"小尼姑年方二八"{\r}
+Dialogue: 0,0:35:33.79,0:35:37.35,Default,Default,0000,0000,0000,,{\blur3}"正青春 被师傅削去了头发"{\r}
+Dialogue: 0,0:35:37.56,0:35:41.36,Default,Default,0000,0000,0000,,{\blur3}"我本是女娇娥 又不是男儿郎"{\r}
+Dialogue: 0,0:35:41.59,0:35:44.68,Default,Default,0000,0000,0000,,{\blur3}"为何腰系黄绦 身穿直裰"{\r}
+Dialogue: 0,0:35:44.93,0:35:47.26,Default,Default,0000,0000,0000,,{\blur3}"见人家夫妻们洒落"{\r}
+Dialogue: 0,0:35:47.79,0:35:49.31,Default,Default,0000,0000,0000,,{\blur3}"一对对着锦穿罗"{\r}
+Dialogue: 0,0:35:49.46,0:35:51.48,Default,Default,0000,0000,0000,,{\blur3}"不由人心急似火"{\r}
+Dialogue: 0,0:35:51.93,0:35:53.91,Default,Default,0000,0000,0000,,{\blur3}"奴把袈裟扯破"{\r}
+Dialogue: 0,0:35:54.19,0:36:00.92,Default,Default,0000,0000,0000,,{\blur3}"自从我随大王"{\r}
+Dialogue: 0,0:36:02.79,0:36:08.95,Default,Default,0000,0000,0000,,{\blur3}"东征西战"{\r}
+Dialogue: 0,0:36:24.36,0:36:29.76,Default,Default,0000,0000,0000,,{\blur3}"受风霜与劳碌"{\r}
+Dialogue: 0,0:36:30.69,0:36:34.49,Default,Default,0000,0000,0000,,{\blur3}"年复年年"{\r}
+Dialogue: 0,0:36:37.79,0:36:42.09,Default,Default,0000,0000,0000,,{\blur3}"恨只恨无道秦"{\r}
+Dialogue: 0,0:36:42.33,0:36:49.81,Default,Default,0000,0000,0000,,{\blur3}"把生灵涂炭"{\r}
+Dialogue: 0,0:37:05.83,0:37:07.98,Default,Default,0000,0000,0000,,{\blur3}这小子…{\r}
+Dialogue: 0,0:37:08.86,0:37:10.19,Default,Default,0000,0000,0000,,{\blur3}关爷…{\r}
+Dialogue: 0,0:37:11.36,0:37:15.45,Default,Default,0000,0000,0000,,{\blur3}张公公 您寿比南山{\r}
+Dialogue: 0,0:37:20.03,0:37:22.39,Default,Default,0000,0000,0000,,{\blur3}"只害得众百姓痛苦频连"{\r}
+Dialogue: 0,0:37:22.66,0:37:25.28,Default,Default,0000,0000,0000,,{\blur3}"大王回营呀 "{\r}
+Dialogue: 0,0:37:30.83,0:37:33.16,Default,Default,0000,0000,0000,,{\blur3}"大王 "{\r}
+Dialogue: 0,0:37:42.59,0:37:55.36,Default,Default,0000,0000,0000,,{\blur3}"此一番连累你多受惊慌"{\r}
+Dialogue: 0,0:38:01.73,0:38:04.06,Default,Default,0000,0000,0000,,{\blur3}这是老公公…{\r}
+Dialogue: 0,0:38:04.29,0:38:10.09,Default,Default,0000,0000,0000,,{\blur3}特地赏给两位小角儿的 谢赏去吧{\r}
+Dialogue: 0,0:38:10.63,0:38:11.59,Default,Default,0000,0000,0000,,{\blur3}喳{\r}
+Dialogue: 0,0:38:11.73,0:38:14.78,Default,Default,0000,0000,0000,,{\blur3}霸王要有这把剑 早就把刘邦给宰了{\r}
+Dialogue: 0,0:38:15.03,0:38:19.05,Default,Default,0000,0000,0000,,{\blur3}当上了皇上 那你就是正宫娘娘了{\r}
+Dialogue: 0,0:38:19.33,0:38:21.59,Default,Default,0000,0000,0000,,{\blur3}师哥 我准送你这把剑{\r}
+Dialogue: 0,0:38:21.99,0:38:25.08,Default,Default,0000,0000,0000,,{\blur3}哎哟 当心呀 我的小爷儿{\r}
+Dialogue: 0,0:38:25.49,0:38:27.39,Default,Default,0000,0000,0000,,{\blur3}这可是把真家伙{\r}
+Dialogue: 0,0:38:30.36,0:38:33.69,Default,Default,0000,0000,0000,,{\blur3}慢着…来了…{\r}
+Dialogue: 0,0:38:37.83,0:38:39.69,Default,Default,0000,0000,0000,,{\blur3}- 怎么啦？- 眉毛这儿汗一蛰 生疼{\r}
+Dialogue: 0,0:38:41.83,0:38:44.48,Default,Default,0000,0000,0000,,{\blur3}俩孩子一块去吧？{\r}
+Dialogue: 0,0:38:45.46,0:38:49.39,Default,Default,0000,0000,0000,,{\blur3}老规矩了 多少年的老规矩了{\r}
+Dialogue: 0,0:38:50.09,0:38:52.25,Default,Default,0000,0000,0000,,{\blur3}关师傅{\r}
+Dialogue: 0,0:38:52.49,0:38:54.19,Default,Default,0000,0000,0000,,{\blur3}这您不明白就说不过去了{\r}
+Dialogue: 0,0:38:54.46,0:38:56.84,Default,Default,0000,0000,0000,,{\blur3}您说这虞姬她怎么演{\r}
+Dialogue: 0,0:38:56.84,0:38:58.75,Default,Default,0000,0000,0000,,{\blur3}她也得有一死吧？{\r}
+Dialogue: 0,0:38:58.99,0:39:00.98,Default,Default,0000,0000,0000,,{\blur3}您说呢？{\r}
+Dialogue: 0,0:39:06.33,0:39:07.31,Default,Default,0000,0000,0000,,{\blur3}师傅？{\r}
+Dialogue: 0,0:39:09.13,0:39:10.42,Default,Default,0000,0000,0000,,{\blur3}小豆子{\r}
+Dialogue: 0,0:39:49.43,0:39:52.39,Default,Default,0000,0000,0000,,{\blur3}今年是什么年？{\r}
+Dialogue: 0,0:39:53.73,0:39:56.62,Default,Default,0000,0000,0000,,{\blur3}是民国二十一年（1932）{\r}
+Dialogue: 0,0:39:56.79,0:39:57.76,Default,Default,0000,0000,0000,,{\blur3}不对{\r}
+Dialogue: 0,0:39:58.39,0:40:02.38,Default,Default,0000,0000,0000,,{\blur3}是大清宣统二十四年{\r}
+Dialogue: 0,0:40:04.49,0:40:06.32,Default,Default,0000,0000,0000,,{\blur3}你过来{\r}
+Dialogue: 0,0:40:09.33,0:40:12.76,Default,Default,0000,0000,0000,,{\blur3}我要找我师哥 我想撒尿{\r}
+Dialogue: 0,0:40:24.23,0:40:27.53,Default,Default,0000,0000,0000,,{\blur3}就往这里头撒{\r}
+Dialogue: 0,0:40:27.53,0:40:32.02,Default,Default,0000,0000,0000,,{\blur3}你这样的往里头撒 不算糟蹋东西{\r}
+Dialogue: 0,0:41:12.39,0:41:13.79,Default,Default,0000,0000,0000,,{\blur3}来…来呀{\r}
+Dialogue: 0,0:41:50.38,0:41:51.81,Default,Default,0000,0000,0000,,{\blur3}豆子{\r}
+Dialogue: 0,0:41:55.68,0:41:58.51,Default,Default,0000,0000,0000,,{\blur3}关老板 张公公让我谢谢您{\r}
+Dialogue: 0,0:41:58.51,0:41:59.94,Default,Default,0000,0000,0000,,{\blur3}你怎么了？{\r}
+Dialogue: 0,0:42:00.18,0:42:01.14,Default,Default,0000,0000,0000,,{\blur3}说话呀{\r}
+Dialogue: 0,0:42:02.74,0:42:05.97,Default,Default,0000,0000,0000,,{\blur3}哑巴啦？说话呀{\r}
+Dialogue: 0,0:42:30.91,0:42:35.93,Default,Default,0000,0000,0000,,{\blur3}小豆子 一个人有一个人的命{\r}
+Dialogue: 0,0:42:37.44,0:42:39.34,Default,Default,0000,0000,0000,,{\blur3}你还是把他放回去吧{\r}
+Dialogue: 0,0:43:22.29,0:43:25.49,Default,Default,0000,0000,0000,,{\blur3}好了好了 瞧这儿 瞧这儿{\r}
+Dialogue: 0,0:43:37.81,0:43:39.67,Default,Default,0000,0000,0000,,{\blur3}二位老板少年裘马{\r}
+Dialogue: 0,0:43:40.78,0:43:43.32,Default,Default,0000,0000,0000,,{\blur3}甭管穿什么衣裳 什么款式{\r}
+Dialogue: 0,0:43:43.32,0:43:44.47,Default,Default,0000,0000,0000,,{\blur3}只要一上身{\r}
+Dialogue: 0,0:43:45.01,0:43:47.34,Default,Default,0000,0000,0000,,{\blur3}管保都体面 都标致{\r}
+Dialogue: 0,0:43:54.54,0:43:55.60,Default,Default,0000,0000,0000,,{\blur3}好{\r}
+Dialogue: 0,0:43:59.28,0:44:02.90,Default,Default,0000,0000,0000,,{\blur3}反对日本增兵华北{\r}
+Dialogue: 0,0:44:04.28,0:44:06.74,Default,Default,0000,0000,0000,,{\blur3}糟了 糟了 又是那些学生们{\r}
+Dialogue: 0,0:44:12.21,0:44:18.23,Default,Default,0000,0000,0000,,{\blur3}打倒日本帝国主义{\r}
+Dialogue: 0,0:44:21.28,0:44:24.67,Default,Default,0000,0000,0000,,{\blur3}打倒日本帝国主义{\r}
+Dialogue: 0,0:44:24.98,0:44:27.70,Default,Default,0000,0000,0000,,{\blur3}这不是照片上那俩戏子吗？{\r}
+Dialogue: 0,0:44:29.58,0:44:31.04,Default,Default,0000,0000,0000,,{\blur3}眼瞅就要当亡国奴了{\r}
+Dialogue: 0,0:44:31.04,0:44:31.97,Default,Default,0000,0000,0000,,{\blur3}你们知道吗？{\r}
+Dialogue: 0,0:44:32.21,0:44:33.81,Default,Default,0000,0000,0000,,{\blur3}这妖里妖气的 你们唱什么戏？{\r}
+Dialogue: 0,0:44:33.81,0:44:34.47,Default,Default,0000,0000,0000,,{\blur3}没家没国的{\r}
+Dialogue: 0,0:44:34.67,0:44:35.90,Default,Default,0000,0000,0000,,{\blur3}你们有没有中国人的良心？{\r}
+Dialogue: 0,0:44:38.44,0:44:40.58,Default,Default,0000,0000,0000,,{\blur3}唉 都看清楚了{\r}
+Dialogue: 0,0:44:40.58,0:44:43.53,Default,Default,0000,0000,0000,,{\blur3}这是正经八百的的中国人{\r}
+Dialogue: 0,0:44:44.51,0:44:46.77,Default,Default,0000,0000,0000,,{\blur3}你们他妈都给我看清楚了{\r}
+Dialogue: 0,0:44:49.81,0:44:52.71,Default,Default,0000,0000,0000,,{\blur3}没错 没错 正经八百的的中国人{\r}
+Dialogue: 0,0:44:52.94,0:44:55.74,Default,Default,0000,0000,0000,,{\blur3}中国人不打中国人{\r}
+Dialogue: 0,0:44:57.38,0:44:59.50,Default,Default,0000,0000,0000,,{\blur3}都是一个老祖宗{\r}
+Dialogue: 0,0:45:00.44,0:45:01.82,Default,Default,0000,0000,0000,,{\blur3}老祖宗错得了吗？{\r}
+Dialogue: 0,0:45:01.82,0:45:03.17,Default,Default,0000,0000,0000,,{\blur3}错不了 错不了{\r}
+Dialogue: 0,0:45:07.08,0:45:09.63,Default,Default,0000,0000,0000,,{\blur3}一个个都他妈忠臣良将的模样{\r}
+Dialogue: 0,0:45:09.84,0:45:12.86,Default,Default,0000,0000,0000,,{\blur3}这日本兵就在城外头 打去呀{\r}
+Dialogue: 0,0:45:13.28,0:45:15.00,Default,Default,0000,0000,0000,,{\blur3}敢情欺负的还是中国人{\r}
+Dialogue: 0,0:45:15.44,0:45:19.07,Default,Default,0000,0000,0000,,{\blur3}瞎哄呗 学生们不都没娶过媳妇吗？{\r}
+Dialogue: 0,0:45:19.51,0:45:21.57,Default,Default,0000,0000,0000,,{\blur3}火气壮 又没钱找姑娘{\r}
+Dialogue: 0,0:45:21.84,0:45:24.74,Default,Default,0000,0000,0000,,{\blur3}总得找个地界煞煞火不是？{\r}
+Dialogue: 0,0:45:26.14,0:45:29.94,Default,Default,0000,0000,0000,,{\blur3}领着喊的那个唱武生倒不错{\r}
+Dialogue: 0,0:45:31.08,0:45:33.63,Default,Default,0000,0000,0000,,{\blur3}唉 咱俩第一出"别姬"在哪儿唱的？{\r}
+Dialogue: 0,0:45:33.84,0:45:36.24,Default,Default,0000,0000,0000,,{\blur3}那驴年马月的事 全让你记住了{\r}
+Dialogue: 0,0:45:36.58,0:45:38.84,Default,Default,0000,0000,0000,,{\blur3}段老板 这您不能忘{\r}
+Dialogue: 0,0:45:39.08,0:45:41.20,Default,Default,0000,0000,0000,,{\blur3}那不是张公公府上的堂会吗？{\r}
+Dialogue: 0,0:45:41.58,0:45:43.79,Default,Default,0000,0000,0000,,{\blur3}我保的二位小爷嘛{\r}
+Dialogue: 0,0:45:43.79,0:45:46.10,Default,Default,0000,0000,0000,,{\blur3}二位的发祥宝地呀{\r}
+Dialogue: 0,0:45:46.28,0:45:49.11,Default,Default,0000,0000,0000,,{\blur3}蝶衣 那儿现在成了棺材铺了{\r}
+Dialogue: 0,0:45:49.38,0:45:50.93,Default,Default,0000,0000,0000,,{\blur3}我昨儿刚去的{\r}
+Dialogue: 0,0:45:51.18,0:45:53.11,Default,Default,0000,0000,0000,,{\blur3}又去找那把剑去了不是？{\r}
+Dialogue: 0,0:45:53.34,0:45:54.90,Default,Default,0000,0000,0000,,{\blur3}早不知卖哪儿去了{\r}
+Dialogue: 0,0:45:55.18,0:45:58.40,Default,Default,0000,0000,0000,,{\blur3}小石头和小豆子成名之后…{\r}
+Dialogue: 0,0:45:58.68,0:46:02.47,Default,Default,0000,0000,0000,,{\blur3}以段小楼和程蝶衣作为艺名{\r}
+Dialogue: 0,0:46:03.31,0:46:05.43,Default,Default,0000,0000,0000,,{\blur3}程蝶衣 程蝶衣{\r}
+Dialogue: 0,0:46:06.98,0:46:13.40,Default,Default,0000,0000,0000,,{\blur3}冰糖葫芦 冰糖葫芦{\r}
+Dialogue: 0,0:46:14.81,0:46:17.14,Default,Default,0000,0000,0000,,{\blur3}座是汪洋汪海…{\r}
+Dialogue: 0,0:46:17.38,0:46:18.57,Default,Default,0000,0000,0000,,{\blur3}一个个都伸着脖子{\r}
+Dialogue: 0,0:46:18.57,0:46:21.03,Default,Default,0000,0000,0000,,{\blur3}等着瞻仰您二位的风采呢{\r}
+Dialogue: 0,0:46:21.31,0:46:24.28,Default,Default,0000,0000,0000,,{\blur3}袁四爷专门来给您捧场{\r}
+Dialogue: 0,0:46:24.51,0:46:26.13,Default,Default,0000,0000,0000,,{\blur3}这面子天大的去了{\r}
+Dialogue: 0,0:46:34.01,0:46:38.27,Default,Default,0000,0000,0000,,{\blur3}马后 马后 …没扮上呢{\r}
+Dialogue: 0,0:46:58.54,0:46:59.97,Default,Default,0000,0000,0000,,{\blur3}段老板{\r}
+Dialogue: 0,0:47:00.74,0:47:02.67,Default,Default,0000,0000,0000,,{\blur3}急急风催半天了{\r}
+Dialogue: 0,0:47:02.91,0:47:04.13,Default,Default,0000,0000,0000,,{\blur3}您再紧把手{\r}
+Dialogue: 0,0:47:04.41,0:47:08.34,Default,Default,0000,0000,0000,,{\blur3}知道了 知道了 我先亮一嗓子{\r}
+Dialogue: 0,0:47:08.61,0:47:11.97,Default,Default,0000,0000,0000,,{\blur3}让他们知道票没白买不就得了{\r}
+Dialogue: 0,0:47:28.08,0:47:35.74,Default,Default,0000,0000,0000,,{\blur3}"自从我随大王"{\r}
+Dialogue: 0,0:47:36.58,0:47:42.53,Default,Default,0000,0000,0000,,{\blur3}"东征西战"{\r}
+Dialogue: 0,0:47:59.31,0:48:04.33,Default,Default,0000,0000,0000,,{\blur3}"受风霜与劳碌"{\r}
+Dialogue: 0,0:48:06.14,0:48:10.77,Default,Default,0000,0000,0000,,{\blur3}"年复年年"{\r}
+Dialogue: 0,0:48:16.64,0:48:18.99,Default,Default,0000,0000,0000,,{\blur3}到没到人戏不分{\r}
+Dialogue: 0,0:48:18.99,0:48:21.27,Default,Default,0000,0000,0000,,{\blur3}雌雄同在的境界…{\r}
+Dialogue: 0,0:48:21.88,0:48:24.93,Default,Default,0000,0000,0000,,{\blur3}您给断断{\r}
+Dialogue: 0,0:48:44.44,0:48:46.50,Default,Default,0000,0000,0000,,{\blur3}"大王 "{\r}
+Dialogue: 0,0:49:00.91,0:49:04.60,Default,Default,0000,0000,0000,,{\blur3}"此一番连累你"{\r}
+Dialogue: 0,0:49:05.51,0:49:13.84,Default,Default,0000,0000,0000,,{\blur3}"多受惊慌 "{\r}
+Dialogue: 0,0:49:19.34,0:49:22.90,Default,Default,0000,0000,0000,,{\blur3}唉 袁四爷今儿来捧场了{\r}
+Dialogue: 0,0:49:23.68,0:49:25.47,Default,Default,0000,0000,0000,,{\blur3}没听见我盖着唢呐唱吗？{\r}
+Dialogue: 0,0:49:26.44,0:49:28.93,Default,Default,0000,0000,0000,,{\blur3}把血都挣出来了{\r}
+Dialogue: 0,0:49:29.18,0:49:31.33,Default,Default,0000,0000,0000,,{\blur3}我就让他听明白了{\r}
+Dialogue: 0,0:49:31.33,0:49:33.01,Default,Default,0000,0000,0000,,{\blur3}没他四爷的捧场{\r}
+Dialogue: 0,0:49:33.68,0:49:35.40,Default,Default,0000,0000,0000,,{\blur3}咱在北平也照唱照红{\r}
+Dialogue: 0,0:49:35.91,0:49:38.87,Default,Default,0000,0000,0000,,{\blur3}- 那你也悠着点 - 没事儿{\r}
+Dialogue: 0,0:49:39.11,0:49:40.33,Default,Default,0000,0000,0000,,{\blur3}到了裉节儿上…{\r}
+Dialogue: 0,0:49:40.61,0:49:44.47,Default,Default,0000,0000,0000,,{\blur3}我两手轮着掌在腰里 帮着提气{\r}
+Dialogue: 0,0:49:46.34,0:49:47.97,Default,Default,0000,0000,0000,,{\blur3}- 这儿？- 不对{\r}
+Dialogue: 0,0:49:49.37,0:49:50.53,Default,Default,0000,0000,0000,,{\blur3}这儿？{\r}
+Dialogue: 0,0:49:53.88,0:49:55.03,Default,Default,0000,0000,0000,,{\blur3}别闹{\r}
+Dialogue: 0,0:50:09.84,0:50:11.36,Default,Default,0000,0000,0000,,{\blur3}四爷{\r}
+Dialogue: 0,0:50:11.61,0:50:15.77,Default,Default,0000,0000,0000,,{\blur3}久仰久仰 二位果然是不负盛名{\r}
+Dialogue: 0,0:50:16.37,0:50:18.00,Default,Default,0000,0000,0000,,{\blur3}四爷 您捧场{\r}
+Dialogue: 0,0:50:28.51,0:50:32.37,Default,Default,0000,0000,0000,,{\blur3}唐突了点 算是见面礼{\r}
+Dialogue: 0,0:50:42.94,0:50:47.34,Default,Default,0000,0000,0000,,{\blur3}哎哟 都说当年太后老佛爷{\r}
+Dialogue: 0,0:50:49.04,0:50:52.39,Default,Default,0000,0000,0000,,{\blur3}她老人家赏戏有这样的手面吗？{\r}
+Dialogue: 0,0:50:52.39,0:50:54.30,Default,Default,0000,0000,0000,,{\blur3}有吗？没有吧{\r}
+Dialogue: 0,0:50:59.24,0:51:02.20,Default,Default,0000,0000,0000,,{\blur3}四爷 您这让我们蝶衣怎么当得起啊？{\r}
+Dialogue: 0,0:51:07.37,0:51:09.60,Default,Default,0000,0000,0000,,{\blur3}"霸王别姬"这一折…{\r}
+Dialogue: 0,0:51:09.91,0:51:11.87,Default,Default,0000,0000,0000,,{\blur3}渊源已久{\r}
+Dialogue: 0,0:51:12.08,0:51:17.53,Default,Default,0000,0000,0000,,{\blur3}本是从昆剧老本"千金记"里脱胎出来的{\r}
+Dialogue: 0,0:51:18.08,0:51:22.06,Default,Default,0000,0000,0000,,{\blur3}好多名家都在这出上唱栽过{\r}
+Dialogue: 0,0:51:22.71,0:51:25.54,Default,Default,0000,0000,0000,,{\blur3}独你程老板的虞姬{\r}
+Dialogue: 0,0:51:25.91,0:51:28.70,Default,Default,0000,0000,0000,,{\blur3}快入纯青之境{\r}
+Dialogue: 0,0:51:34.14,0:51:36.04,Default,Default,0000,0000,0000,,{\blur3}有点意思了{\r}
+Dialogue: 0,0:51:42.74,0:51:45.30,Default,Default,0000,0000,0000,,{\blur3}有那么一二刻{\r}
+Dialogue: 0,0:51:46.37,0:51:49.50,Default,Default,0000,0000,0000,,{\blur3}袁某也恍惚起来{\r}
+Dialogue: 0,0:51:50.41,0:51:53.50,Default,Default,0000,0000,0000,,{\blur3}疑为虞姬转世再现啦{\r}
+Dialogue: 0,0:51:59.44,0:52:00.24,Default,Default,0000,0000,0000,,{\blur3}段老板{\r}
+Dialogue: 0,0:52:01.58,0:52:06.01,Default,Default,0000,0000,0000,,{\blur3}霸王回营亮相 到和虞姬相见{\r}
+Dialogue: 0,0:52:07.01,0:52:08.37,Default,Default,0000,0000,0000,,{\blur3}按老规矩…{\r}
+Dialogue: 0,0:52:08.78,0:52:10.54,Default,Default,0000,0000,0000,,{\blur3}四爷{\r}
+Dialogue: 0,0:52:12.54,0:52:16.60,Default,Default,0000,0000,0000,,{\blur3}按老规矩是定然七步 你只走了五步{\r}
+Dialogue: 0,0:52:18.04,0:52:20.12,Default,Default,0000,0000,0000,,{\blur3}楚霸王气度尊贵{\r}
+Dialogue: 0,0:52:20.41,0:52:22.17,Default,Default,0000,0000,0000,,{\blur3}要是威而不重…{\r}
+Dialogue: 0,0:52:22.34,0:52:26.17,Default,Default,0000,0000,0000,,{\blur3}不成了江湖上的黄天霸了？{\r}
+Dialogue: 0,0:52:27.17,0:52:30.40,Default,Default,0000,0000,0000,,{\blur3}四爷 您梨园大拿呀{\r}
+Dialogue: 0,0:52:30.51,0:52:34.00,Default,Default,0000,0000,0000,,{\blur3}文武昆乱不挡 六场通透{\r}
+Dialogue: 0,0:52:34.21,0:52:36.54,Default,Default,0000,0000,0000,,{\blur3}您能有错吗？{\r}
+Dialogue: 0,0:52:36.98,0:52:38.83,Default,Default,0000,0000,0000,,{\blur3}您要是都出了错{\r}
+Dialogue: 0,0:52:38.83,0:52:41.20,Default,Default,0000,0000,0000,,{\blur3}那我们兄弟这点玩艺儿…{\r}
+Dialogue: 0,0:52:41.47,0:52:42.80,Default,Default,0000,0000,0000,,{\blur3}还敢在北平的戏园子里露吗？{\r}
+Dialogue: 0,0:52:43.01,0:52:44.67,Default,Default,0000,0000,0000,,{\blur3}四爷 您得栽培我们{\r}
+Dialogue: 0,0:52:48.37,0:52:52.20,Default,Default,0000,0000,0000,,{\blur3}如不嫌弃 请二位到舍下小酌几杯{\r}
+Dialogue: 0,0:52:52.38,0:52:55.03,Default,Default,0000,0000,0000,,{\blur3}然后细谈{\r}
+Dialogue: 0,0:52:55.04,0:52:59.34,Default,Default,0000,0000,0000,,{\blur3}实话说 这出戏的学问还真是不浅{\r}
+Dialogue: 0,0:52:59.58,0:53:02.94,Default,Default,0000,0000,0000,,{\blur3}哟 四爷 对您不住{\r}
+Dialogue: 0,0:53:03.24,0:53:06.30,Default,Default,0000,0000,0000,,{\blur3}赶巧了 我得…{\r}
+Dialogue: 0,0:53:07.41,0:53:08.90,Default,Default,0000,0000,0000,,{\blur3}喝一壶花酒去{\r}
+Dialogue: 0,0:53:16.68,0:53:20.70,Default,Default,0000,0000,0000,,{\blur3}另有雅趣 好{\r}
+Dialogue: 0,0:53:22.04,0:53:23.63,Default,Default,0000,0000,0000,,{\blur3}程老板呢？{\r}
+Dialogue: 0,0:53:31.41,0:53:36.34,Default,Default,0000,0000,0000,,{\blur3}那么日后踏雪访梅 再谈不迟{\r}
+Dialogue: 0,0:53:37.64,0:53:39.50,Default,Default,0000,0000,0000,,{\blur3}失陪了{\r}
+Dialogue: 0,0:53:40.17,0:53:42.73,Default,Default,0000,0000,0000,,{\blur3}四爷您慢走{\r}
+Dialogue: 0,0:53:48.14,0:53:51.13,Default,Default,0000,0000,0000,,{\blur3}蝶衣 我也走了{\r}
+Dialogue: 0,0:53:56.63,0:53:59.32,Default,Default,0000,0000,0000,,{\blur3}彩风 金燕 丽君 淑瑗 秋香{\r}
+Dialogue: 0,0:53:59.56,0:54:01.99,Default,Default,0000,0000,0000,,{\blur3}接客了{\r}
+Dialogue: 0,0:54:03.02,0:54:04.68,Default,Default,0000,0000,0000,,{\blur3}段老板 您来啦{\r}
+Dialogue: 0,0:54:04.96,0:54:08.42,Default,Default,0000,0000,0000,,{\blur3}段老板 有些日子没来了{\r}
+Dialogue: 0,0:54:08.42,0:54:10.91,Default,Default,0000,0000,0000,,{\blur3}这心里还怪惦记的{\r}
+Dialogue: 0,0:54:12.06,0:54:14.29,Default,Default,0000,0000,0000,,{\blur3}会会菊仙姑娘{\r}
+Dialogue: 0,0:54:14.56,0:54:16.34,Default,Default,0000,0000,0000,,{\blur3}这话怎么说的呢？{\r}
+Dialogue: 0,0:54:16.34,0:54:20.05,Default,Default,0000,0000,0000,,{\blur3}您倒…您倒早言语呀{\r}
+Dialogue: 0,0:54:20.96,0:54:23.24,Default,Default,0000,0000,0000,,{\blur3}菊仙姑娘这阵子不在{\r}
+Dialogue: 0,0:54:23.24,0:54:26.58,Default,Default,0000,0000,0000,,{\blur3}她出条子应饭局去了{\r}
+Dialogue: 0,0:54:26.79,0:54:28.72,Default,Default,0000,0000,0000,,{\blur3}这可怎么好啊？要不这么着{\r}
+Dialogue: 0,0:54:28.96,0:54:31.75,Default,Default,0000,0000,0000,,{\blur3}姐给你找个好的{\r}
+Dialogue: 0,0:54:31.99,0:54:35.92,Default,Default,0000,0000,0000,,{\blur3}彩风 你来陪陪段老板{\r}
+Dialogue: 0,0:54:37.19,0:54:38.88,Default,Default,0000,0000,0000,,{\blur3}小楼 我就不陪你了{\r}
+Dialogue: 0,0:54:51.79,0:54:54.52,Default,Default,0000,0000,0000,,{\blur3}给哥哥透个实情{\r}
+Dialogue: 0,0:54:55.26,0:54:58.02,Default,Default,0000,0000,0000,,{\blur3}菊仙姑娘在哪间屋啊？{\r}
+Dialogue: 0,0:54:59.83,0:55:03.98,Default,Default,0000,0000,0000,,{\blur3}是在底下呀？还是在上头？{\r}
+Dialogue: 0,0:55:05.36,0:55:09.05,Default,Default,0000,0000,0000,,{\blur3}凤凰当然栖高枝啦{\r}
+Dialogue: 0,0:55:10.56,0:55:15.85,Default,Default,0000,0000,0000,,{\blur3}可人家是头牌 你够得着吗？{\r}
+Dialogue: 0,0:55:20.73,0:55:22.52,Default,Default,0000,0000,0000,,{\blur3}让你说着了{\r}
+Dialogue: 0,0:55:22.79,0:55:25.28,Default,Default,0000,0000,0000,,{\blur3}哥哥我就是专傍头牌的{\r}
+Dialogue: 0,0:55:29.96,0:55:31.22,Default,Default,0000,0000,0000,,{\blur3}菊仙姑娘{\r}
+Dialogue: 0,0:55:34.59,0:55:37.65,Default,Default,0000,0000,0000,,{\blur3}去呀 你不是要傍头牌吗？{\r}
+Dialogue: 0,0:55:37.89,0:55:41.02,Default,Default,0000,0000,0000,,{\blur3}看那几位爷不把你剁了当菜吃{\r}
+Dialogue: 0,0:55:45.46,0:55:47.55,Default,Default,0000,0000,0000,,{\blur3}告诉你 我真急了{\r}
+Dialogue: 0,0:55:47.96,0:55:50.05,Default,Default,0000,0000,0000,,{\blur3}急了？急了好呀{\r}
+Dialogue: 0,0:55:50.79,0:55:51.98,Default,Default,0000,0000,0000,,{\blur3}再闹{\r}
+Dialogue: 0,0:55:53.32,0:55:55.05,Default,Default,0000,0000,0000,,{\blur3}再闹我跳了{\r}
+Dialogue: 0,0:55:55.52,0:55:59.65,Default,Default,0000,0000,0000,,{\blur3}你跳呀 你前脚跳 我后脚跳{\r}
+Dialogue: 0,0:56:00.06,0:56:02.46,Default,Default,0000,0000,0000,,{\blur3}宁在花下死{\r}
+Dialogue: 0,0:56:02.73,0:56:04.55,Default,Default,0000,0000,0000,,{\blur3}做鬼也风流{\r}
+Dialogue: 0,0:56:04.79,0:56:09.19,Default,Default,0000,0000,0000,,{\blur3}我们就跟你死 做你的棺材板{\r}
+Dialogue: 0,0:56:13.32,0:56:14.31,Default,Default,0000,0000,0000,,{\blur3}小楼{\r}
+Dialogue: 0,0:56:29.69,0:56:31.38,Default,Default,0000,0000,0000,,{\blur3}这帮小子坏透了{\r}
+Dialogue: 0,0:56:31.63,0:56:35.15,Default,Default,0000,0000,0000,,{\blur3}他们逼着我 嘴对嘴喂他们酒喝{\r}
+Dialogue: 0,0:56:36.36,0:56:40.22,Default,Default,0000,0000,0000,,{\blur3}怎么着？王八蛋 你们跳啊{\r}
+Dialogue: 0,0:56:40.36,0:56:42.92,Default,Default,0000,0000,0000,,{\blur3}姑奶奶跳了 怎么着？{\r}
+Dialogue: 0,0:56:43.06,0:56:45.72,Default,Default,0000,0000,0000,,{\blur3}王八蛋 都是她妈丫头养的{\r}
+Dialogue: 0,0:56:46.89,0:56:50.65,Default,Default,0000,0000,0000,,{\blur3}下去 下去就下去 走{\r}
+Dialogue: 0,0:57:08.29,0:57:10.69,Default,Default,0000,0000,0000,,{\blur3}呵 是段老板啊{\r}
+Dialogue: 0,0:57:11.26,0:57:12.63,Default,Default,0000,0000,0000,,{\blur3}段老板{\r}
+Dialogue: 0,0:57:12.63,0:57:16.21,Default,Default,0000,0000,0000,,{\blur3}咱们到这儿来 可都是找乐子的{\r}
+Dialogue: 0,0:57:16.46,0:57:21.08,Default,Default,0000,0000,0000,,{\blur3}扔出去的 可都是白花花响当当的大洋啊{\r}
+Dialogue: 0,0:57:22.43,0:57:25.39,Default,Default,0000,0000,0000,,{\blur3}今儿个谁跟谁都别找不痛快{\r}
+Dialogue: 0,0:57:29.06,0:57:32.72,Default,Default,0000,0000,0000,,{\blur3}- 别找不痛快 - 走吧{\r}
+Dialogue: 0,0:57:33.06,0:57:34.85,Default,Default,0000,0000,0000,,{\blur3}哎 别介呀{\r}
+Dialogue: 0,0:57:35.43,0:57:37.15,Default,Default,0000,0000,0000,,{\blur3}怂了？{\r}
+Dialogue: 0,0:57:44.06,0:57:47.25,Default,Default,0000,0000,0000,,{\blur3}菊仙 这可就是你的不周到了{\r}
+Dialogue: 0,0:57:48.72,0:57:50.18,Default,Default,0000,0000,0000,,{\blur3}你怎么没告诉各位爷{\r}
+Dialogue: 0,0:57:50.18,0:57:51.35,Default,Default,0000,0000,0000,,{\blur3}今儿是什么日子？{\r}
+Dialogue: 0,0:58:08.59,0:58:12.11,Default,Default,0000,0000,0000,,{\blur3}今儿个不是咱俩定亲的喜日子吗{\r}
+Dialogue: 0,0:58:19.79,0:58:21.19,Default,Default,0000,0000,0000,,{\blur3}对{\r}
+Dialogue: 0,0:58:21.99,0:58:26.08,Default,Default,0000,0000,0000,,{\blur3}今儿个是姑奶奶定亲的喜日子{\r}
+Dialogue: 0,0:58:27.19,0:58:30.92,Default,Default,0000,0000,0000,,{\blur3}怎么着？给姑奶奶贺喜吧？{\r}
+Dialogue: 0,0:58:31.19,0:58:33.09,Default,Default,0000,0000,0000,,{\blur3}给姑奶奶敬酒吧{\r}
+Dialogue: 0,0:59:24.79,0:59:27.88,Default,Default,0000,0000,0000,,{\blur3}爷们儿 哄他妈谁呢？{\r}
+Dialogue: 0,0:59:28.92,0:59:32.52,Default,Default,0000,0000,0000,,{\blur3}各位爷 今儿个是我大喜的日子{\r}
+Dialogue: 0,0:59:32.76,0:59:34.88,Default,Default,0000,0000,0000,,{\blur3}我得敬敬各位爷{\r}
+Dialogue: 0,0:59:36.66,0:59:38.92,Default,Default,0000,0000,0000,,{\blur3}给各位爷醒醒酒{\r}
+Dialogue: 0,0:59:40.86,0:59:42.15,Default,Default,0000,0000,0000,,{\blur3}给我叫一个好{\r}
+Dialogue: 0,1:00:01.21,1:00:02.87,Default,Default,0000,0000,0000,,{\blur3}听说…{\r}
+Dialogue: 0,1:00:03.11,1:00:06.90,Default,Default,0000,0000,0000,,{\blur3}你在八大胡同打出名来了{\r}
+Dialogue: 0,1:00:08.21,1:00:11.40,Default,Default,0000,0000,0000,,{\blur3}这武二郎碰上西门庆{\r}
+Dialogue: 0,1:00:11.64,1:00:13.57,Default,Default,0000,0000,0000,,{\blur3}不打 不打能成吗？{\r}
+Dialogue: 0,1:00:14.17,1:00:17.20,Default,Default,0000,0000,0000,,{\blur3}这么说 有个潘金莲啦？{\r}
+Dialogue: 0,1:00:17.44,1:00:18.52,Default,Default,0000,0000,0000,,{\blur3} 这是什么话？{\r}
+Dialogue: 0,1:00:18.52,1:00:19.87,Default,Default,0000,0000,0000,,{\blur3}你想听什么话？{\r}
+Dialogue: 0,1:00:21.61,1:00:24.32,Default,Default,0000,0000,0000,,{\blur3}不过是救人解难 玩玩呗{\r}
+Dialogue: 0,1:00:24.32,1:00:25.44,Default,Default,0000,0000,0000,,{\blur3}又不当真{\r}
+Dialogue: 0,1:00:26.34,1:00:27.86,Default,Default,0000,0000,0000,,{\blur3}蝶衣{\r}
+Dialogue: 0,1:00:28.07,1:00:31.90,Default,Default,0000,0000,0000,,{\blur3}什么时候一起去逛逛 就知道了{\r}
+Dialogue: 0,1:00:48.94,1:00:50.67,Default,Default,0000,0000,0000,,{\blur3}兄弟 对不住 兄弟{\r}
+Dialogue: 0,1:00:51.87,1:00:56.33,Default,Default,0000,0000,0000,,{\blur3}师哥今儿神不在家 说走嘴了{\r}
+Dialogue: 0,1:00:58.14,1:01:00.37,Default,Default,0000,0000,0000,,{\blur3}师哥该死{\r}
+Dialogue: 0,1:01:03.64,1:01:07.57,Default,Default,0000,0000,0000,,{\blur3}你忘了咱们是怎么唱红的了？{\r}
+Dialogue: 0,1:01:09.87,1:01:12.43,Default,Default,0000,0000,0000,,{\blur3}不就凭了师傅一句话？{\r}
+Dialogue: 0,1:01:15.01,1:01:16.70,Default,Default,0000,0000,0000,,{\blur3}什么话？{\r}
+Dialogue: 0,1:01:17.97,1:01:20.84,Default,Default,0000,0000,0000,,{\blur3}从一而终{\r}
+Dialogue: 0,1:01:21.21,1:01:24.47,Default,Default,0000,0000,0000,,{\blur3}师哥 我要让你跟我…{\r}
+Dialogue: 0,1:01:25.24,1:01:26.40,Default,Default,0000,0000,0000,,{\blur3}不对{\r}
+Dialogue: 0,1:01:26.71,1:01:30.43,Default,Default,0000,0000,0000,,{\blur3}就让我跟你好好唱一辈子戏 不行吗？{\r}
+Dialogue: 0,1:01:33.24,1:01:34.90,Default,Default,0000,0000,0000,,{\blur3}这不… 这不小半辈子都唱过来了吗？{\r}
+Dialogue: 0,1:01:35.31,1:01:37.74,Default,Default,0000,0000,0000,,{\blur3}不行 说的是一辈子{\r}
+Dialogue: 0,1:01:38.01,1:01:40.44,Default,Default,0000,0000,0000,,{\blur3}差一年 一个月 一天 一个时辰…{\r}
+Dialogue: 0,1:01:40.81,1:01:43.00,Default,Default,0000,0000,0000,,{\blur3}都不算一辈子{\r}
+Dialogue: 0,1:01:50.31,1:01:51.50,Default,Default,0000,0000,0000,,{\blur3}蝶衣{\r}
+Dialogue: 0,1:01:51.50,1:01:54.67,Default,Default,0000,0000,0000,,{\blur3}你可真是不疯魔不成活呀{\r}
+Dialogue: 0,1:01:55.61,1:01:58.07,Default,Default,0000,0000,0000,,{\blur3}唱戏得疯魔 不假{\r}
+Dialogue: 0,1:01:58.07,1:02:00.63,Default,Default,0000,0000,0000,,{\blur3}可要是活着也疯魔…{\r}
+Dialogue: 0,1:02:01.61,1:02:05.56,Default,Default,0000,0000,0000,,{\blur3}在这人世上 在这凡人堆里…{\r}
+Dialogue: 0,1:02:06.61,1:02:09.57,Default,Default,0000,0000,0000,,{\blur3}咱们可怎么活哟？{\r}
+Dialogue: 0,1:02:11.84,1:02:14.31,Default,Default,0000,0000,0000,,{\blur3}来 给师哥勾勾脸{\r}
+Dialogue: 0,1:02:39.99,1:02:41.89,Default,Default,0000,0000,0000,,{\blur3}"妃子"{\r}
+Dialogue: 0,1:02:43.29,1:02:45.52,Default,Default,0000,0000,0000,,{\blur3}"四面俱是楚国歌声"{\r}
+Dialogue: 0,1:02:45.79,1:02:49.01,Default,Default,0000,0000,0000,,{\blur3}"定是刘邦得了楚地"{\r}
+Dialogue: 0,1:02:49.02,1:02:52.02,Default,Default,0000,0000,0000,,{\blur3}"孤大势去矣 "{\r}
+Dialogue: 0,1:02:53.36,1:02:54.55,Default,Default,0000,0000,0000,,{\blur3}"大王"{\r}
+Dialogue: 0,1:02:54.66,1:02:59.85,Default,Default,0000,0000,0000,,{\blur3}"依孤看来 今日是你我分别"{\r}
+Dialogue: 0,1:03:02.52,1:03:09.32,Default,Default,0000,0000,0000,,{\blur3}"之日了"{\r}
+Dialogue: 0,1:03:55.32,1:03:58.95,Default,Default,0000,0000,0000,,{\blur3}真他妈想当太太奶奶啦你？{\r}
+Dialogue: 0,1:04:01.59,1:04:03.52,Default,Default,0000,0000,0000,,{\blur3}做你娘的玻璃梦去吧{\r}
+Dialogue: 0,1:04:03.76,1:04:05.86,Default,Default,0000,0000,0000,,{\blur3}你当出了这门儿 把脸一抹洒{\r}
+Dialogue: 0,1:04:05.86,1:04:07.31,Default,Default,0000,0000,0000,,{\blur3}你还真成了良人啦？{\r}
+Dialogue: 0,1:04:07.59,1:04:09.27,Default,Default,0000,0000,0000,,{\blur3}你当这世上的狼啊虎啊{\r}
+Dialogue: 0,1:04:09.27,1:04:10.52,Default,Default,0000,0000,0000,,{\blur3}就都不认得你啦？{\r}
+Dialogue: 0,1:04:14.32,1:04:15.69,Default,Default,0000,0000,0000,,{\blur3}哟 可吓死我啦{\r}
+Dialogue: 0,1:04:18.16,1:04:19.59,Default,Default,0000,0000,0000,,{\blur3}我告诉你{\r}
+Dialogue: 0,1:04:20.56,1:04:23.58,Default,Default,0000,0000,0000,,{\blur3}那窑姐永远是窑姐{\r}
+Dialogue: 0,1:04:25.16,1:04:26.68,Default,Default,0000,0000,0000,,{\blur3}你记住我这话{\r}
+Dialogue: 0,1:04:29.49,1:04:30.79,Default,Default,0000,0000,0000,,{\blur3}这就是你的命{\r}
+Dialogue: 0,1:04:36.76,1:04:39.15,Default,Default,0000,0000,0000,,{\blur3}成 回见了您啦{\r}
+Dialogue: 0,1:04:48.99,1:04:52.58,Default,Default,0000,0000,0000,,{\blur3}袁四爷送条幅{\r}
+Dialogue: 0,1:04:52.82,1:04:55.91,Default,Default,0000,0000,0000,,{\blur3}"风华绝代"{\r}
+Dialogue: 0,1:05:47.76,1:05:49.85,Default,Default,0000,0000,0000,,{\blur3}哎哟 你怎么上这儿来了？{\r}
+Dialogue: 0,1:05:54.02,1:05:55.96,Default,Default,0000,0000,0000,,{\blur3}又怎么了 菊仙？{\r}
+Dialogue: 0,1:05:56.22,1:05:58.31,Default,Default,0000,0000,0000,,{\blur3}来 来 来…进来说{\r}
+Dialogue: 0,1:05:58.76,1:05:59.55,Default,Default,0000,0000,0000,,{\blur3}你出来{\r}
+Dialogue: 0,1:06:04.59,1:06:07.75,Default,Default,0000,0000,0000,,{\blur3}嘿 怎么光着脚啊？这么凉的天{\r}
+Dialogue: 0,1:06:10.69,1:06:12.32,Default,Default,0000,0000,0000,,{\blur3}出了什么事啦？{\r}
+Dialogue: 0,1:06:13.19,1:06:14.88,Default,Default,0000,0000,0000,,{\blur3}赶出来了{\r}
+Dialogue: 0,1:06:15.02,1:06:18.11,Default,Default,0000,0000,0000,,{\blur3}花满楼不留许过婚的人{\r}
+Dialogue: 0,1:06:33.89,1:06:38.08,Default,Default,0000,0000,0000,,{\blur3}来 来 来…过来见见{\r}
+Dialogue: 0,1:06:39.62,1:06:41.71,Default,Default,0000,0000,0000,,{\blur3}这是菊仙小姐{\r}
+Dialogue: 0,1:06:42.36,1:06:44.38,Default,Default,0000,0000,0000,,{\blur3}这就是我的亲师弟{\r}
+Dialogue: 0,1:06:44.38,1:06:46.22,Default,Default,0000,0000,0000,,{\blur3}你瞧见了 演虞姬的{\r}
+Dialogue: 0,1:06:48.36,1:06:50.65,Default,Default,0000,0000,0000,,{\blur3}哟 常听小楼念叨您{\r}
+Dialogue: 0,1:06:50.86,1:06:53.29,Default,Default,0000,0000,0000,,{\blur3}听都听成熟人了{\r}
+Dialogue: 0,1:06:53.72,1:06:57.92,Default,Default,0000,0000,0000,,{\blur3}噢 菊仙小姐 失陪了{\r}
+Dialogue: 0,1:07:08.09,1:07:12.46,Default,Default,0000,0000,0000,,{\blur3}小楼 那天在花满楼…{\r}
+Dialogue: 0,1:07:12.89,1:07:15.86,Default,Default,0000,0000,0000,,{\blur3}要不是你在楼底下接着{\r}
+Dialogue: 0,1:07:15.86,1:07:17.58,Default,Default,0000,0000,0000,,{\blur3}我早就入土了{\r}
+Dialogue: 0,1:07:22.49,1:07:25.95,Default,Default,0000,0000,0000,,{\blur3}那杯定亲酒 可是你先喝了一半{\r}
+Dialogue: 0,1:07:27.82,1:07:31.78,Default,Default,0000,0000,0000,,{\blur3}菊仙命苦 你要是收留她{\r}
+Dialogue: 0,1:07:32.06,1:07:34.99,Default,Default,0000,0000,0000,,{\blur3}有人当牛做马侍侯你{\r}
+Dialogue: 0,1:07:36.06,1:07:38.22,Default,Default,0000,0000,0000,,{\blur3}你要是嫌弃她…{\r}
+Dialogue: 0,1:07:39.32,1:07:41.52,Default,Default,0000,0000,0000,,{\blur3}大不了 她再跳回楼{\r}
+Dialogue: 0,1:07:57.16,1:07:58.82,Default,Default,0000,0000,0000,,{\blur3}这妞可够厉害的{\r}
+Dialogue: 0,1:08:00.99,1:08:02.66,Default,Default,0000,0000,0000,,{\blur3}服 我服{\r}
+Dialogue: 0,1:08:02.66,1:08:05.82,Default,Default,0000,0000,0000,,{\blur3}这他妈就是一本大戏呀{\r}
+Dialogue: 0,1:08:08.39,1:08:12.45,Default,Default,0000,0000,0000,,{\blur3}什么时候"洞房花烛夜"呀？{\r}
+Dialogue: 0,1:08:14.62,1:08:15.68,Default,Default,0000,0000,0000,,{\blur3}今儿晚上{\r}
+Dialogue: 0,1:08:16.39,1:08:17.38,Default,Default,0000,0000,0000,,{\blur3}还有哪{\r}
+Dialogue: 0,1:08:18.76,1:08:22.15,Default,Default,0000,0000,0000,,{\blur3}你呀 得当着戏班儿上下老少爷们的面儿{\r}
+Dialogue: 0,1:08:22.56,1:08:24.85,Default,Default,0000,0000,0000,,{\blur3}先给我办定亲礼{\r}
+Dialogue: 0,1:08:25.09,1:08:27.25,Default,Default,0000,0000,0000,,{\blur3}我得堂堂正正地进你段家的门{\r}
+Dialogue: 0,1:08:28.79,1:08:31.35,Default,Default,0000,0000,0000,,{\blur3}嫌我偷工减料啊？{\r}
+Dialogue: 0,1:08:31.59,1:08:35.22,Default,Default,0000,0000,0000,,{\blur3}那成 今儿晚上就是定亲礼{\r}
+Dialogue: 0,1:08:35.59,1:08:37.78,Default,Default,0000,0000,0000,,{\blur3}请各位赏光{\r}
+Dialogue: 0,1:08:43.56,1:08:45.02,Default,Default,0000,0000,0000,,{\blur3}菊仙小姐{\r}
+Dialogue: 0,1:08:46.49,1:08:49.05,Default,Default,0000,0000,0000,,{\blur3}您在哪儿学的戏呀？{\r}
+Dialogue: 0,1:08:49.79,1:08:53.22,Default,Default,0000,0000,0000,,{\blur3}哟 我哪儿学过戏呀？{\r}
+Dialogue: 0,1:08:54.22,1:08:57.55,Default,Default,0000,0000,0000,,{\blur3}没学过呀？那就别洒狗血了{\r}
+Dialogue: 0,1:09:02.59,1:09:06.68,Default,Default,0000,0000,0000,,{\blur3}蝶衣 叫声嫂子吧 不叫不成了{\r}
+Dialogue: 0,1:09:07.42,1:09:09.50,Default,Default,0000,0000,0000,,{\blur3}还有今儿晚上证婚人这活儿{\r}
+Dialogue: 0,1:09:09.50,1:09:10.69,Default,Default,0000,0000,0000,,{\blur3}你得给我接下来{\r}
+Dialogue: 0,1:09:14.89,1:09:18.98,Default,Default,0000,0000,0000,,{\blur3}黄天霸和妓女的戏 不会演{\r}
+Dialogue: 0,1:09:20.26,1:09:21.55,Default,Default,0000,0000,0000,,{\blur3}师傅没教过{\r}
+Dialogue: 0,1:09:22.69,1:09:24.59,Default,Default,0000,0000,0000,,{\blur3}这是哪儿跟哪儿呀？{\r}
+Dialogue: 0,1:09:24.99,1:09:28.65,Default,Default,0000,0000,0000,,{\blur3}师弟 小楼在人前人后提起您来{\r}
+Dialogue: 0,1:09:28.92,1:09:31.36,Default,Default,0000,0000,0000,,{\blur3}说的可都是厚道话呀{\r}
+Dialogue: 0,1:09:35.89,1:09:37.58,Default,Default,0000,0000,0000,,{\blur3}别走{\r}
+Dialogue: 0,1:09:41.09,1:09:42.49,Default,Default,0000,0000,0000,,{\blur3}你上哪儿去？{\r}
+Dialogue: 0,1:09:44.42,1:09:47.69,Default,Default,0000,0000,0000,,{\blur3}我上哪儿 你管得着吗？{\r}
+Dialogue: 0,1:09:50.02,1:09:51.46,Default,Default,0000,0000,0000,,{\blur3}师哥{\r}
+Dialogue: 0,1:09:53.22,1:09:54.69,Default,Default,0000,0000,0000,,{\blur3}师哥 你别走{\r}
+Dialogue: 0,1:09:55.99,1:09:59.52,Default,Default,0000,0000,0000,,{\blur3}袁四爷今儿晚上请咱们过去{\r}
+Dialogue: 0,1:09:59.52,1:10:01.05,Default,Default,0000,0000,0000,,{\blur3}要栽培咱们{\r}
+Dialogue: 0,1:10:02.52,1:10:05.72,Default,Default,0000,0000,0000,,{\blur3}姓袁的他管得着姓段的吗？{\r}
+Dialogue: 0,1:10:07.32,1:10:11.38,Default,Default,0000,0000,0000,,{\blur3}我是假霸王 你是真虞姬{\r}
+Dialogue: 0,1:10:11.62,1:10:13.56,Default,Default,0000,0000,0000,,{\blur3}让他栽培你一个人去吧{\r}
+Dialogue: 0,1:10:13.99,1:10:17.15,Default,Default,0000,0000,0000,,{\blur3}师哥 师哥{\r}
+Dialogue: 0,1:10:41.11,1:10:44.56,Default,Default,0000,0000,0000,,{\blur3}这对翎子…难得{\r}
+Dialogue: 0,1:10:46.77,1:10:51.90,Default,Default,0000,0000,0000,,{\blur3}是从活雉鸡的尾巴上生生收取的{\r}
+Dialogue: 0,1:10:54.11,1:11:00.90,Default,Default,0000,0000,0000,,{\blur3}这才够柔软 够伶俐 够漂亮{\r}
+Dialogue: 0,1:11:02.54,1:11:05.40,Default,Default,0000,0000,0000,,{\blur3}我恭侯大驾啦{\r}
+Dialogue: 0,1:11:43.21,1:11:49.14,Default,Default,0000,0000,0000,,{\blur3}尘世中 男体阳污 女体阴秽{\r}
+Dialogue: 0,1:11:50.14,1:11:55.44,Default,Default,0000,0000,0000,,{\blur3}独观世音集两者之精于一身{\r}
+Dialogue: 0,1:11:57.84,1:11:59.64,Default,Default,0000,0000,0000,,{\blur3}欢喜无量啊{\r}
+Dialogue: 0,1:12:16.51,1:12:19.03,Default,Default,0000,0000,0000,,{\blur3}这把剑有些来历{\r}
+Dialogue: 0,1:12:19.61,1:12:22.63,Default,Default,0000,0000,0000,,{\blur3}是大太监张某的旧物{\r}
+Dialogue: 0,1:12:22.87,1:12:28.64,Default,Default,0000,0000,0000,,{\blur3}张家破败时 是费了大周折弄到手的{\r}
+Dialogue: 0,1:12:29.51,1:12:31.23,Default,Default,0000,0000,0000,,{\blur3}如此看来…{\r}
+Dialogue: 0,1:12:32.07,1:12:35.97,Default,Default,0000,0000,0000,,{\blur3}此物是你的旧相识了{\r}
+Dialogue: 0,1:12:37.27,1:12:43.10,Default,Default,0000,0000,0000,,{\blur3}果然世上的事 是踏破铁鞋无觅处啊{\r}
+Dialogue: 0,1:12:51.37,1:12:55.23,Default,Default,0000,0000,0000,,{\blur3}- 喜欢？- 我…{\r}
+Dialogue: 0,1:12:55.91,1:13:00.67,Default,Default,0000,0000,0000,,{\blur3}你我之间不言钱 那个字眼实在不雅{\r}
+Dialogue: 0,1:13:03.44,1:13:07.30,Default,Default,0000,0000,0000,,{\blur3}自古宝剑酬知已{\r}
+Dialogue: 0,1:13:09.01,1:13:10.53,Default,Default,0000,0000,0000,,{\blur3}程老板{\r}
+Dialogue: 0,1:13:11.61,1:13:15.00,Default,Default,0000,0000,0000,,{\blur3}愿做我的红尘知已吗？{\r}
+Dialogue: 0,1:13:15.61,1:13:20.51,Default,Default,0000,0000,0000,,{\blur3}"汉兵已略地"{\r}
+Dialogue: 0,1:13:25.67,1:13:31.94,Default,Default,0000,0000,0000,,{\blur3}"四面楚歌声"{\r}
+Dialogue: 0,1:13:38.41,1:13:45.14,Default,Default,0000,0000,0000,,{\blur3}"君王意气尽"{\r}
+Dialogue: 0,1:13:49.37,1:13:57.30,Default,Default,0000,0000,0000,,{\blur3}"贱妾何聊生？"{\r}
+Dialogue: 0,1:14:05.37,1:14:06.36,Default,Default,0000,0000,0000,,{\blur3}别动{\r}
+Dialogue: 0,1:14:07.44,1:14:08.91,Default,Default,0000,0000,0000,,{\blur3}这是真家伙{\r}
+Dialogue: 0,1:14:29.24,1:14:33.47,Default,Default,0000,0000,0000,,{\blur3}一笑万古春{\r}
+Dialogue: 0,1:14:35.97,1:14:40.74,Default,Default,0000,0000,0000,,{\blur3}一啼万古愁{\r}
+Dialogue: 0,1:14:42.27,1:14:46.23,Default,Default,0000,0000,0000,,{\blur3}此境非你莫属{\r}
+Dialogue: 0,1:14:48.01,1:14:50.13,Default,Default,0000,0000,0000,,{\blur3}此貌…{\r}
+Dialogue: 0,1:14:51.81,1:14:54.43,Default,Default,0000,0000,0000,,{\blur3}非你莫有{\r}
+Dialogue: 0,1:15:37.17,1:15:40.83,Default,Default,0000,0000,0000,,{\blur3}程老板 准知道你就得回来{\r}
+Dialogue: 0,1:15:41.04,1:15:44.34,Default,Default,0000,0000,0000,,{\blur3}这上座都给你留着哪{\r}
+Dialogue: 0,1:15:56.67,1:15:57.97,Default,Default,0000,0000,0000,,{\blur3}好你个蝶衣{\r}
+Dialogue: 0,1:15:59.07,1:16:03.30,Default,Default,0000,0000,0000,,{\blur3}这面子你总算给师哥了 要不然…{\r}
+Dialogue: 0,1:16:04.27,1:16:05.57,Default,Default,0000,0000,0000,,{\blur3}你认认{\r}
+Dialogue: 0,1:16:11.21,1:16:12.47,Default,Default,0000,0000,0000,,{\blur3}好剑{\r}
+Dialogue: 0,1:16:17.24,1:16:21.40,Default,Default,0000,0000,0000,,{\blur3}又不上台 要剑干什么？{\r}
+Dialogue: 0,1:16:34.44,1:16:37.70,Default,Default,0000,0000,0000,,{\blur3}师弟呀 今儿个你可来晚了{\r}
+Dialogue: 0,1:16:37.94,1:16:41.47,Default,Default,0000,0000,0000,,{\blur3}- 该罚你一杯 - 对 得罚一杯{\r}
+Dialogue: 0,1:16:51.47,1:16:53.44,Default,Default,0000,0000,0000,,{\blur3}多谢菊仙小姐{\r}
+Dialogue: 0,1:17:00.14,1:17:06.73,Default,Default,0000,0000,0000,,{\blur3}小楼 从今往后 你唱你的 我唱我的{\r}
+Dialogue: 0,1:17:07.01,1:17:09.84,Default,Default,0000,0000,0000,,{\blur3}别呀 程老板 这可不能够{\r}
+Dialogue: 0,1:17:10.07,1:17:11.94,Default,Default,0000,0000,0000,,{\blur3}这不是…戏迷们还不得…{\r}
+Dialogue: 0,1:17:12.44,1:17:15.06,Default,Default,0000,0000,0000,,{\blur3}了不得了 了不得了{\r}
+Dialogue: 0,1:17:16.47,1:17:19.74,Default,Default,0000,0000,0000,,{\blur3}日本…日本进城 进城了{\r}
+Dialogue: 0,1:17:42.37,1:17:44.84,Default,Default,0000,0000,0000,,{\blur3}蝶衣 蝶衣呢？{\r}
+Dialogue: 0,1:17:49.62,1:17:54.06,Default,Default,0000,0000,0000,,{\blur3}"启娘娘 高力士敬酒"{\r}
+Dialogue: 0,1:17:58.69,1:18:05.18,Default,Default,0000,0000,0000,,{\blur3}"高力士 你敬的是什么酒？"{\r}
+Dialogue: 0,1:18:07.56,1:18:11.61,Default,Default,0000,0000,0000,,{\blur3}"奴婢敬的乃是通宵酒"{\r}
+Dialogue: 0,1:18:16.46,1:18:21.22,Default,Default,0000,0000,0000,,{\blur3}"呀呀啐 哪个与你们通宵？"{\r}
+Dialogue: 0,1:18:22.92,1:18:27.69,Default,Default,0000,0000,0000,,{\blur3}师弟说 这眉子得勾得立着点才有味{\r}
+Dialogue: 0,1:18:29.96,1:18:37.01,Default,Default,0000,0000,0000,,{\blur3}"人生在世如春梦"{\r}
+Dialogue: 0,1:18:44.09,1:18:46.82,Default,Default,0000,0000,0000,,{\blur3}"您且自开怀吧 "{\r}
+Dialogue: 0,1:18:47.76,1:18:57.88,Default,Default,0000,0000,0000,,{\blur3}"且自开怀饮几盅"{\r}
+Dialogue: 0,1:19:46.16,1:19:49.05,Default,Default,0000,0000,0000,,{\blur3}段老板 你看这个{\r}
+Dialogue: 0,1:19:58.52,1:20:01.75,Default,Default,0000,0000,0000,,{\blur3}唉 这不成 你得让他给我脱下来{\r}
+Dialogue: 0,1:20:27.46,1:20:29.18,Default,Default,0000,0000,0000,,{\blur3}这才是你的戏衣{\r}
+Dialogue: 0,1:20:29.59,1:20:32.05,Default,Default,0000,0000,0000,,{\blur3}他就是要你姥姥身上的寿衣{\r}
+Dialogue: 0,1:20:32.32,1:20:34.48,Default,Default,0000,0000,0000,,{\blur3}你也得乖乖地给扒下来{\r}
+Dialogue: 0,1:20:34.92,1:20:37.48,Default,Default,0000,0000,0000,,{\blur3}听明白了吗 戏子？{\r}
+Dialogue: 0,1:21:13.01,1:21:15.10,Default,Default,0000,0000,0000,,{\blur3}跟日本人说 我马上就去{\r}
+Dialogue: 0,1:21:16.17,1:21:17.93,Default,Default,0000,0000,0000,,{\blur3}哎 慢着{\r}
+Dialogue: 0,1:21:19.31,1:21:22.09,Default,Default,0000,0000,0000,,{\blur3}这哪儿是什么堂会呀{\r}
+Dialogue: 0,1:21:22.09,1:21:25.03,Default,Default,0000,0000,0000,,{\blur3}就是讹您去给他们唱一回{\r}
+Dialogue: 0,1:21:27.24,1:21:28.54,Default,Default,0000,0000,0000,,{\blur3}您说这不去吧{\r}
+Dialogue: 0,1:21:28.97,1:21:31.77,Default,Default,0000,0000,0000,,{\blur3}眼下能救小楼的 除了您没旁人了{\r}
+Dialogue: 0,1:21:32.14,1:21:33.79,Default,Default,0000,0000,0000,,{\blur3}您要是去吧{\r}
+Dialogue: 0,1:21:33.79,1:21:36.90,Default,Default,0000,0000,0000,,{\blur3}万一您自个儿再出点什么差池{\r}
+Dialogue: 0,1:21:37.97,1:21:39.94,Default,Default,0000,0000,0000,,{\blur3}我这戏园子{\r}
+Dialogue: 0,1:21:41.47,1:21:43.80,Default,Default,0000,0000,0000,,{\blur3}得… 好 去…{\r}
+Dialogue: 0,1:21:44.11,1:21:46.66,Default,Default,0000,0000,0000,,{\blur3}菊仙小姐 你干嘛？{\r}
+Dialogue: 0,1:21:46.84,1:21:48.43,Default,Default,0000,0000,0000,,{\blur3}小姐 程老板不在家{\r}
+Dialogue: 0,1:21:49.94,1:21:51.06,Default,Default,0000,0000,0000,,{\blur3}蝶衣呢？蝶衣{\r}
+Dialogue: 0,1:21:51.31,1:21:52.81,Default,Default,0000,0000,0000,,{\blur3}你赶紧着呀{\r}
+Dialogue: 0,1:21:52.81,1:21:55.64,Default,Default,0000,0000,0000,,{\blur3}都说日本人会放狼狗掏人心吃{\r}
+Dialogue: 0,1:21:56.11,1:21:57.55,Default,Default,0000,0000,0000,,{\blur3}他又是那个脾气{\r}
+Dialogue: 0,1:21:57.55,1:21:59.44,Default,Default,0000,0000,0000,,{\blur3}你要去晚了 他可就没命啦{\r}
+Dialogue: 0,1:22:01.44,1:22:02.60,Default,Default,0000,0000,0000,,{\blur3}师弟{\r}
+Dialogue: 0,1:22:15.44,1:22:19.80,Default,Default,0000,0000,0000,,{\blur3}我师哥可是在您的手上让人逮走的{\r}
+Dialogue: 0,1:22:20.44,1:22:22.32,Default,Default,0000,0000,0000,,{\blur3}你这是什么话嘛？{\r}
+Dialogue: 0,1:22:22.32,1:22:24.50,Default,Default,0000,0000,0000,,{\blur3}小楼打小是怎么待你的？{\r}
+Dialogue: 0,1:22:29.87,1:22:30.86,Default,Default,0000,0000,0000,,{\blur3}您知道就好了{\r}
+Dialogue: 0,1:22:48.41,1:22:49.77,Default,Default,0000,0000,0000,,{\blur3}那爷{\r}
+Dialogue: 0,1:22:50.34,1:22:52.33,Default,Default,0000,0000,0000,,{\blur3}请您先退一步{\r}
+Dialogue: 0,1:22:52.61,1:22:55.54,Default,Default,0000,0000,0000,,{\blur3}我跟我师弟有几句私房话要说{\r}
+Dialogue: 0,1:22:56.97,1:22:59.13,Default,Default,0000,0000,0000,,{\blur3}都说菊仙姑娘聪明{\r}
+Dialogue: 0,1:22:59.57,1:23:01.80,Default,Default,0000,0000,0000,,{\blur3}不然不能这时候来{\r}
+Dialogue: 0,1:23:02.01,1:23:05.27,Default,Default,0000,0000,0000,,{\blur3}都是为小楼 有话好商量{\r}
+Dialogue: 0,1:23:09.51,1:23:13.87,Default,Default,0000,0000,0000,,{\blur3}干脆明说了吧 您倒是去还是不去？{\r}
+Dialogue: 0,1:23:33.37,1:23:34.43,Default,Default,0000,0000,0000,,{\blur3}说话呀你{\r}
+Dialogue: 0,1:23:43.84,1:23:46.00,Default,Default,0000,0000,0000,,{\blur3}我明白你的心思{\r}
+Dialogue: 0,1:23:47.61,1:23:49.16,Default,Default,0000,0000,0000,,{\blur3}要不这么着吧{\r}
+Dialogue: 0,1:23:50.34,1:23:53.24,Default,Default,0000,0000,0000,,{\blur3}你只要囫囵个地把小楼给弄出来{\r}
+Dialogue: 0,1:23:53.67,1:23:56.83,Default,Default,0000,0000,0000,,{\blur3}我哪来哪去 回我的花满楼{\r}
+Dialogue: 0,1:23:57.64,1:24:01.33,Default,Default,0000,0000,0000,,{\blur3}躲你俩远远的 成了吧？{\r}
+Dialogue: 0,1:24:05.54,1:24:07.72,Default,Default,0000,0000,0000,,{\blur3}要说在花满楼{\r}
+Dialogue: 0,1:24:07.72,1:24:10.84,Default,Default,0000,0000,0000,,{\blur3}还真是个不操闲心的地方{\r}
+Dialogue: 0,1:24:13.47,1:24:15.70,Default,Default,0000,0000,0000,,{\blur3}日子过得轻省多了{\r}
+Dialogue: 0,1:24:22.01,1:24:25.37,Default,Default,0000,0000,0000,,{\blur3}这可是您自个儿说的{\r}
+Dialogue: 0,1:24:26.24,1:24:27.64,Default,Default,0000,0000,0000,,{\blur3}一言为定{\r}
+Dialogue: 0,1:24:28.22,1:24:47.88,Default,Default,0000,0000,0000,,{\blur3}"原来姹紫嫣红开遍"{\r}
+Dialogue: 0,1:24:53.19,1:25:17.31,Default,Default,0000,0000,0000,,{\blur3}"似这般都付于断井颓垣 "{\r}
+Dialogue: 0,1:25:19.46,1:25:32.88,Default,Default,0000,0000,0000,,{\blur3}"良辰美景奈何天"{\r}
+Dialogue: 0,1:25:34.06,1:25:49.92,Default,Default,0000,0000,0000,,{\blur3}"便赏心乐事谁家院？"{\r}
+Dialogue: 0,1:26:06.09,1:26:13.12,Default,Default,0000,0000,0000,,{\blur3}- 小楼 - 师哥{\r}
+Dialogue: 0,1:26:13.49,1:26:14.95,Default,Default,0000,0000,0000,,{\blur3}小楼 你没事吧？{\r}
+Dialogue: 0,1:26:14.95,1:26:16.46,Default,Default,0000,0000,0000,,{\blur3}你给日本人唱了吗？{\r}
+Dialogue: 0,1:26:16.69,1:26:20.05,Default,Default,0000,0000,0000,,{\blur3}有个叫青木的 他是懂戏的{\r}
+Dialogue: 0,1:28:08.14,1:28:10.40,Default,Default,0000,0000,0000,,{\blur3}好了 来吧{\r}
+Dialogue: 0,1:28:11.31,1:28:13.27,Default,Default,0000,0000,0000,,{\blur3}我再喝一杯{\r}
+Dialogue: 0,1:28:13.71,1:28:16.23,Default,Default,0000,0000,0000,,{\blur3}我替你喝{\r}
+Dialogue: 0,1:28:24.27,1:28:25.33,Default,Default,0000,0000,0000,,{\blur3}来{\r}
+Dialogue: 0,1:29:02.47,1:29:05.20,Default,Default,0000,0000,0000,,{\blur3}这就是"霸王别姬"{\r}
+Dialogue: 0,1:29:07.44,1:29:09.14,Default,Default,0000,0000,0000,,{\blur3}依我之见{\r}
+Dialogue: 0,1:29:09.14,1:29:11.75,Default,Default,0000,0000,0000,,{\blur3}你们这戏演到这份儿上{\r}
+Dialogue: 0,1:29:11.75,1:29:13.93,Default,Default,0000,0000,0000,,{\blur3}竟成了姬别霸王{\r}
+Dialogue: 0,1:29:14.81,1:29:17.10,Default,Default,0000,0000,0000,,{\blur3}没霸王什么看头了{\r}
+Dialogue: 0,1:29:34.67,1:29:39.26,Default,Default,0000,0000,0000,,{\blur3}喝了它 您定能纤音入云{\r}
+Dialogue: 0,1:29:39.67,1:29:42.83,Default,Default,0000,0000,0000,,{\blur3}柔情胜水{\r}
+Dialogue: 0,1:29:47.64,1:29:49.33,Default,Default,0000,0000,0000,,{\blur3}别动{\r}
+Dialogue: 0,1:30:29.97,1:30:31.77,Default,Default,0000,0000,0000,,{\blur3}不唱戏了{\r}
+Dialogue: 0,1:30:33.34,1:30:37.46,Default,Default,0000,0000,0000,,{\blur3}往后啊 我太太平平地跟你过日子{\r}
+Dialogue: 0,1:30:39.17,1:30:41.73,Default,Default,0000,0000,0000,,{\blur3}再生个大胖小子{\r}
+Dialogue: 0,1:30:42.14,1:30:46.20,Default,Default,0000,0000,0000,,{\blur3}我一下得俩 够了{\r}
+Dialogue: 0,1:30:48.27,1:30:50.10,Default,Default,0000,0000,0000,,{\blur3}不唱戏了{\r}
+Dialogue: 0,1:31:23.11,1:31:24.33,Default,Default,0000,0000,0000,,{\blur3}走{\r}
+Dialogue: 0,1:31:24.81,1:31:26.94,Default,Default,0000,0000,0000,,{\blur3}赶紧走 弄一个破虫子{\r}
+Dialogue: 0,1:31:27.31,1:31:28.70,Default,Default,0000,0000,0000,,{\blur3}- 大哥 回见 - 行了 行了{\r}
+Dialogue: 0,1:31:31.31,1:31:32.57,Default,Default,0000,0000,0000,,{\blur3}拿出来{\r}
+Dialogue: 0,1:31:33.51,1:31:35.37,Default,Default,0000,0000,0000,,{\blur3}谁要你这破蛐蛐{\r}
+Dialogue: 0,1:31:35.61,1:31:37.76,Default,Default,0000,0000,0000,,{\blur3}你借他的钱呢？{\r}
+Dialogue: 0,1:31:38.01,1:31:40.66,Default,Default,0000,0000,0000,,{\blur3}你别看他今个儿高兴 想讹他{\r}
+Dialogue: 0,1:31:40.94,1:31:43.20,Default,Default,0000,0000,0000,,{\blur3}把钱拿出来 赶紧着{\r}
+Dialogue: 0,1:31:45.81,1:31:48.20,Default,Default,0000,0000,0000,,{\blur3}玩蛐蛐 大爷乐意{\r}
+Dialogue: 0,1:31:49.07,1:31:50.44,Default,Default,0000,0000,0000,,{\blur3}赶紧走吧{\r}
+Dialogue: 0,1:31:54.34,1:31:57.00,Default,Default,0000,0000,0000,,{\blur3}站起来都是七尺高的老爷们儿{\r}
+Dialogue: 0,1:31:57.31,1:31:58.96,Default,Default,0000,0000,0000,,{\blur3}放着正经营生不做{\r}
+Dialogue: 0,1:31:58.96,1:32:01.60,Default,Default,0000,0000,0000,,{\blur3}就会在一个小虫子身上找饭折 德行{\r}
+Dialogue: 0,1:32:03.87,1:32:05.43,Default,Default,0000,0000,0000,,{\blur3}正经营生？{\r}
+Dialogue: 0,1:32:05.87,1:32:07.90,Default,Default,0000,0000,0000,,{\blur3}我姓段的就会唱戏{\r}
+Dialogue: 0,1:32:08.14,1:32:09.84,Default,Default,0000,0000,0000,,{\blur3}戏你不让我唱了{\r}
+Dialogue: 0,1:32:09.84,1:32:11.90,Default,Default,0000,0000,0000,,{\blur3}不玩蛐蛐 我干嘛去啊？{\r}
+Dialogue: 0,1:32:12.37,1:32:15.20,Default,Default,0000,0000,0000,,{\blur3}我抬棺材掏大粪去？{\r}
+Dialogue: 0,1:32:18.94,1:32:21.50,Default,Default,0000,0000,0000,,{\blur3}得 这下你乐了吧？{\r}
+Dialogue: 0,1:32:23.54,1:32:26.97,Default,Default,0000,0000,0000,,{\blur3}瞧你 真生气啦？{\r}
+Dialogue: 0,1:32:28.37,1:32:29.50,Default,Default,0000,0000,0000,,{\blur3}拿着{\r}
+Dialogue: 0,1:32:30.91,1:32:31.96,Default,Default,0000,0000,0000,,{\blur3}你还没完啦？{\r}
+Dialogue: 0,1:32:34.97,1:32:37.27,Default,Default,0000,0000,0000,,{\blur3}得 算我话说重了 成了吧？{\r}
+Dialogue: 0,1:32:38.41,1:32:40.13,Default,Default,0000,0000,0000,,{\blur3}你要不这么着啊{\r}
+Dialogue: 0,1:32:40.13,1:32:43.17,Default,Default,0000,0000,0000,,{\blur3}他们就像那狗尿苔似的 长咱们家了{\r}
+Dialogue: 0,1:32:46.14,1:32:49.11,Default,Default,0000,0000,0000,,{\blur3}哎 科班那个关老爷子说让你去呢{\r}
+Dialogue: 0,1:32:49.37,1:32:51.74,Default,Default,0000,0000,0000,,{\blur3}不去 没脸见师傅{\r}
+Dialogue: 0,1:32:58.11,1:33:01.70,Default,Default,0000,0000,0000,,{\blur3}"看那剑 "{\r}
+Dialogue: 0,1:33:11.07,1:33:13.37,Default,Default,0000,0000,0000,,{\blur3}老爷子 他们都到了{\r}
+Dialogue: 0,1:33:15.31,1:33:17.27,Default,Default,0000,0000,0000,,{\blur3}- 谁呀？- 蝶衣 小楼{\r}
+Dialogue: 0,1:33:17.77,1:33:21.40,Default,Default,0000,0000,0000,,{\blur3}您一叫 他们立马就来看您来啦{\r}
+Dialogue: 0,1:33:22.54,1:33:25.13,Default,Default,0000,0000,0000,,{\blur3}哎哟 这可了不得啦{\r}
+Dialogue: 0,1:33:25.54,1:33:29.33,Default,Default,0000,0000,0000,,{\blur3}- 是两位角儿来啦 - 徒弟该死{\r}
+Dialogue: 0,1:33:29.74,1:33:33.97,Default,Default,0000,0000,0000,,{\blur3}哎哟 我这面子天大了去啦{\r}
+Dialogue: 0,1:33:34.21,1:33:36.17,Default,Default,0000,0000,0000,,{\blur3}我这怎么当得起？{\r}
+Dialogue: 0,1:33:36.41,1:33:40.50,Default,Default,0000,0000,0000,,{\blur3}请坐 请坐 受老朽一拜{\r}
+Dialogue: 0,1:33:40.84,1:33:43.53,Default,Default,0000,0000,0000,,{\blur3}徒弟不敢{\r}
+Dialogue: 0,1:33:46.04,1:33:50.10,Default,Default,0000,0000,0000,,{\blur3}不敢？而今什么你们不敢？{\r}
+Dialogue: 0,1:33:53.21,1:34:01.37,Default,Default,0000,0000,0000,,{\blur3}程蝶衣 当初是你师哥把你成全出来了的{\r}
+Dialogue: 0,1:34:03.04,1:34:06.80,Default,Default,0000,0000,0000,,{\blur3}现在你师哥不唱戏了{\r}
+Dialogue: 0,1:34:08.64,1:34:12.07,Default,Default,0000,0000,0000,,{\blur3}你也该拉他一把吧{\r}
+Dialogue: 0,1:34:16.91,1:34:18.37,Default,Default,0000,0000,0000,,{\blur3}快着点啊{\r}
+Dialogue: 0,1:34:27.37,1:34:29.24,Default,Default,0000,0000,0000,,{\blur3}给我动手啊{\r}
+Dialogue: 0,1:34:41.77,1:34:43.10,Default,Default,0000,0000,0000,,{\blur3}小豆子{\r}
+Dialogue: 0,1:34:44.41,1:34:46.00,Default,Default,0000,0000,0000,,{\blur3}小石头{\r}
+Dialogue: 0,1:34:48.27,1:34:51.76,Default,Default,0000,0000,0000,,{\blur3}你们俩起小这点故事{\r}
+Dialogue: 0,1:34:52.44,1:34:54.90,Default,Default,0000,0000,0000,,{\blur3}话说来长啦{\r}
+Dialogue: 0,1:34:58.34,1:35:01.74,Default,Default,0000,0000,0000,,{\blur3}怎么了？现在成角儿了{\r}
+Dialogue: 0,1:35:02.01,1:35:04.23,Default,Default,0000,0000,0000,,{\blur3}谱大了{\r}
+Dialogue: 0,1:35:05.84,1:35:07.96,Default,Default,0000,0000,0000,,{\blur3}就什么都忘了？{\r}
+Dialogue: 0,1:35:08.21,1:35:13.23,Default,Default,0000,0000,0000,,{\blur3}到了这时候就不忍心啦？{\r}
+Dialogue: 0,1:35:19.14,1:35:23.00,Default,Default,0000,0000,0000,,{\blur3}我叫你纵着他 我叫你护着他{\r}
+Dialogue: 0,1:35:24.11,1:35:26.90,Default,Default,0000,0000,0000,,{\blur3}我叫你看着他 糟蹋戏{\r}
+Dialogue: 0,1:35:28.17,1:35:32.20,Default,Default,0000,0000,0000,,{\blur3}我叫你看着他 糟蹋戏{\r}
+Dialogue: 0,1:35:32.24,1:35:34.17,Default,Default,0000,0000,0000,,{\blur3}师傅{\r}
+Dialogue: 0,1:35:35.51,1:35:37.94,Default,Default,0000,0000,0000,,{\blur3}是我没出息{\r}
+Dialogue: 0,1:35:38.14,1:35:39.66,Default,Default,0000,0000,0000,,{\blur3}您打我{\r}
+Dialogue: 0,1:35:40.61,1:35:41.83,Default,Default,0000,0000,0000,,{\blur3}老爷子…{\r}
+Dialogue: 0,1:35:42.61,1:35:44.63,Default,Default,0000,0000,0000,,{\blur3}您猜怎么着？{\r}
+Dialogue: 0,1:35:44.81,1:35:47.53,Default,Default,0000,0000,0000,,{\blur3}现而今小楼可是我的人了{\r}
+Dialogue: 0,1:35:47.74,1:35:48.91,Default,Default,0000,0000,0000,,{\blur3}您打他也成{\r}
+Dialogue: 0,1:35:48.91,1:35:50.50,Default,Default,0000,0000,0000,,{\blur3}您得先告诉我一声啊{\r}
+Dialogue: 0,1:35:50.71,1:35:51.73,Default,Default,0000,0000,0000,,{\blur3}菊仙{\r}
+Dialogue: 0,1:35:53.11,1:35:56.94,Default,Default,0000,0000,0000,,{\blur3}您是花满楼那位姑娘不是？{\r}
+Dialogue: 0,1:35:57.17,1:36:01.33,Default,Default,0000,0000,0000,,{\blur3}您今儿个可是第一位贵客{\r}
+Dialogue: 0,1:36:01.61,1:36:07.63,Default,Default,0000,0000,0000,,{\blur3}您可得坐好 喝好 看好了再去{\r}
+Dialogue: 0,1:36:10.14,1:36:12.23,Default,Default,0000,0000,0000,,{\blur3}您请{\r}
+Dialogue: 0,1:36:18.54,1:36:21.13,Default,Default,0000,0000,0000,,{\blur3}- 我叫你吃喝嫖赌 - 打得好{\r}
+Dialogue: 0,1:36:21.71,1:36:24.00,Default,Default,0000,0000,0000,,{\blur3}- 我叫你玩蛐蛐 - 打得好{\r}
+Dialogue: 0,1:36:24.87,1:36:27.00,Default,Default,0000,0000,0000,,{\blur3}- 我叫你当行头 - 师傅保重{\r}
+Dialogue: 0,1:36:28.17,1:36:29.97,Default,Default,0000,0000,0000,,{\blur3}我叫你糟蹋戏{\r}
+Dialogue: 0,1:36:31.37,1:36:33.36,Default,Default,0000,0000,0000,,{\blur3}打得好…{\r}
+Dialogue: 0,1:36:35.84,1:36:37.53,Default,Default,0000,0000,0000,,{\blur3}慢着{\r}
+Dialogue: 0,1:36:38.51,1:36:42.87,Default,Default,0000,0000,0000,,{\blur3}这当师哥的糟蹋戏 您活该打他{\r}
+Dialogue: 0,1:36:43.91,1:36:46.30,Default,Default,0000,0000,0000,,{\blur3}可这当师弟的这个{\r}
+Dialogue: 0,1:36:47.00,1:36:49.97,Default,Default,0000,0000,0000,,{\blur3}请问您这算什么？{\r}
+Dialogue: 0,1:36:50.14,1:36:51.40,Default,Default,0000,0000,0000,,{\blur3}菊仙{\r}
+Dialogue: 0,1:36:54.21,1:36:56.01,Default,Default,0000,0000,0000,,{\blur3}我既是花满楼的{\r}
+Dialogue: 0,1:36:56.01,1:36:58.70,Default,Default,0000,0000,0000,,{\blur3}自然不归你们喜福成科班的管{\r}
+Dialogue: 0,1:37:00.24,1:37:02.04,Default,Default,0000,0000,0000,,{\blur3}可是您这当师傅的{\r}
+Dialogue: 0,1:37:02.04,1:37:04.30,Default,Default,0000,0000,0000,,{\blur3}也不能只听一面之词不是？{\r}
+Dialogue: 0,1:37:04.44,1:37:05.73,Default,Default,0000,0000,0000,,{\blur3}闭嘴{\r}
+Dialogue: 0,1:37:05.94,1:37:08.06,Default,Default,0000,0000,0000,,{\blur3}老爷们的事 没你说话的份儿{\r}
+Dialogue: 0,1:37:22.17,1:37:26.13,Default,Default,0000,0000,0000,,{\blur3}段小楼 你可真知道疼人呀{\r}
+Dialogue: 0,1:37:28.00,1:37:31.94,Default,Default,0000,0000,0000,,{\blur3}- 再打呀 - 你再胡说 我他妈打死你{\r}
+Dialogue: 0,1:37:32.51,1:37:33.94,Default,Default,0000,0000,0000,,{\blur3}- 别介 - 别拦住我{\r}
+Dialogue: 0,1:37:35.61,1:37:41.16,Default,Default,0000,0000,0000,,{\blur3}好啊 今儿个你打死我 算你赚了一个{\r}
+Dialogue: 0,1:37:43.54,1:37:45.37,Default,Default,0000,0000,0000,,{\blur3}让你老段家断子绝孙去吧{\r}
+Dialogue: 0,1:37:50.94,1:37:53.77,Default,Default,0000,0000,0000,,{\blur3}谁让你们俩站起来的？{\r}
+Dialogue: 0,1:37:56.00,1:37:59.65,Default,Default,0000,0000,0000,,{\blur3}小石头 听见了没有啊？{\r}
+Dialogue: 0,1:37:59.65,1:38:02.84,Default,Default,0000,0000,0000,,{\blur3}你也是个快当爹的人了{\r}
+Dialogue: 0,1:38:03.97,1:38:06.34,Default,Default,0000,0000,0000,,{\blur3}这么瞎混下去 丢了玩艺儿{\r}
+Dialogue: 0,1:38:06.77,1:38:10.97,Default,Default,0000,0000,0000,,{\blur3}以后你拿什么请我喝满月酒？{\r}
+Dialogue: 0,1:38:12.51,1:38:14.23,Default,Default,0000,0000,0000,,{\blur3}跪近点{\r}
+Dialogue: 0,1:38:16.81,1:38:18.50,Default,Default,0000,0000,0000,,{\blur3}再靠紧着点儿{\r}
+Dialogue: 0,1:38:28.81,1:38:30.46,Default,Default,0000,0000,0000,,{\blur3}好好练{\r}
+Dialogue: 0,1:38:32.47,1:38:33.73,Default,Default,0000,0000,0000,,{\blur3}都拿稳{\r}
+Dialogue: 0,1:38:34.64,1:38:37.30,Default,Default,0000,0000,0000,,{\blur3}腿伸直了 给我绷直了{\r}
+Dialogue: 0,1:38:50.17,1:38:51.23,Default,Default,0000,0000,0000,,{\blur3}慢着 慢着{\r}
+Dialogue: 0,1:38:54.07,1:38:56.23,Default,Default,0000,0000,0000,,{\blur3}你练的这是"夜奔"{\r}
+Dialogue: 0,1:38:57.00,1:39:00.30,Default,Default,0000,0000,0000,,{\blur3}扮的是林冲 林冲是什么人呐？{\r}
+Dialogue: 0,1:39:00.64,1:39:05.47,Default,Default,0000,0000,0000,,{\blur3}那是八十万禁军教头 不是小毛贼{\r}
+Dialogue: 0,1:39:05.74,1:39:06.71,Default,Default,0000,0000,0000,,{\blur3}拿着{\r}
+Dialogue: 0,1:39:07.64,1:39:08.73,Default,Default,0000,0000,0000,,{\blur3}都瞧我的{\r}
+Dialogue: 0,1:39:09.87,1:39:13.20,Default,Default,0000,0000,0000,,{\blur3}看看什么是盖世英雄{\r}
+Dialogue: 0,1:39:17.27,1:39:23.33,Default,Default,0000,0000,0000,,{\blur3}"丈夫有泪不轻弹"{\r}
+Dialogue: 0,1:39:25.47,1:39:38.43,Default,Default,0000,0000,0000,,{\blur3}"只因未到伤心处"{\r}
+Dialogue: 0,1:40:51.87,1:40:54.51,Default,Default,0000,0000,0000,,{\blur3}别动 师傅罚我七天都跪{\r}
+Dialogue: 0,1:40:54.51,1:40:55.53,Default,Default,0000,0000,0000,,{\blur3}还没到日子呢{\r}
+Dialogue: 0,1:40:55.87,1:40:59.07,Default,Default,0000,0000,0000,,{\blur3}科班都散了 你还傻跪什么呀？{\r}
+Dialogue: 0,1:40:59.34,1:41:01.51,Default,Default,0000,0000,0000,,{\blur3}师傅说了 要想成角儿{\r}
+Dialogue: 0,1:41:01.51,1:41:02.40,Default,Default,0000,0000,0000,,{\blur3}就得自个儿成全自个儿{\r}
+Dialogue: 0,1:41:03.54,1:41:07.56,Default,Default,0000,0000,0000,,{\blur3}旁人都走了 你也回家去吧{\r}
+Dialogue: 0,1:41:07.80,1:41:09.40,Default,Default,0000,0000,0000,,{\blur3}我打小被捡回来的 没家{\r}
+Dialogue: 0,1:41:13.61,1:41:16.16,Default,Default,0000,0000,0000,,{\blur3}- 没告诉谁捡的你？- 没告诉{\r}
+Dialogue: 0,1:41:16.44,1:41:20.50,Default,Default,0000,0000,0000,,{\blur3}说怕我知道了是谁 犯狂 不用功{\r}
+Dialogue: 0,1:41:21.11,1:41:22.63,Default,Default,0000,0000,0000,,{\blur3} 还想唱戏吗？{\r}
+Dialogue: 0,1:41:22.63,1:41:24.66,Default,Default,0000,0000,0000,,{\blur3}唱 要饭也唱 也要成角儿{\r}
+Dialogue: 0,1:41:30.07,1:41:31.56,Default,Default,0000,0000,0000,,{\blur3}你叫什么？{\r}
+Dialogue: 0,1:41:33.61,1:41:34.80,Default,Default,0000,0000,0000,,{\blur3}小四{\r}
+Dialogue: 0,1:41:39.44,1:41:40.40,Default,Default,0000,0000,0000,,{\blur3}小四{\r}
+Dialogue: 0,1:41:41.41,1:41:46.03,Default,Default,0000,0000,0000,,{\blur3}一九四五年 日本投降{\r}
+Dialogue: 0,1:42:39.67,1:42:48.00,Default,Default,0000,0000,0000,,{\blur3}"只听得众兵丁们议论"{\r}
+Dialogue: 0,1:42:49.11,1:42:51.27,Default,Default,0000,0000,0000,,{\blur3}四儿 你下去跟经理说{\r}
+Dialogue: 0,1:42:51.27,1:42:52.41,Default,Default,0000,0000,0000,,{\blur3}别闹出事来{\r}
+Dialogue: 0,1:42:52.41,1:43:01.79,Default,Default,0000,0000,0000,,{\blur3}"口声声露出了离散之心"{\r}
+Dialogue: 0,1:43:04.84,1:43:08.03,Default,Default,0000,0000,0000,,{\blur3}嘿 怎么不唱了？{\r}
+Dialogue: 0,1:43:09.60,1:43:11.54,Default,Default,0000,0000,0000,,{\blur3}别乱…{\r}
+Dialogue: 0,1:43:19.80,1:43:21.93,Default,Default,0000,0000,0000,,{\blur3}小楼 去不得啊 去不得…{\r}
+Dialogue: 0,1:43:43.27,1:43:45.63,Default,Default,0000,0000,0000,,{\blur3}各位老总{\r}
+Dialogue: 0,1:43:48.00,1:43:52.56,Default,Default,0000,0000,0000,,{\blur3}这戏园子里头 没有用手电筒晃人的规矩{\r}
+Dialogue: 0,1:43:53.00,1:43:55.80,Default,Default,0000,0000,0000,,{\blur3}连日本人也没这么闹过{\r}
+Dialogue: 0,1:43:56.14,1:43:57.36,Default,Default,0000,0000,0000,,{\blur3}大伙儿都是来听戏的{\r}
+Dialogue: 0,1:43:58.27,1:44:00.29,Default,Default,0000,0000,0000,,{\blur3}请回座上去吧{\r}
+Dialogue: 0,1:44:04.24,1:44:07.47,Default,Default,0000,0000,0000,,{\blur3}说得好 回去{\r}
+Dialogue: 0,1:44:10.80,1:44:14.57,Default,Default,0000,0000,0000,,{\blur3}可是有一样 替日本人叫好成不成？{\r}
+Dialogue: 0,1:44:14.80,1:44:17.70,Default,Default,0000,0000,0000,,{\blur3}- 不成 - 打{\r}
+Dialogue: 0,1:44:19.87,1:44:21.30,Default,Default,0000,0000,0000,,{\blur3}我操你大爷{\r}
+Dialogue: 0,1:44:27.21,1:44:28.53,Default,Default,0000,0000,0000,,{\blur3}小楼{\r}
+Dialogue: 0,1:44:51.24,1:44:53.17,Default,Default,0000,0000,0000,,{\blur3}你放开他 放开他{\r}
+Dialogue: 0,1:45:05.97,1:45:08.56,Default,Default,0000,0000,0000,,{\blur3}菊仙{\r}
+Dialogue: 0,1:45:09.64,1:45:11.70,Default,Default,0000,0000,0000,,{\blur3}快 快{\r}
+Dialogue: 0,1:45:12.21,1:45:13.86,Default,Default,0000,0000,0000,,{\blur3}我在这儿 菊仙{\r}
+Dialogue: 0,1:45:19.57,1:45:21.54,Default,Default,0000,0000,0000,,{\blur3}您瞧 段太太…{\r}
+Dialogue: 0,1:45:21.77,1:45:24.29,Default,Default,0000,0000,0000,,{\blur3}赶紧送医院 先保住大人再说 赶紧着{\r}
+Dialogue: 0,1:45:33.97,1:45:37.33,Default,Default,0000,0000,0000,,{\blur3}哟 不就是公共治安这么点事吗？{\r}
+Dialogue: 0,1:45:37.74,1:45:41.30,Default,Default,0000,0000,0000,,{\blur3}还至于劳动诸位 弄出这么大的动静？{\r}
+Dialogue: 0,1:45:42.27,1:45:44.29,Default,Default,0000,0000,0000,,{\blur3}罚款…{\r}
+Dialogue: 0,1:46:02.00,1:46:03.90,Default,Default,0000,0000,0000,,{\blur3}还要抓人啊？{\r}
+Dialogue: 0,1:46:04.04,1:46:06.15,Default,Default,0000,0000,0000,,{\blur3}这戏院子也砸了 人也快打死了{\r}
+Dialogue: 0,1:46:06.15,1:46:07.13,Default,Default,0000,0000,0000,,{\blur3}还要抓人呀？{\r}
+Dialogue: 0,1:46:16.54,1:46:17.50,Default,Default,0000,0000,0000,,{\blur3}你们凭什么抓人？{\r}
+Dialogue: 0,1:46:20.21,1:46:21.67,Default,Default,0000,0000,0000,,{\blur3}凭什么？{\r}
+Dialogue: 0,1:46:23.17,1:46:27.00,Default,Default,0000,0000,0000,,{\blur3}程蝶衣犯的是汉奸罪{\r}
+Dialogue: 0,1:46:28.47,1:46:29.94,Default,Default,0000,0000,0000,,{\blur3}走{\r}
+Dialogue: 0,1:46:30.31,1:46:32.27,Default,Default,0000,0000,0000,,{\blur3}你们凭什么说他是汉奸？{\r}
+Dialogue: 0,1:46:33.54,1:46:35.09,Default,Default,0000,0000,0000,,{\blur3}师傅…{\r}
+Dialogue: 0,1:46:37.24,1:46:38.30,Default,Default,0000,0000,0000,,{\blur3}段老板{\r}
+Dialogue: 0,1:46:39.60,1:46:43.66,Default,Default,0000,0000,0000,,{\blur3}段老板 孩子怕是保不住了{\r}
+Dialogue: 0,1:46:53.21,1:46:57.36,Default,Default,0000,0000,0000,,{\blur3}小楼 我真对不住你…{\r}
+Dialogue: 0,1:47:00.44,1:47:01.56,Default,Default,0000,0000,0000,,{\blur3}你忙你的去吧{\r}
+Dialogue: 0,1:47:25.21,1:47:27.03,Default,Default,0000,0000,0000,,{\blur3}你这个师弟呀{\r}
+Dialogue: 0,1:47:27.03,1:47:30.26,Default,Default,0000,0000,0000,,{\blur3}也不知道这世道跟他找别扭呢…{\r}
+Dialogue: 0,1:47:31.07,1:47:33.83,Default,Default,0000,0000,0000,,{\blur3}还是他跟这个世道找别扭{\r}
+Dialogue: 0,1:47:34.14,1:47:37.73,Default,Default,0000,0000,0000,,{\blur3}总是轻省不了 早晚还得出乱子{\r}
+Dialogue: 0,1:47:38.44,1:47:41.09,Default,Default,0000,0000,0000,,{\blur3}只要你跟他在一起{\r}
+Dialogue: 0,1:47:41.09,1:47:43.17,Default,Default,0000,0000,0000,,{\blur3}我这心就不踏实{\r}
+Dialogue: 0,1:47:48.14,1:47:50.16,Default,Default,0000,0000,0000,,{\blur3}咱们的孩子没了{\r}
+Dialogue: 0,1:47:52.27,1:47:54.63,Default,Default,0000,0000,0000,,{\blur3}我可就剩下你一人了{\r}
+Dialogue: 0,1:47:54.97,1:47:58.56,Default,Default,0000,0000,0000,,{\blur3}往后跟你一起去要饭 我都没二话{\r}
+Dialogue: 0,1:47:59.57,1:48:01.26,Default,Default,0000,0000,0000,,{\blur3}可就有一样…{\r}
+Dialogue: 0,1:48:00.80,1:48:07.90,Default,Default,0000,0000,0000,,{\blur3}小楼 你得让我这心里太太平平呀{\r}
+Dialogue: 0,1:48:13.44,1:48:16.77,Default,Default,0000,0000,0000,,{\blur3}你把他救出来了 咱们可就不欠他的了{\r}
+Dialogue: 0,1:48:16.94,1:48:19.67,Default,Default,0000,0000,0000,,{\blur3}往后你别跟他唱了{\r}
+Dialogue: 0,1:48:21.44,1:48:23.70,Default,Default,0000,0000,0000,,{\blur3}你答应我{\r}
+Dialogue: 0,1:48:24.04,1:48:26.24,Default,Default,0000,0000,0000,,{\blur3}你得给我立字据 啊？{\r}
+Dialogue: 0,1:48:54.26,1:48:55.74,Default,Default,0000,0000,0000,,{\blur3}四爷…{\r}
+Dialogue: 0,1:48:56.75,1:49:01.38,Default,Default,0000,0000,0000,,{\blur3}蝶衣这条性命 可就全仰仗您啦{\r}
+Dialogue: 0,1:49:02.49,1:49:04.77,Default,Default,0000,0000,0000,,{\blur3}这点 您先打点着{\r}
+Dialogue: 0,1:49:04.77,1:49:07.89,Default,Default,0000,0000,0000,,{\blur3}但凡不够 咱们回头再…是吧{\r}
+Dialogue: 0,1:49:09.92,1:49:13.68,Default,Default,0000,0000,0000,,{\blur3}袁四爷 您只要救出蝶衣…{\r}
+Dialogue: 0,1:49:13.92,1:49:16.75,Default,Default,0000,0000,0000,,{\blur3}我们哥俩三年的包银全归了您{\r}
+Dialogue: 0,1:49:18.25,1:49:19.85,Default,Default,0000,0000,0000,,{\blur3}没你们的包银{\r}
+Dialogue: 0,1:49:19.85,1:49:22.52,Default,Default,0000,0000,0000,,{\blur3}你当我就喂不起这几只鸟啦？{\r}
+Dialogue: 0,1:49:26.65,1:49:28.35,Default,Default,0000,0000,0000,,{\blur3}这位是？{\r}
+Dialogue: 0,1:49:30.39,1:49:31.41,Default,Default,0000,0000,0000,,{\blur3}这不是小楼吗？{\r}
+Dialogue: 0,1:49:34.92,1:49:38.61,Default,Default,0000,0000,0000,,{\blur3}给蝶衣唱霸王的段小楼啊{\r}
+Dialogue: 0,1:49:40.72,1:49:43.05,Default,Default,0000,0000,0000,,{\blur3}那该他救虞姬去呀{\r}
+Dialogue: 0,1:49:44.16,1:49:46.92,Default,Default,0000,0000,0000,,{\blur3}哎哟 我的亲老爷子 那不是戏吗？{\r}
+Dialogue: 0,1:49:47.52,1:49:50.68,Default,Default,0000,0000,0000,,{\blur3}可这全北平 谁不知道袁四爷{\r}
+Dialogue: 0,1:49:50.68,1:49:52.55,Default,Default,0000,0000,0000,,{\blur3}才是梨园行的真霸王啊？{\r}
+Dialogue: 0,1:49:54.72,1:49:56.28,Default,Default,0000,0000,0000,,{\blur3}是 是 是{\r}
+Dialogue: 0,1:49:56.72,1:50:00.55,Default,Default,0000,0000,0000,,{\blur3}这说到戏 我倒要请教段老板{\r}
+Dialogue: 0,1:50:01.42,1:50:06.05,Default,Default,0000,0000,0000,,{\blur3}这霸王回营亮过相去见这虞姬{\r}
+Dialogue: 0,1:50:06.05,1:50:08.82,Default,Default,0000,0000,0000,,{\blur3}到底该走几步啊？{\r}
+Dialogue: 0,1:50:12.55,1:50:13.92,Default,Default,0000,0000,0000,,{\blur3}七步{\r}
+Dialogue: 0,1:50:14.35,1:50:16.05,Default,Default,0000,0000,0000,,{\blur3}走我瞧瞧{\r}
+Dialogue: 0,1:50:19.85,1:50:21.88,Default,Default,0000,0000,0000,,{\blur3}走我瞧瞧呀{\r}
+Dialogue: 0,1:50:22.92,1:50:24.55,Default,Default,0000,0000,0000,,{\blur3}四爷{\r}
+Dialogue: 0,1:50:32.85,1:50:36.15,Default,Default,0000,0000,0000,,{\blur3}这是袁四爷的府上吧？{\r}
+Dialogue: 0,1:50:39.09,1:50:41.15,Default,Default,0000,0000,0000,,{\blur3}有位叫程蝶衣的{\r}
+Dialogue: 0,1:50:41.39,1:50:43.46,Default,Default,0000,0000,0000,,{\blur3}让人逮走的时候{\r}
+Dialogue: 0,1:50:43.46,1:50:46.18,Default,Default,0000,0000,0000,,{\blur3}说是 这把剑的主人能救他{\r}
+Dialogue: 0,1:50:48.35,1:50:51.41,Default,Default,0000,0000,0000,,{\blur3}您瞅瞅 认得吗？{\r}
+Dialogue: 0,1:51:05.45,1:51:09.48,Default,Default,0000,0000,0000,,{\blur3}瞧您这意思 我是找对主儿了{\r}
+Dialogue: 0,1:51:11.29,1:51:16.01,Default,Default,0000,0000,0000,,{\blur3}那成 这剑呐 我可给您搁这啦{\r}
+Dialogue: 0,1:51:16.99,1:51:21.15,Default,Default,0000,0000,0000,,{\blur3}这剑找着主儿 我也就放心了{\r}
+Dialogue: 0,1:51:26.69,1:51:30.38,Default,Default,0000,0000,0000,,{\blur3}可这人哪 也总有指望错的时候{\r}
+Dialogue: 0,1:51:31.06,1:51:35.38,Default,Default,0000,0000,0000,,{\blur3}袁四爷 您可别怪罪蝶衣{\r}
+Dialogue: 0,1:51:39.75,1:51:41.62,Default,Default,0000,0000,0000,,{\blur3}哎 弄明白了{\r}
+Dialogue: 0,1:51:43.65,1:51:46.12,Default,Default,0000,0000,0000,,{\blur3}他给日本人唱堂会{\r}
+Dialogue: 0,1:51:46.12,1:51:49.21,Default,Default,0000,0000,0000,,{\blur3}怕不是袁…袁某的指使吧？{\r}
+Dialogue: 0,1:51:51.45,1:51:53.98,Default,Default,0000,0000,0000,,{\blur3}要是您袁四爷让他去的{\r}
+Dialogue: 0,1:51:53.98,1:51:56.25,Default,Default,0000,0000,0000,,{\blur3}他能让人给逮起来吗？{\r}
+Dialogue: 0,1:51:57.55,1:51:59.21,Default,Default,0000,0000,0000,,{\blur3}那是{\r}
+Dialogue: 0,1:52:04.89,1:52:07.12,Default,Default,0000,0000,0000,,{\blur3}一屋子的记者都在家里等着呢{\r}
+Dialogue: 0,1:52:07.52,1:52:09.88,Default,Default,0000,0000,0000,,{\blur3}小楼 那爷 咱们走{\r}
+Dialogue: 0,1:52:10.12,1:52:11.81,Default,Default,0000,0000,0000,,{\blur3}慢着 话说清楚了{\r}
+Dialogue: 0,1:52:21.25,1:52:24.58,Default,Default,0000,0000,0000,,{\blur3}袁四爷让我来关照你{\r}
+Dialogue: 0,1:52:25.79,1:52:27.75,Default,Default,0000,0000,0000,,{\blur3}赶明个儿上了法庭…{\r}
+Dialogue: 0,1:52:28.15,1:52:31.98,Default,Default,0000,0000,0000,,{\blur3}你得说日本人拿枪逼着你去唱的堂会{\r}
+Dialogue: 0,1:52:32.42,1:52:34.55,Default,Default,0000,0000,0000,,{\blur3}在兵营里头给你动了刑{\r}
+Dialogue: 0,1:52:35.59,1:52:38.75,Default,Default,0000,0000,0000,,{\blur3}旁的 袁四爷都替你安排妥当了{\r}
+Dialogue: 0,1:52:48.72,1:52:51.15,Default,Default,0000,0000,0000,,{\blur3}这是小楼让我交给你的{\r}
+Dialogue: 0,1:53:01.19,1:53:03.18,Default,Default,0000,0000,0000,,{\blur3}蝶衣 你别怨我们{\r}
+Dialogue: 0,1:53:03.62,1:53:11.92,Default,Default,0000,0000,0000,,{\blur3}小楼的孩子 死了{\r}
+Dialogue: 0,1:53:16.19,1:53:19.65,Default,Default,0000,0000,0000,,{\blur3}这就是你们在一块儿唱戏的报应{\r}
+Dialogue: 0,1:53:28.79,1:53:34.05,Default,Default,0000,0000,0000,,{\blur3}出去以后 你走你的阳关道去吧{\r}
+Dialogue: 0,1:53:40.15,1:53:42.34,Default,Default,0000,0000,0000,,{\blur3}查伶人程蝶衣{\r}
+Dialogue: 0,1:53:42.34,1:53:45.98,Default,Default,0000,0000,0000,,{\blur3}在我中华民国对日抗战时期…{\r}
+Dialogue: 0,1:53:46.02,1:53:51.25,Default,Default,0000,0000,0000,,{\blur3}竟与日寇驻平警备旅团之敌 酋青木三郎…{\r}
+Dialogue: 0,1:53:51.65,1:53:55.14,Default,Default,0000,0000,0000,,{\blur3}互通款曲 狼狈为奸{\r}
+Dialogue: 0,1:53:55.47,1:54:00.34,Default,Default,0000,0000,0000,,{\blur3}以淫词艳曲为日寇作堂会演出{\r}
+Dialogue: 0,1:54:00.57,1:54:04.00,Default,Default,0000,0000,0000,,{\blur3}长敌之气焰 灭我之尊严{\r}
+Dialogue: 0,1:54:06.17,1:54:08.95,Default,Default,0000,0000,0000,,{\blur3}敌酋青木三郎在日军投降后{\r}
+Dialogue: 0,1:54:08.95,1:54:10.54,Default,Default,0000,0000,0000,,{\blur3}仍有反抗举动…{\r}
+Dialogue: 0,1:54:10.74,1:54:12.62,Default,Default,0000,0000,0000,,{\blur3}已被我军击毙{\r}
+Dialogue: 0,1:54:12.62,1:54:15.53,Default,Default,0000,0000,0000,,{\blur3}其与被告往来之罪证相片…{\r}
+Dialogue: 0,1:54:15.77,1:54:21.06,Default,Default,0000,0000,0000,,{\blur3}已落入我方 现出示法庭 铁证如山{\r}
+Dialogue: 0,1:54:23.34,1:54:31.16,Default,Default,0000,0000,0000,,{\blur3}传证人袁世卿 段小楼 那坤出庭{\r}
+Dialogue: 0,1:54:38.84,1:54:41.17,Default,Default,0000,0000,0000,,{\blur3}世卿世受国恩{\r}
+Dialogue: 0,1:54:41.70,1:54:43.86,Default,Default,0000,0000,0000,,{\blur3}岂敢昧法？{\r}
+Dialogue: 0,1:54:44.00,1:54:47.80,Default,Default,0000,0000,0000,,{\blur3}更不敢当众违背天理良心{\r}
+Dialogue: 0,1:54:49.70,1:54:54.53,Default,Default,0000,0000,0000,,{\blur3}程蝶衣确实是被日本人用手铐铐走的{\r}
+Dialogue: 0,1:54:55.50,1:55:01.40,Default,Default,0000,0000,0000,,{\blur3}还用手枪顶其项背威胁 就是后脖梗子{\r}
+Dialogue: 0,1:55:04.14,1:55:05.63,Default,Default,0000,0000,0000,,{\blur3}- 段小楼 - 是…{\r}
+Dialogue: 0,1:55:05.64,1:55:11.13,Default,Default,0000,0000,0000,,{\blur3}日本人他是打了我师弟{\r}
+Dialogue: 0,1:55:11.44,1:55:13.34,Default,Default,0000,0000,0000,,{\blur3}这四爷全说了{\r}
+Dialogue: 0,1:55:13.54,1:55:15.20,Default,Default,0000,0000,0000,,{\blur3}那坤{\r}
+Dialogue: 0,1:55:17.70,1:55:18.67,Default,Default,0000,0000,0000,,{\blur3}他…{\r}
+Dialogue: 0,1:55:22.17,1:55:26.93,Default,Default,0000,0000,0000,,{\blur3}方才检查官声言 程之所唱为淫词艳曲{\r}
+Dialogue: 0,1:55:31.50,1:55:33.20,Default,Default,0000,0000,0000,,{\blur3}实为大谬{\r}
+Dialogue: 0,1:55:41.07,1:55:46.70,Default,Default,0000,0000,0000,,{\blur3}程当晚所唱是昆曲《牡丹亭》“游园”一折{\r}
+Dialogue: 0,1:55:47.57,1:55:50.09,Default,Default,0000,0000,0000,,{\blur3}略有国学常识者都明白…{\r}
+Dialogue: 0,1:55:50.17,1:55:55.23,Default,Default,0000,0000,0000,,{\blur3}此折乃国剧文化中之最精粹{\r}
+Dialogue: 0,1:55:55.64,1:55:58.49,Default,Default,0000,0000,0000,,{\blur3}何以在检查官先生口中{\r}
+Dialogue: 0,1:55:58.49,1:56:01.04,Default,Default,0000,0000,0000,,{\blur3}竟成了淫词艳曲了呢？{\r}
+Dialogue: 0,1:56:04.87,1:56:08.13,Default,Default,0000,0000,0000,,{\blur3}如此糟践戏剧国粹{\r}
+Dialogue: 0,1:56:08.67,1:56:13.93,Default,Default,0000,0000,0000,,{\blur3}到底是谁…专门辱我民族精神{\r}
+Dialogue: 0,1:56:16.44,1:56:18.90,Default,Default,0000,0000,0000,,{\blur3}灭我国家尊严？{\r}
+Dialogue: 0,1:56:19.14,1:56:20.10,Default,Default,0000,0000,0000,,{\blur3}好{\r}
+Dialogue: 0,1:56:25.80,1:56:28.36,Default,Default,0000,0000,0000,,{\blur3}被告人程蝶衣{\r}
+Dialogue: 0,1:56:29.34,1:56:32.30,Default,Default,0000,0000,0000,,{\blur3}证人所述属实吗？{\r}
+Dialogue: 0,1:56:39.70,1:56:41.44,Default,Default,0000,0000,0000,,{\blur3}被告人{\r}
+Dialogue: 0,1:56:41.44,1:56:47.07,Default,Default,0000,0000,0000,,{\blur3}本庭要求你对日本军部事件作自我陈述{\r}
+Dialogue: 0,1:56:52.74,1:56:54.80,Default,Default,0000,0000,0000,,{\blur3}程蝶衣{\r}
+Dialogue: 0,1:56:58.77,1:57:01.29,Default,Default,0000,0000,0000,,{\blur3}堂会我去了…{\r}
+Dialogue: 0,1:57:03.30,1:57:05.24,Default,Default,0000,0000,0000,,{\blur3}我也恨日本人{\r}
+Dialogue: 0,1:57:08.17,1:57:12.54,Default,Default,0000,0000,0000,,{\blur3}可是他们没有打我{\r}
+Dialogue: 0,1:57:17.14,1:57:18.93,Default,Default,0000,0000,0000,,{\blur3}被告人程蝶衣…{\r}
+Dialogue: 0,1:57:20.34,1:57:22.53,Default,Default,0000,0000,0000,,{\blur3}你有义务和权利{\r}
+Dialogue: 0,1:57:22.67,1:57:26.63,Default,Default,0000,0000,0000,,{\blur3}用事实来证明你清白的人格{\r}
+Dialogue: 0,1:57:28.44,1:57:34.73,Default,Default,0000,0000,0000,,{\blur3}你再仔细的回忆一下 再做一次陈述{\r}
+Dialogue: 0,1:57:37.87,1:57:44.46,Default,Default,0000,0000,0000,,{\blur3}青木要是活着 京戏就传到日本国去了{\r}
+Dialogue: 0,1:57:50.04,1:57:51.44,Default,Default,0000,0000,0000,,{\blur3}你们杀了我吧{\r}
+Dialogue: 0,1:57:55.77,1:57:57.43,Default,Default,0000,0000,0000,,{\blur3}四爷 四爷{\r}
+Dialogue: 0,1:58:05.04,1:58:07.03,Default,Default,0000,0000,0000,,{\blur3}哎 你们怎么进来了？{\r}
+Dialogue: 0,1:58:15.50,1:58:18.56,Default,Default,0000,0000,0000,,{\blur3}四爷您不能走啊{\r}
+Dialogue: 0,1:58:18.80,1:58:21.60,Default,Default,0000,0000,0000,,{\blur3}我走不走 他都死定了{\r}
+Dialogue: 0,1:58:22.84,1:58:27.00,Default,Default,0000,0000,0000,,{\blur3}四爷 您不能走 您走他就完了{\r}
+Dialogue: 0,1:58:27.24,1:58:29.26,Default,Default,0000,0000,0000,,{\blur3}本庭宣布{\r}
+Dialogue: 0,1:58:30.97,1:58:35.93,Default,Default,0000,0000,0000,,{\blur3}程蝶衣汉奸一案暂停审理…{\r}
+Dialogue: 0,1:58:36.17,1:58:41.33,Default,Default,0000,0000,0000,,{\blur3}被告程蝶衣交保具结 予以释放{\r}
+Dialogue: 0,1:58:43.34,1:58:45.39,Default,Default,0000,0000,0000,,{\blur3}休庭{\r}
+Dialogue: 0,1:58:48.64,1:58:50.19,Default,Default,0000,0000,0000,,{\blur3}这怎么回事？这怎么回事？{\r}
+Dialogue: 0,1:58:54.00,1:58:58.13,Default,Default,0000,0000,0000,,{\blur3}程蝶衣 你他妈耍我呀你？{\r}
+Dialogue: 0,1:59:07.80,1:59:12.29,Default,Default,0000,0000,0000,,{\blur3}程老板 回头见{\r}
+Dialogue: 0,1:59:18.27,1:59:19.60,Default,Default,0000,0000,0000,,{\blur3}程先生 请{\r}
+Dialogue: 0,1:59:46.80,1:59:48.96,Default,Default,0000,0000,0000,,{\blur3}司令官到{\r}
+Dialogue: 0,1:59:52.17,1:59:53.57,Default,Default,0000,0000,0000,,{\blur3}立正{\r}
+Dialogue: 0,2:00:16.64,2:00:18.50,Default,Default,0000,0000,0000,,{\blur3}"春香"{\r}
+Dialogue: 0,2:00:18.97,2:00:21.23,Default,Default,0000,0000,0000,,{\blur3}"小姐"{\r}
+Dialogue: 0,2:00:22.30,2:00:25.50,Default,Default,0000,0000,0000,,{\blur3}"不到园里怎知春色如许 "{\r}
+Dialogue: 0,2:00:25.50,2:00:33.56,Default,Default,0000,0000,0000,,{\blur3}"不到园里怎知春色如许 "{\r}
+Dialogue: 0,2:00:36.92,2:00:41.08,Default,Default,0000,0000,0000,,{\blur3}娘 上信收到了吧？{\r}
+Dialogue: 0,2:00:41.29,2:00:44.22,Default,Default,0000,0000,0000,,{\blur3}儿在这儿一切都好{\r}
+Dialogue: 0,2:00:45.55,2:00:47.65,Default,Default,0000,0000,0000,,{\blur3}您不用挂念{\r}
+Dialogue: 0,2:00:47.85,2:00:49.82,Default,Default,0000,0000,0000,,{\blur3}我师哥小楼{\r}
+Dialogue: 0,2:00:50.22,2:00:53.41,Default,Default,0000,0000,0000,,{\blur3}对我处处照应体帖{\r}
+Dialogue: 0,2:00:53.72,2:00:56.28,Default,Default,0000,0000,0000,,{\blur3}我们白天练功喊嗓{\r}
+Dialogue: 0,2:00:57.12,2:00:59.92,Default,Default,0000,0000,0000,,{\blur3}晚上同台演戏{\r}
+Dialogue: 0,2:01:00.15,2:01:02.09,Default,Default,0000,0000,0000,,{\blur3}跟过去往常一模一样{\r}
+Dialogue: 0,2:01:03.82,2:01:06.38,Default,Default,0000,0000,0000,,{\blur3}外面世道虽不大好{\r}
+Dialogue: 0,2:01:07.22,2:01:09.78,Default,Default,0000,0000,0000,,{\blur3}不过我们只求平安{\r}
+Dialogue: 0,2:01:10.09,2:01:16.04,Default,Default,0000,0000,0000,,{\blur3}把戏唱完拿回包银 太太平平就是了{\r}
+Dialogue: 0,2:01:17.29,2:01:20.98,Default,Default,0000,0000,0000,,{\blur3}嘿 这来福就等着您喷它两口香呐{\r}
+Dialogue: 0,2:01:21.12,2:01:23.78,Default,Default,0000,0000,0000,,{\blur3}瞧见没有？欢实了不是？{\r}
+Dialogue: 0,2:01:24.02,2:01:27.95,Default,Default,0000,0000,0000,,{\blur3}蝶衣 这信是寄到？{\r}
+Dialogue: 0,2:01:28.12,2:01:29.59,Default,Default,0000,0000,0000,,{\blur3}- 老地方 - 哎 得啦{\r}
+Dialogue: 0,2:01:33.22,2:01:35.62,Default,Default,0000,0000,0000,,{\blur3}这林黛玉要不焚稿{\r}
+Dialogue: 0,2:01:36.35,2:01:38.55,Default,Default,0000,0000,0000,,{\blur3}那叫什么林黛玉呀{\r}
+Dialogue: 0,2:01:41.59,2:01:45.68,Default,Default,0000,0000,0000,,{\blur3}你瞅着没 这玩艺儿我给您掏换来了{\r}
+Dialogue: 0,2:01:46.69,2:01:47.95,Default,Default,0000,0000,0000,,{\blur3}要不要？要不要？{\r}
+Dialogue: 0,2:01:49.89,2:01:53.22,Default,Default,0000,0000,0000,,{\blur3}不要 不要我可撕啦{\r}
+Dialogue: 0,2:01:56.92,2:01:59.11,Default,Default,0000,0000,0000,,{\blur3}撕了…{\r}
+Dialogue: 0,2:02:13.82,2:02:15.38,Default,Default,0000,0000,0000,,{\blur3}四儿{\r}
+Dialogue: 0,2:02:16.35,2:02:18.38,Default,Default,0000,0000,0000,,{\blur3}段师傅收下了{\r}
+Dialogue: 0,2:02:38.55,2:02:41.99,Default,Default,0000,0000,0000,,{\blur3}哎哟 这水流千遭 到了还得归海不是？{\r}
+Dialogue: 0,2:02:42.29,2:02:45.62,Default,Default,0000,0000,0000,,{\blur3}虞姬跟霸王说话 中间还得隔着条乌江啊？{\r}
+Dialogue: 0,2:02:46.09,2:02:50.08,Default,Default,0000,0000,0000,,{\blur3}赶紧着 不然 刘邦可就杀进城来了{\r}
+Dialogue: 0,2:03:03.55,2:03:08.88,Default,Default,0000,0000,0000,,{\blur3}一九四八年 国民政府离开大陆之前{\r}
+Dialogue: 0,2:03:13.09,2:03:16.18,Default,Default,0000,0000,0000,,{\blur3}我们旗人好歹还坐了三百年天下{\r}
+Dialogue: 0,2:03:16.42,2:03:19.01,Default,Default,0000,0000,0000,,{\blur3}这民国才几年呀{\r}
+Dialogue: 0,2:03:19.81,2:03:22.05,Default,Default,0000,0000,0000,,{\blur3}说话人家就兵临城下了{\r}
+Dialogue: 0,2:03:24.59,2:03:27.61,Default,Default,0000,0000,0000,,{\blur3}共产党来了 也得听戏不是？{\r}
+Dialogue: 0,2:03:27.89,2:03:30.55,Default,Default,0000,0000,0000,,{\blur3}新君临朝 江山易主{\r}
+Dialogue: 0,2:03:30.55,2:03:32.91,Default,Default,0000,0000,0000,,{\blur3}庆典能少得了您二位吗？{\r}
+Dialogue: 0,2:03:33.15,2:03:34.35,Default,Default,0000,0000,0000,,{\blur3}不能够{\r}
+Dialogue: 0,2:03:35.39,2:03:39.11,Default,Default,0000,0000,0000,,{\blur3}咱们就等着点新票子吧{\r}
+Dialogue: 0,2:03:39.55,2:03:42.45,Default,Default,0000,0000,0000,,{\blur3}怎么着？还敢打人家伤兵不敢呐？{\r}
+Dialogue: 0,2:03:43.39,2:03:46.98,Default,Default,0000,0000,0000,,{\blur3}他们别瞎闹哄 闹哄急了 照打{\r}
+Dialogue: 0,2:03:47.02,2:03:50.88,Default,Default,0000,0000,0000,,{\blur3}别呀 您要有袁四爷那谱那行{\r}
+Dialogue: 0,2:03:51.12,2:03:54.25,Default,Default,0000,0000,0000,,{\blur3}甭管哪朝哪代 人家永远是爷{\r}
+Dialogue: 0,2:03:54.69,2:03:56.95,Default,Default,0000,0000,0000,,{\blur3}咱们不行{\r}
+Dialogue: 0,2:04:13.95,2:04:15.94,Default,Default,0000,0000,0000,,{\blur3}还认得我吗？{\r}
+Dialogue: 0,2:04:16.22,2:04:18.05,Default,Default,0000,0000,0000,,{\blur3}抽一根{\r}
+Dialogue: 0,2:04:24.52,2:04:28.61,Default,Default,0000,0000,0000,,{\blur3}张公公 不认得我们了吗？{\r}
+Dialogue: 0,2:04:29.72,2:04:31.55,Default,Default,0000,0000,0000,,{\blur3}抽一盒{\r}
+Dialogue: 0,2:04:48.05,2:04:50.95,Default,Default,0000,0000,0000,,{\blur3}一九四九年 人民解放军进入北平{\r}
+Dialogue: 0,2:04:51.15,2:04:59.78,Default,Default,0000,0000,0000,,{\blur3}"大王慷慨悲歌 令人泪下…"{\r}
+Dialogue: 0,2:05:00.65,2:05:14.78,Default,Default,0000,0000,0000,,{\blur3}"待妾妃歌舞一回 聊以解忧如何？"{\r}
+Dialogue: 0,2:05:17.15,2:05:22.38,Default,Default,0000,0000,0000,,{\blur3}"有劳妃子"{\r}
+Dialogue: 0,2:05:23.82,2:05:34.08,Default,Default,0000,0000,0000,,{\blur3}"如此妾妃献…献丑 "{\r}
+Dialogue: 0,2:05:39.29,2:05:43.12,Default,Default,0000,0000,0000,,{\blur3}四儿…要什么给人家什么{\r}
+Dialogue: 0,2:05:43.12,2:05:45.19,Default,Default,0000,0000,0000,,{\blur3}可千万别动手{\r}
+Dialogue: 0,2:05:49.42,2:05:53.31,Default,Default,0000,0000,0000,,{\blur3}各位老总 实在是对不住{\r}
+Dialogue: 0,2:05:55.92,2:05:58.15,Default,Default,0000,0000,0000,,{\blur3}我们这位角儿 今儿个…{\r}
+Dialogue: 0,2:06:20.92,2:06:23.22,Default,Default,0000,0000,0000,,{\blur3}"向前…"{\r}
+Dialogue: 0,2:06:23.55,2:06:27.95,Default,Default,0000,0000,0000,,{\blur3}"我们的队伍向太阳"{\r}
+Dialogue: 0,2:06:28.29,2:06:32.28,Default,Default,0000,0000,0000,,{\blur3}"脚踏着祖国的大地"{\r}
+Dialogue: 0,2:06:32.25,2:06:36.15,Default,Default,0000,0000,0000,,{\blur3}"背负着民族的希望"{\r}
+Dialogue: 0,2:06:36.39,2:06:39.84,Default,Default,0000,0000,0000,,{\blur3}"我们是一支不可战胜的力量"{\r}
+Dialogue: 0,2:06:42.79,2:06:44.97,Default,Default,0000,0000,0000,,{\blur3}程老板 您要熬不住{\r}
+Dialogue: 0,2:06:44.97,2:06:46.82,Default,Default,0000,0000,0000,,{\blur3}您就再抽一口得了{\r}
+Dialogue: 0,2:06:47.49,2:06:49.92,Default,Default,0000,0000,0000,,{\blur3}四儿 快去叫段老板去{\r}
+Dialogue: 0,2:06:50.14,2:06:53.16,Default,Default,0000,0000,0000,,{\blur3}打倒反动戏霸袁世卿{\r}
+Dialogue: 0,2:06:55.44,2:06:58.96,Default,Default,0000,0000,0000,,{\blur3}袁世卿与人民为敌 死路一条{\r}
+Dialogue: 0,2:07:02.30,2:07:10.24,Default,Default,0000,0000,0000,,{\blur3}提高警惕 擦亮眼睛{\r}
+Dialogue: 0,2:07:11.14,2:07:15.97,Default,Default,0000,0000,0000,,{\blur3}综上所述 反革命份子袁世卿…{\r}
+Dialogue: 0,2:07:16.20,2:07:18.93,Default,Default,0000,0000,0000,,{\blur3}一贯反共反人民{\r}
+Dialogue: 0,2:07:19.20,2:07:22.70,Default,Default,0000,0000,0000,,{\blur3}危害一方 罪恶滔天{\r}
+Dialogue: 0,2:07:23.37,2:07:26.63,Default,Default,0000,0000,0000,,{\blur3}不杀不足以平民愤{\r}
+Dialogue: 0,2:07:28.67,2:07:31.30,Default,Default,0000,0000,0000,,{\blur3}打倒反革命份子袁世卿{\r}
+Dialogue: 0,2:07:34.44,2:07:37.60,Default,Default,0000,0000,0000,,{\blur3}打倒反动戏霸袁世卿{\r}
+Dialogue: 0,2:07:40.70,2:07:42.96,Default,Default,0000,0000,0000,,{\blur3}袁世卿死路一条{\r}
+Dialogue: 0,2:07:45.44,2:07:48.89,Default,Default,0000,0000,0000,,{\blur3}枪毙袁世卿{\r}
+Dialogue: 0,2:07:49.20,2:07:51.57,Default,Default,0000,0000,0000,,{\blur3}押下去{\r}
+Dialogue: 0,2:08:11.50,2:08:15.23,Default,Default,0000,0000,0000,,{\blur3}不杀不足以平民愤？{\r}
+Dialogue: 0,2:08:17.57,2:08:18.80,Default,Default,0000,0000,0000,,{\blur3}毙啦？{\r}
+Dialogue: 0,2:08:21.70,2:08:24.33,Default,Default,0000,0000,0000,,{\blur3}就这么把袁四爷毙啦？{\r}
+Dialogue: 0,2:08:24.57,2:08:25.56,Default,Default,0000,0000,0000,,{\blur3}你小声点{\r}
+Dialogue: 0,2:08:52.22,2:08:54.78,Default,Default,0000,0000,0000,,{\blur3}放开我 你放开我{\r}
+Dialogue: 0,2:08:55.09,2:08:56.64,Default,Default,0000,0000,0000,,{\blur3}我操你大爷{\r}
+Dialogue: 0,2:08:59.52,2:09:00.49,Default,Default,0000,0000,0000,,{\blur3}别闹{\r}
+Dialogue: 0,2:09:11.85,2:09:15.81,Default,Default,0000,0000,0000,,{\blur3}你听着 再忍忍就过去 听见没有？{\r}
+Dialogue: 0,2:09:16.09,2:09:18.91,Default,Default,0000,0000,0000,,{\blur3}好了 别闹了 再忍忍就过去了…{\r}
+Dialogue: 0,2:09:18.95,2:09:20.65,Default,Default,0000,0000,0000,,{\blur3}我操你大爷{\r}
+Dialogue: 0,2:09:25.92,2:09:27.68,Default,Default,0000,0000,0000,,{\blur3}别闹了 再闹我就打你了{\r}
+Dialogue: 0,2:09:52.89,2:09:55.22,Default,Default,0000,0000,0000,,{\blur3}- 怎么着？- 看样子得用点药{\r}
+Dialogue: 0,2:09:55.45,2:09:57.71,Default,Default,0000,0000,0000,,{\blur3}你看着点 别让他挣蹦出来{\r}
+Dialogue: 0,2:09:57.72,2:09:59.81,Default,Default,0000,0000,0000,,{\blur3}小楼 你可别走啊{\r}
+Dialogue: 0,2:09:59.82,2:10:03.05,Default,Default,0000,0000,0000,,{\blur3}不碍事 他要想把大烟戒了…{\r}
+Dialogue: 0,2:10:03.09,2:10:05.52,Default,Default,0000,0000,0000,,{\blur3}还得脱几层皮呢 这才是个头{\r}
+Dialogue: 0,2:10:44.55,2:10:45.71,Default,Default,0000,0000,0000,,{\blur3}我冷{\r}
+Dialogue: 0,2:10:51.52,2:10:53.04,Default,Default,0000,0000,0000,,{\blur3}娘{\r}
+Dialogue: 0,2:10:54.49,2:10:56.58,Default,Default,0000,0000,0000,,{\blur3}水都冻冰了{\r}
+Dialogue: 0,2:10:59.99,2:11:01.01,Default,Default,0000,0000,0000,,{\blur3}我冷{\r}
+Dialogue: 0,2:11:05.39,2:11:06.82,Default,Default,0000,0000,0000,,{\blur3}娘{\r}
+Dialogue: 0,2:11:08.25,2:11:10.51,Default,Default,0000,0000,0000,,{\blur3}水都冻冰了{\r}
+Dialogue: 0,2:11:13.62,2:11:14.78,Default,Default,0000,0000,0000,,{\blur3}我冷…{\r}
+Dialogue: 0,2:11:17.82,2:11:18.95,Default,Default,0000,0000,0000,,{\blur3}好了 好了{\r}
+Dialogue: 0,2:11:28.39,2:11:30.68,Default,Default,0000,0000,0000,,{\blur3}"解放区的天 是晴朗的天"{\r}
+Dialogue: 0,2:11:30.79,2:11:33.05,Default,Default,0000,0000,0000,,{\blur3}"解放区的人民好喜欢"{\r}
+Dialogue: 0,2:11:37.75,2:11:39.28,Default,Default,0000,0000,0000,,{\blur3}段师母{\r}
+Dialogue: 0,2:11:41.35,2:11:42.72,Default,Default,0000,0000,0000,,{\blur3}你到哪儿去了？{\r}
+Dialogue: 0,2:11:43.09,2:11:44.64,Default,Default,0000,0000,0000,,{\blur3}开会去了{\r}
+Dialogue: 0,2:11:44.89,2:11:46.65,Default,Default,0000,0000,0000,,{\blur3}开会去了？{\r}
+Dialogue: 0,2:11:54.17,2:11:55.93,Default,Default,0000,0000,0000,,{\blur3}小楼 师兄师弟们都来了{\r}
+Dialogue: 0,2:11:55.94,2:11:57.20,Default,Default,0000,0000,0000,,{\blur3}快 快请进来{\r}
+Dialogue: 0,2:12:02.50,2:12:04.40,Default,Default,0000,0000,0000,,{\blur3}哟 换行头了啊？{\r}
+Dialogue: 0,2:12:07.94,2:12:11.76,Default,Default,0000,0000,0000,,{\blur3}多谢大伙来看我 没事了 我好了{\r}
+Dialogue: 0,2:12:11.77,2:12:15.63,Default,Default,0000,0000,0000,,{\blur3}说得轻巧 没见遭罪的时候呢{\r}
+Dialogue: 0,2:12:16.04,2:12:17.37,Default,Default,0000,0000,0000,,{\blur3}蝶衣 起来吧{\r}
+Dialogue: 0,2:12:17.37,2:12:19.93,Default,Default,0000,0000,0000,,{\blur3}全北京的大街小巷都支愣着耳朵{\r}
+Dialogue: 0,2:12:20.17,2:12:23.33,Default,Default,0000,0000,0000,,{\blur3}等着霸王和虞姬出场呐{\r}
+Dialogue: 0,2:12:23.57,2:12:27.66,Default,Default,0000,0000,0000,,{\blur3}什么叫"盛代元音" 这他妈就是{\r}
+Dialogue: 0,2:12:34.89,2:12:36.99,Default,Default,0000,0000,0000,,{\blur3}大家让我说几句{\r}
+Dialogue: 0,2:12:36.99,2:12:39.32,Default,Default,0000,0000,0000,,{\blur3}那我就说几句 说不好{\r}
+Dialogue: 0,2:12:41.15,2:12:45.92,Default,Default,0000,0000,0000,,{\blur3}现代戏有意思{\r}
+Dialogue: 0,2:12:46.15,2:12:49.28,Default,Default,0000,0000,0000,,{\blur3}可现代戏的服装有点怪{\r}
+Dialogue: 0,2:12:49.59,2:12:53.95,Default,Default,0000,0000,0000,,{\blur3}没有行头好看 这布景也太实了{\r}
+Dialogue: 0,2:12:54.39,2:12:56.61,Default,Default,0000,0000,0000,,{\blur3}京剧讲究的是个情境{\r}
+Dialogue: 0,2:12:56.75,2:13:01.15,Default,Default,0000,0000,0000,,{\blur3}唱 念 做 打 都是在这个情境里面{\r}
+Dialogue: 0,2:13:03.09,2:13:05.81,Default,Default,0000,0000,0000,,{\blur3}穿这一身往布景跟前一站…{\r}
+Dialogue: 0,2:13:06.89,2:13:09.94,Default,Default,0000,0000,0000,,{\blur3}玩艺再好也不对头了{\r}
+Dialogue: 0,2:13:10.15,2:13:14.25,Default,Default,0000,0000,0000,,{\blur3}我就怕 这么一弄 就不是京戏了{\r}
+Dialogue: 0,2:13:14.95,2:13:16.21,Default,Default,0000,0000,0000,,{\blur3}你们说呢？{\r}
+Dialogue: 0,2:13:21.79,2:13:24.91,Default,Default,0000,0000,0000,,{\blur3}怎么现代戏就不是京戏了？{\r}
+Dialogue: 0,2:13:25.75,2:13:27.94,Default,Default,0000,0000,0000,,{\blur3}京戏是什么？就是八个字…{\r}
+Dialogue: 0,2:13:27.95,2:13:31.85,Default,Default,0000,0000,0000,,{\blur3}"无声不歌 无动不舞"{\r}
+Dialogue: 0,2:13:32.09,2:13:36.08,Default,Default,0000,0000,0000,,{\blur3}得好看 美 比方说…{\r}
+Dialogue: 0,2:13:36.45,2:13:39.54,Default,Default,0000,0000,0000,,{\blur3}师傅 我没听明白{\r}
+Dialogue: 0,2:13:42.32,2:13:45.98,Default,Default,0000,0000,0000,,{\blur3}等你流上三船五车的汗 就明白了{\r}
+Dialogue: 0,2:13:46.42,2:13:49.39,Default,Default,0000,0000,0000,,{\blur3}- 我还是不明白 - 四儿{\r}
+Dialogue: 0,2:13:49.79,2:13:51.08,Default,Default,0000,0000,0000,,{\blur3}我就是不明白…{\r}
+Dialogue: 0,2:13:51.59,2:13:54.92,Default,Default,0000,0000,0000,,{\blur3}为什么古时候的英雄美人上了台 就是京戏{\r}
+Dialogue: 0,2:13:55.09,2:13:58.42,Default,Default,0000,0000,0000,,{\blur3}现在劳动人民上了台 就不是京戏了？{\r}
+Dialogue: 0,2:13:59.32,2:14:00.98,Default,Default,0000,0000,0000,,{\blur3}你这…说的是两码事 放肆{\r}
+Dialogue: 0,2:14:01.22,2:14:03.51,Default,Default,0000,0000,0000,,{\blur3}你什么态度？{\r}
+Dialogue: 0,2:14:05.65,2:14:07.58,Default,Default,0000,0000,0000,,{\blur3}段师傅 您说说{\r}
+Dialogue: 0,2:14:08.42,2:14:09.65,Default,Default,0000,0000,0000,,{\blur3}小楼{\r}
+Dialogue: 0,2:14:17.45,2:14:20.01,Default,Default,0000,0000,0000,,{\blur3}外边要下雨了 给你伞{\r}
+Dialogue: 0,2:14:21.69,2:14:22.85,Default,Default,0000,0000,0000,,{\blur3}接着{\r}
+Dialogue: 0,2:14:31.05,2:14:34.68,Default,Default,0000,0000,0000,,{\blur3}得 知道了 家去吧{\r}
+Dialogue: 0,2:14:49.42,2:14:53.15,Default,Default,0000,0000,0000,,{\blur3}一提这论理的事儿 我头就大{\r}
+Dialogue: 0,2:14:54.12,2:14:55.77,Default,Default,0000,0000,0000,,{\blur3}依我看{\r}
+Dialogue: 0,2:14:55.77,2:15:00.34,Default,Default,0000,0000,0000,,{\blur3}只要是唱这西皮二黄 它就是京戏{\r}
+Dialogue: 0,2:15:01.59,2:15:02.92,Default,Default,0000,0000,0000,,{\blur3}是不是？{\r}
+Dialogue: 0,2:15:04.39,2:15:06.48,Default,Default,0000,0000,0000,,{\blur3}我发两句言{\r}
+Dialogue: 0,2:15:09.95,2:15:13.51,Default,Default,0000,0000,0000,,{\blur3}自打把这戏院交给咱国家{\r}
+Dialogue: 0,2:15:13.79,2:15:16.81,Default,Default,0000,0000,0000,,{\blur3}咱就都是新人了{\r}
+Dialogue: 0,2:15:17.15,2:15:20.09,Default,Default,0000,0000,0000,,{\blur3}程同志 这不对{\r}
+Dialogue: 0,2:15:22.02,2:15:24.84,Default,Default,0000,0000,0000,,{\blur3}这现代戏它是个新事{\r}
+Dialogue: 0,2:15:24.84,2:15:27.92,Default,Default,0000,0000,0000,,{\blur3}咱们应当拥护 应当支持啊{\r}
+Dialogue: 0,2:15:34.15,2:15:36.27,Default,Default,0000,0000,0000,,{\blur3}功也不练 嗓也不吊{\r}
+Dialogue: 0,2:15:36.27,2:15:38.28,Default,Default,0000,0000,0000,,{\blur3}耍皮顶嘴你倒学成了{\r}
+Dialogue: 0,2:15:38.69,2:15:40.65,Default,Default,0000,0000,0000,,{\blur3}唱戏的不靠这个{\r}
+Dialogue: 0,2:15:40.65,2:15:43.09,Default,Default,0000,0000,0000,,{\blur3}凭的是功夫 本事 玩艺儿{\r}
+Dialogue: 0,2:15:43.42,2:15:45.28,Default,Default,0000,0000,0000,,{\blur3}没你的近道儿可走{\r}
+Dialogue: 0,2:15:45.45,2:15:48.71,Default,Default,0000,0000,0000,,{\blur3}罚我跪 你犯法{\r}
+Dialogue: 0,2:15:48.85,2:15:52.01,Default,Default,0000,0000,0000,,{\blur3}不罚？不罚你永远是下三滥{\r}
+Dialogue: 0,2:15:52.35,2:15:54.55,Default,Default,0000,0000,0000,,{\blur3}还想成角儿？做梦{\r}
+Dialogue: 0,2:15:56.79,2:15:59.39,Default,Default,0000,0000,0000,,{\blur3}没错 你领我来{\r}
+Dialogue: 0,2:15:59.39,2:16:01.34,Default,Default,0000,0000,0000,,{\blur3}哪儿是想让我成角儿？{\r}
+Dialogue: 0,2:16:01.79,2:16:05.38,Default,Default,0000,0000,0000,,{\blur3}你是想找个小力笨儿 小催帮儿…{\r}
+Dialogue: 0,2:16:05.42,2:16:08.48,Default,Default,0000,0000,0000,,{\blur3}小跟包 小腿子 小龙套{\r}
+Dialogue: 0,2:16:08.52,2:16:10.49,Default,Default,0000,0000,0000,,{\blur3}你放肆 你大胆{\r}
+Dialogue: 0,2:16:10.49,2:16:13.28,Default,Default,0000,0000,0000,,{\blur3}我让你胡说八道 胡说八道{\r}
+Dialogue: 0,2:16:18.49,2:16:20.45,Default,Default,0000,0000,0000,,{\blur3}还不给我跪下{\r}
+Dialogue: 0,2:16:22.22,2:16:28.17,Default,Default,0000,0000,0000,,{\blur3}师傅 永没那日子啦{\r}
+Dialogue: 0,2:16:37.62,2:16:39.14,Default,Default,0000,0000,0000,,{\blur3}四儿{\r}
+Dialogue: 0,2:16:51.39,2:16:54.58,Default,Default,0000,0000,0000,,{\blur3}滚吧 一辈子跑你的龙套去吧{\r}
+Dialogue: 0,2:17:00.35,2:17:01.61,Default,Default,0000,0000,0000,,{\blur3}程老板…{\r}
+Dialogue: 0,2:17:02.62,2:17:08.58,Default,Default,0000,0000,0000,,{\blur3}您这话要搁在旧社会说 我信{\r}
+Dialogue: 0,2:17:09.92,2:17:14.78,Default,Default,0000,0000,0000,,{\blur3}在新社会说 我不信{\r}
+Dialogue: 0,2:17:16.12,2:17:21.14,Default,Default,0000,0000,0000,,{\blur3}我要是再跑龙套 对不起您的栽培{\r}
+Dialogue: 0,2:18:07.24,2:18:11.10,Default,Default,0000,0000,0000,,{\blur3}这么说 你知道？{\r}
+Dialogue: 0,2:18:13.57,2:18:16.30,Default,Default,0000,0000,0000,,{\blur3}这…我也是刚刚才知道…{\r}
+Dialogue: 0,2:18:16.34,2:18:19.36,Default,Default,0000,0000,0000,,{\blur3}不对吧 段师傅{\r}
+Dialogue: 0,2:18:19.57,2:18:23.37,Default,Default,0000,0000,0000,,{\blur3}昨儿开会您可是在场的啊{\r}
+Dialogue: 0,2:18:27.90,2:18:31.56,Default,Default,0000,0000,0000,,{\blur3}你说的你去通知蝶衣换角儿嘛 啊？{\r}
+Dialogue: 0,2:18:31.60,2:18:33.33,Default,Default,0000,0000,0000,,{\blur3}可后来我觉着{\r}
+Dialogue: 0,2:18:33.34,2:18:38.10,Default,Default,0000,0000,0000,,{\blur3}这话您说最合适 你同意了嘛{\r}
+Dialogue: 0,2:18:38.74,2:18:43.30,Default,Default,0000,0000,0000,,{\blur3}这话您都不说 还有谁能说呀？{\r}
+Dialogue: 0,2:18:46.80,2:18:48.60,Default,Default,0000,0000,0000,,{\blur3}舔了{\r}
+Dialogue: 0,2:18:50.54,2:18:52.87,Default,Default,0000,0000,0000,,{\blur3}师哥 您别…您别这样…{\r}
+Dialogue: 0,2:18:54.17,2:18:55.40,Default,Default,0000,0000,0000,,{\blur3}我他妈的不唱了{\r}
+Dialogue: 0,2:18:55.70,2:18:57.90,Default,Default,0000,0000,0000,,{\blur3}谁爱唱谁唱去{\r}
+Dialogue: 0,2:19:00.34,2:19:01.30,Default,Default,0000,0000,0000,,{\blur3}小楼 你不能走{\r}
+Dialogue: 0,2:19:08.20,2:19:10.63,Default,Default,0000,0000,0000,,{\blur3}段小楼同志…{\r}
+Dialogue: 0,2:19:15.94,2:19:19.66,Default,Default,0000,0000,0000,,{\blur3}而今台下坐的可都是劳动人民{\r}
+Dialogue: 0,2:19:19.94,2:19:25.06,Default,Default,0000,0000,0000,,{\blur3}唱不唱 您自个儿掂量着{\r}
+Dialogue: 0,2:19:39.90,2:19:42.10,Default,Default,0000,0000,0000,,{\blur3}小楼 虞姬都上了{\r}
+Dialogue: 0,2:19:42.14,2:19:44.16,Default,Default,0000,0000,0000,,{\blur3}你该盯场了{\r}
+Dialogue: 0,2:19:47.34,2:19:50.53,Default,Default,0000,0000,0000,,{\blur3}小楼…段老板{\r}
+Dialogue: 0,2:19:50.74,2:20:01.16,Default,Default,0000,0000,0000,,{\blur3}"自从我随大王东征西战"{\r}
+Dialogue: 0,2:20:11.57,2:20:25.10,Default,Default,0000,0000,0000,,{\blur3}"受风霜与劳碌年复年年"{\r}
+Dialogue: 0,2:20:29.27,2:20:45.93,Default,Default,0000,0000,0000,,{\blur3}"恨只恨无道秦把生灵涂炭"{\r}
+Dialogue: 0,2:21:06.77,2:21:20.34,Default,Default,0000,0000,0000,,{\blur3}"只害得众百姓痛苦颠连"{\r}
+Dialogue: 0,2:21:20.34,2:21:25.53,Default,Default,0000,0000,0000,,{\blur3}"大王回营啊 "{\r}
+Dialogue: 0,2:21:27.60,2:21:31.76,Default,Default,0000,0000,0000,,{\blur3}"来也 "{\r}
+Dialogue: 0,2:21:41.20,2:21:44.33,Default,Default,0000,0000,0000,,{\blur3}"大王 "{\r}
+Dialogue: 0,2:21:51.57,2:22:01.96,Default,Default,0000,0000,0000,,{\blur3}"此一番连累你 多受惊慌 "{\r}
+Dialogue: 0,2:22:02.40,2:22:04.37,Default,Default,0000,0000,0000,,{\blur3}多谢菊仙小姐{\r}
+Dialogue: 0,2:22:17.62,2:22:19.11,Default,Default,0000,0000,0000,,{\blur3}蝶衣{\r}
+Dialogue: 0,2:22:21.52,2:22:25.25,Default,Default,0000,0000,0000,,{\blur3}蝶衣 你开开门 蝶衣{\r}
+Dialogue: 0,2:22:29.79,2:22:33.72,Default,Default,0000,0000,0000,,{\blur3}师哥给你赔不是 还不成吗？{\r}
+Dialogue: 0,2:22:40.79,2:22:43.45,Default,Default,0000,0000,0000,,{\blur3}那条小蛇可是你把它捂活的…{\r}
+Dialogue: 0,2:22:44.45,2:22:46.51,Default,Default,0000,0000,0000,,{\blur3}而今人家已然修练成龙啦{\r}
+Dialogue: 0,2:22:46.92,2:22:48.58,Default,Default,0000,0000,0000,,{\blur3}不顺着他{\r}
+Dialogue: 0,2:22:50.49,2:22:52.75,Default,Default,0000,0000,0000,,{\blur3}不顺着他 能成吗？{\r}
+Dialogue: 0,2:22:54.45,2:22:58.32,Default,Default,0000,0000,0000,,{\blur3}戏总得唱吧？这可是你说的{\r}
+Dialogue: 0,2:22:58.55,2:23:00.32,Default,Default,0000,0000,0000,,{\blur3}你也不出来看看{\r}
+Dialogue: 0,2:23:00.32,2:23:02.78,Default,Default,0000,0000,0000,,{\blur3}这世上的戏都唱到哪一出了{\r}
+Dialogue: 0,2:23:06.85,2:23:11.81,Default,Default,0000,0000,0000,,{\blur3}小豆子 你就听师哥一句 服个软{\r}
+Dialogue: 0,2:23:11.92,2:23:14.84,Default,Default,0000,0000,0000,,{\blur3}那还不是我的霸王 你的虞姬呀{\r}
+Dialogue: 0,2:23:16.39,2:23:19.48,Default,Default,0000,0000,0000,,{\blur3}虞姬为什么要死？{\r}
+Dialogue: 0,2:23:25.22,2:23:30.94,Default,Default,0000,0000,0000,,{\blur3}蝶衣 你可真是不疯魔不成活呀{\r}
+Dialogue: 0,2:23:33.19,2:23:35.91,Default,Default,0000,0000,0000,,{\blur3}可那是戏{\r}
+Dialogue: 0,2:24:47.09,2:24:50.88,Default,Default,0000,0000,0000,,{\blur3}一九六六年 北京 文革前夕{\r}
+Dialogue: 0,2:24:54.25,2:24:57.71,Default,Default,0000,0000,0000,,{\blur3}"中央人民广播电台"{\r}
+Dialogue: 0,2:24:58.12,2:25:02.26,Default,Default,0000,0000,0000,,{\blur3}"现在播送中国共产党中央委员会{\r}
+Dialogue: 0,2:25:02.26,2:25:06.08,Default,Default,0000,0000,0000,,{\blur3}关于无产阶级文化大革命的决定"{\r}
+Dialogue: 0,2:25:06.49,2:25:09.88,Default,Default,0000,0000,0000,,{\blur3}"1966年8月8日通过"{\r}
+Dialogue: 0,2:25:12.22,2:25:17.48,Default,Default,0000,0000,0000,,{\blur3}"一 社会主义革命的新阶段"{\r}
+Dialogue: 0,2:25:18.22,2:25:21.38,Default,Default,0000,0000,0000,,{\blur3}"当前开展的无产阶级文化大革命"{\r}
+Dialogue: 0,2:25:21.65,2:25:24.74,Default,Default,0000,0000,0000,,{\blur3}"是一场触及人们灵魂的大革命"{\r}
+Dialogue: 0,2:26:40.19,2:26:43.65,Default,Default,0000,0000,0000,,{\blur3}干嘛？怎么想起喝酒来了？{\r}
+Dialogue: 0,2:26:44.05,2:26:46.11,Default,Default,0000,0000,0000,,{\blur3}想喝一口{\r}
+Dialogue: 0,2:26:51.12,2:26:55.41,Default,Default,0000,0000,0000,,{\blur3}反正这俩杯子也沾上了"四旧"了{\r}
+Dialogue: 0,2:26:57.22,2:27:01.55,Default,Default,0000,0000,0000,,{\blur3}留不住了 不如用上一回{\r}
+Dialogue: 0,2:28:08.02,2:28:09.81,Default,Default,0000,0000,0000,,{\blur3}还不碎{\r}
+Dialogue: 0,2:29:01.95,2:29:03.47,Default,Default,0000,0000,0000,,{\blur3}我怕{\r}
+Dialogue: 0,2:29:07.05,2:29:10.38,Default,Default,0000,0000,0000,,{\blur3}我梦见我站在一个大高楼上{\r}
+Dialogue: 0,2:29:10.69,2:29:13.78,Default,Default,0000,0000,0000,,{\blur3}四外都是白云…{\r}
+Dialogue: 0,2:29:14.79,2:29:19.15,Default,Default,0000,0000,0000,,{\blur3}我就是想往下跳 我想往下跳{\r}
+Dialogue: 0,2:29:19.69,2:29:22.31,Default,Default,0000,0000,0000,,{\blur3}你跳呀 我在哪儿呢{\r}
+Dialogue: 0,2:29:24.92,2:29:30.44,Default,Default,0000,0000,0000,,{\blur3}你不在那儿 你不在那儿{\r}
+Dialogue: 0,2:29:34.59,2:29:38.91,Default,Default,0000,0000,0000,,{\blur3}小楼 你不会不要我了吧？{\r}
+Dialogue: 0,2:30:43.35,2:30:45.61,Default,Default,0000,0000,0000,,{\blur3}这把剑从哪儿来的？{\r}
+Dialogue: 0,2:30:48.42,2:30:50.15,Default,Default,0000,0000,0000,,{\blur3}是…程蝶衣送给我的{\r}
+Dialogue: 0,2:30:50.42,2:30:53.35,Default,Default,0000,0000,0000,,{\blur3}送过你几次？{\r}
+Dialogue: 0,2:30:53.58,2:30:54.81,Default,Default,0000,0000,0000,,{\blur3}两次啊{\r}
+Dialogue: 0,2:30:55.05,2:30:57.78,Default,Default,0000,0000,0000,,{\blur3}第二次是什么时候？{\r}
+Dialogue: 0,2:30:58.09,2:31:01.57,Default,Default,0000,0000,0000,,{\blur3}北京…快解放的时候{\r}
+Dialogue: 0,2:31:01.85,2:31:02.82,Default,Default,0000,0000,0000,,{\blur3}在哪儿？{\r}
+Dialogue: 0,2:31:03.95,2:31:06.54,Default,Default,0000,0000,0000,,{\blur3}在…在戏园子大街{\r}
+Dialogue: 0,2:31:06.95,2:31:09.51,Default,Default,0000,0000,0000,,{\blur3}当时你说过什么话没有？{\r}
+Dialogue: 0,2:31:11.65,2:31:17.28,Default,Default,0000,0000,0000,,{\blur3}当时挺乱的 我记不得了{\r}
+Dialogue: 0,2:31:17.39,2:31:18.82,Default,Default,0000,0000,0000,,{\blur3}你再想想{\r}
+Dialogue: 0,2:31:21.12,2:31:22.81,Default,Default,0000,0000,0000,,{\blur3}没有什么呀{\r}
+Dialogue: 0,2:31:22.85,2:31:24.65,Default,Default,0000,0000,0000,,{\blur3}好好想想{\r}
+Dialogue: 0,2:31:24.89,2:31:28.25,Default,Default,0000,0000,0000,,{\blur3}没有 想不起来{\r}
+Dialogue: 0,2:31:28.32,2:31:32.41,Default,Default,0000,0000,0000,,{\blur3}你说过要对共产党怎么怎么样的话没有？{\r}
+Dialogue: 0,2:31:32.45,2:31:38.28,Default,Default,0000,0000,0000,,{\blur3}啊 没有 肯定没有 绝对没有{\r}
+Dialogue: 0,2:31:38.32,2:31:40.85,Default,Default,0000,0000,0000,,{\blur3}要有 杀了我也不冤{\r}
+Dialogue: 0,2:31:41.72,2:31:44.01,Default,Default,0000,0000,0000,,{\blur3}要有人证明你说过呢？{\r}
+Dialogue: 0,2:31:44.02,2:31:48.18,Default,Default,0000,0000,0000,,{\blur3}谁？王八蛋 让他出来{\r}
+Dialogue: 0,2:31:57.62,2:32:02.41,Default,Default,0000,0000,0000,,{\blur3}老那 我…我说什么了？{\r}
+Dialogue: 0,2:32:02.41,2:32:06.23,Default,Default,0000,0000,0000,,{\blur3}要不然我给您提个醒{\r}
+Dialogue: 0,2:32:06.23,2:32:10.28,Default,Default,0000,0000,0000,,{\blur3}还敢惹人家伤兵不敢呐？{\r}
+Dialogue: 0,2:32:13.79,2:32:16.72,Default,Default,0000,0000,0000,,{\blur3}那坤 你血口喷人…{\r}
+Dialogue: 0,2:32:16.82,2:32:19.36,Default,Default,0000,0000,0000,,{\blur3}你这个反动戏园子老板{\r}
+Dialogue: 0,2:32:19.36,2:32:20.84,Default,Default,0000,0000,0000,,{\blur3}光想保你自己{\r}
+Dialogue: 0,2:32:20.89,2:32:23.35,Default,Default,0000,0000,0000,,{\blur3}你说共产党来了 你也照打不误{\r}
+Dialogue: 0,2:32:23.39,2:32:26.58,Default,Default,0000,0000,0000,,{\blur3}没有 我没说{\r}
+Dialogue: 0,2:32:28.35,2:32:30.75,Default,Default,0000,0000,0000,,{\blur3}我当…我当时的意思是…{\r}
+Dialogue: 0,2:32:31.19,2:32:33.28,Default,Default,0000,0000,0000,,{\blur3}我当时是说…{\r}
+Dialogue: 0,2:32:33.48,2:32:35.88,Default,Default,0000,0000,0000,,{\blur3}不 没有 我什么也没说{\r}
+Dialogue: 0,2:32:36.52,2:32:39.81,Default,Default,0000,0000,0000,,{\blur3}那爷…您得替我…那爷{\r}
+Dialogue: 0,2:32:45.02,2:32:49.58,Default,Default,0000,0000,0000,,{\blur3}段小楼 你不是从小就拍砖吗？{\r}
+Dialogue: 0,2:32:50.02,2:32:51.95,Default,Default,0000,0000,0000,,{\blur3}拍给我瞧瞧{\r}
+Dialogue: 0,2:32:53.69,2:32:54.91,Default,Default,0000,0000,0000,,{\blur3}拍呀{\r}
+Dialogue: 0,2:32:58.69,2:33:00.41,Default,Default,0000,0000,0000,,{\blur3}拍呀{\r}
+Dialogue: 0,2:33:27.35,2:33:30.84,Default,Default,0000,0000,0000,,{\blur3}段小楼 你是霸王吗？{\r}
+Dialogue: 0,2:33:34.65,2:33:35.95,Default,Default,0000,0000,0000,,{\blur3}不 不是{\r}
+Dialogue: 0,2:33:36.19,2:33:38.85,Default,Default,0000,0000,0000,,{\blur3}你不是一直是霸王吗？{\r}
+Dialogue: 0,2:33:40.45,2:33:43.25,Default,Default,0000,0000,0000,,{\blur3}那都是戏…{\r}
+Dialogue: 0,2:33:44.89,2:33:46.47,Default,Default,0000,0000,0000,,{\blur3}不是真的{\r}
+Dialogue: 0,2:33:46.52,2:33:49.51,Default,Default,0000,0000,0000,,{\blur3}旧社会你去过妓院吗？{\r}
+Dialogue: 0,2:33:51.02,2:33:52.54,Default,Default,0000,0000,0000,,{\blur3}去过{\r}
+Dialogue: 0,2:33:53.09,2:33:55.18,Default,Default,0000,0000,0000,,{\blur3}你不觉得可耻吗？{\r}
+Dialogue: 0,2:33:56.62,2:33:59.81,Default,Default,0000,0000,0000,,{\blur3}我觉得可耻{\r}
+Dialogue: 0,2:33:59.99,2:34:03.51,Default,Default,0000,0000,0000,,{\blur3}你娶菊仙的时候 她是什么身份？{\r}
+Dialogue: 0,2:34:05.92,2:34:07.44,Default,Default,0000,0000,0000,,{\blur3}妓女{\r}
+Dialogue: 0,2:34:10.29,2:34:11.58,Default,Default,0000,0000,0000,,{\blur3}好{\r}
+Dialogue: 0,2:34:13.29,2:34:15.77,Default,Default,0000,0000,0000,,{\blur3}你要好好揭发程蝶衣{\r}
+Dialogue: 0,2:34:15.99,2:34:19.15,Default,Default,0000,0000,0000,,{\blur3}当然 你也可以不揭发{\r}
+Dialogue: 0,2:34:19.55,2:34:23.61,Default,Default,0000,0000,0000,,{\blur3}袁世卿的下场你是亲眼看见的{\r}
+Dialogue: 0,2:34:23.85,2:34:25.71,Default,Default,0000,0000,0000,,{\blur3}你自己决定吧{\r}
+Dialogue: 0,2:34:27.89,2:34:31.05,Default,Default,0000,0000,0000,,{\blur3}横扫一切牛鬼蛇神{\r}
+Dialogue: 0,2:34:31.12,2:34:34.41,Default,Default,0000,0000,0000,,{\blur3}敌人不投降 就叫他灭亡{\r}
+Dialogue: 0,2:34:39.05,2:34:41.81,Default,Default,0000,0000,0000,,{\blur3}揪出黑帮 斩断黑手{\r}
+Dialogue: 0,2:34:44.02,2:34:47.25,Default,Default,0000,0000,0000,,{\blur3}揪出伸进文艺界的黑手{\r}
+Dialogue: 0,2:34:50.69,2:34:54.18,Default,Default,0000,0000,0000,,{\blur3}革命无罪 造反有理{\r}
+Dialogue: 0,2:34:57.28,2:35:00.34,Default,Default,0000,0000,0000,,{\blur3}横扫一切牛鬼蛇神{\r}
+Dialogue: 0,2:35:29.45,2:35:31.01,Default,Default,0000,0000,0000,,{\blur3}小楼 小楼{\r}
+Dialogue: 0,2:35:59.12,2:36:01.31,Default,Default,0000,0000,0000,,{\blur3}段小楼是反动霸王{\r}
+Dialogue: 0,2:36:01.75,2:36:03.01,Default,Default,0000,0000,0000,,{\blur3}段小楼不老实{\r}
+Dialogue: 0,2:36:03.25,2:36:05.97,Default,Default,0000,0000,0000,,{\blur3}段小楼 程蝶衣是黑线人物{\r}
+Dialogue: 0,2:36:06.05,2:36:11.51,Default,Default,0000,0000,0000,,{\blur3}打倒程蝶衣 打倒段小楼{\r}
+Dialogue: 0,2:36:12.72,2:36:14.51,Default,Default,0000,0000,0000,,{\blur3}说 说{\r}
+Dialogue: 0,2:36:18.19,2:36:21.48,Default,Default,0000,0000,0000,,{\blur3}横扫一切牛鬼蛇神{\r}
+Dialogue: 0,2:36:23.92,2:36:25.68,Default,Default,0000,0000,0000,,{\blur3}说{\r}
+Dialogue: 0,2:36:26.82,2:36:28.31,Default,Default,0000,0000,0000,,{\blur3}我说{\r}
+Dialogue: 0,2:36:30.05,2:36:34.58,Default,Default,0000,0000,0000,,{\blur3}他是个戏痴 戏迷 戏疯子{\r}
+Dialogue: 0,2:36:34.45,2:36:36.54,Default,Default,0000,0000,0000,,{\blur3}谁？说清楚{\r}
+Dialogue: 0,2:36:39.85,2:36:41.57,Default,Default,0000,0000,0000,,{\blur3}程蝶衣{\r}
+Dialogue: 0,2:36:42.45,2:36:44.54,Default,Default,0000,0000,0000,,{\blur3}他是只管唱戏的{\r}
+Dialogue: 0,2:36:44.92,2:36:48.04,Default,Default,0000,0000,0000,,{\blur3}他不管台下坐的是什么人 什么阶级{\r}
+Dialogue: 0,2:36:48.18,2:36:52.01,Default,Default,0000,0000,0000,,{\blur3}他都卖力地唱 玩命地唱{\r}
+Dialogue: 0,2:36:52.85,2:36:57.05,Default,Default,0000,0000,0000,,{\blur3}- 你避重就轻 你不老实 - 没有没有{\r}
+Dialogue: 0,2:36:58.02,2:37:02.11,Default,Default,0000,0000,0000,,{\blur3}段小楼不投降 就叫他灭亡{\r}
+Dialogue: 0,2:37:06.92,2:37:12.04,Default,Default,0000,0000,0000,,{\blur3}抗日…抗日战争刚刚开始{\r}
+Dialogue: 0,2:37:13.38,2:37:18.34,Default,Default,0000,0000,0000,,{\blur3}他就给日本侵略者唱堂会{\r}
+Dialogue: 0,2:37:18.79,2:37:20.77,Default,Default,0000,0000,0000,,{\blur3}他 他就…{\r}
+Dialogue: 0,2:37:23.45,2:37:25.55,Default,Default,0000,0000,0000,,{\blur3}他就当了汉奸{\r}
+Dialogue: 0,2:37:25.58,2:37:28.31,Default,Default,0000,0000,0000,,{\blur3}打倒程蝶衣{\r}
+Dialogue: 0,2:37:30.79,2:37:33.98,Default,Default,0000,0000,0000,,{\blur3}他给国民党伤兵唱戏{\r}
+Dialogue: 0,2:37:33.98,2:37:36.34,Default,Default,0000,0000,0000,,{\blur3}给北平行园反动的头子唱戏{\r}
+Dialogue: 0,2:37:36.58,2:37:38.57,Default,Default,0000,0000,0000,,{\blur3}给资本家唱 给地主老财唱 给太太小姐唱{\r}
+Dialogue: 0,2:37:38.82,2:37:41.31,Default,Default,0000,0000,0000,,{\blur3}给地痞流氓唱 给宪兵警察唱{\r}
+Dialogue: 0,2:37:41.72,2:37:43.95,Default,Default,0000,0000,0000,,{\blur3}他 给大戏霸袁世卿唱{\r}
+Dialogue: 0,2:37:44.18,2:37:46.88,Default,Default,0000,0000,0000,,{\blur3}打倒程蝶衣{\r}
+Dialogue: 0,2:37:47.32,2:37:49.48,Default,Default,0000,0000,0000,,{\blur3}再说 还有呢？{\r}
+Dialogue: 0,2:37:51.22,2:37:54.71,Default,Default,0000,0000,0000,,{\blur3}他抽大烟 他抽起大烟来没命{\r}
+Dialogue: 0,2:37:54.75,2:37:59.78,Default,Default,0000,0000,0000,,{\blur3}不知抽光了多少劳动人民的血和汗{\r}
+Dialogue: 0,2:37:59.78,2:38:02.68,Default,Default,0000,0000,0000,,{\blur3}揭 揭实质问题{\r}
+Dialogue: 0,2:38:02.89,2:38:04.44,Default,Default,0000,0000,0000,,{\blur3}说{\r}
+Dialogue: 0,2:38:05.85,2:38:07.28,Default,Default,0000,0000,0000,,{\blur3}打倒程蝶衣{\r}
+Dialogue: 0,2:38:08.99,2:38:10.25,Default,Default,0000,0000,0000,,{\blur3}说{\r}
+Dialogue: 0,2:38:28.02,2:38:31.85,Default,Default,0000,0000,0000,,{\blur3}他为了讨好大戏霸袁世卿{\r}
+Dialogue: 0,2:38:33.62,2:38:34.91,Default,Default,0000,0000,0000,,{\blur3}他…{\r}
+Dialogue: 0,2:38:35.82,2:38:37.51,Default,Default,0000,0000,0000,,{\blur3}你有没有？{\r}
+Dialogue: 0,2:38:39.22,2:38:43.11,Default,Default,0000,0000,0000,,{\blur3}他给袁世卿他当…当…{\r}
+Dialogue: 0,2:38:43.11,2:38:45.16,Default,Default,0000,0000,0000,,{\blur3}小楼{\r}
+Dialogue: 0,2:38:45.16,2:38:47.21,Default,Default,0000,0000,0000,,{\blur3}你有没有？你当了…{\r}
+Dialogue: 0,2:38:52.62,2:38:55.02,Default,Default,0000,0000,0000,,{\blur3}横扫一切牛鬼蛇神{\r}
+Dialogue: 0,2:39:00.69,2:39:03.74,Default,Default,0000,0000,0000,,{\blur3}"才子佳人 帝王将相"{\r}
+Dialogue: 0,2:39:06.62,2:39:08.02,Default,Default,0000,0000,0000,,{\blur3}"牛鬼蛇神"{\r}
+Dialogue: 0,2:39:26.79,2:39:29.01,Default,Default,0000,0000,0000,,{\blur3}你们都骗我{\r}
+Dialogue: 0,2:39:31.62,2:39:33.11,Default,Default,0000,0000,0000,,{\blur3}都骗我{\r}
+Dialogue: 0,2:39:39.95,2:39:41.85,Default,Default,0000,0000,0000,,{\blur3}我也揭发{\r}
+Dialogue: 0,2:39:42.12,2:39:47.14,Default,Default,0000,0000,0000,,{\blur3}揭发姹紫嫣红 揭发断壁颓垣{\r}
+Dialogue: 0,2:39:49.45,2:39:54.94,Default,Default,0000,0000,0000,,{\blur3}段小楼 你… 你天良丧尽 狼心狗肺{\r}
+Dialogue: 0,2:39:55.05,2:39:58.04,Default,Default,0000,0000,0000,,{\blur3}空剩一张人皮了{\r}
+Dialogue: 0,2:39:58.28,2:40:01.25,Default,Default,0000,0000,0000,,{\blur3}自打你贴上这个女人…{\r}
+Dialogue: 0,2:40:01.48,2:40:06.01,Default,Default,0000,0000,0000,,{\blur3}我就知道完了 什么都完了{\r}
+Dialogue: 0,2:40:07.02,2:40:10.97,Default,Default,0000,0000,0000,,{\blur3}你当今儿个是小人作乱 祸从天降？{\r}
+Dialogue: 0,2:40:11.25,2:40:14.68,Default,Default,0000,0000,0000,,{\blur3}不是 不对{\r}
+Dialogue: 0,2:40:14.92,2:40:18.17,Default,Default,0000,0000,0000,,{\blur3}是咱们自个儿一步一步{\r}
+Dialogue: 0,2:40:18.17,2:40:21.34,Default,Default,0000,0000,0000,,{\blur3}一步步走到这步田地来的{\r}
+Dialogue: 0,2:40:21.39,2:40:22.31,Default,Default,0000,0000,0000,,{\blur3}报应{\r}
+Dialogue: 0,2:40:23.25,2:40:26.58,Default,Default,0000,0000,0000,,{\blur3}我早就不是东西了{\r}
+Dialogue: 0,2:40:26.89,2:40:30.05,Default,Default,0000,0000,0000,,{\blur3}连你楚霸王也跪下来求饶了{\r}
+Dialogue: 0,2:40:30.89,2:40:33.68,Default,Default,0000,0000,0000,,{\blur3}那京戏它能不亡吗？{\r}
+Dialogue: 0,2:40:33.95,2:40:36.08,Default,Default,0000,0000,0000,,{\blur3}能不亡吗？{\r}
+Dialogue: 0,2:40:38.38,2:40:39.91,Default,Default,0000,0000,0000,,{\blur3}报应{\r}
+Dialogue: 0,2:40:41.15,2:40:43.21,Default,Default,0000,0000,0000,,{\blur3}报应{\r}
+Dialogue: 0,2:40:44.22,2:40:46.08,Default,Default,0000,0000,0000,,{\blur3}我还要揭发{\r}
+Dialogue: 0,2:40:47.12,2:40:48.35,Default,Default,0000,0000,0000,,{\blur3}就是她{\r}
+Dialogue: 0,2:40:50.55,2:40:52.87,Default,Default,0000,0000,0000,,{\blur3}她是什么人啊？{\r}
+Dialogue: 0,2:40:52.87,2:40:55.85,Default,Default,0000,0000,0000,,{\blur3}我来告诉你们她是什么人{\r}
+Dialogue: 0,2:40:56.08,2:41:01.21,Default,Default,0000,0000,0000,,{\blur3}臭婊子 淫妇 她是花满楼的头牌妓女{\r}
+Dialogue: 0,2:41:01.25,2:41:02.95,Default,Default,0000,0000,0000,,{\blur3}潘金莲{\r}
+Dialogue: 0,2:41:04.18,2:41:06.71,Default,Default,0000,0000,0000,,{\blur3}斗她 去斗她{\r}
+Dialogue: 0,2:41:19.68,2:41:23.04,Default,Default,0000,0000,0000,,{\blur3}段小楼 她是不是妓女？{\r}
+Dialogue: 0,2:41:23.55,2:41:24.81,Default,Default,0000,0000,0000,,{\blur3}是不是？{\r}
+Dialogue: 0,2:41:25.65,2:41:26.95,Default,Default,0000,0000,0000,,{\blur3}说{\r}
+Dialogue: 0,2:41:28.75,2:41:29.84,Default,Default,0000,0000,0000,,{\blur3}是{\r}
+Dialogue: 0,2:41:31.85,2:41:33.58,Default,Default,0000,0000,0000,,{\blur3}你爱她吗？{\r}
+Dialogue: 0,2:41:35.28,2:41:36.51,Default,Default,0000,0000,0000,,{\blur3}爱不爱？{\r}
+Dialogue: 0,2:41:42.82,2:41:47.08,Default,Default,0000,0000,0000,,{\blur3}不 不爱 不爱她{\r}
+Dialogue: 0,2:41:48.92,2:41:50.08,Default,Default,0000,0000,0000,,{\blur3}真的不爱？{\r}
+Dialogue: 0,2:41:50.48,2:41:53.20,Default,Default,0000,0000,0000,,{\blur3}真的不爱 真的 我真的不爱她{\r}
+Dialogue: 0,2:41:53.22,2:41:55.28,Default,Default,0000,0000,0000,,{\blur3}我跟她划清界线{\r}
+Dialogue: 0,2:41:58.92,2:42:01.15,Default,Default,0000,0000,0000,,{\blur3}我从此跟她划清界线了{\r}
+Dialogue: 0,2:43:49.13,2:43:51.60,Default,Default,0000,0000,0000,,{\blur3}菊仙 菊仙{\r}
+Dialogue: 0,2:44:10.17,2:44:16.69,Default,Default,0000,0000,0000,,{\blur3}"听奶奶 讲革命"{\r}
+Dialogue: 0,2:44:16.90,2:44:23.93,Default,Default,0000,0000,0000,,{\blur3}"英勇悲壮 "{\r}
+Dialogue: 0,2:44:23.93,2:44:30.20,Default,Default,0000,0000,0000,,{\blur3}"却原来 我是风里生来雨里长"{\r}
+Dialogue: 0,2:44:46.83,2:44:57.43,Default,Default,0000,0000,0000,,{\blur3}"汉兵已略地"{\r}
+Dialogue: 0,2:45:02.87,2:45:12.23,Default,Default,0000,0000,0000,,{\blur3}"四面楚歌声"{\r}
+Dialogue: 0,2:45:12.60,2:45:15.33,Default,Default,0000,0000,0000,,{\blur3}"君王…"{\r}
+Dialogue: 0,2:45:43.70,2:45:44.79,Default,Default,0000,0000,0000,,{\blur3}十一年后{\r}
+Dialogue: 0,2:45:44.83,2:45:48.96,Default,Default,0000,0000,0000,,{\blur3}"大王 快将宝剑赐予妾身"{\r}
+Dialogue: 0,2:45:50.40,2:45:57.30,Default,Default,0000,0000,0000,,{\blur3}"妃子 不可寻此短见呐"{\r}
+Dialogue: 0,2:45:58.77,2:46:04.60,Default,Default,0000,0000,0000,,{\blur3}"大王 快将宝剑赐予妾身"{\r}
+Dialogue: 0,2:46:04.87,2:46:05.36,Default,Default,0000,0000,0000,,{\blur3}"千万不可"{\r}
+Dialogue: 0,2:46:13.17,2:46:15.03,Default,Default,0000,0000,0000,,{\blur3}不灵了 不灵了{\r}
+Dialogue: 0,2:46:16.63,2:46:18.66,Default,Default,0000,0000,0000,,{\blur3}不跟趟儿了{\r}
+Dialogue: 0,2:46:19.87,2:46:21.93,Default,Default,0000,0000,0000,,{\blur3}老了{\r}
+Dialogue: 0,2:46:35.30,2:46:38.23,Default,Default,0000,0000,0000,,{\blur3}"小尼姑年方二八"{\r}
+Dialogue: 0,2:46:45.80,2:46:49.39,Default,Default,0000,0000,0000,,{\blur3}"正青春 被师傅削去了头发"{\r}
+Dialogue: 0,2:46:49.67,2:46:51.13,Default,Default,0000,0000,0000,,{\blur3}"我本是男儿郎"{\r}
+Dialogue: 0,2:46:51.57,2:46:52.73,Default,Default,0000,0000,0000,,{\blur3}"又不是女娇娥"{\r}
+Dialogue: 0,2:46:52.87,2:46:56.00,Default,Default,0000,0000,0000,,{\blur3}错了 又错了{\r}
+Dialogue: 0,2:47:05.70,2:47:12.63,Default,Default,0000,0000,0000,,{\blur3}"我本是男儿郎 又不是女娇娥"{\r}
+Dialogue: 0,2:47:17.57,2:47:20.69,Default,Default,0000,0000,0000,,{\blur3}来 我们再来{\r}
+Dialogue: 0,2:47:23.17,2:47:26.96,Default,Default,0000,0000,0000,,{\blur3}"大王 快将宝剑赐予妾身 "{\r}
+Dialogue: 0,2:47:29.37,2:47:35.60,Default,Default,0000,0000,0000,,{\blur3}"妃子 不…不可寻此短见呐 "{\r}
+Dialogue: 0,2:47:36.50,2:47:40.22,Default,Default,0000,0000,0000,,{\blur3}"大王 快将宝剑赐予妾身"{\r}
+Dialogue: 0,2:47:40.23,2:47:42.26,Default,Default,0000,0000,0000,,{\blur3}"千万不可"{\r}
+Dialogue: 0,2:47:43.67,2:47:48.00,Default,Default,0000,0000,0000,,{\blur3}"大王 快将宝剑赐予妾身 "{\r}
+Dialogue: 0,2:47:48.01,2:47:49.82,Default,Default,0000,0000,0000,,{\blur3}"千万不可 "{\r}
+Dialogue: 0,2:47:50.50,2:47:55.93,Default,Default,0000,0000,0000,,{\blur3}"大王 汉兵他…他杀进来了 "{\r}
+Dialogue: 0,2:47:56.10,2:47:58.59,Default,Default,0000,0000,0000,,{\blur3}"在哪里？"{\r}
+Dialogue: 0,2:48:28.63,2:48:30.76,Default,Default,0000,0000,0000,,{\blur3}蝶衣{\r}
+Dialogue: 0,2:48:39.10,2:48:40.96,Default,Default,0000,0000,0000,,{\blur3}小豆子{\r}

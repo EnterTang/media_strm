@@ -1,0 +1,680 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,22,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,1,1,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.24,0:00:47.15,Default,,0000,0000,0000,,来一起狂欢吧!\N{\fs13\bord1}Join the party!{\r}
+Dialogue: 0,0:00:53.43,0:00:55.16,Default,,0000,0000,0000,,救命!\N{\fs13\bord1}Please!{\r}
+Dialogue: 0,0:00:55.79,0:00:58.95,Default,,0000,0000,0000,,你干嘛? 放手! 放手!\N{\fs13\bord1}Whoa,whoa,what are you doing? Stop! Stop!{\r}
+Dialogue: 0,0:01:06.13,0:01:09.15,Default,,0000,0000,0000,,白人女性 身份不明\N{\fs13\bord1}Caucasian female,no I.D.{\r}
+Dialogue: 0,0:01:10.27,0:01:11.77,Default,,0000,0000,0000,,怎么 城里搞嘉年华了?\N{\fs13\bord1}What,the carnival in town?{\r}
+Dialogue: 0,0:01:11.88,0:01:13.50,Default,,0000,0000,0000,,是叛逆者的街头聚会\N{\fs13\bord1}It's a  renegade street party.{\r}
+Dialogue: 0,0:01:13.61,0:01:15.87,Default,,0000,0000,0000,,自从市政府限制公众集会后\N{\fs13\bord1}Ever since the city put restrictions on public gatherings,{\r}
+Dialogue: 0,0:01:15.98,0:01:17.41,Default,,0000,0000,0000,,他们就满城到处打游击\N{\fs13\bord1}they've been popping up all over town.{\r}
+Dialogue: 0,0:01:17.52,0:01:20.11,Default,,0000,0000,0000,,那她穿得可太不应景了\N{\fs13\bord1}I say she's a little overdressed for the occasion.{\r}
+Dialogue: 0,0:01:20.23,0:01:24.38,Default,,0000,0000,0000,,那个踩高跷跳芭蕾的说 她摇摇晃晃走到他跟前 然后就倒了\N{\fs13\bord1}Ballerina on stilts over there said she just wandered over to him and dropped.{\r}
+Dialogue: 0,0:01:24.49,0:01:25.98,Default,,0000,0000,0000,,不知道她从哪儿冒出来的\N{\fs13\bord1}No idea where she came from.{\r}
+Dialogue: 0,0:01:26.10,0:01:28.29,Default,,0000,0000,0000,,- 聚会是几点开始的?   - 午夜时分\N{\fs13\bord1}- What time'd the party start?   - Midnight.{\r}
+Dialogue: 0,0:01:28.40,0:01:32.47,Default,,0000,0000,0000,,正在给他们录口供 目前为止 没人见到什么可疑事\N{\fs13\bord1}We're taking statements from everyone.So far,no one saw anything suspicious.{\r}
+Dialogue: 0,0:01:32.58,0:01:35.63,Default,,0000,0000,0000,,脸部和颅部多处被撕裂\N{\fs13\bord1}Multiple lacerations to the face and skull.{\r}
+Dialogue: 0,0:01:35.74,0:01:38.03,Default,,0000,0000,0000,,死因看来是钝器外伤致死\N{\fs13\bord1}COD appears to be blunt force trauma.{\r}
+Dialogue: 0,0:01:38.14,0:01:40.66,Default,,0000,0000,0000,,看来她留了点线索给我们\N{\fs13\bord1}Looks like she left us some clues.{\r}
+Dialogue: 0,0:01:40.77,0:01:42.02,Default,,0000,0000,0000,,是致命的线索\N{\fs13\bord1}And they're deadly.{\r}
+Dialogue: 0,0:02:23.67,0:02:28.56,Default,,0000,0000,0000,,CSI:纽约篇 第五季 第4集 'Sex, Lies, And Silicone'\N{\fs13\bord1}CSI:NY Season05 Episode04 'Sex, Lies, And Silicone'{\r}
+Dialogue: 0,0:02:43.06,0:02:48.18,Default,,0000,0000,0000,,嘿 Mac 这儿有些塑料碎片 我不确定是什么\N{\fs13\bord1}Hey,Mac,got some kind of plastic shards here.I'm not sure what they are.{\r}
+Dialogue: 0,0:02:48.93,0:02:53.88,Default,,0000,0000,0000,,Danny 这儿有流媒体监控探头 在Hogan街和Lafayette街的街角\N{\fs13\bord1}Danny,the city's got a streaming surveillance camera near here,corner of Hogan and Lafayette.{\r}
+Dialogue: 0,0:02:53.99,0:02:56.43,Default,,0000,0000,0000,,好 我去查查\N{\fs13\bord1}All right,I'll go check that out.{\r}
+Dialogue: 0,0:03:00.45,0:03:03.60,Default,,0000,0000,0000,,死者手链上有些沾血的组织\N{\fs13\bord1}There's some bloody tissue on our vic's bracelet.{\r}
+Dialogue: 0,0:03:05.01,0:03:07.95,Default,,0000,0000,0000,,手上及手腕上都没有防卫伤\N{\fs13\bord1}No defensive wounds on her hands or wrists.{\r}
+Dialogue: 0,0:03:08.06,0:03:10.92,Default,,0000,0000,0000,,在街角泄洪沟里找到了死者钱包\N{\fs13\bord1}Canvass found the vic's wallet in a storm drain around the corner.{\r}
+Dialogue: 0,0:03:11.04,0:03:13.90,Default,,0000,0000,0000,,里面有身份证 她叫Ann Steele\N{\fs13\bord1}There's a photo ID inside. Here name is Ann Steele.{\r}
+Dialogue: 0,0:03:14.03,0:03:17.33,Default,,0000,0000,0000,,在几步远外的树丛里找到了 她的黑莓手机\N{\fs13\bord1}Blackberry was found in the bushes a couple of feet away.{\r}
+Dialogue: 0,0:03:17.91,0:03:20.38,Default,,0000,0000,0000,,鸵鸟皮 价值不菲呢\N{\fs13\bord1}Ostrich skin,pretty pricey.{\r}
+Dialogue: 0,0:03:20.49,0:03:22.42,Default,,0000,0000,0000,,公司专机登机卡\N{\fs13\bord1}Corporate jet access card,{\r}
+Dialogue: 0,0:03:22.56,0:03:26.86,Default,,0000,0000,0000,,曼哈顿音乐学院的董事会成员 天蝎厅的VIP客户\N{\fs13\bord1}board member of the Manhattan Conservatory, Scorpion Room VIP.{\r}
+Dialogue: 0,0:03:28.96,0:03:31.75,Default,,0000,0000,0000,,Wickfield公寓的门卡\N{\fs13\bord1}Key card for Wickfield Condominiums.{\r}
+Dialogue: 0,0:03:31.86,0:03:34.25,Default,,0000,0000,0000,,像是个大人物\N{\fs13\bord1}Sounds like a real mover and a shaker.{\r}
+Dialogue: 0,0:03:34.36,0:03:35.94,Default,,0000,0000,0000,,没有现金也没有信用卡\N{\fs13\bord1}No cash or credit cards.{\r}
+Dialogue: 0,0:03:36.08,0:03:37.44,Default,,0000,0000,0000,,也许这就是动机\N{\fs13\bord1}Could've just found our motive.{\r}
+Dialogue: 0,0:03:37.56,0:03:41.34,Default,,0000,0000,0000,,如果是抢劫 为什么不抢黑莓手机 钱包 值钱的玩意?\N{\fs13\bord1}If it was a robbery,why toss the Blackberry? The wallet? Expensive items.{\r}
+Dialogue: 0,0:03:41.47,0:03:43.46,Default,,0000,0000,0000,,也许 他是个大白痴\N{\fs13\bord1}Maybe he was just plain stupid?{\r}
+Dialogue: 0,0:03:43.59,0:03:46.71,Default,,0000,0000,0000,,我去把她的信用卡资料调出来 盯着它们的交易情况\N{\fs13\bord1}I'll flag the credit cards. Keep 'em active.{\r}
+Dialogue: 0,0:03:47.11,0:03:48.86,Default,,0000,0000,0000,,找到她的名片了\N{\fs13\bord1}Hey,found her business card.{\r}
+Dialogue: 0,0:03:48.97,0:03:51.80,Default,,0000,0000,0000,,"Ann Steele 专业顾问"\N{\fs13\bord1}"Ann Steele,Professional Consultant."{\r}
+Dialogue: 0,0:03:52.27,0:03:55.64,Default,,0000,0000,0000,,她的记事簿里昨晚没活动\N{\fs13\bord1}There's nothing listed in her calendar for last night.{\r}
+Dialogue: 0,0:03:58.62,0:04:00.96,Default,,0000,0000,0000,,怎么了? 看到什么了?\N{\fs13\bord1}What? What is it?{\r}
+Dialogue: 0,0:04:01.09,0:04:06.07,Default,,0000,0000,0000,,Sinclair局长 她死前2小时 最后一通电话是打给他的\N{\fs13\bord1}Chief Sinclair. The last call was to him two hours before she died.{\r}
+Dialogue: 0,0:04:16.35,0:04:18.57,Default,,0000,0000,0000,,嘿 你在这儿干嘛?\N{\fs13\bord1}Hey,what are you doing in here?!{\r}
+Dialogue: 0,0:04:19.74,0:04:21.77,Default,,0000,0000,0000,,别跑!\N{\fs13\bord1}Stop!{\r}
+Dialogue: 0,0:04:25.60,0:04:26.73,Default,,0000,0000,0000,,派保安过来!\N{\fs13\bord1}Get me security!{\r}
+Dialogue: 0,0:04:26.84,0:04:29.64,Default,,0000,0000,0000,,每间办公室 每层楼都查了 目前还没发现侵入者\N{\fs13\bord1}We searched every office and every floor. So far,no sign of an intruder.{\r}
+Dialogue: 0,0:04:29.77,0:04:32.30,Default,,0000,0000,0000,,在所有出口都派人站岗 以防他还在楼里\N{\fs13\bord1}I want someone posted at every exit in case he's still in the building.{\r}
+Dialogue: 0,0:04:32.41,0:04:33.90,Default,,0000,0000,0000,,- 已经布置完毕   - 知道他怎么进来的?\N{\fs13\bord1}- Done.   - Any idea how he got in?{\r}
+Dialogue: 0,0:04:34.01,0:04:37.25,Default,,0000,0000,0000,,保安说他亮了下徽章 说是来认尸的\N{\fs13\bord1}Security guard said he flashed a badge and claimed he had to ID a body.{\r}
+Dialogue: 0,0:04:37.36,0:04:38.23,Default,,0000,0000,0000,,什么徽章?\N{\fs13\bord1}What kind of badge?{\r}
+Dialogue: 0,0:04:38.36,0:04:39.88,Default,,0000,0000,0000,,他说没仔细看\N{\fs13\bord1}Said he didn't get a good look at it.{\r}
+Dialogue: 0,0:04:39.99,0:04:42.36,Default,,0000,0000,0000,,已经把他撤职了\N{\fs13\bord1}He's already been replaced.{\r}
+Dialogue: 0,0:04:44.60,0:04:46.35,Default,,0000,0000,0000,,Sid 看到他长相了吗?\N{\fs13\bord1}Sid,you have a description?{\r}
+Dialogue: 0,0:04:46.48,0:04:50.12,Default,,0000,0000,0000,,白人 大概有6英尺高\N{\fs13\bord1}Uh,Caucasian,around six feet tall,{\r}
+Dialogue: 0,0:04:50.23,0:04:52.74,Default,,0000,0000,0000,,穿黑牛仔裤 黑鞋子 他戴了兜帽\N{\fs13\bord1}black jeans,black shoes; he was wearing a hoodie,{\r}
+Dialogue: 0,0:04:52.90,0:04:55.14,Default,,0000,0000,0000,,所以我看不清他的脸\N{\fs13\bord1}so I didn't get a real clear look at a face.{\r}
+Dialogue: 0,0:04:55.27,0:04:57.69,Default,,0000,0000,0000,,他戴了双医用手套\N{\fs13\bord1}And he had on a pair of surgical gloves.{\r}
+Dialogue: 0,0:04:57.84,0:04:59.56,Default,,0000,0000,0000,,所以没留下指纹\N{\fs13\bord1}Means no fingerprints.{\r}
+Dialogue: 0,0:04:59.69,0:05:01.88,Default,,0000,0000,0000,,我想你不知道他在这里做什么\N{\fs13\bord1}I don't suppose you have any idea what he was doing in here?{\r}
+Dialogue: 0,0:05:02.01,0:05:05.38,Default,,0000,0000,0000,,我进来时 他在尸体边转悠\N{\fs13\bord1}He was hovering around the body when I came in.{\r}
+Dialogue: 0,0:05:05.49,0:05:07.25,Default,,0000,0000,0000,,找到部分鞋印\N{\fs13\bord1}I got a partial shoe print.{\r}
+Dialogue: 0,0:05:07.39,0:05:10.22,Default,,0000,0000,0000,,我已把Steele的衣服和随身物品送楼上去了\N{\fs13\bord1}I had already sent Steele's clothes and belongings upstairs,{\r}
+Dialogue: 0,0:05:10.35,0:05:14.73,Default,,0000,0000,0000,,所以除非他有恋尸癖 你和我想的一样\N{\fs13\bord1}so unless he was into necrophilia,your guess is as good as mine.{\r}
+Dialogue: 0,0:05:14.85,0:05:16.33,Default,,0000,0000,0000,,好的\N{\fs13\bord1}Okay.{\r}
+Dialogue: 0,0:05:16.70,0:05:18.53,Default,,0000,0000,0000,,从监控录像上找到闯入者影像了?\N{\fs13\bord1}We get an image of the intruder on surveillance?{\r}
+Dialogue: 0,0:05:18.66,0:05:21.37,Default,,0000,0000,0000,,没 他似乎有意背对镜头\N{\fs13\bord1}No,it looked like he deliberately turned his back toward the camera.{\r}
+Dialogue: 0,0:05:21.49,0:05:24.40,Default,,0000,0000,0000,,那也没引起当班警察的警惕?\N{\fs13\bord1}That didn't raise suspicions with the security cop on duty?{\r}
+Dialogue: 0,0:05:24.52,0:05:27.11,Default,,0000,0000,0000,,他不是警察 Mac 他是局里逐步推行的 那种私人雇员\N{\fs13\bord1}He's not a cop,Mac. He's one of those private hires they're phasing in.{\r}
+Dialogue: 0,0:05:27.26,0:05:30.31,Default,,0000,0000,0000,,那人只能算是戴徽章的普通人\N{\fs13\bord1}The guy's basically just a warm body with a badge.{\r}
+Dialogue: 0,0:05:30.95,0:05:36.64,Default,,0000,0000,0000,,让训练有素的纽约警察下岗 换上未经培训的老百姓\N{\fs13\bord1}Pulling experienced NYPD officers off posts and replacing them with undertrained civilians.{\r}
+Dialogue: 0,0:05:36.78,0:05:40.58,Default,,0000,0000,0000,,对想出这妙计 光会纸上谈兵的官僚们 真想狠狠抽一记耳光\N{\fs13\bord1}I'd like to smack the pencil-pushing bureaucrat who came up with that brilliant idea.{\r}
+Dialogue: 0,0:05:40.69,0:05:43.41,Default,,0000,0000,0000,,说的就是我 Taylor警探\N{\fs13\bord1}That would be me,Detective Taylor.{\r}
+Dialogue: 0,0:05:43.52,0:05:45.31,Default,,0000,0000,0000,,Sinclair局长\N{\fs13\bord1}Chief Sinclair.{\r}
+Dialogue: 0,0:05:45.45,0:05:48.07,Default,,0000,0000,0000,,继续说 别停下\N{\fs13\bord1}Go on,you were just saying?{\r}
+Dialogue: 0,0:05:48.99,0:05:49.60,Default,,0000,0000,0000,,是我 Flack\N{\fs13\bord1}Yeah,it's Flack.{\r}
+Dialogue: 0,0:05:49.60,0:05:52.33,Default,,0000,0000,0000,,局长 我知道政府财政有点问题...\N{\fs13\bord1}Look Chief,I know the city's having a few fiscal problems...{\r}
+Dialogue: 0,0:05:52.44,0:05:56.28,Default,,0000,0000,0000,,40亿的赤字不只是个问题 是危机\N{\fs13\bord1}A $4 billion deficit is more than a problem. It's a crisis.{\r}
+Dialogue: 0,0:05:56.41,0:05:59.63,Default,,0000,0000,0000,,Mac 有人用了Ann Steele的信用卡\N{\fs13\bord1}Hey,Mac. Got some activity on Ann Steele's credit card.{\r}
+Dialogue: 0,0:05:59.76,0:06:00.82,Default,,0000,0000,0000,,局长\N{\fs13\bord1}Chief.{\r}
+Dialogue: 0,0:06:00.93,0:06:03.16,Default,,0000,0000,0000,,Ann Steele\N{\fs13\bord1}Ann Steele.{\r}
+Dialogue: 0,0:06:03.84,0:06:06.60,Default,,0000,0000,0000,,市长知道后早上5点打电话给我\N{\fs13\bord1}Mayor called me at 5:00 this morning when he got word.{\r}
+Dialogue: 0,0:06:06.71,0:06:09.59,Default,,0000,0000,0000,,他希望你优先处理这个案子\N{\fs13\bord1}He wants this case moved to the top of the pile.{\r}
+Dialogue: 0,0:06:09.71,0:06:12.30,Default,,0000,0000,0000,,你就为这个来的? 教我怎么做自己的工作?\N{\fs13\bord1}Is that why you dropped by? Tell me how to do my job?{\r}
+Dialogue: 0,0:06:12.43,0:06:15.12,Default,,0000,0000,0000,,听说今早有人闯了进来 我是为这个来的\N{\fs13\bord1}I heard you had a break-in this morning.That's why I came by.{\r}
+Dialogue: 0,0:06:15.25,0:06:18.05,Default,,0000,0000,0000,,如果实验室的保安没外包给 最低价投标人的话\N{\fs13\bord1}If lab security hadn't been farmed out to the lowest bidder,{\r}
+Dialogue: 0,0:06:18.17,0:06:20.08,Default,,0000,0000,0000,,就用不着你跑这一趟了\N{\fs13\bord1}you might've saved yourself a trip.{\r}
+Dialogue: 0,0:06:20.21,0:06:25.20,Default,,0000,0000,0000,,雇1个纽约警察的钱 可以雇3个平民\N{\fs13\bord1}For every NYPD salary we no longer pay,we can hire three new civilians.{\r}
+Dialogue: 0,0:06:25.33,0:06:27.01,Default,,0000,0000,0000,,你算算这笔账 警探\N{\fs13\bord1}You do the math,Detective.{\r}
+Dialogue: 0,0:06:27.14,0:06:30.17,Default,,0000,0000,0000,,重点是"账本底线" 1个换3个\N{\fs13\bord1}The phrase is "bottom line." Three people for one.{\r}
+Dialogue: 0,0:06:30.30,0:06:35.08,Default,,0000,0000,0000,,如果实验室保安有问题 我们经手的证物都会被人质疑\N{\fs13\bord1}And if lab security is vulnerable,every piece of evidence we process can be called into question.{\r}
+Dialogue: 0,0:06:35.20,0:06:36.41,Default,,0000,0000,0000,,那笔帐该怎么算?\N{\fs13\bord1}What's the bottom line on that?{\r}
+Dialogue: 0,0:06:36.52,0:06:38.37,Default,,0000,0000,0000,,我理解你的失望\N{\fs13\bord1}I understand your frustration.{\r}
+Dialogue: 0,0:06:38.51,0:06:41.44,Default,,0000,0000,0000,,我也是奉命行事 像你一样\N{\fs13\bord1}I get orders from the top,just like you.{\r}
+Dialogue: 0,0:06:41.55,0:06:43.91,Default,,0000,0000,0000,,我用不着喜欢那些决策 我只负责执行\N{\fs13\bord1}I don't have to like them. I just have to make them happen.{\r}
+Dialogue: 0,0:06:44.02,0:06:46.36,Default,,0000,0000,0000,,"用最少的钱做最多的事"\N{\fs13\bord1}"Do more with less."{\r}
+Dialogue: 0,0:06:46.47,0:06:47.93,Default,,0000,0000,0000,,好像你每年都跟我说一遍\N{\fs13\bord1}Seems you tell me that every year.{\r}
+Dialogue: 0,0:06:48.05,0:06:50.64,Default,,0000,0000,0000,,每年你好像也都做到了\N{\fs13\bord1}And yet every year,you seem to accomplish it.{\r}
+Dialogue: 0,0:06:50.77,0:06:51.71,Default,,0000,0000,0000,,接下来几周里\N{\fs13\bord1}In the next few weeks,{\r}
+Dialogue: 0,0:06:51.84,0:06:54.54,Default,,0000,0000,0000,,你会收到进一步削减预算的建议\N{\fs13\bord1}you'll be receiving recommendations for additional budget cuts.{\r}
+Dialogue: 0,0:06:54.69,0:06:56.22,Default,,0000,0000,0000,,你看 局长 我不...\N{\fs13\bord1}Look,Chief,I don't...{\r}
+Dialogue: 0,0:06:56.37,0:06:59.81,Default,,0000,0000,0000,,新的现状就是如此 Taylor 面对现实吧\N{\fs13\bord1}It's the new reality,Taylor.Get used to it.{\r}
+Dialogue: 0,0:06:59.92,0:07:03.70,Default,,0000,0000,0000,,那个闯入者 你知道些什么?\N{\fs13\bord1}Now what can you tell me about this,uh,this intruder?{\r}
+Dialogue: 0,0:07:05.22,0:07:08.83,Default,,0000,0000,0000,,我更感兴趣你能告诉我些什么\N{\fs13\bord1}I'm more interested in what you can tell me.{\r}
+Dialogue: 0,0:07:09.50,0:07:11.65,Default,,0000,0000,0000,,关于那个死者\N{\fs13\bord1}About the victim.{\r}
+Dialogue: 0,0:07:11.76,0:07:14.42,Default,,0000,0000,0000,,这是Ann Steele的手机\N{\fs13\bord1}This is Ann Steele's cell phone.{\r}
+Dialogue: 0,0:07:15.40,0:07:19.58,Default,,0000,0000,0000,,她死前2小时给过你电话 为什么?\N{\fs13\bord1}She called you two hours before her death. What was that about?{\r}
+Dialogue: 0,0:07:21.45,0:07:25.85,Default,,0000,0000,0000,,她给我留言说她收到张非法停车罚单 想让我帮她处理一下\N{\fs13\bord1}She left a message saying she had a parking ticket she needed taken care of.{\r}
+Dialogue: 0,0:07:25.97,0:07:29.27,Default,,0000,0000,0000,,你认识她? 你的邮箱地址也在上面\N{\fs13\bord1}So you knew her?Your e-mail address is also in here.{\r}
+Dialogue: 0,0:07:29.43,0:07:32.75,Default,,0000,0000,0000,,我们在记者招待会上认识 还有几场慈善拍卖会\N{\fs13\bord1}We shook hands at a press conference,a couple of charity auctions.{\r}
+Dialogue: 0,0:07:32.88,0:07:35.81,Default,,0000,0000,0000,,她凭到处网罗人脉营生\N{\fs13\bord1}She earned her living by making connections.{\r}
+Dialogue: 0,0:07:35.96,0:07:39.63,Default,,0000,0000,0000,,你这样的男人对她那种女人来说 肯定是份巨大资源\N{\fs13\bord1}A man like you would be a great resource to a woman like that.{\r}
+Dialogue: 0,0:07:39.75,0:07:43.70,Default,,0000,0000,0000,,相信我 Ann认识的比我权力大的 多了去了\N{\fs13\bord1}Trust me.Ann had access to people a lot more powerful than me.{\r}
+Dialogue: 0,0:07:43.82,0:07:45.99,Default,,0000,0000,0000,,她名片上写她是个"顾问"\N{\fs13\bord1}Her business card said she was a "consultant."{\r}
+Dialogue: 0,0:07:46.12,0:07:49.23,Default,,0000,0000,0000,,跟她所拥有的公司相比 那名头可真不起眼\N{\fs13\bord1}That's a pretty generic title considering the company she kept.{\r}
+Dialogue: 0,0:07:49.36,0:07:51.63,Default,,0000,0000,0000,,知道她是哪种顾问吗?\N{\fs13\bord1}Any idea what type of consultant she was?{\r}
+Dialogue: 0,0:07:51.76,0:07:55.33,Default,,0000,0000,0000,,传言她是帮人解决问题的 就是去摆平一些事\N{\fs13\bord1}Rumor is she fixed problems.You know,made things go away.{\r}
+Dialogue: 0,0:07:55.96,0:07:59.79,Default,,0000,0000,0000,,我想我们说的不是逾期报税\N{\fs13\bord1}I take it we're not talking overdue tax returns.{\r}
+Dialogue: 0,0:08:03.10,0:08:05.95,Default,,0000,0000,0000,,你还是盯着科学事实吧 Mac\N{\fs13\bord1}Why don't you stick to the science on this,Mac.{\r}
+Dialogue: 0,0:08:06.08,0:08:07.67,Default,,0000,0000,0000,,政治的事我来管\N{\fs13\bord1}I'll take care of the politics.{\r}
+Dialogue: 0,0:08:07.80,0:08:11.22,Default,,0000,0000,0000,,为什么我感觉你还有事没告诉我?\N{\fs13\bord1}Why do I get the feeling you know more than you're telling me?{\r}
+Dialogue: 0,0:08:11.33,0:08:13.87,Default,,0000,0000,0000,,因为你是个警察\N{\fs13\bord1}Because you're a cop.{\r}
+Dialogue: 0,0:08:13.98,0:08:16.60,Default,,0000,0000,0000,,你记住 我是你上司\N{\fs13\bord1}Just remember,I'm your boss.{\r}
+Dialogue: 0,0:08:44.37,0:08:48.52,Default,,0000,0000,0000,,死者手链上的组织是种合成聚合物 不是人身上的\N{\fs13\bord1}The tissue from the vic's bracelet is some kind of synthetic polymer. It isn't human.{\r}
+Dialogue: 0,0:08:48.63,0:08:50.56,Default,,0000,0000,0000,,她尼龙袜上找到的头发属于人类\N{\fs13\bord1}Hmm,well,the hair I found on her nylons is.{\r}
+Dialogue: 0,0:08:50.70,0:08:52.97,Default,,0000,0000,0000,,是女性的 与死者的不相符\N{\fs13\bord1}Results are female.Not a match to our vic.{\r}
+Dialogue: 0,0:08:53.08,0:08:54.91,Default,,0000,0000,0000,,也许是街头狂欢上谁掉的头发?\N{\fs13\bord1}Maybe it's a random hair from the street party?{\r}
+Dialogue: 0,0:08:55.04,0:08:58.89,Default,,0000,0000,0000,,头发缠在她尼龙袜里 我想她跟谁有过身体接触\N{\fs13\bord1}The hair was enmeshed in her nylon. I'm thinking close physical contact.{\r}
+Dialogue: 0,0:08:59.01,0:09:01.19,Default,,0000,0000,0000,,Stella 找到Ann Steele白金卡的 消费记录了\N{\fs13\bord1}Stella,we got a hit on Ann Steele's platinum card.{\r}
+Dialogue: 0,0:09:01.33,0:09:03.47,Default,,0000,0000,0000,,有人刚用它买了一个扬声器\N{\fs13\bord1}Someone just used it to buy an amplifier.{\r}
+Dialogue: 0,0:09:03.59,0:09:07.57,Default,,0000,0000,0000,,让Adam去分析聚合物 我们知道 它不是什么 让他来找出它是什么\N{\fs13\bord1}Have Adam analyze that polymer.We know what it isn't,let's find out what it is.{\r}
+Dialogue: 0,0:09:21.51,0:09:25.15,Default,,0000,0000,0000,,好了 大家 演出结束 东西给我\N{\fs13\bord1}Okay,folks,show's over. Give me these.{\r}
+Dialogue: 0,0:09:25.26,0:09:26.80,Default,,0000,0000,0000,,嘿 我正忙着呢 没看到?\N{\fs13\bord1}Hey,I'm in the middle of my thing. Yeah?{\r}
+Dialogue: 0,0:09:26.93,0:09:29.04,Default,,0000,0000,0000,,我们也是 这是凶杀案调查\N{\fs13\bord1}So are we.  It's called homicide investigation.{\r}
+Dialogue: 0,0:09:29.16,0:09:30.89,Default,,0000,0000,0000,,认识这个女的吗?\N{\fs13\bord1}Do you know this woman?{\r}
+Dialogue: 0,0:09:31.00,0:09:32.33,Default,,0000,0000,0000,,- 从没见过   - 没见过?\N{\fs13\bord1}- Never seen her.   - No?{\r}
+Dialogue: 0,0:09:32.45,0:09:34.05,Default,,0000,0000,0000,,- 你怎么搞到她的信用卡的?   - 我没有\N{\fs13\bord1}- How'd you get her credit card?   - I didn't.{\r}
+Dialogue: 0,0:09:34.16,0:09:37.09,Default,,0000,0000,0000,,你在Conran电器店 用信用卡买了背上那个扩音器\N{\fs13\bord1}You used it to buy that amp on your back at Conran Electronics.{\r}
+Dialogue: 0,0:09:37.20,0:09:39.89,Default,,0000,0000,0000,,你够蠢的 把名片落在柜台上\N{\fs13\bord1}You were stupid enough to forget your business card on the counter.{\r}
+Dialogue: 0,0:09:40.01,0:09:41.24,Default,,0000,0000,0000,,嘿 嘿 你们干嘛?\N{\fs13\bord1}Hey,hey,what are you doing?{\r}
+Dialogue: 0,0:09:41.35,0:09:43.63,Default,,0000,0000,0000,,照片上这个女人 她死了\N{\fs13\bord1}The woman in that picture,she's dead.{\r}
+Dialogue: 0,0:09:47.09,0:09:49.81,Default,,0000,0000,0000,,好吧 我用了别人的卡 并不等于我就是杀人犯\N{\fs13\bord1}Okay,just 'cause I used someone's card doesn't make me a murderer.{\r}
+Dialogue: 0,0:09:49.97,0:09:51.57,Default,,0000,0000,0000,,但你犯了重大盗窃罪\N{\fs13\bord1}But it does make you guilty of grand larceny.{\r}
+Dialogue: 0,0:09:51.69,0:09:55.31,Default,,0000,0000,0000,,好吧 我在街上捡到那张卡\N{\fs13\bord1}Okay,okay,I...I found the card in the street.{\r}
+Dialogue: 0,0:09:55.42,0:09:56.38,Default,,0000,0000,0000,,哪条街?\N{\fs13\bord1}Which street?{\r}
+Dialogue: 0,0:09:56.50,0:09:59.01,Default,,0000,0000,0000,,市区里 我在参加个聚会\N{\fs13\bord1}Downtown. I was at some party thing.{\r}
+Dialogue: 0,0:09:59.13,0:10:01.09,Default,,0000,0000,0000,,那个女的倒地死了 大家都被吓到了\N{\fs13\bord1}Then that lady dropped dead,everyone was freaking out.{\r}
+Dialogue: 0,0:10:01.22,0:10:03.31,Default,,0000,0000,0000,,我就走了 回家路上捡到那张卡\N{\fs13\bord1}I took off,found the card on my way home.{\r}
+Dialogue: 0,0:10:03.44,0:10:05.14,Default,,0000,0000,0000,,你为什么走? 要藏什么东西吗?\N{\fs13\bord1}Why'd you leave? Did you have something to hide?{\r}
+Dialogue: 0,0:10:05.27,0:10:07.81,Default,,0000,0000,0000,,我穿溜冰鞋穿得脚起泡了\N{\fs13\bord1}My roller skates were giving me a blister.{\r}
+Dialogue: 0,0:10:07.95,0:10:11.50,Default,,0000,0000,0000,,街头聚会之前你在哪里? 剪刀手先生 午夜以前?\N{\fs13\bord1}Where were you before the street party,Mr. Scissorhands? Just before midnight.{\r}
+Dialogue: 0,0:10:11.64,0:10:13.57,Default,,0000,0000,0000,,我从公共剧院上了6号地铁\N{\fs13\bord1}I was on the six train from Astor Place.{\r}
+Dialogue: 0,0:10:13.72,0:10:14.93,Default,,0000,0000,0000,,有谁能证明吗?\N{\fs13\bord1}Anyone who can corroborate that?{\r}
+Dialogue: 0,0:10:15.05,0:10:18.75,Default,,0000,0000,0000,,Zach Rosenthal 我们一起搭车 去参加聚会的\N{\fs13\bord1}Zach Rosenthal. We took the train to the party together.{\r}
+Dialogue: 0,0:10:19.83,0:10:22.35,Default,,0000,0000,0000,,踩高跷跳芭蕾舞的那个\N{\fs13\bord1}Stilt-walking ballerina.{\r}
+Dialogue: 0,0:10:32.96,0:10:37.24,Default,,0000,0000,0000,,真没想到 在市监控录像上 看到个转呼啦圈很辣的妞\N{\fs13\bord1}I never thought I'd say this,but I got some hot hula hoop action on the city surveillance tape.{\r}
+Dialogue: 0,0:10:37.37,0:10:41.08,Default,,0000,0000,0000,,- 凶案是狂欢开始前发生的?   - 没错\N{\fs13\bord1}- I thought the murder happened before the party?   - Right.{\r}
+Dialogue: 0,0:10:46.48,0:10:47.67,Default,,0000,0000,0000,,- 那是Ann Steele   - 对\N{\fs13\bord1}- There's Ann Steele.   - Yeah.{\r}
+Dialogue: 0,0:10:47.78,0:10:50.90,Default,,0000,0000,0000,,好吧 回到犯罪现场\N{\fs13\bord1}Okay. Let's go back to the crime.{\r}
+Dialogue: 0,0:10:51.01,0:10:53.31,Default,,0000,0000,0000,,时间显示是11:55\N{\fs13\bord1}Time code puts it at 11:55.{\r}
+Dialogue: 0,0:10:53.44,0:10:54.48,Default,,0000,0000,0000,,差不多是凶案发生时间\N{\fs13\bord1}Right around the time of the murder.{\r}
+Dialogue: 0,0:10:54.60,0:10:58.28,Default,,0000,0000,0000,,死者遇害处的报纸自动贩卖机就在那\N{\fs13\bord1}Okay,the newspaper dispenser where the vic was killed is over here{\r}
+Dialogue: 0,0:10:58.42,0:10:59.72,Default,,0000,0000,0000,,我就看到一辆停着的货车\N{\fs13\bord1}All I see is a parked van.{\r}
+Dialogue: 0,0:10:59.86,0:11:02.59,Default,,0000,0000,0000,,是的 正好挡住了犯罪现场 就在货车后面\N{\fs13\bord1}Yeah,and it's blocking the view of the crime scene,is right behind the van.{\r}
+Dialogue: 0,0:11:02.73,0:11:05.32,Default,,0000,0000,0000,,老大哥的能力也就这样了 (出自小说 时刻监控民众生活的政府)\N{\fs13\bord1}So much for Big Brother.{\r}
+Dialogue: 0,0:11:05.75,0:11:09.90,Default,,0000,0000,0000,,等下 对街有户亮灯的窗边好像有东西\N{\fs13\bord1}Hang on. Looks like there's a light in that building across the street,something in the window.{\r}
+Dialogue: 0,0:11:10.02,0:11:12.21,Default,,0000,0000,0000,,放大看看\N{\fs13\bord1}I'm going in.{\r}
+Dialogue: 0,0:11:13.11,0:11:15.81,Default,,0000,0000,0000,,是个女人 面对犯罪现场\N{\fs13\bord1}It's a woman,and she's facing the direction of the crime scene.{\r}
+Dialogue: 0,0:11:15.94,0:11:17.90,Default,,0000,0000,0000,,事实上 从那个角度看 她正盯着犯罪现场\N{\fs13\bord1}In fact,based on that angle,she's staring right at it.{\r}
+Dialogue: 0,0:11:18.01,0:11:21.15,Default,,0000,0000,0000,,运气好的话 我们就找到目击证人了\N{\fs13\bord1}Any luck,we just caught ourselves an eyewitness.{\r}
+Dialogue: 0,0:11:21.62,0:11:24.96,Default,,0000,0000,0000,,不记得她的名字了 不好意思 我 呃 昨晚有点喝多了\N{\fs13\bord1}Can't remember her name. Sorry. I was,uh,pretty loaded last night.{\r}
+Dialogue: 0,0:11:25.08,0:11:28.95,Default,,0000,0000,0000,,听到外面有不寻常的声音吗- 奔跑 尖叫 大概午夜时分\N{\fs13\bord1}Did you hear anything unusual outside-- any running,screaming,say around midnight?{\r}
+Dialogue: 0,0:11:29.06,0:11:30.84,Default,,0000,0000,0000,,什么也没有 怎么了?\N{\fs13\bord1}No,nothing.What's this about?{\r}
+Dialogue: 0,0:11:30.97,0:11:34.22,Default,,0000,0000,0000,,你朋友呢? 她就在窗边 有没有提到看到什么了?\N{\fs13\bord1}How about your friend there? She was in the window. Did she mention seeing anything?{\r}
+Dialogue: 0,0:11:34.52,0:11:36.96,Default,,0000,0000,0000,,- 我记得没有   - 你在哪遇上她的?\N{\fs13\bord1}- Not that I remember.   - Where'd you meet her?{\r}
+Dialogue: 0,0:11:37.44,0:11:40.47,Default,,0000,0000,0000,,- 酒吧   - 酒吧? 哪家?\N{\fs13\bord1}- Um,at a bar.   - Bar? Which bar?{\r}
+Dialogue: 0,0:11:40.58,0:11:42.99,Default,,0000,0000,0000,,Blue Tail 我想是这家\N{\fs13\bord1}Blue Tail,I think.{\r}
+Dialogue: 0,0:11:43.12,0:11:46.17,Default,,0000,0000,0000,,那么 你们从哪弄到这张照片的? 我是说 你们找她做什么?\N{\fs13\bord1}So,uh,where'd you get this photo? I mean,um,why are you looking for her?{\r}
+Dialogue: 0,0:11:46.29,0:11:48.06,Default,,0000,0000,0000,,我们认为她可能是罪案目击者\N{\fs13\bord1}We think she might have witnessed a crime.{\r}
+Dialogue: 0,0:11:48.19,0:11:48.99,Default,,0000,0000,0000,,什么类型的罪案?\N{\fs13\bord1}What kind of crime?{\r}
+Dialogue: 0,0:11:49.10,0:11:52.44,Default,,0000,0000,0000,,是我们在问问题 她几时离开的?\N{\fs13\bord1}We're asking the questions. What time did she leave?{\r}
+Dialogue: 0,0:11:52.55,0:11:55.64,Default,,0000,0000,0000,,大约12点半 我不知道 我睡着了\N{\fs13\bord1}Um,around 12:30. I don't know.I passed out.{\r}
+Dialogue: 0,0:11:55.75,0:11:59.49,Default,,0000,0000,0000,,好吧 帮我个忙 如果有她的消息 告诉她我们想找她谈谈\N{\fs13\bord1}All right,do me a favor.You hear from her again,tell her we want to talk to her.{\r}
+Dialogue: 0,0:11:59.61,0:12:01.55,Default,,0000,0000,0000,,- 没问题   - 谢谢\N{\fs13\bord1}- No problem.   - Thanks.{\r}
+Dialogue: 0,0:12:02.31,0:12:05.72,Default,,0000,0000,0000,,我去趟Blue Tail 看有没有人认出她\N{\fs13\bord1}I'll pop by the Blue Tail,see if anyone recognizes her.{\r}
+Dialogue: 0,0:12:11.67,0:12:14.61,Default,,0000,0000,0000,,商务顾问Steele Slain身亡\N{\fs13\bord1}Steele Slain Business Consultant Found Dead{\r}
+Dialogue: 0,0:12:17.23,0:12:20.05,Default,,0000,0000,0000,,- Sheldon   - Greg Pullman\N{\fs13\bord1}- Sheldon.   - Greg Pullman.{\r}
+Dialogue: 0,0:12:20.45,0:12:23.12,Default,,0000,0000,0000,,你都在哪混呢 伙计? 藏在手机信号都没有的碉堡里?\N{\fs13\bord1}Where have you been,man? Holed up in a bunker with no cell phone service?{\r}
+Dialogue: 0,0:12:23.25,0:12:26.63,Default,,0000,0000,0000,,我就职的那家律师事务所认为 一周工作少于80小时就是偷懒\N{\fs13\bord1}Oh,my law firm thinks less than 80 hours a week is slouching.{\r}
+Dialogue: 0,0:12:26.76,0:12:28.81,Default,,0000,0000,0000,,你呢? 还在法医办公室工作?\N{\fs13\bord1}How about you? You still at the Medical Examiner's Office?{\r}
+Dialogue: 0,0:12:28.94,0:12:31.13,Default,,0000,0000,0000,,不 我几年前就去了犯罪现场小组\N{\fs13\bord1}Ah. No,I moved over to the Crime Scene Unit a few years ago.{\r}
+Dialogue: 0,0:12:31.26,0:12:33.44,Default,,0000,0000,0000,,你现在是权威人士了?\N{\fs13\bord1}Oh,you're an authority figure now,huh?{\r}
+Dialogue: 0,0:12:34.73,0:12:36.60,Default,,0000,0000,0000,,你 呃... 在查Ann Steele的案子?\N{\fs13\bord1}Hey,you,um... you on the Ann Steele case?{\r}
+Dialogue: 0,0:12:36.72,0:12:37.73,Default,,0000,0000,0000,,是啊 你认识她?\N{\fs13\bord1}Yeah. You know about her?{\r}
+Dialogue: 0,0:12:37.85,0:12:40.66,Default,,0000,0000,0000,,是 她给我们的一个客户装了窃听器 勒索他到破产\N{\fs13\bord1}Yeah,she wiretappeda client of ours,got him busted for extortion.{\r}
+Dialogue: 0,0:12:40.77,0:12:42.45,Default,,0000,0000,0000,,我们叫她女版鹈鹕\N{\fs13\bord1}We call her the female Pelicano.{\r}
+Dialogue: 0,0:12:42.57,0:12:44.81,Default,,0000,0000,0000,,我想我们这些蹲实验室的 永远不会了解她有这么重要\N{\fs13\bord1}I guess us lab rats never knew how important she was.{\r}
+Dialogue: 0,0:12:44.94,0:12:46.27,Default,,0000,0000,0000,,不是重要 而是有权势\N{\fs13\bord1}Not important,but powerful.{\r}
+Dialogue: 0,0:12:46.42,0:12:50.36,Default,,0000,0000,0000,,你要是拿到她手上的资料 你这辈子就不愁吃喝了\N{\fs13\bord1}You get your hands on her files,you'd be set for life.{\r}
+Dialogue: 0,0:12:50.93,0:12:53.32,Default,,0000,0000,0000,,还是你已经拿到手了?\N{\fs13\bord1}Or maybe you already have?{\r}
+Dialogue: 0,0:12:53.43,0:12:54.78,Default,,0000,0000,0000,,我不能谈正在调查的案子\N{\fs13\bord1}I can't talk about an active case.{\r}
+Dialogue: 0,0:12:54.89,0:12:56.21,Default,,0000,0000,0000,,- 是啊 没错   - 没错\N{\fs13\bord1}- Yeah,right.   - Yeah.{\r}
+Dialogue: 0,0:12:56.32,0:12:58.56,Default,,0000,0000,0000,,好吧 事情结束后 我再跟你说说这些故事\N{\fs13\bord1}Anyways,when this is over,I got some stories for you.{\r}
+Dialogue: 0,0:12:58.67,0:13:02.10,Default,,0000,0000,0000,,这女人的手伸得可长了 我老爹也是她的受害者\N{\fs13\bord1}Woman had her fingers in a lot of pies. My old man's included.{\r}
+Dialogue: 0,0:13:02.22,0:13:05.19,Default,,0000,0000,0000,,Lowell?  他现在怎样?\N{\fs13\bord1}Lowell? Wow. How's he doing?{\r}
+Dialogue: 0,0:13:05.30,0:13:09.01,Default,,0000,0000,0000,,他去年装了一个导管 但你了解他\N{\fs13\bord1}Ah. He had a bypass last year,but you know him.{\r}
+Dialogue: 0,0:13:09.13,0:13:11.85,Default,,0000,0000,0000,,一周内就起床追逐护士了\N{\fs13\bord1}He was up chasing nurses in a week.{\r}
+Dialogue: 0,0:13:11.96,0:13:13.33,Default,,0000,0000,0000,,- 代我向他问好   - 我会的\N{\fs13\bord1}- Will you tell him I said hello?   - I will.{\r}
+Dialogue: 0,0:13:13.47,0:13:14.74,Default,,0000,0000,0000,,- 太好了   - 我会的\N{\fs13\bord1}- Good.   - I will.{\r}
+Dialogue: 0,0:13:14.85,0:13:16.55,Default,,0000,0000,0000,,- 谢啦 见到你真高兴 Greg   - 我也是\N{\fs13\bord1}- Thank you. It was good seeing you,Greg.   - Good to see you,too.{\r}
+Dialogue: 0,0:13:16.66,0:13:18.87,Default,,0000,0000,0000,,- 好的 伙计   - 保重\N{\fs13\bord1}- Okay,man.   - Take care.{\r}
+Dialogue: 0,0:13:22.04,0:13:25.60,Default,,0000,0000,0000,,我明天有个庭审 但已经搞定了\N{\fs13\bord1}Yeah,I had a,uh,trial scheduled tomorrow,but they settled.{\r}
+Dialogue: 0,0:13:25.72,0:13:26.46,Default,,0000,0000,0000,,提前庆祝也没关系\N{\fs13\bord1}Wouldn't hurt to celebrate.{\r}
+Dialogue: 0,0:13:26.58,0:13:28.78,Default,,0000,0000,0000,,我们去酒吧喝一杯 找点乐子\N{\fs13\bord1}Why don't we hit a bar,see what kind of trouble we can get into?{\r}
+Dialogue: 0,0:13:28.90,0:13:30.98,Default,,0000,0000,0000,,拜托 你最近都不照镜子的? 我们已经不是上大学那会了\N{\fs13\bord1}Come on. You look in the mirror lately? We're not in college anymore.{\r}
+Dialogue: 0,0:13:31.11,0:13:34.58,Default,,0000,0000,0000,,拜托 Sheldon 我保证 绝不会惹你摆不平的麻烦\N{\fs13\bord1}Oh,come on,Sheldon I promise we won't do anything you can't get us out of.{\r}
+Dialogue: 0,0:13:34.72,0:13:39.38,Default,,0000,0000,0000,,我们就像以前那样去喝一杯\N{\fs13\bord1}Let's just go have a drink like old times.{\r}
+Dialogue: 0,0:13:39.38,0:13:40.05,Default,,0000,0000,0000,,好把\N{\fs13\bord1}All right.{\r}
+Dialogue: 0,0:13:40.05,0:13:40.83,Default,,0000,0000,0000,,- 好的   - 好的\N{\fs13\bord1}- All right.   - All right.{\r}
+Dialogue: 0,0:13:40.94,0:13:42.62,Default,,0000,0000,0000,,- Tanner's酒吧 8点   - 就Tanner's\N{\fs13\bord1}- Tanner's at 8:00.   - Tanner's.{\r}
+Dialogue: 0,0:13:42.75,0:13:44.43,Default,,0000,0000,0000,,- 回头见   - 好的\N{\fs13\bord1}- I'll see you there.   - Okay.{\r}
+Dialogue: 0,0:13:46.32,0:13:49.47,Default,,0000,0000,0000,,你就告诉你老板 我不在乎他多有钱 他的官多大\N{\fs13\bord1}Well,you tell your boss I don't care how much money he makes or what his title is.{\r}
+Dialogue: 0,0:13:49.59,0:13:53.92,Default,,0000,0000,0000,,既然是犯罪证据 就要按规定处理 再见\N{\fs13\bord1}I come across evidence of criminal activity,I'm going to act on it.Bye.{\r}
+Dialogue: 0,0:13:54.03,0:13:55.46,Default,,0000,0000,0000,,能打扰你一下吗?\N{\fs13\bord1}Can I interrupt a sec?{\r}
+Dialogue: 0,0:13:55.58,0:13:57.35,Default,,0000,0000,0000,,这电话一早上响个没完\N{\fs13\bord1}This phone has not stopped ringing all morning.{\r}
+Dialogue: 0,0:13:57.46,0:14:00.79,Default,,0000,0000,0000,,Ann Steele曾接触过的人 都打来问我们发现了什么\N{\fs13\bord1}Anyone Ann Steele ever laid eyes on is calling to see what we got.{\r}
+Dialogue: 0,0:14:00.94,0:14:03.01,Default,,0000,0000,0000,,这案子让很多人紧张不已\N{\fs13\bord1}This case is making a lot of people nervous.{\r}
+Dialogue: 0,0:14:03.14,0:14:03.81,Default,,0000,0000,0000,,你有什么发现?\N{\fs13\bord1}What do you have?{\r}
+Dialogue: 0,0:14:03.92,0:14:05.58,Default,,0000,0000,0000,,没找到在窗边的目击者\N{\fs13\bord1}No luck finding the witness in the window.{\r}
+Dialogue: 0,0:14:05.69,0:14:08.75,Default,,0000,0000,0000,,我和Blue Tail的酒保 还有几个雇员都谈了\N{\fs13\bord1}I spoke to the bartender and several employees at the Blue Tail Bar.{\r}
+Dialogue: 0,0:14:08.88,0:14:11.01,Default,,0000,0000,0000,,都没有认出她或Trevor Jones\N{\fs13\bord1}None of them recognized her or Trevor Jones.{\r}
+Dialogue: 0,0:14:11.14,0:14:12.68,Default,,0000,0000,0000,,她不会就这么消失得无影无踪\N{\fs13\bord1}She didn't just vanish into thin air.{\r}
+Dialogue: 0,0:14:12.81,0:14:15.37,Default,,0000,0000,0000,,监控录像上有她 一定有人在哪看到过她\N{\fs13\bord1}We have her on surveillance camera. Someone had to see her somewhere.{\r}
+Dialogue: 0,0:14:15.48,0:14:17.14,Default,,0000,0000,0000,,我们拿她的照片去附近地区筛查\N{\fs13\bord1}We're canvassing the neighborhood with her photo.{\r}
+Dialogue: 0,0:14:17.27,0:14:19.18,Default,,0000,0000,0000,,- 有消息通知你   - 好\N{\fs13\bord1}- I'll keep you posted.   - All right.{\r}
+Dialogue: 0,0:14:21.93,0:14:25.93,Default,,0000,0000,0000,,Ann Steele丝袜上发现的头发 在CODIS系统里找到了匹配记录\N{\fs13\bord1}I got a CODIS hit on the hair I found in Ann Steele's nylons.{\r}
+Dialogue: 0,0:14:26.04,0:14:28.83,Default,,0000,0000,0000,,属于Jan Fowler 17岁\N{\fs13\bord1}Belonged to a Jan Fowler.Seventeen.{\r}
+Dialogue: 0,0:14:28.95,0:14:29.73,Default,,0000,0000,0000,,有地址吗?\N{\fs13\bord1}We have an address?{\r}
+Dialogue: 0,0:14:29.84,0:14:34.77,Default,,0000,0000,0000,,没有 她两年前就进了康涅狄格州的 失踪人口数据库\N{\fs13\bord1}No. She's been in the Connecticut Missing Persons database for the past two years.{\r}
+Dialogue: 0,0:14:34.90,0:14:36.96,Default,,0000,0000,0000,,还有\N{\fs13\bord1}And there's more.{\r}
+Dialogue: 0,0:14:37.46,0:14:41.19,Default,,0000,0000,0000,,康涅狄格警局对Jan Fowler的下落 没有任何线索 所以\N{\fs13\bord1}Connecticut PD had no leads on Jan Fowler's whereabouts,so,{\r}
+Dialogue: 0,0:14:41.31,0:14:44.32,Default,,0000,0000,0000,,既然死者丝袜上发现的头发 是目前为止唯一的线索\N{\fs13\bord1}since the hair I found on the vic's nylons is all we have,{\r}
+Dialogue: 0,0:14:44.44,0:14:47.34,Default,,0000,0000,0000,,我做了一个同位素分解\N{\fs13\bord1}I did an isotopic breakdown on it.{\r}
+Dialogue: 0,0:14:49.72,0:14:53.99,Default,,0000,0000,0000,,她头发里氢和氧同位素的比例 显示她住在波士顿\N{\fs13\bord1}Proportions of hydrogen and oxygen isotopes in her hair indicate  she'd been living in Boston.{\r}
+Dialogue: 0,0:14:54.14,0:14:58.30,Default,,0000,0000,0000,,所以我联系了波士顿警局 告诉他们她是桩谋杀案的头号嫌犯\N{\fs13\bord1}Right,so I contacted Boston PD. I told them she was a lead suspect in a homicide.{\r}
+Dialogue: 0,0:14:58.42,0:15:00.63,Default,,0000,0000,0000,,他们传真来了这个\N{\fs13\bord1}They faxed me this.{\r}
+Dialogue: 0,0:15:00.74,0:15:02.41,Default,,0000,0000,0000,,她死于吸毒过量?\N{\fs13\bord1}She died of a drug overdose?{\r}
+Dialogue: 0,0:15:02.56,0:15:04.66,Default,,0000,0000,0000,,一年以前\N{\fs13\bord1}Over a year ago.{\r}
+Dialogue: 0,0:15:05.85,0:15:09.41,Default,,0000,0000,0000,,一个死掉女人的头发怎会 出现在Ann Steele的丝袜上?\N{\fs13\bord1}How'd a dead woman's hair get on Ann Steele's nylons?{\r}
+Dialogue: 0,0:15:20.89,0:15:21.82,Default,,0000,0000,0000,,嘿 看到Mac了吗?\N{\fs13\bord1}Hey,have you seen Mac?{\r}
+Dialogue: 0,0:15:21.95,0:15:23.15,Default,,0000,0000,0000,,刚刚没有 怎么了? 有啥事?\N{\fs13\bord1}Oh,not recently. Why? What's up?{\r}
+Dialogue: 0,0:15:23.27,0:15:26.11,Default,,0000,0000,0000,,解剖室的脚印有结果了\N{\fs13\bord1}Oh,I got an I.D. on the footprint from the autopsy room.{\r}
+Dialogue: 0,0:15:26.27,0:15:30.33,Default,,0000,0000,0000,,入侵者穿的是10号耐克球鞋 黑色 没发现其他线索或DNA\N{\fs13\bord1}Intruder wore a size ten Nike Air,black. No trace or DNA.{\r}
+Dialogue: 0,0:15:30.48,0:15:32.20,Default,,0000,0000,0000,,很好 我回头交上去\N{\fs13\bord1}Great. I'll pass it on.{\r}
+Dialogue: 0,0:15:32.32,0:15:36.33,Default,,0000,0000,0000,,哦 你这... 呃 哦 有根睫毛\N{\fs13\bord1}Oh,you have a... Uh. Oh.It was an eyelash.{\r}
+Dialogue: 0,0:15:36.44,0:15:42.09,Default,,0000,0000,0000,,那个你从Ann Steele手镯上 提取下来的合成聚合物\N{\fs13\bord1}Okay,um,you know the synthetic  polymer you extracted from Ann Steele's bracelet?{\r}
+Dialogue: 0,0:15:43.64,0:15:47.08,Default,,0000,0000,0000,,我放大了400倍 说说你看到了什么\N{\fs13\bord1}Well,I-I magnified it 400 times. Tell me what you see.{\r}
+Dialogue: 0,0:15:47.19,0:15:50.61,Default,,0000,0000,0000,,细胞结构之间有某种液体\N{\fs13\bord1}I see some kind of liquid in between the cellular structure.{\r}
+Dialogue: 0,0:15:50.76,0:15:51.69,Default,,0000,0000,0000,,是胆固醇\N{\fs13\bord1}It's cholesterol.{\r}
+Dialogue: 0,0:15:51.80,0:15:53.37,Default,,0000,0000,0000,,一种油脂 天然产的\N{\fs13\bord1}An oil. Naturally occurring.{\r}
+Dialogue: 0,0:15:53.50,0:15:57.37,Default,,0000,0000,0000,,没错 所以我把悬浮于油脂组织中的 细胞分层\N{\fs13\bord1}Right. So we have stratified cells suspended in an oily matrix.{\r}
+Dialogue: 0,0:15:57.50,0:15:58.44,Default,,0000,0000,0000,,是皮肤\N{\fs13\bord1}It's skin.{\r}
+Dialogue: 0,0:15:58.57,0:15:59.75,Default,,0000,0000,0000,,但细胞没有细胞核\N{\fs13\bord1}But the cells have no nuclei.{\r}
+Dialogue: 0,0:15:59.88,0:16:02.19,Default,,0000,0000,0000,,不是真的皮肤 而是人造皮肤\N{\fs13\bord1}Well,it's not just any skin. It's synthetic skin.{\r}
+Dialogue: 0,0:16:02.31,0:16:04.97,Default,,0000,0000,0000,,实际上 是一种高级的 日本产的硅树脂皮肤\N{\fs13\bord1}In fact,it's high grade,Japanese silicone skin.{\r}
+Dialogue: 0,0:16:05.09,0:16:09.06,Default,,0000,0000,0000,,用来保护键盘和电子设备 不被磨损和刮擦\N{\fs13\bord1}They use it to protect keyboards and electronic devices from scuffs and scratches.{\r}
+Dialogue: 0,0:16:09.18,0:16:11.99,Default,,0000,0000,0000,,那怎么会在受害人的手镯上?\N{\fs13\bord1}So what was it doing on our vic's bracelet?{\r}
+Dialogue: 0,0:16:14.31,0:16:17.50,Default,,0000,0000,0000,,我能... 我能找出来\N{\fs13\bord1}I mean,I-I can...I can figure that out.{\r}
+Dialogue: 0,0:16:29.50,0:16:33.78,Default,,0000,0000,0000,,这儿有些塑料碎片 我不确定是什么\N{\fs13\bord1}I got some kind of plastic shards here. I'm not sure what they are.{\r}
+Dialogue: 0,0:16:43.51,0:16:45.14,Default,,0000,0000,0000,,像是口红盖子\N{\fs13\bord1}Looks like the top of a lipstick tube.{\r}
+Dialogue: 0,0:16:45.25,0:16:47.37,Default,,0000,0000,0000,,我也这么想\N{\fs13\bord1}That's what I thought.{\r}
+Dialogue: 0,0:16:48.82,0:16:51.52,Default,,0000,0000,0000,,是U盘的盖子\N{\fs13\bord1}It's a flash drive cover.{\r}
+Dialogue: 0,0:16:51.63,0:16:53.68,Default,,0000,0000,0000,,从制造商那里拿到了规格数据\N{\fs13\bord1}Got the specs from the manufacturer.{\r}
+Dialogue: 0,0:16:53.83,0:16:56.91,Default,,0000,0000,0000,,64G存储空间\N{\fs13\bord1}64 gigabytes of storage capacity.{\r}
+Dialogue: 0,0:16:57.02,0:16:58.23,Default,,0000,0000,0000,,比我的旧本本空间还大\N{\fs13\bord1}That's bigger than my old laptop.{\r}
+Dialogue: 0,0:16:58.34,0:17:01.14,Default,,0000,0000,0000,,这个只是盖子 问题来了: U盘哪里去了?\N{\fs13\bord1}And this is just the cover. Question is:Where's the actual drive?{\r}
+Dialogue: 0,0:17:01.26,0:17:03.56,Default,,0000,0000,0000,,在现场和受害人身上都没找到\N{\fs13\bord1}Wasn't recovered at the scene or on the vic.{\r}
+Dialogue: 0,0:17:03.67,0:17:05.43,Default,,0000,0000,0000,,Ann Steele是个勒索者\N{\fs13\bord1}Ann Steele was a fixer.{\r}
+Dialogue: 0,0:17:05.55,0:17:07.86,Default,,0000,0000,0000,,也许U盘里信息和她的谋杀案有关?\N{\fs13\bord1}Maybe the information on that drive had something to do with her murder?{\r}
+Dialogue: 0,0:17:08.01,0:17:10.35,Default,,0000,0000,0000,,也可能和有人闯入法医办公室有关\N{\fs13\bord1}It could also have something to do with the break-in at the ME's office.{\r}
+Dialogue: 0,0:17:10.48,0:17:11.88,Default,,0000,0000,0000,,外面有人还在找它\N{\fs13\bord1}Someone out there is still looking for it.{\r}
+Dialogue: 0,0:17:11.99,0:17:13.71,Default,,0000,0000,0000,,我们得先找到它\N{\fs13\bord1}Yeah,well,we need to find it first.{\r}
+Dialogue: 0,0:17:13.84,0:17:16.60,Default,,0000,0000,0000,,- 我去检查她的公寓   - 好的\N{\fs13\bord1}- I'm go go check out her apartment.   - All right.{\r}
+Dialogue: 0,0:17:20.93,0:17:24.01,Default,,0000,0000,0000,,Ann Steele的公寓就在那个拐角\N{\fs13\bord1}All right,Ann Steele's apartment should be right around this corner.{\r}
+Dialogue: 0,0:17:24.12,0:17:26.32,Default,,0000,0000,0000,,这算什么? 居然没管理员欢迎我们?\N{\fs13\bord1}What is this? No super to greet us?{\r}
+Dialogue: 0,0:17:26.43,0:17:28.33,Default,,0000,0000,0000,,这样的公寓 他们可不叫管理员\N{\fs13\bord1}This kind of money,they're not called supers,all right?{\r}
+Dialogue: 0,0:17:28.44,0:17:30.33,Default,,0000,0000,0000,,- 叫门房   - 哦 是吗?\N{\fs13\bord1}- They're called concierges.   - Oh,yeah?{\r}
+Dialogue: 0,0:17:30.45,0:17:33.40,Default,,0000,0000,0000,,他们用门卡而不是钥匙\N{\fs13\bord1}And they use key cards instead of keys.{\r}
+Dialogue: 0,0:17:33.51,0:17:35.30,Default,,0000,0000,0000,,听到了没?\N{\fs13\bord1}Did you hear that?{\r}
+Dialogue: 0,0:17:48.30,0:17:50.54,Default,,0000,0000,0000,,纽约警局\N{\fs13\bord1}NYPD.{\r}
+Dialogue: 0,0:18:02.83,0:18:04.72,Default,,0000,0000,0000,,想去哪?\N{\fs13\bord1}Where you going?{\r}
+Dialogue: 0,0:18:05.53,0:18:07.62,Default,,0000,0000,0000,,- 别动   - 抓住他了?\N{\fs13\bord1}- Don't move.   - You got him?{\r}
+Dialogue: 0,0:18:13.79,0:18:16.86,Default,,0000,0000,0000,,Anthony Martino 私家侦探\N{\fs13\bord1}Anthony Martino,private investigator.{\r}
+Dialogue: 0,0:18:16.99,0:18:19.52,Default,,0000,0000,0000,,私家侦探 嗯?\N{\fs13\bord1}Private investigator,huh?{\r}
+Dialogue: 0,0:18:20.67,0:18:25.54,Default,,0000,0000,0000,,Martino先生 你在做私家侦探前 曾干了6年的警察\N{\fs13\bord1}Mr. Martino,I see you were on the force for six years before you became a P.I.{\r}
+Dialogue: 0,0:18:25.68,0:18:29.45,Default,,0000,0000,0000,,为什么离开? 毒品? 赌博?\N{\fs13\bord1}Why'd you leave? Drugs? Gambling?{\r}
+Dialogue: 0,0:18:30.24,0:18:32.10,Default,,0000,0000,0000,,钱\N{\fs13\bord1}Money.{\r}
+Dialogue: 0,0:18:32.21,0:18:35.05,Default,,0000,0000,0000,,你上次看到你的薪水支票是几时?\N{\fs13\bord1}When was the last time you looked at your paycheck?{\r}
+Dialogue: 0,0:18:36.31,0:18:39.97,Default,,0000,0000,0000,,能找到那里还满厉害的嘛 这是什么 耐克球鞋?\N{\fs13\bord1}Nice dogs you got there. What are those,Nike Airs?{\r}
+Dialogue: 0,0:18:40.08,0:18:41.84,Default,,0000,0000,0000,,我来猜猜 10号?\N{\fs13\bord1}I'm gonna guess. Size ten?{\r}
+Dialogue: 0,0:18:41.96,0:18:44.75,Default,,0000,0000,0000,,这里是纽约 很多人穿这鞋的\N{\fs13\bord1}This is NYC. Lot of guys wear these.{\r}
+Dialogue: 0,0:18:44.89,0:18:47.69,Default,,0000,0000,0000,,但并没很多人因偷窃 女死者的公寓而被抓\N{\fs13\bord1}But a lot of guys weren't caught burglarizing a dead woman's apartment.{\r}
+Dialogue: 0,0:18:47.83,0:18:49.98,Default,,0000,0000,0000,,- 无主的住所 警探   - 没错\N{\fs13\bord1}- Unoccupied dwelling,Detective.   - Right.{\r}
+Dialogue: 0,0:18:50.09,0:18:51.92,Default,,0000,0000,0000,,最多是三级入室行窃\N{\fs13\bord1}Most I'll get is burglary three.{\r}
+Dialogue: 0,0:18:52.05,0:18:54.85,Default,,0000,0000,0000,,还能和检察官协议 降为非法闯入\N{\fs13\bord1}And that'll get pled down to criminal trespassing.{\r}
+Dialogue: 0,0:18:54.96,0:18:56.44,Default,,0000,0000,0000,,两次了\N{\fs13\bord1}Times two.{\r}
+Dialogue: 0,0:18:56.55,0:18:59.65,Default,,0000,0000,0000,,这双球鞋就能证明你 入侵过法医办公室\N{\fs13\bord1}'Cause those sneakers are gonna tie you into the break-in at the M.E.'s office.{\r}
+Dialogue: 0,0:18:59.77,0:19:01.07,Default,,0000,0000,0000,,下次穿个鞋套\N{\fs13\bord1}Should wear booties next time.{\r}
+Dialogue: 0,0:19:01.20,0:19:02.89,Default,,0000,0000,0000,,多谢 我会牢记于心的\N{\fs13\bord1}Thanks. I'll make a note of that.{\r}
+Dialogue: 0,0:19:03.00,0:19:05.59,Default,,0000,0000,0000,,- 你在找什么?   - 你妹妹\N{\fs13\bord1}- What were you looking for?   - Your sister.{\r}
+Dialogue: 0,0:19:05.70,0:19:07.82,Default,,0000,0000,0000,,真好笑 我没有妹妹\N{\fs13\bord1}That's funny. I don't have a sister.{\r}
+Dialogue: 0,0:19:07.94,0:19:10.53,Default,,0000,0000,0000,,我换个方式问\N{\fs13\bord1}Let me rephrase the question for you.{\r}
+Dialogue: 0,0:19:10.64,0:19:13.35,Default,,0000,0000,0000,,- 你为谁工作?   - 公民\N{\fs13\bord1}- Who are you working for?   - People.{\r}
+Dialogue: 0,0:19:13.46,0:19:15.55,Default,,0000,0000,0000,,哪位公民?\N{\fs13\bord1}Yo,people who?{\r}
+Dialogue: 0,0:19:15.69,0:19:19.16,Default,,0000,0000,0000,,确保我不会为此坐牢的人\N{\fs13\bord1}People who are gonna make sure I don't do any time for this.{\r}
+Dialogue: 0,0:19:23.01,0:19:24.65,Default,,0000,0000,0000,,那个搜查Ann Steele公寓的家伙\N{\fs13\bord1}The man who ransacked Ann Steele's apartment{\r}
+Dialogue: 0,0:19:24.76,0:19:27.91,Default,,0000,0000,0000,,和探查解剖室的是同一个人\N{\fs13\bord1}is the same man we found nosing around our autopsy lab.{\r}
+Dialogue: 0,0:19:28.02,0:19:31.70,Default,,0000,0000,0000,,他叫Anthony Martino 是个私家侦探 以前是纽约警察\N{\fs13\bord1}His name's Anthony Martino. He's a P.I. and former NYPD.{\r}
+Dialogue: 0,0:19:31.81,0:19:34.60,Default,,0000,0000,0000,,Martino 是个卑鄙小人\N{\fs13\bord1}Yeah. Martino. He's a bottom feeder.{\r}
+Dialogue: 0,0:19:34.72,0:19:36.16,Default,,0000,0000,0000,,他告诉你他在找什么了?\N{\fs13\bord1}He tell you what he was after?{\r}
+Dialogue: 0,0:19:36.27,0:19:38.89,Default,,0000,0000,0000,,有人付钱让他一个字也不说\N{\fs13\bord1}Someone's payroll is keeping him quiet.{\r}
+Dialogue: 0,0:19:39.00,0:19:41.75,Default,,0000,0000,0000,,我们认为他是在找Ann Steele的U盘\N{\fs13\bord1}We think he wanted Ann Steele's flash drive.{\r}
+Dialogue: 0,0:19:42.81,0:19:44.35,Default,,0000,0000,0000,,第一次没有找到\N{\fs13\bord1}Since he couldn't find it the first time,{\r}
+Dialogue: 0,0:19:44.48,0:19:47.51,Default,,0000,0000,0000,,于是闯入她的公寓 希望在那交好运\N{\fs13\bord1}he broke into her apartment hoping he'd have better luck there.{\r}
+Dialogue: 0,0:19:47.63,0:19:51.78,Default,,0000,0000,0000,,就是这样 他不是闯入 他用的是门卡\N{\fs13\bord1}That's just it. He didn't break into her apartment. He used an access card.{\r}
+Dialogue: 0,0:19:51.91,0:19:56.78,Default,,0000,0000,0000,,目前为止 他绕过这两处的保安 还避开了监控摄像头\N{\fs13\bord1}So far,he's bypassed security in two different buildings,and managed to evade surveillance.{\r}
+Dialogue: 0,0:19:56.92,0:20:00.06,Default,,0000,0000,0000,,你认为他有内应\N{\fs13\bord1}And you're thinking there's an inside connect.{\r}
+Dialogue: 0,0:20:01.09,0:20:04.76,Default,,0000,0000,0000,,有高层在幕后操纵\N{\fs13\bord1}Someone high up has to be pulling the strings.{\r}
+Dialogue: 0,0:20:05.94,0:20:09.74,Default,,0000,0000,0000,,去年 那个指控你性骚扰的案子 一夜之间就撤销了\N{\fs13\bord1}Last year,that sexual harassment case that was filed against you went away overnight,{\r}
+Dialogue: 0,0:20:09.85,0:20:12.07,Default,,0000,0000,0000,,像从来没发生过一样\N{\fs13\bord1}like it never happened.{\r}
+Dialogue: 0,0:20:12.18,0:20:14.07,Default,,0000,0000,0000,,你小心点 Taylor\N{\fs13\bord1}You be careful,Taylor.{\r}
+Dialogue: 0,0:20:14.18,0:20:16.35,Default,,0000,0000,0000,,不要随便指控别人\N{\fs13\bord1}Don't make accusations you can't back.{\r}
+Dialogue: 0,0:20:16.47,0:20:19.29,Default,,0000,0000,0000,,是Steele帮你摆平的? 所以你的名字存在她黑莓手机里?\N{\fs13\bord1}Did Steele fix that for you? Is that why your name was in her Blackberry?{\r}
+Dialogue: 0,0:20:19.40,0:20:21.82,Default,,0000,0000,0000,,那是诬告\N{\fs13\bord1}It was a false accusation.{\r}
+Dialogue: 0,0:20:21.93,0:20:24.59,Default,,0000,0000,0000,,我有孩子 幸福的婚姻\N{\fs13\bord1}I have kids,a good marriage.{\r}
+Dialogue: 0,0:20:24.72,0:20:25.68,Default,,0000,0000,0000,,这一切都值得保护\N{\fs13\bord1}Things worth protecting.{\r}
+Dialogue: 0,0:20:25.81,0:20:28.05,Default,,0000,0000,0000,,- 你没有回答我的问题   - 我不需要\N{\fs13\bord1}- You didn't answer my question.   - I don't have to.{\r}
+Dialogue: 0,0:20:28.18,0:20:30.00,Default,,0000,0000,0000,,你看到她联系人列表上的名字\N{\fs13\bord1}You saw the names on her contact list.{\r}
+Dialogue: 0,0:20:30.13,0:20:32.22,Default,,0000,0000,0000,,任何一个都有可能是幕后黑手\N{\fs13\bord1}Any one of them could have been behind this.{\r}
+Dialogue: 0,0:20:32.33,0:20:34.45,Default,,0000,0000,0000,,如果这个U盘落入了坏人手中\N{\fs13\bord1}If that flash drive falls in the wrong hands,{\r}
+Dialogue: 0,0:20:34.57,0:20:37.98,Default,,0000,0000,0000,,那引起的严重结果 可不是你能处理的 Mac\N{\fs13\bord1}it'll cause more fallout than you can handle,Mac.{\r}
+Dialogue: 0,0:20:41.51,0:20:43.71,Default,,0000,0000,0000,,Adam 你想见我们?\N{\fs13\bord1}Adam,you wanted to see us?{\r}
+Dialogue: 0,0:20:43.84,0:20:46.10,Default,,0000,0000,0000,,- Jan Fowler死了 对吧?   - 是啊\N{\fs13\bord1}- Jan Fowler's dead,right?   - Right.{\r}
+Dialogue: 0,0:20:46.24,0:20:47.72,Default,,0000,0000,0000,,好 所以我就开始想\N{\fs13\bord1}Right. So I started wondering{\r}
+Dialogue: 0,0:20:47.83,0:20:52.44,Default,,0000,0000,0000,,一个女死者的头发怎能跨过州界 跑到Ann Steele的尼龙袜上\N{\fs13\bord1}how a dead woman's hair could cross state lines,and end up on Ann Steele's nylons.{\r}
+Dialogue: 0,0:20:52.57,0:20:55.51,Default,,0000,0000,0000,,所以我查了一下波士顿 处理她尸体的殡仪馆...\N{\fs13\bord1}So I looked into the mortuary in Boston that processed her body...{\r}
+Dialogue: 0,0:20:55.62,0:20:58.93,Default,,0000,0000,0000,,等一下 我以为你还在钻研 Steele手镯上找到的硅树脂?\N{\fs13\bord1}Wait a second. I thought you were working on the silicone we found on Steele's bracelet?{\r}
+Dialogue: 0,0:20:59.06,0:21:02.13,Default,,0000,0000,0000,,不 我是在弄 我刚才在弄 但我觉得所有证据都有联系\N{\fs13\bord1}No. I-I am. I mean,I-I was,but I think it all just ties in together.{\r}
+Dialogue: 0,0:21:02.27,0:21:04.70,Default,,0000,0000,0000,,这里 看一下\N{\fs13\bord1}Here,take a look.{\r}
+Dialogue: 0,0:21:06.98,0:21:10.90,Default,,0000,0000,0000,,这家殡仪馆因出售尸体器官 在接受特别调查\N{\fs13\bord1}This mortuary in particular was under investigation for selling body parts.{\r}
+Dialogue: 0,0:21:11.03,0:21:13.57,Default,,0000,0000,0000,,- 在其它器官部分 他们还卖...   - 头发\N{\fs13\bord1}- Among other things,they sold...   - Human hair.{\r}
+Dialogue: 0,0:21:13.68,0:21:16.77,Default,,0000,0000,0000,,这里是他们在纽约 有生意来往的2个地方\N{\fs13\bord1}Now,there were a couple places in New York that they were doing business with.{\r}
+Dialogue: 0,0:21:16.88,0:21:20.29,Default,,0000,0000,0000,,我发现这和它们中的一个有关\N{\fs13\bord1}And I found this link to one of them.{\r}
+Dialogue: 0,0:21:20.85,0:21:24.33,Default,,0000,0000,0000,,你是否想过找到一个完美女性会如何?\N{\fs13\bord1}Have you ever wondered what it would be like to find the perfect woman?{\r}
+Dialogue: 0,0:21:24.44,0:21:28.14,Default,,0000,0000,0000,,欢迎来到精品人偶世界\N{\fs13\bord1}Welcome to the world of high-end designer dolls.{\r}
+Dialogue: 0,0:21:35.00,0:21:37.66,Default,,0000,0000,0000,,嘿 姑娘 她可真辣啊\N{\fs13\bord1}Hey,girl. she's hot.{\r}
+Dialogue: 0,0:21:48.95,0:21:52.71,Default,,0000,0000,0000,,我们的客户大多数是 想要女性陪伴的单身男性\N{\fs13\bord1}Now,our clientele are mostly single men who want female companionship{\r}
+Dialogue: 0,0:21:52.82,0:21:55.56,Default,,0000,0000,0000,,但又不想碰到复杂的人际关系\N{\fs13\bord1}without the complications of a human relationship.{\r}
+Dialogue: 0,0:21:55.69,0:21:58.52,Default,,0000,0000,0000,,一个标准人偶大约要6000美元\N{\fs13\bord1}Now,a typical doll runs around $6,000.{\r}
+Dialogue: 0,0:21:58.63,0:21:59.28,Default,,0000,0000,0000,,我们是在找...\N{\fs13\bord1}Well,we're looking for...{\r}
+Dialogue: 0,0:21:59.45,0:22:02.94,Default,,0000,0000,0000,,我们有10种不同的女性体型 和16种脸型\N{\fs13\bord1}We've got ten different female body types and 16 faces.{\r}
+Dialogue: 0,0:22:03.09,0:22:05.82,Default,,0000,0000,0000,,这还不包括肤色 眼睛颜色 化妆\N{\fs13\bord1}Not to mention skin tone,eye color,makeup.{\r}
+Dialogue: 0,0:22:05.93,0:22:07.67,Default,,0000,0000,0000,,我们对发色更感兴趣 金发\N{\fs13\bord1}We're more interested in hair. Blonde hair.{\r}
+Dialogue: 0,0:22:07.79,0:22:10.85,Default,,0000,0000,0000,,我们什么颜色都有 颜色和发型随便挑\N{\fs13\bord1}We've got every color.All shades and styles.{\r}
+Dialogue: 0,0:22:10.96,0:22:15.13,Default,,0000,0000,0000,,实际上 我们需要的是 你们购买金发人偶的客户名单\N{\fs13\bord1}Actually,what we need is a list of your clients that bought dolls with blonde hair.{\r}
+Dialogue: 0,0:22:15.24,0:22:16.30,Default,,0000,0000,0000,,你的客户名单\N{\fs13\bord1}Your customer list.{\r}
+Dialogue: 0,0:22:16.42,0:22:18.45,Default,,0000,0000,0000,,这有超过4000人啊\N{\fs13\bord1}We've got over 4,000 of them.{\r}
+Dialogue: 0,0:22:18.58,0:22:22.63,Default,,0000,0000,0000,,都是这些皮肤的功劳 它们几乎能以假乱真\N{\fs13\bord1}And it's because of the skin. It's almost like the real thing.{\r}
+Dialogue: 0,0:22:22.75,0:22:26.14,Default,,0000,0000,0000,,自从2007年来 我们开始使用 不可思议的新材料...\N{\fs13\bord1}Since 2007,we've been using this incredible new material...{\r}
+Dialogue: 0,0:22:26.25,0:22:28.12,Default,,0000,0000,0000,,- 日本硅树脂   - 是的!\N{\fs13\bord1}- Japanese silicone.   - Yes!{\r}
+Dialogue: 0,0:22:28.23,0:22:30.30,Default,,0000,0000,0000,,缩小一下你的客户名单怎么样?\N{\fs13\bord1}How about we narrow down your customer list?{\r}
+Dialogue: 0,0:22:30.41,0:22:34.96,Default,,0000,0000,0000,,确切说 在纽约出售的 有着日本硅树脂皮肤的金发人偶\N{\fs13\bord1}Exactly.Blonde dolls with Japanese silicone skin that were sold in New York City.{\r}
+Dialogue: 0,0:22:35.09,0:22:36.90,Default,,0000,0000,0000,,这里还有一个保密的问题\N{\fs13\bord1}There's a confidentiality issue there.{\r}
+Dialogue: 0,0:22:37.03,0:22:39.69,Default,,0000,0000,0000,,大部分客户对他们的人偶 都相当注重保护隐秘\N{\fs13\bord1}Most of our clients are quite secretive about their dolls.{\r}
+Dialogue: 0,0:22:39.80,0:22:42.68,Default,,0000,0000,0000,,那就是上帝创造搜查令的原因\N{\fs13\bord1}That's why God created warrants.{\r}
+Dialogue: 0,0:22:47.83,0:22:50.39,Default,,0000,0000,0000,,- 我知道你们在想什么   - 想什么?\N{\fs13\bord1}- I know what you're thinking.   - What?{\r}
+Dialogue: 0,0:22:50.65,0:22:53.12,Default,,0000,0000,0000,,我和它们有肉体关系\N{\fs13\bord1}That I have carnal relations with them.{\r}
+Dialogue: 0,0:22:53.26,0:22:55.55,Default,,0000,0000,0000,,不 我没  那么想\N{\fs13\bord1}No,I wasn't,uh,thinking that.{\r}
+Dialogue: 0,0:22:55.66,0:23:00.08,Default,,0000,0000,0000,,我没有 我从小就被教育当个绅士\N{\fs13\bord1}Well,I-I don't.I was raised to be a gentleman.{\r}
+Dialogue: 0,0:23:00.60,0:23:06.38,Default,,0000,0000,0000,,所以 唔...这是Akiko Vanessa 还有Melody\N{\fs13\bord1}So,um...Oh,um,this is Akiko, Vanessa and Melody.{\r}
+Dialogue: 0,0:23:06.49,0:23:09.16,Default,,0000,0000,0000,,她是家庭新成员\N{\fs13\bord1}She's new to our family.{\r}
+Dialogue: 0,0:23:09.63,0:23:11.26,Default,,0000,0000,0000,,女士们\N{\fs13\bord1}Ladies.{\r}
+Dialogue: 0,0:23:11.38,0:23:15.70,Default,,0000,0000,0000,,当我结束一天辛勤工作回家 她们总在这儿等我\N{\fs13\bord1}When I come home from a hard day's work,they are always here for me.{\r}
+Dialogue: 0,0:23:15.81,0:23:17.54,Default,,0000,0000,0000,,她们给我平和舒适的感觉\N{\fs13\bord1}They give me a sense of peace and comfort that{\r}
+Dialogue: 0,0:23:17.65,0:23:21.35,Default,,0000,0000,0000,,那种感觉是我在人类女性身上得不到的\N{\fs13\bord1}I've never been quite able to achieve with a human female.{\r}
+Dialogue: 0,0:23:21.46,0:23:23.88,Default,,0000,0000,0000,,Gorem先生 我们来这儿 不是对你评头论足 真的\N{\fs13\bord1}Mr. Gorem,we're not here to pass judgment,really.{\r}
+Dialogue: 0,0:23:24.01,0:23:25.87,Default,,0000,0000,0000,,我们在找一个金发人偶\N{\fs13\bord1}We're looking for a blonde doll.{\r}
+Dialogue: 0,0:23:25.99,0:23:28.85,Default,,0000,0000,0000,,制造这些人偶的公司说 大约一年以前你买过1个\N{\fs13\bord1}Company that makes these said that you bought one about a year ago.{\r}
+Dialogue: 0,0:23:28.96,0:23:29.95,Default,,0000,0000,0000,,Tiffany\N{\fs13\bord1}Tiffany.{\r}
+Dialogue: 0,0:23:30.07,0:23:31.97,Default,,0000,0000,0000,,她-她的态度有些问题\N{\fs13\bord1}She-she had a bit of an attitude problem,{\r}
+Dialogue: 0,0:23:32.09,0:23:34.97,Default,,0000,0000,0000,,所以我给她找了一个新家\N{\fs13\bord1}so I-I found her a new home.{\r}
+Dialogue: 0,0:23:35.09,0:23:36.22,Default,,0000,0000,0000,,哪里?\N{\fs13\bord1}Where?{\r}
+Dialogue: 0,0:23:36.33,0:23:39.59,Default,,0000,0000,0000,,在网上 有一个人偶粉丝的网站\N{\fs13\bord1}On the Internet.There's a site for doll devotees.{\r}
+Dialogue: 0,0:23:39.70,0:23:43.91,Default,,0000,0000,0000,,我们交换新郎提示 初次约会故事 甚至交易人偶\N{\fs13\bord1}We trade grooming tips,first date stories,we even trade the dolls.{\r}
+Dialogue: 0,0:23:44.02,0:23:45.38,Default,,0000,0000,0000,,你和谁做的交易?\N{\fs13\bord1}Who'd you trade with?{\r}
+Dialogue: 0,0:23:45.50,0:23:46.39,Default,,0000,0000,0000,,我不记得他名字了\N{\fs13\bord1}I don't recall his name,{\r}
+Dialogue: 0,0:23:46.50,0:23:51.03,Default,,0000,0000,0000,,但他带走了Tiffany 做为报答给了我可爱的Melody\N{\fs13\bord1}but he took Tiffany and gave me lovely Melody in return.{\r}
+Dialogue: 0,0:23:51.14,0:23:56.93,Default,,0000,0000,0000,,她对我们更加合适 尽管她不怎么喜欢看电视\N{\fs13\bord1}She's a much better fit for us. Although she doesn't really like to watch TV.{\r}
+Dialogue: 0,0:23:58.95,0:24:00.52,Default,,0000,0000,0000,,我们需要你的电脑\N{\fs13\bord1}We're going to need your computer.{\r}
+Dialogue: 0,0:24:00.63,0:24:03.26,Default,,0000,0000,0000,,- 也许会有那笔交易的在线记录   - 好吧\N{\fs13\bord1}- Maybe there's an online record of the transaction.   - Okay.{\r}
+Dialogue: 0,0:24:03.37,0:24:07.89,Default,,0000,0000,0000,,你知道吗? Gorem先生 我们还需要借用一下Melody\N{\fs13\bord1}You know what?Mr. Gorem,we're also going to need to borrow Melody.{\r}
+Dialogue: 0,0:24:08.03,0:24:10.07,Default,,0000,0000,0000,,借-借用她?\N{\fs13\bord1}Uh,b-b-borrow her?{\r}
+Dialogue: 0,0:24:10.18,0:24:12.97,Default,,0000,0000,0000,,她很可能携带前任主人的DNA\N{\fs13\bord1}It's possible that she's carrying DNA from her previous owner.{\r}
+Dialogue: 0,0:24:13.08,0:24:16.95,Default,,0000,0000,0000,,如果你不记得他名字 我们就要带走她做些测试\N{\fs13\bord1}And if you can't remember his name,we're gonna need to take her and do a few tests.{\r}
+Dialogue: 0,0:24:17.06,0:24:19.72,Default,,0000,0000,0000,,- 测试? 哪里?   - 在我们的实验室\N{\fs13\bord1}- Tests? Where?   - At our lab.{\r}
+Dialogue: 0,0:24:19.83,0:24:23.77,Default,,0000,0000,0000,,至少我能不能和她一起去? 她很脆弱\N{\fs13\bord1}Can I at least come with her?She is very fragile.{\r}
+Dialogue: 0,0:24:23.91,0:24:27.20,Default,,0000,0000,0000,,别担心 我们会很温柔的\N{\fs13\bord1}Don't worry. We'll be gentle.{\r}
+Dialogue: 0,0:24:29.74,0:24:30.80,Default,,0000,0000,0000,,谢谢\N{\fs13\bord1}Thanks.{\r}
+Dialogue: 0,0:24:30.91,0:24:33.34,Default,,0000,0000,0000,,好吧 真是怪死了\N{\fs13\bord1}Okay,how weird was that?{\r}
+Dialogue: 0,0:24:33.47,0:24:36.15,Default,,0000,0000,0000,,这玩意能替代有血有肉的女人 决不可能\N{\fs13\bord1}There's no way that one of these can replace a real woman.{\r}
+Dialogue: 0,0:24:36.26,0:24:39.21,Default,,0000,0000,0000,,我不知道 Linds 她们长得还不赖\N{\fs13\bord1}Oh,I don't know,Linds.They're not bad-looking.{\r}
+Dialogue: 0,0:24:39.32,0:24:42.24,Default,,0000,0000,0000,,想想男人能省下的晚饭钱\N{\fs13\bord1}Think of all the money a guy could save on dinner.{\r}
+Dialogue: 0,0:24:44.53,0:24:45.97,Default,,0000,0000,0000,,一个人偶?!\N{\fs13\bord1}A doll?!{\r}
+Dialogue: 0,0:24:46.09,0:24:50.20,Default,,0000,0000,0000,,如果你为其他女人甩了我 我能理解 但这堆塑料?!\N{\fs13\bord1}I mean,I could understand if you dumped me for a real woman but a piece of plastic?!{\r}
+Dialogue: 0,0:24:50.31,0:24:53.16,Default,,0000,0000,0000,,她有什么我是没有的?\N{\fs13\bord1}What does she have that I don't have,huh?{\r}
+Dialogue: 0,0:24:53.27,0:24:56.44,Default,,0000,0000,0000,,请原谅我的妻子 她脑子有点秀逗\N{\fs13\bord1}Forgive my wife.She's not well.{\r}
+Dialogue: 0,0:24:56.55,0:24:59.81,Default,,0000,0000,0000,,我会帮你买的 Monroe 玩得高兴\N{\fs13\bord1}I'm gonna get you for that,Monroe. Big-time.{\r}
+Dialogue: 0,0:25:03.07,0:25:07.80,Default,,0000,0000,0000,,1200万人口的城市 人们却需要人偶来作伴\N{\fs13\bord1}A city of 12 million,and people need mannequins to keep them company.{\r}
+Dialogue: 0,0:25:08.25,0:25:11.96,Default,,0000,0000,0000,,他们怎么说来着 我们是独立的生物种类\N{\fs13\bord1}I mean,what does that say about where we are as a species?{\r}
+Dialogue: 0,0:25:14.38,0:25:15.89,Default,,0000,0000,0000,,我不知道\N{\fs13\bord1}I don't know.{\r}
+Dialogue: 0,0:25:16.01,0:25:19.61,Default,,0000,0000,0000,,我满脑子都在想这个可拆卸舌头\N{\fs13\bord1}I'm still trying to wrap my head around this removable tongue.{\r}
+Dialogue: 0,0:25:24.74,0:25:27.03,Default,,0000,0000,0000,,我找到一个指纹\N{\fs13\bord1}I've got a print.{\r}
+Dialogue: 0,0:25:29.84,0:25:31.24,Default,,0000,0000,0000,,怎么了 Adam?\N{\fs13\bord1}Hey,what's up,Adam?{\r}
+Dialogue: 0,0:25:31.35,0:25:33.61,Default,,0000,0000,0000,,没什么 我...\N{\fs13\bord1}Uh,n-nothing,I,um...{\r}
+Dialogue: 0,0:25:33.72,0:25:37.99,Default,,0000,0000,0000,,想知道你们是否需要些药签什么的\N{\fs13\bord1}You know,wondering if you guys need some,uh... swabs or something.{\r}
+Dialogue: 0,0:25:38.11,0:25:41.92,Default,,0000,0000,0000,,不 这里一切尽在掌握 Adam 谢谢\N{\fs13\bord1}No,I think we got it all under control here,Adam,thanks.{\r}
+Dialogue: 0,0:25:42.48,0:25:45.03,Default,,0000,0000,0000,,上帝啊 她太--我从没亲眼见过这个\N{\fs13\bord1}God,she's so-- I mean,I've never seen one in real life before.{\r}
+Dialogue: 0,0:25:45.16,0:25:48.60,Default,,0000,0000,0000,,太栩栩如生了 我能摸摸她吗?\N{\fs13\bord1}It's so realistic.Can I touch her?{\r}
+Dialogue: 0,0:25:48.74,0:25:50.72,Default,,0000,0000,0000,,Adam\N{\fs13\bord1}Adam.{\r}
+Dialogue: 0,0:25:51.73,0:25:54.47,Default,,0000,0000,0000,,我走了\N{\fs13\bord1}I'm going.{\r}
+Dialogue: 0,0:25:56.02,0:25:58.31,Default,,0000,0000,0000,,红发\N{\fs13\bord1}Red hair.{\r}
+Dialogue: 0,0:26:01.80,0:26:04.45,Default,,0000,0000,0000,,我们就快好了 Melody\N{\fs13\bord1}We're almost finished,Melody.{\r}
+Dialogue: 0,0:26:04.56,0:26:06.69,Default,,0000,0000,0000,,好了\N{\fs13\bord1}Done.{\r}
+Dialogue: 0,0:26:06.80,0:26:09.52,Default,,0000,0000,0000,,指纹找到吻合的\N{\fs13\bord1}Hey,I got a match on the print.{\r}
+Dialogue: 0,0:26:09.63,0:26:12.12,Default,,0000,0000,0000,,是Trevor Jones的\N{\fs13\bord1}Belongs to a Trevor Jones.{\r}
+Dialogue: 0,0:26:12.24,0:26:13.76,Default,,0000,0000,0000,,他在总检察长办公室工作\N{\fs13\bord1}He works for the Attorney General's office.{\r}
+Dialogue: 0,0:26:13.89,0:26:16.61,Default,,0000,0000,0000,,白天是这样 晚上则交易人偶\N{\fs13\bord1}By day. Trades dolls by night.{\r}
+Dialogue: 0,0:26:16.72,0:26:17.82,Default,,0000,0000,0000,,讨论他的秘密生活\N{\fs13\bord1}Talk about a secret life.{\r}
+Dialogue: 0,0:26:17.96,0:26:20.63,Default,,0000,0000,0000,,等一下 这不就是那个和Danny 还有Flack谈过话的人吗?\N{\fs13\bord1}Wait a minute. Isn't that the guy that Danny and Flack talked to?{\r}
+Dialogue: 0,0:26:20.78,0:26:21.62,Default,,0000,0000,0000,,是啊\N{\fs13\bord1}Right.{\r}
+Dialogue: 0,0:26:21.73,0:26:25.93,Default,,0000,0000,0000,,这个金发神秘目击者 在案发时正从他的窗口往外看呢\N{\fs13\bord1}The blonde mystery witness was looking out of his window at the time of the murder.{\r}
+Dialogue: 0,0:26:26.06,0:26:30.09,Default,,0000,0000,0000,,哪种人目睹一起谋杀却不报案呢?\N{\fs13\bord1}What kind of a person watches a murder and then doesn't come forward?{\r}
+Dialogue: 0,0:26:30.20,0:26:32.82,Default,,0000,0000,0000,,不能说话的人\N{\fs13\bord1}One without a voice.{\r}
+Dialogue: 0,0:26:38.45,0:26:39.14,Default,,0000,0000,0000,,想我们吗?\N{\fs13\bord1}Miss us?{\r}
+Dialogue: 0,0:26:39.26,0:26:41.21,Default,,0000,0000,0000,,没有搜查令你们不能闯进来\N{\fs13\bord1}You can't just barge in here,not without a warrant.{\r}
+Dialogue: 0,0:26:41.34,0:26:42.00,Default,,0000,0000,0000,,看看我有什么\N{\fs13\bord1}Oh,look what I got.{\r}
+Dialogue: 0,0:26:42.11,0:26:43.48,Default,,0000,0000,0000,,你的女朋友在哪儿呢 Trev?\N{\fs13\bord1}Where's your girlfriend,Trev?{\r}
+Dialogue: 0,0:26:43.59,0:26:44.96,Default,,0000,0000,0000,,- 什么女朋友?   - 橡胶的那个\N{\fs13\bord1}- What girlfriend?   - The rubber one.{\r}
+Dialogue: 0,0:26:45.07,0:26:46.56,Default,,0000,0000,0000,,Danny 是硅树脂\N{\fs13\bord1}Danny,silicone.{\r}
+Dialogue: 0,0:26:46.67,0:26:48.21,Default,,0000,0000,0000,,对不起 硅树脂\N{\fs13\bord1}Oh,sorry,right,silicone.{\r}
+Dialogue: 0,0:26:48.33,0:26:49.77,Default,,0000,0000,0000,,你们能不能告诉我这是怎么回事?\N{\fs13\bord1}You guys mind telling me what this is about?{\r}
+Dialogue: 0,0:26:49.88,0:26:52.12,Default,,0000,0000,0000,,警探们\N{\fs13\bord1}Detectives.{\r}
+Dialogue: 0,0:26:54.51,0:26:56.57,Default,,0000,0000,0000,,就是这回事\N{\fs13\bord1}This is what it's about.{\r}
+Dialogue: 0,0:26:56.68,0:26:57.90,Default,,0000,0000,0000,,不是你们想的那样 好不好?\N{\fs13\bord1}It's not what you think,all right?{\r}
+Dialogue: 0,0:26:58.02,0:27:00.35,Default,,0000,0000,0000,,我的同事跟我开玩笑给我的\N{\fs13\bord1}Some of the guys at work got her for me as a joke.{\r}
+Dialogue: 0,0:27:00.46,0:27:05.44,Default,,0000,0000,0000,,好吧 从那之后她就在你床底积灰\N{\fs13\bord1}Right. And she's been under your bed collecting dust ever since.{\r}
+Dialogue: 0,0:27:13.58,0:27:16.93,Default,,0000,0000,0000,,我们找到神秘的目击证人了\N{\fs13\bord1}I think we just found our mystery witness.{\r}
+Dialogue: 0,0:27:17.32,0:27:19.34,Default,,0000,0000,0000,,拿稳了\N{\fs13\bord1}Here we go.{\r}
+Dialogue: 0,0:27:21.33,0:27:22.35,Default,,0000,0000,0000,,就是她了\N{\fs13\bord1}Oh,it's her all right.{\r}
+Dialogue: 0,0:27:22.48,0:27:23.94,Default,,0000,0000,0000,,你们不能带走她 她是我的财产\N{\fs13\bord1}You can't take her; she's my property.{\r}
+Dialogue: 0,0:27:24.07,0:27:26.42,Default,,0000,0000,0000,,- 现在她是我们的了   - 不 不 等等 你们为什么带走她?\N{\fs13\bord1}- Now she's ours. - No,no,no,wait.I mean,why-why are you taking her?{\r}
+Dialogue: 0,0:27:26.53,0:27:27.91,Default,,0000,0000,0000,,她和这件事有什么关系?\N{\fs13\bord1}What does she have to do with this?{\r}
+Dialogue: 0,0:27:28.02,0:27:30.77,Default,,0000,0000,0000,,如果你女友的头发和硅树脂 和证据吻合\N{\fs13\bord1}If the girlfriend's hair and silicone match our evidence,{\r}
+Dialogue: 0,0:27:30.89,0:27:32.47,Default,,0000,0000,0000,,- 那就证明死者来过你的公寓   - 所以呢?\N{\fs13\bord1}- it puts the victim in your apartment.   - So?{\r}
+Dialogue: 0,0:27:32.58,0:27:37.45,Default,,0000,0000,0000,,你说你从没见过Ann Steele 那就意味着你在撒谎\N{\fs13\bord1}So you told us you never met Ann Steele before. That would mean you lied.{\r}
+Dialogue: 0,0:27:37.57,0:27:40.56,Default,,0000,0000,0000,,我们去市区 再谈这事\N{\fs13\bord1}We'll take a ride downtown and talk about this.{\r}
+Dialogue: 0,0:27:43.59,0:27:46.83,Default,,0000,0000,0000,,没错 看看 这就是男孩不该玩人偶的原因\N{\fs13\bord1}Yeah,see,that's why boys shouldn't play with dolls.{\r}
+Dialogue: 0,0:27:48.95,0:27:51.12,Default,,0000,0000,0000,,我知道那个故事\N{\fs13\bord1}I know that story.{\r}
+Dialogue: 0,0:27:51.23,0:27:53.91,Default,,0000,0000,0000,,为旧时光干杯\N{\fs13\bord1}Here's to old times.{\r}
+Dialogue: 0,0:27:59.19,0:28:01.96,Default,,0000,0000,0000,,也为两点钟方向的黑发美女干杯\N{\fs13\bord1}And to that brunette at 2:00.{\r}
+Dialogue: 0,0:28:04.61,0:28:06.90,Default,,0000,0000,0000,,- 老兄 你可没怎么变   - 我当然变了\N{\fs13\bord1}- Man,you haven't changed a bit.   - Sure I have.{\r}
+Dialogue: 0,0:28:07.01,0:28:10.86,Default,,0000,0000,0000,,现在我可以请她喝一杯 还能买辆梅赛德斯送她\N{\fs13\bord1}Now I could afford to buy her a drink. And a Mercedes.{\r}
+Dialogue: 0,0:28:12.09,0:28:14.94,Default,,0000,0000,0000,,你现在一定干得不错 他们让你调查Ann Steele的案子\N{\fs13\bord1}And you got to be doing al right,they put you on this Ann Steele case.{\r}
+Dialogue: 0,0:28:15.07,0:28:16.54,Default,,0000,0000,0000,,你为什么一直提到她呢?\N{\fs13\bord1}Why do you keep bringing her up?{\r}
+Dialogue: 0,0:28:16.67,0:28:19.43,Default,,0000,0000,0000,,对不起 我之前就该告诉你的\N{\fs13\bord1}Yeah,I'm sorry.I should've told you this earlier.{\r}
+Dialogue: 0,0:28:19.54,0:28:21.90,Default,,0000,0000,0000,,我老爸 几个星期前 他把事情搞得一团糟\N{\fs13\bord1}The old man,he screwed up pretty bad a few months back.{\r}
+Dialogue: 0,0:28:22.02,0:28:26.50,Default,,0000,0000,0000,,他处理财务问题时卷入了行贿丑闻\N{\fs13\bord1}He tried to push some money around and got mixed up in this bribery scandal.{\r}
+Dialogue: 0,0:28:26.61,0:28:28.99,Default,,0000,0000,0000,,Ann Steele替他擦了屁股\N{\fs13\bord1}Ann Steele mopped up the mess.{\r}
+Dialogue: 0,0:28:29.10,0:28:31.61,Default,,0000,0000,0000,,好吧 那有什么问题呢?\N{\fs13\bord1}Okay,so what's the problem?{\r}
+Dialogue: 0,0:28:32.38,0:28:35.47,Default,,0000,0000,0000,,她把所有客户资料都放进U盘\N{\fs13\bord1}She kept all her client's files on flash drives.{\r}
+Dialogue: 0,0:28:35.58,0:28:38.06,Default,,0000,0000,0000,,那些资料绝对会毁了我老爸的\N{\fs13\bord1}Had more than enough to bury my old man.{\r}
+Dialogue: 0,0:28:38.17,0:28:40.10,Default,,0000,0000,0000,,你为什么要告诉我?\N{\fs13\bord1}Why are you telling me?{\r}
+Dialogue: 0,0:28:40.23,0:28:43.39,Default,,0000,0000,0000,,我想我得把这些资料给删了\N{\fs13\bord1}I guess I'm gonna have to put it out there.{\r}
+Dialogue: 0,0:28:43.81,0:28:47.37,Default,,0000,0000,0000,,如果你凑巧看到 任何和我老爸有关的证据\N{\fs13\bord1}If you happen to come across any evidence that's tied to my dad,{\r}
+Dialogue: 0,0:28:47.48,0:28:51.91,Default,,0000,0000,0000,,他会感谢你的判断力 还有你的帮助\N{\fs13\bord1}he'd appreciate your discretion. And your help.{\r}
+Dialogue: 0,0:28:52.54,0:28:55.68,Default,,0000,0000,0000,,所以你存心在办公室外偶遇我\N{\fs13\bord1}So bumping into you outside my office,that wasn't an accident.{\r}
+Dialogue: 0,0:28:55.82,0:28:56.83,Default,,0000,0000,0000,,我不知道还能找谁帮忙\N{\fs13\bord1}I didn't know where else to turn.{\r}
+Dialogue: 0,0:28:56.95,0:29:00.15,Default,,0000,0000,0000,,老实说 你只要删除有关他的信息就成\N{\fs13\bord1}And honestly,all you're gonna have to do is just delete any information pertaining to him.{\r}
+Dialogue: 0,0:29:00.26,0:29:01.39,Default,,0000,0000,0000,,我不必做任何事\N{\fs13\bord1}I don't have to do anything.{\r}
+Dialogue: 0,0:29:01.53,0:29:03.49,Default,,0000,0000,0000,,拜托 那和Steele的谋杀案 可没什么关系\N{\fs13\bord1}Come on,it's not like it's connected to Steele's murder.{\r}
+Dialogue: 0,0:29:03.61,0:29:07.20,Default,,0000,0000,0000,,这不是问题的关键 这是篡改证据 你知道我不能那么做\N{\fs13\bord1}It doesn't matter. It's tampering with evidence. And you know I can't do that.{\r}
+Dialogue: 0,0:29:07.31,0:29:10.65,Default,,0000,0000,0000,,法律上是不能 但是情感上...\N{\fs13\bord1}Legally,no. But morally...{\r}
+Dialogue: 0,0:29:11.68,0:29:14.30,Default,,0000,0000,0000,,你还记得你在医学院的最后一年   --你得到的奖学金?\N{\fs13\bord1}You remember your last year of medical school-- that scholarship you got?{\r}
+Dialogue: 0,0:29:14.43,0:29:15.32,Default,,0000,0000,0000,,记得 那又怎么了?\N{\fs13\bord1}Yeah,what about it?{\r}
+Dialogue: 0,0:29:15.45,0:29:19.43,Default,,0000,0000,0000,,那是我老爸为了你捐给学校的\N{\fs13\bord1}It was donated to the school on your behalf by my father.{\r}
+Dialogue: 0,0:29:19.54,0:29:21.55,Default,,0000,0000,0000,,Lowell为我付了学费?\N{\fs13\bord1}Lowell paid my tuition?{\r}
+Dialogue: 0,0:29:21.66,0:29:23.52,Default,,0000,0000,0000,,他想要这么做\N{\fs13\bord1}He wanted to do it.{\r}
+Dialogue: 0,0:29:23.63,0:29:25.81,Default,,0000,0000,0000,,他信任你 他觉得你会做出成绩的\N{\fs13\bord1}He believed in you.He thought you were headed for great things.{\r}
+Dialogue: 0,0:29:25.93,0:29:28.54,Default,,0000,0000,0000,,你知道吗? 他没错\N{\fs13\bord1}And you know what? He was right.{\r}
+Dialogue: 0,0:29:28.65,0:29:31.07,Default,,0000,0000,0000,,他很高兴能帮到你\N{\fs13\bord1}He was happy to be there for you when you needed help,{\r}
+Dialogue: 0,0:29:31.19,0:29:34.91,Default,,0000,0000,0000,,现在 你也该回报他了\N{\fs13\bord1}and now,it's your turn to do the same.{\r}
+Dialogue: 0,0:29:36.07,0:29:38.66,Default,,0000,0000,0000,,你这么说我可就不喜欢了 Greg\N{\fs13\bord1}I don't like how this is sounding,Greg.{\r}
+Dialogue: 0,0:29:38.78,0:29:43.08,Default,,0000,0000,0000,,如果是真事 我很感激你父亲为我所做的\N{\fs13\bord1}Now,if it's true,I appreciate what your father did for me.{\r}
+Dialogue: 0,0:29:43.19,0:29:45.81,Default,,0000,0000,0000,,但那是他的决定 不是我的\N{\fs13\bord1}But that was his decision,not mine.{\r}
+Dialogue: 0,0:29:45.92,0:29:48.61,Default,,0000,0000,0000,,我不欠他什么\N{\fs13\bord1}And I don't owe him anything.{\r}
+Dialogue: 0,0:29:51.15,0:29:53.37,Default,,0000,0000,0000,,嘿 Sheldon!\N{\fs13\bord1}Hey,Sheldon!{\r}
+Dialogue: 0,0:30:04.67,0:30:06.97,Default,,0000,0000,0000,,记得她吗?\N{\fs13\bord1}Remember her?{\r}
+Dialogue: 0,0:30:07.37,0:30:10.13,Default,,0000,0000,0000,,醉了不记得了 是吧\N{\fs13\bord1}Nah,you were drunk. Right.{\r}
+Dialogue: 0,0:30:10.24,0:30:13.28,Default,,0000,0000,0000,,你杀她时也醉醺醺吗 还是那时清醒过来了?\N{\fs13\bord1}Were you drunk when you killed her,or you sober up by then?{\r}
+Dialogue: 0,0:30:13.39,0:30:15.93,Default,,0000,0000,0000,,- 我不认识她   - 她叫Ann Steele\N{\fs13\bord1}- I don't recognize her.   - Her name is Ann Steele.{\r}
+Dialogue: 0,0:30:16.04,0:30:19.70,Default,,0000,0000,0000,,她丝袜上发现的头发和你的小女友吻合\N{\fs13\bord1}Hair we found on her nylon is a match to your little doll.{\r}
+Dialogue: 0,0:30:21.54,0:30:25.73,Default,,0000,0000,0000,,她手镯上的硅树脂 也和你的小女友吻合\N{\fs13\bord1}Silicone on her bracelet,also a match to your doll.{\r}
+Dialogue: 0,0:30:27.25,0:30:30.75,Default,,0000,0000,0000,,我醉了 我不记得她的长相了\N{\fs13\bord1}I was drunk.I didn't remember her face.{\r}
+Dialogue: 0,0:30:30.86,0:30:33.57,Default,,0000,0000,0000,,那你还记得什么 快说出来\N{\fs13\bord1}Why don't you tell us what you do remember.{\r}
+Dialogue: 0,0:30:33.68,0:30:36.35,Default,,0000,0000,0000,,好吧 我们在酒吧遇上的 我把她带回家\N{\fs13\bord1}All right,I met her at a bar,took her back to my apartment.{\r}
+Dialogue: 0,0:30:36.48,0:30:38.70,Default,,0000,0000,0000,,我们在客厅调情\N{\fs13\bord1}We were in the living room fooling around.{\r}
+Dialogue: 0,0:30:38.81,0:30:41.35,Default,,0000,0000,0000,,她问我能不能去厨房拿点葡萄酒\N{\fs13\bord1}She asked if I could go into the kitchen and get us some wine.{\r}
+Dialogue: 0,0:30:41.46,0:30:45.00,Default,,0000,0000,0000,,我回来以后就找不到她了\N{\fs13\bord1}When I came back,I couldn't find her.{\r}
+Dialogue: 0,0:30:45.72,0:30:47.40,Default,,0000,0000,0000,,这是什么鬼东西?\N{\fs13\bord1}Who the hell is that?{\r}
+Dialogue: 0,0:30:47.53,0:30:50.30,Default,,0000,0000,0000,,听我解释 就是个人偶\N{\fs13\bord1}Uh,I-I can explain. It's um,see,it's just a doll.{\r}
+Dialogue: 0,0:30:50.41,0:30:53.09,Default,,0000,0000,0000,,- 天哪 你真变态   - 别 别 听我解释啊\N{\fs13\bord1}- Oh,God,you're some kind of freak.   - No,no,no,I can explain.{\r}
+Dialogue: 0,0:30:53.20,0:30:55.96,Default,,0000,0000,0000,,- 我走了 变态!   - 等一下 等等!\N{\fs13\bord1}- I'm out of here,pervert!   - Wait a minute,wait!{\r}
+Dialogue: 0,0:30:56.07,0:30:57.59,Default,,0000,0000,0000,,我发誓 那就是我最后一次见她\N{\fs13\bord1}I swear,that was the last I saw of her.{\r}
+Dialogue: 0,0:30:57.71,0:30:59.05,Default,,0000,0000,0000,,你就让她那么走了?\N{\fs13\bord1}So you just let her go?{\r}
+Dialogue: 0,0:30:59.16,0:31:01.10,Default,,0000,0000,0000,,随她知道你怪异的小秘密?\N{\fs13\bord1}Taking your kinky,little secret with her?{\r}
+Dialogue: 0,0:31:01.21,0:31:02.55,Default,,0000,0000,0000,,事情就是这样的\N{\fs13\bord1}That's my story.{\r}
+Dialogue: 0,0:31:02.67,0:31:06.43,Default,,0000,0000,0000,,我肯定陪审团会和我们一样觉得可笑\N{\fs13\bord1}And I'm sure the jury will be just as entertained as we were.{\r}
+Dialogue: 0,0:31:06.84,0:31:08.76,Default,,0000,0000,0000,,你如果配合一点\N{\fs13\bord1}Hey,if you play your cards right,{\r}
+Dialogue: 0,0:31:08.88,0:31:12.31,Default,,0000,0000,0000,,也许能让你以配偶身份 去看望你的小Tiffany呢\N{\fs13\bord1}you might even be able to swing some conjugal visits with Tiffany.{\r}
+Dialogue: 0,0:31:12.81,0:31:14.81,Default,,0000,0000,0000,,你们也许能证明她去过我公寓\N{\fs13\bord1}You might be able to prove this woman was in my apartment,{\r}
+Dialogue: 0,0:31:14.92,0:31:16.16,Default,,0000,0000,0000,,但你们没办法证明我杀了她\N{\fs13\bord1}but you can't prove I killed her.{\r}
+Dialogue: 0,0:31:16.27,0:31:18.42,Default,,0000,0000,0000,,事实上 你们都没有足够证据逮捕我\N{\fs13\bord1}In fact,you don't even have enough to arrest me.{\r}
+Dialogue: 0,0:31:18.53,0:31:21.20,Default,,0000,0000,0000,,只是现在还没有\N{\fs13\bord1}Not yet.{\r}
+Dialogue: 0,0:31:33.60,0:31:35.80,Default,,0000,0000,0000,,- 晚安   - 你也是\N{\fs13\bord1}- Have a good night.   - You got it.{\r}
+Dialogue: 0,0:31:47.17,0:31:48.67,Default,,0000,0000,0000,,快 快走\N{\fs13\bord1}Come on,let's get out of here.{\r}
+Dialogue: 0,0:31:49.45,0:31:51.68,Default,,0000,0000,0000,,快跑!\N{\fs13\bord1}Run!{\r}
+Dialogue: 0,0:32:18.20,0:32:20.59,Default,,0000,0000,0000,,Trevor Jones刚刚走了\N{\fs13\bord1}Trevor Jones just walked.{\r}
+Dialogue: 0,0:32:21.32,0:32:22.87,Default,,0000,0000,0000,,你怎么了?\N{\fs13\bord1}What the hell happened?{\r}
+Dialogue: 0,0:32:23.00,0:32:24.71,Default,,0000,0000,0000,,有人在我公寓外袭击了我\N{\fs13\bord1}A couple guys jumped me outside my apartment.{\r}
+Dialogue: 0,0:32:24.82,0:32:26.35,Default,,0000,0000,0000,,有人? 什么人?\N{\fs13\bord1}What do you mean guys? What guys?{\r}
+Dialogue: 0,0:32:26.46,0:32:27.68,Default,,0000,0000,0000,,我正在搞清楚\N{\fs13\bord1}That's what I'm trying to find out.{\r}
+Dialogue: 0,0:32:27.80,0:32:29.33,Default,,0000,0000,0000,,是想抢劫吗? 是为什么?\N{\fs13\bord1}Were they after your wallet?What?{\r}
+Dialogue: 0,0:32:29.44,0:32:32.41,Default,,0000,0000,0000,,我待会跟你说 Jones那边怎样了?\N{\fs13\bord1}I'll fill you in later. What happened with Jones?{\r}
+Dialogue: 0,0:32:33.10,0:32:37.08,Default,,0000,0000,0000,,我们找不到血迹 没有确凿证据证明他谋杀\N{\fs13\bord1}Uh,well,we got no blood,nothing to tie him to the actual murder.{\r}
+Dialogue: 0,0:32:37.19,0:32:38.37,Default,,0000,0000,0000,,Steele的U盘呢?\N{\fs13\bord1}What about Steele's flash drive?{\r}
+Dialogue: 0,0:32:38.50,0:32:40.53,Default,,0000,0000,0000,,如果我们能在Trevor家找到 就能证明他和案子有关\N{\fs13\bord1}We find that on Trevor,that's as good a connection as any.{\r}
+Dialogue: 0,0:32:40.65,0:32:42.08,Default,,0000,0000,0000,,他公寓里找不到\N{\fs13\bord1}There was no sign of it in his apartment.{\r}
+Dialogue: 0,0:32:42.19,0:32:43.60,Default,,0000,0000,0000,,我所有地方都找了两遍\N{\fs13\bord1}I checked everywhere. Twice.{\r}
+Dialogue: 0,0:32:43.71,0:32:48.42,Default,,0000,0000,0000,,如果能为了这东西杀人 肯定舍不得丢掉吧?\N{\fs13\bord1}Well,if it was worth killing over,I doubt he would've just dumped it. Huh?{\r}
+Dialogue: 0,0:32:48.74,0:32:50.13,Default,,0000,0000,0000,,那问题就是:\N{\fs13\bord1}All right,so the question is:{\r}
+Dialogue: 0,0:32:50.25,0:32:52.89,Default,,0000,0000,0000,,值钱的东西你通常藏哪儿?\N{\fs13\bord1}Where do you hide something that valuable?{\r}
+Dialogue: 0,0:32:56.60,0:33:00.73,Default,,0000,0000,0000,,也许就在你觉得没人会多看一眼的地方\N{\fs13\bord1}Maybe someplace you thought no one would ever look.{\r}
+Dialogue: 0,0:34:15.08,0:34:16.13,Default,,0000,0000,0000,,嘿 Mac\N{\fs13\bord1}Hey,Mac,{\r}
+Dialogue: 0,0:34:16.26,0:34:19.19,Default,,0000,0000,0000,,我从Trevor Jones那里没收来的 人偶里找到了U盘\N{\fs13\bord1}I found the flash drive in the doll we confiscated from Trevor Jones.{\r}
+Dialogue: 0,0:34:19.30,0:34:22.03,Default,,0000,0000,0000,,看你的样子 还被她狠狠揍了一顿?\N{\fs13\bord1}Hmm. From the looks of you,she put up a hell of a fight.{\r}
+Dialogue: 0,0:34:22.14,0:34:25.26,Default,,0000,0000,0000,,是撞到健身房的墙上了\N{\fs13\bord1}Yeah,The damn wall at the gym got in my way.{\r}
+Dialogue: 0,0:34:25.37,0:34:26.64,Default,,0000,0000,0000,,找到有用的线索了吗?\N{\fs13\bord1}You get anything we can use?{\r}
+Dialogue: 0,0:34:26.77,0:34:28.86,Default,,0000,0000,0000,,Jones的指纹 还有Steele的血迹\N{\fs13\bord1}Jones' prints. Traces of Steele's blood.{\r}
+Dialogue: 0,0:34:28.98,0:34:31.28,Default,,0000,0000,0000,,她肯定从他电脑里下载信息了\N{\fs13\bord1}She definitely downloaded information off his computer.{\r}
+Dialogue: 0,0:34:31.40,0:34:33.39,Default,,0000,0000,0000,,他发现后就杀了她\N{\fs13\bord1}And when he found out about it,he killed her for it.{\r}
+Dialogue: 0,0:34:33.52,0:34:35.74,Default,,0000,0000,0000,,里面还有其他小报编辑 做梦都想得到的丑闻内幕\N{\fs13\bord1}I can think of a few tabloid editors who'd kill for it,too.{\r}
+Dialogue: 0,0:34:35.86,0:34:37.85,Default,,0000,0000,0000,,性丑闻 受贿 勒索\N{\fs13\bord1}Sexual allegations,bribery,blackmail.{\r}
+Dialogue: 0,0:34:37.97,0:34:39.90,Default,,0000,0000,0000,,你只要提出来 Steele就能查得到\N{\fs13\bord1}You name it,Steele was into it.{\r}
+Dialogue: 0,0:34:40.02,0:34:43.38,Default,,0000,0000,0000,,我就不用提醒你 里面的信息你得保密了吧?\N{\fs13\bord1}I don't need to remind you that what you saw on this drive stays between me and you?{\r}
+Dialogue: 0,0:34:43.50,0:34:45.28,Default,,0000,0000,0000,,别担心 你知道我会支持你的\N{\fs13\bord1}No worries. You know I got your back.{\r}
+Dialogue: 0,0:34:45.40,0:34:46.43,Default,,0000,0000,0000,,我也一样\N{\fs13\bord1}And I got yours.{\r}
+Dialogue: 0,0:34:46.56,0:34:49.37,Default,,0000,0000,0000,,愿意跟我说说那堵撞到你的"墙"吗?\N{\fs13\bord1}Why don't you tell me about that wall that hit you?{\r}
+Dialogue: 0,0:34:54.52,0:34:56.32,Default,,0000,0000,0000,,好吧\N{\fs13\bord1}Okay.{\r}
+Dialogue: 0,0:34:57.23,0:35:02.77,Default,,0000,0000,0000,,一个所谓的朋友要我在U盘上做手脚 我拒绝了\N{\fs13\bord1}A so-called friend wanted me to mess with that flash drive,and I refused.{\r}
+Dialogue: 0,0:35:02.88,0:35:05.58,Default,,0000,0000,0000,,他爸爸资助我上的医学院 他觉得这是我欠他的\N{\fs13\bord1}His dad helped me out in medical school,and he thought I owed him.{\r}
+Dialogue: 0,0:35:05.71,0:35:07.03,Default,,0000,0000,0000,,你知道 其实我可以满足他的要求\N{\fs13\bord1}You know,I could have given him what he wanted.{\r}
+Dialogue: 0,0:35:07.15,0:35:10.93,Default,,0000,0000,0000,,也不会影响这个案子 但我不会\N{\fs13\bord1}It wouldn't have affected the case,but I didn't do it. I just couldn't.{\r}
+Dialogue: 0,0:35:13.15,0:35:16.66,Default,,0000,0000,0000,,Sheldon 这些你可以不告诉我的 不过谢谢你对我说了\N{\fs13\bord1}Well,you didn't have to tell me that,Sheldon, but thanks.{\r}
+Dialogue: 0,0:35:24.55,0:35:28.55,Default,,0000,0000,0000,,你为了Ann Steele的U盘杀了她\N{\fs13\bord1}You killed Ann Steele for her flash drive.{\r}
+Dialogue: 0,0:35:28.86,0:35:30.19,Default,,0000,0000,0000,,她说那是个唇膏\N{\fs13\bord1}She said that was lipstick.{\r}
+Dialogue: 0,0:35:30.32,0:35:34.05,Default,,0000,0000,0000,,我们在里面找到了 与总检察长办公室有关的文件\N{\fs13\bord1}We found secret files on it pertaining to the attorney general's office.{\r}
+Dialogue: 0,0:35:34.57,0:35:36.21,Default,,0000,0000,0000,,这是她从你电脑上偷的\N{\fs13\bord1}Files she stole from your computer.{\r}
+Dialogue: 0,0:35:36.32,0:35:39.26,Default,,0000,0000,0000,,她不知道我在哪工作 她是偶然在酒吧搭识上我的\N{\fs13\bord1}She didn't know who I worked for.She came onto me in a random bar.{\r}
+Dialogue: 0,0:35:39.38,0:35:41.52,Default,,0000,0000,0000,,因为她想接近你的电脑\N{\fs13\bord1}Because she needed access to your home computer.{\r}
+Dialogue: 0,0:35:41.63,0:35:43.68,Default,,0000,0000,0000,,她很清楚你在哪儿工作\N{\fs13\bord1}She knew exactly who you worked for.{\r}
+Dialogue: 0,0:35:43.81,0:35:45.51,Default,,0000,0000,0000,,她耍了你 Trevor\N{\fs13\bord1}She played you,Trevor.{\r}
+Dialogue: 0,0:35:45.63,0:35:47.85,Default,,0000,0000,0000,,不 事情不是这样\N{\fs13\bord1}No,it wasn't like that.{\r}
+Dialogue: 0,0:35:48.19,0:35:48.93,Default,,0000,0000,0000,,你在干嘛?\N{\fs13\bord1}What are you doing?{\r}
+Dialogue: 0,0:35:49.04,0:35:50.92,Default,,0000,0000,0000,,噢 我唇膏掉了\N{\fs13\bord1}Oh,I-I dropped my lipstick.{\r}
+Dialogue: 0,0:35:51.04,0:35:53.17,Default,,0000,0000,0000,,- 我帮你   - 不用了 我看到在哪儿了\N{\fs13\bord1}- Let me help you.   - No,I see it,I see it.{\r}
+Dialogue: 0,0:36:00.10,0:36:00.98,Default,,0000,0000,0000,,我碰都没碰她\N{\fs13\bord1}I didn't touch her.{\r}
+Dialogue: 0,0:36:01.09,0:36:03.45,Default,,0000,0000,0000,,你不想知道她在你卧室做了什么?\N{\fs13\bord1}You didn't wonder what she'd been doing in your bedroom?{\r}
+Dialogue: 0,0:36:03.56,0:36:07.43,Default,,0000,0000,0000,,她走后 你也没注意到电脑是开着的?\N{\fs13\bord1}And after she left,you didn't notice that your computer was on?{\r}
+Dialogue: 0,0:36:07.56,0:36:09.94,Default,,0000,0000,0000,,文件被下载了?\N{\fs13\bord1}That files had been breeched?{\r}
+Dialogue: 0,0:36:10.34,0:36:12.93,Default,,0000,0000,0000,,你也没发狂一样跑到街上追她?\N{\fs13\bord1}And you didn't chase her down in the street like an animal?{\r}
+Dialogue: 0,0:36:13.06,0:36:14.97,Default,,0000,0000,0000,,用力砸她的头 拿回自己的东西?\N{\fs13\bord1}Bash her in the head to get back what she'd stolen?{\r}
+Dialogue: 0,0:36:15.08,0:36:15.86,Default,,0000,0000,0000,,没有\N{\fs13\bord1}No.{\r}
+Dialogue: 0,0:36:15.97,0:36:17.48,Default,,0000,0000,0000,,- 把U盘给我   - 不\N{\fs13\bord1}- Give me the flash drive.   - No.{\r}
+Dialogue: 0,0:36:17.59,0:36:20.54,Default,,0000,0000,0000,,嘿 给我 快给我\N{\fs13\bord1}Hey,give it to me.Give it to me.{\r}
+Dialogue: 0,0:36:25.60,0:36:28.27,Default,,0000,0000,0000,,- 你什么都没做?   - 没做\N{\fs13\bord1}- You didn't do any of that?   - No,I didn't.{\r}
+Dialogue: 0,0:36:29.39,0:36:34.72,Default,,0000,0000,0000,,那你怎么解释你的指纹和她的血迹 会在U盘上?\N{\fs13\bord1}Well,then,how do you explain that your prints and the victim's blood are all over her flash drive?{\r}
+Dialogue: 0,0:36:35.65,0:36:37.06,Default,,0000,0000,0000,,也许是我捡起来的时候...\N{\fs13\bord1}Maybe I picked it up.{\r}
+Dialogue: 0,0:36:37.20,0:36:38.49,Default,,0000,0000,0000,,没错 是我捡起来的\N{\fs13\bord1}Yeah,I-I think I picked it up.{\r}
+Dialogue: 0,0:36:38.62,0:36:40.32,Default,,0000,0000,0000,,血迹在你指纹下面\N{\fs13\bord1}The blood is under your prints.{\r}
+Dialogue: 0,0:36:40.46,0:36:44.08,Default,,0000,0000,0000,,只有一种可能性 就是你杀了她\N{\fs13\bord1}The only way that could have happened is if you killed her.{\r}
+Dialogue: 0,0:36:52.68,0:36:55.09,Default,,0000,0000,0000,,你可能觉得我十恶不赦\N{\fs13\bord1}You may think I'm a monster,{\r}
+Dialogue: 0,0:36:56.42,0:37:02.02,Default,,0000,0000,0000,,但我回家以后 看了Ann Steele U盘里的文件\N{\fs13\bord1}but when I got home,and I read the files on Ann Steele's flash drive,{\r}
+Dialogue: 0,0:37:02.13,0:37:05.39,Default,,0000,0000,0000,,我意识到谁才是这个城市的恶人\N{\fs13\bord1}I realized who the real monsters in this city are.{\r}
+Dialogue: 0,0:37:05.52,0:37:08.91,Default,,0000,0000,0000,,就是那些坐在董事会里的\N{\fs13\bord1}They're the people sitting in the board rooms,{\r}
+Dialogue: 0,0:37:09.02,0:37:12.39,Default,,0000,0000,0000,,或者法官啊 被人英雄一般对待的人\N{\fs13\bord1}running the courts,riding in the ticker tape parades.{\r}
+Dialogue: 0,0:37:12.50,0:37:14.73,Default,,0000,0000,0000,,你又能对他们做些什么?\N{\fs13\bord1}What are you going to do about them?{\r}
+Dialogue: 0,0:37:14.85,0:37:17.56,Default,,0000,0000,0000,,他们没有杀人 Trevor\N{\fs13\bord1}They didn't commit murder,Trevor.{\r}
+Dialogue: 0,0:37:20.32,0:37:22.19,Default,,0000,0000,0000,,你杀人了\N{\fs13\bord1}You did.{\r}
+Dialogue: 0,0:37:37.59,0:37:39.53,Default,,0000,0000,0000,,Pullman!\N{\fs13\bord1}Pullman!{\r}
+Dialogue: 0,0:37:39.91,0:37:41.16,Default,,0000,0000,0000,,你看起来糟透了 怎么回事?\N{\fs13\bord1}Hey,you look terrible. What happened to you?{\r}
+Dialogue: 0,0:37:41.28,0:37:42.76,Default,,0000,0000,0000,,省省吧 Greg 我知道是你干的\N{\fs13\bord1}Save it,Greg. I know it was you.{\r}
+Dialogue: 0,0:37:42.87,0:37:43.93,Default,,0000,0000,0000,,下次你雇人下手时\N{\fs13\bord1}And the next time you hire a bunch of thugs,{\r}
+Dialogue: 0,0:37:44.06,0:37:46.05,Default,,0000,0000,0000,,可别再让人抓住证据了\N{\fs13\bord1}you should make sure they don't have a criminal records.{\r}
+Dialogue: 0,0:37:46.17,0:37:49.28,Default,,0000,0000,0000,,我们已经抓到一个了 相信这时候他已把你供出来了\N{\fs13\bord1}We've already picked one up,and he's flipping on you as we speak.{\r}
+Dialogue: 0,0:37:50.49,0:37:52.65,Default,,0000,0000,0000,,你打电话说要给我点东西\N{\fs13\bord1}When you called me,you said you had something for me.{\r}
+Dialogue: 0,0:37:52.78,0:37:54.92,Default,,0000,0000,0000,,是给你父亲的\N{\fs13\bord1}For your dad.{\r}
+Dialogue: 0,0:38:00.38,0:38:02.21,Default,,0000,0000,0000,,这可不是我期望的回报\N{\fs13\bord1}Wasn't exactly the payback I was hoping for.{\r}
+Dialogue: 0,0:38:02.33,0:38:03.70,Default,,0000,0000,0000,,你找到U盘了吗?\N{\fs13\bord1}You find the flash drive?{\r}
+Dialogue: 0,0:38:03.81,0:38:05.01,Default,,0000,0000,0000,,我看了关于你父亲的部分\N{\fs13\bord1}And I read all about your father,{\r}
+Dialogue: 0,0:38:05.12,0:38:09.02,Default,,0000,0000,0000,,知道了他为了赢得招标所做的一切 威逼利诱 敲诈勒索\N{\fs13\bord1}and everything he did to win construction bids-- extortion,bribes,threats--{\r}
+Dialogue: 0,0:38:09.13,0:38:10.49,Default,,0000,0000,0000,,想想我以前那么尊敬他\N{\fs13\bord1}and to think I used to look up to him.{\r}
+Dialogue: 0,0:38:10.62,0:38:12.27,Default,,0000,0000,0000,,给我上思想道德课就不必了 Shel\N{\fs13\bord1}Spare me the morality lecture,Shel.{\r}
+Dialogue: 0,0:38:12.40,0:38:13.88,Default,,0000,0000,0000,,你打算拿那些信息做什么?\N{\fs13\bord1}What are you going  to do with the information?{\r}
+Dialogue: 0,0:38:14.01,0:38:16.32,Default,,0000,0000,0000,,我放到了你找不到的地方\N{\fs13\bord1}I put it some place where you can't get your hands on it.{\r}
+Dialogue: 0,0:38:16.46,0:38:19.09,Default,,0000,0000,0000,,你开玩笑的 对吧?\N{\fs13\bord1}You've got to be kidding. You're kidding me,right?{\r}
+Dialogue: 0,0:38:19.20,0:38:21.91,Default,,0000,0000,0000,,你想要什么? 要钱吗? 是这么回事吗?\N{\fs13\bord1}What do you want? You want money? Is that it?{\r}
+Dialogue: 0,0:38:27.40,0:38:31.57,Default,,0000,0000,0000,,记得在坐牢前把支票给你老爸就行\N{\fs13\bord1}Just make sure you give your dad that check before you get hauled off to jail.{\r}
+Dialogue: 0,0:38:53.23,0:38:55.16,Default,,0000,0000,0000,,我听说你破了案子\N{\fs13\bord1}I heard you broke the case.{\r}
+Dialogue: 0,0:38:55.28,0:38:59.39,Default,,0000,0000,0000,,你不会大老远跑来祝贺我吧\N{\fs13\bord1}My guess is,you didn't come all the way down here to congratulate me.{\r}
+Dialogue: 0,0:39:00.08,0:39:01.62,Default,,0000,0000,0000,,我想看看那个U盘\N{\fs13\bord1}I'd like to take a look at the flash drive.{\r}
+Dialogue: 0,0:39:01.74,0:39:03.70,Default,,0000,0000,0000,,送去证物库了\N{\fs13\bord1}It's on its way to the evidence warehouse.{\r}
+Dialogue: 0,0:39:03.82,0:39:05.11,Default,,0000,0000,0000,,你可真行动迅速啊\N{\fs13\bord1}You don't waste any time.{\r}
+Dialogue: 0,0:39:05.24,0:39:09.96,Default,,0000,0000,0000,,由于这实验室保安不力 我觉得送到外面去安全很多\N{\fs13\bord1}Well,since security at this lab is now in question,I thought it'd be safer off site.{\r}
+Dialogue: 0,0:39:10.34,0:39:11.58,Default,,0000,0000,0000,,对谁都好\N{\fs13\bord1}For everyone concerned.{\r}
+Dialogue: 0,0:39:11.71,0:39:14.22,Default,,0000,0000,0000,,你想说什么就直说 Mac\N{\fs13\bord1}If there's something on your mind,say it straight,Mac.{\r}
+Dialogue: 0,0:39:14.34,0:39:15.52,Default,,0000,0000,0000,,局长 你对我说谎了\N{\fs13\bord1}You lied to me,Chief.{\r}
+Dialogue: 0,0:39:15.63,0:39:18.36,Default,,0000,0000,0000,,你说你那件性骚扰案是假的\N{\fs13\bord1}You said that sexual harassment charge against you was false.{\r}
+Dialogue: 0,0:39:18.48,0:39:21.26,Default,,0000,0000,0000,,我也跟你说过不要对你没法证明的事情 妄下定论\N{\fs13\bord1}I also told you not to make accusations you can't back.{\r}
+Dialogue: 0,0:39:21.38,0:39:23.55,Default,,0000,0000,0000,,那U盘上也有你的事情\N{\fs13\bord1}Your file is on that flash drive.{\r}
+Dialogue: 0,0:39:23.67,0:39:26.76,Default,,0000,0000,0000,,你给了Ann Steele 25000元让她闭嘴\N{\fs13\bord1}You paid Ann Steele $25,000 to keep that woman quiet.{\r}
+Dialogue: 0,0:39:26.89,0:39:30.25,Default,,0000,0000,0000,,我不想让这种事接受社会公众的评判\N{\fs13\bord1}Because I didn't want it tried in the court of public opinion.{\r}
+Dialogue: 0,0:39:31.06,0:39:33.46,Default,,0000,0000,0000,,她的话会影响别人对我的判断\N{\fs13\bord1}It would come down to her word against mine.{\r}
+Dialogue: 0,0:39:33.58,0:39:36.91,Default,,0000,0000,0000,,有罪无罪不重要 单单怀疑就够人受的\N{\fs13\bord1}Innocence and guilt don't matter.Suspicion is enough.{\r}
+Dialogue: 0,0:39:37.03,0:39:42.02,Default,,0000,0000,0000,,那时我觉得有更重要的东西需要我保护   --我的婚姻\N{\fs13\bord1}At the time,I thought I had something worth protecting-- my marriage.{\r}
+Dialogue: 0,0:39:42.13,0:39:43.99,Default,,0000,0000,0000,,那时候?\N{\fs13\bord1}At the time?{\r}
+Dialogue: 0,0:39:44.12,0:39:47.26,Default,,0000,0000,0000,,U盘失踪的时候 我慌了\N{\fs13\bord1}When that flash drive disappeared,I panicked.{\r}
+Dialogue: 0,0:39:47.39,0:39:51.94,Default,,0000,0000,0000,,我知道我给了Steele钱 就好像证明了我确实有罪\N{\fs13\bord1}I knew the fact that I had paid Steele would make it look like I was guilty,{\r}
+Dialogue: 0,0:39:52.06,0:39:54.78,Default,,0000,0000,0000,,事实不是\N{\fs13\bord1}but I wasn't.{\r}
+Dialogue: 0,0:39:56.31,0:39:59.18,Default,,0000,0000,0000,,你告诉你妻子了\N{\fs13\bord1}You told your wife.{\r}
+Dialogue: 0,0:40:00.33,0:40:02.84,Default,,0000,0000,0000,,她要离开我了 Mac\N{\fs13\bord1}She's leaving me,Mac.{\r}
+Dialogue: 0,0:40:15.88,0:40:20.56,Default,,0000,0000,0000,,现在想想 她已很长一段时间不开心了\N{\fs13\bord1}When I think back on it,she hasn't been happy for a long time.{\r}
+Dialogue: 0,0:40:21.18,0:40:26.04,Default,,0000,0000,0000,,她只需要一个理由 让她离开的理由\N{\fs13\bord1}She was just looking for an excuse.Something to allow her to go.{\r}
+Dialogue: 0,0:40:27.06,0:40:30.22,Default,,0000,0000,0000,,我亲自为她找到了理由\N{\fs13\bord1}And then I handed it right to her.{\r}
+Dialogue: 0,0:40:34.53,0:40:36.58,Default,,0000,0000,0000,,我很遗憾 Brigham\N{\fs13\bord1}I'm sorry,Brigham.{\r}
+
+

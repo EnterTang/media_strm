@@ -1,0 +1,888 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: Untitled
+ScriptType: v4.00+
+Collisions: Normal
+PlayDepth: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,simhei,68,&H00D1D1D1,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,20,20,64,1
+
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:02:03.95,0:02:07.15,Default,Default,0000,0000,0000,,(孤儿院)
+Dialogue: 0,0:02:15.93,0:02:17.12,Default,Default,0000,0000,0000,,(奀仔)
+Dialogue: 0,0:02:22.14,0:02:23.97,Default,Default,0000,0000,0000,,准备 开始
+Dialogue: 0,0:02:31.01,0:02:32.53,Default,Default,0000,0000,0000,,39秒
+Dialogue: 0,0:02:32.75,0:02:33.97,Default,Default,0000,0000,0000,,39秒
+Dialogue: 0,0:02:42.56,0:02:44.25,Default,Default,0000,0000,0000,,(阿Dee)
+Dialogue: 0,0:02:44.39,0:02:45.91,Default,Default,0000,0000,0000,,准备 开始
+Dialogue: 0,0:02:52.43,0:02:53.92,Default,Default,0000,0000,0000,,准备 开始
+Dialogue: 0,0:03:24.66,0:03:25.96,Default,Default,0000,0000,0000,,准备 开始
+Dialogue: 0,0:03:54.79,0:03:57.42,Default,Default,0000,0000,0000,,奀仔 奀仔 我的就是你的
+Dialogue: 0,0:03:57.50,0:03:59.73,Default,Default,0000,0000,0000,,你的就是我的 给!
+Dialogue: 0,0:04:00.13,0:04:00.96,Default,Default,0000,0000,0000,,谢谢
+Dialogue: 0,0:04:04.74,0:04:07.47,Default,Default,0000,0000,0000,,奀仔 你拼的?
+Dialogue: 0,0:04:07.74,0:04:08.71,Default,Default,0000,0000,0000,,嗯
+Dialogue: 0,0:04:14.51,0:04:16.50,Default,Default,0000,0000,0000,,喂 干嘛抢我的糖
+Dialogue: 0,0:04:16.85,0:04:17.98,Default,Default,0000,0000,0000,,不行啊?
+Dialogue: 0,0:04:40.34,0:04:41.14,Default,Default,0000,0000,0000,,你自己做的啊?
+Dialogue: 0,0:04:51.98,0:04:53.75,Default,Default,0000,0000,0000,,奀仔 救我呀
+Dialogue: 0,0:04:53.75,0:04:54.65,Default,Default,0000,0000,0000,,救命呀
+Dialogue: 0,0:04:56.29,0:04:57.76,Default,Default,0000,0000,0000,,- 阿Dee - 我不要
+Dialogue: 0,0:05:09.67,0:05:10.73,Default,Default,0000,0000,0000,,奀仔
+Dialogue: 0,0:07:28.97,0:07:29.96,Default,Default,0000,0000,0000,,警察 下车
+Dialogue: 0,0:07:43.09,0:07:46.66,Default,Default,0000,0000,0000,,今日中午 在闹市发生轿车撞向人群
+Dialogue: 0,0:07:46.66,0:07:48.86,Default,Default,0000,0000,0000,,至今已经造成五死十八伤
+Dialogue: 0,0:07:48.86,0:07:50.43,Default,Default,0000,0000,0000,,警方证实涉案司机
+Dialogue: 0,0:07:50.43,0:07:52.62,Default,Default,0000,0000,0000,,是上市公司主席缪国能
+Dialogue: 0,0:07:53.00,0:07:54.97,Default,Default,0000,0000,0000,,现场的市民拍到事发当时
+Dialogue: 0,0:07:55.27,0:07:58.00,Default,Default,0000,0000,0000,,缪国能以高速撞向正在横过马路的行人
+Dialogue: 0,0:07:58.00,0:08:00.63,Default,Default,0000,0000,0000,,之后迎面撞向一辆旅游巴士才停车
+Dialogue: 0,0:08:01.04,0:08:03.01,Default,Default,0000,0000,0000,,事后 缪国能以一把利刀
+Dialogue: 0,0:08:03.01,0:08:04.88,Default,Default,0000,0000,0000,,割向自己颈部大动脉自杀
+Dialogue: 0,0:08:04.88,0:08:06.67,Default,Default,0000,0000,0000,,其后证实其死亡
+Dialogue: 0,0:08:07.25,0:08:09.71,Default,Default,0000,0000,0000,,警方已经成立专案小组调查事件
+Dialogue: 0,0:08:10.02,0:08:11.08,Default,Default,0000,0000,0000,,有消息指出
+Dialogue: 0,0:08:11.08,0:08:13.42,Default,Default,0000,0000,0000,,事发前曾经有匿名人士和警方联络
+Dialogue: 0,0:08:13.99,0:08:16.39,Default,Default,0000,0000,0000,,提示警方此地可能会有事情发生
+Dialogue: 0,0:08:16.89,0:08:17.86,Default,Default,0000,0000,0000,,这次是继月初
+Dialogue: 0,0:08:17.99,0:08:20.09,Default,Default,0000,0000,0000,,"大埔重型货车撞人事件"之后
+Dialogue: 0,0:08:20.09,0:08:21.65,Default,Default,0000,0000,0000,,第二宗严重车祸
+Dialogue: 0,0:08:21.99,0:08:24.90,Default,Default,0000,0000,0000,,两宗车祸同样有匿名人士跟警方联络
+Dialogue: 0,0:08:28.00,0:08:28.90,Default,Default,0000,0000,0000,,喂 Bill?
+Dialogue: 0,0:08:29.00,0:08:31.00,Default,Default,0000,0000,0000,,我刚刚看完新闻了 真的被你猜到了
+Dialogue: 0,0:08:31.00,0:08:33.41,Default,Default,0000,0000,0000,,如果能早点破解档案的话
+Dialogue: 0,0:08:33.41,0:08:34.46,Default,Default,0000,0000,0000,,就不用死这么多人
+Dialogue: 0,0:08:34.61,0:08:36.20,Default,Default,0000,0000,0000,,老板 我们拿到这些资料
+Dialogue: 0,0:08:36.48,0:08:37.44,Default,Default,0000,0000,0000,,现在该怎么办?
+Dialogue: 0,0:08:38.48,0:08:39.61,Default,Default,0000,0000,0000,,我要自己查下去
+Dialogue: 0,0:08:39.61,0:08:40.88,Default,Default,0000,0000,0000,,这事太大了
+Dialogue: 0,0:08:40.88,0:08:42.21,Default,Default,0000,0000,0000,,我们骇到的可不是普通料
+Dialogue: 0,0:08:42.21,0:08:43.98,Default,Default,0000,0000,0000,,那可是特工集团的料
+Dialogue: 0,0:08:46.89,0:08:47.98,Default,Default,0000,0000,0000,,Bill 保住档案
+Dialogue: 0,0:08:50.32,0:08:52.22,Default,Default,0000,0000,0000,,喂?
+Dialogue: 0,0:09:38.77,0:09:40.50,Default,Default,0000,0000,0000,,别怕 我是警察
+Dialogue: 0,0:09:54.99,0:09:55.65,Default,Default,0000,0000,0000,,停车 开门
+Dialogue: 0,0:09:56.36,0:09:57.95,Default,Default,0000,0000,0000,,有炸弹 不能停车
+Dialogue: 0,0:10:00.26,0:10:01.66,Default,Default,0000,0000,0000,,监控室 程Sir的位置?
+Dialogue: 0,0:10:01.93,0:10:04.26,Default,Default,0000,0000,0000,,程Sir在2S公交车上 上了东九龙走廊
+Dialogue: 0,0:10:04.60,0:10:04.96,Default,Default,0000,0000,0000,,好
+Dialogue: 0,0:10:13.84,0:10:15.17,Default,Default,0000,0000,0000,,有两辆可疑车辆追着目标
+Dialogue: 0,0:10:29.19,0:10:30.21,Default,Default,0000,0000,0000,,阿滔 走位
+Dialogue: 0,0:10:34.29,0:10:35.39,Default,Default,0000,0000,0000,,跳过去
+Dialogue: 0,0:10:35.59,0:10:35.96,Default,Default,0000,0000,0000,,不跳
+Dialogue: 0,0:10:38.80,0:10:40.32,Default,Default,0000,0000,0000,,可疑车辆从后方追上来了
+Dialogue: 0,0:10:41.00,0:10:42.00,Default,Default,0000,0000,0000,,你听我说
+Dialogue: 0,0:10:42.00,0:10:43.83,Default,Default,0000,0000,0000,,我数一二三 我们一起跳过去
+Dialogue: 0,0:10:46.17,0:10:46.97,Default,Default,0000,0000,0000,,一
+Dialogue: 0,0:10:57.35,0:10:58.42,Default,Default,0000,0000,0000,,你耍我呀你
+Dialogue: 0,0:10:58.42,0:11:00.32,Default,Default,0000,0000,0000,,不是说好一二三再跳的吗?
+Dialogue: 0,0:11:02.25,0:11:04.38,Default,Default,0000,0000,0000,,你刚才跳下来的时候真的好酷
+Dialogue: 0,0:11:05.26,0:11:07.95,Default,Default,0000,0000,0000,,早让你订架直升机了 可以再酷点
+Dialogue: 0,0:11:08.36,0:11:10.12,Default,Default,0000,0000,0000,,真拿自己当汤姆克鲁斯?
+Dialogue: 0,0:11:10.93,0:11:13.26,Default,Default,0000,0000,0000,,你不也在装福山雅治吗?
+Dialogue: 0,0:11:17.00,0:11:19.00,Default,Default,0000,0000,0000,,姚可仪 独立记者?
+Dialogue: 0,0:11:19.00,0:11:21.67,Default,Default,0000,0000,0000,,记者只是你用来掩饰身份的
+Dialogue: 0,0:11:21.67,0:11:23.51,Default,Default,0000,0000,0000,,你在美国麻省理工大学毕业
+Dialogue: 0,0:11:23.98,0:11:25.94,Default,Default,0000,0000,0000,,修读电机工程和资讯科学系
+Dialogue: 0,0:11:26.05,0:11:27.98,Default,Default,0000,0000,0000,,也是一名新冒起的知名黑客
+Dialogue: 0,0:11:28.18,0:11:29.65,Default,Default,0000,0000,0000,,擅长编写恶意软件
+Dialogue: 0,0:11:30.02,0:11:32.18,Default,Default,0000,0000,0000,,2016年 你被美国警方拘捕
+Dialogue: 0,0:11:32.18,0:11:34.95,Default,Default,0000,0000,0000,,同年 美国国安局反征用你
+Dialogue: 0,0:11:35.19,0:11:36.92,Default,Default,0000,0000,0000,,撤销对你的所有控罪
+Dialogue: 0,0:11:38.39,0:11:41.36,Default,Default,0000,0000,0000,,我们也查到 在闹市发生车撞人事件之前
+Dialogue: 0,0:11:41.96,0:11:43.55,Default,Default,0000,0000,0000,,你在湾仔的一家咖啡店上网
+Dialogue: 0,0:11:43.93,0:11:45.76,Default,Default,0000,0000,0000,,通知警方那里会有事要发生
+Dialogue: 0,0:11:46.03,0:11:47.79,Default,Default,0000,0000,0000,,你明知那有很多监控还这么做
+Dialogue: 0,0:11:48.00,0:11:49.30,Default,Default,0000,0000,0000,,就是你也不想看到有人死
+Dialogue: 0,0:11:50.70,0:11:52.57,Default,Default,0000,0000,0000,,既然大家立场一致
+Dialogue: 0,0:11:52.87,0:11:54.13,Default,Default,0000,0000,0000,,为什么不合作?
+Dialogue: 0,0:11:54.21,0:11:56.70,Default,Default,0000,0000,0000,,如果你有证据扣留我的话 就扣留我
+Dialogue: 0,0:11:57.01,0:11:57.67,Default,Default,0000,0000,0000,,那不用了
+Dialogue: 0,0:11:58.21,0:11:59.80,Default,Default,0000,0000,0000,,你出去签个名就行了
+Dialogue: 0,0:12:00.48,0:12:01.97,Default,Default,0000,0000,0000,,警方会向各大传媒公布
+Dialogue: 0,0:12:02.18,0:12:03.65,Default,Default,0000,0000,0000,,你离开警察局的消息
+Dialogue: 0,0:12:04.22,0:12:06.02,Default,Default,0000,0000,0000,,我刚被人追杀完
+Dialogue: 0,0:12:06.02,0:12:07.65,Default,Default,0000,0000,0000,,就这么走出去 我不死定了?
+Dialogue: 0,0:12:07.92,0:12:08.89,Default,Default,0000,0000,0000,,也有可能残废
+Dialogue: 0,0:12:09.32,0:12:11.02,Default,Default,0000,0000,0000,,捉你的人明显来头不小
+Dialogue: 0,0:12:11.02,0:12:12.39,Default,Default,0000,0000,0000,,你请保镖也没有用
+Dialogue: 0,0:12:13.16,0:12:13.95,Default,Default,0000,0000,0000,,祝你好运
+Dialogue: 0,0:12:17.16,0:12:18.09,Default,Default,0000,0000,0000,,阿Sir
+Dialogue: 0,0:12:19.00,0:12:19.96,Default,Default,0000,0000,0000,,大约半个月前吧
+Dialogue: 0,0:12:20.17,0:12:22.60,Default,Default,0000,0000,0000,,我想写一篇关于"人口贩运"的报导
+Dialogue: 0,0:12:23.00,0:12:24.47,Default,Default,0000,0000,0000,,于是我用了我的专长
+Dialogue: 0,0:12:24.60,0:12:26.66,Default,Default,0000,0000,0000,,黑进了一个国外的大型数据库
+Dialogue: 0,0:12:27.01,0:12:27.87,Default,Default,0000,0000,0000,,Bill!
+Dialogue: 0,0:12:27.87,0:12:29.34,Default,Default,0000,0000,0000,,对方当时阻截我了
+Dialogue: 0,0:12:29.34,0:12:31.91,Default,Default,0000,0000,0000,,所以我只下载到他们的部份档案
+Dialogue: 0,0:12:31.91,0:12:33.01,Default,Default,0000,0000,0000,,对方开始攻击我们
+Dialogue: 0,0:12:33.01,0:12:34.71,Default,Default,0000,0000,0000,,防护系统30秒后失效
+Dialogue: 0,0:12:34.71,0:12:37.18,Default,Default,0000,0000,0000,,而这部分档案大多数都是加密的
+Dialogue: 0,0:12:37.28,0:12:39.12,Default,Default,0000,0000,0000,,破解之后最终发现
+Dialogue: 0,0:12:39.12,0:12:41.29,Default,Default,0000,0000,0000,,似乎是有人想在"大埔"和闹市
+Dialogue: 0,0:12:41.29,0:12:42.55,Default,Default,0000,0000,0000,,两个地方搞事情
+Dialogue: 0,0:12:42.99,0:12:43.58,Default,Default,0000,0000,0000,,而且
+Dialogue: 0,0:12:44.59,0:12:46.62,Default,Default,0000,0000,0000,,是有警察包庇的罪案
+Dialogue: 0,0:12:49.23,0:12:50.43,Default,Default,0000,0000,0000,,你凭什么这么说?
+Dialogue: 0,0:12:50.43,0:12:52.16,Default,Default,0000,0000,0000,,因为在我黑到的档案中
+Dialogue: 0,0:12:52.16,0:12:55.79,Default,Default,0000,0000,0000,,还包括一部纪录片以及一些文字资料
+Dialogue: 0,0:12:58.94,0:13:00.67,Default,Default,0000,0000,0000,,资料是用英文写成的
+Dialogue: 0,0:13:00.67,0:13:03.08,Default,Default,0000,0000,0000,,和纪录片一样内容并不完整
+Dialogue: 0,0:13:03.08,0:13:05.54,Default,Default,0000,0000,0000,,但凭仅有的信息已经可以推断
+Dialogue: 0,0:13:06.08,0:13:08.01,Default,Default,0000,0000,0000,,外国存在一个地下集团
+Dialogue: 0,0:13:08.01,0:13:09.88,Default,Default,0000,0000,0000,,这个集团专门掳拐儿童
+Dialogue: 0,0:13:09.88,0:13:11.85,Default,Default,0000,0000,0000,,并长期训练他们成为特工
+Dialogue: 0,0:13:11.98,0:13:13.19,Default,Default,0000,0000,0000,,而估计这些特工
+Dialogue: 0,0:13:13.19,0:13:15.95,Default,Default,0000,0000,0000,,已经大量渗透进了全世界的警队里
+Dialogue: 0,0:13:22.69,0:13:23.22,Default,Default,0000,0000,0000,,怎么了 阿井?
+Dialogue: 0,0:13:27.13,0:13:29.83,Default,Default,0000,0000,0000,,我们保安部会接手这案子
+Dialogue: 0,0:13:31.70,0:13:32.80,Default,Default,0000,0000,0000,,阿滔 停一停
+Dialogue: 0,0:13:33.01,0:13:33.97,Default,Default,0000,0000,0000,,把对讲关了
+Dialogue: 0,0:13:41.01,0:13:43.02,Default,Default,0000,0000,0000,,保安部想接手这宗案子
+Dialogue: 0,0:13:43.02,0:13:46.02,Default,Default,0000,0000,0000,,程序上 要助理处长通知我
+Dialogue: 0,0:13:46.02,0:13:47.02,Default,Default,0000,0000,0000,,助理处长快回来
+Dialogue: 0,0:13:47.02,0:13:48.25,Default,Default,0000,0000,0000,,要不等他到了再说
+Dialogue: 0,0:13:48.25,0:13:49.25,Default,Default,0000,0000,0000,,不好意思 我们继续
+Dialogue: 0,0:13:49.25,0:13:50.19,Default,Default,0000,0000,0000,,不行
+Dialogue: 0,0:13:51.02,0:13:52.96,Default,Default,0000,0000,0000,,她已经牵涉两宗大型的袭击
+Dialogue: 0,0:13:53.23,0:13:55.35,Default,Default,0000,0000,0000,,这案子 归我关管
+Dialogue: 0,0:13:57.16,0:13:58.49,Default,Default,0000,0000,0000,,阿井
+Dialogue: 0,0:14:00.37,0:14:03.30,Default,Default,0000,0000,0000,,这个女孩刚刚才开口说了两句
+Dialogue: 0,0:14:03.30,0:14:04.60,Default,Default,0000,0000,0000,,如果你现在喊停
+Dialogue: 0,0:14:04.60,0:14:06.44,Default,Default,0000,0000,0000,,我们会前功尽弃的
+Dialogue: 0,0:14:06.44,0:14:07.64,Default,Default,0000,0000,0000,,阿庄
+Dialogue: 0,0:14:07.64,0:14:10.58,Default,Default,0000,0000,0000,,把所有东西带走 确保要全部保密
+Dialogue: 0,0:14:10.58,0:14:11.74,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:14:11.74,0:14:12.80,Default,Default,0000,0000,0000,,等一下
+Dialogue: 0,0:14:16.28,0:14:19.58,Default,Default,0000,0000,0000,,那女孩刚才说警队里面渗入了很多黑警
+Dialogue: 0,0:14:19.85,0:14:21.84,Default,Default,0000,0000,0000,,我正在想我应该防范谁好呢?
+Dialogue: 0,0:14:21.99,0:14:23.45,Default,Default,0000,0000,0000,,你就走进来了
+Dialogue: 0,0:14:23.89,0:14:25.95,Default,Default,0000,0000,0000,,我是不是应该防范你呢?
+Dialogue: 0,0:14:28.26,0:14:29.42,Default,Default,0000,0000,0000,,你不也是警察吗?
+Dialogue: 0,0:14:46.01,0:14:48.50,Default,Default,0000,0000,0000,,程滔 刑事情报科
+Dialogue: 0,0:14:49.48,0:14:50.97,Default,Default,0000,0000,0000,,六年前当过卧底
+Dialogue: 0,0:14:51.75,0:14:54.18,Default,Default,0000,0000,0000,,归队后 办事常越界
+Dialogue: 0,0:15:01.43,0:15:03.09,Default,Default,0000,0000,0000,,我需不需要防范他呢?
+Dialogue: 0,0:15:07.60,0:15:09.33,Default,Default,0000,0000,0000,,我不否定你的怀疑
+Dialogue: 0,0:15:09.43,0:15:11.87,Default,Default,0000,0000,0000,,但谁是黑警 有谁知道
+Dialogue: 0,0:15:22.25,0:15:23.02,Default,Default,0000,0000,0000,,井Sir
+Dialogue: 0,0:15:23.02,0:15:24.02,Default,Default,0000,0000,0000,,你跟那女孩说什么?
+Dialogue: 0,0:15:24.02,0:15:26.35,Default,Default,0000,0000,0000,,根据警务程式 一切有关案情的资料
+Dialogue: 0,0:15:26.35,0:15:27.45,Default,Default,0000,0000,0000,,我只能报告上级
+Dialogue: 0,0:15:27.45,0:15:29.12,Default,Default,0000,0000,0000,,保安部准备接手这案子
+Dialogue: 0,0:15:29.12,0:15:30.32,Default,Default,0000,0000,0000,,我们在等大Sir
+Dialogue: 0,0:15:30.32,0:15:30.98,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:15:31.82,0:15:34.63,Default,Default,0000,0000,0000,,被你弄得累死了 我们需要休息一下
+Dialogue: 0,0:15:34.63,0:15:35.68,Default,Default,0000,0000,0000,,吃夜宵吗?
+Dialogue: 0,0:15:39.67,0:15:40.93,Default,Default,0000,0000,0000,,记住我说过的话
+Dialogue: 0,0:15:50.01,0:15:51.18,Default,Default,0000,0000,0000,,他跟你说什么?
+Dialogue: 0,0:15:51.18,0:15:51.97,Default,Default,0000,0000,0000,,没什么
+Dialogue: 0,0:15:52.95,0:15:54.81,Default,Default,0000,0000,0000,,这什么态度
+Dialogue: 0,0:15:55.55,0:15:58.48,Default,Default,0000,0000,0000,,你第一天认识他? 一向都板着个脸
+Dialogue: 0,0:15:58.72,0:16:01.21,Default,Default,0000,0000,0000,,而且现在转去了保安部 敏感部门
+Dialogue: 0,0:16:01.42,0:16:02.85,Default,Default,0000,0000,0000,,没什么错
+Dialogue: 0,0:16:02.85,0:16:04.91,Default,Default,0000,0000,0000,,是没错 但你也算他师父
+Dialogue: 0,0:16:05.22,0:16:06.99,Default,Default,0000,0000,0000,,这件事情你千万别再提了
+Dialogue: 0,0:16:06.99,0:16:08.13,Default,Default,0000,0000,0000,,很久以前的事情
+Dialogue: 0,0:16:08.13,0:16:09.96,Default,Default,0000,0000,0000,,人家现在是身居要职
+Dialogue: 0,0:16:10.66,0:16:12.79,Default,Default,0000,0000,0000,,我不是的 我很老派思想的
+Dialogue: 0,0:16:13.07,0:16:15.66,Default,Default,0000,0000,0000,,我是一日为师 终身为父
+Dialogue: 0,0:16:16.44,0:16:17.60,Default,Default,0000,0000,0000,,谢谢
+Dialogue: 0,0:16:17.70,0:16:19.50,Default,Default,0000,0000,0000,,所以我希望你每天见到我
+Dialogue: 0,0:16:19.81,0:16:21.67,Default,Default,0000,0000,0000,,都给我倒杯茶 跪下 磕个响头
+Dialogue: 0,0:16:21.67,0:16:22.81,Default,Default,0000,0000,0000,,叫声师父 我就满足了
+Dialogue: 0,0:16:22.81,0:16:24.97,Default,Default,0000,0000,0000,,好 一定敬酒 上香
+Dialogue: 0,0:16:26.65,0:16:29.67,Default,Default,0000,0000,0000,,想抓姚可仪的人 有什么特征?
+Dialogue: 0,0:16:29.92,0:16:32.35,Default,Default,0000,0000,0000,,看他的身手应该是受过专业的军事训练
+Dialogue: 0,0:16:32.72,0:16:35.24,Default,Default,0000,0000,0000,,那"闹市车撞人案"有没有进展?
+Dialogue: 0,0:16:35.95,0:16:37.62,Default,Default,0000,0000,0000,,根据专责小组的判断
+Dialogue: 0,0:16:37.62,0:16:41.22,Default,Default,0000,0000,0000,,缪国能可能有黑材料被疑似恐怖分子掌握
+Dialogue: 0,0:16:43.00,0:16:45.12,Default,Default,0000,0000,0000,,他为了保住家人 所以才犯案
+Dialogue: 0,0:16:45.46,0:16:47.83,Default,Default,0000,0000,0000,,缪国能的企业生意包括金融和借贷
+Dialogue: 0,0:16:47.83,0:16:49.13,Default,Default,0000,0000,0000,,客户大多是欧洲人
+Dialogue: 0,0:16:49.43,0:16:50.27,Default,Default,0000,0000,0000,,这次出事之后
+Dialogue: 0,0:16:50.27,0:16:52.27,Default,Default,0000,0000,0000,,他公司连同他欧洲许多搭档
+Dialogue: 0,0:16:52.27,0:16:53.97,Default,Default,0000,0000,0000,,的公司股票也全线下跌
+Dialogue: 0,0:16:53.97,0:16:55.71,Default,Default,0000,0000,0000,,有人想利用袭击事件
+Dialogue: 0,0:16:55.71,0:16:56.94,Default,Default,0000,0000,0000,,影响金融经济
+Dialogue: 0,0:16:57.34,0:16:58.81,Default,Default,0000,0000,0000,,我们要马上通知国际刑警
+Dialogue: 0,0:16:58.81,0:17:00.38,Default,Default,0000,0000,0000,,我建议联络缅甸警方
+Dialogue: 0,0:17:00.38,0:17:02.37,Default,Default,0000,0000,0000,,把姚可仪提及的硬盘拿回来
+Dialogue: 0,0:17:03.02,0:17:04.02,Default,Default,0000,0000,0000,,因为里面的数据
+Dialogue: 0,0:17:04.02,0:17:06.45,Default,Default,0000,0000,0000,,涉及到疑似恐怖分子所有的部署
+Dialogue: 0,0:17:06.45,0:17:08.02,Default,Default,0000,0000,0000,,也影响到其他国家的安全
+Dialogue: 0,0:17:08.02,0:17:09.25,Default,Default,0000,0000,0000,,我同意
+Dialogue: 0,0:17:09.25,0:17:10.48,Default,Default,0000,0000,0000,,我也同意
+Dialogue: 0,0:17:11.46,0:17:13.55,Default,Default,0000,0000,0000,,好 我联络缅甸警方
+Dialogue: 0,0:17:13.99,0:17:14.83,Default,Default,0000,0000,0000,,井Sir
+Dialogue: 0,0:17:14.83,0:17:17.00,Default,Default,0000,0000,0000,,尽快安排安全屋给姚可仪
+Dialogue: 0,0:17:17.00,0:17:17.36,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:17:17.80,0:17:20.29,Default,Default,0000,0000,0000,,这个案子 不可以再多一个知情人
+Dialogue: 0,0:17:21.00,0:17:21.70,Default,Default,0000,0000,0000,,一个都不可以
+Dialogue: 0,0:17:21.70,0:17:22.63,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:17:24.54,0:17:24.97,Default,Default,0000,0000,0000,,喂
+Dialogue: 0,0:17:36.01,0:17:37.02,Default,Default,0000,0000,0000,,- 抢你的案子 - 今晚
+Dialogue: 0,0:17:37.02,0:17:38.54,Default,Default,0000,0000,0000,,不好意思 你说
+Dialogue: 0,0:17:39.38,0:17:41.68,Default,Default,0000,0000,0000,,抢你的案子了 不好意思
+Dialogue: 0,0:17:42.29,0:17:44.19,Default,Default,0000,0000,0000,,别傻了 是归你部门管的
+Dialogue: 0,0:17:47.56,0:17:49.12,Default,Default,0000,0000,0000,,刚才你想说什么?
+Dialogue: 0,0:17:51.00,0:17:53.43,Default,Default,0000,0000,0000,,不重要 没事 电梯来了 走
+Dialogue: 0,0:17:56.00,0:18:05.97,Default,Default,0000,0000,0000,,祝你生日快乐...
+Dialogue: 0,0:18:07.78,0:18:09.01,Default,Default,0000,0000,0000,,等一下 先许愿
+Dialogue: 0,0:18:09.35,0:18:11.01,Default,Default,0000,0000,0000,,- 慢慢想 这样才会灵 - 是啊
+Dialogue: 0,0:18:11.25,0:18:12.88,Default,Default,0000,0000,0000,,- 闭眼睛 - 许了愿再切
+Dialogue: 0,0:18:14.69,0:18:16.88,Default,Default,0000,0000,0000,,许得越长就越灵的啊
+Dialogue: 0,0:18:26.00,0:18:27.90,Default,Default,0000,0000,0000,,你迟到了还搞事情
+Dialogue: 0,0:18:30.17,0:18:30.96,Default,Default,0000,0000,0000,,生日礼物
+Dialogue: 0,0:18:32.97,0:18:35.24,Default,Default,0000,0000,0000,,送我个二手破手表就当生日礼物
+Dialogue: 0,0:18:35.24,0:18:36.48,Default,Default,0000,0000,0000,,你可真够朋友
+Dialogue: 0,0:18:36.48,0:18:38.53,Default,Default,0000,0000,0000,,我在电脑前守了一夜才拍到的
+Dialogue: 0,0:18:38.84,0:18:39.47,Default,Default,0000,0000,0000,,你不要还我
+Dialogue: 0,0:18:42.71,0:18:44.88,Default,Default,0000,0000,0000,,我不嫌弃你手表破 别啰嗦了
+Dialogue: 0,0:18:45.02,0:18:46.25,Default,Default,0000,0000,0000,,你都几十岁的人了
+Dialogue: 0,0:18:46.25,0:18:47.19,Default,Default,0000,0000,0000,,怎么还喜欢小孩子的东西
+Dialogue: 0,0:18:47.19,0:18:48.95,Default,Default,0000,0000,0000,,这就叫赤子之心 你没有
+Dialogue: 0,0:18:48.95,0:18:49.65,Default,Default,0000,0000,0000,,你不明白
+Dialogue: 0,0:18:49.65,0:18:51.02,Default,Default,0000,0000,0000,,我就不信你会戴着它
+Dialogue: 0,0:18:51.02,0:18:52.96,Default,Default,0000,0000,0000,,我确实不会戴
+Dialogue: 0,0:18:52.96,0:18:54.26,Default,Default,0000,0000,0000,,我肯定是要收在床底下
+Dialogue: 0,0:18:54.33,0:18:55.95,Default,Default,0000,0000,0000,,二十年之后拿出来拍卖的
+Dialogue: 0,0:18:58.00,0:18:59.29,Default,Default,0000,0000,0000,,阿井
+Dialogue: 0,0:19:00.43,0:19:01.00,Default,Default,0000,0000,0000,,生日快乐
+Dialogue: 0,0:19:01.00,0:19:01.87,Default,Default,0000,0000,0000,,谢谢
+Dialogue: 0,0:19:01.87,0:19:03.84,Default,Default,0000,0000,0000,,在电梯前我就想提醒你
+Dialogue: 0,0:19:04.00,0:19:06.00,Default,Default,0000,0000,0000,,- 不用提醒 我记得 - 谢谢
+Dialogue: 0,0:19:06.00,0:19:07.01,Default,Default,0000,0000,0000,,叶Sir 快来拍大合影
+Dialogue: 0,0:19:07.01,0:19:07.60,Default,Default,0000,0000,0000,,好的
+Dialogue: 0,0:19:07.67,0:19:09.47,Default,Default,0000,0000,0000,,等我这就来 等我拍张照片
+Dialogue: 0,0:19:09.47,0:19:10.96,Default,Default,0000,0000,0000,,不妨碍你 生日快乐 我先走了
+Dialogue: 0,0:19:11.58,0:19:12.91,Default,Default,0000,0000,0000,,拍张照都不等我?
+Dialogue: 0,0:19:12.91,0:19:14.97,Default,Default,0000,0000,0000,,我们俩多久没喝过酒了? 等我
+Dialogue: 0,0:19:25.72,0:19:28.25,Default,Default,0000,0000,0000,,(警队高层架构图)
+Dialogue: 0,0:19:34.80,0:19:38.00,Default,Default,0000,0000,0000,,那女孩刚才说警队里面渗入了很多黑警
+Dialogue: 0,0:19:38.00,0:19:40.07,Default,Default,0000,0000,0000,,我正在想我应该防范谁好呢?
+Dialogue: 0,0:19:40.07,0:19:41.13,Default,Default,0000,0000,0000,,你就走进来了
+Dialogue: 0,0:19:42.04,0:19:43.80,Default,Default,0000,0000,0000,,我是不是应该防范你呢?
+Dialogue: 0,0:20:50.74,0:20:52.51,Default,Default,0000,0000,0000,,破解之后最终发现
+Dialogue: 0,0:20:52.51,0:20:54.84,Default,Default,0000,0000,0000,,似乎是有人想在"大埔"和闹市
+Dialogue: 0,0:20:54.91,0:20:56.38,Default,Default,0000,0000,0000,,两个地方搞事情
+Dialogue: 0,0:20:56.51,0:21:00.25,Default,Default,0000,0000,0000,,而且 是有警察包庇的罪案
+Dialogue: 0,0:21:00.52,0:21:03.04,Default,Default,0000,0000,0000,,但凭仅有的信息已经可以推断
+Dialogue: 0,0:21:03.46,0:21:05.09,Default,Default,0000,0000,0000,,外国存在一个地下集团
+Dialogue: 0,0:21:05.09,0:21:06.96,Default,Default,0000,0000,0000,,这个集团专门掳拐儿童
+Dialogue: 0,0:21:06.96,0:21:08.95,Default,Default,0000,0000,0000,,并长期训练他们成为特工
+Dialogue: 0,0:21:44.46,0:21:46.03,Default,Default,0000,0000,0000,,这个集团专门掳拐儿童
+Dialogue: 0,0:21:46.03,0:21:48.33,Default,Default,0000,0000,0000,,并长期训练他们成为特工
+Dialogue: 0,0:21:48.33,0:21:49.63,Default,Default,0000,0000,0000,,而估计这些特工
+Dialogue: 0,0:21:49.63,0:21:52.50,Default,Default,0000,0000,0000,,已经大量渗透进了全世界的警队里
+Dialogue: 0,0:21:56.64,0:21:59.58,Default,Default,0000,0000,0000,,晴晴常常放学都要吃冰淇淋
+Dialogue: 0,0:21:59.88,0:22:01.68,Default,Default,0000,0000,0000,,我该怎么做 先生?
+Dialogue: 0,0:22:04.72,0:22:05.02,Default,Default,0000,0000,0000,,早
+Dialogue: 0,0:22:05.02,0:22:05.98,Default,Default,0000,0000,0000,,早
+Dialogue: 0,0:22:06.79,0:22:09.02,Default,Default,0000,0000,0000,,晴晴 如果想吃冰淇淋
+Dialogue: 0,0:22:09.02,0:22:10.06,Default,Default,0000,0000,0000,,就告诉爸爸 知道吗?
+Dialogue: 0,0:22:10.06,0:22:10.89,Default,Default,0000,0000,0000,,知道
+Dialogue: 0,0:22:10.89,0:22:11.76,Default,Default,0000,0000,0000,,想吃什么味道?
+Dialogue: 0,0:22:11.76,0:22:14.76,Default,Default,0000,0000,0000,,我想吃榴梿 还有巧克力
+Dialogue: 0,0:22:14.76,0:22:15.78,Default,Default,0000,0000,0000,,那么贪心?
+Dialogue: 0,0:22:16.33,0:22:17.63,Default,Default,0000,0000,0000,,拜拜 爸爸
+Dialogue: 0,0:22:17.63,0:22:18.62,Default,Default,0000,0000,0000,,拜拜
+Dialogue: 0,0:22:21.00,0:22:23.97,Default,Default,0000,0000,0000,,先生 你今晚会回来吃饭吗?
+Dialogue: 0,0:22:26.44,0:22:28.70,Default,Default,0000,0000,0000,,井Sir 我和缅甸警方沟通好了
+Dialogue: 0,0:22:29.01,0:22:31.41,Default,Default,0000,0000,0000,,一个小时后 你动身去缅甸参与行动
+Dialogue: 0,0:22:31.41,0:22:33.71,Default,Default,0000,0000,0000,,行动目标是将姚可仪
+Dialogue: 0,0:22:33.71,0:22:34.97,Default,Default,0000,0000,0000,,黑到的档案数据拿回来
+Dialogue: 0,0:22:35.95,0:22:36.97,Default,Default,0000,0000,0000,,为了避免有内鬼
+Dialogue: 0,0:22:37.22,0:22:40.02,Default,Default,0000,0000,0000,,行动本来不适合太多人参与
+Dialogue: 0,0:22:40.02,0:22:41.72,Default,Default,0000,0000,0000,,但我考虑到支援的问题
+Dialogue: 0,0:22:41.72,0:22:42.99,Default,Default,0000,0000,0000,,我还是找了几个人帮忙
+Dialogue: 0,0:22:42.99,0:22:43.95,Default,Default,0000,0000,0000,,希望你没意见
+Dialogue: 0,0:22:44.29,0:22:45.95,Default,Default,0000,0000,0000,,我相信处长的安排
+Dialogue: 0,0:22:46.99,0:22:47.92,Default,Default,0000,0000,0000,,叫他们进来
+Dialogue: 0,0:22:51.26,0:22:52.52,Default,Default,0000,0000,0000,,Sir
+Dialogue: 0,0:22:54.60,0:22:55.90,Default,Default,0000,0000,0000,,Sir!
+Dialogue: 0,0:23:01.54,0:23:03.31,Default,Default,0000,0000,0000,,井Sir 程Sir 你们去缅甸
+Dialogue: 0,0:23:03.31,0:23:05.14,Default,Default,0000,0000,0000,,当地精锐部队会接应你们
+Dialogue: 0,0:23:05.24,0:23:07.25,Default,Default,0000,0000,0000,,叶Sir 你坐镇刑事情报科
+Dialogue: 0,0:23:07.25,0:23:09.78,Default,Default,0000,0000,0000,,除了监察行动 还要无间断支援他们
+Dialogue: 0,0:23:09.78,0:23:10.71,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:23:24.30,0:23:25.13,Default,Default,0000,0000,0000,,挺低端是吧?
+Dialogue: 0,0:23:25.60,0:23:27.46,Default,Default,0000,0000,0000,,不会啊 我小时候也玩过
+Dialogue: 0,0:23:27.67,0:23:28.96,Default,Default,0000,0000,0000,,我们这代人就是玩这些
+Dialogue: 0,0:23:29.50,0:23:30.97,Default,Default,0000,0000,0000,,不用整天看着手机
+Dialogue: 0,0:23:31.17,0:23:33.97,Default,Default,0000,0000,0000,,玩久了 也玩出感情了
+Dialogue: 0,0:23:35.71,0:23:37.00,Default,Default,0000,0000,0000,,难道你不认得我了吗?
+Dialogue: 0,0:23:44.32,0:23:46.79,Default,Default,0000,0000,0000,,两年前在粉岭的反恐训练
+Dialogue: 0,0:23:46.79,0:23:47.75,Default,Default,0000,0000,0000,,我跟过你
+Dialogue: 0,0:23:50.56,0:23:51.42,Default,Default,0000,0000,0000,,不认得
+Dialogue: 0,0:23:51.99,0:23:52.68,Default,Default,0000,0000,0000,,不像你
+Dialogue: 0,0:23:53.39,0:23:54.48,Default,Default,0000,0000,0000,,不过可能我职业病
+Dialogue: 0,0:23:55.99,0:23:57.00,Default,Default,0000,0000,0000,,刑事情报科选卧底
+Dialogue: 0,0:23:57.00,0:23:58.96,Default,Default,0000,0000,0000,,的首要条件就是认人能力
+Dialogue: 0,0:23:59.73,0:24:00.96,Default,Default,0000,0000,0000,,我做过几年卧底
+Dialogue: 0,0:24:01.30,0:24:02.63,Default,Default,0000,0000,0000,,你一点都不像
+Dialogue: 0,0:24:03.03,0:24:05.13,Default,Default,0000,0000,0000,,我没见过卧底这么外露
+Dialogue: 0,0:24:05.64,0:24:07.00,Default,Default,0000,0000,0000,,越是假装掩饰
+Dialogue: 0,0:24:07.64,0:24:09.97,Default,Default,0000,0000,0000,,但偏偏 露出马脚
+Dialogue: 0,0:24:12.68,0:24:14.37,Default,Default,0000,0000,0000,,外露也可以是故意的
+Dialogue: 0,0:24:26.56,0:24:27.99,Default,Default,0000,0000,0000,,今天我们和香港警方
+Dialogue: 0,0:24:27.99,0:24:28.99,Default,Default,0000,0000,0000,,展开联合行动
+Dialogue: 0,0:24:28.99,0:24:29.96,Default,Default,0000,0000,0000,,目标是要保住港方
+Dialogue: 0,0:24:29.96,0:24:30.86,Default,Default,0000,0000,0000,,一个涉案证据
+Dialogue: 0,0:24:30.86,0:24:32.83,Default,Default,0000,0000,0000,,还要搜捕一切嫌疑人
+Dialogue: 0,0:24:32.96,0:24:33.95,Default,Default,0000,0000,0000,,线报显示
+Dialogue: 0,0:24:34.13,0:24:36.29,Default,Default,0000,0000,0000,,目标人物身处人口稠密的地方
+Dialogue: 0,0:24:36.50,0:24:38.50,Default,Default,0000,0000,0000,,为免打草惊蛇
+Dialogue: 0,0:24:38.50,0:24:40.00,Default,Default,0000,0000,0000,,我们会以平民装束混入目标单位
+Dialogue: 0,0:24:40.00,0:24:42.41,Default,Default,0000,0000,0000,,行动过程如果遇到任何突袭反抗
+Dialogue: 0,0:24:42.41,0:24:44.74,Default,Default,0000,0000,0000,,我们誓必保卫人民性命
+Dialogue: 0,0:24:45.01,0:24:45.78,Default,Default,0000,0000,0000,,对敌人勇抗到底
+Dialogue: 0,0:24:45.78,0:24:46.74,Default,Default,0000,0000,0000,,遵命
+Dialogue: 0,0:24:54.99,0:24:56.01,Default,Default,0000,0000,0000,,北面安全
+Dialogue: 0,0:24:57.69,0:24:58.42,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:25:24.02,0:25:24.98,Default,Default,0000,0000,0000,,安静 离开
+Dialogue: 0,0:25:32.39,0:25:33.95,Default,Default,0000,0000,0000,,安静 离开
+Dialogue: 0,0:25:34.09,0:25:35.39,Default,Default,0000,0000,0000,,走!
+Dialogue: 0,0:25:44.00,0:25:45.49,Default,Default,0000,0000,0000,,Alpha Team到位
+Dialogue: 0,0:25:45.80,0:25:47.00,Default,Default,0000,0000,0000,,3秒后攻击
+Dialogue: 0,0:25:59.72,0:26:01.92,Default,Default,0000,0000,0000,,发生什么事?
+Dialogue: 0,0:26:01.92,0:26:03.95,Default,Default,0000,0000,0000,,没信号了 通讯器也没声音
+Dialogue: 0,0:26:06.99,0:26:08.96,Default,Default,0000,0000,0000,,阿滔 听到吗?
+Dialogue: 0,0:26:09.06,0:26:11.76,Default,Default,0000,0000,0000,,有人受伤 请增援
+Dialogue: 0,0:26:14.07,0:26:15.47,Default,Default,0000,0000,0000,,阿井 说话!
+Dialogue: 0,0:26:15.47,0:26:17.02,Default,Default,0000,0000,0000,,修复了没有?
+Dialogue: 0,0:26:29.88,0:26:30.58,Default,Default,0000,0000,0000,,硬盘
+Dialogue: 0,0:26:58.01,0:26:59.01,Default,Default,0000,0000,0000,,还要等多久
+Dialogue: 0,0:26:59.01,0:27:00.08,Default,Default,0000,0000,0000,,画面还没修复好
+Dialogue: 0,0:27:00.08,0:27:00.98,Default,Default,0000,0000,0000,,声音修复了
+Dialogue: 0,0:27:01.31,0:27:03.97,Default,Default,0000,0000,0000,,阿滔 听到了吗? 现在什么情况?
+Dialogue: 0,0:27:04.32,0:27:05.42,Default,Default,0000,0000,0000,,有杀手伏击
+Dialogue: 0,0:27:05.42,0:27:06.97,Default,Default,0000,0000,0000,,我们正在追那个杀手 取回硬盘
+Dialogue: 0,0:27:07.59,0:27:08.68,Default,Default,0000,0000,0000,,定位他们的位置
+Dialogue: 0,0:27:09.02,0:27:09.99,Default,Default,0000,0000,0000,,画面还不稳定
+Dialogue: 0,0:27:18.00,0:27:18.96,Default,Default,0000,0000,0000,,阿庄 到了没有?
+Dialogue: 0,0:27:33.14,0:27:34.30,Default,Default,0000,0000,0000,,硬盘拿到
+Dialogue: 0,0:28:00.14,0:28:01.83,Default,Default,0000,0000,0000,,B Point!
+Dialogue: 0,0:28:41.11,0:28:41.98,Default,Default,0000,0000,0000,,换弹
+Dialogue: 0,0:28:50.02,0:28:51.01,Default,Default,0000,0000,0000,,走呀!
+Dialogue: 0,0:29:05.00,0:29:05.49,Default,Default,0000,0000,0000,,走!
+Dialogue: 0,0:29:13.54,0:29:14.84,Default,Default,0000,0000,0000,,先上来 降落!
+Dialogue: 0,0:29:18.18,0:29:19.51,Default,Default,0000,0000,0000,,等我!
+Dialogue: 0,0:29:33.46,0:29:35.23,Default,Default,0000,0000,0000,,硬盘在我手上 他们还没上飞机
+Dialogue: 0,0:29:41.51,0:29:43.17,Default,Default,0000,0000,0000,,火力太猛 飞机快撑不住
+Dialogue: 0,0:29:43.17,0:29:44.00,Default,Default,0000,0000,0000,,请求指令!
+Dialogue: 0,0:30:01.99,0:30:02.86,Default,Default,0000,0000,0000,,叶Sir!
+Dialogue: 0,0:30:06.66,0:30:07.76,Default,Default,0000,0000,0000,,撤退
+Dialogue: 0,0:30:09.50,0:30:10.59,Default,Default,0000,0000,0000,,阿庄 撤退
+Dialogue: 0,0:30:10.84,0:30:11.82,Default,Default,0000,0000,0000,,撤退呀!
+Dialogue: 0,0:31:07.99,0:31:08.96,Default,Default,0000,0000,0000,,走!
+Dialogue: 0,0:32:33.04,0:32:34.98,Default,Default,0000,0000,0000,,叶Sir 硬盘里什么都没有
+Dialogue: 0,0:32:57.34,0:33:00.00,Default,Default,0000,0000,0000,,有人伏击 刑事情报科通讯系统出了问题
+Dialogue: 0,0:33:00.47,0:33:02.80,Default,Default,0000,0000,0000,,很有可能 我们有内鬼
+Dialogue: 0,0:33:02.91,0:33:04.20,Default,Default,0000,0000,0000,,对行动知情的人
+Dialogue: 0,0:33:04.84,0:33:06.98,Default,Default,0000,0000,0000,,再加上我们几个 总共十五人
+Dialogue: 0,0:33:06.98,0:33:09.95,Default,Default,0000,0000,0000,,除此以外 大家有没有想过姚可仪这个人
+Dialogue: 0,0:33:10.28,0:33:11.91,Default,Default,0000,0000,0000,,为什么杀手要保住她的命
+Dialogue: 0,0:33:11.98,0:33:13.45,Default,Default,0000,0000,0000,,还一定要抓走她
+Dialogue: 0,0:33:13.78,0:33:15.72,Default,Default,0000,0000,0000,,既然缪国能是被人要胁的
+Dialogue: 0,0:33:15.72,0:33:17.75,Default,Default,0000,0000,0000,,姚可仪也一样有可能被人要胁
+Dialogue: 0,0:33:17.96,0:33:20.75,Default,Default,0000,0000,0000,,大胆推测 姚可仪有会不会是恐怖分子?
+Dialogue: 0,0:33:22.46,0:33:23.76,Default,Default,0000,0000,0000,,叶Sir 你觉得呢?
+Dialogue: 0,0:33:27.00,0:33:28.30,Default,Default,0000,0000,0000,,我觉得一切都有可能
+Dialogue: 0,0:33:28.30,0:33:30.67,Default,Default,0000,0000,0000,,那包不包括还没找到的程滔
+Dialogue: 0,0:33:32.54,0:33:34.00,Default,Default,0000,0000,0000,,他也值得被怀疑?
+Dialogue: 0,0:33:34.74,0:33:36.04,Default,Default,0000,0000,0000,,缅甸已经清理现场
+Dialogue: 0,0:33:36.51,0:33:37.97,Default,Default,0000,0000,0000,,但是仍然找不到他
+Dialogue: 0,0:33:38.48,0:33:39.17,Default,Default,0000,0000,0000,,最重要的是
+Dialogue: 0,0:33:40.31,0:33:42.21,Default,Default,0000,0000,0000,,他最后接触过那个硬盘
+Dialogue: 0,0:33:43.61,0:33:45.98,Default,Default,0000,0000,0000,,我想我有点跟不上大家的节奏
+Dialogue: 0,0:33:49.02,0:33:51.68,Default,Default,0000,0000,0000,,我还在担心我伙伴的性命安危
+Dialogue: 0,0:33:52.16,0:33:54.95,Default,Default,0000,0000,0000,,但你们却在怀疑他是不是有问题
+Dialogue: 0,0:33:55.63,0:33:58.46,Default,Default,0000,0000,0000,,我不明白一个人的性命安危你们不管
+Dialogue: 0,0:33:58.60,0:34:01.76,Default,Default,0000,0000,0000,,是不是因为你们急着为这件事情找个解释?
+Dialogue: 0,0:34:04.24,0:34:05.93,Default,Default,0000,0000,0000,,就当是我失职
+Dialogue: 0,0:34:09.01,0:34:11.13,Default,Default,0000,0000,0000,,程滔跟了我很多年
+Dialogue: 0,0:34:12.21,0:34:13.97,Default,Default,0000,0000,0000,,是我的好兄弟
+Dialogue: 0,0:34:15.08,0:34:16.98,Default,Default,0000,0000,0000,,我不会怀疑他
+Dialogue: 0,0:34:17.18,0:34:19.05,Default,Default,0000,0000,0000,,那如果我告诉你
+Dialogue: 0,0:34:19.05,0:34:20.38,Default,Default,0000,0000,0000,,有情报显示
+Dialogue: 0,0:34:21.15,0:34:22.74,Default,Default,0000,0000,0000,,程滔可能是黑警呢?
+Dialogue: 0,0:34:27.79,0:34:28.95,Default,Default,0000,0000,0000,,我担保他
+Dialogue: 0,0:34:36.50,0:34:37.00,Default,Default,0000,0000,0000,,去安全屋
+Dialogue: 0,0:34:37.00,0:34:37.76,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,0:34:41.47,0:34:42.44,Default,Default,0000,0000,0000,,你给我站住!
+Dialogue: 0,0:34:43.14,0:34:43.97,Default,Default,0000,0000,0000,,干什么?
+Dialogue: 0,0:34:45.24,0:34:46.01,Default,Default,0000,0000,0000,,阿滔现在到底有没有消息?
+Dialogue: 0,0:34:46.01,0:34:48.01,Default,Default,0000,0000,0000,,缅甸警方在调查 我也在等报告
+Dialogue: 0,0:34:48.01,0:34:49.01,Default,Default,0000,0000,0000,,- 你跟阿庄一起回来 - 我说得不清楚吗?
+Dialogue: 0,0:34:49.01,0:34:50.71,Default,Default,0000,0000,0000,,为什么不留一个人等消息呀?
+Dialogue: 0,0:34:50.71,0:34:51.68,Default,Default,0000,0000,0000,,那是人命啊
+Dialogue: 0,0:34:51.68,0:34:53.38,Default,Default,0000,0000,0000,,你也知道是人命?
+Dialogue: 0,0:34:53.62,0:34:54.95,Default,Default,0000,0000,0000,,那你还下令撤退?
+Dialogue: 0,0:34:56.69,0:34:58.09,Default,Default,0000,0000,0000,,阿滔的失踪
+Dialogue: 0,0:34:58.09,0:34:59.95,Default,Default,0000,0000,0000,,是你间接造成的
+Dialogue: 0,0:35:22.08,0:35:23.98,Default,Default,0000,0000,0000,,我一定要找到他
+Dialogue: 0,0:35:25.78,0:35:26.95,Default,Default,0000,0000,0000,,我要让那帮家伙知道
+Dialogue: 0,0:35:26.95,0:35:27.98,Default,Default,0000,0000,0000,,他不是黑警
+Dialogue: 0,0:35:28.05,0:35:29.35,Default,Default,0000,0000,0000,,阿滔有回头救我
+Dialogue: 0,0:35:30.62,0:35:31.75,Default,Default,0000,0000,0000,,他怎么会是黑警
+Dialogue: 0,0:35:32.99,0:35:34.42,Default,Default,0000,0000,0000,,我留在缅甸没用
+Dialogue: 0,0:35:35.03,0:35:37.96,Default,Default,0000,0000,0000,,现在唯一的线索 就是姚可仪
+Dialogue: 0,0:35:39.30,0:35:40.19,Default,Default,0000,0000,0000,,相信我
+Dialogue: 0,0:35:46.47,0:35:47.30,Default,Default,0000,0000,0000,,对不起
+Dialogue: 0,0:35:50.54,0:35:51.60,Default,Default,0000,0000,0000,,对不起
+Dialogue: 0,0:36:00.45,0:36:01.08,Default,Default,0000,0000,0000,,井Sir到了
+Dialogue: 0,0:36:08.46,0:36:10.09,Default,Default,0000,0000,0000,,为什么硬盘是空的?
+Dialogue: 0,0:36:10.09,0:36:11.56,Default,Default,0000,0000,0000,,是不是所有事都是你编出来?
+Dialogue: 0,0:36:11.56,0:36:12.26,Default,Default,0000,0000,0000,,你什么意思啊?
+Dialogue: 0,0:36:12.26,0:36:13.75,Default,Default,0000,0000,0000,,我们在缅甸死了很多人
+Dialogue: 0,0:36:17.00,0:36:18.13,Default,Default,0000,0000,0000,,你还不说真话?
+Dialogue: 0,0:36:20.97,0:36:22.63,Default,Default,0000,0000,0000,,阿Bill呢?
+Dialogue: 0,0:36:23.01,0:36:24.00,Default,Default,0000,0000,0000,,死了
+Dialogue: 0,0:36:29.61,0:36:30.98,Default,Default,0000,0000,0000,,你到底是什么人
+Dialogue: 0,0:36:31.42,0:36:32.94,Default,Default,0000,0000,0000,,跟恐怖分子有什么关系?
+Dialogue: 0,0:36:40.76,0:36:43.45,Default,Default,0000,0000,0000,,你是不是要全香港的人跟你一起陪葬
+Dialogue: 0,0:36:45.00,0:36:45.72,Default,Default,0000,0000,0000,,阿Bill死了
+Dialogue: 0,0:36:49.03,0:36:50.86,Default,Default,0000,0000,0000,,我什么都不会再说
+Dialogue: 0,0:36:55.37,0:36:57.01,Default,Default,0000,0000,0000,,我怀疑你给假口供
+Dialogue: 0,0:36:57.01,0:36:58.94,Default,Default,0000,0000,0000,,加上跟两宗恐怖袭击案有关
+Dialogue: 0,0:36:59.01,0:37:00.07,Default,Default,0000,0000,0000,,所以正式拘捕你
+Dialogue: 0,0:37:03.01,0:37:05.55,Default,Default,0000,0000,0000,,没错 那个黑客黑走的档案
+Dialogue: 0,0:37:05.55,0:37:06.91,Default,Default,0000,0000,0000,,要视为永久泄漏
+Dialogue: 0,0:37:07.02,0:37:09.18,Default,Default,0000,0000,0000,,但是我的香港特工已经确认
+Dialogue: 0,0:37:09.45,0:37:13.01,Default,Default,0000,0000,0000,,那个黑客对我们特工的名单一无所知
+Dialogue: 0,0:37:14.16,0:37:16.99,Default,Default,0000,0000,0000,,对我们全球行动的细节和时间表
+Dialogue: 0,0:37:16.99,0:37:18.16,Default,Default,0000,0000,0000,,也掌握有限
+Dialogue: 0,0:37:18.16,0:37:21.53,Default,Default,0000,0000,0000,,但是黑客锁住了我们的资料系统
+Dialogue: 0,0:37:21.53,0:37:24.13,Default,Default,0000,0000,0000,,只要系统一天打不开
+Dialogue: 0,0:37:24.13,0:37:26.00,Default,Default,0000,0000,0000,,我们都实行不了任何计划
+Dialogue: 0,0:37:27.00,0:37:28.47,Default,Default,0000,0000,0000,,总部多年来的心血
+Dialogue: 0,0:37:28.47,0:37:29.96,Default,Default,0000,0000,0000,,会毁于一旦
+Dialogue: 0,0:37:30.07,0:37:32.01,Default,Default,0000,0000,0000,,董 你应该非常清楚
+Dialogue: 0,0:37:32.01,0:37:35.01,Default,Default,0000,0000,0000,,如果这件事不妥当处理的话
+Dialogue: 0,0:37:35.01,0:37:37.98,Default,Default,0000,0000,0000,,后果将会有多可怕
+Dialogue: 0,0:37:39.52,0:37:41.25,Default,Default,0000,0000,0000,,把握时间
+Dialogue: 0,0:37:46.42,0:37:48.43,Default,Default,0000,0000,0000,,董先生 总部回复
+Dialogue: 0,0:37:48.43,0:37:50.45,Default,Default,0000,0000,0000,,用尽所有方法也无法解锁
+Dialogue: 0,0:37:51.00,0:37:52.46,Default,Default,0000,0000,0000,,一定要抓到那个黑客
+Dialogue: 0,0:37:55.00,0:37:57.97,Default,Default,0000,0000,0000,,缅甸行动 能不能找到我想要的东西?
+Dialogue: 0,0:38:12.98,0:38:15.25,Default,Default,0000,0000,0000,,那硬盘在我手上
+Dialogue: 0,0:38:43.58,0:38:45.38,Default,Default,0000,0000,0000,,头车 400米后改道去...
+Dialogue: 0,0:38:51.92,0:38:52.62,Default,Default,0000,0000,0000,,趴下
+Dialogue: 0,0:40:56.41,0:40:57.31,Default,Default,0000,0000,0000,,为什么是你
+Dialogue: 0,0:41:05.89,0:41:06.91,Default,Default,0000,0000,0000,,你想怎么样?
+Dialogue: 0,0:41:07.89,0:41:09.42,Default,Default,0000,0000,0000,,之前我自己也不知道
+Dialogue: 0,0:41:09.99,0:41:11.12,Default,Default,0000,0000,0000,,其实我是一个
+Dialogue: 0,0:41:12.00,0:41:14.06,Default,Default,0000,0000,0000,,既贪钱 又正义的警察
+Dialogue: 0,0:41:14.06,0:41:16.00,Default,Default,0000,0000,0000,,很矛盾 想不通
+Dialogue: 0,0:41:16.00,0:41:19.16,Default,Default,0000,0000,0000,,幸好 直到姚可仪的出现我终于找到答案
+Dialogue: 0,0:41:20.07,0:41:21.23,Default,Default,0000,0000,0000,,不出卖正义
+Dialogue: 0,0:41:22.34,0:41:23.67,Default,Default,0000,0000,0000,,也不过是价钱不够
+Dialogue: 0,0:41:24.54,0:41:25.63,Default,Default,0000,0000,0000,,你不要跟我说废话
+Dialogue: 0,0:41:27.01,0:41:28.44,Default,Default,0000,0000,0000,,姚可仪在你手上
+Dialogue: 0,0:41:29.18,0:41:29.98,Default,Default,0000,0000,0000,,交出来
+Dialogue: 0,0:41:30.08,0:41:32.48,Default,Default,0000,0000,0000,,我刚才跟你说过 我选择了钱
+Dialogue: 0,0:41:32.98,0:41:34.95,Default,Default,0000,0000,0000,,那女人在人质市场值多少钱
+Dialogue: 0,0:41:36.99,0:41:37.75,Default,Default,0000,0000,0000,,你知道
+Dialogue: 0,0:41:38.96,0:41:40.95,Default,Default,0000,0000,0000,,我给你一个跟我合作的机会
+Dialogue: 0,0:41:42.06,0:41:43.96,Default,Default,0000,0000,0000,,将来我还可以帮你求情
+Dialogue: 0,0:41:45.70,0:41:46.96,Default,Default,0000,0000,0000,,这影片是我刚才拍的
+Dialogue: 0,0:41:47.53,0:41:49.50,Default,Default,0000,0000,0000,,你助手中枪的时候你在他身边
+Dialogue: 0,0:41:50.13,0:41:51.86,Default,Default,0000,0000,0000,,为什么枪手只打他不打你?
+Dialogue: 0,0:41:58.01,0:41:58.91,Default,Default,0000,0000,0000,,会不会那些人
+Dialogue: 0,0:41:58.91,0:41:59.97,Default,Default,0000,0000,0000,,是你派来的?
+Dialogue: 0,0:42:00.91,0:42:01.97,Default,Default,0000,0000,0000,,还装好警察?
+Dialogue: 0,0:42:02.68,0:42:03.98,Default,Default,0000,0000,0000,,你累不累呀?
+Dialogue: 0,0:42:32.08,0:42:32.97,Default,Default,0000,0000,0000,,奀仔
+Dialogue: 0,0:42:49.63,0:42:50.42,Default,Default,0000,0000,0000,,空弹?
+Dialogue: 0,0:42:55.00,0:42:56.33,Default,Default,0000,0000,0000,,你是奀仔?
+Dialogue: 0,0:44:56.35,0:44:58.06,Default,Default,0000,0000,0000,,Emma 晴晴退烧了没有?
+Dialogue: 0,0:44:58.06,0:45:00.79,Default,Default,0000,0000,0000,,好点了 我想她可能不适应这的水
+Dialogue: 0,0:45:02.56,0:45:03.96,Default,Default,0000,0000,0000,,为什么我们要搬到这啊?
+Dialogue: 0,0:45:04.29,0:45:05.96,Default,Default,0000,0000,0000,,宝宝真的很难适应
+Dialogue: 0,0:45:11.00,0:45:15.44,Default,Default,0000,0000,0000,,老公 不管什么原因 我都支持你
+Dialogue: 0,0:45:18.54,0:45:19.98,Default,Default,0000,0000,0000,,好啦 等你回来再商量
+Dialogue: 0,0:45:23.08,0:45:24.05,Default,Default,0000,0000,0000,,Emma?
+Dialogue: 0,0:45:35.26,0:45:38.96,Default,Default,0000,0000,0000,,好好... 不哭不哭...
+Dialogue: 0,0:45:40.36,0:45:42.96,Default,Default,0000,0000,0000,,委屈死了... 好好好...
+Dialogue: 0,0:45:46.97,0:45:48.96,Default,Default,0000,0000,0000,,总部不是不让你结婚生小孩
+Dialogue: 0,0:45:49.44,0:45:51.91,Default,Default,0000,0000,0000,,但是你不能违反制度一走了之吧
+Dialogue: 0,0:45:54.34,0:45:55.37,Default,Default,0000,0000,0000,,两个选一个吧
+Dialogue: 0,0:46:06.99,0:46:07.96,Default,Default,0000,0000,0000,,董先生
+Dialogue: 0,0:46:09.83,0:46:10.95,Default,Default,0000,0000,0000,,我以后不敢了
+Dialogue: 0,0:46:19.00,0:46:19.66,Default,Default,0000,0000,0000,,Emma
+Dialogue: 0,0:46:25.84,0:46:27.00,Default,Default,0000,0000,0000,,总部曾教过你
+Dialogue: 0,0:46:28.01,0:46:29.98,Default,Default,0000,0000,0000,,你有关心的人结果会更惨
+Dialogue: 0,0:46:30.25,0:46:31.81,Default,Default,0000,0000,0000,,瞧瞧! 成这样
+Dialogue: 0,0:46:34.08,0:46:35.31,Default,Default,0000,0000,0000,,再过五年吧
+Dialogue: 0,0:46:36.99,0:46:39.62,Default,Default,0000,0000,0000,,五年后 总部会给你自由
+Dialogue: 0,0:47:10.02,0:47:12.68,Default,Default,0000,0000,0000,,你今天分组抽到支好签喔 井Sir
+Dialogue: 0,0:47:12.99,0:47:13.61,Default,Default,0000,0000,0000,,是吗?
+Dialogue: 0,0:47:32.88,0:47:33.81,Default,Default,0000,0000,0000,,总部曾教过你
+Dialogue: 0,0:47:35.01,0:47:37.84,Default,Default,0000,0000,0000,,你有关心的人结果会更惨 瞧瞧!
+Dialogue: 0,0:47:39.42,0:47:40.41,Default,Default,0000,0000,0000,,难道你不认得我了吗?
+Dialogue: 0,0:47:41.08,0:47:43.18,Default,Default,0000,0000,0000,,两年前在粉岭的反恐训练
+Dialogue: 0,0:47:43.79,0:47:44.95,Default,Default,0000,0000,0000,,我跟过你
+Dialogue: 0,0:47:45.36,0:47:46.52,Default,Default,0000,0000,0000,,不认得
+Dialogue: 0,0:47:58.87,0:47:59.96,Default,Default,0000,0000,0000,,阿Dee
+Dialogue: 0,0:48:07.28,0:48:08.51,Default,Default,0000,0000,0000,,奀仔
+Dialogue: 0,0:48:38.68,0:48:39.14,Default,Default,0000,0000,0000,,喝口水
+Dialogue: 0,0:48:39.41,0:48:41.64,Default,Default,0000,0000,0000,,你要杀就杀 别浪费时间
+Dialogue: 0,0:48:43.51,0:48:44.38,Default,Default,0000,0000,0000,,2013年
+Dialogue: 0,0:48:45.02,0:48:46.55,Default,Default,0000,0000,0000,,你成为独立记者
+Dialogue: 0,0:48:46.55,0:48:47.78,Default,Default,0000,0000,0000,,在菲律宾红灯区
+Dialogue: 0,0:48:47.78,0:48:48.88,Default,Default,0000,0000,0000,,做深度采访
+Dialogue: 0,0:48:51.25,0:48:52.69,Default,Default,0000,0000,0000,,一去 就是三年
+Dialogue: 0,0:49:01.60,0:49:02.60,Default,Default,0000,0000,0000,,2017年
+Dialogue: 0,0:49:02.60,0:49:04.16,Default,Default,0000,0000,0000,,你在整个新闻界消失
+Dialogue: 0,0:49:04.63,0:49:05.97,Default,Default,0000,0000,0000,,直至最近才又活跃起来
+Dialogue: 0,0:49:08.31,0:49:10.54,Default,Default,0000,0000,0000,,你消失的原因 是因为她
+Dialogue: 0,0:49:11.04,0:49:13.38,Default,Default,0000,0000,0000,,一个麻省理工的高材生去做记者
+Dialogue: 0,0:49:13.38,0:49:14.74,Default,Default,0000,0000,0000,,是想借着记者的背景
+Dialogue: 0,0:49:14.84,0:49:16.47,Default,Default,0000,0000,0000,,去一些特殊的地方找人
+Dialogue: 0,0:49:17.01,0:49:17.98,Default,Default,0000,0000,0000,,可惜
+Dialogue: 0,0:49:19.72,0:49:21.51,Default,Default,0000,0000,0000,,当你找到你要找的人的时候
+Dialogue: 0,0:49:23.79,0:49:24.95,Default,Default,0000,0000,0000,,她已经不幸离世
+Dialogue: 0,0:49:46.14,0:49:48.08,Default,Default,0000,0000,0000,,你为什么要把她给搜出来?
+Dialogue: 0,0:49:48.71,0:49:50.65,Default,Default,0000,0000,0000,,我妹妹死得很惨
+Dialogue: 0,0:49:51.98,0:49:53.21,Default,Default,0000,0000,0000,,她死得很惨
+Dialogue: 0,0:49:53.85,0:49:55.84,Default,Default,0000,0000,0000,,当初就是你们把她抓进去
+Dialogue: 0,0:49:56.29,0:49:58.15,Default,Default,0000,0000,0000,,她从营里逃走的时候
+Dialogue: 0,0:49:58.49,0:50:00.22,Default,Default,0000,0000,0000,,你们送她去卖淫
+Dialogue: 0,0:50:06.00,0:50:07.46,Default,Default,0000,0000,0000,,她才八岁呀
+Dialogue: 0,0:50:08.00,0:50:10.00,Default,Default,0000,0000,0000,,你为什么不直接杀了她
+Dialogue: 0,0:50:10.00,0:50:14.10,Default,Default,0000,0000,0000,,就算你杀了我 我也不会帮你们解锁的
+Dialogue: 0,0:50:15.01,0:50:16.17,Default,Default,0000,0000,0000,,程滔他不是坏人
+Dialogue: 0,0:50:22.01,0:50:23.98,Default,Default,0000,0000,0000,,他一直都在听我的命令做事
+Dialogue: 0,0:50:24.91,0:50:27.52,Default,Default,0000,0000,0000,,在缅甸为了保住你的硬盘
+Dialogue: 0,0:50:27.52,0:50:28.98,Default,Default,0000,0000,0000,,所以他假装失踪
+Dialogue: 0,0:50:35.33,0:50:36.72,Default,Default,0000,0000,0000,,硬盘拿到
+Dialogue: 0,0:50:40.00,0:50:41.62,Default,Default,0000,0000,0000,,那硬盘在我手上
+Dialogue: 0,0:50:41.97,0:50:42.40,Default,Default,0000,0000,0000,,做得好
+Dialogue: 0,0:50:43.00,0:50:46.49,Default,Default,0000,0000,0000,,他抓你来这里 也是因为听我命令要保护你
+Dialogue: 0,0:51:01.28,0:51:03.91,Default,Default,0000,0000,0000,,他其实是隶属香港警队
+Dialogue: 0,0:51:03.99,0:51:06.75,Default,Default,0000,0000,0000,,一个专门打击恐怖分子的神秘部队
+Dialogue: 0,0:51:08.09,0:51:11.25,Default,Default,0000,0000,0000,,IFF 隐形战线部队
+Dialogue: 0,0:51:12.26,0:51:15.00,Default,Default,0000,0000,0000,,因为要高度保密 所以隐形战线部队
+Dialogue: 0,0:51:15.00,0:51:16.97,Default,Default,0000,0000,0000,,是在警队常规编制以外
+Dialogue: 0,0:51:17.30,0:51:19.23,Default,Default,0000,0000,0000,,他们是直接向我报告
+Dialogue: 0,0:51:28.01,0:51:29.17,Default,Default,0000,0000,0000,,既然要高度保密
+Dialogue: 0,0:51:31.21,0:51:32.94,Default,Default,0000,0000,0000,,为什么要告诉我?
+Dialogue: 0,0:51:33.25,0:51:35.85,Default,Default,0000,0000,0000,,因为我想请你一起打击恐怖分子
+Dialogue: 0,0:51:35.85,0:51:38.18,Default,Default,0000,0000,0000,,我想知道他们一直要抓你的原因
+Dialogue: 0,0:51:39.22,0:51:41.02,Default,Default,0000,0000,0000,,因为我锁住了他们的电脑系统
+Dialogue: 0,0:51:43.13,0:51:46.00,Default,Default,0000,0000,0000,,当时 我不够时间下载所有档案
+Dialogue: 0,0:51:46.00,0:51:47.00,Default,Default,0000,0000,0000,,在匆忙间
+Dialogue: 0,0:51:47.00,0:51:48.79,Default,Default,0000,0000,0000,,我向他们发送了个病毒
+Dialogue: 0,0:51:48.97,0:51:51.37,Default,Default,0000,0000,0000,,病毒的功能就是让他们的电脑系统瘫痪
+Dialogue: 0,0:51:51.37,0:51:53.40,Default,Default,0000,0000,0000,,并且不能再进行任何操作
+Dialogue: 0,0:51:53.40,0:51:54.06,Default,Default,0000,0000,0000,,也就是说
+Dialogue: 0,0:51:54.14,0:51:56.63,Default,Default,0000,0000,0000,,他们再打不开他们数据中心的任何内容
+Dialogue: 0,0:51:56.84,0:51:58.36,Default,Default,0000,0000,0000,,而唯一解锁的方法
+Dialogue: 0,0:52:00.48,0:52:01.88,Default,Default,0000,0000,0000,,就是我的虹膜
+Dialogue: 0,0:52:06.95,0:52:08.38,Default,Default,0000,0000,0000,,我们现在身处的位置
+Dialogue: 0,0:52:08.38,0:52:10.58,Default,Default,0000,0000,0000,,就是失踪警司井进贤的家外
+Dialogue: 0,0:52:11.02,0:52:12.95,Default,Default,0000,0000,0000,,里面仍然有大批探员在搜证
+Dialogue: 0,0:52:13.22,0:52:14.62,Default,Default,0000,0000,0000,,至于怀疑被人拐走
+Dialogue: 0,0:52:14.62,0:52:17.92,Default,Default,0000,0000,0000,,车撞人案的关键证人姚可仪 警方现正...
+Dialogue: 0,0:52:18.50,0:52:21.06,Default,Default,0000,0000,0000,,放心 我们已经接到你的女儿了
+Dialogue: 0,0:52:29.07,0:52:29.94,Default,Default,0000,0000,0000,,谢谢
+Dialogue: 0,0:52:30.31,0:52:32.01,Default,Default,0000,0000,0000,,知不知道已经放话了说
+Dialogue: 0,0:52:32.01,0:52:34.14,Default,Default,0000,0000,0000,,姚可仪在他手上 在找买家?
+Dialogue: 0,0:52:34.14,0:52:35.13,Default,Default,0000,0000,0000,,不知道
+Dialogue: 0,0:52:35.55,0:52:37.60,Default,Default,0000,0000,0000,,连那个硬盘也在他手上
+Dialogue: 0,0:52:38.18,0:52:39.17,Default,Default,0000,0000,0000,,什么人?
+Dialogue: 0,0:52:39.55,0:52:42.55,Default,Default,0000,0000,0000,,我们估计是那个在缅甸失踪的警察
+Dialogue: 0,0:52:42.55,0:52:43.81,Default,Default,0000,0000,0000,,就是你的老搭档
+Dialogue: 0,0:52:44.39,0:52:46.86,Default,Default,0000,0000,0000,,他是刑事情报科的人 不是我老搭档
+Dialogue: 0,0:52:47.09,0:52:48.22,Default,Default,0000,0000,0000,,摸清他的底细
+Dialogue: 0,0:52:48.66,0:52:50.96,Default,Default,0000,0000,0000,,用你的身份 把他约出来
+Dialogue: 0,0:52:51.29,0:52:52.10,Default,Default,0000,0000,0000,,明白
+Dialogue: 0,0:52:52.10,0:52:53.29,Default,Default,0000,0000,0000,,等我的消息吧
+Dialogue: 0,0:53:08.21,0:53:10.01,Default,Default,0000,0000,0000,,井进贤穿窗逃走
+Dialogue: 0,0:53:10.01,0:53:11.11,Default,Default,0000,0000,0000,,留下的血液样本
+Dialogue: 0,0:53:11.11,0:53:12.38,Default,Default,0000,0000,0000,,经过DNA鉴定
+Dialogue: 0,0:53:12.88,0:53:15.44,Default,Default,0000,0000,0000,,证实井进贤 就是你小时候的朋友 奀仔
+Dialogue: 0,0:53:16.99,0:53:19.78,Default,Default,0000,0000,0000,,奀仔 我的就是你的
+Dialogue: 0,0:53:20.09,0:53:21.11,Default,Default,0000,0000,0000,,你的就是我的
+Dialogue: 0,0:53:22.63,0:53:23.66,Default,Default,0000,0000,0000,,这么多年以来
+Dialogue: 0,0:53:23.66,0:53:26.13,Default,Default,0000,0000,0000,,你一直查探你失踪朋友的消息
+Dialogue: 0,0:53:26.53,0:53:27.16,Default,Default,0000,0000,0000,,不断提供
+Dialogue: 0,0:53:27.16,0:53:28.99,Default,Default,0000,0000,0000,,神秘集团的情报给我们
+Dialogue: 0,0:53:30.03,0:53:31.00,Default,Default,0000,0000,0000,,为什么?
+Dialogue: 0,0:53:31.00,0:53:31.63,Default,Default,0000,0000,0000,,我敢肯定
+Dialogue: 0,0:53:31.77,0:53:34.07,Default,Default,0000,0000,0000,,我朋友当年就是被神秘集团掳走
+Dialogue: 0,0:53:34.37,0:53:35.36,Default,Default,0000,0000,0000,,他是无辜的
+Dialogue: 0,0:53:35.91,0:53:37.84,Default,Default,0000,0000,0000,,如果小时候不是因为他救了我
+Dialogue: 0,0:53:38.01,0:53:39.34,Default,Default,0000,0000,0000,,今天的我 就是贼
+Dialogue: 0,0:53:39.61,0:53:40.13,Default,Default,0000,0000,0000,,Sir!
+Dialogue: 0,0:53:41.01,0:53:42.91,Default,Default,0000,0000,0000,,今天你终于等到一个机会
+Dialogue: 0,0:53:43.01,0:53:44.91,Default,Default,0000,0000,0000,,警队准备成立一个新的部队
+Dialogue: 0,0:53:45.01,0:53:47.98,Default,Default,0000,0000,0000,,希望你借助这里 可以找回你的朋友
+Dialogue: 0,0:53:50.79,0:53:53.42,Default,Default,0000,0000,0000,,Sir 严格来说 他也是受害人
+Dialogue: 0,0:53:54.49,0:53:57.19,Default,Default,0000,0000,0000,,可不可以在行动前 让我跟他说几句?
+Dialogue: 0,0:53:58.83,0:54:00.80,Default,Default,0000,0000,0000,,他小时候的确是受害人
+Dialogue: 0,0:54:01.03,0:54:02.43,Default,Default,0000,0000,0000,,但是时至今日
+Dialogue: 0,0:54:03.00,0:54:04.97,Default,Default,0000,0000,0000,,你已经没办法估计他变成什么样
+Dialogue: 0,0:54:05.50,0:54:08.33,Default,Default,0000,0000,0000,,你对他心软 他会不会也一样呢?
+Dialogue: 0,0:54:10.51,0:54:12.37,Default,Default,0000,0000,0000,,Sir 我觉得他有苦衷
+Dialogue: 0,0:54:13.01,0:54:14.41,Default,Default,0000,0000,0000,,在缅甸他帮我挡过枪
+Dialogue: 0,0:54:17.21,0:54:18.98,Default,Default,0000,0000,0000,,还有 他向我开那两枪
+Dialogue: 0,0:54:22.25,0:54:23.34,Default,Default,0000,0000,0000,,都是故意射歪
+Dialogue: 0,0:54:23.92,0:54:24.94,Default,Default,0000,0000,0000,,他不知道是空弹
+Dialogue: 0,0:54:25.76,0:54:27.95,Default,Default,0000,0000,0000,,我觉得 他根本就没有想过要杀我
+Dialogue: 0,0:54:31.06,0:54:31.96,Default,Default,0000,0000,0000,,好吧
+Dialogue: 0,0:54:33.26,0:54:33.96,Default,Default,0000,0000,0000,,五分钟
+Dialogue: 0,0:54:34.70,0:54:37.03,Default,Default,0000,0000,0000,,五分钟后 梁Sir就会带队攻进去
+Dialogue: 0,0:54:37.97,0:54:39.23,Default,Default,0000,0000,0000,,收到! 谢谢!
+Dialogue: 0,0:54:44.01,0:54:44.97,Default,Default,0000,0000,0000,,记得听指令
+Dialogue: 0,0:55:03.39,0:55:04.22,Default,Default,0000,0000,0000,,还玩这个吗?
+Dialogue: 0,0:55:11.13,0:55:13.69,Default,Default,0000,0000,0000,,姚可仪 硬盘 开个价
+Dialogue: 0,0:55:15.74,0:55:17.14,Default,Default,0000,0000,0000,,我记得小时候
+Dialogue: 0,0:55:17.54,0:55:19.01,Default,Default,0000,0000,0000,,我跟你在孤儿院
+Dialogue: 0,0:55:19.01,0:55:19.94,Default,Default,0000,0000,0000,,玩魔方很棒
+Dialogue: 0,0:55:20.74,0:55:23.58,Default,Default,0000,0000,0000,,也很调皮 老师都很讨厌我们
+Dialogue: 0,0:55:23.58,0:55:25.45,Default,Default,0000,0000,0000,,但知道我们很聪明
+Dialogue: 0,0:55:25.45,0:55:26.97,Default,Default,0000,0000,0000,,害他们经常很矛盾
+Dialogue: 0,0:55:28.45,0:55:29.61,Default,Default,0000,0000,0000,,我没什么耐性
+Dialogue: 0,0:55:36.66,0:55:38.42,Default,Default,0000,0000,0000,,这是你小时候的档案
+Dialogue: 0,0:55:42.63,0:55:44.62,Default,Default,0000,0000,0000,,其实我跟你分开这么多年
+Dialogue: 0,0:55:46.84,0:55:48.13,Default,Default,0000,0000,0000,,很多事已经很模糊
+Dialogue: 0,0:55:51.47,0:55:52.96,Default,Default,0000,0000,0000,,我只记得
+Dialogue: 0,0:55:53.94,0:55:55.97,Default,Default,0000,0000,0000,,你开心笑的时候的样子
+Dialogue: 0,0:55:58.58,0:56:00.17,Default,Default,0000,0000,0000,,原来是你老朋友
+Dialogue: 0,0:56:00.58,0:56:02.95,Default,Default,0000,0000,0000,,听语气 他挺想跟你叙旧的
+Dialogue: 0,0:56:05.99,0:56:07.59,Default,Default,0000,0000,0000,,你一会儿说钱可靠
+Dialogue: 0,0:56:07.59,0:56:09.16,Default,Default,0000,0000,0000,,现在又跟我玩叙旧
+Dialogue: 0,0:56:09.16,0:56:10.22,Default,Default,0000,0000,0000,,你想清楚再跟我说
+Dialogue: 0,0:56:10.99,0:56:12.26,Default,Default,0000,0000,0000,,没时间了
+Dialogue: 0,0:56:12.26,0:56:14.32,Default,Default,0000,0000,0000,,奀仔 给我个机会帮你
+Dialogue: 0,0:56:16.13,0:56:16.66,Default,Default,0000,0000,0000,,开价
+Dialogue: 0,0:56:21.00,0:56:22.99,Default,Default,0000,0000,0000,,程Sir 你刑事情报科的长官来了
+Dialogue: 0,0:57:03.51,0:57:05.98,Default,Default,0000,0000,0000,,看到你们两个出现我真的很开心
+Dialogue: 0,0:57:06.52,0:57:11.08,Default,Default,0000,0000,0000,,我还日 日夜夜以为我害了你 阿滔
+Dialogue: 0,0:57:12.22,0:57:14.19,Default,Default,0000,0000,0000,,看到你平安无事完好无缺
+Dialogue: 0,0:57:14.52,0:57:15.79,Default,Default,0000,0000,0000,,我真的放心了
+Dialogue: 0,0:57:20.66,0:57:21.60,Default,Default,0000,0000,0000,,怎么了 阿井?
+Dialogue: 0,0:57:22.53,0:57:25.06,Default,Default,0000,0000,0000,,我还担心你被恐怖分子抓了
+Dialogue: 0,0:57:25.54,0:57:27.53,Default,Default,0000,0000,0000,,原来你们两个自己约见面了
+Dialogue: 0,0:57:31.24,0:57:32.51,Default,Default,0000,0000,0000,,竟然这么开心
+Dialogue: 0,0:57:32.51,0:57:33.91,Default,Default,0000,0000,0000,,有什么事情可以分享一下?
+Dialogue: 0,0:57:34.71,0:57:36.54,Default,Default,0000,0000,0000,,你想知道的事我会回答你
+Dialogue: 0,0:57:37.05,0:57:37.98,Default,Default,0000,0000,0000,,但你要先走
+Dialogue: 0,0:57:43.99,0:57:46.08,Default,Default,0000,0000,0000,,你口口声声叫我做师父 对吧?
+Dialogue: 0,0:57:47.39,0:57:50.72,Default,Default,0000,0000,0000,,现在你的线人知道的事情比我多
+Dialogue: 0,0:57:51.49,0:57:53.59,Default,Default,0000,0000,0000,,你以后叫我师父 我该怎么回应你?
+Dialogue: 0,0:57:59.44,0:58:00.97,Default,Default,0000,0000,0000,,阿井 现在很多人
+Dialogue: 0,0:58:00.97,0:58:03.27,Default,Default,0000,0000,0000,,在你背后跟我说了你很多事
+Dialogue: 0,0:58:05.64,0:58:07.63,Default,Default,0000,0000,0000,,但我一样信任你
+Dialogue: 0,0:58:10.01,0:58:11.95,Default,Default,0000,0000,0000,,你们猜我有没有怀疑过你们两个?
+Dialogue: 0,0:58:14.72,0:58:15.55,Default,Default,0000,0000,0000,,没有
+Dialogue: 0,0:58:16.55,0:58:17.68,Default,Default,0000,0000,0000,,是没有
+Dialogue: 0,0:58:19.76,0:58:21.59,Default,Default,0000,0000,0000,,因为你们两个是我教出来的
+Dialogue: 0,0:58:21.99,0:58:23.96,Default,Default,0000,0000,0000,,如果连你们两个都怀疑
+Dialogue: 0,0:58:24.96,0:58:26.72,Default,Default,0000,0000,0000,,我觉得我做人很失败
+Dialogue: 0,0:58:29.00,0:58:30.66,Default,Default,0000,0000,0000,,但是事实证明
+Dialogue: 0,0:58:31.40,0:58:32.83,Default,Default,0000,0000,0000,,我真的很失败
+Dialogue: 0,0:58:44.75,0:58:45.98,Default,Default,0000,0000,0000,,A出口有可疑人物
+Dialogue: 0,0:58:46.05,0:58:47.62,Default,Default,0000,0000,0000,,C出口有三个可疑身影
+Dialogue: 0,0:58:47.62,0:58:48.72,Default,Default,0000,0000,0000,,大队准备
+Dialogue: 0,0:58:48.72,0:58:50.08,Default,Default,0000,0000,0000,,竟然大家没什么说的
+Dialogue: 0,0:58:50.29,0:58:52.15,Default,Default,0000,0000,0000,,那我就叫人把兄弟们约出来
+Dialogue: 0,0:58:52.15,0:58:53.59,Default,Default,0000,0000,0000,,给你们洗尘庆祝
+Dialogue: 0,0:58:53.59,0:58:54.26,Default,Default,0000,0000,0000,,不用
+Dialogue: 0,0:58:54.26,0:58:54.95,Default,Default,0000,0000,0000,,你先走
+Dialogue: 0,0:58:56.66,0:58:57.96,Default,Default,0000,0000,0000,,我叫你走啊
+Dialogue: 0,0:58:58.23,0:59:00.00,Default,Default,0000,0000,0000,,是时候送他上路了
+Dialogue: 0,0:59:00.00,0:59:01.59,Default,Default,0000,0000,0000,,叫姓程的打死他
+Dialogue: 0,0:59:03.20,0:59:04.19,Default,Default,0000,0000,0000,,杀了他
+Dialogue: 0,0:59:05.70,0:59:06.44,Default,Default,0000,0000,0000,,你疯了?
+Dialogue: 0,0:59:06.44,0:59:09.43,Default,Default,0000,0000,0000,,告诉他 如果他敢动手 随时跟他交易
+Dialogue: 0,1:00:15.00,1:00:15.49,Default,Default,0000,0000,0000,,上
+Dialogue: 0,1:01:38.62,1:01:39.18,Default,Default,0000,0000,0000,,按着它
+Dialogue: 0,1:01:39.56,1:01:40.54,Default,Default,0000,0000,0000,,按着它啊
+Dialogue: 0,1:01:43.99,1:01:45.09,Default,Default,0000,0000,0000,,你是不是在行动?
+Dialogue: 0,1:02:07.02,1:02:07.98,Default,Default,0000,0000,0000,,我是!
+Dialogue: 0,1:02:08.68,1:02:09.98,Default,Default,0000,0000,0000,,我是在行动
+Dialogue: 0,1:02:33.21,1:02:36.38,Default,Default,0000,0000,0000,,现在歹徒要求在西班牙进行交易
+Dialogue: 0,1:02:36.38,1:02:38.18,Default,Default,0000,0000,0000,,程Sir会以卖家的身份
+Dialogue: 0,1:02:38.18,1:02:39.48,Default,Default,0000,0000,0000,,交出姚可仪
+Dialogue: 0,1:02:40.05,1:02:43.35,Default,Default,0000,0000,0000,,当地反恐特别行动小组将会支援我们
+Dialogue: 0,1:02:44.12,1:02:45.96,Default,Default,0000,0000,0000,,我们会分成三组人
+Dialogue: 0,1:02:45.96,1:02:48.99,Default,Default,0000,0000,0000,,第一组 是程Sir Johnson还有阿超
+Dialogue: 0,1:02:48.99,1:02:51.46,Default,Default,0000,0000,0000,,第二组 攻击队还有狙击手队
+Dialogue: 0,1:02:51.46,1:02:53.95,Default,Default,0000,0000,0000,,第三组 技术支援队还有兵器队
+Dialogue: 0,1:02:55.00,1:02:56.83,Default,Default,0000,0000,0000,,梁Sir 昨晚时间19点
+Dialogue: 0,1:02:57.00,1:02:58.63,Default,Default,0000,0000,0000,,那保姆抱了井进贤女儿
+Dialogue: 0,1:02:58.63,1:03:00.00,Default,Default,0000,0000,0000,,跟着两名男子离开
+Dialogue: 0,1:03:00.00,1:03:00.87,Default,Default,0000,0000,0000,,应该还在香港
+Dialogue: 0,1:03:01.30,1:03:03.01,Default,Default,0000,0000,0000,,继续找 我要正确位置
+Dialogue: 0,1:03:03.01,1:03:03.97,Default,Default,0000,0000,0000,,收到
+Dialogue: 0,1:03:35.00,1:03:35.80,Default,Default,0000,0000,0000,,董先生
+Dialogue: 0,1:03:38.37,1:03:38.97,Default,Default,0000,0000,0000,,是我
+Dialogue: 0,1:03:40.11,1:03:42.41,Default,Default,0000,0000,0000,,虽然还没有弄清楚程滔的动机
+Dialogue: 0,1:03:43.01,1:03:46.52,Default,Default,0000,0000,0000,,但是我觉得他应该跟香港警队仍然有关连
+Dialogue: 0,1:03:46.52,1:03:48.42,Default,Default,0000,0000,0000,,所以你们千万不要轻敌
+Dialogue: 0,1:03:50.02,1:03:50.58,Default,Default,0000,0000,0000,,董先生
+Dialogue: 0,1:03:51.65,1:03:52.09,Default,Default,0000,0000,0000,,说
+Dialogue: 0,1:03:55.29,1:03:56.95,Default,Default,0000,0000,0000,,已经五年了
+Dialogue: 0,1:03:57.63,1:03:59.82,Default,Default,0000,0000,0000,,我跟我女儿什么时候可以走?
+Dialogue: 0,1:04:00.00,1:04:02.49,Default,Default,0000,0000,0000,,你还真有胆量敢提出来
+Dialogue: 0,1:04:04.00,1:04:05.76,Default,Default,0000,0000,0000,,我们帮你弄到警司的位置上
+Dialogue: 0,1:04:06.00,1:04:07.76,Default,Default,0000,0000,0000,,这么长的时间过去了
+Dialogue: 0,1:04:07.94,1:04:09.50,Default,Default,0000,0000,0000,,你贡献过什么?
+Dialogue: 0,1:04:09.87,1:04:11.77,Default,Default,0000,0000,0000,,现在弄的连工作都没有了
+Dialogue: 0,1:04:12.21,1:04:13.77,Default,Default,0000,0000,0000,,但是我们没有放弃你
+Dialogue: 0,1:04:14.14,1:04:15.97,Default,Default,0000,0000,0000,,还继续帮你重新来过
+Dialogue: 0,1:04:16.08,1:04:17.51,Default,Default,0000,0000,0000,,可是你想过没有
+Dialogue: 0,1:04:18.25,1:04:21.34,Default,Default,0000,0000,0000,,这会耗费总部上 多少资源和时间?
+Dialogue: 0,1:04:22.15,1:04:25.85,Default,Default,0000,0000,0000,,你懂的 以后不要再提走这个字
+Dialogue: 0,1:04:26.26,1:04:27.28,Default,Default,0000,0000,0000,,你们父女俩
+Dialogue: 0,1:04:27.99,1:04:30.05,Default,Default,0000,0000,0000,,还要不要总部给的恩赐?
+Dialogue: 0,1:04:41.07,1:04:41.93,Default,Default,0000,0000,0000,,要
+Dialogue: 0,1:04:42.71,1:04:43.54,Default,Default,0000,0000,0000,,那就好
+Dialogue: 0,1:05:28.02,1:05:29.45,Default,Default,0000,0000,0000,,菲律宾特产
+Dialogue: 0,1:05:29.45,1:05:30.71,Default,Default,0000,0000,0000,,这是我的童年回忆
+Dialogue: 0,1:05:32.42,1:05:34.95,Default,Default,0000,0000,0000,,吃吧 糖分可以让人放松
+Dialogue: 0,1:05:38.66,1:05:40.39,Default,Default,0000,0000,0000,,谢谢你愿意冒险帮我们
+Dialogue: 0,1:05:42.77,1:05:43.60,Default,Default,0000,0000,0000,,应该说
+Dialogue: 0,1:05:47.34,1:05:48.96,Default,Default,0000,0000,0000,,我等这天等很久了
+Dialogue: 0,1:05:57.15,1:05:58.88,Default,Default,0000,0000,0000,,如果你还犹豫的话
+Dialogue: 0,1:05:59.01,1:06:00.24,Default,Default,0000,0000,0000,,现在反悔还来得及
+Dialogue: 0,1:06:03.75,1:06:04.95,Default,Default,0000,0000,0000,,放心吧
+Dialogue: 0,1:06:05.89,1:06:08.32,Default,Default,0000,0000,0000,,我相信我妹妹一定会保佑我
+Dialogue: 0,1:06:10.49,1:06:11.96,Default,Default,0000,0000,0000,,我已做好心理准备
+Dialogue: 0,1:06:40.56,1:06:42.96,Default,Default,0000,0000,0000,,董先生 找到他们的位置
+Dialogue: 0,1:06:48.16,1:06:49.32,Default,Default,0000,0000,0000,,目标锁定
+Dialogue: 0,1:07:24.47,1:07:25.99,Default,Default,0000,0000,0000,,C Team 准备好了吗?
+Dialogue: 0,1:07:26.44,1:07:26.96,Default,Default,0000,0000,0000,,准备好
+Dialogue: 0,1:07:27.64,1:07:29.19,Default,Default,0000,0000,0000,,好 在那边等通知
+Dialogue: 0,1:08:26.03,1:08:28.05,Default,Default,0000,0000,0000,,程Sir 9点方向
+Dialogue: 0,1:08:29.00,1:08:30.09,Default,Default,0000,0000,0000,,5点方向
+Dialogue: 0,1:08:30.37,1:08:31.42,Default,Default,0000,0000,0000,,两个目标3点方向
+Dialogue: 0,1:08:31.80,1:08:32.82,Default,Default,0000,0000,0000,,10点方向
+Dialogue: 0,1:08:44.91,1:08:46.40,Default,Default,0000,0000,0000,,董先生 他到了
+Dialogue: 0,1:08:47.02,1:08:47.98,Default,Default,0000,0000,0000,,随时开始
+Dialogue: 0,1:08:48.72,1:08:49.98,Default,Default,0000,0000,0000,,我先给你一半的钱
+Dialogue: 0,1:08:51.09,1:08:52.61,Default,Default,0000,0000,0000,,你们杀了我好朋友
+Dialogue: 0,1:08:53.22,1:08:54.95,Default,Default,0000,0000,0000,,让我很不开心
+Dialogue: 0,1:08:55.99,1:08:57.12,Default,Default,0000,0000,0000,,所以现在协议改了
+Dialogue: 0,1:08:57.99,1:08:59.55,Default,Default,0000,0000,0000,,要加上你的命
+Dialogue: 0,1:09:05.13,1:09:06.33,Default,Default,0000,0000,0000,,对不起
+Dialogue: 0,1:09:09.04,1:09:10.33,Default,Default,0000,0000,0000,,我无能为力
+Dialogue: 0,1:09:11.41,1:09:14.00,Default,Default,0000,0000,0000,,Demon 把另外一部电话交给他
+Dialogue: 0,1:09:18.28,1:09:18.97,Default,Default,0000,0000,0000,,说
+Dialogue: 0,1:09:19.18,1:09:21.24,Default,Default,0000,0000,0000,,你有什么资格跟我的人算帐?
+Dialogue: 0,1:09:22.25,1:09:24.99,Default,Default,0000,0000,0000,,我没资格? 我现在就扔下电话
+Dialogue: 0,1:09:24.99,1:09:27.96,Default,Default,0000,0000,0000,,拉一头牛过来骑 骑完再跟你谈也可以
+Dialogue: 0,1:09:30.16,1:09:31.29,Default,Default,0000,0000,0000,,跟我玩? 好
+Dialogue: 0,1:09:31.29,1:09:32.28,Default,Default,0000,0000,0000,,那我也跟你玩玩
+Dialogue: 0,1:09:33.00,1:09:34.96,Default,Default,0000,0000,0000,,你不把姚可仪交出来 没问题
+Dialogue: 0,1:09:36.13,1:09:37.96,Default,Default,0000,0000,0000,,我就找香港人算帐
+Dialogue: 0,1:09:39.03,1:09:41.00,Default,Default,0000,0000,0000,,我最喜欢玩死亡游戏
+Dialogue: 0,1:09:45.01,1:09:46.98,Default,Default,0000,0000,0000,,除了这个 还有三个
+Dialogue: 0,1:09:47.14,1:09:48.63,Default,Default,0000,0000,0000,,会在下班的繁忙时间
+Dialogue: 0,1:09:48.71,1:09:50.97,Default,Default,0000,0000,0000,,一起爆炸 嘣
+Dialogue: 0,1:09:59.09,1:09:59.85,Default,Default,0000,0000,0000,,怎么样?
+Dialogue: 0,1:10:00.29,1:10:02.49,Default,Default,0000,0000,0000,,如果你真的不是代表香港警察的话
+Dialogue: 0,1:10:02.49,1:10:04.43,Default,Default,0000,0000,0000,,应该对你没什么影响
+Dialogue: 0,1:10:04.43,1:10:07.00,Default,Default,0000,0000,0000,,看来 你好像还有很多把戏
+Dialogue: 0,1:10:07.00,1:10:09.60,Default,Default,0000,0000,0000,,没错 我可以宣布交易取消
+Dialogue: 0,1:10:09.60,1:10:10.96,Default,Default,0000,0000,0000,,Demon 阿井 走
+Dialogue: 0,1:10:16.00,1:10:19.30,Default,Default,0000,0000,0000,,好啊 等一下 不要向我下跪
+Dialogue: 0,1:10:22.71,1:10:25.31,Default,Default,0000,0000,0000,,你以为你在隧道里换人神不知鬼不觉?
+Dialogue: 0,1:10:27.25,1:10:28.98,Default,Default,0000,0000,0000,,你骗不了我
+Dialogue: 0,1:10:45.17,1:10:46.83,Default,Default,0000,0000,0000,,目标锁定
+Dialogue: 0,1:11:03.22,1:11:05.05,Default,Default,0000,0000,0000,,你没有资格跟我谈交易
+Dialogue: 0,1:11:08.22,1:11:10.82,Default,Default,0000,0000,0000,,因为凭我的本事 可以解决一切问题
+Dialogue: 0,1:11:30.01,1:11:32.14,Default,Default,0000,0000,0000,,成功解锁 系统修复中
+Dialogue: 0,1:11:35.98,1:11:38.85,Default,Default,0000,0000,0000,,如果想给我下跪的话 现在还来得及
+Dialogue: 0,1:12:35.78,1:12:36.88,Default,Default,0000,0000,0000,,修复失败
+Dialogue: 0,1:12:36.88,1:12:38.97,Default,Default,0000,0000,0000,,系统再次被高速入侵
+Dialogue: 0,1:12:42.98,1:12:45.95,Default,Default,0000,0000,0000,,撤离地点在你12点方向 800米外
+Dialogue: 0,1:12:49.99,1:12:51.46,Default,Default,0000,0000,0000,,是你说的要取消交易
+Dialogue: 0,1:12:51.96,1:12:53.15,Default,Default,0000,0000,0000,,现在又想继续啊?
+Dialogue: 0,1:12:54.00,1:12:55.76,Default,Default,0000,0000,0000,,你以为姚可仪真的被掳走啊?
+Dialogue: 0,1:13:11.68,1:13:12.91,Default,Default,0000,0000,0000,,C Team 准备好了吗?
+Dialogue: 0,1:13:12.91,1:13:13.38,Default,Default,0000,0000,0000,,准备好了
+Dialogue: 0,1:13:13.75,1:13:15.94,Default,Default,0000,0000,0000,,- 好 在那边等通知 - 收到
+Dialogue: 0,1:13:19.65,1:13:21.92,Default,Default,0000,0000,0000,,真的姚可仪正在参观你的秘密
+Dialogue: 0,1:13:33.03,1:13:34.06,Default,Default,0000,0000,0000,,你还没发现吗?
+Dialogue: 0,1:13:34.17,1:13:36.03,Default,Default,0000,0000,0000,,刚刚你的电脑画面闪了一下
+Dialogue: 0,1:13:44.55,1:13:45.48,Default,Default,0000,0000,0000,,其实那个时候
+Dialogue: 0,1:13:45.61,1:13:47.78,Default,Default,0000,0000,0000,,已经换上我们预先拍摄好的画面
+Dialogue: 0,1:13:53.46,1:13:56.19,Default,Default,0000,0000,0000,,我想你的杀手们 应该没命玩压轴游戏
+Dialogue: 0,1:14:04.20,1:14:05.29,Default,Default,0000,0000,0000,,还不明白?
+Dialogue: 0,1:14:05.93,1:14:08.00,Default,Default,0000,0000,0000,,就是当你以为收到虹膜解锁的时候
+Dialogue: 0,1:14:08.00,1:14:09.97,Default,Default,0000,0000,0000,,其实 只是另一种的电脑病毒
+Dialogue: 0,1:14:13.81,1:14:14.71,Default,Default,0000,0000,0000,,杀了那女的!
+Dialogue: 0,1:14:16.55,1:14:18.57,Default,Default,0000,0000,0000,,程Sir 我知道那三个炸弹的位置
+Dialogue: 0,1:14:18.75,1:14:20.18,Default,Default,0000,0000,0000,,有机会追踪到他们基地的位置
+Dialogue: 0,1:14:31.46,1:14:34.06,Default,Default,0000,0000,0000,,防护数值15% 撤离 撤离
+Dialogue: 0,1:14:34.06,1:14:34.79,Default,Default,0000,0000,0000,,走啊!
+Dialogue: 0,1:14:39.17,1:14:40.16,Default,Default,0000,0000,0000,,走
+Dialogue: 0,1:14:55.35,1:14:56.68,Default,Default,0000,0000,0000,,快走 可仪 走!
+Dialogue: 0,1:14:57.05,1:14:58.75,Default,Default,0000,0000,0000,,妹妹 保佑我
+Dialogue: 0,1:15:14.47,1:15:18.96,Default,Default,0000,0000,0000,,防护数值5% 撤离 撤离
+Dialogue: 0,1:15:26.11,1:15:30.98,Default,Default,0000,0000,0000,,防护数值3% 撤离 撤离
+Dialogue: 0,1:15:32.12,1:15:33.59,Default,Default,0000,0000,0000,,他们的基地不在西班牙
+Dialogue: 0,1:15:33.59,1:15:35.89,Default,Default,0000,0000,0000,,在香港!
+Dialogue: 0,1:15:38.99,1:15:40.05,Default,Default,0000,0000,0000,,马上通知反恐特勤队
+Dialogue: 0,1:15:52.37,1:15:56.40,Default,Default,0000,0000,0000,,防护数值1% 撤离 撤离
+Dialogue: 0,1:16:16.87,1:16:18.96,Default,Default,0000,0000,0000,,警察 站住 站住!
+Dialogue: 0,1:16:28.01,1:16:30.98,Default,Default,0000,0000,0000,,炸弹 快离开 走!
+Dialogue: 0,1:16:31.88,1:16:33.94,Default,Default,0000,0000,0000,,Demon 阿井
+Dialogue: 0,1:16:35.42,1:16:36.94,Default,Default,0000,0000,0000,,杀了那警察!
+Dialogue: 0,1:17:22.00,1:17:23.33,Default,Default,0000,0000,0000,,(墙壁)
+Dialogue: 0,1:18:00.00,1:18:02.97,Default,Default,0000,0000,0000,,(救我女儿)
+Dialogue: 0,1:18:03.71,1:18:04.33,Default,Default,0000,0000,0000,,换弹
+Dialogue: 0,1:18:07.01,1:18:07.67,Default,Default,0000,0000,0000,,走!
+Dialogue: 0,1:18:55.99,1:18:57.48,Default,Default,0000,0000,0000,,销毁系统
+Dialogue: 0,1:24:15.58,1:24:17.20,Default,Default,0000,0000,0000,,你女儿很安全
+Dialogue: 0,1:24:25.62,1:24:27.85,Default,Default,0000,0000,0000,,不用怕小妹妹 我是警察 跟我来
+Dialogue: 0,1:24:37.00,1:24:38.52,Default,Default,0000,0000,0000,,这些年来
+Dialogue: 0,1:24:40.47,1:24:42.49,Default,Default,0000,0000,0000,,我只能为你做到这件事
+Dialogue: 0,1:24:45.01,1:24:46.97,Default,Default,0000,0000,0000,,你替我熬了三十年
+Dialogue: 0,1:24:52.35,1:24:55.32,Default,Default,0000,0000,0000,,如果当年不是你回来救我
+Dialogue: 0,1:24:56.95,1:24:58.35,Default,Default,0000,0000,0000,,被人绑走的
+Dialogue: 0,1:24:59.39,1:25:00.38,Default,Default,0000,0000,0000,,是我才对
+Dialogue: 0,1:25:05.99,1:25:06.96,Default,Default,0000,0000,0000,,这些年
+Dialogue: 0,1:25:11.00,1:25:12.16,Default,Default,0000,0000,0000,,你是怎么过的?
+Dialogue: 0,1:25:14.47,1:25:15.99,Default,Default,0000,0000,0000,,你是怎样撑下来?
+Dialogue: 0,1:25:33.49,1:25:34.22,Default,Default,0000,0000,0000,,阿Dee
+Dialogue: 0,1:25:35.99,1:25:36.96,Default,Default,0000,0000,0000,,没关系
+Dialogue: 0,1:25:38.66,1:25:39.68,Default,Default,0000,0000,0000,,都过去了
+Dialogue: 0,1:25:41.86,1:25:42.89,Default,Default,0000,0000,0000,,没关系
+Dialogue: 0,1:25:50.87,1:25:51.90,Default,Default,0000,0000,0000,,做兄弟
+Dialogue: 0,1:25:53.07,1:25:54.97,Default,Default,0000,0000,0000,,这辈子还不完
+Dialogue: 0,1:25:55.51,1:25:57.10,Default,Default,0000,0000,0000,,下辈子我...
+Dialogue: 0,1:27:45.99,1:27:49.55,Default,Default,0000,0000,0000,,过来呀 你不是要救你兄弟吗?
+Dialogue: 0,1:28:03.00,1:28:04.27,Default,Default,0000,0000,0000,,阿Dee
+Dialogue: 0,1:28:06.47,1:28:07.96,Default,Default,0000,0000,0000,,下辈子见
+Dialogue: 0,1:28:25.99,1:28:26.86,Default,Default,0000,0000,0000,,放手!
+Dialogue: 0,1:28:27.03,1:28:27.96,Default,Default,0000,0000,0000,,放手!
+Dialogue: 0,1:28:28.60,1:28:29.43,Default,Default,0000,0000,0000,,放手!
+Dialogue: 0,1:29:44.00,1:29:50.47,Default,Default,0000,0000,0000,,孤独的人 在回忆里入座
+Dialogue: 0,1:29:51.98,1:29:57.88,Default,Default,0000,0000,0000,,沿途漂泊 像故事的段落
+Dialogue: 0,1:29:59.89,1:30:05.95,Default,Default,0000,0000,0000,,某一句誓言 被时光藏匿了
+Dialogue: 0,1:30:07.46,1:30:10.66,Default,Default,0000,0000,0000,,多年后凝结 成琥珀
+Dialogue: 0,1:30:10.66,1:30:14.10,Default,Default,0000,0000,0000,,三个月前 国际刑警分别在西班牙及菲律宾
+Dialogue: 0,1:30:14.10,1:30:15.86,Default,Default,0000,0000,0000,,捣破多个童兵训练营
+Dialogue: 0,1:30:16.20,1:30:17.97,Default,Default,0000,0000,0000,,被救出的儿童目前被安置于
+Dialogue: 0,1:30:17.97,1:30:19.31,Default,Default,0000,0000,0000,,当地的临时孤儿院
+Dialogue: 0,1:30:19.31,1:30:24.84,Default,Default,0000,0000,0000,,人失去的 当欠了该还的
+Dialogue: 0,1:30:27.01,1:30:33.18,Default,Default,0000,0000,0000,,愿失散的 旧爱各得其所
+Dialogue: 0,1:30:34.99,1:30:40.62,Default,Default,0000,0000,0000,,我爱过遗憾 此生才无憾了
+Dialogue: 0,1:30:43.00,1:30:48.16,Default,Default,0000,0000,0000,,赠你的挂念 是沉默
+Dialogue: 0,1:30:54.88,1:31:02.08,Default,Default,0000,0000,0000,,但愿你我 别再问为什么
+Dialogue: 0,1:31:02.42,1:31:08.95,Default,Default,0000,0000,0000,,风吹云散来得也去得 谁参得透因果
+Dialogue: 0,1:31:10.32,1:31:17.46,Default,Default,0000,0000,0000,,但愿你我 能如约的快乐
+Dialogue: 0,1:31:18.00,1:31:23.60,Default,Default,0000,0000,0000,,才不辜负 相遇多难得
+Dialogue: 0,1:31:30.38,1:31:37.94,Default,Default,0000,0000,0000,,时光好似列车 我们都是旅客
+Dialogue: 0,1:31:38.19,1:31:45.06,Default,Default,0000,0000,0000,,最美不过 同行过
+

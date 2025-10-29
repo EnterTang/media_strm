@@ -1,0 +1,885 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:54.56,0:02:33.56,Default,,0000,0000,0000,,{\fs19\bord1\shad1\pos(290,287)\fscx50\b0}战狼2  2017{\r}
+Dialogue: 0,0:02:54.56,0:02:57.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}注意有海盗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Attention, pirates alongside!{\r}
+Dialogue: 0,0:02:58.59,0:03:02.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}注意有海盗 进入船舱躲避{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pirates alongside! Take cover. All crew below deck!{\r}
+Dialogue: 0,0:03:02.61,0:03:05.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再说一遍 注意有海盗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I repeat Pirates alongside!{\r}
+Dialogue: 0,0:03:06.54,0:03:08.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}执行紧急措施{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Initiate emergency procedure!{\r}
+Dialogue: 0,0:03:09.56,0:03:11.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有船员到船舱躲避{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}All crew below deck!{\r}
+Dialogue: 0,0:03:52.58,0:03:55.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}紧急措施 红色警报{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Emergency positions! Code red! Code red!{\r}
+Dialogue: 0,0:03:56.51,0:03:58.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有船员到船舱躲避{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get everybody below deck, now!{\r}
+Dialogue: 0,0:04:00.53,0:04:02.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人趴下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everyone, get down!{\r}
+Dialogue: 0,0:04:04.56,0:04:06.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}杰克 联合国护卫舰在哪？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Jack, where's that UN convoy?{\r}
+Dialogue: 0,0:04:06.58,0:04:09.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}直升机起飞了 三十分钟到{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The chopper's on its way,sir. ETA 30 minutes!{\r}
+Dialogue: 0,0:04:09.60,0:04:11.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人躲避到舱里{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get everybody below deck{\r}
+Dialogue: 0,0:06:58.55,0:07:01.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我在等俺儿子啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm waiting for my son{\r}
+Dialogue: 0,0:07:01.58,0:07:05.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我不能让他回来找不着家啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I need our home for his return!{\r}
+Dialogue: 0,0:07:06.50,0:07:09.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等警察来了 我看你们还敢不敢拆{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wait till police get here! Let's see how you're going to tear our houses!{\r}
+Dialogue: 0,0:07:10.52,0:07:12.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}想死就别拦着{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}If they wanna die, then let 'em{\r}
+Dialogue: 0,0:07:26.55,0:07:28.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}婶 嫂子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mrs. Yu, Mrs.Fei.{\r}
+Dialogue: 0,0:07:29.57,0:07:31.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们把小飞送回来了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We brought Xiao Fei home{\r}
+Dialogue: 0,0:07:32.50,0:07:34.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}敬礼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Salute!{\r}
+Dialogue: 0,0:07:50.52,0:07:53.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}告诉新来的 俺们中队的座右铭是啥啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tell these rookies what our motto is{\r}
+Dialogue: 0,0:07:53.54,0:07:55.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谦虚{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Be humble{\r}
+Dialogue: 0,0:07:55.57,0:07:57.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我来当兵就是为了打仗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I became a soldier because I wanted to be in battles{\r}
+Dialogue: 0,0:07:57.59,0:07:59.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}现在呢 打啥仗啊打仗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and now, what about the battles?{\r}
+Dialogue: 0,0:07:59.62,0:08:01.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在家都陪陪老婆孩子多好啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Much better to be at home with wife and kids instead{\r}
+Dialogue: 0,0:08:06.54,0:08:08.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我闺女 漂亮吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}My daughter, she's beautiful, huh?{\r}
+Dialogue: 0,0:08:32.56,0:08:34.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一个个驴球马蛋的啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You gang of sumbags!{\r}
+Dialogue: 0,0:08:34.59,0:08:36.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还真拿自己当回事了 是吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You think you're tough, huh?{\r}
+Dialogue: 0,0:08:43.51,0:08:45.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}给我打 都上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go get them! Get them!{\r}
+Dialogue: 0,0:09:04.54,0:09:06.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}警察同志他有枪{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Officer see! He's got a gun!{\r}
+Dialogue: 0,0:09:06.56,0:09:08.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有枪{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}a gun!{\r}
+Dialogue: 0,0:09:09.58,0:09:11.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}解放军同志 请你把枪放下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Comrade, put down your weapon!{\r}
+Dialogue: 0,0:09:22.51,0:09:24.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}挺能打是吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're pretty lethal, huh?{\r}
+Dialogue: 0,0:09:24.53,0:09:26.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}咋不弄死我呢？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Well you'd better kill me now,{\r}
+Dialogue: 0,0:09:26.56,0:09:28.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有不在的时候吧{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}because you're gone,{\r}
+Dialogue: 0,0:09:29.58,0:09:31.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看我怎么弄死他们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm gonna make them wish they were dead{\r}
+Dialogue: 0,0:09:53.50,0:09:55.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嘿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey!{\r}
+Dialogue: 0,0:10:00.53,0:10:02.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng!{\r}
+Dialogue: 0,0:10:31.55,0:10:33.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}军人 之所以被人尊重{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The reason a soldier is respected{\r}
+Dialogue: 0,0:10:34.58,0:10:36.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不是因为军人两个字{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}is not because of the uniform he wears,{\r}
+Dialogue: 0,0:10:37.50,0:10:40.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}而是因为军人担负的责任{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}but is because of the sense of duty he carries{\r}
+Dialogue: 0,0:10:41.52,0:10:44.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}即使脱了军装 职责还在{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}With or without the uniform, the duty remains{\r}
+Dialogue: 0,0:10:44.55,0:10:46.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一样会被人尊重{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}And he continues to be respected{\r}
+Dialogue: 0,0:11:14.52,0:11:16.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, hurry up!{\r}
+Dialogue: 0,0:11:19.54,0:11:21.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嘿 冷 我们的英雄{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, Leng. There's our hero{\r}
+Dialogue: 0,0:11:21.57,0:11:23.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}感谢你救了我们大家{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thanks for saving the lives of everyone{\r}
+Dialogue: 0,0:11:23.59,0:11:25.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们合个影呗？ 没问题{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let's take a picture together. No problem!{\r}
+Dialogue: 0,0:11:27.52,0:11:28.92,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢  好的 再见{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thank you! Ok, see you!{\r}
+Dialogue: 0,0:11:28.92,0:11:30.92,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再见 保重{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Take care, see you!{\r}
+Dialogue: 0,0:11:35.54,0:11:37.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嘿 老板{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, boss!{\r}
+Dialogue: 0,0:11:37.56,0:11:40.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}买点吧 这是好东西  上次塔曼村疫情爆发{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Buy some, it's good stuff  There was an outbreak in Taman recently{\r}
+Dialogue: 0,0:11:40.59,0:11:43.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就因为万吃了这个药材 有四个人活下来呢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Because of consuming this herbs, there were 4 survivors{\r}
+Dialogue: 0,0:11:43.61,0:11:45.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}拜托  不了 谢谢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please! No, thank you!{\r}
+Dialogue: 0,0:11:45.64,0:11:47.64,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}帮帮忙吧 考虑一下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please help please consider{\r}
+Dialogue: 0,0:11:47.66,0:11:49.66,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老板{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Boss.{\r}
+Dialogue: 0,0:11:51.58,0:11:53.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中国酒来了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Chinese wine.{\r}
+Dialogue: 0,0:11:54.51,0:11:56.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这儿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This{\r}
+Dialogue: 0,0:11:56.53,0:11:58.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嘿  别这样兄弟{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, hey. Come on man{\r}
+Dialogue: 0,0:11:58.56,0:12:00.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好吧 这次就算了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ok, this one is okay{\r}
+Dialogue: 0,0:12:01.58,0:12:04.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}合作愉快 下次见{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nice one. See you next time.{\r}
+Dialogue: 0,0:12:08.50,0:12:10.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}上来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get up here!{\r}
+Dialogue: 0,0:12:11.53,0:12:13.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}欢迎回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Welcome back!{\r}
+Dialogue: 0,0:12:21.55,0:12:23.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再见{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Bye{\r}
+Dialogue: 0,0:12:24.58,0:12:26.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这个 好东西{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This, good for you{\r}
+Dialogue: 0,0:12:27.50,0:12:29.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}能让你不再孤单{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're not alone{\r}
+Dialogue: 0,0:12:29.52,0:12:33.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}二十美元 买一送一{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}20 dollars. Buy one get one free{\r}
+Dialogue: 0,0:12:35.55,0:12:37.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是谁  我的干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who am I?  My godfather{\r}
+Dialogue: 0,0:12:37.57,0:12:40.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}如果干爹把这个告诉你妈妈{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}If your godfather tells your mother about this,{\r}
+Dialogue: 0,0:12:40.60,0:12:43.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她会怎么想？ 没收了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}what would she think? Confiscated!{\r}
+Dialogue: 0,0:12:52.54,0:12:54.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开始{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Begin!{\r}
+Dialogue: 0,0:12:55.57,0:13:00.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干爹 干爹 干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Godfather! Godfather! Godfather!{\r}
+Dialogue: 0,0:13:02.59,0:13:09.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哈里 哈里 哈里{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Harry! Harry! Harry!{\r}
+Dialogue: 0,0:13:09.62,0:13:11.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干爹 干爹 干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Godfather! Godfather! Godfather!{\r}
+Dialogue: 0,0:13:24.54,0:13:29.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}阿冷 阿冷 阿冷{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng! Leng! Leng!{\r}
+Dialogue: 0,0:13:37.56,0:13:39.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谁？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who?{\r}
+Dialogue: 0,0:13:42.59,0:13:44.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谁？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who?{\r}
+Dialogue: 0,0:13:45.51,0:13:48.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有谁？ 还有谁？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who else? Who else?{\r}
+Dialogue: 0,0:13:48.54,0:13:50.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Do it, do it{\r}
+Dialogue: 0,0:13:51.56,0:13:53.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去你的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck it!{\r}
+Dialogue: 0,0:13:53.58,0:13:55.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你以为你是谁啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who the fuck you think you are?{\r}
+Dialogue: 0,0:13:55.61,0:13:57.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来吧{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on!{\r}
+Dialogue: 0,0:13:57.63,0:13:59.63,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Yeah{\r}
+Dialogue: 0,0:14:13.56,0:14:16.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}帕特里克 帕特里克 帕特里克{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Patrick! Patrick! Patrick!{\r}
+Dialogue: 0,0:14:54.58,0:14:56.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要去边境执行一项任务{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've been sent to the border for a mission{\r}
+Dialogue: 0,0:14:57.50,0:14:59.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等我回来的时候{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}When I get back,{\r}
+Dialogue: 0,0:14:59.53,0:15:02.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}希望你能在这个文件上签字{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}this had better be signed{\r}
+Dialogue: 0,0:15:14.05,0:15:16.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}结婚申请{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Marriage Application{\r}
+Dialogue: 0,0:15:17.08,0:15:19.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}为什么当兵？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why did you join the army?{\r}
+Dialogue: 0,0:15:19.10,0:15:21.10,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}当兵后悔两年 不当兵后悔一辈子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Join the army, you regret it for two years. Don't join the army, regret it for life.{\r}
+Dialogue: 0,0:15:23.02,0:15:25.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}真话？ 真话{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The truth?  That's the truth.{\r}
+Dialogue: 0,0:15:26.05,0:15:28.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再喝{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Drink! again!{\r}
+Dialogue: 0,0:15:34.00,0:15:36.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}龙小云同志{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Comrade Long Xiao Yun.{\r}
+Dialogue: 0,0:15:36.02,0:15:38.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在边境执行任务时不幸遇袭{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}was attacked while carrying her mission at the border.{\r}
+Dialogue: 0,0:15:39.04,0:15:42.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在现场 我们发现了这枚子弹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We found this bullet.{\r}
+Dialogue: 0,0:15:45.07,0:15:47.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再喝{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Drink again.{\r}
+Dialogue: 0,0:15:54.09,0:15:56.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你想听什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What do you want to hear?{\r}
+Dialogue: 0,0:15:56.12,0:15:58.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你想听什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What do you want to hear?{\r}
+Dialogue: 0,0:15:58.04,0:16:00.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再喝{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Drink!{\r}
+Dialogue: 0,0:16:12.06,0:16:14.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再喝{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Again!{\r}
+Dialogue: 0,0:16:32.09,0:16:33.99,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你赢了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You win.{\r}
+Dialogue: 0,0:16:34.01,0:16:36.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你赢了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You win.{\r}
+Dialogue: 0,0:16:37.04,0:16:39.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我输了…{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}But I lost...{\r}
+Dialogue: 0,0:16:39.06,0:16:41.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}彻彻底底的输了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've lost completely.{\r}
+Dialogue: 0,0:16:42.08,0:16:44.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你跟船已经有一年多了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's been more than a year since you came on board{\r}
+Dialogue: 0,0:16:44.11,0:16:48.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从杰尔巴到藻拉纳鲁{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}During that time, from Djerba to Tolanaro,{\r}
+Dialogue: 0,0:16:48.03,0:16:52.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大半个非洲的部落长老我都问过{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've asked all the chiefs. More than half of Africa,{\r}
+Dialogue: 0,0:16:52.06,0:16:56.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}都没有见过你的这颗子弹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}And nobody has seen that bullet before. peluru itu sebelumnya.{\r}
+Dialogue: 0,0:16:56.08,0:16:59.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我一定会找到的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I will find it,{\r}
+Dialogue: 0,0:16:59.10,0:17:01.10,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哪伯走遍整个非洲{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}even if I have to scour the entire continent.{\r}
+Dialogue: 0,0:17:20.03,0:17:22.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}亲爱的祖国同胞们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dear fellow countrymen,{\r}
+Dialogue: 0,0:17:22.05,0:17:27.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}首先我对贝卡村受难的同胞表示沉痛哀悼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}my deepest condolences to the families their loved ones during Batchka Village incident{\r}
+Dialogue: 0,0:17:28.08,0:17:31.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}今日早些时候 非法武装组织红巾军表示对贝其卡灭村行动负责{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Early today, the red scarf rebel army claimed responsibility for the Batchka Village{\r}
+Dialogue: 0,0:17:31.10,0:17:33.10,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们对这种惨绝人寰的行为强烈谴责{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Our government condemns their barbaric behavior.{\r}
+Dialogue: 0,0:17:33.12,0:17:36.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们的家园 正在遭受一连串的伤害{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Our homeland has been attacked on multiple occasions.{\r}
+Dialogue: 0,0:17:36.05,0:17:39.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不幸的事接二连三的发生{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}These are great tragedies.{\r}
+Dialogue: 0,0:17:41.07,0:17:47.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}红巾军的恐怖势力如同疫情一样蔓延{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The rebels continue to advance as the country grapples with the Lamanla outbreak.{\r}
+Dialogue: 0,0:17:47.10,0:17:51.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}政府不会坐以待毙 伟大的人民军队誓为家园奋战到底{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}As your government, we will not back down. The great people's army will fight to the very end.{\r}
+Dialogue: 0,0:17:51.02,0:17:55.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}另外国家设立了疫情隔离区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Quarantine have been set up across the country,{\r}
+Dialogue: 0,0:17:55.04,0:17:57.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}最大范围内控制了疫情造成的伤害{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}in an attempt to contain the Lamanla outbreak.{\r}
+Dialogue: 0,0:17:57.07,0:18:04.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}国家已经把医疗救助级别和紧急程度设为最高{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We have declared a state of emergency.{\r}
+Dialogue: 0,0:18:12.09,0:18:14.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哎 哥们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, brother{\r}
+Dialogue: 0,0:18:14.12,0:18:16.12,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}少三张{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You shorted me 300 bucks.{\r}
+Dialogue: 0,0:18:17.04,0:18:19.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}轻点儿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Be careful with that.{\r}
+Dialogue: 0,0:18:21.06,0:18:23.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大家都是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Look, we're both Chinese.{\r}
+Dialogue: 0,0:18:23.09,0:18:25.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这样好么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You do this to your own people?{\r}
+Dialogue: 0,0:18:25.11,0:18:28.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我从上个月十四号下午三点开始{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Since 3 pm on the 14th of last month,{\r}
+Dialogue: 0,0:18:28.04,0:18:30.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就不是中国人了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I am no longer officailly Chinese.{\r}
+Dialogue: 0,0:18:32.06,0:18:34.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么着？ 刚从国内来啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What? Fresh off the boat?{\r}
+Dialogue: 0,0:18:38.08,0:18:41.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}看见了么？ 现在这局势{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hear that? In times like this,{\r}
+Dialogue: 0,0:18:41.11,0:18:43.11,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就是这个价{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}that's the price you get.{\r}
+Dialogue: 0,0:18:48.03,0:18:50.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}见过这个么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Seen this before?{\r}
+Dialogue: 0,0:18:53.06,0:18:55.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没见过{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nope{\r}
+Dialogue: 0,0:18:57.08,0:18:59.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有人说在这个国家出现过{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've been told that it came from these parts.{\r}
+Dialogue: 0,0:19:01.00,0:19:03.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我真没见过{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Definitely never seen it.{\r}
+Dialogue: 0,0:19:03.03,0:19:05.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老板{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey boss.{\r}
+Dialogue: 0,0:19:06.05,0:19:08.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你怎么样了？来根烟？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How are you? Smoking?{\r}
+Dialogue: 0,0:20:40.08,0:20:42.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tundu!{\r}
+Dialogue: 0,0:20:53.00,0:20:55.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Go!{\r}
+Dialogue: 0,0:21:01.02,0:21:03.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别开枪{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't shoot!{\r}
+Dialogue: 0,0:21:03.05,0:21:05.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别开枪{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't shoot!{\r}
+Dialogue: 0,0:21:05.07,0:21:06.17,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别开枪  他们是好人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't shoot! Good people{\r}
+Dialogue: 0,0:21:06.20,0:21:08.20,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}过去 过去{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go, go, go!{\r}
+Dialogue: 0,0:21:15.22,0:21:17.22,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}想活的就给我趴下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get the fuck down or you die!{\r}
+Dialogue: 0,0:21:17.24,0:21:20.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}红巾军必胜  你知道你在跟谁说话吗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hail the revolution! You're now talking to rebels!{\r}
+Dialogue: 0,0:21:20.07,0:21:22.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不要骗我 你倒霉了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't lie to me. Your luck is down!{\r}
+Dialogue: 0,0:21:22.09,0:21:24.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}红巾军必胜{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hail the revolution!{\r}
+Dialogue: 0,0:21:27.02,0:21:28.42,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不不不 快看{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No, no, no Guys, look!{\r}
+Dialogue: 0,0:21:28.44,0:21:30.44,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}必胜{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Revolution!{\r}
+Dialogue: 0,0:21:32.06,0:21:34.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这他妈的是什么？ 不不不{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What the fuck is this?! No, no, no{\r}
+Dialogue: 0,0:21:34.09,0:21:36.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他是政府军的走狗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's a pro-government rat!{\r}
+Dialogue: 0,0:21:36.11,0:21:38.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不不不  你在骗我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}NO! You lied to me!{\r}
+Dialogue: 0,0:21:38.04,0:21:40.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不不不 红巾军必胜 红巾军必胜{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No! Hail the rebels! Hail the rebels!{\r}
+Dialogue: 0,0:22:27.06,0:22:29.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shit!{\r}
+Dialogue: 0,0:22:36.08,0:22:38.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tundu!{\r}
+Dialogue: 0,0:22:49.01,0:22:51.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中国大使馆  去大使馆{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Chinese embassy  Let's go to the Chinese embassy.{\r}
+Dialogue: 0,0:22:51.03,0:22:53.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们会收留我们的 我们是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}They'll take us in. We're Chinese.{\r}
+Dialogue: 0,0:22:55.06,0:22:57.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那我们怎么办？ 我们该怎么办？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What about us? What're we suppose to do?{\r}
+Dialogue: 0,0:22:57.08,0:22:59.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们会收留我们吗？ 很难说{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Will they accept us?  Hard to say.{\r}
+Dialogue: 0,0:22:59.10,0:23:02.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那是我们的国家  所有人跟我走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That's our country. Everybody follow me.{\r}
+Dialogue: 0,0:23:07.03,0:23:09.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,0:23:10.05,0:23:12.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,0:23:24.08,0:23:26.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,0:23:33.00,0:23:35.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,0:23:39.52,0:23:41.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on!{\r}
+Dialogue: 0,0:23:55.05,0:23:57.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No!{\r}
+Dialogue: 0,0:23:58.57,0:24:00.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这边{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Here{\r}
+Dialogue: 0,0:26:31.00,0:26:34.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}慢着 慢着 不不 中国人 中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Slow down! No, no! We're Chinese{\r}
+Dialogue: 0,0:26:34.02,0:26:36.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快走  Tundu{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go, go! Tundu!{\r}
+Dialogue: 0,0:26:36.04,0:26:38.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go, go, go!{\r}
+Dialogue: 0,0:26:39.07,0:26:41.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走狗去死 红巾军必胜{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Die! Scum! Hail the revolution!{\r}
+Dialogue: 0,0:26:41.09,0:26:43.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走狗该死{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Die! Scum!{\r}
+Dialogue: 0,0:26:45.02,0:26:47.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去死{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Die! Scum!{\r}
+Dialogue: 0,0:26:51.04,0:26:53.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去死吧  把枪放下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Die! Lower your guns!{\r}
+Dialogue: 0,0:26:53.06,0:26:55.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}放下武器{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Put down your weapons!{\r}
+Dialogue: 0,0:26:57.09,0:26:59.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把枪放下 把枪放下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lower your guns! Lower your guns!{\r}
+Dialogue: 0,0:27:03.01,0:27:05.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大家暂停{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stand down!{\r}
+Dialogue: 0,0:27:05.04,0:27:07.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We are Chinese!{\r}
+Dialogue: 0,0:27:07.06,0:27:09.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We are Chinese!{\r}
+Dialogue: 0,0:27:10.08,0:27:12.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中国和非洲都是朋友{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}China and Africa are friends!{\r}
+Dialogue: 0,0:27:21.01,0:27:23.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go{\r}
+Dialogue: 0,0:27:24.03,0:27:26.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 快走 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go, hurry. Go.{\r}
+Dialogue: 0,0:27:26.06,0:27:28.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go.{\r}
+Dialogue: 0,0:27:30.08,0:27:32.08,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}撤{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fall back!{\r}
+Dialogue: 0,0:27:37.00,0:27:39.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}帮忙{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Help! Help!{\r}
+Dialogue: 0,0:29:03.55,0:29:07.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}首长 他国战舰已经全部驶离战斗区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Commander, all foreign vessels are leaving the war zone.{\r}
+Dialogue: 0,0:29:07.58,0:29:10.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}前方很危险 我们还要继续进港吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The harbor is unsafe. Are you certain about docking?{\r}
+Dialogue: 0,0:29:13.50,0:29:15.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}前进十{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Forward 10 knots.{\r}
+Dialogue: 0,0:29:15.52,0:29:17.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}航向二七〇{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Set course bearing for 270.{\r}
+Dialogue: 0,0:29:30.55,0:29:32.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开闸门{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Open the gate!{\r}
+Dialogue: 0,0:29:50.57,0:29:53.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老樊 辛苦了 你们海军来的太及时了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Well done, you got here just in time{\r}
+Dialogue: 0,0:29:53.60,0:29:56.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}现在局势怎么样？ 这个国家的叛乱完全爆发了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's the situation?  The entire country's in chaos.{\r}
+Dialogue: 0,0:29:56.52,0:29:59.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们侨民的生命和财产受到严重危害{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The war has destroyed lives of many of countrymen.{\r}
+Dialogue: 0,0:29:59.54,0:30:02.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们能不能派兵把他们保护出来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Can you send our troops in to help?{\r}
+Dialogue: 0,0:30:02.57,0:30:04.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}未经联合国允许{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Without the UN's authorization,{\r}
+Dialogue: 0,0:30:04.59,0:30:06.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我方作战人员是不能进入的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}our troops aren't premitted  to enter the war zone.{\r}
+Dialogue: 0,0:30:08.98,0:30:10.35,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}您慢点 六十二号{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}OK, slow, No.62{\r}
+Dialogue: 0,0:30:10.52,0:30:15.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来来来 往上走 好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go go go, Up we go! Nice!{\r}
+Dialogue: 0,0:30:16.54,0:30:18.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你哪的？这不能上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Where are from? He can't board.{\r}
+Dialogue: 0,0:30:18.56,0:30:20.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我儿子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's my son.{\r}
+Dialogue: 0,0:30:20.59,0:30:22.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们有票 看{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We have tickets. See, look!{\r}
+Dialogue: 0,0:30:22.61,0:30:24.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}三张 七九 八十 八一{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Three tickets. 79, 80, 81.{\r}
+Dialogue: 0,0:30:26.54,0:30:28.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好 七九 八九 三十{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fine then. 79, 80, 81.{\r}
+Dialogue: 0,0:30:28.56,0:30:30.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thank you.{\r}
+Dialogue: 0,0:30:31.58,0:30:33.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们去哪？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Where are we going?{\r}
+Dialogue: 0,0:30:33.61,0:30:36.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}总理先生 你听我说{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mr. Prime Minister, please listen to me.{\r}
+Dialogue: 0,0:30:36.53,0:30:39.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}贵国发生这样的事情 我很遗憾{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm deeply sorry for what's happening in your country.{\r}
+Dialogue: 0,0:30:40.51,0:30:43.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}但是我相信 你也一定不会忘记{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}But I believe you have not forgotten about the help,{\r}
+Dialogue: 0,0:30:43.53,0:30:45.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}历史上我国对贵国的援助之情{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}we provided to your country{\r}
+Dialogue: 0,0:30:45.55,0:30:48.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们两国之间的友谊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and friendship between our countries{\r}
+Dialogue: 0,0:30:48.58,0:30:50.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我相信你也知道{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I believe you understand how important{\r}
+Dialogue: 0,0:30:50.60,0:30:53.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我国援非的陈博士对非洲的重要性{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}our citizen Dr. Chen is to Africa.{\r}
+Dialogue: 0,0:30:53.53,0:30:56.03,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}请派兵保障陈博士的安全{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please send somebody to protect his safety.{\r}
+Dialogue: 0,0:30:56.05,0:30:58.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}对不起{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm sorry,{\r}
+Dialogue: 0,0:30:58.07,0:31:00.97,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们现在只能靠自己了  总理先生{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}you're on your own this time  Prime Minister{\r}
+Dialogue: 0,0:31:01.00,0:31:03.00,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士在哪？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Where's Dr. Chen?{\r}
+Dialogue: 0,0:31:05.02,0:31:07.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我绝不会{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I will never{\r}
+Dialogue: 0,0:31:07.05,0:31:09.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}告诉你的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}tell you{\r}
+Dialogue: 0,0:31:15.07,0:31:17.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let's go!{\r}
+Dialogue: 0,0:31:19.09,0:31:21.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}十二年的卧薪尝胆啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}12 years of hard work.{\r}
+Dialogue: 0,0:31:22.02,0:31:25.02,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一朝战乱 全他妈没了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}One war, and it's all fucking gone{\r}
+Dialogue: 0,0:31:27.04,0:31:29.04,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这子弹…{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The bullet...{\r}
+Dialogue: 0,0:31:29.07,0:31:31.07,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有什么故事么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}what's the story?{\r}
+Dialogue: 0,0:31:43.09,0:31:45.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tundu!{\r}
+Dialogue: 0,0:31:46.01,0:31:48.01,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu 下了船就不能上船了啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tundu! If you get off, you can't get back on.{\r}
+Dialogue: 0,0:31:49.04,0:31:51.04,Default,,0000,0000,0000,,\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}\N\N\N\N\N\N\N\NTundu Tundu\NTundu! Tundu!{\r}
+Dialogue: 0,0:31:51.06,0:31:52.46,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}站住  对不起 对不起{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop right there! I'm sorry, I'm sorry{\r}
+Dialogue: 0,0:31:52.46,0:31:54.06,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要我妈妈{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I want my mom!{\r}
+Dialogue: 0,0:31:54.09,0:31:56.09,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要我妈妈 我不要去中国{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I want my mom, I don't want to go to China!{\r}
+Dialogue: 0,0:31:56.61,0:31:58.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看着我  我要我妈妈{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Look at me  I want my mom!{\r}
+Dialogue: 0,0:31:58.53,0:32:00.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}相信干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I want my mom!{\r}
+Dialogue: 0,0:32:01.56,0:32:03.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}相信干爹  兄弟{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ok? I want my mom! Hey brother{\r}
+Dialogue: 0,0:32:06.58,0:32:08.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你怎么也下来了？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you doing down here?{\r}
+Dialogue: 0,0:32:08.61,0:32:11.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有一件事情我必须跟你说实话{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}There's something I have to tell you.{\r}
+Dialogue: 0,0:32:11.53,0:32:13.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你戴的这个子弹…{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That bullet...{\r}
+Dialogue: 0,0:32:14.55,0:32:17.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我见过 这上面的花纹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've seen it before. That pattern,{\r}
+Dialogue: 0,0:32:17.58,0:32:20.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好像是反政府武装那边的一个什么标记{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}is a symbol used by the rebel forces.{\r}
+Dialogue: 0,0:32:21.50,0:32:23.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我有一个搞军火的朋友跟我说{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}An arm dealer friend of mine told me{\r}
+Dialogue: 0,0:32:23.53,0:32:26.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们现在已经雇佣了欧洲价最高的雇佣兵{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}the rebels have hired the most expensive mercenaries out of Europe.{\r}
+Dialogue: 0,0:32:27.55,0:32:29.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我不管你跟他们有什么恩怨{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Whatever grudge you've got against them,{\r}
+Dialogue: 0,0:32:29.57,0:32:31.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我劝你一句{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I urge you,{\r}
+Dialogue: 0,0:32:31.60,0:32:33.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别去送死  桑库加镇的华资工厂{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}don't go seeking death. 47 Chinese workers!{\r}
+Dialogue: 0,0:32:33.62,0:32:35.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有四十七名中国员工{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}are still stuck at the Hanbond Chinese factory{\r}
+Dialogue: 0,0:32:35.65,0:32:38.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}更可怕的是五十五公里外{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's worse, Dr, Chen is stuck 55 km{\r}
+Dialogue: 0,0:32:38.57,0:32:39.97,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有援非小组的陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}behind enemy lines on a medical relief mission{\r}
+Dialogue: 0,0:32:39.97,0:32:42.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他可是恐怖分子的头号目标{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's a high value target for the rebel army.{\r}
+Dialogue: 0,0:32:42.60,0:32:44.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从洛奇诺到圣佛兰已经全面封锁{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everything is in total lockdown from Lochino to St. Francis.{\r}
+Dialogue: 0,0:32:45.52,0:32:47.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没有联合国的允许{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Without UN's authorization,{\r}
+Dialogue: 0,0:32:47.54,0:32:49.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我方作战人员禁止进入交战区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}my troops aren't allowed to enter the war zone.{\r}
+Dialogue: 0,0:32:49.57,0:32:51.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这次撤侨行动 事关重大{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This operation is highly important!{\r}
+Dialogue: 0,0:32:51.59,0:32:53.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们必须让所有的中国员工{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We have to evacuate those Chinese workers!{\r}
+Dialogue: 0,0:32:53.62,0:32:55.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有陈博士安全撤离{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and Dr. Chen by all means!{\r}
+Dialogue: 0,0:32:55.54,0:32:58.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在目前情况下 作战人员禁止进入交战区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Under current circumstances, combat troops are prohibited from entering the warzone!{\r}
+Dialogue: 0,0:32:58.56,0:33:00.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}但我们要坚决完成撤侨{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}In order to complete the evacuation,{\r}
+Dialogue: 0,0:33:00.59,0:33:02.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}必须要一个人单独完成任务{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}someone has to undertake the mission alone!{\r}
+Dialogue: 0,0:33:02.61,0:33:04.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我去  站住{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'll go. Stop right there!{\r}
+Dialogue: 0,0:33:04.64,0:33:06.64,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干什么的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's your purpose?{\r}
+Dialogue: 0,0:33:07.56,0:33:10.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}原中国人民解放军东南军区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Former PLA, South-east region,{\r}
+Dialogue: 0,0:33:10.58,0:33:12.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}特种作战旅 战狼中队{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Specail Ops Brigade,  Wolf Warrior squadron,{\r}
+Dialogue: 0,0:33:13.51,0:33:15.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng.{\r}
+Dialogue: 0,0:33:15.53,0:33:17.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这孩子的妈妈就在那家华资工厂{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This child's mother is  at Hanbond Chinese factory.{\r}
+Dialogue: 0,0:33:17.56,0:33:19.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我大概知道那里的位置{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I know approximately where it is located.{\r}
+Dialogue: 0,0:33:25.58,0:33:27.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我保证{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I promise you,{\r}
+Dialogue: 0,0:33:27.60,0:33:30.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我会带你妈妈回来的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I will bring your mom back.{\r}
+Dialogue: 0,0:33:36.53,0:33:38.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们已经替你搞定好了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We took care of business now, didn't we?{\r}
+Dialogue: 0,0:33:38.55,0:33:40.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}外交部的汤特使 安德拉亲王 德鲁王子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ambassador Thomas, King Angola, Prince Drew.{\r}
+Dialogue: 0,0:33:41.58,0:33:43.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}该死的通讯部经理{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That goddamn communications manager.{\r}
+Dialogue: 0,0:33:44.50,0:33:46.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们都消失了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}They're all gone. They all disappeared,{\r}
+Dialogue: 0,0:33:46.52,0:33:48.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}神秘的失踪{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}real mysterously!{\r}
+Dialogue: 0,0:33:48.55,0:33:51.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不要用这些破事糊弄我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop wasting my time with that crap!{\r}
+Dialogue: 0,0:33:51.57,0:33:53.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士在哪儿？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Where's Dr. Chen?{\r}
+Dialogue: 0,0:33:54.50,0:33:56.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}啊 耶稣{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ah, Jesus.{\r}
+Dialogue: 0,0:34:12.52,0:34:14.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}告诉他 你刚对我说的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You tell him what you told me.{\r}
+Dialogue: 0,0:34:14.54,0:34:16.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen{\r}
+Dialogue: 0,0:34:16.57,0:34:20.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在圣佛兰华资医院{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}is at St. Francis Chinese-invested hospital.{\r}
+Dialogue: 0,0:34:20.59,0:34:22.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}乖孩子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Good boy.{\r}
+Dialogue: 0,0:34:30.52,0:34:32.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}听到了么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Did you hear that?{\r}
+Dialogue: 0,0:34:32.54,0:34:34.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那也有可能是你的下场{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That could be sound of the future.{\r}
+Dialogue: 0,0:34:42.56,0:34:46.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们为什么要收红巾军那帮蠢货的钱？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, Why are we helping these fucking idiots?{\r}
+Dialogue: 0,0:34:46.59,0:34:48.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}欢迎来到非洲伙计{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Welcome to Africa, son.{\r}
+Dialogue: 0,0:34:49.51,0:34:51.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}伙计们出发{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Alrights, let's move out boys!{\r}
+Dialogue: 0,0:35:10.56,0:35:12.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们得到最新消息{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}From the latest report,{\r}
+Dialogue: 0,0:35:12.58,0:35:14.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}战火已经蔓延到桑萨雷姆港口{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}the fighting is reaching Semshalemu harbour.{\r}
+Dialogue: 0,0:35:14.61,0:35:18.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那里等待救援的一千五百三十六名中国同胞的生命{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The urgency of the evacuating 1536 Chinese nationals wating there{\r}
+Dialogue: 0,0:35:18.53,0:35:20.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}变得危在旦夕{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}has just been escalated.{\r}
+Dialogue: 0,0:35:20.56,0:35:22.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}撤侨军舰必须全速赶往{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Our vessels are heading over at top speed.{\r}
+Dialogue: 0,0:35:22.58,0:35:25.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}很抱歉 因为是别国交战区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}My apologies, because the conflict is on foreign soil,{\r}
+Dialogue: 0,0:35:25.60,0:35:27.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你这次的行动没有支援{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}you'll have no reinforcements,{\r}
+Dialogue: 0,0:35:27.63,0:35:29.63,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没有盟军 也没有武器{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}no allies and no weapons.{\r}
+Dialogue: 0,0:35:29.65,0:35:32.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士 还有四十七名中国同胞{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen and 47 Chinese workers,{\r}
+Dialogue: 0,0:35:32.58,0:35:34.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}都带回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}evacuate them all.{\r}
+Dialogue: 0,0:36:09.47,0:36:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我老板交代我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}My boss asked me{\r}
+Dialogue: 0,0:36:11.60,0:36:13.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}找陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}to find Dr. Chen.{\r}
+Dialogue: 0,0:36:13.62,0:36:16.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们没人有任何反应{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nobody wants to do something!{\r}
+Dialogue: 0,0:36:16.54,0:36:19.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}现在 那我只能试试运气了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Now, I have to try my luck.{\r}
+Dialogue: 0,0:36:19.57,0:36:21.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}因为{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Because{\r}
+Dialogue: 0,0:36:21.59,0:36:23.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我有{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I have{\r}
+Dialogue: 0,0:36:23.62,0:36:25.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}特殊的眼力{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}a special vision.{\r}
+Dialogue: 0,0:36:26.54,0:36:28.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我猜猜…{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let me guess...{\r}
+Dialogue: 0,0:36:53.59,0:36:55.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你是陈博士吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you Dr. Chen?{\r}
+Dialogue: 0,0:36:55.61,0:36:58.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我不是 我不是  你是陈博士吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm not! I'm not! Are you Dr. Chen?{\r}
+Dialogue: 0,0:36:59.54,0:37:01.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你是陈博士吗？ 不不不{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you Dr. Chen?  No, no, no.{\r}
+Dialogue: 0,0:37:01.56,0:37:03.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你吓到她了 她还是个孩子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She's a child, just a child{\r}
+Dialogue: 0,0:37:03.58,0:37:05.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是  不{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I am  No{\r}
+Dialogue: 0,0:37:08.51,0:37:10.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不要{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No{\r}
+Dialogue: 0,0:37:13.53,0:37:15.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm Dr. Chen.{\r}
+Dialogue: 0,0:37:22.56,0:37:24.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你是陈博士？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You are Dr. Chen?{\r}
+Dialogue: 0,0:37:24.58,0:37:27.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士怎么没蛋蛋了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Looks like Dr. Chen doesn't have balls.{\r}
+Dialogue: 0,0:37:28.50,0:37:30.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你想要什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What do you want?{\r}
+Dialogue: 0,0:37:30.53,0:37:32.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我就是  Rachel医生 不{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I am Dr. Chen. Dr. Rachel, no!{\r}
+Dialogue: 0,0:37:34.55,0:37:36.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她不是陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She's not Dr. Chen.{\r}
+Dialogue: 0,0:37:36.58,0:37:38.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她是非常好的医生{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She's a very good doctor.{\r}
+Dialogue: 0,0:37:38.60,0:37:40.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她救过很多人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She saved so many lives.{\r}
+Dialogue: 0,0:37:41.52,0:37:43.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}天啊 不要{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No!{\r}
+Dialogue: 0,0:37:51.55,0:37:53.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen!{\r}
+Dialogue: 0,0:37:53.57,0:37:55.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}papa{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Papa!{\r}
+Dialogue: 0,0:37:57.50,0:37:59.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你刚杀了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You just killed{\r}
+Dialogue: 0,0:37:59.52,0:38:00.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen.{\r}
+Dialogue: 0,0:38:02.57,0:38:04.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Papa  陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Papa! Dr. Chen!{\r}
+Dialogue: 0,0:39:42.59,0:39:44.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士是吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen, right?{\r}
+Dialogue: 0,0:39:44.62,0:39:46.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是樊大使派来救你们的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I was sent by Ambassador Fan to rescue you.{\r}
+Dialogue: 0,0:39:49.54,0:39:51.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这是我的女儿Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This is my daughter, Pasha.{\r}
+Dialogue: 0,0:39:51.56,0:39:53.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}求你务必保护好她{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please, I beg you, protect her.{\r}
+Dialogue: 0,0:39:59.59,0:40:01.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen!{\r}
+Dialogue: 0,0:40:02.51,0:40:04.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}跟我走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come with me!{\r}
+Dialogue: 0,0:40:04.54,0:40:06.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}上车{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get in the car!{\r}
+Dialogue: 0,0:40:31.56,0:40:33.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}向东走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go fast!{\r}
+Dialogue: 0,0:40:39.58,0:40:41.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你想干嘛？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you doing?{\r}
+Dialogue: 0,0:40:41.61,0:40:44.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你以为我在干嘛？我在救你小命{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What do you think I'm doing? I'm saving your ass!{\r}
+Dialogue: 0,0:40:56.53,0:40:58.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我来开车{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let me drive!{\r}
+Dialogue: 0,0:40:58.56,0:41:00.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}让开{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Move!{\r}
+Dialogue: 0,0:41:53.58,0:41:55.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What the hell!{\r}
+Dialogue: 0,0:41:56.50,0:41:58.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}掉头{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Turn around!{\r}
+Dialogue: 0,0:41:59.53,0:42:01.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快快快{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go, go, go!{\r}
+Dialogue: 0,0:42:32.55,0:42:34.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}神经{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Jesus.{\r}
+Dialogue: 0,0:43:15.58,0:43:17.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha!{\r}
+Dialogue: 0,0:44:31.50,0:44:33.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:44:33.52,0:44:35.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:44:35.55,0:44:37.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:44:47.57,0:44:49.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:44:52.50,0:44:54.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:44:54.52,0:44:56.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没事{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Yeah.{\r}
+Dialogue: 0,0:44:56.54,0:45:01.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha.{\r}
+Dialogue: 0,0:45:06.57,0:45:08.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}站住{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop!{\r}
+Dialogue: 0,0:45:09.59,0:45:11.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}站住{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop!{\r}
+Dialogue: 0,0:45:22.52,0:45:24.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们要粮食吗？我们有粮食{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You want food? We have food.{\r}
+Dialogue: 0,0:45:25.54,0:45:27.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们有粮食{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We have food, okay?{\r}
+Dialogue: 0,0:45:27.56,0:45:29.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们有粮食{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We have food.{\r}
+Dialogue: 0,0:45:59.59,0:46:01.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事吧{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you okay?{\r}
+Dialogue: 0,0:46:19.51,0:46:21.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thank you.{\r}
+Dialogue: 0,0:46:26.54,0:46:28.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是隔离区受的伤吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Is that from quarantine zone?{\r}
+Dialogue: 0,0:46:29.56,0:46:31.46,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把药箱递给我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha, can you please hand me the bag?{\r}
+Dialogue: 0,0:46:31.52,0:46:33.72,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我说是隔离区受的伤吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I said, did you get that in the quarantine zone?{\r}
+Dialogue: 0,0:46:37.54,0:46:39.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没关系  你别觉得我大惊小怪啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's nothing. I'm not overreacting.{\r}
+Dialogue: 0,0:46:40.56,0:46:42.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没有状况最好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}In fact, it's better if I was.{\r}
+Dialogue: 0,0:46:42.59,0:46:45.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}刚才那些人感染的是拉曼拉病毒{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Those people back there were infected with the Lamanla virus.{\r}
+Dialogue: 0,0:46:45.61,0:46:47.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}感染者很快就会出现发热{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Symptoms include the sudden onset fever,{\r}
+Dialogue: 0,0:46:47.64,0:46:49.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}幻觉 溃烂{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}hallucinations, lesions,{\r}
+Dialogue: 0,0:46:49.56,0:46:54.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}虚汗等症状 是一种通过接触传播的非常罕见的烈性病毒{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}cold sweats. It's a fatal virus that's transmitted  through direct human contact.{\r}
+Dialogue: 0,0:46:54.58,0:46:57.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从发病到死亡 最长五个月 最短四个小时{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Upon contraction, death strikes between four hours and five months.{\r}
+Dialogue: 0,0:46:57.61,0:47:01.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}而且到现在 还没有研制出能治愈这种病毒的疫苗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Up until now, no cure has been found.{\r}
+Dialogue: 0,0:47:01.53,0:47:03.83,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没事 我买医保了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't worry, I'm insured.{\r}
+Dialogue: 0,0:47:23.56,0:47:25.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你杀了中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're killing the Chinese?{\r}
+Dialogue: 0,0:47:26.58,0:47:28.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}麻烦大了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This is a big trouble.{\r}
+Dialogue: 0,0:47:28.60,0:47:30.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你为什么杀中国人？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why are you killing the Chinese?{\r}
+Dialogue: 0,0:47:33.53,0:47:36.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}头儿…  你一直想要得到陈博士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir... I thought you wanted Dr. Chen.{\r}
+Dialogue: 0,0:47:38.55,0:47:41.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}恭喜你 你得到他了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Congratulations. You found him.{\r}
+Dialogue: 0,0:47:44.60,0:47:46.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,0:47:46.62,0:47:48.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要的是活人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I wanted him alive!{\r}
+Dialogue: 0,0:47:48.65,0:47:49.65,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}活人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}alive!{\r}
+Dialogue: 0,0:47:49.67,0:47:53.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}难道你不知道他对我有多重要吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't you understand how important it is to me?{\r}
+Dialogue: 0,0:47:57.50,0:47:59.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,0:48:01.52,0:48:03.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等等{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wait.{\r}
+Dialogue: 0,0:48:03.54,0:48:05.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这个女孩{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That girl.{\r}
+Dialogue: 0,0:48:06.57,0:48:08.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我喜欢她{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I like her.{\r}
+Dialogue: 0,0:48:08.59,0:48:13.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}头儿 我们欧洲总部刚传来面部识别结果{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, our facial recognition crew uploaded video of this man fighting off some of the pirates.{\r}
+Dialogue: 0,0:48:13.62,0:48:15.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这人叫冷{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}His name's Leng.{\r}
+Dialogue: 0,0:48:15.54,0:48:18.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}曾供职于中国某神秘特种部队{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ex-member of a secretive special ops unit pot of China.{\r}
+Dialogue: 0,0:48:18.56,0:48:20.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}战狼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wolf Warrior.{\r}
+Dialogue: 0,0:48:20.59,0:48:22.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}伙计们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Boys!{\r}
+Dialogue: 0,0:48:32.51,0:48:34.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}援非医疗小组已被武装分子屠杀{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The Doctors Without Borders were killed by armed mercenaries.{\r}
+Dialogue: 0,0:48:34.54,0:48:37.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士和其他中方医护人员已经牺牲了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The lives of Dr. Cheng and other Chinese medical staff were scarificed.{\r}
+Dialogue: 0,0:48:37.56,0:48:39.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋同志{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Comrade Leng,{\r}
+Dialogue: 0,0:48:39.58,0:48:41.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你能对你说的话负责吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}do you stand by what are you're saying?{\r}
+Dialogue: 0,0:48:41.61,0:48:44.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你能确认亲眼看见雇佣兵枪杀我国医护人员和侨民吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you certain you witnessed the massacre or our medical team?{\r}
+Dialogue: 0,0:48:44.53,0:48:46.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我确定{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm cetain.{\r}
+Dialogue: 0,0:48:46.56,0:48:49.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在牺牲前 陈博士把他的女儿交给我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Dr. Chen give me his daughter before he died.{\r}
+Dialogue: 0,0:48:49.58,0:48:51.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一个黑人小姑娘{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}An African girl.{\r}
+Dialogue: 0,0:48:51.60,0:48:53.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}叫Pasha 还有一个女护士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Her name is Pasha. Oh, and anurse too.{\r}
+Dialogue: 0,0:48:53.63,0:48:55.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你叫什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's your name?{\r}
+Dialogue: 0,0:48:55.55,0:48:57.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Rachel Prescott Smith 你可以叫我Rachel{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Rachel Prescott Smith. You can call me Rachel.{\r}
+Dialogue: 0,0:48:58.58,0:49:00.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有是 Rachel医生 不是护士{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Doctor Rachel, I'm not a nurse.{\r}
+Dialogue: 0,0:49:01.50,0:49:03.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把所有情况立即向樊大使汇报{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Report the situation to Ambassador Fan immediately.{\r}
+Dialogue: 0,0:49:03.52,0:49:05.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Yes sir.{\r}
+Dialogue: 0,0:49:05.55,0:49:07.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}首长 我儿子呢？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Commander, may I speak to  my son please?{\r}
+Dialogue: 0,0:49:08.57,0:49:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干爹 我妈妈在哪？干爹 我妈妈在哪？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Godfather, godfather! Where's my mom? Where's my mom?{\r}
+Dialogue: 0,0:49:11.60,0:49:13.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu 相信干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, Tundu, Tundu! Trust me, Trust your godfather.{\r}
+Dialogue: 0,0:49:14.52,0:49:16.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我现在正在开往汉邦工厂{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We are going to Hanbond Chinese factoty{\r}
+Dialogue: 0,0:49:16.54,0:49:18.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}到那里去接你妈妈 OK{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}to find your mom right now, okay?{\r}
+Dialogue: 0,0:49:19.57,0:49:21.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thank you, godfather.{\r}
+Dialogue: 0,0:49:21.59,0:49:23.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋 有一个非常不好的消息通知你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng, I have some bad news for you.{\r}
+Dialogue: 0,0:49:23.62,0:49:26.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}红巾军正在大肆毁坏重要的公路{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The rebel army is sobotaging all major roads,{\r}
+Dialogue: 0,0:49:26.54,0:49:28.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}铁路以及桥梁{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}railways and bridges.{\r}
+Dialogue: 0,0:49:28.56,0:49:30.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就在十分钟以前{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}As of 10 minutes ago,{\r}
+Dialogue: 0,0:49:30.59,0:49:32.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从华资工厂通向码头的波尔尼加桥{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}your only route to the port, the Bowerneja bridge,{\r}
+Dialogue: 0,0:49:32.61,0:49:36.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}已被炸断 我和樊大使正在全力想办法{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}was bombed. We are formulating an escape plan now.{\r}
+Dialogue: 0,0:49:36.54,0:49:39.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}但现在只能靠你自己了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}But untill then, you're on your own.{\r}
+Dialogue: 0,0:49:39.56,0:49:43.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从现在开始 我们最多只能等你十八小时{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Set your watch. The macimum time we can wait is 18 hours.{\r}
+Dialogue: 0,0:49:43.58,0:49:45.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}然后军舰就必须返航{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}After that, we'll be forced to leave.{\r}
+Dialogue: 0,0:49:45.61,0:49:47.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}非常非常抱歉{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}my deepest apologies.{\r}
+Dialogue: 0,0:49:47.53,0:49:49.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我必须对全体侨民负责{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I have the responsibility to everyone onboard.{\r}
+Dialogue: 0,0:49:49.56,0:49:51.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}明白{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I understand.{\r}
+Dialogue: 0,0:49:55.58,0:49:57.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你要去华资工厂吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're going to the Chinese factory?{\r}
+Dialogue: 0,0:49:57.60,0:49:59.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我认为我们更应该去美国领事馆{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We should go to the Ameriacn Consulate.{\r}
+Dialogue: 0,0:49:59.63,0:50:02.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那里有海军陆战队 是全世界最安全的地方{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The US marines are stationed there. That's our safest bet.{\r}
+Dialogue: 0,0:50:03.55,0:50:05.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}海军陆战队是世界最好的特种部队{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You think the US marines are the best in the world?{\r}
+Dialogue: 0,0:50:06.58,0:50:08.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们怎么没来接你啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That may be true, but where are they now?{\r}
+Dialogue: 0,0:50:09.50,0:50:11.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我已经通知过他们了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've informed the  consulate of the situation.{\r}
+Dialogue: 0,0:50:11.52,0:50:13.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}人呢？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Where are they?{\r}
+Dialogue: 0,0:50:13.53,0:50:14.93,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你通知他们的方式是？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tell me exactly how you informed them?{\r}
+Dialogue: 0,0:50:14.93,0:50:17.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我＠了他们的推特账号{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I tweeted at them on Twitter.{\r}
+Dialogue: 0,0:50:24.55,0:50:26.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}欢迎致电美国领事馆{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Welcome to American Consulate.{\r}
+Dialogue: 0,0:50:26.57,0:50:28.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}很不幸 我们已经闭馆了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Unfortunately, we are closed.{\r}
+Dialogue: 0,0:50:28.60,0:50:30.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,0:50:33.52,0:50:35.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我来的时候各国军舰都已经撤离了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}All foreign navy ships have left when I arrived.{\r}
+Dialogue: 0,0:50:36.55,0:50:38.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}当我站在码头上向海面眺望{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}A I watch them sail away from port.{\r}
+Dialogue: 0,0:50:39.57,0:50:41.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}无数远去的桅杆中{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Among the countless departing masts.{\r}
+Dialogue: 0,0:50:42.59,0:50:44.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我看到一面星条旗{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I saw one with the stars and stripes.{\r}
+Dialogue: 0,0:50:48.52,0:50:50.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}停车{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop the car.{\r}
+Dialogue: 0,0:50:50.54,0:50:52.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}停车{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop the car!{\r}
+Dialogue: 0,0:50:52.57,0:50:54.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}停车 我要下车 停{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stop the car, I want to get out! Stop!{\r}
+Dialogue: 0,0:51:10.59,0:51:12.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Rachel{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Rachel.{\r}
+Dialogue: 0,0:51:28.51,0:51:30.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}海军陆战队接你来了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Your GIs are here to get you.{\r}
+Dialogue: 0,0:52:54.56,0:52:56.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm Chinese.{\r}
+Dialogue: 0,0:52:56.59,0:52:58.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我来找Nessa{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm here for Nessa.{\r}
+Dialogue: 0,0:52:58.61,0:53:00.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Tundu的妈妈{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Tundu's mom.{\r}
+Dialogue: 0,0:53:03.53,0:53:05.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Nessa{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nessa!{\r}
+Dialogue: 0,0:53:16.56,0:53:18.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有人吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Anyone home?{\r}
+Dialogue: 0,0:53:18.58,0:53:20.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是来救你们的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've been sent here to rescue you.{\r}
+Dialogue: 0,0:53:20.61,0:53:22.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是樊大使让我来的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}By Ambassador Fan himself.{\r}
+Dialogue: 0,0:53:26.53,0:53:28.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You?{\r}
+Dialogue: 0,0:53:28.55,0:53:30.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}救我们？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Rescue us?{\r}
+Dialogue: 0,0:53:39.58,0:53:41.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我这有十八杆 AK{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've got 18 AK-47s.{\r}
+Dialogue: 0,0:53:42.50,0:53:44.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}三十枚七九式手雷{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}30 M79 grenade launchers,{\r}
+Dialogue: 0,0:53:44.53,0:53:47.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}够武装一个加强排了吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}enough to arm a platoon.{\r}
+Dialogue: 0,0:53:50.55,0:53:53.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}现在一把M1911抵在你头上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I have a M1911 pointed at your head right now.{\r}
+Dialogue: 0,0:53:54.57,0:53:56.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你他妈怎么救我们啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How the fuck are you supposed  to rescue us?{\r}
+Dialogue: 0,0:53:56.60,0:53:58.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷 冷 你是不是冷？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng, Leng! Are you Leng?{\r}
+Dialogue: 0,0:53:58.62,0:54:00.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你是不是冷{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Are you Leng?{\r}
+Dialogue: 0,0:54:00.65,0:54:02.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Nessa？ 是 是{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nessa?  Yes, yes, yes!{\r}
+Dialogue: 0,0:54:02.57,0:54:04.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我儿子怎么样了？ 他很安全{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What about my son?  He's safe.{\r}
+Dialogue: 0,0:54:04.59,0:54:06.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他没事吧？ 他没事{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's okay?  He's okay.{\r}
+Dialogue: 0,0:54:08.52,0:54:10.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢天谢地{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Oh, thank god!{\r}
+Dialogue: 0,0:54:12.54,0:54:14.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他没事{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's okay.{\r}
+Dialogue: 0,0:54:14.57,0:54:16.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈妈 我没事{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mom, mom, I'm ok, I'm ok!{\r}
+Dialogue: 0,0:54:16.59,0:54:19.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢老天  妈 我没事 你怎么样{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Oh, thank god! Mom, I'm ok!{\r}
+Dialogue: 0,0:54:19.61,0:54:22.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你在中国军舰上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Because you're on a Chinese warship.{\r}
+Dialogue: 0,0:54:22.54,0:54:25.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我早就告诉你不要卖毛片{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I told you, not to sell that porn.{\r}
+Dialogue: 0,0:54:25.56,0:54:28.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来了 在非洲绝对找不到这么好吃的饺子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Here we go.You definitely won't find better dumplings in Africa.{\r}
+Dialogue: 0,0:54:28.59,0:54:30.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这是我从中国带来的大厨{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I flew in a chef from China.{\r}
+Dialogue: 0,0:54:30.61,0:54:32.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}亲自给你们做的  谢谢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fresh, just for you. Thank you.{\r}
+Dialogue: 0,0:54:34.53,0:54:36.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}看什么呢？见过吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you looking at? Seen one before?{\r}
+Dialogue: 0,0:54:36.56,0:54:38.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}玩过这枪吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ever shot one of these?{\r}
+Dialogue: 0,0:54:38.58,0:54:40.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这狼啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This wolf here,{\r}
+Dialogue: 0,0:54:40.61,0:54:42.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就是我用这枪打的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I killed myself with this gun.{\r}
+Dialogue: 0,0:54:43.53,0:54:45.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这地图谁做的？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who drew this map?{\r}
+Dialogue: 0,0:54:45.55,0:54:47.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这是我指导我们家保卫干事老何做的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I instructed our head of security, Laohe, how to do it.{\r}
+Dialogue: 0,0:54:48.58,0:54:50.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有几个地没修改好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It still needs some work.{\r}
+Dialogue: 0,0:54:50.60,0:54:52.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老何 来 过来一下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Laohe, come here for a second.{\r}
+Dialogue: 0,0:54:54.53,0:54:56.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}从A区到D区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sector A to Sector D.{\r}
+Dialogue: 0,0:54:56.55,0:54:58.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这个地我已经说过很多遍了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I've told you so many times.{\r}
+Dialogue: 0,0:54:59.57,0:55:01.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}为什么没有修改过来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why isn't it done yet?{\r}
+Dialogue: 0,0:55:02.50,0:55:04.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}马上就改  老何{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'll get on it right away. Laohe,{\r}
+Dialogue: 0,0:55:04.52,0:55:06.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}赶紧拿笔记一下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}write it down quickly.{\r}
+Dialogue: 0,0:55:06.55,0:55:09.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你还保安队长 这要是实施起来出了问题{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}As our head of security. What if something happens during the operation?{\r}
+Dialogue: 0,0:55:09.57,0:55:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么办？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Then what?{\r}
+Dialogue: 0,0:55:15.59,0:55:17.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}男人就该玩这个{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This is a real man's toy.{\r}
+Dialogue: 0,0:55:21.52,0:55:24.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别怕 从现在开始你的安全{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't be afraid. From now on, your safety{\r}
+Dialogue: 0,0:55:25.54,0:55:27.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}由我来负责  冷 谢谢你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}will be my responsibilty. Leng, thank you!{\r}
+Dialogue: 0,0:55:27.57,0:55:29.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别客气  非常感谢{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're welcome. Thank you so much!{\r}
+Dialogue: 0,0:55:30.59,0:55:32.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别客气{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're welcome.{\r}
+Dialogue: 0,0:55:32.61,0:55:34.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谢谢你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Thank you.{\r}
+Dialogue: 0,0:55:35.54,0:55:37.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}小宝贝 这个特别好吃{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey, kiddo. It's super yummy{\r}
+Dialogue: 0,0:55:37.56,0:55:39.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}试一下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}try this.{\r}
+Dialogue: 0,0:55:40.59,0:55:42.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你这孩子  没事 干嘛呢你？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey! You brat! I'm fine. What's the big deal?{\r}
+Dialogue: 0,0:55:42.61,0:55:44.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}人这孩子挺可爱的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I think she's kind of cute.{\r}
+Dialogue: 0,0:55:45.53,0:55:47.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好消息{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Good news.{\r}
+Dialogue: 0,0:55:47.56,0:55:49.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}樊大使打来的电话 明天上午七点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ambassador Fan just called. Tomorrow 07:00 AM,{\r}
+Dialogue: 0,0:55:49.58,0:55:51.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}联合国一架救援直升机{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}A UN rescue helicopter{\r}
+Dialogue: 0,0:55:51.61,0:55:53.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}准时在工厂降落 帮助我们撤离{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}will be landing at this factory to evacuate us.{\r}
+Dialogue: 0,0:55:53.63,0:55:55.63,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一架？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Just one?{\r}
+Dialogue: 0,0:55:59.55,0:56:01.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}各位请注意{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Attention please.{\r}
+Dialogue: 0,0:56:01.58,0:56:03.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everybody.{\r}
+Dialogue: 0,0:56:03.60,0:56:06.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人听我说{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everybody listen to me.{\r}
+Dialogue: 0,0:56:07.53,0:56:09.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大家都安静{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Quiet down everyone.{\r}
+Dialogue: 0,0:56:09.55,0:56:14.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}听我说 所有中国人全都站到这一边儿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Listen to me. All Chinese employees, stand on this side.{\r}
+Dialogue: 0,0:56:14.57,0:56:18.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们只带中国人 第一批管理层优先{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We are only taking Chinese people. Management goes first.{\r}
+Dialogue: 0,0:56:18.60,0:56:20.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我带大家走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I will lead the evacuation.{\r}
+Dialogue: 0,0:56:20.52,0:56:25.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}明白吗？所有非洲人站在这边{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Is that clear? All the Africans please stand this side, please.{\r}
+Dialogue: 0,0:56:25.55,0:56:27.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}明白了吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Clear?{\r}
+Dialogue: 0,0:56:27.57,0:56:29.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哈里{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Harry.{\r}
+Dialogue: 0,0:56:29.59,0:56:31.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不 老板  拜托{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}No, boss, no. Please.{\r}
+Dialogue: 0,0:56:31.62,0:56:33.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开始动起来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on, come on.{\r}
+Dialogue: 0,0:56:33.54,0:56:35.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}动起来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get moving.{\r}
+Dialogue: 0,0:56:37.57,0:56:40.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有呢？都往那边去 往那边去{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Anyone else? Come, move. That side. That side.{\r}
+Dialogue: 0,0:56:42.59,0:56:44.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你怎么回事啊？ 俺老婆她怀孕了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you doing?  She's my wife. She's pregnant{\r}
+Dialogue: 0,0:56:44.62,0:56:44.90,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看看{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Look{\r}
+Dialogue: 0,0:56:44.94,0:56:46.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有中国人吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Any more Chinese?{\r}
+Dialogue: 0,0:56:47.54,0:56:49.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还有中国人吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Any other Chinese?{\r}
+Dialogue: 0,0:56:49.56,0:56:51.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老林 你给我听好了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lin, listen to me.{\r}
+Dialogue: 0,0:56:51.59,0:56:53.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}都是我们家员工{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everyone here is my employee.{\r}
+Dialogue: 0,0:56:53.61,0:56:55.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我都要带走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm taking them all with me.{\r}
+Dialogue: 0,0:56:58.53,0:57:00.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么带啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How?{\r}
+Dialogue: 0,0:57:03.56,0:57:05.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别停下来 别停下来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on, come on! Don't stop, get moving.{\r}
+Dialogue: 0,0:57:05.58,0:57:07.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这边是{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get moving. For this side,{\r}
+Dialogue: 0,0:57:07.61,0:57:09.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}非洲同胞{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fellow African.{\r}
+Dialogue: 0,0:57:09.53,0:57:11.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这边是 中国人  我老婆嫁给我了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Chinese people, this side. She married me.{\r}
+Dialogue: 0,0:57:11.55,0:57:13.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就是中国人 我要把她带走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}so she's is one of us.{\r}
+Dialogue: 0,0:57:13.58,0:57:14.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Move, move.{\r}
+Dialogue: 0,0:57:14.60,0:57:16.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你…{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You...{\r}
+Dialogue: 0,0:57:18.53,0:57:20.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没事 你就站那吧 这儿挺好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fine, stay there. There's perfect.{\r}
+Dialogue: 0,0:57:20.55,0:57:23.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来来来 男士们动一动{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on! Come on! Guys, guys please, please move.{\r}
+Dialogue: 0,0:57:23.57,0:57:26.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}请站倒那边{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stand that side, please.{\r}
+Dialogue: 0,0:57:26.60,0:57:29.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}非洲同胞们 拜托{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please, African friends.{\r}
+Dialogue: 0,0:57:29.52,0:57:31.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}相信我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Trust me.{\r}
+Dialogue: 0,0:57:36.55,0:57:38.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来 快一点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on, hurry uo, get moving.{\r}
+Dialogue: 0,0:57:38.57,0:57:40.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你滚开 你滚开  别碰我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You want to be on this side, yeah?  Fuck off, bro!{\r}
+Dialogue: 0,0:57:41.59,0:57:43.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么了？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's up?{\r}
+Dialogue: 0,0:57:43.62,0:57:45.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}为什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why?{\r}
+Dialogue: 0,0:58:06.54,0:58:08.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中间给我让出一条线来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Give a line down the middle.{\r}
+Dialogue: 0,0:58:08.57,0:58:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要看清楚一道分界线{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I want to see a clear boundary line.{\r}
+Dialogue: 0,0:58:11.59,0:58:14.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我要看清楚一道分界线{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Show me the line, please.{\r}
+Dialogue: 0,0:58:19.51,0:58:21.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一道分界线{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I brought the helicopter.{\r}
+Dialogue: 0,0:58:22.54,0:58:24.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大家听我的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I call the shots.{\r}
+Dialogue: 0,0:58:25.56,0:58:27.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}明天大家一起走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everyone leaves tomorrow.{\r}
+Dialogue: 0,0:58:27.59,0:58:29.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妇女儿童上飞机{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Children and women leave with the chopper.{\r}
+Dialogue: 0,0:58:29.61,0:58:31.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}男人跟我走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The men will follow me on foot.{\r}
+Dialogue: 0,0:58:36.53,0:58:38.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everybody.{\r}
+Dialogue: 0,0:58:40.56,0:58:42.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们一起走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We leave together.{\r}
+Dialogue: 0,0:59:11.58,0:59:13.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老师傅 门口那口袋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Old timer, the defensive formation out front,{\r}
+Dialogue: 0,0:59:13.61,0:59:15.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}您布的吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}that was you, right?{\r}
+Dialogue: 0,0:59:16.53,0:59:18.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你也不错{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're not bad yourself.{\r}
+Dialogue: 0,0:59:26.55,0:59:29.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}原中国人民解放军 西南军区十四集团军{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Former People's Liberation Army of China, 14th Corps, South-West region,{\r}
+Dialogue: 0,0:59:29.58,0:59:31.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}侦察连连长 何建国{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Recon Company Commander, He JianGuo.{\r}
+Dialogue: 0,0:59:32.50,0:59:34.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}原中国人民解放军 东南军区特种作战旅{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Former People's Liberation Army, Special Ops Birgade, South-East region,{\r}
+Dialogue: 0,0:59:34.53,0:59:36.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}战狼中队 冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wolf Warrior Squadron, Leng Feng.{\r}
+Dialogue: 0,0:59:36.55,0:59:38.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}班长好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}At your service.{\r}
+Dialogue: 0,0:59:41.57,0:59:43.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}敬班长{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Drink in your honor.{\r}
+Dialogue: 0,0:59:55.50,0:59:57.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这些人一小时前{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}An hour ago, these people{\r}
+Dialogue: 0,0:59:57.52,0:59:59.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}还不知道能不能活到明天{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}didn't know if they'd live to see tomorrow.{\r}
+Dialogue: 0,0:59:59.55,1:00:01.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么那么开心啊？ 这帮黑哥们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why are they so happy?  Our African friends,{\r}
+Dialogue: 0,1:00:01.57,1:00:03.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}无论什么战争啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}it doesn't matter if it's war,{\r}
+Dialogue: 0,1:00:03.59,1:00:05.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}瘟疫啊 贫穷啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}disease or poverty,{\r}
+Dialogue: 0,1:00:05.62,1:00:08.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你只要给他们一堆火 他们立刻就这样{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}once they're around the bonfire, all their cares go away.{\r}
+Dialogue: 0,1:00:10.54,1:00:12.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}非洲啊 吃的好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Africa. Great food.{\r}
+Dialogue: 0,1:00:13.57,1:00:15.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}景好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Nice scenery.{\r}
+Dialogue: 0,1:00:16.59,1:00:18.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}姑娘好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hot women.{\r}
+Dialogue: 0,1:00:53.51,1:00:55.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嘿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey.{\r}
+Dialogue: 0,1:00:55.54,1:00:57.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干杯  干杯{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Cheers. Cheers.{\r}
+Dialogue: 0,1:01:02.56,1:01:04.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我不愿意一辈子活在我爸的光环之下{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I don't want to ride my father's coat tail all my life.{\r}
+Dialogue: 0,1:01:05.59,1:01:07.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看看这多好啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I love this place!{\r}
+Dialogue: 0,1:01:07.61,1:01:09.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有狮子有鳄鱼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lions, crocodiles,{\r}
+Dialogue: 0,1:01:09.53,1:01:11.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有AK 有狙{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}AK-47s, sniper rifles,{\r}
+Dialogue: 0,1:01:11.56,1:01:14.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有和平地带一辈子都听不到的炮火之声{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and the melody of gunfire you can't get in a peaceful country.{\r}
+Dialogue: 0,1:01:17.58,1:01:19.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那是这个世界上最美妙的声音{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That's the most wonderful  sound in the world.{\r}
+Dialogue: 0,1:01:20.51,1:01:22.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你知道今天Pasha为什么咬你吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Do you want to know why Pasha bit you today?{\r}
+Dialogue: 0,1:01:24.53,1:01:27.13,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}因为他爸爸就是被你喜欢的AK打死的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Because her father was killed AK-47s you so adore.{\r}
+Dialogue: 0,1:01:31.55,1:01:33.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}如果这个是你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}If this were you,{\r}
+Dialogue: 0,1:01:34.58,1:01:37.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你还觉得美妙吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}would you still thinl it's wonderful??{\r}
+Dialogue: 0,1:01:59.50,1:02:01.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}天呐 你看{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Oh man, look at this.{\r}
+Dialogue: 0,1:02:01.53,1:02:03.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好大一个晚会{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That's a big party.{\r}
+Dialogue: 0,1:02:14.55,1:02:16.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我太喜欢了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I love these things.{\r}
+Dialogue: 0,1:02:16.57,1:02:18.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}瞧他们的样子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Look at them.{\r}
+Dialogue: 0,1:02:47.50,1:02:48.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,1:02:48.52,1:02:50.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha!{\r}
+Dialogue: 0,1:02:56.55,1:02:58.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha!{\r}
+Dialogue: 0,1:03:15.57,1:03:17.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shit!{\r}
+Dialogue: 0,1:03:29.59,1:03:31.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}放开我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let me go!{\r}
+Dialogue: 0,1:03:31.62,1:03:34.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把那个老兵除掉 雅典娜干掉那个老家伙{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Take out the veteran. Athena,take out the old man.{\r}
+Dialogue: 0,1:03:40.54,1:03:42.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}待在这儿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Stay here!{\r}
+Dialogue: 0,1:03:46.57,1:03:48.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}放开她{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let her go!{\r}
+Dialogue: 0,1:04:18.59,1:04:20.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha!{\r}
+Dialogue: 0,1:04:23.51,1:04:25.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我太喜欢他们这个样子了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Like ants when you lift a rock.{\r}
+Dialogue: 0,1:04:32.34,1:04:34.34,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,1:04:52.56,1:04:54.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}救我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Help me!{\r}
+Dialogue: 0,1:04:54.59,1:04:56.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我腿受伤了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}They got my leg!{\r}
+Dialogue: 0,1:04:57.51,1:04:59.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没事儿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're fine.{\r}
+Dialogue: 0,1:05:07.53,1:05:09.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shit!{\r}
+Dialogue: 0,1:05:09.56,1:05:11.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:05:13.58,1:05:15.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Go!{\r}
+Dialogue: 0,1:06:11.51,1:06:13.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}换弹夹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I need a reload!{\r}
+Dialogue: 0,1:06:15.53,1:06:17.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:06:27.55,1:06:29.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你想干什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you doing, man?{\r}
+Dialogue: 0,1:06:35.58,1:06:37.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,1:06:46.50,1:06:48.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}分头走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let's split up!{\r}
+Dialogue: 0,1:06:53.53,1:06:55.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去 去{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Go!{\r}
+Dialogue: 0,1:06:59.55,1:07:01.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Damn it.{\r}
+Dialogue: 0,1:07:04.57,1:07:06.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}来啊  快走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on! Let's go!{\r}
+Dialogue: 0,1:07:28.50,1:07:30.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha.{\r}
+Dialogue: 0,1:07:31.52,1:07:33.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha你在哪？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha, where are you?{\r}
+Dialogue: 0,1:07:40.55,1:07:45.05,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}滚开 臭婆娘{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Move out of the way, bitch!{\r}
+Dialogue: 0,1:07:50.57,1:07:52.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Run!{\r}
+Dialogue: 0,1:08:58.59,1:09:00.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你已经不是军人了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We know you're not a soldier anymore.{\r}
+Dialogue: 0,1:09:00.62,1:09:03.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他妈的还那么拼干嘛？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What the fuck are you fighting for?{\r}
+Dialogue: 0,1:09:07.54,1:09:09.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一朝是战狼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Once a Wolf Warrior{\r}
+Dialogue: 0,1:09:09.57,1:09:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}终身是战狼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}always a Wolf Warrior!{\r}
+Dialogue: 0,1:09:31.59,1:09:33.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}大熊先锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Bear, you're on point.{\r}
+Dialogue: 0,1:09:33.61,1:09:37.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}雅典娜封住所有出口 这个混蛋我要定了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Athena, cover the exit. I want this son of a bitch.{\r}
+Dialogue: 0,1:10:15.54,1:10:18.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}C 队发现目标 正在追{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Team Charlie, spotted target. We are in pursuit.{\r}
+Dialogue: 0,1:10:19.56,1:10:22.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}头儿 B 队发现目标在前方{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, Team Bravo has target 12 o'clock.{\r}
+Dialogue: 0,1:11:16.59,1:11:20.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的 这帮蠢货现在让我们撤退{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What the fuck? Those idiots want us to retreat now?{\r}
+Dialogue: 0,1:11:35.51,1:11:37.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我是奥杜将军{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This is General Actu{\r}
+Dialogue: 0,1:11:37.53,1:11:39.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人马上撤离{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}everyone return to base.{\r}
+Dialogue: 0,1:11:39.56,1:11:41.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}马上撤离{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Return to base.{\r}
+Dialogue: 0,1:11:44.58,1:11:48.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老爹 我他妈命令你立即给我滚回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Big Daddy, I'm ordering you to get the fuck back here now!{\r}
+Dialogue: 0,1:12:05.51,1:12:07.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你他妈的在做什么？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hey! What the fuck are you doing?{\r}
+Dialogue: 0,1:12:07.53,1:12:09.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我他妈的跟你说了多少遍？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I told you so many fucking times{\r}
+Dialogue: 0,1:12:09.55,1:12:12.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们不能杀中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}that we cannot kill the Chinese!{\r}
+Dialogue: 0,1:12:13.58,1:12:16.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中国是常任理事国{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}China is a permanent member of the UN Security Council.{\r}
+Dialogue: 0,1:12:17.50,1:12:20.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们夺取政权后还要得到中国的承认{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}And I need them on my side if I am to take political power.{\r}
+Dialogue: 0,1:12:20.53,1:12:22.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你他妈个蠢货{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You fucking asshole!{\r}
+Dialogue: 0,1:12:30.55,1:12:32.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}杀掉冷 抓到Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Kill Leng, and find Pasha,{\r}
+Dialogue: 0,1:12:32.57,1:12:34.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你将会是这个国家的主人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and you'll be the king of this fucking country{\r}
+Dialogue: 0,1:12:37.50,1:12:39.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}遵命 主人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}As you comment, sir!{\r}
+Dialogue: 0,1:12:48.52,1:12:50.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等等  冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hold it! Leng Feng!{\r}
+Dialogue: 0,1:12:54.55,1:12:56.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你到底什么人？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who are you?{\r}
+Dialogue: 0,1:13:00.57,1:13:02.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}刚一起打完仗你干嘛呢？ 凡哥{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We just fought a battle together, what's your deal?  Brither Fan{\r}
+Dialogue: 0,1:13:03.59,1:13:05.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}咱们这本来很安全{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}we were pretty safe before he got here.{\r}
+Dialogue: 0,1:13:05.62,1:13:07.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他一来了反叛军就来了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ever wonder why the rebels show up{\r}
+Dialogue: 0,1:13:07.64,1:13:09.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们不觉得很奇怪吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}after he got here?{\r}
+Dialogue: 0,1:13:09.57,1:13:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他是我儿子的朋友{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's a friend of my son.{\r}
+Dialogue: 0,1:13:11.59,1:13:13.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他是来接我的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He came here for me.{\r}
+Dialogue: 0,1:13:13.61,1:13:16.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你之前见过他吗？ 我孩子天天都提起他{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Have you met him before?  My son always talks about him.{\r}
+Dialogue: 0,1:13:17.54,1:13:19.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那又怎样？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}So?{\r}
+Dialogue: 0,1:13:19.56,1:13:23.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我相信他 他今天上午在医院就救过我和Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I trust him! He rescued Pasha and me earlier today at the hospital{\r}
+Dialogue: 0,1:13:23.59,1:13:25.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}之后他也一直在保护我们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He's been protecting us ever since.{\r}
+Dialogue: 0,1:13:25.61,1:13:27.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}如果我没理解错的话{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let me get this straight.{\r}
+Dialogue: 0,1:13:27.53,1:13:30.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你见他的时候正是你的朋友陈博士死的时候{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You met him the same time your doctor friend died?{\r}
+Dialogue: 0,1:13:30.56,1:13:34.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他一出现就开始死人 而他自己却什么事都没有{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}People are getting killed around him, while he's unscathed.{\r}
+Dialogue: 0,1:13:35.58,1:13:37.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}朋友 你自己说说吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Friend, speak for yourself.{\r}
+Dialogue: 0,1:13:39.51,1:13:41.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别拦着我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}get off me!{\r}
+Dialogue: 0,1:13:54.53,1:13:56.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}拉曼拉  拉曼拉？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lamanla (Virus). Lamanla?{\r}
+Dialogue: 0,1:13:57.55,1:13:59.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他得了拉曼拉{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He has Lamanla!{\r}
+Dialogue: 0,1:14:02.58,1:14:04.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老林 他是我朋友{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lin! He's my friend.{\r}
+Dialogue: 0,1:14:07.50,1:14:09.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他刚才救了我的命{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He just saved my life.{\r}
+Dialogue: 0,1:14:10.53,1:14:12.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他 他们怎么办？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What about them?{\r}
+Dialogue: 0,1:14:13.55,1:14:15.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们怎么办 上个月{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What about them? Last month,{\r}
+Dialogue: 0,1:14:15.57,1:14:17.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}十公里之外的通讯中心{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The comms center10 km away,{\r}
+Dialogue: 0,1:14:17.60,1:14:21.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}一个人得了拉曼拉 最后全厂都他妈死绝了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}one person got Lamanla. In the end, the whole place was wiped out.{\r}
+Dialogue: 0,1:14:21.52,1:14:23.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这可是整厂人的性命啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everyone's life is at stake here.{\r}
+Dialogue: 0,1:14:24.55,1:14:26.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我说的这些话并不是我一个人的意思{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}look , it is not just my opinion.{\r}
+Dialogue: 0,1:14:27.57,1:14:29.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不信你可以问他们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Ask them yourself.{\r}
+Dialogue: 0,1:14:41.59,1:14:43.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'll leave.{\r}
+Dialogue: 0,1:14:47.52,1:14:49.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等等{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wait.{\r}
+Dialogue: 0,1:14:51.54,1:14:54.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们知道所有得了拉曼拉病毒的人都会很快死去{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You all know what will happen to someone infected with Lamanla.{\r}
+Dialogue: 0,1:14:56.57,1:14:58.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我希望你们永远记得{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I hope you'll always remember{\r}
+Dialogue: 0,1:14:59.59,1:15:02.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这将死的人救了你们所有人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}this dying man saved all of you.{\r}
+Dialogue: 0,1:15:02.61,1:15:04.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你真可耻{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shame on you!{\r}
+Dialogue: 0,1:15:04.54,1:15:06.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你们所有人都可耻{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shame on all of you!{\r}
+Dialogue: 0,1:15:58.59,1:16:00.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng!{\r}
+Dialogue: 0,1:16:00.61,1:16:02.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng!{\r}
+Dialogue: 0,1:16:02.63,1:16:04.63,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng!{\r}
+Dialogue: 0,1:16:36.56,1:16:38.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你开枪有多大把握  百分之五十{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How confident are you with a gun?  So-50%{\r}
+Dialogue: 0,1:16:38.58,1:16:41.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在我这儿没有那百分之五十{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}There's no place in my team for so-50%.{\r}
+Dialogue: 0,1:16:43.51,1:16:45.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}您是想让我酒后吐真言呐{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Trying to get me drunk so I blurt out the truth?{\r}
+Dialogue: 0,1:16:45.53,1:16:47.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你会吐真言吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Will you blurt out the truth?{\r}
+Dialogue: 0,1:16:47.55,1:16:49.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}会{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Certainly.{\r}
+Dialogue: 0,1:16:53.58,1:16:55.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你喝醉了啥样？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What are you like when you're drunk?{\r}
+Dialogue: 0,1:16:55.60,1:16:57.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我等你回来请我喝酒{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'll let you buy me drinks when you come back.{\r}
+Dialogue: 0,1:17:03.53,1:17:05.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're the one who didn't come back.{\r}
+Dialogue: 0,1:17:09.55,1:17:11.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come back to bed.{\r}
+Dialogue: 0,1:17:11.57,1:17:13.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别闹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Cut it out.{\r}
+Dialogue: 0,1:17:22.50,1:17:24.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}希望我回来的时候{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}When I get back{\r}
+Dialogue: 0,1:17:24.52,1:17:26.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你能在这个文件上签字{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}this had better be signed.{\r}
+Dialogue: 0,1:17:40.55,1:17:42.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冲上去被打死很容易{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's an easy death when you're on the attack.{\r}
+Dialogue: 0,1:17:44.57,1:17:47.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}难的是背负着内疚和使命感继续活下去{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}but it's a hard life carrying a survivor's guilt.{\r}
+Dialogue: 0,1:17:56.59,1:17:58.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是你没回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}But you didn't come back.{\r}
+Dialogue: 0,1:17:59.52,1:18:01.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's you who didn't come back.{\r}
+Dialogue: 0,1:18:02.54,1:18:04.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你没回来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You didn't come back.{\r}
+Dialogue: 0,1:18:22.57,1:18:24.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}到底是谁？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Against who?{\r}
+Dialogue: 0,1:18:24.59,1:18:26.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}昨天跟我们交的手{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Who were we fighting yesterday?{\r}
+Dialogue: 0,1:18:39.51,1:18:41.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你妈妈没告诉你？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Didn't your mom tell you that{\r}
+Dialogue: 0,1:18:41.54,1:18:43.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}小孩子不要玩枪吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}you shouldn't play with a gun?{\r}
+Dialogue: 0,1:18:47.56,1:18:49.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng!{\r}
+Dialogue: 0,1:18:50.59,1:18:52.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}就是冷 就是他一个人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That was Leng, only him alone.{\r}
+Dialogue: 0,1:18:54.51,1:18:56.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It was me!{\r}
+Dialogue: 0,1:18:58.53,1:19:01.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我在这工作之前是个军人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I was in the military before I worked here.{\r}
+Dialogue: 0,1:19:01.56,1:19:03.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看看其他人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Does anyone here{\r}
+Dialogue: 0,1:19:03.58,1:19:05.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}像会开枪射击的样子吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}look like they can shoot?{\r}
+Dialogue: 0,1:19:05.61,1:19:07.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Okay.{\r}
+Dialogue: 0,1:19:29.53,1:19:31.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你醒了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're up.{\r}
+Dialogue: 0,1:19:34.55,1:19:37.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}可惜陈博士没有看到这一幕{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's a shame Dr. Chen didn't live to see this.{\r}
+Dialogue: 0,1:19:37.58,1:19:40.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他是全世界唯一发现自愈活体的专家{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He discovered the presence of self-healing properties in humans.{\r}
+Dialogue: 0,1:19:40.60,1:19:44.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士发现有极少数人体内有抵抗拉曼拉的抗体{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}In extreme rare cases, Lamanla antibodies can be found in patients.{\r}
+Dialogue: 0,1:19:44.53,1:19:48.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}在他无数次和拉曼拉患者的治疗过程中{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Among the thousands of Lamanla patients he treated{\r}
+Dialogue: 0,1:19:48.55,1:19:50.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他偶然发现了一个自愈活体的实例{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}He chanced upon one such person{\r}
+Dialogue: 0,1:19:51.57,1:19:53.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}而这个自愈活体就是Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}And that person is Pasha.{\r}
+Dialogue: 0,1:19:54.50,1:19:57.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她不是陈博士的女儿 是他的病人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}So Pasha's not his daughter, but his patient.{\r}
+Dialogue: 0,1:19:57.52,1:20:00.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}陈博士通过对Pasha血液成分的分析和萃取{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}From the analysis of Pasha's blood{\r}
+Dialogue: 0,1:20:00.55,1:20:03.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}刚刚研制出一种新药{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}he created an experimental vaccine.{\r}
+Dialogue: 0,1:20:03.57,1:20:05.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}昨天晚上因为情况紧急{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Last night was a dire situation,{\r}
+Dialogue: 0,1:20:05.59,1:20:08.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我只能在你身上做了一个陈博士曾经设想{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}so I experimented on you, what Dr. Chen was planning to do.{\r}
+Dialogue: 0,1:20:08.62,1:20:11.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}但是还没来得及做的活体实验{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The first human trial that he was hoping for{\r}
+Dialogue: 0,1:20:11.54,1:20:14.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我把陈博士的新药注射到了你的身上{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Injecting you with Dr. Chen's newly synthesized vaccine immunogens{\r}
+Dialogue: 0,1:20:15.57,1:20:17.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}说实话{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Honestly speaking,{\r}
+Dialogue: 0,1:20:17.59,1:20:19.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那个时候我真不知道会发生什么{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I didn't know what would happen.{\r}
+Dialogue: 0,1:20:22.51,1:20:24.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}幸运的是{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Luckily{\r}
+Dialogue: 0,1:20:24.54,1:20:26.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}上帝站在我们这边{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}God was on your side.{\r}
+Dialogue: 0,1:20:33.56,1:20:38.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这个国家人民看到政府对病毒的无能为力极度失望{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The population has lost faith in the government to contain the outbreak.{\r}
+Dialogue: 0,1:20:38.59,1:20:40.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所以 谁得到Pasha{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}So, whoever takes Pasha{\r}
+Dialogue: 0,1:20:40.61,1:20:42.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}谁就能轻易的掌控这个国家{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}takes the country easily.{\r}
+Dialogue: 0,1:20:42.53,1:20:45.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怪不得反政府军一直往追杀我们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That explains why the rebel army is hot on our heels.{\r}
+Dialogue: 0,1:21:07.56,1:21:10.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我爸爸说十万年前人类走出非洲{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}My dad said man walked out of Africa 100.000 years ago.{\r}
+Dialogue: 0,1:21:10.58,1:21:13.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}非洲是现代文明的摇篮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Africa is the cradle of modern civilization.{\r}
+Dialogue: 0,1:21:13.61,1:21:16.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}可是当自诩文明的人们再次来到非洲{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Yet when the "evolved, civilized" humans returned to this land,{\r}
+Dialogue: 0,1:21:16.53,1:21:18.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}带来的却是苦难{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}they brought along with them nothing but suffering,{\r}
+Dialogue: 0,1:21:18.55,1:21:20.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}奴役 疾病和战争{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}slavery, disease and war.{\r}
+Dialogue: 0,1:21:21.58,1:21:25.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}韩国人 冰岛人 斯拉夫人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Koreans, Icelanders, Slavs,{\r}
+Dialogue: 0,1:21:25.60,1:21:27.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}美国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Americans{\r}
+Dialogue: 0,1:21:27.53,1:21:30.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那些是中国人 他们都是来自世界各地的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and over there are Chinese. People from all over the world,{\r}
+Dialogue: 0,1:21:30.55,1:21:32.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}像我爸爸一样的人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}people like my father.{\r}
+Dialogue: 0,1:21:33.57,1:21:35.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}为了非洲{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}For Africa{\r}
+Dialogue: 0,1:21:35.60,1:21:38.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们付出了自己的青春{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}they gave their best years.{\r}
+Dialogue: 0,1:21:38.52,1:21:40.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}到最后{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}In the end,{\r}
+Dialogue: 0,1:21:40.55,1:21:43.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把自己永远地留在这片土地{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}they got to remain here for eternity.{\r}
+Dialogue: 0,1:21:54.57,1:21:56.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她叫什么名字{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What's her name?{\r}
+Dialogue: 0,1:21:56.59,1:21:58.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}嗯？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Huh?{\r}
+Dialogue: 0,1:21:58.62,1:22:00.62,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那个你忘不了的人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The person you can't seem to forget.{\r}
+Dialogue: 0,1:22:04.54,1:22:06.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}龙小云{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Long XiaoYun.{\r}
+Dialogue: 0,1:22:09.57,1:22:11.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她好幸运{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She's lucky{\r}
+Dialogue: 0,1:22:12.59,1:22:14.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有一个这么爱她的男人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}to have a man that loves her so much.{\r}
+Dialogue: 0,1:22:15.51,1:22:17.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}她为什么没有回来呢？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Why didn't she come back?{\r}
+Dialogue: 0,1:22:28.54,1:22:30.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}对不起{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sorry.{\r}
+Dialogue: 0,1:22:49.56,1:22:52.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把他们当作饺子给我包起来 让他们以为是安全的 明白吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I want you to round 'em up like cattle. Make 'em feel safe. You understand me?{\r}
+Dialogue: 0,1:22:52.59,1:22:54.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}收到{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Yes, sir.{\r}
+Dialogue: 0,1:23:04.51,1:23:06.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}东边是山区{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We got mountains to the west,{\r}
+Dialogue: 0,1:23:06.53,1:23:10.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}西边是雨林 如果他够聪明 就会来这等直升机{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}we got forests to the east. The only smart place for them to come is right here and wait for the rescue helicopter.{\r}
+Dialogue: 0,1:23:11.56,1:23:13.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}中国佬 你可别死{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I sure hope these Chinese people don't die.{\r}
+Dialogue: 0,1:23:14.58,1:23:16.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}能救你的只有我了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm about the only thing that can save them right now.{\r}
+Dialogue: 0,1:23:22.51,1:23:24.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}全体集合{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Round 'em up.{\r}
+Dialogue: 0,1:23:24.53,1:23:27.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}所有人准备出发 出发 出发 出发 出发{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Everybody, let's go! Let's go! Move, move, move!{\r}
+Dialogue: 0,1:23:42.55,1:23:44.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}等我他妈出去了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wait till I get out of here,{\r}
+Dialogue: 0,1:23:44.58,1:23:46.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我他妈绝对不会放过这帮孙子{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I'm going to settle the score with them.{\r}
+Dialogue: 0,1:23:47.50,1:23:49.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}凡哥{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Brother Fan,{\r}
+Dialogue: 0,1:23:49.53,1:23:51.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别他妈吹牛逼了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}cut the fucking bullshit.{\r}
+Dialogue: 0,1:23:52.55,1:23:54.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}怎么出去啊？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How are we going to get out?{\r}
+Dialogue: 0,1:23:55.57,1:23:58.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}再说了 您出去能干什么呀？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}And besides, what are you planning to do?{\r}
+Dialogue: 0,1:23:58.60,1:24:00.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}您会什么呀？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}What can you even do?{\r}
+Dialogue: 0,1:24:00.52,1:24:02.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}凡哥{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Brother Fan,{\r}
+Dialogue: 0,1:24:02.55,1:24:04.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}平时我们都让着你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}in normal times, everyone gives in to you.{\r}
+Dialogue: 0,1:24:05.57,1:24:09.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}打起仗来 没人会让着我们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}In battle, no one will be giving in to us.{\r}
+Dialogue: 0,1:24:09.59,1:24:11.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}给我闭嘴{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Shut the fuck up!{\r}
+Dialogue: 0,1:25:23.52,1:25:25.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去死吧{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go to hell!{\r}
+Dialogue: 0,1:25:44.54,1:25:46.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}撑得住吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Brother, how are you holding up?{\r}
+Dialogue: 0,1:25:46.57,1:25:48.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}比以前差远了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Not as well as back in the day.{\r}
+Dialogue: 0,1:25:53.59,1:25:56.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你的手是用来救人的 不是用来杀人的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Your hands are for saving lives not taking lives.{\r}
+Dialogue: 0,1:26:14.51,1:26:16.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这种仗战狼会怎么打{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}How would Wolf Warriors fight this battle?{\r}
+Dialogue: 0,1:27:00.54,1:27:02.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:27:05.56,1:27:07.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:28:27.59,1:28:31.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你妈妈没告诉你小孩子不要玩枪吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Didn't your mom tell you not to play with weap?{\r}
+Dialogue: 0,1:28:37.51,1:28:39.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你妈没告诉你别欺负熊孩子吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Didn't your mom tell you not to fuck with spoiled brats?{\r}
+Dialogue: 0,1:28:39.53,1:28:41.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走啦{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Let's go!{\r}
+Dialogue: 0,1:29:05.56,1:29:07.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这就是雇拥军与反叛军屠杀我国侨民的证据{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Here's evidence of the rebel  army killing our citizens.{\r}
+Dialogue: 0,1:29:07.58,1:29:10.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}收到 我们马上把资料汇总{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Transmission received. We will gather up all the information,{\r}
+Dialogue: 0,1:29:10.61,1:29:12.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}让樊大使尽快递交联合国{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}and have Ambassador Fan submit it to the UN.{\r}
+Dialogue: 0,1:29:13.53,1:29:14.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}明白{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Copy that.{\r}
+Dialogue: 0,1:29:14.55,1:29:18.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}另外 当地政府已经向我国正式请求军事援助{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}oh and one more thing. The local government has critically requested for our military assistance{\r}
+Dialogue: 0,1:29:18.58,1:29:21.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}直升机马上就到{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The chopper will arrive shortly{\r}
+Dialogue: 0,1:29:21.60,1:29:23.60,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们等你回家  好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We're waiting for you. Copy that!{\r}
+Dialogue: 0,1:29:39.55,1:29:43.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你赶紧上飞机  还有很多人需要我帮助{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get on the chopper  There're a lot of people here who still need me.{\r}
+Dialogue: 0,1:29:44.57,1:29:46.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}林志雄{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Lin Zhi Xiong!{\r}
+Dialogue: 0,1:29:48.50,1:29:52.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}女人孩子都得上飞机  在这里我不是女人我是医生{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Women and childern must get on the chopper. Right now I'm not a woman. I'm a doctor{\r}
+Dialogue: 0,1:29:52.52,1:29:54.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}论救援 我比你专业{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The more professional than you when it comes to saving lives.{\r}
+Dialogue: 0,1:29:54.55,1:29:56.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}论保护人我比你专业{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}But I'm more professional than you in protecting lives!{\r}
+Dialogue: 0,1:29:57.57,1:29:59.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Pasha 你准备好坐直升机了吗？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Pasha, are you ready to get on the helicopter?{\r}
+Dialogue: 0,1:30:00.59,1:30:02.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}递一些纱布给我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Can you pass me some gauze please?{\r}
+Dialogue: 0,1:30:04.52,1:30:06.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快上直升机{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get on the helicopter.{\r}
+Dialogue: 0,1:30:06.54,1:30:09.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你别给我添乱 好不好？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't be difficult, okay?{\r}
+Dialogue: 0,1:30:09.57,1:30:12.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}让一下？ 让什么让{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Excuse me?  Excuse you my ass!{\r}
+Dialogue: 0,1:30:48.59,1:30:50.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}发生什么事了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Whoa, what was that?{\r}
+Dialogue: 0,1:30:52.51,1:30:54.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}求救 求救{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mayday! Mayday!{\r}
+Dialogue: 0,1:30:54.54,1:30:56.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我们被袭击 失去尾旋翼{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Missile strike! Tail rotor lost!{\r}
+Dialogue: 0,1:30:56.56,1:30:58.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我还能控制 硬着陆{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I have control. Going down!{\r}
+Dialogue: 0,1:30:58.59,1:31:00.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}求救 求救{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mayday! Mayday!{\r}
+Dialogue: 0,1:31:02.51,1:31:04.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}准备迫降{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Brace! Brace!{\r}
+Dialogue: 0,1:31:41.53,1:31:43.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 走  走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Go! Go!{\r}
+Dialogue: 0,1:31:44.56,1:31:46.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快跑{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Run!{\r}
+Dialogue: 0,1:32:02.58,1:32:04.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}老库房{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}To the bunker!{\r}
+Dialogue: 0,1:32:04.61,1:32:06.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hurry!{\r}
+Dialogue: 0,1:32:11.53,1:32:13.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Rachel{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Rachel!{\r}
+Dialogue: 0,1:32:15.55,1:32:17.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}醒醒{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Wake up!{\r}
+Dialogue: 0,1:32:21.58,1:32:23.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}醒醒{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on! Come on!{\r}
+Dialogue: 0,1:32:39.50,1:32:41.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}Rachel{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Rachel!{\r}
+Dialogue: 0,1:32:52.53,1:32:54.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}去找老何{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go find LaoHe!{\r}
+Dialogue: 0,1:33:22.55,1:33:24.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}起身 快点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get up! Come on!{\r}
+Dialogue: 0,1:33:30.57,1:33:32.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,1:33:33.50,1:33:35.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快进老库房{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get to the bunker!{\r}
+Dialogue: 0,1:33:59.52,1:34:01.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 快 走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Quickly! Go!{\r}
+Dialogue: 0,1:34:01.55,1:34:03.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走 快{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go! Quickly!{\r}
+Dialogue: 0,1:34:22.57,1:34:24.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}准备{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get ready!{\r}
+Dialogue: 0,1:34:35.59,1:34:37.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开炮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fire!{\r}
+Dialogue: 0,1:34:38.52,1:34:40.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把那个家伙干掉{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Kill that motherfucker!{\r}
+Dialogue: 0,1:34:42.54,1:34:44.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}装弹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Reload!{\r}
+Dialogue: 0,1:34:49.57,1:34:51.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我瞄不到{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I can't aim.{\r}
+Dialogue: 0,1:34:51.59,1:34:53.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这么重  找死啊{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}This thing's so heavy! You wanna die!?{\r}
+Dialogue: 0,1:34:54.51,1:34:56.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}引信一碰 都得死{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Trigger that fuse and it'll kill us all!{\r}
+Dialogue: 0,1:35:12.54,1:35:14.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开炮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fire!{\r}
+Dialogue: 0,1:35:58.56,1:36:00.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哦 好极了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Oh, check it.{\r}
+Dialogue: 0,1:36:03.59,1:36:05.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}下三杠{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Three clicks down.{\r}
+Dialogue: 0,1:36:13.51,1:36:15.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}发炮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fire!{\r}
+Dialogue: 0,1:36:58.53,1:37:00.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}他们找到老库房了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}They found the bunker!{\r}
+Dialogue: 0,1:37:03.56,1:37:05.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}目标 左摇{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I got it! I got it! To the left.{\r}
+Dialogue: 0,1:37:05.58,1:37:07.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}收到  装弹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Copy that. Reload!{\r}
+Dialogue: 0,1:37:07.61,1:37:09.61,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没弹了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}We're out!{\r}
+Dialogue: 0,1:37:19.53,1:37:21.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}抓稳了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hang on!{\r}
+Dialogue: 0,1:37:28.55,1:37:30.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开炮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fire!{\r}
+Dialogue: 0,1:38:25.58,1:38:27.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}狗娘养的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Son of a bitch!{\r}
+Dialogue: 0,1:38:47.50,1:38:50.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的 坦克启动{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck! Move this fucking thing.{\r}
+Dialogue: 0,1:39:05.53,1:39:07.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Come on! Come on!{\r}
+Dialogue: 0,1:39:10.55,1:39:12.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}好{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Good, good, good.{\r}
+Dialogue: 0,1:39:43.57,1:39:45.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Fuck!{\r}
+Dialogue: 0,1:39:48.50,1:39:51.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}看来中国人没有我想的那么懦弱{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I guess the Chinese military ain't as lame as I thought.{\r}
+Dialogue: 0,1:39:51.52,1:39:53.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你少废话{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Cut the crap.{\r}
+Dialogue: 0,1:40:00.55,1:40:02.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:40:02.57,1:40:04.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Go!{\r}
+Dialogue: 0,1:40:29.59,1:40:31.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}快走{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hurry!{\r}
+Dialogue: 0,1:43:49.52,1:43:51.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不要出来{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Don't come out!{\r}
+Dialogue: 0,1:43:56.54,1:43:58.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}立即搜索信号 确定目标位置{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Track the signals and verify targets positions!{\r}
+Dialogue: 0,1:44:24.57,1:44:26.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}干爹{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Godfather!{\r}
+Dialogue: 0,1:44:26.59,1:44:30.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}妈妈{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Mom!{\r}
+Dialogue: 0,1:45:17.51,1:45:20.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}报告 手机位置锁定  报告 目标锁定{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, we have triangulated on the phone's position! Sir, targets locked on!{\r}
+Dialogue: 0,1:45:56.54,1:45:59.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}报告 我们得到上级命令  开火{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, we recieved orders from COMMAND! Fire!{\r}
+Dialogue: 0,1:48:14.56,1:48:16.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}现在是私人账{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Now it's personal.{\r}
+Dialogue: 0,1:48:20.59,1:48:22.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}龙小云{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Long XiaoYun.{\r}
+Dialogue: 0,1:48:29.51,1:48:31.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那是你女人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Is that your girl?{\r}
+Dialogue: 0,1:48:32.53,1:48:34.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}长得很漂亮{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}She's pretty.{\r}
+Dialogue: 0,1:48:34.56,1:48:36.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}血债… 血偿{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Blood... for blood.{\r}
+Dialogue: 0,1:50:32.58,1:50:34.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}别打了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Please don't fight!{\r}
+Dialogue: 0,1:50:38.51,1:50:40.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你看她们{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Look at them.{\r}
+Dialogue: 0,1:50:42.53,1:50:45.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}没错 你将会为这些人而死{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}You're gonna die for this people.{\r}
+Dialogue: 0,1:50:51.55,1:50:54.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我就是为他们而生的{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I was born for them.{\r}
+Dialogue: 0,1:50:58.58,1:51:02.58,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}这个世界只有强者和弱者 你们这种劣等民族永远属于弱者{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}People like you will always be inferior to people like me{\r}
+Dialogue: 0,1:51:02.60,1:51:05.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你要习惯 你必须习惯{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Get used to it. Get fucking used to it.{\r}
+Dialogue: 0,1:51:43.53,1:51:45.53,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}那他妈是以前{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}That's fucking history.{\r}
+Dialogue: 0,1:52:26.55,1:52:28.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}你醒了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Welcome back.{\r}
+Dialogue: 0,1:53:25.57,1:53:28.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}前方是交战区 我们过不去了{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}The war zone is up ahead. We can't get through.{\r}
+Dialogue: 0,1:53:53.50,1:53:57.50,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}三点方向有不明车队{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}UNidentified vehicle convoy at three o'clock.{\r}
+Dialogue: 0,1:54:06.52,1:54:08.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}哥{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Brother,{\r}
+Dialogue: 0,1:54:08.55,1:54:10.55,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}把国旗给我{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}pass me the flag.{\r}
+Dialogue: 0,1:54:38.57,1:54:40.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}开车{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Drive.{\r}
+Dialogue: 0,1:55:00.59,1:55:02.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是中国人 停止射击{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}It's the Chinese. Hold your fire.{\r}
+Dialogue: 0,1:55:05.52,1:55:10.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}停止射击 是中国人{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Hold your fire! It's Chinese.{\r}
+Dialogue: 0,1:57:54.57,1:57:56.57,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}冷锋{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Leng Feng.{\r}
+Dialogue: 0,1:57:59.59,1:58:01.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}首长好  小日子过的挺美的呀{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Commander! I see you're enjoying your life.{\r}
+Dialogue: 0,1:58:02.52,1:58:04.52,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}不想回战狼了吧？{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Not planning on rejoining the Wolf Warriors?{\r}
+Dialogue: 0,1:58:04.54,1:58:06.54,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}离开这里最早的航班{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}Sir, the earliest flight out of here,{\r}
+Dialogue: 0,1:58:06.56,1:58:09.56,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}是下星期二 十四点十五分 星期五上午九点{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}departs next Tuesday at 14:15 by Friday 09:00.{\r}
+Dialogue: 0,1:58:09.59,1:58:11.59,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}我准时向您报道{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}I will report for duty sir!{\r}
+Dialogue: 0,1:58:12.51,1:58:14.51,Default,,0000,0000,0000,,{\fs16\bord1\shad1\pos(290,287)\fscx50\b0}有件事我必须告诉你{\r}\N{\fs7\bord1\shad1\pos(290,287)\fscx50\b0}There's something I need to tell you...{\r}
+
+

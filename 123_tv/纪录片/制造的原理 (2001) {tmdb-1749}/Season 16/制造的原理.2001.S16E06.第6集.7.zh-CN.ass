@@ -1,0 +1,658 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Microsoft YaHei,22,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,1,1,3,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:56.83,0:00:58.95,Default,,0000,0000,0000,,把斧头放下! 快点放下\N{\fs13\bord1}Drop the ax!Drop the ax,man.{\r}
+Dialogue: 0,0:00:59.00,0:01:00.65,Default,,0000,0000,0000,,快住手!\N{\fs13\bord1}Don't do this!{\r}
+Dialogue: 0,0:01:01.46,0:01:03.73,Default,,0000,0000,0000,,把斧头放下!\N{\fs13\bord1}Drop the ax now!{\r}
+Dialogue: 0,0:01:04.69,0:01:07.79,Default,,0000,0000,0000,,不许动! 别再往前走! 你听到没有?\N{\fs13\bord1}Freeze!Do not take another step!Do you hear me?{\r}
+Dialogue: 0,0:01:10.21,0:01:11.84,Default,,0000,0000,0000,,趴到地上!\N{\fs13\bord1}Get down on the ground!{\r}
+Dialogue: 0,0:01:11.88,0:01:13.55,Default,,0000,0000,0000,,快点!\N{\fs13\bord1}Do it!{\r}
+Dialogue: 0,0:01:17.96,0:01:19.03,Default,,0000,0000,0000,,放下斧头!\N{\fs13\bord1}Drop the ax,man!{\r}
+Dialogue: 0,0:01:31.82,0:01:34.98,Default,,0000,0000,0000,,警员在他衣服口袋里找到的钥匙 就是这家酒店的\N{\fs13\bord1}Uniform found the key in his pocket.Belongs to this hotel.{\r}
+Dialogue: 0,0:01:35.04,0:01:37.46,Default,,0000,0000,0000,,- 他有说什么吗?   - 没有\N{\fs13\bord1}- He making any statements?   - No.{\r}
+Dialogue: 0,0:01:39.22,0:01:42.10,Default,,0000,0000,0000,,他就是从这里拿的斧头 完全疯了\N{\fs13\bord1}That's where he got the ax.He was completely out of his mind.{\r}
+Dialogue: 0,0:01:42.16,0:01:45.19,Default,,0000,0000,0000,,他们把他装进运尸袋才带回了警局\N{\fs13\bord1}They had to transport him back to the precinct in a body bag.{\r}
+Dialogue: 0,0:01:45.45,0:01:47.09,Default,,0000,0000,0000,,不! 不!\N{\fs13\bord1}No! No!{\r}
+Dialogue: 0,0:01:47.17,0:01:48.11,Default,,0000,0000,0000,,让我出去!\N{\fs13\bord1}Let me out!{\r}
+Dialogue: 0,0:01:48.15,0:01:49.56,Default,,0000,0000,0000,,住手!\N{\fs13\bord1}Stop!{\r}
+Dialogue: 0,0:01:50.53,0:01:52.95,Default,,0000,0000,0000,,- 他身上没有任何伤口?   - 没有\N{\fs13\bord1}- No cuts or wounds?   - None.{\r}
+Dialogue: 0,0:01:53.04,0:01:56.04,Default,,0000,0000,0000,,他身上肯定是别人的血迹\N{\fs13\bord1}He was definitely wearing somebody else's blood.{\r}
+Dialogue: 0,0:02:23.53,0:02:25.28,Default,,0000,0000,0000,,这里到底发生了什么?\N{\fs13\bord1}What the hell happened in here?{\r}
+Dialogue: 0,0:03:04.27,0:03:08.89,Default,,0000,0000,0000,,犯罪现场调查 纽约篇 第六季 第16集 Uncertainty Rules\N{\fs13\bord1}CSI:ny Season6 Episode 16{\r}
+Dialogue: 0,0:04:13.29,0:04:14.61,Default,,0000,0000,0000,,小丑?!\N{\fs13\bord1}Clowns?!{\r}
+Dialogue: 0,0:04:15.38,0:04:17.87,Default,,0000,0000,0000,,你和小丑一起去的?\N{\fs13\bord1}That's what you're going with-- clowns?{\r}
+Dialogue: 0,0:04:17.93,0:04:20.12,Default,,0000,0000,0000,,这就是你的正式说法?\N{\fs13\bord1}That's your official story?{\r}
+Dialogue: 0,0:04:21.78,0:04:23.76,Default,,0000,0000,0000,,他们想杀我\N{\fs13\bord1}They were trying to kill me.{\r}
+Dialogue: 0,0:04:23.82,0:04:27.72,Default,,0000,0000,0000,,你是说 他们是那种 "兼职作杀人犯"的小丑\N{\fs13\bord1}Oh,so they're the "homicidal on the inside" kind of clowns.{\r}
+Dialogue: 0,0:04:27.75,0:04:33.85,Default,,0000,0000,0000,,你先等等 让我先发全境通缉令 找两2个粉红卷发 大红鼻子的人!\N{\fs13\bord1}Well,hang on a second,while I put out an APB for two guys with frizzy pink hair and big red noses!{\r}
+Dialogue: 0,0:04:51.41,0:04:54.81,Default,,0000,0000,0000,,他们把枪塞进我嘴里\N{\fs13\bord1}They stuck a gun in my mouth.{\r}
+Dialogue: 0,0:05:04.78,0:05:07.10,Default,,0000,0000,0000,,张开嘴\N{\fs13\bord1}Open your mouth.{\r}
+Dialogue: 0,0:05:08.71,0:05:09.82,Default,,0000,0000,0000,,快点!\N{\fs13\bord1}Do it!{\r}
+Dialogue: 0,0:05:09.91,0:05:12.33,Default,,0000,0000,0000,,张开嘴!\N{\fs13\bord1}Open your mouth!{\r}
+Dialogue: 0,0:05:12.44,0:05:14.14,Default,,0000,0000,0000,,张嘴!\N{\fs13\bord1}Open it!{\r}
+Dialogue: 0,0:05:18.82,0:05:20.31,Default,,0000,0000,0000,,这支枪?\N{\fs13\bord1}This gun?{\r}
+Dialogue: 0,0:05:20.52,0:05:23.94,Default,,0000,0000,0000,,这支枪吗 James? 这是一支装满了龙舌兰酒的水枪\N{\fs13\bord1}This gun,James?This is a water gun filled with tequila.{\r}
+Dialogue: 0,0:05:24.06,0:05:27.14,Default,,0000,0000,0000,,- 这你又有何解释?   - 我不知道...\N{\fs13\bord1}- Now what do you have to say about that?   - I don't know...{\r}
+Dialogue: 0,0:05:27.20,0:05:28.85,Default,,0000,0000,0000,,你不知道\N{\fs13\bord1}You don't know.{\r}
+Dialogue: 0,0:05:29.07,0:05:30.85,Default,,0000,0000,0000,,之后的事情我都不记得了\N{\fs13\bord1}That's the last thing that I remember.{\r}
+Dialogue: 0,0:05:30.88,0:05:33.05,Default,,0000,0000,0000,,James 你嗑什么药了? 吃了什么药?\N{\fs13\bord1}What drugs are you on,James?What'd you take?{\r}
+Dialogue: 0,0:05:33.11,0:05:34.92,Default,,0000,0000,0000,,我没有嗑药\N{\fs13\bord1}I didn't take anything.{\r}
+Dialogue: 0,0:05:34.96,0:05:37.20,Default,,0000,0000,0000,,好了 够了 你说谎也该说够了吧!\N{\fs13\bord1}All right,enough,enough with the lying.Enough!{\r}
+Dialogue: 0,0:05:39.08,0:05:41.55,Default,,0000,0000,0000,,我们手上有你的驾照 James\N{\fs13\bord1}We have your driver's license,James.{\r}
+Dialogue: 0,0:05:41.60,0:05:45.95,Default,,0000,0000,0000,,我们知道你在酒店和朋友们 一起庆祝21岁生日\N{\fs13\bord1}We know that you were up there celebrating your 21st birthday with your friends.{\r}
+Dialogue: 0,0:05:46.12,0:05:49.61,Default,,0000,0000,0000,,事情变得不可收拾 然后呢?\N{\fs13\bord1}Things got out of control,and so what happened?{\r}
+Dialogue: 0,0:05:49.77,0:05:55.44,Default,,0000,0000,0000,,我想起来了... 我只记得...\N{\fs13\bord1}I remember... I remember...{\r}
+Dialogue: 0,0:05:55.68,0:05:57.93,Default,,0000,0000,0000,,我在水下\N{\fs13\bord1}I was underwater.{\r}
+Dialogue: 0,0:05:58.87,0:06:01.95,Default,,0000,0000,0000,,和海马一起游泳...\N{\fs13\bord1}Swimming with seahorses...{\r}
+Dialogue: 0,0:06:02.05,0:06:08.42,Default,,0000,0000,0000,,还有...还有...海星\N{\fs13\bord1}and... a-and... starfish.{\r}
+Dialogue: 0,0:06:11.15,0:06:16.01,Default,,0000,0000,0000,,Mark 你去问Mark\N{\fs13\bord1}Mark.Ask Mark.{\r}
+Dialogue: 0,0:06:16.52,0:06:18.37,Default,,0000,0000,0000,,Mark死了\N{\fs13\bord1}Mark's dead.{\r}
+Dialogue: 0,0:06:19.86,0:06:21.23,Default,,0000,0000,0000,,他们都死了 James\N{\fs13\bord1}They're all dead,James.{\r}
+Dialogue: 0,0:06:21.30,0:06:23.64,Default,,0000,0000,0000,,你把他们都砍死了\N{\fs13\bord1}You hacked your friends to death.{\r}
+Dialogue: 0,0:06:25.28,0:06:27.84,Default,,0000,0000,0000,,快点说说你的动机\N{\fs13\bord1}Now tell me why.{\r}
+Dialogue: 0,0:06:31.03,0:06:33.45,Default,,0000,0000,0000,,我觉得很冷\N{\fs13\bord1}I'm cold.{\r}
+Dialogue: 0,0:06:33.53,0:06:35.79,Default,,0000,0000,0000,,这里真得很冷\N{\fs13\bord1}It's really cold in here.{\r}
+Dialogue: 0,0:06:36.88,0:06:39.28,Default,,0000,0000,0000,,我想要...我想要回家\N{\fs13\bord1}I wanna... I wanna go home.{\r}
+Dialogue: 0,0:06:39.34,0:06:41.74,Default,,0000,0000,0000,,我能回家了吗?\N{\fs13\bord1}Can I go home now?{\r}
+Dialogue: 0,0:06:47.15,0:06:49.12,Default,,0000,0000,0000,,他肯定嗑药了\N{\fs13\bord1}He's clearly on something.{\r}
+Dialogue: 0,0:06:49.95,0:06:53.29,Default,,0000,0000,0000,,瞳孔放大 出汗 发冷\N{\fs13\bord1}Dilated pupils,cold sweats,tremors.{\r}
+Dialogue: 0,0:06:53.35,0:06:56.82,Default,,0000,0000,0000,,很可能是LSD(麦角二乙酰胺) 或其他精神类药物\N{\fs13\bord1}Most likely LSD or some other psychotropic drug.{\r}
+Dialogue: 0,0:06:56.93,0:07:01.77,Default,,0000,0000,0000,,这就是他对车挥斧头 对警员命令置之不理的原因\N{\fs13\bord1}Explains why he was  swinging  the ax at cars and didn't respond  to the officers on the street.{\r}
+Dialogue: 0,0:07:01.86,0:07:03.43,Default,,0000,0000,0000,,他那会正活在幻觉里\N{\fs13\bord1}He was hallucinating.{\r}
+Dialogue: 0,0:07:03.49,0:07:05.76,Default,,0000,0000,0000,,放下斧头!\N{\fs13\bord1}Drop the ax!{\r}
+Dialogue: 0,0:07:15.14,0:07:19.37,Default,,0000,0000,0000,,根据剂量的不同 影响可能持续 6到12小时\N{\fs13\bord1}Depending on the dose,the effects could last anywhere between six and 12 hours.{\r}
+Dialogue: 0,0:07:19.44,0:07:23.38,Default,,0000,0000,0000,,期间会有短暂清醒 但可能会在 幻觉和清醒间多次反复\N{\fs13\bord1}He has moments of lucidity,but he could go in and out of hallucinations during that time.{\r}
+Dialogue: 0,0:07:24.60,0:07:26.07,Default,,0000,0000,0000,,来看看\N{\fs13\bord1}Let's see.{\r}
+Dialogue: 0,0:07:26.59,0:07:31.67,Default,,0000,0000,0000,,他是切尔西大学物理专业的 还是曼哈顿物理俱乐部会员\N{\fs13\bord1}He's a physics major at Chelsea University and a member of the Manhattan Physics Club.{\r}
+Dialogue: 0,0:07:32.22,0:07:35.01,Default,,0000,0000,0000,,- 不应该是混混啊   - 很奇怪\N{\fs13\bord1}- Kid's no dummy.   - Strange.{\r}
+Dialogue: 0,0:07:35.33,0:07:38.74,Default,,0000,0000,0000,,这样的孩子 没犯罪记录 干净得像张白纸\N{\fs13\bord1}A kid like this,no record,clean as a whistle.{\r}
+Dialogue: 0,0:07:41.84,0:07:43.24,Default,,0000,0000,0000,,James的手机?\N{\fs13\bord1}James's phone?{\r}
+Dialogue: 0,0:07:43.31,0:07:45.02,Default,,0000,0000,0000,,对\N{\fs13\bord1}Yeah.{\r}
+Dialogue: 0,0:07:45.52,0:07:48.21,Default,,0000,0000,0000,,有Sara打过来的11个未接来电\N{\fs13\bord1}Got 11 missed calls from a Sara.{\r}
+Dialogue: 0,0:07:48.27,0:07:49.50,Default,,0000,0000,0000,,女朋友?\N{\fs13\bord1}Girlfriend?{\r}
+Dialogue: 0,0:07:49.55,0:07:52.00,Default,,0000,0000,0000,,还有一个他妈妈打来的\N{\fs13\bord1}And one call from his mother.{\r}
+Dialogue: 0,0:07:53.07,0:07:57.08,Default,,0000,0000,0000,,James 是爸爸和妈妈 生日快乐! 希望你过得愉快\N{\fs13\bord1}James,it's your dad and I.Happy birthday!I hope you're having fun.{\r}
+Dialogue: 0,0:07:57.16,0:07:58.98,Default,,0000,0000,0000,,生日快乐 孩子\N{\fs13\bord1}Happy birthday,son.{\r}
+Dialogue: 0,0:07:59.07,0:08:01.64,Default,,0000,0000,0000,,别看书了 出去喝一杯\N{\fs13\bord1}Put the books down.Go out and have a drink.{\r}
+Dialogue: 0,0:08:01.78,0:08:03.80,Default,,0000,0000,0000,,出去不醉不归\N{\fs13\bord1}Got out and have ten drinks.{\r}
+Dialogue: 0,0:08:03.88,0:08:05.18,Default,,0000,0000,0000,,别教坏他!\N{\fs13\bord1}Don't tell him that!{\r}
+Dialogue: 0,0:08:05.22,0:08:07.11,Default,,0000,0000,0000,,亲爱的 别喝太多了\N{\fs13\bord1}Don't have ten drinks,sweetheart.{\r}
+Dialogue: 0,0:08:07.15,0:08:10.10,Default,,0000,0000,0000,,我们周五回家 爱你\N{\fs13\bord1}We'll be home Friday.We love you so much.{\r}
+Dialogue: 0,0:08:10.13,0:08:12.22,Default,,0000,0000,0000,,帮我们跟Sara问好\N{\fs13\bord1}And say hello to Sara for us.{\r}
+Dialogue: 0,0:08:12.33,0:08:14.36,Default,,0000,0000,0000,,生日快乐 儿子\N{\fs13\bord1}Happy birthday,son.{\r}
+Dialogue: 0,0:08:15.83,0:08:18.10,Default,,0000,0000,0000,,生日快乐 James\N{\fs13\bord1}Happy birthday,James.{\r}
+Dialogue: 0,0:08:44.47,0:08:45.93,Default,,0000,0000,0000,,怎么样?\N{\fs13\bord1}What's up?{\r}
+Dialogue: 0,0:08:46.34,0:08:48.07,Default,,0000,0000,0000,,她是第一个\N{\fs13\bord1}She was first.{\r}
+Dialogue: 0,0:08:49.01,0:08:52.68,Default,,0000,0000,0000,,伤口的角度说明斧子从高处砍下\N{\fs13\bord1}Angle of the wound suggests the ax came down from above.{\r}
+Dialogue: 0,0:08:53.22,0:08:54.71,Default,,0000,0000,0000,,但是天花板很干净\N{\fs13\bord1}But it was clean.{\r}
+Dialogue: 0,0:08:54.77,0:08:58.52,Default,,0000,0000,0000,,就是说 如果别人先死 天花板上会溅有血迹\N{\fs13\bord1}So if one of the others were first,there would be a castoff pattern on the ceiling.{\r}
+Dialogue: 0,0:09:01.75,0:09:02.97,Default,,0000,0000,0000,,但说不好第二个是谁\N{\fs13\bord1}It's hard to say who was next.{\r}
+Dialogue: 0,0:09:03.04,0:09:08.95,Default,,0000,0000,0000,,这个人的手 在另一个人的腿上\N{\fs13\bord1}Well,this guy's hand... is on top of the other guy's leg.{\r}
+Dialogue: 0,0:09:09.68,0:09:13.17,Default,,0000,0000,0000,,他先倒下 James从背后砍了很多下\N{\fs13\bord1}So,he goes down,James hits him in the back multiple times,{\r}
+Dialogue: 0,0:09:13.21,0:09:16.82,Default,,0000,0000,0000,,血喷溅到了墙上 还有卫生间门上\N{\fs13\bord1}causing this blood spatter on the wall and the bathroom door.{\r}
+Dialogue: 0,0:09:20.48,0:09:22.71,Default,,0000,0000,0000,,然后是这个人 手臂在上面\N{\fs13\bord1}And this guy gets hit; his arm falls on top.{\r}
+Dialogue: 0,0:09:22.76,0:09:24.87,Default,,0000,0000,0000,,好了 那这就是第二和第三个\N{\fs13\bord1}All right,so,two,three.{\r}
+Dialogue: 0,0:09:24.91,0:09:29.28,Default,,0000,0000,0000,,猜测而已 说不好她可能是第二个\N{\fs13\bord1}Maybe.There's nothing to rule out her as number two.{\r}
+Dialogue: 0,0:09:29.34,0:09:31.28,Default,,0000,0000,0000,,- 没错   - 那就是 第三和第四了\N{\fs13\bord1}- Right.   - So,three,four.{\r}
+Dialogue: 0,0:09:33.65,0:09:35.56,Default,,0000,0000,0000,,水平的伤口\N{\fs13\bord1}Horizontal wound.{\r}
+Dialogue: 0,0:09:35.66,0:09:38.08,Default,,0000,0000,0000,,斧子从后方直直砍过来\N{\fs13\bord1}The ax came straight back.{\r}
+Dialogue: 0,0:09:39.47,0:09:42.51,Default,,0000,0000,0000,,没错 然后导致了墙上的血迹\N{\fs13\bord1}Right,and boom,causing that castoff pattern on the wall.{\r}
+Dialogue: 0,0:09:43.05,0:09:46.20,Default,,0000,0000,0000,,血迹中间有一片空白\N{\fs13\bord1}There's a break in the pattern-- a void.{\r}
+Dialogue: 0,0:09:52.68,0:09:55.16,Default,,0000,0000,0000,,那么她被杀前是谁站在这里?\N{\fs13\bord1}So who was standing here when she was killed?{\r}
+Dialogue: 0,0:09:55.25,0:09:58.25,Default,,0000,0000,0000,,任何一个死者的衣服上 都没有溅上血迹\N{\fs13\bord1}There's no castoff pattern on the shirts of any of our vics.{\r}
+Dialogue: 0,0:09:58.31,0:10:00.60,Default,,0000,0000,0000,,肯定另有其人\N{\fs13\bord1}Someone else was right here.{\r}
+Dialogue: 0,0:10:12.52,0:10:14.66,Default,,0000,0000,0000,,这太疯狂了!\N{\fs13\bord1}This is crazy!{\r}
+Dialogue: 0,0:10:14.89,0:10:17.07,Default,,0000,0000,0000,,James这辈子从没有嗑过药\N{\fs13\bord1}James never did a drug in his life.{\r}
+Dialogue: 0,0:10:17.14,0:10:19.08,Default,,0000,0000,0000,,我们叫你过来就是想了解情况 Sara\N{\fs13\bord1}Well,that's why we asked you to come down here,Sara.{\r}
+Dialogue: 0,0:10:19.13,0:10:20.82,Default,,0000,0000,0000,,也许你知道什么关键线索?\N{\fs13\bord1}Maybe fill in some of the blanks?{\r}
+Dialogue: 0,0:10:20.86,0:10:22.62,Default,,0000,0000,0000,,这根本说不通\N{\fs13\bord1}None of this makes any sense.{\r}
+Dialogue: 0,0:10:23.14,0:10:28.24,Default,,0000,0000,0000,,Mark Turner和Daniel Vaughn 是其中两个死者 你认识他们吗?\N{\fs13\bord1}Two of the victims were Mark Turner and Daniel Vaughn.You know them?{\r}
+Dialogue: 0,0:10:28.85,0:10:31.64,Default,,0000,0000,0000,,认识 是他最好的朋友\N{\fs13\bord1}Yes,they're his best friends.{\r}
+Dialogue: 0,0:10:35.80,0:10:37.28,Default,,0000,0000,0000,,那她们呢?\N{\fs13\bord1}How about them?{\r}
+Dialogue: 0,0:10:37.34,0:10:39.59,Default,,0000,0000,0000,,你认识这两个女孩吗?\N{\fs13\bord1}Do you know who these girls are?{\r}
+Dialogue: 0,0:10:42.47,0:10:43.89,Default,,0000,0000,0000,,不认识?\N{\fs13\bord1}No.?{\r}
+Dialogue: 0,0:10:43.99,0:10:46.11,Default,,0000,0000,0000,,她们和你还有James不是同学\N{\fs13\bord1}They didn't go to school with you and James{\r}
+Dialogue: 0,0:10:46.53,0:10:48.37,Default,,0000,0000,0000,,应该不是\N{\fs13\bord1}I don't think so.{\r}
+Dialogue: 0,0:10:48.59,0:10:50.91,Default,,0000,0000,0000,,你知道James昨晚出去玩了吗?\N{\fs13\bord1}Did you know James was going out last night?{\r}
+Dialogue: 0,0:10:51.15,0:10:52.60,Default,,0000,0000,0000,,知道\N{\fs13\bord1}Yeah.{\r}
+Dialogue: 0,0:10:53.79,0:10:55.79,Default,,0000,0000,0000,,Mark和Daniel筹备的\N{\fs13\bord1}Mark and Daniel set it up.{\r}
+Dialogue: 0,0:10:56.29,0:10:59.22,Default,,0000,0000,0000,,那是他21岁生日 你没打算去吗?\N{\fs13\bord1}It was his 21st birthday.You weren't supposed to be with him?{\r}
+Dialogue: 0,0:10:59.32,0:11:02.25,Default,,0000,0000,0000,,James从来不在乎生日\N{\fs13\bord1}James never made a big deal out of his birthday.{\r}
+Dialogue: 0,0:11:02.91,0:11:05.40,Default,,0000,0000,0000,,去年 他是在图书馆过的\N{\fs13\bord1}Last year,he spent it in a library.{\r}
+Dialogue: 0,0:11:05.48,0:11:08.90,Default,,0000,0000,0000,,他说他算是...和爱因斯坦一起庆祝了\N{\fs13\bord1}Said he was... celebrating with Einstein.{\r}
+Dialogue: 0,0:11:08.95,0:11:12.63,Default,,0000,0000,0000,,- James是个科学怪人?   - 对\N{\fs13\bord1}- James is a science buff,huh?   - Yeah.{\r}
+Dialogue: 0,0:11:13.39,0:11:15.25,Default,,0000,0000,0000,,我能理解\N{\fs13\bord1}I can relate.{\r}
+Dialogue: 0,0:11:16.32,0:11:18.51,Default,,0000,0000,0000,,我本来想给他办个派对的\N{\fs13\bord1}I was gonna throw a party for him.{\r}
+Dialogue: 0,0:11:18.60,0:11:20.94,Default,,0000,0000,0000,,但是他让我保证不会\N{\fs13\bord1}He made me promise not to.{\r}
+Dialogue: 0,0:11:21.90,0:11:25.39,Default,,0000,0000,0000,,Mark和Daniel说他们才不理他的拒绝呢\N{\fs13\bord1}Mark and Daniel said they weren't taking no for an answer.{\r}
+Dialogue: 0,0:11:25.72,0:11:29.50,Default,,0000,0000,0000,,James...他不是那种爱玩闹的男生\N{\fs13\bord1}James... he isn't a party guy.{\r}
+Dialogue: 0,0:11:30.08,0:11:32.12,Default,,0000,0000,0000,,他...他是那种派对上的"墙花"?\N{\fs13\bord1}He... He's kind of a wallflower,you know?{\r}
+Dialogue: 0,0:11:32.17,0:11:35.24,Default,,0000,0000,0000,,就坐着看大家玩得开心就好了\N{\fs13\bord1}He just sits back and watches everyone else have fun.{\r}
+Dialogue: 0,0:11:37.15,0:11:38.85,Default,,0000,0000,0000,,不过我不在乎\N{\fs13\bord1}I don't care,though.{\r}
+Dialogue: 0,0:11:38.92,0:11:43.17,Default,,0000,0000,0000,,我爱他就是因为他不是那种 加入兄弟会的男生 你明白吗?\N{\fs13\bord1}I-I love that he's not one of those fraternity-type guys,you know?{\r}
+Dialogue: 0,0:11:43.60,0:11:45.55,Default,,0000,0000,0000,,不 不 放开我!\N{\fs13\bord1}No. No,get away from me!{\r}
+Dialogue: 0,0:11:45.69,0:11:48.01,Default,,0000,0000,0000,,- 放开我!   - 等一下 冷静一点\N{\fs13\bord1}- Get away!   - Wait. Calm down.{\r}
+Dialogue: 0,0:11:48.10,0:11:50.06,Default,,0000,0000,0000,,他会怎么样?\N{\fs13\bord1}What's gonna happen to him?{\r}
+Dialogue: 0,0:11:50.59,0:11:53.52,Default,,0000,0000,0000,,我也不知道 Sara\N{\fs13\bord1}I wish I had a good answer for that,Sara.{\r}
+Dialogue: 0,0:11:57.40,0:11:59.16,Default,,0000,0000,0000,,那么说他说的是事实\N{\fs13\bord1}So he was telling the truth.{\r}
+Dialogue: 0,0:11:59.20,0:12:00.56,Default,,0000,0000,0000,,他被两个小丑绑架了\N{\fs13\bord1}He was kidnapped by two clowns.{\r}
+Dialogue: 0,0:12:00.62,0:12:03.80,Default,,0000,0000,0000,,在每个面具里各找到一根头发 属于两个男死者\N{\fs13\bord1}Found a hair in each of the masks,and they came back  to the two male vics.{\r}
+Dialogue: 0,0:12:04.39,0:12:06.61,Default,,0000,0000,0000,,小丑就是他的朋友\N{\fs13\bord1}The clowns were his buddies.{\r}
+Dialogue: 0,0:12:18.11,0:12:19.53,Default,,0000,0000,0000,,开什么玩笑?\N{\fs13\bord1}Are you serious?{\r}
+Dialogue: 0,0:12:19.61,0:12:20.71,Default,,0000,0000,0000,,这一点都不好玩 伙计们\N{\fs13\bord1}Not funny,guys.{\r}
+Dialogue: 0,0:12:20.80,0:12:22.07,Default,,0000,0000,0000,,生日快乐 伙计\N{\fs13\bord1}Happy birthday,man.{\r}
+Dialogue: 0,0:12:22.11,0:12:23.69,Default,,0000,0000,0000,,生日快乐 兄弟\N{\fs13\bord1}Happy birthday,bro.{\r}
+Dialogue: 0,0:12:24.06,0:12:25.83,Default,,0000,0000,0000,,我以为那是他的幻觉\N{\fs13\bord1}I thought he was hallucinating.{\r}
+Dialogue: 0,0:12:25.91,0:12:27.56,Default,,0000,0000,0000,,那之后发生了什么呢?\N{\fs13\bord1}So what happened after the jig was up?{\r}
+Dialogue: 0,0:12:27.64,0:12:29.51,Default,,0000,0000,0000,,不知道 要说猜谜水平 我们差不多\N{\fs13\bord1}I don't know.Your guess is as good as mine,brother.{\r}
+Dialogue: 0,0:12:37.72,0:12:39.11,Default,,0000,0000,0000,,嘿 医生\N{\fs13\bord1}Hey,Doc.{\r}
+Dialogue: 0,0:12:39.20,0:12:42.72,Default,,0000,0000,0000,,Sid取了死者指纹 查到了女死者身份\N{\fs13\bord1}So Sid printed the vics.Got an I.D. on our two girls.{\r}
+Dialogue: 0,0:12:42.80,0:12:45.40,Default,,0000,0000,0000,,分别是Jackie Wright和Lacey Deshane\N{\fs13\bord1}Names are Jackie Wright and Lacey Deshane.{\r}
+Dialogue: 0,0:12:45.42,0:12:47.41,Default,,0000,0000,0000,,之前都有非法持有毒品的前科\N{\fs13\bord1}Both have priors for drug possession.{\r}
+Dialogue: 0,0:12:47.44,0:12:48.84,Default,,0000,0000,0000,,她们和嫌疑人是同学?\N{\fs13\bord1}They go to school with our suspect?{\r}
+Dialogue: 0,0:12:48.90,0:12:51.11,Default,,0000,0000,0000,,不是 我看她们不像是上学的料\N{\fs13\bord1}Nah,I don't think they seem like the school type.{\r}
+Dialogue: 0,0:12:51.20,0:12:54.91,Default,,0000,0000,0000,,她们更像是出入曼哈顿拘留所的类型\N{\fs13\bord1}The only detention they've seen is probably Manhattan's House of Detention.{\r}
+Dialogue: 0,0:12:54.97,0:12:57.96,Default,,0000,0000,0000,,毒物检测也证实两个男性死者 服用的就是LSD\N{\fs13\bord1}Tox also confirmed LSD in our two male vics.{\r}
+Dialogue: 0,0:12:58.01,0:12:59.76,Default,,0000,0000,0000,,但是女死者不是\N{\fs13\bord1}But not the girls.{\r}
+Dialogue: 0,0:12:59.81,0:13:01.71,Default,,0000,0000,0000,,看来他们派对开得够奔放的\N{\fs13\bord1}So they were partying pretty hard.{\r}
+Dialogue: 0,0:13:01.75,0:13:05.77,Default,,0000,0000,0000,,我听过很多派对玩出火的 但这孩子也玩得太过了吧\N{\fs13\bord1}I've heard of people having a bad trip,but something set this kid off.{\r}
+Dialogue: 0,0:13:05.80,0:13:07.30,Default,,0000,0000,0000,,是的 或者过火的是他的同伙\N{\fs13\bord1}Yeah. Or his accomplice.{\r}
+Dialogue: 0,0:13:07.32,0:13:10.86,Default,,0000,0000,0000,,你能想到是什么造成 墙上血迹中的空白吗?\N{\fs13\bord1}You have any theories on who created the void in the wall?{\r}
+Dialogue: 0,0:13:11.06,0:13:13.59,Default,,0000,0000,0000,,不知道 我把血样送去化验DNA了\N{\fs13\bord1}Nothing.I sent blood swatches to DNA.{\r}
+Dialogue: 0,0:13:14.02,0:13:17.40,Default,,0000,0000,0000,,Mark上衣上有不明污迹 还有...\N{\fs13\bord1}Unknown stain on Mark's shirt,and...{\r}
+Dialogue: 0,0:13:17.47,0:13:21.38,Default,,0000,0000,0000,,James的牛仔裤上有不少的洗发水\N{\fs13\bord1}trace amounts of shampoo on James' jeans.{\r}
+Dialogue: 0,0:13:21.41,0:13:22.62,Default,,0000,0000,0000,,洗发水\N{\fs13\bord1}Shampoo.{\r}
+Dialogue: 0,0:13:22.66,0:13:26.16,Default,,0000,0000,0000,,现在就等药效过去 他交代谁是同伙了\N{\fs13\bord1}Now,this guy needs to come down off the LSD and give up the other person in the room.{\r}
+Dialogue: 0,0:13:26.24,0:13:27.50,Default,,0000,0000,0000,,这个也许有所帮助\N{\fs13\bord1}This might tell us.{\r}
+Dialogue: 0,0:13:27.54,0:13:31.11,Default,,0000,0000,0000,,这是James的上衣--警员在酒店 楼梯间发现的\N{\fs13\bord1}This is James' shirt-- unis found it on the stairwell at the hotel.{\r}
+Dialogue: 0,0:13:31.76,0:13:33.23,Default,,0000,0000,0000,,不错啊\N{\fs13\bord1}Nice.{\r}
+Dialogue: 0,0:13:35.80,0:13:38.38,Default,,0000,0000,0000,,看到了吗? 这里没有同样模式的血迹\N{\fs13\bord1}You see?No corresponding castoff patterns across here.{\r}
+Dialogue: 0,0:13:38.43,0:13:40.80,Default,,0000,0000,0000,,对 那么不是他造成的那片空白\N{\fs13\bord1}Yeah,so he didn't  create the void.{\r}
+Dialogue: 0,0:13:41.01,0:13:43.18,Default,,0000,0000,0000,,那就说明James是拿斧头的人\N{\fs13\bord1}It would confirm that James was holding the ax.{\r}
+Dialogue: 0,0:13:43.23,0:13:47.67,Default,,0000,0000,0000,,没错 但在他上衣和牛仔裤上 都看不到中速喷溅的血迹\N{\fs13\bord1}Yeah,but I don't see any medium-velocity blood spatter-- not on his shirt or  his jeans.{\r}
+Dialogue: 0,0:13:47.83,0:13:49.70,Default,,0000,0000,0000,,这些可是近距离的砍伤\N{\fs13\bord1}And these are close-contact ax wounds.{\r}
+Dialogue: 0,0:13:49.75,0:13:53.22,Default,,0000,0000,0000,,如果James就是凶手 身上应该有相应的血迹\N{\fs13\bord1}If James were the killer,there would be some  blood spatter evidence on him.{\r}
+Dialogue: 0,0:13:53.27,0:13:56.55,Default,,0000,0000,0000,,那么造成血迹空白的不是他 砍人的也不是他\N{\fs13\bord1}So he didn't create the void,and he wasn't swinging that ax.{\r}
+Dialogue: 0,0:13:56.58,0:13:59.39,Default,,0000,0000,0000,,那他的朋友被屠杀时 他在那里做什么?\N{\fs13\bord1}What the hell was he doing when his friends were being massacred?{\r}
+Dialogue: 0,0:14:00.37,0:14:02.76,Default,,0000,0000,0000,,噢 你不会真做了吧\N{\fs13\bord1}Oh,no,you didn't.{\r}
+Dialogue: 0,0:14:02.89,0:14:05.01,Default,,0000,0000,0000,,噢 我还真做了\N{\fs13\bord1}Oh,yes,I did.{\r}
+Dialogue: 0,0:14:05.54,0:14:07.18,Default,,0000,0000,0000,,嘿 Adam\N{\fs13\bord1}Hey,Adam.{\r}
+Dialogue: 0,0:14:07.28,0:14:08.46,Default,,0000,0000,0000,,你有什么进展?\N{\fs13\bord1}How far have you got?{\r}
+Dialogue: 0,0:14:08.51,0:14:13.29,Default,,0000,0000,0000,,我根据现场照片和DNA结果 有了初步的事件模拟\N{\fs13\bord1}Uh,well,I have a prelim sequence of events based on the crime scene photos and DNA results.{\r}
+Dialogue: 0,0:14:13.32,0:14:14.83,Default,,0000,0000,0000,,放一下\N{\fs13\bord1}Run it.{\r}
+Dialogue: 0,0:14:14.93,0:14:16.08,Default,,0000,0000,0000,,好\N{\fs13\bord1}Okay.{\r}
+Dialogue: 0,0:14:16.14,0:14:19.08,Default,,0000,0000,0000,,那么Jackie Wright是首位遇害者\N{\fs13\bord1}Okay. So,we know Jackie Wright was our first vic.{\r}
+Dialogue: 0,0:14:19.18,0:14:22.75,Default,,0000,0000,0000,,受伤的角度 天花板上没有溅上的血迹\N{\fs13\bord1}Angle of the wound and no castoff pattern on the ceiling.{\r}
+Dialogue: 0,0:14:23.46,0:14:25.07,Default,,0000,0000,0000,,还有...\N{\fs13\bord1}Now...{\r}
+Dialogue: 0,0:14:25.82,0:14:30.04,Default,,0000,0000,0000,,Mark Turner不是想冲向凶手 就是想要跑到门边\N{\fs13\bord1}Mark Turner either tried to bum-rush the killer or make a run for the door,{\r}
+Dialogue: 0,0:14:30.08,0:14:33.55,Default,,0000,0000,0000,,但他背部中了一斧 倒地 凶手又朝他砍了几斧\N{\fs13\bord1}but he took a shot in the back,went down and the killer hit him a couple more times.{\r}
+Dialogue: 0,0:14:33.58,0:14:35.92,Default,,0000,0000,0000,,从浴室门上的血迹喷射情况来看\N{\fs13\bord1}Causing the blood spatter on the bathroom door.{\r}
+Dialogue: 0,0:14:36.71,0:14:40.35,Default,,0000,0000,0000,,另一个人 Daniel Vaughn 很可能是想干预\N{\fs13\bord1}Now,the other guy,Daniel Vaughn,probably tried to step in.{\r}
+Dialogue: 0,0:14:40.39,0:14:44.88,Default,,0000,0000,0000,,太不明智了 他胸口中了一下 倒在了Mark的身上\N{\fs13\bord1}Not wise,because he takes a hit to the chest,goes down,landing on top of Mark.{\r}
+Dialogue: 0,0:14:44.95,0:14:47.30,Default,,0000,0000,0000,,你怎能肯定这些人是第二和第三死者?\N{\fs13\bord1}How do you know for sure these guys are number two and three?{\r}
+Dialogue: 0,0:14:47.34,0:14:49.70,Default,,0000,0000,0000,,因为姑娘衬衫上的DNA结果出来了\N{\fs13\bord1}'Cause the DNA results came back from the girl's shirt,{\r}
+Dialogue: 0,0:14:49.75,0:14:52.64,Default,,0000,0000,0000,,那上面有所有3个死者的血迹\N{\fs13\bord1}and there was blood from all three of the other vics on her.{\r}
+Dialogue: 0,0:14:52.69,0:14:56.09,Default,,0000,0000,0000,,所以在她被砍前每个人的血迹 都已在斧上了\N{\fs13\bord1}So everyone's blood was on the ax before she got hit.{\r}
+Dialogue: 0,0:14:56.58,0:15:00.50,Default,,0000,0000,0000,,听着 Danny 你到那里时 浴室门是这么微微开着的吗?\N{\fs13\bord1}Listen,Danny,was the bathroom door slightly open like this when you got there?{\r}
+Dialogue: 0,0:15:00.92,0:15:03.38,Default,,0000,0000,0000,,是 任何东西都没人碰过\N{\fs13\bord1}Yep.Nobody touched anything.{\r}
+Dialogue: 0,0:15:03.43,0:15:05.79,Default,,0000,0000,0000,,Adam 回到第二个死者\N{\fs13\bord1}Adam,go back to the second victim.{\r}
+Dialogue: 0,0:15:11.69,0:15:13.48,Default,,0000,0000,0000,,重点标出浴室门\N{\fs13\bord1}Highlight the door.{\r}
+Dialogue: 0,0:15:14.56,0:15:15.79,Default,,0000,0000,0000,,对了\N{\fs13\bord1}Right.{\r}
+Dialogue: 0,0:15:16.70,0:15:20.20,Default,,0000,0000,0000,,看--门的边缘没有血迹\N{\fs13\bord1}Look-- no blood is on the edge of the door.{\r}
+Dialogue: 0,0:15:20.26,0:15:25.20,Default,,0000,0000,0000,,按照这样的模式 血迹绝对会溅到门边 除非...\N{\fs13\bord1}Now,with a pattern like that,blood would have definitely gotten on the edge,unless...{\r}
+Dialogue: 0,0:15:25.57,0:15:27.18,Default,,0000,0000,0000,,除非它是关着的\N{\fs13\bord1}Unless it was closed.{\r}
+Dialogue: 0,0:15:27.22,0:15:28.89,Default,,0000,0000,0000,,的确\N{\fs13\bord1}Exactly.{\r}
+Dialogue: 0,0:15:48.31,0:15:51.80,Default,,0000,0000,0000,,James说他记得和海马还有海星 一起游过泳\N{\fs13\bord1}James said he remembered swimming with the seahorses and the starfish.{\r}
+Dialogue: 0,0:15:51.89,0:15:54.43,Default,,0000,0000,0000,,他的牛仔裤上也有洗发水的痕迹\N{\fs13\bord1}And he had traces of shampoo on his jeans.{\r}
+Dialogue: 0,0:15:54.48,0:15:55.96,Default,,0000,0000,0000,,James不是凶手\N{\fs13\bord1}James isn't our killer.{\r}
+Dialogue: 0,0:15:56.01,0:15:57.49,Default,,0000,0000,0000,,他在浴室里畅游呢\N{\fs13\bord1}He was tripping in the bathroom.{\r}
+Dialogue: 0,0:16:50.35,0:16:52.22,Default,,0000,0000,0000,,我没杀我的朋友\N{\fs13\bord1}I didn't kill my friends.{\r}
+Dialogue: 0,0:16:52.28,0:16:55.15,Default,,0000,0000,0000,,我知道你没有 James 我知道\N{\fs13\bord1}I know you didn't,James.I know it.{\r}
+Dialogue: 0,0:16:56.04,0:16:58.02,Default,,0000,0000,0000,,我怎么了?\N{\fs13\bord1}What's happening to me?{\r}
+Dialogue: 0,0:16:58.47,0:16:59.75,Default,,0000,0000,0000,,你服用了LSD\N{\fs13\bord1}You took LSD.{\r}
+Dialogue: 0,0:16:59.82,0:17:01.60,Default,,0000,0000,0000,,不 不 不 我...\N{\fs13\bord1}No.No.No.No.I...{\r}
+Dialogue: 0,0:17:01.71,0:17:03.80,Default,,0000,0000,0000,,听我说 James\N{\fs13\bord1}Listen to me,James.{\r}
+Dialogue: 0,0:17:04.69,0:17:09.36,Default,,0000,0000,0000,,你体验了幻觉 高度焦虑 强烈的妄想\N{\fs13\bord1}You're experiencing hallucinations,heightened anxiety,intense paranoia.{\r}
+Dialogue: 0,0:17:09.42,0:17:11.04,Default,,0000,0000,0000,,我不可能那么做的\N{\fs13\bord1}I wouldn't have done that.{\r}
+Dialogue: 0,0:17:11.09,0:17:14.23,Default,,0000,0000,0000,,- 我...   - 你朋友也吸食了\N{\fs13\bord1}I-I-I... Your friends took it,too.{\r}
+Dialogue: 0,0:17:14.86,0:17:16.27,Default,,0000,0000,0000,,那是你21岁生日\N{\fs13\bord1}It was your 21st birthday.{\r}
+Dialogue: 0,0:17:16.33,0:17:19.41,Default,,0000,0000,0000,,你很可能做了一些以前从没干过的事\N{\fs13\bord1}You were probably doing a lot of things you hadn't done before.{\r}
+Dialogue: 0,0:17:20.64,0:17:23.30,Default,,0000,0000,0000,,我来解开你的手铐 好吗?\N{\fs13\bord1}I'm going to take your handcuffs off,okay?{\r}
+Dialogue: 0,0:17:24.48,0:17:27.06,Default,,0000,0000,0000,,放松 你信任我吗?\N{\fs13\bord1}Just relax.You trust me?{\r}
+Dialogue: 0,0:17:47.01,0:17:49.24,Default,,0000,0000,0000,,我知道你是个科研人员\N{\fs13\bord1}I understand you're a man of science.{\r}
+Dialogue: 0,0:17:49.80,0:17:54.46,Default,,0000,0000,0000,,- 学习物理   - 量子物理\N{\fs13\bord1}- Studying physics.   - Quantum physics.{\r}
+Dialogue: 0,0:17:55.17,0:17:56.50,Default,,0000,0000,0000,,那是很难的东西\N{\fs13\bord1}That's heavy stuff.{\r}
+Dialogue: 0,0:17:56.56,0:18:00.58,Default,,0000,0000,0000,,你女友告诉我你在写统一场论的论文 （统一场论: 要求用单一的数学语言 描述引力 电磁力 弱力和强力）\N{\fs13\bord1}Your girlfriend told me you're writing a paper about the unified field theory.{\r}
+Dialogue: 0,0:18:00.84,0:18:02.80,Default,,0000,0000,0000,,你跟Sara谈过?\N{\fs13\bord1}You talked to Sara?{\r}
+Dialogue: 0,0:18:03.21,0:18:05.10,Default,,0000,0000,0000,,她在哪儿? 我能见她吗?\N{\fs13\bord1}Where is she?Can I see her?{\r}
+Dialogue: 0,0:18:06.55,0:18:08.34,Default,,0000,0000,0000,,也许要等一会儿\N{\fs13\bord1}Maybe in a little bit.{\r}
+Dialogue: 0,0:18:11.17,0:18:13.80,Default,,0000,0000,0000,,我这种感觉还要持续多久?\N{\fs13\bord1}How long am I going to feel like this?{\r}
+Dialogue: 0,0:18:15.05,0:18:17.25,Default,,0000,0000,0000,,我需要你的帮忙 James\N{\fs13\bord1}I need your help,James.{\r}
+Dialogue: 0,0:18:18.73,0:18:21.43,Default,,0000,0000,0000,,我需要你努力集中精神\N{\fs13\bord1}I need you to try to focus.{\r}
+Dialogue: 0,0:18:22.40,0:18:24.86,Default,,0000,0000,0000,,记起昨晚发生的一切\N{\fs13\bord1}Remember everything from last night.{\r}
+Dialogue: 0,0:18:24.94,0:18:26.80,Default,,0000,0000,0000,,我不知道\N{\fs13\bord1}I don't know.{\r}
+Dialogue: 0,0:18:26.88,0:18:31.94,Default,,0000,0000,0000,,只有些...片段\N{\fs13\bord1}There's just... pieces.{\r}
+Dialogue: 0,0:18:32.18,0:18:35.42,Default,,0000,0000,0000,,每个片段 不管多短 都很重要\N{\fs13\bord1}Every piece,no matter how little,is important.{\r}
+Dialogue: 0,0:18:35.48,0:18:38.13,Default,,0000,0000,0000,,那两个姑娘是谁?\N{\fs13\bord1}Who are the two girls?{\r}
+Dialogue: 0,0:18:38.75,0:18:41.12,Default,,0000,0000,0000,,- 你记得她们吗?   - 不记得\N{\fs13\bord1}- You remember them?   - No.{\r}
+Dialogue: 0,0:18:41.75,0:18:44.00,Default,,0000,0000,0000,,你回酒店后又去了哪里?\N{\fs13\bord1}Where did you go after you got back to the hotel?{\r}
+Dialogue: 0,0:18:44.05,0:18:46.50,Default,,0000,0000,0000,,酒吧 夜总会?\N{\fs13\bord1}A bar,a club?{\r}
+Dialogue: 0,0:18:46.95,0:18:51.45,Default,,0000,0000,0000,,不...不 我记得...\N{\fs13\bord1}No... No.I remember...{\r}
+Dialogue: 0,0:18:52.60,0:18:54.84,Default,,0000,0000,0000,,走出浴室\N{\fs13\bord1}walking out of the bathroom.{\r}
+Dialogue: 0,0:18:56.50,0:18:58.51,Default,,0000,0000,0000,,看到了他们\N{\fs13\bord1}Seeing them.{\r}
+Dialogue: 0,0:19:08.80,0:19:10.24,Default,,0000,0000,0000,,不!\N{\fs13\bord1}No!{\r}
+Dialogue: 0,0:19:14.18,0:19:16.01,Default,,0000,0000,0000,,我不知道出了什么事\N{\fs13\bord1}I don't know what happened.{\r}
+Dialogue: 0,0:19:16.06,0:19:18.53,Default,,0000,0000,0000,,你为什么问我这些问题?\N{\fs13\bord1}Why are you asking me these questions?{\r}
+Dialogue: 0,0:19:23.62,0:19:26.02,Default,,0000,0000,0000,,我想回家\N{\fs13\bord1}I want to go home.{\r}
+Dialogue: 0,0:19:27.45,0:19:30.20,Default,,0000,0000,0000,,为什么我不能走...?\N{\fs13\bord1}Why can't I just go...?{\r}
+Dialogue: 0,0:19:34.30,0:19:36.80,Default,,0000,0000,0000,,为什么我不能回家?\N{\fs13\bord1}Why can't I just go home?{\r}
+Dialogue: 0,0:19:39.24,0:19:41.34,Default,,0000,0000,0000,,James 我知道你很害怕\N{\fs13\bord1}James,I know you're scared.{\r}
+Dialogue: 0,0:19:43.05,0:19:45.29,Default,,0000,0000,0000,,但是我们会扛过去的\N{\fs13\bord1}But we're going to get through this.{\r}
+Dialogue: 0,0:19:45.38,0:19:47.66,Default,,0000,0000,0000,,我们俩 好吗? 你和我\N{\fs13\bord1}The two of us,okay?You and me.{\r}
+Dialogue: 0,0:19:48.40,0:19:51.49,Default,,0000,0000,0000,,你不必回答不想回答的问题\N{\fs13\bord1}You don't have to answer anything you don't want to.{\r}
+Dialogue: 0,0:19:52.09,0:19:55.05,Default,,0000,0000,0000,,我们慢慢来\N{\fs13\bord1}We'll just take it slow.{\r}
+Dialogue: 0,0:19:56.05,0:19:59.13,Default,,0000,0000,0000,,一起努力解决这件事\N{\fs13\bord1}Try to figure this out together.{\r}
+Dialogue: 0,0:19:59.35,0:20:02.00,Default,,0000,0000,0000,,好了 2个男性死者 Mark和Daniel\N{\fs13\bord1}Okay,the two male vics,Mark and Daniel,{\r}
+Dialogue: 0,0:20:02.06,0:20:05.93,Default,,0000,0000,0000,,带着James到Tribeca大酒店 过他的21岁生日\N{\fs13\bord1}bring James to the Tribeca Grand Hotel for his 21st birthday.{\r}
+Dialogue: 0,0:20:05.97,0:20:07.92,Default,,0000,0000,0000,,而那里有酒有毒品\N{\fs13\bord1}And there's drinking and drugs.{\r}
+Dialogue: 0,0:20:08.00,0:20:10.54,Default,,0000,0000,0000,,这本是个他们只能模糊记得的夜晚\N{\fs13\bord1}This was going to be a night that they only vaguely remember.{\r}
+Dialogue: 0,0:20:10.61,0:20:15.49,Default,,0000,0000,0000,,至于2位女性死者 Jackie和Lacey 并不是他们的朋友\N{\fs13\bord1}As far as the two female vics,Jackie and Lacey were not their friends.{\r}
+Dialogue: 0,0:20:15.54,0:20:18.46,Default,,0000,0000,0000,,酒店经理说她们并没有和他们 一起登记入住\N{\fs13\bord1}And the hotel manager said that the girls did not check in with them.{\r}
+Dialogue: 0,0:20:18.51,0:20:20.77,Default,,0000,0000,0000,,所以这些家伙要么是昨晚遇到她们\N{\fs13\bord1}So the guys either met them at some point that night{\r}
+Dialogue: 0,0:20:20.82,0:20:23.45,Default,,0000,0000,0000,,然后一起回酒店继续派对\N{\fs13\bord1}and they all went back to the hotel to continue the party.{\r}
+Dialogue: 0,0:20:23.52,0:20:24.75,Default,,0000,0000,0000,,对 要么她们本身就是派对上...\N{\fs13\bord1}Right,or they were the party.{\r}
+Dialogue: 0,0:20:24.81,0:20:28.40,Default,,0000,0000,0000,,雇来 嗯 吹灭寿星蜡烛的\N{\fs13\bord1}Hired to,uh,blow out the birthday boy's candle.{\r}
+Dialogue: 0,0:20:28.76,0:20:32.37,Default,,0000,0000,0000,,好了 现场所有血迹都属于死者\N{\fs13\bord1}Right,okay.All the blood at the scene belongs to our victims.{\r}
+Dialogue: 0,0:20:32.41,0:20:34.77,Default,,0000,0000,0000,,斧子上也是同样的情况\N{\fs13\bord1}And the same goes for the blood on the ax.{\r}
+Dialogue: 0,0:20:34.82,0:20:37.84,Default,,0000,0000,0000,,现在 我们知道除了James外 另外一个人用过它\N{\fs13\bord1}Now,we know that someone other than James used it.{\r}
+Dialogue: 0,0:20:38.64,0:20:41.52,Default,,0000,0000,0000,,Hawkes 试试激光显微分解\N{\fs13\bord1}Hawkes,try laser micro-dissection.{\r}
+Dialogue: 0,0:20:41.55,0:20:46.64,Default,,0000,0000,0000,,看能否从表皮细胞上分离出 可能留在斧把手上的血迹\N{\fs13\bord1}See if we can separate the blood from any skin cells that might have been left behind on the handle.{\r}
+Dialogue: 0,0:20:46.71,0:20:47.47,Default,,0000,0000,0000,,我们还知道些什么?\N{\fs13\bord1}What else do we have?{\r}
+Dialogue: 0,0:20:47.50,0:20:50.63,Default,,0000,0000,0000,,我还在等James的小腿肚上 咬痕的DNA结果\N{\fs13\bord1}I'm still waiting on DNA from the bite mark on James' calf.{\r}
+Dialogue: 0,0:20:51.27,0:20:52.64,Default,,0000,0000,0000,,你告诉我 他不记得这事了?\N{\fs13\bord1}You tell me he doesn't remember that?{\r}
+Dialogue: 0,0:20:52.69,0:20:54.54,Default,,0000,0000,0000,,现在他什么都不记得了\N{\fs13\bord1}He doesn't remember anything at the moment.{\r}
+Dialogue: 0,0:20:54.57,0:20:58.11,Default,,0000,0000,0000,,所以我们得利用手上所有证据 拼凑起他昨晚的行动\N{\fs13\bord1}So we're going to have to piece together his night with whatever evidence we have.{\r}
+Dialogue: 0,0:20:58.14,0:21:00.11,Default,,0000,0000,0000,,好吧 这是我的发现\N{\fs13\bord1}All right,well,here's what I got.{\r}
+Dialogue: 0,0:21:00.17,0:21:02.72,Default,,0000,0000,0000,,Mark和Daniel是在傍晚6点登记的\N{\fs13\bord1}Mark and Daniel checked into the hotel at 6:00 p.m.{\r}
+Dialogue: 0,0:21:02.80,0:21:06.77,Default,,0000,0000,0000,,我猜他们离开酒店 接到James 大约7:30回到酒店\N{\fs13\bord1}I'm guessing they left,got James,got back to the room somewhere around 7:30.{\r}
+Dialogue: 0,0:21:06.81,0:21:09.24,Default,,0000,0000,0000,,在7:40叫了客房服务\N{\fs13\bord1}They ordered room service at 7:40.{\r}
+Dialogue: 0,0:21:09.32,0:21:13.99,Default,,0000,0000,0000,,ATM记录显示8点他们都在酒店旁取款\N{\fs13\bord1}ATM records show withdrawals from all of them at the bank right next to the hotel at 8:00.{\r}
+Dialogue: 0,0:21:14.09,0:21:16.86,Default,,0000,0000,0000,,那之后 没有信用卡或借记卡的交易记录\N{\fs13\bord1}After that,no credit or debit card transactions.{\r}
+Dialogue: 0,0:21:16.90,0:21:18.63,Default,,0000,0000,0000,,所以他们不管去了哪里 都是付现金\N{\fs13\bord1}So wherever they went,they paid cash.{\r}
+Dialogue: 0,0:21:18.69,0:21:20.51,Default,,0000,0000,0000,,而且他们都没用过手机\N{\fs13\bord1}And none of them made any calls from their cell phones.{\r}
+Dialogue: 0,0:21:20.55,0:21:25.59,Default,,0000,0000,0000,,我们没法修复任何短消息 凶手砸碎了他们的手机\N{\fs13\bord1}We couldn't retrieve any text messages because whoever we're looking  for crushed their phones.{\r}
+Dialogue: 0,0:21:25.93,0:21:29.06,Default,,0000,0000,0000,,但我挽救了一张他们的照片\N{\fs13\bord1}But I was able to salvage a photo taken of one of them.{\r}
+Dialogue: 0,0:21:30.57,0:21:33.54,Default,,0000,0000,0000,,是昨晚8:45拍的\N{\fs13\bord1}This was taken at 8:45 last night.{\r}
+Dialogue: 0,0:21:36.19,0:21:37.77,Default,,0000,0000,0000,,这些家伙知道如何联谊还是怎么的?\N{\fs13\bord1}These guys know how to party or what?{\r}
+Dialogue: 0,0:21:37.84,0:21:40.52,Default,,0000,0000,0000,,我是说 他们组织的是老太太聚会吗?\N{\fs13\bord1}I mean,what,they organize a Golden Girls  reunion?{\r}
+Dialogue: 0,0:21:40.59,0:21:42.38,Default,,0000,0000,0000,,受害者中有她们的亲戚吗?\N{\fs13\bord1}Are any of our vics related to one of them?{\r}
+Dialogue: 0,0:21:42.43,0:21:44.36,Default,,0000,0000,0000,,- 没有 我查过的   - 哪里查的?\N{\fs13\bord1}- No,I checked.   - Checked where?{\r}
+Dialogue: 0,0:21:45.65,0:21:47.52,Default,,0000,0000,0000,,Wesleyshire屋\N{\fs13\bord1}Wesleyshire House.{\r}
+Dialogue: 0,0:21:47.57,0:21:49.16,Default,,0000,0000,0000,,那是个协助生活机构\N{\fs13\bord1}It's an assisted living facility.{\r}
+Dialogue: 0,0:21:49.21,0:21:51.91,Default,,0000,0000,0000,,受害者里在那儿都没有亲戚\N{\fs13\bord1}And none of the vics had any relatives there.{\r}
+Dialogue: 0,0:21:51.95,0:21:53.89,Default,,0000,0000,0000,,好吧 那他们在那里干什么?\N{\fs13\bord1}All right,so what were they doing there?{\r}
+Dialogue: 0,0:21:53.97,0:21:56.43,Default,,0000,0000,0000,,下一个数字是O-71\N{\fs13\bord1}And the next number is O-71.{\r}
+Dialogue: 0,0:21:56.46,0:21:58.56,Default,,0000,0000,0000,,我见过的最可爱男孩\N{\fs13\bord1}Sweetest boys you'll ever meet.{\r}
+Dialogue: 0,0:21:58.62,0:22:00.91,Default,,0000,0000,0000,,恕我不敢苟同\N{\fs13\bord1}I beg to differ.{\r}
+Dialogue: 0,0:22:01.24,0:22:05.82,Default,,0000,0000,0000,,Helen在亲那个男孩的脸颊时 差点踢到了水桶\N{\fs13\bord1}Helen nearly kicked the bucket when she kissed that boy on the cheek.{\r}
+Dialogue: 0,0:22:05.86,0:22:08.27,Default,,0000,0000,0000,,你说他们来这里玩宾果游戏?\N{\fs13\bord1}So you're saying that they came here to play bingo?{\r}
+Dialogue: 0,0:22:08.33,0:22:11.06,Default,,0000,0000,0000,,嗯 这个孩子--我想他叫Mark--\N{\fs13\bord1}Well,this one-- I think his name was Mark--{\r}
+Dialogue: 0,0:22:11.11,0:22:15.81,Default,,0000,0000,0000,,说他们在为一部关于 疗养院的纪录片做调查\N{\fs13\bord1}said they were doing research for a documentary about nursing homes.{\r}
+Dialogue: 0,0:22:16.15,0:22:20.53,Default,,0000,0000,0000,,- 我想他们来这儿不是为了 呃...   - 我可不蠢 小子\N{\fs13\bord1}- Yeah,I don't think they were here to do,uh...   - I'm not stupid,sonny.{\r}
+Dialogue: 0,0:22:21.03,0:22:26.02,Default,,0000,0000,0000,,来这儿的年轻人并不多 我们为什么不找些乐子呢?\N{\fs13\bord1}We don't get many youngsters visiting around here,so why not have some fun,right?{\r}
+Dialogue: 0,0:22:26.39,0:22:28.11,Default,,0000,0000,0000,,你要输了 Mary\N{\fs13\bord1}You're going down,Mary.{\r}
+Dialogue: 0,0:22:28.17,0:22:29.36,Default,,0000,0000,0000,,我就要连起来了\N{\fs13\bord1}I'm coming to get ya.{\r}
+Dialogue: 0,0:22:29.42,0:22:30.92,Default,,0000,0000,0000,,连起来看看 帅哥\N{\fs13\bord1}Bring it on,hot shot.{\r}
+Dialogue: 0,0:22:30.97,0:22:33.67,Default,,0000,0000,0000,,我有说过我连续三年是州冠军吗?\N{\fs13\bord1}Did I mention I was state champion three years running?{\r}
+Dialogue: 0,0:22:33.75,0:22:35.34,Default,,0000,0000,0000,,恕我不敢苟同\N{\fs13\bord1}I beg to differ.{\r}
+Dialogue: 0,0:22:35.40,0:22:37.61,Default,,0000,0000,0000,,G-55\N{\fs13\bord1}G-55.{\r}
+Dialogue: 0,0:22:38.90,0:22:40.77,Default,,0000,0000,0000,,宾果!\N{\fs13\bord1}Bingo!{\r}
+Dialogue: 0,0:22:40.85,0:22:42.65,Default,,0000,0000,0000,,我说啥了 姐们?\N{\fs13\bord1}What I tell ya,sister?{\r}
+Dialogue: 0,0:22:42.74,0:22:45.15,Default,,0000,0000,0000,,你赢不了这些技巧的\N{\fs13\bord1}You don't mess with these skills.{\r}
+Dialogue: 0,0:22:45.26,0:22:46.10,Default,,0000,0000,0000,,宾果\N{\fs13\bord1}Bingo.{\r}
+Dialogue: 0,0:22:46.25,0:22:47.78,Default,,0000,0000,0000,,他赢了\N{\fs13\bord1}Bingo has been called.{\r}
+Dialogue: 0,0:22:47.87,0:22:49.47,Default,,0000,0000,0000,,他赢了多少?\N{\fs13\bord1}How much did he win?{\r}
+Dialogue: 0,0:22:49.66,0:22:51.84,Default,,0000,0000,0000,,2万5千块\N{\fs13\bord1}$25,000.{\r}
+Dialogue: 0,0:22:52.33,0:22:54.61,Default,,0000,0000,0000,,- 下一个数字式B-3   - 什么...?\N{\fs13\bord1}- And the next number is B-3.- What...?{\r}
+Dialogue: 0,0:22:55.40,0:22:56.95,Default,,0000,0000,0000,,2万5千块?\N{\fs13\bord1}25 grand?{\r}
+Dialogue: 0,0:22:57.00,0:22:59.89,Default,,0000,0000,0000,,这不是你祖母玩的那种宾果游戏\N{\fs13\bord1}This ain't your grandmother's bingo game.{\r}
+Dialogue: 0,0:22:59.97,0:23:01.81,Default,,0000,0000,0000,,我们玩的赌注很高\N{\fs13\bord1}We play high stakes.{\r}
+Dialogue: 0,0:23:01.85,0:23:03.18,Default,,0000,0000,0000,,增添趣味\N{\fs13\bord1}Spices things up.{\r}
+Dialogue: 0,0:23:03.23,0:23:05.78,Default,,0000,0000,0000,,- 他把钱拿走了?   - 我们坚持的\N{\fs13\bord1}- And he kept the money?   - We insisted.{\r}
+Dialogue: 0,0:23:05.89,0:23:07.73,Default,,0000,0000,0000,,恕我不敢苟同\N{\fs13\bord1}I beg to differ.{\r}
+Dialogue: 0,0:23:07.96,0:23:10.27,Default,,0000,0000,0000,,他们赢得光明正大\N{\fs13\bord1}They won it fair and square.{\r}
+Dialogue: 0,0:23:10.32,0:23:13.36,Default,,0000,0000,0000,,所以 是的 我坚持的\N{\fs13\bord1}So,yes,I insisted.{\r}
+Dialogue: 0,0:23:13.48,0:23:15.69,Default,,0000,0000,0000,,显然 我们在酒店房间里没找到那笔钱\N{\fs13\bord1}Well,obviously,we didn't find that kind of money at the hotel room.{\r}
+Dialogue: 0,0:23:15.73,0:23:17.76,Default,,0000,0000,0000,,没有 那可能就是动机\N{\fs13\bord1}No.That could be our motive.{\r}
+Dialogue: 0,0:23:17.83,0:23:19.48,Default,,0000,0000,0000,,就这样了 先生们?\N{\fs13\bord1}Is that all,gentlemen?{\r}
+Dialogue: 0,0:23:19.54,0:23:23.46,Default,,0000,0000,0000,,我可以想到比和你俩在这儿 干坐一整天更好的事去做\N{\fs13\bord1}'Cause I can think of better things to do than sit here all day with you two.{\r}
+Dialogue: 0,0:23:23.55,0:23:26.37,Default,,0000,0000,0000,,恕我不敢苟同\N{\fs13\bord1}I beg to differ.{\r}
+Dialogue: 0,0:23:34.62,0:23:35.57,Default,,0000,0000,0000,,嘿 Stell\N{\fs13\bord1}Hey,Stell.{\r}
+Dialogue: 0,0:23:35.63,0:23:39.02,Default,,0000,0000,0000,,刚刚完成了斧子的激光显微分解 我找到了些上皮组织\N{\fs13\bord1}Just completed laser micro-dissection on the ax,and I found some epithelials.{\r}
+Dialogue: 0,0:23:39.09,0:23:40.70,Default,,0000,0000,0000,,那要花点时间 但如果我们走运\N{\fs13\bord1}Now,it'll take a little while,but if we're lucky,{\r}
+Dialogue: 0,0:23:40.75,0:23:42.33,Default,,0000,0000,0000,,他们属于除James的另外一个人\N{\fs13\bord1}they belong to someone other than James.{\r}
+Dialogue: 0,0:23:42.37,0:23:44.54,Default,,0000,0000,0000,,好 我刚刚找到了拼图中的一片\N{\fs13\bord1}Okay,well,I just got another piece of the puzzle.{\r}
+Dialogue: 0,0:23:44.59,0:23:47.02,Default,,0000,0000,0000,,James小腿肚上的咬痕有DNA结果了\N{\fs13\bord1}DNA came back from the bite mark on James' calf.{\r}
+Dialogue: 0,0:23:47.07,0:23:48.58,Default,,0000,0000,0000,,我们系统中的某个人?\N{\fs13\bord1}Someone in the system?{\r}
+Dialogue: 0,0:23:48.62,0:23:50.33,Default,,0000,0000,0000,,Calvin Moore\N{\fs13\bord1}Calvin Moore.{\r}
+Dialogue: 0,0:23:50.44,0:23:53.07,Default,,0000,0000,0000,,有袭击罪和拒捕罪的前科\N{\fs13\bord1}Priors for assault and resisting arrest.{\r}
+Dialogue: 0,0:23:53.12,0:23:59.03,Default,,0000,0000,0000,,显然 当2个警察因为他在公共场合喝酒 想逮捕他时 他从背后推了他们\N{\fs13\bord1}Apparently,he put two officers on their back when they tried to arrest him for drinking in public.{\r}
+Dialogue: 0,0:23:59.10,0:24:00.23,Default,,0000,0000,0000,,等一下 这个正确吗?\N{\fs13\bord1}Wait a second.Is this right?{\r}
+Dialogue: 0,0:24:00.30,0:24:02.33,Default,,0000,0000,0000,,说他3英尺9英寸(约合1.19米)\N{\fs13\bord1}Says he's three-foot,nine.{\r}
+Dialogue: 0,0:24:02.36,0:24:03.63,Default,,0000,0000,0000,,他撂倒了2个警察?\N{\fs13\bord1}He took down two officers?{\r}
+Dialogue: 0,0:24:03.66,0:24:05.25,Default,,0000,0000,0000,,还咬了其中的一个\N{\fs13\bord1}And bit one of them.{\r}
+Dialogue: 0,0:24:05.31,0:24:06.41,Default,,0000,0000,0000,,我们上哪里可以找到他?\N{\fs13\bord1}Do we know where to find this guy?{\r}
+Dialogue: 0,0:24:06.44,0:24:08.22,Default,,0000,0000,0000,,假释官给了我们工作地址\N{\fs13\bord1}The probation officer gave us a work address.{\r}
+Dialogue: 0,0:24:08.24,0:24:10.28,Default,,0000,0000,0000,,Danny和Flack正赶过去\N{\fs13\bord1}Danny and Flack are headed over there now.{\r}
+Dialogue: 0,0:24:13.85,0:24:15.37,Default,,0000,0000,0000,,耶!\N{\fs13\bord1}Yeah!{\r}
+Dialogue: 0,0:24:19.44,0:24:22.24,Default,,0000,0000,0000,,我会在你可怜无生气的身旁跳跳舞\N{\fs13\bord1}I'm gonna do a little dance around your pathetic,lifeless body.{\r}
+Dialogue: 0,0:24:22.27,0:24:25.15,Default,,0000,0000,0000,,我的经纪人会在台下扔一把折叠椅\N{\fs13\bord1}My manager's gonna shove a folding chair under the ropes.{\r}
+Dialogue: 0,0:24:25.18,0:24:26.97,Default,,0000,0000,0000,,裁判会想要阻止我\N{\fs13\bord1}The ref's gonna try to stop me.{\r}
+Dialogue: 0,0:24:27.03,0:24:30.34,Default,,0000,0000,0000,,嘣! 我用椅子砸中裁判 然后是你\N{\fs13\bord1}Boom!I hit the referee with the chair,and then you.{\r}
+Dialogue: 0,0:24:30.40,0:24:35.46,Default,,0000,0000,0000,,血 血 血...现在裁判会及时赶到 看到我制服了你\N{\fs13\bord1}Blood,blood,blood... Now the ref is gonna come through just in time to see me pin you.{\r}
+Dialogue: 0,0:24:35.53,0:24:37.63,Default,,0000,0000,0000,,观众们会疯狂的\N{\fs13\bord1}The crowd goes wild.{\r}
+Dialogue: 0,0:24:42.70,0:24:44.52,Default,,0000,0000,0000,,你们是谁啊?\N{\fs13\bord1}Who the hell are you?{\r}
+Dialogue: 0,0:24:45.37,0:24:47.04,Default,,0000,0000,0000,,不 不 不\N{\fs13\bord1}No,no,no,no,no.{\r}
+Dialogue: 0,0:24:47.20,0:24:48.54,Default,,0000,0000,0000,,你们不能因为这个抓我\N{\fs13\bord1}You're not locking me up for this.{\r}
+Dialogue: 0,0:24:48.59,0:24:50.32,Default,,0000,0000,0000,,是他们要求的\N{\fs13\bord1}They asked for it.{\r}
+Dialogue: 0,0:24:52.89,0:24:55.45,Default,,0000,0000,0000,,好吧 我有点得意忘形 事情做得有点过火\N{\fs13\bord1}All right,so I get a little carried away,take things too far.{\r}
+Dialogue: 0,0:24:55.50,0:24:56.63,Default,,0000,0000,0000,,谁和你一起的?\N{\fs13\bord1}Who was with you?{\r}
+Dialogue: 0,0:24:56.66,0:24:58.29,Default,,0000,0000,0000,,没有人 只有我\N{\fs13\bord1}No one.It was just me.{\r}
+Dialogue: 0,0:24:58.55,0:25:00.16,Default,,0000,0000,0000,,那里还有其他人\N{\fs13\bord1}There was someone else in there.{\r}
+Dialogue: 0,0:25:02.99,0:25:04.41,Default,,0000,0000,0000,,我一个人干的\N{\fs13\bord1}I only work solo.{\r}
+Dialogue: 0,0:25:04.46,0:25:06.57,Default,,0000,0000,0000,,- 为什么这么做?   - 你觉得呢?\N{\fs13\bord1}- Why'd you do it?   - Why do you think?{\r}
+Dialogue: 0,0:25:06.65,0:25:08.00,Default,,0000,0000,0000,,为了钱\N{\fs13\bord1}For the money.{\r}
+Dialogue: 0,0:25:08.06,0:25:10.23,Default,,0000,0000,0000,,- 真是废话   - 拿了多少钱?\N{\fs13\bord1}- You bet your ass money.   - How much money you get?{\r}
+Dialogue: 0,0:25:10.29,0:25:11.99,Default,,0000,0000,0000,,- 1千块   - 1千块?\N{\fs13\bord1}- A grand.   - A grand?{\r}
+Dialogue: 0,0:25:12.24,0:25:13.55,Default,,0000,0000,0000,,就为了1千块?\N{\fs13\bord1}You did this for a grand?{\r}
+Dialogue: 0,0:25:13.62,0:25:16.56,Default,,0000,0000,0000,,没错 最容易的一次\N{\fs13\bord1}Yeah.It was the easiest money I ever made.{\r}
+Dialogue: 0,0:25:18.83,0:25:20.93,Default,,0000,0000,0000,,- 你在扯什么?   - 你在扯什么?\N{\fs13\bord1}- What are you talking about?   - What are you talking about?{\r}
+Dialogue: 0,0:25:20.98,0:25:25.11,Default,,0000,0000,0000,,看来你承认了昨晚犯的4起凶杀\N{\fs13\bord1}We're talking about a quadruple homicide that apparently you committed last night.{\r}
+Dialogue: 0,0:25:25.14,0:25:27.03,Default,,0000,0000,0000,,- 我承认了?   - 没错 听起来就是\N{\fs13\bord1}- That I committed?   - Yeah.That's what it sounds like.{\r}
+Dialogue: 0,0:25:27.05,0:25:28.01,Default,,0000,0000,0000,,昨晚?\N{\fs13\bord1}Last night?{\r}
+Dialogue: 0,0:25:28.06,0:25:30.49,Default,,0000,0000,0000,,在受害人腿上发现了你的DNA\N{\fs13\bord1}And we got your DNA on one of our vic's legs to prove it.{\r}
+Dialogue: 0,0:25:31.60,0:25:32.81,Default,,0000,0000,0000,,这些家伙死了?\N{\fs13\bord1}These guys are dead?{\r}
+Dialogue: 0,0:25:32.89,0:25:35.01,Default,,0000,0000,0000,,我可没杀人\N{\fs13\bord1}Hey,I didn't kill no one.{\r}
+Dialogue: 0,0:25:35.97,0:25:38.04,Default,,0000,0000,0000,,这两个小鬼昨晚进来\N{\fs13\bord1}These two jokers  came in last night,{\r}
+Dialogue: 0,0:25:38.11,0:25:42.21,Default,,0000,0000,0000,,给我1千块 让我陪他们生日的哥们好好玩玩\N{\fs13\bord1}gave me $1,000 to bring  their buddy,the birthday guy,into the ring.{\r}
+Dialogue: 0,0:25:42.46,0:25:44.37,Default,,0000,0000,0000,,我们就好好玩了玩\N{\fs13\bord1}We put on one hell of a show.{\r}
+Dialogue: 0,0:26:09.02,0:26:10.71,Default,,0000,0000,0000,,1 2 3\N{\fs13\bord1}One,two,three!{\r}
+Dialogue: 0,0:26:17.07,0:26:20.96,Default,,0000,0000,0000,,他们开心我也开心 然后他们就走了\N{\fs13\bord1}They had fun,I had fun,and they left.{\r}
+Dialogue: 0,0:26:21.05,0:26:22.50,Default,,0000,0000,0000,,走时还活着\N{\fs13\bord1}Alive.{\r}
+Dialogue: 0,0:26:24.43,0:26:27.21,Default,,0000,0000,0000,,行 那他们是不是很兴奋?\N{\fs13\bord1}Okay,uh,were they,uh... were they high?{\r}
+Dialogue: 0,0:26:27.27,0:26:28.63,Default,,0000,0000,0000,,嗑药?\N{\fs13\bord1}On drugs?{\r}
+Dialogue: 0,0:26:28.68,0:26:29.79,Default,,0000,0000,0000,,不觉得\N{\fs13\bord1}No,I don't think so.{\r}
+Dialogue: 0,0:26:29.85,0:26:31.76,Default,,0000,0000,0000,,那这两个姑娘呢? 跟他们在一起吗?\N{\fs13\bord1}What about these two girls?Were they with them?{\r}
+Dialogue: 0,0:26:31.81,0:26:33.52,Default,,0000,0000,0000,,没 就他们三个\N{\fs13\bord1}No. It was just the three of them.{\r}
+Dialogue: 0,0:26:34.58,0:26:35.96,Default,,0000,0000,0000,,好了\N{\fs13\bord1}All right.{\r}
+Dialogue: 0,0:26:36.14,0:26:37.51,Default,,0000,0000,0000,,去战斗吧\N{\fs13\bord1}Go fight.{\r}
+Dialogue: 0,0:26:38.99,0:26:41.98,Default,,0000,0000,0000,,很好 补上了一块拼图 但这两姑娘是从哪冒出来的?\N{\fs13\bord1}All right,that's another piece,but where do the girls come in?{\r}
+Dialogue: 0,0:26:42.04,0:26:43.79,Default,,0000,0000,0000,,他们怎么拿到药的?\N{\fs13\bord1}And where'd they get the drugs?{\r}
+Dialogue: 0,0:26:49.76,0:26:51.50,Default,,0000,0000,0000,,我想帮忙\N{\fs13\bord1}I want to help.{\r}
+Dialogue: 0,0:26:52.35,0:26:54.16,Default,,0000,0000,0000,,真的\N{\fs13\bord1}I really do.{\r}
+Dialogue: 0,0:26:55.40,0:26:57.40,Default,,0000,0000,0000,,但我没碰LSD\N{\fs13\bord1}And I didn't take LSD.{\r}
+Dialogue: 0,0:26:59.18,0:27:01.33,Default,,0000,0000,0000,,你不相信 是吗?\N{\fs13\bord1}You don't believe me,do you?{\r}
+Dialogue: 0,0:27:02.16,0:27:05.17,Default,,0000,0000,0000,,我相信你是忘记你嗑药了\N{\fs13\bord1}Well,I believe you don't remember taking LSD.{\r}
+Dialogue: 0,0:27:05.28,0:27:07.34,Default,,0000,0000,0000,,你和我还蛮有共同点的\N{\fs13\bord1}You and I probably have a lot in common.{\r}
+Dialogue: 0,0:27:07.40,0:27:12.23,Default,,0000,0000,0000,,从来就没有狂欢的欲望 不够洒脱\N{\fs13\bord1}Never had a desire to be the life of the party,unable to just let go.{\r}
+Dialogue: 0,0:27:12.28,0:27:18.25,Default,,0000,0000,0000,,你哥们是想让你放松一把 感受下疯狂的世界\N{\fs13\bord1}I think your buddies just wanted you to loosen up,take a moment to let the world happen to you.{\r}
+Dialogue: 0,0:27:18.45,0:27:21.21,Default,,0000,0000,0000,,确实够疯狂的\N{\fs13\bord1}It definitely happened to me.{\r}
+Dialogue: 0,0:27:21.42,0:27:23.07,Default,,0000,0000,0000,,为什么我不记得了?\N{\fs13\bord1}Why can't I remember?{\r}
+Dialogue: 0,0:27:23.11,0:27:24.99,Default,,0000,0000,0000,,放轻松 会记起来的\N{\fs13\bord1}Just relax.It'll come in time.{\r}
+Dialogue: 0,0:27:25.05,0:27:27.24,Default,,0000,0000,0000,,如果不呢?\N{\fs13\bord1}And what if it doesn't?{\r}
+Dialogue: 0,0:27:29.32,0:27:32.10,Default,,0000,0000,0000,,为什么不跟我聊聊你的研究?\N{\fs13\bord1}Why don't you tell me about your,uh... your studies?{\r}
+Dialogue: 0,0:27:32.15,0:27:34.61,Default,,0000,0000,0000,,聊聊你写的论文\N{\fs13\bord1}Tell me about that paper you're writing.{\r}
+Dialogue: 0,0:27:37.93,0:27:40.80,Default,,0000,0000,0000,,致爱因斯坦的公开信\N{\fs13\bord1}"An Open Letter to Albert Einstein.{\r}
+Dialogue: 0,0:27:41.20,0:27:43.78,Default,,0000,0000,0000,,我得提醒你一下 爱因斯坦早死了\N{\fs13\bord1}" I hate to break it to you,James,but Einstein's dead.{\r}
+Dialogue: 0,0:27:43.82,0:27:45.58,Default,,0000,0000,0000,,但他的理论还在\N{\fs13\bord1}Not his ideas.{\r}
+Dialogue: 0,0:27:45.63,0:27:49.10,Default,,0000,0000,0000,,爱因斯坦相信宇宙万物都是可预测的\N{\fs13\bord1}Einstein believed that everything in the universe is predictable.{\r}
+Dialogue: 0,0:27:49.15,0:27:52.66,Default,,0000,0000,0000,,直到Niels Bohr用量子论驳倒了他 （丹麦物理学家 他和其子都获得过诺贝尔物理学奖）\N{\fs13\bord1}Until Niels Bohr proved him wrong at the atomic level.{\r}
+Dialogue: 0,0:27:52.94,0:27:58.55,Default,,0000,0000,0000,,原子核外的质子和电子运动是随机的\N{\fs13\bord1}Protons,electrons flying around a nucleus in a completely random fashion.{\r}
+Dialogue: 0,0:27:58.64,0:28:00.65,Default,,0000,0000,0000,,爱因斯坦可没同意\N{\fs13\bord1}Yeah,Einstein didn't buy it.{\r}
+Dialogue: 0,0:28:00.76,0:28:05.00,Default,,0000,0000,0000,,- 他说上帝...   - "难以相信上帝居然也掷骰子" (爱因斯坦原话)\N{\fs13\bord1}- He said that God...   - "I can't believe God plays dice with the universe.{\r}
+Dialogue: 0,0:28:09.57,0:28:13.29,Default,,0000,0000,0000,,我常常想起这句话\N{\fs13\bord1}" That phrase comes to mind often in my field.{\r}
+Dialogue: 0,0:28:13.74,0:28:18.09,Default,,0000,0000,0000,,生命中有时候 总会希望世间万物都是可测的\N{\fs13\bord1}There have been times in my life where I wish everything was as predictable as you say,{\r}
+Dialogue: 0,0:28:18.37,0:28:21.29,Default,,0000,0000,0000,,但我相信你会发现这个世界的美好...\N{\fs13\bord1}but I think you'll find the world's a far more interesting place...{\r}
+Dialogue: 0,0:28:24.11,0:28:28.61,Default,,0000,0000,0000,,James! James! James!\N{\fs13\bord1}James!James! James!{\r}
+Dialogue: 0,0:28:39.65,0:28:40.84,Default,,0000,0000,0000,,你在做什么? 嗯?\N{\fs13\bord1}What are you doin'?Huh?{\r}
+Dialogue: 0,0:28:43.78,0:28:47.21,Default,,0000,0000,0000,,James\N{\fs13\bord1}James.James. James.{\r}
+Dialogue: 0,0:28:48.84,0:28:50.57,Default,,0000,0000,0000,,是我 我 Mac\N{\fs13\bord1}It's me.It's me.It's Mac.{\r}
+Dialogue: 0,0:28:54.13,0:28:57.01,Default,,0000,0000,0000,,- 我骑了一头牛   - 什么?\N{\fs13\bord1}- I rode a bull.   - You what?{\r}
+Dialogue: 0,0:28:58.75,0:29:00.69,Default,,0000,0000,0000,,一头牛\N{\fs13\bord1}A bull.{\r}
+Dialogue: 0,0:29:03.37,0:29:05.53,Default,,0000,0000,0000,,告诉我 把你知道的全告诉我\N{\fs13\bord1}You tell me.Tell me what you remember.{\r}
+Dialogue: 0,0:29:06.07,0:29:08.19,Default,,0000,0000,0000,,我骑了一头牛\N{\fs13\bord1}I rode a bull.{\r}
+Dialogue: 0,0:29:09.03,0:29:11.30,Default,,0000,0000,0000,,它没有脸\N{\fs13\bord1}It didn't have a face.{\r}
+Dialogue: 0,0:29:11.47,0:29:13.04,Default,,0000,0000,0000,,我记起来了\N{\fs13\bord1}I remember.{\r}
+Dialogue: 0,0:29:13.12,0:29:15.36,Default,,0000,0000,0000,,好 一头牛\N{\fs13\bord1}Okay. Okay. A bull.{\r}
+Dialogue: 0,0:29:27.65,0:29:29.01,Default,,0000,0000,0000,,城里只有两家\N{\fs13\bord1}Well,there's only two in the city.{\r}
+Dialogue: 0,0:29:29.07,0:29:30.90,Default,,0000,0000,0000,,另一家在布鲁克林\N{\fs13\bord1}The other one's in Brooklyn.{\r}
+Dialogue: 0,0:29:31.12,0:29:34.98,Default,,0000,0000,0000,,Danny跟那家的酒保聊过了 受害人没去过那里\N{\fs13\bord1}Danny already spoke to the bartender out there,so,no... no,our vics weren't there.{\r}
+Dialogue: 0,0:29:36.83,0:29:38.76,Default,,0000,0000,0000,,好的 没问题\N{\fs13\bord1}Yeah,will do.{\r}
+Dialogue: 0,0:29:40.91,0:29:42.20,Default,,0000,0000,0000,,生意怎样?\N{\fs13\bord1}Okay.How's it going?{\r}
+Dialogue: 0,0:29:43.51,0:29:45.58,Default,,0000,0000,0000,,慢点... 让我猜猜\N{\fs13\bord1}Wait... Let me guess.{\r}
+Dialogue: 0,0:29:45.62,0:29:50.14,Default,,0000,0000,0000,,来杯科斯莫 还是马蒂尼?\N{\fs13\bord1}Cosmo or... an appletini.{\r}
+Dialogue: 0,0:29:50.20,0:29:51.48,Default,,0000,0000,0000,,我也猜猜\N{\fs13\bord1}Let me guess.{\r}
+Dialogue: 0,0:29:51.53,0:29:54.45,Default,,0000,0000,0000,,来自长岛 可能是迪克斯山(纽约地名)\N{\fs13\bord1}Long Island,maybe Dix Hills.{\r}
+Dialogue: 0,0:29:54.49,0:29:56.71,Default,,0000,0000,0000,,经理逼我们这么说\N{\fs13\bord1}My manager makes us talk like that.{\r}
+Dialogue: 0,0:29:56.77,0:29:58.74,Default,,0000,0000,0000,,有事情问你\N{\fs13\bord1}Got a question for you.{\r}
+Dialogue: 0,0:29:58.83,0:30:00.34,Default,,0000,0000,0000,,记得这些小伙吗?\N{\fs13\bord1}Remember these guys?{\r}
+Dialogue: 0,0:30:00.83,0:30:03.37,Default,,0000,0000,0000,,记得 就昨晚\N{\fs13\bord1}Yeah. From last night.{\r}
+Dialogue: 0,0:30:03.42,0:30:05.47,Default,,0000,0000,0000,,几个大款 一掷千金\N{\fs13\bord1}They were,uh,big spenders,flashing a lot of cash.{\r}
+Dialogue: 0,0:30:05.51,0:30:07.50,Default,,0000,0000,0000,,他们... 他们玩得很开心\N{\fs13\bord1}They were,uh... They were really funny.{\r}
+Dialogue: 0,0:30:07.57,0:30:09.43,Default,,0000,0000,0000,,玩得很疯\N{\fs13\bord1}They got really wasted.{\r}
+Dialogue: 0,0:30:09.87,0:30:13.26,Default,,0000,0000,0000,,这个家伙还骑上了Pedro\N{\fs13\bord1}This guy here actually took on Pedro.{\r}
+Dialogue: 0,0:30:13.30,0:30:15.21,Default,,0000,0000,0000,,谁是Pedro?\N{\fs13\bord1}Who's Pedro?{\r}
+Dialogue: 0,0:30:16.53,0:30:18.49,Default,,0000,0000,0000,,骑到四级\N{\fs13\bord1}Rode him to level four.{\r}
+Dialogue: 0,0:30:29.16,0:30:31.32,Default,,0000,0000,0000,,对城里娃而言 相当不赖\N{\fs13\bord1}Pretty good for a city boy.{\r}
+Dialogue: 0,0:30:31.36,0:30:33.29,Default,,0000,0000,0000,,还记得他们什么时候进来的吗?\N{\fs13\bord1}You remember about what time they came in?{\r}
+Dialogue: 0,0:30:33.35,0:30:35.23,Default,,0000,0000,0000,,大概12:15\N{\fs13\bord1}Maybe 12:15.{\r}
+Dialogue: 0,0:30:35.27,0:30:36.70,Default,,0000,0000,0000,,有没有人嗑药?\N{\fs13\bord1}Any of them seem high?{\r}
+Dialogue: 0,0:30:36.74,0:30:38.04,Default,,0000,0000,0000,,不觉得\N{\fs13\bord1}I don't think so.{\r}
+Dialogue: 0,0:30:38.08,0:30:40.55,Default,,0000,0000,0000,,一起来的姑娘也没有嗑\N{\fs13\bord1}Neither were the,uh,girls they were with.{\r}
+Dialogue: 0,0:30:40.59,0:30:41.54,Default,,0000,0000,0000,,姑娘?\N{\fs13\bord1}What girls?{\r}
+Dialogue: 0,0:30:41.64,0:30:43.42,Default,,0000,0000,0000,,有2个姑娘...\N{\fs13\bord1}There were these two girls.They,uh...{\r}
+Dialogue: 0,0:30:43.46,0:30:45.32,Default,,0000,0000,0000,,给所有人买了一轮酒\N{\fs13\bord1}they ordered  a round of shots for everyone.{\r}
+Dialogue: 0,0:30:45.35,0:30:48.95,Default,,0000,0000,0000,,像是在3个小伙杯里放了点东西进去\N{\fs13\bord1}Come to think of it,they might have put  a little something extra  in three of the shots.{\r}
+Dialogue: 0,0:30:52.43,0:30:54.69,Default,,0000,0000,0000,,他们是遇见姑娘前还是之后喝醉的?\N{\fs13\bord1}So,were these guys pretty liquored up before they met the girls,or...?{\r}
+Dialogue: 0,0:30:54.72,0:30:57.75,Default,,0000,0000,0000,,他们不是在这里碰面的 一起进来的\N{\fs13\bord1}They didn't meet the girls here.They all walked in together.{\r}
+Dialogue: 0,0:30:59.01,0:31:02.26,Default,,0000,0000,0000,,- 谢谢你配合   - 很荣幸 帅哥\N{\fs13\bord1}- Thanks for your time.   - My pleasure... cowboy.{\r}
+Dialogue: 0,0:31:07.11,0:31:09.14,Default,,0000,0000,0000,,- Stell?   - 查到哪里了?\N{\fs13\bord1}- Stell?   - Where are we?{\r}
+Dialogue: 0,0:31:09.18,0:31:12.91,Default,,0000,0000,0000,,他们在12点和12:15之间搭上了 那2个姑娘\N{\fs13\bord1}They hooked up with the girls some time between 12:00 and 12:15 a.m.,{\r}
+Dialogue: 0,0:31:12.98,0:31:16.71,Default,,0000,0000,0000,,从摔跤场到酒吧就一段路\N{\fs13\bord1}which is a small window,considering they had to take a cab from the wrestling thing up to the bar.{\r}
+Dialogue: 0,0:31:16.87,0:31:19.14,Default,,0000,0000,0000,,老实跟你说 没啥头绪了\N{\fs13\bord1}But to be honest with you,I don't know where we are.{\r}
+Dialogue: 0,0:31:19.17,0:31:22.32,Default,,0000,0000,0000,,通知Danny 让他到第40街的 出租车库和我碰面\N{\fs13\bord1}Get a hold of Danny.Have him meet me at the cab depot on 40th.{\r}
+Dialogue: 0,0:31:22.37,0:31:23.34,Default,,0000,0000,0000,,出租车库?\N{\fs13\bord1}Cab depot?{\r}
+Dialogue: 0,0:31:23.38,0:31:25.64,Default,,0000,0000,0000,,记得死者衬衫上的污迹吗?\N{\fs13\bord1}Remember the unknown trace on our vics' shirts?{\r}
+Dialogue: 0,0:31:25.69,0:31:27.12,Default,,0000,0000,0000,,那是防冻剂\N{\fs13\bord1}It's antifreeze.{\r}
+Dialogue: 0,0:31:27.15,0:31:30.97,Default,,0000,0000,0000,,另外 Sid发现其中一个死者肩上 有安全带的擦伤\N{\fs13\bord1}Plus,Sid told us  that one of the vics had a bruise on his shoulder from a seat belt.{\r}
+Dialogue: 0,0:31:30.99,0:31:34.24,Default,,0000,0000,0000,,我想他们遇到了车祸 而且程度不轻\N{\fs13\bord1}I'm thinking they got into an accident,and it wasn't just a fender-bender.{\r}
+Dialogue: 0,0:31:34.29,0:31:36.09,Default,,0000,0000,0000,,我们在找一辆损伤严重的出租车\N{\fs13\bord1}We're looking for a pretty banged-up cab.{\r}
+Dialogue: 0,0:31:36.15,0:31:37.86,Default,,0000,0000,0000,,发现什么告诉我\N{\fs13\bord1}All right,let me know what you find.{\r}
+Dialogue: 0,0:31:42.41,0:31:43.57,Default,,0000,0000,0000,,很不寻常\N{\fs13\bord1}Strangest thing.{\r}
+Dialogue: 0,0:31:43.63,0:31:45.27,Default,,0000,0000,0000,,如何见得?\N{\fs13\bord1}Came out of nowhere.{\r}
+Dialogue: 0,0:31:45.34,0:31:46.46,Default,,0000,0000,0000,,街灯柱?\N{\fs13\bord1}The lamppost?{\r}
+Dialogue: 0,0:31:46.51,0:31:48.60,Default,,0000,0000,0000,,- 无缘无故地撞上了街灯柱?   - 没错\N{\fs13\bord1}- The lamppost came out of nowhere?   - Right.{\r}
+Dialogue: 0,0:31:48.63,0:31:51.59,Default,,0000,0000,0000,,冲上人行道时就很可能撞到\N{\fs13\bord1}They have a tendency to do that when you're driving up on the sidewalk.{\r}
+Dialogue: 0,0:31:51.62,0:31:52.95,Default,,0000,0000,0000,,就是这么回事\N{\fs13\bord1}This is what I'm saying.{\r}
+Dialogue: 0,0:31:52.99,0:31:55.55,Default,,0000,0000,0000,,Gordon先生 你没有报告车祸\N{\fs13\bord1}Mr.Gordon,you never reported the car accident.{\r}
+Dialogue: 0,0:31:55.59,0:31:56.63,Default,,0000,0000,0000,,有什么理由吗?\N{\fs13\bord1}Is there a reason for that?{\r}
+Dialogue: 0,0:31:56.66,0:31:58.58,Default,,0000,0000,0000,,我现在不就在说嘛\N{\fs13\bord1}I'm reporting it to you now.{\r}
+Dialogue: 0,0:31:59.06,0:32:01.27,Default,,0000,0000,0000,,听着 你认识这些小伙吗?\N{\fs13\bord1}Look,do you remember these guys?{\r}
+Dialogue: 0,0:32:02.39,0:32:05.32,Default,,0000,0000,0000,,昨晚你在Ludlow附近酒吧放下了他们\N{\fs13\bord1}You dropped them off at a bar over on Ludlow last night.{\r}
+Dialogue: 0,0:32:05.37,0:32:06.92,Default,,0000,0000,0000,,貌似是这么回事\N{\fs13\bord1}Something like that.{\r}
+Dialogue: 0,0:32:06.98,0:32:08.24,Default,,0000,0000,0000,,貌似是这么回事\N{\fs13\bord1}"Something like that.{\r}
+Dialogue: 0,0:32:08.28,0:32:10.44,Default,,0000,0000,0000,,认识她们不? 她们也在一起吗?\N{\fs13\bord1}" You remember these girls?Were they with them?{\r}
+Dialogue: 0,0:32:14.53,0:32:16.59,Default,,0000,0000,0000,,我的耐心快用完了 Gerald\N{\fs13\bord1}I'm losing my patience here,Gerald.{\r}
+Dialogue: 0,0:32:16.63,0:32:18.78,Default,,0000,0000,0000,,老实交代 否则以违规驾驶拘留你\N{\fs13\bord1}Tell us what you know,or I'm gonna lock you up for reckless driving.{\r}
+Dialogue: 0,0:32:18.81,0:32:20.61,Default,,0000,0000,0000,,- 你不能这么做   - 试试看\N{\fs13\bord1}- You-You can't do that.- Watch us.{\r}
+Dialogue: 0,0:32:20.66,0:32:26.79,Default,,0000,0000,0000,,我说不能 是因为当时不是我在开车\N{\fs13\bord1}No,no,I mean,you can't because,uh,I wasn't the one driving.{\r}
+Dialogue: 0,0:32:33.46,0:32:35.09,Default,,0000,0000,0000,,别管了\N{\fs13\bord1}Get outta here.{\r}
+Dialogue: 0,0:32:35.17,0:32:37.24,Default,,0000,0000,0000,,快走!\N{\fs13\bord1}Just go!{\r}
+Dialogue: 0,0:32:39.33,0:32:43.68,Default,,0000,0000,0000,,他们塞给我100块车费和1500块赔偿金\N{\fs13\bord1}They gave me a hundred bucks  to drive the cab and...  another $1,500 for the damage.{\r}
+Dialogue: 0,0:32:43.71,0:32:47.04,Default,,0000,0000,0000,,1600块就收买你了?\N{\fs13\bord1}$1,600 to flush your medallion down the toilet?{\r}
+Dialogue: 0,0:32:47.11,0:32:49.21,Default,,0000,0000,0000,,就是这么回事\N{\fs13\bord1}This is what I'm saying.{\r}
+Dialogue: 0,0:32:50.06,0:32:51.48,Default,,0000,0000,0000,,好家伙 Gerald\N{\fs13\bord1}Good man,Gerald.{\r}
+Dialogue: 0,0:32:51.52,0:32:53.74,Default,,0000,0000,0000,,他车里装了摄像头\N{\fs13\bord1}He's got security cameras in here.{\r}
+Dialogue: 0,0:32:56.66,0:32:58.66,Default,,0000,0000,0000,,难以想象我居然跟侏儒摔跤!\N{\fs13\bord1}I can't believe I wrestled a midget!{\r}
+Dialogue: 0,0:32:58.69,0:33:00.79,Default,,0000,0000,0000,,小矮人!\N{\fs13\bord1}Little person.God!{\r}
+Dialogue: 0,0:33:00.85,0:33:03.19,Default,,0000,0000,0000,,鬼才信我居然跟小矮人摔跤\N{\fs13\bord1}I can't believe I wrestled a little person.{\r}
+Dialogue: 0,0:33:05.42,0:33:07.18,Default,,0000,0000,0000,,叫上这两个妞\N{\fs13\bord1}Pick up these girls.{\r}
+Dialogue: 0,0:33:07.24,0:33:08.51,Default,,0000,0000,0000,,别 别\N{\fs13\bord1}No,no.{\r}
+Dialogue: 0,0:33:08.56,0:33:10.82,Default,,0000,0000,0000,,别担心 Gerald 不管你的事\N{\fs13\bord1}Relax,Gerald,you're off duty.{\r}
+Dialogue: 0,0:33:10.88,0:33:12.28,Default,,0000,0000,0000,,停在那里\N{\fs13\bord1}Freeze it right there.{\r}
+Dialogue: 0,0:33:12.34,0:33:14.15,Default,,0000,0000,0000,,看看是否吻合\N{\fs13\bord1}Let's see if they match.{\r}
+Dialogue: 0,0:33:15.10,0:33:17.02,Default,,0000,0000,0000,,那是Lacey Deshane\N{\fs13\bord1}That's Lacey Deshane.{\r}
+Dialogue: 0,0:33:17.37,0:33:19.55,Default,,0000,0000,0000,,这是Jackie Wright\N{\fs13\bord1}And that's Jackie Wright.{\r}
+Dialogue: 0,0:33:19.60,0:33:22.44,Default,,0000,0000,0000,,他们就随随便便搭上这两个姑娘?\N{\fs13\bord1}So they just randomly picked up these girls last night?{\r}
+Dialogue: 0,0:33:22.53,0:33:24.18,Default,,0000,0000,0000,,看起来是\N{\fs13\bord1}Looks that way.{\r}
+Dialogue: 0,0:33:24.22,0:33:27.01,Default,,0000,0000,0000,,真够背的 这辆车\N{\fs13\bord1}Man,that's some bad luck.Of all the cabs.{\r}
+Dialogue: 0,0:33:27.15,0:33:28.22,Default,,0000,0000,0000,,美女去哪儿?\N{\fs13\bord1}Where you headed?{\r}
+Dialogue: 0,0:33:28.26,0:33:29.66,Default,,0000,0000,0000,,就随你们\N{\fs13\bord1}Wherever you guys are going.{\r}
+Dialogue: 0,0:33:29.71,0:33:32.93,Default,,0000,0000,0000,,- 进来吧   - 好的\N{\fs13\bord1}- Get in.   - All right.{\r}
+Dialogue: 0,0:33:32.98,0:33:34.29,Default,,0000,0000,0000,,怎么样?\N{\fs13\bord1}What's up?{\r}
+Dialogue: 0,0:33:34.32,0:33:37.17,Default,,0000,0000,0000,,- 要不我们去...   - 赶紧开车!\N{\fs13\bord1}- What do you say we hit...   - Just drive!{\r}
+Dialogue: 0,0:33:37.24,0:33:38.98,Default,,0000,0000,0000,,这两个姑娘不知道去哪里\N{\fs13\bord1}Okay.Those girls didn't know what they were in for.{\r}
+Dialogue: 0,0:33:39.03,0:33:41.86,Default,,0000,0000,0000,,但她们知道怎么给小伙们下LSD\N{\fs13\bord1}Well,they knew enough to slip the guys some LSD.{\r}
+Dialogue: 0,0:33:43.14,0:33:45.49,Default,,0000,0000,0000,,估计是盯上了他们手里的钱\N{\fs13\bord1}Most likely to get their hands on the cash.{\r}
+Dialogue: 0,0:33:46.88,0:33:49.82,Default,,0000,0000,0000,,倒回去停车的地方\N{\fs13\bord1}Can you go back to where the cab first pulls over?{\r}
+Dialogue: 0,0:33:50.50,0:33:52.14,Default,,0000,0000,0000,,就这里\N{\fs13\bord1}Right there.{\r}
+Dialogue: 0,0:33:52.19,0:33:54.04,Default,,0000,0000,0000,,Jackie把什么东西放进了包里\N{\fs13\bord1}Jackie puts something in her purse.{\r}
+Dialogue: 0,0:33:54.09,0:33:55.68,Default,,0000,0000,0000,,放到最大\N{\fs13\bord1}How close can you get?{\r}
+Dialogue: 0,0:33:56.07,0:33:57.81,Default,,0000,0000,0000,,看看\N{\fs13\bord1}Let's see.{\r}
+Dialogue: 0,0:33:58.04,0:34:00.13,Default,,0000,0000,0000,,像是一把枪\N{\fs13\bord1}That looks like a gun.{\r}
+Dialogue: 0,0:34:00.19,0:34:03.70,Default,,0000,0000,0000,,她们刚从这房子出来 肯定有鬼\N{\fs13\bord1}They came from right here.Something happened up in that apartment.{\r}
+Dialogue: 0,0:34:14.95,0:34:17.05,Default,,0000,0000,0000,,好吧 我来说\N{\fs13\bord1}Uh,all right,I'll start.{\r}
+Dialogue: 0,0:34:17.39,0:34:21.61,Default,,0000,0000,0000,,我和我搭档正在给纽约警署招人\N{\fs13\bord1}Me and my partner here are recruiting on behalf of the NYPD.{\r}
+Dialogue: 0,0:34:21.66,0:34:24.29,Default,,0000,0000,0000,,找几个可靠的卧底\N{\fs13\bord1}Looking for a couple of good guys to do some undercover work.{\r}
+Dialogue: 0,0:34:24.34,0:34:28.36,Default,,0000,0000,0000,,混进人堆里就找不到的那种\N{\fs13\bord1}You know,inconspicuous types who blend in.{\r}
+Dialogue: 0,0:34:28.49,0:34:31.37,Default,,0000,0000,0000,,你看起来挺合适 有没有兴趣?\N{\fs13\bord1}We think you got what it takes.You interested?{\r}
+Dialogue: 0,0:34:31.55,0:34:33.40,Default,,0000,0000,0000,,让他们进来\N{\fs13\bord1}Let 'em in.{\r}
+Dialogue: 0,0:34:38.95,0:34:40.49,Default,,0000,0000,0000,,想要什么?\N{\fs13\bord1}What you two want?{\r}
+Dialogue: 0,0:34:41.58,0:34:43.33,Default,,0000,0000,0000,,真对不住\N{\fs13\bord1}Oh,I'm sorry.{\r}
+Dialogue: 0,0:34:43.38,0:34:45.22,Default,,0000,0000,0000,,招待不周\N{\fs13\bord1}Where're my manners at?{\r}
+Dialogue: 0,0:34:45.25,0:34:47.64,Default,,0000,0000,0000,,不坐下再说?\N{\fs13\bord1}Why don't you boys have a seat?{\r}
+Dialogue: 0,0:34:48.28,0:34:50.20,Default,,0000,0000,0000,,看起来像是枪伤\N{\fs13\bord1}That looks like a gunshot wound.{\r}
+Dialogue: 0,0:34:50.25,0:34:52.40,Default,,0000,0000,0000,,伙计 你没事吧?\N{\fs13\bord1}You all right there,chief?{\r}
+Dialogue: 0,0:34:52.48,0:34:54.35,Default,,0000,0000,0000,,小伤而已\N{\fs13\bord1}It ain't nothin'.{\r}
+Dialogue: 0,0:34:54.41,0:34:56.68,Default,,0000,0000,0000,,这样才够爷儿们\N{\fs13\bord1}Mama said there'd be days like this.{\r}
+Dialogue: 0,0:34:56.72,0:34:59.73,Default,,0000,0000,0000,,说说Jackie Wright和Lacey Deshane\N{\fs13\bord1}Tell us about Jackie Wright and Lacey Deshane.{\r}
+Dialogue: 0,0:34:59.78,0:35:01.10,Default,,0000,0000,0000,,这两个婊子死了?\N{\fs13\bord1}Ain't them bitches dead?{\r}
+Dialogue: 0,0:35:01.12,0:35:02.74,Default,,0000,0000,0000,,是啊 你都知道些什么?\N{\fs13\bord1}Yeah,what do you know about that?{\r}
+Dialogue: 0,0:35:02.77,0:35:05.17,Default,,0000,0000,0000,,不比你多 我想是这样\N{\fs13\bord1}Same as you,I suppose.{\r}
+Dialogue: 0,0:35:05.22,0:35:08.35,Default,,0000,0000,0000,,我的眼线在城里到处都是\N{\fs13\bord1}I got eyes and ears all over this city.{\r}
+Dialogue: 0,0:35:08.40,0:35:13.85,Default,,0000,0000,0000,,有个疯子扮Paul Bunyan杀了那些姑娘 (北美传说中的伐木巨人)\N{\fs13\bord1}Some crazy bastard went all Paul Bunyan on them girls.{\r}
+Dialogue: 0,0:35:14.51,0:35:16.42,Default,,0000,0000,0000,,那你就是他的蓝色斧头Babe了\N{\fs13\bord1}So that makes you Babe the Blue Ox.{\r}
+Dialogue: 0,0:35:16.46,0:35:21.01,Default,,0000,0000,0000,,她们昨晚离开这套公寓的 我们清楚Jackie还带了枪\N{\fs13\bord1}They left this building last night.We know that Jackie was carrying a gun.{\r}
+Dialogue: 0,0:35:21.84,0:35:23.66,Default,,0000,0000,0000,,那里是怎么回事?\N{\fs13\bord1}Now why would that be?{\r}
+Dialogue: 0,0:35:24.08,0:35:25.74,Default,,0000,0000,0000,,我也不知道\N{\fs13\bord1}I don't know.{\r}
+Dialogue: 0,0:35:25.79,0:35:28.10,Default,,0000,0000,0000,,也许是教女无方?\N{\fs13\bord1}Bad parenting,maybe?{\r}
+Dialogue: 0,0:35:28.69,0:35:31.43,Default,,0000,0000,0000,,她应该清楚 不能玩枪的\N{\fs13\bord1}She should know better than to play with guns.{\r}
+Dialogue: 0,0:35:31.48,0:35:33.36,Default,,0000,0000,0000,,没错 你还真是模范老爸\N{\fs13\bord1}Yeah,you're quite the role model.{\r}
+Dialogue: 0,0:35:33.42,0:35:37.34,Default,,0000,0000,0000,,嗨 听清楚了 Sipowicz (美剧里的警探名)\N{\fs13\bord1}Hey,check this out,Sipowicz.{\r}
+Dialogue: 0,0:35:37.38,0:35:40.79,Default,,0000,0000,0000,,我对她们的只有爱 懂没?\N{\fs13\bord1}I had nothing but love for them girls.Huh?{\r}
+Dialogue: 0,0:35:40.83,0:35:44.45,Default,,0000,0000,0000,,我给她们钱 给她们填饱肚子\N{\fs13\bord1}I put money in their pockets,food in their mouths.{\r}
+Dialogue: 0,0:35:44.48,0:35:47.06,Default,,0000,0000,0000,,现在发生的一切 真是奇耻大辱\N{\fs13\bord1}So it's a crying shame what happened.{\r}
+Dialogue: 0,0:35:47.09,0:35:52.84,Default,,0000,0000,0000,,如果你们逮捕凶犯 我会非常高兴\N{\fs13\bord1}When I heard you arrested someone,I was a happy man.{\r}
+Dialogue: 0,0:35:53.83,0:35:59.46,Default,,0000,0000,0000,,不过 现在 我在想...一切都变了\N{\fs13\bord1}But see,now,I'm thinking... Things has changed.{\r}
+Dialogue: 0,0:36:00.78,0:36:02.91,Default,,0000,0000,0000,,那男孩是目击证人吗?\N{\fs13\bord1}That boy a witness?{\r}
+Dialogue: 0,0:36:06.67,0:36:08.08,Default,,0000,0000,0000,,好了\N{\fs13\bord1}All right.{\r}
+Dialogue: 0,0:36:09.37,0:36:11.68,Default,,0000,0000,0000,,我和你们谈完了\N{\fs13\bord1}I'm done with you two.{\r}
+Dialogue: 0,0:36:12.36,0:36:16.62,Default,,0000,0000,0000,,现在你们可以滚出我家了\N{\fs13\bord1}Now get your asses out of my house.{\r}
+Dialogue: 0,0:36:19.21,0:36:20.58,Default,,0000,0000,0000,,他的名字是 Rufus Knox\N{\fs13\bord1}DANNY: His name's Rufus Knox.{\r}
+Dialogue: 0,0:36:20.64,0:36:23.04,Default,,0000,0000,0000,,毒贩 母亲是妓女\N{\fs13\bord1}Drug dealer,twitchy son of a bitch.{\r}
+Dialogue: 0,0:36:23.11,0:36:24.54,Default,,0000,0000,0000,,他和那两姑娘什么关系?\N{\fs13\bord1}What's his connection to the girls?{\r}
+Dialogue: 0,0:36:24.56,0:36:27.36,Default,,0000,0000,0000,,她们为他在地下夜总会售毒\N{\fs13\bord1}They worked for him selling drugs in an underground nightclub.{\r}
+Dialogue: 0,0:36:27.40,0:36:30.01,Default,,0000,0000,0000,,Rufus也是她们前两次被捕的保释者\N{\fs13\bord1}Rufus also bailed them out on their last two arrests.{\r}
+Dialogue: 0,0:36:30.06,0:36:34.64,Default,,0000,0000,0000,,这么说他们之间的关系闹僵了 姑娘们冲他脸上开了一枪 然后跑路\N{\fs13\bord1}Okay,so the relationship goes south,the girls put a bullet in his face and then take off.{\r}
+Dialogue: 0,0:36:34.72,0:36:38.14,Default,,0000,0000,0000,,正好遇到James和他朋友开着的士路过\N{\fs13\bord1}Right when James and his buddies drive by in the cab.{\r}
+Dialogue: 0,0:36:38.28,0:36:40.25,Default,,0000,0000,0000,,没有目击证人的话 这些都是间接证据\N{\fs13\bord1}Without a witness,it's all circumstantial.{\r}
+Dialogue: 0,0:36:40.30,0:36:44.75,Default,,0000,0000,0000,,这可不是间接证据 激光显微切割法 确认了斧柄上的上皮细胞DNA...\N{\fs13\bord1}Nothing circumstantial about this: Laser micro-dissection identified the epithelials  on the ax handle.{\r}
+Dialogue: 0,0:36:44.78,0:36:47.88,Default,,0000,0000,0000,,属于Rufus Knox 已让地检申请搜查令了\N{\fs13\bord1}DNA belongs to Rufus Knox.Already called the DA for a warrant.{\r}
+Dialogue: 0,0:36:47.93,0:36:49.81,Default,,0000,0000,0000,,- 太棒了   - 嗯 我们行动吧\N{\fs13\bord1}- Bingo.   - All right,let's move.{\r}
+Dialogue: 0,0:36:56.42,0:36:57.85,Default,,0000,0000,0000,,进去 进去 进去!\N{\fs13\bord1}Move,move,move!{\r}
+Dialogue: 0,0:37:01.97,0:37:02.92,Default,,0000,0000,0000,,这里没有人\N{\fs13\bord1}There's no one here.{\r}
+Dialogue: 0,0:37:02.97,0:37:05.17,Default,,0000,0000,0000,,只有我 我发誓\N{\fs13\bord1}It's just me,I swear.{\r}
+Dialogue: 0,0:37:08.78,0:37:09.80,Default,,0000,0000,0000,,安全\N{\fs13\bord1}We're all clear.{\r}
+Dialogue: 0,0:37:09.86,0:37:11.52,Default,,0000,0000,0000,,什么都没有\N{\fs13\bord1}Nothing.{\r}
+Dialogue: 0,0:37:12.65,0:37:16.49,Default,,0000,0000,0000,,他在哪? 他去哪里了?!\N{\fs13\bord1}Where is he? Where is he?!{\r}
+Dialogue: 0,0:38:10.70,0:38:12.10,Default,,0000,0000,0000,,趴下! 趴下!\N{\fs13\bord1}Get down! Get down!{\r}
+Dialogue: 0,0:38:35.00,0:38:37.19,Default,,0000,0000,0000,,你认为我只是在胡闹 哈?\N{\fs13\bord1}You think I'm pissing around here,huh?{\r}
+Dialogue: 0,0:38:37.23,0:38:38.60,Default,,0000,0000,0000,,你这SB小子!\N{\fs13\bord1}You punk-ass kid!{\r}
+Dialogue: 0,0:38:38.63,0:38:40.90,Default,,0000,0000,0000,,连根头发都别想动!\N{\fs13\bord1}Don't you move a hair on your head!{\r}
+Dialogue: 0,0:38:43.29,0:38:45.92,Default,,0000,0000,0000,,James!James!\N{\fs13\bord1}James!James!{\r}
+Dialogue: 0,0:38:46.48,0:38:50.33,Default,,0000,0000,0000,,别开枪 James 别开枪 孩子\N{\fs13\bord1}Don't do it,James. Don't do it,son.{\r}
+Dialogue: 0,0:38:52.24,0:38:54.82,Default,,0000,0000,0000,,听好警察的话 孩子\N{\fs13\bord1}Listen to the nice police officer,kid.{\r}
+Dialogue: 0,0:38:58.71,0:39:02.48,Default,,0000,0000,0000,,姑娘们...你们这些疯婊子\N{\fs13\bord1}Girls... you some crazy-ass bitches.{\r}
+Dialogue: 0,0:39:02.53,0:39:04.14,Default,,0000,0000,0000,,你们想要离开 哈?\N{\fs13\bord1}Yeah,you want out,huh?{\r}
+Dialogue: 0,0:39:04.16,0:39:06.85,Default,,0000,0000,0000,,你们想走 那就让你们心满意足!\N{\fs13\bord1}Oh,well,you want out,well,you got it!{\r}
+Dialogue: 0,0:39:06.92,0:39:09.07,Default,,0000,0000,0000,,你就在那里\N{\fs13\bord1}You were there.{\r}
+Dialogue: 0,0:39:12.18,0:39:14.16,Default,,0000,0000,0000,,你杀死了我的朋友们\N{\fs13\bord1}You killed my friends.{\r}
+Dialogue: 0,0:39:14.24,0:39:16.12,Default,,0000,0000,0000,,把枪放下 James\N{\fs13\bord1}Put the gun down,James.{\r}
+Dialogue: 0,0:39:17.79,0:39:19.86,Default,,0000,0000,0000,,你不想这么做的 相信我 孩子\N{\fs13\bord1}You don't want to do this.Trust me,son.{\r}
+Dialogue: 0,0:39:21.96,0:39:25.32,Default,,0000,0000,0000,,我得告诉你们--这个结局很好\N{\fs13\bord1}I'm gon' tell ya-- this gon' be good.{\r}
+Dialogue: 0,0:39:26.57,0:39:30.02,Default,,0000,0000,0000,,放下枪! 放下枪\N{\fs13\bord1}Lower the gun! Lower the gun.{\r}
+Dialogue: 0,0:39:34.96,0:39:38.41,Default,,0000,0000,0000,,跪在地上 跪在地上!\N{\fs13\bord1}On your knees. On your knees!{\r}
+Dialogue: 0,0:39:39.43,0:39:41.80,Default,,0000,0000,0000,,双手放在脑后 快点!\N{\fs13\bord1}Hands behind your head.Do it!{\r}
+Dialogue: 0,0:39:41.88,0:39:44.55,Default,,0000,0000,0000,,转过身去 转身!\N{\fs13\bord1}Turn around.Turn around!{\r}
+Dialogue: 0,0:40:04.97,0:40:07.77,Default,,0000,0000,0000,,她吓得魂都没了 但还是录了口供\N{\fs13\bord1}She's scared out of her mind,but she's talking.{\r}
+Dialogue: 0,0:40:08.05,0:40:11.23,Default,,0000,0000,0000,,显然两个女性死者想退出毒品买卖\N{\fs13\bord1}Apparently our two female vics wanted out of the drug business.{\r}
+Dialogue: 0,0:40:11.59,0:40:14.44,Default,,0000,0000,0000,,我只想重新开始 你明白吗?\N{\fs13\bord1}I just want to start over,you know?{\r}
+Dialogue: 0,0:40:14.48,0:40:15.82,Default,,0000,0000,0000,,我有朋友住在加州-\N{\fs13\bord1}I got a friend that lives out in Califor-{\r}
+Dialogue: 0,0:40:15.86,0:40:19.35,Default,,0000,0000,0000,,帮帮忙闭上你们的嘴巴!\N{\fs13\bord1}Do yourself a favor just shut your mouth!{\r}
+Dialogue: 0,0:40:20.17,0:40:22.71,Default,,0000,0000,0000,,在我为你们做了这么多后\N{\fs13\bord1}After all I done for you.{\r}
+Dialogue: 0,0:40:23.41,0:40:26.85,Default,,0000,0000,0000,,你们想离开\N{\fs13\bord1}You just want out.{\r}
+Dialogue: 0,0:40:26.91,0:40:29.33,Default,,0000,0000,0000,,就想那样做\N{\fs13\bord1}Just like that.{\r}
+Dialogue: 0,0:40:40.82,0:40:49.02,Default,,0000,0000,0000,,我开始感觉 我没受到应有的尊重\N{\fs13\bord1}You know,I'm starting to get the distinct feeling here that I'm a little underappreciated.{\r}
+Dialogue: 0,0:40:57.28,0:41:01.56,Default,,0000,0000,0000,,Rufus手下的一个姑娘看到他们和James 及他的朋友们进了饭店\N{\fs13\bord1}One of Rufus' girls  spotted them going into the hotel with James  and their friends.{\r}
+Dialogue: 0,0:41:06.53,0:41:08.92,Default,,0000,0000,0000,,James的朋友们是附带伤害\N{\fs13\bord1}James' friends  were collateral damage.{\r}
+Dialogue: 0,0:41:08.98,0:41:12.78,Default,,0000,0000,0000,,是啊 本来他也会没命 幸亏他躲在浴室\N{\fs13\bord1}Yeah.Well,he would've been,too,if he hadn't been in the bathroom.{\r}
+Dialogue: 0,0:41:13.18,0:41:15.25,Default,,0000,0000,0000,,Rufus 不会留下任何目击证人\N{\fs13\bord1}Rufus wasn't leaving any witnesses.{\r}
+Dialogue: 0,0:41:15.33,0:41:17.75,Default,,0000,0000,0000,,这种时间上的巧合太难以置信了\N{\fs13\bord1}The timing on this thing is unbelievable.{\r}
+Dialogue: 0,0:41:17.80,0:41:21.71,Default,,0000,0000,0000,,两姑娘冲出公寓时 刚好他们开车路过\N{\fs13\bord1}Driving up in the cab just as the girls ran out of the apartment.{\r}
+Dialogue: 0,0:41:21.81,0:41:23.85,Default,,0000,0000,0000,,然后发生了后面的事 这种概率有多大?\N{\fs13\bord1}The sequence of events,I mean,what are the odds?{\r}
+Dialogue: 0,0:41:23.89,0:41:26.11,Default,,0000,0000,0000,,无巧不成书\N{\fs13\bord1}Worlds colliding.{\r}
+Dialogue: 0,0:41:35.80,0:41:37.68,Default,,0000,0000,0000,,感觉怎么样?\N{\fs13\bord1}How you feeling?{\r}
+Dialogue: 0,0:41:41.03,0:41:42.57,Default,,0000,0000,0000,,内疚\N{\fs13\bord1}Guilty.{\r}
+Dialogue: 0,0:41:43.76,0:41:47.60,Default,,0000,0000,0000,,就像...就像这一切都是我的错\N{\fs13\bord1}Like... this is all my fault.{\r}
+Dialogue: 0,0:41:49.16,0:41:51.87,Default,,0000,0000,0000,,因为我的关系 我的好友都死了\N{\fs13\bord1}My best friends are all dead because of me.{\r}
+Dialogue: 0,0:41:51.95,0:41:54.58,Default,,0000,0000,0000,,不是这样的 James\N{\fs13\bord1}That's not true,James.{\r}
+Dialogue: 0,0:41:54.80,0:41:57.26,Default,,0000,0000,0000,,这就是生活 它总是不断给你意外\N{\fs13\bord1}This is life.It throws things at you.{\r}
+Dialogue: 0,0:41:57.31,0:41:59.56,Default,,0000,0000,0000,,有些是福 有些是祸\N{\fs13\bord1}Some good,some bad.{\r}
+Dialogue: 0,0:41:59.62,0:42:06.24,Default,,0000,0000,0000,,没人能预知未来 哪怕你是爱因斯坦\N{\fs13\bord1}No one could have predicted what happened,not even if you're Albert Einstein.{\r}
+Dialogue: 0,0:42:06.51,0:42:09.19,Default,,0000,0000,0000,,那我现在该干什么?\N{\fs13\bord1}So what do I do now?{\r}
+Dialogue: 0,0:42:09.36,0:42:11.34,Default,,0000,0000,0000,,你刚刚经受了一场重创\N{\fs13\bord1}You've been through a major trauma.{\r}
+Dialogue: 0,0:42:11.40,0:42:13.04,Default,,0000,0000,0000,,它很难恢复的\N{\fs13\bord1}It's gonna be tough.{\r}
+Dialogue: 0,0:42:13.10,0:42:16.40,Default,,0000,0000,0000,,所以别假装知道所有答案\N{\fs13\bord1}So don't pretend to have all the answers.{\r}
+Dialogue: 0,0:42:17.23,0:42:19.46,Default,,0000,0000,0000,,去和别人谈谈\N{\fs13\bord1}You talk to people.{\r}
+Dialogue: 0,0:42:19.52,0:42:22.80,Default,,0000,0000,0000,,如果你有什么感觉 就说出来\N{\fs13\bord1}You're feeling something,you reach out.{\r}
+Dialogue: 0,0:42:23.39,0:42:26.23,Default,,0000,0000,0000,,依靠那些爱你的人们\N{\fs13\bord1}Depend on the people who love you.{\r}
+Dialogue: 0,0:42:27.22,0:42:29.09,Default,,0000,0000,0000,,你会好起来的\N{\fs13\bord1}You'll be all right.{\r}
+Dialogue: 0,0:42:38.84,0:42:40.53,Default,,0000,0000,0000,,嗨 妈妈 爸爸\N{\fs13\bord1}Hey,Mom,hey,Dad.{\r}
+Dialogue: 0,0:42:49.35,0:42:51.43,Default,,0000,0000,0000,,- 宝贝...   - 上帝 我想你们\N{\fs13\bord1}- Oh,baby...   - God,I missed you.{\r}
+Dialogue: 0,0:42:58.57,0:43:01.11,Default,,0000,0000,0000,,我真高兴 我们回家吧\N{\fs13\bord1}Oh,I'm so dang happy.Let's go home.{\r}
+Dialogue: 0,0:43:03.17,0:43:08.43,Default,,0000,0000,0000,,犯罪现场调查 纽约篇 第六季 第16集 Uncertainty Rules\N{\fs13\bord1}CSI:ny Season6 Episode 16 Uncertainty Rules{\r}
+
+

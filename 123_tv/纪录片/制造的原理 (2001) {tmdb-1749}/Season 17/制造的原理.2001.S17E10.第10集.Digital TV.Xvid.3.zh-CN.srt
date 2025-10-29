@@ -1,0 +1,1075 @@
+1
+00:00:00,480 --> 00:00:02,530
+Welcome back to Logic Language and
+Information.
+
+2
+00:00:02,530 --> 00:00:04,470
+And to this, the final in a series
+
+3
+00:00:04,470 --> 00:00:08,190
+of lessons on sequential digital systems
+and their logic.
+
+4
+00:00:09,250 --> 00:00:13,640
+First, we restate the multiple roles of
+logic here.
+
+5
+00:00:13,640 --> 00:00:17,535
+We can formalize system specifications and
+prove
+
+6
+00:00:17,535 --> 00:00:20,649
+they're equivalents of different versions
+of specifications.
+
+7
+00:00:21,920 --> 00:00:24,910
+We can formalize system descriptions of
+next-state and
+
+8
+00:00:24,910 --> 00:00:27,830
+output in terms of current-state and
+current input.
+
+9
+00:00:28,900 --> 00:00:32,380
+And then, using the work we did last
+lesson on validities of temporal
+
+10
+00:00:32,380 --> 00:00:35,210
+logic, we can reformulate the system
+
+11
+00:00:35,210 --> 00:00:39,040
+description into an equivalent past
+focused form.
+
+12
+00:00:39,040 --> 00:00:41,380
+Characterizing current state and output in
+
+13
+00:00:41,380 --> 00:00:43,720
+terms of previous state and previous
+input.
+
+14
+00:00:45,360 --> 00:00:50,090
+Formal verification in the logic then
+amounts to showing validity status for
+
+15
+00:00:50,090 --> 00:00:54,920
+formulas of the form Box D sys only if Box
+A spec.
+
+16
+00:00:57,410 --> 00:00:59,400
+To begin with, an exercise for you in
+
+17
+00:00:59,400 --> 00:01:03,430
+translating specifications into the
+language of temporal logic.
+
+18
+00:01:04,520 --> 00:01:09,650
+Consider a clocked sequential system with
+two 1-bit inputs,
+
+19
+00:01:09,650 --> 00:01:14,260
+p1 and p2, and one 1-bit output, z, such
+that.
+
+20
+00:01:14,260 --> 00:01:18,400
+For all times n, the output z is 1 and
+time
+
+21
+00:01:18,400 --> 00:01:22,480
+n if and only if time n is at least 3.
+
+22
+00:01:22,480 --> 00:01:29,340
+And the inputs p1 and p2 are the same
+value at times
+
+23
+00:01:29,340 --> 00:01:36,482
+n minus 1 and n minus 3, and are the
+opposite value at times, time n minus 2.
+
+24
+00:01:37,790 --> 00:01:42,540
+So, which of these formulas express this
+functional description?
+
+25
+00:01:44,130 --> 00:01:44,480
+Have a go.
+
+26
+00:01:44,480 --> 00:01:48,420
+[BLANK_AUDIO]
+
+27
+00:01:48,420 --> 00:01:49,210
+So, how did you go?
+
+28
+00:01:51,060 --> 00:01:53,430
+Formula a is not correct.
+
+29
+00:01:53,430 --> 00:01:58,650
+Because the conjunction p1 and p2 does not
+capture
+
+30
+00:01:58,650 --> 00:02:02,250
+the meaning that p1 has the same value as
+p2.
+
+31
+00:02:02,250 --> 00:02:04,300
+The biconditional is needed here.
+
+32
+00:02:06,150 --> 00:02:12,070
+Formula b is also not correct because we
+need previous,
+
+33
+00:02:12,070 --> 00:02:18,180
+previous p1 if and only if not p2 to get
+that, p1
+
+34
+00:02:18,180 --> 00:02:24,160
+has the opposite value to p2 at time n
+minus 2.
+
+35
+00:02:24,160 --> 00:02:27,510
+Formula c is correct.
+
+36
+00:02:27,510 --> 00:02:30,860
+And so is formula d, which gives
+
+37
+00:02:30,860 --> 00:02:35,340
+the equivalent future-focused formulation,
+using an instance
+
+38
+00:02:35,340 --> 00:02:37,800
+of the validity scheme from last lesson
+
+39
+00:02:37,800 --> 00:02:41,700
+relating next and previous across three
+time steps.
+
+40
+00:02:45,420 --> 00:02:47,770
+Our main job for the rest of this lesson
+is to
+
+41
+00:02:47,770 --> 00:02:51,580
+work through the formal verification of
+the triple one detector system, T1D.
+
+42
+00:02:51,580 --> 00:02:55,188
+We will finish off with a brief, but more
+general
+
+43
+00:02:55,188 --> 00:03:01,135
+discussion, of the enterprise of verifying
+and validating digital systems.
+
+44
+00:03:01,135 --> 00:03:04,935
+So, here is the T1D circuit diagram, which
+is
+
+45
+00:03:04,935 --> 00:03:09,890
+summarized by the next-state and output
+formulas as shown.
+
+46
+00:03:09,890 --> 00:03:15,640
+Where we've made explicit the initial
+conditions that q1
+
+47
+00:03:15,640 --> 00:03:19,670
+and q0 must have value zero at time zero.
+
+48
+00:03:22,180 --> 00:03:27,610
+Now, we'll give the A spec in future focus
+form.
+
+49
+00:03:27,610 --> 00:03:33,680
+Next, next, next z if and only if p and
+next p and next, next p.
+
+50
+00:03:35,910 --> 00:03:41,450
+And for my work last time on fluencies in
+logic relative to the flip flops.
+
+51
+00:03:41,450 --> 00:03:45,490
+We're going to use the past focused
+version of the system description.
+
+52
+00:03:45,490 --> 00:03:47,600
+So let T1D.
+
+53
+00:03:47,600 --> 00:03:52,960
+T1D, be the conjunction of q1 if and
+
+54
+00:03:52,960 --> 00:03:58,503
+only if previously p and q 1 or p and q 0.
+
+55
+00:03:59,880 --> 00:04:06,280
+q0 if and only if previously, p and q1,
+or, p
+
+56
+00:04:06,280 --> 00:04:12,660
+and not q0, and z if and only if q1 and
+q0.
+
+57
+00:04:14,770 --> 00:04:19,920
+For the formal verification of the T1D
+system, we then need to prove the validity
+
+58
+00:04:19,920 --> 00:04:26,490
+of the formula box DT1D, only if box A
+spec.
+
+59
+00:04:26,490 --> 00:04:26,990
+To piece
+
+60
+00:04:30,480 --> 00:04:32,120
+together the verification we're going to
+go
+
+61
+00:04:32,120 --> 00:04:35,570
+back to the state transition output table.
+
+62
+00:04:35,570 --> 00:04:40,229
+Since, this was how we derived the formula
+DT1D in the first place.
+
+63
+00:04:41,330 --> 00:04:44,260
+Remember that this table contains all the
+content needed to
+
+64
+00:04:44,260 --> 00:04:47,860
+produce the circuit and the description
+formula for the system.
+
+65
+00:04:48,930 --> 00:04:54,140
+Back in lesson 9-3, we stepped through the
+next state entries of that table,
+
+66
+00:04:54,140 --> 00:04:59,690
+and we did so by assigning meaning to each
+of the four state configurations.
+
+67
+00:05:00,900 --> 00:05:02,434
+Back in lesson 9-3 we had not
+
+68
+00:05:02,434 --> 00:05:05,850
+yet formalized the semantics of temporal
+logic formulas.
+
+69
+00:05:05,850 --> 00:05:07,540
+So we used a mix of sort
+
+70
+00:05:07,540 --> 00:05:10,900
+of temporal formulas with previous, the
+previous operator
+
+71
+00:05:10,900 --> 00:05:15,580
+and the time conditions like N equals
+zero, N equals one, or N equals two.
+
+72
+00:05:15,580 --> 00:05:18,240
+We can now fully formalize these state
+meetings.
+
+73
+00:05:19,790 --> 00:05:24,040
+So the got nothing state 00 is expressed
+by
+
+74
+00:05:24,040 --> 00:05:30,230
+the formula, previous not p, or not
+previous true.
+
+75
+00:05:30,230 --> 00:05:34,060
+Since not previous true picks out time n
+equals 0.
+
+76
+00:05:34,060 --> 00:05:40,144
+The got one 1 state, code 01, is expressed
+
+77
+00:05:40,144 --> 00:05:45,448
+by previous p and previously, previous
+
+78
+00:05:45,448 --> 00:05:50,752
+p or not previous true, which is another
+
+79
+00:05:50,752 --> 00:05:56,370
+way of saying, previously in state 00.
+
+80
+00:05:58,670 --> 00:06:04,380
+The third state, got two ones, is
+expressed by previous p and previous,
+
+81
+00:06:04,380 --> 00:06:12,270
+previous p, and previously previously in
+state 00.
+
+82
+00:06:12,270 --> 00:06:17,900
+And the third state 11 the success state.
+
+83
+00:06:17,900 --> 00:06:20,870
+Is got three ones is expressed by
+
+84
+00:06:23,220 --> 00:06:27,660
+previous p and previous, previous p and
+previous, previous, previous p.
+
+85
+00:06:27,660 --> 00:06:33,083
+Finally the output z is expressed by the
+conjunction q1 and q0.
+
+86
+00:06:35,750 --> 00:06:42,480
+Let CT1D be the conjunction of these
+current-state output formulas.
+
+87
+00:06:42,480 --> 00:06:48,190
+So notice that this formula CT1D expresses
+our design intention,
+
+88
+00:06:48,190 --> 00:06:51,870
+but it doesn't come for free, we have to
+prove it.
+
+89
+00:06:51,870 --> 00:06:58,280
+Clearly if we could prove that box DT1D
+only if
+
+90
+00:06:58,280 --> 00:07:03,910
+box CT1D is a validity, then we would be
+done
+
+91
+00:07:03,910 --> 00:07:09,660
+because box CT1D implies the past focused
+version of the specification.
+
+92
+00:07:11,360 --> 00:07:15,050
+However, this is proving more than we
+need,
+
+93
+00:07:15,050 --> 00:07:17,820
+and it would take more time than we have.
+
+94
+00:07:17,820 --> 00:07:20,410
+So what we really want to pull out from
+
+95
+00:07:20,410 --> 00:07:23,860
+the formula CT1D is just the last two
+conjuncts.
+
+96
+00:07:23,860 --> 00:07:27,530
+Since these two equivalences give us what
+we want.
+
+97
+00:07:29,890 --> 00:07:36,220
+So it is clear that we're going to have
+the validity of the formula box B
+
+98
+00:07:36,220 --> 00:07:42,220
+T1D only if box A star spec where first
+
+99
+00:07:42,220 --> 00:07:48,670
+a star spec is the past focused version of
+the specification.
+
+100
+00:07:48,670 --> 00:07:53,660
+And B T1D is the conjunction of the
+
+101
+00:07:53,660 --> 00:07:58,820
+success state equivalents q1 and q0 if and
+only if previous p and
+
+102
+00:07:58,820 --> 00:08:02,430
+previous, previous p, and previous,
+previous, previous, previous p and
+
+103
+00:08:02,430 --> 00:08:06,090
+the output equivalence z if and only if q1
+and q0.
+
+104
+00:08:08,630 --> 00:08:13,100
+Assembling what we've already got we have
+that box
+
+105
+00:08:14,450 --> 00:08:20,410
+BT1D only if box A star A spec is a
+validity.
+
+106
+00:08:23,280 --> 00:08:29,500
+In the previous lesson 9-4, we show the
+validity of box A star spec only if
+
+107
+00:08:29,500 --> 00:08:35,870
+box A spec, where A spec is the future
+focused version of the specification.
+
+108
+00:08:37,900 --> 00:08:43,672
+So to prove the validity of the
+verification
+
+109
+00:08:43,672 --> 00:08:50,536
+formula, box DT1D only if box A spec, it
+remains to
+
+110
+00:08:50,536 --> 00:08:57,172
+prove the validity of box DT1D only if box
+BT1D.
+
+111
+00:08:57,172 --> 00:09:03,598
+To fill in this last piece, first observe
+that there is a valid equivalence
+
+112
+00:09:03,598 --> 00:09:10,130
+between the description formula D T1D and
+the formula D star T1D as shown.
+
+113
+00:09:11,160 --> 00:09:14,430
+Which is simply obtained by distributing
+
+114
+00:09:14,430 --> 00:09:19,050
+the previous operator over conjunction and
+disjunction.
+
+115
+00:09:19,050 --> 00:09:26,100
+And applying the tautology expressing the
+distribution of, and of/or.
+
+116
+00:09:26,100 --> 00:09:32,565
+Next note the validity of box D star T1D
+only if box
+
+117
+00:09:32,565 --> 00:09:39,563
+ET1D where this new formula ET1D says
+
+118
+00:09:39,563 --> 00:09:45,846
+q1 and q0 if and only if previous p and
+previous q1.
+
+119
+00:09:45,846 --> 00:09:49,930
+Now this validity can be shown either
+directly, using the
+
+120
+00:09:49,930 --> 00:09:54,690
+semantics, or else by a short series of
+equivalent validities.
+
+121
+00:09:57,520 --> 00:10:00,430
+So, we've reduced our remaining task to
+proving the
+
+122
+00:10:00,430 --> 00:10:07,040
+validity of box D star T1D implies box
+BT1D.
+
+123
+00:10:07,040 --> 00:10:13,928
+And we're going to use this auxiliary
+formula ET1D to accomplish the task.
+
+124
+00:10:13,928 --> 00:10:20,100
+From the past-focused system description D
+star T1D,
+
+125
+00:10:20,100 --> 00:10:23,860
+we can fully unwind the state signal q1.
+
+126
+00:10:25,020 --> 00:10:34,230
+The series of equivalences here start with
+the q1 formula from D star T1D.
+
+127
+00:10:34,230 --> 00:10:39,910
+Then on the second line, we substitute
+what we know, from D star T1D, into
+
+128
+00:10:39,910 --> 00:10:44,870
+the q1 and the q0 slots, in the formula
+and then
+
+129
+00:10:44,870 --> 00:10:50,240
+start distributing, the previous operators
+over, conjunctions and disjunctions.
+
+130
+00:10:51,970 --> 00:10:59,460
+Then note that a or true is equivalent to
+a, and that a and true is equivalent to a.
+
+131
+00:11:01,040 --> 00:11:05,505
+In this way, with a few steps, we end up
+with the equivalence,
+
+132
+00:11:05,505 --> 00:11:12,260
+q1 if and only if previous p and previous,
+previous p.
+
+133
+00:11:12,260 --> 00:11:17,869
+Which says, q has value 1 exactly when the
+previous two input values of p were 1.
+
+134
+00:11:19,230 --> 00:11:24,900
+Note that this formula is fully unwound
+characterization of q1, because
+
+135
+00:11:24,900 --> 00:11:30,120
+there are, is no longer, any circular
+dependence of q1 on previous
+
+136
+00:11:30,120 --> 00:11:35,110
+q1, or previous q0, so we have unwound,
+the feedback loops.
+
+137
+00:11:37,570 --> 00:11:44,650
+So summarizing previous slide, we have the
+validity of box D star T1D
+
+138
+00:11:44,650 --> 00:11:51,560
+only if q1 if and only if previous p and
+previous, previous p.
+
+139
+00:11:54,330 --> 00:12:02,260
+And also from previous slide, we have box
+D star T1D, only if box ET1D.
+
+140
+00:12:03,860 --> 00:12:08,000
+Now applying the substitute,
+substitutivity of equivalence
+
+141
+00:12:08,000 --> 00:12:12,050
+principle to the formula ET1D, we get.
+
+142
+00:12:12,050 --> 00:12:20,840
+In a few steps to the desired conclusion
+that q1 and q0, if and only if,
+
+143
+00:12:23,120 --> 00:12:28,198
+previous p and previous, previous p and
+previous, previous, previous p.
+
+144
+00:12:28,198 --> 00:12:31,290
+So, finally, we are done and we have now
+established
+
+145
+00:12:31,290 --> 00:12:36,550
+the validity of box D star T1D only if box
+BT1D.
+
+146
+00:12:36,550 --> 00:12:40,090
+Putting all our pieces together, we've
+done it!
+
+147
+00:12:40,090 --> 00:12:42,630
+Congratulations, you've made it all the
+way through
+
+148
+00:12:42,630 --> 00:12:46,940
+the formal verification of the triple one
+detector system.
+
+149
+00:12:46,940 --> 00:12:47,710
+High five!
+
+150
+00:12:47,710 --> 00:12:48,760
+Excellent.
+
+151
+00:12:48,760 --> 00:12:51,740
+As promised it does take a bit of effort
+to
+
+152
+00:12:51,740 --> 00:12:57,100
+formally verify even a small sequential
+system with four state configurations.
+
+153
+00:12:58,910 --> 00:13:01,520
+Before we finish up, we'll briefly look
+more generally
+
+154
+00:13:01,520 --> 00:13:06,360
+at the enterprise of verifying and/or
+validating digital systems.
+
+155
+00:13:06,360 --> 00:13:13,660
+The most common approach is validation via
+simulation and testing.
+
+156
+00:13:13,660 --> 00:13:17,870
+This involved simulating the system
+response to test input
+
+157
+00:13:17,870 --> 00:13:22,160
+signals to validate that the expected
+output is produced.
+
+158
+00:13:23,220 --> 00:13:26,240
+While computer engineers have developed
+extensive principals for the
+
+159
+00:13:26,240 --> 00:13:30,950
+strategic selection of useful test input
+signals, this approach is
+
+160
+00:13:30,950 --> 00:13:35,450
+still fundamentally limited by the fact
+that it only considers
+
+161
+00:13:35,450 --> 00:13:39,610
+a small sample of the infinitely many
+possible input signals.
+
+162
+00:13:41,480 --> 00:13:44,040
+In contrast, formal verification gives a
+rigorous
+
+163
+00:13:44,040 --> 00:13:48,300
+proof that the system design implements
+the specification
+
+164
+00:13:48,300 --> 00:13:51,450
+and produces the expected output in
+response to
+
+165
+00:13:51,450 --> 00:13:55,580
+all of the infinitely many possible input
+signals.
+
+166
+00:13:55,580 --> 00:13:58,730
+In practice, formal verification is
+particularly
+
+167
+00:13:58,730 --> 00:14:01,300
+valuable, in detecting subtle errors, in
+
+168
+00:14:01,300 --> 00:14:05,510
+the design that would be difficult to pick
+up, via simulation and testing.
+
+169
+00:14:08,140 --> 00:14:10,560
+Formal verification of logical
+correctness, then
+
+170
+00:14:10,560 --> 00:14:13,290
+needs to be supplemented, with a separate
+
+171
+00:14:13,290 --> 00:14:16,750
+timing analysis, to ensure real time
+constraints
+
+172
+00:14:16,750 --> 00:14:20,430
+on synchronous memory components can be
+satisfied.
+
+173
+00:14:20,430 --> 00:14:24,990
+For the correct behavior of basic memory
+components like the D flip-flop, there are
+
+174
+00:14:24,990 --> 00:14:31,050
+constraints on what is called the setup
+time and the hold time for the device.
+
+175
+00:14:31,050 --> 00:14:33,310
+The setup time is the minimum amount of
+time the
+
+176
+00:14:33,310 --> 00:14:37,770
+data signal should be held steady before
+the clock tick event.
+
+177
+00:14:37,770 --> 00:14:41,378
+So that the data is reliably sampled by
+the clock.
+
+178
+00:14:41,378 --> 00:14:44,220
+While the hold time is the minimum amount
+of time the
+
+179
+00:14:44,220 --> 00:14:47,650
+data signal should be held steady, after
+the clock tick event.
+
+180
+00:14:48,790 --> 00:14:51,230
+While these times are much smaller, than
+the
+
+181
+00:14:51,230 --> 00:14:54,130
+real time period of the clock, they're not
+zero.
+
+182
+00:14:54,130 --> 00:14:57,420
+So the accumulated propagation delays
+through the next
+
+183
+00:14:57,420 --> 00:15:00,970
+state combinational subcircuit do have to
+be analyzed carefully.
+
+184
+00:15:02,020 --> 00:15:04,420
+This sort of analysis is beyond the scope
+of
+
+185
+00:15:04,420 --> 00:15:08,050
+direct, discrete time temporal logic, and
+of us here.
+
+186
+00:15:10,570 --> 00:15:13,290
+The first three methods can be used all at
+
+187
+00:15:13,290 --> 00:15:17,139
+the design stage, before the computer chip
+is fabricated.
+
+188
+00:15:18,170 --> 00:15:21,675
+After physical construction, the final
+task is hardware testing,
+
+189
+00:15:21,675 --> 00:15:26,450
+to search for fabrication errors resulting
+from layout defects.
+
+190
+00:15:28,860 --> 00:15:33,570
+As we've seen with triple one detector
+system doing formal verification by hand
+
+191
+00:15:33,570 --> 00:15:39,620
+for even a quite small digital system
+requires a non-trivial amount of effort.
+
+192
+00:15:39,620 --> 00:15:42,290
+Clearly, some computer assistance would be
+helpful.
+
+193
+00:15:43,650 --> 00:15:48,380
+There are a number of both commercial and
+educational open source software tools
+
+194
+00:15:48,380 --> 00:15:49,530
+that can be used for the formal
+
+195
+00:15:49,530 --> 00:15:53,390
+verification of digital systems using
+temporal logic.
+
+196
+00:15:53,390 --> 00:15:55,260
+Many of the same tools can be used for the
+
+197
+00:15:55,260 --> 00:15:59,220
+formal verification of computer software
+using temporal logic, as well.
+
+198
+00:16:00,390 --> 00:16:03,650
+Leading hardware industry companies, like
+IBM, Intel,
+
+199
+00:16:03,650 --> 00:16:07,880
+Samsung and Motorola, regularly use formal
+verification methods.
+
+200
+00:16:07,880 --> 00:16:11,800
+Particularly in the design of critical
+components whose failure could
+
+201
+00:16:11,800 --> 00:16:16,530
+have catastrophic consequences for human
+life, property or financial loss.
+
+202
+00:16:18,020 --> 00:16:22,880
+The most common approach goes under the
+name, model checking.
+
+203
+00:16:22,880 --> 00:16:26,310
+And model checking merely is a verb phrase
+to describe
+
+204
+00:16:26,310 --> 00:16:29,423
+the task of determining truth in a model
+or valuation.
+
+205
+00:16:30,590 --> 00:16:34,569
+All the hard work goes into representing
+models or valuations.
+
+206
+00:16:35,580 --> 00:16:38,650
+Within state of the art model checking
+tools, explicit model
+
+207
+00:16:38,650 --> 00:16:41,405
+checking can be done for up to 30 state
+signals.
+
+208
+00:16:41,405 --> 00:16:45,870
+Two to the power 30 state val, values.
+
+209
+00:16:45,870 --> 00:16:50,800
+While implicit or symbolic representations
+of states, allow up to 100
+
+210
+00:16:50,800 --> 00:16:55,760
+state signals or more, so 2 the the power
+100 state values.
+
+211
+00:16:58,390 --> 00:17:00,110
+So this brings us to the end of this
+
+212
+00:17:00,110 --> 00:17:04,980
+series of lessons on the logic of
+sequential digital systems.
+
+213
+00:17:04,980 --> 00:17:08,920
+We have seen how sequential systems build
+on combinational systems
+
+214
+00:17:08,920 --> 00:17:15,220
+by adding memory components, digital
+clock, state signals and feedback.
+
+215
+00:17:15,220 --> 00:17:18,030
+And we've seen how to specify, describe,
+and
+
+216
+00:17:18,030 --> 00:17:22,240
+formally verify sequential digital systems
+in temporal logic.
+
+217
+00:17:23,650 --> 00:17:26,760
+We hope we've achieved the modest aim of
+providing a basic
+
+218
+00:17:26,760 --> 00:17:31,990
+understanding of digital systems by
+building on your knowledge of core logic.
+
+219
+00:17:31,990 --> 00:17:34,420
+This series ended up longer than intended
+
+220
+00:17:34,420 --> 00:17:36,780
+because getting through the formal
+verification of
+
+221
+00:17:36,780 --> 00:17:41,270
+even a simple system like the triple one
+detector, takes a fair amount of effort.
+
+222
+00:17:41,270 --> 00:17:46,860
+So I do hope this has not been off-putting
+and that you found the effort worthwhile.
+
+223
+00:17:46,860 --> 00:17:50,610
+And you can now head off as an educated
+person of the twenty first century.
+
+224
+00:17:50,610 --> 00:17:51,370
+So bye for now.
+
+

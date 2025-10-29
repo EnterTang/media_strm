@@ -1,0 +1,302 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4 Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, TertiaryColour, BackColour, Bold, Italic, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, AlphaLevel, Encoding
+Style: op,DFGirlW7-B5,32,&HC08000,&H000000,&H494949,&HFF0000,0,0,1,2,0,2,0,0,10,10,1
+Style: sub2,DFKai-SB,22,&H8000FF,&H000000,&H494949,&H000000,-1,0,1,2,0,2,0,0,10,10,1
+Style: zs,微軟正黑體,30,&H000000,&HFFFFFF,&HFFFFFF,&HFFFFFF,-1,0,1,1,0,2,0,0,15,10,1
+Style: sub,微軟正黑體,38,&HFFF3E1,&H000000,&HA7412C,&H008000,-1,0,1,2,1,2,0,0,15,10,1
+
+[Events]
+Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: Marked=0,0:00:00.90,0:00:04.29,sub,NTP,0000,0000,0000,!Effect,School Rumble 即將開始
+Dialogue: Marked=0,0:00:05.00,0:00:10.01,sub,NTP,0000,0000,0000,!Effect,{\an8}哪個比較長 答案在節目中
+Dialogue: Marked=0,0:00:05.00,0:00:10.01,sub,NTP,0000,0000,0000,!Effect,張老師拜託大家看電視的時候房間要明亮並保持距離
+Dialogue: Marked=0,0:01:35.97,0:01:40.01,sub2,NTP,0000,0000,0000,!Effect,第一次去購物‧第一次做便當‧第一次的失戀，咦？
+Dialogue: Marked=0,0:01:40.01,0:01:45.02,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(620,350)}澤\N近\N愛\N理\N\N沒\N自\N己
+Dialogue: Marked=0,0:01:40.01,0:01:45.02,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(28,280)}買\N過\N東\N西
+Dialogue: Marked=0,0:01:45.02,0:01:50.06,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(620,330)}塚\N本\N天\N滿\N\N沒\N自\N己
+Dialogue: Marked=0,0:01:45.02,0:01:50.06,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(28,300)}做\N過\N便\N當
+Dialogue: Marked=0,0:01:59.02,0:02:02.92,sub,NTP,0000,0000,0000,!Effect,澤近 我是A班的佐野
+Dialogue: Marked=0,0:02:02.92,0:02:04.42,sub,NTP,0000,0000,0000,!Effect,你應該知道吧
+Dialogue: Marked=0,0:02:05.02,0:02:07.32,sub,NTP,0000,0000,0000,!Effect,你目前沒男友吧
+Dialogue: Marked=0,0:02:08.02,0:02:08.92,sub,NTP,0000,0000,0000,!Effect,可以的話
+Dialogue: Marked=0,0:02:08.92,0:02:12.42,sub,NTP,0000,0000,0000,!Effect,土豆燉肉和咖哩 你喜歡哪個
+Dialogue: Marked=0,0:02:13.82,0:02:15.72,sub,NTP,0000,0000,0000,!Effect,土豆燉肉吧
+Dialogue: Marked=0,0:02:16.72,0:02:18.22,sub,NTP,0000,0000,0000,!Effect,果然是這樣
+Dialogue: Marked=0,0:02:18.52,0:02:20.82,sub,NTP,0000,0000,0000,!Effect,難道要為我做嗎
+Dialogue: Marked=0,0:02:20.82,0:02:24.40,sub,NTP,0000,0000,0000,!Effect,不是的 Never dream of it (別幻想了)
+Dialogue: Marked=0,0:02:25.00,0:02:26.50,sub,NTP,0000,0000,0000,!Effect,有事嗎
+Dialogue: Marked=0,0:02:28.22,0:02:30.22,sub,NTP,0000,0000,0000,!Effect,如果可以
+Dialogue: Marked=0,0:02:30.22,0:02:31.32,sub,NTP,0000,0000,0000,!Effect,對不起
+Dialogue: Marked=0,0:02:33.12,0:02:35.41,sub,NTP,0000,0000,0000,!Effect,秒殺了 就說不可能嘛
+Dialogue: Marked=0,0:02:35.55,0:02:37.35,sub,NTP,0000,0000,0000,!Effect,澤近可是學生的偶像
+Dialogue: Marked=0,0:02:40.52,0:02:43.22,sub,NTP,0000,0000,0000,!Effect,別那麼隨便拒絕男生啊
+Dialogue: Marked=0,0:02:44.22,0:02:45.42,sub,NTP,0000,0000,0000,!Effect,告白的男生
+Dialogue: Marked=0,0:02:45.52,0:02:49.42,sub,NTP,0000,0000,0000,!Effect,可是抱著展開孔雀羽毛 從屋頂跳下的覺悟
+Dialogue: Marked=0,0:03:00.92,0:03:04.22,sub,NTP,0000,0000,0000,!Effect,我有想去的地方 不用派車了
+Dialogue: Marked=0,0:03:33.12,0:03:35.52,sub,NTP,0000,0000,0000,!Effect,土豆燉肉和咖哩 喜歡哪個
+Dialogue: Marked=0,0:03:36.12,0:03:38.72,sub,NTP,0000,0000,0000,!Effect,男生好像都比較喜歡土豆燉肉
+Dialogue: Marked=0,0:03:39.42,0:03:43.02,sub,NTP,0000,0000,0000,!Effect,是那樣嗎 我不知道啦
+Dialogue: Marked=0,0:03:44.42,0:03:46.52,sub,NTP,0000,0000,0000,!Effect,怎麼做土豆燉肉嗎
+Dialogue: Marked=0,0:03:46.92,0:03:48.92,sub,NTP,0000,0000,0000,!Effect,材料有
+Dialogue: Marked=0,0:03:48.92,0:03:53.00,sub,NTP,0000,0000,0000,!Effect,洋蔥 土豆 蘿蔔 牛肉
+Dialogue: Marked=0,0:03:53.10,0:03:53.72,sub,NTP,0000,0000,0000,!Effect,還有高湯
+Dialogue: Marked=0,0:03:54.92,0:03:56.12,sub,NTP,0000,0000,0000,!Effect,你要給誰做啊
+Dialogue: Marked=0,0:04:02.42,0:04:05.42,sub,NTP,0000,0000,0000,!Effect,嚐一個吧 小姐
+Dialogue: Marked=0,0:04:06.02,0:04:07.22,sub,NTP,0000,0000,0000,!Effect,在這裡吃嗎
+Dialogue: Marked=0,0:04:12.22,0:04:16.32,sub,NTP,0000,0000,0000,!Effect,奇怪 沒找到天滿說的紅色標籤
+Dialogue: Marked=0,0:04:16.82,0:04:19.82,sub,NTP,0000,0000,0000,!Effect,今晚的菜色 是爸爸最喜歡的呢
+Dialogue: Marked=0,0:04:20.62,0:04:22.72,sub,NTP,0000,0000,0000,!Effect,一定會很高興的
+Dialogue: Marked=0,0:04:40.12,0:04:41.62,sub,NTP,0000,0000,0000,!Effect,第一次做飯啊
+Dialogue: Marked=0,0:04:42.12,0:04:44.82,sub,NTP,0000,0000,0000,!Effect,愛理家不是有廚師嗎
+Dialogue: Marked=0,0:04:44.82,0:04:48.22,sub,NTP,0000,0000,0000,!Effect,土豆燉肉 讓他做就好了
+Dialogue: Marked=0,0:04:49.42,0:04:52.92,sub,NTP,0000,0000,0000,!Effect,那樣就無法傳達心意了
+Dialogue: Marked=0,0:04:53.52,0:04:55.82,sub,NTP,0000,0000,0000,!Effect,心意 什麼心意啊
+Dialogue: Marked=0,0:04:59.72,0:05:00.52,sub,NTP,0000,0000,0000,!Effect,烏雲
+Dialogue: Marked=0,0:05:02.12,0:05:05.12,sub,NTP,0000,0000,0000,!Effect,真的啊 要趕緊回去收衣服
+Dialogue: Marked=0,0:05:05.12,0:05:06.52,sub,NTP,0000,0000,0000,!Effect,塚本 別摔倒了
+Dialogue: Marked=0,0:05:06.92,0:05:07.72,sub,NTP,0000,0000,0000,!Effect,會摔倒的
+Dialogue: Marked=0,0:05:37.72,0:05:39.32,sub,NTP,0000,0000,0000,!Effect,父親
+Dialogue: Marked=0,0:05:40.02,0:05:42.02,sub,NTP,0000,0000,0000,!Effect,中村說你在這兒
+Dialogue: Marked=0,0:05:42.72,0:05:44.02,sub,NTP,0000,0000,0000,!Effect,來接我的嗎
+Dialogue: Marked=0,0:05:44.62,0:05:46.62,sub,NTP,0000,0000,0000,!Effect,今天晚上由我來
+Dialogue: Marked=0,0:05:46.62,0:05:51.70,sub,NTP,0000,0000,0000,!Effect,我有件事 因工作關係必須離開日本了
+Dialogue: Marked=0,0:05:51.72,0:05:54.62,sub,NTP,0000,0000,0000,!Effect,對不起 不能一起吃飯了
+Dialogue: Marked=0,0:05:57.72,0:06:02.72,sub,NTP,0000,0000,0000,!Effect,不用介意 其實我也約了同學吃晚飯
+Dialogue: Marked=0,0:06:02.72,0:06:07.92,sub,NTP,0000,0000,0000,!Effect,而且 我明白父親往返各地很忙碌
+Dialogue: Marked=0,0:06:08.92,0:06:09.42,sub,NTP,0000,0000,0000,!Effect,是嗎
+Dialogue: Marked=0,0:06:10.12,0:06:12.32,sub,NTP,0000,0000,0000,!Effect,難得見一次面 真是遺憾
+Dialogue: Marked=0,0:06:12.82,0:06:16.42,sub,NTP,0000,0000,0000,!Effect,我會儘快回來 先送你回家吧
+Dialogue: Marked=0,0:06:16.42,0:06:19.62,sub,NTP,0000,0000,0000,!Effect,我不要緊 工作加油啊
+Dialogue: Marked=0,0:06:20.72,0:06:21.72,sub,NTP,0000,0000,0000,!Effect,那再見了
+Dialogue: Marked=0,0:06:33.92,0:06:34.72,sub,NTP,0000,0000,0000,!Effect,這樣啊
+Dialogue: Marked=0,0:06:59.12,0:07:01.22,sub,NTP,0000,0000,0000,!Effect,要過去的話 我送你吧
+Dialogue: Marked=0,0:07:04.92,0:07:05.92,sub,NTP,0000,0000,0000,!Effect,到那邊而已
+Dialogue: Marked=0,0:07:13.92,0:07:17.12,sub,NTP,0000,0000,0000,!Effect,土豆燉肉和咖哩 你喜歡哪個
+Dialogue: Marked=0,0:07:18.12,0:07:18.62,sub,NTP,0000,0000,0000,!Effect,咖哩
+Dialogue: Marked=0,0:07:26.32,0:07:28.80,sub,NTP,0000,0000,0000,!Effect,所以 和第二次見面的
+Dialogue: Marked=0,0:07:30.80,0:07:31.50,sub,NTP,0000,0000,0000,!Effect,怎麼了
+Dialogue: Marked=0,0:07:35.32,0:07:37.12,sub,NTP,0000,0000,0000,!Effect,(好喜歡)
+Dialogue: Marked=0,0:07:44.12,0:07:47.82,sub,NTP,0000,0000,0000,!Effect,莎拉早安 看見塚本了嗎
+Dialogue: Marked=0,0:07:48.52,0:07:50.82,sub,NTP,0000,0000,0000,!Effect,八雲好像去了教務處
+Dialogue: Marked=0,0:07:50.82,0:07:53.12,sub,NTP,0000,0000,0000,!Effect,是嗎 謝謝 告辭
+Dialogue: Marked=0,0:07:55.62,0:07:56.42,sub,NTP,0000,0000,0000,!Effect,走了哦
+Dialogue: Marked=0,0:08:04.92,0:08:06.70,sub,NTP,0000,0000,0000,!Effect,結果那傢伙
+Dialogue: Marked=0,0:08:08.70,0:08:09.32,sub,NTP,0000,0000,0000,!Effect,就這樣
+Dialogue: Marked=0,0:08:09.62,0:08:10.32,sub,NTP,0000,0000,0000,!Effect,不會吧
+Dialogue: Marked=0,0:08:10.32,0:08:11.42,sub,NTP,0000,0000,0000,!Effect,是真的
+Dialogue: Marked=0,0:08:11.42,0:08:12.42,sub,NTP,0000,0000,0000,!Effect,那有名的
+Dialogue: Marked=0,0:08:12.42,0:08:13.40,sub,NTP,0000,0000,0000,!Effect,有名的
+Dialogue: Marked=0,0:08:13.50,0:08:14.42,sub,NTP,0000,0000,0000,!Effect,小有名氣而已
+Dialogue: Marked=0,0:08:24.92,0:08:26.82,sub,NTP,0000,0000,0000,!Effect,烏丸要去哪裡呢
+Dialogue: Marked=0,0:08:39.52,0:08:40.92,sub,NTP,0000,0000,0000,!Effect,月底沒錢了
+Dialogue: Marked=0,0:08:40.92,0:08:42.92,sub,NTP,0000,0000,0000,!Effect,絃子也不借我
+Dialogue: Marked=0,0:08:42.92,0:08:44.22,sub,NTP,0000,0000,0000,!Effect,沒得吃了
+Dialogue: Marked=0,0:08:57.12,0:08:58.72,sub,NTP,0000,0000,0000,!Effect,你也沒錢吃午餐嗎
+Dialogue: Marked=0,0:09:02.22,0:09:04.62,sub,NTP,0000,0000,0000,!Effect,只能灌水填肚子了
+Dialogue: Marked=0,0:09:05.42,0:09:07.52,sub,NTP,0000,0000,0000,!Effect,月底總是這樣
+Dialogue: Marked=0,0:09:08.62,0:09:10.22,sub,NTP,0000,0000,0000,!Effect,聽我說
+Dialogue: Marked=0,0:09:10.82,0:09:13.02,sub,NTP,0000,0000,0000,!Effect,下次請你吃飯吧
+Dialogue: Marked=0,0:09:15.62,0:09:16.22,sub,NTP,0000,0000,0000,!Effect,你在聽嗎
+Dialogue: Marked=0,0:09:18.62,0:09:21.82,sub,NTP,0000,0000,0000,!Effect,對了 咖哩和燉肉 你喜歡哪個
+Dialogue: Marked=0,0:09:24.92,0:09:25.62,sub,NTP,0000,0000,0000,!Effect,咖哩
+Dialogue: Marked=0,0:09:26.22,0:09:29.02,sub,NTP,0000,0000,0000,!Effect,就是說嘛 感覺和你蠻投緣的
+Dialogue: Marked=0,0:09:29.52,0:09:31.52,sub,NTP,0000,0000,0000,!Effect,下次去吃咖哩吧
+Dialogue: Marked=0,0:09:32.92,0:09:33.82,sub,NTP,0000,0000,0000,!Effect,烏丸
+Dialogue: Marked=0,0:09:34.92,0:09:36.52,sub,NTP,0000,0000,0000,!Effect,對啊 做便當
+Dialogue: Marked=0,0:09:37.12,0:09:40.52,sub,NTP,0000,0000,0000,!Effect,做便當給他 就能接近烏丸了
+Dialogue: Marked=0,0:09:41.52,0:09:43.32,sub,NTP,0000,0000,0000,!Effect,我怎麼一直沒想到呢
+Dialogue: Marked=0,0:09:44.32,0:09:47.02,sub,NTP,0000,0000,0000,!Effect,好 這是表現的好機會
+Dialogue: Marked=0,0:09:48.42,0:09:49.52,sub,NTP,0000,0000,0000,!Effect,我回來了
+Dialogue: Marked=0,0:09:51.22,0:09:53.02,sub,NTP,0000,0000,0000,!Effect,咖哩 便當嗎
+Dialogue: Marked=0,0:09:53.42,0:09:54.42,sub,NTP,0000,0000,0000,!Effect,沒錯 咖哩
+Dialogue: Marked=0,0:09:54.42,0:09:57.72,sub,NTP,0000,0000,0000,!Effect,和白飯分開 兩人份
+Dialogue: Marked=0,0:09:59.02,0:10:00.52,sub,NTP,0000,0000,0000,!Effect,那個 我也是嗎
+Dialogue: Marked=0,0:10:00.52,0:10:02.32,sub,NTP,0000,0000,0000,!Effect,當然了
+Dialogue: Marked=0,0:10:57.12,0:10:58.02,sub,NTP,0000,0000,0000,!Effect,烏丸
+Dialogue: Marked=0,0:11:01.92,0:11:08.52,sub,NTP,0000,0000,0000,!Effect,便當份量太多了 能不能幫我吃一點
+Dialogue: Marked=0,0:11:11.32,0:11:12.42,sub,NTP,0000,0000,0000,!Effect,太好了
+Dialogue: Marked=0,0:11:25.02,0:11:26.12,sub,NTP,0000,0000,0000,!Effect,喝水去吧
+Dialogue: Marked=0,0:11:26.62,0:11:29.12,sub,NTP,0000,0000,0000,!Effect,天滿一臉開心出去了
+Dialogue: Marked=0,0:11:29.72,0:11:31.12,sub,NTP,0000,0000,0000,!Effect,拿著很大的便當
+Dialogue: Marked=0,0:11:31.12,0:11:32.82,sub,NTP,0000,0000,0000,!Effect,好像是兩人份的咖哩
+Dialogue: Marked=0,0:11:33.22,0:11:35.62,sub,NTP,0000,0000,0000,!Effect,平常會做咖哩便當嗎
+Dialogue: Marked=0,0:11:36.12,0:11:36.62,sub,NTP,0000,0000,0000,!Effect,也就是說
+Dialogue: Marked=0,0:11:36.70,0:11:37.62,sub,NTP,0000,0000,0000,!Effect,什麼意思
+Dialogue: Marked=0,0:11:41.82,0:11:44.32,sub,NTP,0000,0000,0000,!Effect,播磨 今天非要作個了斷
+Dialogue: Marked=0,0:11:44.82,0:11:47.62,sub,NTP,0000,0000,0000,!Effect,聽見了沒 放學後等著
+Dialogue: Marked=0,0:11:48.42,0:11:49.82,sub,NTP,0000,0000,0000,!Effect,別忘了
+Dialogue: Marked=0,0:11:50.22,0:11:53.32,sub,NTP,0000,0000,0000,!Effect,我最喜歡的天滿 做了我最喜歡的咖哩
+Dialogue: Marked=0,0:11:54.02,0:11:55.22,sub,NTP,0000,0000,0000,!Effect,難道是為了我
+Dialogue: Marked=0,0:11:55.92,0:11:56.62,sub,NTP,0000,0000,0000,!Effect,太感謝了
+Dialogue: Marked=0,0:11:57.82,0:11:59.92,sub,NTP,0000,0000,0000,!Effect,知道是什麼嗎 烏丸
+Dialogue: Marked=0,0:12:01.32,0:12:02.92,sub,NTP,0000,0000,0000,!Effect,你絕對猜不到
+Dialogue: Marked=0,0:12:03.22,0:12:07.42,sub,NTP,0000,0000,0000,!Effect,但是 搞不好是烏丸喜歡的哦
+Dialogue: Marked=0,0:12:11.02,0:12:12.92,sub,NTP,0000,0000,0000,!Effect,兩盒白飯
+Dialogue: Marked=0,0:12:14.30,0:12:17.00,sub,NTP,0000,0000,0000,!Effect,拿錯了
+Dialogue: Marked=0,0:12:24.82,0:12:25.82,sub,NTP,0000,0000,0000,!Effect,(鹽)
+Dialogue: Marked=0,0:12:32.52,0:12:33.42,sub,NTP,0000,0000,0000,!Effect,飯糰
+Dialogue: Marked=0,0:12:44.72,0:12:46.02,sub,NTP,0000,0000,0000,!Effect,感覺真高興
+Dialogue: Marked=0,0:12:58.92,0:13:01.72,sub,NTP,0000,0000,0000,!Effect,(兩份咖哩)
+Dialogue: Marked=0,0:13:06.12,0:13:09.62,sub,NTP,0000,0000,0000,!Effect,八雲那麼討厭花井前輩嗎
+Dialogue: Marked=0,0:13:10.62,0:13:14.82,sub,NTP,0000,0000,0000,!Effect,因為 普通的男生 你不會太過抗拒啊
+Dialogue: Marked=0,0:13:16.02,0:13:19.72,sub,NTP,0000,0000,0000,!Effect,也不能說討厭
+Dialogue: Marked=0,0:13:19.72,0:13:23.72,sub,NTP,0000,0000,0000,!Effect,我本來就不擅與男生相處 而且
+Dialogue: Marked=0,0:13:24.62,0:13:28.52,sub,NTP,0000,0000,0000,!Effect,對那種過於直接的表達 感到不自在吧
+Dialogue: Marked=0,0:13:29.72,0:13:30.42,sub,NTP,0000,0000,0000,!Effect,原來如此
+Dialogue: Marked=0,0:13:31.52,0:13:36.42,sub,NTP,0000,0000,0000,!Effect,但是 現在必須去姐姐和花井待的2年C班
+Dialogue: Marked=0,0:13:36.82,0:13:37.92,sub,NTP,0000,0000,0000,!Effect,因為
+Dialogue: Marked=0,0:13:37.92,0:13:39.82,sub,NTP,0000,0000,0000,!Effect,兩盒都是咖哩
+Dialogue: Marked=0,0:13:41.32,0:13:44.32,sub,NTP,0000,0000,0000,!Effect,別擔心 我陪你一起去
+Dialogue: Marked=0,0:13:44.82,0:13:45.92,sub,NTP,0000,0000,0000,!Effect,謝謝你 莎拉
+Dialogue: Marked=0,0:13:49.42,0:13:52.12,sub,NTP,0000,0000,0000,!Effect,那麼 希望花井前輩不在
+Dialogue: Marked=0,0:13:52.90,0:13:55.00,sub,NTP,0000,0000,0000,!Effect,(喜歡)
+Dialogue: Marked=0,0:13:55.62,0:13:56.92,sub,NTP,0000,0000,0000,!Effect,怎麼了 八雲
+Dialogue: Marked=0,0:13:57.62,0:13:59.32,sub,NTP,0000,0000,0000,!Effect,他在 花井前輩
+Dialogue: Marked=0,0:14:00.22,0:14:01.22,sub,NTP,0000,0000,0000,!Effect,你怎麼知道
+Dialogue: Marked=0,0:14:03.12,0:14:05.82,sub,NTP,0000,0000,0000,!Effect,有好的預感 找塚本去
+Dialogue: Marked=0,0:14:09.92,0:14:11.12,sub,NTP,0000,0000,0000,!Effect,怎麼了 八雲
+Dialogue: Marked=0,0:14:12.52,0:14:14.42,sub,NTP,0000,0000,0000,!Effect,花井 過來一下
+Dialogue: Marked=0,0:14:15.12,0:14:15.72,sub,NTP,0000,0000,0000,!Effect,什麼事
+Dialogue: Marked=0,0:14:21.32,0:14:22.32,sub,NTP,0000,0000,0000,!Effect,就這樣
+Dialogue: Marked=0,0:14:22.72,0:14:23.52,sub,NTP,0000,0000,0000,!Effect,原來如此
+Dialogue: Marked=0,0:14:23.92,0:14:25.62,sub,NTP,0000,0000,0000,!Effect,可以了吧 我走了
+Dialogue: Marked=0,0:14:26.02,0:14:28.22,sub,NTP,0000,0000,0000,!Effect,急著去哪裡
+Dialogue: Marked=0,0:14:28.92,0:14:31.62,sub,NTP,0000,0000,0000,!Effect,現在要去找塚本
+Dialogue: Marked=0,0:14:36.17,0:14:37.83,sub,NTP,0000,0000,0000,!Effect,(一生的八雲迷)
+Dialogue: Marked=0,0:14:38.32,0:14:41.22,sub,NTP,0000,0000,0000,!Effect,不錯呢 她很可愛的
+Dialogue: Marked=0,0:14:41.82,0:14:43.02,sub,NTP,0000,0000,0000,!Effect,我也去吧
+Dialogue: Marked=0,0:14:44.72,0:14:49.22,sub,NTP,0000,0000,0000,!Effect,我也去
+Dialogue: Marked=0,0:14:51.02,0:14:53.12,sub,NTP,0000,0000,0000,!Effect,等等 你們這些人
+Dialogue: Marked=0,0:14:58.32,0:15:00.52,sub,NTP,0000,0000,0000,!Effect,動作快點就好了
+Dialogue: Marked=0,0:15:00.92,0:15:02.22,sub,NTP,0000,0000,0000,!Effect,一定沒問題的
+Dialogue: Marked=0,0:15:15.22,0:15:16.52,sub,NTP,0000,0000,0000,!Effect,八雲
+Dialogue: Marked=0,0:15:20.92,0:15:22.52,sub,NTP,0000,0000,0000,!Effect,沒事吧 八雲
+Dialogue: Marked=0,0:15:26.62,0:15:29.52,sub,NTP,0000,0000,0000,!Effect,姐姐 今天的便當沒問題嗎
+Dialogue: Marked=0,0:15:30.90,0:15:31.72,sub,NTP,0000,0000,0000,!Effect,什麼啊
+Dialogue: Marked=0,0:15:44.42,0:15:47.12,sub,NTP,0000,0000,0000,!Effect,拳兒 該去上學了哦
+Dialogue: Marked=0,0:15:49.32,0:15:51.22,sub,NTP,0000,0000,0000,!Effect,真是的 不要老是讓我說
+Dialogue: Marked=0,0:15:52.02,0:15:53.22,sub,NTP,0000,0000,0000,!Effect,又要請假嗎
+Dialogue: Marked=0,0:15:54.22,0:15:56.22,sub,NTP,0000,0000,0000,!Effect,還真想當不良少年啊
+Dialogue: Marked=0,0:16:00.82,0:16:01.32,sub,NTP,0000,0000,0000,!Effect,進去了
+Dialogue: Marked=0,0:16:05.82,0:16:06.72,sub,NTP,0000,0000,0000,!Effect,學校
+Dialogue: Marked=0,0:16:08.52,0:16:09.42,sub,NTP,0000,0000,0000,!Effect,不去
+Dialogue: Marked=0,0:16:10.92,0:16:14.42,sub,NTP,0000,0000,0000,!Effect,打架那麼厲害 居然也會消沉
+Dialogue: Marked=0,0:16:15.32,0:16:16.02,sub,NTP,0000,0000,0000,!Effect,不去
+Dialogue: Marked=0,0:16:16.92,0:16:20.42,sub,NTP,0000,0000,0000,!Effect,男人和女人都不能相信 不去
+Dialogue: Marked=0,0:16:42.22,0:16:46.22,sub,NTP,0000,0000,0000,!Effect,張老師的科學教室
+Dialogue: Marked=0,0:16:46.52,0:16:47.22,sub,NTP,0000,0000,0000,!Effect,大家好嗎
+Dialogue: Marked=0,0:16:47.72,0:16:53.22,sub,NTP,0000,0000,0000,!Effect,今天要談的是 眼睛的錯覺
+Dialogue: Marked=0,0:16:53.72,0:17:01.02,sub,NTP,0000,0000,0000,!Effect,問題1 仔細看圖 線1和線2哪個比較長
+Dialogue: Marked=0,0:17:01.62,0:17:03.32,sub,NTP,0000,0000,0000,!Effect,2吧
+Dialogue: Marked=0,0:17:03.72,0:17:06.52,sub,NTP,0000,0000,0000,!Effect,答案是一樣長
+Dialogue: Marked=0,0:17:06.52,0:17:08.42,sub,NTP,0000,0000,0000,!Effect,是嗎 不會吧
+Dialogue: Marked=0,0:17:08.42,0:17:09.72,sub,NTP,0000,0000,0000,!Effect,騙人的吧
+Dialogue: Marked=0,0:17:10.52,0:17:13.32,sub,NTP,0000,0000,0000,!Effect,2號應該長一點點
+Dialogue: Marked=0,0:17:14.72,0:17:16.82,sub,NTP,0000,0000,0000,!Effect,這就是眼睛的錯覺
+Dialogue: Marked=0,0:17:17.32,0:17:19.02,sub,NTP,0000,0000,0000,!Effect,不可思議吧
+Dialogue: Marked=0,0:17:19.62,0:17:24.72,sub,NTP,0000,0000,0000,!Effect,錯覺 錯覺嗎
+Dialogue: Marked=0,0:17:38.62,0:17:42.62,sub,NTP,0000,0000,0000,!Effect,這樣啊 要走了嗎 真遺憾
+Dialogue: Marked=0,0:17:43.32,0:17:44.22,sub,NTP,0000,0000,0000,!Effect,萬石大人
+Dialogue: Marked=0,0:17:44.92,0:17:45.82,sub,NTP,0000,0000,0000,!Effect,保重了
+Dialogue: Marked=0,0:17:48.02,0:17:49.72,sub,NTP,0000,0000,0000,!Effect,謝謝您了
+Dialogue: Marked=0,0:17:57.02,0:18:01.32,sub,NTP,0000,0000,0000,!Effect,萬石 你明知那女孩喜歡你
+Dialogue: Marked=0,0:18:01.32,0:18:03.32,sub,NTP,0000,0000,0000,!Effect,才故意離開的吧
+Dialogue: Marked=0,0:18:03.72,0:18:05.52,sub,NTP,0000,0000,0000,!Effect,什麼啊 你誤會了
+Dialogue: Marked=0,0:18:05.92,0:18:08.42,sub,NTP,0000,0000,0000,!Effect,她才不會看上我呢
+Dialogue: Marked=0,0:18:09.42,0:18:13.82,sub,NTP,0000,0000,0000,!Effect,什麼誤會 別再逞強了 你是知道的
+Dialogue: Marked=0,0:18:14.72,0:18:17.12,sub,NTP,0000,0000,0000,!Effect,太酷了 萬石
+Dialogue: Marked=0,0:18:17.12,0:18:21.82,sub,NTP,0000,0000,0000,!Effect,你的痛苦 我非常能體會
+Dialogue: Marked=0,0:18:36.20,0:18:38.20,sub,NTP,0000,0000,0000,!Effect,(慧星之戰)
+Dialogue: Marked=0,0:18:43.52,0:18:48.02,sub,NTP,0000,0000,0000,!Effect,冷靜聽我說 其實我們是兄妹
+Dialogue: Marked=0,0:18:49.52,0:18:54.22,sub,NTP,0000,0000,0000,!Effect,那麼 你是我的哥哥
+Dialogue: Marked=0,0:18:56.02,0:18:56.62,sub,NTP,0000,0000,0000,!Effect,兄妹
+Dialogue: Marked=0,0:18:57.53,0:18:59.73,sub,NTP,0000,0000,0000,!Effect,是哥哥
+Dialogue: Marked=0,0:19:02.32,0:19:04.32,sub,NTP,0000,0000,0000,!Effect,所以關係好是正常的
+Dialogue: Marked=0,0:19:04.32,0:19:06.02,sub,NTP,0000,0000,0000,!Effect,讓你誤會了
+Dialogue: Marked=0,0:19:07.81,0:19:08.97,sub,NTP,0000,0000,0000,!Effect,是這樣啊
+Dialogue: Marked=0,0:19:09.74,0:19:10.81,sub,NTP,0000,0000,0000,!Effect,難道說
+Dialogue: Marked=0,0:19:11.82,0:19:14.02,sub,NTP,0000,0000,0000,!Effect,全是我的錯覺和誤會
+Dialogue: Marked=0,0:19:14.92,0:19:16.32,sub,NTP,0000,0000,0000,!Effect,天滿和烏丸是
+Dialogue: Marked=0,0:19:18.22,0:19:19.82,sub,NTP,0000,0000,0000,!Effect,真好吃 哥哥
+Dialogue: Marked=0,0:19:20.32,0:19:22.52,sub,NTP,0000,0000,0000,!Effect,真好吃 妹妹
+Dialogue: Marked=0,0:19:22.52,0:19:23.92,sub,NTP,0000,0000,0000,!Effect,是兄妹啊
+Dialogue: Marked=0,0:19:24.52,0:19:26.82,sub,NTP,0000,0000,0000,!Effect,所以關係好是正常的
+Dialogue: Marked=0,0:19:28.42,0:19:30.82,sub,NTP,0000,0000,0000,!Effect,原來 原來是這樣
+Dialogue: Marked=0,0:19:31.33,0:19:32.63,sub,NTP,0000,0000,0000,!Effect,(傻瓜)
+Dialogue: Marked=0,0:19:35.32,0:19:38.92,sub,NTP,0000,0000,0000,!Effect,其實我 一直喜歡著你
+Dialogue: Marked=0,0:19:44.02,0:19:49.52,sub,NTP,0000,0000,0000,!Effect,不好了 我犯了嚴重的錯誤
+Dialogue: Marked=0,0:19:50.32,0:19:53.02,sub,NTP,0000,0000,0000,!Effect,拳兒 有客人找你 怎麼辦
+Dialogue: Marked=0,0:19:53.72,0:19:54.72,sub,NTP,0000,0000,0000,!Effect,誰啊
+Dialogue: Marked=0,0:19:55.52,0:19:58.62,sub,NTP,0000,0000,0000,!Effect,你也很熟的 天
+Dialogue: Marked=0,0:19:59.92,0:20:02.72,sub,NTP,0000,0000,0000,!Effect,果然是我誤會了 天
+Dialogue: Marked=0,0:20:07.32,0:20:08.82,sub,NTP,0000,0000,0000,!Effect,天王寺
+Dialogue: Marked=0,0:20:13.82,0:20:17.72,sub,NTP,0000,0000,0000,!Effect,也是啊 不可能這麼巧的
+Dialogue: Marked=0,0:20:18.42,0:20:22.02,sub,NTP,0000,0000,0000,!Effect,播磨你這傢伙 居然放我鴿子
+Dialogue: Marked=0,0:20:26.32,0:20:28.12,sub,NTP,0000,0000,0000,!Effect,就給你點教訓
+Dialogue: Marked=0,0:20:43.22,0:20:45.42,sub,NTP,0000,0000,0000,!Effect,我怎麼了
+Dialogue: Marked=0,0:20:45.92,0:20:49.82,sub,NTP,0000,0000,0000,!Effect,打架有這麼弱嗎
+Dialogue: Marked=0,0:21:00.92,0:21:06.32,sub,NTP,0000,0000,0000,!Effect,今天你太沒意思了 想報仇隨時奉陪
+Dialogue: Marked=0,0:21:21.32,0:21:24.42,sub,NTP,0000,0000,0000,!Effect,姐姐 明天的便當 也是飯糰可以嗎
+Dialogue: Marked=0,0:21:25.92,0:21:27.02,sub,NTP,0000,0000,0000,!Effect,可以 可以
+Dialogue: Marked=0,0:21:30.42,0:21:34.02,sub,NTP,0000,0000,0000,!Effect,播磨 播磨 播磨拳兒
+Dialogue: Marked=0,0:21:35.02,0:21:37.22,sub,NTP,0000,0000,0000,!Effect,你還有明天嗎
+Dialogue: Marked=0,0:21:38.42,0:21:41.52,sub,NTP,0000,0000,0000,!Effect,你的戀情已經 結束了嗎
+Dialogue: Marked=0,0:23:05.82,0:23:08.52,sub,NTP,0000,0000,0000,!Effect,烏丸 比起飯糰 你果然更喜歡咖哩呢
+Dialogue: Marked=0,0:23:08.82,0:23:10.92,sub,NTP,0000,0000,0000,!Effect,為什麼一直沒注意到呢
+Dialogue: Marked=0,0:23:11.02,0:23:13.12,sub,NTP,0000,0000,0000,!Effect,這次會做好吃的咖哩
+Dialogue: Marked=0,0:23:13.52,0:23:14.82,sub,NTP,0000,0000,0000,!Effect,下集 School Rumble
+Dialogue: Marked=0,0:23:15.02,0:23:15.72,sub,NTP,0000,0000,0000,!Effect,因漫畫而不幸
+Dialogue: Marked=0,0:23:15.72,0:23:16.72,sub,NTP,0000,0000,0000,!Effect,因小姐而不幸
+Dialogue: Marked=0,0:23:16.72,0:23:18.02,sub,NTP,0000,0000,0000,!Effect,因河童而大不幸
+Dialogue: Marked=0,0:23:18.69,0:23:19.76,sub,NTP,0000,0000,0000,!Effect,伊織
+Dialogue: Marked=0,0:23:20.10,0:23:26.48,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(620,250)}播\N磨\N拳\N兒
+Dialogue: Marked=0,0:23:20.10,0:23:26.48,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(28,350)}戀\N愛\N與\N夢\N想\N皆\N破\N滅
+Dialogue: Marked=0,0:23:26.48,0:23:29.99,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(610,220)}小\N姐
+Dialogue: Marked=0,0:23:26.48,0:23:29.99,zs,NTP,0000,0000,0000,!Effect,{\be1\pos(28,220)}你\N是\N誰
+Dialogue: Marked=0,0:00:16.90,0:00:23.30,op,NTP,0000,0000,0000,!Effect,想告訴你的事 愈來愈沉重了
+Dialogue: Marked=0,0:00:23.80,0:00:29.30,op,NTP,0000,0000,0000,!Effect,再這樣下去 是會崩潰的
+Dialogue: Marked=0,0:00:31.70,0:00:37.90,op,NTP,0000,0000,0000,!Effect,許許多多的感情 難以用言語形容
+Dialogue: Marked=0,0:00:38.90,0:00:45.20,op,NTP,0000,0000,0000,!Effect,無法傳達給那個人 這若近亦遠的距離
+Dialogue: Marked=0,0:00:47.20,0:00:54.00,op,NTP,0000,0000,0000,!Effect,在晴朗的天空下 見到的都一樣吧
+Dialogue: Marked=0,0:00:54.00,0:01:01.30,op,NTP,0000,0000,0000,!Effect,轉啊轉 轉啊轉
+Dialogue: Marked=0,0:01:01.90,0:01:08.80,op,NTP,0000,0000,0000,!Effect,想就這樣裝傻 飛進你的心中
+Dialogue: Marked=0,0:01:08.90,0:01:16.00,op,NTP,0000,0000,0000,!Effect,轉啊轉 轉啊轉
+Dialogue: Marked=0,0:01:16.50,0:01:25.60,op,NTP,0000,0000,0000,!Effect,今天也是獨自一人 飄浮在柔軟的雲上
+Dialogue: Marked=0,0:21:48.80,0:21:54.70,op,NTP,0000,0000,0000,!Effect,男孩們總是追著女孩
+Dialogue: Marked=0,0:21:54.90,0:22:00.60,op,NTP,0000,0000,0000,!Effect,一天到晚想著女孩的事
+Dialogue: Marked=0,0:22:00.70,0:22:05.10,op,NTP,0000,0000,0000,!Effect,不過男孩確實有些笨
+Dialogue: Marked=0,0:22:05.20,0:22:09.90,op,NTP,0000,0000,0000,!Effect,一點也不明白女孩的心思
+Dialogue: Marked=0,0:22:11.80,0:22:14.90,op,NTP,0000,0000,0000,!Effect,真的是 真的是 笨蛋男孩
+Dialogue: Marked=0,0:22:15.40,0:22:17.90,op,NTP,0000,0000,0000,!Effect,讓我告訴你吧 笨蛋男孩
+Dialogue: Marked=0,0:22:18.00,0:22:21.40,op,NTP,0000,0000,0000,!Effect,聽著 這個世界最重要的
+Dialogue: Marked=0,0:22:21.50,0:22:24.40,op,NTP,0000,0000,0000,!Effect,絕對不容錯過的
+Dialogue: Marked=0,0:22:24.50,0:22:28.60,op,NTP,0000,0000,0000,!Effect,我想就是時機了
+Dialogue: Marked=0,0:22:29.90,0:22:31.70,op,NTP,0000,0000,0000,!Effect,是的 告白也好
+Dialogue: Marked=0,0:22:31.80,0:22:34.90,op,NTP,0000,0000,0000,!Effect,約會也好 什麼都好
+Dialogue: Marked=0,0:22:35.90,0:22:37.70,op,NTP,0000,0000,0000,!Effect,嗯 接吻也好
+Dialogue: Marked=0,0:22:37.80,0:22:40.90,op,NTP,0000,0000,0000,!Effect,分手也好 無論何時
+Dialogue: Marked=0,0:22:41.70,0:22:45.10,op,NTP,0000,0000,0000,!Effect,聽著 這個世界最重要的
+Dialogue: Marked=0,0:22:45.20,0:22:49.50,op,NTP,0000,0000,0000,!Effect,果然就是時機了
+Dialogue: Marked=0,0:22:49.90,0:22:51.00,op,NTP,0000,0000,0000,!Effect,是不是啊
+
+

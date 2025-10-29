@@ -1,0 +1,791 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:39.48,0:01:42.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}世界上最好的海是加勒比海
+Dialogue: 0,0:01:43.24,0:01:44.60,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}像玻璃一样清
+Dialogue: 0,0:01:44.60,0:01:47.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}干完了 你可以去世界上任何地万
+Dialogue: 0,0:01:50.96,0:01:53.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥会有意外吗
+Dialogue: 0,0:01:54.24,0:01:55.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有意外很正常
+Dialogue: 0,0:01:56.80,0:01:57.94,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}重要的是
+Dialogue: 0,0:02:00.44,0:02:01.66,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有我呢
+Dialogue: 0,0:02:37.68,0:02:38.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你好
+Dialogue: 0,0:02:39.40,0:02:40.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你好
+Dialogue: 0,0:02:43.92,0:02:45.20,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你好 有什么可以帮您？
+Dialogue: 0,0:02:45.20,0:02:47.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你们的工作效率也大慢点了
+Dialogue: 0,0:02:47.24,0:02:48.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你看我等了这么长时间了
+Dialogue: 0,0:02:48.84,0:02:50.60,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}家里孩子还等着做饭
+Dialogue: 0,0:02:50.60,0:02:51.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还得交学费
+Dialogue: 0,0:02:51.68,0:02:53.00,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}都等到三点了
+Dialogue: 0,0:02:53.00,0:02:54.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你说这
+Dialogue: 0,0:02:54.32,0:02:55.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}您别急阿姨您先坐一下
+Dialogue: 0,0:02:56.16,0:02:57.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我看一下您的号
+Dialogue: 0,0:03:01.04,0:03:03.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是这样因为今天上午\N办业务的人比较多
+Dialogue: 0,0:03:03.44,0:03:05.44,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}所以可能需要您等一下
+Dialogue: 0,0:03:05.44,0:03:07.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这样您先休息一下 我去给您倒杯水
+Dialogue: 0,0:03:07.56,0:03:09.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你好先生请不要抽烟谢谢
+Dialogue: 0,0:03:09.24,0:03:10.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我没抽 闻闻
+Dialogue: 0,0:03:13.44,0:03:14.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}先生您办什么业务
+Dialogue: 0,0:03:14.52,0:03:15.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我存款
+Dialogue: 0,0:03:16.92,0:03:18.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}现在还差几个号就到您了
+Dialogue: 0,0:03:18.76,0:03:21.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这个女孩看起来不错呀
+Dialogue: 0,0:03:21.12,0:03:22.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有男朋友了吗
+Dialogue: 0,0:03:22.48,0:03:23.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还没有呢
+Dialogue: 0,0:03:24.24,0:03:24.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还行
+Dialogue: 0,0:03:25.16,0:03:25.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我喜欢
+Dialogue: 0,0:03:26.28,0:03:28.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有钱了什么女人都有
+Dialogue: 0,0:03:30.84,0:03:33.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥你会陪我去潜水吗
+Dialogue: 0,0:03:51.48,0:03:53.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁是韩小慧
+Dialogue: 0,0:03:54.00,0:03:55.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}同志\N你好我是
+Dialogue: 0,0:04:00.32,0:04:01.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请签收
+Dialogue: 0,0:04:01.32,0:04:02.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等一下
+Dialogue: 0,0:04:06.44,0:04:07.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}送错人了
+Dialogue: 0,0:04:10.68,0:04:12.48,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁是韩小慧同志
+Dialogue: 0,0:04:12.48,0:04:13.70,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎我是
+Dialogue: 0,0:04:15.64,0:04:17.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请签收\N退回去吧 我不想收
+Dialogue: 0,0:04:17.20,0:04:18.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}后悔了
+Dialogue: 0,0:04:18.32,0:04:20.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这是窦经理送给你的
+Dialogue: 0,0:04:21.56,0:04:22.54,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不喜欢玫瑰花
+Dialogue: 0,0:04:25.84,0:04:27.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}退回去吧我不想收
+Dialogue: 0,0:04:27.12,0:04:27.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}退回去
+Dialogue: 0,0:04:28.92,0:04:29.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请签收
+Dialogue: 0,0:04:29.88,0:04:30.94,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎 你这人怎么这么轴啊
+Dialogue: 0,0:04:31.00,0:04:32.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}让你退回去就退回去吧
+Dialogue: 0,0:04:46.20,0:04:47.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}啊 炸弹
+Dialogue: 0,0:04:49.96,0:04:50.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁都别动
+Dialogue: 0,0:04:50.64,0:04:51.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别乱跑
+Dialogue: 0,0:04:51.40,0:04:52.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我又不抢你们的钱
+Dialogue: 0,0:05:00.00,0:05:00.50,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}OCR / 校对：嘉芸她爹
+Dialogue: 0,0:05:00.51,0:05:01.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}抢银行
+Dialogue: 0,0:05:01.28,0:05:03.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}闭嘴废1舌
+Dialogue: 0,0:05:05.84,0:05:07.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我们也许只有三分钟啊
+Dialogue: 0,0:05:08.36,0:05:09.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}三分钟啊
+Dialogue: 0,0:05:14.84,0:05:15.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}装钱
+Dialogue: 0,0:05:17.60,0:05:18.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别打钱呀
+Dialogue: 0,0:05:19.12,0:05:20.10,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你还｝臀着干什么
+Dialogue: 0,0:05:20.36,0:05:21.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我说你呢
+Dialogue: 0,0:05:21.16,0:05:22.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}快装钱
+Dialogue: 0,0:05:22.44,0:05:23.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}快点
+Dialogue: 0,0:05:39.52,0:05:43.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你们是在搞演习吗
+Dialogue: 0,0:05:45.12,0:05:46.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不说出去
+Dialogue: 0,0:05:48.48,0:05:49.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是
+Dialogue: 0,0:05:49.52,0:05:51.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}到那边蹲着 维持一下秩序
+Dialogue: 0,0:05:56.44,0:05:58.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别磨蹭 快点给我装钱
+Dialogue: 0,0:05:59.24,0:06:00.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不许抽烟
+Dialogue: 0,0:06:00.08,0:06:04.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿钱拿钱 听到没有 快拿钱\N别给他们钱 警察很快的
+Dialogue: 0,0:06:10.28,0:06:11.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎呀 快点 快点
+Dialogue: 0,0:06:12.64,0:06:14.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别急 这儿堵车
+Dialogue: 0,0:06:14.52,0:06:16.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察没那么快
+Dialogue: 0,0:06:18.84,0:06:20.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不是演习啊
+Dialogue: 0,0:06:33.16,0:06:34.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我来维持秩序
+Dialogue: 0,0:06:47.72,0:06:48.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打得好
+Dialogue: 0,0:08:10.32,0:08:13.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别进来 都别进来 我有人质
+Dialogue: 0,0:08:20.16,0:08:21.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}放开我哥
+Dialogue: 0,0:08:21.16,0:08:21.76,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不放
+Dialogue: 0,0:08:21.76,0:08:23.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}人质被劫持 还有两名案犯在里面
+Dialogue: 0,0:08:23.60,0:08:25.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我叫你放开我哥
+Dialogue: 0,0:08:25.68,0:08:26.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你放
+Dialogue: 0,0:08:31.48,0:08:35.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别过来 别过来
+Dialogue: 0,0:08:40.84,0:08:44.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 我是好人 他是坏人
+Dialogue: 0,0:08:45.00,0:08:47.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 你没法陪我去潜水了
+Dialogue: 0,0:08:47.92,0:08:49.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}斌子 放开
+Dialogue: 0,0:08:49.12,0:08:49.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不
+Dialogue: 0,0:08:56.08,0:08:56.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}放开
+Dialogue: 0,0:08:56.88,0:08:57.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不
+Dialogue: 0,0:09:04.72,0:09:05.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等等
+Dialogue: 0,0:09:08.80,0:09:10.28,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这次你输了
+Dialogue: 0,0:09:10.28,0:09:11.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是你赢得侥幸
+Dialogue: 0,0:09:13.84,0:09:16.64,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩小慧同志 请签收
+Dialogue: 0,0:09:16.64,0:09:22.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}后来警察就来了\N当时现场可混乱了 可是我一点不紧张
+Dialogue: 0,0:09:26.40,0:09:27.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥
+Dialogue: 0,0:09:30.92,0:09:31.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好好养伤
+Dialogue: 0,0:09:55.28,0:09:57.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我叫老三
+Dialogue: 0,0:09:58.04,0:09:58.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大名
+Dialogue: 0,0:09:59.28,0:10:02.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑勇
+Dialogue: 0,0:10:02.40,0:10:02.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}王涛
+Dialogue: 0,0:10:03.12,0:10:04.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有什么好问的
+Dialogue: 0,0:10:04.20,0:10:05.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你抓了我这么久
+Dialogue: 0,0:10:05.64,0:10:07.40,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你对我了解比我自己还多
+Dialogue: 0,0:10:07.40,0:10:08.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别着急 慢慢聊
+Dialogue: 0,0:10:08.96,0:10:11.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我当过两年潜水兵
+Dialogue: 0,0:10:11.96,0:10:13.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我终于进来了
+Dialogue: 0,0:10:13.36,0:10:14.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}提前退役
+Dialogue: 0,0:10:14.44,0:10:15.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}溺水
+Dialogue: 0,0:10:16.96,0:10:18.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}救战友 溺的水
+Dialogue: 0,0:10:18.88,0:10:19.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}受伤了？
+Dialogue: 0,0:10:19.56,0:10:20.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}啊
+Dialogue: 0,0:10:20.96,0:10:22.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}脑袋
+Dialogue: 0,0:10:24.08,0:10:25.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我弟弟怎么样了
+Dialogue: 0,0:10:29.12,0:10:30.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我可以走了吧
+Dialogue: 0,0:10:30.92,0:10:33.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}以后有危险的话找警察 别逞能
+Dialogue: 0,0:10:33.76,0:10:36.14,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我以后见到坏人 我还要打
+Dialogue: 0,0:10:36.52,0:10:37.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是坏人
+Dialogue: 0,0:10:37.68,0:10:38.74,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打
+Dialogue: 0,0:10:39.28,0:10:40.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}坏人
+Dialogue: 0,0:10:40.16,0:10:41.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}都需要教育
+Dialogue: 0,0:10:42.72,0:10:43.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}游戏结束了
+Dialogue: 0,0:10:44.36,0:10:46.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}如果再给我一次机会
+Dialogue: 0,0:10:47.12,0:10:48.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你赢不了我
+Dialogue: 0,0:10:49.44,0:10:50.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你没机会了
+Dialogue: 0,0:10:52.28,0:10:55.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有机会 我还想当兵
+Dialogue: 0,0:11:14.32,0:11:18.12,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}军旗呀军旗 在舰上飘呀飘
+Dialogue: 0,0:11:18.12,0:11:22.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}心儿心儿 在心中跳呀跳
+Dialogue: 0,0:11:22.20,0:11:28.80,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}在理理飘带整整军帽我们踏着波涛
+Dialogue: 0,0:11:28.80,0:11:30.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}远航回来了
+Dialogue: 0,0:11:44.40,0:11:45.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}立定 向左转
+Dialogue: 0,0:11:47.28,0:11:48.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}敬礼
+Dialogue: 0,0:11:56.36,0:11:58.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 以后别抽烟了
+Dialogue: 0,0:11:58.60,0:11:59.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}最后一根了
+Dialogue: 0,0:12:01.36,0:12:04.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}本事够大的 勇斗劫匪\N跟你学的
+Dialogue: 0,0:12:05.40,0:12:10.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你要是在我们队里 这次立二等功\N哥 谢谢你救我
+Dialogue: 0,0:12:11.40,0:12:13.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}救你的是那个傻乎乎的快递员
+Dialogue: 0,0:12:14.20,0:12:15.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我在给他做笔录的时候
+Dialogue: 0,0:12:16.28,0:12:17.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他居然还批评我
+Dialogue: 0,0:12:17.76,0:12:20.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}说万一我那枪要是打不准怎么办
+Dialogue: 0,0:12:20.16,0:12:22.46,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还说我违反纪律 真有点二
+Dialogue: 0,0:12:23.08,0:12:24.22,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不过说实话
+Dialogue: 0,0:12:24.28,0:12:25.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我还挺佩服这家伙的
+Dialogue: 0,0:12:25.72,0:12:26.70,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他叫什么
+Dialogue: 0,0:13:07.32,0:13:08.54,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}据目击者介绍
+Dialogue: 0,0:13:08.64,0:13:10.96,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打人者是一名骑自行车的快递员
+Dialogue: 0,0:13:10.96,0:13:13.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}具体情况 警方还在调查中
+Dialogue: 0,0:13:13.64,0:13:17.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}今天是公安局对见义勇为的个人进行了奖励
+Dialogue: 0,0:13:17.60,0:13:19.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}特别表彰了这位扔车男
+Dialogue: 0,0:13:19.60,0:13:22.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他是在发现了骑摩托车的抢包歹徒时
+Dialogue: 0,0:13:22.80,0:13:23.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}挺身而出
+Dialogue: 0,0:13:24.00,0:13:25.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}用自行车砸到歹徒
+Dialogue: 0,0:13:25.68,0:13:27.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}并与群众一起将其制服
+Dialogue: 0,0:13:27.96,0:13:31.00,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有网友称 他是今年中国最纯的爷们
+Dialogue: 0,0:13:31.00,0:13:33.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三向这位战友 致敬
+Dialogue: 0,0:14:19.36,0:14:20.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}加油 右边防守
+Dialogue: 0,0:14:30.28,0:14:31.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}加油
+Dialogue: 0,0:14:31.36,0:14:32.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 没事吧
+Dialogue: 0,0:14:33.24,0:14:36.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队韩队 压意他的右路
+Dialogue: 0,0:15:08.16,0:15:09.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我先送件去了
+Dialogue: 0,0:15:09.12,0:15:10.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好了 慢点
+Dialogue: 0,0:15:50.44,0:15:51.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你会不会走路你
+Dialogue: 0,0:15:51.84,0:15:53.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}会不会走路 你往哪看你
+Dialogue: 0,0:15:53.80,0:15:54.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}看什么看
+Dialogue: 0,0:17:03.24,0:17:03.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}二
+Dialogue: 0,0:17:05.24,0:17:06.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}第二次了
+Dialogue: 0,0:17:06.80,0:17:07.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}再偷东西
+Dialogue: 0,0:17:07.80,0:17:10.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}见你一次打你一次 打死为止
+Dialogue: 0,0:17:10.80,0:17:12.02,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}干嘛呢
+Dialogue: 0,0:17:13.72,0:17:16.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}抓小偷\N踩我车了吧
+Dialogue: 0,0:17:18.00,0:17:19.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我在抓小偷
+Dialogue: 0,0:17:19.60,0:17:20.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}抓小偷
+Dialogue: 0,0:17:20.56,0:17:21.80,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}踩我车干嘛
+Dialogue: 0,0:17:21.80,0:17:24.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这么宽的马路 干嘛要踩我的车抓小偷
+Dialogue: 0,0:17:24.68,0:17:27.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你看你把我车给踩的 你看这大脚印子
+Dialogue: 0,0:17:27.76,0:17:29.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}都变形了
+Dialogue: 0,0:17:29.44,0:17:30.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}抓小偷有警察呢
+Dialogue: 0,0:17:30.92,0:17:33.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你别蒙我了 你们是俩小偷
+Dialogue: 0,0:17:34.44,0:17:36.00,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他是小偷 我不是
+Dialogue: 0,0:17:36.00,0:17:37.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我看你就像
+Dialogue: 0,0:17:37.24,0:17:38.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:17:40.04,0:17:42.58,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他砸了我的车 偷了我的包 是吗
+Dialogue: 0,0:17:42.64,0:17:43.14,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}嗯
+Dialogue: 0,0:17:46.72,0:17:48.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你别跑 你得赔我车\N我赔
+Dialogue: 0,0:18:02.24,0:18:04.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}下午工作时间 到操场集合
+Dialogue: 0,0:18:43.04,0:18:46.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}住手 让开\N大个 拿钩子叉他
+Dialogue: 0,0:18:46.48,0:18:47.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}都别动
+Dialogue: 0,0:18:49.20,0:18:50.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}快点快点
+Dialogue: 0,0:18:55.88,0:18:57.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}先把他衣服解开\N小心点
+Dialogue: 0,0:19:04.76,0:19:06.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他往那边跑了
+Dialogue: 0,0:19:07.60,0:19:08.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别跑
+Dialogue: 0,0:19:08.68,0:19:09.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}站住
+Dialogue: 0,0:19:10.96,0:19:11.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}站住
+Dialogue: 0,0:19:12.36,0:19:13.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}站住别跑
+Dialogue: 0,0:19:15.00,0:19:15.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}站住
+Dialogue: 0,0:19:22.32,0:19:25.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}脑袋的伤不容易好我有经验
+Dialogue: 0,0:19:26.40,0:19:29.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}其实 在外地培训这段时间
+Dialogue: 0,0:19:29.96,0:19:31.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还挺想你的
+Dialogue: 0,0:19:32.52,0:19:33.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你呢
+Dialogue: 0,0:19:38.72,0:19:42.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 咱俩的事就这么定了
+Dialogue: 0,0:19:45.24,0:19:46.30,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是我的男朋友吗
+Dialogue: 0,0:19:47.88,0:19:48.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不一定
+Dialogue: 0,0:20:01.36,0:20:04.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对了 过两天你跟我哥见个面聊聊吧
+Dialogue: 0,0:20:04.32,0:20:07.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我上次在公安局跟他聊过了
+Dialogue: 0,0:20:07.32,0:20:08.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你不怕坏人 你还怕警察
+Dialogue: 0,0:20:09.64,0:20:10.78,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不一定
+Dialogue: 0,0:20:14.20,0:20:14.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队
+Dialogue: 0,0:20:16.20,0:20:16.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队
+Dialogue: 0,0:20:17.04,0:20:20.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 你看咱俩都这样了还\N你踢球
+Dialogue: 0,0:20:20.48,0:20:23.04,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还赌球 你不输谁输
+Dialogue: 0,0:20:25.84,0:20:26.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队
+Dialogue: 0,0:20:27.32,0:20:28.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}快点 开会了
+Dialogue: 0,0:20:29.04,0:20:32.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}参加过多起绑架抢劫案\N这小子有点身手 他以前是散打冠军
+Dialogue: 0,0:20:32.92,0:20:35.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有很强的反侦察能力 今天凌晨越狱
+Dialogue: 0,0:20:35.88,0:20:37.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑勇 父母双亡
+Dialogue: 0,0:20:37.28,0:20:39.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}唯一的弟弟在去年银行抢劫案中受伤
+Dialogue: 0,0:20:40.04,0:20:41.02,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}现在是植物人
+Dialogue: 0,0:20:41.12,0:20:44.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这家伙很难对付\N韩队 两年前的事没忘吧
+Dialogue: 0,0:20:57.80,0:20:59.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}监狱离这有多远
+Dialogue: 0,0:20:59.16,0:21:00.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}一百多公里吧
+Dialogue: 0,0:21:00.08,0:21:02.76,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑勇肯定不敢回来 你们知道为什么\N知道
+Dialogue: 0,0:21:02.76,0:21:04.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有咱韩队在这儿
+Dialogue: 0,0:21:04.36,0:21:06.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你说呢 他可是你的老对手
+Dialogue: 0,0:22:31.44,0:22:34.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}报告 我有个预感
+Dialogue: 0,0:22:34.76,0:22:35.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}说
+Dialogue: 0,0:22:41.04,0:22:44.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有什么事就要发生了 什么意思
+Dialogue: 0,0:22:45.00,0:22:48.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}真正的爱情 就要来了
+Dialogue: 0,0:22:52.40,0:22:55.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不对啊 昨晚上没有多大风浪啊
+Dialogue: 0,0:22:56.24,0:22:58.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你们的船怎么会沉了呢
+Dialogue: 0,0:22:59.04,0:23:02.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小伙子 我怎么看你不像是渔民啊
+Dialogue: 0,0:23:02.76,0:23:04.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你住在哪条街啊
+Dialogue: 0,0:23:30.48,0:23:33.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}果然是你啊\N阿姨好
+Dialogue: 0,0:23:33.60,0:23:35.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}怎么啦 得什么病啦
+Dialogue: 0,0:23:35.40,0:23:36.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我女朋友脑袋疼
+Dialogue: 0,0:23:45.72,0:23:47.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}公共场所不许抽烟
+Dialogue: 0,0:23:48.16,0:23:49.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}再让我看见你抽烟
+Dialogue: 0,0:23:50.00,0:23:52.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我就让你把烟给吃了
+Dialogue: 0,0:23:53.28,0:23:53.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还有烟盒
+Dialogue: 0,0:24:15.96,0:24:17.02,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥回来了
+Dialogue: 0,0:24:20.64,0:24:23.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我挂头疼专家号\N没了
+Dialogue: 0,0:24:25.16,0:24:26.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我挂专家号
+Dialogue: 0,0:24:26.32,0:24:28.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}后边的 专家号没了
+Dialogue: 0,0:24:28.36,0:24:29.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}啊 没号啦
+Dialogue: 0,0:24:33.76,0:24:36.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我挂头疼专家号
+Dialogue: 0,0:24:38.12,0:24:38.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是谁
+Dialogue: 0,0:24:41.16,0:24:42.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是他朋友
+Dialogue: 0,0:24:43.72,0:24:46.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请问 他不会醒了对吧
+Dialogue: 0,0:24:48.84,0:24:50.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对不起 我不能回答你的问题
+Dialogue: 0,0:24:54.88,0:24:55.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}干嘛呀
+Dialogue: 0,0:25:05.52,0:25:08.08,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大个 专家号要吗
+Dialogue: 0,0:25:09.56,0:25:10.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}头疼
+Dialogue: 0,0:25:11.12,0:25:13.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}头疼 别说头疼
+Dialogue: 0,0:25:14.24,0:25:17.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}屁股疼的专家号我这都有
+Dialogue: 0,0:25:17.20,0:25:21.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}屁股不疼\N好啊 你们这些号贩子
+Dialogue: 0,0:25:21.40,0:25:22.44,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}消什么气呀
+Dialogue: 0,0:25:22.44,0:25:23.66,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这有理了
+Dialogue: 0,0:25:24.12,0:25:26.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老太太 你嚷嚷嘛哪
+Dialogue: 0,0:25:26.40,0:25:27.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你还敢打人哪
+Dialogue: 0,0:25:27.56,0:25:28.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打你怎么着
+Dialogue: 0,0:25:55.76,0:25:56.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察我在打坏人
+Dialogue: 0,0:25:57.24,0:25:58.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打\N是
+Dialogue: 0,0:26:02.04,0:26:05.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大家不要抢 这全都是专家号
+Dialogue: 0,0:26:05.32,0:26:06.96,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}神经科的同志
+Dialogue: 0,0:26:06.96,0:26:08.88,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}给我 好小伙子真棒
+Dialogue: 0,0:26:08.88,0:26:10.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}泌尿系统科的同志
+Dialogue: 0,0:26:35.04,0:26:37.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}发现目标 立即拘捕\N是
+Dialogue: 0,0:26:37.72,0:26:39.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}机场 汽车站 火车站
+Dialogue: 0,0:26:39.96,0:26:43.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}国道还有码头都已经布置了 他跑不了
+Dialogue: 0,0:26:45.76,0:26:47.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别再违反纪律了
+Dialogue: 0,0:26:47.28,0:26:48.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你说的啊
+Dialogue: 0,0:27:10.68,0:27:12.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大夫说 要按时吃药
+Dialogue: 0,0:27:13.20,0:27:15.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}成人一天一次 一次两片
+Dialogue: 0,0:27:15.96,0:27:18.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大夫说\N大夫说现在就吃
+Dialogue: 0,0:27:24.08,0:27:25.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 没有异常情况
+Dialogue: 0,0:27:27.00,0:27:29.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你去布置一下二十四小时给我守着
+Dialogue: 0,0:27:29.48,0:27:30.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是
+Dialogue: 0,0:27:36.80,0:27:37.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥
+Dialogue: 0,0:27:38.72,0:27:39.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有任务啊
+Dialogue: 0,0:27:39.68,0:27:40.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}刚才那个快递员
+Dialogue: 0,0:27:40.92,0:27:41.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:27:42.44,0:27:43.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你跟老三
+Dialogue: 0,0:27:44.08,0:27:45.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我挺喜欢他的
+Dialogue: 0,0:27:49.20,0:27:50.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我觉得他这个人倒是挺不错的
+Dialogue: 0,0:27:50.96,0:27:53.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 我的事我自己决定
+Dialogue: 0,0:27:53.84,0:27:55.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 我们已到位
+Dialogue: 0,0:27:55.52,0:27:56.66,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}知道了 马上过来
+Dialogue: 0,0:27:59.60,0:28:00.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}可是他脑子有问题
+Dialogue: 0,0:28:02.60,0:28:03.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我觉得是你脑子有问题
+Dialogue: 0,0:28:08.04,0:28:10.34,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对了 那个黑勇潜逃回来了
+Dialogue: 0,0:28:10.44,0:28:11.44,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}自己小心点
+Dialogue: 0,0:28:11.44,0:28:12.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}跟我没关系
+Dialogue: 0,0:28:18.96,0:28:20.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}关军同志的快递
+Dialogue: 0,0:28:24.84,0:28:26.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}现在不万便 改天再送
+Dialogue: 0,0:28:27.76,0:28:29.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁的邮件啊\N送错了送错了
+Dialogue: 0,0:28:29.80,0:28:32.18,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是关军同志吗
+Dialogue: 0,0:28:33.04,0:28:34.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}送错了送错了重名了
+Dialogue: 0,0:28:37.32,0:28:39.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这是市南区法院\N你傻啊
+Dialogue: 0,0:28:43.04,0:28:46.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请问这里是不是望火楼9号\N不知道
+Dialogue: 0,0:28:49.08,0:28:49.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等等
+Dialogue: 0,0:28:51.40,0:28:53.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这里到底是不是望火楼9号
+Dialogue: 0,0:28:55.20,0:28:55.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等等
+Dialogue: 0,0:28:58.44,0:29:01.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你别紧张 这里很安全
+Dialogue: 0,0:29:01.56,0:29:03.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有我在 这没坏人
+Dialogue: 0,0:29:04.08,0:29:04.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谢谢
+Dialogue: 0,0:29:20.40,0:29:23.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}坏人虽然还没出现 但是
+Dialogue: 0,0:29:23.84,0:29:29.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}只要发现敌人 就勇敢去战斗
+Dialogue: 0,0:29:29.36,0:29:30.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是
+Dialogue: 0,0:30:15.12,0:30:16.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:30:16.20,0:30:17.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}到
+Dialogue: 0,0:30:17.16,0:30:17.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}过来
+Dialogue: 0,0:30:21.76,0:30:24.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 你知道吗
+Dialogue: 0,0:30:24.76,0:30:27.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}见义勇为和抓逃犯不是一回事
+Dialogue: 0,0:30:28.56,0:30:29.54,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我知道
+Dialogue: 0,0:30:29.68,0:30:33.30,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}但是所有的坏人都是我的敌人
+Dialogue: 0,0:30:34.44,0:30:38.72,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我要跟他们战斗到底
+Dialogue: 0,0:30:38.72,0:30:41.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你只想着战斗 那我呢
+Dialogue: 0,0:30:42.20,0:30:43.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我们怎么办
+Dialogue: 0,0:30:44.52,0:30:49.38,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我们 我们 慢慢来吧
+Dialogue: 0,0:30:49.44,0:30:50.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你爱我吗
+Dialogue: 0,0:30:54.68,0:30:56.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}明天再告诉你
+Dialogue: 0,0:31:11.72,0:31:12.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}出来玩图个高兴
+Dialogue: 0,0:31:12.96,0:31:14.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我们当服务员的也不容易啊
+Dialogue: 0,0:31:14.64,0:31:17.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你喝酒别毁东西啊\N我毁你东西怎么啦
+Dialogue: 0,0:31:17.56,0:31:18.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别这么说话
+Dialogue: 0,0:31:18.48,0:31:19.24,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我怎么了
+Dialogue: 0,0:31:19.24,0:31:20.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}来 我陪你们玩玩
+Dialogue: 0,0:31:20.64,0:31:21.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有你啥事啊
+Dialogue: 0,0:32:07.68,0:32:08.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}先走啦 哥们
+Dialogue: 0,0:32:08.44,0:32:09.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}走啦
+Dialogue: 0,0:32:10.28,0:32:11.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}二胖
+Dialogue: 0,0:32:15.76,0:32:16.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥
+Dialogue: 0,0:33:23.60,0:33:26.16,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 这是教授
+Dialogue: 0,0:33:26.32,0:33:29.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥 以前出手帮过我 我欠他一个情
+Dialogue: 0,0:33:33.92,0:33:35.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你怎么没说是个女的
+Dialogue: 0,0:33:35.40,0:33:37.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎呀 你别当她是个女的
+Dialogue: 0,0:33:37.56,0:33:39.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那个教授文武双全
+Dialogue: 0,0:33:40.00,0:33:41.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这事没她咱办不成
+Dialogue: 0,0:33:47.84,0:33:48.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}教授
+Dialogue: 0,0:33:49.84,0:33:50.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别动
+Dialogue: 0,0:33:56.64,0:33:59.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}按动按钮60秒就会爆炸
+Dialogue: 0,0:33:59.36,0:34:02.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}威力也没多大 就是能把人炸成两半
+Dialogue: 0,0:34:07.72,0:34:09.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这个也叫枪
+Dialogue: 0,0:34:14.68,0:34:16.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这把不卖
+Dialogue: 0,0:34:18.28,0:34:19.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑勇昨天晚上没有来
+Dialogue: 0,0:34:22.52,0:34:23.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他今天不会来了
+Dialogue: 0,0:34:25.32,0:34:26.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}保持警惕
+Dialogue: 0,0:34:31.48,0:34:34.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 有什么话想和政委说吗
+Dialogue: 0,0:34:36.92,0:34:37.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}报告
+Dialogue: 0,0:34:38.20,0:34:38.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}什么事
+Dialogue: 0,0:34:40.04,0:34:42.34,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}昨晚犯错误了
+Dialogue: 0,0:34:42.88,0:34:43.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}什么错误
+Dialogue: 0,0:34:47.12,0:34:47.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}笑什么笑
+Dialogue: 0,0:34:58.48,0:34:59.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}走
+Dialogue: 0,0:35:29.72,0:35:30.78,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}报告总部
+Dialogue: 0,0:36:00.16,0:36:01.22,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿着包 让开
+Dialogue: 0,0:36:10.60,0:36:12.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥 给教授装钱啊
+Dialogue: 0,0:36:22.08,0:36:23.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察
+Dialogue: 0,0:36:26.36,0:36:30.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}报告 疑犯驾驶一辆\N大排量灰色摩托车向大学路行驶
+Dialogue: 0,0:36:50.32,0:36:51.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这样就走了
+Dialogue: 0,0:38:04.48,0:38:05.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}站住
+Dialogue: 0,0:38:55.44,0:38:56.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等等
+Dialogue: 0,0:38:59.36,0:39:00.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}唉 别让她跑啦
+Dialogue: 0,0:39:01.36,0:39:03.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是坏人吗
+Dialogue: 0,0:39:04.04,0:39:05.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}少管闲事
+Dialogue: 0,0:39:27.88,0:39:30.26,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}给她换了一堆白纸 黑哥
+Dialogue: 0,0:39:30.32,0:39:33.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这么玩教授够狠的你\N是她自己找的
+Dialogue: 0,0:39:34.08,0:39:36.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我的修理厂又可以开业了
+Dialogue: 0,0:39:36.28,0:39:37.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}钱我先帮你拿着
+Dialogue: 0,0:39:38.16,0:39:39.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}明天把事情办完了再分
+Dialogue: 0,0:39:41.84,0:39:42.98,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}教授来电话了吗
+Dialogue: 0,0:39:47.88,0:39:48.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:39:49.96,0:39:50.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:39:56.20,0:39:57.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}生日快乐
+Dialogue: 0,0:39:58.32,0:39:59.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是这吗
+Dialogue: 0,0:40:17.08,0:40:18.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 你先许个愿吧
+Dialogue: 0,0:40:21.72,0:40:25.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我祝小慧头疼早点好\N哎呀 说出来就不灵了
+Dialogue: 0,0:40:26.16,0:40:31.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}可是大夫说 你一激动可能会昏倒
+Dialogue: 0,0:40:45.16,0:40:46.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拍个照
+Dialogue: 0,0:40:51.24,0:40:52.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}挺甜的
+Dialogue: 0,0:40:52.60,0:40:53.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:40:54.56,0:40:56.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有句话我一直想跟你说
+Dialogue: 0,0:40:58.04,0:40:59.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你打坏人我并不反对
+Dialogue: 0,0:41:01.48,0:41:02.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}但是打架
+Dialogue: 0,0:41:03.64,0:41:05.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}也许不能解决所有的问题
+Dialogue: 0,0:41:08.28,0:41:09.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对
+Dialogue: 0,0:41:10.08,0:41:14.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打完坏人之后 我还要再教育他
+Dialogue: 0,0:41:24.20,0:41:24.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩警察
+Dialogue: 0,0:41:26.24,0:41:27.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我有事找你
+Dialogue: 0,0:41:27.48,0:41:30.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我知道 是逃犯的事吧
+Dialogue: 0,0:41:30.68,0:41:31.74,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是你跟小慧的事
+Dialogue: 0,0:41:33.92,0:41:36.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是我违反纪律的事
+Dialogue: 0,0:41:38.40,0:41:39.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}违反什么纪律了
+Dialogue: 0,0:41:41.92,0:41:45.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}前天晚上
+Dialogue: 0,0:41:56.84,0:41:58.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我哥跟你说什么了
+Dialogue: 0,0:41:58.56,0:42:02.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他就想问咱俩的事 违反纪律的事
+Dialogue: 0,0:42:04.64,0:42:05.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你没后悔吧
+Dialogue: 0,0:42:07.16,0:42:12.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你以后就是我老婆了
+Dialogue: 0,0:42:13.68,0:42:14.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对吧
+Dialogue: 0,0:42:15.36,0:42:15.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不一定
+Dialogue: 0,0:42:26.72,0:42:27.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:42:28.64,0:42:29.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}来
+Dialogue: 0,0:42:33.12,0:42:33.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我爱你
+Dialogue: 0,0:42:56.28,0:42:56.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}早上好
+Dialogue: 0,0:43:50.32,0:43:52.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}喂 干嘛呢
+Dialogue: 0,0:43:54.36,0:43:56.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这是望火楼九号吗
+Dialogue: 0,0:44:09.92,0:44:10.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打开
+Dialogue: 0,0:44:12.08,0:44:13.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不就份离婚协议书吗
+Dialogue: 0,0:44:13.84,0:44:15.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你不是早就离婚了吗
+Dialogue: 0,0:44:24.80,0:44:26.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我现在签了字不就
+Dialogue: 0,0:44:26.56,0:44:27.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}请出示你的证件
+Dialogue: 0,0:44:34.84,0:44:35.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你给我说清楚
+Dialogue: 0,0:44:36.16,0:44:38.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这事已经很清楚啦\N哪清楚啊
+Dialogue: 0,0:44:39.36,0:44:41.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧 小慧 我是老三
+Dialogue: 0,0:44:42.04,0:44:43.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三救我
+Dialogue: 0,0:44:45.12,0:44:46.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧你怎么了
+Dialogue: 0,0:44:52.52,0:44:53.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧
+Dialogue: 0,0:44:54.60,0:44:55.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}喂
+Dialogue: 0,0:44:55.80,0:44:56.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他是黑...
+Dialogue: 0,0:44:56.68,0:44:57.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑
+Dialogue: 0,0:44:57.80,0:44:58.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}什么黑
+Dialogue: 0,0:44:59.20,0:44:59.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑什么
+Dialogue: 0,0:45:00.56,0:45:01.13,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哪黑
+Dialogue: 0,0:45:01.84,0:45:03.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧你是不是碰到坏人了
+Dialogue: 0,0:45:03.40,0:45:04.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧你告诉我去哪救你
+Dialogue: 0,0:45:05.40,0:45:08.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我等你来救她啊\N你是谁
+Dialogue: 0,0:45:08.40,0:45:09.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我告诉你 你要是敢碰小慧
+Dialogue: 0,0:45:10.00,0:45:11.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我这辈子不送快递了
+Dialogue: 0,0:45:11.56,0:45:13.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我让你死的不痛快 喂
+Dialogue: 0,0:45:13.44,0:45:14.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好玩
+Dialogue: 0,0:45:18.80,0:45:19.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}证件
+Dialogue: 0,0:45:27.20,0:45:28.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我要投诉你
+Dialogue: 0,0:45:28.36,0:45:29.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不干了
+Dialogue: 0,0:45:29.44,0:45:32.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑什么黑\N黑社会
+Dialogue: 0,0:45:42.44,0:45:47.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 你是要你妹呢 还是要抓罪犯
+Dialogue: 0,0:45:47.76,0:45:53.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是越狱犯 抢劫犯\N说不定还是杀人犯
+Dialogue: 0,0:45:53.56,0:45:54.52,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}所以你别乱来
+Dialogue: 0,0:45:54.52,0:45:56.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}因为我一向什么都干得出来
+Dialogue: 0,0:45:57.24,0:45:58.22,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是有仇必报的
+Dialogue: 0,0:45:58.28,0:45:59.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我知道
+Dialogue: 0,0:46:00.36,0:46:02.74,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}现在对你来说除了你弟之外
+Dialogue: 0,0:46:02.80,0:46:04.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}任何人都是可以杀的
+Dialogue: 0,0:46:04.68,0:46:06.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你真了解我
+Dialogue: 0,0:46:07.96,0:46:09.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我弟就算被你杀了
+Dialogue: 0,0:46:09.68,0:46:11.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 赌球那个案子 我
+Dialogue: 0,0:46:13.36,0:46:14.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你还想单独抓我吧
+Dialogue: 0,0:46:14.84,0:46:16.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你少他妈废话
+Dialogue: 0,0:46:17.40,0:46:19.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}说 你到底想干什么
+Dialogue: 0,0:46:22.16,0:46:25.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿我弟弟换你妹妹
+Dialogue: 0,0:46:25.36,0:46:27.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你给我听清楚了 别动我妹妹
+Dialogue: 0,0:46:27.28,0:46:30.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你也听清楚了 我今天就要交换
+Dialogue: 0,0:46:30.24,0:46:31.76,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等我电话吧
+Dialogue: 0,0:46:31.76,0:46:35.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对了 我就算报警了
+Dialogue: 0,0:46:39.96,0:46:41.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥亏 你想得出来呀
+Dialogue: 0,0:46:41.84,0:46:43.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这个警察干得出来
+Dialogue: 0,0:46:52.64,0:46:53.70,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:46:55.08,0:46:58.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这一定是场艰苦的战斗
+Dialogue: 0,0:46:59.48,0:47:02.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}只许成功 不许失败
+Dialogue: 0,0:47:12.44,0:47:14.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不仅要斗勇
+Dialogue: 0,0:47:16.00,0:47:17.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还得斗智
+Dialogue: 0,0:47:21.80,0:47:22.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}记住
+Dialogue: 0,0:47:24.92,0:47:27.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}智慧的智
+Dialogue: 0,0:47:37.28,0:47:39.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁是黑社会
+Dialogue: 0,0:47:40.96,0:47:43.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁是黑社会
+Dialogue: 0,0:47:43.32,0:47:46.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎哟喂怎么是你啊 怎么了
+Dialogue: 0,0:47:49.20,0:47:50.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你到底想干什么
+Dialogue: 0,0:47:51.56,0:47:54.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿我弟弟 换你妹妹
+Dialogue: 0,0:48:03.84,0:48:06.14,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥 听说过老三吗
+Dialogue: 0,0:48:07.60,0:48:08.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三
+Dialogue: 0,0:48:12.08,0:48:14.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这人脑子不大正常 有点二
+Dialogue: 0,0:48:14.32,0:48:16.88,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}总爱管别人闲事 我们都躲着他
+Dialogue: 0,0:48:16.88,0:48:20.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}当年 就是他坏了我的是事
+Dialogue: 0,0:48:21.84,0:48:23.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑哥 弄他吧
+Dialogue: 0,0:48:25.32,0:48:28.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这种傻子我不惹 只要他不再捣乱
+Dialogue: 0,0:48:32.32,0:48:34.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哪有黑社会
+Dialogue: 0,0:48:36.68,0:48:38.00,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}会不会走路你
+Dialogue: 0,0:48:38.00,0:48:38.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你会走路吗你
+Dialogue: 0,0:48:39.04,0:48:39.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}看什么你看你
+Dialogue: 0,0:48:40.04,0:48:41.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}看什么你不认识我
+Dialogue: 0,0:49:28.24,0:49:29.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你跑什么跑
+Dialogue: 0,0:49:29.40,0:49:30.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老师我怕你啊
+Dialogue: 0,0:49:30.60,0:49:31.66,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你见我一次打我一次
+Dialogue: 0,0:49:31.72,0:49:33.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我已经改邪归正了\N你慢点说
+Dialogue: 0,0:49:33.48,0:49:35.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是不是黑社会
+Dialogue: 0,0:49:35.56,0:49:37.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑社会 哪有黑社会呀
+Dialogue: 0,0:49:39.52,0:49:40.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有
+Dialogue: 0,0:49:41.32,0:49:43.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有有\N在哪
+Dialogue: 0,0:49:46.56,0:49:49.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}洗浴中心 可能有啊
+Dialogue: 0,0:49:50.40,0:49:51.54,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谢谢啊
+Dialogue: 0,0:49:56.32,0:49:57.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}傻啊你
+Dialogue: 0,0:50:06.88,0:50:08.10,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}欢迎光临
+Dialogue: 0,0:50:08.84,0:50:10.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}浴区男宾一位
+Dialogue: 0,0:50:16.60,0:50:17.60,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你好 先生
+Dialogue: 0,0:50:17.60,0:50:18.44,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我...
+Dialogue: 0,0:50:18.44,0:50:19.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}洗浴还是按摩
+Dialogue: 0,0:50:20.20,0:50:21.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}洗浴还是按摩呢
+Dialogue: 0,0:50:21.64,0:50:22.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不一定
+Dialogue: 0,0:50:22.92,0:50:24.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那您再考虑考虑
+Dialogue: 0,0:50:26.84,0:50:29.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}找人？找人也得先换衣服
+Dialogue: 0,0:50:29.76,0:50:30.64,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这边请
+Dialogue: 0,0:50:30.64,0:50:31.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谢谢
+Dialogue: 0,0:50:31.44,0:50:32.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}下次来啊
+Dialogue: 0,0:50:32.84,0:50:35.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你说昨晚上那球 他怎么踢的
+Dialogue: 0,0:50:35.52,0:50:37.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你管他怎么踢的 赢钱不就行了
+Dialogue: 0,0:50:37.64,0:50:39.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那倒是 有钱挣就行了\N7号
+Dialogue: 0,0:50:39.76,0:50:41.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这呢\N搓澡
+Dialogue: 0,0:50:44.36,0:50:47.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁是黑社会
+Dialogue: 0,0:50:48.08,0:50:51.70,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑社会 你看我像不像
+Dialogue: 0,0:50:52.48,0:50:53.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}像
+Dialogue: 0,0:50:56.76,0:50:58.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪
+Dialogue: 0,0:50:58.60,0:51:00.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你 你谁啊
+Dialogue: 0,0:51:00.84,0:51:02.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我老三
+Dialogue: 0,0:51:02.72,0:51:04.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪
+Dialogue: 0,0:51:05.88,0:51:06.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪
+Dialogue: 0,0:51:27.36,0:51:29.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪
+Dialogue: 0,0:51:29.40,0:51:32.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}找我啊 叫我惠哥
+Dialogue: 0,0:51:32.40,0:51:33.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是谁
+Dialogue: 0,0:51:33.48,0:51:35.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我就是小惠\N这名字好多年都没人叫了
+Dialogue: 0,0:51:36.00,0:51:36.98,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那你又是谁
+Dialogue: 0,0:51:43.32,0:51:45.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪
+Dialogue: 0,0:51:45.48,0:51:47.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我真是小惠
+Dialogue: 0,0:51:49.96,0:51:51.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 不许动
+Dialogue: 0,0:51:56.08,0:51:59.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}惠哥 实在有点对不住啊
+Dialogue: 0,0:53:19.60,0:53:22.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我在7号工地 暂时没有发现异常
+Dialogue: 0,0:53:22.40,0:53:23.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你们待命
+Dialogue: 0,0:53:23.44,0:53:25.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队韩队 我是小勇
+Dialogue: 0,0:53:25.08,0:53:25.68,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}说
+Dialogue: 0,0:53:25.68,0:53:28.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}刚才抓赌球的行动抓到了惠哥\N他是庄家
+Dialogue: 0,0:53:28.84,0:53:29.44,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好
+Dialogue: 0,0:53:29.44,0:53:31.68,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不过他们人没到齐我们就动手了
+Dialogue: 0,0:53:31.68,0:53:33.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}因为那个老三
+Dialogue: 0,0:53:33.16,0:53:34.00,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他想见你
+Dialogue: 0,0:53:34.00,0:53:35.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不想见他
+Dialogue: 0,0:53:35.16,0:53:38.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 他不断说你妹妹被坏人抓了
+Dialogue: 0,0:53:39.44,0:53:40.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}带他过来
+Dialogue: 0,0:53:48.56,0:53:50.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 你在什么位置
+Dialogue: 0,0:53:52.76,0:53:54.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩警察
+Dialogue: 0,0:53:55.00,0:53:57.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有件事情你不知道
+Dialogue: 0,0:53:58.72,0:54:02.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧现在有危险
+Dialogue: 0,0:54:12.20,0:54:13.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩警察
+Dialogue: 0,0:54:14.16,0:54:15.36,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧...
+Dialogue: 0,0:54:15.36,0:54:17.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧的事不用你管
+Dialogue: 0,0:54:18.32,0:54:20.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这么乱来只会害了小慧
+Dialogue: 0,0:54:21.80,0:54:27.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那你们警察想干什么 叫着我行吗
+Dialogue: 0,0:54:27.84,0:54:29.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不可能 回去吧
+Dialogue: 0,0:54:29.92,0:54:31.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你跟小慧没有关系
+Dialogue: 0,0:54:31.36,0:54:35.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我都违反纪律了 我跟小慧有关系
+Dialogue: 0,0:54:35.96,0:54:37.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你滚
+Dialogue: 0,0:54:38.32,0:54:39.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有你这么当哥哥的吗
+Dialogue: 0,0:54:39.96,0:54:40.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我告诉你
+Dialogue: 0,0:54:40.80,0:54:43.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧万一有什么事我就...\N你想干什么
+Dialogue: 0,0:54:43.64,0:54:44.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}跟谁说话呢
+Dialogue: 0,0:54:45.16,0:54:46.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧以后是我老婆
+Dialogue: 0,0:54:47.08,0:54:47.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不同意
+Dialogue: 0,0:54:48.04,0:54:50.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你同不同意 她都是我老婆
+Dialogue: 0,0:54:55.56,0:54:58.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那你告诉我 我应该去哪儿找小慧
+Dialogue: 0,0:54:58.88,0:55:00.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你有完没有
+Dialogue: 0,0:55:01.08,0:55:02.14,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我没完
+Dialogue: 0,0:55:08.20,0:55:09.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你到底要干什么
+Dialogue: 0,0:55:09.64,0:55:10.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我要救小慧
+Dialogue: 0,0:55:11.00,0:55:12.14,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}就凭你
+Dialogue: 0,0:55:20.72,0:55:22.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你瞧不起我
+Dialogue: 0,0:55:47.96,0:55:49.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}嘘
+Dialogue: 0,0:56:11.44,0:56:13.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 你给我回去
+Dialogue: 0,0:56:14.44,0:56:16.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不
+Dialogue: 0,0:56:16.60,0:56:19.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这样不但救不了小慧 你还会坏了事
+Dialogue: 0,0:56:22.40,0:56:24.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我爱小慧
+Dialogue: 0,0:56:26.36,0:56:28.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我爱她
+Dialogue: 0,0:56:49.36,0:56:51.24,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队 局长找你
+Dialogue: 0,0:56:51.24,0:56:53.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我知道了 我过来
+Dialogue: 0,0:57:08.20,0:57:09.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好玩
+Dialogue: 0,0:57:11.92,0:57:13.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}局长让你马上回去
+Dialogue: 0,0:57:13.52,0:57:15.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我这就回去
+Dialogue: 0,0:57:15.68,0:57:16.90,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}走
+Dialogue: 0,0:57:21.20,0:57:23.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这辆车在这留守等我命令
+Dialogue: 0,0:57:23.16,0:57:24.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是
+Dialogue: 0,0:57:28.48,0:57:34.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 我怎么办 我该干什么
+Dialogue: 0,0:57:39.04,0:57:42.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}怎么说昏就昏啊 醒醒
+Dialogue: 0,0:57:47.40,0:57:48.36,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}怎么了
+Dialogue: 0,0:57:48.36,0:57:49.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}没什么
+Dialogue: 0,0:57:49.24,0:57:51.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}省厅要求我们尽快破案
+Dialogue: 0,0:57:51.60,0:57:52.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}时间
+Dialogue: 0,0:57:52.60,0:57:53.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}24小时
+Dialogue: 0,0:57:54.44,0:57:55.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}用不了
+Dialogue: 0,0:57:56.44,0:58:01.38,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿我弟弟 换你妹妹\N我今天就要交换 等我电话吧
+Dialogue: 0,0:58:02.84,0:58:07.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}局长 我的计划是这样的
+Dialogue: 0,0:58:17.40,0:58:19.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}如果那警察不换人
+Dialogue: 0,0:58:20.16,0:58:22.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这小美女就没用了吧
+Dialogue: 0,0:59:12.24,0:59:13.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}『J\N礼
+Dialogue: 0,0:59:14.12,0:59:14.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}甜
+Dialogue: 0,0:59:15.24,0:59:18.96,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}说\N敬
+Dialogue: 0,0:59:18.96,0:59:21.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}但时间长了 往往就平淡了
+Dialogue: 0,0:59:23.28,0:59:27.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}平淡 挺好的
+Dialogue: 0,0:59:29.88,0:59:33.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我也喜欢简单的爱情 好好保护吧
+Dialogue: 0,0:59:34.32,0:59:38.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是保卫 保卫爱情
+Dialogue: 0,0:59:40.08,0:59:41.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}挺甜的
+Dialogue: 0,0:59:48.56,0:59:49.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是黑...
+Dialogue: 0,0:59:50.12,0:59:51.10,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是黑勇
+Dialogue: 0,0:59:51.20,0:59:54.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大英雄 你的小慧在我这
+Dialogue: 0,0:59:54.76,0:59:55.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你在哪
+Dialogue: 0,0:59:55.88,0:59:57.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧在哪 你想干什么
+Dialogue: 0,0:59:57.96,1:00:01.74,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}傻子 你想见她 就得乖乖听我的
+Dialogue: 0,1:00:02.76,1:00:04.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}行 你说你说
+Dialogue: 0,1:00:04.88,1:00:05.94,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你想干什么
+Dialogue: 0,1:00:06.00,1:00:07.31,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}帮我维持秩序
+Dialogue: 0,1:00:07.48,1:00:10.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}只要小慧安全 你让我干什么都行
+Dialogue: 0,1:00:10.88,1:00:11.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}干什么都行
+Dialogue: 0,1:00:11.80,1:00:13.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}走到路中间
+Dialogue: 0,1:00:22.16,1:00:22.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}喊
+Dialogue: 0,1:00:23.12,1:00:24.10,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}喊什么
+Dialogue: 0,1:00:24.52,1:00:25.58,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是...
+Dialogue: 0,1:00:26.64,1:00:28.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三
+Dialogue: 0,1:00:29.00,1:00:31.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是个大傻子
+Dialogue: 0,1:00:34.92,1:00:38.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三是个大傻子
+Dialogue: 0,1:00:39.08,1:00:40.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三
+Dialogue: 0,1:00:41.80,1:00:44.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是个大傻子
+Dialogue: 0,1:00:45.08,1:00:46.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三
+Dialogue: 0,1:00:47.20,1:00:49.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是个大傻子
+Dialogue: 0,1:00:49.96,1:00:54.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三 是个大傻子\N好了
+Dialogue: 0,1:00:54.32,1:00:55.38,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}下一个任务
+Dialogue: 0,1:00:55.72,1:00:58.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拦个车抢个包
+Dialogue: 0,1:00:58.64,1:00:59.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不干坏事
+Dialogue: 0,1:01:00.08,1:01:02.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那你的女朋友可就...
+Dialogue: 0,1:01:03.60,1:01:05.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}喂...
+Dialogue: 0,1:01:05.60,1:01:07.98,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哎 怎么是你啊
+Dialogue: 0,1:01:08.04,1:01:10.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还认识我吗？还知道我是谁吗
+Dialogue: 0,1:01:11.36,1:01:12.64,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}包 你的包
+Dialogue: 0,1:01:12.64,1:01:13.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我的包
+Dialogue: 0,1:01:13.52,1:01:15.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}把你的包给我\N要我包干嘛
+Dialogue: 0,1:01:15.76,1:01:18.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你的包救我女朋友\N用我的包给你女朋友
+Dialogue: 0,1:01:18.64,1:01:20.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哦...还你
+Dialogue: 0,1:01:20.72,1:01:23.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 坏人抢包了
+Dialogue: 0,1:01:23.52,1:01:26.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 他抢我包
+Dialogue: 0,1:01:26.28,1:01:28.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}抓住他 他往那跑啦
+Dialogue: 0,1:01:28.52,1:01:30.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你家老三救不了你
+Dialogue: 0,1:01:30.60,1:01:31.58,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}咱俩玩玩
+Dialogue: 0,1:01:33.08,1:01:34.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}陪哥玩玩
+Dialogue: 0,1:01:34.24,1:01:35.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别动啊
+Dialogue: 0,1:01:38.44,1:01:40.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我还就不信了我
+Dialogue: 0,1:01:43.48,1:01:44.20,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}干嘛
+Dialogue: 0,1:01:44.20,1:01:44.81,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你干嘛
+Dialogue: 0,1:01:44.86,1:01:45.37,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}怎么啦
+Dialogue: 0,1:01:45.39,1:01:46.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你说怎么了
+Dialogue: 0,1:01:46.40,1:01:47.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你为个女的\N这女的不能动
+Dialogue: 0,1:01:50.04,1:01:51.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我动怎么了
+Dialogue: 0,1:01:51.72,1:01:52.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}试试
+Dialogue: 0,1:03:07.08,1:03:08.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你早晚会杀了我 对吗
+Dialogue: 0,1:03:08.88,1:03:10.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我什么事都干得出来
+Dialogue: 0,1:03:19.32,1:03:21.88,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有点疼 忍忍吧
+Dialogue: 0,1:03:42.36,1:03:45.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}通知一二小组集结待命 抓捕黑勇
+Dialogue: 0,1:03:45.08,1:03:46.80,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我会直接跟局长联系
+Dialogue: 0,1:03:46.80,1:03:47.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你们几个收队
+Dialogue: 0,1:03:47.96,1:03:49.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我走了 谁留守啊
+Dialogue: 0,1:03:49.72,1:03:51.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我让你收队就收队
+Dialogue: 0,1:03:53.92,1:03:54.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小勇
+Dialogue: 0,1:03:56.44,1:03:58.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}如果我有意外
+Dialogue: 0,1:04:04.48,1:04:06.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我不干 把钱给我
+Dialogue: 0,1:04:07.04,1:04:09.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好我奉陪到底
+Dialogue: 0,1:04:10.40,1:04:14.18,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我告诉你 你们赢不了的
+Dialogue: 0,1:04:16.44,1:04:19.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}事儿没办完 没有你的钱
+Dialogue: 0,1:04:27.44,1:04:29.82,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我欠你的情算还完了啊
+Dialogue: 0,1:06:16.88,1:06:20.27,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我是老三 你是谁
+Dialogue: 0,1:06:46.08,1:06:47.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}把枪放下
+Dialogue: 0,1:06:52.56,1:06:53.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}把枪放下
+Dialogue: 0,1:09:07.36,1:09:08.42,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩队长
+Dialogue: 0,1:09:08.64,1:09:12.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你是警察里枪最快的 今天可别手软
+Dialogue: 0,1:09:19.64,1:09:20.62,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥
+Dialogue: 0,1:09:20.68,1:09:23.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}斌子 你喜欢的这个女人
+Dialogue: 0,1:09:24.28,1:09:26.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥让她来陪你了
+Dialogue: 0,1:09:28.12,1:09:29.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是什么
+Dialogue: 0,1:09:32.88,1:09:35.34,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}别乱动 没想到吧
+Dialogue: 0,1:09:35.44,1:09:37.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还有几十秒就会爆炸
+Dialogue: 0,1:09:37.76,1:09:41.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}威力也不大 就是能把人炸成两半
+Dialogue: 0,1:09:42.84,1:09:43.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}嘣
+Dialogue: 0,1:09:44.64,1:09:46.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 把我绳子解开
+Dialogue: 0,1:09:47.48,1:09:49.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}没有别的办法了
+Dialogue: 0,1:09:49.08,1:09:50.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你在这 我冲出去
+Dialogue: 0,1:09:51.44,1:09:52.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 对不起
+Dialogue: 0,1:09:55.52,1:09:56.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧
+Dialogue: 0,1:11:08.44,1:11:12.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 别说我没给你机会
+Dialogue: 0,1:11:15.76,1:11:17.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧
+Dialogue: 0,1:11:20.36,1:11:22.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧
+Dialogue: 0,1:11:23.32,1:11:29.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧
+Dialogue: 0,1:11:33.24,1:11:37.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我来啦
+Dialogue: 0,1:11:39.28,1:11:45.38,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}傻子 我说过你不捣乱 我不惹你
+Dialogue: 0,1:11:53.44,1:11:55.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这次我赢了
+Dialogue: 0,1:11:57.72,1:11:59.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}警察 游戏结束啦
+Dialogue: 0,1:12:10.28,1:12:14.06,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你赢了吗 不一定
+Dialogue: 0,1:12:21.24,1:12:22.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}报告局长
+Dialogue: 0,1:12:23.88,1:12:25.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}黑勇已被抓获
+Dialogue: 0,1:12:26.16,1:12:27.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}跨海大桥
+Dialogue: 0,1:13:27.00,1:13:28.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你不是玩教授吗
+Dialogue: 0,1:13:29.32,1:13:32.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你不是玩老三吗 被谁玩了
+Dialogue: 0,1:14:10.08,1:14:12.54,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你怎么才来啊 给你打电话那么久了
+Dialogue: 0,1:14:13.68,1:14:16.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这些人有生命危险 我去报警
+Dialogue: 0,1:14:17.00,1:14:18.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}保护好现场
+Dialogue: 0,1:14:25.24,1:14:29.02,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧 对不起我来晚了
+Dialogue: 0,1:14:29.08,1:14:30.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁打你了 你没事吧
+Dialogue: 0,1:14:30.80,1:14:32.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你告诉我谁打你的 我一定让他...
+Dialogue: 0,1:14:33.48,1:14:34.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这什么东西
+Dialogue: 0,1:14:35.36,1:14:37.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩警察 出什么事了
+Dialogue: 0,1:14:38.84,1:14:41.40,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}出什么事了
+Dialogue: 0,1:14:43.08,1:14:44.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好玩
+Dialogue: 0,1:14:45.16,1:14:46.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你不是好人吧
+Dialogue: 0,1:14:55.00,1:14:55.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}等等
+Dialogue: 0,1:14:56.76,1:14:58.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}这个是我的
+Dialogue: 0,1:15:00.44,1:15:01.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿去玩去
+Dialogue: 0,1:15:45.24,1:15:46.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我说过...
+Dialogue: 0,1:15:47.88,1:15:49.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我要让你们这帮坏人
+Dialogue: 0,1:15:50.32,1:15:51.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}死得不痛快
+Dialogue: 0,1:16:06.08,1:16:08.87,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}记住 我是老三
+Dialogue: 0,1:16:14.00,1:16:18.48,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我想过规矩的日子 我想要简单的爱情
+Dialogue: 0,1:16:18.48,1:16:20.78,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}是你们这些坏人在捣乱
+Dialogue: 0,1:16:21.40,1:16:25.18,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我的任务就是\N跟你们这些坏人战斗到底
+Dialogue: 0,1:16:28.80,1:16:31.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我也知道 打架...
+Dialogue: 0,1:16:31.92,1:16:34.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}打架并不能解决所有的问题
+Dialogue: 0,1:16:34.76,1:16:36.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}但这就是我老三的办法
+Dialogue: 0,1:16:37.48,1:16:41.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}正义 永远会战胜邪恶
+Dialogue: 0,1:16:55.28,1:16:58.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不好玩
+Dialogue: 0,1:17:04.28,1:17:05.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥来接你了
+Dialogue: 0,1:17:32.44,1:17:34.48,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大好了 警察来了
+Dialogue: 0,1:17:34.48,1:17:36.35,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧 你醒醒
+Dialogue: 0,1:18:22.44,1:18:24.43,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 我哥呢
+Dialogue: 0,1:18:24.68,1:18:27.96,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他受伤了 他是好样的
+Dialogue: 0,1:18:27.96,1:18:30.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你放心吧 警察来救他了
+Dialogue: 0,1:18:30.84,1:18:32.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}坏人都被消灭了吗
+Dialogue: 0,1:18:35.60,1:18:36.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不一定
+Dialogue: 0,1:19:10.56,1:19:15.23,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}来吧 我奉陪到底
+Dialogue: 0,1:19:45.36,1:19:48.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}哥 你会陪我去潜水吗
+Dialogue: 0,1:20:50.16,1:20:55.15,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}在海里 通缉犯根本不是潜艇兵的对手
+Dialogue: 0,1:20:55.48,1:21:00.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}经过几轮战斗 敌人最终被击沉了
+Dialogue: 0,1:21:00.32,1:21:03.55,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}正义再次战胜了邪恶
+Dialogue: 0,1:21:04.16,1:21:05.83,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}对了
+Dialogue: 0,1:21:06.44,1:21:07.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}大夫说
+Dialogue: 0,1:21:08.20,1:21:13.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你这种头疼很难根治 要坚持吃药
+Dialogue: 0,1:21:13.68,1:21:17.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}每天一次 一次吃两片
+Dialogue: 0,1:21:18.80,1:21:20.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}小慧吃药
+Dialogue: 0,1:21:23.76,1:21:25.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}没事吧 哥
+Dialogue: 0,1:21:25.60,1:21:29.79,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}老三 我真服了你了
+Dialogue: 0,1:21:31.92,1:21:37.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}韩警察 你同意我和小慧好了吗
+Dialogue: 0,1:21:49.08,1:21:50.67,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}不一定
+Dialogue: 0,1:21:53.04,1:21:59.51,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有一种力量 是专为消灭邪恶而存在的
+Dialogue: 0,1:22:00.04,1:22:02.95,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}那就是我
+Dialogue: 0,1:22:34.56,1:22:35.99,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}有完没完啊
+Dialogue: 0,1:22:38.56,1:22:40.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你对我了解比我的还...
+Dialogue: 0,1:22:48.04,1:22:49.02,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}你没事吧
+Dialogue: 0,1:22:49.20,1:22:51.50,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我以后见到坏人 我还要打
+Dialogue: 0,1:22:57.64,1:22:58.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}拿倒了
+Dialogue: 0,1:23:25.88,1:23:26.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好 停
+Dialogue: 0,1:23:29.52,1:23:30.71,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}歇会...
+Dialogue: 0,1:23:36.88,1:23:37.63,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}还行吧
+Dialogue: 0,1:23:37.68,1:23:39.19,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我妈会心疼的
+Dialogue: 0,1:23:41.24,1:23:42.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}停
+Dialogue: 0,1:24:22.48,1:24:24.91,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}好像每场的打戏都那么累
+Dialogue: 0,1:24:38.80,1:24:39.86,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}没事吧
+Dialogue: 0,1:25:03.32,1:25:04.46,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}冷
+Dialogue: 0,1:25:04.52,1:25:06.11,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}他真的冷了
+Dialogue: 0,1:25:06.16,1:25:07.75,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}承俊怎么样 还能坚持吗
+Dialogue: 0,1:25:08.56,1:25:09.47,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}我替你吧
+Dialogue: 0,1:25:19.68,1:25:20.59,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}来二对
+Dialogue: 0,1:25:21.40,1:25:23.03,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}谁给你来啊
+Dialogue: 0,1:25:23.28,1:25:24.28,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}接着来
+Dialogue: 0,1:25:24.28,1:25:27.07,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}要做硬汉 就必须要浑身是伤
+Dialogue: 0,1:25:27.12,1:25:31.39,Default,,0000,0000,0000,,{\fnSimHei\fs16\bord1\shad2\1c&HDDDDDD&\3c&H3F3F3F&\4c&HBA6A1B&}硬汉2 我们就是硬汉
+
+

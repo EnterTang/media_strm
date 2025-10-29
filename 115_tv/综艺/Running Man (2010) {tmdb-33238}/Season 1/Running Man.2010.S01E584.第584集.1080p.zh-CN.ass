@@ -1,0 +1,306 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 漫游字幕
+Original Script: 漫游字幕组
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 100.0000
+Synch Point: 0
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,SimHei,30,&H00FFFFFF,&H00000000,&H01000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,4,1
+Style: 1111,Microsoft YaHei,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,5,134
+Style: 3333,Microsoft YaHei,24,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,2,134
+Style: 22,SimHei,19,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,2,134
+Style: op,方正行楷_GBK,20,&H0000007D,&HF0000000,&H03DFDFDF,&HF0DFDFDF,0,0,0,0,100,100,1,0,1,2,1,2,30,30,3,134
+Style: ed,迷你简少儿,16,&H00E8E8E8,&HF0000000,&H001B1B1B,&HF0000000,0,0,0,0,100,100,0,0,1,2,0,2,30,30,3,134
+Style: mingdan,Microsoft YaHei,25,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,4,134
+Style: SHUIYIN,Microsoft YaHei,18,&HE6FFFFFF,&HF0000000,&H32000000,&HF0000000,-1,-1,0,0,100,100,0,0,1,1,1,7,1,30,0,134
+Style: 水印,SimHei,18,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,3,134
+Style: 11,Microsoft YaHei,24,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,0,134
+Style: 滚动,SimHei,20,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,0,134
+Style: 33,方正粗圆_GBK,20,&H00DEEFFC,&HF0000000,&H004080FF,&HF04080FF,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,5,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:11.16,0:00:15.55,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}传言有光即有影
+Dialogue: 0,0:00:16.16,0:00:21.05,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}难忘彼日君之音
+Dialogue: 0,0:00:21.48,0:00:25.71,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}渴望变得更强
+Dialogue: 0,0:00:26.52,0:00:30.77,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}指间熄灭烛光
+Dialogue: 0,0:00:31.60,0:00:37.30,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}以生命铭记烈火
+Dialogue: 0,0:00:37.65,0:00:42.67,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}吾之核心迸裂
+Dialogue: 0,0:00:43.00,0:00:47.67,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}红莲之爱灼烧心灵
+Dialogue: 0,0:00:48.10,0:00:52.85,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}迷失风中襟然泪下
+Dialogue: 0,0:00:53.26,0:00:58.15,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}满身疮痍仍坚信未来
+Dialogue: 0,0:00:58.42,0:01:03.36,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}仍然向前 勇往直前
+Dialogue: 0,0:01:03.58,0:01:08.52,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}瓦砾之空为吾之羁绊
+Dialogue: 0,0:01:08.67,0:01:13.67,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}驱散来袭之虚妄
+Dialogue: 0,0:01:13.86,0:01:18.80,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}即使战后一无所获
+Dialogue: 0,0:01:18.98,0:01:27.24,op,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}仍要奔向前方 勇往直前
+Dialogue: 0,0:01:35.91,0:01:47.46,22,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}猪猪字幕组视频广告业务QQ:448482641
+Dialogue: 0,0:01:30.66,0:01:35.44,22,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}紧密相连的人们
+Dialogue: 0,0:01:32.91,0:01:35.57,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}忍联军之术发动之时
+Dialogue: 0,0:01:37.04,0:01:40.73,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}真是可悲啊 嗯
+Dialogue: 0,0:01:41.54,0:01:45.29,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那些家伙拼命抓住的希望 根本就不存在
+Dialogue: 0,0:01:45.42,0:01:49.54,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}而如今就连他们的存在本身也是一样
+Dialogue: 0,0:01:51.92,0:01:54.29,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}十尾差不多也要觉醒了
+Dialogue: 0,0:01:54.35,0:01:56.92,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}第五杜门 开
+Dialogue: 0,0:01:58.23,0:02:02.66,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这次不是十尾 而是冲着我们来了吗
+Dialogue: 0,0:02:02.73,0:02:06.85,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}也对 擒贼先擒王也是基本常识
+Dialogue: 0,0:02:06.92,0:02:08.91,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}依照作战计划
+Dialogue: 0,0:02:08.98,0:02:12.17,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}将他们两个控制十尾的家伙干掉
+Dialogue: 0,0:02:12.31,0:02:17.38,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不过那也得先阻止十尾才行啊
+Dialogue: 0,0:02:23.80,0:02:27.24,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}怎麽会 不是已经封住十尾了吗
+Dialogue: 0,0:02:28.06,0:02:29.68,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}没事吧 可恶
+Dialogue: 0,0:02:49.32,0:02:51.31,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}搞得肩膀都脱臼了
+Dialogue: 0,0:02:51.37,0:02:53.75,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看啊 感知水球
+Dialogue: 0,0:02:53.81,0:02:56.56,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这能量简直堪比小行星啊
+Dialogue: 0,0:02:56.63,0:02:59.06,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这简直令人难以置信
+Dialogue: 0,0:02:59.12,0:03:01.31,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}刚才十尾并非真是止于我方
+Dialogue: 0,0:03:01.44,0:03:05.69,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}而只是为了变身蓄力才故意不动的啊
+Dialogue: 0,0:03:05.75,0:03:07.81,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}究竟如何才能阻止这怪物
+Dialogue: 0,0:03:07.87,0:03:09.87,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看来想擒贼擒王根本是不切实际啊
+Dialogue: 0,0:03:09.94,0:03:13.56,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}即便如此也要阻止那怪物
+Dialogue: 0,0:03:13.62,0:03:15.56,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不然我们大家都没有未来
+Dialogue: 0,0:03:17.25,0:03:19.12,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}差点尿裤子了
+Dialogue: 0,0:03:19.88,0:03:22.73,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}有空害怕还不如赶紧凝聚查克拉
+Dialogue: 0,0:03:22.79,0:03:25.04,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}做好准备 一旦总部下达作战指令
+Dialogue: 0,0:03:25.11,0:03:26.67,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}要能马上执行
+Dialogue: 0,0:03:26.73,0:03:29.80,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}无论如何必须要先封住十尾的行动
+Dialogue: 0,0:03:29.86,0:03:34.23,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不然根本对付不了操控它的两人
+Dialogue: 0,0:03:34.29,0:03:36.42,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}但要如何封住它呢...
+Dialogue: 0,0:03:36.48,0:03:38.98,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}即使是擅长束缚术的我们一族的术
+Dialogue: 0,0:03:39.04,0:03:41.54,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}面对这种怪物就算耗尽查克拉
+Dialogue: 0,0:03:41.61,0:03:43.61,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}也很难能有所作为
+Dialogue: 0,0:03:45.17,0:03:48.36,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}亥一 帮我联络卡卡西 好
+Dialogue: 0,0:03:48.92,0:03:50.36,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}卡卡西 是我
+Dialogue: 0,0:03:51.42,0:03:53.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}关于刚才你汇报的一系列战斗情报
+Dialogue: 0,0:03:53.66,0:03:55.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}其中有些事我想确认一下
+Dialogue: 0,0:03:59.73,0:04:03.29,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}十尾越来越难以控制了
+Dialogue: 0,0:04:03.35,0:04:06.85,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}得用柱间细胞强化束缚力才行
+Dialogue: 0,0:04:07.72,0:04:10.48,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这种状态下的十尾究竟实力如何
+Dialogue: 0,0:04:10.55,0:04:12.92,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你难道就不想来亲身见证下吗
+Dialogue: 0,0:04:13.29,0:04:14.33,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}首先要....
+Dialogue: 0,0:04:14.39,0:04:21.52,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}嗯 得教教那些家伙 什麽叫作绝望
+Dialogue: 0,0:04:28.33,0:04:31.64,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鹿久大哥 先中断下联络 怎麽了
+Dialogue: 0,0:04:31.71,0:04:34.27,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这是... 难以置信
+Dialogue: 0,0:04:36.08,0:04:38.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鹿久阁下 亥一阁下
+Dialogue: 0,0:04:38.77,0:04:41.59,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不行 用神威根本来不及
+Dialogue: 0,0:04:41.64,0:04:44.08,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}用土遁来擡高它的脚 哦
+Dialogue: 0,0:04:57.89,0:04:59.71,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}攻击范围如此之远
+Dialogue: 0,0:04:59.71,0:05:02.65,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}之前的尾兽们和它根本无法相提并论
+Dialogue: 0,0:05:02.77,0:05:04.33,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}威力竟然如此惊人
+Dialogue: 0,0:05:05.52,0:05:06.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这种程度就开始摇摆晃动了
+Dialogue: 0,0:05:07.02,0:05:10.52,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看来操控还存在瑕疵啊 再来
+Dialogue: 0,0:05:29.89,0:05:31.27,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}竟有这等事
+Dialogue: 0,0:05:31.33,0:05:33.65,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}离得那麽远的城镇瞬间就被毁了
+Dialogue: 0,0:05:39.14,0:05:40.83,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}从刚才开始就很奇怪
+Dialogue: 0,0:05:40.89,0:05:42.83,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}他们为什麽总瞄准远处呢
+Dialogue: 0,0:05:42.89,0:05:46.41,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就是说所有的城镇 居民都在射程之内
+Dialogue: 0,0:05:46.47,0:05:47.86,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那样的话 避难的大名们
+Dialogue: 0,0:05:47.92,0:05:49.86,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}和守护村子的同伴大家都....
+Dialogue: 0,0:05:49.92,0:05:52.97,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就连普通的百姓也都身处险境了吗
+Dialogue: 0,0:05:53.03,0:05:54.91,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这不就是忍者们
+Dialogue: 0,0:05:54.97,0:05:58.15,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}在战场上舍身奋战想要守护的吗
+Dialogue: 0,0:05:58.84,0:06:02.41,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}他们这是要让我们彻底绝望啊
+Dialogue: 0,0:06:10.47,0:06:11.78,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那个方向是....
+Dialogue: 0,0:06:13.91,0:06:15.59,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这 这是...
+Dialogue: 0,0:06:16.09,0:06:18.22,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}怎麽了 青阁下
+Dialogue: 0,0:06:19.91,0:06:21.59,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}冷静听我说
+Dialogue: 0,0:06:28.03,0:06:29.40,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这里吗
+Dialogue: 0,0:06:30.59,0:06:32.84,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鹿久 怎麽办
+Dialogue: 0,0:06:32.84,0:06:35.59,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}最后让我们做完该做的事吧
+Dialogue: 0,0:06:36.09,0:06:37.41,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这是我最后的任务
+Dialogue: 0,0:06:37.47,0:06:39.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}帮我联络战场上的诸位吧
+Dialogue: 0,0:06:39.97,0:06:42.47,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我想到阻止十尾的计策了
+Dialogue: 0,0:07:22.20,0:07:24.38,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}总算是击中了啊
+Dialogue: 0,0:07:24.69,0:07:27.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这下联合军就失去了大脑
+Dialogue: 0,0:07:27.76,0:07:29.94,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}嗯...基本如此吧
+Dialogue: 0,0:07:32.69,0:07:39.07,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鹿丸 现在正在作战 不必多说
+Dialogue: 0,0:07:39.76,0:07:41.95,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}井野 你也是
+Dialogue: 0,0:07:44.01,0:07:47.82,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}照老爸说的去做就行了
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}==============
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}==============
+Dialogue: 0,0:07:57.93,0:08:01.18,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这究竟是怎麽回事
+Dialogue: 0,0:08:01.74,0:08:04.36,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就是说你是作战的关键所在
+Dialogue: 0,0:08:04.42,0:08:06.05,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不是说这个
+Dialogue: 0,0:08:06.11,0:08:07.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我是问鹿久大叔和亥一大叔他们
+Dialogue: 0,0:08:07.27,0:08:09.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}究竟是怎麽了
+Dialogue: 0,0:08:14.59,0:08:17.34,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}宁次 你右回旋 明白了
+Dialogue: 0,0:08:17.59,0:08:19.28,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}八卦掌回天
+Dialogue: 0,0:08:20.53,0:08:21.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}好厉害
+Dialogue: 0,0:08:23.72,0:08:25.65,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}别发呆了 鸣人
+Dialogue: 0,0:08:25.72,0:08:28.28,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这里是战场 战争还在继续呢
+Dialogue: 0,0:08:28.84,0:08:30.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}死人是难免的
+Dialogue: 0,0:08:31.18,0:08:33.56,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}可如果这一战我们输了
+Dialogue: 0,0:08:33.62,0:08:36.37,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那所有人就都没命了
+Dialogue: 0,0:08:36.44,0:08:39.12,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这我当然懂
+Dialogue: 0,0:08:39.18,0:08:43.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鹿丸和井野的父亲他们也会说
+Dialogue: 0,0:08:43.27,0:08:45.64,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}逝于子前乃忍者所愿吧
+Dialogue: 0,0:08:45.70,0:08:48.27,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就如同我的父亲那样
+Dialogue: 0,0:08:50.89,0:08:54.58,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人 你的力量对我们的作战是必不可少的
+Dialogue: 0,0:08:54.64,0:08:56.68,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}为了作战计划能顺利进行 无论如何...
+Dialogue: 0,0:08:56.74,0:09:00.24,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}都要保护好鸣人 雏田
+Dialogue: 0,0:09:01.30,0:09:05.05,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你们要铭记于心 日向乃木叶最强一族
+Dialogue: 0,0:09:05.55,0:09:07.54,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}真是大言不惭
+Dialogue: 0,0:09:07.60,0:09:10.92,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}本想在他们口出狂言前就发动攻击的
+Dialogue: 0,0:09:10.98,0:09:14.17,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}只可惜十尾太难控制
+Dialogue: 0,0:09:14.92,0:09:17.98,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}虽然这个状态下还能靠这个撑下
+Dialogue: 0,0:09:18.36,0:09:20.29,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}但到下次变身时
+Dialogue: 0,0:09:20.36,0:09:24.98,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}似乎不成为人柱力就无法再控制它了
+Dialogue: 0,0:09:25.29,0:09:28.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我若要成为十尾人柱力
+Dialogue: 0,0:09:28.66,0:09:31.85,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就不能是被秽土转生出来的死人
+Dialogue: 0,0:09:31.92,0:09:35.61,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}必须是有血有肉的活人才行
+Dialogue: 0,0:09:35.67,0:09:39.04,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}秽土转生的宗旨就是拉人同归于尽
+Dialogue: 0,0:09:39.10,0:09:42.11,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}而你之所以使用十尾尾兽弹时心存顾虑
+Dialogue: 0,0:09:42.11,0:09:44.54,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}没拿出自爆也要消灭联合军的觉悟来
+Dialogue: 0,0:09:44.61,0:09:48.29,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就是因为这样会使我也卷入其中成为炮灰
+Dialogue: 0,0:09:48.67,0:09:51.98,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}而我的死唯一令你担心的
+Dialogue: 0,0:09:52.42,0:09:54.36,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就是你为了成为人柱力
+Dialogue: 0,0:09:54.36,0:09:56.79,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}必须要真正意义上的复活才行
+Dialogue: 0,0:09:56.79,0:10:02.61,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}而这只有我舍命用轮回天生之术才能实现
+Dialogue: 0,0:10:02.85,0:10:06.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}也就是说现在你的立场十分微妙
+Dialogue: 0,0:10:06.95,0:10:11.27,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不得不听从我的吩咐 这点你可别忘了
+Dialogue: 0,0:10:11.33,0:10:15.77,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}当日的小鬼 如今竟然变得如此咄咄逼人
+Dialogue: 0,0:10:15.83,0:10:19.51,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}从过去开始我就没把你当成同伴
+Dialogue: 0,0:10:19.57,0:10:22.64,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}哼 这样就好
+Dialogue: 0,0:10:22.70,0:10:26.58,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那麽接下来怎麽做由你决定吧
+Dialogue: 0,0:10:26.64,0:10:32.76,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}继续 要慢慢让他们领教下绝望的滋味
+Dialogue: 0,0:10:36.88,0:10:39.07,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}木遁 扡插之术
+Dialogue: 0,0:10:42.07,0:10:43.88,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}在九尾的力量恢复前
+Dialogue: 0,0:10:43.95,0:10:47.38,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}用我的山土之术应该还能抵挡一阵
+Dialogue: 0,0:10:47.45,0:10:50.57,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}只是聚集查克拉还需要时间 在此之前...
+Dialogue: 0,0:10:51.26,0:10:53.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}混账东西
+Dialogue: 0,0:10:55.39,0:10:58.51,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}数量太多了.... 回天应付不来了
+Dialogue: 0,0:11:02.88,0:11:06.01,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}谢谢你 宁次 仙人模式成功了
+Dialogue: 0,0:11:06.07,0:11:09.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}也不能光依靠天才了 接下来我也要...
+Dialogue: 0,0:11:10.57,0:11:13.64,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}螺旋手里剑 看招
+Dialogue: 0,0:11:17.38,0:11:18.95,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}还没完呢
+Dialogue: 0,0:11:31.01,0:11:32.45,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}八卦空壁掌
+Dialogue: 0,0:11:37.20,0:11:40.32,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}糟糕 是瞄准一点的吗 数量也太多了
+Dialogue: 0,0:11:40.45,0:11:42.76,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}光靠雏田和宁次的空掌根本无法....白眼
+Dialogue: 0,0:11:55.50,0:12:00.57,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}土遁.山土之术 趁现在
+Dialogue: 0,0:12:01.25,0:12:06.68,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}医疗班 在哪里 他身受重伤了 快来啊
+Dialogue: 0,0:12:08.43,0:12:16.87,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不 我已经...宁次 哥哥
+Dialogue: 0,0:12:21.06,0:12:22.81,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人
+Dialogue: 0,0:12:24.56,0:12:30.87,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}雏田小姐可以为你而死
+Dialogue: 0,0:12:32.12,0:12:40.24,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}所以你的命不只一条
+Dialogue: 0,0:12:43.86,0:12:53.80,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看来我的命也成了其中之一了
+Dialogue: 0,0:12:54.99,0:12:59.11,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你怎麽可以在这里....
+Dialogue: 0,0:12:59.80,0:13:02.81,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你不是对日向家族...
+Dialogue: 0,0:13:03.99,0:13:08.05,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我依然记得当年你把我
+Dialogue: 0,0:13:08.23,0:13:12.61,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}从命运的枷锁中解放出来时所说的话
+Dialogue: 0,0:13:15.30,0:13:21.77,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}为什麽你为了我 连命都....
+Dialogue: 0,0:13:23.08,0:13:29.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}因为你说我是天才
+Dialogue: 0,0:13:31.27,0:13:36.21,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}因为你和我不同 不是吊车尾
+Dialogue: 0,0:13:37.27,0:13:40.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}父亲 我终于明白了
+Dialogue: 0,0:13:40.77,0:13:43.71,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}为了保护同伴
+Dialogue: 0,0:13:43.77,0:13:47.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}自愿赴死的父亲您自由的感受
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}==============
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}==============
+Dialogue: 0,0:13:55.63,0:13:58.92,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你不是说不会让任何人伤害你的同伴吗
+Dialogue: 0,0:13:58.99,0:14:00.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人
+Dialogue: 0,0:14:07.71,0:14:11.79,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我绝不会让任何人伤害我的同伴
+Dialogue: 0,0:14:21.11,0:14:26.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}绝不会让任何人伤害我的同伴 是你说的吧
+Dialogue: 0,0:14:27.53,0:14:30.65,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那你看看周围
+Dialogue: 0,0:14:30.70,0:14:33.02,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}还敢再说一遍吗
+Dialogue: 0,0:14:45.21,0:14:48.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我问你敢不敢再说一遍
+Dialogue: 0,0:14:50.45,0:14:53.24,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}去摸摸一点点变冷的同伴
+Dialogue: 0,0:14:53.29,0:14:56.10,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}好好感受下死亡吧
+Dialogue: 0,0:14:58.29,0:15:01.76,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}宁次他 死了？
+Dialogue: 0,0:15:05.10,0:15:09.46,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}日差对不起 我没保护好宁次
+Dialogue: 0,0:15:09.52,0:15:12.42,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}接下来杀戮还将继续
+Dialogue: 0,0:15:12.47,0:15:16.83,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你那幼稚的话语和理念终究会变成虚无
+Dialogue: 0,0:15:17.27,0:15:20.62,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这就是空谈理想和希望的结果
+Dialogue: 0,0:15:20.68,0:15:23.23,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这就是现实
+Dialogue: 0,0:15:23.81,0:15:27.71,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人 这样的现实有何值得留恋
+Dialogue: 0,0:15:27.79,0:15:30.73,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}父母没了 师父自来也也离你而去
+Dialogue: 0,0:15:30.79,0:15:33.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}并且你再继续反抗下去
+Dialogue: 0,0:15:33.58,0:15:37.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你的同伴还会像这样一个个的倒下
+Dialogue: 0,0:15:38.79,0:15:43.05,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你将活在一个无人认可你的世界里
+Dialogue: 0,0:15:44.98,0:15:46.08,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}带土
+Dialogue: 0,0:15:47.10,0:15:49.83,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}在前面等着你的
+Dialogue: 0,0:15:50.20,0:15:53.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}是你很熟悉也最惧怕的
+Dialogue: 0,0:15:57.59,0:15:58.92,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}孤独
+Dialogue: 0,0:16:07.10,0:16:11.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你就像以前的我一样啊 带土
+Dialogue: 0,0:16:11.56,0:16:13.91,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}要不了多久鸣人就会崩溃
+Dialogue: 0,0:16:13.95,0:16:16.79,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你想粉碎联合军的核心吗
+Dialogue: 0,0:16:16.83,0:16:19.75,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你还有什麽理由留在现实之中
+Dialogue: 0,0:16:20.35,0:16:24.08,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}差不多该来我这边了 鸣人
+Dialogue: 0,0:16:37.51,0:16:40.17,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}刚才宁次哥哥说的
+Dialogue: 0,0:16:40.23,0:16:46.18,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人你的命不只一条的意思 你明白吗
+Dialogue: 0,0:16:49.82,0:16:52.77,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}绝不会让任何人伤害我的同伴
+Dialogue: 0,0:16:52.82,0:16:57.37,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你的话和你的信念都是千真万确的
+Dialogue: 0,0:16:58.39,0:17:01.28,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}宁次哥哥把它记在心里
+Dialogue: 0,0:17:02.53,0:17:04.27,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}并无畏的诠释了出来
+Dialogue: 0,0:17:07.97,0:17:10.03,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}不仅仅是鸣人你
+Dialogue: 0,0:17:10.06,0:17:14.86,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}大家都将这句话 这份信念铭刻于心
+Dialogue: 0,0:17:14.92,0:17:18.15,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我们的生命也因此紧密相连
+Dialogue: 0,0:17:19.19,0:17:21.03,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这才是同伴的含义
+Dialogue: 0,0:17:23.03,0:17:28.28,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}若大家都舍弃了这句话 舍弃了这份信念
+Dialogue: 0,0:17:28.36,0:17:31.77,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那宁次哥哥所做的一切就毫无意义
+Dialogue: 0,0:17:31.84,0:17:36.44,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}那才真的是对同伴见死不救
+Dialogue: 0,0:17:36.49,0:17:39.08,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就等于割断了这份同伴间的羁绊
+Dialogue: 0,0:17:39.45,0:17:41.91,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我是这麽想的
+Dialogue: 0,0:17:45.40,0:17:50.74,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}所以和我一起站起来吧 鸣人
+Dialogue: 0,0:17:51.83,0:17:58.43,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}有话直说 敢作敢当 这也是我的忍道
+Dialogue: 0,0:18:00.40,0:18:07.14,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人 雏田小姐可以为你而死
+Dialogue: 0,0:18:07.20,0:18:10.61,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}所以你的命....
+Dialogue: 0,0:18:10.69,0:18:15.35,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}肯定不只一条 别忘了还有老夫在
+Dialogue: 0,0:18:15.41,0:18:18.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我知道 我会紧握这份羁绊
+Dialogue: 0,0:18:18.61,0:18:20.87,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}绝对不会舍弃同伴
+Dialogue: 0,0:18:20.93,0:18:24.03,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}可是 宁次他却已经...
+Dialogue: 0,0:18:24.08,0:18:27.16,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你要是再敢废话连篇 我就痛扁你一顿
+Dialogue: 0,0:18:27.22,0:18:30.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}这次一定要夺走你的身体 臭小子
+Dialogue: 0,0:18:30.76,0:18:32.66,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你不会是忘记了吧
+Dialogue: 0,0:18:33.39,0:18:36.25,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你的父母在你刚刚出生时
+Dialogue: 0,0:18:36.30,0:18:38.14,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}也做了和宁次同样的事
+Dialogue: 0,0:18:38.22,0:18:38.94,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}他们甚至不惜以死
+Dialogue: 0,0:18:38.99,0:18:40.79,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}将老夫这个宿敌封印在你体内
+Dialogue: 0,0:18:40.83,0:18:43.55,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}把未来托付给你
+Dialogue: 0,0:18:45.23,0:18:47.96,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你小子的命打从一降生
+Dialogue: 0,0:18:48.03,0:18:51.59,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}就已经与两条命紧密相连了
+Dialogue: 0,0:18:52.55,0:18:56.20,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}还不行动 硬要等鸣人的反应吗
+Dialogue: 0,0:18:57.43,0:18:59.84,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看来你很在意他啊
+Dialogue: 0,0:19:01.34,0:19:02.53,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}够了
+Dialogue: 0,0:19:05.34,0:19:08.40,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}稍安勿躁 这样不仅会伤到十尾
+Dialogue: 0,0:19:08.43,0:19:10.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}连你也要受到牵连 这种程度不算什麽
+Dialogue: 0,0:19:10.64,0:19:12.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}十尾的表皮结实着呢
+Dialogue: 0,0:19:15.64,0:19:19.86,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}它要瞄准这边 充电完成
+Dialogue: 0,0:19:20.20,0:19:22.70,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}小心点 比大人 上啊
+Dialogue: 0,0:19:28.53,0:19:30.36,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}吃我这招
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}================
+Dialogue: 0,0:19:45.79,0:19:48.66,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}比大人 请不要乱来啊
+Dialogue: 0,0:19:48.71,0:19:53.14,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}无需担心 守护联军 我来操心
+Dialogue: 0,0:20:04.23,0:20:08.14,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}对啊 不仅是爸爸妈妈
+Dialogue: 0,0:20:09.28,0:20:12.14,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}一直以来大家都是如此
+Dialogue: 0,0:20:12.22,0:20:15.46,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我的命不只一条
+Dialogue: 0,0:20:25.80,0:20:28.60,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}雏田谢谢你
+Dialogue: 0,0:20:29.49,0:20:32.69,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}多亏了有你在我身边啊
+Dialogue: 0,0:20:34.83,0:20:38.89,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}还有宁次 谢谢你了
+Dialogue: 0,0:20:46.50,0:20:53.03,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}鸣人的手 大而有力 最重要的是....
+Dialogue: 0,0:20:56.07,0:20:59.44,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}要上了 雏田 嗯
+Dialogue: 0,0:21:02.03,0:21:04.19,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}让人特别放心
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}===========
+Dialogue: 0,0:01:29.90,0:01:29.90,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}===========
+Dialogue: 0,0:22:38.53,0:22:42.02,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}我至今为止没能保护许多同伴
+Dialogue: 0,0:22:42.30,0:22:45.22,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}只能在牢笼中等待死亡的存在
+Dialogue: 0,0:22:45.38,0:22:46.86,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}真是狼狈
+Dialogue: 0,0:22:47.05,0:22:49.99,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}你们和刚刚白白丢了性命的小鬼一样
+Dialogue: 0,0:22:50.21,0:22:54.85,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}宁次的意志永不磨灭
+Dialogue: 0,0:22:55.64,0:22:59.75,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}下集的火影疾风传是 忍耐并活跃着的人们
+Dialogue: 0,0:23:00.23,0:23:01.72,Default,NTP,0000,0000,0000,,{\fnKaiTi\fs28\1c&HFFFFFF&}看招啊
+
+

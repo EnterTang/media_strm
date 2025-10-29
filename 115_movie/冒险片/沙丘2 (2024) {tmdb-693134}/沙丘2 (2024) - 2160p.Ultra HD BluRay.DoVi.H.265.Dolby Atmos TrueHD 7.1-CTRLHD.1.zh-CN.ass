@@ -1,0 +1,1365 @@
+﻿[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,2,3,2,20,20,20,1
+Style: 中文,SimHei,18,&H00EAEAEA,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,110,0,0,1,1,1,2,0,0,16,1
+Style: 英文,SimSun,12,&H000080FF,&H00000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0,0,4,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:17.00,0:00:22.00,中文,,0000,0000,0000,,{\fn华文楷体\fs18\1c&H3CF1F3&\b0}字幕仅供翻译学习交流使用 禁止用于商业用途{\r}
+Dialogue: 0,0:00:25.00,0:00:45.00,中文,,0000,0000,0000,,本字幕由 发烧碟屋DTS-DEMO 原创翻译
+Dialogue: 0,0:03:06.50,0:03:09.50,中文,,0000,0000,0000,,片名：《帝国双璧》
+Dialogue: 0,0:03:16.51,0:03:17.97,中文,,0000,0000,0000,,太阳没有阳光\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As incomplete as the sun without rays...{\r}
+Dialogue: 0,0:03:18.87,0:03:20.71,中文,,0000,0000,0000,,芬芳没有风吹\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And fragrance without breeze...{\r}
+Dialogue: 0,0:03:21.41,0:03:23.31,中文,,0000,0000,0000,,就像没有统治者的帝国，皆不完整\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}ls a ruler without his Prime Minister.{\r}
+Dialogue: 0,0:03:23.91,0:03:28.28,中文,,0000,0000,0000,,我们的宰相 巴拉吉·维什瓦纳特佩什瓦的死\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The demise of our Prime Minister, Peshwa Balaji Vishwanath...{\r}
+Dialogue: 0,0:03:29.28,0:03:31.28,中文,,0000,0000,0000,,给我们留下了一个紧迫的问题\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leaves us with a pressing question.{\r}
+Dialogue: 0,0:03:31.52,0:03:36.51,中文,,0000,0000,0000,,这大殿之上，有谁认为自己 有能力成为下一任佩什瓦吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who here considers himself worthy enough to be the next Peshwa?{\r}
+Dialogue: 0,0:03:38.03,0:03:42.33,中文,,0000,0000,0000,,陛下，臣若有这个荣幸 吾愿接受佩什瓦一职\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I would accept the post of Peshwa with great honour, Your Majesty.{\r}
+Dialogue: 0,0:03:42.40,0:03:44.02,中文,,0000,0000,0000,,潘·普拉提尼，你的提议很不错\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your proposal pleases me, Panth Pratinidhi.{\r}
+Dialogue: 0,0:03:44.73,0:03:47.79,中文,,0000,0000,0000,,朝廷上的各位是否赞同？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Does the court approve?{\r}
+Dialogue: 0,0:03:47.84,0:03:48.83,中文,,0000,0000,0000,,陛下...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your Majesty...{\r}
+Dialogue: 0,0:03:49.40,0:03:51.53,中文,,0000,0000,0000,,唯一能保护马拉地帝国\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The only man that can protect..{\r}
+Dialogue: 0,0:03:51.94,0:03:55.81,中文,,0000,0000,0000,,维持佩什瓦荣誉的人...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..the Maratha empire and preserve the honour of the Peshwa's post...{\r}
+Dialogue: 0,0:03:56.61,0:03:57.94,中文,,0000,0000,0000,,就是巴拉吉！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}is Bajirao!{\r}
+Dialogue: 0,0:04:25.31,0:04:29.27,中文,,0000,0000,0000,,请原谅，陛下 这等言论是在嘲笑朝廷\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Forgive me, Your Majesty but this statement mocks the court.{\r}
+Dialogue: 0,0:04:29.41,0:04:31.90,中文,,0000,0000,0000,,部长，似乎只有你一个人在笑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You appear to be the only one laughing, Minister.{\r}
+Dialogue: 0,0:04:32.52,0:04:35.28,中文,,0000,0000,0000,,每个人都有权证明自己的价值\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Every man has the right to prove his merit.{\r}
+Dialogue: 0,0:04:35.32,0:04:38.91,中文,,0000,0000,0000,,仅仅是戴着父亲的头巾 并不代表他就继承了父亲的智慧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A son does not inherit his father's wisdom simply by wearing his turban.{\r}
+Dialogue: 0,0:04:39.52,0:04:43.48,中文,,0000,0000,0000,,就连檀香树也需要好几年的生长 才能散发出香味\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even a sandalwood tree needs time to age before it produces fragrance.{\r}
+Dialogue: 0,0:04:43.53,0:04:46.72,中文,,0000,0000,0000,,但是最嫩的荆棘也会刺人 这你怎么说？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But even the youngest thorn can prick. What say?{\r}
+Dialogue: 0,0:04:47.83,0:04:52.29,中文,,0000,0000,0000,,永远不要质疑猎豹的速度 鹰的视角，和巴拉吉的剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Never doubt the cheetah's speed, the hawk's vision and Bajirao's sword...{\r}
+Dialogue: 0,0:04:54.60,0:04:56.30,中文,,0000,0000,0000,,它们随时都可以将你蒙蔽！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They could outwit you at any moment!{\r}
+Dialogue: 0,0:04:57.84,0:04:59.40,中文,,0000,0000,0000,,在下，巴拉吉·巴拉德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I, Bajirao Ballad...{\r}
+Dialogue: 0,0:05:00.04,0:05:04.98,中文,,0000,0000,0000,,巴拉吉·维什瓦纳特之子 认为自己有能力胜任该职\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Son of Late Balaji Vishwanath, consider myself fit for this post.{\r}
+Dialogue: 0,0:05:05.25,0:05:07.74,中文,,0000,0000,0000,,为此，我愿意经受任何考验\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And for that, I am willing to pass any test.{\r}
+Dialogue: 0,0:05:07.78,0:05:09.77,中文,,0000,0000,0000,,巴拉吉，考验是必然的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A test there shall be, Bajirao.{\r}
+Dialogue: 0,0:05:10.89,0:05:14.98,中文,,0000,0000,0000,,但我会交由潘·普拉提尼来决定\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I shall allow Panth Pratinidhi to decide it.{\r}
+Dialogue: 0,0:05:26.77,0:05:34.70,中文,,0000,0000,0000,,巴拉吉，通过将孔雀羽毛射成两半 来证明你的射术\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Prove your marksmanship by splitting that peacock feather into two, Bajirao.{\r}
+Dialogue: 0,0:05:35.48,0:05:38.81,中文,,0000,0000,0000,,让你的武器，证明你的智慧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let your weapons speak of your wisdom.{\r}
+Dialogue: 0,0:05:39.62,0:05:42.52,中文,,0000,0000,0000,,现在，咱们就见识一下 猎豹的速度，鹰的视角吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Now let's see some of that cheetah's speed and hawk's vision...{\r}
+Dialogue: 0,0:06:29.30,0:06:32.96,中文,,0000,0000,0000,,陛下，该项挑战是将孔雀羽毛 射成两半\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your Majesty, the challenge was to split the peacock feather into two halves...{\r}
+Dialogue: 0,0:06:33.44,0:06:38.47,中文,,0000,0000,0000,,而朝廷目睹到，羽毛仍然完整\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And the court witnesses that the feather is still intact.{\r}
+Dialogue: 0,0:06:38.51,0:06:40.31,中文,,0000,0000,0000,,但是它比之前更短了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But shorter than before.{\r}
+Dialogue: 0,0:06:41.01,0:06:43.50,中文,,0000,0000,0000,,扒开泥土，你就会找到另一半了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Sift through the mud and you will find the other half there.{\r}
+Dialogue: 0,0:06:50.85,0:06:52.62,中文,,0000,0000,0000,,这已经证明了我的射术\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That was proof of my marksmanship...{\r}
+Dialogue: 0,0:06:53.69,0:06:54.99,中文,,0000,0000,0000,,现在说说它背后的启发\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Now for the thought behind it.{\r}
+Dialogue: 0,0:06:56.43,0:06:58.72,中文,,0000,0000,0000,,泥土代表印度，孔雀羽毛代表\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That soil is India and that peacock feather is the tree..{\r}
+Dialogue: 0,0:06:58.83,0:07:01.36,中文,,0000,0000,0000,,扎根于德里的莫卧儿帝国\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..of the Mughal kingdom with its roots in Delhi...{\r}
+Dialogue: 0,0:07:02.67,0:07:04.46,中文,,0000,0000,0000,,那支箭...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The arrow is...{\r}
+Dialogue: 0,0:07:04.84,0:07:07.24,中文,,0000,0000,0000,,就是马拉地帝国\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Maratha empire.{\r}
+Dialogue: 0,0:07:07.61,0:07:10.57,中文,,0000,0000,0000,,直接将其根斩断 再大的树，也将倒下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Strike at the root and even the biggest tree will fall.{\r}
+Dialogue: 0,0:07:10.78,0:07:13.37,中文,,0000,0000,0000,,佩什瓦，你很睿智！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have a brilliant mind, Peshwa!{\r}
+Dialogue: 0,0:07:40.61,0:07:48.60,中文,,0000,0000,0000,,注视马拉地帝国的荣耀吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Behold the pride of the Maratha empire...{\r}
+Dialogue: 0,0:07:48.88,0:07:51.41,中文,,0000,0000,0000,,正义，忠实的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The righteous and dutiful...{\r}
+Dialogue: 0,0:07:51.52,0:07:55.32,中文,,0000,0000,0000,,巴拉吉·巴拉德 佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Peshwa Bajirao Ballad!{\r}
+Dialogue: 0,0:07:55.42,0:07:59.29,中文,,0000,0000,0000,,看呐！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Behold!{\r}
+Dialogue: 0,0:08:58.28,0:09:00.34,中文,,0000,0000,0000,,这个故事属于夏胡·马哈拉杰国王\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This story belongs to an era in history...{\r}
+Dialogue: 0,0:09:00.45,0:09:05.65,中文,,0000,0000,0000,,统治马拉地帝国的那段历史\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When King Shahu Maharaj held the reins of the Maratha empire.{\r}
+Dialogue: 0,0:09:08.53,0:09:10.96,中文,,0000,0000,0000,,当时的宰相是巴拉吉·巴拉德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And his Prime Minister was Bajirao Ballad.{\r}
+Dialogue: 0,0:09:17.94,0:09:22.37,中文,,0000,0000,0000,,他的剑快如闪电 如喜马拉雅山一般不可撼动\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A sword as swift as lightening... A will as immovable as the Himalayas.{\r}
+Dialogue: 0,0:09:22.47,0:09:27.64,中文,,0000,0000,0000,,他部落的光芒照耀在他的脸上 他的眼中只有梦想\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The radiance of his clan on his face... And only one dream in his eyes...{\r}
+Dialogue: 0,0:09:27.68,0:09:31.88,中文,,0000,0000,0000,,看到马拉地帝国的国旗 在德里的天空画出象征胜利的红色\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}To see the Maratha flag paint the skies in Delhi, saffron with victory.{\r}
+Dialogue: 0,0:09:36.89,0:09:41.88,中文,,0000,0000,0000,,10年里，因着巴拉吉的英明领导 政治手腕，和无以伦比的战略\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}In ten years, Bajirao had captured half of India with his leadership,..{\r}
+Dialogue: 0,0:09:41.99,0:09:45.69,中文,,0000,0000,0000,,他已经征服了大半个印度\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..political prowess and unmatched battle skills.{\r}
+Dialogue: 0,0:09:50.57,0:09:53.56,中文,,0000,0000,0000,,巴拉吉勇猛的故事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stories of Bajirao's valour made headlines..{\r}
+Dialogue: 0,0:09:53.61,0:09:55.77,中文,,0000,0000,0000,,从南部的尼扎姆 传到了北部的莫卧儿帝国\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..from the Nizam in South, to the Mughals in the north.{\r}
+Dialogue: 0,0:09:59.58,0:10:01.77,中文,,0000,0000,0000,,我们应该完成西瓦吉的梦想\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We shall fulfill King Shivaji's dream...{\r}
+Dialogue: 0,0:10:01.81,0:10:05.31,中文,,0000,0000,0000,,打败莫卧儿帝国 让印度成为一个印度教国家\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..Defeat the Mughals and make India a Hindu state.{\r}
+Dialogue: 0,0:10:08.32,0:10:10.38,中文,,0000,0000,0000,,不同于敌人的珠宝和财富\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Unlike the enemy's jewels and wealth,..{\r}
+Dialogue: 0,0:10:10.42,0:10:12.62,中文,,0000,0000,0000,,我们的珍宝是旺盛的血气 和随时准备牺牲的英勇\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..our treasury is rich with blood, ready for sacrifice.{\r}
+Dialogue: 0,0:10:16.40,0:10:19.63,中文,,0000,0000,0000,,我们不论生死，都是马拉地帝国的人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We owe our every breath to the Maratha empire.{\r}
+Dialogue: 0,0:10:23.90,0:10:26.43,中文,,0000,0000,0000,,我们是敢于面对任何风暴的闪电\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We are the thunder in the face of any storm...{\r}
+Dialogue: 0,0:10:26.51,0:10:28.94,中文,,0000,0000,0000,,亦是敢于面对任何闪电的火海！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And we are a sea of fire in the face of thunder!{\r}
+Dialogue: 0,0:10:56.97,0:10:59.96,中文,,0000,0000,0000,,巴拉吉·巴拉德已经打破了 所有失败的镣铐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao Ballad shall break away all shackles of defeat..{\r}
+Dialogue: 0,0:11:00.07,0:11:02.51,中文,,0000,0000,0000,,扬起了全面胜利的红旗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..and unfurl the saffron flag in victory.{\r}
+Dialogue: 0,0:11:39.61,0:11:46.72,中文,,0000,0000,0000,,音乐及导演：桑杰·里拉·布汗萨里
+Dialogue: 0,0:11:52.33,0:11:55.76,中文,,0000,0000,0000,,在巴拉吉挥舞着剑 改变印度版图的时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}While Bajirao was wielding his sword to change the map of India...{\r}
+Dialogue: 0,0:11:55.90,0:11:58.59,中文,,0000,0000,0000,,一个壮丽的宫殿，沙尼瓦瓦达宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A magnificent palace, Shaniwar Wada,{\r}
+Dialogue: 0,0:11:58.67,0:12:01.90,中文,,0000,0000,0000,,以他的名义，在普纳被建造\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..was being constructed in Pune, in his honour.{\r}
+Dialogue: 0,0:12:08.31,0:12:10.00,中文,,0000,0000,0000,,喀什，祈愿还没结束 你这是要去哪啊？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi, where are you going in the middle of prayers?{\r}
+Dialogue: 0,0:12:10.28,0:12:11.01,中文,,0000,0000,0000,,巴努来了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bhanu has come!{\r}
+Dialogue: 0,0:12:11.28,0:12:11.80,中文,,0000,0000,0000,,哪个巴努？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bhanu who?{\r}
+Dialogue: 0,0:12:11.91,0:12:14.81,中文,,0000,0000,0000,,是我儿时的一个朋友 我马上就接她一起回来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A dear childhood friend... I'll be right back with her.{\r}
+Dialogue: 0,0:12:14.88,0:12:15.91,中文,,0000,0000,0000,,快点回来啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Be back soon!{\r}
+Dialogue: 0,0:12:15.98,0:12:17.42,中文,,0000,0000,0000,,好，马上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, right away.{\r}
+Dialogue: 0,0:12:21.32,0:12:24.72,中文,,0000,0000,0000,,喀什什么时候才能学会啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When will Kashi ever learn!{\r}
+Dialogue: 0,0:12:26.63,0:12:28.62,中文,,0000,0000,0000,,巴努，你什么时候到的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bhanu, when did you arrive?{\r}
+Dialogue: 0,0:12:28.80,0:12:31.42,中文,,0000,0000,0000,,你干嘛站在外面啊 你应该进去，一起祈愿的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And why are you out here, you should've come into the prayer service.{\r}
+Dialogue: 0,0:12:31.53,0:12:32.93,中文,,0000,0000,0000,,没事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's alright.{\r}
+Dialogue: 0,0:12:33.60,0:12:36.59,中文,,0000,0000,0000,,我们好久没见了 你还好吗，喀什？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's been a while since we last met. All well, Kashi?{\r}
+Dialogue: 0,0:12:36.64,0:12:39.33,中文,,0000,0000,0000,,巴努，这是什么时候的事？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bhanu, when did this happen?{\r}
+Dialogue: 0,0:12:39.84,0:12:41.03,中文,,0000,0000,0000,,你丈夫怎么了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What happened to your husband?{\r}
+Dialogue: 0,0:12:41.31,0:12:42.94,中文,,0000,0000,0000,,他被杀了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He was murdered.{\r}
+Dialogue: 0,0:12:43.54,0:12:44.53,中文,,0000,0000,0000,,谁干的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}BY Whom?{\r}
+Dialogue: 0,0:12:44.61,0:12:45.44,中文,,0000,0000,0000,,佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}By the Peshwa.{\r}
+Dialogue: 0,0:12:45.65,0:12:47.01,中文,,0000,0000,0000,,巴努，说话小心点！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Tread carefully Bhanu!{\r}
+Dialogue: 0,0:12:47.05,0:12:48.51,中文,,0000,0000,0000,,你这是在指控佩什瓦杀人！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are accusing the Peshwa of murder!{\r}
+Dialogue: 0,0:12:48.55,0:12:49.52,中文,,0000,0000,0000,,他还被指控反间...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He was accused of being a spy...{\r}
+Dialogue: 0,0:12:49.55,0:12:52.42,中文,,0000,0000,0000,,佩什瓦不可能做出此等大逆不道之事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa would never do such injustice.{\r}
+Dialogue: 0,0:12:57.56,0:12:58.65,中文,,0000,0000,0000,,这里面是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What's in this?{\r}
+Dialogue: 0,0:12:58.93,0:13:00.02,中文,,0000,0000,0000,,佩什瓦的正义\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa's justice...{\r}
+Dialogue: 0,0:13:00.06,0:13:01.69,中文,,0000,0000,0000,,我丈夫的骨灰\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My husband's ashes.{\r}
+Dialogue: 0,0:13:02.96,0:13:05.96,中文,,0000,0000,0000,,今天，你让你的家圣洁了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Today you sanctify your home...{\r}
+Dialogue: 0,0:13:06.00,0:13:08.49,中文,,0000,0000,0000,,然而我的家已被烧成了灰烬\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}While mine burns to ashes.{\r}
+Dialogue: 0,0:13:08.80,0:13:10.86,中文,,0000,0000,0000,,喀什，我很思念我丈夫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I ache for my husband, Kashi.{\r}
+Dialogue: 0,0:13:11.01,0:13:13.41,中文,,0000,0000,0000,,你也会的！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As will you!{\r}
+Dialogue: 0,0:13:41.44,0:13:44.30,中文,,0000,0000,0000,,大人，有一个从本德尔坎德来的士兵\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, a soldier has come from Bundelkhand.{\r}
+Dialogue: 0,0:13:44.51,0:13:46.30,中文,,0000,0000,0000,,他送来了查塔萨尔国王的信\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He has a message from King Chatrasal.{\r}
+Dialogue: 0,0:13:46.61,0:13:47.73,中文,,0000,0000,0000,,那个士兵想见你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The soldier wishes to meet you.{\r}
+Dialogue: 0,0:13:47.84,0:13:50.04,中文,,0000,0000,0000,,国王是想把他女儿嫁给我吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Does the King wish to offer me his daughter's hand?{\r}
+Dialogue: 0,0:13:50.91,0:13:54.01,中文,,0000,0000,0000,,他说，穆罕默德·班加萨的部队 已包围了他的城池\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He says Mohammad Bangash's troops have surrounded his fort...{\r}
+Dialogue: 0,0:13:54.35,0:13:55.91,中文,,0000,0000,0000,,他需要我们的救援\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And he needs our assistance.{\r}
+Dialogue: 0,0:13:55.95,0:13:58.75,中文,,0000,0000,0000,,土可奇，我们是继续打自己的仗 还是帮助国王？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are we to fight our own battles or help the king, Tukoji?{\r}
+Dialogue: 0,0:13:58.99,0:14:00.45,中文,,0000,0000,0000,,我们必须去希拉尔贾\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We must reach Siraunja.{\r}
+Dialogue: 0,0:14:00.49,0:14:01.39,中文,,0000,0000,0000,,让那个士兵走吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Send the soldier away.{\r}
+Dialogue: 0,0:14:01.49,0:14:03.39,中文,,0000,0000,0000,,可是，大人，那个士兵 执意要见佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But Sir, the soldier is insisting on meeting the Peshwa.{\r}
+Dialogue: 0,0:14:03.46,0:14:05.29,中文,,0000,0000,0000,,土可奇，退下！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Tukoji, leave!{\r}
+Dialogue: 0,0:14:05.69,0:14:06.85,中文,,0000,0000,0000,,是\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Certainly.{\r}
+Dialogue: 0,0:14:08.00,0:14:10.29,中文,,0000,0000,0000,,如果我们攻下这个山谷 就能更快抵达\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If we take this valley, we will reach quicker.{\r}
+Dialogue: 0,0:14:10.70,0:14:12.36,中文,,0000,0000,0000,,你不能见佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You cannot meet the Peshwa.{\r}
+Dialogue: 0,0:14:12.40,0:14:14.49,中文,,0000,0000,0000,,拦住他！任何人不得入内\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stop him! No one must go inside...{\r}
+Dialogue: 0,0:15:16.70,0:15:21.00,中文,,0000,0000,0000,,潘，礼貌地把她送走\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Panth, please send her away respectfully.{\r}
+Dialogue: 0,0:15:23.01,0:15:24.37,中文,,0000,0000,0000,,本德尔坎德正在危难关头\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bundelkhand is in danger.{\r}
+Dialogue: 0,0:15:24.44,0:15:27.38,中文,,0000,0000,0000,,拉其普特的众妃子和公主 皆已服毒自尽\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Rajput queens and princesses are poised to self-immolate.{\r}
+Dialogue: 0,0:15:28.34,0:15:29.50,中文,,0000,0000,0000,,我们需要你的帮助\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We need your help.{\r}
+Dialogue: 0,0:15:29.58,0:15:33.64,中文,,0000,0000,0000,,本德尔坎德有你这样的利器 还需要我帮什么忙？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When Bundelkhand has a weapon like you, what help should I be?{\r}
+Dialogue: 0,0:15:34.92,0:15:37.04,中文,,0000,0000,0000,,我现在帮不了你，请回吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I cannot help you right now, please leave.{\r}
+Dialogue: 0,0:15:41.02,0:15:43.49,中文,,0000,0000,0000,,你可能会因此丧命\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You may lose your life over this!{\r}
+Dialogue: 0,0:15:43.56,0:15:44.79,中文,,0000,0000,0000,,这已经不重要了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It hardly matters.{\r}
+Dialogue: 0,0:15:45.79,0:15:47.92,中文,,0000,0000,0000,,我在离开本德尔坎德时就发过誓\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I swore while leaving Bundelkhand that..{\r}
+Dialogue: 0,0:15:48.00,0:15:50.59,中文,,0000,0000,0000,,要么带着巴拉吉 佩什瓦回去 否则就不回去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..l would return only with Peshwa Bajirao, or not at all.{\r}
+Dialogue: 0,0:15:52.67,0:15:55.80,中文,,0000,0000,0000,,大家让我相信你是个神 可你却连人都算不上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I put forth a plea believing you to be God, but you aren't even human.{\r}
+Dialogue: 0,0:16:01.48,0:16:02.67,中文,,0000,0000,0000,,你叫什么名字？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is your name?{\r}
+Dialogue: 0,0:16:03.35,0:16:04.40,中文,,0000,0000,0000,,玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani.{\r}
+Dialogue: 0,0:16:05.78,0:16:09.68,中文,,0000,0000,0000,,我喜欢你的勇气和方式\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I like your courage and your approach...{\r}
+Dialogue: 0,0:16:10.29,0:16:11.48,中文,,0000,0000,0000,,德坎普，潘\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Decamp, Panth.{\r}
+Dialogue: 0,0:16:11.79,0:16:12.85,中文,,0000,0000,0000,,我们去本德尔坎德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We ride to Bundelkhand!{\r}
+Dialogue: 0,0:16:13.36,0:16:14.91,中文,,0000,0000,0000,,可是，大人，我们怎么跟陛下交代？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But Sir, what will we tell His Majesty?{\r}
+Dialogue: 0,0:16:14.99,0:16:16.69,中文,,0000,0000,0000,,陛下知道了会很高兴的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}His Majesty will be happy to know that..{\r}
+Dialogue: 0,0:16:16.76,0:16:19.29,中文,,0000,0000,0000,,印度君主应该互相帮助\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..one Hindu monarch is going to help another.{\r}
+Dialogue: 0,0:16:19.63,0:16:21.29,中文,,0000,0000,0000,,本德尔坎德离这有多远？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How far is Bundelkhand from here?{\r}
+Dialogue: 0,0:16:21.36,0:16:21.80,中文,,0000,0000,0000,,5天的路程\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's a five day march.{\r}
+Dialogue: 0,0:16:21.87,0:16:23.49,中文,,0000,0000,0000,,- 我们2天就能到 - 那不可能\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}- We shall get there in two... - That's impossible.{\r}
+Dialogue: 0,0:16:23.57,0:16:25.30,中文,,0000,0000,0000,,就让敌人们这样想吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let the enemy think that way...{\r}
+Dialogue: 0,0:16:26.37,0:16:29.30,中文,,0000,0000,0000,,玛斯塔妮，巴拉吉就是以速度闻名的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao's fame is carried by his speed, Mastani...{\r}
+Dialogue: 0,0:16:31.01,0:16:32.34,中文,,0000,0000,0000,,走吧！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let's go!{\r}
+Dialogue: 0,0:17:32.30,0:17:33.77,中文,,0000,0000,0000,,最后的警告\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Final warning...{\r}
+Dialogue: 0,0:17:33.84,0:17:42.37,中文,,0000,0000,0000,,“要么天亮投降，要么面对可怕的后果” 穆罕默德·班加萨\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}"surrender by daybreak or face dire consequences" - Mohammad Bangash.{\r}
+Dialogue: 0,0:17:43.01,0:17:45.81,中文,,0000,0000,0000,,还没有佩什瓦救援的信报\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No word of help from the Peshwa.{\r}
+Dialogue: 0,0:17:46.65,0:17:48.98,中文,,0000,0000,0000,,那么我们只有2个选择了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That leaves us only two choices...{\r}
+Dialogue: 0,0:17:49.05,0:17:52.02,中文,,0000,0000,0000,,投降或牺牲！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Surrender or martyrdom!{\r}
+Dialogue: 0,0:17:52.29,0:17:54.02,中文,,0000,0000,0000,,牺牲！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}MARTYRDOM!!{\r}
+Dialogue: 0,0:18:02.60,0:18:04.66,中文,,0000,0000,0000,,鲁哈尼女王！发生什么事了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Ruhani Begum! What's going on?{\r}
+Dialogue: 0,0:18:05.60,0:18:09.97,中文,,0000,0000,0000,,陛下，如果敌军兵临城下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My king, if enemy breaches the fort walls...{\r}
+Dialogue: 0,0:18:10.24,0:18:13.94,中文,,0000,0000,0000,,女人们将屈服于这圣火 捍卫我们的尊严！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The women shall surrender to this fire, to safeguard our dignity!{\r}
+Dialogue: 0,0:18:14.01,0:18:15.95,中文,,0000,0000,0000,,陛下！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My king!{\r}
+Dialogue: 0,0:18:16.01,0:18:18.35,中文,,0000,0000,0000,,我看见东面有火光！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I see torchlights coming in from the East!!{\r}
+Dialogue: 0,0:18:18.42,0:18:21.32,中文,,0000,0000,0000,,肯定是玛斯塔妮带着救兵来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That must be Mastani arriving with help.{\r}
+Dialogue: 0,0:18:50.98,0:18:54.88,中文,,0000,0000,0000,,将军！有一支军队从山那边过来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}General! An army approaches from beyond those hills.{\r}
+Dialogue: 0,0:18:59.49,0:19:01.43,中文,,0000,0000,0000,,转移大炮！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Swerve the cannons!{\r}
+Dialogue: 0,0:19:14.27,0:19:17.97,中文,,0000,0000,0000,,我们被骗了！向后转...后面！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We've been tricked! About-face... Head back!{\r}
+Dialogue: 0,0:19:18.24,0:19:21.68,中文,,0000,0000,0000,,这里没有军队...只有牛群\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There is no army here... It's just cattle!{\r}
+Dialogue: 0,0:19:27.02,0:19:28.35,中文,,0000,0000,0000,,我们已经骗到了他们！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We have managed to trick them!{\r}
+Dialogue: 0,0:19:28.42,0:19:29.91,中文,,0000,0000,0000,,他们的大炮也已转移\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Their cannons have been swerved.{\r}
+Dialogue: 0,0:19:29.99,0:19:33.52,中文,,0000,0000,0000,,玛斯塔妮，你通过秘密通道，进入堡垒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani, reach inside the fort through the secret tunnel...{\r}
+Dialogue: 0,0:19:33.63,0:19:35.53,中文,,0000,0000,0000,,进去后就给我发信号\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And signal me once inside.{\r}
+Dialogue: 0,0:19:36.36,0:19:39.42,中文,,0000,0000,0000,,我们就会准备好袭击\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We'll be ready for attack.{\r}
+Dialogue: 0,0:20:06.32,0:20:06.95,中文,,0000,0000,0000,,玛斯塔妮！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani!{\r}
+Dialogue: 0,0:20:07.03,0:20:08.52,中文,,0000,0000,0000,,父王，马拉地帝国的军队来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Maratha army is here, father.{\r}
+Dialogue: 0,0:20:08.59,0:20:11.96,中文,,0000,0000,0000,,- 本德尔坎德永远感激你 - 父王，我们之间无需感激\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}- Bundelkhand is forever indebted to you... - There is no debt in duty, father.{\r}
+Dialogue: 0,0:20:12.03,0:20:15.06,中文,,0000,0000,0000,,尽管去宣战吧，我会给佩什瓦发信号\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Go ahead and declare war, I'll signal the Peshwa.{\r}
+Dialogue: 0,0:21:37.32,0:21:39.91,中文,,0000,0000,0000,,进攻！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Attack!{\r}
+Dialogue: 0,0:25:25.01,0:25:26.88,中文,,0000,0000,0000,,佩什瓦，祝贺你的胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Congratulations on your victory, Peshwa.{\r}
+Dialogue: 0,0:25:26.95,0:25:30.04,中文,,0000,0000,0000,,你和玛斯塔妮也是，她怎么样了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wish you and Mastani the same. How is she now?{\r}
+Dialogue: 0,0:25:30.32,0:25:32.81,中文,,0000,0000,0000,,受伤了，不过万幸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Wounded, yet grateful.{\r}
+Dialogue: 0,0:25:33.02,0:25:36.32,中文,,0000,0000,0000,,真不知该如何报答这份恩情\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I don't know how I can repay this debt.{\r}
+Dialogue: 0,0:25:36.39,0:25:40.42,中文,,0000,0000,0000,,陛下，我不求奖赏\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I seek no reward, dear King...{\r}
+Dialogue: 0,0:25:42.03,0:25:46.69,中文,,0000,0000,0000,,我只恳请您让我离开 我必须去希拉尔贾\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}All I ask for, is the permission to bid farewell. I must reach Siraunja.{\r}
+Dialogue: 0,0:25:46.77,0:25:48.79,中文,,0000,0000,0000,,这我不答应！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I won't hear of it!{\r}
+Dialogue: 0,0:25:48.87,0:25:51.50,中文,,0000,0000,0000,,你一定要跟我们一起庆祝胡里节！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You must celebrate this Holi (FESTIVAL OF COLOURS) with us!{\r}
+Dialogue: 0,0:25:53.04,0:25:55.31,中文,,0000,0000,0000,,公主，好像你真的要扮演胡里呢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My lady, it appears you've truly been playing Holi.{\r}
+Dialogue: 0,0:25:55.38,0:25:57.94,中文,,0000,0000,0000,,而且，肯定是跟佩什瓦一起了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And with none other than the Peshwa.{\r}
+Dialogue: 0,0:25:58.98,0:26:01.95,中文,,0000,0000,0000,,他抱着受了伤，意识不清的你回来的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He carried you here in his arms, wounded and unconscious...{\r}
+Dialogue: 0,0:26:02.02,0:26:06.01,中文,,0000,0000,0000,,即使是那个状态 你被他紧抱着，看着也不弱呢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But even in that state you were entwined with him as though one body.{\r}
+Dialogue: 0,0:26:06.82,0:26:08.88,中文,,0000,0000,0000,,祝贺你，公主，胜利的早晨\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Congratulations on this victorious morning, My Lady.{\r}
+Dialogue: 0,0:26:08.99,0:26:11.36,中文,,0000,0000,0000,,我想和玛斯塔妮公主单独聊会儿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I would like a few moments alone with Mastani Saheba.{\r}
+Dialogue: 0,0:26:11.43,0:26:12.29,中文,,0000,0000,0000,,都退下吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leave us...{\r}
+Dialogue: 0,0:26:12.36,0:26:15.52,中文,,0000,0000,0000,,佩什瓦，这是我的私人寝宫 不是你战场\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}These are my personal chambers, Peshwa... Not your battleground.{\r}
+Dialogue: 0,0:26:16.00,0:26:18.56,中文,,0000,0000,0000,,没有我允许，谁也不能退下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}One needs my permission to leave.{\r}
+Dialogue: 0,0:26:20.47,0:26:25.50,中文,,0000,0000,0000,,我说了，没有我允许，谁也不能退下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I said... No one leaves without my permission.{\r}
+Dialogue: 0,0:26:26.41,0:26:29.34,中文,,0000,0000,0000,,另外，单独和你在一起 可能会很危险\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Besides, it could be dangerous being alone with you.{\r}
+Dialogue: 0,0:26:29.54,0:26:30.98,中文,,0000,0000,0000,,是吗？你不信任我吗，公主？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}ls that so! Do you not trust me, My Lady?{\r}
+Dialogue: 0,0:26:31.05,0:26:32.64,中文,,0000,0000,0000,,恐怕是我不相信自己\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm afraid it's myself I don't trust.{\r}
+Dialogue: 0,0:26:32.72,0:26:36.05,中文,,0000,0000,0000,,我拉其普特的血液 可能会使我对你的攻击进行复仇\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Rajput blood could make me avenge your assault.{\r}
+Dialogue: 0,0:26:36.32,0:26:37.68,中文,,0000,0000,0000,,你有权这么做\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have every right.{\r}
+Dialogue: 0,0:26:37.99,0:26:39.48,中文,,0000,0000,0000,,我的命是你的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I owe you my life.{\r}
+Dialogue: 0,0:26:39.56,0:26:40.99,中文,,0000,0000,0000,,你是我家乡的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I owe you my homeland.{\r}
+Dialogue: 0,0:26:41.06,0:26:43.69,中文,,0000,0000,0000,,玛斯塔妮，我甚至愿意把生命交给你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I would give even my life for you, Mastani.{\r}
+Dialogue: 0,0:26:45.33,0:26:47.73,中文,,0000,0000,0000,,看来，到底还是得私底下谈了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It appears this account must be settled in private after all!{\r}
+Dialogue: 0,0:26:57.44,0:26:59.41,中文,,0000,0000,0000,,玛斯塔妮公主，你值得被称赞\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You deserve to be praised, Mastani Saheba...{\r}
+Dialogue: 0,0:27:00.74,0:27:04.01,中文,,0000,0000,0000,,我的剑从未放过战场上的任何一个敌人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}"My sword has never spared a foe on the battlefield,"{\r}
+Dialogue: 0,0:27:04.28,0:27:05.98,中文,,0000,0000,0000,,但是你却逃出了它的魔爪\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..but somehow you escaped its wrath.{\r}
+Dialogue: 0,0:27:07.02,0:27:09.75,中文,,0000,0000,0000,,我想你伤的应该很重\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I believe your wound is deep.{\r}
+Dialogue: 0,0:27:10.55,0:27:12.35,中文,,0000,0000,0000,,让我看看\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let me see it.{\r}
+Dialogue: 0,0:27:12.66,0:27:15.35,中文,,0000,0000,0000,,拉其普特人不会把伤口给别人看\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Rajputs do not make a show of their wounds.{\r}
+Dialogue: 0,0:27:24.90,0:27:27.53,中文,,0000,0000,0000,,对别人来说，这也许是打仗留下的伤疤\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}To others, this may be a battle scar...{\r}
+Dialogue: 0,0:27:28.64,0:27:31.51,中文,,0000,0000,0000,,但对我来说，你是彩色的月光\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But for me, you are the moon bathed in colour.{\r}
+Dialogue: 0,0:27:40.52,0:27:43.01,中文,,0000,0000,0000,,必须阻止毒素的扩散\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The poison had to be stopped from spreading.{\r}
+Dialogue: 0,0:27:44.02,0:27:46.75,中文,,0000,0000,0000,,玛斯塔妮，我已经看到了你的伤口\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I've seen your wounds, Mastani...{\r}
+Dialogue: 0,0:27:47.36,0:27:49.76,中文,,0000,0000,0000,,你已经不再是拉其普特人了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are no longer a Rajput.{\r}
+Dialogue: 0,0:27:52.66,0:27:55.89,中文,,0000,0000,0000,,你看到的，不过是你剑的痕迹\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What you see is merely the mark of your sword.{\r}
+Dialogue: 0,0:27:57.83,0:28:00.46,中文,,0000,0000,0000,,可流血的是我的心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But it is my heart that bleeds.{\r}
+Dialogue: 0,0:28:03.54,0:28:05.77,中文,,0000,0000,0000,,就算是佩什瓦也有心！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even the Peshwa has a heart!{\r}
+Dialogue: 0,0:29:09.54,0:29:15.00,中文,,0000,0000,0000,,*在这彩色的节日\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}" On this festival of colours."{\r}
+Dialogue: 0,0:29:15.28,0:29:19.34,中文,,0000,0000,0000,,*为我涂上象征爱的红色\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Paint me red in the colour of love.{\r}
+Dialogue: 0,0:29:19.42,0:29:25.98,中文,,0000,0000,0000,,*噢，淘气的你，就像克利须那神\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Oh you playful one, like Lord Krishna.{\r}
+Dialogue: 0,0:29:31.70,0:29:37.29,中文,,0000,0000,0000,,*看着你，我仿佛被催眠\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm mesmerized looking at you...{\r}
+Dialogue: 0,0:29:45.04,0:29:50.71,中文,,0000,0000,0000,,*抱紧我，而不要看着远方\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Hold me close, instead of looking from afar...{\r}
+Dialogue: 0,0:30:36.90,0:30:42.46,中文,,0000,0000,0000,,*用你的双臂环抱我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Playfully you twist my arm...{\r}
+Dialogue: 0,0:30:42.53,0:30:46.47,中文,,0000,0000,0000,,*就像克利须那神与茹阿达那样\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Like Lord Krishna with Radha.{\r}
+Dialogue: 0,0:30:57.52,0:31:01.48,中文,,0000,0000,0000,,*当我反抗，你拥抱我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And when I protest, you embrace me...{\r}
+Dialogue: 0,0:31:01.55,0:31:07.02,中文,,0000,0000,0000,,*你不肯放开我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You refuse to let go of me...{\r}
+Dialogue: 0,0:31:15.33,0:31:20.70,中文,,0000,0000,0000,,*我的脸刷的变红...那是爱的颜色\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}" Blushing I turn red... The colour of love."{\r}
+Dialogue: 0,0:32:22.07,0:32:27.53,中文,,0000,0000,0000,,天佑勇者，公主 毫无疑问，您就是勇者！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Fortune favours the brave, My Lady... And fortunate you are, indeed!{\r}
+Dialogue: 0,0:32:28.37,0:32:30.71,中文,,0000,0000,0000,,佩什瓦邀请您一起吃饭后差点\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa has asked for a paan (AFTER MEAL DELICACY).{\r}
+Dialogue: 0,0:32:30.78,0:32:33.01,中文,,0000,0000,0000,,你看，你正好有借口见他了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here, it is your excuse to see him.{\r}
+Dialogue: 0,0:32:33.08,0:32:34.77,中文,,0000,0000,0000,,我已经不需要借口了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I no longer need excuses.{\r}
+Dialogue: 0,0:32:36.35,0:32:37.82,中文,,0000,0000,0000,,短剑？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This dagger?{\r}
+Dialogue: 0,0:32:38.62,0:32:39.61,中文,,0000,0000,0000,,这是佩什瓦给我的！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa gave it to me!{\r}
+Dialogue: 0,0:32:39.72,0:32:41.52,中文,,0000,0000,0000,,天呐！你接受了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dear God! And you accepted it?{\r}
+Dialogue: 0,0:32:41.89,0:32:44.36,中文,,0000,0000,0000,,难道你不知道本德尔坎德的风俗吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't you know that as per the custom in Bundelkhand...{\r}
+Dialogue: 0,0:32:44.42,0:32:47.76,中文,,0000,0000,0000,,女孩接受了男孩的短剑 就说明要嫁给他！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A girl is married to a man by accepting his dagger!{\r}
+Dialogue: 0,0:32:48.80,0:32:51.39,中文,,0000,0000,0000,,你接受了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Did you accept it?{\r}
+Dialogue: 0,0:32:52.70,0:32:53.89,中文,,0000,0000,0000,,我接受了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accepted it.{\r}
+Dialogue: 0,0:32:53.97,0:32:55.46,中文,,0000,0000,0000,,那他呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And he?{\r}
+Dialogue: 0,0:33:18.93,0:33:19.89,中文,,0000,0000,0000,,你的茶\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your paan.{\r}
+Dialogue: 0,0:33:23.03,0:33:24.43,中文,,0000,0000,0000,,如果我没醒呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And if I weren't awake?{\r}
+Dialogue: 0,0:33:24.80,0:33:26.56,中文,,0000,0000,0000,,那我希望这黑夜能永无止境\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I would will the night to go on for eternity...{\r}
+Dialogue: 0,0:33:27.53,0:33:28.93,中文,,0000,0000,0000,,好让我永远地注视着你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And gaze upon you forever.{\r}
+Dialogue: 0,0:33:29.00,0:33:30.77,中文,,0000,0000,0000,,可那是不可能的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But that is impossible.{\r}
+Dialogue: 0,0:33:31.37,0:33:33.97,中文,,0000,0000,0000,,时间和命运，是无法被凡人掌控的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Time and destiny cannot be controlled by mortals.{\r}
+Dialogue: 0,0:33:34.04,0:33:37.98,中文,,0000,0000,0000,,不能被凡人掌控的 是被爱情的力量所统治\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What cannot be controlled by mortals can be swayed by the power of love.{\r}
+Dialogue: 0,0:33:38.04,0:33:41.54,中文,,0000,0000,0000,,那爱能阻止太阳升起吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So can love stop the sun from rising?{\r}
+Dialogue: 0,0:33:59.53,0:34:00.66,中文,,0000,0000,0000,,它刚才已经阻止了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It just did.{\r}
+Dialogue: 0,0:34:02.70,0:34:06.00,中文,,0000,0000,0000,,喝你的查吧，不然我的殷勤就白费了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do have your paan, or my hospitality might be questioned.{\r}
+Dialogue: 0,0:34:07.94,0:34:10.27,中文,,0000,0000,0000,,玛斯塔妮，我明天就要走了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani, I shall be gone tomorrow.{\r}
+Dialogue: 0,0:34:10.64,0:34:11.54,中文,,0000,0000,0000,,为什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What of it?{\r}
+Dialogue: 0,0:34:11.98,0:34:14.00,中文,,0000,0000,0000,,也许我们将再也见不到了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Perhaps we may never meet again.{\r}
+Dialogue: 0,0:34:14.98,0:34:17.64,中文,,0000,0000,0000,,你就像祷告，永远在我心中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are in my heart, like a prayer.{\r}
+Dialogue: 0,0:34:19.89,0:34:22.36,中文,,0000,0000,0000,,你的名字就是我所敬拜的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The mention of your name shall be my worship...{\r}
+Dialogue: 0,0:34:58.56,0:35:00.62,中文,,0000,0000,0000,,公主，佩什瓦要走了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady, the Peshwa is leaving!{\r}
+Dialogue: 0,0:35:00.86,0:35:04.73,中文,,0000,0000,0000,,本德尔坎德的所有人都去送行了 除了你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Entire Bundelkhand has gathered for his farewell, except you.{\r}
+Dialogue: 0,0:35:04.97,0:35:06.02,中文,,0000,0000,0000,,快啊，公主！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Come, My Lady!{\r}
+Dialogue: 0,0:35:07.70,0:35:09.76,中文,,0000,0000,0000,,这么傲慢，可不像你啊，公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Such arrogance does not become you, My Lady.{\r}
+Dialogue: 0,0:35:10.27,0:35:12.97,中文,,0000,0000,0000,,你错把爱当作傲慢了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You mistake love for arrogance.{\r}
+Dialogue: 0,0:35:13.04,0:35:14.97,中文,,0000,0000,0000,,这是什么爱啊？他要走了，而你...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What sort of love is this? He is leaving, and you...{\r}
+Dialogue: 0,0:35:15.04,0:35:18.64,中文,,0000,0000,0000,,看着他走，会要了我的命\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Watching him go will be the death of me.{\r}
+Dialogue: 0,0:35:18.71,0:35:21.51,中文,,0000,0000,0000,,老天不许你死！ 但是这样，送行仪式就不完整了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}God forbid! But this meeting will be left incomplete.{\r}
+Dialogue: 0,0:35:21.58,0:35:24.64,中文,,0000,0000,0000,,一个不完整的送行 为另一个人留下了承诺\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}An incomplete meeting leaves the promise of another.{\r}
+Dialogue: 0,0:35:24.85,0:35:27.72,中文,,0000,0000,0000,,如果命运不允许呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And what if destiny doesn't allow it?{\r}
+Dialogue: 0,0:35:30.03,0:35:32.82,中文,,0000,0000,0000,,玛斯塔妮的命运由自己书写\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani writes her own destiny.{\r}
+Dialogue: 0,0:35:56.92,0:36:00.01,中文,,0000,0000,0000,,我们或许是欠佩什瓦的...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We may be greatly indebted to the Peshwa...{\r}
+Dialogue: 0,0:36:00.42,0:36:03.69,中文,,0000,0000,0000,,但是，国王，我拒绝 将我们的女儿送去普纳，作为偿还\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I refuse to send our daughter to Pune as an obligation, My King.{\r}
+Dialogue: 0,0:36:04.03,0:36:07.26,中文,,0000,0000,0000,,我明白我们的婚姻从未被社会认同\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I understand that our marriage has never been valid in the society...{\r}
+Dialogue: 0,0:36:07.33,0:36:08.73,中文,,0000,0000,0000,,因为我是穆斯林，而你是印度教徒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Because I am Muslim and you're Hindu.{\r}
+Dialogue: 0,0:36:08.80,0:36:10.73,中文,,0000,0000,0000,,来普纳，也是我自己的决定\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is my own decision to go to Pune...{\r}
+Dialogue: 0,0:36:11.77,0:36:13.93,中文,,0000,0000,0000,,我已经接受了佩什瓦的短剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am wed to the Peshwa's dagger.{\r}
+Dialogue: 0,0:36:14.00,0:36:17.80,中文,,0000,0000,0000,,这是本德尔坎德的风俗 不是普纳的风俗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is a custom in Bundelkhand, not Pune.{\r}
+Dialogue: 0,0:36:18.27,0:36:22.33,中文,,0000,0000,0000,,别忘了，那个佩什瓦是印度婆罗门教的 而你是穆斯林\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And do not forget that the Peshwa is Hindu Brahmin and you are Muslim.{\r}
+Dialogue: 0,0:36:22.41,0:36:25.31,中文,,0000,0000,0000,,玛斯塔妮也有印度教拉其普特的血脉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani has Hindu Rajput blood too.{\r}
+Dialogue: 0,0:36:26.01,0:36:28.98,中文,,0000,0000,0000,,她崇拜阿拉真主和克利须那神\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She worships Allah and Krishna alike.{\r}
+Dialogue: 0,0:36:29.35,0:36:31.88,中文,,0000,0000,0000,,久德哈和阿克巴已以政治的名义 撇开了信仰的差异\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Jodha and Akbar put aside religious differences in the name of politics.{\r}
+Dialogue: 0,0:36:31.95,0:36:34.32,中文,,0000,0000,0000,,玛斯塔妮也是如此，只是她是出于爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani is doing the same, but for love.{\r}
+Dialogue: 0,0:36:34.82,0:36:36.02,中文,,0000,0000,0000,,让她去吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let her go.{\r}
+Dialogue: 0,0:36:36.29,0:36:38.95,中文,,0000,0000,0000,,就算是这样！他也不会 把她娶为合法的妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even so! He will never accept her as his legitimate wife.{\r}
+Dialogue: 0,0:36:39.03,0:36:40.93,中文,,0000,0000,0000,,茹阿达也没有成为克利须那神的妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Radha was never Lord Krishna's wife...{\r}
+Dialogue: 0,0:36:41.40,0:36:43.76,中文,,0000,0000,0000,,但他们的名字是不可分割的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But their names are inseparable.{\r}
+Dialogue: 0,0:36:44.40,0:36:45.49,中文,,0000,0000,0000,,是啊，但他们是神！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, but they are Gods!{\r}
+Dialogue: 0,0:36:45.57,0:36:47.03,中文,,0000,0000,0000,,爱就是敬拜...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And love is worship...{\r}
+Dialogue: 0,0:36:48.30,0:36:50.90,中文,,0000,0000,0000,,他们不需要任何人的允许\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}For which one needs no permission.{\r}
+Dialogue: 0,0:36:57.61,0:36:59.71,中文,,0000,0000,0000,,愿神实现你的愿望！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}May God fulfill your wishes!{\r}
+Dialogue: 0,0:37:02.85,0:37:04.62,中文,,0000,0000,0000,,永远祝福你！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stay blessed!{\r}
+Dialogue: 0,0:37:31.38,0:37:35.78,中文,,0000,0000,0000,,*我美丽的爱情回来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My beautiful love has returned...{\r}
+Dialogue: 0,0:39:38.81,0:39:39.97,中文,,0000,0000,0000,,赞美主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,0:39:55.79,0:39:57.02,中文,,0000,0000,0000,,公主，等一下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A moment, My Lady...{\r}
+Dialogue: 0,0:39:57.33,0:39:58.92,中文,,0000,0000,0000,,你还没有跟我姓 （马拉地帝国的习俗）\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have not taken my name this time. (MARATHI TRADITION){\r}
+Dialogue: 0,0:39:59.00,0:39:59.89,中文,,0000,0000,0000,,为什么\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why, brother!{\r}
+Dialogue: 0,0:39:59.96,0:40:01.45,中文,,0000,0000,0000,,现在是新时代了！ 在新的宫殿，也有新的风俗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's a new era! New palace, new customs.{\r}
+Dialogue: 0,0:40:01.53,0:40:03.43,中文,,0000,0000,0000,,为什么非要公主跟你姓呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why must the lady always take the man's name?{\r}
+Dialogue: 0,0:40:03.50,0:40:08.50,中文,,0000,0000,0000,,这次你跟她姓 不然你就不能进新房了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You take her name this time, or else no entering your new chambers!{\r}
+Dialogue: 0,0:40:08.57,0:40:12.03,中文,,0000,0000,0000,,但女人跟丈夫姓是风俗 But it is a custom for women to say their husbands‘ name...
+Dialogue: 0,0:40:16.05,0:40:20.01,中文,,0000,0000,0000,,任何钻石都不及柯伊诺尔钻闪耀\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No diamond can match the Kohinoor's sparkle and grace.{\r}
+Dialogue: 0,0:40:20.08,0:40:24.08,中文,,0000,0000,0000,,除了巴拉吉，任何姓氏 都无法照亮喀什的脸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And no name but Bajirao's lights up Kashi's face.{\r}
+Dialogue: 0,0:40:24.62,0:40:27.09,中文,,0000,0000,0000,,太好了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Very good!{\r}
+Dialogue: 0,0:40:29.96,0:40:31.45,中文,,0000,0000,0000,,这边请，佩什瓦大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This way, Peshwa Saheb.{\r}
+Dialogue: 0,0:40:31.53,0:40:32.83,中文,,0000,0000,0000,,公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady...{\r}
+Dialogue: 0,0:40:32.90,0:40:34.63,中文,,0000,0000,0000,,你马上就要进新房了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are entering your new chambers for the first time.{\r}
+Dialogue: 0,0:40:34.73,0:40:35.72,中文,,0000,0000,0000,,太幼稚了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What childishness is this!{\r}
+Dialogue: 0,0:40:36.87,0:40:38.50,中文,,0000,0000,0000,,你可跟我发过誓哦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You swore on me...{\r}
+Dialogue: 0,0:40:38.57,0:40:41.73,中文,,0000,0000,0000,,所以，我没说，就不许睁开眼睛\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So don't open your eyes until I say so!{\r}
+Dialogue: 0,0:40:42.81,0:40:43.90,中文,,0000,0000,0000,,你不相信我吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't you trust me?{\r}
+Dialogue: 0,0:40:43.98,0:40:46.07,中文,,0000,0000,0000,,相信一个战士？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Trust a warrior?{\r}
+Dialogue: 0,0:40:46.48,0:40:48.45,中文,,0000,0000,0000,,你永远不会知道，他何时会攻击\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You never know when he may attack!{\r}
+Dialogue: 0,0:40:49.08,0:40:51.05,中文,,0000,0000,0000,,现在，睁眼吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Now, open your eyes.{\r}
+Dialogue: 0,0:40:51.45,0:40:52.11,中文,,0000,0000,0000,,你觉得怎么样？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What do you think?{\r}
+Dialogue: 0,0:40:52.62,0:40:53.71,中文,,0000,0000,0000,,美极了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Beautiful!!{\r}
+Dialogue: 0,0:40:55.49,0:41:00.08,中文,,0000,0000,0000,,这跟沙尼瓦瓦达宫的其他房间可没的比\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is nothing compared to the rest of Shanivaar Wada.{\r}
+Dialogue: 0,0:41:08.77,0:41:10.89,中文,,0000,0000,0000,,公主，告诉我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Tell me something, My Lady...{\r}
+Dialogue: 0,0:41:11.40,0:41:12.43,中文,,0000,0000,0000,,什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What?{\r}
+Dialogue: 0,0:41:12.90,0:41:16.07,中文,,0000,0000,0000,,我从你眼里怎么还能看见它？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How come I still see it in your eyes?{\r}
+Dialogue: 0,0:41:16.71,0:41:17.33,中文,,0000,0000,0000,,什么啊？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What?{\r}
+Dialogue: 0,0:41:17.41,0:41:18.40,中文,,0000,0000,0000,,渴望！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Longing!{\r}
+Dialogue: 0,0:41:18.48,0:41:22.88,中文,,0000,0000,0000,,因为是它，在你这么久不在的时间里 支撑着我的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Because it keeps me company in your long absences.{\r}
+Dialogue: 0,0:41:23.48,0:41:25.45,中文,,0000,0000,0000,,哎呀，怎么不见了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Oh dear... Where is it?{\r}
+Dialogue: 0,0:41:25.92,0:41:26.68,中文,,0000,0000,0000,,什么？|\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What?{\r}
+Dialogue: 0,0:41:26.75,0:41:28.74,中文,,0000,0000,0000,,你的小情人啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your mistress!!{\r}
+Dialogue: 0,0:41:28.82,0:41:30.69,中文,,0000,0000,0000,,你的短剑啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your dagger?{\r}
+Dialogue: 0,0:41:31.86,0:41:33.48,中文,,0000,0000,0000,,估计你都把它给忘了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Just as well you've forgotten it.{\r}
+Dialogue: 0,0:41:33.79,0:41:35.56,中文,,0000,0000,0000,,就我们俩的时候，就别挂剑了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It will no longer come between us.{\r}
+Dialogue: 0,0:41:39.93,0:41:43.46,中文,,0000,0000,0000,,我说你的短剑是你的小情人 冒犯到你了吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Have I offended you by calling your dagger a mistress?{\r}
+Dialogue: 0,0:41:44.94,0:41:47.41,中文,,0000,0000,0000,,我太多嘴了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I talk too much!{\r}
+Dialogue: 0,0:41:50.81,0:41:53.54,中文,,0000,0000,0000,,查塔萨尔国王为我们送来了贺礼\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}King Chatrasaal has showered us with gifts.{\r}
+Dialogue: 0,0:41:55.38,0:41:56.40,中文,,0000,0000,0000,,很好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am pleased!{\r}
+Dialogue: 0,0:41:56.48,0:41:58.81,中文,,0000,0000,0000,,这时候再好不过了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The timing couldn't have been better...{\r}
+Dialogue: 0,0:41:59.79,0:42:02.45,中文,,0000,0000,0000,,开支可以被抵消了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Expenses had been piling up.{\r}
+Dialogue: 0,0:42:02.75,0:42:05.78,中文,,0000,0000,0000,,这么说，帮助本德尔坎德 证明对我们来说是有利可图的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So helping Bundelkhand has proved profitable for us.{\r}
+Dialogue: 0,0:42:07.73,0:42:08.75,中文,,0000,0000,0000,,这是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is this?{\r}
+Dialogue: 0,0:42:34.72,0:42:37.42,中文,,0000,0000,0000,,你是谁？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who are you?{\r}
+Dialogue: 0,0:42:37.79,0:42:39.59,中文,,0000,0000,0000,,我是查塔萨尔国王的女儿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is King Chatrasaal's daughter.{\r}
+Dialogue: 0,0:42:39.69,0:42:43.09,中文,,0000,0000,0000,,我都不知道他有个这么漂亮的女儿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wasn't aware he had such a beautiful daughter.{\r}
+Dialogue: 0,0:42:43.86,0:42:45.80,中文,,0000,0000,0000,,很高兴认识你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm very pleased to make your acquaintance.{\r}
+Dialogue: 0,0:42:46.06,0:42:47.83,中文,,0000,0000,0000,,我也是\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As am I, thank you!{\r}
+Dialogue: 0,0:42:48.07,0:42:49.43,中文,,0000,0000,0000,,你叫什么名字？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is your name?{\r}
+Dialogue: 0,0:42:49.97,0:42:50.87,中文,,0000,0000,0000,,玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani.{\r}
+Dialogue: 0,0:42:51.07,0:42:53.33,中文,,0000,0000,0000,,玛斯塔妮...真好听\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani... Beautiful name.{\r}
+Dialogue: 0,0:42:54.51,0:42:58.34,中文,,0000,0000,0000,,你父王有很多妃子 你是谁的女儿呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your father has many wives, whose daughter are you?{\r}
+Dialogue: 0,0:43:00.98,0:43:02.41,中文,,0000,0000,0000,,鲁哈尼女王的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Ruhani Begum's.{\r}
+Dialogue: 0,0:43:03.42,0:43:04.75,中文,,0000,0000,0000,,这么说你是穆斯林\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I see, you are a Muslim.{\r}
+Dialogue: 0,0:43:04.88,0:43:08.68,中文,,0000,0000,0000,,只是送贺礼，查塔萨尔国王\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}King Chatrasaal needn't have sent his daughter..{\r}
+Dialogue: 0,0:43:08.76,0:43:11.88,中文,,0000,0000,0000,,没必要让他女儿长途跋涉过来啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..all the way here simply to deliver gifts!{\r}
+Dialogue: 0,0:43:12.49,0:43:14.65,中文,,0000,0000,0000,,你说是吧，池马基？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What say, Chimaji?{\r}
+Dialogue: 0,0:43:21.03,0:43:22.83,中文,,0000,0000,0000,,这把短剑是巴拉吉的！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This dagger belongs to Bajirao!{\r}
+Dialogue: 0,0:43:23.00,0:43:27.80,中文,,0000,0000,0000,,在本德尔坎德，我们有个风俗 女孩要嫁给送她短剑的人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}In Bundelkhand we observe a custom where girls are wed to daggers.{\r}
+Dialogue: 0,0:43:30.31,0:43:34.37,中文,,0000,0000,0000,,在穆斯林和拉其普特之间，或许是的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Perhaps amongst Muslims and Rajputs.{\r}
+Dialogue: 0,0:43:34.45,0:43:37.85,中文,,0000,0000,0000,,但在佩什瓦的政体下 我们不接受这样的政治联姻\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}In the Peshwa regime, we do not accept such political ties.{\r}
+Dialogue: 0,0:43:37.92,0:43:39.91,中文,,0000,0000,0000,,但我已经嫁给他了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I am already married to him!{\r}
+Dialogue: 0,0:43:42.96,0:43:46.41,中文,,0000,0000,0000,,池马基，你先安排她住下吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji, please make arrangements for her stay elsewhere.{\r}
+Dialogue: 0,0:43:46.56,0:43:50.83,中文,,0000,0000,0000,,回本德尔坎德之前，来见见我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do meet me before you return to Bundelkhand.{\r}
+Dialogue: 0,0:44:00.07,0:44:01.97,中文,,0000,0000,0000,,亲爱的...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My dear...{\r}
+Dialogue: 0,0:44:02.04,0:44:04.41,中文,,0000,0000,0000,,如果你继续盯着我看 会对我心生邪念的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If you stare any longer, you will cast an evil eye on me.{\r}
+Dialogue: 0,0:44:04.48,0:44:07.28,中文,,0000,0000,0000,,我正在与它做抵抗呢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am trying to remove it.{\r}
+Dialogue: 0,0:45:45.15,0:45:46.58,中文,,0000,0000,0000,,你要去打仗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Going to war?{\r}
+Dialogue: 0,0:45:46.65,0:45:47.94,中文,,0000,0000,0000,,我已经决定了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I have decided...{\r}
+Dialogue: 0,0:45:48.08,0:45:50.71,中文,,0000,0000,0000,,下一次，要和你一起上战场\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Next time, I shall accompany you to war.{\r}
+Dialogue: 0,0:45:50.88,0:45:52.44,中文,,0000,0000,0000,,不管别人怎么说\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No matter what anyone says.{\r}
+Dialogue: 0,0:45:53.52,0:45:55.99,中文,,0000,0000,0000,,但是你不会骑马啊，你要怎么去啊？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you cannot ride a horse. How do you expect to come?{\r}
+Dialogue: 0,0:45:56.06,0:45:59.99,中文,,0000,0000,0000,,我可以去马厩，坐上我的马 扬起马鞭\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'll go to the stable, mount my horse, crack the whip...{\r}
+Dialogue: 0,0:46:00.06,0:46:02.62,中文,,0000,0000,0000,,风驰电掣，喀什来了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And be off like the wind. Here comes Kashi!!{\r}
+Dialogue: 0,0:46:12.81,0:46:15.33,中文,,0000,0000,0000,,我们还没到战场，你都已经开打了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We haven't even reached the battlefield yet and you've started.{\r}
+Dialogue: 0,0:46:15.41,0:46:17.71,中文,,0000,0000,0000,,那这个战士还需要什么呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What else does this warrior need?{\r}
+Dialogue: 0,0:46:18.38,0:46:22.41,中文,,0000,0000,0000,,一块地，两顿美餐，一片天空 一匹骏马，一把剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A bit of land, two square meals, a piece of open sky, a steed, a sword...{\r}
+Dialogue: 0,0:46:22.48,0:46:23.71,中文,,0000,0000,0000,,还有我的喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And my Kashi.{\r}
+Dialogue: 0,0:46:24.02,0:46:25.95,中文,,0000,0000,0000,,加起来，一共27\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Altogether, twenty-seven.{\r}
+Dialogue: 0,0:46:26.02,0:46:26.99,中文,,0000,0000,0000,,什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How so?{\r}
+Dialogue: 0,0:46:27.32,0:46:28.79,中文,,0000,0000,0000,,27处伤口\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Twenty-seven wounds!{\r}
+Dialogue: 0,0:46:29.52,0:46:33.52,中文,,0000,0000,0000,,下次别让敌人靠你那么近了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And this time you let the enemy get too close...{\r}
+Dialogue: 0,0:46:33.90,0:46:35.69,中文,,0000,0000,0000,,为了避免第28个伤疤\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And now to avoid the twenty-eighth wound...{\r}
+Dialogue: 0,0:46:36.03,0:46:40.47,中文,,0000,0000,0000,,这个戒指会保护你，不被邪恶之人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This ring will protect you from both the evil eye..{\r}
+Dialogue: 0,0:46:40.54,0:46:42.80,中文,,0000,0000,0000,,和敌人的剑所伤\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}and the enemy's sword.{\r}
+Dialogue: 0,0:46:49.58,0:46:52.98,中文,,0000,0000,0000,,公主，我觉得这些人不怀好意\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady, I do not trust the intentions of those people.{\r}
+Dialogue: 0,0:46:53.58,0:46:55.91,中文,,0000,0000,0000,,那根本就不是客人住的房间！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}These are no guests' chambers!{\r}
+Dialogue: 0,0:46:56.05,0:46:58.45,中文,,0000,0000,0000,,他们这是在贬低你的身份\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's a strategy to demean you.{\r}
+Dialogue: 0,0:46:59.05,0:47:00.85,中文,,0000,0000,0000,,他们现在让你跟那些妓女住在一起\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If they can put you up amongst courtesans,..{\r}
+Dialogue: 0,0:47:00.92,0:47:02.55,中文,,0000,0000,0000,,下次就敢叫你去厅堂上跳舞了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..they can ask you to dance at their court next!{\r}
+Dialogue: 0,0:47:03.79,0:47:04.82,中文,,0000,0000,0000,,公主！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!{\r}
+Dialogue: 0,0:47:06.63,0:47:08.99,中文,,0000,0000,0000,,看这只蝴蝶啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Well, well... Look at the butterfly!{\r}
+Dialogue: 0,0:47:10.97,0:47:14.87,中文,,0000,0000,0000,,公主，把我们的士兵送回家 真的太不明智了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My lady, it was unwise to send our soldiers home.{\r}
+Dialogue: 0,0:47:15.67,0:47:17.70,中文,,0000,0000,0000,,我们现在异国，被陌生人包围\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We are in a strange land, surrounded by strangers.{\r}
+Dialogue: 0,0:47:17.77,0:47:19.36,中文,,0000,0000,0000,,你永远不知道会遇到什么麻烦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You never know what problems might arise.{\r}
+Dialogue: 0,0:47:19.97,0:47:24.00,中文,,0000,0000,0000,,什么人会把客人安排的 跟妓女一起住啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What kind of people would house a guest amongst courtesans.{\r}
+Dialogue: 0,0:47:24.45,0:47:26.41,中文,,0000,0000,0000,,这可是查塔萨尔国王的女儿啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And that too the daughter of King Chatrasaal.{\r}
+Dialogue: 0,0:47:26.65,0:47:29.28,中文,,0000,0000,0000,,本德尔坎德的人要是直到 还不得举兵打过来啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Swords would be raised in Bundelkhand if they caught wind of this.{\r}
+Dialogue: 0,0:47:29.49,0:47:31.65,中文,,0000,0000,0000,,你却还安静地坐在这...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yet you sit here silently...{\r}
+Dialogue: 0,0:48:08.02,0:48:10.46,中文,,0000,0000,0000,,公主，我知道你感觉被羞辱了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I know you feel humiliated, My Lady.{\r}
+Dialogue: 0,0:48:12.73,0:48:15.72,中文,,0000,0000,0000,,我们回家吧，省的在这被羞辱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let us return home rather than be insulted here.{\r}
+Dialogue: 0,0:48:16.00,0:48:18.83,中文,,0000,0000,0000,,如果他真爱你，佩什瓦 就会去本德尔坎德找你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If he truly loves you, the Peshwa will come after you, to Bundelkhand.{\r}
+Dialogue: 0,0:48:19.77,0:48:22.97,中文,,0000,0000,0000,,而且，不论你怎么努力\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}One more thing, no matter your efforts...{\r}
+Dialogue: 0,0:48:23.41,0:48:26.97,中文,,0000,0000,0000,,他们也绝对不会让他知道你在这的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They will never let him learn you are here.{\r}
+Dialogue: 0,0:48:28.34,0:48:31.54,中文,,0000,0000,0000,,我绝对不会让他们忘记我对他的爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And I will never let them forget my love for him.{\r}
+Dialogue: 0,0:48:38.79,0:48:41.95,中文,,0000,0000,0000,,大人，您现在看到的是 沙尼瓦瓦达宫最华美的区域\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, you are now witnessing the most beautiful section of Shanivaar Wada...{\r}
+Dialogue: 0,0:48:42.02,0:48:43.29,中文,,0000,0000,0000,,镜宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Palace of Mirrors.{\r}
+Dialogue: 0,0:48:43.46,0:48:44.45,中文,,0000,0000,0000,,哇，池马基\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Whoa, Chimaji...{\r}
+Dialogue: 0,0:48:45.73,0:48:46.92,中文,,0000,0000,0000,,这太梦幻了！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's unreal!{\r}
+Dialogue: 0,0:48:47.76,0:48:50.36,中文,,0000,0000,0000,,在您多年来，忙于征战的时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}While you have been busy fighting our enemies for years...{\r}
+Dialogue: 0,0:48:50.43,0:48:51.92,中文,,0000,0000,0000,,您的弟弟就在建造这个\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your brother has been building this.{\r}
+Dialogue: 0,0:48:52.07,0:48:54.83,中文,,0000,0000,0000,,池马基，你这是把泰姬陵 搬到普纳来啦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji, you have brought the Taj Mahal to Pune.{\r}
+Dialogue: 0,0:48:54.90,0:48:58.43,中文,,0000,0000,0000,,你应该今晚来亲眼目睹一下 这里真正的华美\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And you shall witness the true splendor of this place tonight...{\r}
+Dialogue: 0,0:48:58.51,0:48:59.94,中文,,0000,0000,0000,,等我们庆祝新年的时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When we celebrate the New Year.{\r}
+Dialogue: 0,0:49:00.01,0:49:02.38,中文,,0000,0000,0000,,弟弟，这的确像一个梦幻世界\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Truly this is a dreamworld, brother.{\r}
+Dialogue: 0,0:49:02.55,0:49:06.28,中文,,0000,0000,0000,,这个梦幻世界真正的魔法 就在你的脚下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The true magic of this dreamworld lies in the wonder at your feet.{\r}
+Dialogue: 0,0:49:06.92,0:49:07.68,中文,,0000,0000,0000,,什么意思？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How do you mean?{\r}
+Dialogue: 0,0:49:07.75,0:49:09.81,中文,,0000,0000,0000,,巴拉吉，此时此刻，只要喀什想看\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}At this very moment Bajirao, if Kashi desires..{\r}
+Dialogue: 0,0:49:09.89,0:49:11.82,中文,,0000,0000,0000,,她在她的寝宫里，就能看见你和纳纳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..she can see you and Nana from her chambers.{\r}
+Dialogue: 0,0:49:12.26,0:49:15.69,中文,,0000,0000,0000,,你是说，喀什能从她的房间 看到父亲和儿子？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are you saying Kashi can see both father and son from the comfort of her room?{\r}
+Dialogue: 0,0:49:15.76,0:49:16.85,中文,,0000,0000,0000,,那就是魔法所在！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Therein lies the magic!{\r}
+Dialogue: 0,0:49:16.93,0:49:18.62,中文,,0000,0000,0000,,那个莲花图形下有一个装置\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That lotus has a mechanism that makes..{\r}
+Dialogue: 0,0:49:18.70,0:49:20.82,中文,,0000,0000,0000,,能让你倒影在这些镜子里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..your reflection shine from these mirrors...{\r}
+Dialogue: 0,0:49:20.96,0:49:24.40,中文,,0000,0000,0000,,直接投射到喀什房间的小窗户上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Straight onto the little window in Kashi's room.{\r}
+Dialogue: 0,0:49:24.47,0:49:26.03,中文,,0000,0000,0000,,公主！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!!{\r}
+Dialogue: 0,0:49:26.84,0:49:30.29,中文,,0000,0000,0000,,窗户上有一道光线\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There's a beam coming through the window.{\r}
+Dialogue: 0,0:49:30.37,0:49:31.00,中文,,0000,0000,0000,,真的吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Really!{\r}
+Dialogue: 0,0:49:31.27,0:49:34.80,中文,,0000,0000,0000,,真的，快点，快去看啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, really, come on, come quickly!{\r}
+Dialogue: 0,0:49:43.32,0:49:45.65,中文,,0000,0000,0000,,然后光线穿过玻璃，传到水面\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then traveling through the glass on the water,..{\r}
+Dialogue: 0,0:49:45.72,0:49:47.88,中文,,0000,0000,0000,,镜像就会呈现在她房间的窗帘上了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..it reflects onto the curtain in her chambers.{\r}
+Dialogue: 0,0:49:51.96,0:49:54.52,中文,,0000,0000,0000,,快点，公主，快点！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Quickly, My Lady, quickly!{\r}
+Dialogue: 0,0:49:54.60,0:49:57.03,中文,,0000,0000,0000,,等一下！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Wait a moment!{\r}
+Dialogue: 0,0:50:01.00,0:50:04.53,中文,,0000,0000,0000,,即使巴拉吉在镜宫 我们在这也能看见他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Oh! We can see Bajirao here although he's in the Palace of Mirrors.{\r}
+Dialogue: 0,0:50:04.61,0:50:05.84,中文,,0000,0000,0000,,好神奇啊！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's magic!{\r}
+Dialogue: 0,0:50:05.91,0:50:09.97,中文,,0000,0000,0000,,看看我们的巴拉吉多英俊啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Just look at how handsome our Bajirao is.{\r}
+Dialogue: 0,0:50:10.75,0:50:13.08,中文,,0000,0000,0000,,嘿！别色眯眯的看着他啦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Hey! Stop casting the evil eye on him.{\r}
+Dialogue: 0,0:50:13.42,0:50:15.32,中文,,0000,0000,0000,,妹妹怎么会色眯眯地看姐夫呢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A sister can never cast an evil eye on her brother.{\r}
+Dialogue: 0,0:50:15.52,0:50:18.54,中文,,0000,0000,0000,,不过我新说行政长官的太太们 都很想见他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I've heard the Nawab's wives yearn to set eyes on him.{\r}
+Dialogue: 0,0:50:18.62,0:50:21.92,中文,,0000,0000,0000,,听说她们为了见他，连金子都愿意付呢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I've heard they would gladly pay his weight in gold for a glimpse of him.{\r}
+Dialogue: 0,0:50:21.99,0:50:24.76,中文,,0000,0000,0000,,要是想看，就让他们付钻石吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let them pay his weight in diamonds if they want...{\r}
+Dialogue: 0,0:50:24.83,0:50:27.92,中文,,0000,0000,0000,,我的巴拉吉，永远不会看别的女人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Bajirao has never so much as looked at another woman.{\r}
+Dialogue: 0,0:50:28.50,0:50:29.93,中文,,0000,0000,0000,,明白嘛！\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Understood!{\r}
+Dialogue: 0,0:50:38.44,0:50:40.77,中文,,0000,0000,0000,,*就像从天而降的天使\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Like an angel descended from heaven...{\r}
+Dialogue: 0,0:50:42.91,0:50:45.95,中文,,0000,0000,0000,,Her tresses exuding a divine fragrance...
+Dialogue: 0,0:50:46.08,0:50:50.71,中文,,0000,0000,0000,,*她的长发散发出沁人的香气\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here she comes...{\r}
+Dialogue: 0,0:51:17.95,0:51:24.95,中文,,0000,0000,0000,,*她来了...金光闪闪\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here she comes... A vision in gold.{\r}
+Dialogue: 0,0:51:44.44,0:51:50.64,中文,,0000,0000,0000,,*我中了你爱情的毒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am intoxicated by your love.{\r}
+Dialogue: 0,0:52:08.03,0:52:14.44,中文,,0000,0000,0000,,*我对你的爱，众人皆知\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My love is no secret.{\r}
+Dialogue: 0,0:52:14.51,0:52:23.04,中文,,0000,0000,0000,,*全世界都想阻止我 但看看爱情把我带到了哪里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The world tried to stop me, but look where love brought me...{\r}
+Dialogue: 0,0:52:23.32,0:52:29.88,中文,,0000,0000,0000,,*他们说玛斯塔妮也中了你爱情的毒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They say Mastani is intoxicated by your love...{\r}
+Dialogue: 0,0:53:35.42,0:53:41.45,中文,,0000,0000,0000,,*你先是伤了我的心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}First, you wounded my heart...{\r}
+Dialogue: 0,0:53:47.10,0:53:53.47,中文,,0000,0000,0000,,*然后又用你的爱治愈了它\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then, you healed it with your love...{\r}
+Dialogue: 0,0:53:59.55,0:54:05.01,中文,,0000,0000,0000,,*你的爱使我变得特别\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}" Your love has become my identity..."{\r}
+Dialogue: 0,0:54:13.79,0:54:20.06,中文,,0000,0000,0000,,*爱你就是我的决心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And loving you is my purpose.{\r}
+Dialogue: 0,0:54:59.07,0:55:02.41,中文,,0000,0000,0000,,*每个角落都被你的美所照亮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Every corner is illuminated by your beauty...{\r}
+Dialogue: 0,0:55:11.59,0:55:14.58,中文,,0000,0000,0000,,*玛斯塔妮，你的确是中了爱情的毒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are indeed intoxicated by love, Mastani...{\r}
+Dialogue: 0,0:55:14.66,0:55:17.56,中文,,0000,0000,0000,,*你的灵魂是纯洁的 你的爱是神圣的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your soul is pure and your love, divine...{\r}
+Dialogue: 0,0:56:22.29,0:56:26.39,中文,,0000,0000,0000,,玛斯塔妮，人如其名 一个用自己的韵律在舞蹈的人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have been aptly named Mastani, one who dances to her own tune.{\r}
+Dialogue: 0,0:56:27.73,0:56:31.50,中文,,0000,0000,0000,,我很惊讶，也很高兴在普纳看见你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm surprised but happy to see you here in Pune.{\r}
+Dialogue: 0,0:56:32.77,0:56:36.70,中文,,0000,0000,0000,,这个...是我热情的象征\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This paan... A token of my hospitality.{\r}
+Dialogue: 0,0:56:45.38,0:56:47.85,中文,,0000,0000,0000,,我们明天见\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We shall meet tomorrow.{\r}
+Dialogue: 0,0:57:30.56,0:57:34.29,中文,,0000,0000,0000,,你的能力超出了我的想象\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your capabilities greatly exceed my expectations.{\r}
+Dialogue: 0,0:57:34.90,0:57:36.52,中文,,0000,0000,0000,,你是个有天赋的舞者\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are a talented dancer.{\r}
+Dialogue: 0,0:57:37.03,0:57:38.50,中文,,0000,0000,0000,,谢谢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Thank you.{\r}
+Dialogue: 0,0:57:38.70,0:57:42.36,中文,,0000,0000,0000,,想赞美我的话 就接受我与你们联合的请求吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Please pay me a further compliment, accept my alliance.{\r}
+Dialogue: 0,0:57:42.90,0:57:44.77,中文,,0000,0000,0000,,我当然接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Of course I have.{\r}
+Dialogue: 0,0:57:50.41,0:57:53.47,中文,,0000,0000,0000,,你现在以舞者的身份，与我国结盟\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are now allied with the kingdom as a court dancer.{\r}
+Dialogue: 0,0:57:54.02,0:57:57.92,中文,,0000,0000,0000,,很快，你就会到国王宫殿跳舞了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Very soon you will dance at the king's court in the capital.{\r}
+Dialogue: 0,0:57:58.39,0:58:00.91,中文,,0000,0000,0000,,你不喜欢我的礼物吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do you not like my offering?{\r}
+Dialogue: 0,0:58:00.99,0:58:05.98,中文,,0000,0000,0000,,我感谢您送的每件礼物 但你这是在给你的儿子带上镣铐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I cherish your every offering, be it an anklet or a son...{\r}
+Dialogue: 0,0:58:06.36,0:58:10.70,中文,,0000,0000,0000,,你越是阻止他和我在一起 我就越接近他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The more you try to distance him from me, the closer I shall get to him.{\r}
+Dialogue: 0,0:58:10.77,0:58:12.89,中文,,0000,0000,0000,,那你就百折不挠地试试看\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then keep trying endlessly.{\r}
+Dialogue: 0,0:58:13.70,0:58:19.57,中文,,0000,0000,0000,,舞者的地方永远在王座之下 宫殿的地板上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A dancer's place is always below the throne, on the court's floor.{\r}
+Dialogue: 0,0:58:20.88,0:58:25.28,中文,,0000,0000,0000,,我总是被人称赞貌美...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I have always been complimented on my beauty...{\r}
+Dialogue: 0,0:58:26.32,0:58:27.98,中文,,0000,0000,0000,,现在能被一个\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Today watching a woman of..{\r}
+Dialogue: 0,0:58:28.65,0:58:32.02,中文,,0000,0000,0000,,您这种身份的人威胁，是我的荣幸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..your standing threatened by it, makes me proud.{\r}
+Dialogue: 0,0:58:34.69,0:58:37.45,中文,,0000,0000,0000,,快点离开首都吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Prepare to leave for the Capital.{\r}
+Dialogue: 0,0:58:42.99,0:58:45.55,中文,,0000,0000,0000,,看来还没人从昨晚的表演中清醒过来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It appears no one has sobered from last night's performance.{\r}
+Dialogue: 0,0:58:45.70,0:58:48.69,中文,,0000,0000,0000,,看看周围，没有一个人想干活\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Look around, not a soul wishes to work!{\r}
+Dialogue: 0,0:58:48.77,0:58:52.90,中文,,0000,0000,0000,,哪种战士才能让美人低下目光？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is a warrior before whom a beauty is not compelled to lower her gaze...{\r}
+Dialogue: 0,0:58:53.37,0:58:56.50,中文,,0000,0000,0000,,哪种美人才能让战士放下宝剑？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is a beauty before whom a warrior is not compelled to lower his sword?{\r}
+Dialogue: 0,0:58:56.58,0:58:59.77,中文,,0000,0000,0000,,太棒了，说得好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bravo, Peshwa!... Well said!{\r}
+Dialogue: 0,0:58:59.91,0:59:04.58,中文,,0000,0000,0000,,勇敢的池马基来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The brave Chimaji is here!{\r}
+Dialogue: 0,0:59:04.78,0:59:07.68,中文,,0000,0000,0000,,池马基，你的出现代表 我们的活动已经被审查\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji your presence indicates our campaigns have been audited.{\r}
+Dialogue: 0,0:59:07.75,0:59:09.69,中文,,0000,0000,0000,,结果是什么\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is the outcome?{\r}
+Dialogue: 0,0:59:09.75,0:59:12.28,中文,,0000,0000,0000,,本德尔坎德已经减少了捐助\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Discounting endowments from Bundelkhand,..{\r}
+Dialogue: 0,0:59:12.36,0:59:15.45,中文,,0000,0000,0000,,这3次活动都没有增加我们的财富\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..none of the three campaigns have enriched our treasury.{\r}
+Dialogue: 0,0:59:15.53,0:59:17.62,中文,,0000,0000,0000,,这你就错了，兄弟\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is where you are wrong, brother.{\r}
+Dialogue: 0,0:59:17.96,0:59:19.62,中文,,0000,0000,0000,,我们怎么没有？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How have we not been enriched?{\r}
+Dialogue: 0,0:59:19.70,0:59:23.29,中文,,0000,0000,0000,,首先，胜利的荣誉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}First - the glory of victory.{\r}
+Dialogue: 0,0:59:25.80,0:59:28.74,中文,,0000,0000,0000,,第二，用失败羞辱了班加萨\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Second - shaming Bangash with defeat.{\r}
+Dialogue: 0,0:59:28.97,0:59:32.34,中文,,0000,0000,0000,,第三，征收了德里的马拉地钟\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Third - tolling the Maratha bell in Delhi.{\r}
+Dialogue: 0,0:59:34.38,0:59:38.41,中文,,0000,0000,0000,,第四，红旗再次飘扬在天空中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Fourth - the saffron flag once again stands strong against the blue sky.{\r}
+Dialogue: 0,0:59:38.48,0:59:42.68,中文,,0000,0000,0000,,赞美神\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the lord!{\r}
+Dialogue: 0,0:59:42.75,0:59:46.38,中文,,0000,0000,0000,,还有第五，和本德尔坎德 建立了一生的联系\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And fifth - a lifetime's bond with Bundelkhand.{\r}
+Dialogue: 0,0:59:46.46,0:59:49.45,中文,,0000,0000,0000,,还有最后，我的阁下，这你忘了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And sixth, My Lord, you forget!{\r}
+Dialogue: 0,0:59:49.53,0:59:53.55,中文,,0000,0000,0000,,有像玛斯塔妮这么美的舞女 为我们跳舞\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A splendid dancer like Mastani to entertain us!{\r}
+Dialogue: 0,1:00:03.41,1:00:06.64,中文,,0000,0000,0000,,池马基，在我们这么好客的地方 玛斯塔妮公主这样的女人根本不缺\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji, see to it our hospitality towards Mastani Saheba is in no way lacking.{\r}
+Dialogue: 0,1:00:06.85,1:00:08.94,中文,,0000,0000,0000,,当然，你可以放心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Of course... Rest assured I will.{\r}
+Dialogue: 0,1:00:09.35,1:00:10.87,中文,,0000,0000,0000,,她就住在希拉巴格宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She's lodged at Hirabagh Palace.{\r}
+Dialogue: 0,1:00:10.95,1:00:13.01,中文,,0000,0000,0000,,派信使告诉她，今晚我要去看她\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Send a messenger to tell her I shall visit this evening.{\r}
+Dialogue: 0,1:00:16.02,1:00:16.99,中文,,0000,0000,0000,,那不可能\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That won't be possible.{\r}
+Dialogue: 0,1:00:17.06,1:00:17.95,中文,,0000,0000,0000,,为什么\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why?{\r}
+Dialogue: 0,1:00:18.02,1:00:19.68,中文,,0000,0000,0000,,因为你今天就要去首都，阁下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Because you must leave for the capital today, My Lord.{\r}
+Dialogue: 0,1:00:19.76,1:00:21.02,中文,,0000,0000,0000,,我可以明天去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I can do that tomorrow.{\r}
+Dialogue: 0,1:00:21.29,1:00:24.42,中文,,0000,0000,0000,,陛下在等你，你必须按时赶到\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}His Majesty awaits you, you must present yourself there on time.{\r}
+Dialogue: 0,1:00:24.50,1:00:26.52,中文,,0000,0000,0000,,你...蠢货\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You... Fool!{\r}
+Dialogue: 0,1:00:26.60,1:00:29.80,中文,,0000,0000,0000,,管好你的舌头，懂了吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Reign in your tongue... Understood?{\r}
+Dialogue: 0,1:00:33.07,1:00:36.84,中文,,0000,0000,0000,,去首都\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}To the capital!{\r}
+Dialogue: 0,1:00:38.90,1:00:45.90,中文,,0000,0000,0000,,（夏胡王萨塔拉行宫）
+Dialogue: 0,1:00:49.02,1:00:50.54,中文,,0000,0000,0000,,欢迎，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome, Bajirao.{\r}
+Dialogue: 0,1:00:50.92,1:00:52.45,中文,,0000,0000,0000,,我们都等得不耐烦了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You were impatiently awaited.{\r}
+Dialogue: 0,1:00:52.52,1:00:55.08,中文,,0000,0000,0000,,遵从你的召唤，陛下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You summoned and here I am, Your Majesty.{\r}
+Dialogue: 0,1:00:56.80,1:00:58.59,中文,,0000,0000,0000,,我要为本德尔坎德的事恭喜你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Congratulations on Bundelkhand!{\r}
+Dialogue: 0,1:00:59.46,1:01:03.66,中文,,0000,0000,0000,,为了你的荣誉我铸造了这把剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I had this sword of Afghan iron forged in your honour.{\r}
+Dialogue: 0,1:01:04.44,1:01:05.80,中文,,0000,0000,0000,,非常荣幸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am honored.{\r}
+Dialogue: 0,1:01:06.84,1:01:12.28,中文,,0000,0000,0000,,国王陛下，请允许我用这把剑 让德里跪倒在你的面前\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My King, now permit me to use this sword to bring Delhi to its knees before you.{\r}
+Dialogue: 0,1:01:12.34,1:01:14.81,中文,,0000,0000,0000,,政治上看现在不是攻击德里的好时机\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is not the right time to attack Delhi, politically speaking -{\r}
+Dialogue: 0,1:01:14.88,1:01:18.28,中文,,0000,0000,0000,,我的直觉告诉我现在正是时候，陛下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My instincts say now is the time, your Majesty.{\r}
+Dialogue: 0,1:01:18.72,1:01:20.95,中文,,0000,0000,0000,,德里现在沉溺在放荡声色中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Delhi is submerged in a haze of debauchery.{\r}
+Dialogue: 0,1:01:21.02,1:01:22.95,中文,,0000,0000,0000,,莫卧儿王朝已经失去了信仰\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Mughal emperor's court has lost his faith.{\r}
+Dialogue: 0,1:01:23.02,1:01:27.01,中文,,0000,0000,0000,,我们要平定南方的尼扎姆 然后向北攻打德里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We have to appease the Nizam in the South, to get to Delhi, in the north.{\r}
+Dialogue: 0,1:01:27.43,1:01:29.29,中文,,0000,0000,0000,,但还有对外政策要考虑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There is such a thing as political diplomacy.{\r}
+Dialogue: 0,1:01:31.83,1:01:33.32,中文,,0000,0000,0000,,首相有他的想法，佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Minister has a point, Peshwa.{\r}
+Dialogue: 0,1:01:33.40,1:01:35.80,中文,,0000,0000,0000,,这一步必须在谨慎思考之后才能选择\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That step must be taken after much forethought.{\r}
+Dialogue: 0,1:01:36.03,1:01:39.44,中文,,0000,0000,0000,,我们在今天的晚会之后 再讨论这个问题\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We shall discuss other matters after this evening's soirée.{\r}
+Dialogue: 0,1:01:45.81,1:01:48.34,中文,,0000,0000,0000,,这把剑最好留在它的剑鞘里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This sword is best left in its sheath, Peshwa.{\r}
+Dialogue: 0,1:01:48.78,1:01:51.81,中文,,0000,0000,0000,,你已经去不了德里了，你打算 把它架在哪个敌人的脖子上？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Since you won't be going to Delhi, what enemy's neck would you place it on?{\r}
+Dialogue: 0,1:01:54.02,1:01:55.82,中文,,0000,0000,0000,,佩什瓦不缺敌人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa doesn't lack enemies.{\r}
+Dialogue: 0,1:01:55.89,1:01:57.72,中文,,0000,0000,0000,,别动\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't move.{\r}
+Dialogue: 0,1:01:58.06,1:02:00.02,中文,,0000,0000,0000,,你的脖子非常脆弱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your neck is very valuable,..{\r}
+Dialogue: 0,1:02:00.09,1:02:02.75,中文,,0000,0000,0000,,甚至比环绕在上面的那串珍珠还精致\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..and more delicate than this string of pearls around it.{\r}
+Dialogue: 0,1:02:17.64,1:02:19.74,中文,,0000,0000,0000,,你也知道，永远不要怀疑猎豹的速度\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As you already know... Never doubt the cheetah's speed,..{\r}
+Dialogue: 0,1:02:19.81,1:02:21.64,中文,,0000,0000,0000,,鹰的视野，还有巴拉吉的剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..the hawk's vision and Bajirao's sword...{\r}
+Dialogue: 0,1:02:22.48,1:02:23.81,中文,,0000,0000,0000,,它们随时都能击败你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They can outwit you any time.{\r}
+Dialogue: 0,1:02:38.40,1:02:40.06,中文,,0000,0000,0000,,玛斯塔妮公主为什么在这里？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why is Mastani Saheba here?{\r}
+Dialogue: 0,1:02:40.47,1:02:43.43,中文,,0000,0000,0000,,你母亲派她来为今晚提供娱乐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your mother has sent her as tonight's entertainment.{\r}
+Dialogue: 0,1:02:50.44,1:02:51.77,中文,,0000,0000,0000,,开始吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let the entertainment begin.{\r}
+Dialogue: 0,1:02:59.72,1:03:02.31,中文,,0000,0000,0000,,你是宫廷舞者，来这里为我们提供表演\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are a court dancer, here to entertain.{\r}
+Dialogue: 0,1:03:02.39,1:03:04.29,中文,,0000,0000,0000,,你却亵渎了宫廷\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Instead you are dishonoring the court.{\r}
+Dialogue: 0,1:03:04.69,1:03:07.28,中文,,0000,0000,0000,,我没有亵渎宫廷，而是坚守 我自己的荣誉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am not dishonoring the court, but upholding my own honour.{\r}
+Dialogue: 0,1:03:07.56,1:03:08.36,中文,,0000,0000,0000,,你是谁？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who are you?{\r}
+Dialogue: 0,1:03:10.36,1:03:10.92,中文,,0000,0000,0000,,玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani.{\r}
+Dialogue: 0,1:03:11.00,1:03:12.99,中文,,0000,0000,0000,,她是来自本德尔坎德的礼物\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She is a gift from Bundelkhand.{\r}
+Dialogue: 0,1:03:13.93,1:03:17.39,中文,,0000,0000,0000,,她利用新年表演的机会 放火烧了佩什瓦宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She lit up the Peshwa's palace with her performance during New Year.{\r}
+Dialogue: 0,1:03:17.47,1:03:19.33,中文,,0000,0000,0000,,那是正常的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That was a valid occasion...{\r}
+Dialogue: 0,1:03:19.70,1:03:21.00,中文,,0000,0000,0000,,这只是个表演\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is but a soirée.{\r}
+Dialogue: 0,1:03:21.44,1:03:24.00,中文,,0000,0000,0000,,她不是宫廷舞者而是...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She is no court dancer but King..{\r}
+Dialogue: 0,1:03:24.28,1:03:26.33,中文,,0000,0000,0000,,查塔萨尔王的女儿 佩什瓦的客人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..Chatrasaal's daughter and a guest of the Peshwa realm.{\r}
+Dialogue: 0,1:03:26.91,1:03:29.54,中文,,0000,0000,0000,,看来是个很特别的客人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A rather special guest, it appears.{\r}
+Dialogue: 0,1:03:29.71,1:03:31.05,中文,,0000,0000,0000,,没错，首相\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes she is, Minister!{\r}
+Dialogue: 0,1:03:31.32,1:03:33.38,中文,,0000,0000,0000,,多亏了她佩什瓦才活着\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Thanks to her the Peshwa is alive..{\r}
+Dialogue: 0,1:03:33.45,1:03:36.48,中文,,0000,0000,0000,,多亏了佩什瓦，马拉地才存在\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..and thanks to the Peshwa the Maratha realm is alive!{\r}
+Dialogue: 0,1:03:38.02,1:03:39.28,中文,,0000,0000,0000,,陛下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your Majesty...{\r}
+Dialogue: 0,1:03:40.36,1:03:42.92,中文,,0000,0000,0000,,她不属于这个皇宫，请允许她离开\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She does not belong in this court. Allow her to leave.{\r}
+Dialogue: 0,1:03:43.53,1:03:44.86,中文,,0000,0000,0000,,那个佩什瓦人说得对\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa is right.{\r}
+Dialogue: 0,1:03:45.30,1:03:46.89,中文,,0000,0000,0000,,你救了他的命\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have saved his life...{\r}
+Dialogue: 0,1:03:47.87,1:03:49.49,中文,,0000,0000,0000,,我要怎么报答你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How can I repay you?{\r}
+Dialogue: 0,1:03:49.83,1:03:52.83,中文,,0000,0000,0000,,你无法实现我的愿望，陛下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You will not be able to fulfill my wish, Your Majesty.{\r}
+Dialogue: 0,1:03:53.34,1:03:55.43,中文,,0000,0000,0000,,什么愿望是一个国王都无法实现的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What wish is this, that a king cannot fulfill?{\r}
+Dialogue: 0,1:03:57.58,1:03:59.74,中文,,0000,0000,0000,,佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa!{\r}
+Dialogue: 0,1:04:04.75,1:04:12.02,中文,,0000,0000,0000,,我佩服你的勇气，敢在这里要求 马拉地王国最珍视的东西\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I salute your courage in asking for what the Maratha kingdom values most.{\r}
+Dialogue: 0,1:04:12.79,1:04:16.42,中文,,0000,0000,0000,,但你可能会因为这个要求而受罚\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you could be punished for this demand.{\r}
+Dialogue: 0,1:04:18.50,1:04:24.92,中文,,0000,0000,0000,,我将自己的性命交于你的剑下 如果爱是罪过，那就惩罚我吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I lay my life, at the sword of thee. If love is a crime, punish me!{\r}
+Dialogue: 0,1:04:26.80,1:04:34.40,中文,,0000,0000,0000,,但如果你扣留我的行为是错的 那就让我的名字像无名歌声一样消失\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And yet, if thee hold me wrong, Erase my name like an untold song.{\r}
+Dialogue: 0,1:04:34.98,1:04:36.34,中文,,0000,0000,0000,,说得好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Well spoken!{\r}
+Dialogue: 0,1:04:37.88,1:04:39.65,中文,,0000,0000,0000,,你可以走了，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You may leave, Mastani.{\r}
+Dialogue: 0,1:05:00.04,1:05:02.91,中文,,0000,0000,0000,,不要抛锚，我要过河\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't anchor the boat, I need to cross the river!{\r}
+Dialogue: 0,1:05:02.97,1:05:05.50,中文,,0000,0000,0000,,阁下，水位现在太高了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, the water levels have risen alarmingly.{\r}
+Dialogue: 0,1:05:05.61,1:05:09.77,中文,,0000,0000,0000,,这种天气出去我会损失惨重的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'd have to bear huge losses in taking the boat out in this weather!!{\r}
+Dialogue: 0,1:05:14.32,1:05:15.98,中文,,0000,0000,0000,,这个够了吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That should suffice.{\r}
+Dialogue: 0,1:05:42.65,1:05:46.05,中文,,0000,0000,0000,,看来风暴不会减弱 女士，我们回本德尔坎德吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Looks like the storm won't abate, My Lady. Let's return to Bundelkhand.{\r}
+Dialogue: 0,1:05:46.32,1:05:48.29,中文,,0000,0000,0000,,看来这次是白跑一趟了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our coming here has been in vain.{\r}
+Dialogue: 0,1:05:48.35,1:05:50.58,中文,,0000,0000,0000,,在普钠，他们把我们和 高级妓女放在一起\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}In Pune, they kept us amongst courtesans...{\r}
+Dialogue: 0,1:05:50.76,1:05:55.92,中文,,0000,0000,0000,,在这里又让我们住在河对岸 在这片废墟里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And here in the capital, across the river, amongst these ruins!{\r}
+Dialogue: 0,1:05:56.73,1:05:58.06,中文,,0000,0000,0000,,我想想都后怕\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It frightens me to think...{\r}
+Dialogue: 0,1:05:58.33,1:06:01.89,中文,,0000,0000,0000,,你嫁的那个男人根本不知道这个传统\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The man whose dagger you wed is unaware of this tradition.{\r}
+Dialogue: 0,1:06:02.63,1:06:05.97,中文,,0000,0000,0000,,要是他拒绝接受跟你的关系怎么办\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What if he refuses to accept your relationship?{\r}
+Dialogue: 0,1:06:08.27,1:06:09.87,中文,,0000,0000,0000,,让我考验我爱的力量吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let me test the power of my love.{\r}
+Dialogue: 0,1:06:10.01,1:06:12.74,中文,,0000,0000,0000,,你不需要再考验了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You needn't... Anymore!{\r}
+Dialogue: 0,1:06:12.81,1:06:15.30,中文,,0000,0000,0000,,你在整个宫廷前要求佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You had demanded the Peshwa before the whole court...{\r}
+Dialogue: 0,1:06:15.78,1:06:17.71,中文,,0000,0000,0000,,佩什瓦来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here he is!{\r}
+Dialogue: 0,1:06:22.45,1:06:24.72,中文,,0000,0000,0000,,我必须说\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I must say...{\r}
+Dialogue: 0,1:06:24.79,1:06:28.99,中文,,0000,0000,0000,,你为了一个我根本不知道的婚姻 牺牲了一切\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have sacrificed everything over a marriage I was not even aware of!{\r}
+Dialogue: 0,1:06:29.93,1:06:31.90,中文,,0000,0000,0000,,是什么导致了你的疯狂？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What justifies this madness?{\r}
+Dialogue: 0,1:06:32.76,1:06:33.82,中文,,0000,0000,0000,,爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Love...{\r}
+Dialogue: 0,1:06:35.37,1:06:38.73,中文,,0000,0000,0000,,和汹涌的河水战斗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That battles stormy waters.{\r}
+Dialogue: 0,1:06:39.94,1:06:43.53,中文,,0000,0000,0000,,是爱，不向任何人低头\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Love, that bows down before no one.{\r}
+Dialogue: 0,1:06:44.34,1:06:48.01,中文,,0000,0000,0000,,是爱，爱它所爱之人胜过一切\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Love, that worships its beloved above all else.{\r}
+Dialogue: 0,1:06:50.58,1:06:53.95,中文,,0000,0000,0000,,这个社会永远不会接受你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This society will never accept you!{\r}
+Dialogue: 0,1:06:54.02,1:06:57.72,中文,,0000,0000,0000,,爱我就像行走在热灰之上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Loving me will be like walking on hot embers.{\r}
+Dialogue: 0,1:06:58.59,1:06:59.58,中文,,0000,0000,0000,,我接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accept.{\r}
+Dialogue: 0,1:06:59.69,1:07:01.89,中文,,0000,0000,0000,,我妻子的名字是喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My wife's name is Kashi.{\r}
+Dialogue: 0,1:07:02.53,1:07:04.83,中文,,0000,0000,0000,,她会永远是我的正妻\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She will always be my first wife.{\r}
+Dialogue: 0,1:07:04.90,1:07:06.99,中文,,0000,0000,0000,,我绝不会只属于你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I can never belong only to you.{\r}
+Dialogue: 0,1:07:08.43,1:07:10.30,中文,,0000,0000,0000,,我接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accept.{\r}
+Dialogue: 0,1:07:10.37,1:07:14.63,中文,,0000,0000,0000,,继续顽固的把我的名字和你 绑在一起只会给你带来羞辱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}insisting on adding my name to yours will bring you nothing but shame.{\r}
+Dialogue: 0,1:07:15.47,1:07:16.96,中文,,0000,0000,0000,,我接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accept.{\r}
+Dialogue: 0,1:07:24.82,1:07:30.62,中文,,0000,0000,0000,,以大地之火，天空和我的名义 我接受你成为我的妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}By the fire of the earth, the sky and my being, I take you to be my wife.{\r}
+Dialogue: 0,1:07:31.39,1:07:34.65,中文,,0000,0000,0000,,即使社会抛弃我们，世界也会 永远记得我们是一体的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even if this society shuns us, the world will always remember us as one...{\r}
+Dialogue: 0,1:07:35.76,1:07:37.89,中文,,0000,0000,0000,,巴拉吉 玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao Mastani.{\r}
+Dialogue: 0,1:07:55.65,1:07:58.67,中文,,0000,0000,0000,,在安排跟尼扎姆的会面吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mapping out your meeting with the Nizam?{\r}
+Dialogue: 0,1:08:00.05,1:08:02.75,中文,,0000,0000,0000,,走的时候记得戴上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Ensure you wear this when you go.{\r}
+Dialogue: 0,1:08:04.46,1:08:07.86,中文,,0000,0000,0000,,巴拉吉，这枚戒指让我们付出了 很高的代价\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao, this ring has cost us dearly.{\r}
+Dialogue: 0,1:08:08.49,1:08:10.43,中文,,0000,0000,0000,,我们不得不以双倍价格把它赎回\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We have paid for it twice.{\r}
+Dialogue: 0,1:08:10.96,1:08:15.42,中文,,0000,0000,0000,,先是找珠宝商，再去找船夫才买到\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}First to the jeweler and then to the boatman.{\r}
+Dialogue: 0,1:08:28.78,1:08:34.81,中文,,0000,0000,0000,,阁下，看来毒蛇准备好攻击我们了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, the snake seems prepared to strike us.{\r}
+Dialogue: 0,1:08:35.32,1:08:37.91,中文,,0000,0000,0000,,尼扎姆带了两万士兵来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Nizam comes with twenty-thousand soldiers.{\r}
+Dialogue: 0,1:08:38.26,1:08:39.95,中文,,0000,0000,0000,,我们寡不敌众\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We are heavily outnumbered.{\r}
+Dialogue: 0,1:08:40.02,1:08:43.29,中文,,0000,0000,0000,,但他不知道\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But he doesn't know that.{\r}
+Dialogue: 0,1:08:45.00,1:08:49.30,中文,,0000,0000,0000,,并非所有战斗都是靠武器来打\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Not all battles are fought with weapons...{\r}
+Dialogue: 0,1:08:49.70,1:08:53.86,中文,,0000,0000,0000,,有时候有敏锐的头脑就足够了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Sometimes a sharp mind is enough.{\r}
+Dialogue: 0,1:09:03.85,1:09:05.82,中文,,0000,0000,0000,,欢迎，巴拉吉王\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome, King Bajirao!{\r}
+Dialogue: 0,1:09:05.88,1:09:08.28,中文,,0000,0000,0000,,请坐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Have a seat!{\r}
+Dialogue: 0,1:09:08.59,1:09:09.61,中文,,0000,0000,0000,,日安\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Namaste!{\r}
+Dialogue: 0,1:09:10.39,1:09:15.38,中文,,0000,0000,0000,,你错怪我的忠诚了，我只是 夏胡王谦卑的仆从\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You mistake me for royalty when I am but a humble servant to King Shahu.{\r}
+Dialogue: 0,1:09:15.66,1:09:20.22,中文,,0000,0000,0000,,也许吧...但大家都知道 你才是国家幕后的主脑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Perhaps... But it is well known, you are the mind that runs the empire.{\r}
+Dialogue: 0,1:09:20.83,1:09:23.27,中文,,0000,0000,0000,,果子露？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Some sherbet?{\r}
+Dialogue: 0,1:09:23.40,1:09:24.46,中文,,0000,0000,0000,,谢谢\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Thank you.{\r}
+Dialogue: 0,1:09:24.74,1:09:26.79,中文,,0000,0000,0000,,我对你要说的话非常感兴趣\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am more interested in your sweet talk.{\r}
+Dialogue: 0,1:09:26.87,1:09:31.31,中文,,0000,0000,0000,,我经常告诉马拉地国的人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I often tell people that in the Maratha empire...{\r}
+Dialogue: 0,1:09:31.74,1:09:34.71,中文,,0000,0000,0000,,能排在伟大的希瓦吉王和 山布王之后的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}After the great King Shivaji and King Shambhu...{\r}
+Dialogue: 0,1:09:34.78,1:09:39.44,中文,,0000,0000,0000,,只有巴拉吉，其他的都是蠢货\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There is only Bajirao... Rest are all fools!{\r}
+Dialogue: 0,1:09:39.55,1:09:44.39,中文,,0000,0000,0000,,我也认为尼扎姆是南方 最强大的力量\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm also of the opinion that Nizam is the strongest in all of South...{\r}
+Dialogue: 0,1:09:44.82,1:09:46.62,中文,,0000,0000,0000,,其他的都软弱无能\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Rest are all weak and meek!{\r}
+Dialogue: 0,1:09:46.69,1:09:52.63,中文,,0000,0000,0000,,很了不起，你的舌头 像你的剑一样锋利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm impressed... Your tongue is as sharp as your sword.{\r}
+Dialogue: 0,1:09:52.73,1:09:54.70,中文,,0000,0000,0000,,你的目的像你的眼神已让锐利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And your intentions are as shrewd as your eyes.{\r}
+Dialogue: 0,1:09:54.77,1:09:57.83,中文,,0000,0000,0000,,我的目的就是抓住你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My intention is to capture you.{\r}
+Dialogue: 0,1:09:57.90,1:10:00.43,中文,,0000,0000,0000,,在普钠即使是最小的孩子也知道这点\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even the youngest child in Pune knows that.{\r}
+Dialogue: 0,1:10:00.51,1:10:02.53,中文,,0000,0000,0000,,但你却自愿来这里成为人质\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yet here you are a willing hostage.{\r}
+Dialogue: 0,1:10:02.64,1:10:07.74,中文,,0000,0000,0000,,我已经发誓，如果你违背 这次会面的目的就必定展开报复\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am under oath to retaliate if you breach the terms of this meeting.{\r}
+Dialogue: 0,1:10:07.81,1:10:12.04,中文,,0000,0000,0000,,你这是在我的屋檐下威胁我吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are you threatening me under my own roof?{\r}
+Dialogue: 0,1:10:12.32,1:10:13.98,中文,,0000,0000,0000,,这是提醒，不是威胁\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Cautioning, not threatening...{\r}
+Dialogue: 0,1:10:14.05,1:10:17.04,中文,,0000,0000,0000,,走错一步，你的王国就会陷入火海\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}One wrong turn and your kingdom will burn.{\r}
+Dialogue: 0,1:10:18.89,1:10:20.32,中文,,0000,0000,0000,,抓住他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Arrest him!{\r}
+Dialogue: 0,1:10:22.86,1:10:26.02,中文,,0000,0000,0000,,我说了，抓住他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I said, arrest him!{\r}
+Dialogue: 0,1:10:26.73,1:10:29.86,中文,,0000,0000,0000,,你居然命令我自己的人抓住我 真是让我吃惊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm amazed you would order my own men to capture me!{\r}
+Dialogue: 0,1:10:30.47,1:10:32.70,中文,,0000,0000,0000,,你派去押送我来的人 似乎更喜欢我们那的居住环境\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The men you sent to escort me here preferred our living quarters.{\r}
+Dialogue: 0,1:10:32.77,1:10:35.36,中文,,0000,0000,0000,,于是决定住下了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They decided to stay back.{\r}
+Dialogue: 0,1:10:35.44,1:10:36.91,中文,,0000,0000,0000,,佩什瓦，你别忘了...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Peshwa, do not forget...{\r}
+Dialogue: 0,1:10:36.97,1:10:39.67,中文,,0000,0000,0000,,你2万人的军队\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That your army of 20,000 men...{\r}
+Dialogue: 0,1:10:40.78,1:10:43.01,中文,,0000,0000,0000,,马匹，大象都在外面戒备\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Horses and elephants, stands guard outside.{\r}
+Dialogue: 0,1:10:43.08,1:10:48.78,中文,,0000,0000,0000,,但你不知道的是，4万 马拉地士兵就站在他们背后\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But what you do not know is that 40,000 Maratha soldiers stand behind them...{\r}
+Dialogue: 0,1:10:48.85,1:10:51.58,中文,,0000,0000,0000,,等着我的命令准备消灭你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Awaiting my signal to decimate you.{\r}
+Dialogue: 0,1:10:54.06,1:10:55.72,中文,,0000,0000,0000,,你想要什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What do you want?{\r}
+Dialogue: 0,1:11:01.37,1:11:02.56,中文,,0000,0000,0000,,整个印度\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}All of India.{\r}
+Dialogue: 0,1:11:06.94,1:11:07.96,中文,,0000,0000,0000,,但现在，我要你闭嘴\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But for now, your silence.{\r}
+Dialogue: 0,1:11:08.04,1:11:11.37,中文,,0000,0000,0000,,在我向德里进军的时候 你什么话都别说\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When I march on Delhi, you will not utter a word.{\r}
+Dialogue: 0,1:11:12.81,1:11:13.64,中文,,0000,0000,0000,,我接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accept.{\r}
+Dialogue: 0,1:11:13.71,1:11:14.64,中文,,0000,0000,0000,,第二\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Secondly...{\r}
+Dialogue: 0,1:11:15.38,1:11:19.48,中文,,0000,0000,0000,,你要把所有获得的马拉地财产 都还给我们的国王\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You shall return all captured Maratha estates to our King.{\r}
+Dialogue: 0,1:11:19.75,1:11:20.65,中文,,0000,0000,0000,,我接受\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I accept.{\r}
+Dialogue: 0,1:11:20.72,1:11:22.05,中文,,0000,0000,0000,,第三\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And thirdly...{\r}
+Dialogue: 0,1:11:27.93,1:11:29.72,中文,,0000,0000,0000,,在我张开双臂欢迎你的时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When I welcome you with open arms,..{\r}
+Dialogue: 0,1:11:29.79,1:11:32.32,中文,,0000,0000,0000,,你要忘掉过去所有的仇恨 接受我的友谊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..you shall forget past animosity and accept my friendship.{\r}
+Dialogue: 0,1:11:32.40,1:11:33.49,中文,,0000,0000,0000,,来吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here!{\r}
+Dialogue: 0,1:12:09.03,1:12:12.56,中文,,0000,0000,0000,,让鼓声响起来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let the drums roll...{\r}
+Dialogue: 0,1:12:12.64,1:12:15.44,中文,,0000,0000,0000,,胜利是我们的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Victory is ours!{\r}
+Dialogue: 0,1:12:15.51,1:12:18.48,中文,,0000,0000,0000,,我们无敌的战士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}"We unbeatable warriors..."{\r}
+Dialogue: 0,1:12:18.54,1:12:21.94,中文,,0000,0000,0000,,碾碎了敌人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Have crushed the enemy!{\r}
+Dialogue: 0,1:13:30.82,1:13:36.75,中文,,0000,0000,0000,,胜利的火光在闪耀\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The sparks of victory are ablaze.{\r}
+Dialogue: 0,1:13:37.02,1:13:42.89,中文,,0000,0000,0000,,我们的心充满荣耀\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our hearts are overflowing with pride.{\r}
+Dialogue: 0,1:13:42.96,1:13:49.52,中文,,0000,0000,0000,,连夜空也充满彩虹\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even the night sky is full of rainbows!{\r}
+Dialogue: 0,1:14:17.73,1:14:21.63,中文,,0000,0000,0000,,我们的营地活力四射\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our camp is bursting with energy!{\r}
+Dialogue: 0,1:14:23.97,1:14:28.00,中文,,0000,0000,0000,,我们的庆祝无人能及\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our celebration knows no bounds.{\r}
+Dialogue: 0,1:14:29.74,1:14:31.04,中文,,0000,0000,0000,,这份胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This victory...{\r}
+Dialogue: 0,1:14:31.31,1:14:32.71,中文,,0000,0000,0000,,我们的胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our victory...{\r}
+Dialogue: 0,1:14:32.78,1:14:36.34,中文,,0000,0000,0000,,这份胜利只属于我们\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This victory of ours is like no other!{\r}
+Dialogue: 0,1:15:25.76,1:15:28.06,中文,,0000,0000,0000,,母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother!{\r}
+Dialogue: 0,1:15:28.93,1:15:31.42,中文,,0000,0000,0000,,巴拉吉的消息\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao's message!{\r}
+Dialogue: 0,1:15:31.50,1:15:33.70,中文,,0000,0000,0000,,上面说什么，池马基\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What does it say, Chimaji?{\r}
+Dialogue: 0,1:15:33.77,1:15:36.50,中文,,0000,0000,0000,,他跟尼扎姆的会面\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}His meeting with the Nizam...{\r}
+Dialogue: 0,1:15:37.01,1:15:38.77,中文,,0000,0000,0000,,成功了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}was successful!{\r}
+Dialogue: 0,1:15:39.58,1:15:43.48,中文,,0000,0000,0000,,赞美神\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,1:15:46.52,1:15:49.88,中文,,0000,0000,0000,,别哭了，喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stop crying, Kashi!{\r}
+Dialogue: 0,1:15:50.69,1:15:54.75,中文,,0000,0000,0000,,自从她走进这家门之后 我儿子还没失败过\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My son has not seen defeat since she walked into this house.{\r}
+Dialogue: 0,1:15:54.99,1:15:57.55,中文,,0000,0000,0000,,你还没出生的孩子将来注定 要干大事，喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your unborn child is destined for great things too, Kashi.{\r}
+Dialogue: 0,1:15:57.66,1:16:01.62,中文,,0000,0000,0000,,母亲，应该为婆罗门 举办一场盛宴来庆祝\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother, there should be a feast for the Brahmins to celebrate!{\r}
+Dialogue: 0,1:16:01.70,1:16:02.72,中文,,0000,0000,0000,,同意\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Agreed.{\r}
+Dialogue: 0,1:16:02.97,1:16:05.87,中文,,0000,0000,0000,,送请柬给克利须那·巴特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Send out an invitation to Krishna Bhatt...{\r}
+Dialogue: 0,1:16:05.94,1:16:09.60,中文,,0000,0000,0000,,今天下午我们要宴请婆罗门\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That we shall host the Brahmins this afternoon.{\r}
+Dialogue: 0,1:16:10.61,1:16:11.51,中文,,0000,0000,0000,,开始准备吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Start the preparations!{\r}
+Dialogue: 0,1:16:14.01,1:16:15.50,中文,,0000,0000,0000,,池马基\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji...{\r}
+Dialogue: 0,1:16:16.25,1:16:18.55,中文,,0000,0000,0000,,也给玛斯塔妮送消息去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Send a message to Mastani as well.{\r}
+Dialogue: 0,1:16:30.03,1:16:34.36,中文,,0000,0000,0000,,开斋节快乐，到这新家来了 我的女士，我的礼物在哪？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Eid Mubarak in this new house, My Lady! Where is my gift?{\r}
+Dialogue: 0,1:16:35.47,1:16:36.69,中文,,0000,0000,0000,,那是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What's there?{\r}
+Dialogue: 0,1:16:37.74,1:16:39.70,中文,,0000,0000,0000,,佩什瓦好像叫了我的名字\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I thought the Peshwa called my name.{\r}
+Dialogue: 0,1:16:39.77,1:16:42.00,中文,,0000,0000,0000,,那怎么可能，我的女士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How is that possible, My Lady!{\r}
+Dialogue: 0,1:16:42.27,1:16:45.94,中文,,0000,0000,0000,,他会先去沙尼瓦瓦达宫 庆祝对尼扎姆的胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He will first go to Shaniwar Wada to celebrate his victory over the Nizam.{\r}
+Dialogue: 0,1:16:48.05,1:16:50.01,中文,,0000,0000,0000,,玛斯塔妮公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani Saheba!{\r}
+Dialogue: 0,1:17:10.47,1:17:11.93,中文,,0000,0000,0000,,这是什么，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is this Bajirao!{\r}
+Dialogue: 0,1:17:12.00,1:17:14.73,中文,,0000,0000,0000,,这是你爱情的力量，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The power of your love Mastani!{\r}
+Dialogue: 0,1:17:15.74,1:17:17.43,中文,,0000,0000,0000,,祝你胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wish you on your victory.{\r}
+Dialogue: 0,1:17:17.51,1:17:19.48,中文,,0000,0000,0000,,祝你开斋节快乐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And I wish you a happy Eid.{\r}
+Dialogue: 0,1:17:38.70,1:17:42.66,中文,,0000,0000,0000,,你的脸上有光芒，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your face is glowing Mastani.{\r}
+Dialogue: 0,1:17:44.57,1:17:46.00,中文,,0000,0000,0000,,因为你回来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Because you have returned.{\r}
+Dialogue: 0,1:17:47.84,1:17:51.71,中文,,0000,0000,0000,,就像日出前天空的光芒\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's like the glow in the sky, just before sunrise...{\r}
+Dialogue: 0,1:17:52.74,1:17:55.87,中文,,0000,0000,0000,,我们要为未出生的孩子想个名字了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We'll have to think of a name for our to-be born child!{\r}
+Dialogue: 0,1:18:09.23,1:18:10.89,中文,,0000,0000,0000,,公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!{\r}
+Dialogue: 0,1:18:11.23,1:18:14.25,中文,,0000,0000,0000,,有佩什瓦母亲给你的消息\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There's a message for you from the Peshwa's mother...{\r}
+Dialogue: 0,1:18:16.23,1:18:16.96,中文,,0000,0000,0000,,是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is it?{\r}
+Dialogue: 0,1:18:17.23,1:18:20.60,中文,,0000,0000,0000,,今晚为了庆祝佩什瓦的胜利 将会举办庆典\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There shall be a celebration tonight in honour of the Peshwa's victory...{\r}
+Dialogue: 0,1:18:20.67,1:18:24.73,中文,,0000,0000,0000,,因此玛斯塔妮要受命献上她的舞蹈\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}On this occasion, Mastani is ordered to present her dance...{\r}
+Dialogue: 0,1:18:39.62,1:18:42.89,中文,,0000,0000,0000,,女主人，食物已经备好 婆罗门都在等...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your Ladyship, the food is sewed and the Brahmins are waiting...{\r}
+Dialogue: 0,1:18:42.96,1:18:44.39,中文,,0000,0000,0000,,为什么佩什瓦没来？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why is the Peshwa not here?{\r}
+Dialogue: 0,1:18:44.53,1:18:46.76,中文,,0000,0000,0000,,他正在路上，请开始吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He is on his way, please begin the feast.{\r}
+Dialogue: 0,1:18:46.83,1:18:48.92,中文,,0000,0000,0000,,但没有主持人我们要怎么开始？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But how can we begin without the host?{\r}
+Dialogue: 0,1:18:49.00,1:18:50.43,中文,,0000,0000,0000,,女主人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!{\r}
+Dialogue: 0,1:18:51.27,1:18:52.63,中文,,0000,0000,0000,,消息送到了吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Did you send the message?{\r}
+Dialogue: 0,1:18:52.70,1:18:54.53,中文,,0000,0000,0000,,是的，但是...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, but...{\r}
+Dialogue: 0,1:18:54.87,1:18:55.93,中文,,0000,0000,0000,,但是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But what?{\r}
+Dialogue: 0,1:18:56.01,1:18:59.00,中文,,0000,0000,0000,,玛斯塔妮已经不再是宫廷舞者了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani Saheba will no longer perform as a court dancer.{\r}
+Dialogue: 0,1:18:59.81,1:19:00.83,中文,,0000,0000,0000,,谁说的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Says who?{\r}
+Dialogue: 0,1:19:00.91,1:19:02.24,中文,,0000,0000,0000,,玛斯塔妮吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani?{\r}
+Dialogue: 0,1:19:02.31,1:19:04.84,中文,,0000,0000,0000,,不，女主人，是佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No, My Lady... The Peshwa.{\r}
+Dialogue: 0,1:19:05.52,1:19:08.61,中文,,0000,0000,0000,,他还说他会在开斋节庆典之后回来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He also said that he shall return after the Eid feast...{\r}
+Dialogue: 0,1:19:08.69,1:19:10.98,中文,,0000,0000,0000,,不用等他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You need not wait for him.{\r}
+Dialogue: 0,1:19:11.42,1:19:14.22,中文,,0000,0000,0000,,神啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dear God...{\r}
+Dialogue: 0,1:19:14.29,1:19:15.62,中文,,0000,0000,0000,,克里希纳吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishnaji...{\r}
+Dialogue: 0,1:19:15.93,1:19:17.92,中文,,0000,0000,0000,,我们不能再在这房子里进食了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We cannot eat in this house anymore!!{\r}
+Dialogue: 0,1:19:18.50,1:19:21.69,中文,,0000,0000,0000,,克利须那·巴特，你这么做 是对佩什瓦的不敬\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna Bhatt, you disrespect the Peshwa by doing so!{\r}
+Dialogue: 0,1:19:21.77,1:19:24.93,中文,,0000,0000,0000,,佩什瓦就没有对我们不敬吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And hasn't the Peshwa disrespected us?{\r}
+Dialogue: 0,1:19:25.67,1:19:27.97,中文,,0000,0000,0000,,清真寺一样有庆典举行\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Charity is doled out at mosques as well.{\r}
+Dialogue: 0,1:19:28.24,1:19:30.76,中文,,0000,0000,0000,,我们走\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let's go!{\r}
+Dialogue: 0,1:19:44.86,1:19:46.02,中文,,0000,0000,0000,,欢迎回家，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome home, Bajirao.{\r}
+Dialogue: 0,1:19:46.62,1:19:48.45,中文,,0000,0000,0000,,恭喜你战胜了尼扎姆\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Congratulations on your win over the Nizam.{\r}
+Dialogue: 0,1:19:48.53,1:19:49.65,中文,,0000,0000,0000,,也恭喜你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wish you the same.{\r}
+Dialogue: 0,1:19:49.96,1:19:51.36,中文,,0000,0000,0000,,长命百岁\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Live long!{\r}
+Dialogue: 0,1:19:51.63,1:19:53.65,中文,,0000,0000,0000,,请原谅我迟到了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Forgive me, I am late.{\r}
+Dialogue: 0,1:19:53.73,1:19:57.76,中文,,0000,0000,0000,,你在科什特鲁德宫庆祝开斋节的时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}While you were celebrating Eid at Kothrud Palace...{\r}
+Dialogue: 0,1:19:57.97,1:19:59.87,中文,,0000,0000,0000,,婆罗门人一口东西没吃就离开了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Brahmins left without eating a morsel.{\r}
+Dialogue: 0,1:19:59.94,1:20:02.74,中文,,0000,0000,0000,,没事，明天我们可以再请他们回来 再庆祝一次\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Never mind, we can invite them back tomorrow and celebrate twice over.{\r}
+Dialogue: 0,1:20:03.04,1:20:04.56,中文,,0000,0000,0000,,为什么要两次？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why twice?{\r}
+Dialogue: 0,1:20:05.84,1:20:07.90,中文,,0000,0000,0000,,玛斯塔妮将要成为我孩子的母亲了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani is about to become the mother of my child.{\r}
+Dialogue: 0,1:20:10.75,1:20:15.95,中文,,0000,0000,0000,,要是婆罗门人是因为你选择和她 一起庆祝开斋节而离开的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If the Brahmins walked out because you chose to celebrate Eid with her...{\r}
+Dialogue: 0,1:20:16.59,1:20:18.92,中文,,0000,0000,0000,,他们听到这个消息时会是 什么反应，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What'll they do when this news gets out, Bajirao?{\r}
+Dialogue: 0,1:20:18.99,1:20:19.79,中文,,0000,0000,0000,,母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother...{\r}
+Dialogue: 0,1:20:19.86,1:20:21.45,中文,,0000,0000,0000,,别打断我\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't interrupt me!{\r}
+Dialogue: 0,1:20:25.46,1:20:31.03,中文,,0000,0000,0000,,我建议别告诉喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I suggest, we don't tell Kashi.{\r}
+Dialogue: 0,1:20:33.47,1:20:36.70,中文,,0000,0000,0000,,有什么好隐瞒的，母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is there to hide mother?{\r}
+Dialogue: 0,1:20:36.77,1:20:40.90,中文,,0000,0000,0000,,事实就是如此\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The truth is, what it is!{\r}
+Dialogue: 0,1:20:52.06,1:20:53.85,中文,,0000,0000,0000,,喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi...{\r}
+Dialogue: 0,1:20:55.39,1:20:58.83,中文,,0000,0000,0000,,我到处找你都找不到 原来你在这\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I have been looking for you all over and here you are.{\r}
+Dialogue: 0,1:20:59.56,1:21:01.43,中文,,0000,0000,0000,,我在赏月\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I was looking at the moon...{\r}
+Dialogue: 0,1:21:10.04,1:21:11.67,中文,,0000,0000,0000,,我想告诉你一件很重要的事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I want to tell you something important.{\r}
+Dialogue: 0,1:21:11.74,1:21:14.80,中文,,0000,0000,0000,,你已经吃过饭了吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That you have already eaten.{\r}
+Dialogue: 0,1:21:16.35,1:21:17.47,中文,,0000,0000,0000,,这是你的烤饼\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here's your paan.{\r}
+Dialogue: 0,1:21:17.55,1:21:19.04,中文,,0000,0000,0000,,不，不是这个\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No, that's not it.{\r}
+Dialogue: 0,1:21:20.32,1:21:21.38,中文,,0000,0000,0000,,喀什，还有别人...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi, there's someone else...{\r}
+Dialogue: 0,1:21:21.45,1:21:23.78,中文,,0000,0000,0000,,那么传言是真的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So the rumors are true.{\r}
+Dialogue: 0,1:21:23.85,1:21:24.84,中文,,0000,0000,0000,,什么传言\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What rumors?{\r}
+Dialogue: 0,1:21:25.52,1:21:27.99,中文,,0000,0000,0000,,佩什瓦被恶魔的眼睛迷惑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That the Peshwa's caught the evil eye.{\r}
+Dialogue: 0,1:21:28.06,1:21:32.02,中文,,0000,0000,0000,,别管那些谣言 我从来不相信那套迷信\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Never mind the rumors... I don't believe in superstitions.{\r}
+Dialogue: 0,1:21:32.30,1:21:33.56,中文,,0000,0000,0000,,但我相信\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I do...{\r}
+Dialogue: 0,1:21:33.96,1:21:35.36,中文,,0000,0000,0000,,给\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here...{\r}
+Dialogue: 0,1:22:54.81,1:22:56.37,中文,,0000,0000,0000,,亲爱的玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dear Mastani...{\r}
+Dialogue: 0,1:22:56.45,1:23:01.94,中文,,0000,0000,0000,,在战场上战斗要远比为了保持 与你的关系而战更简单\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Fighting in the battlefield is far easier than fighting to keep your relationships intact.{\r}
+Dialogue: 0,1:23:02.55,1:23:07.46,中文,,0000,0000,0000,,我的内心无时无刻不在希望与你在一起\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My heart wishes to be with you every single moment.{\r}
+Dialogue: 0,1:23:08.03,1:23:13.26,中文,,0000,0000,0000,,但我不把我们的关系告诉喀什 我就不能见你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I cannot meet you till I, myself, don't inform Kashi of our relationship.{\r}
+Dialogue: 0,1:23:13.70,1:23:18.86,中文,,0000,0000,0000,,喀什不仅是我的正房妻子 也是我的朋友和知己\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi is not just my first wife... She is my friend and confidant too.{\r}
+Dialogue: 0,1:23:19.44,1:23:22.93,中文,,0000,0000,0000,,在那之前，请你保重\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Until then, please take care of yourself.{\r}
+Dialogue: 0,1:23:47.43,1:23:48.96,中文,,0000,0000,0000,,久姆里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Jhumri...{\r}
+Dialogue: 0,1:23:50.57,1:23:52.66,中文,,0000,0000,0000,,公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!{\r}
+Dialogue: 0,1:23:54.87,1:23:56.30,中文,,0000,0000,0000,,你带来了什么消息，维·辛格？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What news have you brought, Veer Singh?{\r}
+Dialogue: 0,1:23:56.37,1:23:58.31,中文,,0000,0000,0000,,我今天没能把你的消息传达给佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I couldn't deliver your message to the Peshwa even today...{\r}
+Dialogue: 0,1:23:58.68,1:24:01.74,中文,,0000,0000,0000,,听说他病得非常重 无法见任何人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}News is that he is very ill and unable to meet anyone.{\r}
+Dialogue: 0,1:24:03.51,1:24:05.85,中文,,0000,0000,0000,,马上备轿，我这就去见他\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Get the palanquin ready. I shall go to meet him right away.{\r}
+Dialogue: 0,1:24:05.92,1:24:07.28,中文,,0000,0000,0000,,这消息可能是假的，公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This news could be false, My Lady...{\r}
+Dialogue: 0,1:24:07.35,1:24:08.41,中文,,0000,0000,0000,,也可能是真的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It could be true!{\r}
+Dialogue: 0,1:24:08.49,1:24:11.92,中文,,0000,0000,0000,,这时候去沙尼瓦瓦达宫 可能对你有危险\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Going to Shaniwar Wada at this hour could be dangerous for you.{\r}
+Dialogue: 0,1:24:25.67,1:24:26.83,中文,,0000,0000,0000,,马帕特·劳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mahipat Rao...{\r}
+Dialogue: 0,1:24:27.04,1:24:28.47,中文,,0000,0000,0000,,维·辛格，你在这干什么\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Veer Singh, what are you doing here?{\r}
+Dialogue: 0,1:24:28.54,1:24:31.41,中文,,0000,0000,0000,,玛斯塔妮公主来见佩什瓦了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani Saheba is here to meet the Peshwa.{\r}
+Dialogue: 0,1:24:31.48,1:24:32.03,中文,,0000,0000,0000,,他在书房里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He is in his office.{\r}
+Dialogue: 0,1:24:32.31,1:24:33.37,中文,,0000,0000,0000,,是谁？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who is there?{\r}
+Dialogue: 0,1:24:34.28,1:24:35.97,中文,,0000,0000,0000,,阿巴吉·潘的儿媳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Ambaji Panth's daughter-in-law.{\r}
+Dialogue: 0,1:24:46.59,1:24:47.82,中文,,0000,0000,0000,,沙鲁白\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shalubai!{\r}
+Dialogue: 0,1:24:49.43,1:24:50.45,中文,,0000,0000,0000,,沙鲁白\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shalubai!{\r}
+Dialogue: 0,1:24:50.53,1:24:51.42,中文,,0000,0000,0000,,是\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes.{\r}
+Dialogue: 0,1:24:51.49,1:24:54.05,中文,,0000,0000,0000,,去看看是谁\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}See who that is.{\r}
+Dialogue: 0,1:24:54.33,1:24:55.49,中文,,0000,0000,0000,,是\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes.{\r}
+Dialogue: 0,1:25:03.61,1:25:05.77,中文,,0000,0000,0000,,沙鲁白，是谁？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shalubai... Who is it?{\r}
+Dialogue: 0,1:25:05.98,1:25:08.31,中文,,0000,0000,0000,,是阿巴吉·潘的儿媳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is Ambaji Panth's daughter-in-law.{\r}
+Dialogue: 0,1:25:08.38,1:25:11.68,中文,,0000,0000,0000,,那乔皮卡柏的轿子在哪？ 他们是一起离开的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So where is Gopikabai's palanquin... They had left together.{\r}
+Dialogue: 0,1:25:11.75,1:25:12.61,中文,,0000,0000,0000,,我去问问？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shall I find out?{\r}
+Dialogue: 0,1:25:12.68,1:25:14.98,中文,,0000,0000,0000,,不，我亲自去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No, I'll go myself.{\r}
+Dialogue: 0,1:25:20.46,1:25:23.95,中文,,0000,0000,0000,,玛斯塔妮公主，请在镜宫前等候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani Saheba, please wait at the Palace of Mirrors...{\r}
+Dialogue: 0,1:25:24.03,1:25:25.39,中文,,0000,0000,0000,,我去通知佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall inform the Peshwa.{\r}
+Dialogue: 0,1:25:59.33,1:26:02.23,中文,,0000,0000,0000,,玛斯塔妮，是什么让你在 这个时候前来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani, what brings you here at this hour?{\r}
+Dialogue: 0,1:26:09.34,1:26:09.90,中文,,0000,0000,0000,,巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao.{\r}
+Dialogue: 0,1:26:09.97,1:26:13.70,中文,,0000,0000,0000,,你不该冒生命危险来这里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You shouldn't have risked your life by coming here.{\r}
+Dialogue: 0,1:26:13.78,1:26:16.91,中文,,0000,0000,0000,,只要能和你在一起，什么风险都无所谓\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There's no bigger risk to my life than spending a moment without you.{\r}
+Dialogue: 0,1:26:16.98,1:26:19.35,中文,,0000,0000,0000,,你没收到我的信\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You never got my letter...{\r}
+Dialogue: 0,1:26:24.79,1:26:27.78,中文,,0000,0000,0000,,周围的城墙太高了，我翻越不了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}These fort walls have become too high to scale.{\r}
+Dialogue: 0,1:26:27.86,1:26:29.66,中文,,0000,0000,0000,,但你却来了这里\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yet here you are, Mastani.{\r}
+Dialogue: 0,1:26:30.89,1:26:34.46,中文,,0000,0000,0000,,果然没有任何东西能阻挡爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's true that nothing can come in the way of love.{\r}
+Dialogue: 0,1:28:14.70,1:28:16.76,中文,,0000,0000,0000,,喀什公主的轿子来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Lady Kashi's palanquin is here...{\r}
+Dialogue: 0,1:28:16.83,1:28:20.67,中文,,0000,0000,0000,,婴儿床送到她那了吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Has the crib reached her quarters?{\r}
+Dialogue: 0,1:28:20.74,1:28:23.73,中文,,0000,0000,0000,,神啊，我疏忽了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dear God! It slipped my mind! I'll check right away.{\r}
+Dialogue: 0,1:28:23.81,1:28:27.61,中文,,0000,0000,0000,,佩什瓦随时可能到达\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa must be arriving any minute now!{\r}
+Dialogue: 0,1:28:28.75,1:28:30.44,中文,,0000,0000,0000,,公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady...{\r}
+Dialogue: 0,1:28:30.78,1:28:33.98,中文,,0000,0000,0000,,我像你一直以来那样站在这欢迎你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I stand to welcome you like you always do...{\r}
+Dialogue: 0,1:28:35.02,1:28:36.71,中文,,0000,0000,0000,,你从母亲子宫中降生\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have brought back light to this lifeless".{\r}
+Dialogue: 0,1:28:36.79,1:28:38.85,中文,,0000,0000,0000,,为这个了无生机的宫殿带来了光明\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..palace by returning from your maternal home.{\r}
+Dialogue: 0,1:28:40.72,1:28:43.32,中文,,0000,0000,0000,,让我看看我们最年轻的战士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let me see our youngest warrior!{\r}
+Dialogue: 0,1:28:53.04,1:28:54.83,中文,,0000,0000,0000,,是个男孩\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}N's a boy!{\r}
+Dialogue: 0,1:28:54.97,1:28:59.31,中文,,0000,0000,0000,,给，给\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here, Here!{\r}
+Dialogue: 0,1:28:59.58,1:29:00.84,中文,,0000,0000,0000,,力气真大\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Strong lad!{\r}
+Dialogue: 0,1:29:01.95,1:29:04.97,中文,,0000,0000,0000,,你会成为比巴拉吉更强大的战士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You will be a warrior even greater than Bajirao.{\r}
+Dialogue: 0,1:29:05.58,1:29:08.71,中文,,0000,0000,0000,,你有跟母亲一样美丽的眼睛\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have your mother's beautiful eyes...{\r}
+Dialogue: 0,1:29:18.53,1:29:18.96,中文,,0000,0000,0000,,站住\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stop!{\r}
+Dialogue: 0,1:29:19.26,1:29:19.78,中文,,0000,0000,0000,,让我进去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let me in!{\r}
+Dialogue: 0,1:29:19.86,1:29:20.92,中文,,0000,0000,0000,,不行\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You cannot!{\r}
+Dialogue: 0,1:29:21.00,1:29:23.40,中文,,0000,0000,0000,,我必须见阁下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I must meet My Lord!{\r}
+Dialogue: 0,1:29:23.47,1:29:24.99,中文,,0000,0000,0000,,现在不可能\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is not possible at this hour.{\r}
+Dialogue: 0,1:29:25.30,1:29:27.00,中文,,0000,0000,0000,,大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord!{\r}
+Dialogue: 0,1:29:31.34,1:29:33.83,中文,,0000,0000,0000,,快点，大人，玛斯塔妮公主非常痛苦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Make haste My Lord, Mastani Saheba is in great pain.{\r}
+Dialogue: 0,1:29:33.91,1:29:35.84,中文,,0000,0000,0000,,没有哪个产婆或是医生愿意帮她接生\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No midwife or doctor is willing to attend to her.{\r}
+Dialogue: 0,1:29:35.98,1:29:36.78,中文,,0000,0000,0000,,要是...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What if-{\r}
+Dialogue: 0,1:29:36.85,1:29:38.40,中文,,0000,0000,0000,,她会没事的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She will be fine.{\r}
+Dialogue: 0,1:29:39.45,1:29:46.62,中文,,0000,0000,0000,,一只雌虎不需要医生或是产婆\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A tigress needs no doctors or midwives...{\r}
+Dialogue: 0,1:29:48.79,1:29:50.82,中文,,0000,0000,0000,,对不对，池马基\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Isn't it Chimaji?{\r}
+Dialogue: 0,1:30:09.51,1:30:14.35,中文,,0000,0000,0000,,公主确实受了很多苦，大人 而且没人愿意帮忙\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady is truly suffering, Sir... And no one is ready to help!{\r}
+Dialogue: 0,1:30:25.66,1:30:30.73,中文,,0000,0000,0000,,玛斯塔妮，深呼吸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani, breathe...{\r}
+Dialogue: 0,1:30:32.07,1:30:34.66,中文,,0000,0000,0000,,生下一名战士从来不简单\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Giving birth to a warrior is never easy.{\r}
+Dialogue: 0,1:31:02.03,1:31:03.59,中文,,0000,0000,0000,,看\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Look!{\r}
+Dialogue: 0,1:31:04.67,1:31:05.69,中文,,0000,0000,0000,,克利须那\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna.{\r}
+Dialogue: 0,1:31:06.70,1:31:07.86,中文,,0000,0000,0000,,克利须那\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna.{\r}
+Dialogue: 0,1:31:11.71,1:31:13.04,中文,,0000,0000,0000,,克利须那\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna.{\r}
+Dialogue: 0,1:31:14.74,1:31:16.58,中文,,0000,0000,0000,,我从北方归来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Upon my return from the north,..{\r}
+Dialogue: 0,1:31:16.65,1:31:18.84,中文,,0000,0000,0000,,我将组织一场为我两个儿子 举办的命名仪式 ..I’ll organise a naming ceremony for both my sons.
+Dialogue: 0,1:31:43.87,1:31:46.84,中文,,0000,0000,0000,,不要再玩弄我们的耐心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't toy with our patience anymore...{\r}
+Dialogue: 0,1:31:46.91,1:31:51.68,中文,,0000,0000,0000,,碧秀姑妈，告诉我们 你选的名字\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Aunt Bhiu, tell us what name you have chosen.{\r}
+Dialogue: 0,1:31:51.75,1:31:53.38,中文,,0000,0000,0000,,告诉我们\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Tell us.{\r}
+Dialogue: 0,1:31:57.92,1:32:00.39,中文,,0000,0000,0000,,是什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Well, what will it be?{\r}
+Dialogue: 0,1:32:00.46,1:32:01.45,中文,,0000,0000,0000,,拉古纳特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Raghunath!{\r}
+Dialogue: 0,1:32:02.46,1:32:03.45,中文,,0000,0000,0000,,拉古纳特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Raghunath!{\r}
+Dialogue: 0,1:32:06.86,1:32:10.32,中文,,0000,0000,0000,,等巴拉吉回来，听到这个名字 他会很高兴的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When Bajirao is back, he will be happy to hear the name.{\r}
+Dialogue: 0,1:32:13.97,1:32:15.73,中文,,0000,0000,0000,,我的拉古巴\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Raghoba.{\r}
+Dialogue: 0,1:32:15.81,1:32:18.00,中文,,0000,0000,0000,,多可爱的名字啊，公主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What a lovely name, My Lady.{\r}
+Dialogue: 0,1:32:22.68,1:32:24.01,中文,,0000,0000,0000,,欢迎，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome, Mastani.{\r}
+Dialogue: 0,1:32:29.45,1:32:30.48,中文,,0000,0000,0000,,欢迎\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome!{\r}
+Dialogue: 0,1:32:30.55,1:32:32.82,中文,,0000,0000,0000,,你来得正是时候\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have come at an opportune moment.{\r}
+Dialogue: 0,1:32:34.79,1:32:38.35,中文,,0000,0000,0000,,你能来我太高兴了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Glad you could come.{\r}
+Dialogue: 0,1:32:39.43,1:32:40.45,中文,,0000,0000,0000,,母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother...{\r}
+Dialogue: 0,1:32:41.00,1:32:43.97,中文,,0000,0000,0000,,一个人怎么才能失去所有自尊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How can someone lose all shame..{\r}
+Dialogue: 0,1:32:44.03,1:32:46.47,中文,,0000,0000,0000,,还不断回到你的门口被你羞辱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..and keep returning to your doorstep to be insulted?{\r}
+Dialogue: 0,1:32:46.70,1:32:48.67,中文,,0000,0000,0000,,在你自己的家门口 究竟还要如何攻击他人？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What offence can come at your own doorstep?{\r}
+Dialogue: 0,1:32:50.44,1:32:52.43,中文,,0000,0000,0000,,不准冒犯你自己的亲人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No insult can come by your own people.{\r}
+Dialogue: 0,1:32:53.61,1:32:55.60,中文,,0000,0000,0000,,我是来祝福巴拉吉的孩子的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am here to bless Bajirao's child.{\r}
+Dialogue: 0,1:32:55.68,1:32:58.58,中文,,0000,0000,0000,,你却是来祝福他们的关系的吗 还是来祈求接受的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are you here to bless relations or to beg acceptance?{\r}
+Dialogue: 0,1:32:59.08,1:33:01.98,中文,,0000,0000,0000,,巴拉吉无法出席，所以我是 替他带着礼物来的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am here with gifts on Bajirao's behalf in his absence.{\r}
+Dialogue: 0,1:33:02.29,1:33:04.95,中文,,0000,0000,0000,,如果你想让我们接受你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If you had to please your way into our family...{\r}
+Dialogue: 0,1:33:05.02,1:33:10.55,中文,,0000,0000,0000,,那你应该穿上红色衣服 而不是这绿色的毒药\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then you should've got saffron clothes and not this green colored poison.{\r}
+Dialogue: 0,1:33:10.73,1:33:14.75,中文,,0000,0000,0000,,人们把宗教和颜色联系在一起 但颜色是不分宗教的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}People have associated each religion with color, but colour has no religion...{\r}
+Dialogue: 0,1:33:15.30,1:33:19.93,中文,,0000,0000,0000,,只有心变黑了，你才会开始 区分这些背景\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is when the heart turns black that you start differentiating on such grounds.{\r}
+Dialogue: 0,1:33:20.30,1:33:21.60,中文,,0000,0000,0000,,算了，池马基\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leave it, Chimaji...{\r}
+Dialogue: 0,1:33:21.67,1:33:22.83,中文,,0000,0000,0000,,她已经忘记了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She has forgotten the difference..{\r}
+Dialogue: 0,1:33:22.91,1:33:25.03,中文,,0000,0000,0000,,杜尔迦和达加的区别\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..between durga(A HINDU GODDESS) and dargah(MUSLIM SHRINE).{\r}
+Dialogue: 0,1:33:25.34,1:33:32.41,中文,,0000,0000,0000,,也许是你忘了，清真寺的神像 常常装饰着绿色\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Perhaps you forget that idols in temples are often adorned in green...{\r}
+Dialogue: 0,1:33:32.88,1:33:36.65,中文,,0000,0000,0000,,而红床单则被盖在苏非派的坟墓上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And saffron sheets cover the purest Sufi tombs.{\r}
+Dialogue: 0,1:33:36.72,1:33:38.74,中文,,0000,0000,0000,,这时候人们还考虑颜色和宗教吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Where is the thought of colour and religion then?{\r}
+Dialogue: 0,1:33:41.32,1:33:45.73,中文,,0000,0000,0000,,巴拉吉只是牵牵你的手 你的舌头就开始像利剑一样伤人了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao merely holds your hand and your tongue begins to cut like a sword.{\r}
+Dialogue: 0,1:33:46.36,1:33:51.73,中文,,0000,0000,0000,,一个战士的本能就是当被攻击时 必定拔剑反击\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A warrior's instinct is to reach for her sword even when struck by a pebble.{\r}
+Dialogue: 0,1:33:52.40,1:33:53.39,中文,,0000,0000,0000,,克利须那·巴特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna Bhatt...{\r}
+Dialogue: 0,1:33:53.70,1:33:57.80,中文,,0000,0000,0000,,今年在我们为亡者祈祷时 也加入给她的祷告\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This year when we pray for the deceased, add a prayer for her too...{\r}
+Dialogue: 0,1:33:58.07,1:34:00.67,中文,,0000,0000,0000,,这样她在我们心里就是死人了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So that she is dead for us.{\r}
+Dialogue: 0,1:34:01.34,1:34:02.40,中文,,0000,0000,0000,,现在离开\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leave us now!{\r}
+Dialogue: 0,1:34:02.65,1:34:05.71,中文,,0000,0000,0000,,那些祷告不是为陌生人做的，母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Those prayers are not for strangers, Mother...{\r}
+Dialogue: 0,1:34:06.62,1:34:09.64,中文,,0000,0000,0000,,我很高兴你还把我当自己人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm grateful you thought of me as your own.{\r}
+Dialogue: 0,1:34:50.93,1:34:52.69,中文,,0000,0000,0000,,欢迎\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome!{\r}
+Dialogue: 0,1:34:53.46,1:34:57.80,中文,,0000,0000,0000,,我想让你组织我儿子的命名仪式\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I want you to organise my son's naming ceremony.{\r}
+Dialogue: 0,1:34:58.43,1:35:01.43,中文,,0000,0000,0000,,那已经完成了，大人 他已经被赐予了出生星盘\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's already been done, My Lord. He has a blessed birth chart.{\r}
+Dialogue: 0,1:35:01.54,1:35:04.30,中文,,0000,0000,0000,,不，不是拉古纳特 我说的是我的另一个儿子，克利须那\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No, not Raghunath... I am talking about my other son, Krishna.{\r}
+Dialogue: 0,1:35:04.37,1:35:05.47,中文,,0000,0000,0000,,他也是我的儿子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He is my son too.{\r}
+Dialogue: 0,1:35:05.54,1:35:07.30,中文,,0000,0000,0000,,陛下，传统不允许我们这么做\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, traditions do not permit that.{\r}
+Dialogue: 0,1:35:07.68,1:35:08.87,中文,,0000,0000,0000,,为什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why?{\r}
+Dialogue: 0,1:35:09.95,1:35:13.01,中文,,0000,0000,0000,,按照传统，儿子应该继承父亲的宗教\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As per our tradition, a son inherits his father's religion...{\r}
+Dialogue: 0,1:35:13.32,1:35:14.48,中文,,0000,0000,0000,,不是那样吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Isn't that right?{\r}
+Dialogue: 0,1:35:14.62,1:35:17.28,中文,,0000,0000,0000,,你怎么会犯这种错误，大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How can you be wrong, My Lord.{\r}
+Dialogue: 0,1:35:17.45,1:35:20.65,中文,,0000,0000,0000,,但孩子的父母依照印度教律法结合\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But it is imperative for the child's parents to be...{\r}
+Dialogue: 0,1:35:20.72,1:35:22.62,中文,,0000,0000,0000,,是必须的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}married under the Hindu law.{\r}
+Dialogue: 0,1:35:22.96,1:35:26.76,中文,,0000,0000,0000,,我会按照印度教律法娶玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall marry Mastani as per the Hindu law.{\r}
+Dialogue: 0,1:35:26.83,1:35:28.52,中文,,0000,0000,0000,,开始准备吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Begin the preparations.{\r}
+Dialogue: 0,1:35:28.97,1:35:30.69,中文,,0000,0000,0000,,恐怕那不可能了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm afraid it still won't be possible.{\r}
+Dialogue: 0,1:35:30.77,1:35:31.60,中文,,0000,0000,0000,,为什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why not?{\r}
+Dialogue: 0,1:35:31.67,1:35:35.63,中文,,0000,0000,0000,,克利须那是在婚姻之外生下的孩子 而他将永远都是...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna was born out of wedlock and he shall always remain...{\r}
+Dialogue: 0,1:35:35.77,1:35:36.86,中文,,0000,0000,0000,,私生子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}illegitimate!{\r}
+Dialogue: 0,1:35:36.94,1:35:37.84,中文,,0000,0000,0000,,我说的对吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Am I right?{\r}
+Dialogue: 0,1:35:37.91,1:35:39.03,中文,,0000,0000,0000,,对，对\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, yes...{\r}
+Dialogue: 0,1:35:39.34,1:35:41.47,中文,,0000,0000,0000,,你想的是私生子，克利须那·巴特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your thinking is illegitimate, Krishna Bhatt.{\r}
+Dialogue: 0,1:35:42.78,1:35:47.48,中文,,0000,0000,0000,,宗教胜过一切，大人，甚至胜过你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Religion is bigger than anything, My Lord... Even you!{\r}
+Dialogue: 0,1:35:47.55,1:35:50.68,中文,,0000,0000,0000,,我们不能亵渎神明\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We cannot be a part of such blasphemy!{\r}
+Dialogue: 0,1:35:50.75,1:35:52.74,中文,,0000,0000,0000,,你的想法对我来说无所谓\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your thoughts do not matter to me.{\r}
+Dialogue: 0,1:35:52.82,1:35:55.95,中文,,0000,0000,0000,,如果你不能让他遵从我的信仰\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If you cannot initiate him into my faith...{\r}
+Dialogue: 0,1:35:56.36,1:35:58.69,中文,,0000,0000,0000,,那他就随他母亲的宗教\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then he shall follow his mother's.{\r}
+Dialogue: 0,1:35:59.56,1:36:02.69,中文,,0000,0000,0000,,从今天开始他不再叫克利须那 而是沙姆谢尔阁下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And from today he will not be called Krishna, but Shamsher Bahadur!{\r}
+Dialogue: 0,1:36:04.27,1:36:06.26,中文,,0000,0000,0000,,退下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leave.{\r}
+Dialogue: 0,1:36:12.01,1:36:13.98,中文,,0000,0000,0000,,我们要加快收税\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}{\fnSimSun\fs12\fscy100\1c&H0080FF&}We need to speed up tax collections.{\r}{\r}
+Dialogue: 0,1:36:14.28,1:36:15.87,中文,,0000,0000,0000,,把消息传达给收税人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Send a message to the collectors.{\r}
+Dialogue: 0,1:36:16.65,1:36:18.64,中文,,0000,0000,0000,,为什么要惊扰这份美\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why are these sweets being distributed?{\r}
+Dialogue: 0,1:36:19.28,1:36:21.34,中文,,0000,0000,0000,,怎么回事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is the occasion?{\r}
+Dialogue: 0,1:36:21.62,1:36:22.78,中文,,0000,0000,0000,,这些是谁的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who are these from?{\r}
+Dialogue: 0,1:36:23.59,1:36:24.71,中文,,0000,0000,0000,,我的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}These are from me.{\r}
+Dialogue: 0,1:36:25.66,1:36:26.88,中文,,0000,0000,0000,,请收下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Please have.{\r}
+Dialogue: 0,1:36:26.96,1:36:30.65,中文,,0000,0000,0000,,池马基，这是你最喜欢的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji, it's your favourite.{\r}
+Dialogue: 0,1:36:34.40,1:36:35.76,中文,,0000,0000,0000,,怎么了，兄弟\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is the occasion, brother?{\r}
+Dialogue: 0,1:36:35.83,1:36:39.56,中文,,0000,0000,0000,,我为克利须那举行了命名仪式 更改了他的名字\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I had a naming ceremony for Krishna and changed his name.{\r}
+Dialogue: 0,1:36:39.77,1:36:41.70,中文,,0000,0000,0000,,你给他取了什么名字，大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And what have you named him, My Lord?{\r}
+Dialogue: 0,1:36:42.44,1:36:43.77,中文,,0000,0000,0000,,沙姆谢尔阁下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shamsher Bahadur.{\r}
+Dialogue: 0,1:36:47.01,1:36:49.70,中文,,0000,0000,0000,,佩什瓦中穆斯林派系的名字\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The name of Peshwa's Muslim lineage.{\r}
+Dialogue: 0,1:36:55.59,1:36:58.75,中文,,0000,0000,0000,,你们都可以退下了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You all may leave.{\r}
+Dialogue: 0,1:37:01.26,1:37:04.72,中文,,0000,0000,0000,,潘，看看他的脸\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Panth, look at his face!{\r}
+Dialogue: 0,1:37:09.57,1:37:10.59,中文,,0000,0000,0000,,念\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Read it.{\r}
+Dialogue: 0,1:37:12.70,1:37:17.40,中文,,0000,0000,0000,,佩什瓦下令将两处房产作为礼物 送给玛斯塔妮·巴拉吉·巴拉德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa decrees two estates to be gifted to Mastani Bajirao Ballad.{\r}
+Dialogue: 0,1:37:19.58,1:37:21.24,中文,,0000,0000,0000,,不可能，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Impossible, Bajirao!{\r}
+Dialogue: 0,1:37:21.31,1:37:22.74,中文,,0000,0000,0000,,我们不能容忍这样的行为\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We do not entertain such practices.{\r}
+Dialogue: 0,1:37:22.81,1:37:24.68,中文,,0000,0000,0000,,从今天开始，我们会的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}From this day on, we shall.{\r}
+Dialogue: 0,1:37:26.35,1:37:26.94,中文,,0000,0000,0000,,你说呢，潘\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What say, Panth?{\r}
+Dialogue: 0,1:37:27.25,1:37:29.62,中文,,0000,0000,0000,,我无法理解，你还在这里 她为什么需要这些房屋\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I fail to understand, why does she need estates when you are here?{\r}
+Dialogue: 0,1:37:29.69,1:37:31.55,中文,,0000,0000,0000,,你看不出来吗，潘\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't you see, Panth?{\r}
+Dialogue: 0,1:37:32.39,1:37:35.02,中文,,0000,0000,0000,,如果他们能在我还活着时 把她赶出我的家门...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If they can throw her out of my house while I'm alive...{\r}
+Dialogue: 0,1:37:35.29,1:37:37.69,中文,,0000,0000,0000,,想象一下我离开之后 他们会如何威胁她\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Imagine how they'd treat her when I'm gone.{\r}
+Dialogue: 0,1:37:38.63,1:37:42.26,中文,,0000,0000,0000,,你得保护所爱之人的自由\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You have to safeguard the future of your loved ones.{\r}
+Dialogue: 0,1:37:42.33,1:37:44.70,中文,,0000,0000,0000,,今天给的是房子 明天你就会把整个佩什瓦王国给她\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Today it's an estate, tomorrow you'll gift her the entire Peshwa kingdom.{\r}
+Dialogue: 0,1:37:45.00,1:37:46.94,中文,,0000,0000,0000,,你不能因为一时兴起就送出自己的国土\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You cannot gift away territory at whim.{\r}
+Dialogue: 0,1:37:47.00,1:37:50.00,中文,,0000,0000,0000,,但你能因为一时兴起 就把一个女人送进妓院吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you can put up a woman in a brothel at whim?{\r}
+Dialogue: 0,1:37:50.27,1:37:50.97,中文,,0000,0000,0000,,那就是我所知道的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That is my understanding.{\r}
+Dialogue: 0,1:37:51.27,1:37:53.40,中文,,0000,0000,0000,,我也清楚了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Make me understand as well.{\r}
+Dialogue: 0,1:37:53.64,1:37:54.84,中文,,0000,0000,0000,,好马配好鞍...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A dagger deserves a sheath...{\r}
+Dialogue: 0,1:37:55.34,1:37:56.68,中文,,0000,0000,0000,,妻子理应有个家\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A wife deserves a home...{\r}
+Dialogue: 0,1:37:56.95,1:37:58.85,中文,,0000,0000,0000,,而情妇只能住小屋\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}<i>And</i> a <i>mistress deserves</i> a <i>hovel!</i>{\r}
+Dialogue: 0,1:38:10.89,1:38:13.69,中文,,0000,0000,0000,,你完全做错了，大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You missed your aim, My Lord.{\r}
+Dialogue: 0,1:38:15.97,1:38:18.90,中文,,0000,0000,0000,,不...我们的关系成为了阻碍\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No... Our relationship came in the way.{\r}
+Dialogue: 0,1:38:18.97,1:38:20.53,中文,,0000,0000,0000,,所以我说...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's why I say...{\r}
+Dialogue: 0,1:38:20.84,1:38:23.77,中文,,0000,0000,0000,,你必须斩断一切 已经成为阻碍的关系\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You must end all relations that become a hindrance.{\r}
+Dialogue: 0,1:38:25.61,1:38:27.91,中文,,0000,0000,0000,,有时候一些关系 能要了你的命\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Sometimes your relations themselves finish you.{\r}
+Dialogue: 0,1:38:30.25,1:38:33.91,中文,,0000,0000,0000,,给旨意盖印\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Seal the orders!{\r}
+Dialogue: 0,1:38:39.26,1:38:42.71,中文,,0000,0000,0000,,巴拉吉和他兄弟今天 在朝堂上大打出手\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao fought with his brother today in front of the entire court...{\r}
+Dialogue: 0,1:38:42.99,1:38:48.43,中文,,0000,0000,0000,,为了那个女人放弃了 自己尊贵的身份\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}stripping his relationship of dignity, all for that mistress.{\r}
+Dialogue: 0,1:38:50.40,1:38:51.76,中文,,0000,0000,0000,,这是不对的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's wrong!{\r}
+Dialogue: 0,1:38:52.67,1:38:56.66,中文,,0000,0000,0000,,我已经无法分清谁是谁非了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I do not understand right or wrong anymore mother.{\r}
+Dialogue: 0,1:38:56.81,1:39:01.24,中文,,0000,0000,0000,,我这辈子都生活在他的阴影中...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I lived my entire life as his shadow...{\r}
+Dialogue: 0,1:39:01.54,1:39:04.57,中文,,0000,0000,0000,,有一天他就那样陷入黑暗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And one day he just walked into darkness...{\r}
+Dialogue: 0,1:39:05.58,1:39:08.28,中文,,0000,0000,0000,,从没想过要从阴暗中走出来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Not once thinking that this shadow will fade away.{\r}
+Dialogue: 0,1:39:08.48,1:39:11.58,中文,,0000,0000,0000,,没有人比我更了解你的痛苦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No one can understand your pain like me...{\r}
+Dialogue: 0,1:39:12.52,1:39:15.85,中文,,0000,0000,0000,,这个家族中女人的地位 就像芒果园一样灿烂...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The status of the lady of this house may be as grand as a mango orchard...{\r}
+Dialogue: 0,1:39:17.53,1:39:20.29,中文,,0000,0000,0000,,人人都想得到芒果...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Whose fruit is longed for by all...{\r}
+Dialogue: 0,1:39:21.30,1:39:24.43,中文,,0000,0000,0000,,但是为了得到芒果 就得用石头去砸芒果树\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But to acquire the fruit, one must stone the trees...{\r}
+Dialogue: 0,1:39:25.53,1:39:27.50,中文,,0000,0000,0000,,而那恰恰就是芒果树的命运\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And that is the orchard's destiny.{\r}
+Dialogue: 0,1:39:30.74,1:39:31.76,中文,,0000,0000,0000,,喀什...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi...{\r}
+Dialogue: 0,1:39:32.31,1:39:36.84,中文,,0000,0000,0000,,我们应该把旗帜缝成绿色 好迎合那个女人的喜好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We should've sewn the flag green, to the mistress's liking!{\r}
+Dialogue: 0,1:39:55.67,1:39:57.72,中文,,0000,0000,0000,,主啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Oh Lord!{\r}
+Dialogue: 0,1:40:16.33,1:40:25.04,中文,,0000,0000,0000,,(CHANTS)
+Dialogue: 0,1:40:28.33,1:40:30.73,中文,,0000,0000,0000,,来吧，克利须那·巴特，你好，妈妈\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Come, Krishna Bhatt. Hello, Mother.{\r}
+Dialogue: 0,1:40:30.80,1:40:32.32,中文,,0000,0000,0000,,你怎么知道我们来了，大人？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How did you know, My Lord?{\r}
+Dialogue: 0,1:40:32.40,1:40:34.70,中文,,0000,0000,0000,,勇士必须时刻保持警惕\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A warrior must always be alert.{\r}
+Dialogue: 0,1:40:34.77,1:40:36.80,中文,,0000,0000,0000,,敌人随时可能出击\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Enemy can strike at any moment.{\r}
+Dialogue: 0,1:40:38.84,1:40:41.44,中文,,0000,0000,0000,,拉加夫，向你祖母问好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Raghav, greet your grandmother.{\r}
+Dialogue: 0,1:40:42.35,1:40:44.68,中文,,0000,0000,0000,,沙姆谢尔，你也是\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shamsher, you too.{\r}
+Dialogue: 0,1:40:44.85,1:40:49.98,中文,,0000,0000,0000,,克利须那·巴特想知道你何时 进行忏悔祷告\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna Bhatt wanted to know, when you will perform the repentance prayers.{\r}
+Dialogue: 0,1:40:50.32,1:40:51.45,中文,,0000,0000,0000,,忏悔？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Repentance?{\r}
+Dialogue: 0,1:40:51.59,1:40:53.32,中文,,0000,0000,0000,,你以前每年都做的...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You used to perform it every year...{\r}
+Dialogue: 0,1:40:53.39,1:40:56.76,中文,,0000,0000,0000,,用以慰藉烈士的亡魂\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}For the gratification of martyrs' souls.{\r}
+Dialogue: 0,1:40:56.83,1:40:58.66,中文,,0000,0000,0000,,现在你已经两年没做祷告了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You haven't performed it in two years.{\r}
+Dialogue: 0,1:40:58.73,1:41:01.39,中文,,0000,0000,0000,,是的，我不会再做了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, and it won't happen again.{\r}
+Dialogue: 0,1:41:01.83,1:41:03.66,中文,,0000,0000,0000,,你不想成为婆罗门人？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are refusing it being a Brahmin?{\r}
+Dialogue: 0,1:41:03.83,1:41:06.77,中文,,0000,0000,0000,,出身让我成为婆罗门人 但是命运让我成为战士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am Brahmin only by birth, but a warrior by destiny.{\r}
+Dialogue: 0,1:41:06.94,1:41:10.43,中文,,0000,0000,0000,,这是用以净化我们灵魂的 强制性的仪式\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This ritual is mandatory for the purification of our soul.{\r}
+Dialogue: 0,1:41:12.01,1:41:15.67,中文,,0000,0000,0000,,那好，那就净化我们的灵魂吧...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Alright, let's purify our souls...{\r}
+Dialogue: 0,1:41:16.78,1:41:21.44,中文,,0000,0000,0000,,我要带玛斯塔妮去沙尼瓦瓦达宫 让她成为我的合法妻子...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall bring Mastani to Shaniwar Wada and give her the rights of being my wife...{\r}
+Dialogue: 0,1:41:21.95,1:41:23.98,中文,,0000,0000,0000,,那是我唯一的赎罪之法\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That can be my only atonement.{\r}
+Dialogue: 0,1:41:25.69,1:41:28.35,中文,,0000,0000,0000,,有你这样的儿子让我很骄傲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am proud to have a son like you...{\r}
+Dialogue: 0,1:41:29.53,1:41:31.69,中文,,0000,0000,0000,,你知道该如何尊重一个女人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who knows how to respect a woman...{\r}
+Dialogue: 0,1:41:32.50,1:41:34.69,中文,,0000,0000,0000,,但是你的要求是不可能实现的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But what you ask for is impossible.{\r}
+Dialogue: 0,1:41:35.63,1:41:36.93,中文,,0000,0000,0000,,绝不可能，我的儿子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Never, my son!{\r}
+Dialogue: 0,1:41:38.93,1:41:40.80,中文,,0000,0000,0000,,我会选一个黄道吉日...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}On Saptami (AUSPICIOUS DAY)...{\r}
+Dialogue: 0,1:41:41.94,1:41:44.03,中文,,0000,0000,0000,,将玛斯塔妮带去沙尼瓦瓦达宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall bring Mastani to Shaniwar Wada.{\r}
+Dialogue: 0,1:41:44.34,1:41:49.87,中文,,0000,0000,0000,,如若发生此事，婆罗门 就会驱逐整个佩什瓦部族\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Brahmins shall ostracize the entire Peshwa clan if that were to happen.{\r}
+Dialogue: 0,1:42:24.31,1:42:25.64,中文,,0000,0000,0000,,欢迎回家...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Welcome home...{\r}
+Dialogue: 0,1:42:28.35,1:42:31.29,中文,,0000,0000,0000,,大家都应该知道玛斯塔妮宫殿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}lt shall be known to all as Mastani Mahal.{\r}
+Dialogue: 0,1:42:35.89,1:42:37.32,中文,,0000,0000,0000,,潘...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Panth...{\r}
+Dialogue: 0,1:42:39.33,1:42:40.49,中文,,0000,0000,0000,,哥哥...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Brother...{\r}
+Dialogue: 0,1:42:41.70,1:42:42.86,中文,,0000,0000,0000,,池马基...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji....{\r}
+Dialogue: 0,1:42:52.44,1:42:54.91,中文,,0000,0000,0000,,看来大家都没来欢迎你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Everyone seems to be welcoming you with their absence!{\r}
+Dialogue: 0,1:43:08.49,1:43:10.98,中文,,0000,0000,0000,,池马基和阿巴吉外出巡视领地去了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Chimaji and Ambaji have gone out to inspect lands.{\r}
+Dialogue: 0,1:43:11.73,1:43:13.59,中文,,0000,0000,0000,,母亲去朝圣了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother has gone on a pilgrimage.{\r}
+Dialogue: 0,1:43:13.80,1:43:16.32,中文,,0000,0000,0000,,所以，作为这里的女主人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So as the lady of this house...{\r}
+Dialogue: 0,1:43:17.40,1:43:22.00,中文,,0000,0000,0000,,我欢迎你和你的客人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I welcome you and your guest.{\r}
+Dialogue: 0,1:43:25.61,1:43:26.77,中文,,0000,0000,0000,,来吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Come.{\r}
+Dialogue: 0,1:43:42.49,1:43:45.59,中文,,0000,0000,0000,,不要碰我的脚\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't touch my feet! (A HINDU TRADITION OF GIVING BLESSINGS){\r}
+Dialogue: 0,1:43:53.67,1:43:55.76,中文,,0000,0000,0000,,感谢你维护我的荣誉，我的夫人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Thank you for keeping my honour, My Lady.{\r}
+Dialogue: 0,1:43:57.34,1:43:58.93,中文,,0000,0000,0000,,这让我感到轻松\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It lightens my mind.{\r}
+Dialogue: 0,1:44:00.31,1:44:02.68,中文,,0000,0000,0000,,别忘了，我的大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't forget My Lord...{\r}
+Dialogue: 0,1:44:04.28,1:44:09.24,中文,,0000,0000,0000,,这欢迎只是表面的 并非发自内心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This welcome stops at the threshold, it doesn't extend to the heart.{\r}
+Dialogue: 0,1:44:41.55,1:44:43.81,中文,,0000,0000,0000,,纳纳，你何时到的？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Nana! When did you arrive?{\r}
+Dialogue: 0,1:44:45.82,1:44:50.02,中文,,0000,0000,0000,,你没从首都送消息来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You didn't write or send a message from the capital.{\r}
+Dialogue: 0,1:44:50.66,1:44:53.59,中文,,0000,0000,0000,,如果我知道你要来 就会盛装欢迎您\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Had I known you were coming, I would've welcomed you in style.{\r}
+Dialogue: 0,1:44:53.66,1:44:53.99,中文,,0000,0000,0000,,您好\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Namaste.{\r}
+Dialogue: 0,1:44:54.30,1:44:55.70,中文,,0000,0000,0000,,祝福你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stay blessed!{\r}
+Dialogue: 0,1:44:57.97,1:44:59.56,中文,,0000,0000,0000,,你变得这么高了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You've grown so tall.{\r}
+Dialogue: 0,1:44:59.90,1:45:02.46,中文,,0000,0000,0000,,你开始长胡子了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your moustache has started showing too.{\r}
+Dialogue: 0,1:45:02.77,1:45:06.64,中文,,0000,0000,0000,,希望你从国王身边 学会了政治\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I hope you are learning politics from the king.{\r}
+Dialogue: 0,1:45:06.74,1:45:07.61,中文,,0000,0000,0000,,是的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes.{\r}
+Dialogue: 0,1:45:07.78,1:45:10.87,中文,,0000,0000,0000,,我也希望你学会了 一些政治，母亲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wish you learnt some politics as well, Mother.{\r}
+Dialogue: 0,1:45:10.95,1:45:12.28,中文,,0000,0000,0000,,什么意思？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Meaning?{\r}
+Dialogue: 0,1:45:13.32,1:45:17.84,中文,,0000,0000,0000,,你爱上的这个男人配不上你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The man for whom you hold this flame, doesn't deserve it.{\r}
+Dialogue: 0,1:45:17.92,1:45:19.25,中文,,0000,0000,0000,,你做什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What have you done?{\r}
+Dialogue: 0,1:45:21.49,1:45:22.92,中文,,0000,0000,0000,,你做了什么，纳纳？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What did you do, Nana?{\r}
+Dialogue: 0,1:45:24.53,1:45:26.49,中文,,0000,0000,0000,,知道你在评论谁吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do you know who you are talking about?{\r}
+Dialogue: 0,1:45:26.63,1:45:27.89,中文,,0000,0000,0000,,是的，妈妈\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, Mother.{\r}
+Dialogue: 0,1:45:28.63,1:45:31.53,中文,,0000,0000,0000,,是那个从普纳到首都 都在被人议论的男人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The man who is the talk of every town from Pune to the capital...{\r}
+Dialogue: 0,1:45:31.97,1:45:34.96,中文,,0000,0000,0000,,他用本德尔坎德的火炬 烧毁了自己的家园\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}For burning his own home with Bundelkhand's torch.{\r}
+Dialogue: 0,1:45:35.57,1:45:38.34,中文,,0000,0000,0000,,而你却在这为他祈祷\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yet you sit here praying for him!{\r}
+Dialogue: 0,1:45:38.64,1:45:39.90,中文,,0000,0000,0000,,纳纳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Nana!{\r}
+Dialogue: 0,1:45:50.35,1:45:53.01,中文,,0000,0000,0000,,不要太担心我，我的儿子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't worry about me so much, my son.{\r}
+Dialogue: 0,1:46:15.48,1:46:16.54,中文,,0000,0000,0000,,夫人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady!{\r}
+Dialogue: 0,1:46:17.25,1:46:19.84,中文,,0000,0000,0000,,希瓦·巴特，你吓坏我了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shiva Bhatt, you startled me!{\r}
+Dialogue: 0,1:46:20.28,1:46:21.25,中文,,0000,0000,0000,,祷告就要开始了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The prayers are about to start.{\r}
+Dialogue: 0,1:46:21.32,1:46:23.38,中文,,0000,0000,0000,,夫人，今晚会发生大灾难\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady, a grave disaster is about to happen tonight.{\r}
+Dialogue: 0,1:46:23.92,1:46:24.82,中文,,0000,0000,0000,,什么灾难？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What disaster?{\r}
+Dialogue: 0,1:46:25.42,1:46:27.75,中文,,0000,0000,0000,,有人打算在祈祷时袭击玛斯塔妮宫殿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}While we pray, Mastani Mahal will be attacked.{\r}
+Dialogue: 0,1:46:27.99,1:46:32.29,中文,,0000,0000,0000,,有人想刺杀她 请你尽力救她\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She will be murdered. Please save her if you can!{\r}
+Dialogue: 0,1:46:41.64,1:46:54.78,中文,,0000,0000,0000,,上帝保佑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Hail Lord Ganesha (HINDU GOD OF OBSTACLES).{\r}
+Dialogue: 0,1:50:56.06,1:50:58.82,中文,,0000,0000,0000,,你要如何抵偿这罪过，克利须那·巴特？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How shall you atone for this crime, Krishna Bhatt?{\r}
+Dialogue: 0,1:50:58.89,1:51:03.56,中文,,0000,0000,0000,,有何证据证明克利须那·巴特 杀害了希瓦·巴特？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What proof exists that Krishna Bhatt has murdered Shiva Bhatt?{\r}
+Dialogue: 0,1:51:03.87,1:51:04.92,中文,,0000,0000,0000,,母亲...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mother...{\r}
+Dialogue: 0,1:51:06.40,1:51:07.66,中文,,0000,0000,0000,,你要如何抵偿这罪过？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How shall you atone for this crime?{\r}
+Dialogue: 0,1:51:07.74,1:51:10.30,中文,,0000,0000,0000,,接受何种惩罚？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What atonement, what punishment?{\r}
+Dialogue: 0,1:51:10.37,1:51:13.57,中文,,0000,0000,0000,,任何违背教义的人都将 有如此下场\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Whoever opposes religion will meet such an end.{\r}
+Dialogue: 0,1:51:13.81,1:51:18.71,中文,,0000,0000,0000,,算你的情人运气好 不然她早已被大卸八块了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It was your mistress's good fortune, else she would've been cut to pieces as well.{\r}
+Dialogue: 0,1:52:04.76,1:52:07.35,中文,,0000,0000,0000,,大人，您母亲到了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, your mother is here.{\r}
+Dialogue: 0,1:52:07.83,1:52:12.43,中文,,0000,0000,0000,,为何把我们当犯人一样召唤到此？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why have we been summoned like criminals, despite sharing the same roof?{\r}
+Dialogue: 0,1:52:12.63,1:52:17.30,中文,,0000,0000,0000,,当人们心中产生了隔阂 就无法同住一屋了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When walls come up between hearts, they no longer hold a house together.{\r}
+Dialogue: 0,1:52:17.64,1:52:19.54,中文,,0000,0000,0000,,是的，我们知道\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, we get it!{\r}
+Dialogue: 0,1:52:19.74,1:52:21.61,中文,,0000,0000,0000,,为什么召唤我们？ 我们所犯何罪？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why have you summoned us? What's our crime?{\r}
+Dialogue: 0,1:52:21.68,1:52:23.77,中文,,0000,0000,0000,,克利须那·巴特\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Krishna Bhatt!{\r}
+Dialogue: 0,1:52:26.95,1:52:30.35,中文,,0000,0000,0000,,包庇罪犯就是你的罪行\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Protecting a criminal is your crime.{\r}
+Dialogue: 0,1:52:30.42,1:52:32.55,中文,,0000,0000,0000,,你怎敢这样对妈妈说话？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How dare you talk to mother in this manner!{\r}
+Dialogue: 0,1:52:32.62,1:52:33.82,中文,,0000,0000,0000,,那你呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And you?{\r}
+Dialogue: 0,1:52:35.76,1:52:37.59,中文,,0000,0000,0000,,你怎敢用这样的口气对佩什瓦 家的人说话\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How dare you talk to the Peshwa in this manner.{\r}
+Dialogue: 0,1:52:37.66,1:52:38.46,中文,,0000,0000,0000,,大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord!{\r}
+Dialogue: 0,1:52:38.53,1:52:41.72,中文,,0000,0000,0000,,让他知道，我不是每次都会失手\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Remind him, I won't miss my aim every time.{\r}
+Dialogue: 0,1:52:41.80,1:52:42.96,中文,,0000,0000,0000,,巴拉吉，不是你的原因...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao, this isn't you...{\r}
+Dialogue: 0,1:52:43.87,1:52:46.60,中文,,0000,0000,0000,,而是因为本德尔坎德的礼物 她迷失了你的心智\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But the influence of Bundelkhand's gift. She has gotten to your head.{\r}
+Dialogue: 0,1:52:48.04,1:52:50.63,中文,,0000,0000,0000,,她也迷失了你的心智\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bundelkhand's gifts are on your head too...{\r}
+Dialogue: 0,1:52:51.31,1:52:56.74,中文,,0000,0000,0000,,你头上的宝石，脖子上的珍珠 都是本德尔坎德的礼物\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}These jewels on your head, around your neck; are all Bundelkhand's gifts...{\r}
+Dialogue: 0,1:52:56.81,1:52:58.75,中文,,0000,0000,0000,,你无法接受这些礼物？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You can't accept these gifts?{\r}
+Dialogue: 0,1:53:00.32,1:53:02.37,中文,,0000,0000,0000,,那就抛弃它们\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then take them off!{\r}
+Dialogue: 0,1:53:13.50,1:53:16.36,中文,,0000,0000,0000,,本德尔坎德的礼物可以接受 但是不能接受他们的女人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bundelkhand's gifts are accepted, not their daughter.{\r}
+Dialogue: 0,1:53:16.93,1:53:19.77,中文,,0000,0000,0000,,玛斯塔妮可以成为我的情人 但无法成为我的妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani as my mistress is accepted, not as my wife...{\r}
+Dialogue: 0,1:53:20.94,1:53:25.57,中文,,0000,0000,0000,,但你要记住，巴拉吉 对于玛斯塔妮的爱是无条件的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But remember mother, Bajirao's love for Mastani is unconditional.{\r}
+Dialogue: 0,1:53:27.38,1:53:30.40,中文,,0000,0000,0000,,你为何这么怨恨她，母亲？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Where do you find such hatred for her, mother?{\r}
+Dialogue: 0,1:53:30.55,1:53:35.68,中文,,0000,0000,0000,,佩什瓦的纯正血统不能 受到玷污，就是因为这个\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Peshwa blood cannot be adulterated by an outsider, it's that simple!{\r}
+Dialogue: 0,1:53:35.88,1:53:37.58,中文,,0000,0000,0000,,就是因那个？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's been done... Now?{\r}
+Dialogue: 0,1:53:37.65,1:53:38.81,中文,,0000,0000,0000,,是的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's what!{\r}
+Dialogue: 0,1:53:39.35,1:53:43.35,中文,,0000,0000,0000,,你和穆斯林人开战 却爱上了他们中的一员？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You fight Muslims and yet fell in love with one of them?{\r}
+Dialogue: 0,1:53:43.43,1:53:46.92,中文,,0000,0000,0000,,我是和莫卧儿帝国开战 而不是和他们的宗教开战\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I fight the Mughal dynasty, not their religion.{\r}
+Dialogue: 0,1:53:47.60,1:53:49.76,中文,,0000,0000,0000,,我最后请求你一次\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I ask you one last time...{\r}
+Dialogue: 0,1:53:50.50,1:53:57.03,中文,,0000,0000,0000,,巴拉吉继续留在佩什瓦家族的 唯一条件是你们接受玛斯塔妮...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao shall remain Peshwa only if Mastani is accepted...{\r}
+Dialogue: 0,1:53:57.97,1:53:59.44,中文,,0000,0000,0000,,同意吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Agreed?{\r}
+Dialogue: 0,1:54:00.94,1:54:02.31,中文,,0000,0000,0000,,不同意\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No.{\r}
+Dialogue: 0,1:54:25.53,1:54:26.69,中文,,0000,0000,0000,,那是你的了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's yours!{\r}
+Dialogue: 0,1:54:28.67,1:54:29.76,中文,,0000,0000,0000,,巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao.{\r}
+Dialogue: 0,1:54:54.73,1:54:55.82,中文,,0000,0000,0000,,喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi!{\r}
+Dialogue: 0,1:54:56.43,1:55:01.93,中文,,0000,0000,0000,,我一直在找你 没想到在这见到你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I've been looking for you all over. I've wished everyone except you.{\r}
+Dialogue: 0,1:55:03.27,1:55:04.86,中文,,0000,0000,0000,,你去哪？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Where are you going?{\r}
+Dialogue: 0,1:55:05.34,1:55:06.53,中文,,0000,0000,0000,,我马上回来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'll be back soon.{\r}
+Dialogue: 0,1:55:06.88,1:55:08.60,中文,,0000,0000,0000,,但是你要去哪？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But where are you going?{\r}
+Dialogue: 0,1:55:09.44,1:55:10.64,中文,,0000,0000,0000,,玛斯塔妮宫殿\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani Mahal{\r}
+Dialogue: 0,1:55:29.43,1:55:31.40,中文,,0000,0000,0000,,见到你真开心，姐姐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm happy to see you, sister.{\r}
+Dialogue: 0,1:55:31.47,1:55:34.53,中文,,0000,0000,0000,,要叫夫人...不是姐姐\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lady'... Not sister.{\r}
+Dialogue: 0,1:55:35.64,1:55:37.73,中文,,0000,0000,0000,,我是佩什瓦家的合法妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm the Peshwa's legally wedded wife.{\r}
+Dialogue: 0,1:55:38.67,1:55:41.30,中文,,0000,0000,0000,,喀什·巴拉吉·巴拉德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi Bajirao Ballad.{\r}
+Dialogue: 0,1:55:41.54,1:55:42.60,中文,,0000,0000,0000,,我们已经有了很久的交情\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We've been related for years -{\r}
+Dialogue: 0,1:55:42.68,1:55:43.94,中文,,0000,0000,0000,,什么交情？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What relation?{\r}
+Dialogue: 0,1:55:46.51,1:55:47.48,中文,,0000,0000,0000,,说不出来？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Say?{\r}
+Dialogue: 0,1:55:47.72,1:55:50.41,中文,,0000,0000,0000,,和你结婚的男人也是我的丈夫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The man you are married to, is my husband as well.{\r}
+Dialogue: 0,1:55:52.82,1:55:53.85,中文,,0000,0000,0000,,也许是吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Maybe so.{\r}
+Dialogue: 0,1:55:54.29,1:55:57.52,中文,,0000,0000,0000,,但是据我所知 当一个已婚的男人...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But as far as I know, when a married man..{\r}
+Dialogue: 0,1:55:57.59,1:56:01.43,中文,,0000,0000,0000,,娶了另一个妻子 那她就是妃子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..takes another wife, she's known as a concubine...{\r}
+Dialogue: 0,1:56:04.27,1:56:06.29,中文,,0000,0000,0000,,这个词太严重了...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is such a heavy word...{\r}
+Dialogue: 0,1:56:06.60,1:56:08.76,中文,,0000,0000,0000,,有个更简单的词语...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There is a simpler term for it...{\r}
+Dialogue: 0,1:56:09.37,1:56:10.57,中文,,0000,0000,0000,,情妇\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mistress.{\r}
+Dialogue: 0,1:56:19.95,1:56:21.47,中文,,0000,0000,0000,,你说出这样嘲弄的话是不合适的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Such mockery is unbecoming of you.{\r}
+Dialogue: 0,1:56:21.55,1:56:22.61,中文,,0000,0000,0000,,是吗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Really!{\r}
+Dialogue: 0,1:56:23.55,1:56:25.54,中文,,0000,0000,0000,,但有谁比你更了解什么是嘲弄\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But who understands mockery better than you!{\r}
+Dialogue: 0,1:56:26.25,1:56:28.35,中文,,0000,0000,0000,,不顾本德尔坎德的人民\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Leaving your people behind in Bundelkhand..{\r}
+Dialogue: 0,1:56:28.42,1:56:30.82,中文,,0000,0000,0000,,为了一个男人一路跑来普纳...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..to run after a man all the way to Pune...{\r}
+Dialogue: 0,1:56:31.73,1:56:33.75,中文,,0000,0000,0000,,玛斯塔妮公主，这才是笑话\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That, Mastani Saheba, is mockery.{\r}
+Dialogue: 0,1:56:33.93,1:56:35.79,中文,,0000,0000,0000,,没良心还有什么关系？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do matters of the heart have no meaning?{\r}
+Dialogue: 0,1:56:35.86,1:56:38.59,中文,,0000,0000,0000,,你说的是何意思？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What heart do you talk of?{\r}
+Dialogue: 0,1:56:38.90,1:56:41.46,中文,,0000,0000,0000,,在不同人身上换来换去的心\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A heart that flitters from one to another?{\r}
+Dialogue: 0,1:56:43.44,1:56:45.91,中文,,0000,0000,0000,,在这里可是容不下它的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There is no place for such purposeless matters...{\r}
+Dialogue: 0,1:56:46.61,1:56:48.44,中文,,0000,0000,0000,,那么你的到来肯定有所企图\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Then your visit must have purpose too.{\r}
+Dialogue: 0,1:56:48.51,1:56:49.41,中文,,0000,0000,0000,,当然了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Of course.{\r}
+Dialogue: 0,1:56:49.98,1:56:51.45,中文,,0000,0000,0000,,今天是个节日\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We have a festival today.{\r}
+Dialogue: 0,1:56:51.95,1:56:55.71,中文,,0000,0000,0000,,已婚女人在这一天聚集到一起 为祈求丈夫的长寿而庆祝 Married women come together to celebrate this day for their husbands‘ long lives...
+Dialogue: 0,1:56:55.78,1:56:58.38,中文,,0000,0000,0000,,她们用朱砂装饰额头\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They adorn their foreheads with vermilion.{\r}
+Dialogue: 0,1:57:02.59,1:57:04.75,中文,,0000,0000,0000,,我不能再贬低你了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I can't demean you any further...{\r}
+Dialogue: 0,1:57:05.46,1:57:09.45,中文,,0000,0000,0000,,但你将会在这里面对不少挑衅\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you will have to face a lot of humiliation here...{\r}
+Dialogue: 0,1:57:09.70,1:57:13.23,中文,,0000,0000,0000,,不要放在心上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't take it to heart.{\r}
+Dialogue: 0,1:57:14.80,1:57:21.61,中文,,0000,0000,0000,,劳有你才能幸福 而我有他才能幸福\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Rao's happiness lies with you and mine with his...{\r}
+Dialogue: 0,1:57:22.61,1:57:24.81,中文,,0000,0000,0000,,那就是我的企图\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That's my purpose.{\r}
+Dialogue: 0,1:57:24.98,1:57:26.47,中文,,0000,0000,0000,,来吧，点上\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here, put.{\r}
+Dialogue: 0,1:57:32.45,1:57:34.39,中文,,0000,0000,0000,,这就是他握住的手...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This is the hand he holds...{\r}
+Dialogue: 0,1:57:34.82,1:57:38.66,中文,,0000,0000,0000,,比起我的手，他宁愿握剑\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He prefers holding his sword to my hand...{\r}
+Dialogue: 0,1:57:38.96,1:57:42.36,中文,,0000,0000,0000,,但是他认为你的手比 任何宝剑都珍贵\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But he holds your hand dearer than any sword.{\r}
+Dialogue: 0,1:57:42.50,1:57:45.43,中文,,0000,0000,0000,,他握着我的手 但也不愿松开你的手\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He has held my hand without letting go of yours...{\r}
+Dialogue: 0,1:57:45.63,1:57:48.47,中文,,0000,0000,0000,,他是爱我，但也无法舍弃你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He has loved me, but not broken ties with you.{\r}
+Dialogue: 0,1:57:49.37,1:57:54.47,中文,,0000,0000,0000,,我也许是他的灵感来源 但你是他的力量之源\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He may call me his inspiration, but you remain his strength...{\r}
+Dialogue: 0,1:57:55.51,1:57:57.71,中文,,0000,0000,0000,,他对你的爱并没有减少\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}His love for you has not withered.{\r}
+Dialogue: 0,1:58:06.55,1:58:09.49,中文,,0000,0000,0000,,或许我是非法的 但是你的到来...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I may be illegitimate, but your coming here..{\r}
+Dialogue: 0,1:58:10.59,1:58:12.42,中文,,0000,0000,0000,,已经确认了我的存在\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..has validated my presence amongst you all.{\r}
+Dialogue: 0,1:58:19.53,1:58:20.76,中文,,0000,0000,0000,,给...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here...{\r}
+Dialogue: 0,1:58:21.54,1:58:24.90,中文,,0000,0000,0000,,这纱丽很适合你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This sari will look good on you.{\r}
+Dialogue: 0,1:58:30.25,1:58:31.47,中文,,0000,0000,0000,,我先走了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'll take your leave.{\r}
+Dialogue: 0,1:58:49.70,1:58:54.60,中文,,0000,0000,0000,,让我们一起庆祝婚姻的神圣\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let us celebrate the sanctity of marriage.{\r}
+Dialogue: 0,1:58:54.67,1:59:00.01,中文,,0000,0000,0000,,让我们一起为丈夫的长寿祈祷 Let us pray for our husbands‘ long lives.
+Dialogue: 0,1:59:19.93,1:59:26.66,中文,,0000,0000,0000,,她来了，像是爱神\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here she comes, looking like Radha.{\r}
+Dialogue: 0,1:59:32.74,1:59:41.77,中文,,0000,0000,0000,,我天真无辜的爱人... 她像一轮满月般来到我门前\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My love's innocent beloved... She appears at my door, like a full moon.{\r}
+Dialogue: 0,1:59:41.95,1:59:52.69,中文,,0000,0000,0000,,今天我们一起起舞\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Today on this occasion, together we shall dance...{\r}
+Dialogue: 0,2:01:31.46,2:01:36.99,中文,,0000,0000,0000,,你的爱让我痛苦 就像穿过心脏的匕首\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your love has caused me pain, like a dagger through my heart.{\r}
+Dialogue: 0,2:01:39.30,2:01:44.03,中文,,0000,0000,0000,,你可以随意评价我 但我只是迷失在爱情中的灵魂\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You may accuse me of anything, but I'm just a soul lost in love.{\r}
+Dialogue: 0,2:01:44.34,2:01:46.64,中文,,0000,0000,0000,,也许那是我们的命运...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Maybe that's our destiny...{\r}
+Dialogue: 0,2:01:46.71,2:01:50.80,中文,,0000,0000,0000,,爱上一个无法完全 属于自己的男人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}To love a man who can never belong completely to either one of us.{\r}
+Dialogue: 0,2:02:46.80,2:02:50.86,中文,,0000,0000,0000,,大人，尼扎姆的儿子纳西贾 已经起兵反对我们\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord, Nizam's son, Nasirjung has revolted against us.{\r}
+Dialogue: 0,2:02:51.04,2:02:52.60,中文,,0000,0000,0000,,如何？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So?{\r}
+Dialogue: 0,2:02:54.04,2:02:57.50,中文,,0000,0000,0000,,他已经穿过戈达尔河 正往斯哈赫加尔进发\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He has crossed the river Godavri and is approaching Shahgarh.{\r}
+Dialogue: 0,2:02:59.48,2:03:00.47,中文,,0000,0000,0000,,那又如何？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So?{\r}
+Dialogue: 0,2:03:00.92,2:03:02.85,中文,,0000,0000,0000,,看来殿下沉醉了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It appears My Lord is intoxicated.{\r}
+Dialogue: 0,2:03:02.92,2:03:03.78,中文,,0000,0000,0000,,是吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So?{\r}
+Dialogue: 0,2:03:05.39,2:03:07.91,中文,,0000,0000,0000,,谁能不沉醉呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who is not?{\r}
+Dialogue: 0,2:03:08.39,2:03:10.62,中文,,0000,0000,0000,,大家都沉醉了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Everyone is intoxicated.{\r}
+Dialogue: 0,2:03:11.36,2:03:17.30,中文,,0000,0000,0000,,克利须那·巴特沉醉在 财富，信仰，权利和美色之间\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}By wealth, religion, power... Pratinidhi, Krishna Bhatt are all intoxicated.{\r}
+Dialogue: 0,2:03:17.63,2:03:19.62,中文,,0000,0000,0000,,我也一样...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}So am I...{\r}
+Dialogue: 0,2:03:21.57,2:03:23.56,中文,,0000,0000,0000,,我沉浸在爱情之中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am intoxicated by love!{\r}
+Dialogue: 0,2:03:24.71,2:03:27.30,中文,,0000,0000,0000,,殿下，你站的不稳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are unsteady, My Lord!{\r}
+Dialogue: 0,2:03:44.43,2:03:48.49,中文,,0000,0000,0000,,也许我脚站不稳 但是我的剑术依然很稳健\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My feet may be unsteady but my grip is firm.{\r}
+Dialogue: 0,2:03:48.73,2:03:50.49,中文,,0000,0000,0000,,马尔哈·劳，怎么样？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What say, Malhar Rao?{\r}
+Dialogue: 0,2:03:50.73,2:03:51.93,中文,,0000,0000,0000,,看啊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Look!{\r}
+Dialogue: 0,2:03:54.64,2:03:58.47,中文,,0000,0000,0000,,所以我们需要你 为我们赢得胜利，佩什瓦\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}That is why we need you to win this battle for us, Peshwa.{\r}
+Dialogue: 0,2:03:58.54,2:03:59.84,中文,,0000,0000,0000,,我已经不是佩什瓦了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am no longer the Peshwa!{\r}
+Dialogue: 0,2:04:00.04,2:04:01.41,中文,,0000,0000,0000,,但你是我们的指挥官\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you are our Commander.{\r}
+Dialogue: 0,2:04:01.48,2:04:03.34,中文,,0000,0000,0000,,我也不再是指挥官了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am not a Commander either.{\r}
+Dialogue: 0,2:04:09.62,2:04:12.92,中文,,0000,0000,0000,,你第一次学骑马的时候 我们随行在你身边\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When you first learnt to ride, we ran alongside your horse.{\r}
+Dialogue: 0,2:04:13.42,2:04:15.79,中文,,0000,0000,0000,,我们都为你捏了一把汗\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We put in as much sweat as your steed.{\r}
+Dialogue: 0,2:04:15.96,2:04:21.29,中文,,0000,0000,0000,,马尔哈·劳为你而战 为了你的荣耀忍受伤痛\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Malhar Rao fought battles beside you, suffered injuries to uphold your honour.{\r}
+Dialogue: 0,2:04:21.50,2:04:25.80,中文,,0000,0000,0000,,土可奇为了照顾你不惜受伤\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Tukoji nursed you despite being wounded himself.{\r}
+Dialogue: 0,2:04:25.87,2:04:28.50,中文,,0000,0000,0000,,指挥官是不能犹豫的，殿下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Commanders aren't made overnight, My Lord!{\r}
+Dialogue: 0,2:04:28.57,2:04:36.37,中文,,0000,0000,0000,,敌人一旦出现，就必须迎击\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And when the enemy stands at our gates, you are abdicating your duties.{\r}
+Dialogue: 0,2:04:40.65,2:04:45.42,中文,,0000,0000,0000,,巴拉吉的心也许属于玛斯塔妮 但他的生命属于他的祖国...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao's heart may belong to Mastani, but his life belongs to his homeland...{\r}
+Dialogue: 0,2:04:47.49,2:04:49.72,中文,,0000,0000,0000,,成千上万的巴拉吉和玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}A thousand Bajiraos and Mastanis will be happily..{\r}
+Dialogue: 0,2:04:49.79,2:04:52.59,中文,,0000,0000,0000,,将为了又一个马拉地大捷 甘愿做出牺牲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}..sacrificed for one more Maratha victory.{\r}
+Dialogue: 0,2:04:53.66,2:04:55.60,英文,,0000,0000,0000,,放出消息\N{\fnSimHei\fs18\fscy110\1c&HEAEAEA&}{\fnSimSun\fs12\fscy100\1c&H0080FF&}Let it be known...{\r}{\r}
+Dialogue: 0,2:04:56.56,2:04:59.59,中文,,0000,0000,0000,,巴拉吉将在除夕出发作战\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao will leave for battle on New Year's eve.{\r}
+Dialogue: 0,2:05:01.70,2:05:02.90,中文,,0000,0000,0000,,赞美我主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,2:05:03.60,2:05:04.87,中文,,0000,0000,0000,,赞美我主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,2:05:05.54,2:05:07.24,中文,,0000,0000,0000,,赞美我主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,2:05:12.78,2:05:16.61,中文,,0000,0000,0000,,现在应该把灯点着，而不是吹灭\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's a day to light lamps, not extinguish them.{\r}
+Dialogue: 0,2:05:17.55,2:05:18.92,中文,,0000,0000,0000,,你没说要来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You didn't send word of your arrival.{\r}
+Dialogue: 0,2:05:18.99,2:05:20.92,中文,,0000,0000,0000,,佩什瓦无需向人告知他的计划\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Peshwa doesn't inform of his plans.{\r}
+Dialogue: 0,2:05:20.99,2:05:23.65,中文,,0000,0000,0000,,你有一阵子没来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You haven't been here for a while.{\r}
+Dialogue: 0,2:05:24.36,2:05:26.88,中文,,0000,0000,0000,,四处徘徊的人很容易找到...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Those who wander can be found...{\r}
+Dialogue: 0,2:05:27.36,2:05:32.26,中文,,0000,0000,0000,,但是在自家院里迷路的人 就很难找到了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But ones who lose themselves within their own house are hard to trace.{\r}
+Dialogue: 0,2:05:32.90,2:05:33.63,中文,,0000,0000,0000,,好的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}OK!{\r}
+Dialogue: 0,2:05:34.54,2:05:38.53,中文,,0000,0000,0000,,作为这里的第一夫人 你不送我上战场？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As the first lady of this house, won't you see me off to war?{\r}
+Dialogue: 0,2:05:40.01,2:05:42.50,中文,,0000,0000,0000,,是服装和珠宝让我 成为了这里的夫人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}If clothes and jewels alone make me Lady of this house.{\r}
+Dialogue: 0,2:05:43.54,2:05:44.66,中文,,0000,0000,0000,,(CALLS OUT TO CHAMBERMAID)
+Dialogue: 0,2:05:45.65,2:05:47.51,中文,,0000,0000,0000,,拿垫子来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bring the pooja thaali (A PRAYER PLATE).{\r}
+Dialogue: 0,2:05:48.45,2:05:51.78,中文,,0000,0000,0000,,来吧，坐下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here, sit.{\r}
+Dialogue: 0,2:05:52.59,2:05:54.56,中文,,0000,0000,0000,,我得留你孤单一人，喀什\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I have left you alone, Kashi.{\r}
+Dialogue: 0,2:05:54.62,2:05:55.99,中文,,0000,0000,0000,,我不孤单，殿下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am never alone, My Lord.{\r}
+Dialogue: 0,2:05:56.29,2:05:58.85,中文,,0000,0000,0000,,整天都忙于家务琐事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The entire day passes in household chores...{\r}
+Dialogue: 0,2:05:58.93,2:06:02.49,中文,,0000,0000,0000,,晚上则陪着牧师 听着布道\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And evenings are spent with my Raghoba, listening to sermons.{\r}
+Dialogue: 0,2:06:03.40,2:06:09.27,中文,,0000,0000,0000,,牧师昨天给我们讲了个好故事 过来坐着，我讲给你听\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The Priest told us a nice story yesterday... Sit with me, I shall tell you.{\r}
+Dialogue: 0,2:06:20.31,2:06:23.44,中文,,0000,0000,0000,,牧师说...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The priest was saying...{\r}
+Dialogue: 0,2:06:24.62,2:06:26.71,中文,,0000,0000,0000,,克利须那大人和他的妻子 鲁克玛尼曾有过对话\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Lord Krishna and his wife Rukmani were having a dialogue...{\r}
+Dialogue: 0,2:06:27.66,2:06:31.39,中文,,0000,0000,0000,,鲁克玛尼说，我也爱着\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Rukmani said, I have loved you too...{\r}
+Dialogue: 0,2:06:31.66,2:06:38.33,中文,,0000,0000,0000,,但我希望我是你的情人 而不是你的妻子\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yet I wish I was your beloved and not your wife.{\r}
+Dialogue: 0,2:06:38.63,2:06:39.36,中文,,0000,0000,0000,,为什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Why?{\r}
+Dialogue: 0,2:06:39.43,2:06:42.46,中文,,0000,0000,0000,,克利须那大人也问“为何？”\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Lord Krishna also asked, 'Why'?{\r}
+Dialogue: 0,2:06:44.27,2:06:49.51,中文,,0000,0000,0000,,鲁克玛尼说无论婚姻的结合如何紧密\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Rukmani said however deep a matrimonial bond may be...{\r}
+Dialogue: 0,2:06:49.58,2:06:52.34,中文,,0000,0000,0000,,世人记住的只有情人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The world always remembers the beloved.{\r}
+Dialogue: 0,2:06:52.65,2:06:57.52,中文,,0000,0000,0000,,克利须那万岁，克利须那万岁\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Radhe Krishna, Radhe Krishna! (FAMOUS DEVOTIONAL CHANT){\r}
+Dialogue: 0,2:06:57.79,2:07:01.35,中文,,0000,0000,0000,,喀什，对我来说 你和玛斯塔妮一样重要\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi, you are as dear to me as Mastani.{\r}
+Dialogue: 0,2:07:02.22,2:07:05.59,中文,,0000,0000,0000,,克利须那大人也说过一样的话\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Lord Krishna also said the same.{\r}
+Dialogue: 0,2:07:06.49,2:07:09.29,中文,,0000,0000,0000,,我从不拿你们两做比较\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I have never compared you two.{\r}
+Dialogue: 0,2:07:10.90,2:07:13.46,中文,,0000,0000,0000,,也许我们两人没有可比性\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There can be no comparison between us!{\r}
+Dialogue: 0,2:07:13.90,2:07:17.63,中文,,0000,0000,0000,,我不想和你说大道理\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I didn't perform the Rasa Leela (DIVINE DANCE OF PASSION) with you.{\r}
+Dialogue: 0,2:07:19.24,2:07:21.61,中文,,0000,0000,0000,,你对于我们的抱怨是应该的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your complaints against Mastani and I are justified.{\r}
+Dialogue: 0,2:07:21.68,2:07:23.77,中文,,0000,0000,0000,,熟悉的人之间有抱怨是难免的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What complaints can one have against strangers.{\r}
+Dialogue: 0,2:07:24.98,2:07:27.54,中文,,0000,0000,0000,,被自己人伤害才是最痛苦的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The wounds inflicted by one's own hurt most.{\r}
+Dialogue: 0,2:07:29.82,2:07:32.75,中文,,0000,0000,0000,,大人，即使你要我死...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Had you asked for my life, My Lord...{\r}
+Dialogue: 0,2:07:32.82,2:07:37.38,中文,,0000,0000,0000,,我也会面带微笑的去牺牲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I would have sacrificed it with a smile.{\r}
+Dialogue: 0,2:07:37.79,2:07:41.63,中文,,0000,0000,0000,,但你剥夺了我的自尊\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But you've stripped me of my pride.{\r}
+Dialogue: 0,2:07:54.68,2:07:59.84,中文,,0000,0000,0000,,我应该开心的接受惩罚 因为我带给了你伤害\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall happily accept your punishments for the hurt I've caused you.{\r}
+Dialogue: 0,2:07:59.91,2:08:03.82,中文,,0000,0000,0000,,惩罚？不，我应该给你个好消息\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Punishments? No, I shall give you good news.{\r}
+Dialogue: 0,2:08:03.88,2:08:04.71,中文,,0000,0000,0000,,什么意思？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What do you mean?{\r}
+Dialogue: 0,2:08:08.29,2:08:10.59,中文,,0000,0000,0000,,你永远不得再踏足我的寝宫\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You shall never enter these chambers again.{\r}
+Dialogue: 0,2:08:13.49,2:08:14.79,中文,,0000,0000,0000,,知道你在说什么吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Do you know what you ask for?{\r}
+Dialogue: 0,2:08:14.86,2:08:19.86,中文,,0000,0000,0000,,我在来这里时就为了 你的幸福立下誓言\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I took a vow to keep you happy when I set foot in this house...{\r}
+Dialogue: 0,2:08:20.53,2:08:21.66,中文,,0000,0000,0000,,我只是想做到它\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'm only trying to uphold it.{\r}
+Dialogue: 0,2:08:41.59,2:08:42.92,中文,,0000,0000,0000,,给\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here!{\r}
+Dialogue: 0,2:09:34.28,2:09:35.37,中文,,0000,0000,0000,,赞美我主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,2:09:35.78,2:09:37.27,中文,,0000,0000,0000,,赞美我主\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Praise the Lord!{\r}
+Dialogue: 0,2:09:39.45,2:09:41.81,中文,,0000,0000,0000,,该告辞了，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's time to bid farewell, Mastani.{\r}
+Dialogue: 0,2:09:44.62,2:09:46.68,中文,,0000,0000,0000,,我等你回来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall await your return.{\r}
+Dialogue: 0,2:09:49.72,2:09:53.89,中文,,0000,0000,0000,,当夕阳和月亮一起出现在天空时 我们就能见面\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We shall meet when the setting sun and rising moon appear together in the sky.{\r}
+Dialogue: 0,2:09:55.76,2:09:58.36,中文,,0000,0000,0000,,天空将改变颜色 一切都将沐浴在橙光之中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The sky will change colour, and all will be bathed in an orange glow.{\r}
+Dialogue: 0,2:09:58.53,2:10:01.70,中文,,0000,0000,0000,,欲望之风将会吹拂 雷云布满整个天空\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Winds of desire will blow, And thundering clouds will fill the skies.{\r}
+Dialogue: 0,2:10:02.70,2:10:05.90,中文,,0000,0000,0000,,干枯的树叶将会低语 不合时宜的雨水将冲刷大地\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dry leaves will murmur and untimely rains will wash the earth.{\r}
+Dialogue: 0,2:10:08.61,2:10:11.70,中文,,0000,0000,0000,,不会再有宗教的枷锁 或者人情世故拆散我们\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There will be no shackles of religion or relationships to tear us apart.{\r}
+Dialogue: 0,2:10:12.01,2:10:16.35,中文,,0000,0000,0000,,所有这一切将成为 我们心中爱的火焰...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}All that will remain will be the fire of love in our hearts...{\r}
+Dialogue: 0,2:10:16.92,2:10:21.65,中文,,0000,0000,0000,,在那一天，我们将变得不朽\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}On that day... We will become one for eternity.{\r}
+Dialogue: 0,2:11:15.51,2:11:17.27,中文,,0000,0000,0000,,你找我吗，祖母？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You called for me, grandmother?{\r}
+Dialogue: 0,2:11:17.41,2:11:20.74,中文,,0000,0000,0000,,是时候擦除我们的污名 赢回家族的名声了，纳纳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's time to erase the dishonour brought to our family, Nana.{\r}
+Dialogue: 0,2:11:21.88,2:11:23.75,中文,,0000,0000,0000,,把玛斯塔妮抓起来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Arrest Mastani.{\r}
+Dialogue: 0,2:11:24.75,2:11:26.95,中文,,0000,0000,0000,,我们要怎么向佩什瓦交待？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What shall we tell the Peshwa?{\r}
+Dialogue: 0,2:11:27.82,2:11:29.35,中文,,0000,0000,0000,,别害怕\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Don't be scared.{\r}
+Dialogue: 0,2:11:29.96,2:11:32.45,中文,,0000,0000,0000,,如果事关国家的存亡...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}When it comes to protecting the kingdom...{\r}
+Dialogue: 0,2:11:32.99,2:11:35.96,中文,,0000,0000,0000,,即使是最亲的亲人也可以牺牲\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Even the closest relations must be sacrificed.{\r}
+Dialogue: 0,2:12:06.99,2:12:12.56,中文,,0000,0000,0000,,你像祷文一样在我心中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are in my heart, like a prayer.{\r}
+Dialogue: 0,2:12:33.42,2:12:48.67,中文,,0000,0000,0000,,我带着崇拜提起你的名字...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The mention of your name shall be my worship...{\r}
+Dialogue: 0,2:13:08.46,2:13:10.79,中文,,0000,0000,0000,,巴拉吉殿下 我们已经彻底包围了纳西贾\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We have surrounded Nasirjung from all sides, Bajirao.{\r}
+Dialogue: 0,2:13:11.46,2:13:12.79,中文,,0000,0000,0000,,马尔哈·劳和他的部队在北边...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Malhar Rao is in the north with his troops...{\r}
+Dialogue: 0,2:13:12.86,2:13:14.99,中文,,0000,0000,0000,,瓦曼·劳和阿巴吉·潘在南边\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Vaman Rao and Ambaji Panth are in the south.{\r}
+Dialogue: 0,2:13:15.63,2:13:18.60,中文,,0000,0000,0000,,我们要如何进攻？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How shall we strategise the attack?{\r}
+Dialogue: 0,2:13:18.67,2:13:19.96,中文,,0000,0000,0000,,正面进攻\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Head-on.{\r}
+Dialogue: 0,2:13:21.27,2:13:23.70,中文,,0000,0000,0000,,就像生活一样...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Like life does...{\r}
+Dialogue: 0,2:13:26.01,2:13:28.60,中文,,0000,0000,0000,,你不知道它何时会袭击你\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You don't know when it hits you!{\r}
+Dialogue: 0,2:13:28.68,2:13:29.54,中文,,0000,0000,0000,,殿下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My Lord!{\r}
+Dialogue: 0,2:13:29.61,2:13:31.41,中文,,0000,0000,0000,,你在这干嘛，维·辛格？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What are you doing here, Veer Singh?{\r}
+Dialogue: 0,2:13:31.48,2:13:34.38,中文,,0000,0000,0000,,纳纳把玛斯塔妮公主抓起来了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Nana Saheb has arrested Mastani Saheba!{\r}
+Dialogue: 0,2:13:51.30,2:13:53.66,中文,,0000,0000,0000,,巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao!{\r}
+Dialogue: 0,2:14:09.82,2:14:11.65,中文,,0000,0000,0000,,跟上巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Go with Bajirao.{\r}
+Dialogue: 0,2:14:12.59,2:14:13.85,中文,,0000,0000,0000,,准备进攻\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Prepare for attack!{\r}
+Dialogue: 0,2:14:14.29,2:14:18.12,中文,,0000,0000,0000,,(WAR CRY)
+Dialogue: 0,2:16:08.57,2:16:11.87,中文,,0000,0000,0000,,这是你回到本德尔坎德最后的机会\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It's your last chance to return to Bundelkhand.{\r}
+Dialogue: 0,2:16:11.94,2:16:14.50,中文,,0000,0000,0000,,如果我打算回去 就不会被抓住\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I wouldn't have allowed these shackles if I planned to return.{\r}
+Dialogue: 0,2:16:14.58,2:16:19.41,中文,,0000,0000,0000,,我对你深恶痛绝，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}My hatred for you goes beyond its very essence, Mastani.{\r}
+Dialogue: 0,2:16:21.92,2:16:24.98,中文,,0000,0000,0000,,你只是怨恨我不朽的爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Your hatred only immortalizes my love, Nana.{\r}
+Dialogue: 0,2:16:25.82,2:16:26.72,中文,,0000,0000,0000,,把她的孩子带走\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Carry her child away!{\r}
+Dialogue: 0,2:16:26.79,2:16:28.35,中文,,0000,0000,0000,,没必要\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No need for that.{\r}
+Dialogue: 0,2:16:29.49,2:16:31.96,中文,,0000,0000,0000,,巴拉吉的儿子应该自己走出去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao's son shall walk out on his own feet.{\r}
+Dialogue: 0,2:16:34.73,2:16:35.99,中文,,0000,0000,0000,,沙姆谢尔阁下\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Shamsher Bahadur.{\r}
+Dialogue: 0,2:16:41.37,2:16:42.30,中文,,0000,0000,0000,,谁是勇士？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who is a warrior?{\r}
+Dialogue: 0,2:16:42.87,2:16:44.90,中文,,0000,0000,0000,,他，没有畏惧的人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He, who fears none.{\r}
+Dialogue: 0,2:16:45.71,2:16:47.30,中文,,0000,0000,0000,,他相信什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is self belief?{\r}
+Dialogue: 0,2:16:47.91,2:16:49.50,中文,,0000,0000,0000,,胜利的信号\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Sign of victory.{\r}
+Dialogue: 0,2:16:49.81,2:16:50.90,中文,,0000,0000,0000,,害怕什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Fear?{\r}
+Dialogue: 0,2:16:50.98,2:16:52.67,中文,,0000,0000,0000,,失败的恐惧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Another name for defeat.{\r}
+Dialogue: 0,2:16:53.41,2:16:54.64,中文,,0000,0000,0000,,谁是你的榜样？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Who shall be your ideal?{\r}
+Dialogue: 0,2:16:54.88,2:16:57.65,中文,,0000,0000,0000,,佩什瓦·巴拉吉·巴拉德\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Peshwa Bajirao Ballad.{\r}
+Dialogue: 0,2:17:02.59,2:17:03.72,中文,,0000,0000,0000,,再见\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Goodbye.{\r}
+Dialogue: 0,2:17:04.36,2:17:06.29,中文,,0000,0000,0000,,再见，妈妈\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Goodbye, Mother.{\r}
+Dialogue: 0,2:17:37.29,2:17:43.63,中文,,0000,0000,0000,,印度只有一名勇士 连续取得了四十场战斗的胜利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There's only one warrior in all of India to have won forty consecutive battles.{\r}
+Dialogue: 0,2:17:43.96,2:17:46.59,中文,,0000,0000,0000,,就是佩什瓦·巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Peshwa Bajirao!{\r}
+Dialogue: 0,2:17:47.00,2:17:50.44,中文,,0000,0000,0000,,纳西贾投降了...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Nasirjung has surrendered...{\r}
+Dialogue: 0,2:17:50.77,2:17:52.67,中文,,0000,0000,0000,,这是又一个马拉地大捷\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Here's to one more Maratha victory!{\r}
+Dialogue: 0,2:17:53.64,2:17:55.37,中文,,0000,0000,0000,,也是我的失败\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And my loss.{\r}
+Dialogue: 0,2:17:56.48,2:17:57.53,中文,,0000,0000,0000,,我不明白...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I don't understand...{\r}
+Dialogue: 0,2:17:57.61,2:18:00.94,中文,,0000,0000,0000,,宣战吧，接下来我要进攻普纳\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Declare war... I shall attack Pune next.{\r}
+Dialogue: 0,2:18:02.88,2:18:05.32,中文,,0000,0000,0000,,我要救出玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall release Mastani.{\r}{\r}
+Dialogue: 0,2:18:05.59,2:18:09.52,中文,,0000,0000,0000,,你要和自己的家人为敌？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You will fight against your own family?{\r}
+Dialogue: 0,2:18:09.59,2:18:11.85,中文,,0000,0000,0000,,你要因为玛斯塔妮和我们为敌？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You will turn against us for Mastani?{\r}
+Dialogue: 0,2:18:11.93,2:18:16.42,中文,,0000,0000,0000,,你要把谁杀了？ 母亲，喀什，还是你儿子...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And who will you kill? Mother, Kashi or your son...{\r}
+Dialogue: 0,2:18:58.41,2:18:58.93,中文,,0000,0000,0000,,巴拉吉...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao...{\r}
+Dialogue: 0,2:18:59.57,2:19:01.40,中文,,0000,0000,0000,,我走了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I take your leave.{\r}
+Dialogue: 0,2:19:01.68,2:19:05.77,中文,,0000,0000,0000,,我们必须确定这次 胜利可以改变他的心意...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We must certify this victory before Nasirjung can change his mind...{\r}
+Dialogue: 0,2:19:08.58,2:19:09.57,中文,,0000,0000,0000,,我很快回来\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I'll be back soon.{\r}
+Dialogue: 0,2:19:13.45,2:19:14.75,中文,,0000,0000,0000,,请进来，大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Please come inside, My Lord.{\r}
+Dialogue: 0,2:19:15.26,2:19:16.81,中文,,0000,0000,0000,,大风会让你的发热加重\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This breeze could aggravate your fever.{\r}
+Dialogue: 0,2:19:16.89,2:19:24.49,中文,,0000,0000,0000,,我在等人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I am waiting for someone...{\r}
+Dialogue: 0,2:19:26.83,2:19:32.29,中文,,0000,0000,0000,,玛斯塔妮，你没得选择了 说出你最后的愿望\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani, you have run out of options, so name your last wish...{\r}
+Dialogue: 0,2:19:32.47,2:19:34.80,中文,,0000,0000,0000,,你想怎么死？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How would you like to die?{\r}
+Dialogue: 0,2:19:36.51,2:19:38.34,中文,,0000,0000,0000,,和佩什瓦·巴拉吉一起死\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}With Peshwa Bajirao!{\r}
+Dialogue: 0,2:19:45.72,2:19:48.42,中文,,0000,0000,0000,,这病我也没办法\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This ailment is beyond my understanding, Sir.{\r}
+Dialogue: 0,2:19:48.86,2:19:52.42,中文,,0000,0000,0000,,高烧没有减退\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The fever shows no sign of subsiding.{\r}
+Dialogue: 0,2:19:52.69,2:19:55.99,中文,,0000,0000,0000,,是时候联系喀什和妈妈了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}It is time to call Kashi and Mother.{\r}
+Dialogue: 0,2:19:56.50,2:19:59.36,中文,,0000,0000,0000,,和家人一起也许对他的健康有利\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Being with family might improve his health.{\r}
+Dialogue: 0,2:20:52.02,2:20:56.72,中文,,0000,0000,0000,,国王不同意我们的做法，祖母\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The king's orders are against us, Grandmother.{\r}
+Dialogue: 0,2:20:56.89,2:20:58.45,中文,,0000,0000,0000,,你在听吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are you listening?{\r}
+Dialogue: 0,2:20:59.46,2:21:02.39,中文,,0000,0000,0000,,他说他不能失去 巴拉吉那样的勇士\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He says he cannot lose a warrior like Bajirao...{\r}
+Dialogue: 0,2:21:03.60,2:21:06.86,中文,,0000,0000,0000,,因此我们必须释放玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And hence we must release Mastani.{\r}
+Dialogue: 0,2:21:07.63,2:21:09.33,中文,,0000,0000,0000,,我明天要去首都\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall travel to the capital tomorrow.{\r}
+Dialogue: 0,2:21:10.27,2:21:11.53,中文,,0000,0000,0000,,我要和国王谈谈\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall speak to the king.{\r}
+Dialogue: 0,2:21:11.61,2:21:13.00,中文,,0000,0000,0000,,我明天要去拉维奇迪...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall travel to Ravelkhedi tomorrow...{\r}
+Dialogue: 0,2:21:15.01,2:21:16.64,中文,,0000,0000,0000,,巴拉吉生病了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao is unwell.{\r}
+Dialogue: 0,2:21:17.28,2:21:19.37,中文,,0000,0000,0000,,我和他回来之前不会出事\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And nothing can happen till I return with him.{\r}
+Dialogue: 0,2:21:25.55,2:21:26.92,中文,,0000,0000,0000,,你害怕了吗，祖母？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Are you scared, Grandmother?{\r}
+Dialogue: 0,2:21:27.59,2:21:29.61,中文,,0000,0000,0000,,你们都得对玛斯塔妮行礼\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You all may bow down before Mastani...{\r}
+Dialogue: 0,2:21:30.62,2:21:32.68,中文,,0000,0000,0000,,但我不会\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I shall not!{\r}
+Dialogue: 0,2:21:34.33,2:21:35.82,中文,,0000,0000,0000,,我不会\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I shall not!{\r}
+Dialogue: 0,2:21:46.64,2:21:48.87,中文,,0000,0000,0000,,看看谁来了，大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Look who is here, My Lord.{\r}
+Dialogue: 0,2:22:12.63,2:22:13.60,中文,,0000,0000,0000,,玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani{\r}
+Dialogue: 0,2:22:27.51,2:22:28.88,中文,,0000,0000,0000,,沙姆谢尔好吗？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}ls Shamsher well?{\r}
+Dialogue: 0,2:22:30.38,2:22:31.28,英文,,0000,0000,0000,,是的，他很好\N{\fnSimHei\fs18\fscy110\1c&HEAEAEA&}{\fnSimSun\fs12\fscy100\1c&H0080FF&}Yes, he is.{\r}{\r}
+Dialogue: 0,2:22:36.69,2:22:38.28,中文,,0000,0000,0000,,他在学骑马\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}He's learning to ride.{\r}
+Dialogue: 0,2:22:41.66,2:22:42.65,中文,,0000,0000,0000,,喀什呢？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Kashi?{\r}
+Dialogue: 0,2:22:45.97,2:22:47.33,中文,,0000,0000,0000,,她也很好...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She's well too...{\r}
+Dialogue: 0,2:22:49.90,2:22:54.43,中文,,0000,0000,0000,,忙着伪装自己的铁石心肠\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Busy pretending that her heart has turned to stone.{\r}
+Dialogue: 0,2:23:07.42,2:23:09.75,中文,,0000,0000,0000,,我需要你阻止它\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I need your stamp on this.{\r}
+Dialogue: 0,2:23:10.29,2:23:11.31,中文,,0000,0000,0000,,再说吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Later.{\r}
+Dialogue: 0,2:23:11.46,2:23:12.39,中文,,0000,0000,0000,,这不能等\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}This can't wait.{\r}
+Dialogue: 0,2:23:12.69,2:23:13.99,中文,,0000,0000,0000,,什么事这么急？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is so urgent?{\r}
+Dialogue: 0,2:23:14.29,2:23:15.66,中文,,0000,0000,0000,,玛斯塔妮的释放命令\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani's release orders.{\r}
+Dialogue: 0,2:23:17.50,2:23:19.43,中文,,0000,0000,0000,,你疯了吗，喀什？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Have you lost your mind, Kashi?{\r}
+Dialogue: 0,2:23:19.50,2:23:21.90,中文,,0000,0000,0000,,只有她能救巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Only she can save Bajirao.{\r}
+Dialogue: 0,2:23:23.50,2:23:24.60,中文,,0000,0000,0000,,我不能批准\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I cannot approve this.{\r}
+Dialogue: 0,2:23:24.67,2:23:26.64,中文,,0000,0000,0000,,我不能眼睁睁看着巴拉吉死去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I cannot see Bajirao losing himself.{\r}
+Dialogue: 0,2:23:28.38,2:23:32.87,中文,,0000,0000,0000,,战无不胜的男人就要 死在自己家人手里了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The man who never lost a battle is losing to his own family.{\r}
+Dialogue: 0,2:23:32.95,2:23:34.71,中文,,0000,0000,0000,,我不能批准\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I cannot approve that!{\r}
+Dialogue: 0,2:23:36.62,2:23:37.61,中文,,0000,0000,0000,,批准吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stamp this!{\r}
+Dialogue: 0,2:23:38.49,2:23:41.89,中文,,0000,0000,0000,,不能让她进佩什瓦家的门\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She has no rights in the Peshwa family.{\r}
+Dialogue: 0,2:23:41.96,2:23:44.48,中文,,0000,0000,0000,,但我愿意...我要求如此\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But I do... And I'm demanding it.{\r}
+Dialogue: 0,2:23:45.86,2:23:47.69,中文,,0000,0000,0000,,以我家族夫人的身份\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}As the lady of this house.{\r}
+Dialogue: 0,2:23:49.30,2:23:50.32,中文,,0000,0000,0000,,批准吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Stamp this.{\r}
+Dialogue: 0,2:23:56.67,2:23:58.80,中文,,0000,0000,0000,,马上把这个送给纳纳大人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Take this to Nana Saheb right away.{\r}
+Dialogue: 0,2:24:31.47,2:24:33.44,中文,,0000,0000,0000,,有什么消息？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is the news from Ravelkhedi?{\r}
+Dialogue: 0,2:24:33.71,2:24:38.64,中文,,0000,0000,0000,,佩什瓦怎么样了？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}How is the Peshwa?{\r}
+Dialogue: 0,2:24:39.38,2:24:41.51,中文,,0000,0000,0000,,我也在等他的消息\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}I too await news of him.{\r}
+Dialogue: 0,2:24:41.85,2:24:44.37,中文,,0000,0000,0000,,在那之前，为他祈祷吧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Until then, pray for him.{\r}
+Dialogue: 0,2:24:47.50,2:24:53.12,中文,,0000,0000,0000,,(PRAYERS)
+Dialogue: 0,2:25:24.79,2:25:26.99,中文,,0000,0000,0000,,上面说什么？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}What is the message?{\r}
+Dialogue: 0,2:25:27.26,2:25:34.67,中文,,0000,0000,0000,,祖母下令释放玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Grandmother has ordered Mastani's release.{\r}
+Dialogue: 0,2:25:50.98,2:25:52.51,中文,,0000,0000,0000,,你去哪，巴拉吉？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Where are you going, Bajirao?{\r}
+Dialogue: 0,2:25:52.59,2:25:53.88,中文,,0000,0000,0000,,看，沙尼瓦瓦达宫着火了\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Look, Shaniwar Wada is on fire!{\r}
+Dialogue: 0,2:25:53.95,2:25:55.68,中文,,0000,0000,0000,,不，不是...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No, it isn't...{\r}
+Dialogue: 0,2:25:55.99,2:26:00.32,中文,,0000,0000,0000,,巴拉吉，这里不是普纳 我们在拉维拉迪\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao, this isn't Pune... We are in Ravelkhedi.{\r}
+Dialogue: 0,2:26:00.73,2:26:02.49,中文,,0000,0000,0000,,你在发烧\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You are burning up!{\r}
+Dialogue: 0,2:26:02.56,2:26:03.59,中文,,0000,0000,0000,,玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Mastani!{\r}
+Dialogue: 0,2:26:04.56,2:26:07.47,中文,,0000,0000,0000,,她在路上，巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}She is on her way, Bajirao.{\r}
+Dialogue: 0,2:26:08.80,2:26:11.64,中文,,0000,0000,0000,,你应该卧床休息\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}You've been advised bed rest.{\r}
+Dialogue: 0,2:26:31.89,2:26:32.86,中文,,0000,0000,0000,,巴拉吉\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao!{\r}
+Dialogue: 0,2:26:32.93,2:26:35.49,中文,,0000,0000,0000,,敌人...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The enemy...{\r}
+Dialogue: 0,2:26:36.56,2:26:37.72,中文,,0000,0000,0000,,没有人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}No one's there!{\r}
+Dialogue: 0,2:26:37.80,2:26:41.29,中文,,0000,0000,0000,,举着黑旗的敌人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Enemy with black flags!{\r}
+Dialogue: 0,2:26:41.80,2:26:43.00,中文,,0000,0000,0000,,什么敌人？\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Which enemy?{\r}
+Dialogue: 0,2:26:43.30,2:26:44.70,中文,,0000,0000,0000,,命运...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Destiny...{\r}
+Dialogue: 0,2:26:45.84,2:26:47.36,中文,,0000,0000,0000,,神...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}God...{\r}
+Dialogue: 0,2:26:48.44,2:26:50.64,中文,,0000,0000,0000,,不能带走玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}{\fnSimSun\fs12\fscy100\1c&H0080FF&}Can't take Mastani away.{\r}{\r}
+Dialogue: 0,2:26:54.88,2:26:56.68,中文,,0000,0000,0000,,巴拉吉...\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Bajirao...{\r}
+Dialogue: 0,2:27:17.80,2:27:22.26,中文,,0000,0000,0000,,夕阳和月亮同时出现时 我们就能见面\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}We shall meet when the setting sun and rising moon appear together in the sky.{\r}
+Dialogue: 0,2:29:41.61,2:29:47.28,中文,,0000,0000,0000,,天空将为之色变 一切都沐浴在橙光中\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}The sky will change colour, and all will be bathed in an orange glow.{\r}
+Dialogue: 0,2:30:08.37,2:30:12.44,中文,,0000,0000,0000,,欲望之风将会吹拂 雷云会布满天空\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Winds of desire will blow, And thundering clouds will fill the skies.{\r}
+Dialogue: 0,2:30:47.48,2:30:51.64,中文,,0000,0000,0000,,干枯的树叶会低语 不合时宜的雨水冲刷大地\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Dry leaves will murmur and untimely rains will wash the earth.{\r}
+Dialogue: 0,2:31:06.53,2:31:10.87,中文,,0000,0000,0000,,没有什么能将我们拆散\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}There will be no shackles of religion or relationships to tear us apart.{\r}
+Dialogue: 0,2:31:12.74,2:31:15.77,中文,,0000,0000,0000,,一切都将成为我们爱的见证\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}All that will remain will be the fire of love in our hearts...{\r}
+Dialogue: 0,2:31:16.88,2:31:20.71,中文,,0000,0000,0000,,到那天，我们将不朽\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}On that day... We will become one for eternity.{\r}
+Dialogue: 0,2:32:15.80,2:32:19.57,中文,,0000,0000,0000,,我们会在一起，玛斯塔妮\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Our hearts beat together, Mastani.{\r}
+Dialogue: 0,2:32:20.81,2:32:23.28,中文,,0000,0000,0000,,直到死去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}And cease together, too.{\r}
+Dialogue: 0,2:32:38.79,2:32:42.89,中文,,0000,0000,0000,,命运和时间将成为 我们的见证人\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}On a day when fate and time stood witness...{\r}
+Dialogue: 0,2:32:42.96,2:32:47.02,中文,,0000,0000,0000,,两个相爱的人一起死去\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Two star crossed lovers breathed their last.{\r}
+Dialogue: 0,2:32:47.53,2:32:51.94,中文,,0000,0000,0000,,他们将看到陨落的 星星实现一切愿望\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They say witnessing a falling star fulfills any wish...{\r}
+Dialogue: 0,2:32:52.47,2:32:58.93,中文,,0000,0000,0000,,但这两颗陨落的星星 只想彼此依靠\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}But these two stars fell to earth wishing only to belong to each other.{\r}
+Dialogue: 0,2:32:59.35,2:33:01.40,中文,,0000,0000,0000,,他们坚持着不朽的爱\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}They stand testament to eternal love...{\r}
+Dialogue: 0,2:33:01.48,2:33:03.68,中文,,0000,0000,0000,,爱情，与宗教无关\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Love, that knows no religion.{\r}
+Dialogue: 0,2:33:04.25,2:33:07.55,中文,,0000,0000,0000,,爱是神的礼物 爱是至高无上的\N{\fnSimSun\fs12\fscy100\1c&H0080FF&}Love that is a gift from God... Love that in itself is Supreme.{\r}
+
+

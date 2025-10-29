@@ -1,0 +1,1804 @@
+[Script Info]
+;SrtEdit 6.3.2012.1001
+;Copyright(C) 2005-2012 Yuan Weiguo
+
+Title: 
+Original Script: 
+Original Translation: 
+Original Timing: 
+Original Editing: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 384
+PlayResY: 288
+Timer: 100.0000
+Synch Point: 
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: 中文简体,STKaiti,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,0,1,0,2,20,20,0,134
+Style: 英文,FZZongYi-M05S,12,&H0000FFFF,&H0000FFFF,&H00000000,&H80000000,0,-1,0,0,100,100,0,0,0,1,0,2,20,20,0,134
+Style: Default,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,3,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:01:28.54,0:01:33.15,英文,,0000,0000,0000,,The white zone is for loading and unloading of passengers only.
+Dialogue: 0,0:01:33.45,0:01:36.06,英文,,0000,0000,0000,,There is no stopping in the red zone.
+Dialogue: 0,0:01:37.10,0:01:42.06,英文,,0000,0000,0000,,The white zone is for loading and unloading of passengers only.
+Dialogue: 0,0:01:42.37,0:01:45.11,英文,,0000,0000,0000,,There is no stopping in the red zone.
+Dialogue: 0,0:01:47.19,0:01:51.93,英文,,0000,0000,0000,,The white zone is for loading and unloading of passengers only.
+Dialogue: 0,0:01:52.15,0:01:55.54,英文,,0000,0000,0000,,There is no stopping in the red zone.
+Dialogue: 0,0:01:55.85,0:02:00.81,英文,,0000,0000,0000,,The white zone is for loading and unloading of passengers only.
+Dialogue: 0,0:02:01.07,0:02:03.94,英文,,0000,0000,0000,,There is no stopping in the red zone.
+Dialogue: 0,0:02:06.24,0:02:09.51,英文,,0000,0000,0000,,Hello. Take this flower from the Religious Consciousness Church.
+Dialogue: 0,0:02:09.77,0:02:14.07,英文,,0000,0000,0000,,- Would you care to make a donation? - No, but thank you anyway.
+Dialogue: 0,0:02:15.33,0:02:19.77,英文,,0000,0000,0000,,The red zone is for loading and unloading of passengers only.
+Dialogue: 0,0:02:20.07,0:02:23.12,英文,,0000,0000,0000,,There is no stopping in the white zone.
+Dialogue: 0,0:02:23.38,0:02:26.47,英文,,0000,0000,0000,,No. The white zone is for loading and unloading.
+Dialogue: 0,0:02:26.73,0:02:29.69,英文,,0000,0000,0000,,There's no stopping in the red zone.
+Dialogue: 0,0:02:30.60,0:02:33.60,英文,,0000,0000,0000,,The red zone's always been for loading and unloading.
+Dialogue: 0,0:02:33.90,0:02:36.12,英文,,0000,0000,0000,,There's never stopping in a white zone.
+Dialogue: 0,0:02:36.38,0:02:40.34,英文,,0000,0000,0000,,Don't tell me which zone is for stopping and which is for loading.
+Dialogue: 0,0:02:40.65,0:02:44.04,英文,,0000,0000,0000,,Listen, Betty, don't start up with your white zone shit again.
+Dialogue: 0,0:02:47.34,0:02:51.21,英文,,0000,0000,0000,,Hello. Take this flower from the Religious Consciousness Church.
+Dialogue: 0,0:02:51.52,0:02:55.78,英文,,0000,0000,0000,,- Would you like to make a donation? - No, thanks. We gave at the office.
+Dialogue: 0,0:03:04.35,0:03:07.65,英文,,0000,0000,0000,,Would you put all your metal objects into this dish, please?
+Dialogue: 0,0:03:16.22,0:03:18.79,英文,,0000,0000,0000,,There's just no stopping in a white zone.
+Dialogue: 0,0:03:19.05,0:03:20.83,英文,,0000,0000,0000,,Really, Vernon, why pretend?
+Dialogue: 0,0:03:21.05,0:03:23.83,英文,,0000,0000,0000,,We both know what you're talking about.
+Dialogue: 0,0:03:24.05,0:03:25.79,英文,,0000,0000,0000,,You want me to have an abortion.
+Dialogue: 0,0:03:26.05,0:03:29.18,英文,,0000,0000,0000,,It's the only sensible thing to do. If it's done properly,
+Dialogue: 0,0:03:29.49,0:03:32.62,英文,,0000,0000,0000,,therapeutically, there's no danger involved.
+Dialogue: 0,0:03:32.92,0:03:34.88,英文,,0000,0000,0000,,Taxi!
+Dialogue: 0,0:03:41.97,0:03:43.36,英文,,0000,0000,0000,,I'll be back in a minute.
+Dialogue: 0,0:03:50.62,0:03:54.71,英文,,0000,0000,0000,,Hello, sir, take this flower from the Religious Consciousness Church.
+Dialogue: 0,0:03:55.02,0:03:57.10,英文,,0000,0000,0000,,Would you care...
+Dialogue: 0,0:04:12.46,0:04:14.98,英文,,0000,0000,0000,,- Hey, Larry, where's the forklift? - Forklift?
+Dialogue: 0,0:04:15.28,0:04:18.07,英文,,0000,0000,0000,,It's over there by the baggage loader.
+Dialogue: 0,0:04:21.94,0:04:23.76,英文,,0000,0000,0000,,Look out!
+Dialogue: 0,0:04:35.25,0:04:37.42,英文,,0000,0000,0000,,- Elaine. - Ted!
+Dialogue: 0,0:04:38.20,0:04:40.20,英文,,0000,0000,0000,,I came home early and found your note.
+Dialogue: 0,0:04:40.51,0:04:44.34,英文,,0000,0000,0000,,I guess you meant for me to read it later. I've got to talk to you.
+Dialogue: 0,0:04:44.55,0:04:46.77,英文,,0000,0000,0000,,I don't want to go over it any more.
+Dialogue: 0,0:04:47.12,0:04:49.64,英文,,0000,0000,0000,,Things haven't been right for a long time,
+Dialogue: 0,0:04:49.90,0:04:52.82,英文,,0000,0000,0000,,but it'll be different, like in the beginning.
+Dialogue: 0,0:04:53.12,0:04:54.95,英文,,0000,0000,0000,,Just be patient and I'll work things out.
+Dialogue: 0,0:04:55.21,0:04:58.30,英文,,0000,0000,0000,,I have been patient and I've tried to help,
+Dialogue: 0,0:04:58.60,0:05:01.34,英文,,0000,0000,0000,,but you wouldn't even let me do that.
+Dialogue: 0,0:05:02.99,0:05:05.60,英文,,0000,0000,0000,,Don't you feel anything for me any more?
+Dialogue: 0,0:05:05.91,0:05:10.00,英文,,0000,0000,0000,,It takes so many things to make love last.
+Dialogue: 0,0:05:10.21,0:05:12.39,英文,,0000,0000,0000,,Most of all, it takes respect.
+Dialogue: 0,0:05:12.69,0:05:15.82,英文,,0000,0000,0000,,I can't live with a man I don't respect!
+Dialogue: 0,0:05:22.35,0:05:23.96,英文,,0000,0000,0000,,What a pisser.
+Dialogue: 0,0:05:33.39,0:05:35.70,英文,,0000,0000,0000,,Captain Oveur, white courtesy phone.
+Dialogue: 0,0:05:36.00,0:05:39.31,英文,,0000,0000,0000,,Captain Clarence Oveur, white courtesy phone.
+Dialogue: 0,0:05:44.53,0:05:46.70,英文,,0000,0000,0000,,No, the white phone!
+Dialogue: 0,0:05:50.05,0:05:51.18,英文,,0000,0000,0000,,This is Captain Oveur.
+Dialogue: 0,0:05:51.44,0:05:53.83,英文,,0000,0000,0000,,One moment for your call from the Mayo Clinic.
+Dialogue: 0,0:05:54.10,0:05:57.57,英文,,0000,0000,0000,,Captain Oveur, white courtesy phone.
+Dialogue: 0,0:05:57.84,0:06:00.23,英文,,0000,0000,0000,,- I've got it! - Thank you.
+Dialogue: 0,0:06:00.49,0:06:01.97,英文,,0000,0000,0000,,Go ahead with your call.
+Dialogue: 0,0:06:02.23,0:06:04.19,英文,,0000,0000,0000,,This is Dr Brody at the Mayo Clinic.
+Dialogue: 0,0:06:04.40,0:06:06.93,英文,,0000,0000,0000,,There's a passenger on your Chicago flight,
+Dialogue: 0,0:06:07.23,0:06:10.23,英文,,0000,0000,0000,,a little girl named Lisa Davis, en route to Minneapolis.
+Dialogue: 0,0:06:10.45,0:06:12.45,英文,,0000,0000,0000,,She's scheduled for a heart transplant.
+Dialogue: 0,0:06:12.75,0:06:14.88,英文,,0000,0000,0000,,Tell her mother we found a donor.
+Dialogue: 0,0:06:15.19,0:06:17.02,英文,,0000,0000,0000,,The heart is ready for surgery.
+Dialogue: 0,0:06:17.28,0:06:20.58,英文,,0000,0000,0000,,We must have the recipient on the operating table within six hours.
+Dialogue: 0,0:06:20.93,0:06:23.93,英文,,0000,0000,0000,,Make sure she's kept in a reclined position,
+Dialogue: 0,0:06:24.19,0:06:27.24,英文,,0000,0000,0000,,and that a continuous watch is kept on her IV.
+Dialogue: 0,0:06:27.45,0:06:29.46,英文,,0000,0000,0000,,It's very important she remain calm...
+Dialogue: 0,0:06:29.67,0:06:31.72,英文,,0000,0000,0000,,Excuse me, this is the operator.
+Dialogue: 0,0:06:32.02,0:06:35.85,英文,,0000,0000,0000,,I have an emergency call on line five from a Mr Hamm.
+Dialogue: 0,0:06:36.11,0:06:38.15,英文,,0000,0000,0000,,Give me Hamm on five, hold the Mayo.
+Dialogue: 0,0:07:05.60,0:07:08.90,英文,,0000,0000,0000,,You'll be back tomorrow night. We'll have dinner. We'll talk things over.
+Dialogue: 0,0:07:09.21,0:07:11.95,英文,,0000,0000,0000,,I won't be back. I've requested the Atlanta run.
+Dialogue: 0,0:07:12.25,0:07:15.64,英文,,0000,0000,0000,,Elaine... I promise I can change.
+Dialogue: 0,0:07:15.95,0:07:20.12,英文,,0000,0000,0000,,Then why didn't you take the job that Louie Netz offered you at Boeing?
+Dialogue: 0,0:07:20.43,0:07:23.95,英文,,0000,0000,0000,,I haven't been able to get near a plane since the war.
+Dialogue: 0,0:07:24.21,0:07:27.43,英文,,0000,0000,0000,,And they wouldn't hire me because of my war record.
+Dialogue: 0,0:07:27.69,0:07:30.95,英文,,0000,0000,0000,,War record? You're the only one keeping that alive.
+Dialogue: 0,0:07:31.26,0:07:33.52,英文,,0000,0000,0000,,For everyone else, it's ancient history.
+Dialogue: 0,0:07:33.82,0:07:37.00,英文,,0000,0000,0000,,- You expect me to believe that? - It's the truth.
+Dialogue: 0,0:07:37.26,0:07:40.00,英文,,0000,0000,0000,,What's hurt you the most is your record since the war -
+Dialogue: 0,0:07:40.26,0:07:41.78,英文,,0000,0000,0000,,different cities, different jobs -
+Dialogue: 0,0:07:42.04,0:07:45.30,英文,,0000,0000,0000,,and not one of them shows you can accept any real responsibility.
+Dialogue: 0,0:07:45.61,0:07:48.44,英文,,0000,0000,0000,,- Elaine, just give me one more... - It's too late, Ted.
+Dialogue: 0,0:07:48.70,0:07:50.70,英文,,0000,0000,0000,,When I get back to Chicago,
+Dialogue: 0,0:07:51.00,0:07:54.65,英文,,0000,0000,0000,,I'm going to start my life all over again. I'm sorry.
+Dialogue: 0,0:07:58.26,0:08:01.79,英文,,0000,0000,0000,,Excuse me, take this flower from the Church of Religious...
+Dialogue: 0,0:08:11.75,0:08:13.70,英文,,0000,0000,0000,,Hi! Well, good evening.
+Dialogue: 0,0:08:13.96,0:08:17.49,英文,,0000,0000,0000,,There you go. Just follow them to the back.
+Dialogue: 0,0:08:21.40,0:08:24.23,英文,,0000,0000,0000,,Any word on that storm lifting over Salt Lake, Clarence?
+Dialogue: 0,0:08:24.58,0:08:26.32,英文,,0000,0000,0000,,No, not likely, Victor.
+Dialogue: 0,0:08:26.58,0:08:31.19,英文,,0000,0000,0000,,I just reviewed the area report for 1600 hours through 2400.
+Dialogue: 0,0:08:31.45,0:08:33.41,英文,,0000,0000,0000,,There's an occluded front stalled over the Dakotas,
+Dialogue: 0,0:08:33.67,0:08:35.75,英文,,0000,0000,0000,,backed up all the way to Utah.
+Dialogue: 0,0:08:36.10,0:08:40.06,英文,,0000,0000,0000,,If she decides to push over the Great Lakes, it could get plenty soupy.
+Dialogue: 0,0:08:40.28,0:08:42.06,英文,,0000,0000,0000,,What about that southern route around Tulsa?
+Dialogue: 0,0:08:42.32,0:08:44.58,英文,,0000,0000,0000,,I double-checked the terminal forecast,
+Dialogue: 0,0:08:44.89,0:08:47.76,英文,,0000,0000,0000,,and the wind's aloft and IFR ceilings all the way.
+Dialogue: 0,0:08:48.02,0:08:49.54,英文,,0000,0000,0000,,Where do they top out?
+Dialogue: 0,0:08:49.80,0:08:53.59,英文,,0000,0000,0000,,Light scattered cover at 20,000, icing around 18.
+Dialogue: 0,0:08:55.06,0:08:59.28,英文,,0000,0000,0000,,- Looks like over Denver is best. - Denver it is.
+Dialogue: 0,0:08:59.59,0:09:00.72,英文,,0000,0000,0000,,Sorry, Clarence.
+Dialogue: 0,0:09:01.02,0:09:04.07,英文,,0000,0000,0000,,Latest report shows everything's socked in from Salt Lake to Lincoln.
+Dialogue: 0,0:09:04.33,0:09:05.94,英文,,0000,0000,0000,,Hi, Roger. Glad to have you aboard.
+Dialogue: 0,0:09:06.24,0:09:08.02,英文,,0000,0000,0000,,Victor, this is Roger Murdock. Victor Basta.
+Dialogue: 0,0:09:08.29,0:09:10.24,英文,,0000,0000,0000,,- How do you do? - Nice to meet you.
+Dialogue: 0,0:09:10.50,0:09:13.07,英文,,0000,0000,0000,,I was telling Victor I reviewed the area report
+Dialogue: 0,0:09:13.33,0:09:15.98,英文,,0000,0000,0000,,for 1600 hours through 2400.
+Dialogue: 0,0:09:17.46,0:09:20.33,英文,,0000,0000,0000,,There's an occluded front stalled over the Dakotas.
+Dialogue: 0,0:09:29.94,0:09:32.08,英文,,0000,0000,0000,,There you go. Thank you.
+Dialogue: 0,0:09:32.99,0:09:35.56,英文,,0000,0000,0000,,Is Elaine Dickinson on this flight?
+Dialogue: 0,0:09:35.86,0:09:39.47,英文,,0000,0000,0000,,The whole flight crew has boarded. Let me see.
+Dialogue: 0,0:09:40.73,0:09:42.38,英文,,0000,0000,0000,,Oh, yes. She is on board.
+Dialogue: 0,0:09:45.64,0:09:49.30,英文,,0000,0000,0000,,I'd like one ticket to Chicago. No baggage.
+Dialogue: 0,0:09:55.17,0:09:58.61,英文,,0000,0000,0000,,- Smoking or non-smoking? - Smoking, please.
+Dialogue: 0,0:10:00.78,0:10:03.17,英文,,0000,0000,0000,,There. Have a nice trip.
+Dialogue: 0,0:10:19.35,0:10:21.66,英文,,0000,0000,0000,,Striker, this is Red Leader Four.
+Dialogue: 0,0:10:21.96,0:10:24.13,英文,,0000,0000,0000,,Primary target covered by fog.
+Dialogue: 0,0:10:24.40,0:10:26.61,英文,,0000,0000,0000,,Decision to proceed is yours.
+Dialogue: 0,0:10:26.88,0:10:29.40,英文,,0000,0000,0000,,The decision is yours...
+Dialogue: 0,0:10:29.61,0:10:32.53,英文,,0000,0000,0000,,is yours... is yours...
+Dialogue: 0,0:11:49.90,0:11:51.77,英文,,0000,0000,0000,,Nervous?
+Dialogue: 0,0:11:52.07,0:11:53.60,英文,,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:53.86,0:11:56.29,英文,,0000,0000,0000,,First time?
+Dialogue: 0,0:11:56.51,0:11:59.08,英文,,0000,0000,0000,,No. I've been nervous lots of times.
+Dialogue: 0,0:12:05.64,0:12:09.38,英文,,0000,0000,0000,,Hi. We'll be taking off real soon, so I better fasten you in tight.
+Dialogue: 0,0:12:09.64,0:12:12.39,英文,,0000,0000,0000,,Thank you. Oh, Mother, this is so exciting!
+Dialogue: 0,0:12:12.65,0:12:15.43,英文,,0000,0000,0000,,I know, but remember, you must get some rest.
+Dialogue: 0,0:12:15.65,0:12:19.39,英文,,0000,0000,0000,,That's good advice. You relax, and I'll be back after we take off.
+Dialogue: 0,0:12:19.69,0:12:20.82,英文,,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:23.39,0:12:27.39,英文,,0000,0000,0000,,- I'm going to miss you so much. - I'm going to miss you, too.
+Dialogue: 0,0:12:27.69,0:12:29.83,英文,,0000,0000,0000,,Promise you'll write?
+Dialogue: 0,0:12:30.13,0:12:31.96,英文,,0000,0000,0000,,Every day.
+Dialogue: 0,0:12:33.39,0:12:34.74,英文,,0000,0000,0000,,Bill!
+Dialogue: 0,0:12:35.00,0:12:37.52,英文,,0000,0000,0000,,Better get on board, son.
+Dialogue: 0,0:12:39.09,0:12:40.92,英文,,0000,0000,0000,,All aboard!
+Dialogue: 0,0:12:41.18,0:12:44.22,英文,,0000,0000,0000,,209er to ground control. We're ready to taxi.
+Dialogue: 0,0:12:44.53,0:12:47.18,英文,,0000,0000,0000,,- Goodbye, Bill! - Goodbye, darling!
+Dialogue: 0,0:12:47.44,0:12:49.18,英文,,0000,0000,0000,,I love you, darling!
+Dialogue: 0,0:12:49.40,0:12:51.83,英文,,0000,0000,0000,,209er, taxi to runway19er.
+Dialogue: 0,0:12:54.53,0:12:56.05,英文,,0000,0000,0000,,Goodbye, darling!
+Dialogue: 0,0:12:56.35,0:12:59.75,英文,,0000,0000,0000,,Have your picture taken the minute you get there and send me one.
+Dialogue: 0,0:13:00.05,0:13:01.92,英文,,0000,0000,0000,,OK. Here, hurry.
+Dialogue: 0,0:13:04.57,0:13:07.40,英文,,0000,0000,0000,,It's your watch. You shouldn't. You're going to need this.
+Dialogue: 0,0:13:07.71,0:13:09.88,英文,,0000,0000,0000,,It's all right. It doesn't work.
+Dialogue: 0,0:13:10.23,0:13:11.84,英文,,0000,0000,0000,,- Bill! - Goodbye, darling!
+Dialogue: 0,0:13:12.14,0:13:13.62,英文,,0000,0000,0000,,Bill!
+Dialogue: 0,0:13:15.06,0:13:18.19,英文,,0000,0000,0000,,Bill! Bill! I'll keep it with me all the time.
+Dialogue: 0,0:13:21.93,0:13:24.23,英文,,0000,0000,0000,,- Flight 209er- clear for takeoff. - Roger.
+Dialogue: 0,0:13:25.32,0:13:28.32,英文,,0000,0000,0000,,- LA departure frequency 123.9er. - Roger.
+Dialogue: 0,0:13:29.50,0:13:31.84,英文,,0000,0000,0000,,- Request vector. Over. - What?
+Dialogue: 0,0:13:32.15,0:13:34.76,英文,,0000,0000,0000,,Flight 209er, clear for vector 324.
+Dialogue: 0,0:13:35.06,0:13:36.93,英文,,0000,0000,0000,,- We have clearance, Clarence. - Roger, Roger.
+Dialogue: 0,0:13:37.15,0:13:39.11,英文,,0000,0000,0000,,What's our vector, Victor?
+Dialogue: 0,0:13:39.32,0:13:43.63,英文,,0000,0000,0000,,- I want radio clearance. Over. - That's Clarence Oveur. Over.
+Dialogue: 0,0:13:43.93,0:13:45.07,英文,,0000,0000,0000,,- Roger. - Huh?
+Dialogue: 0,0:13:45.33,0:13:48.07,英文,,0000,0000,0000,,- Roger. Over. - Huh? Who?
+Dialogue: 0,0:14:13.94,0:14:16.12,英文,,0000,0000,0000,,Do you feel all right, sir?
+Dialogue: 0,0:14:16.42,0:14:19.29,英文,,0000,0000,0000,,Oh, I haven't flown for a long time.
+Dialogue: 0,0:14:28.30,0:14:30.51,英文,,0000,0000,0000,,Good evening. This is Captain Oveur speaking.
+Dialogue: 0,0:14:31.47,0:14:33.82,英文,,0000,0000,0000,,We'll be cruising at 36,000 feet this evening...
+Dialogue: 0,0:14:45.08,0:14:47.13,英文,,0000,0000,0000,,Relax and enjoy your flight.
+Dialogue: 0,0:14:47.39,0:14:49.00,英文,,0000,0000,0000,,Would you like something to read?
+Dialogue: 0,0:14:49.35,0:14:51.69,英文,,0000,0000,0000,,Do you have anything light?
+Dialogue: 0,0:14:53.30,0:14:57.30,英文,,0000,0000,0000,,How about this leaflet, "Famous Jewish Sports Legends"?
+Dialogue: 0,0:14:57.57,0:14:59.74,英文,,0000,0000,0000,,Yes. Thank you.
+Dialogue: 0,0:15:00.91,0:15:03.96,英文,,0000,0000,0000,,- Ted! What are you doing here? - I've got to talk to you.
+Dialogue: 0,0:15:04.18,0:15:06.61,英文,,0000,0000,0000,,You shouldn't have come. I don't have time now.
+Dialogue: 0,0:15:06.92,0:15:08.79,英文,,0000,0000,0000,,- Stewardess? - Excuse me.
+Dialogue: 0,0:15:22.66,0:15:26.66,英文,,0000,0000,0000,,No wonder you're upset. She's lovely.
+Dialogue: 0,0:15:28.75,0:15:31.49,英文,,0000,0000,0000,,And a darling figure.
+Dialogue: 0,0:15:31.71,0:15:36.10,英文,,0000,0000,0000,,Supple, pouting breasts, firm thighs.
+Dialogue: 0,0:15:37.71,0:15:40.75,英文,,0000,0000,0000,,It's a shame you two don't get along.
+Dialogue: 0,0:15:41.06,0:15:43.19,英文,,0000,0000,0000,,Yes, I know.
+Dialogue: 0,0:15:43.49,0:15:46.02,英文,,0000,0000,0000,,Things used to be different.
+Dialogue: 0,0:15:48.41,0:15:51.02,英文,,0000,0000,0000,,I remember when we first met.
+Dialogue: 0,0:15:51.32,0:15:53.93,英文,,0000,0000,0000,,It was during the war.
+Dialogue: 0,0:15:54.19,0:15:58.98,英文,,0000,0000,0000,,I was in the air force, stationed in Drambuie, off the Barbary Coast.
+Dialogue: 0,0:16:00.32,0:16:02.59,英文,,0000,0000,0000,,I used to hang out at the Magumba Bar.
+Dialogue: 0,0:16:02.89,0:16:06.07,英文,,0000,0000,0000,,It was a rough place. The seediest dive on the wharf,
+Dialogue: 0,0:16:06.28,0:16:10.89,英文,,0000,0000,0000,,populated with every reject and cut-throat from Bombay to Calcutta.
+Dialogue: 0,0:16:11.15,0:16:13.42,英文,,0000,0000,0000,,It was worse than Detroit.
+Dialogue: 0,0:16:24.37,0:16:26.46,英文,,0000,0000,0000,,The mood in the place was ugly.
+Dialogue: 0,0:16:26.72,0:16:29.51,英文,,0000,0000,0000,,You wouldn't be there unless you knew how to use your fists.
+Dialogue: 0,0:16:29.77,0:16:32.51,英文,,0000,0000,0000,,A fight broke out almost every night.
+Dialogue: 0,0:17:43.18,0:17:47.23,英文,,0000,0000,0000,,I didn't go there that night to fall in love. I just wanted a couple of drinks.
+Dialogue: 0,0:17:47.53,0:17:49.31,英文,,0000,0000,0000,,And suddenly, there she was.
+Dialogue: 0,0:17:59.19,0:18:03.14,英文,,0000,0000,0000,,I was captivated, entranced. It hit me like a thunderbolt.
+Dialogue: 0,0:18:03.41,0:18:07.45,英文,,0000,0000,0000,,I had to ask this guy to pinch me to make sure I wasn't dreaming.
+Dialogue: 0,0:18:12.58,0:18:14.19,英文,,0000,0000,0000,,I was afraid to approach her,
+Dialogue: 0,0:18:14.50,0:18:17.06,英文,,0000,0000,0000,,but that night, fate was on my side.
+Dialogue: 0,0:21:24.38,0:21:27.77,英文,,0000,0000,0000,,We laughed, we talked, we danced.
+Dialogue: 0,0:21:28.03,0:21:31.60,英文,,0000,0000,0000,,I never wanted it to end. I guess I still don't.
+Dialogue: 0,0:21:31.82,0:21:35.69,英文,,0000,0000,0000,,Enough about me. I hope this hasn't been boring for you.
+Dialogue: 0,0:21:35.95,0:21:40.78,英文,,0000,0000,0000,,But whenever I talk about Elaine, I get so carried away. I lose all track of time.
+Dialogue: 0,0:21:43.25,0:21:45.08,英文,,0000,0000,0000,,Would you like to order dinner?
+Dialogue: 0,0:21:45.34,0:21:47.49,英文,,0000,0000,0000,,Joey will have steak. We'll have fish.
+Dialogue: 0,0:21:47.50,0:21:49.65,英文,,0000,0000,0000,,When can I see the cockpit?
+Dialogue: 0,0:21:50.00,0:21:53.69,英文,,0000,0000,0000,,The pilots are probably too busy flying the plane for that.
+Dialogue: 0,0:21:54.00,0:21:55.17,英文,,0000,0000,0000,,Aw, gee whizz!
+Dialogue: 0,0:21:55.39,0:21:59.26,英文,,0000,0000,0000,,I'll talk to the captain and see what I can arrange.
+Dialogue: 0,0:21:59.48,0:22:01.70,英文,,0000,0000,0000,,Gee, that'd be swell!
+Dialogue: 0,0:22:04.44,0:22:06.44,英文,,0000,0000,0000,,Would you care to order your dinners?
+Dialogue: 0,0:22:23.79,0:22:26.66,英文,,0000,0000,0000,,Excuse me, I happened to be passing.
+Dialogue: 0,0:22:26.92,0:22:29.14,英文,,0000,0000,0000,,I thought you might like some coffee.
+Dialogue: 0,0:22:29.40,0:22:31.97,英文,,0000,0000,0000,,That's very nice of you. Thank you.
+Dialogue: 0,0:22:34.53,0:22:37.10,英文,,0000,0000,0000,,- Won't you sit down? - Thank you.
+Dialogue: 0,0:22:40.36,0:22:43.19,英文,,0000,0000,0000,,- Cream? - No, I take it black.
+Dialogue: 0,0:22:43.53,0:22:44.66,英文,,0000,0000,0000,,Like my men.
+Dialogue: 0,0:23:54.86,0:23:58.03,英文,,0000,0000,0000,,Ted, I never knew I could be so happy.
+Dialogue: 0,0:23:58.30,0:24:01.60,英文,,0000,0000,0000,,These past few months have been wonderful.
+Dialogue: 0,0:24:01.82,0:24:05.60,英文,,0000,0000,0000,,Tomorrow, why don't we drive to that little seafood place and...
+Dialogue: 0,0:24:06.99,0:24:10.95,英文,,0000,0000,0000,,- What's the matter? - My orders came through.
+Dialogue: 0,0:24:11.17,0:24:12.91,英文,,0000,0000,0000,,My squadron ships out tomorrow.
+Dialogue: 0,0:24:13.13,0:24:16.52,英文,,0000,0000,0000,,We're bombing the storage depots at Daiquiri at 18:00 hours.
+Dialogue: 0,0:24:16.78,0:24:19.52,英文,,0000,0000,0000,,We're coming in from the north, below their radar.
+Dialogue: 0,0:24:19.82,0:24:24.22,英文,,0000,0000,0000,,- When will you be back? - I can't tell you that. It's classified.
+Dialogue: 0,0:24:25.17,0:24:29.09,英文,,0000,0000,0000,,Oh, Ted, please be careful. I worry about you so much.
+Dialogue: 0,0:24:30.48,0:24:31.65,英文,,0000,0000,0000,,I love you, Elaine.
+Dialogue: 0,0:24:32.00,0:24:33.96,英文,,0000,0000,0000,,I love you.
+Dialogue: 0,0:24:55.71,0:24:59.40,英文,,0000,0000,0000,,Flight 209er, this is Denver flight control.
+Dialogue: 0,0:24:59.71,0:25:04.19,英文,,0000,0000,0000,,You're approaching rough weather. Please climb to 42,000 feet.
+Dialogue: 0,0:25:05.36,0:25:08.19,英文,,0000,0000,0000,,- Roger, Denver. - We have a visitor.
+Dialogue: 0,0:25:08.54,0:25:09.67,英文,,0000,0000,0000,,Hello.
+Dialogue: 0,0:25:09.97,0:25:12.58,英文,,0000,0000,0000,,Captain Oveur, Mr Murdock, and Mr Basta,
+Dialogue: 0,0:25:12.58,0:25:13.88,英文,,0000,0000,0000,,this is Joey Hammen.
+Dialogue: 0,0:25:14.15,0:25:16.10,英文,,0000,0000,0000,,- Hi, Joey. - Come up here.
+Dialogue: 0,0:25:16.36,0:25:20.10,英文,,0000,0000,0000,,This is for special visitors. Would you like to have it?
+Dialogue: 0,0:25:20.32,0:25:24.71,英文,,0000,0000,0000,,- Thank you. Thanks a lot. - Sure. Ever been in a cockpit?
+Dialogue: 0,0:25:25.02,0:25:28.28,英文,,0000,0000,0000,,No, I've never been up in a plane before.
+Dialogue: 0,0:25:28.54,0:25:30.63,英文,,0000,0000,0000,,Have you ever seen a grown man naked?
+Dialogue: 0,0:25:30.89,0:25:34.67,英文,,0000,0000,0000,,- Shall I check the weather? - No, why don't you take care of it?
+Dialogue: 0,0:25:35.02,0:25:38.85,英文,,0000,0000,0000,,Joey, do you ever hang around the gymnasium?
+Dialogue: 0,0:25:39.20,0:25:42.68,英文,,0000,0000,0000,,- We'd better get back. - No, Joey can stay for a while.
+Dialogue: 0,0:25:42.98,0:25:45.07,英文,,0000,0000,0000,,- Could I? - OK, if you don't get in the way.
+Dialogue: 0,0:25:45.33,0:25:47.16,英文,,0000,0000,0000,,Flight 209er to Denver,
+Dialogue: 0,0:25:47.16,0:25:49.42,英文,,0000,0000,0000,,climbing to cruise at 42,000.
+Dialogue: 0,0:25:49.72,0:25:52.90,英文,,0000,0000,0000,,We'll report again over Lincoln. Over and out.
+Dialogue: 0,0:25:53.16,0:25:57.03,英文,,0000,0000,0000,,Wait a minute, I know you. You're Kareem Abdul Jabbar.
+Dialogue: 0,0:25:57.29,0:26:00.07,英文,,0000,0000,0000,,You play basketball for the Los Angeles Lakers.
+Dialogue: 0,0:26:01.12,0:26:03.60,英文,,0000,0000,0000,,Sorry, you have me confused with someone else.
+Dialogue: 0,0:26:03.86,0:26:06.51,英文,,0000,0000,0000,,My name's Roger Murdock. I'm the co-pilot.
+Dialogue: 0,0:26:06.81,0:26:11.38,英文,,0000,0000,0000,,You are Kareem! I've seen you play. My dad's got season tickets.
+Dialogue: 0,0:26:11.64,0:26:14.38,英文,,0000,0000,0000,,You should go back to your seat now. Right, Clarence?
+Dialogue: 0,0:26:15.77,0:26:18.60,英文,,0000,0000,0000,,No, he's not bothering anyone. Let him stay here.
+Dialogue: 0,0:26:20.17,0:26:23.82,英文,,0000,0000,0000,,All right, but just remember my name is Roger Murdock.
+Dialogue: 0,0:26:24.08,0:26:25.56,英文,,0000,0000,0000,,I'm an airline pilot.
+Dialogue: 0,0:26:25.78,0:26:27.39,英文,,0000,0000,0000,,I think you're the greatest,
+Dialogue: 0,0:26:27.65,0:26:32.21,英文,,0000,0000,0000,,but my dad says you don't work hard enough on defence.
+Dialogue: 0,0:26:32.52,0:26:36.08,英文,,0000,0000,0000,,And he says lots of times you don't even run downcourt.
+Dialogue: 0,0:26:36.34,0:26:39.43,英文,,0000,0000,0000,,And you don't try, except during the play-offs.
+Dialogue: 0,0:26:39.69,0:26:41.39,英文,,0000,0000,0000,,The hell I don't!
+Dialogue: 0,0:26:43.35,0:26:46.96,英文,,0000,0000,0000,,Listen, kid, I've been hearing that crap ever since I was at UCLA.
+Dialogue: 0,0:26:47.22,0:26:50.57,英文,,0000,0000,0000,,I'm out there busting my buns every night.
+Dialogue: 0,0:26:50.83,0:26:52.70,英文,,0000,0000,0000,,Tell your old man to drag Walton and Lanier
+Dialogue: 0,0:26:53.05,0:26:55.74,英文,,0000,0000,0000,,up and down the court for 48 minutes.
+Dialogue: 0,0:27:02.31,0:27:05.66,英文,,0000,0000,0000,,Joey... Do you like movies about gladiators?
+Dialogue: 0,0:27:11.35,0:27:14.36,英文,,0000,0000,0000,,Elaine, just hear me out.
+Dialogue: 0,0:27:14.57,0:27:18.27,英文,,0000,0000,0000,,Things haven't been right for a long time, but it'll be different,
+Dialogue: 0,0:27:18.53,0:27:21.31,英文,,0000,0000,0000,,like in the beginning, remember?
+Dialogue: 0,0:27:21.58,0:27:23.01,英文,,0000,0000,0000,,I remember everything.
+Dialogue: 0,0:27:24.84,0:27:27.14,英文,,0000,0000,0000,,All I have is memories.
+Dialogue: 0,0:27:27.40,0:27:30.62,英文,,0000,0000,0000,,Mostly, I remember the nights we were together.
+Dialogue: 0,0:27:30.88,0:27:34.14,英文,,0000,0000,0000,,I remember how you used to hold me,
+Dialogue: 0,0:27:34.41,0:27:37.49,英文,,0000,0000,0000,,how I used to sit on your face and wriggle, and...
+Dialogue: 0,0:27:37.75,0:27:41.28,英文,,0000,0000,0000,,afterwards, how we'd watch till the sun came up.
+Dialogue: 0,0:27:41.58,0:27:44.84,英文,,0000,0000,0000,,When it did, it was almost like...
+Dialogue: 0,0:27:45.15,0:27:49.24,英文,,0000,0000,0000,,like each new day was created only for us.
+Dialogue: 0,0:27:49.50,0:27:52.19,英文,,0000,0000,0000,,That's the way I've always wanted it to be.
+Dialogue: 0,0:27:52.41,0:27:54.02,英文,,0000,0000,0000,,But it won't be.
+Dialogue: 0,0:27:54.32,0:27:57.50,英文,,0000,0000,0000,,Not as long as you insist on living in the past!
+Dialogue: 0,0:28:08.98,0:28:11.07,英文,,0000,0000,0000,,You're too low, Ted!
+Dialogue: 0,0:28:20.38,0:28:22.94,英文,,0000,0000,0000,,The mind plays tricks on you.
+Dialogue: 0,0:28:25.42,0:28:28.55,英文,,0000,0000,0000,,He looks so happy today, doesn't he?
+Dialogue: 0,0:28:28.86,0:28:31.51,英文,,0000,0000,0000,,You look so happy today.
+Dialogue: 0,0:28:31.77,0:28:36.08,英文,,0000,0000,0000,,OK, Robert, slip them down. This won't hurt much.
+Dialogue: 0,0:28:36.38,0:28:38.95,英文,,0000,0000,0000,,You got a telegram from headquarters today.
+Dialogue: 0,0:28:39.21,0:28:40.56,英文,,0000,0000,0000,,Headquarters? What is it?
+Dialogue: 0,0:28:40.77,0:28:44.78,英文,,0000,0000,0000,,A big building where generals meet, but that's not important.
+Dialogue: 0,0:28:45.12,0:28:47.51,英文,,0000,0000,0000,,They've cleared you of any blame for what happened on that raid.
+Dialogue: 0,0:28:47.78,0:28:50.78,英文,,0000,0000,0000,,- Isn't that good news? - Is it?
+Dialogue: 0,0:28:52.08,0:28:56.08,英文,,0000,0000,0000,,Because of my mistake, six men didn't return from that raid.
+Dialogue: 0,0:28:56.39,0:28:58.91,英文,,0000,0000,0000,,Seven. Lieutenant Zip died this morning.
+Dialogue: 0,0:29:00.17,0:29:03.82,英文,,0000,0000,0000,,But Dr Sandler says you'll be out in a week. Isn't that wonderful?
+Dialogue: 0,0:29:05.48,0:29:07.96,英文,,0000,0000,0000,,I wish I could say the same for George Zip.
+Dialogue: 0,0:29:08.83,0:29:12.96,英文,,0000,0000,0000,,Be patient, Ted. Nobody expects you to get over this immediately.
+Dialogue: 0,0:29:13.26,0:29:16.39,英文,,0000,0000,0000,,Hey, Striker, how about a break? I'm getting tired.
+Dialogue: 0,0:29:17.57,0:29:19.26,英文,,0000,0000,0000,,Yeah, all right. Take five.
+Dialogue: 0,0:29:21.13,0:29:22.44,英文,,0000,0000,0000,,Thanks.
+Dialogue: 0,0:29:23.18,0:29:28.18,英文,,0000,0000,0000,,I found a wonderful apartment for us. It has a brick fireplace
+Dialogue: 0,0:29:28.44,0:29:32.22,英文,,0000,0000,0000,,and a cute bedroom with mirrors on the ceiling and...
+Dialogue: 0,0:29:32.49,0:29:34.53,英文,,0000,0000,0000,,Red Leader, I'm going down!
+Dialogue: 0,0:29:34.83,0:29:39.14,英文,,0000,0000,0000,,Captain Geline. He thinks he's a pilot, still fighting the war.
+Dialogue: 0,0:29:40.88,0:29:43.53,英文,,0000,0000,0000,,I've found the tunnel, Johnson! It's this way!
+Dialogue: 0,0:29:43.84,0:29:46.49,英文,,0000,0000,0000,,$25 for a cigarette is too much!
+Dialogue: 0,0:29:50.40,0:29:53.62,英文,,0000,0000,0000,,- What's his problem? - It's Lieutenant Hurwitz.
+Dialogue: 0,0:29:53.84,0:29:57.54,英文,,0000,0000,0000,,Severe shell shock. He thinks he's Ethel Merman.
+Dialogue: 0,0:30:16.67,0:30:18.72,英文,,0000,0000,0000,,War is hell.
+Dialogue: 0,0:30:23.37,0:30:27.76,英文,,0000,0000,0000,,Excuse me, sir. Would you like some coffee before dinner?
+Dialogue: 0,0:30:28.07,0:30:30.02,英文,,0000,0000,0000,,No. No, thank you.
+Dialogue: 0,0:30:31.81,0:30:35.59,英文,,0000,0000,0000,,- Would you like another cup? - I will, but Jim won't.
+Dialogue: 0,0:30:35.90,0:30:38.68,英文,,0000,0000,0000,,I think I will have another cup of coffee.
+Dialogue: 0,0:30:40.38,0:30:43.33,英文,,0000,0000,0000,,Jim never has a second cup of coffee at home.
+Dialogue: 0,0:30:49.42,0:30:51.90,英文,,0000,0000,0000,,- Excuse me, Sister. - Yes?
+Dialogue: 0,0:30:52.20,0:30:57.77,英文,,0000,0000,0000,,- There's a little girl on board who's ill. - Oh, yes, I saw. Poor child.
+Dialogue: 0,0:30:58.03,0:31:01.03,英文,,0000,0000,0000,,Could I borrow your guitar? I thought I'd cheer her up.
+Dialogue: 0,0:31:01.25,0:31:03.60,英文,,0000,0000,0000,,- Of course. - Thank you.
+Dialogue: 0,0:31:10.86,0:31:12.69,英文,,0000,0000,0000,,- Hi. - Hi.
+Dialogue: 0,0:31:12.99,0:31:15.26,英文,,0000,0000,0000,,Do you mind if I talk to your daughter?
+Dialogue: 0,0:31:15.47,0:31:17.86,英文,,0000,0000,0000,,I think that'd be nice.
+Dialogue: 0,0:31:20.30,0:31:24.56,英文,,0000,0000,0000,,- Hi, I'm Randy. - I'm Lisa. Oh, you have a guitar!
+Dialogue: 0,0:31:26.08,0:31:28.74,英文,,0000,0000,0000,,I thought maybe you'd like to hear a song.
+Dialogue: 0,0:31:29.00,0:31:30.48,英文,,0000,0000,0000,,I'd love to.
+Dialogue: 0,0:31:30.69,0:31:33.65,英文,,0000,0000,0000,,OK. Let's see...
+Dialogue: 0,0:31:33.87,0:31:36.39,英文,,0000,0000,0000,,This is one of my favorites.
+Dialogue: 0,0:33:03.12,0:33:04.68,英文,,0000,0000,0000,,You're late. We've been waiting.
+Dialogue: 0,0:33:04.90,0:33:06.99,英文,,0000,0000,0000,,- Who's first? - Go ahead, Clarence.
+Dialogue: 0,0:33:07.29,0:33:08.86,英文,,0000,0000,0000,,How's the weather?
+Dialogue: 0,0:33:09.16,0:33:13.42,英文,,0000,0000,0000,,We got some heavy stuff ahead of us. We've got to climb on top.
+Dialogue: 0,0:33:15.34,0:33:20.38,英文,,0000,0000,0000,,Yeah, after the war, I wanted to get as far away as possible,
+Dialogue: 0,0:33:20.64,0:33:23.69,英文,,0000,0000,0000,,so Elaine and I joined the Peace Corps.
+Dialogue: 0,0:33:23.95,0:33:27.17,英文,,0000,0000,0000,,We were assigned to an isolated tribe, the Molombos.
+Dialogue: 0,0:33:28.73,0:33:31.25,英文,,0000,0000,0000,,They'd never seen Americans before.
+Dialogue: 0,0:33:45.04,0:33:49.56,英文,,0000,0000,0000,,It was really a challenge, introducing them to our Western culture.
+Dialogue: 0,0:33:54.65,0:33:56.61,英文,,0000,0000,0000,,At first, they didn't know what to think of us.
+Dialogue: 0,0:33:56.87,0:33:59.18,英文,,0000,0000,0000,,But soon, we gained their trust.
+Dialogue: 0,0:34:08.35,0:34:11.31,英文,,0000,0000,0000,,It'll help you better prepare storing foods
+Dialogue: 0,0:34:11.53,0:34:14.83,英文,,0000,0000,0000,,for the up and coming monsoon months.
+Dialogue: 0,0:34:15.14,0:34:19.79,英文,,0000,0000,0000,,Also, Supperware products are ideal for storing leftovers
+Dialogue: 0,0:34:20.05,0:34:22.96,英文,,0000,0000,0000,,to help stretch your food dollar.
+Dialogue: 0,0:34:23.23,0:34:26.62,英文,,0000,0000,0000,,This two-quart "Seals-M-Rite" container
+Dialogue: 0,0:34:26.88,0:34:29.71,英文,,0000,0000,0000,,keeps hot dog buns fresh for days.
+Dialogue: 0,0:34:30.01,0:34:34.19,英文,,0000,0000,0000,,These people had been completely isolated from civilization.
+Dialogue: 0,0:34:35.36,0:34:37.80,英文,,0000,0000,0000,,No one had outlined a physical fitness program for them,
+Dialogue: 0,0:34:38.10,0:34:39.97,英文,,0000,0000,0000,,and they had no athletic equipment.
+Dialogue: 0,0:34:40.23,0:34:43.88,英文,,0000,0000,0000,,I started them on simple calisthenics, worked up to rudimentary game skills,
+Dialogue: 0,0:34:44.15,0:34:46.93,英文,,0000,0000,0000,,and finally, advanced competitive theory.
+Dialogue: 0,0:34:47.89,0:34:50.28,英文,,0000,0000,0000,,I was patient, and they were eager to learn.
+Dialogue: 0,0:34:50.58,0:34:52.76,英文,,0000,0000,0000,,They seemed to enjoy themselves.
+Dialogue: 0,0:34:53.02,0:34:55.54,英文,,0000,0000,0000,,Probably due to advanced American teaching techniques,
+Dialogue: 0,0:34:55.76,0:34:58.28,英文,,0000,0000,0000,,we bridged the generations of isolation,
+Dialogue: 0,0:34:58.58,0:35:01.85,英文,,0000,0000,0000,,and communicated successfully with the Molombos.
+Dialogue: 0,0:35:08.20,0:35:11.85,英文,,0000,0000,0000,,They're getting the hang of it. When we re-enlist, I'll teach them baseball.
+Dialogue: 0,0:35:12.68,0:35:14.94,英文,,0000,0000,0000,,Ted, I don't want to stay here.
+Dialogue: 0,0:35:15.20,0:35:19.29,英文,,0000,0000,0000,,It's time to go home to the plans we made before the war.
+Dialogue: 0,0:35:21.64,0:35:23.40,英文,,0000,0000,0000,,A lot of people made plans before the war.
+Dialogue: 0,0:35:23.40,0:35:25.46,英文,,0000,0000,0000,,Like George Zip.
+Dialogue: 0,0:35:30.81,0:35:35.55,英文,,0000,0000,0000,,At that moment, I realised Elaine had doubts about our relationship.
+Dialogue: 0,0:35:35.81,0:35:39.25,英文,,0000,0000,0000,,And that, as much as anything else, led to my drinking problem.
+Dialogue: 0,0:35:40.95,0:35:44.90,英文,,0000,0000,0000,,We did come back to the States. I tried a number of jobs.
+Dialogue: 0,0:35:45.25,0:35:48.38,英文,,0000,0000,0000,,I could go on, but I'd probably bore you.
+Dialogue: 0,0:35:48.64,0:35:51.25,英文,,0000,0000,0000,,I really couldn't blame Elaine. She wanted a career.
+Dialogue: 0,0:35:58.43,0:36:01.00,英文,,0000,0000,0000,,- I can't stand it. - What is it?
+Dialogue: 0,0:36:01.26,0:36:03.17,英文,,0000,0000,0000,,- Yes? - It's my stomach.
+Dialogue: 0,0:36:04.61,0:36:06.22,英文,,0000,0000,0000,,I haven't felt this awful...
+Dialogue: 0,0:36:06.22,0:36:07.61,英文,,0000,0000,0000,,since we saw that Ronald Reagan film.
+Dialogue: 0,0:36:08.43,0:36:11.52,英文,,0000,0000,0000,,I'll see if I can find some Dramamine.
+Dialogue: 0,0:36:19.09,0:36:21.74,英文,,0000,0000,0000,,Captain, a woman passenger is very sick.
+Dialogue: 0,0:36:22.78,0:36:26.13,英文,,0000,0000,0000,,- Airsick? - I think so, I've never seen it so acute.
+Dialogue: 0,0:36:27.83,0:36:31.61,英文,,0000,0000,0000,,Find out if there's a doctor on board, as quietly as you can.
+Dialogue: 0,0:36:34.74,0:36:39.18,英文,,0000,0000,0000,,Joey, have you ever been in a Turkish prison?
+Dialogue: 0,0:36:41.66,0:36:44.62,英文,,0000,0000,0000,,I shouldn't have had that second cup of coffee.
+Dialogue: 0,0:36:55.92,0:36:58.36,英文,,0000,0000,0000,,Jim never vomits at home.
+Dialogue: 0,0:36:59.27,0:37:03.75,英文,,0000,0000,0000,,Sorry to wake you. I'm looking for a doctor. There's nothing to worry about.
+Dialogue: 0,0:37:04.01,0:37:07.80,英文,,0000,0000,0000,,Stewardess, I think the man next to me is a doctor.
+Dialogue: 0,0:37:08.06,0:37:11.84,英文,,0000,0000,0000,,Sir, excuse me. Sorry to wake you, are you a doctor?
+Dialogue: 0,0:37:12.15,0:37:14.89,英文,,0000,0000,0000,,- That's right. - We have sick passengers.
+Dialogue: 0,0:37:15.19,0:37:18.37,英文,,0000,0000,0000,,- Could you take a look at them? - Yes, of course.
+Dialogue: 0,0:37:28.15,0:37:30.46,英文,,0000,0000,0000,,Let me see your tongue.
+Dialogue: 0,0:38:00.42,0:38:02.64,英文,,0000,0000,0000,,I'll be back in a minute.
+Dialogue: 0,0:38:07.73,0:38:11.82,英文,,0000,0000,0000,,Tell the captain to land. She must go to a hospital.
+Dialogue: 0,0:38:12.12,0:38:13.82,英文,,0000,0000,0000,,A hospital! What is it?
+Dialogue: 0,0:38:14.08,0:38:16.73,英文,,0000,0000,0000,,It's a big building with patients, but that's not important.
+Dialogue: 0,0:38:16.95,0:38:19.73,英文,,0000,0000,0000,,- I must speak to the captain. - Certainly.
+Dialogue: 0,0:38:26.95,0:38:29.00,英文,,0000,0000,0000,,Victor, we're running into heavy...
+Dialogue: 0,0:38:29.61,0:38:31.48,英文,,0000,0000,0000,,Roger, take over!
+Dialogue: 0,0:38:54.09,0:38:57.44,英文,,0000,0000,0000,,- Captain, how soon can you land? - I can't tell.
+Dialogue: 0,0:38:57.70,0:39:00.61,英文,,0000,0000,0000,,- You can tell me. I'm a doctor. - No, I'm not sure.
+Dialogue: 0,0:39:00.88,0:39:05.62,英文,,0000,0000,0000,,- Can't you take a guess? - Not for another two hours.
+Dialogue: 0,0:39:05.88,0:39:07.83,英文,,0000,0000,0000,,You can't take a guess for another two hours?
+Dialogue: 0,0:39:08.14,0:39:12.10,英文,,0000,0000,0000,,No, we can't land. Fog has closed down everything.
+Dialogue: 0,0:39:12.31,0:39:14.49,英文,,0000,0000,0000,,We've got to get through to Chicago.
+Dialogue: 0,0:39:22.14,0:39:24.49,英文,,0000,0000,0000,,Get him out of there!
+Dialogue: 0,0:39:49.76,0:39:52.59,英文,,0000,0000,0000,,- What is it, Doctor? What's going on? - I'm not sure.
+Dialogue: 0,0:39:52.85,0:39:56.33,英文,,0000,0000,0000,,Haven't seen anything like this since the Anita Bryant concert.
+Dialogue: 0,0:39:56.68,0:40:01.07,英文,,0000,0000,0000,,- What did we have for dinner? - We had a choice - steak or fish.
+Dialogue: 0,0:40:01.89,0:40:04.03,英文,,0000,0000,0000,,Yes, I remember. I had lasagna.
+Dialogue: 0,0:40:04.33,0:40:06.59,英文,,0000,0000,0000,,- What did he have? - He had fish.
+Dialogue: 0,0:40:06.90,0:40:10.68,英文,,0000,0000,0000,,Doctor, two more are sick. The other passengers are worried.
+Dialogue: 0,0:40:10.98,0:40:12.98,英文,,0000,0000,0000,,I'll handle the passengers.
+Dialogue: 0,0:40:13.29,0:40:17.99,英文,,0000,0000,0000,,Find out what the sick people had for dinner. This is Captain Oveur speaking.
+Dialogue: 0,0:40:18.25,0:40:21.64,英文,,0000,0000,0000,,It's bumpy, but we'll be past it in a few minutes.
+Dialogue: 0,0:40:21.90,0:40:25.64,英文,,0000,0000,0000,,We're now flying over Hoover Dam,
+Dialogue: 0,0:40:25.90,0:40:28.90,英文,,0000,0000,0000,,and later we'll pass south of the Grand Canyon.
+Dialogue: 0,0:40:29.25,0:40:31.86,英文,,0000,0000,0000,,Meanwhile, relax and enjoy your flight, OK?
+Dialogue: 0,0:40:33.86,0:40:37.95,英文,,0000,0000,0000,,Chicago, this is flight 209er. We're in trouble.
+Dialogue: 0,0:40:38.25,0:40:41.95,英文,,0000,0000,0000,,Have all traffic below us cleared. I want a priority landing in Chicago.
+Dialogue: 0,0:40:46.95,0:40:48.26,英文,,0000,0000,0000,,Yes?
+Dialogue: 0,0:40:48.56,0:40:51.00,英文,,0000,0000,0000,,My husband's very sick. Can you do something?
+Dialogue: 0,0:40:51.30,0:40:54.82,英文,,0000,0000,0000,,The doctor will be with you in just a moment.
+Dialogue: 0,0:40:55.08,0:40:59.52,英文,,0000,0000,0000,,- Do you know what he had for dinner? - Yes, we both had fish. Why?
+Dialogue: 0,0:40:59.78,0:41:04.17,英文,,0000,0000,0000,,It's nothing to be alarmed about. We'll be back to you very quickly.
+Dialogue: 0,0:41:11.13,0:41:13.18,英文,,0000,0000,0000,,Doctor, Mr Hammen ate fish,
+Dialogue: 0,0:41:13.39,0:41:16.87,英文,,0000,0000,0000,,and Randy said there are five more cases, and they all had fish.
+Dialogue: 0,0:41:17.22,0:41:20.66,英文,,0000,0000,0000,,The co-pilot had fish. What did the navigator have?
+Dialogue: 0,0:41:20.92,0:41:22.31,英文,,0000,0000,0000,,He had fish.
+Dialogue: 0,0:41:22.57,0:41:25.18,英文,,0000,0000,0000,,All right, now we know what we're up against.
+Dialogue: 0,0:41:25.49,0:41:30.88,英文,,0000,0000,0000,,Every passenger who had fish for dinner will soon become violently ill.
+Dialogue: 0,0:41:31.14,0:41:34.97,英文,,0000,0000,0000,,- Just how serious is it? - Extremely serious.
+Dialogue: 0,0:41:35.27,0:41:38.53,英文,,0000,0000,0000,,It starts with a slight fever, dryness of the throat.
+Dialogue: 0,0:41:38.84,0:41:41.97,英文,,0000,0000,0000,,When the virus penetrates, the victim becomes dizzy,
+Dialogue: 0,0:41:42.27,0:41:44.58,英文,,0000,0000,0000,,and begins to experience an itching rash.
+Dialogue: 0,0:41:44.84,0:41:47.45,英文,,0000,0000,0000,,From there, the poison works on the central nervous system,
+Dialogue: 0,0:41:47.75,0:41:52.06,英文,,0000,0000,0000,,causing severe muscle spasms, followed by the inevitable drooling.
+Dialogue: 0,0:41:52.32,0:41:54.97,英文,,0000,0000,0000,,At this point, the digestive system collapses,
+Dialogue: 0,0:41:55.23,0:41:57.76,英文,,0000,0000,0000,,accompanied by uncontrollable flatulence.
+Dialogue: 0,0:41:57.97,0:42:02.80,英文,,0000,0000,0000,,Until the poor bastard is reduced to a quivering, wasted piece of jelly.
+Dialogue: 0,0:42:21.63,0:42:24.55,英文,,0000,0000,0000,,Put it on... automatic pilot.
+Dialogue: 0,0:42:25.98,0:42:29.46,英文,,0000,0000,0000,,Automatic pilot, automatic pilot... There it is!
+Dialogue: 0,0:42:38.51,0:42:40.99,英文,,0000,0000,0000,,I'll go back to the passengers.
+Dialogue: 0,0:42:43.34,0:42:45.90,英文,,0000,0000,0000,,Come in, 209er. This is Chicago.
+Dialogue: 0,0:42:46.21,0:42:49.42,英文,,0000,0000,0000,,Flight 209er, come in.
+Dialogue: 0,0:42:49.73,0:42:52.03,英文,,0000,0000,0000,,This is Elaine Dickinson, the stewardess.
+Dialogue: 0,0:42:52.29,0:42:56.12,英文,,0000,0000,0000,,Captain Oveur's passed out. We've lost the co-pilot and navigator, too.
+Dialogue: 0,0:42:56.38,0:42:58.38,英文,,0000,0000,0000,,- We're in trouble. - Roger.
+Dialogue: 0,0:42:58.64,0:43:01.04,英文,,0000,0000,0000,,I'm Steve McCroskey, Chicago air control.
+Dialogue: 0,0:43:01.34,0:43:05.08,英文,,0000,0000,0000,,I'll be back in a minute. Hold all takeoffs.
+Dialogue: 0,0:43:05.34,0:43:07.65,英文,,0000,0000,0000,,When 508 reports, bring it straight in.
+Dialogue: 0,0:43:07.91,0:43:11.47,英文,,0000,0000,0000,,Suspend all meal service on flights out of Los Angeles.
+Dialogue: 0,0:43:11.74,0:43:14.56,英文,,0000,0000,0000,,Tell all dispatchers to remain at their posts.
+Dialogue: 0,0:43:14.82,0:43:16.35,英文,,0000,0000,0000,,- How about coffee? - No, thanks.
+Dialogue: 0,0:43:16.65,0:43:20.00,英文,,0000,0000,0000,,I want the weather on every available landing field.
+Dialogue: 0,0:43:20.26,0:43:21.74,英文,,0000,0000,0000,,You understand?
+Dialogue: 0,0:43:21.96,0:43:25.04,英文,,0000,0000,0000,,Any place available to land that plane!
+Dialogue: 0,0:43:25.30,0:43:28.78,英文,,0000,0000,0000,,Go to the tower and get a runway diagram.
+Dialogue: 0,0:43:29.09,0:43:32.18,英文,,0000,0000,0000,,Check down the field for emergency equipment.
+Dialogue: 0,0:43:32.44,0:43:36.57,英文,,0000,0000,0000,,Chief, we got fog every place east of the Rockies.
+Dialogue: 0,0:43:36.83,0:43:39.57,英文,,0000,0000,0000,,They'll have to come through to Chicago.
+Dialogue: 0,0:43:40.74,0:43:43.27,英文,,0000,0000,0000,,Looks like I picked the wrong week to quit smoking.
+Dialogue: 0,0:43:43.57,0:43:48.53,英文,,0000,0000,0000,,Get the best available man who won't crack under pressure.
+Dialogue: 0,0:43:48.79,0:43:50.92,英文,,0000,0000,0000,,How about Mr Rogers?
+Dialogue: 0,0:43:54.31,0:43:56.31,英文,,0000,0000,0000,,Get me Rex Kramer.
+Dialogue: 0,0:44:01.30,0:44:05.05,英文,,0000,0000,0000,,Next to the throttle is the airspeed gauge.
+Dialogue: 0,0:44:05.34,0:44:08.14,英文,,0000,0000,0000,,What speed does it indicate?
+Dialogue: 0,0:44:09.02,0:44:11.14,英文,,0000,0000,0000,,520 miles per hour.
+Dialogue: 0,0:44:11.43,0:44:15.23,英文,,0000,0000,0000,,Good. Very good. Now, check your altitude.
+Dialogue: 0,0:44:15.52,0:44:19.15,英文,,0000,0000,0000,,That's the dial below and right of the airspeed indicator.
+Dialogue: 0,0:44:20.24,0:44:22.61,英文,,0000,0000,0000,,35,000 feet.
+Dialogue: 0,0:44:22.86,0:44:25.32,英文,,0000,0000,0000,,No, wait. 34,000 feet.
+Dialogue: 0,0:44:25.62,0:44:29.58,英文,,0000,0000,0000,,No. It's dropping! It's dropping fast!
+Dialogue: 0,0:44:29.87,0:44:31.71,英文,,0000,0000,0000,,Why is it doing that?
+Dialogue: 0,0:44:34.21,0:44:38.25,英文,,0000,0000,0000,,Oh, my God! The automatic pilot, it's deflating!
+Dialogue: 0,0:44:38.50,0:44:40.84,英文,,0000,0000,0000,,Elaine, don't panic.
+Dialogue: 0,0:44:41.13,0:44:43.76,英文,,0000,0000,0000,,On his belt line there's a hollow tube.
+Dialogue: 0,0:44:44.01,0:44:49.06,英文,,0000,0000,0000,,That's the manual inflation nozzle. Pull it out and blow on it.
+Dialogue: 0,0:44:52.98,0:44:55.19,英文,,0000,0000,0000,,What the hell's going on up there?
+Dialogue: 0,0:45:50.83,0:45:53.50,英文,,0000,0000,0000,,- Elaine. - Yes, Doctor.
+Dialogue: 0,0:45:55.71,0:45:57.42,英文,,0000,0000,0000,,You're a member of this crew.
+Dialogue: 0,0:45:57.71,0:46:00.46,英文,,0000,0000,0000,,- Can you face some unpleasant facts? - No.
+Dialogue: 0,0:46:00.76,0:46:04.05,英文,,0000,0000,0000,,Unless we hospitalise those people quickly,
+Dialogue: 0,0:46:04.34,0:46:07.14,英文,,0000,0000,0000,,I can't be sure of saving their lives.
+Dialogue: 0,0:46:07.39,0:46:10.85,英文,,0000,0000,0000,,Is there anyone on board who can land this plane?
+Dialogue: 0,0:46:14.90,0:46:16.61,英文,,0000,0000,0000,,No one I know of.
+Dialogue: 0,0:46:17.44,0:46:22.57,英文,,0000,0000,0000,,You ought to know our chances. Our lives depend on just one thing -
+Dialogue: 0,0:46:22.86,0:46:27.45,英文,,0000,0000,0000,,finding someone to fly this plane who didn't have fish for dinner.
+Dialogue: 0,0:46:39.38,0:46:42.76,英文,,0000,0000,0000,,Ladies and gentlemen, this is your stewardess speaking.
+Dialogue: 0,0:46:43.01,0:46:47.05,英文,,0000,0000,0000,,We regret any inconvenience the sudden cabin movement caused.
+Dialogue: 0,0:46:47.30,0:46:50.47,英文,,0000,0000,0000,,This is due to periodic air pockets.
+Dialogue: 0,0:46:50.77,0:46:55.48,英文,,0000,0000,0000,,There's no reason to become alarmed. We hope you enjoy your flight.
+Dialogue: 0,0:46:56.69,0:47:00.40,英文,,0000,0000,0000,,By the way, is there anyone on board who can fly a plane?
+Dialogue: 0,0:47:30.64,0:47:33.27,英文,,0000,0000,0000,,Hello. I'm Paul Carey from the airline. I'm here to pick up Captain Kramer.
+Dialogue: 0,0:47:33.52,0:47:36.86,英文,,0000,0000,0000,,Yes. Come in, Paul. Rex will be right out.
+Dialogue: 0,0:47:39.48,0:47:41.78,英文,,0000,0000,0000,,Shep, sit. Sit!
+Dialogue: 0,0:47:42.03,0:47:44.57,英文,,0000,0000,0000,,I understand there's an emergency.
+Dialogue: 0,0:47:45.37,0:47:49.74,英文,,0000,0000,0000,,Something like that. There wasn't time to tell me very much...
+Dialogue: 0,0:47:51.79,0:47:53.58,英文,,0000,0000,0000,,Shep, no!
+Dialogue: 0,0:47:53.87,0:47:56.84,英文,,0000,0000,0000,,I'll bet exciting things happen all the time down there.
+Dialogue: 0,0:47:57.17,0:47:59.84,英文,,0000,0000,0000,,The airline business does have its moments.
+Dialogue: 0,0:48:00.13,0:48:02.34,英文,,0000,0000,0000,,After a while, you get used to it.
+Dialogue: 0,0:48:04.22,0:48:05.89,英文,,0000,0000,0000,,Shep! Come!
+Dialogue: 0,0:48:07.56,0:48:10.98,英文,,0000,0000,0000,,He gets so excited when new people are here.
+Dialogue: 0,0:48:11.27,0:48:14.06,英文,,0000,0000,0000,,- Are you a pilot? - No, I'm in...
+Dialogue: 0,0:48:14.81,0:48:16.44,英文,,0000,0000,0000,,a training program.
+Dialogue: 0,0:48:16.73,0:48:20.36,英文,,0000,0000,0000,,It's unbelievable. It's just unbelievable.
+Dialogue: 0,0:48:20.65,0:48:23.07,英文,,0000,0000,0000,,How many times have I warned about food inspection?
+Dialogue: 0,0:48:23.32,0:48:26.95,英文,,0000,0000,0000,,You'd think someone would listen to you.
+Dialogue: 0,0:48:27.24,0:48:30.41,英文,,0000,0000,0000,,Well, airport management, the FAA, and the airlines...
+Dialogue: 0,0:48:31.79,0:48:33.67,英文,,0000,0000,0000,,they're all cheats and liars.
+Dialogue: 0,0:48:33.96,0:48:36.34,英文,,0000,0000,0000,,All right. Let's get out of here.
+Dialogue: 0,0:48:43.68,0:48:48.22,英文,,0000,0000,0000,,I'm sorry, I was just looking for someone with flying experience.
+Dialogue: 0,0:48:48.51,0:48:51.60,英文,,0000,0000,0000,,When they built those roads, they didn't think about drainage,
+Dialogue: 0,0:48:51.89,0:48:56.61,英文,,0000,0000,0000,,so we had to take a special jeep up to the main road.
+Dialogue: 0,0:48:56.90,0:49:00.61,英文,,0000,0000,0000,,We were lucky to get a jeep, since, just the day before,
+Dialogue: 0,0:49:00.90,0:49:04.36,英文,,0000,0000,0000,,the only one we had broke down. It had a bad axle...
+Dialogue: 0,0:49:04.61,0:49:07.66,英文,,0000,0000,0000,,Excuse me, sir. There's a problem in the cockpit.
+Dialogue: 0,0:49:07.95,0:49:09.58,英文,,0000,0000,0000,,The cockpit? What is it?
+Dialogue: 0,0:49:09.83,0:49:13.37,英文,,0000,0000,0000,,The little room where the pilot sits. That's not important.
+Dialogue: 0,0:49:13.62,0:49:18.13,英文,,0000,0000,0000,,The first officer is ill. The captain needs someone to help him with the radio.
+Dialogue: 0,0:49:18.46,0:49:21.13,英文,,0000,0000,0000,,Do you know anything about planes?
+Dialogue: 0,0:49:21.42,0:49:24.22,英文,,0000,0000,0000,,I flew in the war years ago.
+Dialogue: 0,0:49:25.26,0:49:29.60,英文,,0000,0000,0000,,- I wouldn't know anything about it. - Would you go up, please?
+Dialogue: 0,0:49:46.53,0:49:48.95,英文,,0000,0000,0000,,The stewardess said...
+Dialogue: 0,0:49:50.29,0:49:53.83,英文,,0000,0000,0000,,- Both pilots? - Can you fly this plane and land it?
+Dialogue: 0,0:49:55.04,0:49:59.13,英文,,0000,0000,0000,,- Surely, you can't be serious. - I am serious, and don't call me Shirley.
+Dialogue: 0,0:50:00.46,0:50:04.05,英文,,0000,0000,0000,,Doctor, I've checked everyone. Mr Striker's the only one.
+Dialogue: 0,0:50:04.34,0:50:08.22,英文,,0000,0000,0000,,- What's your flying experience? - I flew single-engine fighters.
+Dialogue: 0,0:50:08.51,0:50:13.14,英文,,0000,0000,0000,,This plane has four engines. It's an entirely different kind of flying.
+Dialogue: 0,0:50:14.19,0:50:16.56,英文,,0000,0000,0000,,It's an entirely different kind of flying.
+Dialogue: 0,0:50:19.23,0:50:21.82,英文,,0000,0000,0000,,I haven't touched any kind of plane in six years.
+Dialogue: 0,0:50:22.07,0:50:25.45,英文,,0000,0000,0000,,Mr Striker, I know nothing about flying.
+Dialogue: 0,0:50:25.74,0:50:30.83,英文,,0000,0000,0000,,But I do know that you're the only one on this plane who can possibly fly it.
+Dialogue: 0,0:50:31.12,0:50:33.00,英文,,0000,0000,0000,,You're the only chance we've got.
+Dialogue: 0,0:51:14.04,0:51:17.92,英文,,0000,0000,0000,,That's right. That's what I said. You heard me.
+Dialogue: 0,0:51:18.25,0:51:20.26,英文,,0000,0000,0000,,Tell Omaha to acknowledge and stand by.
+Dialogue: 0,0:51:20.51,0:51:24.09,英文,,0000,0000,0000,,Every piece of emergency equipment you can reach.
+Dialogue: 0,0:51:24.39,0:51:26.64,英文,,0000,0000,0000,,Alert every rescue unit from here to the Rockies.
+Dialogue: 0,0:51:26.89,0:51:28.76,英文,,0000,0000,0000,,Chief!
+Dialogue: 0,0:51:29.06,0:51:32.85,英文,,0000,0000,0000,,- We'll need a free-landing flight check. - It's your wife.
+Dialogue: 0,0:51:33.19,0:51:34.92,英文,,0000,0000,0000,,I want the kids in bed by nine, the dog fed,
+Dialogue: 0,0:51:34.92,0:51:36.31,英文,,0000,0000,0000,,the yard watered, the gate locked.
+Dialogue: 0,0:51:36.61,0:51:39.15,英文,,0000,0000,0000,,Get a note to the milkman - "No more cheese."
+Dialogue: 0,0:51:41.90,0:51:43.86,英文,,0000,0000,0000,,Where the hell is Kramer?
+Dialogue: 0,0:51:52.41,0:51:56.25,英文,,0000,0000,0000,,No, he can't do that. The risk of a flame-out's too great.
+Dialogue: 0,0:51:56.54,0:51:59.55,英文,,0000,0000,0000,,Keep him at 24,000... No, feet.
+Dialogue: 0,0:52:03.47,0:52:05.51,英文,,0000,0000,0000,,A passenger is going to land that plane.
+Dialogue: 0,0:52:05.76,0:52:08.85,英文,,0000,0000,0000,,- Is that possible? - It's a hundred to one shot.
+Dialogue: 0,0:52:12.98,0:52:16.44,英文,,0000,0000,0000,,- I know this guy. - You do? Who is it?
+Dialogue: 0,0:52:16.73,0:52:21.82,英文,,0000,0000,0000,,Ted Striker. I flew with him during the war. It won't make my job easier.
+Dialogue: 0,0:52:23.41,0:52:26.87,英文,,0000,0000,0000,,Ted Striker was a crack flight leader, up to a point.
+Dialogue: 0,0:52:27.16,0:52:31.96,英文,,0000,0000,0000,,He was one of those men who... felt too much inside.
+Dialogue: 0,0:52:32.21,0:52:34.08,英文,,0000,0000,0000,,Maybe you know that kind.
+Dialogue: 0,0:52:34.37,0:52:37.71,英文,,0000,0000,0000,,He went all to pieces on a particular mission.
+Dialogue: 0,0:52:38.46,0:52:41.17,英文,,0000,0000,0000,,Let's just hope that doesn't happen tonight.
+Dialogue: 0,0:52:48.76,0:52:52.81,英文,,0000,0000,0000,,Let's see... Altitude, 24,000 feet.
+Dialogue: 0,0:52:53.90,0:52:57.52,英文,,0000,0000,0000,,Level flight. Speed, 520 knots.
+Dialogue: 0,0:52:58.32,0:53:00.44,英文,,0000,0000,0000,,Course Zero Niner Zero.
+Dialogue: 0,0:53:00.69,0:53:04.36,英文,,0000,0000,0000,,Trim, mixture. Wash, soap, rinse, spin.
+Dialogue: 0,0:53:07.99,0:53:12.12,英文,,0000,0000,0000,,Ted! What are you doing here? You can't fly this plane!
+Dialogue: 0,0:53:12.41,0:53:14.37,英文,,0000,0000,0000,,That's what I'm trying to tell them.
+Dialogue: 0,0:53:14.67,0:53:18.84,英文,,0000,0000,0000,,Elaine. I don't have time to be gentle, so I'll be very direct.
+Dialogue: 0,0:53:19.09,0:53:21.63,英文,,0000,0000,0000,,Everyone is in a desperate situation.
+Dialogue: 0,0:53:21.97,0:53:24.43,英文,,0000,0000,0000,,Mr Striker is the only hope we got.
+Dialogue: 0,0:53:29.22,0:53:32.39,英文,,0000,0000,0000,,Those are the flaps. This is the thrust.
+Dialogue: 0,0:53:33.81,0:53:36.40,英文,,0000,0000,0000,,This must turn on the landing lights.
+Dialogue: 0,0:53:50.37,0:53:54.42,英文,,0000,0000,0000,,- Mayday! Mayday! - Mayday? What the hell is that?
+Dialogue: 0,0:53:54.71,0:53:58.09,英文,,0000,0000,0000,,May Day's the Russian new year. We'll have a big parade and serve...
+Dialogue: 0,0:54:09.31,0:54:11.68,英文,,0000,0000,0000,,I can't stand it any more.
+Dialogue: 0,0:54:11.89,0:54:14.35,英文,,0000,0000,0000,,I've got to get out of here!
+Dialogue: 0,0:54:14.65,0:54:18.86,英文,,0000,0000,0000,,- Calm down! Get ahold of yourself! - Please let me handle this.
+Dialogue: 0,0:54:21.36,0:54:24.57,英文,,0000,0000,0000,,Calm down. Get back to your seat. I'll take care of this.
+Dialogue: 0,0:54:24.86,0:54:26.74,英文,,0000,0000,0000,,Calm down. Get ahold of yourself.
+Dialogue: 0,0:54:26.99,0:54:29.24,英文,,0000,0000,0000,,Doctor, you're wanted on the phone.
+Dialogue: 0,0:54:29.49,0:54:34.50,英文,,0000,0000,0000,,- Everything will be all right. - Sister, I can handle this.
+Dialogue: 0,0:54:34.79,0:54:36.92,英文,,0000,0000,0000,,Got to get out of here!
+Dialogue: 0,0:54:40.51,0:54:42.93,英文,,0000,0000,0000,,We'd like you to have this flower.
+Dialogue: 0,0:54:44.72,0:54:46.85,英文,,0000,0000,0000,,Excuse me, sir, would you...
+Dialogue: 0,0:54:47.14,0:54:49.43,英文,,0000,0000,0000,,Donations for Reverend Moon?
+Dialogue: 0,0:54:50.22,0:54:51.48,英文,,0000,0000,0000,,Jews for Jesus?
+Dialogue: 0,0:54:51.77,0:54:53.69,英文,,0000,0000,0000,,Read about Jehovah's Witnesses?
+Dialogue: 0,0:54:54.98,0:54:57.40,英文,,0000,0000,0000,,How about Buddhism?
+Dialogue: 0,0:54:57.69,0:54:59.65,英文,,0000,0000,0000,,Help Jerry's kids?
+Dialogue: 0,0:54:59.98,0:55:02.40,英文,,0000,0000,0000,,- Scientology? - For nuclear power?
+Dialogue: 0,0:55:09.66,0:55:14.00,英文,,0000,0000,0000,,Your attention, please. No-frills passengers now arriving.
+Dialogue: 0,0:55:14.33,0:55:17.75,英文,,0000,0000,0000,,Please have your baggage claim checks ready to show
+Dialogue: 0,0:55:17.96,0:55:20.09,英文,,0000,0000,0000,,upon leaving the terminal.
+Dialogue: 0,0:55:20.38,0:55:23.22,英文,,0000,0000,0000,,This guy has no airline experience.
+Dialogue: 0,0:55:23.51,0:55:27.81,英文,,0000,0000,0000,,He's a menace to everything in the air. Yes, birds, too.
+Dialogue: 0,0:55:28.01,0:55:31.35,英文,,0000,0000,0000,,OK, he's a terrible risk, but what other choice have we got?
+Dialogue: 0,0:55:31.64,0:55:34.81,英文,,0000,0000,0000,,That's the whole story, Rex. Everything we know.
+Dialogue: 0,0:55:35.94,0:55:40.86,英文,,0000,0000,0000,,Let's face a few facts. I flew with Striker during the war.
+Dialogue: 0,0:55:41.19,0:55:45.03,英文,,0000,0000,0000,,He can't afford to worry about those times when... things weren't so good.
+Dialogue: 0,0:55:45.32,0:55:48.91,英文,,0000,0000,0000,,- Right now things aren't so good. - Let me tell you something.
+Dialogue: 0,0:55:49.20,0:55:52.66,英文,,0000,0000,0000,,Striker was a top-notch squadron leader long ago.
+Dialogue: 0,0:55:52.87,0:55:56.67,英文,,0000,0000,0000,,Get on the horn and talk that guy down.
+Dialogue: 0,0:55:56.92,0:56:00.01,英文,,0000,0000,0000,,Let him get the feel of that airplane,
+Dialogue: 0,0:56:00.30,0:56:04.13,英文,,0000,0000,0000,,then you'll have to talk him right down to the ground.
+Dialogue: 0,0:56:06.60,0:56:10.73,英文,,0000,0000,0000,,- Very well. Put Striker on the speaker. - Use my radio.
+Dialogue: 0,0:56:12.77,0:56:15.31,英文,,0000,0000,0000,,I picked the wrong week to quit drinking.
+Dialogue: 0,0:56:17.94,0:56:20.94,英文,,0000,0000,0000,,You can work them direct from here, Captain.
+Dialogue: 0,0:56:23.07,0:56:28.12,英文,,0000,0000,0000,,Striker? Striker, this is Captain Rex Kramer speaking.
+Dialogue: 0,0:56:31.62,0:56:35.13,英文,,0000,0000,0000,,Yes, Captain Kramer. Read you loud and clear.
+Dialogue: 0,0:56:38.59,0:56:41.67,英文,,0000,0000,0000,,All right. It's obvious you remember me.
+Dialogue: 0,0:56:41.97,0:56:45.47,英文,,0000,0000,0000,,What do you say we forget about everything, except what we must do?
+Dialogue: 0,0:56:46.47,0:56:48.43,英文,,0000,0000,0000,,Let's not kid each other, Kramer.
+Dialogue: 0,0:56:48.68,0:56:52.85,英文,,0000,0000,0000,,You know I've never flown a bucket like this. I'll need all the luck there is.
+Dialogue: 0,0:56:53.14,0:56:55.44,英文,,0000,0000,0000,,Stand by, Striker.
+Dialogue: 0,0:56:55.73,0:57:00.49,英文,,0000,0000,0000,,Our one hope is to build this man up. I've got to give him confidence.
+Dialogue: 0,0:57:00.74,0:57:05.16,英文,,0000,0000,0000,,- You ever flown a multi-engine plane? - No, never.
+Dialogue: 0,0:57:05.45,0:57:07.87,英文,,0000,0000,0000,,Shit! It's a goddamn waste of time.
+Dialogue: 0,0:57:08.12,0:57:12.33,英文,,0000,0000,0000,,- There's no way he can land it! - You got to talk him down!
+Dialogue: 0,0:57:12.66,0:57:15.71,英文,,0000,0000,0000,,Route him into Lake Michigan. At least avoid killing innocent people.
+Dialogue: 0,0:57:16.00,0:57:18.50,英文,,0000,0000,0000,,You're the only chance they've got.
+Dialogue: 0,0:57:21.34,0:57:23.51,英文,,0000,0000,0000,,All right.
+Dialogue: 0,0:57:23.80,0:57:26.76,英文,,0000,0000,0000,,Striker, you listen, and you listen close.
+Dialogue: 0,0:57:27.89,0:57:29.77,英文,,0000,0000,0000,,Flying a plane is like riding a bicycle.
+Dialogue: 0,0:57:30.56,0:57:35.52,英文,,0000,0000,0000,,It'sjust harder to put baseball cards in the spokes. Get the feel of the plane.
+Dialogue: 0,0:57:35.81,0:57:38.61,英文,,0000,0000,0000,,Later, we'll run down the landing procedure.
+Dialogue: 0,0:57:43.41,0:57:46.37,英文,,0000,0000,0000,,All right. Disengage the automatic pilot.
+Dialogue: 0,0:57:46.66,0:57:50.16,英文,,0000,0000,0000,,Make no violent control movements like you did in the fighter planes.
+Dialogue: 0,0:57:51.12,0:57:54.12,英文,,0000,0000,0000,,All right. I'll unlock the automatic pilot.
+Dialogue: 0,0:57:59.92,0:58:03.38,英文,,0000,0000,0000,,The controls will feel very heavy compared to a fighter.
+Dialogue: 0,0:58:05.43,0:58:08.76,英文,,0000,0000,0000,,Don't worry about that. It's perfectly normal.
+Dialogue: 0,0:58:20.82,0:58:22.20,英文,,0000,0000,0000,,Now, one more thing.
+Dialogue: 0,0:58:22.45,0:58:26.07,英文,,0000,0000,0000,,Can somebody work the radio and leave you free for flying?
+Dialogue: 0,0:58:26.32,0:58:31.16,英文,,0000,0000,0000,,- The stewardess is here with me. - Have her sit in the co-pilot seat.
+Dialogue: 0,0:58:33.29,0:58:36.46,英文,,0000,0000,0000,,Elaine, he wants you to sit in the co-pilot seat.
+Dialogue: 0,0:58:44.64,0:58:47.10,英文,,0000,0000,0000,,What's going on? We have a right to know the truth.
+Dialogue: 0,0:58:48.89,0:58:50.85,英文,,0000,0000,0000,,All right, I'll level with you all.
+Dialogue: 0,0:58:51.14,0:58:54.10,英文,,0000,0000,0000,,The most important thing is that you remain calm.
+Dialogue: 0,0:58:54.44,0:58:56.44,英文,,0000,0000,0000,,There's no reason to panic.
+Dialogue: 0,0:58:56.69,0:58:59.82,英文,,0000,0000,0000,,It's true one of the crew members is ill.
+Dialogue: 0,0:59:00.11,0:59:01.86,英文,,0000,0000,0000,,Slightly ill.
+Dialogue: 0,0:59:02.15,0:59:04.53,英文,,0000,0000,0000,,The other two pilots are fine.
+Dialogue: 0,0:59:04.82,0:59:09.24,英文,,0000,0000,0000,,They're flying the plane, free to pursue a life of religious fulfilment.
+Dialogue: 0,0:59:10.04,0:59:14.50,英文,,0000,0000,0000,,The radio is all yours. Keep an eye on number three engine gauge.
+Dialogue: 0,0:59:14.75,0:59:16.17,英文,,0000,0000,0000,,It's running a little hot.
+Dialogue: 0,0:59:19.63,0:59:22.59,英文,,0000,0000,0000,,Striker, first I'd like to say something.
+Dialogue: 0,0:59:23.26,0:59:26.43,英文,,0000,0000,0000,,I know things must look pretty rough up there.
+Dialogue: 0,0:59:26.68,0:59:29.31,英文,,0000,0000,0000,,If you do what I tell you when I tell you,
+Dialogue: 0,0:59:29.56,0:59:32.10,英文,,0000,0000,0000,,there's no reason you should lack confidence
+Dialogue: 0,0:59:32.39,0:59:35.86,英文,,0000,0000,0000,,in your chances of coming out alive and in one piece.
+Dialogue: 0,0:59:36.15,0:59:38.40,英文,,0000,0000,0000,,What weather are you in?
+Dialogue: 0,0:59:39.61,0:59:41.86,英文,,0000,0000,0000,,- Rain. - And a little ice.
+Dialogue: 0,0:59:42.15,0:59:43.66,英文,,0000,0000,0000,,And a little ice.
+Dialogue: 0,0:59:43.95,0:59:49.91,英文,,0000,0000,0000,,- How's it handling? - Sluggish. Like a wet sponge.
+Dialogue: 0,0:59:50.20,0:59:52.58,英文,,0000,0000,0000,,Sluggish. Like a wet sponge.
+Dialogue: 0,0:59:52.83,0:59:55.63,英文,,0000,0000,0000,,All right, Striker. You're doing just fine.
+Dialogue: 0,0:59:56.79,1:00:00.05,英文,,0000,0000,0000,,It's damn good he doesn't know I hate his guts.
+Dialogue: 0,1:00:00.30,1:00:03.80,英文,,0000,0000,0000,,It's damn good you don't know he hates your guts.
+Dialogue: 0,1:00:10.52,1:00:13.14,英文,,0000,0000,0000,,Can I get you something?
+Dialogue: 0,1:00:18.86,1:00:21.74,英文,,0000,0000,0000,,I'm sorry. I don't understand.
+Dialogue: 0,1:00:22.03,1:00:25.24,英文,,0000,0000,0000,,- Stewardess. I speak jive. - Good.
+Dialogue: 0,1:00:25.57,1:00:30.12,英文,,0000,0000,0000,,He said he's in great pain, and he wants to know if you can help him?
+Dialogue: 0,1:00:30.41,1:00:34.63,英文,,0000,0000,0000,,Tell him to relax. I'll be back with some medicine.
+Dialogue: 0,1:00:37.75,1:00:42.13,英文,,0000,0000,0000,,Just hang loose, blood. She'll get some medicine.
+Dialogue: 0,1:00:42.38,1:00:44.89,英文,,0000,0000,0000,,My Mama didn't raise no dummies, that's obvious.
+Dialogue: 0,1:00:45.14,1:00:47.89,英文,,0000,0000,0000,,Cut me some slack, Jack.
+Dialogue: 0,1:00:50.85,1:00:54.52,英文,,0000,0000,0000,,Chump don't want no help, chump don't get the help.
+Dialogue: 0,1:00:54.81,1:00:57.90,英文,,0000,0000,0000,,That dude's got no brains, anyhow.
+Dialogue: 0,1:01:04.49,1:01:07.58,英文,,0000,0000,0000,,Let Captain Oveur's wife know what's going on.
+Dialogue: 0,1:01:07.83,1:01:10.33,英文,,0000,0000,0000,,This weather bulletin just came off the wire.
+Dialogue: 0,1:01:12.91,1:01:15.75,英文,,0000,0000,0000,,- What can you make out of this? - This?
+Dialogue: 0,1:01:16.04,1:01:19.96,英文,,0000,0000,0000,,I can make a hat or a brooch or pterodactyl...
+Dialogue: 0,1:01:29.64,1:01:31.81,英文,,0000,0000,0000,,- Hello? - Mrs Oveur?
+Dialogue: 0,1:01:32.06,1:01:33.85,英文,,0000,0000,0000,,Yes, this is Mrs Oveur.
+Dialogue: 0,1:01:34.10,1:01:38.73,英文,,0000,0000,0000,,This is Ed Macias at the airport. There's trouble on your husband's flight.
+Dialogue: 0,1:01:39.03,1:01:41.03,英文,,0000,0000,0000,,We don't know how serious it is,
+Dialogue: 0,1:01:41.36,1:01:44.20,英文,,0000,0000,0000,,but Steve McCroskey thought you'd want to come over.
+Dialogue: 0,1:01:44.49,1:01:46.78,英文,,0000,0000,0000,,Yes. I'll be right down.
+Dialogue: 0,1:01:50.41,1:01:54.54,英文,,0000,0000,0000,,I've got to go to the airport. You can let yourself out the back door.
+Dialogue: 0,1:01:54.79,1:01:57.09,英文,,0000,0000,0000,,There's juice in the refrigerator.
+Dialogue: 0,1:02:05.64,1:02:10.39,英文,,0000,0000,0000,,Doctor says the sick people are getting worse. We're running out of time.
+Dialogue: 0,1:02:12.31,1:02:15.10,英文,,0000,0000,0000,,I've got to concentrate.
+Dialogue: 0,1:02:16.23,1:02:19.03,英文,,0000,0000,0000,,I've got to concentrate.
+Dialogue: 0,1:02:20.53,1:02:22.57,英文,,0000,0000,0000,,Hello?
+Dialogue: 0,1:02:23.78,1:02:26.07,英文,,0000,0000,0000,,Echo!
+Dialogue: 0,1:02:26.91,1:02:30.41,英文,,0000,0000,0000,,Pinch hitting for Pedro Bourbone,
+Dialogue: 0,1:02:30.62,1:02:32.71,英文,,0000,0000,0000,,Manny Mota.
+Dialogue: 0,1:02:36.50,1:02:40.05,英文,,0000,0000,0000,,- How you doing, honey? - Jack, I'm so hot, I'm burning up.
+Dialogue: 0,1:02:40.30,1:02:42.30,英文,,0000,0000,0000,,I'll turn on some air.
+Dialogue: 0,1:02:48.10,1:02:51.64,英文,,0000,0000,0000,,- What's going on? - Close the window!
+Dialogue: 0,1:02:52.69,1:02:56.48,英文,,0000,0000,0000,,Chicago, the passengers are panicking. When do we start down?
+Dialogue: 0,1:02:56.81,1:03:00.94,英文,,0000,0000,0000,,Not yet. You'll be in radar range any second now.
+Dialogue: 0,1:03:01.24,1:03:03.95,英文,,0000,0000,0000,,They should have been in range 10 minutes ago.
+Dialogue: 0,1:03:04.86,1:03:08.58,英文,,0000,0000,0000,,Gunderson, check the radar range. Anything yet?
+Dialogue: 0,1:03:08.87,1:03:11.04,英文,,0000,0000,0000,,About two more minutes, chief.
+Dialogue: 0,1:03:14.96,1:03:19.00,英文,,0000,0000,0000,,- They could be miles off course. - Impossible! They're on instruments.
+Dialogue: 0,1:03:22.97,1:03:25.39,英文,,0000,0000,0000,,This is going to be a real sweat.
+Dialogue: 0,1:03:26.26,1:03:28.60,英文,,0000,0000,0000,,Gunderson, let me know when you get anything.
+Dialogue: 0,1:03:28.89,1:03:32.02,英文,,0000,0000,0000,,- Got a cigarette, Nels? - I can't take much more of this.
+Dialogue: 0,1:03:36.31,1:03:39.53,英文,,0000,0000,0000,,Looks like I picked the wrong week to quit amphetamines.
+Dialogue: 0,1:03:40.61,1:03:42.36,英文,,0000,0000,0000,,- How about some more coffee? - No, thanks.
+Dialogue: 0,1:03:42.61,1:03:44.99,英文,,0000,0000,0000,,These reporters want a statement.
+Dialogue: 0,1:03:45.24,1:03:48.83,英文,,0000,0000,0000,,- How much longer can they hold out? - 30, 45 minutes.
+Dialogue: 0,1:03:49.08,1:03:51.46,英文,,0000,0000,0000,,- Who's flying the plane? - A passenger.
+Dialogue: 0,1:03:51.75,1:03:56.17,英文,,0000,0000,0000,,He's an experienced air-force pilot. No cause for alarm. Take over.
+Dialogue: 0,1:03:56.42,1:03:59.84,英文,,0000,0000,0000,,- What kind of plane? - It's a big, pretty white plane
+Dialogue: 0,1:04:00.09,1:04:05.34,英文,,0000,0000,0000,,with red stripes, curtains and wheels. It looks like a big Tylenol.
+Dialogue: 0,1:04:06.30,1:04:08.68,英文,,0000,0000,0000,,OK, boys. Let's get some pictures.
+Dialogue: 0,1:04:38.34,1:04:41.55,英文,,0000,0000,0000,,This bulletinjust handed to me. Stricken airliner approaching Chicago.
+Dialogue: 0,1:04:56.06,1:04:58.94,英文,,0000,0000,0000,,Shana, they bought their tickets.
+Dialogue: 0,1:04:59.23,1:05:01.86,英文,,0000,0000,0000,,They knew what they were getting into.
+Dialogue: 0,1:05:03.24,1:05:06.20,英文,,0000,0000,0000,,I say, let them crash!
+Dialogue: 0,1:05:21.55,1:05:24.64,英文,,0000,0000,0000,,- Would you like some whisky, ma'am? - Certainly not!
+Dialogue: 0,1:05:36.90,1:05:39.03,英文,,0000,0000,0000,,How are the passengers?
+Dialogue: 0,1:05:39.32,1:05:43.11,英文,,0000,0000,0000,,I won't deceive you, Mr Striker. We're running out of time.
+Dialogue: 0,1:05:43.41,1:05:47.37,英文,,0000,0000,0000,,- Surely, there's something you can do. - I'm doing everything I can...
+Dialogue: 0,1:05:47.62,1:05:49.70,英文,,0000,0000,0000,,and stop calling me Shirley.
+Dialogue: 0,1:06:13.90,1:06:16.40,英文,,0000,0000,0000,,Randy, are you all right?
+Dialogue: 0,1:06:16.65,1:06:18.73,英文,,0000,0000,0000,,Oh, Dr Rumack.
+Dialogue: 0,1:06:20.28,1:06:23.45,英文,,0000,0000,0000,,I'm scared. I've never been so scared...
+Dialogue: 0,1:06:24.66,1:06:27.87,英文,,0000,0000,0000,,And besides, I'm 26 and I'm not married.
+Dialogue: 0,1:06:28.16,1:06:31.58,英文,,0000,0000,0000,,We're going to make it. You've got to believe that.
+Dialogue: 0,1:06:31.83,1:06:34.88,英文,,0000,0000,0000,,Dr Rumack, do you have any idea when we'll be landing?
+Dialogue: 0,1:06:35.17,1:06:37.80,英文,,0000,0000,0000,,Pretty soon. How are you bearing up?
+Dialogue: 0,1:06:38.09,1:06:40.92,英文,,0000,0000,0000,,To be honest, I've never been so scared,
+Dialogue: 0,1:06:41.17,1:06:43.59,英文,,0000,0000,0000,,but at least I have a husband.
+Dialogue: 0,1:06:56.52,1:06:59.86,英文,,0000,0000,0000,,Stay in formation. Target'sjust ahead.
+Dialogue: 0,1:07:00.03,1:07:03.03,英文,,0000,0000,0000,,Target should be clear if you go in low enough.
+Dialogue: 0,1:07:03.32,1:07:06.83,英文,,0000,0000,0000,,You'll have to decide. You'll have to decide.
+Dialogue: 0,1:07:07.08,1:07:09.16,英文,,0000,0000,0000,,You'll have to decide.
+Dialogue: 0,1:07:09.49,1:07:12.83,英文,,0000,0000,0000,,Stay in formation. Target'sjust ahead.
+Dialogue: 0,1:07:13.04,1:07:16.04,英文,,0000,0000,0000,,Target should be clear if you go in low enough.
+Dialogue: 0,1:07:16.34,1:07:19.67,英文,,0000,0000,0000,,You'll have to decide. You'll have to decide.
+Dialogue: 0,1:07:19.92,1:07:21.30,英文,,0000,0000,0000,,You'll have to decide.
+Dialogue: 0,1:07:26.68,1:07:29.93,英文,,0000,0000,0000,,Oh, rats! Lost number four.
+Dialogue: 0,1:07:30.22,1:07:32.48,英文,,0000,0000,0000,,What happened? What went wrong?
+Dialogue: 0,1:07:32.73,1:07:35.56,英文,,0000,0000,0000,,I forgot to check the oil pressure.
+Dialogue: 0,1:07:36.44,1:07:39.65,英文,,0000,0000,0000,,When Kramer hears about this, the shit's going to hit the fan.
+Dialogue: 0,1:07:42.36,1:07:44.95,英文,,0000,0000,0000,,I told him to watch that oil temperature. What's he doing?
+Dialogue: 0,1:07:45.20,1:07:48.12,英文,,0000,0000,0000,,Stiker, that plane can't land itself.
+Dialogue: 0,1:07:48.41,1:07:51.96,英文,,0000,0000,0000,,Ease off. It's not his fault. It could happen to any pilot.
+Dialogue: 0,1:07:52.25,1:07:53.46,英文,,0000,0000,0000,,It happened to Barbara Stanwyck.
+Dialogue: 0,1:07:53.71,1:07:57.04,英文,,0000,0000,0000,,Can't push him too hard. Might break. Remember who you're dealing with.
+Dialogue: 0,1:07:57.34,1:08:00.26,英文,,0000,0000,0000,,Nick, Pete, Jerry, there's a fire in the barn.
+Dialogue: 0,1:08:01.97,1:08:04.76,英文,,0000,0000,0000,,He's right. I can't take the pressure.
+Dialogue: 0,1:08:05.80,1:08:07.60,英文,,0000,0000,0000,,I was crazy to think I could land this plane.
+Dialogue: 0,1:08:07.89,1:08:13.73,英文,,0000,0000,0000,,- But, Ted, you're the only... - I don't care. I don't have what it takes.
+Dialogue: 0,1:08:13.98,1:08:17.61,英文,,0000,0000,0000,,They'd be better off with someone who's never flown before.
+Dialogue: 0,1:08:27.62,1:08:29.87,英文,,0000,0000,0000,,Bad news. Fog's getting thicker.
+Dialogue: 0,1:08:31.12,1:08:34.25,英文,,0000,0000,0000,,And Leon's getting larger.
+Dialogue: 0,1:08:58.32,1:09:01.74,英文,,0000,0000,0000,,I know what you're going to say, so save your breath.
+Dialogue: 0,1:09:03.70,1:09:06.53,英文,,0000,0000,0000,,Well, I don't have a thing to say.
+Dialogue: 0,1:09:07.37,1:09:09.54,英文,,0000,0000,0000,,You've done the best you could.
+Dialogue: 0,1:09:09.79,1:09:12.25,英文,,0000,0000,0000,,You really have. The best you could.
+Dialogue: 0,1:09:13.42,1:09:15.88,英文,,0000,0000,0000,,We can't expect to win them all.
+Dialogue: 0,1:09:17.46,1:09:22.26,英文,,0000,0000,0000,,I want to tell you something I've kept to myself through these years.
+Dialogue: 0,1:09:22.55,1:09:25.39,英文,,0000,0000,0000,,I was in the war. Medical corps.
+Dialogue: 0,1:09:26.39,1:09:31.48,英文,,0000,0000,0000,,One night, they brought in a badly wounded pilot from a raid.
+Dialogue: 0,1:09:31.73,1:09:33.85,英文,,0000,0000,0000,,He could barely talk.
+Dialogue: 0,1:09:34.10,1:09:37.19,英文,,0000,0000,0000,,He looked up at me, he said,
+Dialogue: 0,1:09:37.44,1:09:41.49,英文,,0000,0000,0000,,"The odds were against us up there, but we went in anyway.
+Dialogue: 0,1:09:41.78,1:09:45.57,英文,,0000,0000,0000,,"I'm glad. Captain made the right decision."
+Dialogue: 0,1:09:47.62,1:09:50.62,英文,,0000,0000,0000,,The pilot's name was George Zip.
+Dialogue: 0,1:09:52.08,1:09:54.46,英文,,0000,0000,0000,,George Zip said that?
+Dialogue: 0,1:09:55.71,1:10:00.17,英文,,0000,0000,0000,,The last thing he said to me, "Doc," he said, "Sometime...
+Dialogue: 0,1:10:01.63,1:10:03.88,英文,,0000,0000,0000,,"...the crew is up against it.
+Dialogue: 0,1:10:04.13,1:10:06.18,英文,,0000,0000,0000,,"The breaks are beating the boys.
+Dialogue: 0,1:10:06.47,1:10:09.60,英文,,0000,0000,0000,,"Tell them to give it all they've got
+Dialogue: 0,1:10:11.14,1:10:14.31,英文,,0000,0000,0000,,"and win just one for the Zipper.
+Dialogue: 0,1:10:16.52,1:10:18.90,英文,,0000,0000,0000,,"I don't know where I'll be then," he said...
+Dialogue: 0,1:10:20.99,1:10:24.20,英文,,0000,0000,0000,,"but I won't smell too good, that's for sure."
+Dialogue: 0,1:10:26.70,1:10:28.58,英文,,0000,0000,0000,,Excuse me, Doc.
+Dialogue: 0,1:10:29.49,1:10:31.66,英文,,0000,0000,0000,,I've got a plane to land.
+Dialogue: 0,1:10:39.59,1:10:43.63,英文,,0000,0000,0000,,You'd better stay up there a bit. When the fog lifts, we'll bring you in.
+Dialogue: 0,1:10:43.88,1:10:45.89,英文,,0000,0000,0000,,I'll take it, Elaine.
+Dialogue: 0,1:10:53.85,1:10:58.02,英文,,0000,0000,0000,,Listen, Dr Rumack says the sick people are in critical condition.
+Dialogue: 0,1:10:58.36,1:11:01.19,英文,,0000,0000,0000,,Every minute counts. We've got to land now.
+Dialogue: 0,1:11:01.53,1:11:05.53,英文,,0000,0000,0000,,Don't be a fool, Striker. You know what a landing like this means.
+Dialogue: 0,1:11:05.82,1:11:07.53,英文,,0000,0000,0000,,I'm ordering you to stay up there!
+Dialogue: 0,1:11:07.83,1:11:09.58,英文,,0000,0000,0000,,No dice, Chicago.
+Dialogue: 0,1:11:09.87,1:11:12.54,英文,,0000,0000,0000,,I'm giving the orders, and we're coming in.
+Dialogue: 0,1:11:12.83,1:11:15.63,英文,,0000,0000,0000,,I guess the foot's on the other hand now.
+Dialogue: 0,1:11:18.59,1:11:20.59,英文,,0000,0000,0000,,He'll never make it in this soup.
+Dialogue: 0,1:11:20.88,1:11:24.34,英文,,0000,0000,0000,,But it's his ship now. He's in charge.
+Dialogue: 0,1:11:24.64,1:11:27.51,英文,,0000,0000,0000,,He's the boss, head man, top dog,
+Dialogue: 0,1:11:27.76,1:11:30.93,英文,,0000,0000,0000,,- big cheese, head honcho... - Captain, look at this!
+Dialogue: 0,1:11:32.60,1:11:34.77,英文,,0000,0000,0000,,"Passengers certain to die."
+Dialogue: 0,1:11:35.02,1:11:37.11,英文,,0000,0000,0000,,"Airline negligent."
+Dialogue: 0,1:11:37.44,1:11:39.40,英文,,0000,0000,0000,,There's a sale at Penny's!
+Dialogue: 0,1:11:42.49,1:11:45.57,英文,,0000,0000,0000,,I'll need three men up in the tower. You, Neubauer, you, Macias.
+Dialogue: 0,1:11:45.87,1:11:47.78,英文,,0000,0000,0000,,Me John. Big tree.
+Dialogue: 0,1:11:48.91,1:11:51.66,英文,,0000,0000,0000,,Striker, we're going to the tower. Good luck.
+Dialogue: 0,1:11:52.46,1:11:55.75,英文,,0000,0000,0000,,- We're going to the tower. - The tower! The tower!
+Dialogue: 0,1:11:55.96,1:11:58.30,英文,,0000,0000,0000,,Rapunzel! Rapunzel!
+Dialogue: 0,1:12:02.80,1:12:05.39,英文,,0000,0000,0000,,Stewardess, how soon till we land?
+Dialogue: 0,1:12:05.68,1:12:08.43,英文,,0000,0000,0000,,It won't be long now. Try not to worry.
+Dialogue: 0,1:12:22.15,1:12:25.82,英文,,0000,0000,0000,,We're all ready, sir. Captain McCroskey, this is Captain Roberts.
+Dialogue: 0,1:12:26.12,1:12:29.91,英文,,0000,0000,0000,,Captain Kramer, Captain Colosimo. Captain Hinshaw, Captain Gantz.
+Dialogue: 0,1:12:30.16,1:12:33.92,英文,,0000,0000,0000,,Captain Kramer, Captain Gantz. Captain Hinshaw, Captain Roberts.
+Dialogue: 0,1:12:34.17,1:12:36.00,英文,,0000,0000,0000,,Captain Kramer, Captain Colosimo. Captain Hinshaw, Captain Gantz.
+Dialogue: 0,1:12:36.34,1:12:38.30,英文,,0000,0000,0000,,Roberts, check air traffic.
+Dialogue: 0,1:12:39.09,1:12:41.76,英文,,0000,0000,0000,,Get that finger out of your ear. You don't know where it's been.
+Dialogue: 0,1:12:44.84,1:12:46.85,英文,,0000,0000,0000,,- Steve! - Got a cigarette, Nels?
+Dialogue: 0,1:12:47.10,1:12:50.93,英文,,0000,0000,0000,,Linda, your husband and the others are alive but unconscious.
+Dialogue: 0,1:12:51.23,1:12:53.19,英文,,0000,0000,0000,,Just like Gerald Ford.
+Dialogue: 0,1:12:53.44,1:12:57.52,英文,,0000,0000,0000,,There's a chance we can save them if Striker lands that plane in time.
+Dialogue: 0,1:12:57.82,1:13:00.53,英文,,0000,0000,0000,,- That isn't much of a chance, is it? - I don't know.
+Dialogue: 0,1:13:00.82,1:13:03.49,英文,,0000,0000,0000,,We're doing everything we can. Now excuse me.
+Dialogue: 0,1:13:07.33,1:13:10.00,英文,,0000,0000,0000,,Where did you get that dress? It's awful!
+Dialogue: 0,1:13:10.25,1:13:13.21,英文,,0000,0000,0000,,And those shoes and that coat! Geez!
+Dialogue: 0,1:13:17.46,1:13:21.09,英文,,0000,0000,0000,,8 miles. Turn right to heading 044.
+Dialogue: 0,1:13:23.43,1:13:26.43,英文,,0000,0000,0000,,We're now at 2,000 feet beginning our descent.
+Dialogue: 0,1:13:26.72,1:13:31.18,英文,,0000,0000,0000,,- Pour every light onto that field. - It's being done.
+Dialogue: 0,1:13:35.65,1:13:38.90,英文,,0000,0000,0000,,Tower to all emergency vehicles, runway is niner.
+Dialogue: 0,1:13:39.94,1:13:42.57,英文,,0000,0000,0000,,Airport vehicles, take positions one and two.
+Dialogue: 0,1:13:42.82,1:13:44.91,英文,,0000,0000,0000,,Civilian equipment, number three.
+Dialogue: 0,1:13:47.16,1:13:49.66,英文,,0000,0000,0000,,Air force, positions four and five.
+Dialogue: 0,1:13:49.95,1:13:52.25,英文,,0000,0000,0000,,All ambulances go to number three.
+Dialogue: 0,1:13:52.50,1:13:55.50,英文,,0000,0000,0000,,Air Israel, please clear the runway.
+Dialogue: 0,1:14:01.42,1:14:04.43,英文,,0000,0000,0000,,In a moment, we'll ask you to assume crash positions.
+Dialogue: 0,1:14:04.72,1:14:07.47,英文,,0000,0000,0000,,Life jackets are under your seat.
+Dialogue: 0,1:14:07.76,1:14:12.85,英文,,0000,0000,0000,,Place it over your head. When I give the word, pull the cord on the right side flap.
+Dialogue: 0,1:14:14.90,1:14:18.19,英文,,0000,0000,0000,,Your seat cushions are also equipped with a flotation device.
+Dialogue: 0,1:14:19.36,1:14:23.61,英文,,0000,0000,0000,,WZAZ in Chicago, where disco lives forever.
+Dialogue: 0,1:14:27.37,1:14:29.83,英文,,0000,0000,0000,,Your altitude's too erratic.
+Dialogue: 0,1:14:30.08,1:14:33.50,英文,,0000,0000,0000,,You can't come straight in. You've got enough fuel for two hours.
+Dialogue: 0,1:14:34.54,1:14:37.84,英文,,0000,0000,0000,,I'll take it, Elaine. Listen to me, Kramer.
+Dialogue: 0,1:14:38.09,1:14:41.88,英文,,0000,0000,0000,,We have people up here who will die in less than an hour.
+Dialogue: 0,1:14:42.17,1:14:44.47,英文,,0000,0000,0000,,I may bend your airplane, but I'll get it down.
+Dialogue: 0,1:14:44.68,1:14:46.97,英文,,0000,0000,0000,,I'm putting the landing gear down.
+Dialogue: 0,1:14:47.22,1:14:51.10,英文,,0000,0000,0000,,- The passengers are ready. - Thanks, Randy.
+Dialogue: 0,1:14:51.43,1:14:54.44,英文,,0000,0000,0000,,You better leave, sweetheart. You might get hurt up here.
+Dialogue: 0,1:15:04.49,1:15:07.66,英文,,0000,0000,0000,,- Ted... - Yes?
+Dialogue: 0,1:15:08.70,1:15:12.04,英文,,0000,0000,0000,,I wanted you to know... now...
+Dialogue: 0,1:15:12.33,1:15:14.33,英文,,0000,0000,0000,,I'm very proud.
+Dialogue: 0,1:15:18.34,1:15:20.88,英文,,0000,0000,0000,,Tell them the gear is down and we're ready to land.
+Dialogue: 0,1:15:24.76,1:15:27.72,英文,,0000,0000,0000,,The gear is down, and we're ready to land.
+Dialogue: 0,1:15:29.64,1:15:33.39,英文,,0000,0000,0000,,All right. He's on final now. Put out all runway lights except niner.
+Dialogue: 0,1:15:35.56,1:15:39.40,英文,,0000,0000,0000,,Captain, maybe we ought to turn on the searchlights now.
+Dialogue: 0,1:15:40.24,1:15:41.99,英文,,0000,0000,0000,,No.
+Dialogue: 0,1:15:42.28,1:15:45.91,英文,,0000,0000,0000,,That's just what they'll be expecting us to do.
+Dialogue: 0,1:15:50.62,1:15:54.29,英文,,0000,0000,0000,,I want to tell you both good luck. We're all counting on you.
+Dialogue: 0,1:15:56.46,1:16:00.96,英文,,0000,0000,0000,,Now listen carefully. You'll see the runway at 300 feet.
+Dialogue: 0,1:16:01.22,1:16:06.30,英文,,0000,0000,0000,,Aim to touch down a third of the way. A slight cross wind, so be ready.
+Dialogue: 0,1:16:07.39,1:16:11.85,英文,,0000,0000,0000,,If you land too fast, use your emergency brakes. Red handle's right in front.
+Dialogue: 0,1:16:12.14,1:16:14.31,英文,,0000,0000,0000,,If that doesn't stop you...
+Dialogue: 0,1:16:19.53,1:16:23.24,英文,,0000,0000,0000,,If that doesn't stop you, cut the four ignition switches.
+Dialogue: 0,1:16:27.03,1:16:31.20,英文,,0000,0000,0000,,Can you see us now? You should be able to see the field.
+Dialogue: 0,1:16:38.42,1:16:41.72,英文,,0000,0000,0000,,- Sure is quiet out there. - Yeah, too quiet.
+Dialogue: 0,1:16:43.76,1:16:47.01,英文,,0000,0000,0000,,Looks like I picked the wrong week to quit sniffing glue.
+Dialogue: 0,1:17:00.07,1:17:01.95,英文,,0000,0000,0000,,There it is.
+Dialogue: 0,1:17:04.16,1:17:05.74,英文,,0000,0000,0000,,There he is!
+Dialogue: 0,1:17:07.41,1:17:11.04,英文,,0000,0000,0000,,- You're coming in too fast. - I know, I know!
+Dialogue: 0,1:17:11.33,1:17:13.08,英文,,0000,0000,0000,,He knows, he knows!
+Dialogue: 0,1:17:15.96,1:17:18.34,英文,,0000,0000,0000,,Below 700 now. Still going down.
+Dialogue: 0,1:17:18.59,1:17:22.72,英文,,0000,0000,0000,,675, 650, 625, he's holding.
+Dialogue: 0,1:17:22.72,1:17:24.09,英文,,0000,0000,0000,,No, he's down, he's down.
+Dialogue: 0,1:17:24.43,1:17:26.35,英文,,0000,0000,0000,,Sound your alarm now.
+Dialogue: 0,1:17:28.39,1:17:31.02,英文,,0000,0000,0000,,Now, everybody, get in crash positions.
+Dialogue: 0,1:17:36.44,1:17:38.27,英文,,0000,0000,0000,,Put down 30 degrees of flap.
+Dialogue: 0,1:17:42.20,1:17:47.16,英文,,0000,0000,0000,,Listen to me. Remember your brakes and switches. Get ready to flare it out!
+Dialogue: 0,1:17:47.95,1:17:53.12,英文,,0000,0000,0000,,He's all over the place. 900 up to 1,300 feet. What an asshole.
+Dialogue: 0,1:17:53.42,1:17:56.04,英文,,0000,0000,0000,,More left rudder. Put down more flap.
+Dialogue: 0,1:18:01.59,1:18:03.38,英文,,0000,0000,0000,,Just kidding!
+Dialogue: 0,1:18:04.55,1:18:07.47,英文,,0000,0000,0000,,Striker, lift your nose. Straighten your wings.
+Dialogue: 0,1:18:07.76,1:18:10.64,英文,,0000,0000,0000,,Coming in too fast. Watch your speed.
+Dialogue: 0,1:18:10.89,1:18:12.98,英文,,0000,0000,0000,,He's coming right at us!
+Dialogue: 0,1:18:17.23,1:18:20.44,英文,,0000,0000,0000,,Coming in too hot. Ease up on the throttle.
+Dialogue: 0,1:18:20.74,1:18:25.41,英文,,0000,0000,0000,,Watch out for that cross wind. Level it out. Dip your left wing.
+Dialogue: 0,1:18:29.20,1:18:32.62,英文,,0000,0000,0000,,You're drifting. Keep your eyes on the far end of the runway.
+Dialogue: 0,1:18:35.29,1:18:36.79,英文,,0000,0000,0000,,You're too low, damn it!
+Dialogue: 0,1:18:38.59,1:18:40.30,英文,,0000,0000,0000,,Watch your stall speed.
+Dialogue: 0,1:18:43.68,1:18:45.18,英文,,0000,0000,0000,,Flare it out!
+Dialogue: 0,1:18:47.97,1:18:49.85,英文,,0000,0000,0000,,Ease her down. Down!
+Dialogue: 0,1:18:54.40,1:18:57.02,英文,,0000,0000,0000,,The brake! Pull the red handle!
+Dialogue: 0,1:19:02.20,1:19:06.07,英文,,0000,0000,0000,,I want to tell you both good luck. We're all counting on you.
+Dialogue: 0,1:19:12.08,1:19:15.79,英文,,0000,0000,0000,,Flight 209 now arriving at gate eight.
+Dialogue: 0,1:19:16.92,1:19:18.75,英文,,0000,0000,0000,,Gate nine.
+Dialogue: 0,1:19:19.05,1:19:20.42,英文,,0000,0000,0000,,Gate ten.
+Dialogue: 0,1:19:21.05,1:19:23.22,英文,,0000,0000,0000,,Pull out of it! Push that button!
+Dialogue: 0,1:19:30.06,1:19:33.39,英文,,0000,0000,0000,,Gate 13... Gate 14.
+Dialogue: 0,1:19:33.64,1:19:34.94,英文,,0000,0000,0000,,Gate 15...
+Dialogue: 0,1:19:44.66,1:19:47.95,英文,,0000,0000,0000,,Auntie Em! Toto! It's a twister!
+Dialogue: 0,1:19:50.54,1:19:54.12,英文,,0000,0000,0000,,Gate 23, 24, 25...
+Dialogue: 0,1:20:17.36,1:20:21.03,英文,,0000,0000,0000,,I want to tell you both good luck. We're all counting on you.
+Dialogue: 0,1:20:26.87,1:20:28.16,英文,,0000,0000,0000,,Striker?
+Dialogue: 0,1:20:28.45,1:20:32.58,英文,,0000,0000,0000,,- Striker, are you all right? - Yeah. We're OK.
+Dialogue: 0,1:20:33.25,1:20:37.71,英文,,0000,0000,0000,,That was probably the lousiest landing in the history of this airport.
+Dialogue: 0,1:20:38.71,1:20:40.63,英文,,0000,0000,0000,,But some of us, particularly me,
+Dialogue: 0,1:20:40.88,1:20:45.01,英文,,0000,0000,0000,,would like to buy you a drink and shake your hand.
+Dialogue: 0,1:20:50.02,1:20:52.89,英文,,0000,0000,0000,,And, Ted, when the going got rough...
+Dialogue: 0,1:20:55.81,1:20:58.36,英文,,0000,0000,0000,,Have a nice day. OK.
+Dialogue: 0,1:20:58.61,1:21:01.69,英文,,0000,0000,0000,,Have a nice day and thank you for flying TransAmerican.
+Dialogue: 0,1:21:02.49,1:21:07.41,英文,,0000,0000,0000,,Loneliness, that's the bottom line. I was never happy as a child.
+Dialogue: 0,1:21:07.70,1:21:11.08,英文,,0000,0000,0000,,Christmas, what does that mean to you? Mine was a living hell.
+Dialogue: 0,1:21:12.12,1:21:15.75,英文,,0000,0000,0000,,Do you know what it's like to fall in the mud and get kicked in the head
+Dialogue: 0,1:21:16.04,1:21:18.21,英文,,0000,0000,0000,,by an iron boot?
+Dialogue: 0,1:21:18.50,1:21:23.01,英文,,0000,0000,0000,,Of course not. It never happens. Sorry. That's a dumb question. Skip that.
+Dialogue: 0,1:21:28.06,1:21:30.64,英文,,0000,0000,0000,,There you go. Have a nice day.
+Dialogue: 0,1:21:46.12,1:21:49.29,英文,,0000,0000,0000,,Municipal bonds, Ted. I'm talking double "A" rating.
+Dialogue: 0,1:21:49.54,1:21:51.62,英文,,0000,0000,0000,,Best investment in America.
+Dialogue: 0,1:27:23.47,1:27:27.47,英文,,0000,0000,0000,,Well, I'll give him another 20 minutes, but that's it.
+Dialogue: 0,0:00:55.00,0:01:00.00,中文简体,,0000,0000,0000,,片名：空前绝后满天飞
+Dialogue: 0,0:01:28.54,0:01:33.15,中文简体,,0000,0000,0000,,白色区是乘客上落专用区
+Dialogue: 0,0:01:33.45,0:01:36.06,中文简体,,0000,0000,0000,,不准停在红色区
+Dialogue: 0,0:01:37.10,0:01:42.06,中文简体,,0000,0000,0000,,白色区是乘客上落专用区
+Dialogue: 0,0:01:42.37,0:01:45.11,中文简体,,0000,0000,0000,,不准停在红色区
+Dialogue: 0,0:01:47.19,0:01:51.93,中文简体,,0000,0000,0000,,白色区是乘客上落专用区
+Dialogue: 0,0:01:52.15,0:01:55.54,中文简体,,0000,0000,0000,,不准停在红色区
+Dialogue: 0,0:01:55.85,0:02:00.81,中文简体,,0000,0000,0000,,白色区是乘客上落专用区
+Dialogue: 0,0:02:01.07,0:02:03.94,中文简体,,0000,0000,0000,,不准停在红色区
+Dialogue: 0,0:02:06.24,0:02:09.51,中文简体,,0000,0000,0000,,你好  请收下醒悟教的花朵
+Dialogue: 0,0:02:09.77,0:02:14.07,中文简体,,0000,0000,0000,,-可否捐献?　-不了  但谢谢你的花
+Dialogue: 0,0:02:15.33,0:02:19.77,中文简体,,0000,0000,0000,,红色区是乘客上落专用区
+Dialogue: 0,0:02:20.07,0:02:23.12,中文简体,,0000,0000,0000,,不准停在白色区
+Dialogue: 0,0:02:23.38,0:02:26.47,中文简体,,0000,0000,0000,,不对 白色区才是乘客上落专用区
+Dialogue: 0,0:02:26.73,0:02:29.69,中文简体,,0000,0000,0000,,不准停在红色区才对
+Dialogue: 0,0:02:30.60,0:02:33.60,中文简体,,0000,0000,0000,,红色区一直是乘客上落专用区
+Dialogue: 0,0:02:33.90,0:02:36.12,中文简体,,0000,0000,0000,,不准停留的一直是白色区
+Dialogue: 0,0:02:36.38,0:02:40.34,中文简体,,0000,0000,0000,,别告诉我哪个区才是上落区
+Dialogue: 0,0:02:40.65,0:02:44.04,中文简体,,0000,0000,0000,,听着  贝蒂  别又再说那些白色区废话了
+Dialogue: 0,0:02:47.34,0:02:51.21,中文简体,,0000,0000,0000,,你好  请收下醒悟教的花朵
+Dialogue: 0,0:02:51.52,0:02:55.78,中文简体,,0000,0000,0000,,-可否捐献?　-不  我们在办公室已捐献了
+Dialogue: 0,0:03:04.35,0:03:07.65,中文简体,,0000,0000,0000,,请把金属物件放在盘上好吗?
+Dialogue: 0,0:03:16.22,0:03:18.79,中文简体,,0000,0000,0000,,白色区是不许停下的
+Dialogue: 0,0:03:19.05,0:03:20.83,中文简体,,0000,0000,0000,,说真的  弗农  为啥装蒜呢?
+Dialogue: 0,0:03:21.05,0:03:23.83,中文简体,,0000,0000,0000,,我们都知道你在说什么
+Dialogue: 0,0:03:24.05,0:03:25.79,中文简体,,0000,0000,0000,,你想让我坠胎
+Dialogue: 0,0:03:26.05,0:03:29.18,中文简体,,0000,0000,0000,,只要小心行事  这是最佳方法
+Dialogue: 0,0:03:29.49,0:03:32.62,中文简体,,0000,0000,0000,,基本上并不危险
+Dialogue: 0,0:03:32.92,0:03:34.88,中文简体,,0000,0000,0000,,的士!
+Dialogue: 0,0:03:41.97,0:03:43.36,中文简体,,0000,0000,0000,,我很快回来
+Dialogue: 0,0:03:50.62,0:03:54.71,中文简体,,0000,0000,0000,,先生  请收下醒悟教的花朵
+Dialogue: 0,0:03:55.02,0:03:57.10,中文简体,,0000,0000,0000,,你可否...
+Dialogue: 0,0:04:12.46,0:04:14.98,中文简体,,0000,0000,0000,,-莱利  铲车呢?　-铲车?
+Dialogue: 0,0:04:15.28,0:04:18.07,中文简体,,0000,0000,0000,,在那边  行李装缷机旁
+Dialogue: 0,0:04:21.94,0:04:23.76,中文简体,,0000,0000,0000,,小心!
+Dialogue: 0,0:04:35.25,0:04:37.42,中文简体,,0000,0000,0000,,-伊莱恩　-泰德!
+Dialogue: 0,0:04:38.20,0:04:40.20,中文简体,,0000,0000,0000,,我早了回家  看到你的便条
+Dialogue: 0,0:04:40.51,0:04:44.34,中文简体,,0000,0000,0000,,你大概是想我稍后才看到  我得和你谈谈
+Dialogue: 0,0:04:44.55,0:04:46.77,中文简体,,0000,0000,0000,,我不想再说了
+Dialogue: 0,0:04:47.12,0:04:49.64,中文简体,,0000,0000,0000,,我知道很多事是日积月累的
+Dialogue: 0,0:04:49.90,0:04:52.82,中文简体,,0000,0000,0000,,但一定会有所改变  就像开始时那样
+Dialogue: 0,0:04:53.12,0:04:54.95,中文简体,,0000,0000,0000,,请有点耐性  我会想办法
+Dialogue: 0,0:04:55.21,0:04:58.30,中文简体,,0000,0000,0000,,我一直都很有耐性  并尝试去帮助你
+Dialogue: 0,0:04:58.60,0:05:01.34,中文简体,,0000,0000,0000,,但你甚至不让我这样做
+Dialogue: 0,0:05:02.99,0:05:05.60,中文简体,,0000,0000,0000,,你对我已没有感觉?
+Dialogue: 0,0:05:05.91,0:05:10.00,中文简体,,0000,0000,0000,,令爱情长久  要有很多因素
+Dialogue: 0,0:05:10.21,0:05:12.39,中文简体,,0000,0000,0000,,最重要是彼此尊重
+Dialogue: 0,0:05:12.69,0:05:15.82,中文简体,,0000,0000,0000,,我不能与我不尊重的人生活
+Dialogue: 0,0:05:22.35,0:05:23.96,中文简体,,0000,0000,0000,,真惹人讨厌
+Dialogue: 0,0:05:24.22,0:05:26.09,中文简体,,0000,0000,0000,,(小说)
+Dialogue: 0,0:05:26.39,0:05:28.31,中文简体,,0000,0000,0000,,(非小说)
+Dialogue: 0,0:05:28.52,0:05:31.35,中文简体,,0000,0000,0000,,(怪诞材料)
+Dialogue: 0,0:05:31.61,0:05:33.13,中文简体,,0000,0000,0000,,(现代精子)
+Dialogue: 0,0:05:33.39,0:05:35.70,中文简体,,0000,0000,0000,,奥维尔机长  请接听白色电话
+Dialogue: 0,0:05:36.00,0:05:39.31,中文简体,,0000,0000,0000,,克拉伦斯·奥维尔机长  请听白色电话
+Dialogue: 0,0:05:44.53,0:05:46.70,中文简体,,0000,0000,0000,,不  白色电话才对
+Dialogue: 0,0:05:50.05,0:05:51.18,中文简体,,0000,0000,0000,,我是奥维尔机长
+Dialogue: 0,0:05:51.44,0:05:53.83,中文简体,,0000,0000,0000,,美奥诊所找你
+Dialogue: 0,0:05:54.10,0:05:57.57,中文简体,,0000,0000,0000,,奥维尔机长  请听白色电话
+Dialogue: 0,0:05:57.84,0:06:00.23,中文简体,,0000,0000,0000,,-我已在接听　-谢谢
+Dialogue: 0,0:06:00.49,0:06:01.97,中文简体,,0000,0000,0000,,请接来
+Dialogue: 0,0:06:02.23,0:06:04.19,中文简体,,0000,0000,0000,,我是美奥诊所的布医生
+Dialogue: 0,0:06:04.40,0:06:06.93,中文简体,,0000,0000,0000,,在你往芝加哥的航机上有一名乘客
+Dialogue: 0,0:06:07.23,0:06:10.23,中文简体,,0000,0000,0000,,一个叫莉莎·戴维斯的小女孩  是前往明尼阿波利斯的
+Dialogue: 0,0:06:10.45,0:06:12.45,中文简体,,0000,0000,0000,,她正排期接受心脏移植手术
+Dialogue: 0,0:06:12.75,0:06:14.88,中文简体,,0000,0000,0000,,告诉她母亲我们找到捐赠者
+Dialogue: 0,0:06:15.19,0:06:17.02,中文简体,,0000,0000,0000,,心脏已准备好移植
+Dialogue: 0,0:06:17.28,0:06:20.58,中文简体,,0000,0000,0000,,手术得在六小时内进行
+Dialogue: 0,0:06:20.93,0:06:23.93,中文简体,,0000,0000,0000,,确保她要躺着
+Dialogue: 0,0:06:24.19,0:06:27.24,中文简体,,0000,0000,0000,,并一直接受静脉注射
+Dialogue: 0,0:06:27.45,0:06:29.46,中文简体,,0000,0000,0000,,她保持冷静是很重要的
+Dialogue: 0,0:06:29.67,0:06:31.72,中文简体,,0000,0000,0000,,对不起  我是接线生
+Dialogue: 0,0:06:32.02,0:06:35.85,中文简体,,0000,0000,0000,,哈姆先生急电  在第五线
+Dialogue: 0,0:06:36.11,0:06:38.15,中文简体,,0000,0000,0000,,替我接进来  别挂梅奥的
+Dialogue: 0,0:07:05.60,0:07:08.90,中文简体,,0000,0000,0000,,你明晚会回来  到时我们共进晚餐好好谈谈
+Dialogue: 0,0:07:09.21,0:07:11.95,中文简体,,0000,0000,0000,,我不会回来  我要求调往亚特兰大
+Dialogue: 0,0:07:12.25,0:07:15.64,中文简体,,0000,0000,0000,,伊莱恩  我保证我可以改变
+Dialogue: 0,0:07:15.95,0:07:20.12,中文简体,,0000,0000,0000,,那么为何你不接受路易·纳兹在波音公司给你的工作?
+Dialogue: 0,0:07:20.43,0:07:23.95,中文简体,,0000,0000,0000,,战后我无法走近飞机
+Dialogue: 0,0:07:24.21,0:07:27.43,中文简体,,0000,0000,0000,,加上我的战时记录  他们不会聘用我的
+Dialogue: 0,0:07:27.69,0:07:30.95,中文简体,,0000,0000,0000,,战时记录?只有你才在意
+Dialogue: 0,0:07:31.26,0:07:33.52,中文简体,,0000,0000,0000,,其他人都不当这是一回事
+Dialogue: 0,0:07:33.82,0:07:37.00,中文简体,,0000,0000,0000,,-你以为我会相信?　-那是事实
+Dialogue: 0,0:07:37.26,0:07:40.00,中文简体,,0000,0000,0000,,最丢人的是你战后的记录
+Dialogue: 0,0:07:40.26,0:07:41.78,中文简体,,0000,0000,0000,,往不同城市  做不同工作
+Dialogue: 0,0:07:42.04,0:07:45.30,中文简体,,0000,0000,0000,,完全显示了你不可以承担责任
+Dialogue: 0,0:07:45.61,0:07:48.44,中文简体,,0000,0000,0000,,-伊莱恩  再给我一次...　-太迟了
+Dialogue: 0,0:07:48.70,0:07:50.70,中文简体,,0000,0000,0000,,当我返回芝加哥
+Dialogue: 0,0:07:51.00,0:07:54.65,中文简体,,0000,0000,0000,,我要重新生活  抱歉
+Dialogue: 0,0:07:58.26,0:08:01.79,中文简体,,0000,0000,0000,,请收下醒悟教的花朵
+Dialogue: 0,0:08:11.75,0:08:13.70,中文简体,,0000,0000,0000,,你好
+Dialogue: 0,0:08:13.96,0:08:17.49,中文简体,,0000,0000,0000,,行了  跟着他们
+Dialogue: 0,0:08:21.40,0:08:24.23,中文简体,,0000,0000,0000,,有没有盐湖城那风暴消息  克拉伦斯?
+Dialogue: 0,0:08:24.58,0:08:26.32,中文简体,,0000,0000,0000,,没有  不太可能  维克托
+Dialogue: 0,0:08:26.58,0:08:31.19,中文简体,,0000,0000,0000,,我刚看过四点至十二点的地区报告
+Dialogue: 0,0:08:31.45,0:08:33.41,中文简体,,0000,0000,0000,,有一道冷锋在达科他上
+Dialogue: 0,0:08:33.67,0:08:35.75,中文简体,,0000,0000,0000,,一直伸展至犹他
+Dialogue: 0,0:08:36.10,0:08:40.06,中文简体,,0000,0000,0000,,若移至大湖区  就会很大雾
+Dialogue: 0,0:08:40.28,0:08:42.06,中文简体,,0000,0000,0000,,走南路绕过图沙又如何?
+Dialogue: 0,0:08:42.32,0:08:44.58,中文简体,,0000,0000,0000,,我已查看过了
+Dialogue: 0,0:08:44.89,0:08:47.76,中文简体,,0000,0000,0000,,天气同样恶劣
+Dialogue: 0,0:08:48.02,0:08:49.54,中文简体,,0000,0000,0000,,如何恶劣?
+Dialogue: 0,0:08:49.80,0:08:53.59,中文简体,,0000,0000,0000,,二万英尺高空满布密云  一万八千英尺高空更有冰雹
+Dialogue: 0,0:08:55.06,0:08:59.28,中文简体,,0000,0000,0000,,-似乎丹佛的天气最好　-是的
+Dialogue: 0,0:08:59.59,0:09:00.72,中文简体,,0000,0000,0000,,抱歉  克拉伦斯
+Dialogue: 0,0:09:01.02,0:09:04.07,中文简体,,0000,0000,0000,,最新报告显示由盐湖城至林肯  都很大雾
+Dialogue: 0,0:09:04.33,0:09:05.94,中文简体,,0000,0000,0000,,罗杰  欢迎你登机
+Dialogue: 0,0:09:06.24,0:09:08.02,中文简体,,0000,0000,0000,,维克托  这是罗杰·默多克  维克托·巴斯塔
+Dialogue: 0,0:09:08.29,0:09:10.24,中文简体,,0000,0000,0000,,-你好吗?　-幸会
+Dialogue: 0,0:09:10.50,0:09:13.07,中文简体,,0000,0000,0000,,我正跟维克托说我看过四点至十二点的...
+Dialogue: 0,0:09:13.33,0:09:15.98,中文简体,,0000,0000,0000,,地区报告
+Dialogue: 0,0:09:17.46,0:09:20.33,中文简体,,0000,0000,0000,,有一道冷锋在达科他上
+Dialogue: 0,0:09:20.64,0:09:22.99,中文简体,,0000,0000,0000,,(美国新闻选举影响)
+Dialogue: 0,0:09:29.94,0:09:32.08,中文简体,,0000,0000,0000,,行了  谢谢
+Dialogue: 0,0:09:32.99,0:09:35.56,中文简体,,0000,0000,0000,,请问伊莱恩·狄金森在这班机上吗?
+Dialogue: 0,0:09:35.86,0:09:39.47,中文简体,,0000,0000,0000,,所有机员都登机了  让我看看
+Dialogue: 0,0:09:40.73,0:09:42.38,中文简体,,0000,0000,0000,,对  她在机上
+Dialogue: 0,0:09:45.64,0:09:49.30,中文简体,,0000,0000,0000,,我想要一张往芝加哥的机票  没有行李
+Dialogue: 0,0:09:55.17,0:09:58.61,中文简体,,0000,0000,0000,,-吸烟抑或不吸烟?　-吸烟
+Dialogue: 0,0:10:00.78,0:10:03.17,中文简体,,0000,0000,0000,,这里  祝旅程愉快
+Dialogue: 0,0:10:19.35,0:10:21.66,中文简体,,0000,0000,0000,,史泰克  这是红队长四号
+Dialogue: 0,0:10:21.96,0:10:24.13,中文简体,,0000,0000,0000,,主要目标被大雾遮盖
+Dialogue: 0,0:10:24.40,0:10:26.61,中文简体,,0000,0000,0000,,你要决定继续进行
+Dialogue: 0,0:10:26.88,0:10:29.40,中文简体,,0000,0000,0000,,是你决定...
+Dialogue: 0,0:10:29.61,0:10:32.53,中文简体,,0000,0000,0000,,是你...
+Dialogue: 0,0:10:43.53,0:10:46.27,中文简体,,0000,0000,0000,,那白人该远离我妻子
+Dialogue: 0,0:10:46.62,0:10:48.40,中文简体,,0000,0000,0000,,否则我会揍他
+Dialogue: 0,0:10:48.75,0:10:51.62,中文简体,,0000,0000,0000,,对  他不该这样做
+Dialogue: 0,0:10:52.40,0:10:54.71,中文简体,,0000,0000,0000,,我认识一个处境相同的人
+Dialogue: 0,0:10:55.01,0:10:56.62,中文简体,,0000,0000,0000,,结果他后悔莫及
+Dialogue: 0,0:10:57.19,0:10:59.06,中文简体,,0000,0000,0000,,别那么天真了  雅瑟
+Dialogue: 0,0:10:59.41,0:11:03.02,中文简体,,0000,0000,0000,,我们每人都有道德选择
+Dialogue: 0,0:11:04.06,0:11:05.89,中文简体,,0000,0000,0000,,早睡早起
+Dialogue: 0,0:11:06.24,0:11:08.76,中文简体,,0000,0000,0000,,令人健康  富足和聪明
+Dialogue: 0,0:11:09.06,0:11:11.58,中文简体,,0000,0000,0000,,说得真好!
+Dialogue: 0,0:11:35.50,0:11:37.07,中文简体,,0000,0000,0000,,(请勿吸烟)
+Dialogue: 0,0:11:37.37,0:11:41.25,中文简体,,0000,0000,0000,,(扣紧安全带)
+Dialogue: 0,0:11:49.90,0:11:51.77,中文简体,,0000,0000,0000,,很紧张?
+Dialogue: 0,0:11:52.07,0:11:53.60,中文简体,,0000,0000,0000,,是的
+Dialogue: 0,0:11:53.86,0:11:56.29,中文简体,,0000,0000,0000,,第一次?
+Dialogue: 0,0:11:56.51,0:11:59.08,中文简体,,0000,0000,0000,,不  已很多次
+Dialogue: 0,0:12:05.64,0:12:09.38,中文简体,,0000,0000,0000,,我们快起飞了  我替你扣好安全带吧
+Dialogue: 0,0:12:09.64,0:12:12.39,中文简体,,0000,0000,0000,,劳驾  妈妈  我很兴奋
+Dialogue: 0,0:12:12.65,0:12:15.43,中文简体,,0000,0000,0000,,我知道  但你得休息
+Dialogue: 0,0:12:15.65,0:12:19.39,中文简体,,0000,0000,0000,,你放松点吧!飞机起飞后我会再回来
+Dialogue: 0,0:12:19.69,0:12:20.82,中文简体,,0000,0000,0000,,谢谢你
+Dialogue: 0,0:12:23.39,0:12:27.39,中文简体,,0000,0000,0000,,-我会很想念你　-我也是
+Dialogue: 0,0:12:27.69,0:12:29.83,中文简体,,0000,0000,0000,,答应我写信给我
+Dialogue: 0,0:12:30.13,0:12:31.96,中文简体,,0000,0000,0000,,每天都会
+Dialogue: 0,0:12:33.39,0:12:34.74,中文简体,,0000,0000,0000,,比尔!
+Dialogue: 0,0:12:35.00,0:12:37.52,中文简体,,0000,0000,0000,,快登机吧  孩子
+Dialogue: 0,0:12:39.09,0:12:40.92,中文简体,,0000,0000,0000,,所有乘客登机
+Dialogue: 0,0:12:41.18,0:12:44.22,中文简体,,0000,0000,0000,,209号班机叫地面指挥  我们准备起程
+Dialogue: 0,0:12:44.53,0:12:47.18,中文简体,,0000,0000,0000,,-再见  阿标　-再见  宝贝
+Dialogue: 0,0:12:47.44,0:12:49.18,中文简体,,0000,0000,0000,,我爱你
+Dialogue: 0,0:12:49.40,0:12:51.83,中文简体,,0000,0000,0000,,209号班机  请使用第19号跑道
+Dialogue: 0,0:12:54.53,0:12:56.05,中文简体,,0000,0000,0000,,再见  宝贝
+Dialogue: 0,0:12:56.35,0:12:59.75,中文简体,,0000,0000,0000,,你一到步就要拍照并立即寄给我
+Dialogue: 0,0:13:00.05,0:13:01.92,中文简体,,0000,0000,0000,,好的  拿着
+Dialogue: 0,0:13:04.57,0:13:07.40,中文简体,,0000,0000,0000,,这是你的手表  你不该给我  你会用得着的
+Dialogue: 0,0:13:07.71,0:13:09.88,中文简体,,0000,0000,0000,,不要紧  已坏掉
+Dialogue: 0,0:13:10.23,0:13:11.84,中文简体,,0000,0000,0000,,-比尔　-再见  宝贝
+Dialogue: 0,0:13:12.14,0:13:13.62,中文简体,,0000,0000,0000,,比尔!
+Dialogue: 0,0:13:15.06,0:13:18.19,中文简体,,0000,0000,0000,,比尔  我会整天戴着它
+Dialogue: 0,0:13:21.93,0:13:24.23,中文简体,,0000,0000,0000,,-209号班机  可以起飞　-收到
+Dialogue: 0,0:13:25.32,0:13:28.32,中文简体,,0000,0000,0000,,-洛杉矶离开频道是123.9　-收到
+Dialogue: 0,0:13:29.50,0:13:31.84,中文简体,,0000,0000,0000,,-请给航向指示　-什么?
+Dialogue: 0,0:13:32.15,0:13:34.76,中文简体,,0000,0000,0000,,209号班机  可以起飞了
+Dialogue: 0,0:13:35.06,0:13:36.93,中文简体,,0000,0000,0000,,-我们可以起飞了  克拉伦斯　-收到  收到
+Dialogue: 0,0:13:37.15,0:13:39.11,中文简体,,0000,0000,0000,,航向指示是什么  维克托?
+Dialogue: 0,0:13:39.32,0:13:43.63,中文简体,,0000,0000,0000,,-我想要无线电指示　-我是克拉伦斯·奥维尔
+Dialogue: 0,0:13:43.93,0:13:45.07,中文简体,,0000,0000,0000,,-收到　-什么?
+Dialogue: 0,0:13:45.33,0:13:48.07,中文简体,,0000,0000,0000,,-收到 完毕　-谁?
+Dialogue: 0,0:14:13.94,0:14:16.12,中文简体,,0000,0000,0000,,先生  你没事吧?
+Dialogue: 0,0:14:16.42,0:14:19.29,中文简体,,0000,0000,0000,,我很久没有乘搭飞机了
+Dialogue: 0,0:14:28.30,0:14:30.51,中文简体,,0000,0000,0000,,各位好  我是奥维尔机长
+Dialogue: 0,0:14:31.47,0:14:33.82,中文简体,,0000,0000,0000,,我们今晚会在三万六千英尺上空飞行
+Dialogue: 0,0:14:34.08,0:14:37.08,中文简体,,0000,0000,0000,,(男孩生活)
+Dialogue: 0,0:14:39.30,0:14:43.69,中文简体,,0000,0000,0000,,(修女生活)
+Dialogue: 0,0:14:45.08,0:14:47.13,中文简体,,0000,0000,0000,,放松  好好享受今次旅程
+Dialogue: 0,0:14:47.39,0:14:49.00,中文简体,,0000,0000,0000,,想看点什么吗?
+Dialogue: 0,0:14:49.35,0:14:51.69,中文简体,,0000,0000,0000,,有没有轻松一些的?
+Dialogue: 0,0:14:53.30,0:14:57.30,中文简体,,0000,0000,0000,,"著名犹太运动巨星"  册子如何?
+Dialogue: 0,0:14:57.57,0:14:59.74,中文简体,,0000,0000,0000,,好的  劳驾
+Dialogue: 0,0:15:00.91,0:15:03.96,中文简体,,0000,0000,0000,,-泰德  你为何会在这里?　-我得和你谈谈
+Dialogue: 0,0:15:04.18,0:15:06.61,中文简体,,0000,0000,0000,,你不该上机  我现在没时间
+Dialogue: 0,0:15:06.92,0:15:08.79,中文简体,,0000,0000,0000,,-小姐?　-失陪
+Dialogue: 0,0:15:22.66,0:15:26.66,中文简体,,0000,0000,0000,,难怪你不开心  她很可爱
+Dialogue: 0,0:15:28.75,0:15:31.49,中文简体,,0000,0000,0000,,身材又好
+Dialogue: 0,0:15:31.71,0:15:36.10,中文简体,,0000,0000,0000,,肌肤充满弹性  丰乳纤腿
+Dialogue: 0,0:15:37.71,0:15:40.75,中文简体,,0000,0000,0000,,可惜你俩合不来
+Dialogue: 0,0:15:41.06,0:15:43.19,中文简体,,0000,0000,0000,,我知道
+Dialogue: 0,0:15:43.49,0:15:46.02,中文简体,,0000,0000,0000,,以前并不是这样的
+Dialogue: 0,0:15:48.41,0:15:51.02,中文简体,,0000,0000,0000,,我记得我们首次相遇的情形
+Dialogue: 0,0:15:51.32,0:15:53.93,中文简体,,0000,0000,0000,,是战时的事
+Dialogue: 0,0:15:54.19,0:15:58.98,中文简体,,0000,0000,0000,,我加入空军  驻守巴巴利海岸的杜林比
+Dialogue: 0,0:16:00.32,0:16:02.59,中文简体,,0000,0000,0000,,经常往马金巴酒吧
+Dialogue: 0,0:16:02.89,0:16:06.07,中文简体,,0000,0000,0000,,那是一处品流复杂的地方
+Dialogue: 0,0:16:06.28,0:16:10.89,中文简体,,0000,0000,0000,,三教九流的人都聚集在那儿
+Dialogue: 0,0:16:11.15,0:16:13.42,中文简体,,0000,0000,0000,,比底特律还要差
+Dialogue: 0,0:16:24.37,0:16:26.46,中文简体,,0000,0000,0000,,那儿的气氛也不好
+Dialogue: 0,0:16:26.72,0:16:29.51,中文简体,,0000,0000,0000,,拳头要够硬才可以往那里
+Dialogue: 0,0:16:29.77,0:16:32.51,中文简体,,0000,0000,0000,,几乎每晚都会发生打斗
+Dialogue: 0,0:17:43.18,0:17:47.23,中文简体,,0000,0000,0000,,我并非往那里找情人  只想喝几杯
+Dialogue: 0,0:17:47.53,0:17:49.31,中文简体,,0000,0000,0000,,突然之间  我看到她
+Dialogue: 0,0:17:59.19,0:18:03.14,中文简体,,0000,0000,0000,,我完全被她俘虏  像遭电击
+Dialogue: 0,0:18:03.41,0:18:07.45,中文简体,,0000,0000,0000,,我得叫这厮捏我  以确保自己不是在做梦
+Dialogue: 0,0:18:12.58,0:18:14.19,中文简体,,0000,0000,0000,,我害怕上前认识她
+Dialogue: 0,0:18:14.50,0:18:17.06,中文简体,,0000,0000,0000,,但那晚  我们注定相识
+Dialogue: 0,0:21:24.38,0:21:27.77,中文简体,,0000,0000,0000,,我们谈天  说笑和跳舞
+Dialogue: 0,0:21:28.03,0:21:31.60,中文简体,,0000,0000,0000,,我不想那晚结束  现在亦然
+Dialogue: 0,0:21:31.82,0:21:35.69,中文简体,,0000,0000,0000,,我说够了  希望没把你闷坏
+Dialogue: 0,0:21:35.95,0:21:40.78,中文简体,,0000,0000,0000,,但每当说起伊莱恩  我都很投入  浑然忘记了时间
+Dialogue: 0,0:21:43.25,0:21:45.08,中文简体,,0000,0000,0000,,想要晚餐吗?
+Dialogue: 0,0:21:45.34,0:21:47.49,中文简体,,0000,0000,0000,,乔伊吃牛扒  我们则吃鱼
+Dialogue: 0,0:21:47.50,0:21:49.65,中文简体,,0000,0000,0000,,我何时可以参观驾驶舱?
+Dialogue: 0,0:21:50.00,0:21:53.69,中文简体,,0000,0000,0000,,机师现在很忙
+Dialogue: 0,0:21:54.00,0:21:55.17,中文简体,,0000,0000,0000,,真气人!
+Dialogue: 0,0:21:55.39,0:21:59.26,中文简体,,0000,0000,0000,,我跟机长说  且看能否安排
+Dialogue: 0,0:21:59.48,0:22:01.70,中文简体,,0000,0000,0000,,太好了!
+Dialogue: 0,0:22:04.44,0:22:06.44,中文简体,,0000,0000,0000,,想吃晚餐吗?
+Dialogue: 0,0:22:08.44,0:22:10.09,中文简体,,0000,0000,0000,,我想吃牛扒
+Dialogue: 0,0:22:14.05,0:22:15.92,中文简体,,0000,0000,0000,,我要鱼
+Dialogue: 0,0:22:23.79,0:22:26.66,中文简体,,0000,0000,0000,,我刚巧经过
+Dialogue: 0,0:22:26.92,0:22:29.14,中文简体,,0000,0000,0000,,你要咖啡吗?
+Dialogue: 0,0:22:29.40,0:22:31.97,中文简体,,0000,0000,0000,,你真有心  谢谢
+Dialogue: 0,0:22:34.53,0:22:37.10,中文简体,,0000,0000,0000,,-坐吧　-谢谢
+Dialogue: 0,0:22:40.36,0:22:43.19,中文简体,,0000,0000,0000,,-加奶吗?　-不  我喝黑咖啡的
+Dialogue: 0,0:22:43.53,0:22:44.66,中文简体,,0000,0000,0000,,像我的男人一样
+Dialogue: 0,0:23:54.86,0:23:58.03,中文简体,,0000,0000,0000,,泰德  我实在太快乐了
+Dialogue: 0,0:23:58.30,0:24:01.60,中文简体,,0000,0000,0000,,这几个月简直是神仙生活
+Dialogue: 0,0:24:01.82,0:24:05.60,中文简体,,0000,0000,0000,,不如明天我们去吃海鲜
+Dialogue: 0,0:24:06.99,0:24:10.95,中文简体,,0000,0000,0000,,-怎么了?　-我接到命令
+Dialogue: 0,0:24:11.17,0:24:12.91,中文简体,,0000,0000,0000,,我的部队要明天出发
+Dialogue: 0,0:24:13.13,0:24:16.52,中文简体,,0000,0000,0000,,我们要在六点钟轰炸在戴基利的补给站
+Dialogue: 0,0:24:16.78,0:24:19.52,中文简体,,0000,0000,0000,,我们由北面进袭  低于他们的雷达
+Dialogue: 0,0:24:19.82,0:24:24.22,中文简体,,0000,0000,0000,,-你何时回来?　-我不能说  是机密
+Dialogue: 0,0:24:25.17,0:24:29.09,中文简体,,0000,0000,0000,,泰德  万事小心  我很担心
+Dialogue: 0,0:24:30.48,0:24:31.65,中文简体,,0000,0000,0000,,我爱你  伊莱恩
+Dialogue: 0,0:24:32.00,0:24:33.96,中文简体,,0000,0000,0000,,我爱你
+Dialogue: 0,0:24:55.71,0:24:59.40,中文简体,,0000,0000,0000,,209号班机  这是丹佛控制塔
+Dialogue: 0,0:24:59.71,0:25:04.19,中文简体,,0000,0000,0000,,前面天气并不稳定  请上升至四万二千英尺
+Dialogue: 0,0:25:05.36,0:25:08.19,中文简体,,0000,0000,0000,,-收到  丹佛　-有访客到
+Dialogue: 0,0:25:08.54,0:25:09.67,中文简体,,0000,0000,0000,,你好
+Dialogue: 0,0:25:09.97,0:25:12.58,中文简体,,0000,0000,0000,,奥维尔机长  默多克先生和巴斯塔先生
+Dialogue: 0,0:25:12.58,0:25:13.88,中文简体,,0000,0000,0000,,这是乔伊·哈姆
+Dialogue: 0,0:25:14.15,0:25:16.10,中文简体,,0000,0000,0000,,-乔伊  你好　-过来
+Dialogue: 0,0:25:16.36,0:25:20.10,中文简体,,0000,0000,0000,,这是送给访客的  想要吗?
+Dialogue: 0,0:25:20.32,0:25:24.71,中文简体,,0000,0000,0000,,-实在谢谢你　-别客气  到过驾驶舱没有?
+Dialogue: 0,0:25:25.02,0:25:28.28,中文简体,,0000,0000,0000,,没有  我从没乘搭过飞机
+Dialogue: 0,0:25:28.54,0:25:30.63,中文简体,,0000,0000,0000,,你见过成年男性裸体吗?
+Dialogue: 0,0:25:30.89,0:25:34.67,中文简体,,0000,0000,0000,,-该看看天气吗?　-不  你负责吧
+Dialogue: 0,0:25:35.02,0:25:38.85,中文简体,,0000,0000,0000,,乔伊  你有否到过体操馆?
+Dialogue: 0,0:25:39.20,0:25:42.68,中文简体,,0000,0000,0000,,-我们还是回去吧　-不  乔伊可以多留一会
+Dialogue: 0,0:25:42.98,0:25:45.07,中文简体,,0000,0000,0000,,-真的?　-只要你不碍事便行
+Dialogue: 0,0:25:45.33,0:25:47.16,中文简体,,0000,0000,0000,,209号班机呼叫丹佛控制塔
+Dialogue: 0,0:25:47.16,0:25:49.42,中文简体,,0000,0000,0000,,我们升至四万二千英尺上空前进
+Dialogue: 0,0:25:49.72,0:25:52.90,中文简体,,0000,0000,0000,,我们到林肯上空时会再报到
+Dialogue: 0,0:25:53.16,0:25:57.03,中文简体,,0000,0000,0000,,慢着  我认得你  你是卡里姆·阿布杜勒·贾巴尔
+Dialogue: 0,0:25:57.29,0:26:00.07,中文简体,,0000,0000,0000,,效力洛杉矶湖人队的
+Dialogue: 0,0:26:01.12,0:26:03.60,中文简体,,0000,0000,0000,,抱歉  你认错人了
+Dialogue: 0,0:26:03.86,0:26:06.51,中文简体,,0000,0000,0000,,我叫罗杰·默多克  是副机师
+Dialogue: 0,0:26:06.81,0:26:11.38,中文简体,,0000,0000,0000,,你是卡里姆!我看过你比赛  我爸买了季票
+Dialogue: 0,0:26:11.64,0:26:14.38,中文简体,,0000,0000,0000,,你该返回座位  对吗  克拉伦斯?
+Dialogue: 0,0:26:15.77,0:26:18.60,中文简体,,0000,0000,0000,,不  他没骚扰任何人  让他留下
+Dialogue: 0,0:26:20.17,0:26:23.82,中文简体,,0000,0000,0000,,好  但记着  我叫做罗杰·默多克
+Dialogue: 0,0:26:24.08,0:26:25.56,中文简体,,0000,0000,0000,,是个机师
+Dialogue: 0,0:26:25.78,0:26:27.39,中文简体,,0000,0000,0000,,我觉得你是最出色的球员
+Dialogue: 0,0:26:27.65,0:26:32.21,中文简体,,0000,0000,0000,,但爸说你在防守方面做得不够
+Dialogue: 0,0:26:32.52,0:26:36.08,中文简体,,0000,0000,0000,,他经常说你甚至不回防
+Dialogue: 0,0:26:36.34,0:26:39.43,中文简体,,0000,0000,0000,,在季后赛时才偶尔回防
+Dialogue: 0,0:26:39.69,0:26:41.39,中文简体,,0000,0000,0000,,我有回防的!
+Dialogue: 0,0:26:43.35,0:26:46.96,中文简体,,0000,0000,0000,,自从我在大学开始已不断听到这种废话
+Dialogue: 0,0:26:47.22,0:26:50.57,中文简体,,0000,0000,0000,,我每晚都尽力比赛
+Dialogue: 0,0:26:50.83,0:26:52.70,中文简体,,0000,0000,0000,,叫你老爹把沃尔顿和拉尼尔带来球场
+Dialogue: 0,0:26:53.05,0:26:55.74,中文简体,,0000,0000,0000,,要他们往返跑个48分钟吧
+Dialogue: 0,0:27:02.31,0:27:05.66,中文简体,,0000,0000,0000,,乔伊...喜欢关于格斗者电影吗?
+Dialogue: 0,0:27:11.35,0:27:14.36,中文简体,,0000,0000,0000,,伊莱恩  请听我说
+Dialogue: 0,0:27:14.57,0:27:18.27,中文简体,,0000,0000,0000,,我知道我们之间问题存在已久  但一切将有改变
+Dialogue: 0,0:27:18.53,0:27:21.31,中文简体,,0000,0000,0000,,就像开始时那样  记得吗?
+Dialogue: 0,0:27:21.58,0:27:23.01,中文简体,,0000,0000,0000,,我记得一切
+Dialogue: 0,0:27:24.84,0:27:27.14,中文简体,,0000,0000,0000,,我只有回忆
+Dialogue: 0,0:27:27.40,0:27:30.62,中文简体,,0000,0000,0000,,记得最深刻的是晚上一起时
+Dialogue: 0,0:27:30.88,0:27:34.14,中文简体,,0000,0000,0000,,我记得你怎样拥抱我
+Dialogue: 0,0:27:34.41,0:27:37.49,中文简体,,0000,0000,0000,,我怎样坐在你的面上摆动
+Dialogue: 0,0:27:37.75,0:27:41.28,中文简体,,0000,0000,0000,,然后我们会一起看日出
+Dialogue: 0,0:27:41.58,0:27:44.84,中文简体,,0000,0000,0000,,当太阳升起时
+Dialogue: 0,0:27:45.15,0:27:49.24,中文简体,,0000,0000,0000,,就像那新的一天是为我们而设
+Dialogue: 0,0:27:49.50,0:27:52.19,中文简体,,0000,0000,0000,,我一直就想这样
+Dialogue: 0,0:27:52.41,0:27:54.02,中文简体,,0000,0000,0000,,可惜事与愿违
+Dialogue: 0,0:27:54.32,0:27:57.50,中文简体,,0000,0000,0000,,你一直活在过去!
+Dialogue: 0,0:28:08.98,0:28:11.07,中文简体,,0000,0000,0000,,泰德  你飞得太低了!
+Dialogue: 0,0:28:16.07,0:28:19.20,中文简体,,0000,0000,0000,,(美军精神病院有麻醉剂)
+Dialogue: 0,0:28:20.38,0:28:22.94,中文简体,,0000,0000,0000,,你的脑袋又愚弄你了
+Dialogue: 0,0:28:25.42,0:28:28.55,中文简体,,0000,0000,0000,,他今天看来很高兴吧
+Dialogue: 0,0:28:28.86,0:28:31.51,中文简体,,0000,0000,0000,,你今天看来很高兴
+Dialogue: 0,0:28:31.77,0:28:36.08,中文简体,,0000,0000,0000,,罗拔  放他们下来  不痛的
+Dialogue: 0,0:28:36.38,0:28:38.95,中文简体,,0000,0000,0000,,总部今天有电报给你
+Dialogue: 0,0:28:39.21,0:28:40.56,中文简体,,0000,0000,0000,,总部?什么来的?
+Dialogue: 0,0:28:40.77,0:28:44.78,中文简体,,0000,0000,0000,,即将军聚首的巨型建筑物  算了
+Dialogue: 0,0:28:45.12,0:28:47.51,中文简体,,0000,0000,0000,,那次突击的事  他们不怪责你
+Dialogue: 0,0:28:47.78,0:28:50.78,中文简体,,0000,0000,0000,,-这岂非好消息?　-是吗?
+Dialogue: 0,0:28:52.08,0:28:56.08,中文简体,,0000,0000,0000,,由于我的过失  有六人死亡
+Dialogue: 0,0:28:56.39,0:28:58.91,中文简体,,0000,0000,0000,,是七个  热普中尉今早逝世
+Dialogue: 0,0:29:00.17,0:29:03.82,中文简体,,0000,0000,0000,,但桑德勒医生说你一周后可以出院  这不是好消息吗?
+Dialogue: 0,0:29:05.48,0:29:07.96,中文简体,,0000,0000,0000,,但愿我能这样跟乔治·热普说
+Dialogue: 0,0:29:08.83,0:29:12.96,中文简体,,0000,0000,0000,,耐心一点吧!没有人预期你会立即忘记此事
+Dialogue: 0,0:29:13.26,0:29:16.39,中文简体,,0000,0000,0000,,史泰克  可否歇一歇?我很累
+Dialogue: 0,0:29:17.57,0:29:19.26,中文简体,,0000,0000,0000,,好的  休息五分钟吧
+Dialogue: 0,0:29:21.13,0:29:22.44,中文简体,,0000,0000,0000,,谢谢你
+Dialogue: 0,0:29:23.18,0:29:28.18,中文简体,,0000,0000,0000,,我为我们找到新房子  有砖造的火炉
+Dialogue: 0,0:29:28.44,0:29:32.22,中文简体,,0000,0000,0000,,睡房也很特别  天花板有镜子
+Dialogue: 0,0:29:32.49,0:29:34.53,中文简体,,0000,0000,0000,,红队长  我要下去了!
+Dialogue: 0,0:29:34.83,0:29:39.14,中文简体,,0000,0000,0000,,格林上尉 他以为自己是飞行员  仍在打仗
+Dialogue: 0,0:29:40.88,0:29:43.53,中文简体,,0000,0000,0000,,我找到隧道了  这边
+Dialogue: 0,0:29:43.84,0:29:46.49,中文简体,,0000,0000,0000,,二十五元一根烟太贵了!
+Dialogue: 0,0:29:50.40,0:29:53.62,中文简体,,0000,0000,0000,,-他怎么了?　-他是胡尔维茨中尉
+Dialogue: 0,0:29:53.84,0:29:57.54,中文简体,,0000,0000,0000,,严重弹震症  以为自己是雄性人鱼
+Dialogue: 0,0:30:16.67,0:30:18.72,中文简体,,0000,0000,0000,,战争实在可怕
+Dialogue: 0,0:30:23.37,0:30:27.76,中文简体,,0000,0000,0000,,先生  吃晚餐前想喝杯咖啡吗
+Dialogue: 0,0:30:28.07,0:30:30.02,中文简体,,0000,0000,0000,,不用了  谢谢
+Dialogue: 0,0:30:31.81,0:30:35.59,中文简体,,0000,0000,0000,,-要多一杯吗?　-好的  但吉姆不要了
+Dialogue: 0,0:30:35.90,0:30:38.68,中文简体,,0000,0000,0000,,我想要多杯咖啡
+Dialogue: 0,0:30:40.38,0:30:43.33,中文简体,,0000,0000,0000,,吉姆在家从来不会多要一杯咖啡
+Dialogue: 0,0:30:49.42,0:30:51.90,中文简体,,0000,0000,0000,,-修女　-什么事?
+Dialogue: 0,0:30:52.20,0:30:57.77,中文简体,,0000,0000,0000,,-机上有一名病重的小女孩　-她真可怜
+Dialogue: 0,0:30:58.03,0:31:01.03,中文简体,,0000,0000,0000,,我想借你的吉他去令她开心点
+Dialogue: 0,0:31:01.25,0:31:03.60,中文简体,,0000,0000,0000,,-好的　-谢谢你
+Dialogue: 0,0:31:10.86,0:31:12.69,中文简体,,0000,0000,0000,,-你好　-你好
+Dialogue: 0,0:31:12.99,0:31:15.26,中文简体,,0000,0000,0000,,我可否跟你女儿谈谈?
+Dialogue: 0,0:31:15.47,0:31:17.86,中文简体,,0000,0000,0000,,随便
+Dialogue: 0,0:31:20.30,0:31:24.56,中文简体,,0000,0000,0000,,-你好  我叫兰迪　-我是莉莎  你有吉他!
+Dialogue: 0,0:31:26.08,0:31:28.74,中文简体,,0000,0000,0000,,想听歌吗?
+Dialogue: 0,0:31:29.00,0:31:30.48,中文简体,,0000,0000,0000,,好!
+Dialogue: 0,0:31:30.69,0:31:33.65,中文简体,,0000,0000,0000,,让我想想
+Dialogue: 0,0:31:33.87,0:31:36.39,中文简体,,0000,0000,0000,,这是我最喜欢的
+Dialogue: 0,0:33:03.12,0:33:04.68,中文简体,,0000,0000,0000,,你迟到  我们在等你
+Dialogue: 0,0:33:04.90,0:33:06.99,中文简体,,0000,0000,0000,,-谁先来?　-你来吧!克拉伦斯
+Dialogue: 0,0:33:07.29,0:33:08.86,中文简体,,0000,0000,0000,,天气怎样?
+Dialogue: 0,0:33:09.16,0:33:13.42,中文简体,,0000,0000,0000,,前面有厚云层  要上升飞行
+Dialogue: 0,0:33:15.34,0:33:20.38,中文简体,,0000,0000,0000,,战后我想尽量离开伤心地
+Dialogue: 0,0:33:20.64,0:33:23.69,中文简体,,0000,0000,0000,,故我和伊莱恩加入和平大使计划
+Dialogue: 0,0:33:23.95,0:33:27.17,中文简体,,0000,0000,0000,,我们被派往接触偏远部族莫林保人
+Dialogue: 0,0:33:28.73,0:33:31.25,中文简体,,0000,0000,0000,,他们从没见过美国人
+Dialogue: 0,0:33:45.04,0:33:49.56,中文简体,,0000,0000,0000,,向他们介绍西方文化是一个大挑战
+Dialogue: 0,0:33:54.65,0:33:56.61,中文简体,,0000,0000,0000,,起初  他们对我们有戒心
+Dialogue: 0,0:33:56.87,0:33:59.18,中文简体,,0000,0000,0000,,但很快我们获得他们信任
+Dialogue: 0,0:34:08.35,0:34:11.31,中文简体,,0000,0000,0000,,这样保存食物更好
+Dialogue: 0,0:34:11.53,0:34:14.83,中文简体,,0000,0000,0000,,可保留至季候风月份
+Dialogue: 0,0:34:15.14,0:34:19.79,中文简体,,0000,0000,0000,,这些用来存放吃剩的东西最好
+Dialogue: 0,0:34:20.05,0:34:22.96,中文简体,,0000,0000,0000,,价廉物美
+Dialogue: 0,0:34:23.23,0:34:26.62,中文简体,,0000,0000,0000,,这个保鲜盒
+Dialogue: 0,0:34:26.88,0:34:29.71,中文简体,,0000,0000,0000,,可以令热狗包保持新鲜多天
+Dialogue: 0,0:34:30.01,0:34:34.19,中文简体,,0000,0000,0000,,这些人一直与文明隔绝
+Dialogue: 0,0:34:35.36,0:34:37.80,中文简体,,0000,0000,0000,,从没有人替他们制订保健计划
+Dialogue: 0,0:34:38.10,0:34:39.97,中文简体,,0000,0000,0000,,他们亦没有运动器材
+Dialogue: 0,0:34:40.23,0:34:43.88,中文简体,,0000,0000,0000,,我教他们做柔软体操和一些基本球技
+Dialogue: 0,0:34:44.15,0:34:46.93,中文简体,,0000,0000,0000,,最后令他们有竞赛能力
+Dialogue: 0,0:34:47.89,0:34:50.28,中文简体,,0000,0000,0000,,我很有耐性  他们亦很好学
+Dialogue: 0,0:34:50.58,0:34:52.76,中文简体,,0000,0000,0000,,他们似乎玩得很开心
+Dialogue: 0,0:34:53.02,0:34:55.54,中文简体,,0000,0000,0000,,大概因为有先进的美国教法
+Dialogue: 0,0:34:55.76,0:34:58.28,中文简体,,0000,0000,0000,,他们再不与世隔绝
+Dialogue: 0,0:34:58.58,0:35:01.85,中文简体,,0000,0000,0000,,我们成功与莫林保人沟通
+Dialogue: 0,0:35:08.20,0:35:11.85,中文简体,,0000,0000,0000,,他们已把握到个中精髓  再来时  我会教他们打棒球
+Dialogue: 0,0:35:12.68,0:35:14.94,中文简体,,0000,0000,0000,,泰德  我不想留在这里
+Dialogue: 0,0:35:15.20,0:35:19.29,中文简体,,0000,0000,0000,,该回家实行战前定下的计划
+Dialogue: 0,0:35:21.64,0:35:23.40,中文简体,,0000,0000,0000,,很多人在战前都有很多计划
+Dialogue: 0,0:35:23.40,0:35:25.46,中文简体,,0000,0000,0000,,乔治·热普就是其中一分子
+Dialogue: 0,0:35:30.81,0:35:35.55,中文简体,,0000,0000,0000,,那刻我知道伊莱恩对我们的关系有疑问
+Dialogue: 0,0:35:35.81,0:35:39.25,中文简体,,0000,0000,0000,,这引起我的饮水问题
+Dialogue: 0,0:35:40.95,0:35:44.90,中文简体,,0000,0000,0000,,我们返美  我做过很多工作
+Dialogue: 0,0:35:45.25,0:35:48.38,中文简体,,0000,0000,0000,,我可以继续说  但你会闷坏
+Dialogue: 0,0:35:48.64,0:35:51.25,中文简体,,0000,0000,0000,,实在不能怪责伊莱恩  她想有自己的事业
+Dialogue: 0,0:35:58.43,0:36:01.00,中文简体,,0000,0000,0000,,-我受不了　-什么事?
+Dialogue: 0,0:36:01.26,0:36:03.17,中文简体,,0000,0000,0000,,-什么事?　-我的胃很不舒服
+Dialogue: 0,0:36:04.61,0:36:06.22,中文简体,,0000,0000,0000,,自从看过罗纳德·里根的电影后
+Dialogue: 0,0:36:06.22,0:36:07.61,中文简体,,0000,0000,0000,,我从没试过那么不舒服
+Dialogue: 0,0:36:08.43,0:36:11.52,中文简体,,0000,0000,0000,,且看我能否找到晕机药
+Dialogue: 0,0:36:19.09,0:36:21.74,中文简体,,0000,0000,0000,,机长  有一名女乘客很不舒服
+Dialogue: 0,0:36:22.78,0:36:26.13,中文简体,,0000,0000,0000,,-晕机?　-不是  她真的很辛苦
+Dialogue: 0,0:36:27.83,0:36:31.61,中文简体,,0000,0000,0000,,悄悄地找找机上有没有医生
+Dialogue: 0,0:36:34.74,0:36:39.18,中文简体,,0000,0000,0000,,祖儿  你到过土耳其监狱吗?
+Dialogue: 0,0:36:41.66,0:36:44.62,中文简体,,0000,0000,0000,,我不该喝第二杯咖啡
+Dialogue: 0,0:36:55.92,0:36:58.36,中文简体,,0000,0000,0000,,吉姆在家从不呕吐
+Dialogue: 0,0:36:59.27,0:37:03.75,中文简体,,0000,0000,0000,,抱歉弄醒你  但我想找医生
+Dialogue: 0,0:37:04.01,0:37:07.80,中文简体,,0000,0000,0000,,小姐  我身旁的该是医生
+Dialogue: 0,0:37:08.06,0:37:11.84,中文简体,,0000,0000,0000,,先生  抱歉弄醒你  但你是医生吗?
+Dialogue: 0,0:37:12.15,0:37:14.89,中文简体,,0000,0000,0000,,-是的　-我们有乘客不舒服
+Dialogue: 0,0:37:15.19,0:37:18.37,中文简体,,0000,0000,0000,,-可否去看看他们?　-好的
+Dialogue: 0,0:37:28.15,0:37:30.46,中文简体,,0000,0000,0000,,让我看看你的舌头
+Dialogue: 0,0:38:00.42,0:38:02.64,中文简体,,0000,0000,0000,,我很快回来
+Dialogue: 0,0:38:07.73,0:38:11.82,中文简体,,0000,0000,0000,,叫机长降落  要送她往医院
+Dialogue: 0,0:38:12.12,0:38:13.82,中文简体,,0000,0000,0000,,医院!什么?
+Dialogue: 0,0:38:14.08,0:38:16.73,中文简体,,0000,0000,0000,,是一座有病人的建筑物  算了
+Dialogue: 0,0:38:16.95,0:38:19.73,中文简体,,0000,0000,0000,,-我得跟机长谈谈　-好的
+Dialogue: 0,0:38:26.95,0:38:29.00,中文简体,,0000,0000,0000,,维克托  我们遇上浓...
+Dialogue: 0,0:38:29.61,0:38:31.48,中文简体,,0000,0000,0000,,罗杰  快接手!
+Dialogue: 0,0:38:54.09,0:38:57.44,中文简体,,0000,0000,0000,,-机长  何时可以降落?　-我不知道
+Dialogue: 0,0:38:57.70,0:39:00.61,中文简体,,0000,0000,0000,,-你该知道的  我是医生　-不  我不清楚
+Dialogue: 0,0:39:00.88,0:39:05.62,中文简体,,0000,0000,0000,,-可否猜一猜?　-起码两小时之后吧
+Dialogue: 0,0:39:05.88,0:39:07.83,中文简体,,0000,0000,0000,,你要在两小时后才去猜一猜?
+Dialogue: 0,0:39:08.14,0:39:12.10,中文简体,,0000,0000,0000,,我们无法降落  太大雾了
+Dialogue: 0,0:39:12.31,0:39:14.49,中文简体,,0000,0000,0000,,我们得尽快降落
+Dialogue: 0,0:39:22.14,0:39:24.49,中文简体,,0000,0000,0000,,带他走
+Dialogue: 0,0:39:49.76,0:39:52.59,中文简体,,0000,0000,0000,,-医生  究竟发生什么事?　-我不清楚
+Dialogue: 0,0:39:52.85,0:39:56.33,中文简体,,0000,0000,0000,,自安妮塔·布莱恩特的演唱会后  从未见过这种事
+Dialogue: 0,0:39:56.68,0:40:01.07,中文简体,,0000,0000,0000,,-我们晚餐吃什么?　-可以选牛扒或鱼
+Dialogue: 0,0:40:01.89,0:40:04.03,中文简体,,0000,0000,0000,,我记得  我吃烤宽面条
+Dialogue: 0,0:40:04.33,0:40:06.59,中文简体,,0000,0000,0000,,-他吃了什么?　-吃了鱼
+Dialogue: 0,0:40:06.90,0:40:10.68,中文简体,,0000,0000,0000,,医生  又有两人不舒服  乘客都很担心
+Dialogue: 0,0:40:10.98,0:40:12.98,中文简体,,0000,0000,0000,,我会处理
+Dialogue: 0,0:40:13.29,0:40:17.99,中文简体,,0000,0000,0000,,找出病人晚餐吃过什么  我是奥维尔机长
+Dialogue: 0,0:40:18.25,0:40:21.64,中文简体,,0000,0000,0000,,我们遇上气流但很快会没事
+Dialogue: 0,0:40:21.90,0:40:25.64,中文简体,,0000,0000,0000,,我们正飞越胡佛水坝
+Dialogue: 0,0:40:25.90,0:40:28.90,中文简体,,0000,0000,0000,,跟着我们会飞越科罗拉多大峡谷
+Dialogue: 0,0:40:29.25,0:40:31.86,中文简体,,0000,0000,0000,,与此同时  请放松  好好享受今次旅程
+Dialogue: 0,0:40:33.86,0:40:37.95,中文简体,,0000,0000,0000,,芝加哥  这是209号班机  我们有麻烦了
+Dialogue: 0,0:40:38.25,0:40:41.95,中文简体,,0000,0000,0000,,清空我机下方的所有通道 我需要优先降落在芝加哥
+Dialogue: 0,0:40:46.95,0:40:48.26,中文简体,,0000,0000,0000,,什么事?
+Dialogue: 0,0:40:48.56,0:40:51.00,中文简体,,0000,0000,0000,,我的丈夫很不舒服  请帮忙
+Dialogue: 0,0:40:51.30,0:40:54.82,中文简体,,0000,0000,0000,,医生很快会来
+Dialogue: 0,0:40:55.08,0:40:59.52,中文简体,,0000,0000,0000,,-知否他晚餐吃了什么?　-我们都吃了鱼  为什么?
+Dialogue: 0,0:40:59.78,0:41:04.17,中文简体,,0000,0000,0000,,没什么  我们很快回来
+Dialogue: 0,0:41:11.13,0:41:13.18,中文简体,,0000,0000,0000,,医生  哈姆先生吃了鱼
+Dialogue: 0,0:41:13.39,0:41:16.87,中文简体,,0000,0000,0000,,兰迪说又有五人不舒服  他们全都吃过鱼
+Dialogue: 0,0:41:17.22,0:41:20.66,中文简体,,0000,0000,0000,,副机师也吃了鱼  导航员吃过什么?
+Dialogue: 0,0:41:20.92,0:41:22.31,中文简体,,0000,0000,0000,,也是吃过鱼
+Dialogue: 0,0:41:22.57,0:41:25.18,中文简体,,0000,0000,0000,,好  现在知道什么一回事了
+Dialogue: 0,0:41:25.49,0:41:30.88,中文简体,,0000,0000,0000,,吃过鱼的人都十分不适
+Dialogue: 0,0:41:31.14,0:41:34.97,中文简体,,0000,0000,0000,,-有多严重?　-极之严重
+Dialogue: 0,0:41:35.27,0:41:38.53,中文简体,,0000,0000,0000,,首先会些微发烧  喉咙干涸
+Dialogue: 0,0:41:38.84,0:41:41.97,中文简体,,0000,0000,0000,,当病毒进一步入侵  病人会觉得晕眩
+Dialogue: 0,0:41:42.27,0:41:44.58,中文简体,,0000,0000,0000,,感到浑身痕痒
+Dialogue: 0,0:41:44.84,0:41:47.45,中文简体,,0000,0000,0000,,跟着病毒会入侵中央神经系统
+Dialogue: 0,0:41:47.75,0:41:52.06,中文简体,,0000,0000,0000,,令肌肉严重抽筋  不能自控地流口水
+Dialogue: 0,0:41:52.32,0:41:54.97,中文简体,,0000,0000,0000,,这时消化系统会完全崩溃
+Dialogue: 0,0:41:55.23,0:41:57.76,中文简体,,0000,0000,0000,,肠胃气胀
+Dialogue: 0,0:41:57.97,0:42:02.80,中文简体,,0000,0000,0000,,之后那可怜的杂种会浑身乏力  有如一堆果冻
+Dialogue: 0,0:42:12.67,0:42:15.11,中文简体,,0000,0000,0000,,(第11行至21行  第13行至51行)
+Dialogue: 0,0:42:21.63,0:42:24.55,中文简体,,0000,0000,0000,,开启...自动导航仪
+Dialogue: 0,0:42:25.98,0:42:29.46,中文简体,,0000,0000,0000,,自动导航... 在这里了!
+Dialogue: 0,0:42:38.51,0:42:40.99,中文简体,,0000,0000,0000,,我去看看乘客如何
+Dialogue: 0,0:42:43.34,0:42:45.90,中文简体,,0000,0000,0000,,209号班机  请回答
+Dialogue: 0,0:42:46.21,0:42:49.42,中文简体,,0000,0000,0000,,209号班机  请回答
+Dialogue: 0,0:42:49.73,0:42:52.03,中文简体,,0000,0000,0000,,我是伊莱恩·狄金森  空中小姐
+Dialogue: 0,0:42:52.29,0:42:56.12,中文简体,,0000,0000,0000,,奥维尔机长昏倒了  副机师和导航员也一样
+Dialogue: 0,0:42:56.38,0:42:58.38,中文简体,,0000,0000,0000,,-我们有麻烦　-收到
+Dialogue: 0,0:42:58.64,0:43:01.04,中文简体,,0000,0000,0000,,我是史蒂夫·麦考罗斯基  芝加哥航空署的
+Dialogue: 0,0:43:01.34,0:43:05.08,中文简体,,0000,0000,0000,,我很快会跟你再联络  暂停所有航机起飞
+Dialogue: 0,0:43:05.34,0:43:07.65,中文简体,,0000,0000,0000,,当508报告时  立即接进来
+Dialogue: 0,0:43:07.91,0:43:11.47,中文简体,,0000,0000,0000,,暂停由洛杉矶起程的航机的三餐供应
+Dialogue: 0,0:43:11.74,0:43:14.56,中文简体,,0000,0000,0000,,叫所有调度员留在岗位
+Dialogue: 0,0:43:14.82,0:43:16.35,中文简体,,0000,0000,0000,,-喝杯咖啡吗?　-不用了  谢谢
+Dialogue: 0,0:43:16.65,0:43:20.00,中文简体,,0000,0000,0000,,我要所有可能降落地点的天气报告
+Dialogue: 0,0:43:20.26,0:43:21.74,中文简体,,0000,0000,0000,,懂吗?
+Dialogue: 0,0:43:21.96,0:43:25.04,中文简体,,0000,0000,0000,,有没有可以降落的地方?
+Dialogue: 0,0:43:25.30,0:43:28.78,中文简体,,0000,0000,0000,,往控制塔  找来跑道图
+Dialogue: 0,0:43:29.09,0:43:32.18,中文简体,,0000,0000,0000,,找来紧急事故器材
+Dialogue: 0,0:43:32.44,0:43:36.57,中文简体,,0000,0000,0000,,头儿  落基山脉以东所有地方都有雾
+Dialogue: 0,0:43:36.83,0:43:39.57,中文简体,,0000,0000,0000,,他们得来芝加哥降落
+Dialogue: 0,0:43:40.74,0:43:43.27,中文简体,,0000,0000,0000,,似乎我不该在这星期戒烟
+Dialogue: 0,0:43:43.57,0:43:48.53,中文简体,,0000,0000,0000,,找泰山崩于前而不动声色的人
+Dialogue: 0,0:43:48.79,0:43:50.92,中文简体,,0000,0000,0000,,罗杰斯先生如何?
+Dialogue: 0,0:43:54.31,0:43:56.31,中文简体,,0000,0000,0000,,找雷克斯·克雷默来
+Dialogue: 0,0:44:01.30,0:44:05.05,中文简体,,0000,0000,0000,,在节流杆旁的便是速度计
+Dialogue: 0,0:44:05.34,0:44:08.14,中文简体,,0000,0000,0000,,现在是什么速度?
+Dialogue: 0,0:44:09.02,0:44:11.14,中文简体,,0000,0000,0000,,每小时520哩
+Dialogue: 0,0:44:11.43,0:44:15.23,中文简体,,0000,0000,0000,,好  很好  现在查看高度
+Dialogue: 0,0:44:15.52,0:44:19.15,中文简体,,0000,0000,0000,,即是速度计右下方的针盘
+Dialogue: 0,0:44:20.24,0:44:22.61,中文简体,,0000,0000,0000,,三万五千英尺
+Dialogue: 0,0:44:22.86,0:44:25.32,中文简体,,0000,0000,0000,,不  慢着  三万四千英尺
+Dialogue: 0,0:44:25.62,0:44:29.58,中文简体,,0000,0000,0000,,不  不断下降  下降得很快
+Dialogue: 0,0:44:29.87,0:44:31.71,中文简体,,0000,0000,0000,,为何这样?
+Dialogue: 0,0:44:34.21,0:44:38.25,中文简体,,0000,0000,0000,,天啊!自动机师正在泄气
+Dialogue: 0,0:44:38.50,0:44:40.84,中文简体,,0000,0000,0000,,伊莱恩  别恐慌
+Dialogue: 0,0:44:41.13,0:44:43.76,中文简体,,0000,0000,0000,,它的腰带有一支管
+Dialogue: 0,0:44:44.01,0:44:49.06,中文简体,,0000,0000,0000,,是吹气孔  拔它出来吹气吧!
+Dialogue: 0,0:44:52.98,0:44:55.19,中文简体,,0000,0000,0000,,究竟发生什么事?
+Dialogue: 0,0:45:50.83,0:45:53.50,中文简体,,0000,0000,0000,,-伊莱恩　-是  医生
+Dialogue: 0,0:45:55.71,0:45:57.42,中文简体,,0000,0000,0000,,你是这航机的一员
+Dialogue: 0,0:45:57.71,0:46:00.46,中文简体,,0000,0000,0000,,-能否接受可怕事实?　-不能
+Dialogue: 0,0:46:00.76,0:46:04.05,中文简体,,0000,0000,0000,,除非赶快送这些人往医院
+Dialogue: 0,0:46:04.34,0:46:07.14,中文简体,,0000,0000,0000,,否则我不知道能否救他们
+Dialogue: 0,0:46:07.39,0:46:10.85,中文简体,,0000,0000,0000,,机上有没有人可以令飞机降落
+Dialogue: 0,0:46:14.90,0:46:16.61,中文简体,,0000,0000,0000,,据我所知就没有
+Dialogue: 0,0:46:17.44,0:46:22.57,中文简体,,0000,0000,0000,,该明白航机上所有人的生死存亡
+Dialogue: 0,0:46:22.86,0:46:27.45,中文简体,,0000,0000,0000,,取决于可以找到一个懂驾飞机又没有吃过鱼的人
+Dialogue: 0,0:46:39.38,0:46:42.76,中文简体,,0000,0000,0000,,各位  我是空中小姐
+Dialogue: 0,0:46:43.01,0:46:47.05,中文简体,,0000,0000,0000,,刚才机舱震动  对不起
+Dialogue: 0,0:46:47.30,0:46:50.47,中文简体,,0000,0000,0000,,这是因为遇上气流
+Dialogue: 0,0:46:50.77,0:46:55.48,中文简体,,0000,0000,0000,,请别担心  好好享受旅程
+Dialogue: 0,0:46:56.69,0:47:00.40,中文简体,,0000,0000,0000,,此外  有没有人懂驾驶飞机?
+Dialogue: 0,0:47:30.64,0:47:33.27,中文简体,,0000,0000,0000,,我是航空公司的保罗·凯利  是来接克雷默上尉的
+Dialogue: 0,0:47:33.52,0:47:36.86,中文简体,,0000,0000,0000,,请进  保罗 雷克斯很快会出来
+Dialogue: 0,0:47:39.48,0:47:41.78,中文简体,,0000,0000,0000,,羊羊  坐下!
+Dialogue: 0,0:47:42.03,0:47:44.57,中文简体,,0000,0000,0000,,我知道这是急事
+Dialogue: 0,0:47:45.37,0:47:49.74,中文简体,,0000,0000,0000,,诸如此类  我也不大清楚
+Dialogue: 0,0:47:51.79,0:47:53.58,中文简体,,0000,0000,0000,,羊羊  不要!
+Dialogue: 0,0:47:53.87,0:47:56.84,中文简体,,0000,0000,0000,,你们经常遇上刺激的事吧
+Dialogue: 0,0:47:57.17,0:47:59.84,中文简体,,0000,0000,0000,,航空事业确有其精彩时刻
+Dialogue: 0,0:48:00.13,0:48:02.34,中文简体,,0000,0000,0000,,稍后你自会适应
+Dialogue: 0,0:48:04.22,0:48:05.89,中文简体,,0000,0000,0000,,羊羊  来!
+Dialogue: 0,0:48:07.56,0:48:10.98,中文简体,,0000,0000,0000,,有新访客来到  它就很兴奋
+Dialogue: 0,0:48:11.27,0:48:14.06,中文简体,,0000,0000,0000,,-你是机师吗?　-不是  我...
+Dialogue: 0,0:48:14.81,0:48:16.44,中文简体,,0000,0000,0000,,正接受训练
+Dialogue: 0,0:48:16.73,0:48:20.36,中文简体,,0000,0000,0000,,难以置信
+Dialogue: 0,0:48:20.65,0:48:23.07,中文简体,,0000,0000,0000,,已警告过你多少遍要检查食物
+Dialogue: 0,0:48:23.32,0:48:26.95,中文简体,,0000,0000,0000,,还以为有人会听你说
+Dialogue: 0,0:48:27.24,0:48:30.41,中文简体,,0000,0000,0000,,机场管理层  飞管局和航空公司...
+Dialogue: 0,0:48:31.79,0:48:33.67,中文简体,,0000,0000,0000,,他们都是骗子
+Dialogue: 0,0:48:33.96,0:48:36.34,中文简体,,0000,0000,0000,,好  走吧
+Dialogue: 0,0:48:43.68,0:48:48.22,中文简体,,0000,0000,0000,,抱歉  我想找懂驾驶飞机的人
+Dialogue: 0,0:48:48.51,0:48:51.60,中文简体,,0000,0000,0000,,他们筑路时  没考虑去水问题
+Dialogue: 0,0:48:51.89,0:48:56.61,中文简体,,0000,0000,0000,,故我们要乘特制吉普车往大路
+Dialogue: 0,0:48:56.90,0:49:00.61,中文简体,,0000,0000,0000,,很幸运我们找来吉普车
+Dialogue: 0,0:49:00.90,0:49:04.36,中文简体,,0000,0000,0000,,之前一天  我们那辆吉普车坏了
+Dialogue: 0,0:49:04.61,0:49:07.66,中文简体,,0000,0000,0000,,先生  驾驶舱有些问题
+Dialogue: 0,0:49:07.95,0:49:09.58,中文简体,,0000,0000,0000,,驾驶舱?什么?
+Dialogue: 0,0:49:09.83,0:49:13.37,中文简体,,0000,0000,0000,,即机师坐的小房子  算了
+Dialogue: 0,0:49:13.62,0:49:18.13,中文简体,,0000,0000,0000,,副机师病倒了  机长想找人帮忙
+Dialogue: 0,0:49:18.46,0:49:21.13,中文简体,,0000,0000,0000,,你对飞机有认识吗?
+Dialogue: 0,0:49:21.42,0:49:24.22,中文简体,,0000,0000,0000,,多年前我在战时驾驶战机
+Dialogue: 0,0:49:25.26,0:49:29.60,中文简体,,0000,0000,0000,,-我不懂得驾驶飞机　-可否跟我来?拜托
+Dialogue: 0,0:49:46.53,0:49:48.95,中文简体,,0000,0000,0000,,那空姐说...
+Dialogue: 0,0:49:50.29,0:49:53.83,中文简体,,0000,0000,0000,,-两名机师?　-你能否令这飞机降落?
+Dialogue: 0,0:49:55.04,0:49:59.13,中文简体,,0000,0000,0000,,-你说笑吧?　-我是认真的  请别推辞
+Dialogue: 0,0:50:00.46,0:50:04.05,中文简体,,0000,0000,0000,,医生  我问过所有人  只有史泰克先生合适
+Dialogue: 0,0:50:04.34,0:50:08.22,中文简体,,0000,0000,0000,,-你有什么飞行经验?　-我驾驶过单引擎战机
+Dialogue: 0,0:50:08.51,0:50:13.14,中文简体,,0000,0000,0000,,这飞机有四个引擎  是截然不同的飞行经验
+Dialogue: 0,0:50:14.19,0:50:16.56,中文简体,,0000,0000,0000,,是截然不同的飞行经验
+Dialogue: 0,0:50:19.23,0:50:21.82,中文简体,,0000,0000,0000,,我已有六年没接触任何飞机
+Dialogue: 0,0:50:22.07,0:50:25.45,中文简体,,0000,0000,0000,,史泰克先生  我并不懂得驾驶飞机
+Dialogue: 0,0:50:25.74,0:50:30.83,中文简体,,0000,0000,0000,,但我知道你是飞机上唯一可能驾驶它的人
+Dialogue: 0,0:50:31.12,0:50:33.00,中文简体,,0000,0000,0000,,你是我们唯一的希望
+Dialogue: 0,0:51:14.04,0:51:17.92,中文简体,,0000,0000,0000,,对  我也这样说
+Dialogue: 0,0:51:18.25,0:51:20.26,中文简体,,0000,0000,0000,,叫奥马哈准备
+Dialogue: 0,0:51:20.51,0:51:24.09,中文简体,,0000,0000,0000,,找来一切应急工具
+Dialogue: 0,0:51:24.39,0:51:26.64,中文简体,,0000,0000,0000,,通知由这里至落基山的所有拯救单位
+Dialogue: 0,0:51:26.89,0:51:28.76,中文简体,,0000,0000,0000,,头儿!
+Dialogue: 0,0:51:29.06,0:51:32.85,中文简体,,0000,0000,0000,,-我们要检查自动降落航机　-是你的太太
+Dialogue: 0,0:51:33.19,0:51:34.92,中文简体,,0000,0000,0000,,我要孩子九时上床  喂好狗儿
+Dialogue: 0,0:51:34.92,0:51:36.31,中文简体,,0000,0000,0000,,替院子洒水  锁上大闸
+Dialogue: 0,0:51:36.61,0:51:39.15,中文简体,,0000,0000,0000,,给送牛奶人便条  不再要芝士
+Dialogue: 0,0:51:41.90,0:51:43.86,中文简体,,0000,0000,0000,,克雷默到底在哪里?
+Dialogue: 0,0:51:52.41,0:51:56.25,中文简体,,0000,0000,0000,,不  他做不来  起火机会太大
+Dialogue: 0,0:51:56.54,0:51:59.55,中文简体,,0000,0000,0000,,要他保持在二万四千英尺高
+Dialogue: 0,0:52:03.47,0:52:05.51,中文简体,,0000,0000,0000,,一名乘客打算令航机降落
+Dialogue: 0,0:52:05.76,0:52:08.85,中文简体,,0000,0000,0000,,-有可能吗?　-机会微乎其微
+Dialogue: 0,0:52:12.98,0:52:16.44,中文简体,,0000,0000,0000,,-我认识这人　-真的?他是何方神圣?
+Dialogue: 0,0:52:16.73,0:52:21.82,中文简体,,0000,0000,0000,,史泰克  我在战时曾与他合作  但他越帮越忙
+Dialogue: 0,0:52:23.41,0:52:26.87,中文简体,,0000,0000,0000,,史泰克是个一流的飞行队长  在某种程度上
+Dialogue: 0,0:52:27.16,0:52:31.96,中文简体,,0000,0000,0000,,他是那种...太感性的人
+Dialogue: 0,0:52:32.21,0:52:34.08,中文简体,,0000,0000,0000,,或许你也认识那种人
+Dialogue: 0,0:52:34.37,0:52:37.71,中文简体,,0000,0000,0000,,有一次任务  他一败涂地
+Dialogue: 0,0:52:38.46,0:52:41.17,中文简体,,0000,0000,0000,,希望今晚不会这样
+Dialogue: 0,0:52:48.76,0:52:52.81,中文简体,,0000,0000,0000,,让我看看...高度  二万四千英尺
+Dialogue: 0,0:52:53.90,0:52:57.52,中文简体,,0000,0000,0000,,保持这高度  速度520浬
+Dialogue: 0,0:52:58.32,0:53:00.44,中文简体,,0000,0000,0000,,航道090
+Dialogue: 0,0:53:00.69,0:53:04.36,中文简体,,0000,0000,0000,,切条  搅均  洗净  冲水  摇干
+Dialogue: 0,0:53:07.99,0:53:12.12,中文简体,,0000,0000,0000,,泰德  你在此做什么?你不能驾驶这飞机!
+Dialogue: 0,0:53:12.41,0:53:14.37,中文简体,,0000,0000,0000,,我正努力告诉他们这一点
+Dialogue: 0,0:53:14.67,0:53:18.84,中文简体,,0000,0000,0000,,伊莱恩  我没时间转弯抹角  得直接对你说
+Dialogue: 0,0:53:19.09,0:53:21.63,中文简体,,0000,0000,0000,,大家的情况都很危险
+Dialogue: 0,0:53:21.97,0:53:24.43,中文简体,,0000,0000,0000,,史泰克先生是我们唯一的希望
+Dialogue: 0,0:53:29.22,0:53:32.39,中文简体,,0000,0000,0000,,那些是襟翼  这是推力
+Dialogue: 0,0:53:33.81,0:53:36.40,中文简体,,0000,0000,0000,,这会亮起降落灯
+Dialogue: 0,0:53:43.07,0:53:47.03,中文简体,,0000,0000,0000,,(返回座位)
+Dialogue: 0,0:53:50.37,0:53:54.42,中文简体,,0000,0000,0000,,-救命!...　-五月?怎么了?
+Dialogue: 0,0:53:54.71,0:53:58.09,中文简体,,0000,0000,0000,,五月是俄罗斯的新年  我们有大巡游
+Dialogue: 0,0:54:09.31,0:54:11.68,中文简体,,0000,0000,0000,,我不能再忍受了
+Dialogue: 0,0:54:11.89,0:54:14.35,中文简体,,0000,0000,0000,,我要出去!
+Dialogue: 0,0:54:14.65,0:54:18.86,中文简体,,0000,0000,0000,,-冷静!控制自己　-让我来吧
+Dialogue: 0,0:54:21.36,0:54:24.57,中文简体,,0000,0000,0000,,冷静  返回座位  我会处理
+Dialogue: 0,0:54:24.86,0:54:26.74,中文简体,,0000,0000,0000,,冷静  控制自己
+Dialogue: 0,0:54:26.99,0:54:29.24,中文简体,,0000,0000,0000,,医生  有人找你
+Dialogue: 0,0:54:29.49,0:54:34.50,中文简体,,0000,0000,0000,,-一切会没事的　-修女  让我来
+Dialogue: 0,0:54:34.79,0:54:36.92,中文简体,,0000,0000,0000,,走开!
+Dialogue: 0,0:54:40.51,0:54:42.93,中文简体,,0000,0000,0000,,我们想你收下这朵花
+Dialogue: 0,0:54:44.72,0:54:46.85,中文简体,,0000,0000,0000,,先生  你可否...
+Dialogue: 0,0:54:47.14,0:54:49.43,中文简体,,0000,0000,0000,,向蒙牧师捐献?
+Dialogue: 0,0:54:50.22,0:54:51.48,中文简体,,0000,0000,0000,,犹太耶稣?
+Dialogue: 0,0:54:51.77,0:54:53.69,中文简体,,0000,0000,0000,,耶和华证人?
+Dialogue: 0,0:54:54.98,0:54:57.40,中文简体,,0000,0000,0000,,佛教又如何?
+Dialogue: 0,0:54:57.69,0:54:59.65,中文简体,,0000,0000,0000,,救救谢利的孩子?
+Dialogue: 0,0:54:59.98,0:55:02.40,中文简体,,0000,0000,0000,,-科学教派?　-为核能?
+Dialogue: 0,0:55:07.66,0:55:09.37,中文简体,,0000,0000,0000,,(自助行李提取)
+Dialogue: 0,0:55:09.66,0:55:14.00,中文简体,,0000,0000,0000,,各位注意  乘客正在抵达
+Dialogue: 0,0:55:14.33,0:55:17.75,中文简体,,0000,0000,0000,,请在离开机场前
+Dialogue: 0,0:55:17.96,0:55:20.09,中文简体,,0000,0000,0000,,提取及检查行李
+Dialogue: 0,0:55:20.38,0:55:23.22,中文简体,,0000,0000,0000,,他没有驾驶航机经验
+Dialogue: 0,0:55:23.51,0:55:27.81,中文简体,,0000,0000,0000,,他在空中对一切构成危险  包括雀鸟在内
+Dialogue: 0,0:55:28.01,0:55:31.35,中文简体,,0000,0000,0000,,他是一大危机  但我们别无他选
+Dialogue: 0,0:55:31.64,0:55:34.81,中文简体,,0000,0000,0000,,我们所知的就这么多  雷克斯
+Dialogue: 0,0:55:35.94,0:55:40.86,中文简体,,0000,0000,0000,,告诉你  我曾在战时与史泰克合作
+Dialogue: 0,0:55:41.19,0:55:45.03,中文简体,,0000,0000,0000,,当事情不顺利  他就方寸大乱
+Dialogue: 0,0:55:45.32,0:55:48.91,中文简体,,0000,0000,0000,,-现在事情亦不顺利　-让我告诉你
+Dialogue: 0,0:55:49.20,0:55:52.66,中文简体,,0000,0000,0000,,史泰克很久之前是空军部队队长
+Dialogue: 0,0:55:52.87,0:55:56.67,中文简体,,0000,0000,0000,,去说服他吧!
+Dialogue: 0,0:55:56.92,0:56:00.01,中文简体,,0000,0000,0000,,让他有信心驾驶飞机
+Dialogue: 0,0:56:00.30,0:56:04.13,中文简体,,0000,0000,0000,,然后令他安全着陆吧!
+Dialogue: 0,0:56:06.60,0:56:10.73,中文简体,,0000,0000,0000,,-好  联络史泰克吧!　-用我的无线电
+Dialogue: 0,0:56:12.77,0:56:15.31,中文简体,,0000,0000,0000,,我不该选这星期戒酒
+Dialogue: 0,0:56:17.94,0:56:20.94,中文简体,,0000,0000,0000,,上尉  你由此直接跟他们说吧
+Dialogue: 0,0:56:23.07,0:56:28.12,中文简体,,0000,0000,0000,,史泰克?史泰克  我是雷克斯·克雷默上尉
+Dialogue: 0,0:56:31.62,0:56:35.13,中文简体,,0000,0000,0000,,我听到  克雷默上尉 读大点声清楚些
+Dialogue: 0,0:56:38.59,0:56:41.67,中文简体,,0000,0000,0000,,很好  你仍记得我
+Dialogue: 0,0:56:41.97,0:56:45.47,中文简体,,0000,0000,0000,,不如我们忘记一切  放眼现在
+Dialogue: 0,0:56:46.47,0:56:48.43,中文简体,,0000,0000,0000,,少来这套了  克雷默
+Dialogue: 0,0:56:48.68,0:56:52.85,中文简体,,0000,0000,0000,,你也知我从没驾驶过这种飞机  一切唯有靠运气
+Dialogue: 0,0:56:53.14,0:56:55.44,中文简体,,0000,0000,0000,,准备好  史泰克
+Dialogue: 0,0:56:55.73,0:57:00.49,中文简体,,0000,0000,0000,,我们要令他有自信  觉得自己可以胜任
+Dialogue: 0,0:57:00.74,0:57:05.16,中文简体,,0000,0000,0000,,-驾驶过多引擎飞机吗?　-从来没有
+Dialogue: 0,0:57:05.45,0:57:07.87,中文简体,,0000,0000,0000,,岂有此理!这简直浪费时间
+Dialogue: 0,0:57:08.12,0:57:12.33,中文简体,,0000,0000,0000,,-他没可能令飞机降落　-你得说服他!
+Dialogue: 0,0:57:12.66,0:57:15.71,中文简体,,0000,0000,0000,,叫他飞往密歇根湖  这样不会连累无辜
+Dialogue: 0,0:57:16.00,0:57:18.50,中文简体,,0000,0000,0000,,你是他们唯一的希望
+Dialogue: 0,0:57:21.34,0:57:23.51,中文简体,,0000,0000,0000,,好吧
+Dialogue: 0,0:57:23.80,0:57:26.76,中文简体,,0000,0000,0000,,史泰克  你好好听着
+Dialogue: 0,0:57:27.89,0:57:29.77,中文简体,,0000,0000,0000,,驾驶飞机就像骑单车一样
+Dialogue: 0,0:57:30.56,0:57:35.52,中文简体,,0000,0000,0000,,只不过是较复杂一些  你得掌握个中窍门
+Dialogue: 0,0:57:35.81,0:57:38.61,中文简体,,0000,0000,0000,,稍后我们会教你着陆程序
+Dialogue: 0,0:57:43.41,0:57:46.37,中文简体,,0000,0000,0000,,好  先拆去自动机师
+Dialogue: 0,0:57:46.66,0:57:50.16,中文简体,,0000,0000,0000,,就像你驾驶战机一样  别令飞机强烈摆动
+Dialogue: 0,0:57:51.12,0:57:54.12,中文简体,,0000,0000,0000,,好  我会放走自动机师
+Dialogue: 0,0:57:59.92,0:58:03.38,中文简体,,0000,0000,0000,,操纵杆会比战机的重
+Dialogue: 0,0:58:05.43,0:58:08.76,中文简体,,0000,0000,0000,,别担心  这是正常的
+Dialogue: 0,0:58:20.82,0:58:22.20,中文简体,,0000,0000,0000,,有一件事
+Dialogue: 0,0:58:22.45,0:58:26.07,中文简体,,0000,0000,0000,,可否找人来负责无线电通讯?
+Dialogue: 0,0:58:26.32,0:58:31.16,中文简体,,0000,0000,0000,,-空姐就在我旁　-她可以坐到副机师位置
+Dialogue: 0,0:58:33.29,0:58:36.46,中文简体,,0000,0000,0000,,伊莱恩  他想你坐到副机师座位
+Dialogue: 0,0:58:44.64,0:58:47.10,中文简体,,0000,0000,0000,,发生什么事?我们有权知道
+Dialogue: 0,0:58:48.89,0:58:50.85,中文简体,,0000,0000,0000,,好  我会向你们坦白
+Dialogue: 0,0:58:51.14,0:58:54.10,中文简体,,0000,0000,0000,,最重要是保持冷静
+Dialogue: 0,0:58:54.44,0:58:56.44,中文简体,,0000,0000,0000,,绝对不用惊慌
+Dialogue: 0,0:58:56.69,0:58:59.82,中文简体,,0000,0000,0000,,我们确有一名机员病倒
+Dialogue: 0,0:59:00.11,0:59:01.86,中文简体,,0000,0000,0000,,有些少不舒服
+Dialogue: 0,0:59:02.15,0:59:04.53,中文简体,,0000,0000,0000,,但另外两名机师没事
+Dialogue: 0,0:59:04.82,0:59:09.24,中文简体,,0000,0000,0000,,他们正在驾驶飞机  全力以赴
+Dialogue: 0,0:59:10.04,0:59:14.50,中文简体,,0000,0000,0000,,你来负责无线电通讯  留意第三号引擎表板
+Dialogue: 0,0:59:14.75,0:59:16.17,中文简体,,0000,0000,0000,,有点热
+Dialogue: 0,0:59:16.50,0:59:19.34,中文简体,,0000,0000,0000,,(有点热)
+Dialogue: 0,0:59:19.63,0:59:22.59,中文简体,,0000,0000,0000,,史泰克  首先我要说...
+Dialogue: 0,0:59:23.26,0:59:26.43,中文简体,,0000,0000,0000,,我知道现在你那处一定一团糟
+Dialogue: 0,0:59:26.68,0:59:29.31,中文简体,,0000,0000,0000,,但若你一切都依我的
+Dialogue: 0,0:59:29.56,0:59:32.10,中文简体,,0000,0000,0000,,你不该没有自信
+Dialogue: 0,0:59:32.39,0:59:35.86,中文简体,,0000,0000,0000,,你绝对做得到的
+Dialogue: 0,0:59:36.15,0:59:38.40,中文简体,,0000,0000,0000,,天气如何?
+Dialogue: 0,0:59:39.61,0:59:41.86,中文简体,,0000,0000,0000,,-有雨　-还有些冰雹
+Dialogue: 0,0:59:42.15,0:59:43.66,中文简体,,0000,0000,0000,,还有些冰雹
+Dialogue: 0,0:59:43.95,0:59:49.91,中文简体,,0000,0000,0000,,-情况怎样?　-不大好  湿透了
+Dialogue: 0,0:59:50.20,0:59:52.58,中文简体,,0000,0000,0000,,不大好  湿透了
+Dialogue: 0,0:59:52.83,0:59:55.63,中文简体,,0000,0000,0000,,好吧  你做得很好  史泰克
+Dialogue: 0,0:59:56.79,1:00:00.05,中文简体,,0000,0000,0000,,幸好他不知道我很讨厌他
+Dialogue: 0,1:00:00.30,1:00:03.80,中文简体,,0000,0000,0000,,幸好你不知道我很讨厌你
+Dialogue: 0,1:00:10.52,1:00:13.14,中文简体,,0000,0000,0000,,有什么可以帮忙?
+Dialogue: 0,1:00:18.86,1:00:21.74,中文简体,,0000,0000,0000,,抱歉  我不明白
+Dialogue: 0,1:00:22.03,1:00:25.24,中文简体,,0000,0000,0000,,-小姐  我懂说非洲话　-好极了
+Dialogue: 0,1:00:25.57,1:00:30.12,中文简体,,0000,0000,0000,,他说很痛苦  想你帮助他
+Dialogue: 0,1:00:30.41,1:00:34.63,中文简体,,0000,0000,0000,,叫他放松  我拿药来
+Dialogue: 0,1:00:37.75,1:00:42.13,中文简体,,0000,0000,0000,,放松  她会拿药来
+Dialogue: 0,1:00:42.38,1:00:44.89,中文简体,,0000,0000,0000,,我并非省油的灯
+Dialogue: 0,1:00:45.14,1:00:47.89,中文简体,,0000,0000,0000,,别说废话了  杰克
+Dialogue: 0,1:00:50.85,1:00:54.52,中文简体,,0000,0000,0000,,他不想帮忙...
+Dialogue: 0,1:00:54.81,1:00:57.90,中文简体,,0000,0000,0000,,总之那厮是没有脑袋的
+Dialogue: 0,1:01:04.49,1:01:07.58,中文简体,,0000,0000,0000,,通知奥维尔机长的太太吧
+Dialogue: 0,1:01:07.83,1:01:10.33,中文简体,,0000,0000,0000,,刚收到最新的天气报告
+Dialogue: 0,1:01:12.91,1:01:15.75,中文简体,,0000,0000,0000,,-你认为怎样?　-这个?
+Dialogue: 0,1:01:16.04,1:01:19.96,中文简体,,0000,0000,0000,,我可以用来做帽子  胸针或无尾飞机...
+Dialogue: 0,1:01:29.64,1:01:31.81,中文简体,,0000,0000,0000,,-你好　-奥维尔太太?
+Dialogue: 0,1:01:32.06,1:01:33.85,中文简体,,0000,0000,0000,,对  我是奥维尔太太
+Dialogue: 0,1:01:34.10,1:01:38.73,中文简体,,0000,0000,0000,,我是机场的艾迪·马西亚斯  你丈夫的航机遇上麻烦
+Dialogue: 0,1:01:39.03,1:01:41.03,中文简体,,0000,0000,0000,,我们并不知道情况有多严重
+Dialogue: 0,1:01:41.36,1:01:44.20,中文简体,,0000,0000,0000,,但史蒂夫·麦考罗斯基认为你最好来这里
+Dialogue: 0,1:01:44.49,1:01:46.78,中文简体,,0000,0000,0000,,好  我立即来
+Dialogue: 0,1:01:50.41,1:01:54.54,中文简体,,0000,0000,0000,,我得往机场  你由后门走吧
+Dialogue: 0,1:01:54.79,1:01:57.09,中文简体,,0000,0000,0000,,冰箱里有果汁
+Dialogue: 0,1:02:05.64,1:02:10.39,中文简体,,0000,0000,0000,,医生说病人情况转坏  我们时间无多了
+Dialogue: 0,1:02:12.31,1:02:15.10,中文简体,,0000,0000,0000,,我得集中精神
+Dialogue: 0,1:02:16.23,1:02:19.03,中文简体,,0000,0000,0000,,我得集中精神
+Dialogue: 0,1:02:20.53,1:02:22.57,中文简体,,0000,0000,0000,,有人吗?
+Dialogue: 0,1:02:23.78,1:02:26.07,中文简体,,0000,0000,0000,,回音!
+Dialogue: 0,1:02:26.91,1:02:30.41,中文简体,,0000,0000,0000,,拳打佩德罗·布尔波恩
+Dialogue: 0,1:02:30.62,1:02:32.71,中文简体,,0000,0000,0000,,脚踢曼尼·莫塔
+Dialogue: 0,1:02:36.50,1:02:40.05,中文简体,,0000,0000,0000,,-老婆  怎么了?　-杰克  我很热  像被火烧
+Dialogue: 0,1:02:40.30,1:02:42.30,中文简体,,0000,0000,0000,,我开窗吧
+Dialogue: 0,1:02:48.10,1:02:51.64,中文简体,,0000,0000,0000,,-发生什么事?　-关窗!
+Dialogue: 0,1:02:52.69,1:02:56.48,中文简体,,0000,0000,0000,,乘客开始恐慌  何时可以降落?
+Dialogue: 0,1:02:56.81,1:03:00.94,中文简体,,0000,0000,0000,,还未可以  你该快进入雷达范围了
+Dialogue: 0,1:03:01.24,1:03:03.95,中文简体,,0000,0000,0000,,他们该在十分钟前已进入范围
+Dialogue: 0,1:03:04.86,1:03:08.58,中文简体,,0000,0000,0000,,冈德森  再查看雷达  有何发现?
+Dialogue: 0,1:03:08.87,1:03:11.04,中文简体,,0000,0000,0000,,尚要两分钟  头儿
+Dialogue: 0,1:03:14.96,1:03:19.00,中文简体,,0000,0000,0000,,-他们可能偏离了航道　-没可能!是自动导航!
+Dialogue: 0,1:03:22.97,1:03:25.39,中文简体,,0000,0000,0000,,今次一定很惊险
+Dialogue: 0,1:03:26.26,1:03:28.60,中文简体,,0000,0000,0000,,冈德森  有最新消息就通知我
+Dialogue: 0,1:03:28.89,1:03:32.02,中文简体,,0000,0000,0000,,-有香烟吗  奈尔斯?　-我再也受不了
+Dialogue: 0,1:03:36.31,1:03:39.53,中文简体,,0000,0000,0000,,似乎我选错这星期戒安非他命
+Dialogue: 0,1:03:40.61,1:03:42.36,中文简体,,0000,0000,0000,,-喝点咖啡吗?　-不用  谢谢
+Dialogue: 0,1:03:42.61,1:03:44.99,中文简体,,0000,0000,0000,,这些记者想你发表声明
+Dialogue: 0,1:03:45.24,1:03:48.83,中文简体,,0000,0000,0000,,-他们能支持多久?　-三十到四十五分钟
+Dialogue: 0,1:03:49.08,1:03:51.46,中文简体,,0000,0000,0000,,-由谁来驾驶飞机?　-一名乘客
+Dialogue: 0,1:03:51.75,1:03:56.17,中文简体,,0000,0000,0000,,他是一名富经验的空军机师  不用担心  你来吧
+Dialogue: 0,1:03:56.42,1:03:59.84,中文简体,,0000,0000,0000,,-是怎样的飞机?　-又大又漂亮的白色飞机
+Dialogue: 0,1:04:00.09,1:04:05.34,中文简体,,0000,0000,0000,,有红色条子  窗帘  轮子  就像一架大模型
+Dialogue: 0,1:04:06.30,1:04:08.68,中文简体,,0000,0000,0000,,好  拿些照片吧!
+Dialogue: 0,1:04:20.11,1:04:22.61,中文简体,,0000,0000,0000,,(航机乘客大难临头)
+Dialogue: 0,1:04:24.99,1:04:27.53,中文简体,,0000,0000,0000,,(芝加哥机长作出最坏打算)
+Dialogue: 0,1:04:30.16,1:04:33.37,中文简体,,0000,0000,0000,,(男孩被困在冰箱  吃掉自己的脚)
+Dialogue: 0,1:04:35.96,1:04:38.05,中文简体,,0000,0000,0000,,(危机)
+Dialogue: 0,1:04:38.34,1:04:41.55,中文简体,,0000,0000,0000,,最新消息  那航机飞往芝加哥
+Dialogue: 0,1:04:56.06,1:04:58.94,中文简体,,0000,0000,0000,,他们自作自受
+Dialogue: 0,1:04:59.23,1:05:01.86,中文简体,,0000,0000,0000,,他们早知道有危险
+Dialogue: 0,1:05:03.24,1:05:06.20,中文简体,,0000,0000,0000,,让航机坠毁吧
+Dialogue: 0,1:05:21.55,1:05:24.64,中文简体,,0000,0000,0000,,-要威士忌吗?　-不要
+Dialogue: 0,1:05:36.90,1:05:39.03,中文简体,,0000,0000,0000,,乘客怎么样?
+Dialogue: 0,1:05:39.32,1:05:43.11,中文简体,,0000,0000,0000,,我不会骗你  我们时间无多了
+Dialogue: 0,1:05:43.41,1:05:47.37,中文简体,,0000,0000,0000,,-你一定可以做什么的　-我已尽一切办法...
+Dialogue: 0,1:05:47.62,1:05:49.70,中文简体,,0000,0000,0000,,也不要再说我有办法
+Dialogue: 0,1:06:13.90,1:06:16.40,中文简体,,0000,0000,0000,,兰迪  你没事吧?
+Dialogue: 0,1:06:16.65,1:06:18.73,中文简体,,0000,0000,0000,,雷姆克医生
+Dialogue: 0,1:06:20.28,1:06:23.45,中文简体,,0000,0000,0000,,我很害怕  从没这般害怕
+Dialogue: 0,1:06:24.66,1:06:27.87,中文简体,,0000,0000,0000,,而且我26岁了  还未结婚
+Dialogue: 0,1:06:28.16,1:06:31.58,中文简体,,0000,0000,0000,,我们定会成功的  你定要相信
+Dialogue: 0,1:06:31.83,1:06:34.88,中文简体,,0000,0000,0000,,雷姆克医生  知否我们何时着陆?
+Dialogue: 0,1:06:35.17,1:06:37.80,中文简体,,0000,0000,0000,,快了  你觉得怎样?
+Dialogue: 0,1:06:38.09,1:06:40.92,中文简体,,0000,0000,0000,,坦白说  我从来没那么惊慌过
+Dialogue: 0,1:06:41.17,1:06:43.59,中文简体,,0000,0000,0000,,但幸好我有丈夫
+Dialogue: 0,1:06:56.52,1:06:59.86,中文简体,,0000,0000,0000,,保持队形  目标就在前面
+Dialogue: 0,1:07:00.03,1:07:03.03,中文简体,,0000,0000,0000,,若飞得够低  该能看清楚目标
+Dialogue: 0,1:07:03.32,1:07:06.83,中文简体,,0000,0000,0000,,你得决定...
+Dialogue: 0,1:07:07.08,1:07:09.16,中文简体,,0000,0000,0000,,你得决定
+Dialogue: 0,1:07:09.49,1:07:12.83,中文简体,,0000,0000,0000,,保持队形  目标就在前面
+Dialogue: 0,1:07:13.04,1:07:16.04,中文简体,,0000,0000,0000,,若飞得够低  该看清楚目标
+Dialogue: 0,1:07:16.34,1:07:19.67,中文简体,,0000,0000,0000,,你得决定...
+Dialogue: 0,1:07:19.92,1:07:21.30,中文简体,,0000,0000,0000,,你得决定
+Dialogue: 0,1:07:26.68,1:07:29.93,中文简体,,0000,0000,0000,,糟糕!四号引擎没有了
+Dialogue: 0,1:07:30.22,1:07:32.48,中文简体,,0000,0000,0000,,发生什么事?有何不妥?
+Dialogue: 0,1:07:32.73,1:07:35.56,中文简体,,0000,0000,0000,,我忘了检查油压
+Dialogue: 0,1:07:36.44,1:07:39.65,中文简体,,0000,0000,0000,,若给克雷默知道  定给他臭骂
+Dialogue: 0,1:07:42.36,1:07:44.95,中文简体,,0000,0000,0000,,早叫他检查油压  他怎么了?
+Dialogue: 0,1:07:45.20,1:07:48.12,中文简体,,0000,0000,0000,,史泰克  飞机无法自行降落
+Dialogue: 0,1:07:48.41,1:07:51.96,中文简体,,0000,0000,0000,,这不是他的错  任何机师都可能会这样
+Dialogue: 0,1:07:52.25,1:07:53.46,中文简体,,0000,0000,0000,,施丹域亦出现这情形
+Dialogue: 0,1:07:53.71,1:07:57.04,中文简体,,0000,0000,0000,,别逼得他太紧  他可能会崩溃
+Dialogue: 0,1:07:57.34,1:08:00.26,中文简体,,0000,0000,0000,,尼克  彼得  谢利  紧急状态
+Dialogue: 0,1:08:01.97,1:08:04.76,中文简体,,0000,0000,0000,,他说得对  我应付不了压力
+Dialogue: 0,1:08:05.80,1:08:07.60,中文简体,,0000,0000,0000,,我以为可以令飞机降落  实在妄想
+Dialogue: 0,1:08:07.89,1:08:13.73,中文简体,,0000,0000,0000,,-泰德  只有你...　-我不管  我没有这个能力
+Dialogue: 0,1:08:13.98,1:08:17.61,中文简体,,0000,0000,0000,,找过从没驾驶过飞机的人来结果可能更好
+Dialogue: 0,1:08:27.62,1:08:29.87,中文简体,,0000,0000,0000,,坏消息  雾越来越浓
+Dialogue: 0,1:08:31.12,1:08:34.25,中文简体,,0000,0000,0000,,李安亦越来越大
+Dialogue: 0,1:08:58.32,1:09:01.74,中文简体,,0000,0000,0000,,我知道你想说什么  省口气吧
+Dialogue: 0,1:09:03.70,1:09:06.53,中文简体,,0000,0000,0000,,我并没想要说什么
+Dialogue: 0,1:09:07.37,1:09:09.54,中文简体,,0000,0000,0000,,你已尽了力
+Dialogue: 0,1:09:09.79,1:09:12.25,中文简体,,0000,0000,0000,,真的  你已尽了力
+Dialogue: 0,1:09:13.42,1:09:15.88,中文简体,,0000,0000,0000,,凡事岂能尽如人意
+Dialogue: 0,1:09:17.46,1:09:22.26,中文简体,,0000,0000,0000,,告诉你我保守了多年的秘密
+Dialogue: 0,1:09:22.55,1:09:25.39,中文简体,,0000,0000,0000,,我在战时是军医
+Dialogue: 0,1:09:26.39,1:09:31.48,中文简体,,0000,0000,0000,,有一晚他们送来一名重伤机师
+Dialogue: 0,1:09:31.73,1:09:33.85,中文简体,,0000,0000,0000,,他几乎不能说话
+Dialogue: 0,1:09:34.10,1:09:37.19,中文简体,,0000,0000,0000,,但他望着我说
+Dialogue: 0,1:09:37.44,1:09:41.49,中文简体,,0000,0000,0000,,"我们形势不利  但还是勇往直前"
+Dialogue: 0,1:09:41.78,1:09:45.57,中文简体,,0000,0000,0000,,"我很高兴上尉作出正确决定"
+Dialogue: 0,1:09:47.62,1:09:50.62,中文简体,,0000,0000,0000,,那机师的名字叫做乔治·热普
+Dialogue: 0,1:09:52.08,1:09:54.46,中文简体,,0000,0000,0000,,乔治·热普说的?
+Dialogue: 0,1:09:55.71,1:10:00.17,中文简体,,0000,0000,0000,,他最后对我说: "医生..."
+Dialogue: 0,1:10:01.63,1:10:03.88,中文简体,,0000,0000,0000,,"队员都全力以赴"
+Dialogue: 0,1:10:04.13,1:10:06.18,中文简体,,0000,0000,0000,,"我们虽然受到挫折"
+Dialogue: 0,1:10:06.47,1:10:09.60,中文简体,,0000,0000,0000,,"但告诉他们要倾尽全力"
+Dialogue: 0,1:10:11.14,1:10:14.31,中文简体,,0000,0000,0000,,"为部队胜出一仗"
+Dialogue: 0,1:10:16.52,1:10:18.90,中文简体,,0000,0000,0000,,"到时我不知道自己会身在何处"
+Dialogue: 0,1:10:20.99,1:10:24.20,中文简体,,0000,0000,0000,,"但肯定已全身发臭"
+Dialogue: 0,1:10:26.70,1:10:28.58,中文简体,,0000,0000,0000,,医生  失陪
+Dialogue: 0,1:10:29.49,1:10:31.66,中文简体,,0000,0000,0000,,我要令飞机着陆
+Dialogue: 0,1:10:39.59,1:10:43.63,中文简体,,0000,0000,0000,,留在上空  待大雾消散才降落
+Dialogue: 0,1:10:43.88,1:10:45.89,中文简体,,0000,0000,0000,,让我来  伊莱恩
+Dialogue: 0,1:10:53.85,1:10:58.02,中文简体,,0000,0000,0000,,听着  雷姆克医生说病人情况危殆
+Dialogue: 0,1:10:58.36,1:11:01.19,中文简体,,0000,0000,0000,,每分每秒都很重要  要现在降落了
+Dialogue: 0,1:11:01.53,1:11:05.53,中文简体,,0000,0000,0000,,别傻了  你也知道这样降落结果会如何
+Dialogue: 0,1:11:05.82,1:11:07.53,中文简体,,0000,0000,0000,,我命令你继续在上空
+Dialogue: 0,1:11:07.83,1:11:09.58,中文简体,,0000,0000,0000,,不行
+Dialogue: 0,1:11:09.87,1:11:12.54,中文简体,,0000,0000,0000,,现在由我话事  我们要降落了
+Dialogue: 0,1:11:12.83,1:11:15.63,中文简体,,0000,0000,0000,,现在他反客为主了
+Dialogue: 0,1:11:18.59,1:11:20.59,中文简体,,0000,0000,0000,,这样大雾  他是不会成功的
+Dialogue: 0,1:11:20.88,1:11:24.34,中文简体,,0000,0000,0000,,但现在由他话事了
+Dialogue: 0,1:11:24.64,1:11:27.51,中文简体,,0000,0000,0000,,他是老板  上头  首领...
+Dialogue: 0,1:11:27.76,1:11:30.93,中文简体,,0000,0000,0000,,-领袖  老大...　-上尉  看!
+Dialogue: 0,1:11:32.60,1:11:34.77,中文简体,,0000,0000,0000,,"乘客必死无疑"
+Dialogue: 0,1:11:35.02,1:11:37.11,中文简体,,0000,0000,0000,,"航空当局疏忽"
+Dialogue: 0,1:11:37.44,1:11:39.40,中文简体,,0000,0000,0000,,百货公司大减价!
+Dialogue: 0,1:11:42.49,1:11:45.57,中文简体,,0000,0000,0000,,我要三人往控制塔 你纽鲍尔  你马西亚斯
+Dialogue: 0,1:11:45.87,1:11:47.78,中文简体,,0000,0000,0000,,还有我  "大树"约翰
+Dialogue: 0,1:11:48.91,1:11:51.66,中文简体,,0000,0000,0000,,史泰克  我们准备往控制塔  祝你好运
+Dialogue: 0,1:11:52.46,1:11:55.75,中文简体,,0000,0000,0000,,-我们准备往控制塔　-控制塔
+Dialogue: 0,1:11:55.96,1:11:58.30,中文简体,,0000,0000,0000,,林宝素...
+Dialogue: 0,1:12:02.80,1:12:05.39,中文简体,,0000,0000,0000,,小姐  尚有多久才降落?
+Dialogue: 0,1:12:05.68,1:12:08.43,中文简体,,0000,0000,0000,,快了  别担心
+Dialogue: 0,1:12:22.15,1:12:25.82,中文简体,,0000,0000,0000,,我们准备好了  麦考罗斯基机长  这是罗伯茨机长
+Dialogue: 0,1:12:26.12,1:12:29.91,中文简体,,0000,0000,0000,,克雷默上尉  科洛西莫机长  欣肖机长  冈茨机长
+Dialogue: 0,1:12:30.16,1:12:33.92,中文简体,,0000,0000,0000,,克雷默上尉  冈茨机长  欣肖机长  罗伯茨机长
+Dialogue: 0,1:12:34.17,1:12:36.00,中文简体,,0000,0000,0000,,克雷默上尉  科洛西莫机长  欣肖机长  冈茨机长
+Dialogue: 0,1:12:36.34,1:12:38.30,中文简体,,0000,0000,0000,,罗伯茨  看看航空交通
+Dialogue: 0,1:12:39.09,1:12:41.76,中文简体,,0000,0000,0000,,拿出手指来  很脏的
+Dialogue: 0,1:12:44.84,1:12:46.85,中文简体,,0000,0000,0000,,-史蒂夫!　-有香烟吗  奈尔斯?
+Dialogue: 0,1:12:47.10,1:12:50.93,中文简体,,0000,0000,0000,,琳达  你的丈夫和其他人仍活着  但昏迷了
+Dialogue: 0,1:12:51.23,1:12:53.19,中文简体,,0000,0000,0000,,就像福特
+Dialogue: 0,1:12:53.44,1:12:57.52,中文简体,,0000,0000,0000,,我们有机会救他们  如果史泰克及时降落的话
+Dialogue: 0,1:12:57.82,1:13:00.53,中文简体,,0000,0000,0000,,-但机会不大吧?　-不知道
+Dialogue: 0,1:13:00.82,1:13:03.49,中文简体,,0000,0000,0000,,我们已尽了力  失陪
+Dialogue: 0,1:13:07.33,1:13:10.00,中文简体,,0000,0000,0000,,你从哪儿买来这裙子?很难看
+Dialogue: 0,1:13:10.25,1:13:13.21,中文简体,,0000,0000,0000,,还有这对鞋和大衣  天啊!
+Dialogue: 0,1:13:17.46,1:13:21.09,中文简体,,0000,0000,0000,,八哩  转右往044
+Dialogue: 0,1:13:23.43,1:13:26.43,中文简体,,0000,0000,0000,,我们现在于二千英尺上空  开始降落
+Dialogue: 0,1:13:26.72,1:13:31.18,中文简体,,0000,0000,0000,,-把跑道所有灯亮起　-已经这样做了
+Dialogue: 0,1:13:35.65,1:13:38.90,中文简体,,0000,0000,0000,,控制塔呼叫所有救急汽车前往九号跑道
+Dialogue: 0,1:13:39.94,1:13:42.57,中文简体,,0000,0000,0000,,机场汽车  一  二号准备
+Dialogue: 0,1:13:42.82,1:13:44.91,中文简体,,0000,0000,0000,,平民器材  三号
+Dialogue: 0,1:13:47.16,1:13:49.66,中文简体,,0000,0000,0000,,空军  四  五号
+Dialogue: 0,1:13:49.95,1:13:52.25,中文简体,,0000,0000,0000,,所有救护车往三号站
+Dialogue: 0,1:13:52.50,1:13:55.50,中文简体,,0000,0000,0000,,以色列航机  请驶离跑道
+Dialogue: 0,1:14:01.42,1:14:04.43,中文简体,,0000,0000,0000,,我们将要你们摆出撞击姿势
+Dialogue: 0,1:14:04.72,1:14:07.47,中文简体,,0000,0000,0000,,椅子下面有救生衣
+Dialogue: 0,1:14:07.76,1:14:12.85,中文简体,,0000,0000,0000,,套上去  我一声令下就拉右面的绳子
+Dialogue: 0,1:14:14.90,1:14:18.19,中文简体,,0000,0000,0000,,你们的椅垫都有浮水设计
+Dialogue: 0,1:14:19.36,1:14:23.61,中文简体,,0000,0000,0000,,芝加哥的WAZA电台永远为你播放
+Dialogue: 0,1:14:27.37,1:14:29.83,中文简体,,0000,0000,0000,,你的飞行高度忽高忽低
+Dialogue: 0,1:14:30.08,1:14:33.50,中文简体,,0000,0000,0000,,不能降落  你尚有两小时的燃料
+Dialogue: 0,1:14:34.54,1:14:37.84,中文简体,,0000,0000,0000,,让我来  伊莱恩 你听着  克雷默
+Dialogue: 0,1:14:38.09,1:14:41.88,中文简体,,0000,0000,0000,,机上有人在不足一小时后就会死去
+Dialogue: 0,1:14:42.17,1:14:44.47,中文简体,,0000,0000,0000,,我或会令飞机损毁  但我可以成功降落的
+Dialogue: 0,1:14:44.68,1:14:46.97,中文简体,,0000,0000,0000,,我要放下降落架了
+Dialogue: 0,1:14:47.22,1:14:51.10,中文简体,,0000,0000,0000,,-乘客都准备好了　-劳驾
+Dialogue: 0,1:14:51.43,1:14:54.44,中文简体,,0000,0000,0000,,你还是出去吧!在这儿你可能会受伤
+Dialogue: 0,1:15:04.49,1:15:07.66,中文简体,,0000,0000,0000,,-泰德　-什么事?
+Dialogue: 0,1:15:08.70,1:15:12.04,中文简体,,0000,0000,0000,,我想你知道...现在...
+Dialogue: 0,1:15:12.33,1:15:14.33,中文简体,,0000,0000,0000,,我以你为傲
+Dialogue: 0,1:15:18.34,1:15:20.88,中文简体,,0000,0000,0000,,告诉他们降落架已放下  我们准备降落
+Dialogue: 0,1:15:24.76,1:15:27.72,中文简体,,0000,0000,0000,,降落架已放下  我们准备降落
+Dialogue: 0,1:15:29.64,1:15:33.39,中文简体,,0000,0000,0000,,好  已进入最后阶段  只亮起九号跑道的灯
+Dialogue: 0,1:15:35.56,1:15:39.40,中文简体,,0000,0000,0000,,上尉  我们或许该亮起搜索灯
+Dialogue: 0,1:15:40.24,1:15:41.99,中文简体,,0000,0000,0000,,不
+Dialogue: 0,1:15:42.28,1:15:45.91,中文简体,,0000,0000,0000,,他们就是以为我们会这样做
+Dialogue: 0,1:15:50.62,1:15:54.29,中文简体,,0000,0000,0000,,祝你们好运  我们全看你们了
+Dialogue: 0,1:15:56.46,1:16:00.96,中文简体,,0000,0000,0000,,小心听着  在三百英尺高度  你便会见到跑道
+Dialogue: 0,1:16:01.22,1:16:06.30,中文简体,,0000,0000,0000,,在跑道三分一位置时着陆  有微风  准备好
+Dialogue: 0,1:16:07.39,1:16:11.85,中文简体,,0000,0000,0000,,若着陆得太快  用紧急煞掣  即右前方的红色手掣
+Dialogue: 0,1:16:12.14,1:16:14.31,中文简体,,0000,0000,0000,,若这样还不停下
+Dialogue: 0,1:16:19.53,1:16:23.24,中文简体,,0000,0000,0000,,就熄掉四个引擎
+Dialogue: 0,1:16:27.03,1:16:31.20,中文简体,,0000,0000,0000,,看到我们没有?你该看到机场了
+Dialogue: 0,1:16:38.42,1:16:41.72,中文简体,,0000,0000,0000,,-外面很平静　-对  太平静了
+Dialogue: 0,1:16:43.76,1:16:47.01,中文简体,,0000,0000,0000,,似乎我选错了这星期戒闻胶水
+Dialogue: 0,1:17:00.07,1:17:01.95,中文简体,,0000,0000,0000,,它来了!
+Dialogue: 0,1:17:04.16,1:17:05.74,中文简体,,0000,0000,0000,,他来了!
+Dialogue: 0,1:17:07.41,1:17:11.04,中文简体,,0000,0000,0000,,-速度太快了　-我知道...
+Dialogue: 0,1:17:11.33,1:17:13.08,中文简体,,0000,0000,0000,,他知道...
+Dialogue: 0,1:17:15.96,1:17:18.34,中文简体,,0000,0000,0000,,现在低于七百英尺  仍在下降
+Dialogue: 0,1:17:18.59,1:17:22.72,中文简体,,0000,0000,0000,,675英尺  650英尺  625英尺  稳住了
+Dialogue: 0,1:17:22.72,1:17:24.09,中文简体,,0000,0000,0000,,不  正下降
+Dialogue: 0,1:17:24.43,1:17:26.35,中文简体,,0000,0000,0000,,发出警号吧
+Dialogue: 0,1:17:28.39,1:17:31.02,中文简体,,0000,0000,0000,,大家请准备撞机
+Dialogue: 0,1:17:36.44,1:17:38.27,中文简体,,0000,0000,0000,,风门翼要三十度
+Dialogue: 0,1:17:42.20,1:17:47.16,中文简体,,0000,0000,0000,,听着  煞掣  按钮  准备
+Dialogue: 0,1:17:47.95,1:17:53.12,中文简体,,0000,0000,0000,,他一时在九百英尺  一时在一千三百英尺  真是笨蛋
+Dialogue: 0,1:17:53.42,1:17:56.04,中文简体,,0000,0000,0000,,靠左  风门翼更加偏侧
+Dialogue: 0,1:18:01.59,1:18:03.38,中文简体,,0000,0000,0000,,开玩笑而已
+Dialogue: 0,1:18:04.55,1:18:07.47,中文简体,,0000,0000,0000,,史泰克  升起机头  伸直机翼
+Dialogue: 0,1:18:07.76,1:18:10.64,中文简体,,0000,0000,0000,,太快了  留意速度
+Dialogue: 0,1:18:10.89,1:18:12.98,中文简体,,0000,0000,0000,,他向我们冲来!
+Dialogue: 0,1:18:17.23,1:18:20.44,中文简体,,0000,0000,0000,,太快了  减慢速度
+Dialogue: 0,1:18:20.74,1:18:25.41,中文简体,,0000,0000,0000,,留意风向  左翼倾侧
+Dialogue: 0,1:18:29.20,1:18:32.62,中文简体,,0000,0000,0000,,你偏离了航道  望着跑道末端
+Dialogue: 0,1:18:35.29,1:18:36.79,中文简体,,0000,0000,0000,,太低了  糟糕!
+Dialogue: 0,1:18:38.59,1:18:40.30,中文简体,,0000,0000,0000,,留意速度
+Dialogue: 0,1:18:43.68,1:18:45.18,中文简体,,0000,0000,0000,,慢慢降落!
+Dialogue: 0,1:18:47.97,1:18:49.85,中文简体,,0000,0000,0000,,慢慢让它着陆  着陆吧!
+Dialogue: 0,1:18:54.40,1:18:57.02,中文简体,,0000,0000,0000,,煞掣!拉那红色手掣!
+Dialogue: 0,1:19:02.20,1:19:06.07,中文简体,,0000,0000,0000,,祝你俩好运  我们全看你们了
+Dialogue: 0,1:19:12.08,1:19:15.79,中文简体,,0000,0000,0000,,209号班机正抵达八号闸
+Dialogue: 0,1:19:16.92,1:19:18.75,中文简体,,0000,0000,0000,,九号闸
+Dialogue: 0,1:19:19.05,1:19:20.42,中文简体,,0000,0000,0000,,十号闸
+Dialogue: 0,1:19:21.05,1:19:23.22,中文简体,,0000,0000,0000,,拉!按钮!
+Dialogue: 0,1:19:30.06,1:19:33.39,中文简体,,0000,0000,0000,,十三号闸  十四号闸
+Dialogue: 0,1:19:33.64,1:19:34.94,中文简体,,0000,0000,0000,,十五号闸
+Dialogue: 0,1:19:44.66,1:19:47.95,中文简体,,0000,0000,0000,,天啊!它在旋转!
+Dialogue: 0,1:19:50.54,1:19:54.12,中文简体,,0000,0000,0000,,23号闸  24号闸  25号闸...
+Dialogue: 0,1:20:17.36,1:20:21.03,中文简体,,0000,0000,0000,,祝你俩好运  我们全看你们了
+Dialogue: 0,1:20:26.87,1:20:28.16,中文简体,,0000,0000,0000,,史泰克?
+Dialogue: 0,1:20:28.45,1:20:32.58,中文简体,,0000,0000,0000,,-史泰克  你没事吧?　-我们没事
+Dialogue: 0,1:20:33.25,1:20:37.71,中文简体,,0000,0000,0000,,这大概是本机场最拙劣的降落
+Dialogue: 0,1:20:38.71,1:20:40.63,中文简体,,0000,0000,0000,,但我们有好些人  特别是我
+Dialogue: 0,1:20:40.88,1:20:45.01,中文简体,,0000,0000,0000,,想请你喝东西和与你握手
+Dialogue: 0,1:20:50.02,1:20:52.89,中文简体,,0000,0000,0000,,泰德  当遇上困难...
+Dialogue: 0,1:20:55.81,1:20:58.36,中文简体,,0000,0000,0000,,祝你愉快
+Dialogue: 0,1:20:58.61,1:21:01.69,中文简体,,0000,0000,0000,,祝你愉快  多谢乘搭本班航机
+Dialogue: 0,1:21:02.49,1:21:07.41,中文简体,,0000,0000,0000,,寂寞是底线  儿时我从不快乐
+Dialogue: 0,1:21:07.70,1:21:11.08,中文简体,,0000,0000,0000,,圣诞对你有何意义?对我来说则是活受罪
+Dialogue: 0,1:21:12.12,1:21:15.75,中文简体,,0000,0000,0000,,你知否掉在泥泞上  被铁靴踢头...
+Dialogue: 0,1:21:16.04,1:21:18.21,中文简体,,0000,0000,0000,,那滋味是怎样的?
+Dialogue: 0,1:21:18.50,1:21:23.01,中文简体,,0000,0000,0000,,当然不知道  因从没发生  抱歉  这条问题真笨
+Dialogue: 0,1:21:28.06,1:21:30.64,中文简体,,0000,0000,0000,,祝你愉快
+Dialogue: 0,1:21:46.12,1:21:49.29,中文简体,,0000,0000,0000,,泰德  你实在很出色
+Dialogue: 0,1:21:49.54,1:21:51.62,中文简体,,0000,0000,0000,,是美国最佳的投资
+Dialogue: 0,1:22:58.19,1:23:01.65,中文简体,,0000,0000,0000,,完
+Dialogue: 0,1:27:23.47,1:27:27.47,中文简体,,0000,0000,0000,,我只会再给他二十分钟
+
+

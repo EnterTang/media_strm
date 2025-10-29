@@ -1,0 +1,1031 @@
+[Script Info]
+Title:深影字幕组
+Original Script:ShinY
+Synch Point:0
+ScriptType:v4.00+
+Collisions:Normal
+PlayResX:640
+PlayResY:360
+Timer:100.0000
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正黑体简体,26,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0.00,1,0.4,1.4,2,5,5,1,134
+
+
+[Events]
+Format: Layer, Start, End, Style, Actor, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.40,0:00:15.00,*Default,NTP,0000,0000,0000,,{\fad(400,0)}{\3c&H000000&}{\pos(320,324)}{\fs104}{\fscx0\t(0,500,\fscx580)}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:15.00,0:00:15.50,*Default,NTP,0000,0000,0000,,{\fad(0,400)}{\3c&H000000&}{\pos(320,324)}{\fs104}{\fscx580\t(0,500,\fscx0)}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:00.80,0:00:15.00,*Default,NTP,0000,0000,0000,,{\fe134}{\fad(500,500)}{\c&HFFFFFF&}{\pos(320,270)}{\fs20}{\fn方正细倩简体\fsp0}{\bord0}本字幕由{\fs28}{\fn方正综艺简体}{\fe0}{\c&H26F4FF&} ShinY {\fe134}{\fn方正宋黑简体}{\c&HFFAE1A&}深影字幕组{\fscy100}{\fe134}{\fn方正细倩简体}{\c&HFFFFFF&}{\fs20}原创翻译制作
+Dialogue: 0,0:00:01.60,0:00:15.00,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\pos(320,300)}{\fn方正细倩简体}{\fs18}{\b0}{\bord0}{\shad1}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}{\fsp0}{\fs20}{\c&HFFFFFF&}深影字幕组论坛地址{\c&H26F4FF&}{\fn方正综艺简体}{\fs28}http://shinybbs.vip
+
+
+Dialogue: 0,0:00:15.80,0:00:20.30,*Default,NTP,0000,0000,0000,,{\fad(400,0)}{\3c&H000000&}{\pos(320,306)}{\fs40}{\fscx10\t(0,500,\fscx1600)}{\fscy120}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:20.30,0:00:20.80,*Default,NTP,0000,0000,0000,,{\fad(0,400)}{\3c&H000000&}{\pos(320,306)}{\fs40}{\fscx1600\t(0,500,\fscx0)}{\fscy120}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:15.80,0:00:20.50,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\pos(320,291)}{\fn方正细倩简体}{\bord0}{\fs20}{\c&H24EFFF&}翻译：{\fs20} {\c&HFFFFFF&} 黑猫 西倜 MiNT Ken 西倜
+
+Dialogue: 0,0:00:20.80,0:00:30.30,*Default,NTP,0000,0000,0000,,{\fad(400,0)}{\3c&H000000&}{\pos(320,306)}{\fs40}{\fscx10\t(0,500,\fscx1400)}{\fscy120}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:30.30,0:00:31.00,*Default,NTP,0000,0000,0000,,{\fad(0,400)}{\3c&H000000&}{\pos(320,306)}{\fs40}{\fscx1400\t(0,500,\fscx0)}{\fscy120}{\alpha&H9F&\c&H000000&}{\bord1}{\shad1\blur4}■
+Dialogue: 0,0:00:20.80,0:00:30.50,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\pos(320,291)}{\fn方正细倩简体}{\bord0}{\fs20}{\c&H24EFFF&} 校对：{\fs20} {\c&HFFFFFF&} 负零  {\fs20} {\c&H24EFFF&} {\c&H24EFFF&} 压制：{\fs20}{\c&HFFFFFF&} 青鸟
+
+
+Dialogue: 0,0:00:00.00,0:00:12.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry360)}{\fad(300,0)}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:00.00,0:00:12.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,4000,0.5,\fry360)}{\fad(300,0)}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+Dialogue: 0,0:00:12.00,0:00:15.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry360)}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:12.00,0:00:15.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry270)}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+Dialogue: 0,0:00:15.00,0:00:30.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:15.00,0:00:30.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+Dialogue: 0,0:00:30.00,0:00:42.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry360)}{\fad(300,0)}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:30.00,0:00:42.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,4000,0.5,\fry360)}{\fad(300,0)}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+Dialogue: 0,0:00:42.00,0:00:45.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry360)}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:42.00,0:00:45.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5\t(0,3000,0.5,\fry270)}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+Dialogue: 0,0:00:45.00,0:01:00.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\fn@百度综艺简体}{\pos(590,57)}{\fs30}S{\fs20}hin{\fs30}Y
+Dialogue: 0,0:00:45.00,0:01:00.00,*Default,NTP,0000,0000,0000,,{\fscx80}{\an5}{\fad(0,300)\1a&HFF&}{\shad0}{\bord0}{\alpha&H9F&\3c&HFFFFFF&}{\pos(590,40)}深影
+
+微博：
+Dialogue: 0,0:57:20.41,0:57:40.00,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\pos(320,296)}{\fs40}{\fscy100}{\fscx3050}{\alpha&H80&}{\c&HAA7300&}{\bord0}{\shad0}■
+Dialogue: 0,0:57:20.41,0:57:40.00,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\fn微软雅黑\b1\fs24}{\pos(320,288)}{\bord0}{\shad0}{\c&H4AFFFF&}更多精彩 请登录深影论坛 shinybbs.vip
+Dialogue: 0,0:57:20.41,0:57:40.00,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\pos(320,326)}{\fs40}{\fscy100}{\fscx3050}{\alpha&H80&}{\c&H1A8CFF&}{\bord0}{\shad0}■
+Dialogue: 0,0:57:20.41,0:57:40.00,*Default,NTP,0000,0000,0000,,{\fad(500,500)}{\fn微软雅黑\b1\fs24}{\pos(320,318)}{\bord0}{\shad0}{\c&H4AFFFF&}深影字幕组微博 weibo.com/syfansub
+
+
+二维码：
+Dialogue: 0,0:57:20.41,0:57:40.00,Default,,0,0,0,,{\an4\fad(500,500)\shad0\bord0\fscx900\fscy400\blur3\pos(-4.8,281.142)}■
+Dialogue: 0,0:57:20.41,0:57:40.00,Default,,0,0,0,,{\p1\an1\fscx100\fscy100\1c&H003FDE&\alpha80\fad(500,500)\pos(22.858,313.62)}m 0 0 l 0 16 l 15 16 l 15 0 m 2 2 l 13 2 l 13 14 l 2 14 m 5 5 l 11 5 l 11 11 l 5 11 m 18 0 l 18 2 l 22 2 l 22 0 m 0 18 l 9 18 l 9 22 l 11 22 l 11 25 l 13 25 l 13 27 l 15 27 l 15 29 l 13 29 l 13 31 l 15 31 l 15 29 l 20 29 l 20 27 l 15 27 l 15 24 l 13 24 l 13 22 l 15 22 l 15 20 l 13 20 l 13 18 l 15 18 l 15 20 l 18 20 l 18 18 l 20 18 l 20 20 l 22 20 l 22 22 l 20 22 l 20 27 l 22 27 l 22 29 l 20 29 l 20 31 l 18 31 l 18 33 l 20 33 l 20 31 l 22 31 l 22 29 l 24 29 l 24 25 l 29 25 l 29 18 l 35 18 l 35 20 l 38 20 l 38 25 l 36 25 l 36 22 l 33 22 l 33 25 l 31 25 l 31 33 l 29 33 l 29 36 l 27 36 l 27 38 l 24 38 l 24 36 l 27 36 l 27 31 l 29 31 l 29 27 l 26 27 l 26 31 l 25 31 l 24 31 l 24 33 l 22 33 l 22 36 l 18 36 l 18 38 l 13 38 l 13 36 l 16 36 l 16 33 l 5 33 l 5 31 l 2 31 l 2 33 l 0 33 l 0 31 l 2 31 l 2 24 l 0 24 l 0 22 l 2 22 l 2 20 l 0 20 m 4 20 l 4 29 l 11 29 l 11 27 l 7 27 l 7 20 m 0 49 l 15 49 l 15 64 l 0 64 m 2 51 l 2 62 l 13 62 l 13 51 m 5 54 l 5 60 l 11 60 l 11 54 m 49 0 l 49 16 l 64 16 l 64 0 m 51 2 l 62 2 l 62 14 l 51 14 m 54 5 l 60 5 l 60 11 l 54 11 m 0 38 l 2 38 l 2 36 l 11 36 l 11 38 l 13 38 l 13 40 l 16 40 l 16 42 l 18 42 l 18 40 l 20 40 l 20 38 l 22 38 l 22 40 l 20 40 l 20 42 l 18 42 l 18 45 l 16 45 l 16 47 l 13 47 l 13 45 l 16 45 l 16 42 l 13 42 l 13 45 l 9 45 l 9 42 l 13 42 l 13 40 l 11 40 l 11 38 l 9 38 l 9 42 l 7 42 l 7 47 l 4 47 l 4 45 l 2 45 l 2 47 l 0 47 l 0 42 l 2 42 l 2 40 l 7 40 l 7 38 l 2 38 l 2 40 l 0 40 m 18 5 l 18 11 l 20 11 l 20 13 l 18 13 l 18 16 l 20 16 l 20 18 l 22 18 l 22 16 l 24 16 l 24 18 l 26 18 l 26 16 l 29 16 l 29 11 l 26 11 l 26 16 l 24 16 l 24 13 l 22 13 l 22 16 l 20 16 l 20 13 l 22 13 l 22 11 l 26 11 l 26 7 l 29 7 l 29 9 l 33 9 l 33 11 l 33 11 l 31 11 l 31 16 l 33 16 l 33 11 l 38 11 l 38 13 l 36 13 l 36 15 l 38 15 l 38 20 l 40 20 l 40 18 l 44 18 l 44 16 l 46 16 l 46 11 l 44 11 l 44 9 l 46 9 l 46 7 l 44 7 l 44 9 l 42 9 l 42 13 l 44 13 l 44 16 l 42 16 l 42 13 l 40 13 l 40 11 l 38 11 l 38 5 l 33 5 l 33 2 l 40 2 l 40 7 l 42 7 l 42 2 l 44 2 l 44 4 l 46 4 l 46 2 l 44 2 l 44 0 l 31 0 l 31 2 l 29 2 l 29 4 l 24 4 l 24 9 l 22 9 l 22 7 l 20 7 l 20 5 m 40 15 l 38 15 l 38 13 l 40 13 m 18 64 l 18 56 l 20 56 l 20 58 l 22 58 l 22 54 l 20 54 l 20 51 l 22 51 l 22 49 l 18 49 l 18 45 l 20 45 l 20 47 l 24 47 l 24 45 l 22 45 l 22 40 l 27 40 l 27 38 l 29 38 l 29 36 l 31 36 l 31 33 l 33 33 l 33 36 l 31 36 l 31 38 l 29 38 l 29 45 l 33 45 l 33 47 l 29 47 l 29 51 l 24 51 l 24 56 l 27 56 l 27 54 l 29 54 l 29 51 l 31 51 l 31 49 l 33 49 l 33 54 l 31 54 l 31 56 l 29 56 l 29 58 l 33 58 l 33 62 l 36 62 l 36 64 l 31 64 l 31 60 l 29 60 l 29 58 l 27 58 l 27 62 l 22 62 l 22 64 m 40 64 l 40 62 l 42 62 l 42 64 m 40 60 l 42 60 l 42 58 l 40 58 m 36 60 l 36 56 l 33 56 l 33 54 l 36 54 l 36 56 l 38 56 l 38 54 l 40 54 l 40 56 l 38 56 l 38 60 m 44 64 l 44 58 l 46 58 l 46 56 l 44 56 l 44 51 l 42 51 l 42 54 l 40 54 l 40 51 l 35 51 l 35 49 l 40 49 l 40 47 l 38 47 l 38 45 l 35 45 l 35 42 l 33 42 l 33 40 l 31 40 l 31 38 l 33 38 l 33 36 l 38 36 l 38 38 l 35 38 l 35 40 l 38 40 l 38 38 l 40 38 l 40 40 l 38 40 l 38 42 l 40 42 l 40 40 l 42 40 l 42 42 l 44 42 l 44 38 l 40 38 l 40 33 l 36 33 l 36 29 l 33 29 l 33 25 l 36 25 l 36 27 l 38 27 l 38 29 l 42 29 l 42 27 l 40 27 l 40 25 l 47 25 l 47 18 l 49 18 l 49 20 l 54 20 l 54 18 l 60 18 l 60 20 l 56 20 l 56 22 l 56 22 l 51 22 l 51 25 l 47 25 l 47 25 l 47 27 l 49 27 l 49 29 l 47 29 l 47 27 l 44 27 l 44 31 l 49 31 l 49 29 l 51 29 l 51 31 l 49 31 l 49 33 l 51 33 l 51 36 l 49 36 l 49 45 l 51 45 l 51 38 l 53 38 l 53 36 l 55 36 l 55 38 l 53 38 l 53 40 l 58 40 l 58 38 l 60 38 l 60 33 l 56 33 l 56 31 l 60 31 l 60 29 l 56 29 l 56 27 l 53 27 l 53 25 l 58 25 l 58 22 l 62 22 l 62 18 l 64 18 l 64 22 l 62 22 l 62 25 l 64 25 l 64 27 l 62 27 l 62 25 l 58 25 l 58 27 l 60 27 l 60 29 l 64 29 l 64 33 l 62 33 l 62 40 l 60 40 l 60 47 l 64 47 l 64 49 l 62 49 l 62 54 l 64 54 l 64 60 l 62 60 l 62 56 l 60 56 l 60 60 l 62 60 l 62 64 l 60 64 l 60 60 l 58 60 l 58 58 l 53 58 l 53 60 l 58 60 l 58 62 l 51 62 l 51 55 l 49 55 l 49 64 m 27 42 l 24 42 l 24 45 l 27 45 m 27 47 l 24 47 l 24 49 l 27 49 m 44 47 l 42 47 l 42 49 l 44 49 m 58 42 l 55 42 l 55 45 l 58 45 m 58 49 l 58 51 l 55 51 l 55 54 l 60 54 l 60 49 m 46 54 l 53 54 l 53 47 l 46 47 m 49 49 l 49 51 l 51 51 l 51 49 m 42 20 l 42 22 l 44 22 l 44 20
+Dialogue: 0,0:57:20.41,0:57:40.00,Default,,0,0,0,,{\fad(500,500)\fn微软雅黑\b1\an1\fs16\1c&H000000&\shad0\bord0\pos(91.134,312.011)}关注深影字幕组\N微信公众号，更\N多影视资讯，等\N你来发现
+
+
+Dialogue: 0,0:00:07.29,0:00:09.76,*Default,NTP,0000,0000,0000,,最有权势的人也不能凌驾于法律之上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The most powerful are not above the law.
+Dialogue: 0,0:00:09.84,0:00:12.51,*Default,NTP,0000,0000,0000,,祖国人提供了斯坦·埃德加犯罪的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Homelander has provided evidence of crimes
+Dialogue: 0,0:00:12.59,0:00:14.05,*Default,NTP,0000,0000,0000,,相关证据\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}committed by Stan Edgar.
+Dialogue: 0,0:00:14.14,0:00:15.59,*Default,NTP,0000,0000,0000,,维琪 我很高兴你选择了你的同类\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Vicky, I'm glad you chose your own kind.
+Dialogue: 0,0:00:15.68,0:00:16.93,*Default,NTP,0000,0000,0000,,如果我们要跟他斗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If we need to fight him,
+Dialogue: 0,0:00:17.01,0:00:18.60,*Default,NTP,0000,0000,0000,,- 你会帮助我吗 - 好 我加入\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- will you help me? - Okay, I'm in.
+Dialogue: 0,0:00:18.68,0:00:20.64,*Default,NTP,0000,0000,0000,,火车头跟我说了你们的小阴谋\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A-Train told me about your little plots.
+Dialogue: 0,0:00:20.73,0:00:22.94,*Default,NTP,0000,0000,0000,,阿莱克斯 天呐\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Alex! Oh, my God.
+Dialogue: 0,0:00:23.02,0:00:24.01,*Default,NTP,0000,0000,0000,,B.C.L.红是什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What's B.C.L. RED?
+Dialogue: 0,0:00:24.01,0:00:24.85,*Default,NTP,0000,0000,0000,,杀了士兵男孩的东西\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The thing that killed Soldier Boy.
+Dialogue: 0,0:00:24.94,0:00:25.94,*Default,NTP,0000,0000,0000,,你好呀\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello, hello.
+Dialogue: 0,0:00:26.02,0:00:27.65,*Default,NTP,0000,0000,0000,,想必你就是妮娜了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You must be Nina.
+Dialogue: 0,0:00:27.73,0:00:29.15,*Default,NTP,0000,0000,0000,,我在追查一件特殊的武器\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm after a particular weapon.
+Dialogue: 0,0:00:29.23,0:00:31.40,*Default,NTP,0000,0000,0000,,我们有个小活要她去做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We just got to do a little job for her.
+Dialogue: 0,0:00:31.49,0:00:32.82,*Default,NTP,0000,0000,0000,,我想试一试\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I want to try something.
+Dialogue: 0,0:00:32.90,0:00:34.11,*Default,NTP,0000,0000,0000,,这不是力量 是惩罚\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's not power. It's punishment.
+Dialogue: 0,0:00:34.20,0:00:35.36,*Default,NTP,0000,0000,0000,,晚上好 婊子们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Evening, cunts.
+Dialogue: 0,0:00:38.87,0:00:40.87,*Default,NTP,0000,0000,0000,,你为什么故意对自己做出这种事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why did you do this to yourself on purpose?
+Dialogue: 0,0:00:40.95,0:00:42.66,*Default,NTP,0000,0000,0000,,你明明能做得更好 孩子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're better than this, kid.
+Dialogue: 0,0:00:42.75,0:00:43.87,*Default,NTP,0000,0000,0000,,士兵男孩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy.
+Dialogue: 0,0:00:46.17,0:00:48.63,*Default,NTP,0000,0000,0000,,没有我能凝聚的团队了 布彻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ain't no team for me to hold together no more, Butcher.
+Dialogue: 0,0:00:48.71,0:00:51.13,*Default,NTP,0000,0000,0000,,- 抬高她的头 弗兰基 - 亲爱的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Hold her head up, Frenchie. - Mon coeur!
+Dialogue: 0,0:00:54.97,0:00:56.01,*Default,NTP,0000,0000,0000,,你在录像吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Are you recording?
+Dialogue: 0,0:00:56.09,0:00:57.09,*Default,NTP,0000,0000,0000,,嗯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes.
+Dialogue: 0,0:00:58.22,0:01:00.14,*Default,NTP,0000,0000,0000,,如你所知 实验品的皮肤\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}As you know, the subject's skin has
+Dialogue: 0,0:01:00.22,0:01:01.89,*Default,NTP,0000,0000,0000,,显示出非同寻常的韧性\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}demonstrated remarkable durability.
+Dialogue: 0,0:01:01.97,0:01:04.64,*Default,NTP,0000,0000,0000,,包括内部组织\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Which includes internal tissue.
+Dialogue: 0,0:01:25.58,0:01:27.00,*Default,NTP,0000,0000,0000,,她怎么样了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How is she?
+Dialogue: 0,0:01:29.46,0:01:31.38,*Default,NTP,0000,0000,0000,,暂时稳定\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Stable, for now.
+Dialogue: 0,0:01:35.80,0:01:39.68,*Default,NTP,0000,0000,0000,,请注意 由于一月二十四号的操作\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Please note that, due to the procedure dated January 24,
+Dialogue: 0,0:01:39.76,0:01:42.85,*Default,NTP,0000,0000,0000,,实验品的辐射水平仍然很高\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the subject still registers high radiation levels.
+Dialogue: 0,0:01:44.27,0:01:46.73,*Default,NTP,0000,0000,0000,,那个杂种怎么还活着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How the fuck's that cunt still breathing?
+Dialogue: 0,0:01:46.81,0:01:48.27,*Default,NTP,0000,0000,0000,,二十西弗的辐射\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Twenty sieverts of radiation.
+Dialogue: 0,0:01:48.35,0:01:49.98,*Default,NTP,0000,0000,0000,,硫酸化合物的摄入\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sulfuric acid cocktails.
+Dialogue: 0,0:01:50.06,0:01:52.19,*Default,NTP,0000,0000,0000,,他都快成为一个行走的切尔诺贝利了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}More or less shoved Chernobyl right up his arse.
+Dialogue: 0,0:01:52.27,0:01:54.69,*Default,NTP,0000,0000,0000,,我们现在将验证他的角膜是否有着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We will now determine whether his cornea
+Dialogue: 0,0:01:54.78,0:01:56.49,*Default,NTP,0000,0000,0000,,相似的强度\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}shares a similar strength.
+Dialogue: 0,0:01:56.57,0:01:59.45,*Default,NTP,0000,0000,0000,,我打赌这就是他获得令人讨厌的新能力的方法\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll wager that's how he got them nasty new powers.
+Dialogue: 0,0:02:10.75,0:02:12.50,*Default,NTP,0000,0000,0000,,听着 伙计 我们不能留在这里\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Listen, mate, we can't hang about here
+Dialogue: 0,0:02:12.59,0:02:13.80,*Default,NTP,0000,0000,0000,,去找他 对吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}looking for him, right?
+Dialogue: 0,0:02:13.88,0:02:15.13,*Default,NTP,0000,0000,0000,,他现在是俄罗斯人的麻烦了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's Ivan's problem now.
+Dialogue: 0,0:02:15.21,0:02:18.18,*Default,NTP,0000,0000,0000,,我们得把山崎纪带回家 给她找个合适的医生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We got to get Kimiko home to a proper doctor.
+Dialogue: 0,0:02:18.26,0:02:20.47,*Default,NTP,0000,0000,0000,,你根本不在乎山崎纪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't give a shit about Kimiko.
+Dialogue: 0,0:02:22.30,0:02:23.51,*Default,NTP,0000,0000,0000,,也不在乎任何人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Or anyone else.
+Dialogue: 0,0:02:23.60,0:02:24.68,*Default,NTP,0000,0000,0000,,让这事翻篇吧 伙计\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, come off it, mate.
+Dialogue: 0,0:02:24.77,0:02:26.39,*Default,NTP,0000,0000,0000,,听着 我当时吃了药\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, I took a fucking drug.
+Dialogue: 0,0:02:26.48,0:02:29.31,*Default,NTP,0000,0000,0000,,你别忘了 我刚刚救了你的命\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And in case you forgot, I just saved your life.
+Dialogue: 0,0:02:32.57,0:02:35.44,*Default,NTP,0000,0000,0000,,你杀了火药 对吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You killed Gunpowder, didn't you?
+Dialogue: 0,0:02:35.53,0:02:37.28,*Default,NTP,0000,0000,0000,,是用你的那双激光眼吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did you use your little laser eyes?
+Dialogue: 0,0:02:37.36,0:02:39.45,*Default,NTP,0000,0000,0000,,你说的太他妈对了 我是这么做了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're too fucking right, I did.
+Dialogue: 0,0:02:39.53,0:02:40.99,*Default,NTP,0000,0000,0000,,而且感觉很好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And it felt good.
+Dialogue: 0,0:02:41.07,0:02:43.49,*Default,NTP,0000,0000,0000,,终于 我能跟他们处在同一级别了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}For once, I leveled the fucking playing field.
+Dialogue: 0,0:02:43.58,0:02:45.45,*Default,NTP,0000,0000,0000,,布彻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Butcher,
+Dialogue: 0,0:02:45.54,0:02:48.41,*Default,NTP,0000,0000,0000,,我们所做的关键是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the whole point of what we do,
+Dialogue: 0,0:02:48.50,0:02:52.50,*Default,NTP,0000,0000,0000,,整件事他妈的关键点是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the whole goddamn point,
+Dialogue: 0,0:02:52.59,0:02:54.67,*Default,NTP,0000,0000,0000,,没人应该拥有那种能力\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}is that no one should have that kind of power.
+Dialogue: 0,0:02:54.75,0:02:58.01,*Default,NTP,0000,0000,0000,,那不就是歌舞升平的童话世界了吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, ain't that just fucking fairies and dancing dildos, eh?
+Dialogue: 0,0:02:58.09,0:03:00.13,*Default,NTP,0000,0000,0000,,我正好住在这里 伙计\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I happen to live right down here, mate,
+Dialogue: 0,0:03:00.22,0:03:02.18,*Default,NTP,0000,0000,0000,,在地球上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}on planet Earth.
+Dialogue: 0,0:03:07.85,0:03:09.31,*Default,NTP,0000,0000,0000,,操\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, fuck.
+Dialogue: 0,0:03:09.39,0:03:11.31,*Default,NTP,0000,0000,0000,,看着就像青蛙克米特射了你一嘴\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Looks like Kermit the Frog had a right wank in your mouth.
+Dialogue: 0,0:03:11.40,0:03:13.15,*Default,NTP,0000,0000,0000,,我没事 我很好 好吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, I'm good, okay?
+Dialogue: 0,0:03:16.15,0:03:17.86,*Default,NTP,0000,0000,0000,,我看出来了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So I see.
+Dialogue: 0,0:03:23.49,0:03:24.70,*Default,NTP,0000,0000,0000,,怎么了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What?
+Dialogue: 0,0:03:26.45,0:03:28.95,*Default,NTP,0000,0000,0000,,没事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nothing.
+Dialogue: 0,0:03:34.46,0:03:36.59,*Default,NTP,0000,0000,0000,,我知道现在是困难时期\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I know these are difficult times,
+Dialogue: 0,0:03:36.67,0:03:40.93,*Default,NTP,0000,0000,0000,,但怀着最大的谦逊 我接受沃特国际公司\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but with the greatest humility, I accept your nomination as CEO
+Dialogue: 0,0:03:41.01,0:03:43.59,*Default,NTP,0000,0000,0000,,首席执行官的提名\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}of Vought International.
+Dialogue: 0,0:03:45.35,0:03:46.89,*Default,NTP,0000,0000,0000,,我十七岁时 我母亲因癌症去世前\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, my mother used to say, before she
+Dialogue: 0,0:03:46.97,0:03:48.72,*Default,NTP,0000,0000,0000,,她曾说过\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}died of cancer when I was 17...
+Dialogue: 0,0:03:48.81,0:03:51.94,*Default,NTP,0000,0000,0000,,好了 艾希莉 够了 别尬聊了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay, Ashley, that's enough. Let's not bring the room down.
+Dialogue: 0,0:03:52.02,0:03:53.23,*Default,NTP,0000,0000,0000,,不好意思 先生 当然了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Apologies, sir. Of course.
+Dialogue: 0,0:03:53.31,0:03:55.19,*Default,NTP,0000,0000,0000,,大家好 不好意思我来迟了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello, everyone. Sorry I'm late.
+Dialogue: 0,0:03:55.27,0:03:57.86,*Default,NTP,0000,0000,0000,,谢谢你们上到九十九层来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you so much for coming up to 99,
+Dialogue: 0,0:03:57.94,0:04:00.69,*Default,NTP,0000,0000,0000,,免礼 平身\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the mountain to Muhammad, as it were.
+Dialogue: 0,0:04:03.32,0:04:04.99,*Default,NTP,0000,0000,0000,,好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay.
+Dialogue: 0,0:04:05.07,0:04:07.45,*Default,NTP,0000,0000,0000,,鉴于这是我第一次参加董事会\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Seeing as it's, uh, my very first board meeting,
+Dialogue: 0,0:04:07.53,0:04:10.41,*Default,NTP,0000,0000,0000,,我觉得我们可以轮流\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought perhaps we'd start by, uh, going around the room
+Dialogue: 0,0:04:10.50,0:04:12.08,*Default,NTP,0000,0000,0000,,给你们一个\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and giving you all a chance
+Dialogue: 0,0:04:12.16,0:04:14.12,*Default,NTP,0000,0000,0000,,- 自我介绍的机会 - 我是比尔·马什\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- to introduce yourselves. - Bill Marsh.
+Dialogue: 0,0:04:14.21,0:04:16.71,*Default,NTP,0000,0000,0000,,我首先要感谢你 祖国人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I, for one, would like to thank you, Homelander,
+Dialogue: 0,0:04:16.79,0:04:19.13,*Default,NTP,0000,0000,0000,,在沃特历史上如此关键的时刻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}for giving me the opportunity to serve this board
+Dialogue: 0,0:04:19.21,0:04:22.26,*Default,NTP,0000,0000,0000,,给我机会为这个董事会服务\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}at such a pivotal moment in, uh, Vought's history.
+Dialogue: 0,0:04:22.34,0:04:24.26,*Default,NTP,0000,0000,0000,,我是帕特·威利斯 先生 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Pat Willis, sir.
+Dialogue: 0,0:04:24.34,0:04:27.72,*Default,NTP,0000,0000,0000,,你帮我们摆脱了斯坦·埃德加 恢复了公司的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You've rid us of Stan Edgar and restored honesty, integrity
+Dialogue: 0,0:04:27.81,0:04:30.06,*Default,NTP,0000,0000,0000,,诚信 正直和创新\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and innovation to this corporation.
+Dialogue: 0,0:04:30.14,0:04:32.27,*Default,NTP,0000,0000,0000,,有个问题 鉴于这里的变动\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}One question. With the changes around here,
+Dialogue: 0,0:04:32.35,0:04:34.73,*Default,NTP,0000,0000,0000,,我们的息税折旧摊销前利润将会略有下降\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}our EBITDA margins will drop a tiny bit.
+Dialogue: 0,0:04:34.81,0:04:37.73,*Default,NTP,0000,0000,0000,,您打算如何在收益报告上处理这一点\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How do you want to handle that on the earnings call?
+Dialogue: 0,0:04:43.53,0:04:44.66,*Default,NTP,0000,0000,0000,,你叫什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What's your name?
+Dialogue: 0,0:04:44.74,0:04:46.37,*Default,NTP,0000,0000,0000,,莫琳\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maureen.
+Dialogue: 0,0:04:47.41,0:04:49.91,*Default,NTP,0000,0000,0000,,有些话你不吐不快是吧 莫琳\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is there something you want to get off your chest, Maureen?
+Dialogue: 0,0:04:49.99,0:04:51.66,*Default,NTP,0000,0000,0000,,抱歉 先生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry, sir? Wh...
+Dialogue: 0,0:04:51.75,0:04:54.00,*Default,NTP,0000,0000,0000,,你觉得你比我更懂行是吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Do you think you know better than me?
+Dialogue: 0,0:04:55.04,0:04:57.13,*Default,NTP,0000,0000,0000,,也许你应该\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't know. Maybe you think you should be
+Dialogue: 0,0:04:57.21,0:04:58.96,*Default,NTP,0000,0000,0000,,坐在我的位置上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}sitting in my chair and...
+Dialogue: 0,0:04:59.04,0:05:01.42,*Default,NTP,0000,0000,0000,,我应该一路降级 然后坐在你的位置上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I should be sitting all the way down there in yours.
+Dialogue: 0,0:05:01.51,0:05:03.59,*Default,NTP,0000,0000,0000,,哦 不 先生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, God, no, sir.
+Dialogue: 0,0:05:03.67,0:05:05.88,*Default,NTP,0000,0000,0000,,我很抱歉 我只是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I... I'm sorry. I... I was just...
+Dialogue: 0,0:05:05.97,0:05:07.30,*Default,NTP,0000,0000,0000,,是我太蠢了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was stupid of me.
+Dialogue: 0,0:05:07.39,0:05:10.68,*Default,NTP,0000,0000,0000,,我太蠢了 您这么优秀\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm so stupid, and you're so great.
+Dialogue: 0,0:05:10.76,0:05:13.27,*Default,NTP,0000,0000,0000,,还有 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And... uh...
+Dialogue: 0,0:05:13.35,0:05:15.77,*Default,NTP,0000,0000,0000,,莫琳 你在让你自己难堪 你应该离开了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maureen, you're embarrassing yourself. You should go.
+Dialogue: 0,0:05:19.98,0:05:21.44,*Default,NTP,0000,0000,0000,,所以下一个是谁\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So who's next?
+Dialogue: 0,0:05:21.53,0:05:25.20,*Default,NTP,0000,0000,0000,,在您出色而称职的领导下\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We look forward to working hand in glove
+Dialogue: 0,0:05:25.28,0:05:27.57,*Default,NTP,0000,0000,0000,,我们期待与您合作\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}under your tremendous
+Dialogue: 0,0:05:27.66,0:05:31.33,*Default,NTP,0000,0000,0000,,先生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and competent leadership, sir.
+Dialogue: 0,0:05:31.41,0:05:33.91,*Default,NTP,0000,0000,0000,,能够领导犯罪分析部门十三年\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was my honor to lead Crime Analytics
+Dialogue: 0,0:05:34.00,0:05:36.08,*Default,NTP,0000,0000,0000,,是我的荣幸\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}for the past 13 years,
+Dialogue: 0,0:05:36.17,0:05:39.67,*Default,NTP,0000,0000,0000,,但天下没有不散的宴席\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but all good things must come to an end,
+Dialogue: 0,0:05:39.75,0:05:42.30,*Default,NTP,0000,0000,0000,,沃特董事会觉得是时候做出改变了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the Vought board decided it was time for a change.
+Dialogue: 0,0:05:42.38,0:05:46.01,*Default,NTP,0000,0000,0000,,所以 允许我向你们介绍新任\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, allow me to introduce you to the new
+Dialogue: 0,0:05:46.09,0:05:48.18,*Default,NTP,0000,0000,0000,,犯罪分析部门的上司\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}head of Crime Analytics:
+Dialogue: 0,0:05:48.26,0:05:49.26,*Default,NTP,0000,0000,0000,,深海\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the Deep.
+Dialogue: 0,0:05:51.68,0:05:53.39,*Default,NTP,0000,0000,0000,,谢谢大家 谢谢大家\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you, thank you.
+Dialogue: 0,0:05:53.47,0:05:56.14,*Default,NTP,0000,0000,0000,,谢谢你的付出 芭布\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you for your service, Bar.
+Dialogue: 0,0:05:56.23,0:05:57.48,*Default,NTP,0000,0000,0000,,让我们为芭布鼓掌\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let's hear it for Bar.
+Dialogue: 0,0:05:57.56,0:05:59.35,*Default,NTP,0000,0000,0000,,来吧 她做得很好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on, she did great.
+Dialogue: 0,0:05:59.44,0:06:01.15,*Default,NTP,0000,0000,0000,,对于一个没有实践经验的人来说\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}For someone with no practical experience,
+Dialogue: 0,0:06:01.23,0:06:02.65,*Default,NTP,0000,0000,0000,,这很棒了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}it's amazing.
+Dialogue: 0,0:06:02.73,0:06:05.57,*Default,NTP,0000,0000,0000,,我一直梦想着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, it's always been a big dream of mine
+Dialogue: 0,0:06:05.65,0:06:07.99,*Default,NTP,0000,0000,0000,,能够打击犯罪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to be able to fight crime
+Dialogue: 0,0:06:08.07,0:06:10.87,*Default,NTP,0000,0000,0000,,在海洋里 同样也在陆地上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}both at sea and on land.
+Dialogue: 0,0:06:12.95,0:06:15.45,*Default,NTP,0000,0000,0000,,我来此是告诉你们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm here to tell you
+Dialogue: 0,0:06:15.54,0:06:17.00,*Default,NTP,0000,0000,0000,,如果你足够努力\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}that if you work hard enough,
+Dialogue: 0,0:06:17.08,0:06:18.71,*Default,NTP,0000,0000,0000,,没有什么成就是你不能达到的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}there's nothing you can't achieve.
+Dialogue: 0,0:06:18.79,0:06:20.13,*Default,NTP,0000,0000,0000,,标签 远大梦想\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hashtag dream big.
+Dialogue: 0,0:06:20.21,0:06:21.54,*Default,NTP,0000,0000,0000,,很远大\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Real big.
+Dialogue: 0,0:06:21.63,0:06:24.17,*Default,NTP,0000,0000,0000,,因为沃特会确保正确的男人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Because Vought'll make sure the right man...
+Dialogue: 0,0:06:24.25,0:06:26.72,*Default,NTP,0000,0000,0000,,不好意思 芭芭拉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Er... Sorry, Barbara.
+Dialogue: 0,0:06:26.80,0:06:29.09,*Default,NTP,0000,0000,0000,,正确的人得到工作\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Right person, gets the job.
+Dialogue: 0,0:06:29.18,0:06:31.10,*Default,NTP,0000,0000,0000,,所以 为了破冰 我们带来了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, to break the ice, we brought...
+Dialogue: 0,0:06:32.51,0:06:35.06,*Default,NTP,0000,0000,0000,,- 纸杯蛋糕 - 纸杯蛋糕\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Cupcakes. - Cupcakes.
+Dialogue: 0,0:06:35.14,0:06:36.60,*Default,NTP,0000,0000,0000,,- 巧克力碎那家的 - 没错\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- From Sprinkles. - That's right.
+Dialogue: 0,0:06:36.68,0:06:37.94,*Default,NTP,0000,0000,0000,,还有一件事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, and one more thing.
+Dialogue: 0,0:06:38.02,0:06:39.73,*Default,NTP,0000,0000,0000,,每个人都需要参加\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Everyone just needs to sign up for, uh,
+Dialogue: 0,0:06:39.81,0:06:41.65,*Default,NTP,0000,0000,0000,,绩效评估\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}performance reviews.
+Dialogue: 0,0:06:41.73,0:06:43.90,*Default,NTP,0000,0000,0000,,只是走个形式 不用担心\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just a formality, nothing to worry about.
+Dialogue: 0,0:06:43.98,0:06:45.90,*Default,NTP,0000,0000,0000,,你想去当自由职业者吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mmm. You thinking of going freelance?
+Dialogue: 0,0:06:48.03,0:06:50.11,*Default,NTP,0000,0000,0000,,小心她的头 我们走\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Watch her head. Let's go.
+Dialogue: 0,0:06:50.20,0:06:52.16,*Default,NTP,0000,0000,0000,,她很快就能下地走路了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She'll be up and about in no time.
+Dialogue: 0,0:06:52.24,0:06:53.49,*Default,NTP,0000,0000,0000,,我们明早见 好吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We'll see you in the morning, yeah?
+Dialogue: 0,0:06:53.58,0:06:54.73,*Default,NTP,0000,0000,0000,,去你的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fuck you.
+Dialogue: 0,0:06:59.87,0:07:01.88,*Default,NTP,0000,0000,0000,,嘿\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey.
+Dialogue: 0,0:07:04.46,0:07:06.00,*Default,NTP,0000,0000,0000,,你还有我呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You still got me.
+Dialogue: 0,0:07:11.93,0:07:14.68,*Default,NTP,0000,0000,0000,,就在他刚入选七人队之时\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tragically relapsed into an opioid addiction,
+Dialogue: 0,0:07:14.76,0:07:17.02,*Default,NTP,0000,0000,0000,,再次对鸦片类药物上瘾\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}just as he was slated to join The Seven.
+Dialogue: 0,0:07:17.10,0:07:19.02,*Default,NTP,0000,0000,0000,,自莱恩·比亚斯以来 尚未有一位公众人物\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not since Len Bias has a public figure
+Dialogue: 0,0:07:19.10,0:07:20.77,*Default,NTP,0000,0000,0000,,在翻红前夕\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}been lost to a drug overdose
+Dialogue: 0,0:07:20.85,0:07:22.60,*Default,NTP,0000,0000,0000,,因吸毒过量丧生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- on the cusp of the next... - Hey.
+Dialogue: 0,0:07:24.27,0:07:26.07,*Default,NTP,0000,0000,0000,,嗨 过来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey. Come here.
+Dialogue: 0,0:07:26.15,0:07:28.07,*Default,NTP,0000,0000,0000,,来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come here.
+Dialogue: 0,0:07:29.78,0:07:31.20,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry.
+Dialogue: 0,0:07:31.28,0:07:32.91,*Default,NTP,0000,0000,0000,,我太他妈的抱歉了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm so fucking sorry.
+Dialogue: 0,0:07:32.99,0:07:34.83,*Default,NTP,0000,0000,0000,,我不应该来这儿 这对你不安全\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I shouldn't be here. It's not safe for you.
+Dialogue: 0,0:07:34.91,0:07:37.66,*Default,NTP,0000,0000,0000,,我不在乎 没事的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't care. It's okay.
+Dialogue: 0,0:07:37.74,0:07:40.71,*Default,NTP,0000,0000,0000,,休伊 祖国人杀了阿莱克斯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie, Homelander killed Alex.
+Dialogue: 0,0:07:40.79,0:07:44.71,*Default,NTP,0000,0000,0000,,他他妈的谋杀了他 这都是我的错\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He fucking murdered him, and it's all my fault.
+Dialogue: 0,0:07:44.79,0:07:47.46,*Default,NTP,0000,0000,0000,,嘿 这不是你的错\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey. It is not your fault.
+Dialogue: 0,0:07:47.55,0:07:49.84,*Default,NTP,0000,0000,0000,,过来 来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come here, come here, come here.
+Dialogue: 0,0:07:49.92,0:07:52.05,*Default,NTP,0000,0000,0000,,我们有查尔斯顿口香糖\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We got Charleston Chew.
+Dialogue: 0,0:07:52.13,0:07:53.30,*Default,NTP,0000,0000,0000,,有杏仁巧克力味\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We got Almond Joy.
+Dialogue: 0,0:07:53.39,0:07:54.51,*Default,NTP,0000,0000,0000,,蜂蜜坚果味\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Bit-O-Honey.
+Dialogue: 0,0:07:54.60,0:07:56.51,*Default,NTP,0000,0000,0000,,冰箱里还有白爪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}There's White Claws in the fridge.
+Dialogue: 0,0:07:56.60,0:08:00.39,*Default,NTP,0000,0000,0000,,浴缸里有恶心的薰衣草沐浴球\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Some of that gross lavender bath bomb shit in the tub.
+Dialogue: 0,0:08:00.48,0:08:03.10,*Default,NTP,0000,0000,0000,,听着 我知道这些不会让这件事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, I know this doesn't make this
+Dialogue: 0,0:08:03.19,0:08:04.31,*Default,NTP,0000,0000,0000,,好转 但我只是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}any better, but I just...
+Dialogue: 0,0:08:04.40,0:08:06.86,*Default,NTP,0000,0000,0000,,让我也能照顾你一下\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let me take care of you for a second.
+Dialogue: 0,0:08:07.90,0:08:09.28,*Default,NTP,0000,0000,0000,,告诉我你们找到了那个武器\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tell me you found it.
+Dialogue: 0,0:08:11.61,0:08:12.99,*Default,NTP,0000,0000,0000,,莫斯科是条死胡同\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Moscow was a dead end.
+Dialogue: 0,0:08:13.07,0:08:14.78,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry.
+Dialogue: 0,0:08:16.83,0:08:19.20,*Default,NTP,0000,0000,0000,,没有武器 枪 什么都没有吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No weapon or gun or anything?
+Dialogue: 0,0:08:20.58,0:08:21.71,*Default,NTP,0000,0000,0000,,操\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fuck.
+Dialogue: 0,0:08:21.79,0:08:23.79,*Default,NTP,0000,0000,0000,,那是什么杀了士兵男孩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Then what killed Soldier Boy?
+Dialogue: 0,0:08:23.87,0:08:25.67,*Default,NTP,0000,0000,0000,,你知道吗 我给你拿一瓶白爪好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let... You know what? I'm gonna get you a White Claw.
+Dialogue: 0,0:08:28.25,0:08:29.80,*Default,NTP,0000,0000,0000,,休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Uh, Hughie?
+Dialogue: 0,0:08:29.88,0:08:31.51,*Default,NTP,0000,0000,0000,,你胳膊骨折了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Your arm is broken.
+Dialogue: 0,0:08:31.59,0:08:32.67,*Default,NTP,0000,0000,0000,,你的护具呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where the hell is your cast?
+Dialogue: 0,0:08:32.76,0:08:36.51,*Default,NTP,0000,0000,0000,,你真的需要一瓶白爪了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're... you're really gonna want a White Claw.
+Dialogue: 0,0:08:36.60,0:08:38.85,*Default,NTP,0000,0000,0000,,好吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Wow. All right.
+Dialogue: 0,0:08:38.93,0:08:40.31,*Default,NTP,0000,0000,0000,,还要再来一瓶\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Gonna have another one.
+Dialogue: 0,0:08:40.39,0:08:43.64,*Default,NTP,0000,0000,0000,,我只是试着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Um... Just... I'm just trying
+Dialogue: 0,0:08:43.73,0:08:46.15,*Default,NTP,0000,0000,0000,,弄清楚让你最不高兴的部分是什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to get a bead on what, uh, part you're most upset about.
+Dialogue: 0,0:08:46.23,0:08:49.11,*Default,NTP,0000,0000,0000,,是士兵男孩在俄罗斯不见了这部分\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is it the part where, uh, Soldier Boy's loose in Russia,
+Dialogue: 0,0:08:49.19,0:08:52.07,*Default,NTP,0000,0000,0000,,还是我服用了一些临时化合物V这部分\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}or the part where I... I took some temporary Compound V?
+Dialogue: 0,0:08:54.32,0:08:56.95,*Default,NTP,0000,0000,0000,,可能两者都有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}it could be both parts. Uh...
+Dialogue: 0,0:08:57.03,0:08:59.16,*Default,NTP,0000,0000,0000,,- 所有部分 - 但我立马就跟你说了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- All the parts. - I told you right away, though, right?
+Dialogue: 0,0:08:59.24,0:09:00.54,*Default,NTP,0000,0000,0000,,没有隐瞒\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's... that's... No secrets.
+Dialogue: 0,0:09:00.62,0:09:02.79,*Default,NTP,0000,0000,0000,,这能挽回一些分数吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's got to be worth some points.
+Dialogue: 0,0:09:02.87,0:09:05.12,*Default,NTP,0000,0000,0000,,你想靠着不对我撒谎挽回一些\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You want points for not lying to me?
+Dialogue: 0,0:09:05.21,0:09:08.92,*Default,NTP,0000,0000,0000,,我想撤回刚刚那句话\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I... would like to retract that statement. Um...
+Dialogue: 0,0:09:09.00,0:09:12.01,*Default,NTP,0000,0000,0000,,休伊 你注射了一种未经沃特\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie, you shot up an untested drug
+Dialogue: 0,0:09:12.09,0:09:14.01,*Default,NTP,0000,0000,0000,,测试的药物\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}from Vought.
+Dialogue: 0,0:09:14.09,0:09:15.72,*Default,NTP,0000,0000,0000,,你可能会杀了你自己\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You could've gotten yourself killed.
+Dialogue: 0,0:09:15.80,0:09:16.97,*Default,NTP,0000,0000,0000,,我们已经没有了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We don't have any more.
+Dialogue: 0,0:09:17.05,0:09:18.68,*Default,NTP,0000,0000,0000,,即使有 我也不会再注射了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And even if we did, I... I wouldn't take it.
+Dialogue: 0,0:09:18.76,0:09:19.89,*Default,NTP,0000,0000,0000,,感觉太糟了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was awful.
+Dialogue: 0,0:09:19.97,0:09:23.98,*Default,NTP,0000,0000,0000,,就像宿醉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like, uh, the hangover, all of it, just...
+Dialogue: 0,0:09:24.06,0:09:26.60,*Default,NTP,0000,0000,0000,,非常讨厌那种感觉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}absolutely hated it.
+Dialogue: 0,0:09:26.69,0:09:29.27,*Default,NTP,0000,0000,0000,,- 你明明很喜欢 - 我太他妈喜欢了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You loved it. - I fucking really loved it.
+Dialogue: 0,0:09:29.36,0:09:31.07,*Default,NTP,0000,0000,0000,,这太酷了 你知道我的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was awesome. I mean, you know me.
+Dialogue: 0,0:09:31.15,0:09:33.40,*Default,NTP,0000,0000,0000,,如果在以前 我旁边车上的人瞪我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If a guy in the car next to me gives me a dirty look,
+Dialogue: 0,0:09:33.49,0:09:35.45,*Default,NTP,0000,0000,0000,,我肯定会以速激里唐老大开车一样的速度\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm like fucking Dom Torreto taking off,
+Dialogue: 0,0:09:35.53,0:09:37.11,*Default,NTP,0000,0000,0000,,飞快逃开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}trying to get away from him 'cause I'm quick
+Dialogue: 0,0:09:37.20,0:09:38.53,*Default,NTP,0000,0000,0000,,因为我最看重家人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I'm all about family.
+Dialogue: 0,0:09:38.62,0:09:40.99,*Default,NTP,0000,0000,0000,,但在俄罗斯时\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But in Russia...
+Dialogue: 0,0:09:41.08,0:09:42.45,*Default,NTP,0000,0000,0000,,我根本没有害怕\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I wasn't scared.
+Dialogue: 0,0:09:42.54,0:09:44.75,*Default,NTP,0000,0000,0000,,我救下了马文\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I-I... I saved M.M.
+Dialogue: 0,0:09:44.83,0:09:45.83,*Default,NTP,0000,0000,0000,,我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Me.
+Dialogue: 0,0:09:45.87,0:09:48.96,*Default,NTP,0000,0000,0000,,我可以 瞬移\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I could, like, teleport.
+Dialogue: 0,0:09:49.04,0:09:50.84,*Default,NTP,0000,0000,0000,,- 瞬移 - 是的 我就\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Teleport? - Yeah, I... I just...
+Dialogue: 0,0:09:50.92,0:09:52.34,*Default,NTP,0000,0000,0000,,我知道我该怎么做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I knew how to do it.
+Dialogue: 0,0:09:52.42,0:09:55.42,*Default,NTP,0000,0000,0000,,我只要绷紧臀部 然后起跳\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I just clenched my butt, and-and I jumped, and...
+Dialogue: 0,0:09:55.51,0:09:58.93,*Default,NTP,0000,0000,0000,,不 休伊 那是非常愚蠢而且危险的行为\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No. Hughie, that was stupid and dangerous.
+Dialogue: 0,0:10:01.35,0:10:03.10,*Default,NTP,0000,0000,0000,,我也不能没有你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can't lose you, too.
+Dialogue: 0,0:10:06.14,0:10:09.10,*Default,NTP,0000,0000,0000,,天哪 抱歉 抱歉 你说得对\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, God, I'm sorry. I'm sorry. You're right.
+Dialogue: 0,0:10:09.19,0:10:11.19,*Default,NTP,0000,0000,0000,,到此为止了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's over.
+Dialogue: 0,0:10:14.69,0:10:16.82,*Default,NTP,0000,0000,0000,,那么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So...
+Dialogue: 0,0:10:16.90,0:10:18.36,*Default,NTP,0000,0000,0000,,我们现在干什么呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}what do we do now?
+Dialogue: 0,0:10:19.41,0:10:20.78,*Default,NTP,0000,0000,0000,,我不知道\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't know.
+Dialogue: 0,0:10:20.87,0:10:23.62,*Default,NTP,0000,0000,0000,,但不管怎样 我们都会一起解决\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But whatever it is, we'll figure it out together.
+Dialogue: 0,0:10:24.95,0:10:26.79,*Default,NTP,0000,0000,0000,,你和我一起对抗世界\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You and me against the world, right?
+Dialogue: 0,0:10:29.96,0:10:31.79,*Default,NTP,0000,0000,0000,,我爱你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I love you.
+Dialogue: 0,0:10:31.88,0:10:33.46,*Default,NTP,0000,0000,0000,,我也爱你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I love you, too.
+Dialogue: 0,0:11:13.09,0:11:16.25,*Default,NTP,0000,0000,0000,,士兵男孩他妈的怎么可能还活着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How the fuck is Soldier Boy still alive?
+Dialogue: 0,0:11:16.34,0:11:19.76,*Default,NTP,0000,0000,0000,,多亏了我们 世界上又多出来一个疯子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Another nutter loose in the world, thanks to us.
+Dialogue: 0,0:11:19.84,0:11:22.09,*Default,NTP,0000,0000,0000,,你看起来简直像坨加热过的屎\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You look like warmed-over shit.
+Dialogue: 0,0:11:22.18,0:11:25.39,*Default,NTP,0000,0000,0000,,至少到了早上我就会是清醒的了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well... least I'll be sober in the morning.
+Dialogue: 0,0:11:26.77,0:11:28.10,*Default,NTP,0000,0000,0000,,你依然会是一名超人类\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You'll still be a Supe.
+Dialogue: 0,0:11:28.18,0:11:31.35,*Default,NTP,0000,0000,0000,,要是超人类都如此卑鄙\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, if Supes are so fucking vile,
+Dialogue: 0,0:11:31.44,0:11:33.69,*Default,NTP,0000,0000,0000,,你为什么还想成为超人类呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}why do you want to be one again?
+Dialogue: 0,0:11:39.07,0:11:40.99,*Default,NTP,0000,0000,0000,,那些药你打算怎么办\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you gonna do with those?
+Dialogue: 0,0:11:51.50,0:11:53.13,*Default,NTP,0000,0000,0000,,谢了 我不喝\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, thanks.
+Dialogue: 0,0:11:54.42,0:11:57.00,*Default,NTP,0000,0000,0000,,我已经戒了好几个月了 混蛋\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've been sober four months, asshole.
+Dialogue: 0,0:11:57.09,0:11:59.13,*Default,NTP,0000,0000,0000,,我戒了一年了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's been a year for me.
+Dialogue: 0,0:12:12.23,0:12:14.35,*Default,NTP,0000,0000,0000,,利用祖国人的儿子怎么样\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What about Homelander's son?
+Dialogue: 0,0:12:15.69,0:12:17.73,*Default,NTP,0000,0000,0000,,不行\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No.
+Dialogue: 0,0:12:17.82,0:12:20.69,*Default,NTP,0000,0000,0000,,瑞恩还要好几年才能对抗他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Be years before Ryan can take him on.
+Dialogue: 0,0:12:20.78,0:12:23.16,*Default,NTP,0000,0000,0000,,那飞机上的视频呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What about that plane video?
+Dialogue: 0,0:12:23.24,0:12:25.74,*Default,NTP,0000,0000,0000,,我知道这对你而言可能不是特别明智\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, I know it wouldn't be so brilliant for you,
+Dialogue: 0,0:12:25.82,0:12:27.24,*Default,NTP,0000,0000,0000,,但\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but...
+Dialogue: 0,0:12:27.33,0:12:29.87,*Default,NTP,0000,0000,0000,,至少能揭开他的真面目\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}least it'll pull back the curtain on the cunt.
+Dialogue: 0,0:12:30.91,0:12:33.37,*Default,NTP,0000,0000,0000,,会把他逼上绝路的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Would send him over the edge.
+Dialogue: 0,0:12:33.46,0:12:36.96,*Default,NTP,0000,0000,0000,,他很可能会杀害数百万人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He'd end up killing a million people.
+Dialogue: 0,0:12:38.92,0:12:40.96,*Default,NTP,0000,0000,0000,,视频也只能吓唬吓唬他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The video was always a bluff.
+Dialogue: 0,0:12:43.01,0:12:44.63,*Default,NTP,0000,0000,0000,,对我来说不是的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not to me it ain't.
+Dialogue: 0,0:12:48.35,0:12:50.60,*Default,NTP,0000,0000,0000,,我以为我恨他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought I hated the guy.
+Dialogue: 0,0:13:00.28,0:13:02.28,*Default,NTP,0000,0000,0000,,我嗑过很多东西\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I done them all.
+Dialogue: 0,0:13:02.36,0:13:04.61,*Default,NTP,0000,0000,0000,,可卡因 病毒 海洛因\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Coke, E, meth, smack.
+Dialogue: 0,0:13:06.99,0:13:08.91,*Default,NTP,0000,0000,0000,,没有一样能跟这个比\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ain't nothing like this.
+Dialogue: 0,0:13:11.33,0:13:14.58,*Default,NTP,0000,0000,0000,,以前击败一个超人类要花费几个月\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Used to be months of leg work to take down a Supe.
+Dialogue: 0,0:13:15.62,0:13:17.29,*Default,NTP,0000,0000,0000,,而火药\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Gunpowder...
+Dialogue: 0,0:13:17.38,0:13:19.09,*Default,NTP,0000,0000,0000,,甚至不需要一秒钟\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}not even a New York minute.
+Dialogue: 0,0:13:21.34,0:13:22.88,*Default,NTP,0000,0000,0000,,一定感觉很棒吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Must've felt good.
+Dialogue: 0,0:13:25.18,0:13:27.09,*Default,NTP,0000,0000,0000,,我讨厌注射后的每一秒\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I hated every second.
+Dialogue: 0,0:13:29.72,0:13:31.10,*Default,NTP,0000,0000,0000,,不\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No.
+Dialogue: 0,0:13:32.43,0:13:34.98,*Default,NTP,0000,0000,0000,,V让我变得更加\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The V just made me more...
+Dialogue: 0,0:13:37.48,0:13:38.86,*Default,NTP,0000,0000,0000,,像我自己\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... me.
+Dialogue: 0,0:13:42.11,0:13:45.24,*Default,NTP,0000,0000,0000,,获得强大力量的同时\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}With great power comes the absolute certainty
+Dialogue: 0,0:13:45.32,0:13:47.53,*Default,NTP,0000,0000,0000,,你就会暴露本性\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}that you'll turn into a right cunt.
+Dialogue: 0,0:13:47.61,0:13:49.78,*Default,NTP,0000,0000,0000,,人就是这样 对吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, that's the thing, right?
+Dialogue: 0,0:13:49.87,0:13:51.03,*Default,NTP,0000,0000,0000,,你们都是人类\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're all just people.
+Dialogue: 0,0:13:51.12,0:13:53.70,*Default,NTP,0000,0000,0000,,V只不过\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All the V does is just
+Dialogue: 0,0:13:53.79,0:13:56.67,*Default,NTP,0000,0000,0000,,把内心深处的东西放大了而已\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}amp up all that shit that's already inside.
+Dialogue: 0,0:13:57.83,0:14:01.04,*Default,NTP,0000,0000,0000,,你们这些人 不过是行走的核装置罢了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Your lot? Just a bunch of walking nuclear erections.
+Dialogue: 0,0:14:01.13,0:14:03.09,*Default,NTP,0000,0000,0000,,你知道吗 不仅仅是祖国人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know? A-and it's not just Homelander.
+Dialogue: 0,0:14:03.17,0:14:05.34,*Default,NTP,0000,0000,0000,,你们所有人都应该消失\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, you-you fucking all got to go.
+Dialogue: 0,0:14:09.72,0:14:12.26,*Default,NTP,0000,0000,0000,,你们中的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Every fucking last...
+Dialogue: 0,0:14:13.43,0:14:14.89,*Default,NTP,0000,0000,0000,,每一个\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... one of you.
+Dialogue: 0,0:14:17.35,0:14:18.65,*Default,NTP,0000,0000,0000,,是的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah.
+Dialogue: 0,0:14:43.13,0:14:46.09,*Default,NTP,0000,0000,0000,,怎么 你还是觉得我配不上你吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What? You still think you're too good for me?
+Dialogue: 0,0:15:35.47,0:15:37.43,*Default,NTP,0000,0000,0000,,巧克力酸橙\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Chocolate limes.
+Dialogue: 0,0:15:38.68,0:15:40.14,*Default,NTP,0000,0000,0000,,给她醒了吃的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}For when she wakes up.
+Dialogue: 0,0:15:42.85,0:15:44.48,*Default,NTP,0000,0000,0000,,我祈祷她渡过难关\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I pray she pulls through.
+Dialogue: 0,0:15:49.53,0:15:51.74,*Default,NTP,0000,0000,0000,,十名俄罗斯士兵死亡\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ten dead Russian soldiers.
+Dialogue: 0,0:15:54.12,0:15:57.04,*Default,NTP,0000,0000,0000,,一座机密的实验室被摧毁\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A classified lab destroyed.
+Dialogue: 0,0:15:57.12,0:15:59.00,*Default,NTP,0000,0000,0000,,我在克里姆林宫的三位线人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Three of my contacts in the Kremlin
+Dialogue: 0,0:15:59.08,0:16:01.16,*Default,NTP,0000,0000,0000,,失踪了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}have disappeared already.
+Dialogue: 0,0:16:01.25,0:16:05.21,*Default,NTP,0000,0000,0000,,塞尔盖 有一条颠覆不破的自然法则\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, Sergei, there is this absolute natural law.
+Dialogue: 0,0:16:05.29,0:16:07.05,*Default,NTP,0000,0000,0000,,是这么说的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That law, it says
+Dialogue: 0,0:16:07.13,0:16:09.88,*Default,NTP,0000,0000,0000,,你不能搞我 只能我搞你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you do not fuck me, I fuck you.
+Dialogue: 0,0:16:09.96,0:16:13.84,*Default,NTP,0000,0000,0000,,来找你的是布彻先生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was Monsieur Charcutier who came to you,
+Dialogue: 0,0:16:13.93,0:16:15.97,*Default,NTP,0000,0000,0000,,和你交易的也是他 去找他解决啊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}made the deal with you. Take it up with him.
+Dialogue: 0,0:16:16.05,0:16:18.26,*Default,NTP,0000,0000,0000,,我不认识他 我只认识你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't know him. I know you.
+Dialogue: 0,0:16:18.35,0:16:20.64,*Default,NTP,0000,0000,0000,,你是介绍我们的中间人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're the one who introduced us.
+Dialogue: 0,0:16:20.73,0:16:22.19,*Default,NTP,0000,0000,0000,,该由你来偿还债务\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're the one who pays the debt.
+Dialogue: 0,0:16:22.27,0:16:24.15,*Default,NTP,0000,0000,0000,,你现在为我工作\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You work for me now.
+Dialogue: 0,0:16:24.23,0:16:26.23,*Default,NTP,0000,0000,0000,,绝不可能\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Absolument pas.
+Dialogue: 0,0:16:26.31,0:16:28.78,*Default,NTP,0000,0000,0000,,在你离开我投奔布彻之前\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, before you abandoned me for Butcher,
+Dialogue: 0,0:16:28.86,0:16:30.40,*Default,NTP,0000,0000,0000,,你经常拧自己的手\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you always wrung your hands.
+Dialogue: 0,0:16:30.49,0:16:32.28,*Default,NTP,0000,0000,0000,,哦 妮娜 我不能杀人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}"Oh, Nina, I cannot kill.
+Dialogue: 0,0:16:32.36,0:16:34.11,*Default,NTP,0000,0000,0000,,我心里难受\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's like acid to my heart."
+Dialogue: 0,0:16:34.20,0:16:36.07,*Default,NTP,0000,0000,0000,,但你总杀人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yet you always did.
+Dialogue: 0,0:16:45.50,0:16:47.92,*Default,NTP,0000,0000,0000,,彼得·西蒙诺夫和他的女儿卡特琳娜\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Pyotr Semenov and his daughter Katarina.
+Dialogue: 0,0:16:48.00,0:16:50.38,*Default,NTP,0000,0000,0000,,你今天给我解决掉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You do it today.
+Dialogue: 0,0:16:50.46,0:16:51.59,*Default,NTP,0000,0000,0000,,她只是个孩子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She's just a child.
+Dialogue: 0,0:16:51.67,0:16:54.05,*Default,NTP,0000,0000,0000,,从前这对你来说可不是问题\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's never stopped you before.
+Dialogue: 0,0:16:55.51,0:16:58.01,*Default,NTP,0000,0000,0000,,解决完给我打电话\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Call me when it's done.
+Dialogue: 0,0:17:09.32,0:17:10.65,*Default,NTP,0000,0000,0000,,山崎\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mon cour?
+Dialogue: 0,0:17:10.73,0:17:13.24,*Default,NTP,0000,0000,0000,,山崎 嘿\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mon cour? Hey.
+Dialogue: 0,0:17:21.24,0:17:22.58,*Default,NTP,0000,0000,0000,,你醒啦\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ca va?
+Dialogue: 0,0:17:26.12,0:17:27.96,*Default,NTP,0000,0000,0000,,你感觉怎么样\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How are you feeling?
+Dialogue: 0,0:17:44.14,0:17:46.14,*Default,NTP,0000,0000,0000,,是士兵男孩干的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It was Soldier Boy.
+Dialogue: 0,0:17:52.78,0:17:54.49,*Default,NTP,0000,0000,0000,,你为什么在笑\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why are you smiling?
+Dialogue: 0,0:17:54.57,0:17:57.78,*Default,NTP,0000,0000,0000,,- 我没有自己治愈 - 嗯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I didn't heal! - Hmm.
+Dialogue: 0,0:17:58.87,0:18:00.91,*Default,NTP,0000,0000,0000,,给我一个重一点的东西\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hand me something heavy!
+Dialogue: 0,0:18:00.99,0:18:01.99,*Default,NTP,0000,0000,0000,,重一点\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Something heavy!
+Dialogue: 0,0:18:19.05,0:18:20.60,*Default,NTP,0000,0000,0000,,太重了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's too heavy!
+Dialogue: 0,0:18:22.01,0:18:23.72,*Default,NTP,0000,0000,0000,,一定是因为士兵男孩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It must've been Soldier Boy!
+Dialogue: 0,0:18:23.81,0:18:25.81,*Default,NTP,0000,0000,0000,,我的超能力没有了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}My powers are gone!
+Dialogue: 0,0:18:34.07,0:18:35.32,*Default,NTP,0000,0000,0000,,需要帮忙吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Can I help you?
+Dialogue: 0,0:18:35.40,0:18:38.45,*Default,NTP,0000,0000,0000,,超音速如此信任你 你却害死了他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Supersonic trusted you, and you got him killed.
+Dialogue: 0,0:18:39.91,0:18:42.45,*Default,NTP,0000,0000,0000,,- 我不知道你在说什么 - 你个懦夫\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I don't know what you're talking about. - You fucking coward.
+Dialogue: 0,0:18:42.53,0:18:45.54,*Default,NTP,0000,0000,0000,,你怎么就这么渴望和你恨的人待在一起\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why are you so desperate to be with people who hate you?
+Dialogue: 0,0:18:51.29,0:18:53.04,*Default,NTP,0000,0000,0000,,林赛·格雷厄姆送来祝贺\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Congrats from Lindsey Graham.
+Dialogue: 0,0:18:55.30,0:18:56.55,*Default,NTP,0000,0000,0000,,他可真是个舔狗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's such a gooch-licker.
+Dialogue: 0,0:18:56.63,0:18:58.63,*Default,NTP,0000,0000,0000,,不管怎么样 我希望你能知道祖国人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Anyway, I hope you know how much Homelander
+Dialogue: 0,0:18:58.72,0:19:00.05,*Default,NTP,0000,0000,0000,,会对你的忠诚感激不尽\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}appreciates your loyalty.
+Dialogue: 0,0:19:00.13,0:19:03.05,*Default,NTP,0000,0000,0000,,他比过去任何时候都更需要可以信任的人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now more than ever, he needs people he can trust.
+Dialogue: 0,0:19:03.14,0:19:06.68,*Default,NTP,0000,0000,0000,,感谢你能成为队伍一员\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, to thank you for being a team player,
+Dialogue: 0,0:19:06.77,0:19:09.19,*Default,NTP,0000,0000,0000,,祖国人同意和你和蓝鹰见一面了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Homelander has agreed to a meeting with you and Blue Hawk.
+Dialogue: 0,0:19:09.27,0:19:10.90,*Default,NTP,0000,0000,0000,,太好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay, great.
+Dialogue: 0,0:19:10.98,0:19:12.15,*Default,NTP,0000,0000,0000,,- 多谢 - 好的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Thanks. - Yeah.
+Dialogue: 0,0:19:12.23,0:19:13.44,*Default,NTP,0000,0000,0000,,那我出去叫他进来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll just pop outside and get him.
+Dialogue: 0,0:19:13.52,0:19:16.23,*Default,NTP,0000,0000,0000,,什么 现在吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What? Like, right now?
+Dialogue: 0,0:19:16.32,0:19:17.94,*Default,NTP,0000,0000,0000,,- 嗨 - 嗨\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Hi. - Hey.
+Dialogue: 0,0:19:18.03,0:19:19.90,*Default,NTP,0000,0000,0000,,- 感谢你能来得这么快 - 哦\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Thanks for coming on such short notice, Blue Hawk. - Oh.
+Dialogue: 0,0:19:19.99,0:19:21.32,*Default,NTP,0000,0000,0000,,火车头\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}A-Train.
+Dialogue: 0,0:19:21.41,0:19:22.49,*Default,NTP,0000,0000,0000,,嗨\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey.
+Dialogue: 0,0:19:22.57,0:19:24.37,*Default,NTP,0000,0000,0000,,忠实粉丝\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Big fan.
+Dialogue: 0,0:19:24.45,0:19:26.24,*Default,NTP,0000,0000,0000,,酷 耶\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Cool. Yeah.
+Dialogue: 0,0:19:27.95,0:19:29.33,*Default,NTP,0000,0000,0000,,- 蓝鹰 - 嗯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Blue Hawk. - Yeah.
+Dialogue: 0,0:19:29.41,0:19:31.50,*Default,NTP,0000,0000,0000,,我想和你聊聊你在特伦顿巡逻的事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I wanted to talk to you about your patrols in Trenton.
+Dialogue: 0,0:19:33.04,0:19:34.79,*Default,NTP,0000,0000,0000,,好像有些过度了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Little excessive.
+Dialogue: 0,0:19:35.80,0:19:37.67,*Default,NTP,0000,0000,0000,,嗯 谁说的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hmm? Says who?
+Dialogue: 0,0:19:38.72,0:19:40.09,*Default,NTP,0000,0000,0000,,很多黑人群众都这说\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, a lot of Black folks.
+Dialogue: 0,0:19:40.17,0:19:41.84,*Default,NTP,0000,0000,0000,,没有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No.
+Dialogue: 0,0:19:41.93,0:19:44.93,*Default,NTP,0000,0000,0000,,不 这跟是不是黑...\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No. This has nothing to do with...
+Dialogue: 0,0:19:45.89,0:19:48.43,*Default,NTP,0000,0000,0000,,美籍非裔完全没有关系\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... African Americans.
+Dialogue: 0,0:19:48.52,0:19:50.60,*Default,NTP,0000,0000,0000,,你和我在学校里都是跟着布林克教练训练的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You and me both trained with Coach Brink at school.
+Dialogue: 0,0:19:50.69,0:19:52.98,*Default,NTP,0000,0000,0000,,他教我们要完全掌控一切\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We were taught to dominate totally.
+Dialogue: 0,0:19:53.06,0:19:54.44,*Default,NTP,0000,0000,0000,,是的 但是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah, but...
+Dialogue: 0,0:19:54.52,0:19:57.11,*Default,NTP,0000,0000,0000,,你基本上只在黑人区这么做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you're mostly just doing it in-in Black neighborhoods.
+Dialogue: 0,0:19:57.19,0:19:59.74,*Default,NTP,0000,0000,0000,,你也不希望别人说你是种族歧视吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And you don't want people to say that you're being racist, right?
+Dialogue: 0,0:19:59.82,0:20:03.91,*Default,NTP,0000,0000,0000,,实际上说别人种族歧视的人才是种族歧视\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, it's actually racist to call somebody racist.
+Dialogue: 0,0:20:05.58,0:20:06.70,*Default,NTP,0000,0000,0000,,这是什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What is this?
+Dialogue: 0,0:20:08.54,0:20:11.37,*Default,NTP,0000,0000,0000,,是开除吗 你们要把我踢出去吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is this, like, a "Cancel" Thing? Am I being canceled?
+Dialogue: 0,0:20:15.42,0:20:17.59,*Default,NTP,0000,0000,0000,,我能做什么来弥补吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What can I do to make this right?
+Dialogue: 0,0:20:17.67,0:20:19.42,*Default,NTP,0000,0000,0000,,不用做很多\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Wouldn't take much.
+Dialogue: 0,0:20:19.51,0:20:21.55,*Default,NTP,0000,0000,0000,,我也不知道 道个歉之类的吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't know. Make an apology or some shit.
+Dialogue: 0,0:20:21.63,0:20:24.30,*Default,NTP,0000,0000,0000,,真是个好主意 谢谢你告诉我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What a great idea. Thank you for saying that.
+Dialogue: 0,0:20:24.39,0:20:27.68,*Default,NTP,0000,0000,0000,,我敢说祖国人也会很赞同的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sure Homelander would really, really appreciate that,
+Dialogue: 0,0:20:27.76,0:20:28.76,*Default,NTP,0000,0000,0000,,蓝鹰\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Blue Hawk.
+Dialogue: 0,0:20:28.81,0:20:31.77,*Default,NTP,0000,0000,0000,,嘿 说个时间地点吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey, name the time and place.
+Dialogue: 0,0:20:33.52,0:20:35.94,*Default,NTP,0000,0000,0000,,这些工作非常重要\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It is so important to do the work,
+Dialogue: 0,0:20:36.02,0:20:38.69,*Default,NTP,0000,0000,0000,,进行一些困难的交流\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to have the difficult conversations.
+Dialogue: 0,0:20:38.78,0:20:40.61,*Default,NTP,0000,0000,0000,,你们太棒了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This is so great, you guys.
+Dialogue: 0,0:21:04.34,0:21:06.14,*Default,NTP,0000,0000,0000,,怎么回事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the fuck?
+Dialogue: 0,0:21:48.47,0:21:49.97,*Default,NTP,0000,0000,0000,,嘿 老兄\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey, buddy?
+Dialogue: 0,0:21:50.05,0:21:51.85,*Default,NTP,0000,0000,0000,,你还好吗 兄弟\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You okay, buddy?
+Dialogue: 0,0:21:56.73,0:21:59.11,*Default,NTP,0000,0000,0000,,我和你们其他人不一样\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not just like the rest of you.
+Dialogue: 0,0:21:59.19,0:22:02.07,*Default,NTP,0000,0000,0000,,我更强大 我更聪明\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm stronger. I'm smarter.
+Dialogue: 0,0:22:02.15,0:22:03.90,*Default,NTP,0000,0000,0000,,我比你们更优秀\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm better.
+Dialogue: 0,0:22:03.99,0:22:05.24,*Default,NTP,0000,0000,0000,,我更优秀\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I am better!
+Dialogue: 0,0:22:05.32,0:22:06.82,*Default,NTP,0000,0000,0000,,我不是什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not some
+Dialogue: 0,0:22:06.90,0:22:08.45,*Default,NTP,0000,0000,0000,,软弱无能只会跪着哭的宝宝\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}weak-kneed fucking cry baby...
+Dialogue: 0,0:22:08.53,0:22:10.78,*Default,NTP,0000,0000,0000,,- 嘿 看看这是谁 - 托德\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Hey, look who it is. - Todd.
+Dialogue: 0,0:22:10.87,0:22:12.91,*Default,NTP,0000,0000,0000,,- 嗨 宝贝 - 爸爸\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Hey, baby. - Daddy!
+Dialogue: 0,0:22:12.99,0:22:15.16,*Default,NTP,0000,0000,0000,,啊 嘿\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ah... hey!
+Dialogue: 0,0:22:15.25,0:22:16.87,*Default,NTP,0000,0000,0000,,- 你准备好了吗 - 准备好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You ready? - Yeah.
+Dialogue: 0,0:22:16.96,0:22:19.46,*Default,NTP,0000,0000,0000,,好了 去拿上你的背包\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right. Go get your backpack.
+Dialogue: 0,0:22:19.54,0:22:21.92,*Default,NTP,0000,0000,0000,,她说起去科技中心的事就说个不停\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She can't stop talking about this Science Center trip.
+Dialogue: 0,0:22:22.00,0:22:25.05,*Default,NTP,0000,0000,0000,,我的一生中 人们一直试图控制我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All my life, people have tried to control me.
+Dialogue: 0,0:22:25.13,0:22:26.92,*Default,NTP,0000,0000,0000,,整整一生\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}My whole life.
+Dialogue: 0,0:22:27.01,0:22:29.34,*Default,NTP,0000,0000,0000,,托德 你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Todd, you, uh...
+Dialogue: 0,0:22:29.43,0:22:30.76,*Default,NTP,0000,0000,0000,,你怎么让珍妮看这个人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you got Janine watching this guy?
+Dialogue: 0,0:22:30.85,0:22:32.18,*Default,NTP,0000,0000,0000,,我知道 我知道\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I know, I know.
+Dialogue: 0,0:22:32.26,0:22:35.43,*Default,NTP,0000,0000,0000,,他说话可能有些粗鲁 但看这个对珍妮有好处\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}His language gets a bit salty, but it's good for her.
+Dialogue: 0,0:22:36.77,0:22:39.19,*Default,NTP,0000,0000,0000,,有什么好处\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How is this good for Janine?
+Dialogue: 0,0:22:39.27,0:22:41.11,*Default,NTP,0000,0000,0000,,呃 因为他是美国最伟大的英雄\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Um, because he's America's
+Dialogue: 0,0:22:41.19,0:22:43.94,*Default,NTP,0000,0000,0000,,他拯救了上千人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}greatest hero who saves thousands of people.
+Dialogue: 0,0:22:44.03,0:22:46.40,*Default,NTP,0000,0000,0000,,他挺身而出打击罪犯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's standing up to the crooks,
+Dialogue: 0,0:22:46.49,0:22:48.36,*Default,NTP,0000,0000,0000,,打击当局和传统媒体\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the corporations and the legacy media.
+Dialogue: 0,0:22:48.45,0:22:49.66,*Default,NTP,0000,0000,0000,,你加一下我的脸书好友\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey, you friend me on Facebook,
+Dialogue: 0,0:22:49.74,0:22:51.12,*Default,NTP,0000,0000,0000,,我给你发点东西\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll send you some stuff that will...
+Dialogue: 0,0:22:51.20,0:22:52.74,*Default,NTP,0000,0000,0000,,托德 我不想让珍妮再看到\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Todd, I don't want Janine watching
+Dialogue: 0,0:22:52.83,0:22:54.49,*Default,NTP,0000,0000,0000,,任何一点关于这个垃圾的内容\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}any more of this garbage.
+Dialogue: 0,0:22:54.58,0:22:56.08,*Default,NTP,0000,0000,0000,,- 你明白了吗 - 我准备好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Do you understand? - Ready.
+Dialogue: 0,0:22:56.16,0:22:57.87,*Default,NTP,0000,0000,0000,,为什么 珍妮很喜欢祖国人 他是她的偶像\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why? Janine loves Homelander. He's her favorite.
+Dialogue: 0,0:22:57.96,0:22:59.12,*Default,NTP,0000,0000,0000,,真的吗 宝贝\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Isn't that right, sweetie?
+Dialogue: 0,0:22:59.21,0:23:00.46,*Default,NTP,0000,0000,0000,,因为祖国人就是个疯子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}'Cause Homelander is a psycho
+Dialogue: 0,0:23:00.54,0:23:02.46,*Default,NTP,0000,0000,0000,,- 他就是坨屎 就是这样 - 爸爸\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- piece of shit, that's why. - Daddy.
+Dialogue: 0,0:23:02.54,0:23:05.05,*Default,NTP,0000,0000,0000,,你要在孩子面前这样吗 马文\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You want to pull it back in front of the kid there, Marvin?
+Dialogue: 0,0:23:05.13,0:23:08.09,*Default,NTP,0000,0000,0000,,她不是其他孩子 她是我女儿\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's not the kid. She's my daughter.
+Dialogue: 0,0:23:08.17,0:23:10.64,*Default,NTP,0000,0000,0000,,- 好吧 - 为您带来本时段的最新新闻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Okay. - We have breaking news this hour.
+Dialogue: 0,0:23:10.72,0:23:13.89,*Default,NTP,0000,0000,0000,,曼哈顿中城刚刚发生爆炸\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}An explosion just rocked midtown Manhattan.
+Dialogue: 0,0:23:13.97,0:23:16.60,*Default,NTP,0000,0000,0000,,早些时候的报道表示有十九人遇难\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Early reports indicate 19 are dead.
+Dialogue: 0,0:23:19.06,0:23:22.36,*Default,NTP,0000,0000,0000,,纽约警察局和超人类事务局\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The NYPD and Bureau of Superhuman Affairs...
+Dialogue: 0,0:23:31.70,0:23:33.57,*Default,NTP,0000,0000,0000,,宝贝 我很抱歉 但是爸爸得离开一下\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Baby, I'm sorry, but Daddy's got to go.
+Dialogue: 0,0:23:33.66,0:23:35.62,*Default,NTP,0000,0000,0000,,爸爸 不要 我想去科学中心\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No. Daddy, I want to go to the Science Center.
+Dialogue: 0,0:23:35.70,0:23:38.00,*Default,NTP,0000,0000,0000,,你这是干嘛 她都想了一个礼拜了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you doing? She's been waiting for this all week.
+Dialogue: 0,0:23:38.08,0:23:39.50,*Default,NTP,0000,0000,0000,,我做错什么了吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Did I do something wrong?
+Dialogue: 0,0:23:44.34,0:23:45.92,*Default,NTP,0000,0000,0000,,宝贝 你没有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, baby.
+Dialogue: 0,0:23:46.00,0:23:47.59,*Default,NTP,0000,0000,0000,,我很抱歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry.
+Dialogue: 0,0:23:50.01,0:23:52.93,*Default,NTP,0000,0000,0000,,纽约警察局和超人类事务局\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The NYPD and Bureau of Superhuman Affairs
+Dialogue: 0,0:23:53.01,0:23:56.14,*Default,NTP,0000,0000,0000,,声称这是一个未知超级反派所为\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}are calling it the work of an unknown supervillain.
+Dialogue: 0,0:23:56.22,0:23:57.56,*Default,NTP,0000,0000,0000,,而此刻 我们还在等待\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}At this time, we're still waiting
+Dialogue: 0,0:23:57.64,0:23:59.43,*Default,NTP,0000,0000,0000,,来自官方的更多消息\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}for more information from authorities...
+Dialogue: 0,0:23:59.52,0:24:02.06,*Default,NTP,0000,0000,0000,,祖国人 你在听我说话吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Homelander? Did you hear me?
+Dialogue: 0,0:24:02.15,0:24:03.27,*Default,NTP,0000,0000,0000,,抱歉 你说什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry, what?
+Dialogue: 0,0:24:03.35,0:24:07.40,*Default,NTP,0000,0000,0000,,我是说 我们应该出面处理 立刻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I said we need to handle this. Now.
+Dialogue: 0,0:24:07.48,0:24:09.99,*Default,NTP,0000,0000,0000,,被证实死亡 并有数十人受伤\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... confirmed killed, with dozens more injured.
+Dialogue: 0,0:24:10.07,0:24:12.91,*Default,NTP,0000,0000,0000,,是的 我们当然应该处理\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Uh, yeah, of course we do. Okay.
+Dialogue: 0,0:24:12.99,0:24:15.62,*Default,NTP,0000,0000,0000,,那么 定下周日所有节目的档期\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, book slots on all the Sunday shows.
+Dialogue: 0,0:24:15.70,0:24:17.95,*Default,NTP,0000,0000,0000,,告诉民众 没什么可担心的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tell them that, uh, there's nothing to worry about,
+Dialogue: 0,0:24:18.04,0:24:19.08,*Default,NTP,0000,0000,0000,,完全没有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}not a thing.
+Dialogue: 0,0:24:19.16,0:24:20.37,*Default,NTP,0000,0000,0000,,一切都在我们的控制之中\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We got everything under control.
+Dialogue: 0,0:24:20.45,0:24:21.58,*Default,NTP,0000,0000,0000,,- 好主意 - 非常的好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- That's smart. - So smart.
+Dialogue: 0,0:24:21.66,0:24:22.96,*Default,NTP,0000,0000,0000,,- 那我们就 - 老天啊 我的意思是\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- So we're gonna... - Jesus, I meant that
+Dialogue: 0,0:24:23.04,0:24:24.50,*Default,NTP,0000,0000,0000,,我们必须立刻阻止那个人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}we need to stop this guy!
+Dialogue: 0,0:24:24.58,0:24:28.05,*Default,NTP,0000,0000,0000,,你能注意一下自己的语气吗 亲爱的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Could you watch your fucking tone, please, darling.
+Dialogue: 0,0:24:29.71,0:24:31.76,*Default,NTP,0000,0000,0000,,对不起\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry.
+Dialogue: 0,0:24:31.84,0:24:34.39,*Default,NTP,0000,0000,0000,,我只是 我是说\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I just, I mean...
+Dialogue: 0,0:24:34.47,0:24:36.68,*Default,NTP,0000,0000,0000,,你觉不觉得\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't you think that
+Dialogue: 0,0:24:36.76,0:24:40.31,*Default,NTP,0000,0000,0000,,可能最好的处理方法就是找到他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}maybe the best way to handle this is to find him?
+Dialogue: 0,0:24:40.39,0:24:43.06,*Default,NTP,0000,0000,0000,,我怎么没想到 这不明摆着吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I never thought of that. Obviously.
+Dialogue: 0,0:24:43.14,0:24:45.48,*Default,NTP,0000,0000,0000,,天呐 那你还不快点去做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}God. O-okay, so why don't you go and do that?
+Dialogue: 0,0:24:45.56,0:24:47.52,*Default,NTP,0000,0000,0000,,以一己之力拯救世界\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hmm? Run along and save the day.
+Dialogue: 0,0:24:47.61,0:24:49.28,*Default,NTP,0000,0000,0000,,与此同时 大人们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Meanwhile, the grown-ups,
+Dialogue: 0,0:24:49.36,0:24:51.24,*Default,NTP,0000,0000,0000,,则需要担心股价\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}well, we got to worry about the share price
+Dialogue: 0,0:24:51.32,0:24:54.36,*Default,NTP,0000,0000,0000,,还有税息折旧摊销前利润率  明白吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the EBITDA margins, okay?
+Dialogue: 0,0:24:57.53,0:24:59.54,*Default,NTP,0000,0000,0000,,- 非常 - 感谢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Thank you. - So much.
+Dialogue: 0,0:25:00.54,0:25:02.75,*Default,NTP,0000,0000,0000,,嘿 是我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey. It's me.
+Dialogue: 0,0:25:02.83,0:25:04.83,*Default,NTP,0000,0000,0000,,告诉我 这不是我认为的那个人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tell me this isn't who I think it is.
+Dialogue: 0,0:25:04.92,0:25:06.50,*Default,NTP,0000,0000,0000,,或许正是你认为的那个人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Probably exactly who you think it is.
+Dialogue: 0,0:25:06.58,0:25:08.21,*Default,NTP,0000,0000,0000,,噢 我的天啊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, my God.
+Dialogue: 0,0:25:08.29,0:25:10.17,*Default,NTP,0000,0000,0000,,听着 我们现在到现场了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, we're coming up on the site now.
+Dialogue: 0,0:25:10.25,0:25:11.63,*Default,NTP,0000,0000,0000,,你们的犯罪分析科能去找他吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Can your Crime Analytics people look for him?
+Dialogue: 0,0:25:11.71,0:25:13.63,*Default,NTP,0000,0000,0000,,我这就去 休伊 你要小心\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm on it. Just be careful, Hughie.
+Dialogue: 0,0:25:29.27,0:25:31.90,*Default,NTP,0000,0000,0000,,老天爷啊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fucking hell.
+Dialogue: 0,0:25:31.98,0:25:33.03,*Default,NTP,0000,0000,0000,,休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie.
+Dialogue: 0,0:25:34.28,0:25:35.57,*Default,NTP,0000,0000,0000,,艾薇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ivy.
+Dialogue: 0,0:25:35.66,0:25:38.28,*Default,NTP,0000,0000,0000,,你好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey, uh...
+Dialogue: 0,0:25:38.37,0:25:39.83,*Default,NTP,0000,0000,0000,,早上好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Morning, morning.
+Dialogue: 0,0:25:39.91,0:25:41.99,*Default,NTP,0000,0000,0000,,- 维琪也来了吗 - 她在来的路上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Is Vicky here? - She's on her way.
+Dialogue: 0,0:25:42.08,0:25:43.91,*Default,NTP,0000,0000,0000,,你不是摔断胳膊了吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Didn't you break your arm?
+Dialogue: 0,0:25:44.00,0:25:46.33,*Default,NTP,0000,0000,0000,,是的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah, um...
+Dialogue: 0,0:25:46.42,0:25:48.13,*Default,NTP,0000,0000,0000,,结果只是严重的扭伤\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes. It turns out it's a bad sprain,
+Dialogue: 0,0:25:48.21,0:25:50.59,*Default,NTP,0000,0000,0000,,- 所以我恢复了 回头见 - 好的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- so I... I'm okay. I'll see you later. - Okay.
+Dialogue: 0,0:26:09.69,0:26:10.82,*Default,NTP,0000,0000,0000,,喂\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oi.
+Dialogue: 0,0:26:14.07,0:26:16.07,*Default,NTP,0000,0000,0000,,你还认为他是苏联人的麻烦吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Still think he's the Reds' problem?
+Dialogue: 0,0:26:17.11,0:26:19.20,*Default,NTP,0000,0000,0000,,好了 放松点 伙计\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right. Easy, mate.
+Dialogue: 0,0:26:19.28,0:26:20.62,*Default,NTP,0000,0000,0000,,滚开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fuck you.
+Dialogue: 0,0:26:20.70,0:26:22.16,*Default,NTP,0000,0000,0000,,我自己会找到他的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'll find him myself.
+Dialogue: 0,0:26:22.24,0:26:25.83,*Default,NTP,0000,0000,0000,,找到他之后你能干嘛呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And what you gonna do when you find him, eh?
+Dialogue: 0,0:26:27.37,0:26:29.46,*Default,NTP,0000,0000,0000,,小子 你根本不是他的对手\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's well out of your league, son.
+Dialogue: 0,0:26:31.25,0:26:32.25,*Default,NTP,0000,0000,0000,,你需要帮手\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You need help.
+Dialogue: 0,0:26:32.25,0:26:34.17,*Default,NTP,0000,0000,0000,,你需要我们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You need us.
+Dialogue: 0,0:26:36.05,0:26:39.89,*Default,NTP,0000,0000,0000,,关于我有多混蛋 我们可以改日再聊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, we can talk about what a cunt I am another time.
+Dialogue: 0,0:26:39.97,0:26:43.35,*Default,NTP,0000,0000,0000,,但此刻 让我们关注手上的事情\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But right now, let's just focus on the job at hand.
+Dialogue: 0,0:26:43.43,0:26:46.93,*Default,NTP,0000,0000,0000,,让我帮你搞定士兵男孩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let me help you with Soldier Boy.
+Dialogue: 0,0:26:47.02,0:26:49.81,*Default,NTP,0000,0000,0000,,之后我们就互不相欠 再无往来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I owe you that much, and then you don't got to see me no more.
+Dialogue: 0,0:27:00.70,0:27:02.24,*Default,NTP,0000,0000,0000,,以我对你的了解 你应该有线索了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Knowing you, you already got a lead?
+Dialogue: 0,0:27:02.33,0:27:05.49,*Default,NTP,0000,0000,0000,,那是当然 看看我们在哪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Course I fucking do. Look at where we are.
+Dialogue: 0,0:27:08.54,0:27:09.71,*Default,NTP,0000,0000,0000,,传奇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The Legend.
+Dialogue: 0,0:27:09.79,0:27:12.42,*Default,NTP,0000,0000,0000,,我打赌士兵男孩去找过他了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Want to bet Soldier Boy paid him a visit?
+Dialogue: 0,0:27:18.34,0:27:20.97,*Default,NTP,0000,0000,0000,,- 你要吃另一半吗 - 不要\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Do you want the other half? - No. No.
+Dialogue: 0,0:27:21.05,0:27:23.76,*Default,NTP,0000,0000,0000,,现在不要 谢谢 你说什么来着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not right now, thanks. You were saying?
+Dialogue: 0,0:27:23.85,0:27:25.93,*Default,NTP,0000,0000,0000,,要找到这个人 我们就得梳理\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}To find the guy, we'd have to comb through
+Dialogue: 0,0:27:26.02,0:27:27.81,*Default,NTP,0000,0000,0000,,市内的每一台摄像头\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}every CCTV camera in the city.
+Dialogue: 0,0:27:27.89,0:27:30.48,*Default,NTP,0000,0000,0000,,这需要十几个分析员两班倒\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It would take a dozen analysts working double shifts.
+Dialogue: 0,0:27:30.56,0:27:32.61,*Default,NTP,0000,0000,0000,,明白 那我们开干吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay, then let's do it.
+Dialogue: 0,0:27:32.69,0:27:35.11,*Default,NTP,0000,0000,0000,,所有人都去哪里了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where is everyone?
+Dialogue: 0,0:27:35.19,0:27:37.07,*Default,NTP,0000,0000,0000,,我们就是所有人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We are everyone.
+Dialogue: 0,0:27:37.15,0:27:38.49,*Default,NTP,0000,0000,0000,,绝大部分都被深海炒了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Deep fired most of the department.
+Dialogue: 0,0:27:38.57,0:27:40.91,*Default,NTP,0000,0000,0000,,什么 为什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What? Why?
+Dialogue: 0,0:27:40.99,0:27:42.24,*Default,NTP,0000,0000,0000,,他说那些人以前发过些\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They had some tweets over the years
+Dialogue: 0,0:27:42.32,0:27:43.74,*Default,NTP,0000,0000,0000,,批评祖国人的帖子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}he said were critical of Homelander.
+Dialogue: 0,0:27:43.82,0:27:46.16,*Default,NTP,0000,0000,0000,,他说他只要有团队精神的人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Said he only wants "Team players."
+Dialogue: 0,0:27:48.37,0:27:49.83,*Default,NTP,0000,0000,0000,,我能吃那一半吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Can I have that half?
+Dialogue: 0,0:27:49.91,0:27:51.08,*Default,NTP,0000,0000,0000,,多谢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thank you.
+Dialogue: 0,0:28:03.05,0:28:04.14,*Default,NTP,0000,0000,0000,,瑞奇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Reg.
+Dialogue: 0,0:28:04.22,0:28:05.43,*Default,NTP,0000,0000,0000,,伙计 你来这里干嘛\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What you doing here, man?
+Dialogue: 0,0:28:18.11,0:28:20.00,*Default,NTP,0000,0000,0000,,搞什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the fuck?
+Dialogue: 0,0:28:20.03,0:28:21.74,*Default,NTP,0000,0000,0000,,- 他想道个歉 - 他跟你来的吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- He wants to apologize. - He came with you?
+Dialogue: 0,0:28:21.82,0:28:23.78,*Default,NTP,0000,0000,0000,,还带了摄制组 不是吧 伙计\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And a camera crew? Come on, man.
+Dialogue: 0,0:28:23.86,0:28:25.41,*Default,NTP,0000,0000,0000,,听着 你得到公开道歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Listen, you get a public apology,
+Dialogue: 0,0:28:25.49,0:28:27.54,*Default,NTP,0000,0000,0000,,沃特得到宣传 这是双赢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Vought gets some publicity. It's a win-win.
+Dialogue: 0,0:28:27.62,0:28:29.95,*Default,NTP,0000,0000,0000,,所以就大摇大摆地来了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You just spring this shit on me?
+Dialogue: 0,0:28:30.04,0:28:31.83,*Default,NTP,0000,0000,0000,,- 你有毛病吗 - 这不是你想要的吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- What's wrong with you? - Isn't this what you wanted?
+Dialogue: 0,0:28:31.91,0:28:34.42,*Default,NTP,0000,0000,0000,,让我用自己的平台来帮助社区 不是吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}For me to use my platform to help the community, right?
+Dialogue: 0,0:28:38.13,0:28:39.38,*Default,NTP,0000,0000,0000,,就五分钟\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Five minutes.
+Dialogue: 0,0:28:40.76,0:28:42.13,*Default,NTP,0000,0000,0000,,好的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right.
+Dialogue: 0,0:28:46.80,0:28:48.47,*Default,NTP,0000,0000,0000,,不好意思\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Sorry, sorry.
+Dialogue: 0,0:28:48.56,0:28:52.02,*Default,NTP,0000,0000,0000,,是我头盔里的金属造成的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's the metal in my helmet.
+Dialogue: 0,0:28:54.40,0:28:55.86,*Default,NTP,0000,0000,0000,,好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right.
+Dialogue: 0,0:28:57.06,0:28:58.57,*Default,NTP,0000,0000,0000,,致特伦顿的居民\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}To, uh, the residents of Trenton,
+Dialogue: 0,0:28:58.65,0:29:00.03,*Default,NTP,0000,0000,0000,,感谢你们今天给我这个机会\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}thank you for giving me the opportunity
+Dialogue: 0,0:29:00.11,0:29:01.40,*Default,NTP,0000,0000,0000,,说几句话\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to speak with you today.
+Dialogue: 0,0:29:01.49,0:29:03.28,*Default,NTP,0000,0000,0000,,众所周知 超级英雄们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}As you know, superheroes often have to make,
+Dialogue: 0,0:29:03.36,0:29:05.36,*Default,NTP,0000,0000,0000,,在打击犯罪时 经常必须在\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}like, uh, split-second decisions
+Dialogue: 0,0:29:05.45,0:29:07.95,*Default,NTP,0000,0000,0000,,瞬间作出决定 而我对于自己\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}when fighting crime, a... a... and I apologize
+Dialogue: 0,0:29:08.03,0:29:10.24,*Default,NTP,0000,0000,0000,,任何可能被视为\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}if any of mine have been...
+Dialogue: 0,0:29:10.33,0:29:13.91,*Default,NTP,0000,0000,0000,,种族歧视的行为而道歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}perceived as being... racist.
+Dialogue: 0,0:29:14.00,0:29:15.92,*Default,NTP,0000,0000,0000,,但我不是那样的人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But that is not who I am, okay?
+Dialogue: 0,0:29:16.00,0:29:17.50,*Default,NTP,0000,0000,0000,,只要去问问我的朋友\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just ask my friends,
+Dialogue: 0,0:29:17.59,0:29:20.96,*Default,NTP,0000,0000,0000,,他们很多都是黑人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}many of whom are, uh, are Black,
+Dialogue: 0,0:29:21.05,0:29:22.17,*Default,NTP,0000,0000,0000,,譬如火车头\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}like A-Train.
+Dialogue: 0,0:29:22.26,0:29:24.43,*Default,NTP,0000,0000,0000,,我不看肤色\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I do not see color.
+Dialogue: 0,0:29:24.51,0:29:27.18,*Default,NTP,0000,0000,0000,,我只看谁犯罪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I only see crime.
+Dialogue: 0,0:29:27.26,0:29:31.39,*Default,NTP,0000,0000,0000,,作为对你们所有人的承诺 我会向\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And as a sign of my commitment to you all, I am donating
+Dialogue: 0,0:29:31.47,0:29:34.89,*Default,NTP,0000,0000,0000,,本社区中心捐赠一万美元 谢谢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}$10,000 to this community center. Thank you.
+Dialogue: 0,0:29:34.98,0:29:36.65,*Default,NTP,0000,0000,0000,,你对雷蒙德·塔克做的事怎么算\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What about what you did to Raymond Tucker?
+Dialogue: 0,0:29:36.73,0:29:39.06,*Default,NTP,0000,0000,0000,,这个嘛 他是个罪犯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, he-he-he was a criminal.
+Dialogue: 0,0:29:39.15,0:29:40.44,*Default,NTP,0000,0000,0000,,他手无寸铁\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He was unarmed.
+Dialogue: 0,0:29:40.52,0:29:41.53,*Default,NTP,0000,0000,0000,,你会对一个在米尔山的白人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Would you have done the same thing
+Dialogue: 0,0:29:41.61,0:29:42.82,*Default,NTP,0000,0000,0000,,做出同样的事情吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to a white guy in Mill Hill?
+Dialogue: 0,0:29:42.90,0:29:44.90,*Default,NTP,0000,0000,0000,,犯罪在哪 我就在哪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I-I go where the crime is,
+Dialogue: 0,0:29:44.99,0:29:48.66,*Default,NTP,0000,0000,0000,,而犯罪正好就发生在黑人社区\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the crime just happens to be I-in Black neighborhoods.
+Dialogue: 0,0:29:48.74,0:29:50.16,*Default,NTP,0000,0000,0000,,这不是我的错\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That-That's not my fault.
+Dialogue: 0,0:29:50.24,0:29:51.83,*Default,NTP,0000,0000,0000,,好了 好了 到此为止\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right, all right. No, that's enough here.
+Dialogue: 0,0:29:51.91,0:29:53.41,*Default,NTP,0000,0000,0000,,结束了 你道了歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We're done here. Just say you're sorry,
+Dialogue: 0,0:29:53.50,0:29:54.66,*Default,NTP,0000,0000,0000,,我们可以走了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and we can get out of here. Yeah.
+Dialogue: 0,0:29:54.75,0:29:56.33,*Default,NTP,0000,0000,0000,,你们去了解一下\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know what? Do your research.
+Dialogue: 0,0:29:56.42,0:29:57.42,*Default,NTP,0000,0000,0000,,黑人犯下\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like, Blacks commit
+Dialogue: 0,0:29:57.50,0:29:58.71,*Default,NTP,0000,0000,0000,,谋杀案的比例高得出奇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a disproportionate number of murders.
+Dialogue: 0,0:29:58.79,0:30:00.59,*Default,NTP,0000,0000,0000,,那你谋杀的所有黑人呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How about all the Black men you murdered?
+Dialogue: 0,0:30:00.67,0:30:02.30,*Default,NTP,0000,0000,0000,,那你告诉我他们为什么那么有攻击性\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How about you tell me why were they so fucking aggressive?!
+Dialogue: 0,0:30:02.38,0:30:03.67,*Default,NTP,0000,0000,0000,,我是在正当防卫\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I was acting in self-defense.
+Dialogue: 0,0:30:03.76,0:30:05.05,*Default,NTP,0000,0000,0000,,你有超能力 他们没有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You got powers! They don't!
+Dialogue: 0,0:30:05.13,0:30:06.51,*Default,NTP,0000,0000,0000,,- 黑人命也是命 - 给我滚 蓝鹰\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Black lives matter! - Fuck you, Blue Hawk!
+Dialogue: 0,0:30:06.59,0:30:08.89,*Default,NTP,0000,0000,0000,,闪人 闪人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Walk away, walk away.
+Dialogue: 0,0:30:08.97,0:30:09.97,*Default,NTP,0000,0000,0000,,你干嘛 快离开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where you going? Get the fuck out.
+Dialogue: 0,0:30:10.05,0:30:12.39,*Default,NTP,0000,0000,0000,,- 快点 离开 - 所有命都是命\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Come on, out! - All lives matter.
+Dialogue: 0,0:30:12.47,0:30:14.81,*Default,NTP,0000,0000,0000,,- 所有命都是命 - 黑人命也是命 混蛋\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- All lives matter. - Black lives matter, motherfucker!
+Dialogue: 0,0:30:14.89,0:30:17.27,*Default,NTP,0000,0000,0000,,超英命也是命 超英命也是命\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Supe lives matter. Supe lives matter!
+Dialogue: 0,0:30:17.35,0:30:19.02,*Default,NTP,0000,0000,0000,,超英命也是命 你们这些忘恩负义的家伙\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Supe lives matter, you fucking ingrates!
+Dialogue: 0,0:30:19.10,0:30:20.44,*Default,NTP,0000,0000,0000,,嘿 蓝鹰\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey, Blue Hawk!
+Dialogue: 0,0:30:20.52,0:30:22.36,*Default,NTP,0000,0000,0000,,给我闭嘴\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Shut the fuck up!
+Dialogue: 0,0:30:22.44,0:30:23.90,*Default,NTP,0000,0000,0000,,给我滚开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fuck out of here!
+Dialogue: 0,0:30:26.45,0:30:28.49,*Default,NTP,0000,0000,0000,,- 糟糕 - 蠢货们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Shit! - Stupid fucks!
+Dialogue: 0,0:30:28.57,0:30:30.74,*Default,NTP,0000,0000,0000,,闭嘴 给我滚开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Shut the f... Get the fuck out of here!
+Dialogue: 0,0:30:32.62,0:30:33.74,*Default,NTP,0000,0000,0000,,停手\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Stop!
+Dialogue: 0,0:30:35.16,0:30:36.87,*Default,NTP,0000,0000,0000,,噢 天呐\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, my God!
+Dialogue: 0,0:30:39.58,0:30:41.29,*Default,NTP,0000,0000,0000,,为什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why?!
+Dialogue: 0,0:30:42.34,0:30:44.17,*Default,NTP,0000,0000,0000,,内特\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nate?
+Dialogue: 0,0:30:45.71,0:30:46.72,*Default,NTP,0000,0000,0000,,内特\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nate!
+Dialogue: 0,0:30:49.30,0:30:50.89,*Default,NTP,0000,0000,0000,,就放门口\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just leave it.
+Dialogue: 0,0:30:50.97,0:30:52.39,*Default,NTP,0000,0000,0000,,什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What?
+Dialogue: 0,0:30:52.47,0:30:55.56,*Default,NTP,0000,0000,0000,,把该死的蛤蜊拼盘放门口就好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Leave the goddamn clams casino at the door.
+Dialogue: 0,0:30:55.64,0:30:57.98,*Default,NTP,0000,0000,0000,,混蛋 我不是送外卖的 开门\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This ain't Grubhub, motherfucker. Open up.
+Dialogue: 0,0:31:00.06,0:31:02.23,*Default,NTP,0000,0000,0000,,马文 嘿\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marvin. Hey.
+Dialogue: 0,0:31:04.61,0:31:07.40,*Default,NTP,0000,0000,0000,,这个垃圾还是跟着你不放吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I see you still got this piece of dog shit stuck to your boot.
+Dialogue: 0,0:31:07.49,0:31:09.28,*Default,NTP,0000,0000,0000,,给我滚开 你这个老不死的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, go do one, you withered old cunt.
+Dialogue: 0,0:31:10.07,0:31:11.74,*Default,NTP,0000,0000,0000,,这是休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This is Hughie.
+Dialogue: 0,0:31:11.82,0:31:13.99,*Default,NTP,0000,0000,0000,,休伊 你知道他是谁吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie, you know who this is?
+Dialogue: 0,0:31:14.08,0:31:17.83,*Default,NTP,0000,0000,0000,,他不知道我是谁 多读点书 小子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He doesn't know who I am? Read a fucking book, kid.
+Dialogue: 0,0:31:17.91,0:31:20.58,*Default,NTP,0000,0000,0000,,这位就是 传奇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This... this is The Legend.
+Dialogue: 0,0:31:20.67,0:31:23.00,*Default,NTP,0000,0000,0000,,这个绰号真厉害\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's, uh, quite a nickname.
+Dialogue: 0,0:31:23.09,0:31:26.26,*Default,NTP,0000,0000,0000,,这可不是个绰号 这是个段位\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, it's not a name. It's a level.
+Dialogue: 0,0:31:26.34,0:31:28.59,*Default,NTP,0000,0000,0000,,传奇 我们需要谈谈\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Legend, we need to talk.
+Dialogue: 0,0:31:28.67,0:31:31.05,*Default,NTP,0000,0000,0000,,- 他不行 - 他会守规矩的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Not him. - He'll behave.
+Dialogue: 0,0:31:31.14,0:31:32.39,*Default,NTP,0000,0000,0000,,我保证\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You got my word.
+Dialogue: 0,0:31:33.72,0:31:36.10,*Default,NTP,0000,0000,0000,,这事很重要 你欠我的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This is important, and you owe me.
+Dialogue: 0,0:31:53.28,0:31:54.45,*Default,NTP,0000,0000,0000,,这是你和罗伊·谢德吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is that you and Roy Scheider?
+Dialogue: 0,0:31:54.53,0:31:55.66,*Default,NTP,0000,0000,0000,,这是《霹雳钻》首映式后\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's at the Chateau
+Dialogue: 0,0:31:55.74,0:31:57.49,*Default,NTP,0000,0000,0000,,在庄园酒店拍的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}after the Marathon Man premiere.
+Dialogue: 0,0:31:57.58,0:32:00.25,*Default,NTP,0000,0000,0000,,罗伊·谢德 达斯汀 安杰丽卡 阿帕奇大酋长\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Roy Scheider, Dustin, Anjelica, Big Chief Apache.
+Dialogue: 0,0:32:00.33,0:32:02.71,*Default,NTP,0000,0000,0000,,那一晚我有点迷迷糊糊的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That whole night's a little cloudy to me.
+Dialogue: 0,0:32:02.79,0:32:04.46,*Default,NTP,0000,0000,0000,,但你如果去问阿米·阿徹德\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But if you ask Army Archerd,
+Dialogue: 0,0:32:04.54,0:32:07.21,*Default,NTP,0000,0000,0000,,他会说 我和黄金艺妓打得火热\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I was balls deep in Golden Geisha,
+Dialogue: 0,0:32:07.30,0:32:11.01,*Default,NTP,0000,0000,0000,,而似乎马龙·白兰度则和我打得火热\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and Marlon Brando was apparently balls deep in me.
+Dialogue: 0,0:32:11.09,0:32:12.26,*Default,NTP,0000,0000,0000,,怎么了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What?
+Dialogue: 0,0:32:12.34,0:32:14.51,*Default,NTP,0000,0000,0000,,这现在算同性恋了 滚吧 管他呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's gay now? Fuck you. Who cares?
+Dialogue: 0,0:32:14.60,0:32:16.14,*Default,NTP,0000,0000,0000,,有什么区别\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What's the difference?
+Dialogue: 0,0:32:16.22,0:32:18.22,*Default,NTP,0000,0000,0000,,不管怎样 在那之后 我让马龙\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Anyway, after that, I got Marlon to cut his quote
+Dialogue: 0,0:32:18.31,0:32:20.68,*Default,NTP,0000,0000,0000,,在《钢铁骑士》中自降片酬 那么我问你们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}on that Steel Knight picture, so I ask you,
+Dialogue: 0,0:32:20.77,0:32:22.44,*Default,NTP,0000,0000,0000,,谁占了谁的便宜\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}who fucked who?
+Dialogue: 0,0:32:23.69,0:32:24.81,*Default,NTP,0000,0000,0000,,他来过这里 是吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He was here, wasn't he?
+Dialogue: 0,0:32:26.82,0:32:29.74,*Default,NTP,0000,0000,0000,,不用了 我饱了 可卡因吃饱了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, no, I'm-I'm good. I'm-I'm full. Of cocaine.
+Dialogue: 0,0:32:29.82,0:32:31.07,*Default,NTP,0000,0000,0000,,好吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All right.
+Dialogue: 0,0:32:31.15,0:32:33.74,*Default,NTP,0000,0000,0000,,现在的沃特只注重欢迎度\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}See, now Vought is all demo points
+Dialogue: 0,0:32:33.82,0:32:35.16,*Default,NTP,0000,0000,0000,,和观众调查\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and audience testing,
+Dialogue: 0,0:32:35.24,0:32:37.41,*Default,NTP,0000,0000,0000,,多亏了那些背后捅刀子的杂种\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}thanks to those backstabbing fucks
+Dialogue: 0,0:32:37.49,0:32:39.04,*Default,NTP,0000,0000,0000,,埃德加和史迪威\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Edgar and Stillwell.
+Dialogue: 0,0:32:39.12,0:32:41.04,*Default,NTP,0000,0000,0000,,是的 我知道她死了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And yes, I know she's dead.
+Dialogue: 0,0:32:41.12,0:32:43.42,*Default,NTP,0000,0000,0000,,- 还是要叫她去死 - 在史迪威之前\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Fuck her anyway. - So, The Legend was
+Dialogue: 0,0:32:43.50,0:32:45.21,*Default,NTP,0000,0000,0000,,传奇是沃特英雄管理\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}the VP of Hero Management over at Vought
+Dialogue: 0,0:32:45.29,0:32:46.63,*Default,NTP,0000,0000,0000,,部门的副主席\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}before Stillwell came in.
+Dialogue: 0,0:32:46.71,0:32:48.38,*Default,NTP,0000,0000,0000,,他会时不时地帮助我们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He helps us out from time to time.
+Dialogue: 0,0:32:48.46,0:32:49.96,*Default,NTP,0000,0000,0000,,他真的不知道我是谁\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He really doesn't know who I am?
+Dialogue: 0,0:32:50.92,0:32:53.68,*Default,NTP,0000,0000,0000,,当我掌权的时候 一切都靠本能\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}See, when I was in charge, you go with your gut.
+Dialogue: 0,0:32:53.76,0:32:55.01,*Default,NTP,0000,0000,0000,,那时候的英雄才是英雄\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's when heroes were heroes,
+Dialogue: 0,0:32:55.09,0:32:58.31,*Default,NTP,0000,0000,0000,,而不是这些提线木偶\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}not these stage-managed silicone dolls.
+Dialogue: 0,0:32:58.39,0:33:00.77,*Default,NTP,0000,0000,0000,,我甚至都没有看到祖国人出过汗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've never even seen Homelander sweat,
+Dialogue: 0,0:33:00.85,0:33:04.35,*Default,NTP,0000,0000,0000,,更别说在比佛利山的酒店里和\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}let alone butter churn half the cast of Falcon Crest
+Dialogue: 0,0:33:04.44,0:33:07.11,*Default,NTP,0000,0000,0000,,《鹰冠庄园》一半的演员云雨 而我做到了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}at the Beverly Hills Hotel, which I did.
+Dialogue: 0,0:33:07.19,0:33:08.23,*Default,NTP,0000,0000,0000,,两个词\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Two words.
+Dialogue: 0,0:33:08.32,0:33:10.57,*Default,NTP,0000,0000,0000,,香农·特威德\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Shannon Tweed.
+Dialogue: 0,0:33:11.61,0:33:12.99,*Default,NTP,0000,0000,0000,,传奇 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Legend.
+Dialogue: 0,0:33:13.07,0:33:15.03,*Default,NTP,0000,0000,0000,,士兵男孩来找过你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy came to see you.
+Dialogue: 0,0:33:15.11,0:33:16.48,*Default,NTP,0000,0000,0000,,我要知道他说了什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I need to know what he said.
+Dialogue: 0,0:33:16.48,0:33:17.62,*Default,NTP,0000,0000,0000,,你怎么了 疯了吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you, crazy?
+Dialogue: 0,0:33:17.70,0:33:18.78,*Default,NTP,0000,0000,0000,,马文 他早就挂了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Marvin, he's a fucking doornail.
+Dialogue: 0,0:33:18.87,0:33:20.20,*Default,NTP,0000,0000,0000,,那么那些可卡因是给谁的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So who's that coke for?
+Dialogue: 0,0:33:21.25,0:33:22.41,*Default,NTP,0000,0000,0000,,是给我的 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's just me.
+Dialogue: 0,0:33:22.50,0:33:23.75,*Default,NTP,0000,0000,0000,,我正在写回忆录\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm writing my memoir.
+Dialogue: 0,0:33:23.83,0:33:25.79,*Default,NTP,0000,0000,0000,,这本书将会一鸣惊人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's gonna be really dynamite.
+Dialogue: 0,0:33:25.87,0:33:27.04,*Default,NTP,0000,0000,0000,,所以我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So I'm, you know,
+Dialogue: 0,0:33:27.13,0:33:28.54,*Default,NTP,0000,0000,0000,,我写书 吸毒两开花 我发誓 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm burning the candle at both ends. I swear.
+Dialogue: 0,0:33:28.63,0:33:30.25,*Default,NTP,0000,0000,0000,,以我孩子生命的发誓\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I swear on my kids' lives.
+Dialogue: 0,0:33:30.34,0:33:31.63,*Default,NTP,0000,0000,0000,,你恨你的孩子们 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You hate your fucking kids.
+Dialogue: 0,0:33:31.71,0:33:33.09,*Default,NTP,0000,0000,0000,,如果你碰到他们也会恨他们\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So would you if you met them.
+Dialogue: 0,0:33:33.17,0:33:35.34,*Default,NTP,0000,0000,0000,,如果我对那面镜子进行指纹检测 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, if I ran the prints on that mirror,
+Dialogue: 0,0:33:35.43,0:33:36.80,*Default,NTP,0000,0000,0000,,能检测出谁的指纹\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}who would I come up with?
+Dialogue: 0,0:33:37.85,0:33:40.47,*Default,NTP,0000,0000,0000,,- 什么 - 别担心\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Huh. - Don't worry.
+Dialogue: 0,0:33:40.56,0:33:43.31,*Default,NTP,0000,0000,0000,,士兵男孩不会追踪到你的 相信我 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy's not gonna trace this back to you. Trust me.
+Dialogue: 0,0:33:43.39,0:33:45.39,*Default,NTP,0000,0000,0000,,相信你 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, trust you.
+Dialogue: 0,0:33:46.48,0:33:47.81,*Default,NTP,0000,0000,0000,,就像我相信他一样 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like I trusted him?
+Dialogue: 0,0:33:47.90,0:33:50.11,*Default,NTP,0000,0000,0000,,你忘了上次我帮忙的后果吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You forget what happened last time I helped?
+Dialogue: 0,0:33:50.19,0:33:53.44,*Default,NTP,0000,0000,0000,,- 未成年妓女电击受伤案吗 - 嗯 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- The underage hooker sting on Electroshock? - Oh. Oh.
+Dialogue: 0,0:33:54.82,0:33:57.49,*Default,NTP,0000,0000,0000,,你不能相信那种人 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You can't trust a man like that.
+Dialogue: 0,0:33:57.57,0:33:59.62,*Default,NTP,0000,0000,0000,,所有与他相关的人和事都会变得糟糕 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Everything and everyone he touches turns to shit.
+Dialogue: 0,0:33:59.70,0:34:01.41,*Default,NTP,0000,0000,0000,,相信我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, you can trust me
+Dialogue: 0,0:34:01.49,0:34:03.41,*Default,NTP,0000,0000,0000,,我会用那条腿打烂你的脑袋 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to bash your fucking brains out with that leg, mate.
+Dialogue: 0,0:34:03.50,0:34:04.71,*Default,NTP,0000,0000,0000,,布彻 拜托 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Butcher, please.
+Dialogue: 0,0:34:08.25,0:34:10.21,*Default,NTP,0000,0000,0000,,我是你可以信任的人 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, I'm the one you trust.
+Dialogue: 0,0:34:10.29,0:34:12.50,*Default,NTP,0000,0000,0000,,你知道士兵男孩对我的家人做了什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Now, you know what Soldier Boy did to my family.
+Dialogue: 0,0:34:12.59,0:34:15.63,*Default,NTP,0000,0000,0000,,因为是你批准的善后\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And you know because you okayed the cover-up.
+Dialogue: 0,0:34:15.72,0:34:18.18,*Default,NTP,0000,0000,0000,,我做过无数次这样的事了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Shit, I... I okayed a million cover-ups.
+Dialogue: 0,0:34:18.26,0:34:20.35,*Default,NTP,0000,0000,0000,,每次都是折磨 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And they're all tearing you up.
+Dialogue: 0,0:34:20.43,0:34:23.14,*Default,NTP,0000,0000,0000,,把这件事处理好 行吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So just make this one right, will you?
+Dialogue: 0,0:34:28.19,0:34:30.11,*Default,NTP,0000,0000,0000,,我以为我看见鬼了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought I was staring at a ghost,
+Dialogue: 0,0:34:30.19,0:34:31.86,*Default,NTP,0000,0000,0000,,结果是他 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but it was him.
+Dialogue: 0,0:34:31.94,0:34:34.86,*Default,NTP,0000,0000,0000,,他的胡子乱成了一团  \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He had a fucked-up beard, maybe,
+Dialogue: 0,0:34:34.94,0:34:37.57,*Default,NTP,0000,0000,0000,,- 但他没变老 - 等等 他不会变老 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- but he hadn't aged a day. - Wait, so he doesn't get old?
+Dialogue: 0,0:34:37.65,0:34:38.47,*Default,NTP,0000,0000,0000,,就像风暴女吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Like Stormfront? 
+Dialogue: 0,0:34:38.47,0:34:39.66,*Default,NTP,0000,0000,0000,,我们一直保守着这个秘密\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We kept that under wraps.
+Dialogue: 0,0:34:39.74,0:34:41.95,*Default,NTP,0000,0000,0000,,- 尽管他和菲比·凯茨 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Though it got a little fishy when he starred
+Dialogue: 0,0:34:42.03,0:34:44.70,*Default,NTP,0000,0000,0000,,出演爱情与战争时有点可疑 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}in that Love and War picture with Phoebe Cates.
+Dialogue: 0,0:34:44.79,0:34:46.54,*Default,NTP,0000,0000,0000,,当时他六十三岁 她十九岁 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He was 63. She was 19.
+Dialogue: 0,0:34:46.62,0:34:48.96,*Default,NTP,0000,0000,0000,,记得偷天陷阱吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, fuck. Remember Entrapment?
+Dialogue: 0,0:34:49.04,0:34:51.59,*Default,NTP,0000,0000,0000,,康纳利上了泽塔·琼斯 他比那厉害一千倍 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Connery banged Zeta-Jones. He was, like, a thousand.
+Dialogue: 0,0:34:51.67,0:34:53.30,*Default,NTP,0000,0000,0000,,士兵男孩怎么在这里 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why was Soldier Boy here?
+Dialogue: 0,0:34:53.38,0:34:55.76,*Default,NTP,0000,0000,0000,,来拿他的超级战衣 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Came to pick up his super suit.
+Dialogue: 0,0:34:55.84,0:34:57.34,*Default,NTP,0000,0000,0000,,我保管着的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I held on to it.
+Dialogue: 0,0:34:57.42,0:34:58.93,*Default,NTP,0000,0000,0000,,你懂的 我是个感性的人 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know me. I'm sentimental.
+Dialogue: 0,0:34:59.01,0:35:01.22,*Default,NTP,0000,0000,0000,,尽管我为凯利·勒布罗克\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Although I did actually wear the suit once
+Dialogue: 0,0:35:01.30,0:35:02.64,*Default,NTP,0000,0000,0000,,穿过一次战衣 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}for Kelly LeBrock.
+Dialogue: 0,0:35:02.72,0:35:05.18,*Default,NTP,0000,0000,0000,,她也是感性的人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}By the way, her, too.
+Dialogue: 0,0:35:05.27,0:35:07.94,*Default,NTP,0000,0000,0000,,你不认识凯利·勒布罗克 去谷歌上搜一下 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't know Kelly LeBrock? Fucking google it.
+Dialogue: 0,0:35:08.02,0:35:09.65,*Default,NTP,0000,0000,0000,,大写L 大写B \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Big "L." Big "B."
+Dialogue: 0,0:35:09.73,0:35:11.77,*Default,NTP,0000,0000,0000,,其它字母小写 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The other letters, small.
+Dialogue: 0,0:35:11.86,0:35:13.36,*Default,NTP,0000,0000,0000,,那他有没有告诉你他接下来要去哪里 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, did he tell you where he was going next?
+Dialogue: 0,0:35:13.44,0:35:16.28,*Default,NTP,0000,0000,0000,,有没有说会炸掉五十九号路上的一家餐厅 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Or that he was gonna blow up a fucking restaurant on 59th?
+Dialogue: 0,0:35:16.36,0:35:18.61,*Default,NTP,0000,0000,0000,,谁能了解天才的行事风格 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Who the hell knows why talent does what they do?
+Dialogue: 0,0:35:18.70,0:35:20.03,*Default,NTP,0000,0000,0000,,所以这就是天才吧 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's why they're talent.
+Dialogue: 0,0:35:24.70,0:35:27.29,*Default,NTP,0000,0000,0000,,他还问了他女朋友的地址 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He also came for his girlfriend's address.
+Dialogue: 0,0:35:28.71,0:35:30.04,*Default,NTP,0000,0000,0000,,他要去那里 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's headed there.
+Dialogue: 0,0:35:30.12,0:35:31.96,*Default,NTP,0000,0000,0000,,绯红伯爵夫人 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Crimson Countess?
+Dialogue: 0,0:35:33.96,0:35:35.25,*Default,NTP,0000,0000,0000,,为什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why?
+Dialogue: 0,0:35:36.30,0:35:38.51,*Default,NTP,0000,0000,0000,,我不认为这会是一场幸福的重聚 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I didn't get the feeling it was gonna be a happy reunion,
+Dialogue: 0,0:35:38.59,0:35:41.39,*Default,NTP,0000,0000,0000,,但我不知道 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but I don't know.
+Dialogue: 0,0:35:41.47,0:35:43.76,*Default,NTP,0000,0000,0000,,或许你们可以过去看看 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe you can go there and find out.
+Dialogue: 0,0:35:44.81,0:35:46.85,*Default,NTP,0000,0000,0000,,但现在赶紧离开这里 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But mostly, get the fuck out of here.
+Dialogue: 0,0:35:48.43,0:35:50.02,*Default,NTP,0000,0000,0000,,今天 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Today's attack
+Dialogue: 0,0:35:50.10,0:35:51.35,*Default,NTP,0000,0000,0000,,- 五十九号路的爆炸 - 是啊 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- on 59th Street. - Yeah.
+Dialogue: 0,0:35:51.44,0:35:53.40,*Default,NTP,0000,0000,0000,,美国到底面临着多大的威胁 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How great a threat is America facing?
+Dialogue: 0,0:35:53.48,0:35:54.57,*Default,NTP,0000,0000,0000,,没有任何威胁 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, no threat whatsoever.
+Dialogue: 0,0:35:54.65,0:35:56.86,*Default,NTP,0000,0000,0000,,确实 把这个人称为 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No. Truly, I-it is a stretch
+Dialogue: 0,0:35:56.94,0:35:59.82,*Default,NTP,0000,0000,0000,,超级反派都有点牵强 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to even call this guy a supervillain.
+Dialogue: 0,0:35:59.90,0:36:01.45,*Default,NTP,0000,0000,0000,,风暴追逐者 风暴女的支持者\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The Stormchasers, Stormfront's supporters,
+Dialogue: 0,0:36:01.53,0:36:03.07,*Default,NTP,0000,0000,0000,,在4chan上说这整件事 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}said on 4chan that this whole thing
+Dialogue: 0,0:36:03.16,0:36:05.24,*Default,NTP,0000,0000,0000,,是史丹·埃德加想让你名誉扫地 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}was an attempt by Stan Edgar to discredit you.
+Dialogue: 0,0:36:05.33,0:36:06.70,*Default,NTP,0000,0000,0000,,是这样啊 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Right. Yeah.
+Dialogue: 0,0:36:06.79,0:36:08.83,*Default,NTP,0000,0000,0000,,关于风暴追逐者我一无所知\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, look, I-I don't know anything about Stormchasers,
+Dialogue: 0,0:36:08.91,0:36:12.58,*Default,NTP,0000,0000,0000,,我能理解他们的想法 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but, uh, look, I can understand why they might think that.
+Dialogue: 0,0:36:12.67,0:36:14.75,*Default,NTP,0000,0000,0000,,我们刚把沃特从腐败和谎言中解放\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The minute we free Vought of the corruption
+Dialogue: 0,0:36:14.84,0:36:16.50,*Default,NTP,0000,0000,0000,,这件事就发生了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the lies, and this happens.
+Dialogue: 0,0:36:16.59,0:36:20.22,*Default,NTP,0000,0000,0000,,我觉得时间点过于巧合了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, the timing is, uh, very convenient.
+Dialogue: 0,0:36:20.30,0:36:21.59,*Default,NTP,0000,0000,0000,,感觉像是高级黑\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Smells like a false flag.
+Dialogue: 0,0:36:21.68,0:36:23.64,*Default,NTP,0000,0000,0000,,这可是你说的 伙计 我可没说 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, you said it, pal, not me.
+Dialogue: 0,0:36:23.72,0:36:26.39,*Default,NTP,0000,0000,0000,,你对市长想要在恐怖分子被捕前\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And what do you say to the mayor who wants to, uh,
+Dialogue: 0,0:36:26.47,0:36:28.43,*Default,NTP,0000,0000,0000,, 实行宵禁\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}impose a citywide curfew until the terrorists
+Dialogue: 0,0:36:28.52,0:36:29.56,*Default,NTP,0000,0000,0000,,- 有何看法 - 拜托 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- are captured? - Oh, please.
+Dialogue: 0,0:36:29.64,0:36:30.98,*Default,NTP,0000,0000,0000,,美国是安全的 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}America is safe.
+Dialogue: 0,0:36:31.06,0:36:32.27,*Default,NTP,0000,0000,0000,,很安全 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay? It is safe.
+Dialogue: 0,0:36:32.35,0:36:34.40,*Default,NTP,0000,0000,0000,,大家放心外出 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So, everyone, get out there.
+Dialogue: 0,0:36:34.48,0:36:35.73,*Default,NTP,0000,0000,0000,,去想去的餐厅 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Go to your restaurants
+Dialogue: 0,0:36:35.81,0:36:38.03,*Default,NTP,0000,0000,0000,,去看想看的电影 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and, uh, go to your movie theaters
+Dialogue: 0,0:36:38.11,0:36:39.65,*Default,NTP,0000,0000,0000,,过自己想过的日子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and-and live your lives.
+Dialogue: 0,0:36:39.74,0:36:40.99,*Default,NTP,0000,0000,0000,,开开心心的 好吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Have fun, okay?
+Dialogue: 0,0:36:41.07,0:36:43.41,*Default,NTP,0000,0000,0000,,你认为真的是埃德加和市长吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You think it really was Edgar and the mayor?
+Dialogue: 0,0:36:43.49,0:36:45.20,*Default,NTP,0000,0000,0000,,也许是杰克·塔珀 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe Jake Tapper.
+Dialogue: 0,0:36:46.87,0:36:48.79,*Default,NTP,0000,0000,0000,,想要搞我 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Trying to fuck with me?
+Dialogue: 0,0:36:48.87,0:36:50.45,*Default,NTP,0000,0000,0000,,让我看起来很可笑吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Make me look ridiculous?
+Dialogue: 0,0:36:52.71,0:36:54.71,*Default,NTP,0000,0000,0000,,或许 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Or maybe
+Dialogue: 0,0:36:54.79,0:36:58.38,*Default,NTP,0000,0000,0000,,你只是个偏执恶毒的自恋狂 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you're just a paranoid, malignant narcissist
+Dialogue: 0,0:36:58.46,0:37:01.21,*Default,NTP,0000,0000,0000,,以为地球绕着你转 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}who thinks everything is about you.
+Dialogue: 0,0:37:01.30,0:37:03.05,*Default,NTP,0000,0000,0000,,如果他们来真的 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mm, it's not paranoia
+Dialogue: 0,0:37:03.13,0:37:05.34,*Default,NTP,0000,0000,0000,,就不是妄想症了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}if they're really out to get you, though.
+Dialogue: 0,0:37:06.80,0:37:09.81,*Default,NTP,0000,0000,0000,,而你 梅芙 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And you, Maeve.
+Dialogue: 0,0:37:11.39,0:37:13.64,*Default,NTP,0000,0000,0000,,你要来找我麻烦 对吧 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're out to get me, aren't you?
+Dialogue: 0,0:37:17.31,0:37:19.23,*Default,NTP,0000,0000,0000,,你在说什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you talking about?
+Dialogue: 0,0:37:19.32,0:37:20.65,*Default,NTP,0000,0000,0000,,威廉·布彻 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}William Butcher.
+Dialogue: 0,0:37:20.73,0:37:22.78,*Default,NTP,0000,0000,0000,,你身上到处是他的味道 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can smell him all over you.
+Dialogue: 0,0:37:22.86,0:37:26.45,*Default,NTP,0000,0000,0000,,你会想方设法地伤害我 不是吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You really will do anything to hurt me, won't you?
+Dialogue: 0,0:37:28.70,0:37:30.95,*Default,NTP,0000,0000,0000,,所以 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So...
+Dialogue: 0,0:37:31.04,0:37:33.37,*Default,NTP,0000,0000,0000,,你和威廉在密谋什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}what are you and William cooking up?
+Dialogue: 0,0:37:35.62,0:37:38.38,*Default,NTP,0000,0000,0000,,也许是你们把那个超级反派带到了小镇 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maybe you two brought that supervillain to town.
+Dialogue: 0,0:37:38.46,0:37:39.71,*Default,NTP,0000,0000,0000,,约翰 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, John.
+Dialogue: 0,0:37:39.80,0:37:42.05,*Default,NTP,0000,0000,0000,,约翰 拜托 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}John, come on.
+Dialogue: 0,0:37:42.13,0:37:44.38,*Default,NTP,0000,0000,0000,,你在说胡话 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're talking crazy.
+Dialogue: 0,0:37:45.59,0:37:47.80,*Default,NTP,0000,0000,0000,,我没和布彻商量搞事情 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm not cooking anything up with Butcher.
+Dialogue: 0,0:37:47.89,0:37:49.35,*Default,NTP,0000,0000,0000,,我们谈谈吧 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let's talk about this.
+Dialogue: 0,0:37:49.43,0:37:51.47,*Default,NTP,0000,0000,0000,,你怎么敢叫我约翰的 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't you dare fucking "John" Me.
+Dialogue: 0,0:37:51.56,0:37:54.43,*Default,NTP,0000,0000,0000,,这次你肯定吃不了兜着走 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're not gonna weasel your way out of this.
+Dialogue: 0,0:37:55.44,0:37:59.52,*Default,NTP,0000,0000,0000,,你知道这一切里最悲剧的是什么吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know the real tragic thing in all of this?
+Dialogue: 0,0:37:59.61,0:38:03.86,*Default,NTP,0000,0000,0000,,我比任何人都了解你的感受 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's that, more than anyone, I knew what it was like for you.
+Dialogue: 0,0:38:03.94,0:38:05.86,*Default,NTP,0000,0000,0000,,我们所到之处 人群蜂拥而至 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Swarmed everywhere we went.
+Dialogue: 0,0:38:05.95,0:38:08.37,*Default,NTP,0000,0000,0000,,任何一个小错误都会上头条新闻 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Every little mistake, front-page news.
+Dialogue: 0,0:38:08.45,0:38:13.33,*Default,NTP,0000,0000,0000,,高处不胜寒 是啊 但至少我们有彼此\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It is lonely at the top, yes, but at least we had each other.
+Dialogue: 0,0:38:13.41,0:38:15.08,*Default,NTP,0000,0000,0000,,我们一起面对孤独 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We were lonely together.
+Dialogue: 0,0:38:16.12,0:38:18.25,*Default,NTP,0000,0000,0000,,我曾爱过你 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And I loved you.
+Dialogue: 0,0:38:18.33,0:38:20.34,*Default,NTP,0000,0000,0000,,以我自己的方式 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}In my own way.
+Dialogue: 0,0:38:23.17,0:38:24.76,*Default,NTP,0000,0000,0000,,但你 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But you...
+Dialogue: 0,0:38:26.34,0:38:27.63,*Default,NTP,0000,0000,0000,,发生了什么 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What happened?
+Dialogue: 0,0:38:27.72,0:38:31.10,*Default,NTP,0000,0000,0000,,我们之前的一切是真实的吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Was anything about us ever real?
+Dialogue: 0,0:38:31.18,0:38:32.76,*Default,NTP,0000,0000,0000,,嗯 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hmm?
+Dialogue: 0,0:38:47.03,0:38:49.91,*Default,NTP,0000,0000,0000,,刚开始\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}From the start,
+Dialogue: 0,0:38:49.99,0:38:51.28,*Default,NTP,0000,0000,0000,,我恨你 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I hated you.
+Dialogue: 0,0:38:55.70,0:38:58.21,*Default,NTP,0000,0000,0000,,而且 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But what's more,
+Dialogue: 0,0:38:58.29,0:39:01.13,*Default,NTP,0000,0000,0000,,我非常可怜你 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I fucking pitied you.
+Dialogue: 0,0:39:03.75,0:39:06.67,*Default,NTP,0000,0000,0000,,你那么的孤苦伶仃 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're completely and utterly alone.
+Dialogue: 0,0:39:06.76,0:39:08.84,*Default,NTP,0000,0000,0000,,岁月不饶人 你变得愤世嫉俗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're getting old and bitter.
+Dialogue: 0,0:39:10.34,0:39:12.35,*Default,NTP,0000,0000,0000,,你可怜我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You pity me?
+Dialogue: 0,0:39:17.89,0:39:19.81,*Default,NTP,0000,0000,0000,,这就纯属搞笑了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, that's actually kind of funny,
+Dialogue: 0,0:39:19.90,0:39:22.02,*Default,NTP,0000,0000,0000,,你不觉得吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}don't you think?
+Dialogue: 0,0:39:25.48,0:39:26.86,*Default,NTP,0000,0000,0000,,那个 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hey.
+Dialogue: 0,0:39:27.90,0:39:30.86,*Default,NTP,0000,0000,0000,,你想知道其它搞笑的事情吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You want to know something else that's funny?
+Dialogue: 0,0:39:34.79,0:39:36.91,*Default,NTP,0000,0000,0000,,弗兰基不接电话 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Frenchie's not answering.
+Dialogue: 0,0:39:37.00,0:39:38.25,*Default,NTP,0000,0000,0000,,山崎纪参加不了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kimiko's out of commission.
+Dialogue: 0,0:39:38.33,0:39:40.00,*Default,NTP,0000,0000,0000,,士兵男孩已经占得先机 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy's already got a head start.
+Dialogue: 0,0:39:40.08,0:39:41.83,*Default,NTP,0000,0000,0000,,我们需要后援 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We gonna need some backup.
+Dialogue: 0,0:39:44.09,0:39:46.00,*Default,NTP,0000,0000,0000,,这就是后援 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And here it is.
+Dialogue: 0,0:39:47.51,0:39:49.22,*Default,NTP,0000,0000,0000,,我以为你用完了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I thought you were out.
+Dialogue: 0,0:39:49.30,0:39:51.59,*Default,NTP,0000,0000,0000,,溜进杜安·里德那里偷了点\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Nipped into the Duane Reade, got some more, didn't I?
+Dialogue: 0,0:39:52.97,0:39:57.18,*Default,NTP,0000,0000,0000,,我知道你对这个垃圾的看法 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, I know how you feel about this shite,
+Dialogue: 0,0:39:57.27,0:39:59.56,*Default,NTP,0000,0000,0000,,但对面是士兵男孩 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but it's Soldier Boy.
+Dialogue: 0,0:39:59.64,0:40:01.19,*Default,NTP,0000,0000,0000,,你就不能\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So why don't you come down
+Dialogue: 0,0:40:01.27,0:40:03.69,*Default,NTP,0000,0000,0000,,屈尊一次吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}off your high horse just this once, eh?
+Dialogue: 0,0:40:09.69,0:40:11.70,*Default,NTP,0000,0000,0000,,- 我爸不会同意的 - 你那个 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- My dad wouldn't want it. - Your dad,
+Dialogue: 0,0:40:11.78,0:40:13.03,*Default,NTP,0000,0000,0000,,死于一场意外 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}who died of a dodgy ticker,
+Dialogue: 0,0:40:13.12,0:40:14.74,*Default,NTP,0000,0000,0000,,起诉沃特却一无所获的爸爸会不同意吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}suing Vought and never getting nowhere?
+Dialogue: 0,0:40:14.83,0:40:17.37,*Default,NTP,0000,0000,0000,,他是这样的 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah. Him.
+Dialogue: 0,0:40:17.45,0:40:18.83,*Default,NTP,0000,0000,0000,,他还说过 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, he also said,
+Dialogue: 0,0:40:18.91,0:40:21.12,*Default,NTP,0000,0000,0000,,如果你不明确底线 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}if you don't draw the line somewhere,
+Dialogue: 0,0:40:21.21,0:40:23.79,*Default,NTP,0000,0000,0000,,你怎么会知道你的立场 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}how the hell are you gonna know where you stand?
+Dialogue: 0,0:40:23.88,0:40:25.88,*Default,NTP,0000,0000,0000,,他们可没什么底线\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They ain't drawing no line.
+Dialogue: 0,0:40:25.96,0:40:27.84,*Default,NTP,0000,0000,0000,,所以我们必须有\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Which is why we got to.
+Dialogue: 0,0:40:29.09,0:40:31.26,*Default,NTP,0000,0000,0000,,我加入 给我一点 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm in. Give me some.
+Dialogue: 0,0:40:31.34,0:40:34.30,*Default,NTP,0000,0000,0000,,小子 没听到我刚才说的话吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Kid, didn't you just hear a goddamn word I said?
+Dialogue: 0,0:40:34.39,0:40:36.22,*Default,NTP,0000,0000,0000,,你们想要哪个 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, who do you guys want? Do you guys w-want
+Dialogue: 0,0:40:36.30,0:40:38.97,*Default,NTP,0000,0000,0000,,笨拙 软弱 胆小如鼠的休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}gawky, weak, freaking-the-fuck-out Hughie
+Dialogue: 0,0:40:39.06,0:40:40.56,*Default,NTP,0000,0000,0000,,还是强壮 自信 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}or do you want strong, confident,
+Dialogue: 0,0:40:40.64,0:40:41.85,*Default,NTP,0000,0000,0000,,运筹帷幄的休伊 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}handling-his-shit Hughie?
+Dialogue: 0,0:40:43.69,0:40:45.11,*Default,NTP,0000,0000,0000,,有它的话 我就有用武之地了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}With it, I can actually help.
+Dialogue: 0,0:40:45.19,0:40:47.69,*Default,NTP,0000,0000,0000,,没有它的话 我 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Without it, I'm...
+Dialogue: 0,0:40:47.77,0:40:49.32,*Default,NTP,0000,0000,0000,,我就死翘翘了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I-I'm probably dead.
+Dialogue: 0,0:40:58.37,0:41:00.70,*Default,NTP,0000,0000,0000,,孩子长大了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Lad can think for himself.
+Dialogue: 0,0:41:12.55,0:41:15.59,*Default,NTP,0000,0000,0000,,- 抱歉 巴雷特女士 - 你到底 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- I am so sorry, Ms. Barrett. - What the fuck
+Dialogue: 0,0:41:15.68,0:41:17.89,*Default,NTP,0000,0000,0000,,- 对梅芙做了什么 - 没事 格雷戈里 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- did he do to Maeve? - That's all right, Gregory.
+Dialogue: 0,0:41:17.97,0:41:21.06,*Default,NTP,0000,0000,0000,,梅芙在马里布的全球健康疗养院 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Maeve is at the Global Wellness Retreat in Malibu.
+Dialogue: 0,0:41:21.14,0:41:23.52,*Default,NTP,0000,0000,0000,,寻求帮助 真的不容易 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Asking for help, it's just not easy.
+Dialogue: 0,0:41:23.60,0:41:27.61,*Default,NTP,0000,0000,0000,,她是真正勇敢的梅芙 不是吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}And she is just truly Brave Maeve, isn't she?
+Dialogue: 0,0:41:27.69,0:41:29.65,*Default,NTP,0000,0000,0000,,嗯 我现在就想和她谈话 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Mm-hmm. I want to speak to her right now.
+Dialogue: 0,0:41:29.73,0:41:31.74,*Default,NTP,0000,0000,0000,,不幸的是 疗养院不让病人使用\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Unfortunately, the facility requires a digital detox
+Dialogue: 0,0:41:31.82,0:41:34.40,*Default,NTP,0000,0000,0000,,数字通讯设备 但你可以给她留言 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}for their patients, but I'm sure you can leave her a message.
+Dialogue: 0,0:41:34.49,0:41:36.53,*Default,NTP,0000,0000,0000,,天呐 艾希莉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Goddamn it, Ashley!
+Dialogue: 0,0:41:36.62,0:41:39.08,*Default,NTP,0000,0000,0000,,- 我们不能让他这么做 - 你指谁 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- We can't let him do this. - Who are you referring to?
+Dialogue: 0,0:41:41.58,0:41:43.96,*Default,NTP,0000,0000,0000,,他已经失控了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He is out of control.
+Dialogue: 0,0:41:44.04,0:41:46.08,*Default,NTP,0000,0000,0000,,昨天是超音速 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yesterday, it was Supersonic.
+Dialogue: 0,0:41:46.17,0:41:47.42,*Default,NTP,0000,0000,0000,,今天是梅芙\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Today, it's Maeve.
+Dialogue: 0,0:41:47.50,0:41:51.50,*Default,NTP,0000,0000,0000,,明天也许轮到你或我了 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Tomorrow, maybe it's me or you.
+Dialogue: 0,0:41:51.59,0:41:55.22,*Default,NTP,0000,0000,0000,,我知道你很害怕 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, I know you're scared.
+Dialogue: 0,0:41:55.30,0:42:00.51,*Default,NTP,0000,0000,0000,,我也是 但为了工作搭上性命 不值得 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I am, too, but this CEO job, it can't be worth your life.
+Dialogue: 0,0:42:08.02,0:42:09.36,*Default,NTP,0000,0000,0000,,我没有超能力\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't have powers.
+Dialogue: 0,0:42:09.44,0:42:11.61,*Default,NTP,0000,0000,0000,,你不需要有超能力 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't need powers.
+Dialogue: 0,0:42:11.69,0:42:14.15,*Default,NTP,0000,0000,0000,,你只需当个人 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You just need to be human.
+Dialogue: 0,0:42:15.65,0:42:18.66,*Default,NTP,0000,0000,0000,,求你了 梅芙在哪 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Please. Where is Maeve?
+Dialogue: 0,0:42:18.74,0:42:20.58,*Default,NTP,0000,0000,0000,,她还活着吗 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is she even alive?
+Dialogue: 0,0:42:22.04,0:42:25.46,*Default,NTP,0000,0000,0000,,星光 嘘 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, Starlight, sh...
+Dialogue: 0,0:42:32.13,0:42:33.88,*Default,NTP,0000,0000,0000,,我是首席执行官 \N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I am CEO.
+Dialogue: 0,0:42:33.96,0:42:35.92,*Default,NTP,0000,0000,0000,,下次来 记得提前预约\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Next time, make a fucking appointment.
+Dialogue: 0,0:42:44.81,0:42:47.10,*Default,NTP,0000,0000,0000,,他胸部和腰部的脊柱\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}There's been severe damage
+Dialogue: 0,0:42:47.19,0:42:49.40,*Default,NTP,0000,0000,0000,,都严重受损\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}to the thoracic and lumbar regions of the spine.
+Dialogue: 0,0:42:49.48,0:42:53.36,*Default,NTP,0000,0000,0000,,T6 T7 T8 T9椎体都有撕裂\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Lacerations to vertebrae T6, T7, T8 and T9.
+Dialogue: 0,0:42:53.44,0:42:55.19,*Default,NTP,0000,0000,0000,,内森伤得太重了 以后都无法走路了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}The damage is so severe that Nathan will never walk again...
+Dialogue: 0,0:42:55.28,0:42:57.24,*Default,NTP,0000,0000,0000,,对方想要掏枪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... individual reached for his gun
+Dialogue: 0,0:42:57.32,0:42:59.74,*Default,NTP,0000,0000,0000,,我必须当机立断 拯救无辜的生命\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I had to act quickly to save innocent lives.
+Dialogue: 0,0:42:59.82,0:43:02.78,*Default,NTP,0000,0000,0000,,想想我对这个社区的贡献\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You know, to think that my donation to this community
+Dialogue: 0,0:43:02.87,0:43:06.29,*Default,NTP,0000,0000,0000,,竟然还要被一些极左组织的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}would be met with such intolerance,
+Dialogue: 0,0:43:06.37,0:43:08.25,*Default,NTP,0000,0000,0000,,暴徒们如此苛待\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you know, by a few Antifa thugs and bad apples,
+Dialogue: 0,0:43:08.33,0:43:09.87,*Default,NTP,0000,0000,0000,,我真是伤透了心\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}just breaks my heart.
+Dialogue: 0,0:43:09.96,0:43:12.04,*Default,NTP,0000,0000,0000,,心寒啊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Just breaks it.
+Dialogue: 0,0:43:26.43,0:43:28.56,*Default,NTP,0000,0000,0000,,妮娜
+Dialogue: 0,0:43:58.34,0:44:01.63,*Default,NTP,0000,0000,0000,,我有 声音了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I got... rhythm.
+Dialogue: 0,0:44:08.31,0:44:10.44,*Default,NTP,0000,0000,0000,,医生 快来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Doctor, come!
+Dialogue: 0,0:44:10.52,0:44:12.02,*Default,NTP,0000,0000,0000,,她能说话了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}She speaks!
+Dialogue: 0,0:45:50.95,0:45:53.62,*Default,NTP,0000,0000,0000,,我想我得来杯咖啡 你要吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, I think I need café. You want café?
+Dialogue: 0,0:45:55.67,0:45:57.67,*Default,NTP,0000,0000,0000,,等等 我马上回来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, yeah, I'll be right back.
+Dialogue: 0,0:46:38.92,0:46:40.46,*Default,NTP,0000,0000,0000,,我已经得到了承诺\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I've already got commitments
+Dialogue: 0,0:46:40.54,0:46:43.05,*Default,NTP,0000,0000,0000,,《小猴当家》里的红毛猩猩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}from the orangutan from Dunston Checks In
+Dialogue: 0,0:46:43.13,0:46:45.09,*Default,NTP,0000,0000,0000,,《极度恐慌》里的僧帽猴 都会参演\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and the capuchin from Outbreak.
+Dialogue: 0,0:46:45.17,0:46:47.09,*Default,NTP,0000,0000,0000,,严格说来 那些都不是黑猩猩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Technically, those aren't chimps.
+Dialogue: 0,0:46:47.18,0:46:48.68,*Default,NTP,0000,0000,0000,,确实 但它们很有名\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}No, but they're famous.
+Dialogue: 0,0:46:48.76,0:46:50.35,*Default,NTP,0000,0000,0000,,会吸引很多人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They're gonna be real draws.
+Dialogue: 0,0:46:50.43,0:46:51.76,*Default,NTP,0000,0000,0000,,我曾和《极度恐慌》里的猴子合作过\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I worked with that Outbreak monkey once.
+Dialogue: 0,0:46:51.85,0:46:53.26,*Default,NTP,0000,0000,0000,,- 它很棒 - 我跟你说\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- He's very good. - I'm telling you,
+Dialogue: 0,0:46:53.35,0:46:55.48,*Default,NTP,0000,0000,0000,,世界上所有地方中\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}there is no other place in the world
+Dialogue: 0,0:46:55.56,0:46:58.06,*Default,NTP,0000,0000,0000,,猴子会最喜欢待在这里\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a monkey will want to be than right here.
+Dialogue: 0,0:46:58.14,0:46:59.35,*Default,NTP,0000,0000,0000,,我很喜欢这样的闲聊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Uh, I love our little chats, you know,
+Dialogue: 0,0:46:59.44,0:47:00.90,*Default,NTP,0000,0000,0000,,但是 已经开始计时了 所以\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but, you know, meter's running, so...
+Dialogue: 0,0:47:00.98,0:47:03.86,*Default,NTP,0000,0000,0000,,别着急 射很多先生779\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hold your horses, Sir-Cums-A-Lot779.
+Dialogue: 0,0:47:03.94,0:47:05.69,*Default,NTP,0000,0000,0000,,遵命 伯爵夫人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yes, Countess.
+Dialogue: 0,0:47:07.03,0:47:09.61,*Default,NTP,0000,0000,0000,,- 东西你收到了吗 - 当然\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Did you get them? - Sure did.
+Dialogue: 0,0:47:09.70,0:47:11.24,*Default,NTP,0000,0000,0000,,哇\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Wow.
+Dialogue: 0,0:47:11.32,0:47:13.12,*Default,NTP,0000,0000,0000,,他们比我想象的还要大\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Those are much bigger than I thought they would be.
+Dialogue: 0,0:47:15.33,0:47:19.21,*Default,NTP,0000,0000,0000,,先让这些小家伙们热个身\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let's warm these bad boys up,
+Dialogue: 0,0:47:19.29,0:47:22.04,*Default,NTP,0000,0000,0000,,然后我会脱掉这身令人发痒的衣服\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I'll get out of this itchy suit.
+Dialogue: 0,0:47:23.80,0:47:25.46,*Default,NTP,0000,0000,0000,,准备好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Get ready.
+Dialogue: 0,0:47:36.35,0:47:38.06,*Default,NTP,0000,0000,0000,,真他妈性感\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fucking sexy.
+Dialogue: 0,0:47:39.52,0:47:41.48,*Default,NTP,0000,0000,0000,,- 你喜欢吗 - 喜欢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You like that? - Yeah.
+Dialogue: 0,0:47:42.44,0:47:43.48,*Default,NTP,0000,0000,0000,,想要吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You want it?
+Dialogue: 0,0:47:44.94,0:47:48.11,*Default,NTP,0000,0000,0000,,我准备好了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm ready.
+Dialogue: 0,0:47:49.79,0:47:50.99,*Default,NTP,0000,0000,0000,,把你的胶衣脱掉 把那些东西塞进去吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Get that spandex down and start popping those things in there.
+Dialogue: 0,0:47:54.99,0:47:56.12,*Default,NTP,0000,0000,0000,,好\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Yeah.
+Dialogue: 0,0:47:56.20,0:47:57.75,*Default,NTP,0000,0000,0000,,什么鬼\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the fuck?!
+Dialogue: 0,0:47:57.83,0:47:59.29,*Default,NTP,0000,0000,0000,,哦 不\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, no!
+Dialogue: 0,0:47:59.37,0:48:01.00,*Default,NTP,0000,0000,0000,,什么情况\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the hell?!
+Dialogue: 0,0:48:01.08,0:48:03.59,*Default,NTP,0000,0000,0000,,你去哪了 我差点就要\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Where'd you go? I'm almost...
+Dialogue: 0,0:48:10.84,0:48:12.05,*Default,NTP,0000,0000,0000,,在吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hello?
+Dialogue: 0,0:48:21.73,0:48:24.52,*Default,NTP,0000,0000,0000,,跟你今晚幻想的轰轰烈烈不一样 是吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Probably not the dom-sub rumble you fancied tonight, yeah?
+Dialogue: 0,0:48:24.61,0:48:26.77,*Default,NTP,0000,0000,0000,,这人他妈什么毛病\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the fuck's up with him?
+Dialogue: 0,0:48:26.86,0:48:28.82,*Default,NTP,0000,0000,0000,,我们不是来伤害你的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We ain't here to hurt you.
+Dialogue: 0,0:48:28.90,0:48:30.45,*Default,NTP,0000,0000,0000,,但我要告诉你一件事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I am gonna tell you something,
+Dialogue: 0,0:48:30.53,0:48:33.49,*Default,NTP,0000,0000,0000,,我不想你吓得尿裤子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and I don't want you to lose your shit.
+Dialogue: 0,0:48:33.57,0:48:35.12,*Default,NTP,0000,0000,0000,,什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What?
+Dialogue: 0,0:48:35.20,0:48:37.37,*Default,NTP,0000,0000,0000,,你的情人正在来这里的路上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Your lover boy's on his way here.
+Dialogue: 0,0:48:40.12,0:48:42.12,*Default,NTP,0000,0000,0000,,士兵男孩\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy.
+Dialogue: 0,0:48:42.21,0:48:43.50,*Default,NTP,0000,0000,0000,,他还活着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's alive.
+Dialogue: 0,0:48:50.84,0:48:52.68,*Default,NTP,0000,0000,0000,,他怎么从俄罗斯逃出来的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How'd he escape from Russia?
+Dialogue: 0,0:48:54.22,0:48:56.93,*Default,NTP,0000,0000,0000,,有趣了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, that's interesting.
+Dialogue: 0,0:48:57.01,0:48:59.18,*Default,NTP,0000,0000,0000,,你知道他一直在俄罗斯人手上\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You knew the Ivans had him all this time?
+Dialogue: 0,0:48:59.27,0:49:01.77,*Default,NTP,0000,0000,0000,,我必须离开这里\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I got to get out of here. Okay.
+Dialogue: 0,0:49:01.85,0:49:03.39,*Default,NTP,0000,0000,0000,,快给我解开\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Untie me right now.
+Dialogue: 0,0:49:03.48,0:49:05.23,*Default,NTP,0000,0000,0000,,他会杀了我的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's gonna kill me.
+Dialogue: 0,0:49:05.31,0:49:06.90,*Default,NTP,0000,0000,0000,,他会把我们都杀了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's gonna kill all of us.
+Dialogue: 0,0:49:06.98,0:49:08.27,*Default,NTP,0000,0000,0000,,为什么 你干了什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why? What'd you do?
+Dialogue: 0,0:49:08.36,0:49:09.90,*Default,NTP,0000,0000,0000,,去你妈的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Fuck you, all right?
+Dialogue: 0,0:49:09.98,0:49:12.07,*Default,NTP,0000,0000,0000,,快放我走 不然我们都得死\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let me go or we're all dead.
+Dialogue: 0,0:49:12.15,0:49:13.82,*Default,NTP,0000,0000,0000,,你们吵架了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Trouble in paradise, eh?
+Dialogue: 0,0:49:13.91,0:49:15.66,*Default,NTP,0000,0000,0000,,别担心 亲爱的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Don't you worry, darling.
+Dialogue: 0,0:49:15.74,0:49:20.33,*Default,NTP,0000,0000,0000,,我们有条大鱼要钓 你就是饵\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We got to big fish to hook, and you're the worm.
+Dialogue: 0,0:49:20.41,0:49:24.42,*Default,NTP,0000,0000,0000,,你在开玩笑吗 开什么玩笑\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is this a joke? Is this a joke?
+Dialogue: 0,0:49:25.46,0:49:27.75,*Default,NTP,0000,0000,0000,,别这样 放我走吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on. Let me go.
+Dialogue: 0,0:49:27.84,0:49:30.42,*Default,NTP,0000,0000,0000,,拜托 放我走吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on, guys. Let me go.
+Dialogue: 0,0:49:30.51,0:49:32.92,*Default,NTP,0000,0000,0000,,求求了 别这样\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come on, guys.
+Dialogue: 0,0:49:34.38,0:49:36.55,*Default,NTP,0000,0000,0000,,谢谢 给\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Thanks. Here.
+Dialogue: 0,0:49:36.64,0:49:38.22,*Default,NTP,0000,0000,0000,,确定氟烷能起作用吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We're sure halothane will work?
+Dialogue: 0,0:49:38.30,0:49:39.81,*Default,NTP,0000,0000,0000,,从俄罗斯人的视频里看来的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Looked that way in the Reds' video.
+Dialogue: 0,0:49:39.89,0:49:41.27,*Default,NTP,0000,0000,0000,,我们把他放倒 让他失去意识\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We knock him out, we keep him out,
+Dialogue: 0,0:49:41.35,0:49:42.56,*Default,NTP,0000,0000,0000,,然后再考虑怎么处理他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}then we figure out what to do with him.
+Dialogue: 0,0:49:42.64,0:49:44.10,*Default,NTP,0000,0000,0000,,这他妈怎么回事\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What the hell's going on?
+Dialogue: 0,0:49:48.27,0:49:49.94,*Default,NTP,0000,0000,0000,,安妮 你来干什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Annie, what are you doing here?
+Dialogue: 0,0:49:50.02,0:49:51.19,*Default,NTP,0000,0000,0000,,马文给我打了电话\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}M.M. Called me.
+Dialogue: 0,0:49:51.28,0:49:53.90,*Default,NTP,0000,0000,0000,,- 是吗 - 我就是告诉她\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Did he? - Just told her
+Dialogue: 0,0:49:53.99,0:49:55.66,*Default,NTP,0000,0000,0000,,我们可能需要一些后援\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}we might need some backup.
+Dialogue: 0,0:49:57.12,0:49:58.49,*Default,NTP,0000,0000,0000,,其它没说\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's all.
+Dialogue: 0,0:49:59.87,0:50:02.20,*Default,NTP,0000,0000,0000,,你不该来这里 好吗 太危险了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Look, y-you shouldn't be here, all right? It's dangerous.
+Dialogue: 0,0:50:02.29,0:50:03.71,*Default,NTP,0000,0000,0000,,对我来说太危险吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's too dangerous for me?
+Dialogue: 0,0:50:03.79,0:50:05.79,*Default,NTP,0000,0000,0000,,- 那你呢 - 你们两个\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- What about you? - Oi, you lot,
+Dialogue: 0,0:50:05.87,0:50:08.33,*Default,NTP,0000,0000,0000,,要吵去别的地方吵\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}take your little tiff somewhere else.
+Dialogue: 0,0:50:08.42,0:50:09.92,*Default,NTP,0000,0000,0000,,我们还有正事要干\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We're on the job here.
+Dialogue: 0,0:50:10.00,0:50:12.67,*Default,NTP,0000,0000,0000,,行吧 来这边吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay, uh, over here. Huh?
+Dialogue: 0,0:50:15.34,0:50:18.55,*Default,NTP,0000,0000,0000,,我就是不理解你为什么不打电话告诉我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I just don't understand why you wouldn't call me for this.
+Dialogue: 0,0:50:20.93,0:50:24.23,*Default,NTP,0000,0000,0000,,好了好了 你知道了可能会生气\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Okay, okay. Look, you... you're probably gonna be mad...
+Dialogue: 0,0:50:25.89,0:50:28.94,*Default,NTP,0000,0000,0000,,但既然我答应过不再向你保密 所以\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... but I promised no more secrets, right? So...
+Dialogue: 0,0:50:30.73,0:50:33.53,*Default,NTP,0000,0000,0000,,天哪\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Oh, my God.
+Dialogue: 0,0:50:33.61,0:50:34.74,*Default,NTP,0000,0000,0000,,休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie.
+Dialogue: 0,0:50:34.82,0:50:36.49,*Default,NTP,0000,0000,0000,,等等\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hold... One second.
+Dialogue: 0,0:50:36.57,0:50:38.66,*Default,NTP,0000,0000,0000,,- 你找到更多的V了 - 只有临时的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You found more V? - It's temporary V.
+Dialogue: 0,0:50:38.74,0:50:41.16,*Default,NTP,0000,0000,0000,,都是临时的 好吗 我又不是傻子\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It's temporary, okay? I'm not an idiot.
+Dialogue: 0,0:50:41.24,0:50:43.49,*Default,NTP,0000,0000,0000,,我知道很可疑 我看过《猜火车》\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I-I know it's sketchy. I've seen Trainspotting.
+Dialogue: 0,0:50:43.58,0:50:45.33,*Default,NTP,0000,0000,0000,,但对方是士兵男孩啊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}But I-it's Soldier Boy.
+Dialogue: 0,0:50:45.41,0:50:47.54,*Default,NTP,0000,0000,0000,,我还能做什么呢\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I mean, what else was I supposed to do?
+Dialogue: 0,0:50:47.62,0:50:50.00,*Default,NTP,0000,0000,0000,,- 你还能给我打电话 - 要是你为了救我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- You were supposed to call me. - Yeah, and what if you got hurt
+Dialogue: 0,0:50:50.08,0:50:51.63,*Default,NTP,0000,0000,0000,,自己受伤了怎么办 安妮\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}trying to save me, Annie?
+Dialogue: 0,0:50:51.71,0:50:54.59,*Default,NTP,0000,0000,0000,,我永远都不会原谅自己 但现在你不用救我了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I would never forgive myself. But now you don't have to, okay?
+Dialogue: 0,0:50:54.67,0:50:58.22,*Default,NTP,0000,0000,0000,,我能保护好自己 甚至我终于可以救你一次了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can handle myself. I can finally save you for once.
+Dialogue: 0,0:51:00.22,0:51:03.97,*Default,NTP,0000,0000,0000,,我不需要你来救我 休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I don't need you to save me, Hughie.
+Dialogue: 0,0:51:06.14,0:51:07.98,*Default,NTP,0000,0000,0000,,我需要你这个人\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I need you.
+Dialogue: 0,0:51:45.60,0:51:46.72,*Default,NTP,0000,0000,0000,,你干了什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What'd you do?
+Dialogue: 0,0:51:46.81,0:51:50.48,*Default,NTP,0000,0000,0000,,我知道你不会原谅我的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I know you're never gonna forgive me,
+Dialogue: 0,0:51:50.56,0:51:52.48,*Default,NTP,0000,0000,0000,,但我别无选择\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}but you left me no choice.
+Dialogue: 0,0:51:52.56,0:51:54.36,*Default,NTP,0000,0000,0000,,为什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Why?
+Dialogue: 0,0:51:55.44,0:51:57.69,*Default,NTP,0000,0000,0000,,马文 我们的事想要成功\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I can't draw no line, M.
+Dialogue: 0,0:51:59.07,0:52:01.20,*Default,NTP,0000,0000,0000,,必须不择一切手段\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Not with what I got to do.
+Dialogue: 0,0:52:02.82,0:52:04.45,*Default,NTP,0000,0000,0000,,抱歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm sorry.
+Dialogue: 0,0:52:05.66,0:52:07.66,*Default,NTP,0000,0000,0000,,你明天早上就没事了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You'll be all right in the morning.
+Dialogue: 0,0:52:30.77,0:52:32.85,*Default,NTP,0000,0000,0000,,你是实验室里的那个混蛋\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You're that asshole from the lab.
+Dialogue: 0,0:52:33.90,0:52:35.23,*Default,NTP,0000,0000,0000,,没错\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That's right.
+Dialogue: 0,0:52:35.31,0:52:37.11,*Default,NTP,0000,0000,0000,,我就是那个放你出来的混蛋\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm the arsehole that let you out.
+Dialogue: 0,0:52:37.19,0:52:39.57,*Default,NTP,0000,0000,0000,,那里就像俄罗斯移动厕所\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Russian Porta-Loos, eh?
+Dialogue: 0,0:52:39.65,0:52:42.70,*Default,NTP,0000,0000,0000,,你想杀了伯爵夫人 是吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You want the Countess's head on a spike, don't you?
+Dialogue: 0,0:52:42.78,0:52:45.87,*Default,NTP,0000,0000,0000,,她就在里面 任你处置\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Well, she's in there, yours for the taking.
+Dialogue: 0,0:52:46.91,0:52:49.70,*Default,NTP,0000,0000,0000,,你可以看作是我的诚意\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Consider it a gesture of good faith.
+Dialogue: 0,0:52:49.79,0:52:51.66,*Default,NTP,0000,0000,0000,,什么诚意\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Good faith for what?
+Dialogue: 0,0:52:57.04,0:53:00.21,*Default,NTP,0000,0000,0000,,我在想 我们两个\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I was thinking that you and I
+Dialogue: 0,0:53:00.30,0:53:02.22,*Default,NTP,0000,0000,0000,,可以达成一个小小的约定\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}could come to a little arrangement.
+Dialogue: 0,0:53:02.30,0:53:05.51,*Default,NTP,0000,0000,0000,,就是你们说的\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What you lot call...
+Dialogue: 0,0:53:05.60,0:53:07.01,*Default,NTP,0000,0000,0000,,组队\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}a team up.
+Dialogue: 0,0:53:12.77,0:53:14.19,*Default,NTP,0000,0000,0000,,本\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Ben?
+Dialogue: 0,0:53:15.23,0:53:16.65,*Default,NTP,0000,0000,0000,,真的是你吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Is that really you?
+Dialogue: 0,0:53:22.32,0:53:23.91,*Default,NTP,0000,0000,0000,,你看起很年轻\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You look so young.
+Dialogue: 0,0:53:23.99,0:53:25.57,*Default,NTP,0000,0000,0000,,你老了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You don't.
+Dialogue: 0,0:53:27.37,0:53:31.00,*Default,NTP,0000,0000,0000,,我真的很抱歉\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm so, so sorry.
+Dialogue: 0,0:53:31.08,0:53:33.08,*Default,NTP,0000,0000,0000,,那不是我的主意\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}It wasn't my idea.
+Dialogue: 0,0:53:33.16,0:53:34.92,*Default,NTP,0000,0000,0000,,天哪 你得相信我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}God, you got to believe me. I-I...
+Dialogue: 0,0:53:35.00,0:53:37.38,*Default,NTP,0000,0000,0000,,俄罗斯人给了你多少钱\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}How much did the Russians pay you?
+Dialogue: 0,0:53:39.38,0:53:41.09,*Default,NTP,0000,0000,0000,,嗯\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hmm?
+Dialogue: 0,0:53:42.80,0:53:44.55,*Default,NTP,0000,0000,0000,,他们没给\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They didn't.
+Dialogue: 0,0:53:44.63,0:53:46.26,*Default,NTP,0000,0000,0000,,什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What?
+Dialogue: 0,0:53:49.64,0:53:51.64,*Default,NTP,0000,0000,0000,,他们什么都没给你吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}They didn't pay you anything?
+Dialogue: 0,0:53:55.81,0:53:57.65,*Default,NTP,0000,0000,0000,,我爱过你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I loved you.
+Dialogue: 0,0:53:59.23,0:54:00.65,*Default,NTP,0000,0000,0000,,这么多年来\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}All those years...
+Dialogue: 0,0:54:02.07,0:54:04.99,*Default,NTP,0000,0000,0000,,他们用火烧我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}... that they burned me
+Dialogue: 0,0:54:05.07,0:54:08.53,*Default,NTP,0000,0000,0000,,给我注射各种毒药\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}and that they pumped me full of poison,
+Dialogue: 0,0:54:08.62,0:54:12.62,*Default,NTP,0000,0000,0000,,我还一直存有希望\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I held onto the hope that you would come.
+Dialogue: 0,0:54:14.46,0:54:16.67,*Default,NTP,0000,0000,0000,,希望你会来救我\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}That you would save me.
+Dialogue: 0,0:54:19.96,0:54:21.96,*Default,NTP,0000,0000,0000,,因为我还爱着你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Because I still loved you.
+Dialogue: 0,0:54:24.80,0:54:26.80,*Default,NTP,0000,0000,0000,,我不爱你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I didn't love you.
+Dialogue: 0,0:54:28.01,0:54:30.05,*Default,NTP,0000,0000,0000,,我恨你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I hated you.
+Dialogue: 0,0:54:31.47,0:54:33.22,*Default,NTP,0000,0000,0000,,我们都恨你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We all did.
+Dialogue: 0,0:54:46.95,0:54:48.07,*Default,NTP,0000,0000,0000,,安妮 拜托 快走吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Annie, please, just go.
+Dialogue: 0,0:54:48.16,0:54:49.28,*Default,NTP,0000,0000,0000,,让我们来处理 你可以冲我大喊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Let us handle this. You can yell at me...
+Dialogue: 0,0:55:11.72,0:55:14.06,*Default,NTP,0000,0000,0000,,发生了什么 他受伤了吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What happened? Is he hurt?
+Dialogue: 0,0:55:14.14,0:55:16.31,*Default,NTP,0000,0000,0000,,盯好他\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Keep an eye on him.
+Dialogue: 0,0:55:16.39,0:55:18.56,*Default,NTP,0000,0000,0000,,他服用了大概四五毫克的安眠药\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's had four or five mgs of Rohypnol.
+Dialogue: 0,0:55:18.64,0:55:20.94,*Default,NTP,0000,0000,0000,,你他妈麻醉了他吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You fucking roofied him?!
+Dialogue: 0,0:55:43.96,0:55:45.17,*Default,NTP,0000,0000,0000,,你在干什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}What are you doing?
+Dialogue: 0,0:55:49.13,0:55:50.97,*Default,NTP,0000,0000,0000,,安妮 听着\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Annie, listen.
+Dialogue: 0,0:55:51.05,0:55:52.85,*Default,NTP,0000,0000,0000,,我们想要一件武器\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}We wanted a weapon.
+Dialogue: 0,0:55:52.93,0:55:54.64,*Default,NTP,0000,0000,0000,,士兵男孩就是我们的武器\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Soldier Boy's our weapon.
+Dialogue: 0,0:55:54.72,0:55:57.89,*Default,NTP,0000,0000,0000,,他可以杀死祖国人 也许还有纽曼\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}He's how we kill Homelander. And Neuman maybe.
+Dialogue: 0,0:55:57.98,0:55:59.77,*Default,NTP,0000,0000,0000,,如果有人足够强大可以做到 就是他了\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}If anyone's strong enough, he is.
+Dialogue: 0,0:55:59.85,0:56:02.27,*Default,NTP,0000,0000,0000,,你早知道布彻会这么做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Y-You knew Butcher was gonna do this?
+Dialogue: 0,0:56:02.35,0:56:05.94,*Default,NTP,0000,0000,0000,,马文肯定不会同意的 而你\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}M.M. Never would've gone for it, and you...
+Dialogue: 0,0:56:06.03,0:56:08.19,*Default,NTP,0000,0000,0000,,- 听着 你不该来这里的 - 哦\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}- Look, you weren't supposed to be here. - Oh.
+Dialogue: 0,0:56:08.28,0:56:10.95,*Default,NTP,0000,0000,0000,,还说什么\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}So...
+Dialogue: 0,0:56:11.03,0:56:12.74,*Default,NTP,0000,0000,0000,,不再有秘密是吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}no more secrets, huh?
+Dialogue: 0,0:56:14.87,0:56:16.95,*Default,NTP,0000,0000,0000,,休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie...
+Dialogue: 0,0:56:17.04,0:56:19.16,*Default,NTP,0000,0000,0000,,你这是跟一个杀人凶手合作\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}you're teaming up with a murderer.
+Dialogue: 0,0:56:19.25,0:56:22.29,*Default,NTP,0000,0000,0000,,这是我能把你从祖国人手里救下来的唯一方法\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}This is the only way that I can save you from Homelander.
+Dialogue: 0,0:56:24.92,0:56:26.59,*Default,NTP,0000,0000,0000,,我是为你才这么做\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}I'm doing this for you.
+Dialogue: 0,0:56:26.67,0:56:29.42,*Default,NTP,0000,0000,0000,,不惜一切代价 记得吗\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Whatever it takes, remember?
+Dialogue: 0,0:56:31.13,0:56:32.93,*Default,NTP,0000,0000,0000,,跟我们一起吧\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Come with us.
+Dialogue: 0,0:56:34.93,0:56:37.56,*Default,NTP,0000,0000,0000,,你和我 对抗全世界\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}You and me against the world.
+Dialogue: 0,0:56:37.64,0:56:38.93,*Default,NTP,0000,0000,0000,,休伊\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Hughie.
+Dialogue: 0,0:56:50.07,0:56:51.86,*Default,NTP,0000,0000,0000,,求你了 别去\N{\fn方正综艺简体}{\fs17}{\b0}{\c&HFFFFFF&}{\3c&H2F2F2F&}{\4c&H000000&}Please don't go.
+
